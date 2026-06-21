@@ -1,0 +1,204 @@
+{
+  "id": "seq-1771353652945",
+  "title": "La receta",
+  "description": "Comprensión y producción de textos instructivos mediante pasos e indicaciones.",
+  "order": 4,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771355581052",
+      "sequence_id": "seq-1771353652945",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Socialización de recetas)",
+      "intencion_pedagogica": "Socializar las recetas investigadas en casa, formular hipótesis sobre ingredientes y preparación, y construir colaborativamente la noción del texto \"receta\".\n\n",
+      "estrategia": "Asignación previa de tarea: Los estudiantes investigan una receta en casa.\n\nLectura en voz alta: Los estudiantes leen sus recetas.\n\nFormulación de hipótesis: Predicción de ingredientes y preparación a partir del nombre del plato.\n\nToma de apuntes: Los estudiantes toman notas de los platos que les interesan.\n\nPreguntas de comprensión oral: Para analizar las recetas compartidas.",
+      "aprendizaje_significativo": "Se parte de las comidas favoritas de los estudiantes y de la colaboración de sus familias para investigar recetas, conectando así el contenido académico con su cultura culinaria familiar y sus preferencias personales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite leer su receta escrita en lugar de explicarla de memoria.\n\nPara estudiantes que no completaron la tarea: Se les invita a escuchar y tomar notas, y pueden compartir oralmente una receta que conozcan aunque no la hayan traído escrita.\n\nPara estudiantes kinestésicos: Se les anima a representar con gestos algún paso de la preparación.\n\nPara estudiantes con discapacidad auditiva: Se les proporcionan las preguntas por escrito.",
+      "actividades_cuaderno": "Anotar el nombre de dos recetas que les hayan llamado la atención de las compartidas por sus compañeros, con sus ingredientes principales.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con la consigna",
+          "descripcion": "1. El docente recuerda la consigna copiada en la pizarra la clase anterior (pág. 36): \"Describe oralmente la forma de preparar una de tus comidas favoritas. Anota el nombre de tu plato favorito, alista los ingredientes que se necesitan para elaborarlo y explica el modo cómo se prepara. Puedes pedir ayuda a tus padres, hermanos, abuelos o vecinos.\"",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 36)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes\n• Cuadernos para apuntes",
+          "descripcion": "1. El docente da turno a los estudiantes para que lean su tarea.\n2. Pide que primero solo lean el nombre del plato. A partir de él, pregunta a los demás: \"¿Saben qué ingredientes contendrá? ¿Cómo creen que se prepara?\" (formulación de hipótesis).\n3. Luego, el estudiante continúa leyendo mientras los otros confirman o rechazan sus hipótesis.\n4. Los estudiantes toman notas de los platos que les gustan.\n5. El docente maneja el tiempo según la cantidad de alumnos.",
+          "actividad_numero": "Comprensión oral (Párrafo 2, pág. 36)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra",
+          "descripcion": "1. El docente formula preguntas para algunas recetas socializadas:\n- \"¿Cuál es el nombre del plato que nos leyó ___?\" (1)\n- \"¿Recuerdan cuáles ingredientes contiene ese plato?\" (2)\n- \"¿Alguien recuerda cómo se prepara?\" (3)\n- \"¿Pueden poner otro nombre al plato, relacionado con lo que contiene?\" (4)\n- \"¿La receta de ___ tiene algunos ingredientes en común con la de ___?\" (5)\n- \"De todos los platos escuchados, ¿cuál consideran es el más o menos saludable? ¿Por qué?\" (6)\n- \"¿Saben qué nombre reciben estos textos que han leído sus compañeros?\" (7)\n- \"¿Cuál es la utilidad que tiene para ustedes este texto?\" (8)\n2. Las respuestas sirven para construir la noción del texto \"receta\".",
+          "actividad_numero": "Comprensión oral Preguntas 1-8 (pág. 36)"
+        }
+      ]
+    },
+    {
+      "id": "1771355644428",
+      "sequence_id": "seq-1771353652945",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Producción Oral (Investigación y exposición)",
+      "intencion_pedagogica": "Exponer oralmente la receta de un plato típico dominicano que no han probado pero les gustaría preparar, siguiendo una consigna estructurada y aplicando los elementos del género.\n\n",
+      "estrategia": "Investigación previa: Los estudiantes investigan platos típicos dominicanos.\n\nTrabajo en grupos cooperativos: Para compartir ideas y practicar.\n\nUso de consigna estructurada: Pasos guiados para la exposición oral.\n\nExposición oral: Presentación frente al gran grupo.",
+      "aprendizaje_significativo": "Los estudiantes investigan sobre platos típicos dominicanos que no han probado, conectando con su herencia cultural y planificando en familia la preparación de esos platos, lo que vincula la escuela con el hogar.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite leer sus notas durante la exposición.\n\nPara estudiantes tímidos: Se les da la opción de exponer primero en su grupo pequeño y luego, si se sienten preparados, al gran grupo.\n\nPara estudiantes kinestésicos: Se les anima a incluir gestos que representen las acciones de cocina.\n\nPara estudiantes avanzados: Se les pide que investiguen el valor nutricional del plato y lo incluyan en su exposición.",
+      "actividades_cuaderno": "Escribir la receta que expusieron, siguiendo el esquema: nombre, ingredientes (con cantidades), preparación (con conectores de orden).\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente recuerda la investigación asignada (pág. 37): \"Busca en libros de cocina platos típicos dominicanos. Haz una lista de los que nunca has comido pero te gustaría comer. Escoge el que más desees probar, anota ingredientes y forma de prepararlo.\"\n2. Explica que hoy compartirán esa receta.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 37)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "6o",
+          "recursos": "• Cuadernos\n• Pizarra con consigna",
+          "descripcion": "1. El docente forma grupos de 3 o 4 estudiantes para trabajo colaborativo (15-20 minutos).\n2. Copia en la pizarra la consigna (pág. 37):\na. Piensa en el nombre del plato y escríbelo.\nb. Enumera los ingredientes.\nc. Decide la cantidad de personas.\nd. Calcula la proporción de ingredientes.\ne. Ordena los pasos de preparación.\nf. Determina el tiempo promedio.\ng. Comparte con el grupo a manera de ensayo y haz ajustes.\nh. Expón frente a toda la clase.\n3. Los estudiantes trabajan en grupos, practican y luego exponen individualmente frente al gran grupo.\n4. Mientras exponen, el docente aprovecha para seguir construyendo el concepto de receta.",
+          "actividad_numero": "Producción oral Consigna a-h (pág. 37)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente destaca los aciertos en las exposiciones.\n2. Se refuerza la importancia de seguir un orden lógico en la preparación.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771355726413",
+      "sequence_id": "seq-1771353652945",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión Escrita (Pre-lectura y Durante la lectura)",
+      "intencion_pedagogica": "Comparar la receta con otros textos estudiados (carta, anécdota) y realizar la pre-lectura y lectura compartida de la receta de limonada.\n\n",
+      "estrategia": "Comparación de textos: Identificar semejanzas y diferencias entre carta, anécdota y receta.\n\nUso de organizador gráfico: Cuadro comparativo.\n\nFormulación de hipótesis: Predicción de ingredientes y preparación a partir del título.\n\nLectura compartida: Estudiantes leen en voz alta.\n\nAnálisis de vocabulario: Medidas y fracciones.",
+      "aprendizaje_significativo": "Se trabaja con una receta práctica y sencilla (limonada) que los estudiantes pueden preparar en casa, conectando la lectura con una actividad cotidiana y promoviendo hábitos saludables.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectura: Se les asignan partes cortas para leer.\n\nPara estudiantes con dificultades matemáticas: Se repasan las fracciones y medidas con ejemplos concretos.\n\nPara estudiantes visuales: Se muestran imágenes de los utensilios y medidas (taza, cuchara, etc.).\n\nPara estudiantes kinestésicos: Se les invita a representar las acciones de la receta.",
+      "actividades_cuaderno": "Copiar la receta de limonada y subrayar los verbos en imperativo. Escribir al lado el significado de las medidas que no conocían.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafos con carta, anécdota y receta\n• Organizador gráfico en pizarra",
+          "descripcion": "1. El docente lleva al aula una carta, una anécdota y la receta de limonada (en papelógrafos).\n2. Motiva la comparación con preguntas (pág. 38): \"¿Cuáles textos hemos estudiado ya? ¿En qué se parecen? ¿Qué tienen en común?\"\n3. Presenta un organizador gráfico (pág. 38) para consignar semejanzas y diferencias:\n- Texto: Carta, Anécdota, Receta\n- Partes\n- Intención",
+          "actividad_numero": "Comprensión escrita Pre-lectura (pág. 38)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con la receta de limonada (pág. 38)\n• Pizarra",
+          "descripcion": "1. El docente muestra solo el título de la receta: \"Limonada\" (pág. 38).\n2. Pide a los estudiantes que anticipen ingredientes y forma de preparación.\n3. Luego, presenta la receta completa en papelógrafo.\n4. Pregunta por cada parte de la estructura e invita a señalar cada una (pág. 39).\n5. Determinan el sentido de palabras destacadas en negrita por contexto.\n6. El docente asegura que los estudiantes sepan leer mensuras y fracciones: 1/2, 1/4, 3/4, 1/3; y unidades de medida: libra, onza, taza, cucharada, pizca, etc.",
+          "actividad_numero": "Comprensión escrita Pre-lectura (pág. 38) Durante la lectura (pág. 39)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes cuentan las acciones necesarias para preparar la limonada.\n2. Subrayan las acciones en el texto.\n3. El docente explica que esas palabras son verbos, y que en la receta están en modo imperativo (indican orden o mandato) y en segunda persona.\n4. Buscan sinónimos de algunas partes de la receta.",
+          "actividad_numero": "Comprensión escrita Post-lectura (pág. 39)"
+        }
+      ]
+    },
+    {
+      "id": "1771355823420",
+      "sequence_id": "seq-1771353652945",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Post-lectura y Preparación Práctica",
+      "intencion_pedagogica": "Preparar la limonada siguiendo la receta leída, a través de una dramatización, y reflexionar sobre el valor nutricional de las frutas y los hábitos saludables.\n\n",
+      "estrategia": "Aprendizaje experiencial: Preparación real de la limonada en el aula.\n\nDramatización: Lectura y ejecución simultánea de la receta.\n\nObservación docente: El docente observa el proceso sin intervenir.\n\nConexión interdisciplinaria: Con Ciencias Naturales (valor nutricional).",
+      "aprendizaje_significativo": "Los estudiantes no solo leen la receta, sino que la preparan y la disfrutan, experimentando de primera mano la utilidad práctica de este tipo de texto y reflexionando sobre alimentación saludable.\n\n",
+      "actividades_complementarias": "Para estudiantes con alergias: Se les ofrece una alternativa (agua sola o con menos azúcar).\n\nPara estudiantes con dificultades motrices: Se les asignan tareas como colocar los ingredientes en la mesa o revolver la limonada.\n\nPara estudiantes kinestésicos: Se les asignan las acciones más activas (exprimir, verter, mezclar).\n\nPara estudiantes con discapacidad visual: Se les describe cada paso y se les permite tocar los ingredientes.",
+      "actividades_cuaderno": "Escribir una breve reflexión sobre la experiencia de hoy: ¿cómo se sintieron preparando la limonada? ¿Qué aprendieron sobre la alimentación saludable?\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Ingredientes: limones, agua, azúcar, hielo\n• Utensilios: vasos, colador, cuchara, jarro, cuchillo (para el docente)",
+          "descripcion": "1. El docente anuncia que prepararán la limonada como dramatización (pág. 39).\n2. Explica los roles: un niño/a leerá los ingredientes, otros los colocarán en la mesa; otro/a leerá la preparación mientras otros realizan las acciones.\n3. El docente cortará los limones por razones de seguridad.",
+          "actividad_numero": "Comprensión escrita (Párrafo 1, pág. 39)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Ingredientes y utensilios \n• Participación de los estudiantes",
+          "descripcion": "1. Un niño/a lee la lista de ingredientes mientras otros los colocan en una mesa limpia.\n2. Otro/a niño/a lee la preparación paso a paso.\n3. Diferentes alumnos van realizando las acciones indicadas, de frente a la clase.\n4. Si algún niño quiere intervenir para preguntar o aclarar, lo hace.\n5. Cuando la limonada está lista, se sirve a todos y la disfrutan.\n6. El docente observa el proceso sin intervenir. Al final, hará preguntas para afianzar aprendizajes o señalar errores.",
+          "actividad_numero": "Comprensión escrita Dramatización (pág. 39)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Una vez disfrutada la limonada, el docente formula preguntas:\n- \"¿Les gustó la limonada?\"\n- \"¿Saben el valor nutricional que tienen los líquidos y las frutas?\"\n- \"¿Nos gustan los jugos con (mucha) azúcar?\"\n2. Las respuestas se orientan hacia la alimentación sana, la diabetes, la obesidad, etc.",
+          "actividad_numero": "Comprensión escrita Conexión interdisciplinaria (pág. 40)"
+        }
+      ]
+    },
+    {
+      "id": "1771355904744",
+      "sequence_id": "seq-1771353652945",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Gramática Textual y Producción Escrita",
+      "intencion_pedagogica": "Sistematizar los conocimientos sobre la receta (estructura, verbos en imperativo, conectores de orden) y producir por escrito una receta para el libro colectivo.\n\n",
+      "estrategia": "Diálogo creativo: Para reconstruir los aprendizajes sobre la receta.\n\nClase expositiva dialogada: Para presentar los conceptos gramaticales.\n\nAnálisis de textos modelo: Identificación de verbos y conectores.\n\nTaller de escritura: Acompañamiento paso a paso en la producción escrita.\n\nRevisión en pares: Coevaluación de borradores.\n\nPublicación: Creación de un libro de recetas.",
+      "aprendizaje_significativo": "Los estudiantes escriben su propia receta para contribuir a un libro de recetas colectivo, dando autenticidad a su trabajo y permitiendo que sus creaciones sean valoradas por la comunidad educativa.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite escribir en computadora o dictar a un compañero.\n\nPara estudiantes con dificultades de organización: Se les proporciona una plantilla con espacios para completar.\n\nPara estudiantes visuales: Se les anima a incluir dibujos de los ingredientes o del plato terminado.\n\nPara estudiantes kinestésicos: Se les permite preparar la receta en casa y traer una foto para acompañar su texto.\n\nPara estudiantes avanzados: Se les pide que incluyan variantes del plato o consejos adicionales.",
+      "actividades_cuaderno": "Completar los pasos de escritura que no se terminaron en clase. Traer el borrador revisado para la próxima clase para pasar en limpio.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con la receta de limonada\n• Pizarra",
+          "descripcion": "1. El docente inicia un diálogo con preguntas (pág. 41):\n- \"En las actividades anteriores, ¿qué tipo de texto produjimos oralmente?\" (Receta)\n- \"¿Qué partes tenía?\" (Título, ingredientes, preparación)\n- \"¿Qué características tiene la parte de los ingredientes?\" (cantidades, forma, tamaño)\n- \"¿Cómo se expresaba la preparación?\" (pasos ordenados)\n- \"¿Qué palabras usaron para referir cada acción?\" (verbos en imperativo: mezcla, moja, revuelve, etc.)\n- \"¿Qué palabras usaron para expresar el orden?\" (conectores de orden: primero, luego, después)\n2. El docente refuerza que los verbos pueden expresarse de distintas formas: imperativo con tú, con usted, presente de indicativo, con \"se\", o infinitivo. Todas son válidas.",
+          "actividad_numero": "Gramática textual (Párrafos 1-5, pág. 41)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Pizarra con los pasos",
+          "descripcion": "1. El docente presenta la consigna (pág. 42): \"Vamos a elaborar un libro de recetas con las producciones de todos. Para ello, escribe tu propia receta siguiendo estos pasos:\"\n2. Pasos (pág. 42):\n1. Escribe el nombre del plato.\n2. Haz un listado de ingredientes.\n3. Escribe el número de personas.\n4. Calcula la cantidad de cada ingrediente.\n5. Escribe la preparación en orden, usando conectores.\n6. Escribe un borrador con las partes: nombre, ingredientes, preparación.\n7. Intercambia con un compañero para corrección.\n8. Pide al docente que te corrija.\n9. Escribe otro borrador mejorado.\n10. Relee para asegurar claridad.\n11. Pasa en limpio para el libro de recetas.\n3. Los estudiantes trabajan en sus borradores, el docente acompaña y resuelve dudas.",
+          "actividad_numero": "Producción escrita Pasos 1-11 (pág. 42)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Borradores de los estudiantes",
+          "descripcion": "1. Los estudiantes intercambian borradores con un compañero para revisión (paso 7).\n2. El docente revisa y ofrece retroalimentación.\n3. Se anuncia que en la próxima clase pasarán en limpio para el libro de recetas.",
+          "actividad_numero": "Producción escrita Revisión (pág. 42)"
+        }
+      ]
+    }
+  ]
+}

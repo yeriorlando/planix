@@ -1,0 +1,399 @@
+{
+  "id": "seq-1772498703527",
+  "title": "Mediciones (2)",
+  "description": "Profundiza en las mediciones, conversiones entre unidades y resolución de problemas que implican cálculos de medidas en diferentes contextos.",
+  "order": 6,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772498703521",
+      "sequence_id": "seq-1772498703527",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Sistema Métrico Decimal: masa y capacidad",
+      "intencion_pedagogica": "Introducir a los estudiantes en las unidades de masa (gramo, kilogramo) y capacidad (litro, mililitro) del Sistema Métrico Decimal, realizando mediciones prácticas y estableciendo relaciones entre ellas.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre masa y capacidad.\n• Uso de material concreto: Balanzas, recipientes graduados, objetos cotidianos.\n• Trabajo colaborativo: Mediciones prácticas en el aula.\n• Uso de tablas: Unidades de masa y capacidad del sistema métrico decimal.",
+      "aprendizaje_significativo": "Los estudiantes relacionan las medidas de masa y capacidad con situaciones cotidianas como pesar alimentos en el colmado o medir líquidos en la cocina, comprendiendo la utilidad de estas unidades en la vida diaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de equivalencias y se realizan ejemplos adicionales en la pizarra.\n• Para estudiantes kinestésicos: Las actividades prácticas de pesaje y medición son ideales para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan balanzas con lectura audible o en Braille, y recipientes con marcas táctiles.\n• Para estudiantes avanzados: Se les pide que investiguen la masa de 1 L de otros líquidos (aceite, leche) y comparen.",
+      "actividades_cuaderno": "\"Convierte 3.5 kg a gramos. Convierte 2500 mL a litros.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Balanza\n• Recipiente graduado (1 litro)\n• Objetos cotidianos (paquete de arroz, botella de agua)\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente muestra una balanza y un recipiente graduado y pregunta: \"¿Para qué sirven estos instrumentos? ¿Qué unidades de masa conocen? ¿Qué unidades de capacidad recuerdan? ¿Qué relación hay entre el kilogramo y el gramo? ¿Entre el litro y el mililitro?\" (pág. 221).\n2. Anima a los estudiantes a anticipar el tema de la clase.",
+          "actividad_numero": "Actividad 1 - A (Pág. 221)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Balanza (una por grupo)\n• Recipientes graduados\n• Objetos cotidianos\n• Agua\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Presentación de unidades de masa (15 min):\n1. El docente presenta la tabla de unidades de masa: kilogramo (kg), gramo (g), miligramo (mg).\n2. Explica las equivalencias: 1 kg = 1000 g, 1 g = 1000 mg.\n3. Los estudiantes pesan objetos cotidianos (cuaderno, libro, estuche) con la balanza y registran en gramos.\n\nActividad 2 - Presentación de unidades de capacidad (15 min):\n1. El docente presenta la tabla de unidades de capacidad: litro (L), mililitro (mL).\n2. Explica: 1 L = 1000 mL.\n3. Los estudiantes miden la capacidad de diferentes recipientes (botella, vaso) y registran en mililitros.\n\nActividad 3 - Relación entre masa y capacidad (30 min):\n1. El docente plantea la situación: \"Un litro de agua pesa aproximadamente 1 kilogramo. Si tenemos una botella de 1.5 L de agua, ¿cuál es su masa en kilogramos? ¿Y en gramos?\"\n2. Los estudiantes resuelven en sus cuadernos.\n3. Socializa los resultados.\n4. Realizan mediciones prácticas: pesan 1 L de agua y verifican la relación.",
+          "actividad_numero": "Actividad 1 - B y C (Pág. 221-222)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Cuántos gramos tiene un kilogramo? ¿Cuántos mililitros tiene un litro? ¿Qué relación hay entre el litro de agua y el kilogramo?\" (pág. 222).\n2. Asigna la actividad para el cuaderno: \"Convierte 3.5 kg a gramos. Convierte 2500 mL a litros.\"\n3. Asigna la actividad para el diario del estudiante: \"En tu casa, busca tres productos que indiquen su masa en gramos o kilogramos y tres que indiquen su capacidad en mililitros o litros. Anota los datos en tu cuaderno.\"",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 222)"
+        }
+      ]
+    },
+    {
+      "id": "1772498827402",
+      "sequence_id": "seq-1772498703527",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Unidades de masa del Sistema Inglés",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de identificar y utilizar las unidades de masa del Sistema Inglés (libra, onza), realizando mediciones prácticas y estableciendo equivalencias con el Sistema Métrico Decimal.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre unidades de masa del Sistema Inglés.\n• Uso de material concreto: Balanza con escala en libras y onzas.\n• Trabajo práctico: Mediciones de masa en libras y onzas.",
+      "aprendizaje_significativo": "Los estudiantes identifican las unidades de masa del Sistema Inglés (libra, onza) en productos importados y recetas internacionales, comprendiendo su uso en contextos comerciales y cotidianos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de equivalencias y se realizan ejemplos adicionales.\n• Para estudiantes kinestésicos: Las actividades prácticas de pesaje son ideales para ellos.\n• Para estudiantes con discapacidad visual: Se les proporciona una balanza con lectura audible o en Braille.\n• Para estudiantes avanzados: Se les pide que investiguen la equivalencia exacta entre libra y kilogramo.",
+      "actividades_cuaderno": "\"Convierte 5 lb a oz. Convierte 80 oz a lb.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué productos encontraron con masa en gramos o kilogramos? ¿Qué productos con capacidad en mililitros o litros?\" (retomando actividad de la clase anterior).\n2. Luego, pregunta: \"¿Qué otras unidades de masa conocen? ¿Han visto productos que indiquen su peso en libras u onzas? ¿Dónde?\" (pág. 223).",
+          "actividad_numero": "Actividad 2 - A (Pág. 223)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Balanza con escala en libras y onzas\n• Objetos cotidianos\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Presentación de unidades de masa del Sistema Inglés (15 min):\n1. El docente presenta la tabla de unidades de masa del Sistema Inglés:\n- 1 libra (lb) = 16 onzas (oz)\n- 1 tonelada (tn) = 2000 libras\n2. Muestra una balanza con escala en libras y onzas.\n\nActividad 2 - Mediciones prácticas (25 min):\n1. Los estudiantes, en grupos, pesan diferentes objetos (libros, estuches, botellas) utilizando la balanza en libras y onzas.\n2. Registran las medidas en una tabla.\n\nActividad 3 - Conversiones (20 min):\n1. Plantea ejercicios de conversión:\n- Convertir 3 lb a oz.\n- Convertir 48 oz a lb.\n- Si 1 lb ≈ 0.454 kg, ¿cuántos kg son 10 lb?\n2. Los estudiantes resuelven con calculadora.\n3. Socializa los resultados.",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 223-224)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cuántas onzas tiene una libra? ¿Cuántas libras tiene una tonelada?\" (pág. 224).\n2. Asigna la actividad para el cuaderno: \"Convierte 5 lb a oz. Convierte 80 oz a lb.\"\n3. Asigna la actividad para el diario del estudiante: \"Busca en tu casa tres productos que indiquen su peso en libras u onzas. Anota los datos y conviértelos a kilogramos usando 1 lb ≈ 0.454 kg.\"",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 224)"
+        }
+      ]
+    },
+    {
+      "id": "1772498925954",
+      "sequence_id": "seq-1772498703527",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Unidades de capacidad del Sistema Inglés",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de identificar y utilizar las unidades de capacidad del Sistema Inglés (onza líquida, pinta, cuarto, galón), realizando mediciones prácticas y estableciendo equivalencias.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre unidades de capacidad del Sistema Inglés.\n• Uso de material concreto: Recipientes graduados en onzas líquidas, pintas, cuartos y galones.\n• Trabajo práctico: Mediciones de capacidad.",
+      "aprendizaje_significativo": "Los estudiantes identifican las unidades de capacidad del Sistema Inglés (onza líquida, pinta, cuarto, galón) en productos importados y recetas internacionales, comprendiendo su uso en contextos comerciales y cotidianos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de equivalencias y se realizan ejemplos adicionales.\n• Para estudiantes kinestésicos: Las actividades prácticas de medición son ideales para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan recipientes con marcas táctiles.\n• Para estudiantes avanzados: Se les pide que investiguen la equivalencia entre galón y litro con mayor precisión.",
+      "actividades_cuaderno": "\"Convierte 3 gal a qt. Convierte 10 pt a fl oz.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué productos encontraron con peso en libras u onzas? ¿Cuántos kg son aproximadamente?\" (retomando actividad de la clase anterior).\n2. Luego, pregunta: \"¿Qué unidades de capacidad conocen además del litro y el mililitro? ¿Han visto productos que indiquen su capacidad en galones, cuartos o pintas?\" (pág. 225).",
+          "actividad_numero": "Actividad 3 - A (Pág. 225)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Recipientes graduados en onzas líquidas, pintas, cuartos y galones\n• Agua\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Presentación de unidades de capacidad del Sistema Inglés (15 min):\n1. El docente presenta la tabla de unidades de capacidad del Sistema Inglés:\n- 1 galón (gal) = 4 cuartos (qt)\n- 1 cuarto (qt) = 2 pintas (pt)\n- 1 pinta (pt) = 16 onzas líquidas (fl oz)\n2. Muestra recipientes graduados en estas unidades.\n\nActividad 2 - Mediciones prácticas (25 min):\n1. Los estudiantes, en grupos, miden la capacidad de diferentes recipientes utilizando los recipientes graduados.\n2. Registran las medidas en una tabla.\n\nActividad 3 - Conversiones (20 min):\n1. Plantea ejercicios de conversión:\n- Convertir 2 gal a qt.\n- Convertir 8 qt a gal.\n- Convertir 3 pt a fl oz.\n- Si 1 gal ≈ 3.785 L, ¿cuántos litros son 5 gal?\n2. Los estudiantes resuelven con calculadora.\n3. Socializa los resultados.",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 225-226)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cuántos cuartos tiene un galón? ¿Cuántas pintas tiene un cuarto? ¿Cuántas onzas líquidas tiene una pinta?\" (pág. 226).\n2. Asigna la actividad para el cuaderno: \"Convierte 3 gal a qt. Convierte 10 pt a fl oz.\"\n3. Asigna la actividad para el diario del estudiante: \"Busca en tu casa o en internet productos que indiquen su capacidad en galones, cuartos o pintas. Anota los datos.\"",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 226)"
+        }
+      ]
+    },
+    {
+      "id": "1772498991212",
+      "sequence_id": "seq-1772498703527",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "(Relación entre unidades de masa y capacidad en ambos sistemas",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la comprensión de la relación entre masa y capacidad, especialmente la equivalencia 1 L de agua = 1 kg, aplicando este conocimiento en situaciones problemáticas.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Relación entre masa y capacidad (densidad).\n• Experimentación práctica: Relación entre litro y kilogramo para el agua.\n• Resolución de problemas: Aplicación de la relación en situaciones cotidianas.",
+      "aprendizaje_significativo": "Los estudiantes descubren la relación entre masa y capacidad a través de la experimentación con agua (1 L de agua = 1 kg), comprendiendo que esta relación es fundamental en ciencias y en la vida cotidiana.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona la relación 1 L = 1 kg y se realizan ejemplos adicionales.\n• Para estudiantes kinestésicos: La experimentación práctica es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan balanzas con lectura audible y recipientes con marcas táctiles.\n• Para estudiantes avanzados: Se les pide que investiguen la densidad de otros líquidos.",
+      "actividades_cuaderno": "\"Un bidón tiene 20 L de agua. ¿Cuál es su masa en kg? ¿Y en libras?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué productos encontraron con capacidad en galones, cuartos o pintas?\" (retomando actividad de la clase anterior).\n2. Luego, pregunta: \"¿Qué relación creen que hay entre la masa y la capacidad? Por ejemplo, ¿cuánto pesa 1 litro de agua?\" (pág. 227).",
+          "actividad_numero": "Actividad 4 - A (Pág. 227)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Balanzas\n• Recipientes de 1 L\n• Agua\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Experimentación (25 min):\n1. Los estudiantes, en grupos, pesan 1 litro de agua en la balanza.\n2. Verifican que 1 L de agua ≈ 1 kg.\n3. Registran los resultados.\n\nActividad 2 - Aplicación de la relación (20 min):\n1. Plantea problemas:\n- ¿Cuál es la masa de 3.5 L de agua?\n- ¿Qué capacidad tiene un recipiente que contiene 2.5 kg de agua?\n- Si 1 galón de agua pesa aproximadamente 8.34 lb, ¿cuántas libras pesan 5 galones?\n2. Los estudiantes resuelven en sus cuadernos.\n3. Socializa los resultados.\n\nActividad 3 - Problema integrador (15 min):\n1. Plantea: \"Una familia compra 10 botellas de agua de 1.5 L cada una. ¿Cuál es la masa total del agua en kilogramos? ¿Cuál es la masa total en libras (1 kg ≈ 2.205 lb)?\"\n2. Los estudiantes resuelven con calculadora.",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 227-228)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Cuánto pesa 1 litro de agua? ¿Cuántos litros de agua hay en 5 kg?\" (pág. 228).\n2. Asigna la actividad para el cuaderno: \"Un bidón tiene 20 L de agua. ¿Cuál es su masa en kg? ¿Y en libras?\"\n3. Asigna la actividad para el diario del estudiante: \"Investiga cuánto pesa 1 litro de aceite. Compáralo con el agua.\"",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 228)"
+        }
+      ]
+    },
+    {
+      "id": "1772499089779",
+      "sequence_id": "seq-1772498703527",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Volumen de prismas rectangulares",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular el volumen de prismas rectangulares, aplicando la fórmula V = largo × ancho × altura, y expresando el resultado en unidades cúbicas.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Cajas, cubos, reglas.\n• Construcción de conceptos: Volumen como espacio ocupado.\n• Resolución de problemas: Cálculo de volumen de prismas rectangulares.",
+      "aprendizaje_significativo": "Los estudiantes calculan el volumen de cajas y objetos cotidianos, comprendiendo que el volumen es una medida del espacio tridimensional y que se expresa en unidades cúbicas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona la fórmula y se realizan ejemplos paso a paso.\n• Para estudiantes kinestésicos: La construcción con cubos es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan cubos en relieve y cajas para medir táctilmente.\n• Para estudiantes avanzados: Se les pide que calculen el volumen de un prisma de base rectangular pero con medidas decimales.",
+      "actividades_cuaderno": "\"Calcula el volumen de una caja de zapatos (mide sus dimensiones en casa).\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuánto pesa 1 litro de aceite según su investigación? ¿Por qué creen que pesa diferente al agua?\" (retomando actividad de la clase anterior).\n2. Luego, muestra una caja y pregunta: \"¿Qué es el volumen? ¿Cómo podemos medir el espacio que ocupa esta caja?\" (pág. 229).",
+          "actividad_numero": "Actividad 5 - A (Pág. 229)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Cubos unitarios\n• Cajas de diferentes tamaños\n• Reglas\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Construcción del concepto de volumen (20 min):\n1. El docente muestra cubos unitarios (pueden ser cubos de madera o de papel).\n2. Construye un prisma rectangular con los cubos y pregunta: \"¿Cuántos cubos hay en total?\"\n3. Los estudiantes cuentan y descubren que el volumen es la cantidad de cubos que caben.\n\nActividad 2 - Fórmula del volumen (20 min):\n1. El docente explica la fórmula V = largo × ancho × altura.\n2. Los estudiantes miden cajas con regla y calculan su volumen en cm³.\n\nActividad 3 - Problemas (20 min):\n1. Plantea problemas:\n- Una caja tiene 15 cm de largo, 10 cm de ancho y 8 cm de altura. ¿Cuál es su volumen?\n- Un acuario tiene 60 cm de largo, 30 cm de ancho y 40 cm de altura. ¿Cuál es su volumen en cm³? ¿Cuántos litros de agua caben (1 L = 1000 cm³)?\n2. Los estudiantes resuelven en sus cuadernos.",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 229-230)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo se calcula el volumen de un prisma rectangular? ¿En qué unidades se expresa?\" (pág. 230).\n2. Asigna la actividad para el cuaderno: \"Calcula el volumen de una caja de zapatos (mide sus dimensiones en casa).\"\n3. Asigna la actividad para el diario del estudiante: \"Investiga qué es un metro cúbico y cuántos litros de agua caben en él.\"",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 230)"
+        }
+      ]
+    },
+    {
+      "id": "1772499163957",
+      "sequence_id": "seq-1772498703527",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Volumen de cubos",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular el volumen de cubos, aplicando la fórmula V = a³, y relacionándolo con el cálculo de volúmenes de prismas rectangulares.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Cubos de diferentes tamaños.\n• Deducción de fórmula: V = a³.\n• Resolución de problemas: Cálculo de volumen de cubos.",
+      "aprendizaje_significativo": "Los estudiantes calculan el volumen de cubos, comprendiendo que es un caso particular del prisma rectangular donde todas las aristas son iguales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona la fórmula y se realizan ejemplos paso a paso.\n• Para estudiantes kinestésicos: La manipulación de cubos es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan cubos en relieve para medir táctilmente.\n• Para estudiantes avanzados: Se les pide que calculen el volumen de un cubo en diferentes unidades (cm³, m³).",
+      "actividades_cuaderno": "\"Calcula el volumen de un cubo de 7 cm de arista.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué es un metro cúbico? ¿Cuántos litros de agua caben?\" (retomando actividad de la clase anterior).\n2. Luego, muestra un cubo y pregunta: \"¿Cómo es este prisma? ¿Qué tienen de especial sus dimensiones?\" (pág. 231).",
+          "actividad_numero": "Actividad 6 - A (Pág. 231)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Cubos de diferentes tamaños (dados, cubos de madera)\n• Reglas\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Deducción de la fórmula (20 min):\n1. El docente recuerda la fórmula del prisma rectangular: V = l × a × h.\n2. Pregunta: \"Si el cubo tiene todas sus aristas iguales, ¿cómo se simplifica la fórmula?\"\n3. Los estudiantes deducen que V = a × a × a = a³.\n\nActividad 2 - Cálculo de volúmenes (20 min):\n1. Los estudiantes miden cubos de diferentes tamaños (dados, cubos de madera) y calculan su volumen.\n2. Registran los resultados.\n\nActividad 3 - Problemas (20 min):\n1. Plantea problemas:\n- Un cubo tiene arista de 5 cm. ¿Cuál es su volumen?\n- Un cubo tiene volumen de 64 cm³. ¿Cuánto mide su arista?\n- ¿Cuántos cubos de 2 cm de arista caben en una caja de 10 cm × 10 cm × 10 cm?\n2. Los estudiantes resuelven en sus cuadernos.",
+          "actividad_numero": "Actividad 6 - B y C (Pág. 231-232)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo se calcula el volumen de un cubo? ¿Qué relación tiene con la raíz cúbica?\" (pág. 232).\n2. Asigna la actividad para el cuaderno: \"Calcula el volumen de un cubo de 7 cm de arista.\"\n3. Asigna la actividad para el diario del estudiante: \"Investiga qué es la raíz cúbica y cómo se relaciona con el volumen del cubo.\"",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 232)"
+        }
+      ]
+    },
+    {
+      "id": "1772499251820",
+      "sequence_id": "seq-1772498703527",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Volumen de prismas rectangulares en contextos reales",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de aplicar el cálculo de volumen de prismas rectangulares en situaciones problemáticas del contexto real.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Resolución de problemas: Aplicación del volumen en situaciones cotidianas.\n• Trabajo colaborativo: Diseño de cajas.\n• Uso de calculadora.",
+      "aprendizaje_significativo": "Los estudiantes aplican el cálculo de volumen a situaciones reales como el diseño de cajas para embalaje o el cálculo de capacidad de recipientes, comprendiendo la utilidad práctica de estas medidas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan ejemplos paso a paso y se les guía en el diseño de cajas.\n• Para estudiantes kinestésicos: Pueden construir cajas con papel o cartón para visualizar las dimensiones.\n• Para estudiantes con discapacidad visual: Se les proporcionan modelos táctiles de cajas.\n• Para estudiantes avanzados: Se les pide que calculen el volumen de prismas con dimensiones decimales.",
+      "actividades_cuaderno": "\"Un camión tiene una caja de carga de 6 m de largo, 2.5 m de ancho y 2 m de alto. ¿Cuál es su volumen? ¿Cuántas cajas de 0.5 m³ pueden cargarse?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué es la raíz cúbica? ¿Cómo se relaciona con el volumen del cubo?\" (retomando actividad de la clase anterior).\n2. Luego, plantea: \"Hoy resolveremos problemas de volumen en situaciones de la vida real.\"",
+          "actividad_numero": "Actividad 7 - A (Pág. 233)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Problema de embalaje (20 min):\n1. Plantea: \"Una empresa quiere fabricar cajas para empaquetar 24 cubos de 5 cm de arista. ¿Qué dimensiones podría tener la caja? ¿Cuál sería su volumen?\"\n2. Los estudiantes discuten diferentes configuraciones y calculan volúmenes.\n\nActividad 2 - Problema de capacidad de piscinas (20 min):\n1. Plantea: \"Una piscina tiene 8 m de largo, 4 m de ancho y 1.5 m de profundidad. ¿Cuál es su volumen en m³? ¿Cuántos litros de agua caben (1 m³ = 1000 L)?\"\n2. Los estudiantes resuelven en sus cuadernos.\n\nActividad 3 - Problema de diseño (20 min):\n1. Plantea: \"Diseña una caja con un volumen de 1000 cm³. ¿Qué dimensiones podría tener? Da al menos tres opciones diferentes.\"\n2. Los estudiantes trabajan en grupos y presentan sus opciones.",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 233-234)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué consideraciones deben tenerse en cuenta al diseñar una caja? ¿Cómo se relacionan el volumen y la capacidad?\" (pág. 234).\n2. Asigna la actividad para el cuaderno: \"Un camión tiene una caja de carga de 6 m de largo, 2.5 m de ancho y 2 m de alto. ¿Cuál es su volumen? ¿Cuántas cajas de 0.5 m³ pueden cargarse?\"\n3. Asigna la actividad para el diario del estudiante: \"Investiga el volumen de tu refrigerador en casa (busca la etiqueta o mide).\"",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 234)"
+        }
+      ]
+    },
+    {
+      "id": "1772499349967",
+      "sequence_id": "seq-1772498703527",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Volumen de cilindros",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular el volumen de cilindros, aplicando la fórmula V = πr²h, y relacionándolo con el área del círculo.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Cilindros (latas, vasos).\n• Deducción de fórmula: V = πr²h.\n• Resolución de problemas: Cálculo de volumen de cilindros.",
+      "aprendizaje_significativo": "Los estudiantes calculan el volumen de objetos cilíndricos cotidianos como latas de refresco o tubos, comprendiendo la aplicación del número π en el cálculo de volúmenes.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona la fórmula y se realizan ejemplos paso a paso.\n• Para estudiantes kinestésicos: La medición de objetos reales es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan cilindros en relieve y se les guía en la medición táctil.\n• Para estudiantes avanzados: Se les pide que calculen el volumen de un cilindro y lo conviertan a litros.",
+      "actividades_cuaderno": "\"Calcula el volumen de un cilindro de radio 3 cm y altura 8 cm.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuál es el volumen de su refrigerador?\" (retomando actividad de la clase anterior).\n2. Luego, muestra una lata y pregunta: \"¿Cómo calcularíamos el espacio que ocupa esta lata? ¿Qué forma tiene?\" (pág. 235).",
+          "actividad_numero": "Actividad 8 - A (Pág. 235)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Objetos cilíndricos (latas, vasos, tubos)\n• Reglas\n• Cinta métrica\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Deducción de la fórmula (20 min):\n1. El docente recuerda el área del círculo: A = πr².\n2. Explica que el volumen del cilindro es el área de la base por la altura: V = πr² × h.\n3. Los estudiantes miden el radio y la altura de una lata y calculan su volumen.\n\nActividad 2 - Cálculo de volúmenes (20 min):\n1. Los estudiantes miden diferentes objetos cilíndricos (vasos, tubos) y calculan su volumen.\n2. Registran los resultados.\n\nActividad 3 - Problemas (20 min):\n1. Plantea problemas:\n- Un cilindro tiene radio 5 cm y altura 10 cm. ¿Cuál es su volumen?\n- Una lata de refresco tiene 6 cm de diámetro y 12 cm de altura. ¿Cuál es su volumen?\n- ¿Cuántos litros de agua caben en un cilindro de 20 cm de radio y 50 cm de altura (1 L = 1000 cm³)?\n2. Los estudiantes resuelven en sus cuadernos.",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 235-236)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo se calcula el volumen de un cilindro? ¿Qué relación tiene con el área del círculo?\" (pág. 236).\n2. Asigna la actividad para el cuaderno: \"Calcula el volumen de un cilindro de radio 3 cm y altura 8 cm.\"\n3. Asigna la actividad para el diario del estudiante: \"Busca en tu casa un objeto cilíndrico, mide su radio y altura, y calcula su volumen.\"",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 236)"
+        }
+      ]
+    },
+    {
+      "id": "1772499431963",
+      "sequence_id": "seq-1772498703527",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Recapitulación de la secuencia",
+      "intencion_pedagogica": "Guiar a los estudiantes en un proceso de recapitulación y consolidación de los aprendizajes adquiridos durante la secuencia de mediciones (2), integrando los diferentes contenidos a través de la resolución de ejercicios y problemas.",
+      "estrategia": "• Diálogo dirigido: Recuperación de contenidos de la secuencia.\n• Resolución de ejercicios: Aplicación integrada de todos los temas.\n• Trabajo colaborativo: Repaso en grupos.\n• Uso de calculadora.",
+      "aprendizaje_significativo": "Los estudiantes repasan y consolidan todos los conceptos trabajados en la secuencia (unidades de masa y capacidad en ambos sistemas, relación masa-capacidad, volumen de prismas, cubos y cilindros) mediante la resolución de ejercicios variados.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una hoja resumen con fórmulas y equivalencias.\n• Para estudiantes kinestésicos: Pueden dibujar las figuras para visualizar las dimensiones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que inventen un problema de volumen y lo resuelvan.",
+      "actividades_cuaderno": "Los estudiantes resuelven en sus cuadernos todos los ejercicios planteados durante la clase de recapitulación.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente pregunta: \"¿Qué trabajamos en esta secuencia? ¿Qué unidades de masa y capacidad conocen? ¿Qué relación hay entre masa y capacidad para el agua? ¿Cómo se calcula el volumen de un prisma? ¿Y el de un cubo? ¿Y el de un cilindro?\"\n2. Anota las respuestas en la pizarra.",
+          "actividad_numero": "Actividad 9 - A (Pág. 237)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Ejercicios de conversión (15 min):\n1. Plantea ejercicios:\n- Convertir 3.5 kg a g.\n- Convertir 2500 mL a L.\n- Convertir 4 lb a oz.\n- Convertir 2 gal a qt.\n2. Los estudiantes resuelven en sus cuadernos.\n\nActividad 2 - Problemas de relación masa-capacidad (15 min):\n1. Plantea: \"¿Cuál es la masa de 15 L de agua? ¿Qué capacidad tiene un recipiente con 7.5 kg de agua?\"\n2. Los estudiantes resuelven.\n\nActividad 3 - Problemas de volumen (30 min):\n1. Plantea:\n- Un prisma rectangular mide 12 cm de largo, 8 cm de ancho y 5 cm de alto. Calcula su volumen.\n- Un cubo tiene arista de 6 cm. Calcula su volumen.\n- Un cilindro tiene radio 4 cm y altura 10 cm. Calcula su volumen.\n- Una piscina tiene 10 m de largo, 5 m de ancho y 2 m de profundidad. ¿Cuántos litros de agua caben?\n2. Los estudiantes resuelven con calculadora.",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 237-238)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Revisa las respuestas en la pizarra.\n2. Aclara dudas.\n3. Prepara a los estudiantes para la evaluación de la próxima clase.",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 238)"
+        }
+      ]
+    },
+    {
+      "id": "1772499510636",
+      "sequence_id": "seq-1772498703527",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Evaluación de la secuencia",
+      "intencion_pedagogica": "Evaluar el nivel de logro de los estudiantes en relación con los contenidos y competencias desarrolladas durante la secuencia de mediciones (2), mediante la resolución de problemas integradores.",
+      "estrategia": "• Diálogo dirigido: Recuperación de temas de la secuencia.\n• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas.",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia (conversiones de masa y capacidad, relación masa-capacidad, volumen de prismas, cubos y cilindros).",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite el uso de calculadora y tablas de equivalencias. Se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden dibujar las figuras para visualizar mejor los problemas.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que resuelvan problemas adicionales.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración",
+          "descripcion": "1. El docente pregunta por los temas trabajados en la secuencia.\n2. Aclara dudas finales.\n3. Explica la valoración de cada ítem.",
+          "actividad_numero": "Actividad 10 - A (Pág. 239)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices\n• Calculadoras",
+          "descripcion": "Evaluación escrita:\n1. El docente entrega una hoja en blanco a cada estudiante.\n2. Presenta los problemas de evaluación:\n\nProblema 1: Convierte: a) 4.5 kg a g; b) 3500 mL a L; c) 6 lb a oz; d) 3 gal a qt. (2 pts c/u)\n\nProblema 2: Una botella contiene 2.5 L de agua. ¿Cuál es su masa en kg? ¿Y en libras (1 kg ≈ 2.205 lb)? (10 pts)\n\nProblema 3: Un prisma rectangular mide 15 cm de largo, 10 cm de ancho y 8 cm de alto. Calcula su volumen en cm³. ¿Cuántos litros de agua caben? (10 pts)\n\nProblema 4: Un cubo tiene arista de 7 cm. Calcula su volumen. (10 pts)\n\nProblema 5: Un cilindro tiene radio 5 cm y altura 12 cm. Calcula su volumen (usa π ≈ 3.14). (10 pts)\n\nProblema 6: Un tanque de agua tiene forma de prisma rectangular con 2 m de largo, 1.5 m de ancho y 1 m de profundidad. ¿Cuántos litros de agua caben? (10 pts)\n\nProblema 7: Diseña una caja con forma de prisma rectangular que tenga un volumen de 2000 cm³. Proporciona tres posibles conjuntos de dimensiones. (10 pts)\n\nProblema 8: Un camión tiene una caja de carga de 5 m de largo, 2 m de ancho y 1.8 m de alto. ¿Cuál es su volumen en m³? ¿Cuántas cajas de 0.6 m³ pueden cargarse? (10 pts)\n\nProblema 9: Explica la relación entre masa y capacidad para el agua. ¿Cuánto pesa 1 litro de agua? (10 pts)\n\n3. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad 10 - B (Pág. 239-240)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo.\n3. Anuncia el inicio de la siguiente secuencia.",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 240)"
+        }
+      ]
+    }
+  ]
+}

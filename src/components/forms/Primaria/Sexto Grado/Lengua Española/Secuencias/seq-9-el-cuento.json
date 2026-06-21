@@ -1,0 +1,477 @@
+{
+  "id": "seq-1772114673194",
+  "title": "El cuento",
+  "description": "Desarrolla habilidades narrativas mediante la lectura y creación de historias ficticias. Trabaja elementos como personajes, ambiente, conflicto y desenlace.",
+  "order": 9,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772114673189",
+      "sequence_id": "seq-1772114673194",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión oral - Exploración",
+      "intencion_pedagogica": "Activar conocimientos previos sobre el cuento, explorar el género de ciencia ficción y preparar la escucha del cuento \"El viaje de Martín\".",
+      "estrategia": "• Diálogo dirigido: Exploración de gustos y conocimientos sobre cuentos.\n• Exposición oral espontánea: Estudiantes cuentan cuentos breves.\n• Introducción al género: Explicación sobre cuentos de ciencia ficción.\n• Uso de imágenes: Presentación de nave espacial para activar imaginación.",
+      "aprendizaje_significativo": "Los estudiantes recuerdan cuentos que han escuchado en su infancia y comparten sus gustos personales, conectando así el contenido académico con sus experiencias previas como lectores y oyentes.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de expresión oral: Se les permite compartir sus ideas con frases cortas.\n• Para estudiantes kinestésicos: Mientras escuchan la explicación, pueden dibujar una nave espacial.\n• Para estudiantes con discapacidad visual: Se les describe detalladamente la imagen de la nave.\n• Para estudiantes avanzados: Se les pide que investiguen sobre Julio Verne y sus obras.",
+      "actividades_cuaderno": "1. ¿Qué es un cuento? Escribe una breve definición.\n2. ¿Qué es la ciencia ficción?\n3. ¿Qué crees que va a pasar en el cuento \"El viaje de Martín\"? (Escribe tus hipótesis).\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente pregunta: \"¿A quiénes les gustan los cuentos? ¿Qué tipo de cuentos prefieren leer?\" (pág. 140).\n2. \"¿Les gusta contar cuentos o que les cuenten cuentos?\"\n3. Dirige preguntas sobre las características del género:\n- \"¿Qué es un cuento?\"\n- \"¿Cómo es este tipo de texto?\"\n- \"¿Cuáles partes tiene?\"\n- \"¿Cuáles son sus componentes?\" (personajes, ambiente, trama).\n- \"¿Qué tipos de cuentos conocen?\"\n4. Anima a algunos niños a contar un cuento breve a toda la clase. Pregunta dónde los aprendieron.",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 140)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Imagen de nave espacial (Anexo 1, pág. 156)\n• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Conocen cuentos de ciencia ficción?\" (pág. 140).\n2. Si alguien responde afirmativamente, pide que explique qué son.\n3. Explica el concepto de ciencia ficción (pág. 140): \"Género cuyos contenidos se basan en supuestos logros científicos o técnicos del futuro. Se diferencia del género fantástico porque tiene sustento científico.\"\n4. Menciona a Julio Verne como ejemplo de autor que anticipó inventos.\n5. Muestra la imagen de una nave espacial (Anexo 1, pág. 156).\n6. Pregunta:\n- \"¿Qué es?\"\n- \"¿Con qué y con quiénes se relaciona?\"\n- \"¿Podríamos hacer un viaje en él? ¿Hacia dónde?\"\n- \"¿Qué crees que pasaría si hiciéramos un viaje al futuro?\"",
+          "actividad_numero": "Comprensión oral (Párrafos 3-4, pág. 140-141)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis",
+          "descripcion": "1. El docente anuncia que escucharán un cuento de ciencia ficción titulado \"El viaje de Martín\" (pág. 141).\n2. Escribe el título en la pizarra y pide hipótesis: \"¿De qué creen que tratará?\"\n3. Anota las hipótesis.\n4. Explica que deben prestar mucha atención, pues después realizarán actividades de comprensión.",
+          "actividad_numero": "Comprensión oral (Pre-escucha, pág. 141)"
+        }
+      ]
+    },
+    {
+      "id": "1772125239214",
+      "sequence_id": "seq-1772114673194",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión oral - Escucha",
+      "intencion_pedagogica": "Escuchar atentamente el cuento \"El viaje de Martín\", respondiendo preguntas durante la lectura para garantizar la comprensión.",
+      "estrategia": "• Lectura en voz alta: Cuento \"El viaje de Martín\".\n• Preguntas intercaladas durante la lectura.\n• Verificación de hipótesis.\n• Toma de apuntes.",
+      "aprendizaje_significativo": "Los estudiantes se sumergen en una historia de ciencia ficción que los hace imaginar un futuro posible, conectando así con su capacidad de soñar y crear.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar un solo aspecto durante la lectura (ej: los personajes).\n• Para estudiantes kinestésicos: Mientras escuchan, pueden dibujar la nave espacial que imaginan.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción del cuento.\n• Para estudiantes avanzados: Se les pide que tomen nota de los valores que transmite el cuento.",
+      "actividades_cuaderno": "Título: El viaje de Martín\n1. ¿Quién es el personaje principal del cuento?\n2. ¿Por qué Martín fue elegido para ir en la nave?\n3. ¿Qué mensaje crees que quiere transmitir este cuento?\n4. ¿Qué hipótesis tuyas se confirmaron?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis",
+          "descripcion": "1. El docente retoma las hipótesis anotadas en la pizarra la clase anterior.\n2. Recuerda que durante la lectura irán verificando si se cumplen.",
+          "actividad_numero": "Comprensión oral (Activación)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto del cuento \"El viaje de Martín\" (pág. 142-143)",
+          "descripcion": "1. El docente lee el cuento \"El viaje de Martín\" completo (pág. 142-143), haciendo pausas estratégicas.\n\nPausa 1 (después del párrafo 1, pág. 142):\n- \"¿Quién es el personaje principal?\"\n- \"¿Cómo es él? ¿En qué contexto está situado?\"\n- \"¿Qué parte del cuento es esta?\" (inicio) (pág. 141).\n\nPausa 2 (después del párrafo 2, pág. 142):\n- \"¿Por qué crees que los niños pensaron que eran extraterrestres?\"\n\nPausa 3 (después del párrafo 3, pág. 143):\n- \"¿En qué parte del texto nos encontramos ahora?\" (desarrollo)\n- \"¿Por qué crees que se afirma que quienes estaban en la nave eran personas como nosotros?\"\n\nPausa 4 (después del párrafo 4, pág. 143):\n- \"¿Por qué Martín se iría con los desconocidos? ¿Hacia dónde crees que irían?\"\n\nPausa 5 (después del párrafo 5, pág. 143):\n- \"¿Qué pasó realmente con Martín? ¿Por qué lo escogieron?\"\n- \"¿Qué tenía que hacer él?\"\n\nPausa 6 (después del párrafo 6, pág. 143):\n- \"¿Cómo se resuelve el conflicto del cuento?\"\n- \"¿Qué hizo finalmente Martín?\" (pág. 141).",
+          "actividad_numero": "Comprensión oral (Lectura, pág. 141-143)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis\n• Participación de los estudiantes",
+          "descripcion": "1. El docente retoma las hipótesis de la pizarra.\n2. Pregunta: \"¿Qué hipótesis se confirmaron? ¿Cuáles no?\"\n3. Los estudiantes justifican sus respuestas.\n4. Anuncia que en la próxima clase realizarán actividades de vocabulario y análisis.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772125304332",
+      "sequence_id": "seq-1772114673194",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión oral - Post-escucha",
+      "intencion_pedagogica": "Profundizar en la comprensión del cuento \"El viaje de Martín\" mediante ejercicios de vocabulario, identificación de estructura y preguntas de análisis.",
+      "estrategia": "• Ejercicios de vocabulario contextual.\n• Identificación de estructura del cuento.\n• Preguntas de comprensión.\n• Trabajo individual y socialización.",
+      "aprendizaje_significativo": "Los estudiantes profundizan en la comprensión de un cuento que invita a reflexionar sobre los valores humanos (creatividad, juego, amor a la naturaleza), conectando así con su propia forma de ser y estar en el mundo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de vocabulario: Se les proporciona una lista de posibles sinónimos para la actividad 1.\n• Para estudiantes kinestésicos: Pueden recortar y pegar las partes del cuento en su cuaderno.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que escriban un final alternativo para el cuento.",
+      "actividades_cuaderno": "Título: Comprendiendo \"El viaje de Martín\"\n1. Escribe el significado de tres palabras nuevas que aprendiste hoy.\n2. ¿Cuáles son las tres partes del cuento? Explica brevemente qué ocurre en cada una.\n3. ¿Qué crítica hace el cuento a la sociedad del futuro?\n4. ¿Qué valores humanos crees que son importantes para el futuro?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan el cuento 'El viaje de Martín'? ¿De qué trataba?\"\n2. Anuncia que hoy harán actividades para comprenderlo mejor.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del cuento\n• Cuadernos\n• Lápices\n• Pizarra",
+          "descripcion": "1. El docente presenta el ejercicio de la página 144: explicar el significado de palabras destacadas sin usar diccionario.\n- \"entusiasmo y nostalgia\"\n- \"gigantesca nave, posada\"\n- \"extraterrestres\"\n- \"se había disipado\"\n- \"artefacto\"\n- \"sorpresivamente\"\n- \"expectante asombro\"\n- \"accedió a acompañarlos\"\n- \"supervivencia de la humanidad\"\n- \"manera menos sospechada\"\n2. Los estudiantes trabajan individualmente y socializan.\n\nActividad 2 - Identificación de estructura (20 min):\n1. El docente entrega una copia del cuento o lo proyecta.\n2. Pide: \"Señala con un corchete la parte que corresponde al inicio, enmarca en un cuadro el nudo y encierra entre llaves el desenlace\" (pág. 144).\n3. Los estudiantes trabajan en su copia.\n4. Socializan: ¿Dónde está el inicio? (párrafos 1-2). ¿El nudo? (párrafos 3-5). ¿El desenlace? (párrafo 6).\n\nActividad 3 - Preguntas de comprensión (20 min):\n1. El docente presenta las preguntas de la página 144-145:\n- \"¿Quién es el personaje principal?\"\n- \"¿Quién cuenta la historia?\" (narrador en tercera persona).\n- \"¿Diferencia entre personaje y narrador?\"\n- \"¿Cómo es el ambiente?\"\n- \"¿Qué sienten los personajes?\"\n- \"¿Crees que te habrían escogido a ti? ¿Por qué?\"\n- \"¿Qué crítica a la sociedad del futuro se hace?\" (han perdido la creatividad, el juego, el amor a la naturaleza).\n- \"¿Por qué Martín viajó al futuro para salvar nuestro presente?\"",
+          "actividad_numero": "Comprensión oral (Actividades, pág. 144-145)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente guía una reflexión: \"¿Qué valores humanos destaca este cuento?\" (creatividad, juego, amor a la naturaleza, solidaridad).\n2. \"¿Están de acuerdo con que el futuro podría perder estos valores?\"\n3. Anuncia que en la próxima clase introducirán el concepto de \"actantes\" en el cuento.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772125386337",
+      "sequence_id": "seq-1772114673194",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Gramática textual - Actantes",
+      "intencion_pedagogica": "Conocer y aplicar el esquema actancial a un cuento, identificando los roles de sujeto, objeto, destinador, destinatario, ayudante y oponente.",
+      "estrategia": "• Explicación teórica: Los actantes del cuento.\n• Uso de gráfico: Esquema de relaciones actanciales.\n• Trabajo en grupos: Identificación de actantes en \"El viaje de Martín\".\n• Socialización.",
+      "aprendizaje_significativo": "Los estudiantes descubren que los cuentos tienen una estructura profunda con roles fijos (héroe, ayudante, oponente), lo que les permitirá analizar mejor las historias que lean y creen.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona un cuadro con los actantes ya definidos para que solo identifiquen quién los representa.\n• Para estudiantes kinestésicos: Pueden representar con gestos a cada actante mientras se explica.\n• Para estudiantes con discapacidad visual: Se les proporciona el cuadro en formato ampliado.\n• Para estudiantes avanzados: Se les pide que identifiquen los actantes en otro cuento conocido.",
+      "actividades_cuaderno": "Título: Los actantes del cuento\n1. ¿Qué es un actante?\n2. Copia el cuadro que completamos sobre \"El viaje de Martín\" con los seis actantes.\n3. Explica con tus palabras: ¿Quién es el sujeto y qué objeto quiere conseguir?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Gráfico de relaciones actanciales (pág. 145)",
+          "descripcion": "1. El docente explica: \"En todo cuento actúan unos personajes que pueden desempeñar funciones diferentes. Se llaman ACTANTES\" (pág. 145).\n2. Presenta los seis actantes:\n- Sujeto: quien realiza la acción central.\n- Objeto: lo que el sujeto quiere conseguir.\n- Destinador: quien impulsa al sujeto a buscar el objeto.\n- Destinatario: quien se beneficia si el sujeto logra su objetivo.\n- Ayudante: quien ayuda al sujeto.\n- Oponente: quien obstaculiza.\n3. Muestra el gráfico de relaciones (pág. 145).",
+          "actividad_numero": "Gramática textual (Introducción, pág. 145)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "Quién lo representa",
+          "descripcion": "Actividad 1 - Aplicación al cuento (30 min):\n1. En grupos, los estudiantes completan el cuadro de la página 145 para \"El viaje de Martín\":",
+          "actividad_numero": "Función del personaje (actantes)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "Aplicación a otros cuentos:\n1. El docente pregunta: \"¿Pueden pensar en otro cuento conocido (Caperucita, Los tres cerditos) y quiénes serían los actantes?\"\n2. Algunos ejemplos rápidos.\n3. Anuncia que en la próxima clase continuarán con el análisis de verbos y conectores en el cuento.",
+          "actividad_numero": "Gramática textual (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772125462127",
+      "sequence_id": "seq-1772114673194",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Producción oral - Preparación",
+      "intencion_pedagogica": "Iniciar la preparación de un cuento para ser contado oralmente, utilizando el esquema actancial y planificando la estructura narrativa.",
+      "estrategia": "• Trabajo individual: Creación de cuento oral.\n• Uso de esquema actancial.\n• Planificación guiada.\n• Socialización en grupos.",
+      "aprendizaje_significativo": "Los estudiantes crean sus propias historias, desarrollando su imaginación y creatividad, y preparándose para compartirlas con sus compañeros.",
+      "actividades_complementarias": "• Para estudiantes con dificultades para crear historias: El docente sugiere ideas o personajes para inspirarlos.\n• Para estudiantes kinestésicos: Mientras planifican, pueden hacer gestos que representarán en su narración.\n• Para estudiantes con discapacidad visual: Se les proporciona el esquema en formato ampliado.\n• Para estudiantes avanzados: Se les pide que incluyan un conflicto más complejo o varios personajes.",
+      "actividades_cuaderno": "Título: Mi cuento - Planificación\n1. Completa el esquema de actantes para tu cuento:\n- Sujeto:\n- Objeto:\n- Destinador:\n- Destinatario:\n- Ayudante:\n- Oponente:\n2. ¿Dónde y cuándo ocurre tu cuento?\n3. Escribe brevemente qué pasará en el inicio, nudo y desenlace.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Esquema de actantes (pág. 146) en pizarra",
+          "descripcion": "1. El docente anuncia: \"En la próxima clase deben producir un cuento de forma oral\" (pág. 146).\n2. Explica que usarán el esquema de actantes para crear su cuento.\n3. Muestra el esquema de la página 146.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 146)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lápices\n• Pizarra con esquemas",
+          "descripcion": "1. Los estudiantes completan el esquema de actantes para su propio cuento (pág. 146):\n- Sujeto: ¿quién será el héroe?\n- Objeto: ¿qué quiere conseguir?\n- Destinador: ¿quién lo impulsa?\n- Destinatario: ¿quién se beneficia?\n- Ayudante: ¿quién lo ayuda?\n- Oponente: ¿quién lo obstaculiza?\n2. Piensan en el contexto (tiempo y lugar) y en las acciones que realizarán los personajes.\n\nActividad 2 - Estructura del cuento (15 min):\n1. Los estudiantes planifican las tres partes (pág. 146):\n- Inicio: presentación de personajes y situación.\n- Nudo: complicación, progresión de acciones.\n- Desenlace: resolución.\n2. Pueden incluir descripciones y diálogos.\n\nActividad 3 - Socialización en grupos (15 min):\n1. En grupos pequeños, los estudiantes comparten la idea de su cuento.\n2. Reciben sugerencias de sus compañeros.",
+          "actividad_numero": "Producción oral (Pasos 1-4, pág. 146)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente recuerda que en la próxima clase contarán sus cuentos oralmente.\n2. Pueden terminar de preparar su cuento en casa.\n3. Anima a los estudiantes a ensayar en voz alta.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772125532628",
+      "sequence_id": "seq-1772114673194",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción oral - Presentaciones Día 1",
+      "intencion_pedagogica": "Iniciar las presentaciones orales de los cuentos creados por los estudiantes, demostrando creatividad, expresión oral y capacidad para mantener el interés del público.",
+      "estrategia": "• Exposiciones orales: Estudiantes cuentan sus cuentos.\n• Escucha activa: Compañeros toman nota.\n• Preguntas de comprensión oral.\n• Retroalimentación.",
+      "aprendizaje_significativo": "Los estudiantes comparten sus creaciones con sus compañeros, desarrollando su confianza y habilidades comunicativas en un ambiente de respeto y aprecio por la creatividad.",
+      "actividades_complementarias": "• Para estudiantes con ansiedad escénica: Se les permite tener tarjetas con palabras clave.\n• Para estudiantes kinestésicos: Se valora el uso de gestos durante la narración.\n• Para estudiantes con discapacidad auditiva: Se asegura que puedan ver los labios del narrador o se les proporciona un resumen escrito.\n• Para estudiantes avanzados: Se les anima a usar voces diferentes para cada personaje.",
+      "actividades_cuaderno": "Título: Cuentos de mis compañeros - Día 1\n1. ¿Qué cuento te gustó más hoy? ¿Por qué?\n2. ¿Qué personaje te pareció más interesante?\n3. ¿Qué valores o enseñanzas encontraste en los cuentos escuchados?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio organizado",
+          "descripcion": "1. El docente organiza el espacio para las narraciones.\n2. Recuerda las pautas: contar con claridad, usar entonación, mantener el orden de la historia (inicio, nudo, desenlace).\n3. Recuerda al público que debe escuchar atentamente, pues luego habrá preguntas.",
+          "actividad_numero": "Producción oral (Organización)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes\n• Cuaderno de notas del docente",
+          "descripcion": "1. El docente invita a los primeros 6-7 estudiantes a pasar al frente (aproximadamente 5-7 minutos cada uno).\n2. Cada estudiante cuenta su cuento.\n3. Al final de cada narración, el docente puede hacer preguntas breves al público (pág. 147):\n- \"¿Cuál es el personaje principal?\"\n- \"¿Quién cuenta la historia?\"\n- \"¿Cuáles son las acciones principales?\"\n- \"¿Pueden identificar los actantes?\"\n- \"¿En qué contexto ocurre?\"\n4. El docente toma nota de los aspectos a destacar y áreas de mejora.",
+          "actividad_numero": "Producción oral (Presentaciones, pág. 147)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente ofrece retroalimentación general sobre las narraciones del día: aspectos positivos (creatividad, claridad, uso de diálogos) y aspectos a mejorar.\n2. Anuncia que en la próxima clase continuarán con las presentaciones restantes.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772125611334",
+      "sequence_id": "seq-1772114673194",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Producción oral - Presentaciones Día 2",
+      "intencion_pedagogica": "Completar las presentaciones orales de los cuentos creados por los estudiantes, fomentando la escucha activa y el aprecio por la creatividad.",
+      "estrategia": "• Exposiciones orales: Continuación de presentaciones.\n• Escucha activa.\n• Preguntas de comprensión.",
+      "aprendizaje_significativo": "Los estudiantes completan el ciclo de narraciones, valorando la diversidad de historias y estilos de sus compañeros.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de expresión oral: Se les permitió apoyarse en sus notas.\n• Para estudiantes kinestésicos: Se valoró su expresividad gestual.\n• Para estudiantes con discapacidad visual: Se les permitió tener su cuento en formato ampliado para consulta.\n• Para estudiantes avanzados: Se reconoció su capacidad para crear tramas complejas.",
+      "actividades_cuaderno": "Título: Cuentos de mis compañeros - Día 2\n1. ¿Qué cuento de los escuchados hoy te gustó más? ¿Por qué?\n2. ¿Qué aprendiste de las historias de tus compañeros?\n3. ¿Qué fue lo más difícil de contar tu propio cuento?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio organizado",
+          "descripcion": "1. El docente organiza el espacio y recuerda las pautas.\n2. Anuncia que hoy se completarán las presentaciones.",
+          "actividad_numero": "Producción oral (Organización)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes restantes (6-7) pasan al frente a contar sus cuentos.\n2. Cada narración dura aproximadamente 5-7 minutos.\n3. Al final de cada narración, el docente invita al público a hacer preguntas o comentarios.\n4. El docente completa sus notas de evaluación formativa.",
+          "actividad_numero": "Producción oral (Presentaciones)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente felicita a todos los estudiantes por su creatividad y esfuerzo.\n2. Destaca algunos aspectos positivos observados en las narraciones.\n3. Anuncia que en la próxima clase comenzarán con la comprensión escrita de un cuento clásico.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772125674463",
+      "sequence_id": "seq-1772114673194",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Comprensión escrita - Prelectura",
+      "intencion_pedagogica": "Activar conocimientos previos sobre el invierno y realizar la primera lectura del cuento \"La pequeña vendedora de fósforos\".",
+      "estrategia": "• Uso de imágenes: Paisaje invernal.\n• Diálogo dirigido: Exploración de conocimientos sobre el invierno y la pobreza.\n• Formulación de hipótesis a partir del título.\n• Lectura en voz alta del cuento.",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre las diferencias climáticas y sociales entre su país y otros, conectando así con realidades distintas a la suya y desarrollando empatía.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía con preguntas para responder durante la lectura.\n• Para estudiantes kinestésicos: Mientras escuchan, pueden dibujar una escena del cuento.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción del cuento.\n• Para estudiantes avanzados: Se les pide que investiguen quién fue Hans Christian Andersen.",
+      "actividades_cuaderno": "Título: La pequeña vendedora de fósforos\n1. ¿Quién escribió este cuento?\n2. ¿Dónde y en qué época del año ocurre la historia?\n3. ¿Quién es la protagonista?\n4. Escribe tus primeras impresiones: ¿Qué te hizo sentir este cuento?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imagen de paisaje invernal\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente lleva al aula una imagen de un paisaje invernal (pág. 147).\n2. Propicia un diálogo con preguntas:\n- \"¿Qué observan?\"\n- \"¿Con qué época del año se relaciona esta imagen?\"\n- \"¿Dónde pueden verse paisajes como este?\"\n- \"¿Qué actividades especiales hace la gente en estas épocas?\"\n- \"¿Cómo crees que es la vida de las personas pobres durante el invierno?\"\n- \"¿Conocen a alguien que haya vivido en lugares con nieve?\"",
+          "actividad_numero": "Comprensión escrita (Prelectura, pág. 147)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del cuento \"La pequeña vendedora de fósforos\" (pág. 149-150)",
+          "descripcion": "1. El docente copia el título en la pizarra: \"La pequeña vendedora de fósforos\" (pág. 147-148).\n2. Pregunta: \"¿De qué creen que tratará? ¿Qué piensan que ocurrirá?\"\n3. Anota las hipótesis en la pizarra.\n4. Entrega una copia del cuento a cada estudiante o lo presenta en papelógrafo (pág. 149-150).\n5. Lee el cuento en voz alta, mientras los estudiantes siguen con la vista.",
+          "actividad_numero": "Comprensión escrita (Lectura, pág. 148-150)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis\n• Participación de los estudiantes",
+          "descripcion": "1. El docente recoge las primeras impresiones: \"¿Qué les pareció el cuento?\"\n2. Retoma las hipótesis: \"¿Cuáles se confirmaron?\"\n3. Anuncia que en la próxima clase analizarán el cuento con más detalle.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772125914974",
+      "sequence_id": "seq-1772114673194",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Comprensión escrita - Post-lectura",
+      "intencion_pedagogica": "Profundizar en la comprensión del cuento \"La pequeña vendedora de fósforos\" mediante ejercicios de vocabulario, análisis de personajes y reflexión sobre los derechos del niño.",
+      "estrategia": "• Ejercicios de vocabulario contextual.\n• Preguntas de comprensión.\n• Análisis de personajes y ambiente.\n• Reflexión sobre valores y derechos del niño.",
+      "aprendizaje_significativo": "Los estudiantes conectan la historia con la realidad de muchos niños en el mundo, desarrollando empatía y conciencia social sobre los derechos de la infancia.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de vocabulario: Se les proporciona una lista de posibles sinónimos para la actividad 3.\n• Para estudiantes kinestésicos: Pueden representar con gestos las visiones de la niña.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que escriban una carta a la protagonista del cuento.",
+      "actividades_cuaderno": "Título: Analizando \"La pequeña vendedora de fósforos\"\n1. ¿Qué pruebas hay en el texto de que la niña era pobre?\n2. ¿Qué visiones tuvo la niña y qué representaban?\n3. Escribe el significado de tres palabras nuevas que aprendiste hoy.\n4. ¿Qué derechos del niño crees que no se respetaban en este cuento?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan el cuento de la vendedora de fósforos? ¿Qué recuerdan de la historia?\"\n2. Anuncia que hoy harán actividades de comprensión.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copias del cuento\n• Cuadernos\n• Lápices\n• Pizarra",
+          "descripcion": "1. El docente presenta las afirmaciones de la página 151 (actividad 1):\n- \"La niña imaginó o alucinó que se encontraba frente a una estufa y un árbol de navidad.\"\n- \"Los padres de la niña no la querían.\"\n- \"La niña era maltratada.\"\n- \"La familia era muy pobre.\"\n2. Los estudiantes justifican cada una apoyándose en el texto.\n\nActividad 2 - Sentimientos de la protagonista (10 min):\n1. Releen los párrafos 5 y 6 y describen los sentimientos de la niña (pág. 151).\n\nActividad 3 - Vocabulario (15 min):\n1. Actividad de la página 151-152: explicar palabras subrayadas (mozalbete, librarse, acurrucó, cobijaba, ateridas, manojo, gasa, anadeando, escaparates, rutilantes).\n2. Los estudiantes trabajan individualmente y socializan.\n\nActividad 4 - Preguntas de comprensión (20 min):\n1. Preguntas de la página 151:\n- \"¿Cómo se refiere el narrador a la protagonista?\"\n- \"¿Por qué se puede afirmar que el cuento es de corte religioso?\"\n- \"¿Qué tienen en común los hechos narrados entre los párrafos 7 y 18?\" (son visiones).\n- \"¿Qué es la fantasía? ¿Cómo aflora en estos párrafos?\"\n- \"¿En las visiones, qué veía la niña? ¿Por qué?\"\n- \"¿Crees que la abuela realmente vino a buscarla?\"\n- \"¿Qué elementos culturales definen el contexto del cuento?\"",
+          "actividad_numero": "Comprensión escrita (Actividades 1-4, pág. 151-152)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente asigna la actividad 6 de la página 152: \"Investiga cuáles son los derechos del niño.\" (puede ser tarea).\n2. Reflexionan oralmente: \"¿Se respetaban los derechos de la niña en el cuento?\"\n3. \"¿Conocen niños con realidades parecidas? ¿Qué harían para ayudar?\"\n4. Anuncia que en la próxima clase trabajarán en la producción escrita de un cuento.",
+          "actividad_numero": "Comprensión escrita (Actividad 6, pág. 152)"
+        }
+      ]
+    },
+    {
+      "id": "1772126529467",
+      "sequence_id": "seq-1772114673194",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Producción escrita",
+      "intencion_pedagogica": "Planificar y redactar el primer borrador de un cuento (fantástico o de ciencia ficción) para ser compartido con estudiantes de grados inferiores.",
+      "estrategia": "• Diálogo dirigido: Elección de tipo de cuento (ciencia ficción o fantástico).\n• Uso de esquema actancial.\n• Trabajo colaborativo: Socialización de ideas.\n• Redacción de borrador.\n• Revisión con lista de cotejo.",
+      "aprendizaje_significativo": "Los estudiantes crean sus propios cuentos para compartir con niños menores, conectando así la producción escrita con una audiencia real y significativa.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de escritura: Se les permite usar el esquema de actantes como guía.\n• Para estudiantes kinestésicos: Pueden ilustrar su cuento mientras lo escriben.\n• Para estudiantes con discapacidad visual: Se les proporciona la lista de cotejo en formato ampliado.\n• Para estudiantes avanzados: Se les pide que incluyan un conflicto más complejo o un giro inesperado.",
+      "actividades_cuaderno": "Título: Mi cuento - Planificación\n1. ¿Qué tipo de cuento vas a escribir? (ciencia ficción o fantástico)\n2. Completa el esquema de actantes para tu cuento.\n3. Escribe el inicio de tu cuento (primer párrafo).\n4. Revisa tu borrador con la lista de cotejo.\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente recuerda los dos tipos de cuento trabajados: ciencia ficción y fantástico (pág. 154).\n2. Anuncia: \"Van a escribir un cuento para niños de tercer y cuarto grado, para una actividad llamada 'La tarde de nuestros cuentos'.\"\n3. Recuerda la estructura: inicio, nudo, desenlace.\n4. Recuerda los componentes: personajes, narrador, ambiente, conectores, verbos en pasado, adjetivos.",
+          "actividad_numero": "Producción escrita (Introducción, pág. 154)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuaderno con planificación\n• Lápices",
+          "descripcion": "1. Los estudiantes se reúnen en grupos de 4-5 (pág. 154).\n2. Comparten sus ideas: tema, personajes, ambiente, acciones.\n3. Cada estudiante completa el cuadro de actantes en su cuaderno (pág. 155).\n\nActividad 2 - Esquema del cuento (15 min):\n1. Los estudiantes responden: \"¿Cómo voy a iniciar mi cuento? ¿Cómo presentaré los personajes? ¿Cómo complicaré la trama? ¿Cómo desenlazaré?\" (pág. 155).\n2. Anotan sus ideas.\n\nActividad 3 - Redacción del borrador (25 min):\n1. Los estudiantes comienzan a escribir su cuento (pág. 155).\n2. El docente circula y apoya.",
+          "actividad_numero": "Producción escrita (Pasos 1-4, pág. 154-155)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Lista de cotejo (pág. 158) en pizarra o fotocopiada",
+          "descripcion": "1. El docente presenta la lista de cotejo (pág. 158).\n2. Los estudiantes revisan su borrador con las preguntas:\n- \"¿Tiene título?\"\n- \"¿Hay inicio, nudo y desenlace?\"\n- \"¿Se presentan y describen los personajes?\"\n- \"¿Hay diálogos?\"\n- \"¿Se usan conectores?\"\n- \"¿Se usan verbos en pasado?\"\n- \"¿Se cuidó la ortografía?\"\n3. Anuncia que en la próxima clase (o como tarea) continuarán con la revisión entre pares y la versión final.",
+          "actividad_numero": "Producción escrita (Revisión, pág. 155)"
+        }
+      ]
+    },
+    {
+      "id": "1772128028636",
+      "sequence_id": "seq-1772114673194",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Producción escrita - Revisión y versión final",
+      "intencion_pedagogica": "Revisar los borradores de los cuentos con ayuda de compañeros y del docente, y redactar la versión final para ser compartida con niños de grados inferiores.",
+      "estrategia": "• Coevaluación entre pares.\n• Revisión guiada con lista de cotejo.\n• Corrección docente.\n• Redacción de versión final.",
+      "aprendizaje_significativo": "Los estudiantes experimentan el proceso real de escritura: planificar, escribir, recibir retroalimentación y corregir, preparándose para producir textos de calidad.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de escritura: Se les permite que la versión final sea escrita con ayuda de un compañero o en computadora.\n• Para estudiantes kinestésicos: Pueden ensayar la lectura en voz alta con gestos.\n• Para estudiantes con discapacidad visual: Se les proporciona la versión final en formato ampliado.\n• Para estudiantes avanzados: Se les pide que ilustren su cuento para la actividad.",
+      "actividades_cuaderno": "Título: Versión final de mi cuento\n1. Escribe la versión final de tu cuento en tu cuaderno.\n2. ¿Qué sugerencias de tus compañeros te ayudaron a mejorar tu cuento?\n3. ¿Cómo te sientes al compartir tu cuento con niños más pequeños?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Borradores de los estudiantes\n• Lista de cotejo (pág. 158)",
+          "descripcion": "1. El docente recuerda que hoy continuarán con la revisión de los cuentos.\n2. Pide a los estudiantes que tengan a mano su borrador y la lista de cotejo (pág. 158).",
+          "actividad_numero": "Producción escrita (Organización)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Lista de cotejo (pág. 158)\n• Borradores\n• Hojas para versión final",
+          "descripcion": "1. El docente indica: \"Intercambia tu cuento con un compañero y realiza el proceso de revisión con el cuento de él\" (pág. 155).\n2. Los estudiantes intercambian borradores y revisan usando la lista de cotejo.\n3. Anotan observaciones y sugerencias.\n4. Luego se reúnen y comparten las observaciones que cada uno hizo a la producción del otro.\n\nActividad 2 - Corrección con el docente (20 min):\n1. El docente circula y revisa los borradores, dando retroalimentación individualizada (pág. 155).\n2. Puede usar estrategias: entrevista breve con cada estudiante, lectura en voz alta, etc. (pág. 81).\n\nActividad 3 - Redacción de la versión final (15 min):\n1. Los estudiantes escriben la versión final de su cuento, incorporando las sugerencias de sus compañeros y del docente (pág. 155).\n2. Pasan en limpio su cuento.",
+          "actividad_numero": "Producción escrita (Pasos 5-8, pág. 155)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente anuncia que en la próxima clase celebrarán \"La tarde de nuestros cuentos\" con niños de tercer o cuarto grado (pág. 155).\n2. Explica la dinámica: cada estudiante leerá su cuento o lo contará a los niños visitantes.\n3. Los estudiantes pueden practicar la lectura en voz alta de su cuento.",
+          "actividad_numero": "Producción escrita (Preparación final)"
+        }
+      ]
+    },
+    {
+      "id": "1772128109841",
+      "sequence_id": "seq-1772114673194",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "La tarde de nuestros cuentos",
+      "intencion_pedagogica": "Compartir los cuentos escritos con niños de tercer o cuarto grado en la actividad \"La tarde de nuestros cuentos\", demostrando creatividad y habilidades de expresión oral.",
+      "estrategia": "• Lectura en voz alta.\n• Interacción con público real (niños de grados inferiores).\n• Escucha activa.\n• Celebración y cierre.",
+      "aprendizaje_significativo": "Los estudiantes comparten sus creaciones con una audiencia real, experimentando la satisfacción de ver su trabajo apreciado y cumpliendo un propósito comunicativo auténtico.",
+      "actividades_complementarias": "• Para estudiantes con ansiedad escénica: Se les permite leer su cuento en lugar de contarlo de memoria.\n• Para estudiantes kinestésicos: Pueden usar gestos y movimientos mientras leen.\n• Para estudiantes con discapacidad visual: Se les permite tener su cuento en formato ampliado.\n• Para estudiantes avanzados: Pueden hacer voces diferentes para cada personaje.",
+      "actividades_cuaderno": "Título: Mi experiencia en \"La tarde de nuestros cuentos\"\n1. ¿Cómo te sentiste al compartir tu cuento con los niños más pequeños?\n2. ¿Qué cuento de algún compañero te gustó más? ¿Por qué?\n3. ¿Qué fue lo más importante que aprendiste en esta secuencia sobre los cuentos?\n4. ¿Te gustaría seguir escribiendo cuentos? ¿Por qué?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio organizado\n• Visitantes de grados inferiores",
+          "descripcion": "1. El docente ha coordinado previamente con los docentes de tercer o cuarto grado para que los niños visiten el aula (pág. 155).\n2. Da la bienvenida a los visitantes y explica la actividad: los estudiantes de sexto han escrito cuentos y los compartirán con ellos.\n3. Organiza el espacio para que los visitantes se sienten cómodamente.",
+          "actividad_numero": "Producción oral (Organización)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Versiones finales de los cuentos\n• Participación de los estudiantes y visitantes",
+          "descripcion": "1. Los estudiantes de sexto, de forma voluntaria o en orden establecido, pasan al frente a leer o contar su cuento.\n2. Cada estudiante tiene aproximadamente 5 minutos para compartir su cuento.\n3. Los niños visitantes escuchan atentamente.\n4. Al final de cada cuento, pueden aplaudir y hacer preguntas sencillas si lo desean.\n5. El docente crea un ambiente de respeto y aprecio por cada creación.",
+          "actividad_numero": "Producción oral (Actividad central, pág. 155)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente agradece a los visitantes por su asistencia.\n2. Los visitantes regresan a su aula.\n3. El docente guía una reflexión con los estudiantes de sexto:\n- \"¿Cómo se sintieron al compartir sus cuentos?\"\n- \"¿Qué fue lo más gratificante?\"\n- \"¿Qué aprendieron en esta secuencia sobre los cuentos?\"\n4. El docente felicita a todos por su creatividad y esfuerzo.\n5. Cierra la secuencia destacando la importancia de la imaginación y la creatividad en sus vidas.",
+          "actividad_numero": "Producción oral (Cierre de la secuencia)"
+        }
+      ]
+    }
+  ]
+}

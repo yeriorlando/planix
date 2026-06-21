@@ -1,0 +1,672 @@
+{
+  "id": "seq-1771694171957",
+  "title": "Sustracción y multiplicación de números naturales",
+  "description": "En esta unidad se consolidan los procedimientos de sustracción y multiplicación con números naturales, promoviendo tanto el cálculo mental como el uso adecuado de algoritmos.",
+  "order": 2,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771694171952",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Resolver problemas de sustracción",
+      "intencion_pedagogica": "Resolver problemas de sustracción de números naturales mayores que 1,000,000 utilizando dos estrategias: por descomposición y forma tradicional.\n\n",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre lugares turísticos.\n\nUso de material audiovisual: Video sobre playas de República Dominicana.\n\nCálculo mental: Resolución de operaciones sencillas.\n\nSituación problemática: Resolución de un problema de sustracción con dos estrategias.\n\nTrabajo individual: Resolución de ejercicios.",
+      "aprendizaje_significativo": "Se parte del contexto turístico dominicano (Isla Saona, playas) para introducir la sustracción de números naturales, conectando así el aprendizaje matemático con el conocimiento del patrimonio natural del país.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la resta: Se les permite usar la tabla de valor posicional como apoyo.\n\nPara estudiantes kinestésicos: Se les invita a representar las cantidades con material concreto (fichas de colores para unidades, decenas, etc.).\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que inventen un problema similar y lo resuelvan.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 37, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o imágenes de playas\n• Pizarra\n(https://www.youtube.com/watch?v=FyRsCORXSJE).",
+          "descripcion": "1. El docente inicia preguntando: \"¿Han visitado playas o lugares turísticos del país? ¿Cuáles?\" (pág. 36).\n2. Proyecta el video \"7 de las mejores playas de República Dominicana\" (https://www.youtube.com/watch?v=FyRsCORXSJE).\n3. Socializa con preguntas: \"¿De qué trata el video? ¿Cuál zona turística te gustó? ¿Por qué son importantes las playas para la economía? ¿Cuántos turistas visitan Isla Saona diariamente? ¿Cuál es el promedio anual?\"\n4. Escribe en la pizarra operaciones de cálculo mental relacionadas con Isla Saona:\na. 2,500 – 2,000\nb. 25,000 – 20,000\nc. 600,000 – 400,000\nPregunta: \"¿Cuál operación es esta? ¿Cómo se resuelven?\"",
+          "actividad_numero": "Actividad 1 A (pág. 36)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cartulina con problema\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta en una cartulina el problema (pág. 36): \"Una zona turística fue visitada en 2021 por 1,645,256 turistas extranjeros. Esta cantidad superó en 316,134 turistas al año 2020. ¿Cuántos turistas extranjeros llegaron en 2020?\"\n2. Un estudiante lee el problema. Preguntas de comprensión: \"¿Qué información aporta? ¿Qué piden resolver? ¿Cómo lo resolverían?\"\n3. Los estudiantes resuelven solos. El docente observa y guía.\n4. Envía uno o dos estudiantes a la pizarra.\n5. Explica dos estrategias (pág. 36):\n- Estrategia 1 (por descomposición): Descomponer aditivamente el minuendo y sustraendo.\n- Estrategia 2 (forma tradicional): Restar de forma vertical con reagrupación.",
+          "actividad_numero": "Actividad 1 Resolución (pág. 36)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "1. Los estudiantes resuelven usando las dos estrategias:\na. 1,879,578 – 1,792,467\nb. 2,005,057 – 7,040,465 (corregir, debe ser 7,040,465 - 2,005,057 o similar, pero se respeta el texto)\nc. Problema: \"La zona turística del este fue visitada por 1,295,456 extranjeros y la costa norte por 942,132. ¿Cuántos extranjeros más visitaron la costa este?\"\n2. Pide a estudiantes pasar a la pizarra y justificar.\n\nCierre (pág. 37):\nPreguntas: \"¿Con cuál operación se resolvieron los problemas? ¿Qué hacían cuando el número de arriba era menor? ¿Qué opinan de la estrategia de descomposición?\"\n\nActividad complementaria (pág. 37):\nResolver ejercicios de resta y problemas: a) 2,564,124 – 1,623,100; b) 1,225,356 – 813,234; c) 1,125,253 – 1,006,141; y dos problemas de turistas.\n\nActividad para el diario del estudiante (pág. 37):\nUsar la calculadora sin presionar la tecla 5 para resolver: a) 1,256,236 – 916,112; b) 2,547,004 – 1,288,002.",
+          "actividad_numero": "Actividad 1 Actividad para el cuaderno (pág. 37) Cierre (pág. 37) Actividad complementaria (pág. 37) Actividad para el diario (pág. 37)"
+        }
+      ]
+    },
+    {
+      "id": "1771694282782",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Me divierte la sustracción",
+      "intencion_pedagogica": "Resolver problemas de sustracción de números naturales mayores que 1,000,000, identificando los términos de la resta (minuendo, sustraendo, diferencia) y aplicando dos estrategias de solución.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nIdentificación de términos: Uso de rótulos para identificar minuendo, sustraendo y diferencia.\n\nSituaciones problemáticas: Resolución de problemas con cantidades mayores que 1,000,000.\n\nDos estrategias: Forma tradicional y por descomposición.",
+      "aprendizaje_significativo": "Se utilizan situaciones de compras en hoteles y ventas de paquetes turísticos para practicar la sustracción, mostrando su aplicación en el sector turístico y comercial.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la resta: Se les proporciona una tabla de valor posicional para apoyar la descomposición.\n\nPara estudiantes kinestésicos: Se les invita a representar las restas con material concreto (billetes ficticios).\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen por qué la descomposición funciona.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 39, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Rótulos con términos",
+          "descripcion": "1. El docente inicia corrigiendo un ejercicio de la actividad del diario.\n2. Permite que los estudiantes expliquen cómo lo resolvieron.\n3. Socializa los resultados y retroalimenta el proceso.\n4. Para identificar los términos de la sustracción, pregunta señalando cada número: \"¿Saben el nombre de cada número?\" Anota ideas en la pizarra y conceptualiza: minuendo, sustraendo, signo (-), resta o diferencia.",
+          "actividad_numero": "Actividad 2 A (pág. 38)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Cartulina con problema resuelto\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. B (pág. 38): Plantea el problema: \"Las compras de alimentos en un hotel en julio fueron RD$ 1,081,121 y en agosto RD$ 2,125,243. ¿Cuánto fue el aumento?\"\n2. Un estudiante lee. Pregunta: \"¿Cómo resolver?\"\n3. Los estudiantes resuelven. Socializa y presenta en cartulina las dos estrategias (descomposición y forma tradicional).\n4. C (pág. 38): Plantea: \"Las ventas de paquetes turísticos en un hotel fueron USD$ 2,123,856 el primer año y USD$ 1,872,072 el segundo. ¿Cuánto más se vendió el primer año?\"\n5. Los estudiantes resuelven. Preguntas de comprensión: \"¿Qué información tiene? ¿Qué hay que resolver? ¿Qué significan USD$ y RD$?\"\n6. Envía dos o tres estudiantes a la pizarra. Resuelven con dos procedimientos (ejemplo de Cristal y Omar, pág. 39).",
+          "actividad_numero": "Actividad 2 B y C (págs. 38-39)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "1. Identificar los elementos de la sustracción en dos ejemplos gráficos.\n2. Resolver el problema: \"En una tienda vendieron en 2018 ropa por RD$ 2,587,145. Esta cantidad representa RD$ 692,802 más que en 2017. ¿Cuánto se vendió en 2017?\"\n\nCierre (pág. 39):\nPreguntas: \"¿Cómo resolvieron? ¿Cuánto fue el resultado? ¿Quién dice el procedimiento?\" El docente anota los avances en su libreta.\n\nActividad complementaria (pág. 39):\nResolver: \"¿Cuánto más es 1,258,459 que 927,818?\" y \"¿Cuál es la diferencia entre 604,175 y 1,005,452?\"\n\nActividad para el diario del estudiante (pág. 39):\n*\"Manny tiene una calculadora con la tecla del número 2 dañada. ¿Cómo ayudarías a resolver 1,257,601 - 872,315 con esta calculadora? Describe el procedimiento.\"*",
+          "actividad_numero": "Actividad 2 Actividad para el cuaderno (pág. 39) Cierre (pág. 39) Actividad complementaria (pág. 39) Actividad para el diario (pág. 39)"
+        }
+      ]
+    },
+    {
+      "id": "1771694543801",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Resolver problemas con minuendo terminado en ceros",
+      "intencion_pedagogica": "Resolver problemas de sustracción de números naturales mayores que 1,000,000.",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nObservación guiada: Identificación de números que terminan en ceros.\n\nProcedimiento específico: Uso del anterior del número para facilitar la resta.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se enseña un truco matemático (usar el anterior del número) para restar cantidades que terminan en ceros, facilitando el cálculo y mostrando estrategias de simplificación.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una plantilla con los pasos del procedimiento.\n\nPara estudiantes kinestésicos: Se les invita a escribir los números y sus anteriores en tarjetas.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen por qué funciona este procedimiento.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 41, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta por la actividad del diario.\n2. Escribe en la pizarra: a. 1,000; b. 100,000; c. 1,000,000.\n3. Pregunta: \"¿Qué tienen en común? ¿Cuál es el número anterior de 1,000,000?\"\n4. Anuncia que hoy aprenderán a resolver problemas donde el minuendo tenga 6 o menos ceros, usando el anterior del número.",
+          "actividad_numero": "Actividad 3 A (pág. 40)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. B (pág. 40): Plantea el problema: \"En la fiesta de carnaval de Las Terrenas, se otorgó un premio de RD$ 100,000 para las dos comparsas finalistas. A la ganadora le dieron RD$ 56,978. ¿Cuánto le correspondió al segundo lugar?\"\n2. Los estudiantes resuelven. Monitorea el trabajo.\n3. Explica el procedimiento:\n- Paso 1: Buscar el anterior de cada número (99,999 y 56,977).\n- Paso 2: Restar de forma tradicional.\n4. Muestra otros ejemplos (pág. 40): 500,000 - 198,754; 2,000,000 - 854,967.\n5. Actividad para el cuaderno (pág. 41): Resolver:\na. \"En un hotel se consumieron 900,000 huevos en 7 meses y 657,769 en los otros 5. ¿Cuántos más se consumieron en los primeros 7 meses?\"\nb. \"¿Cuánto le falta 647,658 para llegar a 2,000,000?\"\nc. 800,000 – 369,587",
+          "actividad_numero": "Actividad 3 B (pág. 40) Actividad para el cuaderno (pág. 41)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Preguntas: \"¿Cuál es el anterior de 600,000? ¿Cuáles pasos se dan para restar una cantidad a un número que termina en varios ceros? ¿Cómo se obtiene el anterior?\"\n\nActividad complementaria (pág. 41):\nResolver: 1,500,000 – 365,589; \"¿Cuánto menos es 685,523 que 900,000?\"; problema del hotel y supermercado; \"¿Cuánto más es 875,000 que 236,957?\"; 1,225,000 – 1,114,854.\n\nActividad para el diario del estudiante (pág. 41):\nResolver: 1,700,000 – 565,475; 600,000 – 287,675.",
+          "actividad_numero": "Actividad 3 Cierre (pág. 41) Actividad complementaria (pág. 41) Actividad para el diario (pág. 41)"
+        }
+      ]
+    },
+    {
+      "id": "1771694614310",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 3,
+      "title": "Actividad 4 - Actividad 4",
+      "name": "Me encanta estimar restas",
+      "intencion_pedagogica": "Estimar restas o diferencias de números naturales mayores que 1,000,000.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de datos reales: Tabla del Banco Central sobre flujo turístico.\n\nEstimación: Aproximación de minuendo y sustraendo para calcular diferencias aproximadas.\n\nComparación de estimaciones: Diferentes estudiantes pueden tener estimaciones diferentes y todas válidas.",
+      "aprendizaje_significativo": "Se utilizan datos reales del Banco Central sobre el flujo turístico en República Dominicana para practicar la estimación de restas, mostrando la utilidad de esta habilidad en el análisis de datos estadísticos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectura de tablas: Se les guía paso a paso en la interpretación de la tabla.\n\nPara estudiantes kinestésicos: Se les invita a señalar en la tabla los datos que se están utilizando.\n\nPara estudiantes con discapacidad visual: Se les proporciona la tabla en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que justifiquen por qué eligieron cierta aproximación para estimar.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 43, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta quiénes hicieron la actividad del diario y cuáles dificultades tuvieron.\n2. Selecciona algunos ejercicios y pide a un estudiante que explique cómo lo resolvió.\n3. Anuncia el tema: \"Resolver problemas aplicando estimación de diferencias\". Pregunta qué recuerdan de la estimación de sumas.",
+          "actividad_numero": "Actividad 4 A (pág. 41)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tabla del Banco Central (pág. 42 y 69)\n• Pizarra",
+          "descripcion": "1. El docente presenta en un lugar visible la tabla \"Llegada de extranjeros no residentes vía aérea según características de viaje\" (pág. 42 y anexo pág. 69).\n2. Los estudiantes observan la tabla. Preguntas de comprensión: \"¿Cuál es la información general? ¿Qué entienden por extranjeros no residentes? ¿A qué tiempo corresponde la información? ¿Qué institución la ofrece?\"\n3. Plantea el problema (pág. 42): \"Los extranjeros que se alojaron en hoteles fueron 1,151,800 en 2020 y 1,537,782 en 2021. Estime cuántos extranjeros más llegaron en 2021.\"\n4. Los estudiantes leen y expresan cómo resolver usando estimación.\n5. Envían estudiantes a la pizarra.\n6. Presenta la tabla de estimaciones (pág. 43) con dos formas de estimar (Ámbar y Nelly).\n7. Concluye que ambas estimaciones son correctas, ya que la estimación varía de una persona a otra.",
+          "actividad_numero": "Actividad 4 B (págs. 42-43)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver por estimación: 1,523,670 - 1,253,423.\n\nCierre (pág. 43):\nPreguntas: *\"¿Qué es estimar? ¿Existe una única estimación posible? ¿Cómo estimarían 815 - 236?\"*\n\nActividad complementaria (pág. 43):\nResolver por estimación usando la tabla: 1) Viajeros masculinos 2021 menos 2020; 2) 2,067,896 - 1,293,650; 3) 654,078 - 390,242; 4) 1,254,077 - 657,945; 5) Motivo de viaje con mayor cantidad de extranjeros.\n\nActividad para el diario del estudiante (pág. 43):\nResolver por estimación: 1) ¿Cuántos viajeros más por recreación en 2021 que en 2020? 2) ¿Cuántos viajeros menos de sexo femenino viajaron en 2020 que en 2021?\nNota: Solicitar calculadoras para la próxima clase.",
+          "actividad_numero": "Actividad 4 Actividad para el cuaderno (pág. 43) Cierre (pág. 43) Actividad complementaria (pág. 43) Actividad para el diario (pág. 43)"
+        }
+      ]
+    },
+    {
+      "id": "1771694722756",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 4,
+      "title": "Actividad 5 ",
+      "name": "Disfruto restar con calculadora",
+      "intencion_pedagogica": "Resolver problemas de sustracción de números naturales mayores que 1,000,000,\nusando la calculadora.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de calculadora: Resolución de restas con teclas restringidas.\n\nRazonamiento matemático: Compensación de valores al aumentar o disminuir minuendo y sustraendo.\n\nTrabajo individual: Resolución de problemas con restricciones.",
+      "aprendizaje_significativo": "Se presenta un desafío matemático: usar la calculadora sin poder presionar una tecla específica, lo que obliga a los estudiantes a pensar en estrategias de compensación y a comprender más profundamente el significado de la resta.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en el razonamiento: Se les proporciona una guía paso a paso de los procedimientos de compensación.\n\nPara estudiantes kinestésicos: Se les invita a anotar los pasos en la pizarra mientras otros usan la calculadora.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado y calculadoras con voz.\n\nPara estudiantes avanzados: Se les pide que creen un problema similar con otra tecla restringida.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 45, la Actividad complementaria y la Actividad para el diario del estudiante de la página 46.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Calculadoras",
+          "descripcion": "1. El docente plantea uno de los ejercicios del diario y pide a un estudiante que explique cómo lo hizo.\n2. Pregunta: \"¿Existe algún aparato electrónico que permita realizar sumas o restas?\" Introduce el tema del uso consciente de la tecnología.\n3. Anuncia que hoy usarán la calculadora con teclas restringidas. Hace una prueba: restar 65-56 sin presionar la tecla 6 (solución: 55+10-55-1=9).",
+          "actividad_numero": "Actividad 5 A (pág. 44)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tabla de pasajeros (pág. 44 y 70)\n• Calculadoras\n• Pizarra",
+          "descripcion": "1. Presenta en una cartulina la tabla \"Llegada total de pasajeros vía aérea según residencia\" (pág. 44 y anexo pág. 70).\n2. Plantea el problema (pág. 44): \"Resuelve usando calculadora sin presionar la tecla 9. La llegada de viajeros no residentes en 2021 fue de 2,938,205 y en 2020 de 1,639,538. ¿Cuántos viajeros menos llegaron en 2020?\"\n3. Los estudiantes leen el problema. Explica que la restricción no significa que el resultado no pueda tener 9.\n4. Entre todos resuelven, mostrando dos procedimientos (pág. 45):\n- Procedimiento 1: Disminuir minuendo y aumentar sustraendo, luego compensar.\n- Procedimiento 2: Aumentar minuendo y disminuir sustraendo, luego compensar.\n5. Explica por qué se suma o resta al final para compensar.",
+          "actividad_numero": "Actividad 5 B (págs. 44-45)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver con calculadora sin presionar la tecla 5: 1) Diferencia entre viajeros extranjeros no residentes y dominicanos no residentes en 2021; 2) 707,570 - 454,064.\n\nCierre (pág. 45):\nPreguntas: \"¿Por qué se debe restar al disminuir el sustraendo? ¿Qué se hace si aumentan el minuendo? ¿Y si lo disminuyen?\"\n\nActividad complementaria (pág. 45):\nResolver sin presionar la tecla 8: 1) Diferencia total 2019 y 2020; 2) Diferencia llegada de dominicanos 2021 y 2019; 3) 1,821,346 - 870,309; 4) 865,437 - 78,572; 5) 1,018,254 - 825,735.\n\nActividad para el diario del estudiante (pág. 46):\nResolver sin usar la tecla 6: 1) 1,639,538 - 1,293,650; 2) 586,287 - 265,758; 3) Crear un problema de resta con dígitos 6 en minuendo y sustraendo.",
+          "actividad_numero": "Actividad 5 Actividad para el cuaderno (pág. 45) Cierre (pág. 45) Actividad complementaria (pág. 45) Actividad para el diario (pág. 46)"
+        }
+      ]
+    },
+    {
+      "id": "1771694812396",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Me fascina la sustracción ",
+      "intencion_pedagogica": "Resolver problemas de sustracción de números naturales mayores que 1,000,000.\n",
+      "estrategia": "Corrección de tarea: Socialización de los problemas creados por los estudiantes.\n\nSituación problemática: Cálculo del sustraendo a partir del minuendo y la diferencia.\n\nMúltiples estrategias: Por descomposición, por complemento, forma tradicional.\n\nComprobación: Uso de la suma para verificar el resultado.",
+      "aprendizaje_significativo": "Se plantea una situación de \"curiosidad matemática\" donde los estudiantes deben encontrar el sustraendo, lo que les ayuda a comprender la relación inversa entre suma y resta y a desarrollar el pensamiento algebraico temprano.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una plantilla con los pasos de cada estrategia.\n\nPara estudiantes kinestésicos: Se les invita a representar el \"complemento\" con saltos en una recta numérica.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que inventen un problema similar y lo intercambien con un compañero.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 47, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el problema que debían crear. Solicita que algunos estudiantes lo lean y expliquen cómo lo resolvieron.\n2. Permite que lo escriban en la pizarra y pregunta: \"¿Quiénes lo hicieron de otra forma? ¿Cuál fue el resultado? ¿Cuáles son los términos de la sustracción?\"",
+          "actividad_numero": "Actividad 6 A (pág. 46)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. B (pág. 46): Plantea el problema: \"Dos estudiantes quieren saber si en una sustracción la diferencia es 256,453 y el minuendo 1,025,873. ¿Cuál será el sustraendo?\"\n2. Un estudiante lee. Preguntas: \"¿Qué piden resolver? ¿Qué información dan? ¿Cómo lo resolverían?\"\n3. Los estudiantes resuelven. Si hay errores, guía con preguntas.\n4. Presenta tres estrategias (pág. 46-47):\n- Procedimiento de Jenny (por descomposición): Restar la diferencia del minuendo descomponiendo.\n- Procedimiento de Eliza (por complemento): Completar poco a poco hasta llegar al minuendo.\n- Procedimiento de William (forma tradicional): Restar la diferencia del minuendo de forma vertical.\n5. C (pág. 47): Pregunta cómo comprobar el resultado. Concluyen que sumando el sustraendo y la diferencia debe dar el minuendo.",
+          "actividad_numero": "Actividad 6 B y C (págs. 46-47)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Determinar el sustraendo y comprobar: 1) Diferencia 632,485, minuendo 1,487,132; 2) 2,145,456 – ¿…? = 658,057 (resolver por complemento).\n\nCierre (pág. 47):\nPreguntas: \"¿Qué operación hacen para determinar el sustraendo? ¿Por qué? ¿Cómo comprueban si la resta está correcta?\"\n\nActividad complementaria (pág. 47):\nResolver problemas y comprobar: 1) Paquetes turísticos 2021 por USD$ 5,123,245, diferencia con 2022 de USD$ 299,187, ¿cuánto en 2022?; 2) Diferencia 769,258, minuendo 2,541,083, ¿sustraendo?; 3) 2,000,000 - ¿…? = 1,580,208 (por complemento); 4) Diferencia 1,245,701, minuendo 2,689,808, ¿sustraendo?\n\nActividad para el diario del estudiante (pág. 47):\nResolver y comprobar: 1) Diferencia 819,196, minuendo 1,087,109, ¿sustraendo?; 2) Minuendo 1,654,187, diferencia 605,109, ¿sustraendo?",
+          "actividad_numero": "Actividad 6 Actividad para el cuaderno (pág. 47) Cierre (pág. 47) Actividad complementaria (pág. 47) Actividad para el diario (pág. 47)"
+        }
+      ]
+    },
+    {
+      "id": "1771694913019",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Me divierto resolviendo problemas",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto usando la multiplicación.\n",
+      "estrategia": "Uso de material audiovisual: Video de la tabla del 8 cantada.\n\nRelación suma-multiplicación: Expresar sumas repetidas como multiplicaciones.\n\nUso de datos reales: Tabla de operaciones aerocomerciales.\n\nDos estrategias: Multiplicación por descomposición y forma tradicional.",
+      "aprendizaje_significativo": "Se utiliza una canción infantil para recordar las tablas de multiplicar y luego se aplica la multiplicación a datos reales del transporte aéreo en República Dominicana, conectando las matemáticas con el contexto nacional.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la multiplicación: Se les permite usar la tabla de multiplicar como apoyo.\n\nPara estudiantes kinestésicos: Se les invita a representar las multiplicaciones con material concreto (fichas).\n\nPara estudiantes con discapacidad visual: Se les proporciona la tabla en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen por qué la descomposición funciona.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 49, la Actividad complementaria y la Actividad para el diario del estudiante de la página 50.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video\n• Pizarra\n• (https://youtu.be/b3uUt6-Re-E).",
+          "descripcion": "1. El docente inicia conversando sobre lo realizado en el diario.\n2. Proyecta el video \"tabla del 8 cantada - Canción para niños\" (https://youtu.be/b3uUt6-Re-E).\n3. Socializa con preguntas: \"¿De qué trata el video? ¿Cuál operación se usa? ¿Cuánto es 8 x 5? ¿Y 5 x 8?\"\n4. Pide expresar esas multiplicaciones como suma repetida.\n5. Pregunta: \"¿Cuál operación da el resultado más rápido? ¿Cuántos grupos en 8 x 15? ¿Y en 15 x 8?\"",
+          "actividad_numero": "Actividad 7 A (pág. 48)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Tabla de transporte aéreo (pág. 48 y 70)\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta la tabla \"Transporte aerocomercial en República Dominicana\" (pág. 48 y anexo pág. 70).\n2. Lee con ellos y genera diálogo con preguntas de comprensión.\n3. Plantea el problema (pág. 49): *\"Los estudiantes de 5º B quieren saber ¿Cuánto sería la cantidad de pasajeros que entrarían en abril del 2027-2028, si se quintuplican las entradas de pasajeros de abril 2021-2022?\"*\n4. Un estudiante lee. Preguntas: \"¿Qué información ofrece? ¿Qué pide resolver? ¿Qué significa quintuplican?\"\n5. Los estudiantes resuelven. Monitorea.\n6. Explica dos procedimientos (pág. 49):\n- Procedimiento 1 (por descomposición): 5 x (300,000 + 50,000 + 3,000 + 100 + 20 + 9)\n- Procedimiento 2 (forma tradicional): Multiplicación vertical con reagrupación.",
+          "actividad_numero": "Actividad 7 B y C (págs. 48-49)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tabla de transporte aéreo\n• Cuadernos",
+          "descripcion": "Resolver usando las informaciones de la tabla: 1) Cinco veces entradas de junio 2021-2022 (proc. 1); 2) Nueve veces salidas de junio 2021-2022 (proc. 2); 3) Seis veces entradas de noviembre 2021-2022 (proc. 2); 4) Cuatro veces entradas de febrero 2021-2022 (proc. 1).\n\nCierre (pág. 50):\nPreguntas: \"¿Cómo resolvieron el problema #1? ¿Cuál fue el resultado? ¿Cómo se escriben sumas repetidas como multiplicación? ¿Qué dificultad hay con 12 x 152?\"\n\nActividad complementaria (pág. 50):\nResolver usando la tabla: 1) Siete veces entradas de noviembre 2021-2022; 2) Ocho veces entradas de agosto 2020-2021; 3) Siete veces salidas de marzo 2021-2022; 4) Nueve veces entradas de octubre 2020-2021; 5) Seis veces salidas de julio 2021-2022.\n\nActividad para el diario del estudiante (pág. 50):\nResolver: 1) Cinco por entradas de diciembre 2020-2021; 2) Cuatro por salidas de septiembre 2021-2022.",
+          "actividad_numero": "Actividad 7 Actividad para el cuaderno (pág. 49) Cierre (pág. 50) Actividad complementaria (pág. 50) Actividad para el diario (pág. 50)"
+        }
+      ]
+    },
+    {
+      "id": "1771695011931",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Qué divertido es resolver problemas",
+      "intencion_pedagogica": "Multiplicar por números naturales de dos dígitos menores que 20 en un factor.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nSituación problemática: Multiplicación por números de dos dígitos.\n\nDos estrategias: Forma tradicional y descomposición aditiva.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se plantea un problema de compra de cajas de crema para batir en un hotel, conectando la multiplicación con situaciones comerciales reales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la multiplicación: Se les permite usar la tabla de multiplicar.\n\nPara estudiantes kinestésicos: Se les invita a representar la multiplicación con billetes ficticios.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que resuelvan usando también la propiedad distributiva.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 51, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el problema 2 del diario. Solicita que algunos estudiantes expliquen cómo lo resolvieron.\n2. Permite que lo escriban en la pizarra y explica que hoy aprenderán a resolver problemas donde una cantidad tiene dos cifras.",
+          "actividad_numero": "Actividad 8 A (pág. 50)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Cartulina con procedimientos\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 50): \"En un hotel compraron 12 cajas de crema para batir a RD$ 7,231 cada una. ¿Cuánto se gastó?\"\n2. Un estudiante lee. Asigna tiempo para resolver. Monitorea.\n3. Envía uno o dos estudiantes a la pizarra. Explican los pasos.\n4. Presenta dos procedimientos en cartulina (pág. 51):\n- Procedimiento 1 (forma tradicional): 7,231 x 12, con productos parciales.\n- Procedimiento 2 (descomposición aditiva): 12 x (7,000 + 200 + 30 + 1).\n5. Explica la colocación del segundo producto parcial.",
+          "actividad_numero": "Actividad 8 B (págs. 50-51)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"El alojamiento de un turista por dos días es RD$ 18,907. Unos 15 vacacionistas llegarán. ¿Cuánto gastarán?\" Preguntas de comprensión.\n\nCierre (pág. 51):\nPreguntas: \"¿Cuánto les dio? ¿A quiénes les dio diferente? ¿Qué operación usaron? ¿Por qué?\"\n\nActividad complementaria (pág. 51):\nResolver: 1) Hospedaje RD$ 32,397 para 16 vacacionistas; 2) Hospedaje RD$ 36,435 para 19 vacacionistas.\n\nActividad para el diario del estudiante (pág. 51):\nResolver: \"En un hotel de Puerto Plata, el alojamiento por turista por tres días es RD$ 46,515. Si llegan 14 turistas, ¿cuánto gastarán?\"",
+          "actividad_numero": "Actividad 8 Actividad para el cuaderno (pág. 51) Cierre (pág. 51) Actividad complementaria (pág. 51) Actividad para el diario (pág. 51)"
+        }
+      ]
+    },
+    {
+      "id": "1771695089639",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "El fascinante mundo de la multiplicación ",
+      "intencion_pedagogica": "Multiplicar por números naturales de dos digitos en un factor.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nSituación problemática: Multiplicación con factor de dos dígitos.\n\nIdentificación de términos: Factores, productos parciales, producto total.\n\nUso de papelógrafo: Para mostrar el procedimiento con los nombres de los términos ocultos.",
+      "aprendizaje_significativo": "Se introduce formalmente la terminología de la multiplicación (factores, productos parciales) a través de un problema contextualizado de alojamiento en hoteles.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una hoja con la multiplicación ya planteada para que solo identifiquen los términos.\n\nPara estudiantes kinestésicos: Se les invita a señalar los productos parciales en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen la relación entre los productos parciales y el producto total.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 53, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el problema del diario. Solicita que un estudiante lo resuelva en la pizarra.\n2. Genera un diálogo sobre los procedimientos utilizados.\n3. Anuncia que hoy aprenderán los términos de la multiplicación.",
+          "actividad_numero": "Actividad 9 A (pág. 52)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con procedimiento\n• Rótulos con términos\n• Pizarra",
+          "descripcion": "1. Plantea el problema (pág. 52): \"32 empleados visitarán un hotel. El costo por alojamiento es RD$ 25,479 todo incluido. ¿Cuánto pagarán?\"\n2. Los estudiantes leen y resuelven. Monitorea.\n3. Explica el procedimiento en papelógrafo (sin los nombres de los términos).\n4. Durante la explicación, pregunta: \"¿Por qué al multiplicar el 3 de 32 el producto parcial se colocó a partir de las decenas? ¿Por qué debajo del 8 está vacío?\"\n5. Introduce los términos: factores (32 y 25,479), productos parciales (76,437 y 509,580) y producto total (586,017).",
+          "actividad_numero": "Actividad 9 B (págs. 52-53)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"El alojamiento por dos noches es RD$ 124,258. Una delegación de 34 miembros se aloja. ¿Cuánto pagarán?\"\n\nCierre (pág. 53):\nPreguntas: \"¿Cuáles son los factores? ¿Cómo resolvieron? ¿Cuál fue el producto total? ¿Cuáles productos parciales obtuvieron?\"\n\nActividad complementaria (pág. 53):\n1) Producto total de 45 y 255,489; 2) Productos parciales de la multiplicación anterior; 3) Problema de excursiones turísticas; 4) Productos parciales de 34 x 254,560; 5) Si productos parciales son 4,286 y 64,290 y un factor es 2,143, ¿cómo encontrar el otro factor?\n\nActividad para el diario del estudiante (pág. 53):\nResolver: \"En un hotel se recibieron 46,759 turistas. Cada uno consumió 24 huevos. ¿Cuántos huevos consumieron?\"",
+          "actividad_numero": "Actividad 9 Actividad para el cuaderno (pág. 53) Cierre (pág. 53) Actividad complementaria (pág. 53) Actividad para el diario (pág. 53)"
+        }
+      ]
+    },
+    {
+      "id": "1771695163973",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Aprendo usando la tabla de multiplicar",
+      "intencion_pedagogica": "Usar la tabla pitagórica en la multiplicación de números naturales.",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de tabla pitagórica: Identificación de patrones y resolución de multiplicaciones.\n\nSituación problemática: Multiplicación con factor de dos dígitos usando la tabla.\n\nTrabajo individual: Resolución de problemas con apoyo de la tabla.",
+      "aprendizaje_significativo": "Se introduce la tabla pitagórica como herramienta para resolver multiplicaciones, mostrando patrones numéricos y facilitando el cálculo, especialmente para estudiantes que aún no han memorizado todas las tablas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona la tabla pitagórica ya completa.\n\nPara estudiantes kinestésicos: Se les invita a colorear los patrones que encuentren en la tabla.\n\nPara estudiantes con discapacidad visual: Se les proporciona la tabla en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen por qué la tabla pitagórica es útil.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 54, la Actividad complementaria de las páginas 54-55 y la Actividad para el diario del estudiante de la página 55.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el problema del diario. Solicita que un estudiante lo resuelva en la pizarra.\n2. Explora conocimientos previos: \"¿Quiénes se saben las tablas? ¿Cuánto es 5x4? ¿5x9?\"\n3. Pregunta cuál creen que será el tema de hoy.",
+          "actividad_numero": "Actividad 10 A (pág. 53-54)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Tabla pitagórica (pág. 70)\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente prepara una tabla de multiplicar (anexo pág. 70) y la entrega a los estudiantes.\n2. Envía estudiantes a la pizarra a realizar multiplicaciones completando en la tabla: 7x4, 9x6, 3x8, 5x9, 9x5.\n3. Pregunta: \"¿Qué notaron en 5x9 y 9x5?\" Concluyen que dan el mismo resultado.\n4. Pide que completen los espacios en blanco de la tabla, descubriendo patrones.\n5. Plantea el problema (pág. 54): \"María y Víctor irán con sus familias a un crucero. Son 39 personas. El costo por persona es RD$ 87,762. ¿Cuánto gastarán?\"\n6. Los estudiantes resuelven usando la tabla. Envía a un estudiante a la pizarra.\n7. Explica el uso de la tabla para multiplicar 39 x 87,762 (pág. 54).",
+          "actividad_numero": "Actividad 10 B y C (págs. 53-54)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tabla pitagórica\n• Cuadernos",
+          "descripcion": "Resolver usando la tabla: 1) 87,062 x 37; 2) 27 personas en un resort a RD$ 29,567 cada una.\n\nActividad complementaria (pág. 54-55):\nResolver con la tabla: 1) 42 x 87,762; 2) 35 boletos aéreos a RD$ 68,547; 3) 41 x 99,876; 4) 38 personas en Ferries del Caribe a RD$ 13,586; 5) Productos parciales de 45 x 13,586.\n\nActividad para el diario del estudiante (pág. 55):\nResolver: \"Un gerente recibió USD$ 26,783. Quiere cambiar a pesos a RD$ 57 por dólar. ¿Cuánto será la conversión?\"",
+          "actividad_numero": "Actividad 10 Actividad para el cuaderno (pág. 54) Actividad complementaria (págs. 54-55) Actividad para el diario (pág. 55)"
+        }
+      ]
+    },
+    {
+      "id": "1771695226157",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Me encanta multiplicar",
+      "intencion_pedagogica": "Multiplicar un número natural por la unidad seguida de ceros y estimar productos.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de conocimientos sobre multiplicación por la unidad seguida de ceros.\n\nSituaciones problemáticas: Multiplicación por 1,000, 100 y estimación de productos.\n\nComparación de estimaciones: Diferentes formas de estimar un producto.",
+      "aprendizaje_significativo": "Se enseña un atajo matemático (multiplicar por la unidad seguida de ceros) y se aplica la estimación en contextos de compras y ventas, mostrando la utilidad de estas habilidades en situaciones comerciales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una guía con los pasos para multiplicar por la unidad seguida de ceros.\n\nPara estudiantes kinestésicos: Se les invita a escribir los números y agregar los ceros físicamente.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen por qué la estimación de 28 x 22,000 da 616,000.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 56, la Actividad complementaria de la página 57 y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la actividad del diario.\n2. Converse para explorar conocimientos: \"¿Cómo se multiplica 100 x 56? ¿483 x 10?\"\n3. Anuncia el tema: multiplicar por la unidad seguida de ceros y estimar productos.",
+          "actividad_numero": "Actividad 11 A (pág. 55)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 55): \"Paquetes turísticos cuestan RD$ 24,385. Se han vendido 1,000. ¿Cuánto representa?\"\n2. Los estudiantes resuelven. Explica: 1,000 x 24,385 = 24,385,000 (agregar los ceros).\n3. Plantea otro problema (pág. 55): \"Un hotel compró 100 colchones a RD$ 21,835. ¿Cuánto se gastó?\"\n4. Resuelven: 100 x 21,835 = 2,183,500.\n\nEstimación de productos:\n1. Pregunta: \"¿Qué recuerdan de estimación?\"\n2. Plantea el problema (pág. 56): \"Liza y Alexander quieren saber el costo total de 28 colchones a RD$ 21,835, por estimación.\"\n3. Los estudiantes resuelven. Presenta tres formas de estimar (pág. 56):\n- Liza: 30 x 22,000 = 660,000\n- Alexander: 30 x 20,000 = 600,000\n- Docente: 28 x 22,000 = 616,000\n4. Discuten cuál estimación es correcta (todas son válidas, solo diferentes aproximaciones).",
+          "actividad_numero": "Actividad 11 B y C (págs. 55-56)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• (https://youtu.be/yuOk0hWuYc8)",
+          "descripcion": "Resolver por estimación: 1) Producto de 54,120 x 10; 2) Estimación de 24 x 36,871; 3) Costo total de 1,000 colchones a RD$ 25,834.\n\nCierre (pág. 56):\nPreguntas: \"¿Cómo resolvieron? ¿Cómo se multiplica por la unidad seguida de ceros?\"\n\nActividad complementaria (pág. 57):\nResolver: 1) 8,250 piñas a RD$ 100; 2) 1,000 libras de langosta a RD$ 670; 3) Estimación de 13 x 452,256; 4) 1,000 x 56,125; 5) 25,654 x 10,000.\n\nActividad para el diario del estudiante (pág. 57):\n1) Estimación de 25 x 78,520; 2) 23,587 x 10,000; 3) Ver video \"Multiplicar un número natural por la unidad seguida de ceros\" (https://youtu.be/yuOk0hWuYc8) y escribir qué aprendió.",
+          "actividad_numero": "Actividad 11 Actividad para el cuaderno (pág. 56) Cierre (pág. 56) Actividad complementaria (pág. 57) Actividad para el diario (pág. 57)"
+        }
+      ]
+    },
+    {
+      "id": "1771695334767",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 11,
+      "title": "Actividad 12 ",
+      "name": "Disfrutando la multiplicación y sus propiedades",
+      "intencion_pedagogica": "Aplicar propiedades de la multiplicación a situaciones problematicas de su contexto.\n\n",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre propiedades de la multiplicación.\n\nUso de tabla pitagórica: Para visualizar la propiedad conmutativa.\n\nClase expositiva dialogada: Presentación de las propiedades conmutativa, del cero, de identidad, asociativa y distributiva.\n\nTrabajo individual: Resolución de ejercicios de identificación de propiedades.\n\nJuego de tarjetas: Para reforzar el aprendizaje de forma lúdica.",
+      "aprendizaje_significativo": "Se utilizan ejemplos concretos y la tabla pitagórica para descubrir las propiedades de la multiplicación, mostrando que estas propiedades facilitan los cálculos y se aplican en situaciones cotidianas.\n\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de abstracción: Se utilizan ejemplos concretos con objetos (fichas, caramelos) para representar las propiedades.\n\nPara estudiantes kinestésicos: Se les invita a pasar al frente y demostrar las propiedades con objetos.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los ejemplos en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen con sus palabras cada propiedad y den ejemplos adicionales.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 58, la Actividad complementaria de la página 59 y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tabla pitagórica (pág. 70)\n• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Qué propiedades de la multiplicación conocen? ¿Cómo se aplican?\"\n2. Presenta la tabla de multiplicaciones de la actividad #10. Pregunta: \"¿Cuánto es 9x11? ¿Y 11x9? ¿Cuáles otros productos dan igual resultado? ¿Por qué pasa esto?\"\n3. Escucha sus respuestas y anuncia el tema: las propiedades de la multiplicación.",
+          "actividad_numero": "Actividad 12 (Párrafo 1, pág. 57)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "A, B, C, D",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Ejemplos en la pizarra",
+          "descripcion": "1. Propiedad conmutativa: Muestra ejemplos (6x7 = 7x6, 12x9 = 9x12). Pregunta el nombre. Si no lo saben, lo introduce. Concluye que el orden de los factores no altera el producto.\n2. Propiedad del cero: Muestra 9x0=0, 0x20=0. Pregunta qué notan. Concluyen que todo número multiplicado por cero es cero (elemento absorbente).\n3. Propiedad de identidad: Muestra 1x7=7, 45x1=45. Concluyen que todo número multiplicado por 1 es igual a sí mismo (elemento neutro).\n4. Propiedad asociativa: Muestra ejemplos como (4x8)x9 = 4x(8x9) = 288. Explica que el orden en que se asocien tres o más factores no altera el producto.\n5. Propiedad distributiva: Muestra 8x(12+6) = 8x12 + 8x6 = 144. Explica que la multiplicación de un número por una suma es igual a la suma de las multiplicaciones de ese número por cada sumando.",
+          "actividad_numero": "Actividad 12 A, B, C, D (págs. 57-58)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas con preguntas\n• Funda\n• Cuadernos\n• (https://youtu.be/og9oY96aWbs)",
+          "descripcion": "Identificar la propiedad aplicada en cada caso: 1) 1,258 x 1 = 1,258; 2) 4,568 x 7 = 7 x 4,568; 3) 10 x (15+9) = 10 x 15 + 10 x 9; 4) 987 x 0 = 0; 5) 57 x 8 = 8 x 57; 6) (5 x 3) x 4 = 5 x (3 x 4).\n\nCierre (pág. 59):\nJuego de tarjetas: colocar preguntas en una funda (ej: \"Menciona 3 propiedades de la multiplicación\", \"¿Qué es la propiedad asociativa?\", etc.). Los estudiantes sacan una tarjeta y responden. Si no pueden, los demás ayudan.\n\nActividad complementaria (pág. 59):\nAplicar la propiedad solicitada: 1) 25 x 100 (conmutativa); 2) 7 x (18+14) (distributiva); 3) 30 x 4 x 12 (asociativa); 4) Crear una situación problemática para la propiedad del cero y otra para la del elemento neutro.\n\nActividad para el diario del estudiante (pág. 59):\nVer el video \"Propiedades de la multiplicación para niños de primaria\" (https://youtu.be/og9oY96aWbs) y escribir: ¿De qué trata? ¿Cuáles propiedades observó?",
+          "actividad_numero": "Actividad 12 Actividad para el cuaderno (pág. 58) Cierre (pág. 59) Actividad complementaria (pág. 59) Actividad para el diario (pág. 59)"
+        }
+      ]
+    },
+    {
+      "id": "1771695774759",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": "Me encantan los múltiplos",
+      "intencion_pedagogica": "Identificar los múltiplos de un número dado.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración del concepto de múltiplo.\n\nUso de tablas de múltiplos: Para visualizar y completar series.\n\nTrabajo individual y grupal: Resolución de ejercicios de identificación de múltiplos.",
+      "aprendizaje_significativo": "Se introduce el concepto de múltiplo a partir de situaciones cotidianas (compras de frutas) y se utiliza la tabla de multiplicar para identificarlos, conectando así con conocimientos previos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona la tabla de multiplicar para que la usen como apoyo.\n\nPara estudiantes kinestésicos: Se les invita a escribir los múltiplos en tarjetas y ordenarlos.\n\nPara estudiantes con discapacidad visual: Se les proporcionan las tablas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen por qué los múltiplos son infinitos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 60, la Actividad complementaria de la página 60 y la Actividad para el diario del estudiante de la página 61.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta qué aprendieron del video sobre propiedades.\n2. Retroalimenta con ejercicios: 45x0 = ; 87,058x1 = ; 45x11 = 11x45. Envía estudiantes a la pizarra a resolver y escribir la propiedad.\n3. Anuncia el tema: los múltiplos. Pregunta: \"¿Qué es un múltiplo? ¿Pueden dar ejemplos?\"",
+          "actividad_numero": "Actividad 13 A (pág. 59)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con tablas\n• Tabla pitagórica (pág. 70)\n• Pizarra",
+          "descripcion": "1. Presenta un papelógrafo con dos tablas de múltiplos (pág. 59-60).\n2. Pregunta: \"¿Cómo piensan que se pueden completar los espacios en blanco? ¿Con cuáles números?\"\n3. Envía estudiantes a la pizarra a completar ambas tablas.\n4. Usa la tabla de multiplicación de la actividad 10 para apoyar.\n5. Explica: \"Los múltiplos de 4 se obtienen multiplicando 4 por cualquier número natural. Son infinitos.\"\n6. Refuerza con preguntas: \"¿Cuáles serán los múltiplos de 9? ¿Y de 2?\" Envía a la pizarra.\n7. Pide que busquen en la tabla los múltiplos de 6 y 8 y los coloreen.",
+          "actividad_numero": "Actividad 13 B (págs. 59-60)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Completar los múltiplos faltantes en las tablas dadas (para 2 y para 3).\n\nCierre (pág. 60):\nPreguntas: \"¿Cómo saben cuál número completa cada cuadro? ¿Cuál número colocaron luego de 27 en los múltiplos de 3? ¿Por qué? ¿Qué es un múltiplo?\"\n\nActividad complementaria (pág. 60):\n1) Los 5 primeros múltiplos de 16; 2) Cuatro múltiplos de 10 a partir de 50; 3) El vigésimo múltiplo de 9; 4) Los 7 primeros múltiplos de 5; 5) Seis múltiplos consecutivos de 13; 6) Completar tablas de múltiplos de 5.\n\nActividad para el diario del estudiante (pág. 61):\nResolver: 1) ¿Cuál es el primer múltiplo común entre 9 y 15? 2) 125,852 x 1,000.",
+          "actividad_numero": "Actividad 13 Actividad para el cuaderno (pág. 60) Cierre (pág. 60) Actividad complementaria (pág. 60) Actividad para el diario (pág. 61)"
+        }
+      ]
+    },
+    {
+      "id": "1771695842034",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 13,
+      "title": "Actividad 14",
+      "name": "Retroalimentación de la multiplicación ",
+      "intencion_pedagogica": "Retroalimentar los conocimientos adquiridos sobre la multiplicación con números\nnaturales.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nSituaciones problemáticas: Aplicación de múltiplos y multiplicación por la unidad seguida de ceros.\n\nTrabajo individual y grupal: Resolución de problemas.\n\nDiálogo dirigido: Para guiar el razonamiento.",
+      "aprendizaje_significativo": "Se aplican los conceptos de múltiplos y multiplicación por la unidad seguida de ceros a problemas reales (compras de refrescos, cajas de sopas), mostrando su utilidad práctica.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una lista de múltiplos para que los consulten.\n\nPara estudiantes kinestésicos: Se les invita a representar las cajas y los productos con objetos.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que inventen un problema similar y lo resuelvan.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 62, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el primer múltiplo común entre 9 y 15.\n2. Retroalimenta la multiplicación por 1,000 con el segundo ejercicio.",
+          "actividad_numero": "Actividad 14 A (pág. 61)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 61): \"El departamento de alimentos pide 160 sopas y 136 latas de leche. Las sopas vienen en cajas de 16 y las leches en cajas de 18. ¿Podrán despachar cajas completas?\"\n2. Los estudiantes leen. Preguntas: \"¿Qué información da? ¿Qué pide resolver? ¿Cómo lo harán?\"\n3. Guía para que identifiquen que deben verificar si 160 es múltiplo de 16 y 136 es múltiplo de 18.\n4. Los estudiantes resuelven. Socializa.\n5. Plantea otro problema (pág. 61): \"En la preparación de postres se usan 387 litros de leche a RD$ 100 cada uno. ¿Cuánto se gastará?\"\n6. Resuelven: 387 x 100 = 38,700 (agregar dos ceros).",
+          "actividad_numero": "Actividad 14 B (pág. 61)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: 1) Problema de sopas y leches (ya trabajado); 2) 387 x 100 (ya trabajado).\n\nCierre (pág. 62):\nPreguntas: \"¿Cómo resolvieron el problema de las sopas? ¿Cómo multiplicaron por 100?\"\n\nActividad complementaria (pág. 62):\n1) Procedimiento para 65,479 x 10,000; 2) 10,000 x 1,000; 3) 100 cartones de huevos de 30 unidades por semana, ¿huevos en 4 semanas?; 4) Autobuses de 24 y 36 pasajeros, grupos de 168 y 216, ¿podrán viajar a capacidad completa?; 5) 10,985 x 20.\n\nActividad para el diario del estudiante (pág. 62):\n1) Primer múltiplo común entre 9 y 15; 2) 125,852 x 1,000.",
+          "actividad_numero": "Actividad 14 Actividad para el cuaderno (pág. 62) Cierre (pág. 62) Actividad complementaria (pág. 62) Actividad para el diario (pág. 62)"
+        }
+      ]
+    },
+    {
+      "id": "1771695909100",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 14,
+      "title": "Actividad 15",
+      "name": "Qué maravillosa es la multiplicación ",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto utilizando números naturales.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de conocimientos sobre multiplicación por decenas completas.\n\nSituaciones problemáticas: Multiplicación por 50, 300, etc.\n\nDemostración de procedimientos: Multiplicar por el dígito y agregar ceros.",
+      "aprendizaje_significativo": "Se enseña un atajo para multiplicar por números que terminan en cero (decenas, centenas completas), facilitando el cálculo mental y la resolución de problemas comerciales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una guía con los pasos: \"multiplica por el número sin ceros y luego agrega los ceros\".\n\nPara estudiantes kinestésicos: Se les invita a escribir los números en tarjetas y agregar los ceros físicamente.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen por qué funciona este procedimiento.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 64, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el primer múltiplo común entre 9 y 15 y por 125,852 x 1,000.\n2. Retroalimenta el tema de múltiplos y multiplicación por la unidad seguida de ceros.\n3. Anuncia que hoy trabajarán con multiplicaciones por decenas, centenas y millares completos (50, 300, 2,000, etc.).",
+          "actividad_numero": "Actividad 15 A (pág. 63)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Recuerda: 300 x 892 = se multiplica 892 x 3 y se agregan los dos ceros de 300 = 267,600.\n2. Plantea el problema (pág. 63): \"En una tienda venden piezas coleccionables a RD$ 28,976. Un turista quiere 50 piezas. ¿Cuánto gastaría?\"\n3. Los estudiantes resuelven. Muestra dos procedimientos (pág. 63):\n- Estudiante 1: multiplica 28,976 x 5 y agrega un cero.\n- Estudiante 2: multiplica 28,976 x 10 y luego x 5.\n4. Concluye: los números que terminan en cero se multiplican por el dígito diferente de cero y se agregan los ceros al final.\n5. Otro ejemplo: 300 x 12,475 = (12,475 x 3) y se agregan dos ceros = 3,742,500.",
+          "actividad_numero": "Actividad 15 B y C (págs. 62-63)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: 1) 40 gomas a RD$ 33,854; 2) 400 x 1,289.\n\nCierre (pág. 64):\nPreguntas: \"¿Quiénes comprendieron? ¿Cómo le resultaron estos procedimientos?\"\n\nActividad complementaria (pág. 64):\n1) Primeros 5 múltiplos de 14; 2) 62,185 x 100; 3) 500 x 8,658 (describir proceso); 4) 6 múltiplos de 8 que siguen a partir de 72.\n\nActividad para el diario del estudiante (pág. 64):\n1) Completar una tabla de multiplicación; 2) 800 x 1,785.",
+          "actividad_numero": "Actividad 15 Actividad para el cuaderno (pág. 64) Cierre (pág. 64) Actividad complementaria (pág. 64) Actividad para el diario (pág. 64)"
+        }
+      ]
+    },
+    {
+      "id": "1771695986494",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 15,
+      "title": "Actividad 16",
+      "name": "Qué interesante es la resolución de problemas",
+      "intencion_pedagogica": "Retroalimentar los conocimientos adquiridos sobre la multiplicación con números\nnaturales.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nSituaciones problemáticas: Aplicación de propiedades y operaciones combinadas.\n\nTrabajo individual: Resolución de problemas de aplicación.\n\nDiálogo dirigido: Para guiar el razonamiento y la comparación de resultados.",
+      "aprendizaje_significativo": "Se integran todos los conocimientos de la secuencia (multiplicación, propiedades, múltiplos) en la resolución de problemas contextualizados (páginas de libros, depósitos bancarios, transporte de pasajeros).\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una plantilla con los pasos a seguir para resolver problemas.\n\nPara estudiantes kinestésicos: Se les invita a representar los libros con fichas.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que inventen un problema similar con otros datos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 66 y la Actividad complementaria.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por los ejercicios del diario.\n2. Retroalimenta la multiplicación por decenas completas y los múltiplos.",
+          "actividad_numero": "Actividad 16 A (pág. 64)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 65): \"Nelly tiene 13 libros de 256 páginas. Penélope tiene 12 libros de 263 páginas. ¿Cuántas páginas tienen los libros de Nelly? ¿Y los de Penélope? ¿Quién tiene mayor cantidad de páginas juntas?\"\n2. Los estudiantes leen. Preguntas: \"¿Qué información da? ¿Qué pide resolver?\"\n3. Guía para que resuelvan paso a paso.\n4. Los estudiantes resuelven. Monitorea.\n5. Socializa las respuestas. Compara los resultados.",
+          "actividad_numero": "Actividad 16 B (pág. 65)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Kirsy tiene 16 libros de 316 páginas. Andrés tiene 15 libros de 323 páginas. ¿Cuántas páginas tienen los libros de Kirsy? ¿Y los de Andrés? ¿Quién tiene mayor cantidad?\"\n\nCierre (pág. 66):\nPreguntas: \"¿Cuántas páginas tienen 10 libros de 375 páginas? ¿Cómo saben quién tiene más páginas?\"\n\nActividad complementaria (pág. 66):\n1) Hotel del este: 16 depósitos de RD$ 36,254; hotel del norte: 17 depósitos de RD$ 34,075. ¿Cuánto depositó cada uno? ¿Cuál más? 2) Compañía A: 28,275 pasajeros/mes durante un año; compañía B: 33,890 pasajeros/mes durante 10 meses. ¿Cuántos pasajeros llevó cada una? ¿Cuál más? 3) Turistas por crucero: 42,545/mes; vía aérea: 44,258/mes. ¿Cuántos en 14 meses vía aérea? ¿Cuántos en 15 meses por crucero? ¿Cuántos más?",
+          "actividad_numero": "Actividad 16 Actividad para el cuaderno (pág. 66) Cierre (pág. 66) Actividad complementaria (pág. 66)"
+        }
+      ]
+    },
+    {
+      "id": "1771696058969",
+      "sequence_id": "seq-1771694171957",
+      "order_index": 16,
+      "title": "Actividad 17",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar los conocimientos adquiridos en la Secuencia 2 (sustracción, multiplicación, propiedades, múltiplos, estimación) a través de la resolución de problemas.\n\n",
+      "estrategia": "Retroalimentación inicial: Preguntas orales para recordar los temas de la secuencia.\n\nEvaluación escrita: Resolución individual de un conjunto de problemas.\n\nUso de escala de valoración: Para que los estudiantes comprendan cómo se evaluará su desempeño.",
+      "aprendizaje_significativo": "La evaluación se presenta como una oportunidad para demostrar lo aprendido en contextos significativos (turismo, compras), y se utiliza una escala de valoración para que los estudiantes tomen conciencia de su propio nivel de logro.\n\n",
+      "actividades_complementarias": "Para estudiantes que necesitan más tiempo: Se les puede permitir terminar la evaluación en otra sesión, según la Ordenanza 04-2023.\n\nPara estudiantes con dificultades de lectura: Se les leen los problemas en voz alta si es necesario.\n\nPara estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n\nPara estudiantes que terminan rápido: Se les puede pedir que revisen sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué trabajaron en esta secuencia? ¿Cuáles operaciones usaron? ¿Cuáles propiedades recuerdan?\"\n2. Da tiempo para responder y retroalimenta los temas.",
+          "actividad_numero": "Actividad 17 (Párrafo 1, pág. 67)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Copia de la evaluación o pizarra con los ítems\n• Escala de valoración",
+          "descripcion": "1. El docente explica que esta actividad evalúa la secuencia y que se hará énfasis en la resolución de problemas.\n2. Explica que cada ítem tiene un valor numérico por procedimiento y respuesta completa.\n3. Lee y explica la escala de valoración (pág. 67).\n4. Entrega una hoja en blanco a cada estudiante para que coloquen sus datos.\n5. Aplica la evaluación, ítem por ítem, dando el tiempo necesario. La evaluación consta de 10 puntos:\n- Ítem 1: Problema de aumento de compra de alimentos (10 pts).\n- Ítem 2: Estimación de diferencia (10 pts).\n- Ítem 3: Cálculo del sustraendo (10 pts).\n- Ítem 4: Problema de viaje en Ferries (10 pts).\n- Ítem 5: Calculadora sin tecla 7 (10 pts).\n- Ítem 6: Identificar propiedades (10 pts).\n- Ítem 7: Problema de cajas de frutas (10 pts).\n- Ítem 8: Estimación de compra (10 pts).\n- Ítem 9: Múltiplos (10 pts).\n- Ítem 10: Problema de alojamiento (10 pts).",
+          "actividad_numero": "Actividad 17 Evaluación (págs. 67-68)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones de los estudiantes",
+          "descripcion": "Recogida y cierre:\n1. El docente recoge las evaluaciones.\n2. Puede hacer un breve comentario sobre la importancia de la evaluación para medir el aprendizaje.\n3. Anuncia que en la próxima clase se darán los resultados y se retroalimentarán los puntos con mayores dificultades.",
+          "actividad_numero": "Actividad 17 (Cierre)"
+        }
+      ]
+    }
+  ]
+}

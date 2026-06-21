@@ -1,0 +1,347 @@
+{
+    "sequenceId": "secuencia-5-matematica-2do-grado",
+    "subjectId": "matematica",
+    "sequenceTitle": "Secuencia 5: Preparamos juegos",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1: Problemas multiplicativos y cálculo numérico",
+            "activities": [
+                {
+                    "title": "Actividad 1",
+                    "pedagogicalIntention": "Resuelvan problemas de cantidades que se repiten con distintas estrategias.",
+                    "resources": "Para cada estudiante, material concreto (aproximadamente 25 piedrecitas o tapitas). Actividad 1 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: Para otro juego, la docente organiza a sus estudiantes en 10 parejas y tiene que entregar 2 dados a cada una. ¿Cuántos dados tiene que preparar?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes",
+                            "description": "Se presenta el papelógrafo con los objetivos de la secuencia (resolver problemas de repetición, distribución, suma/resta, cuerpos geométricos)."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de multiplicación",
+                            "description": "Se plantea un problema: repartir 3 dados a 7 grupos. Los estudiantes resuelven con material concreto o dibujos. Se enfatiza la suma reiterada (3+3+3...)."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 2",
+                    "pedagogicalIntention": "Identifiquen la relación entre las veces que se repite un número y la suma reiterada de dicho número.",
+                    "resources": "Por pareja, un dado y la serie de tarjetas del 10 al 100, numeradas de 10 en 10.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: ¿Qué resultados obtuvo Ana? (Completar cálculos de 'veces', ej: 4 veces 40).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa la resolución del problema de los dados (10 parejas x 2 dados)."
+                        },
+                        {
+                            "title": "Momento 2. Sumar muchas veces",
+                            "description": "Juego: 'Sumar muchas veces'. Se lanza un dado y se saca una tarjeta (10-100). Se calcula el puntaje repitiendo el número de la tarjeta las veces que indica el dado."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 3",
+                    "pedagogicalIntention": "Resuelvan problemas de veces.",
+                    "resources": "Material concreto (aproximadamente 25 piedrecitas o tapitas) por estudiante que lo requiera. Actividad 3 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: En otro grado... tiene 4 grupos de estudiantes y prepara 40 tarjetas para cada grupo. ¿Cuántas tarjetas necesita en total?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Tres estudiantes copian su resolución en la pizarra. Se refuerza el concepto de repetir un número varias veces."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema multiplicativo",
+                            "description": "Problema: 6 grupos con 20 tarjetas cada uno. Se analizan procedimientos (sumas reiteradas, agrupamientos)."
+                        },
+                        {
+                            "title": "Momento 3. Resolver otro problema multiplicativo",
+                            "description": "Problema: 6 grupos con 30 tarjetas cada uno. Se vincula con el problema anterior."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Conclusión: Cuando un número indica cuántas veces se repite otro, se suma varias veces (ej: 5 veces 3 = 15)."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 4",
+                    "pedagogicalIntention": "Resuelvan problemas de “veces”.",
+                    "resources": "Actividad 4 del fascículo. Un papelógrafo en blanco para anotar las conclusiones.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: Para el mismo torneo... entregar 50 entradas gratuitas a los otros 4 clubes. ¿Cuántas entradas... en total?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa el problema de 4 grupos x 40 tarjetas."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de “veces” usando la suma reiterada",
+                            "description": "Problema: 3 fundas con 40 dulces cada una. Se comparan procedimientos y escrituras matemáticas."
+                        },
+                        {
+                            "title": "Momento 3. Resolver un problema de “veces” usando la suma reiterada",
+                            "description": "Problema: 7 cajones con 20 botellas de agua cada uno."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se formaliza que estos problemas se resuelven con una suma reiterada (ej: 3 veces 40 --> 40+40+40=120)."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 5",
+                    "pedagogicalIntention": "Resuelvan situaciones en las que hay que repartir en partes iguales.",
+                    "resources": "Material concreto (aproximadamente 25 piedrecitas o tapitas por estudiante). Actividad 5 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: En otro grado... 12 tarjetas para repartir entre 3 estudiantes. Da a todos la misma cantidad.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Intercambio de cuadernos para revisar. Puesta en común identificando que 4 clubes indica las veces que se repite 50."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de reparto equitativo",
+                            "description": "Problema: Repartir 15 tarjetas a 5 estudiantes equitativamente. Uso de material concreto o dibujos. Verificación mediante conteo."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 6",
+                    "pedagogicalIntention": "Resuelvan problemas de distribución de distintas maneras.",
+                    "resources": "Material concreto (aproximadamente 25 piedrecitas o tapitas por estudiante). Actividad 6 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: En otro salón... repartió 10 pelotitas... Entregó 2 pelotitas a cada grupo. ¿Cuántos grupos jugaron?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisión en la pizarra. Énfasis en el reparto en partes iguales."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de agrupamiento",
+                            "description": "Problema: 16 dados, 2 dados por grupo. Averiguar cantidad de grupos. Estrategias de resta sucesiva o agrupamiento gráfico."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Conclusión: En estos problemas hay una cantidad total que hay que distribuir en partes iguales."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 7",
+                    "pedagogicalIntention": "Resuelvan problemas para averiguar qué pasó.",
+                    "resources": "Actividad 7 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: Juan estaba en el casillero 484 y... debió moverse al 476. ¿Juan avanzó o retrocedió? ¿Cuántos casilleros?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisión de procedimientos. Reconocimiento de un total que se reparte en partes iguales."
+                        },
+                        {
+                            "title": "Momento 2. Problemas para averiguar qué pasó",
+                            "description": "Contexto: Juego de mesa. Problema: Estaba en 453, movió a 428. Determinar si avanzó o retrocedió y cuánto (resta)."
+                        },
+                        {
+                            "title": "Momento 3. Otro problema para averiguar qué pasó",
+                            "description": "Problema: Estaba en 432, terminó en 416. ¿Cuántos retrocedió? Trabajo en parejas."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 8",
+                    "pedagogicalIntention": "Resuelvan otros problemas para averiguar qué pasó.",
+                    "resources": "Actividad 8 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: Al comenzar la semana Ana tenía 437 puntos, y al finalizarla tenía 475. ¿Qué pasó? ¿Ganó o perdió? ¿Cuántos?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Compartir respuestas. Identificar si el número final es mayor o menor al inicial y la operación (resta) para hallar la diferencia."
+                        },
+                        {
+                            "title": "Momento 2. Problemas para averiguar cuánto se avanzó",
+                            "description": "Problema: Estaba en 449, llegó al 482. Diferenciar 'avanzar' (contexto) de la operación necesaria para hallar la diferencia (resta)."
+                        },
+                        {
+                            "title": "Momento 3. Otro problema para averiguar qué sucedió",
+                            "description": "Problema de puntajes: Tenía 459, terminó con 465. Determinar ganancia mediante resta o complemento."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 9: Recapitulación",
+                    "pedagogicalIntention": "Repasen algunos contenidos trabajados.",
+                    "resources": "Papelógrafo de aprendizajes. Una hoja en blanco por estudiante. Actividad 8 del fascículo (referencia interna al texto 'buscar la actividad 9').",
+                    "homework": "No especificada (Actividad de evaluación/repaso).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Compartir resoluciones. Reflexionar sobre la resta directa vs resta por complemento."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Revisión de actividades y registro en el papelógrafo de aprendizajes."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido",
+                            "description": "Resolución individual en hoja: 1. Juego de sumar muchas veces (calculos). 2a. Problema de tablero (retroceso). 2b. Problema de reparto (dados)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2: Multiplicación y cuerpos geométricos",
+            "activities": [
+                {
+                    "title": "Actividad 10",
+                    "pedagogicalIntention": "Resuelvan y comparen problemas.",
+                    "resources": "Un papelógrafo en blanco para la sistematización. Actividad 10 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: compraron 4 paquetes de 8 pantalones cortos. a. Total. b. 4 rojos y 8 azules, total.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Retroalimentar las recapitulaciones",
+                            "description": "Devolución de correcciones de la actividad anterior."
+                        },
+                        {
+                            "title": "Momento 2. Problema multiplicativo",
+                            "description": "Título: 'Buscar las diferencias'. Problema: 4 paquetes de 20 camisetas. Resolución y análisis de estrategias."
+                        },
+                        {
+                            "title": "Momento 3. Problema aditivo",
+                            "description": "Problema: 20 camisetas de una talla y 4 de otra. Resolución (suma)."
+                        },
+                        {
+                            "title": "Momento 4. Comparar problemas",
+                            "description": "Análisis de diferencias: en uno se suma el mismo número varias veces (multiplicativo), en el otro se suman dos cantidades distintas (aditivo)."
+                        },
+                        {
+                            "title": "Momento 5. Sistematización",
+                            "description": "Registro de conclusiones sobre cuándo se suman los números dados y cuándo uno indica las veces que se suma el otro."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 11",
+                    "pedagogicalIntention": "Resuelvan problemas con distintas estrategias.",
+                    "resources": "Actividad 11 del fascículo. Una calculadora por estudiante o cada dos.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Completar la multiplicación y averiguar resultado con calculadora (ej: 15 veces 11 = 15 x 11).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Comparar procedimientos y diferenciar problemas aditivos de multiplicativos."
+                        },
+                        {
+                            "title": "Momento 2. De sumar a multiplicar",
+                            "description": "Problema NBA: 32 equipos x 12 jugadores. Introducción de la multiplicación y el signo 'x' como herramienta para números grandes. Uso de calculadora."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Definición de multiplicación: 32 veces 12 se anota 32 x 12."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 12",
+                    "pedagogicalIntention": "Usen la calculadora para resolver problemas.",
+                    "resources": "Una calculadora por estudiante. Actividad 12 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: 10 cajas de 12 mosaicos verdes.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Recordar uso del signo 'x' y secuencia en la calculadora."
+                        },
+                        {
+                            "title": "Momento 2. Resolver multiplicaciones",
+                            "description": "Problema 'Un problema con varios cálculos' (mosaicos azules, blancos, rojos). Identificar multiplicaciones y resolver con calculadora."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 13",
+                    "pedagogicalIntention": "Multipliquen y completen el cuadro multiplicativo de los números menores o iguales a 10.",
+                    "resources": "Cuadro de multiplicaciones recortable, papelógrafo, dos mazos de cartas 0-10. Actividad 13 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Completar espacios sombreados en el cuadro de multiplicaciones y verificar.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Recordar relación entre sumas reiteradas y multiplicación."
+                        },
+                        {
+                            "title": "Momento 2. Multiplicar números hasta 10",
+                            "description": "Juego: '¡A multiplicar!'. Llenar el cuadro de doble entrada usando cartas. Propiedad conmutativa implícita (dos casilleros por par)."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Recuperar por qué se completan dos casilleros con cada par de números."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 14",
+                    "pedagogicalIntention": "Resuelvan problemas con distintas estrategias.",
+                    "resources": "Cuadro de multiplicaciones (aula y personal). Actividad 14 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: Josías preparó 9 fundas con 4 chicles cada una.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisión del cuadro de multiplicaciones completado."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas de multiplicación",
+                            "description": "Problemas de ventas (7 fundas x 6 mentas, 8 fundas x 5 bolones). Uso del cuadro de multiplicaciones como apoyo."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 15",
+                    "pedagogicalIntention": "Relacionen algunos cuerpos geométricos con objetos del entorno.",
+                    "resources": "Caja de cuerpos geométricos y objetos cotidianos. Actividad 15 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Escribir dos objetos de casa con forma de cilindro y prisma.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Compartir resoluciones del problema de chicles y uso del cuadro."
+                        },
+                        {
+                            "title": "Momento 2. Identificar cuerpos geométricos en el entorno",
+                            "description": "Clasificar objetos según su forma geométrica. Nombrar cuerpos (cubo, cono, prisma, cilindro, pirámide)."
+                        },
+                        {
+                            "title": "Momento 3. Percibir los cuerpos geométricos",
+                            "description": "Juego: 'El cuerpo oculto'. Adivinar el cuerpo dentro de una caja mediante el tacto."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 16",
+                    "pedagogicalIntention": "Reconozcan algunas figuras como caras de los cuerpos geométricos.",
+                    "resources": "Actividad 16 del fascículo. Figuras de papel, cuerpos geométricos, hoja con huellas (caras).",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Tomar objeto, anotar nombre, contornear huella y escribir nombre de la figura.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Compartir objetos con forma de cilindro y prisma hallados en casa."
+                        },
+                        {
+                            "title": "Momento 2. Diferenciar cuerpos de figuras planas",
+                            "description": "Comparar cuerpos con figuras de papel. Identificar nombres de figuras (círculo, triángulo, cuadrado, rectángulo)."
+                        },
+                        {
+                            "title": "Momento 3. Relacionar cuerpos y figuras",
+                            "description": "Juego: 'Adivina, adivinador'. Encontrar a qué cuerpo corresponde cada huella dibujada."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 17: Producción Final",
+                    "pedagogicalIntention": "Repasen algunos contenidos trabajados.",
+                    "resources": "Papelógrafo de aprendizajes, huevera sin tapa, marcadores, hoja blanca, 3 pelotitas de colores.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Explicar el nuevo juego de la huevera a alguien del hogar.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Muestra del trabajo realizado."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,436 @@
+{
+    "id": "seq-6-lengua-1ro",
+    "title": "El cuento",
+    "gradeId": "primaria-1ro",
+    "subjectId": "lengua",
+    "order": 6,
+    "durationWeeks": 4,
+    "description": "Comprensión y producción de cuentos sencillos para desarrollar la imaginación, el disfrute de la lectura y la expresión de emociones.",
+    "blocks": [
+        {
+            "id": "blk-seq-6-lengua-1ro-1",
+            "title": "Bloque 1. Presentación de los textos",
+            "blockNumber": 1,
+            "activities": [
+                {
+                    "id": "act-cuento-1",
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "Comparten conocimiento sobre los cuentos.",
+                    "resources": "Papelógrafo de aprendizajes. Noticias del fascículo. Cuentos para leer.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Busca en tu hogar algún cuento que te guste. Llévalo a la escuela para compartir.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Introducción del tema.",
+                            "description": "El docente propone una conversación acerca de lo que saben los estudiantes sobre los cuentos. Recordemos que, como se recomienda en las orientaciones didácticas, los estudiantes deberían escuchar cuentos leídos por su docente todas las semanas o todos los días, además de las experiencias previas que puedan tener.\nOrientación específica para el docente: Para activar y recuperar los saberes previos en relación con el cuento, el docente puede hacer preguntas como: ¿Cuáles cuentos conocen? ¿Cuál es su cuento favorito? ¿Recuerdan algún cuento que les haya gustado? ¿Qué fue lo que más les gustó de ese cuento? ¿Hay algún cuento que no les haya gustado? ¿Por qué no les gustó? Puede relacionar las preguntas con alguna lectura que hayan realizado en el transcurso del año escolar."
+                        },
+                        {
+                            "titulo": "Momento 2. Reconocimiento de cuentos.",
+                            "description": "Para continuar con la introducción del tema, el docente propone realizar la Actividad n.º 1 (A) del fascículo. Entre todos completan la actividad del fascículo y comentan: ¿Cómo reconocen el cuento? ¿Cómo se dan cuenta cuál es cada texto? ¿La forma los orienta? ¿Las imágenes?"
+                        },
+                        {
+                            "titulo": "Momento 3. Diferencia entre cuento y noticia.",
+                            "description": "Continúan trabajando en conjunto. Entre todos realizan la Actividad n.º 1 (B) del fascículo. Entre todos completan la actividad del fascículo y comentan: ¿Cómo reconocen el cuento? ¿Por qué? Marcar la fórmula de inicio “Había una vez”. ¿Muchos cuentos inician igual? ¿Por qué el otro texto no podría ser el inicio de un cuento? ¿De qué tipo de texto podría ser parte? (se trata de una noticia)\nOrientación específica para el docente: Sistematizar la conversación para concluir que diferencien la noticia del cuento. El cuento tiene sus formas características, puede tratarse de hechos inventados. En cambio, la noticia deben ser hechos reales e interesantes para ser contados como novedad (en este caso, siempre hay hombres que plantan yuca, no sería una noticia)."
+                        },
+                        {
+                            "titulo": "Momento 4. El papelógrafo de aprendizajes.",
+                            "description": "El docente presenta a los estudiantes el papelógrafo de aprendizajes. Lo lee en voz alta.\nOrientación específica para el docente: Al leer el papelógrafo, el docente puede resaltar las letras iniciales de palabras comunes (como “cuento”, \"personajes\") y hacer que los estudiantes identifiquen el sonido inicial o interior de algunas palabras. Por ejemplo: ¿Qué sonido escuchamos al principio de \"cuento\"? ¿Y en \"yuca\"?\nEN ESTE TIEMPO TRABAJAREMOS PARA:\n● Escuchar el cuento “La yuca”.\n● Conocer las partes del cuento: inicio, nudo y desenlace.\n● Identificar los personajes y lo que hacen.\n● Conocer nuevas palabras en los cuentos.\n● Escribir un cuento con ayuda.\n● Dramatizar el nuevo cuento."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha y registro de lo realizado en clase.",
+                            "description": "El docente pregunta la fecha e invita a los estudiantes a recordarla y escribirla en formato corto, usando sólo números. Si lo considera pertinente, puede incluir también el nombre del día y del mes. Luego, anuncia que escribirán el nombre de la secuencia didáctica que inician ese día: cuento. Dicta la palabra de forma habitual y anima a los estudiantes a repetirla en voz baja, prolongando los sonidos, para favorecer la automatización de esta estrategia. Al finalizar, el docente escribe la palabra en la pizarra y todos comparan su escritura para corregir si es necesario."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-cuento-2",
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "Narran cuentos apoyados en los paratextos: título e imágenes.",
+                    "resources": "Libros de cuentos de la biblioteca del aula.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe como puedas el título del cuento que leíste en la clase: _________________________________________________________",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente organiza la clase en ronda o en forma de círculo. De a uno, los estudiantes comparten el cuento que trajeron de su hogar. El docente les pide que muestren la tapa del libro, que digan el título y cuenten de qué se trata mostrando las imágenes del libro. No hace falta leer el libro completo, simplemente que el estudiante lo narre.\nOrientación específica para el docente: Si algunos estudiantes no traen el cuento de su hogar, ofrecer la biblioteca del aula o de la escuela para tomar un libro que el estudiante conozca y que haya escuchado o leído.\nOrientación específica para el docente: En esta actividad el objetivo es compartir las lecturas previas y que los estudiantes puedan apoyarse en los paratextos (imágenes, título o subtítulos) para poder narrar un cuento conocido. Se sugiere fomentar la narración con preguntas que ayuden a completar la información: ¿Quienes son los personajes? ¿Qué pasó? ¿Qué pasó después? ¿Cómo termina el cuento?"
+                        },
+                        {
+                            "titulo": "Momento 2. Escritura de la fecha y registro de lo realizado en clase.",
+                            "description": "El docente pregunta la fecha e invita a los estudiantes a recordarla y escribirla en formato corto, usando sólo números. Si lo considera pertinente, puede incluir también el nombre del día y del mes. Luego, explica que escribirán lo que realizaron en clase: Hoy contamos cuentos. El docente dicta las palabras de forma habitual y anima a los estudiantes a repetirla en voz baja, prolongando los sonidos, para favorecer la automatización de esta estrategia. Al finalizar, el docente escribe la palabra en la pizarra. Relacionando el sonido con la escritura. Todos comparan su escritura para corregir si es necesario. El docente recorre el aula y ayuda a quienes más lo necesitan."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-cuento-3",
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "Anticipan la lectura. Escuchan un cuento.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Colorea las palabras que comienzan con la letra Y como “yuca” (observa la letra, no el sonido): yogur, isla, yoga, iglesia.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comentan si pudieron realizar la tarea para el hogar y leen en voz alta el título del cuento que leyeron la clase anterior."
+                        },
+                        {
+                            "titulo": "Momento 2. Anticipación de la lectura.",
+                            "description": "El docente propone observar el cuento del fascículo en la actividad n.° 3 y pregunta: ¿De qué creen que se va a tratar este cuento? ¿Qué se imaginan que va a suceder?\nOrientación específica para el docente: El objetivo es que los estudiantes anticipen lo que van a leer para lograr una lectura más comprensiva."
+                        },
+                        {
+                            "titulo": "Momento 3. Lectura en voz alta del docente.",
+                            "description": "El docente lee el cuento en voz alta a una velocidad habitual. Va señalando con el dedo algunas palabras clave como: los personajes, yuca, tiró, tiraron, arrancaron."
+                        },
+                        {
+                            "titulo": "Momento 4. Verificación de la anticipación.",
+                            "description": "El docente, cuando termina de leer, pregunta a los estudiantes: El cuento, ¿se trataba de lo que habíamos imaginado? ¿sobre qué se trató?"
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha y dictado de dos palabras del cuento.",
+                            "description": "Escribe la fecha en formato corto. Si lo considera pertinente, puede incluir también el nombre del día y del mes. Luego, explica que dictará dos palabras del cuento leído: yuca - crece. Dicta la palabra de forma habitual y anima a los estudiantes a repetirla en voz baja, prolongando los sonidos, para favorecer la automatización de esta estrategia. Al finalizar, el docente escribe la palabra y reflexiona sobre:\n- El sonido de la Y en la palabra “yuca”, lo compara con el sonido de esa letra en la palabra “hoy”. Explica que esa letra puede tener dos sonidos.\n- El sonido de la letra C en la palabra “crece”. Al principio suena kkk y luego suena ssss. Explica que esa letra tiene dos sonidos. Brinda ejemplos y escríbelos (corazón y cielo).\nLos estudiantes buscan esas palabras en el texto del cuento y las encierran. Revisan sus escrituras. El docente recorre el aula y ayuda a quienes lo necesitan."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-cuento-4",
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "Responden preguntas sobre el cuento. Reflexionan sobre la comprensión del cuento.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Pide a un familiar contarte un cuento. Escoge un personaje, dibújalo y escribe su nombre.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que compartan la tarea para el hogar. El docente escucha las respuestas y modela la respuesta correcta.\nOrientación específica para el docente: Esta tarea para el hogar puede plantear preguntas sobre el problema de “defectos de paralelismo” en la Lengua Española (Ver Guía Teórica apartado “El paralelismo entre la lengua oral y la escrita no es perfecto. Características principales del español”. págs. 18-19)."
+                        },
+                        {
+                            "titulo": "Momento 2. Lectura dialogada del cuento.",
+                            "description": "El docente lee en voz alta el cuento, pero intercalando preguntas de comprensión. Esta actividad se realiza a modo de repaso del cuento y para afianzar la comprensión literal y crítica del mismo.\nOrientación específica para el docente: Lee la introducción del cuento y el planteo del conflicto, es decir, hasta la frase: “Un día el viejo fue a arrancarla. Tiró y tiró, pero no pudo arrancarla”. El docente pregunta: ¿Quién es el personaje del cuento? ¿Qué quiere lograr? ¿Qué le sucedió? Continúa la lectura deteniéndose en cada fragmento de cada personaje que se suma a la historia. El docente pregunta en cada ocasión: ¿A quién llamó el viejo? ¿Y qué pasó? ¿Lograron arrancarla? Veamos cómo sigue… Hasta llegar al final del cuento: Finalmente, ¿Lo lograron? ¿Quién logró arrancar la yuca? (El objetivo se logra entre todos). ¿Les parece que el viejo solo podría haberlo logrado? ¿Qué opinan? Fomentar el análisis crítico y la opinión de los estudiantes.\nOrientación específica para el docente: La lectura dialogada es una estrategia didáctica en la que el docente lee por partes el texto y, en la medida que avanza, hace aclaraciones sobre el vocabulario que puede ser nuevo y hace preguntas que fomenten la comprensión tanto literal como inferencial. Se utiliza cuando se abordan textos extensos como las narraciones, textos informativos o instructivos."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 4 del fascículo.",
+                            "description": "De a pares, completan la actividad del fascículo: Marca con una X la respuesta correcta.\nRecorrido docente: El docente lee en voz alta la actividad. Ayuda a los estudiantes a comprender la actividad. Les lee las opciones todas las veces que lo necesiten y ayuda a que puedan leer por sí mismos.\nAl finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha y dictado de dos palabras del cuento.",
+                            "description": "Escribe la fecha en formato corto. Si lo considera pertinente, puede incluir también el nombre del día y del mes. Luego, explica que dictará dos palabras del cuento leído: yuca - crece. Dicta las palabras de forma habitual y anima a los estudiantes a repetirlas en voz baja, prolongando los sonidos, para favorecer la automatización de esta estrategia. Al finalizar, el docente escribe la palabra y reflexiona sobre:\n- El sonido de la Y en la palabra “yuca”, lo compara con el sonido de esa letra en la palabra “hoy”. Explica que esa letra puede tener dos sonidos.\n- El sonido de la letra C en la palabra “crece”. Al principio suena kkk y luego suena ssss. Explica que esa letra tiene dos sonidos. Brinda ejemplos y escríbelos (corazón y cielo).\nLos estudiantes buscan esas palabras en el texto del cuento y las encierran. Revisan sus escrituras. El docente recorre el aula y ayuda a quienes lo necesitan."
+                        }
+                    ]
+                }
+            ],
+            "description": "Lectura y escritura de cuentos sencillos con personajes y hechos imaginarios."
+        },
+        {
+            "id": "blk-seq-6-lengua-1ro-2",
+            "title": "Bloque 2. Comprensión lectora y gramática",
+            "blockNumber": 2,
+            "activities": [
+                {
+                    "id": "act-cuento-5",
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "Escuchan y leen el cuento “La yuca”. Identifican las partes del cuento.",
+                    "resources": "Tarjetas con las partes del cuento (inicio-nudo-desenlace). Papelógrafo de aprendizajes.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: ¡Se pegaron las palabras! Escribe cuántas palabras hay. Tiraronperonolaarrancaron Escribe la oración con las palabras separadas: _____________________",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que compartan el personaje de su cuento y lean el nombre que le pusieron."
+                        },
+                        {
+                            "titulo": "Momento 2. Introducción del bloque. Lectura del papelógrafo de aprendizajes.",
+                            "description": "El docente y los estudiantes leen el papelógrafo de aprendizajes y marcan todo lo que ya aprendieron. Se detiene en el punto “las partes del cuento” y pregunta a los estudiantes si comprenden el papelógrafo. El docente explica brevemente las partes del cuento: inicio, nudo y desenlace.\nOrientación específica para el docente: La explicación debe ser sencilla y accesible para los estudiantes, no es necesario que sea muy técnica. Por ejemplo: El “inicio” es la parte donde comienza el cuento y se dice quién es el protagonista y dónde vive. El “nudo” es el problema que se cuenta. El “desenlace” es cómo se resuelve y el final."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 5 (A) del fascículo.",
+                            "description": "Entre todos, realizan la actividad del fascículo: Une las partes del cuento. El docente guía la comprensión de cada parte con ejemplos del cuento."
+                        },
+                        {
+                            "titulo": "Momento 4. Actividad n.º 5 (B) del fascículo.",
+                            "description": "De a pares, realizan la actividad del fascículo: Une las imágenes con las partes del cuento. El docente guía la comprensión de cada parte con ejemplos del cuento.\nRecorrido docente: El docente explica la actividad. Modeliza la lectura de las tres palabras de las partes del cuento (inicio, nudo y desenlace) exagerando y estirando los sonidos."
+                        },
+                        {
+                            "titulo": "Momento 5. Las partes de otros cuentos.",
+                            "description": "El docente prepara previamente tres tarjetas que dicen: “inicio”, “nudo”, “desenlace”. Propone a los estudiantes el juego “contador de cuentos”. Pide a los estudiantes que piensen en un cuento, por ejemplo, “Caperucita Roja”. Dice el título del cuento y entrega la tarjeta de “inicio” a un estudiante. El estudiante debe contar sólo la parte que le tocó del cuento. Luego, continúa otro estudiante con otra parte del cuento. Así, hasta contar el cuento. Entre todos, agregan información o avisan cuándo termina cada parte. Repiten el juego las veces que sea necesario hasta que todos hayan comprendido las partes del cuento.\nOrientación específica para el docente: El docente seleccionará un cuento que todos sus estudiantes conozcan. Puede relacionarlo con otros cuentos leídos en el Centro Educativo."
+                        },
+                        {
+                            "titulo": "Momento 6. Escritura de la fecha y dictado de las partes del cuento.",
+                            "description": "Escribe la fecha en formato corto. Si lo considera pertinente, puede incluir también el nombre del día y del mes. Luego, explica que dictará dos palabras del cuento leído: inicio - nudo - desenlace. Dicta la palabra de forma habitual y anima a los estudiantes a repetirla en voz baja, prolongando los sonidos, para favorecer la automatización de esta estrategia. Al finalizar, el docente escribe la palabra y reflexiona sobre:\n- El sonido sss: puede escribirse, según la palabra con la letra S o con la letra C (incluso con la letra Z o la X, como en el caso de “zanahoria” o “boxeo”).\nRevisan sus escrituras. El docente recorre el aula y ayuda a quienes lo necesitan."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-cuento-6",
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "Identifican los personajes del cuento. Identifican palabras cortas y largas; plural y singular.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Marca con rojo las palabras que expresan “muchos” y con azul las que expresan “uno”. perros - yuca – gato - mujeres - gatas - hombre",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que voluntariamente cuenten cómo resolvieron la tarea para el hogar. Corrigen entre todos. El docente modela las respuestas correctas."
+                        },
+                        {
+                            "titulo": "Momento 2. Los personajes del cuento.",
+                            "description": "El docente indica que trabajarán en el fascículo. Actividad 6 del fascículo. Lee los personajes del cuento y responde. Esta actividad la realizan entre todos, con el docente guiando con preguntas ya que el objetivo es que los estudiantes identifiquen palabras más largas y cortas y las comparen con la cantidad de sonidos que escuchan.\nOrientación específica para el docente: El docente orienta para que los estudiantes cuenten la cantidad de letras y los ayuda a estirar y exagerar los sonidos de cada palabra para contar los sonidos. Se encontrarán con dos particularidades propias de la Lengua Española: la letra H (una letra sin sonido) y el dígrafo RR (dos letras para un mismo sonido). Dado que esta es la última secuencia de 1° grado, se presenta esta particularidad a los estudiantes. Simplemente experimentan, operan esta diferencia como parte del análisis de los personajes del cuento. No se darán reglas ortográficas en este momento. Es un primer acercamiento al conocimiento ortográfico a partir de la función del texto “El cuento”. Esta reflexión continuará en los grados sucesivos."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 6 (B) del fascículo.",
+                            "description": "De a pares, completan la actividad del fascículo: Encuentra las diferencias entre las palabras. Una vez que los estudiantes identificaron las diferencias, el docente pide que algún estudiante lea las oraciones, y pregunta: ¿Por qué le parece que son distintas las oraciones? (Se espera que identifiquen que en la primera se habla de un solo hombre que tiró de una sola yuca y que en la segunda se trata de más de un hombre y de dos yucas)."
+                        },
+                        {
+                            "titulo": "Momento 4. Actividad n.º 6 (C) del fascículo.",
+                            "description": "De a pares, completan la actividad del fascículo: Uno o muchos.\nRecorrido docente: Orientar a los estudiantes en prestar atención al final de cada palabra si tienen que agregar o quitar la S para expresar “uno o muchos” (es decir, singular o plural).\nAl finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha.",
+                            "description": "Escribe la fecha en formato corto. Si lo considera pertinente, puede incluir también el nombre del día y del mes."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-cuento-7",
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "Identifican los signos de puntuación: punto final y raya de diálogo. Leen en voz alta con la entonación apropiada a los signos de puntuación.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Lee en voz alta el inicio del cuento para que te escuche tu familia: Había una vez un hombre viejo que plantó una yuca y después dijo: —¡Crece, crece pequeña yuca! ¡Crece y sé grande! Y la yuca creció y llegó a ser enorme.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que voluntariamente cuenten cómo resolvieron la tarea para el hogar. Corrigen entre todos. El docente modela las respuestas correctas."
+                        },
+                        {
+                            "titulo": "Momento 2. Signos de puntuación.",
+                            "description": "El docente explica que en los cuentos y en todos los textos escritos, se hacen marcas en los textos para indicar pausas en la lectura o para identificar cuando un personaje habla. Indica a los estudiantes que abran el fascículo en la Actividad n.º 7 (A) y observen: ¿Dónde encuentran un punto? ¿Qué creen que indica? Luego, continúa guiando con preguntas: ¿En qué parte piensan que se indica dónde habla el hombre? ¿Por qué? Les indica que marquen con un color el punto y con otro color la raya de diálogo. Continúa guiando la observación: En este cuento hay un signo que conocieron en el “mensaje corto”. ¿Lo recuerdan? ¿Qué indica? ¿Cómo leemos esa parte? Les indica que marquen con otro color los signos de exclamación."
+                        },
+                        {
+                            "titulo": "Momento 3. Lectura en voz alta.",
+                            "description": "El docente pide a los estudiantes que, voluntariamente, de forma guiada, lean en voz alta las oraciones de la Actividad n.º 7 (B) del fascículo.\nOrientación específica para el docente: El docente orienta para que los estudiantes den la entonación correspondiente a los signos de puntuación de cada oración. Les puede recordar que han trabajado con una actividad similar sobre los mensajes cortos."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha y registro de lo trabajo en clase.",
+                            "description": "Escribe la fecha en formato corto. Si lo considera pertinente, puede incluir también el nombre del día y del mes. Luego, explica que dictará lo que hicieron en clase: “Leímos en voz alta”. Dicta la frase de forma habitual y anima a los estudiantes a repetirla en voz baja, prolongando los sonidos, para favorecer la automatización de esta estrategia. Al finalizar, el docente escribe la frase en la pizarra, relacionando los sonidos con las letras, indicando la separación de palabras y orientando sobre el trazo de las letras. Los estudiantes comparan su escritura con la del docente. Reflexionan sobre la palabra “voz”. El último sonido es sss y, en este caso, cuando nos referimos a la voz con la que hablamos o cantamos, se escribe con la letra Z. El docente recorre el aula, corrige y ayuda a quienes lo necesitan."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-cuento-8",
+                    "title": "ACTIVIDAD 8",
+                    "pedagogicalIntention": "Juegan identificando palabras, sonidos y frases en el texto.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escoge una palabra que te haya llamado la atención, escríbela en el cuaderno y dibuja algo relacionado con ella. “Un día el viejo fue a arrancar la yuca. Tiró y tiró, pero no pudo arrancarla.”",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que voluntariamente cuenten su experiencia al leer una parte del cuento a su familia."
+                        },
+                        {
+                            "titulo": "Momento 2. Actividad n.º 8 (A) del fascículo.",
+                            "description": "De a pares, completan la actividad del fascículo: Detectives de palabras. ¿Cuántas veces se repiten estas palabras en el cuento?\nRecorrido docente: Orientar la relectura con el objetivo de encontrar la palabra específica y la frase específica. Para la búsqueda de palabras se debe buscar la letra inicial (Observa la letra que tienes que buscar). Para la búsqueda de frases deben controlar la cantidad de palabras de la frase.\nAl finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 8 (B) del fascículo.",
+                            "description": "De a pares, completan la actividad del fascículo: Completa las frases del cuento. Al finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos.\nRecorrido docente: Guíe a los grupos para que identifiquen el orden de las palabras en el cuento y puedan guiarse."
+                        },
+                        {
+                            "titulo": "Momento 4. Actividad n.º 8 (C) del fascículo.",
+                            "description": "De a pares, completan la actividad del fascículo: Encuentra las palabras del cuento en la sopa de letras. Al finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos.\nRecorrido docente: Para guiar a los estudiantes indicar que apoyen el dedo donde creen que empieza la palabra y donde piensan que termina. Luego, la leen en voz alta. Así pueden verificar dónde empieza y termina la palabra. Aclarar que la palabra puede estar escrita como siempre o de arriba hacia abajo."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha.",
+                            "description": "Escribe la fecha en formato corto. Si lo considera pertinente, puede incluir también el nombre del día y del mes."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "blk-seq-6-lengua-1ro-3",
+            "title": "Bloque 3. Producción escrita",
+            "blockNumber": 3,
+            "activities": [
+                {
+                    "id": "act-cuento-9",
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "Planifican el proyecto final: pensar un nuevo cuento.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Con ayuda de un familiar, piensa en un posible final para el cuento que estamos creando en clase y escríbelo, como puedas, en tu cuaderno.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que lean la palabra que eligieron del cuento. Escoge tres para escribirlas en la pizarra y entre todos revisan la escritura."
+                        },
+                        {
+                            "titulo": "Momento 2. Introducción del bloque. Lectura del papelógrafo de aprendizajes.",
+                            "description": "El docente y los estudiantes leen el papelógrafo de aprendizajes y marcan todo lo que ya aprendieron. Se sugiere que los estudiantes hagan una marca, como un círculo o una cruz, al lado de los aprendizajes completados. El docente menciona lo que falta realizar, como:\n● Escribir un cuento con ayuda.\n● Dramatizar el nuevo cuento."
+                        },
+                        {
+                            "titulo": "Momento 3. Plan para escribir un nuevo cuento.",
+                            "description": "El docente comenta que entre todos van a escribir un cuento parecido al de La Yuca y que finalmente, lo van a dramatizar. El docente anima a pensar otro cuento que plantee el mismo tipo de problema o conflicto y que repita acciones.\nOrientación específica para el docente: Este momento es una oportunidad para recordarles la estructura del cuento: inicio, nudo y desenlace. Les recuerda que el cuento plantea una situación en la que alguien quiere lograr algo, por ejemplo, arrancar la yuca que plantó, y no puede. Pide ayuda. No pueden. Pide más ayuda. No pueden. Finalmente, sumando la fuerza de todos, lo logran. Les propone otra posibilidad. A modo de ejemplo se ofrece una opción que el docente puede sustituir por la que crea más conveniente. Por ejemplo: Un perro ve un mango rico. Se estira para tomarlo, pero está alto y no puede alcanzarlo. Llama a un gato, el gato se sube al perro, se estiran para tomarlo, pero está alto y no pueden. Llaman a un loro, el loro se sube al gato, el gato se sube al perro… Finalmente alcanzan el mango y lo comparten.\nEsta propuesta de escritura de un cuento a partir de otro conocido es un modelo para el docente. Dado que existen diversos espacios de lectura en el Centro Educativo, los docentes pueden basarse en cualquier cuento que a sus estudiantes los haya motivado y despertado su imaginación. En ese caso, el docente deberá seguir las actividades de la guía didáctica, pero basándose en otro cuento."
+                        },
+                        {
+                            "titulo": "Momento 4. Selección de los personajes y nudo del cuento.",
+                            "description": "El docente, al dictado de los estudiantes, anota en la pizarra los personajes del cuento y lo que quieren lograr. Por ejemplo: perro, gato, loro. Quiere lograr… alcanzar un mango. Finalmente, los estudiantes escriben en la Actividad nº 9 del fascículo los personajes y lo que quieren lograr. Pueden apoyarse en lo escrito por el docente en la pizarra.\nRecorrido docente: Indicar a los estudiantes que se apoyen en lo escrito por el docente en la pizarra o que intenten decir la palabra en voz alta y escuchar los sonidos para escribirlos (estrategia de autodictado convirtiendo los sonidos en grafías).\nOrientación específica para el docente: Este momento de escritura es muy importante para que los estudiantes ganen autonomía y tengan experiencia de escribir textos más extensos. Se sugiere darles tiempo y guiarlos en el reconocimiento de los sonidos y las letras que quieren escribir, así como observar el ambiente alfabetizador o la pizarra."
+                        },
+                        {
+                            "title": "Momento 5: Escritura de la fecha y registro del proyecto final.",
+                            "description": "Escribe la fecha en formato corto. Si lo considera pertinente, puede incluir también el nombre del día y del mes. Luego, explica que van a dejar registro en el cuaderno que van a escribir un cuento. El docente dicta: “Vamos a escribir un cuento”. Dicta la frase de forma habitual y anima a los estudiantes a repetirla en voz baja, prolongando los sonidos, para favorecer la automatización de esta estrategia. Al finalizar, el docente escribe la frase en la pizarra, relacionando los sonidos con las letras, indicando la separación de palabras y orientando sobre el trazo de las letras. Los estudiantes comparan su escritura con the del docente. El docente recorre el aula, corrige y ayuda a quienes lo necesitan."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-cuento-10",
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "Escriben el inicio y el nudo del cuento.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Dibuja una imagen del cuento en tu cuaderno y escribe una oración corta sobre lo que pasa en la imagen.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a dos o tres de los estudiantes que leen el final que eligieron para el cuento."
+                        },
+                        {
+                            "titulo": "Momento 2. Escritura del inicio en colaboración y con ayuda del docente.",
+                            "description": "El docente organiza una situación de escritura colectiva. Les va indicando a los estudiantes que piensen en el inicio, para lo cual pueden releer el inicio de La yuca. Les hace preguntas, por ejemplo: ¿Qué vio el perro? ¿Qué quería? Al dictado de los estudiantes, va escribiendo en la pizarra. El docente es quien selecciona y escribe los signos de puntuación, los explica y hace observar el uso de mayúsculas."
+                        },
+                        {
+                            "titulo": "Momento 3. Escritura en el fascículo.",
+                            "description": "Los estudiantes escriben y copian el inicio del cuento en la Actividad 10 (A) del fascículo."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura del nudo en colaboración y con la ayuda del docente.",
+                            "description": "El docente organiza una situación de escritura colectiva. Les va indicando a los estudiantes que piensen en el nudo, para lo cual pueden releer el nudo de La yuca. Les hace preguntas: ¿Lo logró? ¿Qué hace para lograrlo? ¿A quién llama? ¿Qué frase podemos repetir cuando no lo logra? Al dictado de los estudiantes, va escribiendo en la pizarra. El docente es quien selecciona y escribe los signos de puntuación, los explica y hace observar el uso de mayúsculas."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura en el fascículo.",
+                            "description": "Los estudiantes escriben y copian el nudo del cuento en la Actividad 10 (B) del fascículo.\nRecorrido docente: Indicar a los estudiantes que se apoyen en lo escrito por el docente en la pizarra o que intenten decir la palabra en voz alta y escuchar los sonidos para escribirlos (estrategia de autodictado convirtiendo los sonidos en grafías). Realice indicaciones y correcciones en el momento de escritura de los estudiantes para evitar grandes frustraciones. Están realizando una tarea nueva y exigente."
+                        },
+                        {
+                            "titulo": "Momento 6. Escritura de la fecha.",
+                            "description": "Escribe la fecha en formato corto. Si lo considera pertinente, puede incluir también el nombre del día y del mes."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-cuento-11",
+                    "title": "ACTIVIDAD 11",
+                    "pedagogicalIntention": "Escriben el desenlace del cuento.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Con ayuda de un familiar, dibuja una escena del final del cuento y escribe una oración que lo explique.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a dos o tres de los estudiantes que muestren la imagen y que traten de leer la oración que escribieron. Elige una oración de las de los estudiantes que tenga errores de escritura, la escribe en la pizarra y entre todos la corrigen."
+                        },
+                        {
+                            "titulo": "Momento 2. Escritura del desenlace en colaboración y con ayuda del docente.",
+                            "description": "El docente organiza una situación de escritura colectiva. Les va indicando a los estudiantes que piensen en el final del cuento. Les hace preguntas, por ejemplo: ¿A cuántos personajes llama y no lo logran? ¿Quién es el último personaje al que llaman? ¿Qué frase decimos cuando lo logran? Al dictado de los estudiantes, va escribiendo en la pizarra. El docente es quien selecciona y escribe los signos de puntuación, los explica y hace observar el uso de mayúsculas."
+                        },
+                        {
+                            "titulo": "Momento 3. Escritura en el fascículo.",
+                            "description": "Los estudiantes escriben y copian el desenlace del cuento en la Actividad 11 del fascículo.\nRecorrido docente: A medida que los estudiantes escriben, el docente orienta las correcciones y/o escribe la versión completa y convencional en la parte superior del borrador de los estudiantes."
+                        },
+                        {
+                            "titulo": "Momento 4. Comparación de escrituras.",
+                            "description": "Los estudiantes corrigen sus escrituras según las indicaciones del docente en el fascículo de cada parte del cuento.\nOrientación específica para el docente: Este momento de escritura es muy importante para que los estudiantes ganen autonomía y tengan experiencia de escribir textos más extensos. Se sugiere darles tiempo y guiarlos en el reconocimiento de los sonidos y las letras que quieren escribir, así como observar el ambiente alfabetizador o la pizarra.\nOrientación específica para el docente: Dada la complejidad y extensión de este texto y que se trata de las primeras escrituras extensas de los estudiantes, la versión final del cuento la realizará el docente. Les entregará una versión escrita y editada por el docente, con los signos de puntuación. Con esta versión, los estudiantes realizarán la dramatización del cuento."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha.",
+                            "description": "Escribe la fecha en formato corto. Si lo considera pertinente, puede incluir también el nombre del día y del mes."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-cuento-12",
+                    "title": "ACTIVIDAD 12",
+                    "pedagogicalIntention": "Leen la versión final del cuento. Organizan la dramatización del cuento creado colectivamente.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión. En este caso, se informa a la familia sobre materiales que deben traer para la dramatización: Familia: Para representar el cuento que escribimos, deberá traer: _______________________________________________",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a dos o tres estudiantes que muestren su dibujo y lean la oración que escribieron. Luego, selecciona una de las oraciones con errores de escritura, la escribe en la pizarra y, entre todos, la corrigen."
+                        },
+                        {
+                            "titulo": "Momento 2. Lectura de la versión final del cuento.",
+                            "description": "El docente organiza la clase en una ronda para disfrutar de la lectura en voz alta del cuento que crearon entre todos. El docente lee en voz alta. Al finalizar celebran con un aplauso el gran logro alcanzado."
+                        },
+                        {
+                            "titulo": "Momento 3. Organizar la dramatización.",
+                            "description": "El docente pregunta quién quiere representar cada papel. Voluntariamente, los estudiantes deciden cuál papel quieren representar.\nOrientación específica para el docente: Dado que todos los estudiantes no podrán tener un papel, pueden repetirse los papeles de los personajes que ayudan. Si algunos estudiantes no desean participar, se les puede asignar tareas de organización o para traer materiales, por ejemplo: dibujar el mango que quieren alcanzar."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha y registro de lo realizado en clase.",
+                            "description": "Escribe la fecha en formato corto. Si lo considera pertinente, puede incluir también el nombre del día y del mes. Luego, explica que van a dejar registro en el cuaderno de lo que hicieron. El docente dicta: “Leímos nuestros cuentos”. Dicta la frase de forma habitual y anima a los estudiantes a repetirla en voz baja, prolongando los sonidos, para favorecer la automatización de esta estrategia. Al finalizar, el docente escribe la frase en la pizarra, relacionando los sonidos con las letras, indicando la separación de palabras y orientando sobre el trazo de las letras. Los estudiantes comparan su escritura con the del docente. El docente recorre el aula, corrige y ayuda a quienes lo necesitan."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-cuento-13",
+                    "title": "ACTIVIDAD 13",
+                    "pedagogicalIntention": "Leen en voz alta el cuento nuevo. Ensayan la dramatización del cuento.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Lee un pedacito del cuento a un familiar. Pregúntale qué parte le gustó más y escribe su respuesta en tu cuaderno.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Lectura en voz alta del cuento.",
+                            "description": "El docente indica a cada estudiante la parte que le tocará leer en la dramatización. Si hay estudiantes que no participan, se le asigna un fragmento para que lean también. Si el cuento es muy breve, pueden practicar representando La Yuca.\nOrientación específica para el docente: Fomentar la correcta lectura y la entonación adecuada al momento del cuento, respetando los signos de puntuación."
+                        },
+                        {
+                            "titulo": "Momento 2. Juego a cambiar de personaje.",
+                            "description": "Los estudiantes rotan de personajes para representarlos. Deben leer en voz alta un fragmento del cuento. Si el cuento es muy breve, pueden elegir otro cuento para leer. Se puede organizar una lectura en voz alta por párrafos."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 13 del fascículo.",
+                            "description": "De a pares, completan la actividad del fascículo: Une con una línea cada personaje con lo que hace en la historia. Al finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha.",
+                            "description": "Escribe la fecha en formato corto. Si lo considera pertinente, puede incluir también el nombre del día y del mes."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-cuento-14",
+                    "title": "ACTIVIDAD 14",
+                    "pedagogicalIntention": "Dramatizan el cuento creado entre todos.",
+                    "resources": "Materiales para la dramatización.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Dibuja algún personaje de cuento y ponle un nombre.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que voluntariamente lean la parte del cuento que más le gustó a su familia."
+                        },
+                        {
+                            "titulo": "Momento 2. Dramatización del cuento.",
+                            "description": "El docente organiza una puesta en escena para dramatizar el cuento. El objetivo es que puedan expresarse y disfrutar de compartir con otros la creación de su propio cuento. Se organiza el espacio del aula para que todos puedan participar y disfrutar de este logro.\nOrientación específica para el docente: Como sugerencia, si es posible, podría invitarse a otros miembros de la comunidad educativa, como familias, otros estudiantes o autoridades del Centro. En caso que los niños no lleven los materiales, la docente puede elaborar algunos."
+                        },
+                        {
+                            "titulo": "Momento 3. Escritura de la fecha y registro de lo realizado en clase.",
+                            "description": "Escribe la fecha en formato corto. Si lo considera pertinente, puede incluir también el nombre del día y del mes. Luego, explica que van a dejar registro en el cuaderno que van a escribir un cuento. El docente dicta: “Dramatizamos el cuento”. Dicta la frase de forma habitual y anima a los estudiantes a repetirla en voz baja, prolongando los sonidos, para favorecer la automatización de esta estrategia. Al finalizar, el docente escribe la frase en la pizarra, relacionando los sonidos con las letras, indicando la separación de palabras y orientando sobre el trazo de las letras. Los estudiantes comparan su escritura con the del docente. El docente recorre el aula, corrige y ayuda a quienes lo necesitan."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-cuento-15",
+                    "title": "ACTIVIDAD 15",
+                    "pedagogicalIntention": "Reflexionan sobre lo aprendido.",
+                    "resources": "Papelógrafo de aprendizajes.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que enseñen el personaje que dibujaron y pasa a dos o tres estudiantes a escribir en la pizarra el nombre que le pusieron a ese personaje."
+                        },
+                        {
+                            "titulo": "Momento 2. Revisión del papelógrafo.",
+                            "description": "Entre todos, leen el papelógrafo de aprendizajes y marcan todo lo que ya aprendieron. Se sugiere que los estudiantes hagan una marca, como un círculo o una cruz, al lado de los aprendizajes completados."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 15 del fascículo: “Palabras aprendidas”.",
+                            "description": "Lee las palabras del vocabulario en el fascículo y realizan la actividad: Escribe las palabras que te dicta tu docente. Palabras a dictar: yuca, hombre, inicio, cuento.\nAl finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "title": "Cierre:",
+                            "description": "Se agradece a todos los estudiantes por su esfuerzo y compromiso."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

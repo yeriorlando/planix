@@ -1,0 +1,672 @@
+{
+  "id": "seq-1771992184225",
+  "title": "Geometría",
+  "description": "Se centra en el estudio de figuras geométricas, sus características y propiedades. Los estudiantes identifican, clasifican y describen figuras, utilizando instrumentos cuando es necesario.",
+  "order": 6,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771992184217",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "¡Qué divertida es la geometría!",
+      "intencion_pedagogica": "Retroalimentar sobre las ideas básicas de geometría.\n",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre estadios de béisbol y geometría.\n\nObservación guiada: Análisis de imágenes de figuras geométricas.\n\nConstrucción colaborativa: Definición de punto, recta, rayo, segmento y plano.\n\nUso de papelógrafo: Imágenes de elementos geométricos.",
+      "aprendizaje_significativo": "Se parte del contexto de los estadios de béisbol dominicanos para introducir conceptos geométricos básicos, conectando así el aprendizaje con el interés de los estudiantes.\n\n",
+      "actividades_complementarias": "ara estudiantes con dificultades de abstracción: Se utilizan ejemplos concretos del aula (esquina de la pizarra como punto, unión de paredes como recta).\n\nPara estudiantes kinestésicos: Se les invita a representar los elementos con su cuerpo (brazos extendidos como recta, un brazo como rayo).\n\nPara estudiantes con discapacidad visual: Se utilizan modelos táctiles (hilos para rectas, plastilina para puntos).\n\nPara estudiantes avanzados: Se les pide que investiguen otros elementos geométricos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 174, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia preguntando: \"¿Cuáles estadios de béisbol conocen? ¿Cuál es su equipo favorito? ¿Cómo se juega al béisbol?\"\n2. Pregunta: \"¿Qué recuerdan de geometría? ¿Qué es una línea? ¿Qué es un punto? ¿Qué es el plano?\"\n3. Anuncia el tema: ideas básicas de geometría.",
+          "actividad_numero": "Actividad 1 A (pág. 174)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con imágenes\n• Pizarra",
+          "descripcion": "1. Muestra imágenes preparadas en un papelógrafo (punto, recta, rayo, segmento, plano). 2. Pide que observen y comenten dónde han visto esas figuras en el aula o entorno. 3. Construye con ellos las definiciones: - Punto: figura adimensional, no tiene longitud, área ni volumen. Se denota con letra mayúscula. - Recta: figura formada por infinitos puntos, solo tiene longitud, se extiende indefinidamente. - Rayo (semirrecta): tiene un punto de inicio y no tiene fin. - Segmento de recta: tiene inicio y fin, es una porción de recta. - Plano: espacio ideal formado por infinitos puntos, tiene largo y ancho, no grosor. 4. Anota las definiciones en la pizarra.",
+          "actividad_numero": "Actividad 1 B (pág. 174)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Video",
+          "descripcion": "Identificar la figura geométrica que envuelve cada enunciado (adivinanzas): \"Es el espacio geométrico ideal, formado por infinitos puntos, posee largo y ancho, pero no grosor\" (plano). \"Es adimensional, no tiene longitud, área ni volumen, se asemeja a la marca de un alfiler\" (punto).\n\nCierre (pág. 175):\nProyecta el video \"Elementos básicos de la geometría para niños de primaria\" (https://www.youtube.com/watch?v=7RxmEykg98w). Conversan sobre lo que trata y describen los elementos mencionados.\n\nActividad complementaria (pág. 175):\nObservar la imagen de la sección de una grada de un estadio de béisbol e identificar dónde están representados puntos, rectas, segmentos de recta, rayos y planos.\n\nActividad para el diario del estudiante (pág. 175):\nUsando una regla, dibujar: el plano, semirrecta o rayo, segmento de recta y recta.",
+          "actividad_numero": "Actividad 1 Actividad para el cuaderno (pág. 174) Cierre (pág. 175) Actividad complementaria (pág. 175) Actividad para el diario (pág. 175)"
+        }
+      ]
+    },
+    {
+      "id": "1771992295024",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": " ¡Qué interesantes son los ángulos!",
+      "intencion_pedagogica": "Identificar ángulos y usar su notación geométrica (∠).\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nObservación guiada: Identificación de ángulos en objetos del aula.\n\nUso de imágenes: Análisis de ángulos en un campo de béisbol.\n\nNotación geométrica: Introducción a la forma de nombrar ángulos (∠ABC).\n\nTrabajo individual: Identificación y nombramiento de ángulos.\n\n",
+      "aprendizaje_significativo": "Se utilizan las esquinas del aula y las posiciones en un campo de béisbol para introducir el concepto de ángulo, conectando la geometría con el entorno cotidiano.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan imágenes con los ángulos ya señalados.\n\nPara estudiantes kinestésicos: Se les invita a formar ángulos con sus brazos.\n\nPara estudiantes con discapacidad visual: Se utilizan modelos de ángulos con varillas.\n\nPara estudiantes avanzados: Se les pide que nombren ángulos en diferentes posiciones.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 176, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por los dibujos realizados.\n2. Retroalimenta los elementos básicos de geometría.\n3. Pide que observen el salón y señalen objetos con esquinas. Pregunta: \"¿Cómo se llaman las esquinas en geometría?\"",
+          "actividad_numero": "Actividad 2 A (pág. 175)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Imagen de campo de béisbol (pág. 176)\n• Pizarra",
+          "descripcion": "1. Muestra la imagen de un campo de béisbol (pág. 176). Pregunta: \"¿Dónde se forman ángulos en esta figura?\"\n2. Explica que un ángulo se forma en la región interior de la unión de dos semirrectas o segmentos que comparten un punto común llamado vértice.\n3. Usa la imagen para mostrar el ángulo ABC (∠ABC). Explica que la letra del vértice (B) va en el centro.\n4. Muestra otros ángulos: ∠CBD, ∠DBC.\n5. Explica la notación de segmentos: AB, BC, BD.\n6. Pide que identifiquen cuántos segmentos y vértices hay en la imagen.",
+          "actividad_numero": "Actividad 2 B (págs. 175-176)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Observar la imagen, colocar letras a los puntos, nombrar los ángulos usando su notación, colorearlos y nombrar dos segmentos.\n\nCierre (pág. 176):\nPreguntas: \"¿Cómo se nombran los ángulos? ¿Qué letra se coloca en el centro? ¿Cuántos ángulos hallaste?\"\n\nActividad complementaria (pág. 177):\nNombrar 6 ángulos de la imagen usando notación geométrica.\n\nActividad para el diario del estudiante (pág. 177):\nDibujar dos ángulos, colorearlos y nombrarlos.",
+          "actividad_numero": "Actividad 2 Actividad para el cuaderno (pág. 176) Cierre (pág. 176) Actividad complementaria (pág. 177) Actividad para el diario (pág. 177)"
+        }
+      ]
+    },
+    {
+      "id": "1771992368900",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Me divierte la clasificación de ángulos",
+      "intencion_pedagogica": "Clasificar ángulos por su medida (agudo, recto, obtuso) utilizando el transportador para medirlos.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre ángulos.\n\nUso de transportador: Medición de ángulos.\n\nClasificación de ángulos: Agudos, rectos y obtusos.\n\nConstrucción de ángulos: Trazado con transportador.",
+      "aprendizaje_significativo": "Se utiliza el transportador para medir ángulos en figuras relacionadas con estadios de béisbol, conectando la geometría con el deporte nacional.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en el uso del transportador: Se les proporciona una guía visual paso a paso.\n\nPara estudiantes kinestésicos: Se les invita a trazar ángulos en la pizarra.\n\nPara estudiantes con discapacidad visual: Se utilizan transportadores con marcas táctiles.\n\nPara estudiantes avanzados: Se les pide que midan ángulos en figuras más complejas.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 178, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los ángulos dibujados.\n2. Retroalimenta la notación de ángulos.\n3. Pregunta: \"¿Cómo se clasifican los ángulos por sus medidas? ¿Quiénes han medido ángulos? ¿Con qué instrumento?\"\n4. Proyecta el video hasta el minuto 3:20 \"Los Ángulos: Vídeos Educativos para niños\" (https://www.youtube.com/watch?v=4pGyx2PrfgM). Socializa.",
+          "actividad_numero": "Actividad 3 A (pág. 177)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Transportadores\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Explica los pasos para construir y medir ángulos:\n- Trazar un segmento, marcar puntos.\n- Colocar el transportador con el vértice en el centro y un lado en cero.\n- Leer la medida en la escala adecuada.\n2. Mide con los estudiantes:\n- Ángulo de 90°: preguntar cómo se llama (ángulo recto).\n- Ángulo de 120°: preguntar cómo se llama (ángulo obtuso).\n- Ángulo de 50°: preguntar cómo se llama (ángulo agudo).\n3. Los estudiantes practican midiendo ángulos en sus cuadernos.",
+          "actividad_numero": "Actividad 3 B (págs. 177-178)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Actividad para el cuaderno (pág. 178):\nCompletar: 1) Tiene una apertura que pasa los 90° y menos de 180° (obtuso). Trázalo. 2) Miden menos de 90° (agudos). Traza uno.\n\nCierre (pág. 178):\nProyecta el video \"¿Cómo se Miden los Ángulos?\" (https://www.youtube.com/watch?v=_KU3PthHWau). Conversan sobre el contenido.\n\nActividad complementaria (pág. 178):\nObservar la imagen e identificar dos ángulos agudos, dos obtusos y dos rectos.\n\nActividad para el diario del estudiante (pág. 178):\nResolver: \"¿En cuáles otras horas del reloj de agujas se forman ángulos agudos, rectos y obtusos?\"",
+          "actividad_numero": "Actividad 3 Actividad para el cuaderno (pág. 178) Cierre (pág. 178) Actividad complementaria (pág. 178) Actividad para el diario (pág. 178)"
+        }
+      ]
+    },
+    {
+      "id": "1771992441082",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": " ¡Qué interesante es el sistema sexagesimal!",
+      "intencion_pedagogica": "Sumar ángulos o sus equivalencias entre las unidades del sistema sexagesimal (grados, minutos, segundos).\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de papelógrafo: Presentación del sistema sexagesimal.\n\nSituaciones problemáticas: Suma de ángulos con grados, minutos y segundos.\n\nReagrupación: Conversión de segundos a minutos y minutos a grados.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se introduce el sistema sexagesimal (base 60) a partir de mediciones de ángulos en las gradas de un estadio, mostrando su aplicación en contextos reales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la suma: Se les permite usar calculadora para las operaciones básicas.\n\nPara estudiantes kinestésicos: Se les invita a representar las sumas con material concreto (fichas).\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que realicen sumas con más de dos ángulos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 180, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con nota\n• Pizarra",
+          "descripcion": "1. El docente pregunta por las horas del reloj donde se forman ángulos agudos, rectos y obtusos.\n2. Retroalimenta la clasificación de ángulos.\n3. Pregunta: \"¿Quién conoce el sistema sexagesimal? ¿En qué consiste? ¿Con qué asocian la palabra sexagesimal?\"\n4. Presenta la nota informativa (pág. 179): Sistema de numeración sexagesimal, base 60. 1° = 60', 1' = 60\".",
+          "actividad_numero": "Actividad 4 A (pág. 179)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 179): \"Perla obtiene medidas de 30°12'10\" y 59°47'50\". ¿Cuánto mide el ángulo resultante de la suma?\"\n2. Explica el procedimiento:\n- Sumar segundos: 10\" + 50\" = 60\" = 1' (se coloca 0\" y se suma 1').\n- Sumar minutos: 12' + 47' + 1' = 60' = 1° (se coloca 0' y se suma 1°).\n- Sumar grados: 30° + 59° + 1° = 90°.\n- Resultado: 90° exactos (ángulo recto).\n3. Enfatiza que 60 unidades inferiores equivalen a una superior.",
+          "actividad_numero": "Actividad 4 B (pág. 179-180)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Julio obtuvo 69°17'35\" y 29°42'25\". ¿Cuánto mide el ángulo resultante?\" (69°17'35\" + 29°42'25\" = 98°59'60\" = 99°).\n\nCierre (pág. 180):\nPreguntas: \"¿Qué hacen si al sumar los segundos son ≥60? ¿Qué hacen si los minutos son ≥60?\"\n\nActividad complementaria (pág. 180):\nResolver problemas de suma de ángulos y completar tabla de equivalencias (grados, minutos, segundos).\n\nActividad para el diario del estudiante (pág. 180):\nResolver: \"Dos estudiantes obtuvieron 88°17'45\" y 69°02'57\". ¿Cuánto mide el ángulo resultante?\" (157°20'42\").",
+          "actividad_numero": "Actividad 4 Actividad para el cuaderno (pág. 180) Cierre (pág. 180) Actividad complementaria (pág. 180) Actividad para el diario (pág. 180)"
+        }
+      ]
+    },
+    {
+      "id": "1771992511990",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "¡Me encantan las operaciones de ángulos!",
+      "intencion_pedagogica": "Restar ángulos y las equivalencias entre las unidades del sistema sexagesimal.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de tabla de equivalencias: Conversiones entre grados, minutos y segundos.\n\nSituaciones problemáticas: Resta de ángulos con descomposición.\n\nDescomposición en base 60: Tomar prestado de unidades superiores.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se profundiza en el sistema sexagesimal con la resta de ángulos, aplicando la descomposición en base 60 cuando es necesario.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la resta: Se les proporciona una guía paso a paso de la descomposición.\n\nPara estudiantes kinestésicos: Se les invita a representar la descomposición con material concreto.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que realicen restas con más de dos ángulos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 181, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el problema de suma de ángulos.\n2. Retroalimenta la suma en sistema sexagesimal.\n3. Pregunta: \"¿Cuál es la base de este sistema? ¿Cuántos minutos hay en 90 segundos?\" (1 min 30 s).\n4. Anuncia el tema: resta de ángulos.",
+          "actividad_numero": "Actividad 5 A (pág. 181)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tabla de equivalencias\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta la tabla de equivalencias en cartulina (pág. 181). Envía estudiantes a completarla.\n2. Explica: para convertir de unidad inferior a superior se divide entre 60; de superior a inferior se multiplica por 60.\n3. Plantea la resta: 88°17'45\" - 69°02'57\".\n4. Explica el procedimiento con descomposición:\n- Como 45\" < 57\", se toma 1' de los 17' (quedan 16') y se convierte a segundos: 60\" + 45\" = 105\".\n- Se restan segundos: 105\" - 57\" = 48\".\n- Minutos: 16' - 2' = 14'.\n- Grados: 88° - 69° = 19°.\n- Resultado: 19°14'48\".",
+          "actividad_numero": "Actividad 5 B (pág. 181)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Ángulo de asientos detrás de la cueva del Licey: 30°11'34\". Detrás del receptor: 15°12'39\". ¿Cuánto menos mide el segundo?\" (30°11'34\" - 15°12'39\" → descomponer: 30°10'94\" - 15°12'39\" = 14°58'55\").\n\nCierre (pág. 182):\nProyecta el video \"Resta de Ángulos (Grados, Minutos y Segundos)\" (https://youtu.be/EnBnRPXowFc). Socializa.\n\nActividad complementaria (pág. 182):\nCompletar tabla de equivalencias y resolver problemas de resta de ángulos.\n\nActividad para el diario del estudiante (pág. 182):\nResolver: \"Ángulo de asientos detrás del dugout de los Gigantes: 28°55'19\". Detrás del receptor: 19°18'34\". ¿Cuánto menos mide?\" (28°55'19\" - 19°18'34\" = 9°36'45\").",
+          "actividad_numero": "Actividad 5 Actividad para el cuaderno (pág. 181) Cierre (pág. 182) Actividad complementaria (pág. 182) Actividad para el diario (pág. 182)"
+        }
+      ]
+    },
+    {
+      "id": "1771992576122",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Aprendiendo más sobre ángulos",
+      "intencion_pedagogica": "Resolver situaciones problemáticas usando ángulos complementarios.",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración del concepto de ángulos complementarios.\n\nSituaciones problemáticas: Cálculo del complemento de un ángulo.\n\nResta con descomposición: Aplicada a ángulos complementarios.",
+      "aprendizaje_significativo": "Se introduce el concepto de ángulos complementarios (suman 90°) a partir de situaciones en estadios, mostrando su aplicación en contextos reales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una guía paso a paso de la descomposición.\n\nPara estudiantes kinestésicos: Se les invita a representar la resta con material concreto.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que calculen complementos de ángulos con medidas complejas.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 183, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el problema de resta de ángulos.\n2. Retroalimenta la resta con descomposición.\n3. Pregunta: \"¿Qué es un ángulo complementario? ¿Cómo se obtiene?\"\n4. Plantea el problema (pág. 182): \"El ángulo de altura de asientos es de 30°. ¿Cuál es el valor del ángulo complementario?\"",
+          "actividad_numero": "Actividad 6 A (pág. 182)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Explica: el complemento es lo que le falta a un ángulo para llegar a 90°. Los ángulos complementarios suman 90°.\n2. Resuelve el problema: 90° - 30° = 60° (ángulo agudo).\n3. Plantea otro problema (pág. 183): \"El ángulo de altura de asientos es de 28°55'19\". ¿Cuánto mide su complemento?\"\n4. Explica el procedimiento con descomposición:\n- 90°00'00\" - 28°55'19\".\n- Tomar 1° de los 90° (queda 89°) y convertirlo a minutos: 60'.\n- Tomar 1' de esos 60' (quedan 59') y convertirlo a segundos: 60\".\n- Ahora tenemos 89°59'60\".\n- Restar: 60\" - 19\" = 41\"; 59' - 55' = 4'; 89° - 28° = 61°.\n- Resultado: 61°04'41\".",
+          "actividad_numero": "Actividad 6 B (pág. 183)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Proyecta el video \"Complemento de un ángulo con minutos y segundos\" (https://youtu.be/MfIolw7R6pc). Socializa.\n\nActividad complementaria (pág. 184):\nCalcular los complementos: 53°52'35\", 64°18'29\", 25°19'16\", 64°.\n\nActividad para el diario del estudiante (pág. 184):\nResolver: \"El ángulo de altura de la grada del palco C del estadio Quisqueya mide 45°36'45\". ¿Cuál es su complemento?\" (90° - 45°36'45\" = 44°23'15\").",
+          "actividad_numero": "Actividad 6 Actividad para el cuaderno (pág. 183) Cierre (págs. 183-184) Actividad complementaria (pág. 184) Actividad para el diario (pág. 184)"
+        }
+      ]
+    },
+    {
+      "id": "1771992759024",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Me gusta aprender los ángulos suplementarios ",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto usando ángulos suplementarios.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración del concepto de ángulos suplementarios.\n\nSituaciones problemáticas: Cálculo del suplemento de un ángulo.\n\nResta con descomposición: Aplicada a ángulos suplementarios.",
+      "aprendizaje_significativo": "Se introduce el concepto de ángulos suplementarios (suman 180°) a partir de situaciones en estadios, mostrando su aplicación en contextos reales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una guía paso a paso de la descomposición.\n\nPara estudiantes kinestésicos: Se les invita a representar la resta con material concreto.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que calculen suplementos de ángulos con medidas complejas.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 185, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el complemento del ángulo de 45°36'45\".\n2. Retroalimenta el cálculo de complementos.\n3. Pregunta: \"¿Qué es un ángulo suplementario? ¿Cómo se obtiene?\"\n4. Plantea el problema (pág. 184): \"Las líneas de cal que salen del plato hacia los jardines forman un ángulo de 90°. ¿Cuál es su suplemento?\"",
+          "actividad_numero": "Actividad 7 A (pág. 184)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Explica: el suplemento es lo que le falta a un ángulo para llegar a 180°. Los ángulos suplementarios suman 180°.\n2. Resuelve el problema: 180° - 90° = 90°.\n3. Plantea otro problema (pág. 185): \"El ángulo de altura de la grada del palco B del estadio Julián Javier mide 44°55'35\". ¿Cuál es su suplemento?\"\n4. Explica el procedimiento con descomposición:\n- 180°00'00\" - 44°55'35\".\n- Tomar 1° de los 180° (queda 179°) y convertirlo a minutos: 60'.\n- Tomar 1' de esos 60' (quedan 59') y convertirlo a segundos: 60\".\n- Ahora tenemos 179°59'60\".\n- Restar: 60\" - 35\" = 25\"; 59' - 55' = 4'; 179° - 44° = 135°.\n- Resultado: 135°04'25\".",
+          "actividad_numero": "Actividad 7 B (págs. 184-185)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"El ángulo de altura de la grada del palco B del estadio Julián Javier mide 44°55'35\". ¿Cuál es su suplemento?\" (Ya resuelto: 135°04'25\").\n\nCierre (pág. 185):\nPreguntas: \"¿Cuánto suman los ángulos suplementarios? ¿Cómo resolvieron el problema?\"\n\nActividad complementaria (pág. 185):\nCalcular los suplementos: 93°57'15\", 84°30'50\", 55°49'56\", 99°.\n\nActividad para el diario del estudiante (pág. 185):\nResolver: \"El ángulo de elevación de la grada del palco C del estadio Quisqueya mide 95°44'27\". ¿Cuál es su suplemento?\" (180° - 95°44'27\" = 84°15'33\").",
+          "actividad_numero": "Actividad 7 Actividad para el cuaderno (pág. 185) Cierre (pág. 185) Actividad complementaria (pág. 185) Actividad para el diario (pág. 185)"
+        }
+      ]
+    },
+    {
+      "id": "1771993946644",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Me fascinan los triángulos ",
+      "intencion_pedagogica": "Clasificar triángulos por sus lados y ángulos.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre clasificación de triángulos.\n\nObservación de imágenes: Análisis de triángulos por sus lados y ángulos.\n\nClasificación: Triángulos equiláteros, isósceles, escalenos; rectángulos, acutángulos, obtusángulos.\n\nTrabajo práctico: Dibujo y clasificación de triángulos.",
+      "aprendizaje_significativo": "Se utilizan las formas triangulares presentes en estadios y construcciones para introducir la clasificación de triángulos, conectando la geometría con el entorno.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan plantillas de triángulos para calcar y clasificar.\n\nPara estudiantes kinestésicos: Se les invita a formar triángulos con sus dedos o con palillos.\n\nPara estudiantes con discapacidad visual: Se utilizan modelos de triángulos en cartulina con texturas.\n\nPara estudiantes avanzados: Se les pide que investiguen la suma de ángulos interiores.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 187, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por el suplemento del ángulo de 95°44'27\".\n2. Retroalimenta ángulos suplementarios.\n3. Pregunta: \"¿Qué saben sobre triángulos? ¿Cuántos lados tienen? ¿Cómo se clasifican?\"\n4. Proyecta el video \"Clasificación de los triángulos súper fácil\" (https://www.youtube.com/watch?v=19S1kBXLkBo). Socializa.",
+          "actividad_numero": "Actividad 8 A (pág. 186)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Imágenes de triángulos\n• Pizarra",
+          "descripcion": "1. Clasificación por lados:\n- Equilátero: tres lados congruentes.\n- Isósceles: dos lados congruentes.\n- Escaleno: tres lados de diferentes medidas.\n2. Muestra imágenes de cada tipo (pág. 186). Pregunta: \"¿Qué notan en los lados? ¿Cómo son las marcas?\"\n3. Clasificación por ángulos (video desde min 1:59):\n- Rectángulo: tiene un ángulo recto (90°).\n- Acutángulo: tiene tres ángulos agudos (<90°).\n- Obtusángulo: tiene un ángulo obtuso (>90°).\n4. Muestra imágenes (pág. 187). Pregunta: \"¿Qué notan en los ángulos?\"",
+          "actividad_numero": "Actividad 8 B (págs. 186-187)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Dibujar y clasificar: 1) Un equilátero; 2) Dos acutángulos; 3) Un escaleno; 4) Un rectángulo; 5) Dos obtusángulos.\n\nCierre (pág. 187):\nPreguntas: \"¿Cómo se clasifican por sus lados? ¿Por sus ángulos? ¿Cuánto suman los ángulos interiores de cualquier triángulo?\" (180°).\n\nActividad complementaria (pág. 187):\nCompletar situaciones sobre clasificación de triángulos por sus lados y ángulos (tabla de adivinanzas).\n\nActividad para el diario del estudiante (pág. 188):\nDibujar y nombrar los triángulos según: 1) Uno de sus ángulos es recto; 2) Tiene dos lados congruentes.",
+          "actividad_numero": "Actividad 8 Actividad para el cuaderno (pág. 187) Cierre (pág. 187) Actividad complementaria (pág. 187) Actividad para el diario (pág. 188)"
+        }
+      ]
+    },
+    {
+      "id": "1771994021736",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Conociendo medidas de ángulos interiores de triángulos",
+      "intencion_pedagogica": "Conocer las medidas de los ángulos interiores de los triángulos.\n\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de cómo calcular un ángulo faltante.\n\nSituaciones problemáticas: Cálculo del tercer ángulo de un triángulo.\n\nUso de transportador: Verificación de resultados.\n\nDos estrategias: Gráfica (con transportador) y cálculo (suma y resta).",
+      "aprendizaje_significativo": "Se utiliza la propiedad de que la suma de los ángulos interiores de un triángulo es 180° para calcular ángulos desconocidos en contextos de béisbol.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les permite usar la calculadora para las sumas y restas.\n\nPara estudiantes kinestésicos: Se les invita a dibujar los triángulos y medir con transportador.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que calculen ángulos en triángulos con expresiones algebraicas.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 189, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por los triángulos dibujados.\n2. Retroalimenta la clasificación de triángulos.\n3. Pregunta: \"¿Cómo se puede saber la medida de un ángulo de un triángulo conociendo dos de ellos?\"\n4. Plantea el problema (pág. 188): \"Un triángulo obtusángulo tiene dos ángulos agudos de 23° y 18°. ¿Cuál es el ángulo faltante?\"",
+          "actividad_numero": "Actividad 9 A (pág. 188)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Transportadores\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Los estudiantes resuelven. Monitorea.\n2. Presenta dos estrategias:\n- Estrategia 1 (con transportador): Trazar el triángulo y medir.\n- Estrategia 2 (cálculo): Sumar los ángulos conocidos (23° + 18° = 41°) y restar de 180° (180° - 41° = 139°).\n3. Concluye que el ángulo faltante es 139° (obtusángulo).\n4. Plantea otro problema (pág. 189): \"Un triángulo tiene dos ángulos agudos de 24° y 16°. ¿Cuál es el valor del ángulo faltante?\" (180° - 40° = 140°).",
+          "actividad_numero": "Actividad 9 B (págs. 188-189)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Un triángulo obtusángulo tiene dos ángulos agudos de 24° y 16°. ¿Cuál es el valor del ángulo faltante?\" (140°).\n\nCierre (pág. 189):\nProyecta el video \"Ángulos internos de un triángulo\" (https://www.youtube.com/watch?v=mimO5Nfu5KM). Socializa.\n\nActividad complementaria (pág. 189):\nObservar un triángulo con ángulos de 38° y 30°, calcular el ángulo faltante (112°). Nombrar el triángulo por sus ángulos (obtusángulo).\n\nActividad para el diario del estudiante (pág. 189):\nResolver el ejercicio calculando y midiendo el ángulo faltante en un triángulo dado.",
+          "actividad_numero": "Actividad 9 Actividad para el cuaderno (pág. 189) Cierre (pág. 189) Actividad complementaria (pág. 189) Actividad para el diario (pág. 189)"
+        }
+      ]
+    },
+    {
+      "id": "1772021882584",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "¡Me encanta la congruencia de triángulos!",
+      "intencion_pedagogica": "Utilizar la congruencia de triángulos para resolver situaciones problemáticas.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre criterios de congruencia de triángulos.\n\nObservación de imágenes: Análisis de triángulos congruentes.\n\nIdentificación de criterios: LLL, LAL, ALA.",
+      "aprendizaje_significativo": "Se introduce el concepto de congruencia de triángulos a partir de la observación de figuras, mostrando que dos triángulos pueden tener la misma forma y tamaño.\n\n",
+      "actividades_complementarias": "",
+      "actividades_cuaderno": "",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": ". El docente pregunta por el ángulo faltante calculado.\n2. Retroalimenta la suma de ángulos interiores.\n3. Pregunta: \"¿Qué significa que dos triángulos sean congruentes?\"\n4. Proyecta el video \"Criterios de congruencia de triángulos\" (https://www.youtube.com/watch?v=ZvN4LS6cuVw). Socializa.",
+          "actividad_numero": "Actividad 10 A (pág. 190)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Imágenes de triángulos\n• Pizarra",
+          "descripcion": "1. Si no hay video, presenta el cuadro de criterios:\n- LLL (lado, lado, lado): tres lados iguales.\n- LAL (lado, ángulo, lado): dos lados y el ángulo entre ellos iguales.\n- ALA (ángulo, lado, ángulo): dos ángulos y el lado entre ellos iguales.\n2. Muestra imágenes de triángulos congruentes (pág. 190). Pregunta: \"¿Por qué son congruentes?\"\n3. Explica el símbolo de congruencia: ≅.",
+          "actividad_numero": "Actividad 10 B (pág. 190)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Decir el criterio de congruencia en cada caso (imágenes).\n\nCierre (pág. 191):\nPreguntas: \"¿En qué consiste el criterio LAL? ¿Y ALA?\" Mostrar imágenes para identificar el criterio.\n\nActividad complementaria (pág. 191):\nTrazar triángulos congruentes por los criterios LAL, LLL, ALA.\n\nActividad para el diario del estudiante (pág. 191):\nResponder: 1) ¿Qué es el criterio ALA? 2) ¿Qué se debe tener en cuenta para decir que dos triángulos son congruentes?",
+          "actividad_numero": "Actividad 10 Actividad para el cuaderno (pág. 191) Cierre (pág. 191) Actividad complementaria (pág. 191) Actividad para el diario (pág. 191)"
+        }
+      ]
+    },
+    {
+      "id": "1772021963841",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "¡Qué interesante es la semejanza de triángulos!",
+      "intencion_pedagogica": "Resolver situaciones problemáticas usando la semejanza de triángulos.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre criterios de semejanza de triángulos.\n\nObservación de imágenes: Análisis de triángulos semejantes.\n\nIdentificación de criterios: AA, LAL, LLL para semejanza.",
+      "aprendizaje_significativo": "Se introduce el concepto de semejanza de triángulos (misma forma, tamaño diferente) a partir de la observación de figuras, mostrando su aplicación en la vida real.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan triángulos recortados para comparar.\n\nPara estudiantes kinestésicos: Se les invita a formar triángulos semejantes con palillos de diferentes tamaños.\n\nPara estudiantes con discapacidad visual: Se utilizan modelos de triángulos en cartulina con texturas.\n\nPara estudiantes avanzados: Se les pide que expliquen la relación de proporcionalidad.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 193, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los criterios de congruencia.\n2. Retroalimenta.\n3. Pregunta: \"¿Qué pasa si dos triángulos tienen la misma forma pero diferente tamaño?\" (semejantes).\n4. Proyecta el video \"Ejemplos de criterios de semejanza de triángulos\" (https://www.youtube.com/watch?v=nO58sj9bkAI). Socializa.",
+          "actividad_numero": "Actividad 11 A (pág. 192)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Imágenes de triángulos\n• Pizarra",
+          "descripcion": "1. Si no hay video, presenta el cuadro de criterios:\n- AA (ángulo, ángulo): dos ángulos iguales.\n- LAL (lado, ángulo, lado): dos lados proporcionales y el ángulo entre ellos igual.\n- LLL (lado, lado, lado): tres lados proporcionales.\n2. Explica el símbolo de semejanza: ~.\n3. Muestra imágenes (pág. 192). Pregunta: \"¿Por qué son semejantes?\"\n4. Diferencia entre congruencia (mismo tamaño) y semejanza (misma forma).",
+          "actividad_numero": "Actividad 11 B (pág. 192)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Dibujar parejas de triángulos semejantes según el criterio pedido (LLL, AA).\n\nCierre (pág. 193):\nPreguntas: \"¿Qué son triángulos semejantes? ¿Cuáles son los criterios de semejanza?\"\n\nActividad complementaria (pág. 193):\nIdentificar en las imágenes los triángulos semejantes.\n\nActividad para el diario del estudiante (pág. 193):\nContestar: ¿Qué es semejanza de triángulos? ¿Qué significan los criterios LAL y AAA en semejanza?",
+          "actividad_numero": "Actividad 11 Actividad para el cuaderno (pág. 193) Cierre (pág. 193) Actividad complementaria (pág. 193) Actividad para el diario (pág. 193)"
+        }
+      ]
+    },
+    {
+      "id": "1772022032189",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "¡Qué interesantes son las transformaciones de figuras!",
+      "intencion_pedagogica": "Utilizar las transformaciones isométricas (rotación, refl exión y traslación) para\nresolver situaciones problemáticas de su entorno..\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre transformaciones isométricas.\n\nObservación de imágenes: Análisis de rotación, reflexión y traslación.\n\nConceptualización: Definición de cada transformación.",
+      "aprendizaje_significativo": "Se introducen las transformaciones isométricas a partir de ejemplos cotidianos (abrir una puerta, mirarse al espejo), conectando la geometría con experiencias de la vida diaria.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de visualización: Se utilizan figuras recortadas para mover físicamente.\n\nPara estudiantes kinestésicos: Se les invita a representar las transformaciones con su cuerpo.\n\nPara estudiantes con discapacidad visual: Se utilizan modelos táctiles en relieve.\n\nPara estudiantes avanzados: Se les pide que combinen dos transformaciones.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 195, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por semejanza de triángulos.\n2. Retroalimenta.\n3. Pregunta: \"¿Qué es una transformación geométrica? ¿Cuáles conocen?\"\n4. Proyecta el video \"Transformación Isométrica\" (https://www.youtube.com/watch?v=_Tf6lrtwO90). Socializa.",
+          "actividad_numero": "Actividad 12 A (pág. 194)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Imágenes de transformaciones\n• Pizarra",
+          "descripcion": "1. Si no hay video, presenta el cuadro:\n- Rotación: todos los puntos se mueven conservando su distancia alrededor de un punto fijo (centro de rotación). Ej: abrir una puerta.\n- Reflexión (simetría axial): imagen refleja como en un espejo. Cada punto tiene su imagen a igual distancia del eje de simetría.\n- Traslación: cambio de posición en el espacio (arriba, abajo, derecha, izquierda).\n2. Muestra imágenes de cada transformación (pág. 194).\n3. Explica que son isométricas porque la figura inicial y final son congruentes (misma forma y tamaño).",
+          "actividad_numero": "Actividad 12 B (pág. 194)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Identificar la transformación isométrica aplicada en cada caso (imágenes).\n\nCierre (pág. 195):\nPreguntas: \"¿Cuáles transformaciones isométricas trabajamos? ¿En qué consisten? ¿Cómo son las figuras resultantes?\"\n\nActividad complementaria (pág. 195):\n1) Usando papel cuadriculado, dibujar la rotación de un triángulo equilátero; 2) Dibujar la traslación de un triángulo rectángulo; 3) Dibujar la reflexión de un triángulo isósceles; 4) Identificar transformaciones geométricas en el entorno.\n\nActividad para el diario del estudiante (pág. 195):\nInvestigar en internet sobre Pitágoras. Nota: solicitar traer reglas y transportadores para la próxima clase.",
+          "actividad_numero": "Actividad 12 Actividad para el cuaderno (pág. 195) Cierre (pág. 195) Actividad complementaria (pág. 195) Actividad para el diario (pág. 195)"
+        }
+      ]
+    },
+    {
+      "id": "1772022186003",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": "¡Me encantan las transformaciones isométricas! (aplicación)",
+      "intencion_pedagogica": "Determinar transformaciones isométricas en el plano.\n\n",
+      "estrategia": "Corrección de tarea: Socialización de la investigación sobre Pitágoras.\n\nTrabajo práctico: Aplicación de transformaciones en el plano.\n\nUso de papel cuadriculado: Para traslación y reflexión.\n\nUso de transportador: Para rotación.",
+      "aprendizaje_significativo": "Se aplican las transformaciones isométricas en el plano, utilizando papel cuadriculado y transportador para realizar construcciones geométricas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la rotación: Se les proporciona un trozo de papel calca para copiar la figura rotada.\n\nPara estudiantes kinestésicos: Se les invita a recortar la figura y moverla físicamente.\n\nPara estudiantes con discapacidad visual: Se utilizan figuras en relieve.\n\nPara estudiantes avanzados: Se les pide que realicen rotaciones de 45°.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 197, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta sobre Pitágoras.\n2. Retroalimenta transformaciones isométricas.\n3. Pregunta: \"¿Cómo se traslada una figura? ¿Cómo se rota? ¿Cómo se obtiene la reflexión?\"\n4. Recuerda que el home play del estadio es un pentágono.",
+          "actividad_numero": "Actividad 13 A (pág. 195)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Papel cuadriculado\n• Reglas\n• Transportadores\n• Pizarra",
+          "descripcion": "1. Traslación: Dada la figura (home play), aplicar traslación 6 unidades a la derecha y 1 hacia abajo. Explica: mover cada punto primero a la derecha, luego abajo.\n2. Rotación de 90°: Dado un triángulo, marcar centro de rotación. Con transportador, medir 90° desde cada segmento hacia el centro, marcar puntos a igual distancia.\n3. Reflexión: Dada una figura, contar distancia de cada punto al eje de simetría y reflejar al otro lado a igual distancia.",
+          "actividad_numero": "Actividad 13 B (pág. 196)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Dada la figura, aplicar: 1) Rotación de 60°; 2) Traslación de 2 unidades derecha y 3 arriba; 3) Reflexión.\n\nCierre (pág. 197):\nProyecta el video \"Rotación Geométrica\" (https://www.youtube.com/watch?v=jeRlXw-5-1c). Socializa.\n\nActividad complementaria (pág. 197):\nResolver problemáticas aplicando transformaciones a figuras dadas.\n\nActividad para el diario del estudiante (pág. 197):\nAplicar traslación de 7 unidades a la derecha y obtener la imagen reflejada de la figura dada.",
+          "actividad_numero": "Actividad 13 Actividad para el cuaderno (pág. 197) Cierre (pág. 197) Actividad complementaria (pág. 197) Actividad para el diario (pág. 197)"
+        }
+      ]
+    },
+    {
+      "id": "1772022262701",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 13,
+      "title": "Actividad 14",
+      "name": " Recapitulación",
+      "intencion_pedagogica": "Retroalimentar lo aprendido de geometría (ángulos, triángulos, transformaciones) a través de ejercicios integradores.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Retroalimentación general de la secuencia.\n\nEjercicios integradores: Repaso de ángulos, triángulos y transformaciones.\n\nTrabajo individual: Resolución de problemas de repaso.",
+      "aprendizaje_significativo": "Se realiza una recapitulación de todos los temas de la secuencia, integrando conceptos de geometría en problemas contextualizados.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan resúmenes de los conceptos clave.\n\nPara estudiantes kinestésicos: Se les invita a pasar al frente a dibujar en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que creen sus propias adivinanzas geométricas.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 199, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la traslación y reflexión aplicadas.\n2. Retroalimenta transformaciones.\n3. Pregunta: \"¿Qué recuerdan de lo trabajado en esta secuencia?\"",
+          "actividad_numero": "Actividad 14 A (pág. 198)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Muestra imágenes de elementos geométricos (punto, recta, rayo, segmento). Pregunta cómo se llaman.\n2. Pide que señalen esquinas en el salón. Pregunta: \"¿Qué es un ángulo? ¿Qué es un ángulo complementario? ¿Suplementario? ¿Cómo se clasifican?\"\n3. Pide dibujar un ángulo agudo, uno obtuso y uno recto.\n4. Plantea problemas de suma y resta de ángulos (pág. 198-199).\n5. Repasa clasificación de triángulos por sus lados (completar espacios).\n6. Actividad para el cuaderno (pág. 199): Calcular complemento de 56°25' y suplemento de 104°25'15\". Dibujar pares de triángulos congruentes y semejantes.",
+          "actividad_numero": "Actividad 14 B (págs. 198-199)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Adivinanzas: \"¿Cómo se llaman los ángulos que suman 180°?\" (suplementarios). \"¿Cómo se llaman los que suman 90°?\" (complementarios). \"Tiene un punto de inicio y se extiende indefinidamente\" (rayo). \"Está formada por infinitos puntos y se extiende en ambas direcciones\" (recta). \"Se forma en la región interior de la unión de dos segmentos\" (ángulo).\n\nActividad complementaria (pág. 200):\nCompletar tabla de equivalencias en sistema sexagesimal.\n\nActividad para el diario del estudiante (pág. 200):\n1) Calcular el suplemento de 135°36'. 2) Trazar un ángulo de 125° y clasificarlo.",
+          "actividad_numero": "Actividad 14 Cierre (pág. 199) Actividad complementaria (pág. 200) Actividad para el diario (pág. 200)"
+        }
+      ]
+    },
+    {
+      "id": "1772022338640",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 14,
+      "title": "Actividad 15",
+      "name": "Me fascina la simetría",
+      "intencion_pedagogica": "Identificar líneas de simetría en fi guras geométricas.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre ejes de simetría.\n\nObservación de imágenes: Análisis de figuras con y sin simetría.\n\nIdentificación de ejes: Trazado de líneas de simetría.\n\nConcepto de asimetría: Figuras sin ejes de simetría.",
+      "aprendizaje_significativo": "Se introduce el concepto de simetría a partir de figuras presentes en croquis de estadios de béisbol, conectando la geometría con el entorno.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan figuras con los ejes ya marcados para identificar.\n\nPara estudiantes kinestésicos: Se les invita a doblar papel para encontrar ejes de simetría.\n\nPara estudiantes con discapacidad visual: Se utilizan figuras recortadas para doblar.\n\nPara estudiantes avanzados: Se les pide que encuentren ejes de simetría en figuras más complejas.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 202, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por el suplemento de 135°36' y el ángulo de 125°.\n2. Retroalimenta.\n3. Proyecta el video \"Ejes de simetría videos educativos para niños\" (https://www.youtube.com/watch?v=GssUFYHXUw4). Socializa.",
+          "actividad_numero": "Actividad 15 A (pág. 200)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Croquis de estadio\n• Imágenes de figuras\n• Pizarra",
+          "descripcion": "1. Presenta el croquis de un estadio de béisbol (pág. 200). Pregunta: \"¿Cuántas figuras tienen eje de simetría? ¿Cuántos ejes tiene cada una?\"\n2. Analiza:\n- Círculo: infinitos ejes.\n- Cuadrado: 4 ejes.\n- Rectángulo: 2 ejes.\n- Pentágono (home play): 1 eje (irregular).\n3. Explica que el eje de simetría es una línea recta que divide la figura en dos partes iguales.\n4. Muestra otras figuras (pág. 201). Pide identificar figuras simétricas trazando una línea de simetría.\n5. Pregunta: \"¿Cómo se llaman las figuras que no tienen líneas de simetría?\" (asimétricas).",
+          "actividad_numero": "Actividad 15 B (págs. 200-201)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Trazar una o dos líneas de simetría, si es posible, a las figuras dadas.\n\nCierre (pág. 202):\nProyecta el video \"Eje de simetría Súper fácil\" (https://www.youtube.com/watch?v=EcDFbUkyDHI). Socializa.\n\nActividad complementaria (pág. 202):\nTrazar una o dos líneas de simetría a cada figura del barco.\n\nActividad para el diario del estudiante (pág. 202):\nTrazar tres líneas de simetría en la figura dada. Nota: solicitar papel cuadriculado para la próxima clase.",
+          "actividad_numero": "Actividad 15 Actividad para el cuaderno (pág. 202) Cierre (pág. 202) Actividad complementaria (pág. 202) Actividad para el diario (pág. 202)"
+        }
+      ]
+    },
+    {
+      "id": "1772022438512",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 15,
+      "title": "Actividad 16",
+      "name": "¡Qué bonita es la teselación!",
+      "intencion_pedagogica": "Analizar situaciones de la comunidad donde se identifiquen teselaciones, mosaicos y embaldosados.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre teselados.\n\nObservación de imágenes: Análisis de teselaciones regulares, semirregulares e irregulares.\n\nIdentificación de tipos: Clasificación de teselados.\n\nConcepto de mosaicos y baldosas: Diferencia entre ambos.",
+      "aprendizaje_significativo": "Se introduce el concepto de teselación a partir de patrones en pisos y paredes, conectando la geometría con el arte y la arquitectura.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de clasificación: Se les proporcionan tarjetas con imágenes para clasificar.\n\nPara estudiantes kinestésicos: Se les invita a crear sus propias teselaciones con figuras recortadas.\n\nPara estudiantes con discapacidad visual: Se utilizan modelos en relieve de teselaciones.\n\nPara estudiantes avanzados: Se les pide que investiguen sobre teselaciones en el arte islámico.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 204, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por las líneas de simetría trazadas.\n2. Retroalimenta simetría y asimetría.\n3. Proyecta el video \"Teselados, mosaicos\" (https://www.youtube.com/watch?v=6rfcIeSXgQ0). Socializa.",
+          "actividad_numero": "Actividad 16 A (pág. 203)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Imágenes de teselaciones\n• Pizarra",
+          "descripcion": "1. Presenta imágenes de teselaciones regulares, semirregulares e irregulares (pág. 203).\n2. Explica:\n- Teselación regular: formada por un solo tipo de polígono regular (triángulo equilátero, cuadrado, hexágono).\n- Teselación semirregular: formada por dos o más polígonos regulares.\n- Teselación irregular: formada por combinación de polígonos regulares e irregulares.\n3. Muestra imágenes de mosaicos y baldosas (pág. 204). Pregunta: \"¿En cuál columna están los mosaicos? ¿Cuáles son baldosas?\"\n4. Explica:\n- Mosaicos: teselas para crear imágenes con pequeños pedazos de piedra, madera, vidrio, etc.\n- Baldosas: polígonos regulares o irregulares usados para cubrir superficies planas.",
+          "actividad_numero": "Actividad 16 B y C (págs. 203-204)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Embaldosar la cuadrícula con triángulos de dos o más colores.\n\nCierre (pág. 204):\nPreguntas: \"¿Qué es una teselación regular? ¿Qué polígonos se usan? ¿Qué son baldosas? ¿Qué son mosaicos?\"\n\nActividad complementaria (pág. 205):\n1) Teselar con mosaicos de tres o más colores (ver video). 2) Teselar con baldosas usando los polígonos que prefieras.\n\nActividad para el diario del estudiante (pág. 205):\nEscribir la diferencia entre embaldosados y mosaicos, colocar un ejemplo de cada uno (pueden recortar de periódico o revista).",
+          "actividad_numero": "Actividad 16 Actividad para el cuaderno (pág. 204) Cierre (pág. 204) Actividad complementaria (pág. 205) Actividad para el diario (pág. 205)\t"
+        }
+      ]
+    },
+    {
+      "id": "1772022567754",
+      "sequence_id": "seq-1771992184225",
+      "order_index": 16,
+      "title": "Actividad 17",
+      "name": " Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar los conocimientos adquiridos en la Secuencia 6 (ángulos, sistema sexagesimal, triángulos, congruencia, semejanza, transformaciones isométricas, simetría y teselaciones) a través de la resolución de problemas y construcciones geométricas.\n\n",
+      "estrategia": "Retroalimentación inicial: Preguntas orales para recordar los temas de la secuencia.\n\nEvaluación escrita: Resolución individual de un conjunto de problemas.\n\nUso de materiales: Transportador, regla, papel cuadriculado.\n\nUso de escala de valoración: Para que los estudiantes comprendan cómo se evaluará su desempeño.",
+      "aprendizaje_significativo": "La evaluación se presenta como una oportunidad para demostrar lo aprendido en contextos significativos (estadios de béisbol), y se utiliza una escala de valoración para que los estudiantes tomen conciencia de su propio nivel de logro.\n\n",
+      "actividades_complementarias": "Para estudiantes que necesitan más tiempo: Se les puede permitir terminar la evaluación en otra sesión, según la Ordenanza 04-2023.\n\nPara estudiantes con dificultades de lectura: Se les leen los problemas en voz alta si es necesario.\n\nPara estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado y materiales adaptados.\n\nPara estudiantes que terminan rápido: Se les puede pedir que revisen sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué trabajaron en esta secuencia? ¿Qué aprendieron sobre ángulos? ¿Cómo se clasifican los triángulos? ¿Qué son las transformaciones isométricas? ¿Qué es la simetría?\"\n2. Da tiempo para responder y retroalimenta los temas.",
+          "actividad_numero": "Actividad 17 (Párrafo 1, pág. 205)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Hojas cuadriculadas\n• Transportadores\n• Reglas\n• Copia de la evaluación o pizarra con los ítems\n• Escala de valoración",
+          "descripcion": "1. El docente explica que esta actividad evalúa la secuencia y que se hará énfasis en la resolución de problemas y construcciones geométricas.\n2. Explica que cada ítem tiene un valor numérico por procedimiento y respuesta completa.\n3. Lee y explica la escala de valoración (pág. 205).\n4. Entrega una hoja en blanco, una hoja cuadriculada, un transportador y una regla a cada estudiante para que coloquen sus datos (nombre del centro, nombre del estudiante, fecha, grado y sección).\n5. Aplica la evaluación, ítem por ítem, dando el tiempo necesario. La evaluación consta de 10 puntos (ítems):\n- Ítem 1: Completar cada concepto trazando la figura a la que hace referencia (10 pts):\na) \"Es una figura geométrica formada por infinitos puntos, solo tiene longitud, no tiene altura, anchura ni grosor y se extiende de forma indefinida en ambas direcciones.\" (Recta)\nb) \"Es una figura geométrica que tiene un punto de inicio y no tiene fin por el otro extremo, tiene solo longitud, no tiene altura, anchura ni grosor y también es llamado semirrecta.\" (Rayo)\n- Ítem 2: Medir el ángulo de cada figura usando el transportador (10 pts).\n- Ítem 3: Trazar la figura a la cual hace referencia el concepto (10 pts):\na) \"Son dos rectas, una vertical y otra horizontal que al intersecarse forman cuatro ángulos rectos, es decir miden 90°.\" (Rectas perpendiculares)\nb) \"Es un triángulo cuyas medidas de dos de sus lados son iguales y otro de longitud diferente. Los ángulos que están de frente a los lados iguales miden lo mismo.\" (Triángulo isósceles)\n- Ítem 4: Resolver problemática: \"Se realizaron mediciones en la grada del estadio de béisbol, los ángulos medidos por dos estudiantes fueron: 38°17'35\" y 29°42'25\". ¿Cuánto más mide el primer ángulo que el segundo? ¿Cómo clasificas el ángulo resultante?\" (10 pts)\nSolución: 38°17'35\" - 29°42'25\" = 8°35'10\" (ángulo agudo)\n- Ítem 5: Clasificar cada pareja de triángulos como congruentes o semejantes (10 pts):\na) Triángulos con ángulos de 78° y lados 9 cm, 12 cm, 4 cm, 3 cm (semejantes)\nb) Triángulos con lados 12, 4 y ángulo 60° (congruentes)\n- Ítem 6: Medir el ángulo PQR con el transportador y determinar su suplementario (10 pts).\n- Ítem 7: Aplicar una rotación de 90° al triángulo ABC, usar transportador (10 pts).\n- Ítem 8: Identificar la transformación isométrica aplicada a la figura y justificar (10 pts).\n- Ítem 9: Identificar los segmentos perpendiculares escribiendo una P y sus ángulos con una A (10 pts).\n- Ítem 10: Observar la figura y responder: \"¿Cuánto suman los ángulos interiores para cualquier triángulo?\" (180°) (10 pts).",
+          "actividad_numero": "Actividad 17 Evaluación (págs. 205-206)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones de los estudiantes",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Puede hacer un breve comentario sobre la importancia de la evaluación para medir el aprendizaje.\n3. Anuncia que en la próxima clase se darán los resultados y se retroalimentarán los puntos con mayores dificultades.\n4. Nota: llevar un registro de los ítems que resultaron con la cantidad mayor y menor de aciertos por parte de los estudiantes para repasar aquellos con menor aciertos (pág. 206).",
+          "actividad_numero": "Actividad 17 (Cierre)"
+        }
+      ]
+    }
+  ]
+}

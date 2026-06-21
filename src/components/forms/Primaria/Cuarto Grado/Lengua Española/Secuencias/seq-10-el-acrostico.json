@@ -1,0 +1,165 @@
+{
+  "id": "seq-1771196861959",
+  "title": "El acróstico",
+  "description": "Fomenta la creatividad y el uso expresivo del lenguaje a través de la creación de acrósticos, organizando palabras o frases a partir de una palabra clave.",
+  "order": 10,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771206762931",
+      "sequence_id": "seq-1771196861959",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Introducción y exploración)",
+      "intencion_pedagogica": "Introducir el acróstico a través de la escucha y comparación de un poema y un acróstico, identificando sus características principales: palabra vertical, versos horizontales, adjetivos y recursos literarios.",
+      "estrategia": "Lectura en voz alta (modelado): El docente lee poemas y acrósticos con entonación y expresión.\n\nEscucha activa con ojos cerrados: Para favorecer la concentración y el disfrute estético.\n\nDiálogo dirigido: Preguntas para comparar textos y descubrir características.\n\nIdentificación de recursos literarios: Adjetivos, hipérbaton, palabra principal.",
+      "aprendizaje_significativo": "Se introduce el acróstico a través de la comparación con un poema conocido, permitiendo a los estudiantes descubrir por sí mismos las características de este género poético y conectar con sus emociones.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de contar cuántas veces aparece la palabra \"mariposa\".\n\nPara estudiantes visuales: Se les muestran los textos en papelógrafo grande mientras se leen.\n\nPara estudiantes kinestésicos: Se les invita a dibujar una mariposa mientras escuchan el poema.\n\nPara estudiantes con discapacidad auditiva: Se les proporcionan los textos por escrito y se les permite seguir visualmente.\n\nPara estudiantes avanzados: Se les pide que identifiquen otro ejemplo de hipérbaton en el acróstico.",
+      "actividades_cuaderno": "Copiar la síntesis de las características del acróstico. Escribir la palabra \"MADRE\" en vertical y pensar en un adjetivo para cada letra.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Ambiente de silencio",
+          "descripcion": "1. El docente pide a los estudiantes que hagan silencio total y cierren los ojos para escuchar con atención (pág. 208).\n2. Explica que leerá dos textos y que deben disfrutarlos, notando que las palabras \"son como la música, tienen ritmo y suenan bellas\".",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 208)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto del poema \"La mariposa\" (pág. 208)\n• Texto del acróstico (pág. 208)\n• Pizarra",
+          "descripcion": "1. El docente lee varias veces el poema \"La mariposa\" de Federico García Lorca (pág. 208).\n2. Lee varias veces el acróstico (anónimo) de la página 208.\n3. Formula preguntas de comparación (pág. 208):\n- \"¿Notan algunas diferencias entre ambos textos?\"\n- \"¿Cómo está organizado el poema La mariposa?\" (versos, estrofas)\n- \"¿Cómo está organizado el acróstico?\" (frases en torno a una palabra que se lee verticalmente)\n- \"¿Cuál es la palabra principal en el acróstico?\" (MADRE)\n4. Vuelve a leer los dos textos.\n5. Pregunta: \"¿Qué palabras se emplean para expresar cómo es la mariposa?\" (hermosa, dorada, verde) → adjetivos.\n6. Pregunta: \"¿Para qué se leen textos como el acróstico y el poema?\" (disfrutar, divertirse, desarrollar la imaginación).\n7. Pregunta: \"¿Con qué palabras se pueden sintetizar las características de la persona a quien se le escribió el acróstico?\" (amor, protección, entrega total).\n8. Pregunta: \"¿A ustedes cuáles sentimientos les despertó el acróstico?\"\n9. Vuelve a leer el acróstico y toma frases como \"De tus dulces manos recogí los frutos\". Pregunta: \"¿Es posible cambiar el orden de las palabras?\" (Guiar a la conclusión de que el orden normal sería \"Recogí los frutos de tus dulces manos\").\n10. Explica que este cambio de orden se llama hipérbaton y se usa en textos literarios para lograr ritmo y musicalidad.",
+          "actividad_numero": "Comprensión oral (Párrafos 2-5, pág. 208-209)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente sintetiza las características del acróstico:\n- Palabra principal en forma vertical.\n- Versos o frases horizontales que comienzan con cada letra.\n- Uso de adjetivos para describir.\n- Puede tener hipérbaton para lograr musicalidad.\n2. Los estudiantes copian la síntesis en su cuaderno.",
+          "actividad_numero": "Comprensión oral (Síntesis)"
+        }
+      ]
+    },
+    {
+      "id": "1771206901800",
+      "sequence_id": "seq-1771196861959",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Oral y Producción Oral",
+      "intencion_pedagogica": "Analizar un nuevo acróstico, identificar sus elementos (palabra principal, adjetivos, estructura) y producir oralmente un acróstico dedicado a un compañero.\n\n",
+      "estrategia": "Lectura en voz alta (modelado): El docente recita acrósticos con entonación adecuada.\n\nDiálogo dirigido: Preguntas para analizar el acróstico.\n\nTrabajo individual creativo: Los estudiantes escriben su primer acróstico.\n\nRecitación: Los estudiantes recitan sus acrósticos frente a los compañeros.",
+      "aprendizaje_significativo": "Los estudiantes crean un acróstico dedicado a un compañero, lo que fomenta valores como la amistad, el respeto y la valoración positiva de los demás.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite escribir palabras sueltas en lugar de frases completas.\n\nPara estudiantes tímidos: Se les permite recitar su acróstico en grupos pequeños o con un compañero.\n\nPara estudiantes kinestésicos: Se les anima a acompañar su recitación con gestos.\n\nPara estudiantes con discapacidad visual: Se les proporciona papel con renglones en relieve.\n\nPara estudiantes avanzados: Se les pide que incluyan una rima en sus versos.",
+      "actividades_cuaderno": "Escribir en limpio el acróstico dedicado a su compañero, con buena letra y decorado.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Texto del acróstico (pág. 209)\n• Pizarra",
+          "descripcion": "1. El docente lee en voz alta el acróstico de la página 209 (sobre Isabella).\n2. Formula preguntas (pág. 210):\n- \"¿Para qué se habrá escrito este acróstico?\" (para divertirse, expresar sentimientos)\n- \"¿Cuál es la palabra principal?\" (Isabella)\n- \"¿Cómo es Isabella según el acróstico?\" (sabia, respetuosa, activa, excelente, etc.)\n- \"¿Qué tipo de palabras se usaron para decir cómo es?\" (adjetivos)\n3. Muestra cómo se lee verticalmente la palabra principal y horizontalmente las frases.",
+          "actividad_numero": "Comprensión oral (Párrafos 1-4, pág. 210)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lápices\n• Participación de los estudiantes",
+          "descripcion": "1. El docente presenta la consigna (pág. 210): \"Los estudiantes de cuarto grado han organizado una actividad llamada Te dedico un acróstico. Cada estudiante elegirá el nombre de un compañero para componer un acróstico que recitará el día de la actividad.\"\n2. Los estudiantes eligen un compañero y escriben su nombre en vertical.\n3. Escriben un verso, frase u oración que inicie con cada letra del nombre.\n4. El docente acompaña y ayuda a los estudiantes a encontrar palabras adecuadas.\n5. Los estudiantes practican con varios borradores hasta que les quede bien.\n6. Se organiza la actividad \"Te dedico un acróstico\" y los estudiantes recitan sus acrósticos frente a los compañeros.\n7. El docente modela la entonación, el ritmo y la expresión de sentimientos.",
+          "actividad_numero": "Producción oral Consigna (pág. 210) Recitación (pág. 210)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes comparten cómo se sintieron al recibir un acróstico dedicado a ellos.\n2. El docente destaca la importancia de expresar sentimientos positivos hacia los demás.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771207019628",
+      "sequence_id": "seq-1771196861959",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión Escrita",
+      "intencion_pedagogica": "Leer y comprender un nuevo acróstico, identificar su palabra principal y los sentimientos que expresa, y compararlo con un poema para reforzar las características de cada género.\n\n",
+      "estrategia": "Lectura silenciosa: Los estudiantes leen individualmente.\n\nTrabajo individual con el texto: Para resolver actividades de comprensión.\n\nUso de contexto: Para deducir significados sin diccionario.\n\nComparación de textos: Poema vs. acróstico.\n\nRecitación en voz alta: Para practicar la entonación.",
+      "aprendizaje_significativo": "Se trabaja con un acróstico que expresa sentimientos profundos (alegría, esperanza), permitiendo a los estudiantes conectar la poesía con sus propias emociones y desarrollar su sensibilidad.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectura: Se les permite leer en pareja.\n\nPara estudiantes con dificultades de vocabulario: Se les permite usar el diccionario.\n\nPara estudiantes visuales: Se les anima a ilustrar el acróstico.\n\nPara estudiantes kinestésicos: Se les invita a representar con gestos las emociones del acróstico.\n\nPara estudiantes avanzados: Se les pide que busquen otro poema de García Lorca para compartir.",
+      "actividades_cuaderno": "Escribir el acróstico de Clara Manero Rebé y dibujar algo que represente las emociones que les transmitió.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con el acróstico (pág. 210)",
+          "descripcion": "1. El docente presenta en un papelógrafo o pizarra el acróstico de Clara Manero Rebé (pág. 210).\n2. Pide a los estudiantes que lo lean en silencio.",
+          "actividad_numero": "Comprensión escrita (Párrafo 1, pág. 210)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto del acróstico (pág. 210)\n• Textos de la página 211\n• Cuadernos",
+          "descripcion": "1. Preguntas de exploración (pág. 211):\n- \"¿Qué texto es este?\" (acróstico)\n- \"¿Para qué se escribe o se lee un acróstico?\" (divertirse, disfrutar, desarrollar sensibilidad)\n2. Actividad 1 (pág. 211): Cambian palabras subrayadas por sinónimos:\n- \"Libre de angustia y dolor\"\n- \"Esperanza que surge del alma\"\n- \"Risa jovial y sincera\"\n- \"Impulsa hacia afuera las penas\"\n3. Actividad 2 (pág. 211): Responden preguntas:\n- \"¿Cuál es la palabra principal?\" (a)\n- \"¿Para qué se escribió?\" (b)\n- \"¿Cuáles emociones sientes cuando lees este acróstico?\" (c)\n\nComparación con un poema:\n1. El docente presenta los dos textos de la página 211: el acróstico y el poema \"Paisaje\" de Federico García Lorca.\n2. Los estudiantes leen ambos en silencio.\n3. Preguntas de comparación (pág. 211):\n- \"¿Qué tipo de texto es cada uno?\"\n- \"¿En qué se diferencian?\" (poema: estrofas, versos; acróstico: palabra vertical, frases horizontales)\n- \"¿Qué tienen en común?\" (propósito de divertir, despertar sentimientos, desarrollar creatividad)\n4. Los estudiantes recitan en voz alta ambos textos, practicando entonación.",
+          "actividad_numero": "Comprensión escrita Actividad 1 (pág. 211) Actividad 2 (pág. 211) Comparación (pág. 211)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes se animan a recitar en voz alta los textos.\n2. El docente apoya la entonación y las inflexiones de voz.\n3. Solicita que para la próxima clase, los estudiantes seleccionen en internet acrósticos y poemas para un recital.",
+          "actividad_numero": "Comprensión escrita (Párrafo final, pág. 212)"
+        }
+      ]
+    },
+    {
+      "id": "1771207190152",
+      "sequence_id": "seq-1771196861959",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Producción Escrita y Recital",
+      "intencion_pedagogica": "Producir por escrito un acróstico utilizando el organizador gráfico, revisarlo con ayuda de compañeros y docente, y participar en un recital para compartir sus creaciones.\n\n",
+      "estrategia": "Taller de escritura: Acompañamiento paso a paso en la producción escrita.\n\nUso de organizadores gráficos: Esquema para planificar el acróstico.\n\nRevisión en parejas: Coevaluación de borradores.\n\nRecital: Presentación oral de los acrósticos.\n\nPublicación: Exposición de los acrósticos en el aula.",
+      "aprendizaje_significativo": "Los estudiantes escriben un acróstico sobre su propio nombre o el de un ser querido, lo que personaliza la experiencia y les permite expresar su identidad y sentimientos a través de la poesía.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite escribir palabras sueltas en lugar de frases completas.\n\nPara estudiantes con dificultades para encontrar adjetivos: Se les proporciona un banco de adjetivos positivos.\n\nPara estudiantes kinestésicos: Se les anima a decorar su acróstico con dibujos relacionados.\n\nPara estudiantes con discapacidad visual: Se les proporciona papel con renglones en relieve y letras grandes.\n\nPara estudiantes avanzados: Se les pide que escriban un acróstico con rima o que incluya una metáfora.",
+      "actividades_cuaderno": "Pegar el organizador gráfico completado y la versión final del acróstico. Escribir una breve reflexión sobre cómo se sintieron al escribirlo.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Organizador gráfico fotocopiado (pág. 212)",
+          "descripcion": "1. El docente recuerda que ya han leído y analizado muchos acrósticos.\n2. Anuncia que ahora escribirán sus propios acrósticos (pág. 212).\n3. Explica que la palabra principal puede ser su nombre, el de un compañero, amigo o familiar.\n4. Entrega el Organizador para el acróstico (Anexo, pág. 212) .",
+          "actividad_numero": "Producción escrita (Párrafos 1-3, pág. 212)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": " 60",
+          "recursos": "• Organizador gráfico\n• Cuadernos\n• Hojas para la versión final\n• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes completan el organizador gráfico:\n- Palabra principal.\n- Quién será su lector.\n- Para qué escribirán este acróstico.\n- Adjetivos o cualidades que describen a la persona.\n2. Con el organizador completo, estructuran su acróstico dándole la forma vertical/horizontal.\n3. El docente acompaña y ayuda a cada estudiante.\n4. Revisión en parejas (pág. 212): Los estudiantes intercambian sus acrósticos y se retroalimentan mutuamente.\n5. El docente revisa los borradores y ofrece sugerencias.\n6. Los estudiantes escriben en limpio su acróstico.\n\nRecital de acrósticos:\n1. Se organiza una puesta en común o exposición de los acrósticos producidos (pág. 212).\n2. Los estudiantes recitan sus acrósticos frente a la clase.\n3. El público escucha atentamente y aplaude al final.",
+          "actividad_numero": "Producción escrita Organizador (pág. 212) Escritura (pág. 212) Recital (pág. 212)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Mural del aula\n• Cinta adhesiva",
+          "descripcion": "1. Los acrósticos se colocan en el mural del aula o en un lugar visible.\n2. El docente felicita a todos por su creatividad y esfuerzo.\n3. Se reflexiona sobre la experiencia de escribir y compartir poesía.",
+          "actividad_numero": "Producción escrita Publicación (pág. 212)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "id": "seq-1772554404409",
+  "title": "Estadística",
+  "description": "Introduce la recolección, organización e interpretación de datos mediante tablas y gráficos.",
+  "order": 8,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772554404400",
+      "sequence_id": "seq-1772554404409",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Me divierto con la estadística",
+      "intencion_pedagogica": "Explorar los conocimientos previos sobre la recolección, organización y clasificación de datos.",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre elecciones, votaciones y estadística.\n\nPreguntas intercaladas: Para guiar la reflexión sobre recolección y organización de datos.\n\nTrabajo en grupo: Realización de encuesta sobre color favorito.\n\nUso de la pizarra: Registro colectivo de datos para socialización.",
+      "aprendizaje_significativo": "Los estudiantes han participado en elecciones del consejo de curso y saben que es necesario contar los votos para saber quién ganó. Al realizar una encuesta sobre su color favorito y enfrentarse a los datos desordenados, comprenden por sí mismos la necesidad de organizar la información, construyendo así el concepto de estadística como una herramienta útil para entender situaciones de su vida cotidiana.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Proporcionar una hoja con una lista pre-impresa de los colores más comunes para que solo marquen con una X el color que dice cada compañero, facilitando el registro.\n\nPara estudiantes kinestésicos: Entregar tarjetas de colores para que cada estudiante, al decir su color favorito, coloque físicamente la tarjeta en una columna en el piso o la pizarra, formando una representación visual tangible de los datos.\n\nPara estudiantes con discapacidad visual: Utilizar tarjetas con diferentes texturas que representen los colores (ej: liso para azul, rugoso para rojo, etc.) para que puedan participar en el registro táctil de los datos.\n\nPara estudiantes avanzados: Pedirles que, una vez listados los datos en la pizarra, intenten agruparlos mentalmente y dar un estimado de cuál es el color más frecuente antes de la socialización grupal.\n\n",
+      "actividades_cuaderno": "Actividad: En el cuaderno, escribir los resultados de la encuesta de color favorito realizada en clase, listando todos los colores mencionados por los compañeros. Luego, escribir una oración indicando cuál color creen que fue el más mencionado y por qué.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tizas o marcadores",
+          "descripcion": "1. El/la docente inicia cuestionando a los estudiantes sobre qué son las elecciones, para qué y cómo se hacen, cuáles elecciones se hacen en la escuela, quiénes han participado en esas elecciones, qué participación han tenido, cómo se sabe quién gana las elecciones y qué por ciento de votos necesita un candidato para ganar (pág. 256).\n2. Genera un espacio en el que ellos se expresen de forma espontánea, haciendo hincapié en la importancia del conteo de los votos en todo proceso de elección.\n3. Luego pregunta si saben qué es la estadística y qué estudia. Escucha la opinión de la mayoría y retoma el tema de las elecciones escolares para vincularlo al trabajo estadístico.\n4. Continúa el diálogo con preguntas (pág. 256):\n- ¿Qué es recolectar? ¿Qué se puede recolectar? Dar ejemplo.\n- ¿Qué es organizar? ¿Qué cosas organizan en la casa? Dar ejemplo.\n- ¿A qué se le llama dato?\n- ¿Cómo se pueden recolectar los datos?\n- ¿Qué es una encuesta? ¿Para qué se realiza una encuesta?\n- ¿Han realizado encuestas en la escuela? ¿Sobre qué?\n- ¿Saben qué parte de las matemáticas se encarga de recolectar y organizar datos?",
+          "actividad_numero": "Actividad 1 - A (pág. 256)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "A, B",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lápices\n• Pizarra\n• Marcadores",
+          "descripcion": "ealización de encuesta y registro de datos:\n1. El/la docente dice a los estudiantes que hoy van a realizar encuestas y a organizar los datos de esas encuestas (pág. 256).\n2. Pregunta a los estudiantes por su color favorito.\n3. a. Pide a todos que registren en sus cuadernos los resultados de la encuesta sobre el color favorito de cada uno de los estudiantes de cuarto grado (pág. 256).\n4. El/la docente coloca en la pizarra las respuestas de los estudiantes sobre su color favorito, listándolas a medida que cada estudiante responde.\n5. Una vez registradas todas las respuestas, socializa con el grupo: ¿Cuál de esos resultados aparece más veces? ¿Cómo podemos saberlo con certeza?",
+          "actividad_numero": "Actividad 1 - B y a (pág. 256)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "",
+          "recursos": "• Pizarra\n• Marcadores\n• Participación de los estudiantes",
+          "descripcion": "Socialización y reflexión final:\n1. El/la docente retoma las respuestas de los estudiantes y guía una reflexión: ¿Fue fácil saber cuál color aparecía más veces? ¿Cómo podríamos organizar esta información para que sea más fácil de leer y entender?\n2. Se introduce la idea de que existen formas de organizar los datos (como tablas) para facilitar su interpretación, anticipando el tema de la próxima clase.\n3. Se refuerza la importancia de la estadística para organizar información y tomar decisiones.",
+          "actividad_numero": "Actividad 1 - Cierre (adaptado de pág. 256)"
+        }
+      ]
+    },
+    {
+      "id": "1772558247471",
+      "sequence_id": "seq-1772554404409",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Tablas de conteo",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del entorno utilizando tablas de conteo.",
+      "estrategia": "Revisión de tarea: Socialización de la actividad del cuaderno de la clase anterior.\n\nDiálogo dirigido: Exploración de resultados de la encuesta familiar.\n\nExposición dialogada: Presentación del concepto de tabla de conteo y frecuencia.\n\nTrabajo en grupos cooperativos: Organización de datos en tabla de conteo.\n\nResolución de problemas: Análisis e interpretación de datos en tablas.\n\nSocialización: Puesta en común de resultados y estrategias.\n\n",
+      "aprendizaje_significativo": "Al intentar identificar el color favorito del grupo en la clase anterior con los datos desordenados, los estudiantes experimentaron la dificultad de obtener información clara. Al construir su propia tabla de conteo con los votos para el consejo de curso, descubren que esta herramienta matemática les permite transformar un conjunto caótico de datos en información organizada y útil, tal como se hace en cualquier votación real de su escuela o comunidad.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Proporcionar una tabla pre-dibujada con las edades (8, 9, 10, 11, 12) ya escritas para que solo tengan que agregar las marcas de conteo.\n\nPara estudiantes kinestésicos: Usar tarjetas con las edades escritas para que, en lugar de hacer marcas, coloquen físicamente las tarjetas en columnas según la edad, formando una representación tangible de la frecuencia.\n\nPara estudiantes con discapacidad visual: Proporcionar la tabla en formato ampliado y con alto contraste, y utilizar fichas con texturas diferentes para cada edad que puedan contar táctilmente.\n\nPara estudiantes avanzados: Pedirles que, además de responder las preguntas, elaboren una pregunta adicional que se pueda responder con la tabla de la situación #2 (ej: ¿Cuántos votos más obtuvo Manuel que José?).",
+      "actividades_cuaderno": "Actividad: Resolver el problema de la página 261:\n\n\"Los siguientes datos que están debajo en una tabla de conteo son de una encuesta realizada a los estudiantes de 4to sobre su deporte favorito. Usando esta tabla de conteo responde las siguientes preguntas: ¿Cuál es el deporte favorito de los estudiantes de 4to? ¿Cuál es el deporte menos preferido? ¿Cuáles deportes tuvieron la misma cantidad de votos?\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores\n• Cuadernos",
+          "descripcion": "Revisión de la actividad del cuaderno:\n1. El/la docente pregunta: ¿Quiénes realizaron la actividad del cuaderno? ¿Qué colores mencionaron sus compañeros? ¿Cuál color creen que fue el más mencionado? (pág. 258).\n2. Invita a algunos estudiantes a compartir sus respuestas.\n3. Retoma la reflexión del cierre anterior: ¿Fue fácil saber cuál color aparecía más veces con los datos desordenados? ¿Cómo podríamos organizarlos para que sea más fácil? Anuncia que hoy aprenderán a usar tablas de conteo para organizar información como la de las votaciones.",
+          "actividad_numero": "Actividad 2 - A (retroalimentación)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lápices\n• Pizarra\n• Marcadores",
+          "descripcion": "1. Situación problemática #1 (Edades de estudiantes) (30 min):\na. El/la docente plantea el problema de la página 259:\n\"En el curso de cuarto B hicieron una encuesta sobre la edad que tienen los estudiantes de ese curso, los resultados fueron: 10, 9, 10, 9, 10, 9, 8, 11, 11, 12, 10, 8, 9, 11, 10, 10, 9, 10, 9, 10, 11, 9, 10, 9, 10, 12, 9, 11, 12, 10.\"\nb. Organiza a los estudiantes en grupos de 4.\nc. Pide que, en sus cuadernos, organicen estos datos en una tabla de conteo. Recuerda que, como los datos son números, deben organizarse de menor a mayor (Cápsula, pág. 261).\nd. Los grupos trabajan, el/la docente recorre y orienta.\ne. Una vez terminada la tabla, el/la docente guía la socialización con las preguntas (pág. 259):\n- ¿Cuál es la edad de mayor frecuencia? (10 años, frecuencia 11)\n- ¿Cuántos estudiantes tienen 9 años? (9 estudiantes)\n- ¿Qué edad tienen los estudiantes más jóvenes? (8 años)\n- ¿Cuál es la mayor edad en los estudiantes de cuarto B? (12 años)\n- ¿Cuántos estudiantes fueron encuestados en 4° B? (30 estudiantes)\n\n2. Situación problemática #2 (Votación consejo de curso) (30 min):\na. El/la docente plantea el segundo problema de la página 260:\n\"Alberto ha colocado en una tabla, como se muestra debajo, los datos de una encuesta realizada al principio del año escolar para elegir al presidente del consejo de curso.\"",
+          "actividad_numero": "Actividad 2 - 1 (pág. 259-260)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Participación de estudiantes",
+          "descripcion": "Sistematización y cierre:\n1. El/la docente retoma las ideas clave: ¿Qué aprendimos hoy? ¿Qué es una tabla de conteo? ¿Cómo se organizan los datos numéricos? ¿Y los no numéricos? ¿Qué es la frecuencia? (pág. 262).\n2. Para reforzar, presenta una nueva tabla (la de frutas preferidas de la pág. 262) y realiza preguntas rápidas de interpretación oral.\n3. Anuncia que en la próxima clase aprenderán sobre pictogramas.",
+          "actividad_numero": "Actividad 2 - Cierre (pág. 262)"
+        }
+      ]
+    },
+    {
+      "id": "1772561468480",
+      "sequence_id": "seq-1772554404409",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Pictogramas",
+      "intencion_pedagogica": "Elaborar e interpretar informaciones del contexto utilizando pictogramas.",
+      "estrategia": "Revisión de tarea: Socialización de la actividad del cuaderno de la clase anterior.\n\nDiálogo dirigido: Exploración de conocimientos previos sobre pictogramas.\n\nUso de imágenes: Presentación de pictogramas para análisis.\n\nExposición dialogada: Explicación de la estructura y elementos de un pictograma.\n\nTrabajo en grupos cooperativos: Elaboración de pictogramas.\n\nResolución de problemas: Análisis e interpretación de pictogramas.",
+      "aprendizaje_significativo": "Los estudiantes han visto pictogramas en su vida cotidiana sin saberlo: en las etiquetas de la ropa que indican cómo lavarla, en los juegos de video que muestran puntuaciones con íconos, o en las encuestas de programas infantiles que usan caritas para representar gustos. Esta clase les permite descubrir que esos gráficos que llaman su atención son una forma matemática de comunicar información de manera clara y atractiva.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Proporcionar una plantilla con los ejes del pictograma ya dibujados y los años escritos, para que solo tengan que dibujar las siluetas de niños en la cantidad correcta.\n\nPara estudiantes kinestésicos: Usar sellos de caritas o figuras recortadas para que, en lugar de dibujar, puedan estampar o pegar físicamente las imágenes en el pictograma, lo que refuerza la relación uno a uno (o uno a varios).\n\nPara estudiantes con discapacidad visual: Proporcionar el pictograma en formato ampliado y con relieve, y utilizar figuras con texturas para que puedan contar táctilmente la cantidad de símbolos.\n\nPara estudiantes avanzados: Pedirles que, una vez elaborado el pictograma, inventen dos preguntas adicionales que se puedan responder con él y se las intercambien con otro compañero.\n\n",
+      "actividades_cuaderno": "Actividad: Resolver el problema de la página 266:\n\n\"Elabora un pictograma con los siguientes datos. En cuarto A se realizó una encuesta sobre las frutas favoritas de los estudiantes, los resultados se muestran en la siguiente tabla de conteo. Luego de analizar los datos de la tabla de conteo responde las siguientes preguntas: ¿Cuál es la fruta preferida por los estudiantes? ¿Cuál es la fruta menos preferida? ¿Cuál es la fruta que prefieren más que la manzana, pero menos que el mango?",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Pizarra\n• Marcadores\n• Imagen de pictograma (pág. 263)",
+          "descripcion": "Revisión de la actividad del cuaderno y exploración de saberes:\n1. El/la docente pregunta: ¿Quiénes realizaron la actividad del cuaderno sobre deportes? ¿Cuál fue el deporte favorito? ¿Cuál fue el menos preferido? ¿Qué deportes tuvieron la misma cantidad de votos? (Pág. 261).\n2. Invita a algunos estudiantes a compartir sus respuestas y verifica la comprensión de la tabla de conteo.\n3. Luego, presenta la imagen de la página 263 (varones y hembras representados con figuras) y pregunta: ¿Qué observan? ¿Cómo están representados los datos? ¿Han visto este tipo de gráficos antes? ¿Dónde?\n4. Escucha sus respuestas y anuncia que hoy aprenderán sobre los pictogramas.",
+          "actividad_numero": "Actividad 3 - A (pág. 263)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lápices\n• Reglas\n• Pizarra\n• Marcadores",
+          "descripcion": "Presentación y análisis de pictogramas (20 min):\n1. El/la docente presenta el pictograma de la página 263 (goles anotados en 4 partidos).\n2. Guía el análisis con preguntas (pág. 263):\n- ¿Qué representa cada pelota? (cada pelota representa 2 goles)\n- ¿Cuántos goles se anotaron en el partido 1? (4 goles, porque hay 2 pelotas)\n- ¿En qué partido se anotaron más goles? (partido 4)\n- ¿Qué significa lo que está en la última fila de la gráfica? (es la leyenda, indica que cada pelota vale 2 goles)\n3. Explica que un pictograma es un gráfico que usa imágenes o símbolos para representar datos, y que la leyenda es fundamental para saber cuánto vale cada imagen. (Cápsula, pág. 265).\n\nElaboración de pictogramas en grupos (35 min):\n1. El/la docente plantea la situación de la página 264:\n\"Alexander quiere hacer un pictograma con la cantidad de estudiantes de 4to grado que han votado en los últimos 6 años en las elecciones del consejo de curso. La maestra le facilita los siguientes datos: El año 2020 votaron 35, en el 2021 votaron 20, en el 2022 votaron 30, en el 2023 votaron 35, en el 2024 votaron 40 y en el 2025 votaron 30.\"\n2. Explica que cada silueta de niño 🇧🇸 equivaldrá a 5 niños.\n3. Organiza a los estudiantes en grupos de 3.\n4. Pide que en sus cuadernos elaboren el pictograma. Pueden hacerlo en forma de tabla o usando ejes (como se muestra en las soluciones de la pág. 264-265).\n5. Los grupos trabajan, el/la docente recorre, orienta y verifica que estén usando correctamente la leyenda.\n6. Una vez terminado, socializan los resultados y responden las preguntas (pág. 264):\n- ¿Cuántos estudiantes votaron en el 2023 más que en el 2021? (35 - 20 = 15 estudiantes más)\n- ¿Cuál es la cantidad total de estudiantes que han votado desde el 2020 hasta el 2025? (35+20+30+35+40+30 = 190 estudiantes)\n- ¿Cuál fue el año que más estudiantes votaron? (2024, con 40 estudiantes)",
+          "actividad_numero": "Actividad 3 - C (pág. 264-265)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Participación de estudiantes",
+          "descripcion": "Socialización y cierre:\n1. El/la docente retoma las preguntas finales (pág. 266):\n- ¿Qué aprendimos hoy?\n- ¿Qué es un pictograma?\n- ¿Para qué sirve la leyenda en un pictograma?\n- ¿A cuánto puede equivaler una imagen o símbolo en un pictograma? (1, 2, 5, 10, 20, 50, 100, etc.)\n2. Refuerza que los pictogramas permiten interpretar la información de manera más visual y atractiva.\n3. Anuncia que en la próxima clase continuarán trabajando con pictogramas, pero ahora para analizar información ya elaborada.",
+          "actividad_numero": "Actividad 3 - Cierre (pág. 266)"
+        }
+      ]
+    },
+    {
+      "id": "1772561695611",
+      "sequence_id": "seq-1772554404409",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Pictogramas",
+      "intencion_pedagogica": "Analizar e interpretar informaciones de un pictograma. \n\n",
+      "estrategia": "Revisión de tarea: Socialización de los pictogramas elaborados en la clase anterior.\n\nDiálogo dirigido: Exploración de resultados de la encuesta familiar sobre música.\n\nTrabajo en grupos cooperativos: Análisis e interpretación de pictogramas.\n\nResolución de problemas: Cálculo de cantidades a partir de pictogramas.\n\nSocialización: Puesta en común de estrategias y resultados.",
+      "aprendizaje_significativo": "Los estudiantes han visto pictogramas en anuncios publicitarios, redes sociales y materiales escolares que muestran preferencias o resultados de manera visualmente atractiva. Al aprender a interpretar estos gráficos, desarrollan la capacidad de comprender mensajes visuales que encuentran en su vida cotidiana, como encuestas de programas infantiles, resultados de partidos o preferencias de productos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Proporcionar una tabla auxiliar que traduzca el pictograma a números, mostrando cuántas personas o votos representa cada fila, para que puedan realizar los cálculos más fácilmente.\n\nPara estudiantes kinestésicos: Usar fichas o tarjetas que representen cada símbolo del pictograma para que, físicamente, puedan agruparlas y contar, facilitando la comprensión de las cantidades.\n\nPara estudiantes con discapacidad visual: Proporcionar el pictograma en formato ampliado y con alto contraste, y describir verbalmente cada fila con detalle (ej: \"En la fila de enero hay 4 boletas, cada boleta vale 200 personas, entonces son 800 personas\").\n\nPara estudiantes avanzados: Pedirles que, además de responder las preguntas, elaboren dos preguntas adicionales que se puedan responder con cada pictograma y se las intercambien con otro compañero.",
+      "actividades_cuaderno": "Actividad: Resolver el problema de la página 269:\n\n\"Responde las siguientes preguntas usando el siguiente pictograma sobre el tipo de sangre de los estudiantes de 4to A y B:",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Pizarra\n• Marcadores\n• Pictogramas elaborados por estudiantes",
+          "descripcion": "Revisión y socialización del diario del estudiante:\n1. El/la docente pregunta: ¿Quiénes realizaron la encuesta sobre la música favorita de sus familiares? ¿Cuál fue la música más preferida? ¿Cuál fue la menos preferida? ¿Cómo quedó su pictograma? (Pág. 266).\n2. Invita a algunos estudiantes a mostrar sus pictogramas en la pizarra y explicar cómo los elaboraron, qué leyenda usaron y qué conclusiones obtuvieron.\n3. A partir de las experiencias compartidas, el/la docente motiva la reflexión: ¿Fue fácil representar los datos con dibujos? ¿Qué ventaja tiene un pictograma frente a una tabla de conteo? Anuncia que hoy aprenderán a analizar e interpretar pictogramas ya elaborados.",
+          "actividad_numero": "Actividad 4 - A (Retroalimentación, pág. 267)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pictograma de votación (pág. 268)\n• Pizarra\n• Cuadernos\n• Participación de estudiantes",
+          "descripcion": "1. Situación problemática #1 (Visitantes al cine) (30 min):\na. El/la docente plantea el problema de la página 267:\n*\"Nelly elaboró un pictograma, como se muestra abajo, sobre la cantidad de personas que visitaron el cine desde enero hasta julio. Si cada 🎟️ = 200 personas.\"*\n(El/la docente dibuja el pictograma en la pizarra o lo presenta en un papelógrafo).\nb. Organiza a los estudiantes en grupos de 4.\nc. Pide que observen el pictograma y respondan las preguntas (pág. 267):\n- ¿Cuántas personas asistieron al cine en enero? (4 boletas x 200 = 800 personas)\n- ¿Cuántas personas asistieron al cine en febrero más que en abril? (febrero: 5 x 200 = 1000, abril: 2 x 200 = 400; 1000 - 400 = 600 personas más)\n- ¿Cuántas personas menos asistieron al cine en marzo que en mayo? (marzo: 5 x 200 = 1000, mayo: 6 x 200 = 1200; 1200 - 1000 = 200 personas menos)\n- ¿Cuántas personas asistieron al cine desde abril hasta junio? (abril: 400, mayo: 1200, junio: 7 x 200 = 1400; 400 + 1200 + 1400 = 3000 personas)\nd. Los grupos trabajan, el/la docente recorre y orienta.\ne. Socializan las respuestas y estrategias de cálculo.\n\n2. Situación problemática #2 (Votación consejo de curso) (30 min):\na. El/la docente plantea el segundo problema de la página 268:\n*\"Alberto elaboró un pictograma con los resultados de la votación para elegir al presidente del consejo de curso, como se muestra debajo. Cada 👤 = 1 votante.\"*\n(El/la docente dibuja el pictograma en la pizarra o lo presenta en un papelógrafo).\nb. Los grupos observan el pictograma y responden las preguntas (pág. 268):\n- ¿Cuál fue el candidato con más votos? (Pedro, con 9 votos)\n- ¿Cuál o cuáles fueron los candidatos con menos votos? (María y José, ambos con 4 votos)\n- ¿Cuáles candidatos sacaron la misma cantidad de votos? (María y José)\n- ¿Cuántos estudiantes votaron en total? (6 + 9 + 4 + 8 + 4 = 31 estudiantes)\nc. El/la docente socializa las respuestas y refuerza la importancia de la leyenda para interpretar correctamente los datos.",
+          "actividad_numero": "Actividad 4 - 2 (pág. 268-269)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Participación de estudiantes",
+          "descripcion": "Sistematización y cierre:\n1. El/la docente retoma las preguntas finales (pág. 269):\n- ¿Qué aprendimos hoy?\n- ¿Qué es un pictograma?\n- ¿Cuál es la diferencia entre una tabla de conteo y un pictograma? (la tabla usa números y marcas, el pictograma usa imágenes)\n- ¿Dónde han visto pictogramas en su comunidad? (en anuncios, periódicos, revistas, etc.)\n2. Refuerza que los pictogramas permiten visualizar los datos de manera más atractiva y fácil de entender.\n3. Anuncia que en la próxima clase aprenderán sobre gráficas de barras.",
+          "actividad_numero": "Actividad 4 - Cierre (pág. 269)"
+        }
+      ]
+    },
+    {
+      "id": "1772561885248",
+      "sequence_id": "seq-1772554404409",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Gráficas de barra",
+      "intencion_pedagogica": "Construye y analiza gráficos de barras del contexto escolar. \n\n",
+      "estrategia": "Revisión de tarea: Socialización de la actividad del cuaderno de la clase anterior.\n\nUso de video: Presentación de video explicativo sobre gráficas de barras.\n\nDiálogo dirigido: Exploración de conocimientos previos sobre gráficas de barras.\n\nExposición dialogada: Explicación de la estructura y elementos de una gráfica de barras.\n\nTrabajo en grupos cooperativos: Elaboración de gráficas de barras a partir de tablas de conteo.\n\nResolución de problemas: Análisis e interpretación de gráficas de barras.",
+      "aprendizaje_significativo": "Los estudiantes han visto gráficas de barras en periódicos, revistas, noticieros y en las paredes de la escuela cuando se presentan resultados de votaciones o encuestas. Esta clase les permite comprender que esas barras de colores que llaman su atención son una herramienta matemática que permite comparar cantidades de un solo vistazo, tal como se hace en elecciones reales del consejo de curso o en encuestas de su comunidad.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Proporcionar una plantilla con los ejes de la gráfica ya dibujados y los nombres de los candidatos escritos en el eje horizontal, para que solo tengan que dibujar las barras con la altura correcta.\n\nPara estudiantes kinestésicos: Usar tiras de papel de colores o regletas que puedan recortar y pegar para formar las barras, lo que facilita la comprensión de la relación entre la frecuencia y la altura de la barra.\n\nPara estudiantes con discapacidad visual: Proporcionar la gráfica en formato ampliado y con alto contraste, y utilizar material táctil (como lana o cartulina con relieve) para representar las barras.\n\nPara estudiantes avanzados: Pedirles que, una vez elaborada la gráfica, escriban tres conclusiones que puedan obtener a partir de ella (ej: \"Alexander ganó las elecciones\", \"Edwin solo recibió un voto\", \"Rosa Iris y Alberto empataron\").",
+      "actividades_cuaderno": "Actividad: Resolver el problema de la página 272:\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Pizarra\n• Marcadores\n• Video (opcional)\n• Proyector (opcional)",
+          "descripcion": "1. El/la docente pregunta: ¿Quiénes realizaron la actividad del pictograma sobre el tipo de sangre? ¿Cuántos estudiantes tenían sangre tipo O? ¿Y tipo AB? (Pág. 269).\n2. Invita a algunos estudiantes a compartir sus respuestas y verifica la comprensión de los pictogramas.\n3. Luego, presenta las imágenes de la página 270 (gráfica de barras de visitas al cine) y pregunta: ¿Qué observan? ¿Han visto este tipo de gráficos antes? ¿Dónde? ¿En qué se diferencia de un pictograma?\n4. Escucha sus respuestas y anuncia que hoy aprenderán sobre las gráficas de barras. Si hay acceso a internet, presenta el video sugerido: https://www.youtube.com/watch?app=desktop&v=J-lDNbXM2wE (Pág. 270).",
+          "actividad_numero": "Actividad 5 - A (pág. 270)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lápices\n• Reglas\n• Pizarra\n• Marcadores",
+          "descripcion": "1. Presentación de la gráfica de barras (15 min):\na. Después del video (o de la exploración visual), el/la docente guía el diálogo con preguntas (pág. 270):\n- ¿De qué trata el video?\n- ¿Qué es un gráfico de barras?\n- ¿Qué elementos tiene un gráfico de barras? (título, eje horizontal, eje vertical, barras, etiquetas)\n- ¿Cómo se colocan las barras? (la altura de cada barra representa la frecuencia)\nb. Refuerza que las barras permiten comparar cantidades de un solo vistazo.\n\n2. Elaboración de gráfica de barras a partir de datos (30 min):\na. El/la docente plantea el problema de la página 270:\n\"En el aula de cuarto se realizó una encuesta para determinar quién será el presidente del consejo de curso, los resultados de los 25 estudiantes en votar fueron: Alexander, Rosa Iris, Nelly, Alberto, Nelly, Alexander, Jonathan, Rosa Iris, Alberto, Edwin, Alexander, Alberto, Alexander, Nelly, Rosa Iris, Alexander, Jonathan, Rosa Iris, Alberto, Alberto, Alexander, Rosa Iris, Alexander, Nelly, Jonathan.\"\nb. Organiza a los estudiantes en grupos de 3.\nc. Primero, pide que elaboren una tabla de conteo con los datos (repaso de la clase 2). La tabla debe quedar:\n\nd. Luego, explica que para construir una gráfica de barras se usa la primera y última columna de la tabla. Muestra cómo se colocan los candidatos en el eje horizontal y las frecuencias en el eje vertical (pág. 271).\ne. Los grupos elaboran la gráfica de barras en sus cuadernos. Pueden elegir si hacerla con barras verticales u horizontales (pág. 271).\nf. El/la docente recorre, orienta y verifica que estén usando correctamente los ejes y las escalas.\ng. Una vez terminada, socializan los resultados y responden las preguntas (pág. 270):\n- ¿Quién obtuvo más votos? (Alexander, barra más alta)\n- ¿Quién obtuvo menos votos? (Edwin, barra más baja)\n- ¿Quiénes sacaron la misma cantidad de votos? (Rosa Iris y Alberto, barras de igual altura)",
+          "actividad_numero": "Actividad 5 - C (pág. 270-272)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Participación de estudiantes\n• Libro abierto de Matemática (opcional)",
+          "descripcion": "Socialización y cierre:\n1. El/la docente retoma las preguntas finales (pág. 272):\n- ¿Qué aprendimos hoy?\n- ¿Qué es una gráfica de barras?\n- ¿Qué elementos tiene una gráfica de barras?\n- ¿Para qué sirven las gráficas de barras?\n2. Para reforzar, invita a los estudiantes a leer las páginas 192 y 193 del Libro abierto de Matemática (MINERD 2023) como se sugiere en la página 272.\n3. Anuncia que en la próxima clase continuarán analizando gráficas de barras.",
+          "actividad_numero": "Actividad 5 - Cierre (pág. 272)"
+        }
+      ]
+    },
+    {
+      "id": "1772562084213",
+      "sequence_id": "seq-1772554404409",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Gráficas de barras",
+      "intencion_pedagogica": "Analizar problemas del contexto representados en gráficos de barras. \n\n",
+      "estrategia": "Revisión de tarea: Socialización de las gráficas de barras elaboradas en la clase anterior.\n\nDiálogo dirigido: Exploración de resultados y conclusiones.\n\nTrabajo en grupos cooperativos: Análisis e interpretación de gráficas de barras.\n\nResolución de problemas: Cálculo de cantidades y comparaciones a partir de gráficas.\n\nSocialización: Puesta en común de estrategias y resultados.",
+      "aprendizaje_significativo": "Las gráficas de barras están presentes en la vida cotidiana de los estudiantes: en los resultados de encuestas de programas de televisión, en las preferencias de videojuegos, en las estadísticas deportivas y en los cuadros de honor de la escuela. Al aprender a interpretarlas, desarrollan la capacidad de comprender información visual que encuentran constantemente en su entorno y pueden tomar decisiones informadas basadas en datos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Proporcionar una tabla auxiliar que traduzca la gráfica de barras a números, mostrando la frecuencia de cada categoría, para que puedan realizar los cálculos más fácilmente.\n\nPara estudiantes kinestésicos: Usar fichas o bloques para construir físicamente las barras de la gráfica sobre el escritorio, lo que facilita la comparación visual y táctil de las alturas.\n\nPara estudiantes con discapacidad visual: Proporcionar la gráfica en formato ampliado y con alto contraste, y describir verbalmente cada barra con detalle (ej: \"La barra de manzana llega hasta 60, es la más alta; la barra de melocotón llega hasta 10, es la más baja\").\n\nPara estudiantes avanzados: Pedirles que, además de responder las preguntas, elaboren dos preguntas adicionales que se puedan responder con cada gráfica y se las intercambien con otro compañero.",
+      "actividades_cuaderno": "Actividad: Resolver el problema de la página 275:",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Pizarra\n• Marcadores\n• Gráficas elaboradas por estudiantes",
+          "descripcion": "1. El/la docente pregunta: ¿Quiénes realizaron la gráfica de barras sobre los deportes favoritos? ¿Cuál fue el deporte favorito? ¿Cuál fue el menos preferido? ¿Qué deportes empataron? (Pág. 272).\n2. Invita a algunos estudiantes a mostrar sus gráficas en la pizarra y explicar cómo las elaboraron y qué conclusiones obtuvieron.\n3. A partir de las experiencias compartidas, el/la docente motiva la reflexión: ¿Qué ventaja tiene una gráfica de barras frente a una tabla de conteo? (permite visualizar y comparar rápidamente). Anuncia que hoy aprenderán a analizar e interpretar gráficas de barras ya elaboradas.",
+          "actividad_numero": "Actividad 6 - A (Retroalimentación, pág. 273)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Gráfica de actividades favoritas (pág. 274)\n• Pizarra\n• Cuadernos\n• Participación de estudiantes",
+          "descripcion": "1. Situación problemática #1 (Frutas favoritas) (30 min):\na. El/la docente presenta la gráfica de la página 273 (frutas favoritas de los estudiantes de la escuela). Puede dibujarla en la pizarra o presentarla en un papelógrafo.\nb. Organiza a los estudiantes en grupos de 4.\nc. Pide que observen la gráfica y respondan las preguntas (pág. 273):\n- ¿Cuál es la fruta preferida? (Manzana, es la barra más alta)\n- ¿Cuál es la fruta menos preferida? (Melocotón, es la barra más baja)\n- ¿Cuántos estudiantes tienen como fruta favorita la naranja? (45 estudiantes, la barra llega hasta 45)\n- ¿Cuántos prefieren la pera? (50 estudiantes, la barra llega hasta 50)\nd. Los grupos trabajan, el/la docente recorre y orienta.\ne. Socializan las respuestas y estrategias de lectura de la gráfica.\n\n2. Situación problemática #2 (Actividades favoritas) (30 min):\na. El/la docente presenta la gráfica de la página 274 (actividades favoritas de estudiantes de secundaria). Puede dibujarla en la pizarra o presentarla en un papelógrafo.\nb. Los grupos observan la gráfica y responden las preguntas (pág. 274):\n- ¿Cuál es la actividad favorita? (Ver TV, es la barra más alta, llega hasta 9)\n- ¿Cuántos prefieren leer? (7 estudiantes, la barra llega hasta 7)\n- ¿A cuántos estudiantes más les gusta ver TV que salir con amigos? (Ver TV: 9, Salir con amigos: 5; 9 - 5 = 4 estudiantes más)\nc. El/la docente socializa las respuestas y refuerza cómo identificar la moda (dato con mayor frecuencia) en una gráfica de barras.\t",
+          "actividad_numero": "Actividad 6 - 2 (pág. 274-275)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Participación de estudiantes",
+          "descripcion": "1. El/la docente retoma las preguntas finales (pág. 275):\n- ¿Qué aprendimos hoy?\n- ¿Cómo saber cuál es el dato más preferido en una gráfica de barras sin ver los números? (buscando la barra más alta)\n- ¿Y el menos preferido? (buscando la barra más baja)\n- ¿Cuál es la diferencia entre un gráfico de barras y un pictograma? (el pictograma usa imágenes, la gráfica de barras usa rectángulos)\n- ¿En qué lugar han visto gráficos de barras que no sea en la escuela? (periódicos, noticieros, resultados deportivos, etc.)\n2. Refuerza que las gráficas de barras permiten comparar información de manera visual y rápida.\n3. Anuncia que en la próxima clase realizarán un taller para poner en práctica todo lo aprendido.",
+          "actividad_numero": "Actividad 6 - Cierre (pág. 275)"
+        }
+      ]
+    },
+    {
+      "id": "1772562226514",
+      "sequence_id": "seq-1772554404409",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Taller de gráficas de barras",
+      "intencion_pedagogica": "Retroalimentar los conocimientos de los estudiantes sobre gráficos de barras. ¿\n\n",
+      "estrategia": "Revisión de tarea: Socialización de la actividad del cuaderno de la clase anterior.\n\nTrabajo manipulativo: Uso de fichas y hojas de colores para representar datos.\n\nTaller práctico: Elaboración colectiva de una tabla de conteo y una gráfica de barras.\n\nAprendizaje colaborativo: Participación de todos los estudiantes en la recolección y representación de datos.\n\nEvaluación formativa: Observación y registro del desempeño de los estudiantes durante el taller.",
+      "aprendizaje_significativo": "Los estudiantes han participado en votaciones y encuestas en su vida escolar y comunitaria, pero rara vez han visto el proceso completo de cómo esos datos se convierten en gráficos que todos pueden entender. ",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Leer cada pregunta en voz alta y asegurarse de que comprenden lo que se pide antes de comenzar. Proporcionar apoyo individual si es necesario, sin dar las respuestas.\n\nPara estudiantes kinestésicos: Permitirles que, durante la elaboración del gráfico de barras, utilicen materiales concretos como fichas o regletas para asegurar las alturas correctas antes de dibujar.\n\nPara estudiantes con discapacidad visual: Proporcionar la evaluación en formato ampliado y con alto contraste. Leer las preguntas en voz alta y permitir que respondan de manera oral si es necesario.\n\nPara estudiantes avanzados: Invitarlos a que, una vez terminada la evaluación, elaboren una pregunta adicional sobre alguno de los gráficos y la intercambien con un compañero.",
+      "actividades_cuaderno": "Actividad: No aplica, ya que la clase está dedicada a la evaluación final de la secuencia. Como actividad opcional, el/la docente puede pedir a los estudiantes que escriban en su cuaderno una reflexión personal sobre lo que aprendieron en la secuencia de estadística.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Pizarra\n• Marcadores",
+          "descripcion": ". El/la docente revisa la actividad del cuaderno de la clase anterior (mascotas preferidas) y socializa las respuestas correctas (Pág. 275).\n2. Luego, explica que hoy realizarán un taller especial: van a crear una gráfica de barras gigante con el color favorito de todos los estudiantes del curso.\n3. Presenta los materiales que usarán: fichas de colores, hojas de colores, cinta pegante y tijeras.\n4. Organiza el aula para el trabajo del taller y asigna roles (quién llevará las fichas, quién pegará, etc.).",
+          "actividad_numero": "Actividad 7 - A (Retroalimentación y organización, pág. 277)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices\n• Borras\n• Pizarra\n• Marcadores\n• Escala de valoración (pág. 278)\nCierre (15 min)\tRecogida y reflexión final:\n1. El/la docente recoge las evaluaciones de los estudiantes.\n2. Felicita a todos por el trabajo realizado durante toda la secuencia.\n3. Realiza una reflexión final: ¿Para qué nos sirve lo que aprendimos? (para organizar información, entender encuestas, tomar decisiones, etc.)\n4. Invita a los estudiantes a compartir qué fue lo que más les gustó de la secuencia y qué aprendieron que puedan aplicar en su vida diaria.\n5. Anuncia que en la próxima secuencia comenzarán un nuevo tema de matemática.\tActividad 8 - Cierre (pág. 280)\t• Participación de estudiantes\n",
+          "descripcion": "Aplicación de la evaluación:\n1. El/la docente entrega una hoja en blanco a cada estudiante. Pide que coloquen sus datos: nombre del centro, nombre del estudiante, fecha, grado y sección (pág. 278).\n2. Presenta y explica la Escala de valoración (pág. 278):\n3. Explica que cada ítem tiene un valor asignado y que deben responder de manera individual.\n4. Lee en voz alta cada pregunta y resuelve dudas antes de que los estudiantes comiencen.\n5. Los estudiantes resuelven la evaluación de manera individual. El/la docente recorre el aula observando el trabajo, pero sin intervenir en las respuestas.\n\nÍtems de la evaluación (pág. 278-280):\n\n1. Selecciona la respuesta correcta (Valor 20 puntos):\n- La cantidad de veces que aparece un dato se llama:\na. Marca de conteo b. Pictograma c. Frecuencia ✅\n- El gráfico que se representa con rectángulos se llama:\na. Marca de conteo b. Pictograma c. De barras ✅\n- Cómo se llama la imagen que se coloca debajo en el pictograma que indica la cantidad que vale cada imagen:\na. Marca de conteo b. Leyenda ✅ c. Frecuencia\n- Cómo se llama la marca que se usa para representar un dato en una tabla de conteo:\na. Marca de conteo ✅ b. Pictograma c. Frecuencia\n- El gráfico que se construye con imágenes se llama:\na. Marca de conteo b. Pictograma ✅ c. Gráfica de barras\n\n2. Elabora una tabla de conteo (Valor 20 puntos):\nDatos: Verde, azul, verde, rojo, amarillo, negro, rosado, blanco, azul, verde, rosado, negro, blanco, blanco, azul, rojo, morado, negro, marrón, azul, rojo, rojo, verde. (Pág. 279)\n\n3. Responde usando el pictograma (Valor 20 puntos):\n(El/la docente dibuja el pictograma de la página 279 en la pizarra)\na. ¿Cuántos monopatines se vendieron en enero? (4 x 10 = 40)\nb. ¿Cuántos monopatines se vendieron desde abril hasta julio? (abril: 2, mayo: 5, junio: 7, julio: 8; total 22 x 10 = 220)\nc. ¿Cuántos monopatines se vendieron en febrero más que en abril? (febrero: 6, abril: 2; 4 x 10 = 40 más)\nd. ¿Cuántos monopatines se vendieron desde enero hasta junio? (ene:4, feb:6, mar:5, abr:2, may:5, jun:7; total 29 x 10 = 290)\n\n4. Elabora un gráfico de barras (Valor 20 puntos):\na. Utilizar los deportes: béisbol, fútbol, atletismo, boxeo, voleibol. (Pág. 279)\nb. Realizar la encuesta (pueden usar datos hipotéticos o recordar alguna encuesta realizada).\nc. Hacer el gráfico de barras.\n\n5. Responde usando el gráfico de barras (Valor 20 puntos):\n(El/la docente dibuja el gráfico de la página 280 en la pizarra)\na. ¿Cuál es el helado favorito? (Chocolate)\nb. ¿Cuál es el helado menos favorito? (Limón)\nc. ¿Cuántos niños prefieren el helado de chocolate? (12)\nd. ¿Cuántos niños prefieren el helado de limón? (3)\ne. ¿Cuántos niños prefieren el helado de chicle? (8)\nf. ¿Cuántos niños fueron encuestados? (12+5+8+7+3 = 35)",
+          "actividad_numero": "Actividad 8 - B (Aplicación de la evaluación, pág. 278-280)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de estudiantes",
+          "descripcion": "Recogida y reflexión final:\n1. El/la docente recoge las evaluaciones de los estudiantes.\n2. Felicita a todos por el trabajo realizado durante toda la secuencia.\n3. Realiza una reflexión final: ¿Para qué nos sirve lo que aprendimos? (para organizar información, entender encuestas, tomar decisiones, etc.)\n4. Invita a los estudiantes a compartir qué fue lo que más les gustó de la secuencia y qué aprendieron que puedan aplicar en su vida diaria.\n5. Anuncia que en la próxima secuencia comenzarán un nuevo tema de matemática.",
+          "actividad_numero": "Actividad 8 - Cierre (pág. 280)"
+        }
+      ]
+    },
+    {
+      "id": "1772562951616",
+      "sequence_id": "seq-1772554404409",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar los aprendizajes de los estudiantes sobre la recolección, organización y representación de datos en tablas de conteo, pictogramas y gráficas de barras. \n\n",
+      "estrategia": "Diálogo dirigido: Recuento y retroalimentación de los temas trabajados en la secuencia.\n\nEvaluación escrita: Aplicación de prueba individual para valorar los aprendizajes.\n\nExplicación de criterios: Presentación y análisis de la escala de valoración.\n\nTrabajo individual: Resolución de problemas y ejercicios de evaluación.",
+      "aprendizaje_significativo": "Los estudiantes han aplicado durante toda la secuencia los conceptos estadísticos a situaciones reales de su entorno escolar y comunitario: elecciones del consejo de curso, encuestas de preferencias y análisis de datos de su propia realidad. Esta evaluación final les permite demostrar que han comprendido que la estadística es una herramienta útil para organizar información, tomar decisiones y comprender el mundo que les rodea.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Leer cada pregunta en voz alta y asegurarse de que comprenden lo que se pide antes de comenzar. Proporcionar apoyo individual si es necesario, sin dar las respuestas.\n\nPara estudiantes kinestésicos: Permitirles que, durante la elaboración del gráfico de barras, utilicen materiales concretos como fichas o regletas para asegurar las alturas correctas antes de dibujar.\n\nPara estudiantes con discapacidad visual: Proporcionar la evaluación en formato ampliado y con alto contraste. Leer las preguntas en voz alta y permitir que respondan de manera oral si es necesario.\n\nPara estudiantes avanzados: Invitarlos a que, una vez terminada la evaluación, elaboren una pregunta adicional sobre alguno de los gráficos y la intercambien con un compañero.",
+      "actividades_cuaderno": "Actividad: No aplica, ya que la clase está dedicada a la evaluación final de la secuencia. Como actividad opcional, el/la docente puede pedir a los estudiantes que escriban en su cuaderno una reflexión personal sobre lo que aprendieron en la secuencia de estadística.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores\n• Participación de estudiantes",
+          "descripcion": "1. El/la docente inicia preguntando: ¿Qué trabajamos en esta secuencia? (Pág. 278).\n2. Escucha las respuestas de los estudiantes y va anotando en la pizarra los temas principales:\n- Tablas de conteo\n- Pictogramas\n- Gráficas de barras\n- Recolección y organización de datos\n- Frecuencia\n- Leyenda\n3. Retroalimenta brevemente cada tema con preguntas rápidas: ¿Qué es la frecuencia? ¿Para qué sirve la leyenda en un pictograma? ¿Cómo se sabe cuál es el dato favorito en una gráfica de barras?\n4. Explica que hoy realizarán la evaluación final de la secuencia, donde demostrarán todo lo aprendido.",
+          "actividad_numero": "Actividad 8 - A (Recuento, pág. 278)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "",
+          "recursos": "",
+          "descripcion": "Aplicación de la evaluación:\n1. El/la docente entrega una hoja en blanco a cada estudiante. Pide que coloquen sus datos: nombre del centro, nombre del estudiante, fecha, grado y sección (pág. 278).\n2. Presenta y explica la Escala de valoración (pág. 278):\n3. Explica que cada ítem tiene un valor asignado y que deben responder de manera individual.\n4. Lee en voz alta cada pregunta y resuelve dudas antes de que los estudiantes comiencen.\n5. Los estudiantes resuelven la evaluación de manera individual. El/la docente recorre el aula observando el trabajo, pero sin intervenir en las respuestas.\n\nÍtems de la evaluación (pág. 278-280):\n\n1. Selecciona la respuesta correcta (Valor 20 puntos):\na. La cantidad de veces que aparece un dato se llama:\n□ Marca de conteo □ Pictograma ☑ Frecuencia\nb. El gráfico que se representa con rectángulos se llama:\n□ Marca de conteo □ Pictograma ☑ De barras\nc. ¿Cómo se llama la imagen que se coloca debajo en el pictograma que indica la cantidad que vale cada imagen?\n□ Marca de conteo ☑ Leyenda □ Frecuencia\nd. ¿Cómo se llama la marca que se usa para representar un dato en una tabla de conteo?\n☑ Marca de conteo □ Pictograma □ Frecuencia\ne. El gráfico que se construye con imágenes se llama:\n□ Marca de conteo ☑ Pictograma □ Gráfica de barras\n\n2. Elabora una tabla de conteo (Valor 20 puntos):\nOrganiza los siguientes datos en una tabla de conteo:\nVerde, azul, verde, rojo, amarillo, negro, rosado, blanco, azul, verde, rosado, negro, blanco, blanco, azul, rojo, morado, negro, marrón, azul, rojo, rojo, verde. (Pág. 279)\n\n3. Responde usando el pictograma (Valor 20 puntos):\n(El/la docente dibuja el pictograma de la página 279 en la pizarra)\na. ¿Cuántos monopatines se vendieron en enero? (4 x 10 = 40)\nb. ¿Cuántos monopatines se vendieron desde abril hasta julio? (abril: 2, mayo: 5, junio: 7, julio: 8; total 22 x 10 = 220)\nc. ¿Cuántos monopatines se vendieron en febrero más que en abril? (febrero: 6, abril: 2; 4 x 10 = 40 más)\nd. ¿Cuántos monopatines se vendieron desde enero hasta junio? (ene:4, feb:6, mar:5, abr:2, may:5, jun:7; total 29 x 10 = 290)\n\n4. Elabora un gráfico de barras (Valor 20 puntos):\na. Utilizar los deportes: béisbol, fútbol, atletismo, boxeo, voleibol. (Pág. 279)\nb. Realizar la encuesta (pueden usar datos hipotéticos o recordar alguna encuesta realizada).\nc. Hacer el gráfico de barras.\n\n5. Responde usando el gráfico de barras (Valor 20 puntos):\n(El/la docente dibuja el gráfico de la página 280 en la pizarra)",
+          "actividad_numero": ""
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de estudiantes",
+          "descripcion": "1. El/la docente recoge las evaluaciones de los estudiantes.\n2. Felicita a todos por el trabajo realizado durante toda la secuencia.\n3. Realiza una reflexión final: ¿Para qué nos sirve lo que aprendimos? (para organizar información, entender encuestas, tomar decisiones, etc.)\n4. Invita a los estudiantes a compartir qué fue lo que más les gustó de la secuencia y qué aprendieron que puedan aplicar en su vida diaria.\n5. Anuncia que en la próxima secuencia comenzarán un nuevo tema de matemática.",
+          "actividad_numero": "Actividad 8 - Cierre (pág. 280)"
+        }
+      ]
+    }
+  ]
+}

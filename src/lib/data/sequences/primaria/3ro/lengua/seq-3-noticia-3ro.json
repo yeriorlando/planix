@@ -1,0 +1,353 @@
+{
+    "sequenceId": "secuencia-3-lengua-3ro-noticia",
+    "subjectId": "lengua",
+    "sequenceTitle": "Noticia",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1 - Presentación de los textos",
+            "activities": [
+                {
+                    "title": "Actividad 1: Recuperación de conocimientos previos",
+                    "pedagogicalIntention": "Recuperan y amplían los conocimientos previos sobre las noticias y sus fuentes. Reconocen su función y comienzan a identificar sus características principales.",
+                    "resources": "Papelógrafo de aprendizajes.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Pregunta a cuatro personas cercanas, como familiares o amigos, cuál es el medio que más usan para informarse de las noticias (radio, periódico, televisión o internet) y anota sus respuestas junto con su nombre, por ejemplo: “María - Internet”.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Conocer las ideas previas de los estudiantes sobre las noticias y sus fuentes.",
+                            "description": "El docente organiza una conversación a partir de las siguientes preguntas: ¿Cómo hacen las personas para saber el resultado del partido de pelota o de béisbol? ¿Dónde buscan el pronóstico del tiempo para esta semana? ¿Dónde nos informamos de los hechos importantes que pasaron en el país o en el mundo? Seguramente los estudiantes mencionarán los medios conocidos en sus hogares, como la radio o la televisión. ¿Cómo llamamos a las comunicaciones que transmiten estos medios? La conversación tiene como finalidad que comprendan que mencionaron medios de información que comunican noticias."
+                        },
+                        {
+                            "title": "Momento 2: Presentar el papelógrafo de aprendizajes.",
+                            "description": "El docente explica que van a trabajar sobre la noticia, oral y escrita. Lee el papelógrafo junto con sus estudiantes.\nEN ESTE TIEMPO TRABAJAREMOS PARA:\n● Escuchar y leer noticias.\n● Conocer las partes de la noticia y para qué sirve cada una.\n● Escribir noticias sobre el grado y la escuela."
+                        },
+                        {
+                            "title": "Momento 3: Escritura en el cuaderno.",
+                            "description": "El docente pregunta: ¿Recuerdan haber leído noticias? ¿Cómo son? ¿Recuerdan qué son? Entre todos arman una definición de “Noticia”. Luego guía el intercambio con preguntas ¿Qué es una noticia? ¿En qué se diferencia de un cuento? ¿Las noticias son solo escritas? ¿Dónde encontramos noticias? Registra las conclusiones en la pizarra. Los estudiantes escriben la definición en el cuaderno, que debería ser similar a la siguiente:\nUna noticia comunica un hecho real.\nPuede transmitirse en forma oral, en forma escrita o en forma audiovisual.\n\nRecorrido docente: Ayuda a los estudiantes que presentan mayor dificultad, orienta en la revisión de la copia, señala en el momento los errores que cometen al copiar y anima a mirar con atención cada palabra y trazo de las letras."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 2: Estructura de la noticia",
+                    "pedagogicalIntention": "Identifican la estructura de la noticia y reconocer la función de sus partes principales.",
+                    "resources": "Periódicos variados.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Busca en un periódico una noticia que te llame la atención, recórtala y pégala en tu cuaderno. Señala y escribe las partes de la noticia que identificaste (titular, entradilla, cuerpo, foto y pie de foto).",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente pregunta cómo les fue con la encuesta y pide a algunos estudiantes compartir las respuestas obtenidas. Mientras participan, registra en la pizarra la cantidad de personas que mencionaron cada medio (radio, periódico, televisión o internet) para reflexionar juntos sobre cuál fue el más mencionado y por qué."
+                        },
+                        {
+                            "title": "Momento 2: Estructura de la noticia.",
+                            "description": "Organizados en pequeños grupos, los estudiantes observan detenidamente los periódicos y trabajan para identificar las partes de una noticia. El docente guía la actividad formulando preguntas como: ¿Qué recuerdan sobre las partes de una noticia? ¿Cuáles son esas partes? A medida que los estudiantes responden, registra en la pizarra las partes mencionadas (titular, entradilla o introducción, cuerpo, foto y pie de foto). Además, solicita a los grupos que muestren ejemplos concretos de estas partes en las noticias de los periódicos que están trabajando. Luego reflexiona sobre la función de cada una de las partes: ¿Para qué sirve el titular? ¿Por qué está con una letra destacada y más grande? ¿Cuál es la función de la entradilla? ¿Qué diferencia tiene con el cuerpo de la noticia? ¿Todas las noticias tienen foto y pie de foto?"
+                        },
+                        {
+                            "title": "Momento 3: Actividad del fascículo.",
+                            "description": "Los estudiantes deben etiquetar las diferentes partes de la noticia (titular, entradilla, cuerpo, foto y pie de foto). Mientras trabajan, el docente recorre el aula para resolver dudas y asegurarse de que los estudiantes puedan identificar cada parte correctamente. Luego, corrigen de forma colectiva escribiendo en la pizarra un ejemplo para cada parte y aclarando las dudas surgidas durante la actividad."
+                        },
+                        {
+                            "title": "Momento 4: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 3: Cuerpo de la noticia",
+                    "pedagogicalIntention": "Conocen e identifican las partes del cuerpo de la noticia (qué, quién, cuándo, dónde, por qué y cómo).",
+                    "resources": "Carteles con las siguientes preguntas: ¿A quién le sucedió? ¿Qué sucedió? ¿Cuándo sucedió? ¿Dónde sucedió? ¿Por qué sucedió? ¿Cómo sucedió?",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Lee la noticia que habías seleccionado y observa si está completa. Colorea las partes de la noticia: Con rojo “¿A quién le sucedió?”; con amarillo “¿Qué sucedió?”; con verde “¿Cuándo sucedió?”.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes socializan qué noticia seleccionaron y cuál es su temática. Revisan qué partes de la noticia identificaron."
+                        },
+                        {
+                            "title": "Momento 2: Juego con preguntas de la noticia.",
+                            "description": "El docente organiza a sus estudiantes en seis equipos y a cada uno le asigna un cartel con una de las preguntas: ¿A quién le sucedió? ¿Qué sucedió? ¿Cuándo sucedió? ¿Dónde sucedió? ¿Por qué sucedió? ¿Cómo sucedió? Todos leen la noticia “Avistan ballena desde el malecón de Santo Domingo” del fascículo. Luego, él o un estudiante designado la leen en voz alta. Cada grupo escribe en una hoja la respuesta a la pregunta de su cartel. Después, cada uno pasa al frente con su cartel y entre todos reconstruyen la noticia. El docente hace una pregunta y el grupo responde en voz alta."
+                        },
+                        {
+                            "title": "Momento 3: Anticipar noticias a partir de los titulares.",
+                            "description": "El docente reflexiona con los estudiantes: para que una noticia esté completa debe responder a las siguientes preguntas: ¿A quién le sucedió? ¿Qué sucedió? ¿Cuándo sucedió? ¿Dónde sucedió? ¿Por qué sucedió? ¿Cómo sucedió? Los estudiantes, organizados en pares, deben leer los titulares que se presentan en el fascículo: Se aprobó una nueva vacuna para el Covid-19 - Juan Luis Guerra presentará su nuevo disco en el teatro principal - El robo del banco fue un fracaso - Dura derrota del campeón del mundo - El presidente abrió las sesiones del Congreso. Los estudiantes deben decidir, de forma oral, qué podría decir la noticia completa en función de ese titular. Imaginarán las noticias teniendo en cuenta las preguntas orientadoras: ¿A quién le sucedió? ¿Qué sucedió? ¿Cuándo sucedió? ¿Dónde sucedió? ¿Por qué sucedió? ¿Cómo sucedió? Luego los grupos cuentan a los demás la noticia que imaginaron."
+                        },
+                        {
+                            "title": "Momento 4: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2 - Comprensión lectora y gramática",
+            "activities": [
+                {
+                    "title": "Actividad 4: Comprensión y Vocabulario",
+                    "pedagogicalIntention": "Desarrollan la comprensión lectora en sus niveles literal, inferencial y crítica. Amplían el vocabulario relacionado con la noticia.",
+                    "resources": "Papelógrafo con la noticia “Avistan ballena desde el malecón de Santo Domingo” (en el fascículo).",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Cuenta a un familiar las palabras nuevas que aprendiste en clase (avistamiento, acontecimiento, temporada, sorprender) y explícale qué significan. Luego, cuéntale lo que sucedió en la noticia que leímos en clase sobre la ballena avistada en el malecón de Santo Domingo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente pregunta a los estudiantes si lograron analizar su noticia y responder a las preguntas clave: ¿A quién le sucedió? ¿Qué sucedió? ¿Cuándo? Invita a algunos a compartir sus respuestas, reflexionando sobre la importancia de que una noticia responda a estas preguntas para estar completa."
+                        },
+                        {
+                            "title": "Momento 2: Revisión de lo aprendido.",
+                            "description": "El docente plantea revisar el papelógrafo de aprendizaje y marcar lo que ya han avanzado, luego propone un juego de verdadero o falso: lee las siguientes afirmaciones e intercambian opiniones para decidir la respuesta, si son verdaderas o falsas y por qué.\n1. Las noticias cuentan cómo se hace una comida o cómo se arma un juguete. Falso.\nJustificación: Las noticias sirven para informar a muchas personas sobre hechos reales e importantes. Por eso, se publican en periódicos, radios, revistas, televisión o en internet.\n2. Hay noticias sobre distintos temas: deportes, actualidad, educación, salud, ciencia. Verdadero.\n3. Para reconocer lo que se cuenta en una noticia, podemos ayudarnos con preguntas como ¿Qué sucedió? ¿A quién le sucedió? ¿Cuándo? ¿Dónde? ¿Por qué? Verdadero.\n4. El docente propone: Les voy a decir una frase y ustedes me dicen si puede ser el titular de una noticia o no y por qué.\n● Una oruga se transformó en mariposa. Falso (no es noticia).\n● Nacieron tortugas marinas en un centro de conservación de animales en peligro de extinción. Verdadero (noticia).\n● Un nuevo huracán se aproxima al Caribe. Verdadero (noticia).\n● El sol se pone a las 6:00 de la tarde cada día. Falso (no es noticia)."
+                        },
+                        {
+                            "title": "Momento 3: Lectura de la noticia y vocabulario.",
+                            "description": "El docente pide a los estudiantes que lean en silencio la noticia de la actividad N° 2 del fascículo sobre la ballena que se avistó en el malecón de Santo Domingo. Luego la lee en voz alta siguiendo el texto con el dedo a medida que lo hace. Explica que algunas palabras del texto pueden ser nuevas o importantes para entender la noticia. Les pregunta a los estudiantes: ¿Qué palabras no conocen? y las escribe en la pizarra. Seguramente, escriba alguna de estas: avistamiento, acontecimiento, temporada, sorprender. Los estudiantes buscan las palabras en el texto y, en parejas, proponen significados a partir del contexto y contrastan sus ideas con el docente para clarificar. Puede utilizar el diccionario y modelizar la búsqueda de palabras nuevas."
+                        },
+                        {
+                            "title": "Momento 4: Comprensión de la noticia.",
+                            "description": "Los estudiantes, en parejas, responden las preguntas del fascículo de la actividad Nº 4. El docente acompaña y ayuda a los estudiantes, luego socializan las respuestas y escribe las respuestas en la pizarra. Todos controlan y revisan sus respuestas."
+                        },
+                        {
+                            "title": "Momento 5: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 5: Conectores de orden",
+                    "pedagogicalIntention": "Identifican y usan conectores de orden para organizar las ideas de manera clara y lógica en la redacción y comprensión de noticias.",
+                    "resources": "Pizarra y marcadores.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: ¡Se mezclaron los hechos de una noticia! Lee estos tres hechos de una noticia, ordénalos y escribe el texto completo utilizando tres conectores de orden.\nNoticia: Rescatan un gato asustado en un árbol\n● Los bomberos llegaron al lugar con una escalera para rescatar al gato.\n● Un vecino llamó a los bomberos porque el gato no podía bajar.\n● El gato fue rescatado. El dueño agradeció emocionado.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente anima a un estudiante a leer en voz alta la tarea para el hogar de la actividad anterior y a que comparta a quién le contó sobre las palabras aprendidas y sobre el contenido de la noticia."
+                        },
+                        {
+                            "title": "Momento 2: Orden de los sucesos.",
+                            "description": "El docente pide a los estudiantes que recuerden en qué orden sucedieron los hechos en la noticia “Avistan ballena desde el malecón de Santo Domingo”, utilizando algunas de las palabras que escribe en la pizarra: primero, luego, después, finalmente, al principio, más tarde. Explica que estas palabras se llaman “conectores de orden” y que nos sirven para ordenar, son palabras que ayudan a organizar ideas al contar algo en el orden en que sucedió. Son útiles en noticias para estructurar los hechos:\n● Primero / Al inicio: para introducir el inicio de los eventos.\n● Después / Luego / Más tarde: para describir lo que ocurrió a continuación.\n● Al final / Finalmente / Por último: para cerrar con el desenlace."
+                        },
+                        {
+                            "title": "Momento 3: Conectores de orden.",
+                            "description": "Los estudiantes, organizados en pares, resuelven la actividad del fascículo en la que deben ordenar los sucesos de la noticia utilizando los conectores de orden.\n\nRecorrido docente: Apoya a quienes necesitan más ayuda, realiza las correcciones en el momento, y verifica que el orden de los sucesos sea correcto y que utilicen el conector de orden apropiado. El estudiante que termine puede ayudar a quienes lo necesiten."
+                        },
+                        {
+                            "title": "Momento 4: Puesta en común.",
+                            "description": "Al finalizar, el docente pregunta: ¿Cómo lo hicieron? Los estudiantes exponen sus respuestas y pasan a la pizarra a mostrar cómo escribieron. Finalmente, el docente observa, escucha y los guía hacia la comprensión de la respuesta correcta, modeliza la escritura y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "title": "Momento 5: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? ¿Por qué es útil usar conectores de orden? Luego refuerza la importancia de usar conectores de orden para narrar hechos de forma clara y organizada; resalta que los conectores ayudan a organizar ideas, mejorar la claridad y facilitar la comprensión de los textos narrativos. Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase y después la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones, mientras el ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 6: Lectura y separación de palabras",
+                    "pedagogicalIntention": "Leen palabras entre otras similares. Separan las palabras de las oraciones.",
+                    "resources": "Pizarra y marcadores.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: ¡Se juntaron las palabras! Marca dónde termina cada palabra. Luego, escribe la oración correctamente en tu cuaderno.\n● Laspersonasasombradas.\n● Laballenajorobada.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente invita a un estudiante a leer en voz alta la tarea de la actividad anterior. Pide que explique cómo se dieron cuenta del orden de los sucesos y escribe en la pizarra los conectores de orden utilizados por los estudiantes."
+                        },
+                        {
+                            "title": "Momento 2: Juegos para realizar lecturas entre distractores.",
+                            "description": "El docente propone realizar un juego de detectives de palabras en el que deberán encontrar la frase correcta. Por ejemplo, escribe en la pizarra:\nLeemos una noticia.\nLeemos una maleta.\nEl docente pregunta: ¿Quién puede leer estas oraciones? Algunos estudiantes leen en voz alta. ¿Cuál expresa lo que hemos hecho en estos días? ¿dónde dice “noticia”? ¿dónde dice “maleta”? ¿Se puede leer una maleta? ¿Por qué?"
+                        },
+                        {
+                            "title": "Momento 3: Actividad Nº 6 del fascículo.",
+                            "description": "El docente forma grupos de tres estudiantes (con un lector fluido en cada grupo), lee y explica los mandatos. Los estudiantes deben observar imágenes y leer cuatro opciones de respuesta para cada una. Tienen que identificar cuál corresponde a la imagen. Luego deben leer dos oraciones sin separación de palabras, marcar las palabras y escribir la frase con la separación de palabras correcta.\n\nRecorrido docente: Apoya a quienes necesitan más ayuda y realiza las correcciones en el momento."
+                        },
+                        {
+                            "title": "Momento 4: Puesta en común.",
+                            "description": "Al finalizar, el docente pregunta: ¿Cómo lo hicieron? Los estudiantes exponen sus respuestas y pasan a la pizarra a mostrar cómo escribieron. Finalmente, el docente observa, escucha y los guía hacia la comprensión de la respuesta correcta, modeliza la escritura y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "title": "Momento 5: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos sobre la concordancia entre el sujeto y el predicado? ¿Quién lo puede explicar con sus palabras? El docente concluye reforzando que la concordancia entre sujeto y predicado es esencial para que nuestras oraciones tengan sentido. Nos ayuda a expresar nuestras ideas de forma clara y a que los demás nos entiendan. Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 7: Signos de Puntuación",
+                    "pedagogicalIntention": "Identifican y usan correctamente los signos de puntuación (coma, punto y seguido, dos puntos, punto y aparte) para mejorar la claridad y organización de los textos.",
+                    "resources": "Pizarra y marcadores.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe dos oraciones sobre un evento emocionante que hayas vivido, usando correctamente al menos tres signos de puntuación.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que compartan la tarea para el hogar, escucha las formas de resolver de los estudiantes y los guía hacia la comprensión de la respuesta correcta. Todos corrigen en sus cuadernos."
+                        },
+                        {
+                            "title": "Momento 2: Introducción a los signos de puntuación.",
+                            "description": "El docente escribe en la pizarra un textosin signos de puntuación:\nLas personas que vieron la ballena estaban asombradas algunos tomaron fotos otros grabaron videos otros la señalaron\nPide a los estudiantes que lean la frase en silencio. Luego pide a uno que la leen en voz alta y los invita a reflexionar: ¿Pueden entenderla con facilidad? ¿Qué le falta a esta oración? ¿La pueden leer fácilmente? ¿Por qué no? ¿Para qué nos sirven los puntos y las comas cuando leemos un texto? Explica que los signos de puntuación nos ayudan a organizar las ideas y a saber cuándo detenernos, hacer una pausa o dar una lista ¿Los recuerdan? ¿Cuáles conocen? Luego puede hacer un breve recordatorio y explicación de los signos de puntuación.\nLa coma (,) sirve para separar elementos o hacer pausas breves. Ejemplo: Las personas sacaron fotos, grabaron videos y festejaron.\nEl punto y seguido (.) sirve para terminar una idea y empezar otra en el mismo párrafo. Ejemplo: Las personas estaban emocionadas. Aplaudieron al ver a la ballena saltar.\nEl punto y aparte (.), para separar párrafos cuando cambiamos de tema o avanzamos en una narración.\nLos dos puntos (:) sirve para introducir una lista o una explicación. Ejemplo: Llevaron todo para grabar: cámaras, celulares y trípodes.\nPide a algunos estudiantes que pasen a la pizarra a agregarlos. Después, que vuelvan a leer la noticia que tienen en la Actividad Nº4 e identifiquen todos los signos de puntuación que encuentren."
+                        },
+                        {
+                            "title": "Momento 3: Actividad Nº 7 del fascículo.",
+                            "description": "El docente lee y explica el mandato: deben leer con atención las oraciones y colocar los signos de puntuación que faltan.\n\nRecorrido docente: Acompaña a los estudiantes mientras trabajan, brindando apoyo a quienes lo necesiten y corrigiendo en el momento; verifica que los estudiantes comprendan el sentido de los signos de puntuación. Los estudiantes que terminen pueden colaborar con sus compañeros."
+                        },
+                        {
+                            "title": "Momento 4: Puesta en común.",
+                            "description": "Entre todos verifican las respuestas. El docente escribe las oraciones en la pizarra, un estudiante pasa a colocar los signos de puntuación y explica por qué ha decidido usar cada signo en esos lugares de la oración. El docente corrige y explica. Las oraciones deben quedar correctamente escritas en la pizarra:\nEs posible avistar ballenas en distintos países, como por ejemplo: en República Dominicana, Noruega, México y Argentina.\nNo es habitual ver ballenas en Santo Domingo. Es por ello que fue una sorpresa para todos.\nLos estudiantes leen sus respuestas. Todos revisan y corrigen en sus fascículos."
+                        },
+                        {
+                            "title": "Momento 5: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 8: Conciencia Fonográfica",
+                    "pedagogicalIntention": "Desarrollan la conciencia fonográfica mediante juegos y palabras significativas.",
+                    "resources": "Papelógrafo con la noticia “Avistan ballena desde el malecón de Santo Domingo” (en el fascículo). Tarjetas con el vocabulario de la noticia.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Completa las letras que faltan en este párrafo de la noticia: “La temp_rada de a_istamiento de ba__enas joroba_as en el país es de_de el 15 de e_ero hasta el 31 de mar_o. Por lo _eneral, las ballenas son vistas en P_erto Plata y Sa_aná. Por eso, sorprendió verla en San_o Dom_ngo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que lean las oraciones que escribieron y que mencionen cuáles fueron los signos de puntuación que utilizaron."
+                        },
+                        {
+                            "title": "Momento 2: ¡Jugamos con las palabras aprendidas!",
+                            "description": "Los estudiantes completan la Actividad Nº 8 del fascículo (vocabulario de la noticia). Se recomienda organizarlos en pares, procurando que haya un lector fluido en cada pareja. El docente lee el mandato y verifica la comprensión de juego: deben completar un crucigrama. Para hacerlo, deben leer pistas."
+                        },
+                        {
+                            "title": "Momento 3: Puesta en común.",
+                            "description": "El docente copia la estructura del crucigrama en la pizarra. Los estudiantes, por turno, leen las pistas y pasan a la pizarra a completar la respuesta; el docente corrige y todos revisan sus respuestas en el fascículo."
+                        },
+                        {
+                            "title": "Momento 4: Dictado del vocabulario.",
+                            "description": "El docente organiza grupos cooperativos de tres estudiantes (con un lector fluido en cada uno), luego entrega a cada grupo una tarjeta con una palabra del vocabulario escrita (por ejemplo, noticias, ballena). Un integrante del grupo debe dictarla al resto, que la escribe en el cuaderno. Finalmente, entre todos revisan la escritura de cada uno con la tarjeta. Si es posible, pueden rotar las tarjetas por el aula para que sigan escribiendo palabras al dictado de los compañeros."
+                        },
+                        {
+                            "title": "Momento 5: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 3,
+            "title": "Bloque 3 - Producción escrita",
+            "activities": [
+                {
+                    "title": "Actividad 9: Planificación de la noticia",
+                    "pedagogicalIntention": "Planifican la escritura de una noticia.",
+                    "resources": "Papelógrafo de aprendizajes.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe, como puedas, un titular para la noticia de tu grupo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente copia en la pizarra el párrafo de la noticia con las letras faltantes, tal como está en la tarea del hogar. Luego pide a un estudiante que pase a leer en voz alta cada frase y completar las letras faltantes. Entre todos controlan y revisan. El docente verifica que el texto quede bien escrito y todos corrigen en sus cuadernos."
+                        },
+                        {
+                            "title": "Momento 2: Revisión del papelógrafo.",
+                            "description": "Los estudiantes reflexionan sobre lo que aprendieron; revisan el papelógrafo, sus cuadernos y el fascículo e identifican que aún tienen pendiente escribir noticias. El docente los motiva a emprender el nuevo desafío de escribir una noticia."
+                        },
+                        {
+                            "title": "Momento 3: Plan para escribir una noticia.",
+                            "description": "El docente propone crear un espacio en el centro educativo para compartir noticias de la comunidad o de la escuela. Se trata de un espacio de acceso común a todos (por ejemplo, una cartelera en el patio o en la puerta de entrada del centro) donde se cuelguen papelógrafos con las noticias que ellos, en grupos cooperativos, escriban. Van a escribir una noticia de la escuela o la comunidad. Los anima a pensar posibles temáticas para las noticias que sean de interés para la comunidad. Recuerda que las noticias son relatos de hechos reales, con lo cual no es posible “inventar” noticias. Luego toma nota en la pizarra de los posibles hechos de interés en la comunidad educativa a ser desarrollados en las noticias e invita a los estudiantes a proponer temas de interés."
+                        },
+                        {
+                            "title": "Momento 4: Selección tema y conversación sobre el contenido.",
+                            "description": "Se recomienda que la escritura de la noticia se realice en pares o tríos. En grupo deben acordar sobre qué tema van a escribir. Siguen las orientaciones del fascículo para la producción de una noticia. ¿Sobre qué tema van a escribir una noticia? Para conversar y producir una noticia completa: ¿Qué sucedió? ¿Cuándo sucedió? ¿Dónde sucedió? ¿A quiénes le sucedió? ¿Por qué sucedió?"
+                        },
+                        {
+                            "title": "Momento 5: Puesta en común.",
+                            "description": "Cada grupo tiene que contar de forma oral la noticia al resto de los compañeros. Entre todos controlan que la información brindada responda a todas las interrogantes."
+                        },
+                        {
+                            "title": "Momento 6: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 10: Borrador del cuerpo",
+                    "pedagogicalIntention": "Escriben el borrador del cuerpo de una noticia.",
+                    "resources": "Útiles cotidianos.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe las cuatro palabras más importantes de la noticia que están escribiendo en tu grupo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comparten los titulares que pensaron y escribieron."
+                        },
+                        {
+                            "title": "Momento 2: Escritura del cuerpo de la noticia.",
+                            "description": "Releen en el fascículo el tema de la noticia y recuerdan lo acordado en la actividad anterior. Comienzan a redactar la noticia en grupo: piensan entre los miembros del grupo cómo contar el suceso y van acordando cada frase. De esta forma, entre todos construyen oralmente el cuerpo de la noticia.\n\nRecorrido docente: Recorre los grupos y ayuda a organizar las ideas y a escribirlas en caso de ser necesario. Procura que el texto:\n- Responda a todas las preguntas de la noticia (qué, cómo, a quiénes, dónde, cuándo y por qué).\n- Incluya conectores de orden.\n- Incluya signos de puntuación.\n- Tenga coherencia y concordancia.\n- Respete las convencionalidades de la escritura.\nPuedes revisar en la Guía teórica el apartado “Escritura de un texto con y sin ayuda”, páginas 43 a 45, donde encontrarás elementos para gestionar didácticamente el trabajo con borradores y la revisión."
+                        },
+                        {
+                            "title": "Momento 3: Puesta en común.",
+                            "description": "Cada grupo lee en voz alta el cuerpo de la noticia que escribió. El resto de los compañeros escucha con atención y verifica si responde a todas las interrogantes (qué, cuándo, cómo, a quién, por qué y dónde sucedió). Además aportan sugerencias a las noticias de los otros grupos. Luego el docente se lleva los borradores para su corrección."
+                        },
+                        {
+                            "title": "Momento 4: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 11: Titular y entradilla",
+                    "pedagogicalIntention": "Escriben y editan la versión final de una noticia.",
+                    "resources": "Útiles cotidianos.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Haz una imagen para acompañar al texto de la noticia que estás escribiendo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Cada estudiante lee en voz alta las cuatro palabras significativas de su noticia. El docente revisa su correcta escritura. Algunos estudiantes pueden escribir algunas palabras en la pizarra."
+                        },
+                        {
+                            "title": "Momento 2: Revisión de oraciones y devolución de borradores.",
+                            "description": "El docente escribe en la pizarra las oraciones de los borradores que presentaban problemas, les indica cuáles son y todos los corrigen en la pizarra.\nPosibles errores frecuentes:\n- Falta de mayúscula inicial, comas, puntos y punto final.\n- Incorrecta separación de palabras.\n- Contenido confuso: ideas incompletas que no responden a la pregunta que quieren contestar.\n- Falta de concordancia entre sujeto y predicado.\nEl docente devuelve los borradores corregidos y los grupos revisan las correcciones."
+                        },
+                        {
+                            "title": "Momento 3: Escritura de título y del copete o entradilla.",
+                            "description": "El docente anima a los estudiantes a revisar las partes de la noticia que aún faltan para completar su edición y publicación. Pregunta: Ya escribieron el cuerpo de la noticia, ¿qué otros elementos necesitan para que esté completa? Los estudiantes deben concluir que aún falta escribir el titular y la entradilla.\nEl docente hace preguntas a los estudiantes para que recuerden la funcionalidad de cada uno: El titular debe captar la atención del lector y resumir de forma breve el tema principal de la noticia. La entradilla tiene la función de resumir la información más importante, destacando los datos claves sobre qué sucedió, cuándo, dónde y quiénes estuvieron involucrados.\nLuego invita a los estudiantes a escribir en el cuaderno el título y la entradilla para sus noticias, recordándoles que deben ser claros, breves y estar relacionados con el cuerpo de la noticia. El docente brinda apoyo y retroalimentación durante la actividad."
+                        },
+                        {
+                            "title": "Momento 4: Revisión colectiva de escritura del titular.",
+                            "description": "Un representante de cada grupo pasa a escribir el titular en la pizarra y el docente modeliza una revisión de esas escrituras. Lee cada titular y promueve el siguiente análisis: ¿Este titular responde al cuerpo de la noticia? ¿Es corto y expresa la idea principal? ¿Empieza con mayúscula? ¿Hay separación de palabras? ¿Falta alguna letra en alguna de las palabras del título? ¿Hay algún error de ortografía? Luego de realizar la revisión colectiva de los titulares cada estudiante revisa su cuaderno."
+                        },
+                        {
+                            "title": "Momento 5: Revisión colectiva de la entradilla.",
+                            "description": "Un representante de cada grupo lee en voz alta la entradilla de su noticia. Entre todos verifican si responde al cuerpo de la noticia y si resume la idea principal de la noticia. Luego el docente verifica la escritura correcta de las entradillas en cada uno de los cuadernos."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 12: Versión Final",
+                    "pedagogicalIntention": "Finalizan y editan noticias.",
+                    "resources": "Hojas sueltas con líneas para la escritura de la versión final de las noticias.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Cuéntale a tus familiares de qué se tratan las noticias que están escribiendo tus compañeros.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comparten la imagen que realizaron y escriben un pie de foto."
+                        },
+                        {
+                            "title": "Momento 2: Escritura de la versión final de las noticias.",
+                            "description": "En grupo, escriben una versión conjunta en una hoja suelta con líneas. Primero lo hacen utilizando un lápiz para facilitar las correcciones (una vez que el texto está corregido, lo escriben encima con marcador grueso). Los estudiantes intentan mejorar las escrituras del borrador con correcciones del cuaderno."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 13: Cierre y Publicación",
+                    "pedagogicalIntention": "Finalizan y editan noticias completas, integrando todos sus elementos, para desarrollar habilidades de escritura y trabajo colaborativo.",
+                    "resources": "Hojas con líneas sueltas para la escritura de la versión final de las noticias. Papelógrafo en blanco para el mural de noticias.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Reflexión",
+                            "description": "El docente abre una reflexión sobre la retroalimentación que preparó para cada grupo. Es importante destacar las fortalezas de cada grupo y mencionar los aspectos a mejorar. También, evitar las comparaciones entre grupos sobre aspectos negativos de unos y positivos de otros. En cambio, se puede fomentar dar estrategias de mejora poniendo como ejemplo algunas acciones positivas de los grupos."
+                        },
+                        {
+                            "title": "Momento 2: Publicación de las noticias.",
+                            "description": "El docente devuelve los borradores y los estudiantes hacen las correcciones y repasan con marcador lo escrito en lápiz para la publicación. Cada grupo pega su versión final de la noticia en el mural designado e invitan al resto de la comunidad educativa a leer o escuchar las noticias."
+                        },
+                        {
+                            "title": "Momento 3: Conversación. Reflexión metacognitiva.",
+                            "description": "Conversan acerca de lo que aprendieron en la secuencia. Por ejemplo: ¿Habían leído noticias anteriormente? ¿Creían que podían escribir noticias? ¿Qué les gustó más? ¿Qué les causó más dificultad? A partir de esta reflexión, entre todos revisan el papelógrafo de aprendizajes, verifican si han cumplido las metas y celebran los logros alcanzados."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

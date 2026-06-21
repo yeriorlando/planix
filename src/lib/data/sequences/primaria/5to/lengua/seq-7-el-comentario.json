@@ -1,0 +1,243 @@
+{
+  "id": "seq-1771353762612",
+  "title": "El comentario",
+  "description": "Expresión de opiniones personales fundamentadas sobre un tema o texto.",
+  "order": 7,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771357374743",
+      "sequence_id": "seq-1771353762612",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Pre-escucha y exploración)",
+      "intencion_pedagogica": "Participa en un diálogo sobre sus programas favoritos, identifica al personaje de Bob Esponja y se prepara para la escucha activa de un comentario.\n\n",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre caricaturas y programas infantiles.\n\nUso de imágenes: Presentación de personajes para activar el interés.\n\nProyección de video (o lectura dramatizada): Comentario sobre Bob Esponja.\n\nPreguntas intercaladas: Durante la proyección para guiar la comprensión.",
+      "aprendizaje_significativo": "Se parte de un tema de gran interés para los estudiantes (Bob Esponja y las caricaturas) para introducir el género del comentario, conectando así el contenido académico con su cultura mediática y sus preferencias personales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar un solo aspecto (ej: los personajes mencionados).\n\nPara estudiantes kinestésicos: Se les invita a dibujar a Bob Esponja mientras escuchan.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona la transcripción del comentario.\n\nPara estudiantes avanzados: Se les pide que investiguen quién es Stephen Hillenburg.",
+      "actividades_cuaderno": "Escribir el nombre de su programa de televisión favorito y dar una razón por la que les gusta.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imagen de Bob Esponja\n• Pizarra",
+          "descripcion": "1. El docente inicia un diálogo sobre las caricaturas o programas infantiles que los estudiantes acostumbran ver (pág. 76).\n2. Pregunta cuáles son las que más y menos les gustan, y por qué.\n3. Muestra una imagen de Bob Esponja (pág. 76).\n4. Formula preguntas:\n- \"¿De quién se trata?\"\n- \"¿Cómo es?\"\n- \"¿Dónde lo han visto?\"\n- \"¿Les gusta esa serie? ¿Por qué?\"\n- \"¿Alguien ha visto la película 'Un héroe fuera del agua'? ¿Puedes contarnos de qué trata?\"\n5. Si algún estudiante no conoce el personaje, el docente aprovecha para que los demás compartan información.",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 76)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Video o transcripción del comentario (págs. 77-78)",
+          "descripcion": "1. Si dispone de recursos, proyecta el video \"Opinión (Bob Esponja: Un héroe fuera del agua)\" disponible en: https://youtu.be/pyY64Nn7mQM (pág. 76).\n2. Si no hay recursos, lee la transcripción del texto (pág. 77-78).\n3. Informa que la proyección (o lectura) será interrumpida ocasionalmente para facilitar la comprensión (pág. 78).\n4. Primer segmento (primer párrafo): Después de escuchar, pregunta:\n- \"¿Puedes identificar la intención del emisor? ¿Qué tipo de texto es, de acuerdo con la intención?\"",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 78)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente recoge las primeras impresiones de los estudiantes sobre el texto escuchado.\n2. Anuncia que en la próxima clase continuarán analizando el comentario.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771357666378",
+      "sequence_id": "seq-1771353762612",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Oral (Análisis del comentario)",
+      "intencion_pedagogica": "Analizar en profundidad el comentario sobre Bob Esponja, identificando su estructura, los tópicos abordados (animación, personajes, historia, doblaje) y las opiniones del autor.\n\n",
+      "estrategia": "Reproducción de video (o lectura) por segmentos: Para análisis detallado.\n\nPreguntas de comprensión: Sobre cada segmento del comentario.\n\nIdentificación de vocabulario: Palabras desconocidas y su significado por contexto.\n\nUso de papelógrafo: Transcripción del texto para análisis estructural.",
+      "aprendizaje_significativo": "Se analiza un comentario real sobre una película conocida, identificando la estructura (introducción, desarrollo, conclusión) y los recursos que utiliza el autor para expresar su opinión.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de seguir un tópico específico (ej: solo la parte de animación).\n\nPara estudiantes visuales: Se utiliza el papelógrafo con colores para cada parte.\n\nPara estudiantes kinestésicos: Se les invita a representar alguna de las opiniones del autor.\n\nPara estudiantes avanzados: Se les pide que identifiquen la tesis del comentario.",
+      "actividades_cuaderno": "Copiar el esquema de la estructura del comentario: introducción (punto de partida), desarrollo (argumentos) y conclusión. Anotar las palabras nuevas con su significado.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Video o transcripción (págs. 77-78)",
+          "descripcion": "1. El docente retoma el comentario sobre Bob Esponja.",
+          "actividad_numero": "Comprensión oral (Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Video o transcripción\n• Pizarra",
+          "descripcion": "Análisis por segmentos (págs. 78-79):\n1. Segmento \"Animación\": Después de escuchar, pregunta: \"¿Cuál es la posición del emisor con relación a este aspecto?\"\n2. Segmento \"Personajes\": Después de escuchar, pregunta: \"¿Qué piensa Rock 21 acerca de los personajes?\"\n3. Segmento \"Historia\": Después de escuchar, pregunta: \"¿A cuáles aspectos de la historia se refiere? ¿Qué opina sobre cada uno?\"\n4. Segmento \"Doblaje\": Después de escuchar, pregunta: \"¿Sabes qué es doblaje? ¿Recuerdas algunas opiniones del autor? ¿Conoces al grupo Werevertumorro?\" (sugerir investigar).\n5. Parte final: Después de escuchar, pregunta: \"¿Cuáles son las afirmaciones finales del autor? ¿Cuáles son las interrogantes para los destinatarios?\"\n6. Vocabulario: El docente anota en el pizarrón palabras que los estudiantes no conocen (trailers, restableció, estudios paramount, expresiones faciales, carismático, episodios, simplón, manda todo eso al caño, publicidad engañosa, doblaje) y trabajan su significado por contexto (pág. 79).",
+          "actividad_numero": "Comprensión oral Análisis por segmentos (págs. 78-79) Vocabulario (pág. 79)Comprensión oral Análisis por segmentos (págs. 78-79) Vocabulario (pág. 79)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con la transcripción\n• Marcadores",
+          "descripcion": "1. El docente coloca la transcripción en un papelógrafo.\n2. Primer párrafo: Pregunta: \"¿Saben qué parte del texto es esta? ¿Qué tipo de información aparece? ¿Se anuncia el tipo de texto?\" Explica que es la introducción (punto de partida), donde se presenta el tema, el propósito y la tesis.\n3. Parte de Animación, Personajes, Historia, Doblaje: Pregunta: \"¿Saben qué parte del texto es esta?\" Concluye que es el desarrollo, donde se presentan los argumentos.\n4. Parte final: Pregunta: \"¿Cómo se llama esta parte? ¿Qué información contiene?\" Concluye que es la conclusión.",
+          "actividad_numero": "Comprensión oral Análisis estructural (págs. 79-81)"
+        }
+      ]
+    },
+    {
+      "id": "1771357754535",
+      "sequence_id": "seq-1771353762612",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Producción Oral (Preparación)",
+      "intencion_pedagogica": "Preparar un comentario oral sobre un personaje de televisión, planificando su estructura (punto de partida, tesis, argumentos, conclusión) y utilizando un organizador gráfico.\n\n",
+      "estrategia": "Asignación de tarea: Los estudiantes eligen un personaje de TV para comentar.\n\nUso de organizador gráfico: Para planificar el comentario oral.\n\nTrabajo individual: Los estudiantes completan el organizador.\n\nPráctica oral: Ensayo del comentario en casa.",
+      "aprendizaje_significativo": "Los estudiantes eligen un personaje de sus programas favoritos para elaborar un comentario, lo que les permite aplicar lo aprendido a un tema de su interés personal y desarrollar su capacidad crítica.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades para generar ideas: Se les proporciona una lista de posibles personajes y preguntas guía adicionales.\n\nPara estudiantes con dificultades de expresión oral: Se les permite usar tarjetas con palabras clave durante la exposición.\n\nPara estudiantes kinestésicos: Se les anima a preparar gestos que acompañen su comentario.\n\nPara estudiantes avanzados: Se les pide que incluyan al menos dos argumentos por cada opinión.",
+      "actividades_cuaderno": "Completar el organizador gráfico con la información de su comentario. Practicar la exposición en casa.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente recuerda la consigna copiada en el pizarrón (pág. 82): \"Piensa en uno de tus programas de televisión favoritos. Enfócate en las acciones y actitudes del personaje que más o que menos te gusta y prepárate para comentar oralmente las razones por las que te gusta o no.\"",
+          "actividad_numero": "Producción oral Consigna (pág. 82)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Organizador gráfico en la pizarra",
+          "descripcion": "1. Paso 1: Los estudiantes anotan el nombre del personaje y las acciones o actitudes por las que lo admiran o rechazan.\n2. Paso 2: Completan el organizador gráfico:\n- Punto de partida: ¿Cuál es el tema? ¿Cómo introduzco el personaje? ¿Cuál es mi tesis?\n- Desarrollo: ¿Cuáles son las actitudes o acciones que me gustan o no? ¿Qué opino de cada una? ¿Cuáles son las razones?\n- Conclusión: ¿Cómo voy a concluir?\n3. Paso 3: Practican la exposición oral en casa (6-7 minutos), cuidando el lenguaje y ensayando frente a un espejo o familiares.",
+          "actividad_numero": "Producción oral Pasos 1-3 (pág. 82)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente explica que en la próxima clase se realizarán las exposiciones orales.\n2. Recuerda el tiempo máximo y la importancia de prestar atención a los compañeros.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 83)"
+        }
+      ]
+    },
+    {
+      "id": "1771357829311",
+      "sequence_id": "seq-1771353762612",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión Escrita (Pre-lectura y Durante la lectura)",
+      "intencion_pedagogica": "Realizar la pre-lectura y la lectura compartida del comentario \"El hombre grama\" de Aidita Selman, formulando hipótesis a partir de una imagen y respondiendo preguntas durante la lectura.\n\n",
+      "estrategia": "Uso de imágenes: Activación de conocimientos previos sobre medio ambiente.\n\nDiálogo dirigido: Preguntas de exploración sobre la imagen.\n\nLectura compartida: Estudiantes leen en voz alta alternándose.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión",
+      "aprendizaje_significativo": "Se trabaja con un comentario sobre el libro \"El hombre grama\" de Luis Martín Gómez, que aborda el tema del medio ambiente, conectando así la literatura con la conciencia ecológica y la responsabilidad social.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades lectoras: Se les asignan párrafos más cortos.\n\nPara estudiantes visuales: Se utilizan imágenes de los problemas ambientales mencionados.\n\nPara estudiantes kinestésicos: Se les invita a representar alguna acción de cuidado del medio ambiente.\n\nPara estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.",
+      "actividades_cuaderno": "Escribir tres acciones que los niños pueden hacer para cuidar el medio ambiente, basadas en el comentario leído.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imagen de la página 83\n• Mapamundi o globo terráqueo",
+          "descripcion": "1. El docente muestra la imagen de la página 83.\n2. Formula preguntas:\n- \"¿Qué observas?\" (idea de conservación del medio ambiente)\n- \"¿Qué está haciendo cada niño?\" (describir ocupaciones que benefician a la Tierra)\n- \"¿Dónde están los niños?\" (dispersos por toda la geografía)\n- \"¿Cómo son físicamente?\" (rasgos étnicos)\n- \"¿Qué tienen en común?\" (trabajar para salvar el planeta)\n- \"¿Cuáles países y continentes podrías localizar?\" (usar mapamundi: Alaska, Argentina, Australia, República Dominicana)",
+          "actividad_numero": "Comprensión escrita Pre-lectura (págs. 83-84)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copia del comentario \"El hombre grama\" (pág. 85)\n• Pizarra",
+          "descripcion": "1. Se entrega una copia del comentario \"El hombre grama\" de Aidita Selman (pág. 85) .\n2. Los estudiantes observan el título y preguntan qué les recuerda.\n3. Se realiza la lectura compartida con preguntas intercaladas:\n- Párrafo 1: \"¿Quién debe proteger el medio ambiente? ¿Qué vínculos hay con la imagen?\"\n- Párrafo 2: \"¿Cuál es el propósito de este párrafo? ¿Qué significa 'intoxicado'?\"\n- Párrafo 3: \"¿Qué crítica hace Aidita Selman a los adultos? ¿Qué significan 'deforestan', 'reciclan', 'extraen', 'explotan'?\"\n- Párrafo 4: \"Identifiquen la idea en torno a la que gira este párrafo.\"\n- Párrafo 5: \"¿Cuál es el propósito de este párrafo?\"\n- Párrafos 6 y 7: \"¿Cuál es el objetivo del texto que se está comentando?\"\n- Párrafo 8: \"¿Cuál es la función de este párrafo?\"",
+          "actividad_numero": "Comprensión escrita Durante la lectura (págs. 84-85)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se retoman las ideas exploradas con la imagen.\n2. El docente anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771357909594",
+      "sequence_id": "seq-1771353762612",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Post-lectura y Gramática Textual",
+      "intencion_pedagogica": "Consolidar la comprensión del comentario \"El hombre grama\" a través de actividades de post-lectura y analizar los recursos lingüísticos y la estructura del género.\n\n",
+      "estrategia": "Trabajo individual con el texto: Para resolver actividades de comprensión.\n\nUso de contexto: Para deducir significados.\n\nTrabajo en grupos cooperativos: Para analizar estructura y recursos.\n\nComparación de registros: Análisis de diferencias entre lengua oral y escrita.",
+      "aprendizaje_significativo": "Se profundiza en el análisis del comentario, diferenciando hechos de opiniones y reconociendo los recursos lingüísticos propios de la argumentación, lo que desarrolla el pensamiento crítico y la capacidad de análisis.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les permite trabajar las actividades en pareja.\n\nPara estudiantes con dificultades de vocabulario: Se les permite usar el diccionario desde el inicio.\n\nPara estudiantes kinestésicos: Se les invita a crear un cartel con la tesis y los argumentos.\n\nPara estudiantes avanzados: Se les pide que escriban un breve comentario sobre un problema de su comunidad.",
+      "actividades_cuaderno": "Copiar la síntesis de las características del comentario. Completar las actividades que no se terminaron en clase.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copia del comentario (pág. 85)",
+          "descripcion": "1. Se recuerda brevemente el comentario de Aidita Selman.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades\n• Cuadernos\n• Diccionarios",
+          "descripcion": "1. Actividad de vocabulario: Sustituyen palabras resaltadas por sinónimos contextuales: habitan, compromete, barbaridad, se regocija.\n2. Preguntas de comprensión:\n- \"¿A quién va dirigido este artículo? Justifica.\" (1)\n- \"¿Por qué la autora descalifica a los adultos para cuidar la Tierra?\" (2)\n- \"¿Qué imagen de los niños y adultos proyecta?\" (3)\n- \"¿Cómo se puede demostrar que el autor llama al lector a la acción?\" (4)\n- \"Busca en el diccionario 'indolente' y copia su significado.\" (5)\n- \"¿A quién se aplica 'indolente' en el texto? ¿Por qué?\" (6)\n- \"¿Qué acciones estarían matando la Tierra?\" (7)\n- \"¿Qué quiere expresar 'se pondrán verdes de emoción'? ¿Te has puesto verde alguna vez?\" (8)\n- \"¿Por qué recomienda la lectura del libro?\" (9)\n- \"Escribe en una oración la tesis que defiende Aidita Selman.\" (10)\n- \"¿Hay en tu comunidad alguna problemática ambiental de las mencionadas?\" (11)\n- \"¿Qué se ha hecho para mejorar?\" (12)\n\nGramática textual (págs. 87-91):\n1. En grupos, identifican introducción, desarrollo y conclusión.\n2. Explican por qué el texto es un comentario.\n3. Distinguen hechos de opiniones.\n4. Analizan las marcas de enunciación (apelaciones, palabras opinativas).\n5. Comparan el registro oral (Rock 21) y escrito (Aidita Selman) con preguntas guía (págs. 88-90).",
+          "actividad_numero": "Comprensión escrita Actividades (págs. 86-87) Gramática textual (págs. 87-91)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente presenta las notas sobre el comentario (págs. 91-92): definición, estructura (introducción, desarrollo, conclusión), recursos lingüísticos (verbos de opinión, adjetivos, adverbios).",
+          "actividad_numero": "Gramática textual Síntesis (págs. 91-92)"
+        }
+      ]
+    },
+    {
+      "id": "1771358000675",
+      "sequence_id": "seq-1771353762612",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción EscritaProducción Escrita",
+      "intencion_pedagogica": "Producir un comentario escrito sobre un problema ambiental de la comunidad, aplicando la estructura aprendida (introducción, tesis, argumentos, conclusión) y siguiendo el proceso de escritura.\n\n",
+      "estrategia": "Taller de escritura: Acompañamiento paso a paso en la producción escrita.\n\nObservación y toma de apuntes: Los estudiantes observan un problema ambiental en su comunidad.\n\nUso de preguntas guía: Para planificar el comentario.\n\nUso de organizador gráfico: Para estructurar el comentario.\n\nRevisión con lista de cotejo: Autoevaluación y coevaluación.",
+      "aprendizaje_significativo": "Los estudiantes escriben un comentario sobre un problema ambiental real de su comunidad, conectando el aprendizaje escolar con su entorno inmediato y desarrollando conciencia crítica y ciudadana.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de observación: Se les permite investigar en internet o preguntar a familiares.\n\nPara estudiantes con dificultades de escritura: Se les permite escribir en computadora o dictar a un compañero.\n\nPara estudiantes kinestésicos: Se les anima a incluir un dibujo del problema ambiental.\n\nPara estudiantes avanzados: Se les pide que incluyan una posible solución al problema.",
+      "actividades_cuaderno": "Completar los pasos de escritura que no se terminaron en clase. Traer el borrador revisado para la próxima clase para pasar en limpio.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente presenta la consigna: \"Comenta en dos o más párrafos un problema ambiental que afecta tu calle, barrio o comunidad. Tu comentario se publicará en un periódico de circulación nacional. Debe tener introducción, tesis, al menos dos argumentos y conclusión.\"\n2. Explica los pasos a seguir.",
+          "actividad_numero": "Producción escrita Consigna (pág. 93)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Organizador gráfico en la pizarra o fotocopiado",
+          "descripcion": "1. Pasos 1-4: Piensan en problemas ambientales de su comunidad, seleccionan uno, observan (con un adulto) y toman apuntes respondiendo: \"¿Qué veo? ¿Cuáles son las causas? ¿Qué lo provoca? ¿A quiénes afecta?\"\n2. Paso 5: Revisan los apuntes.\n3. Paso 6: Escriben su tesis en una oración.\n4. Paso 7: Escriben dos razones para sostener su tesis.\n5. Paso 8: Sustentan las razones con información de sus apuntes u otras fuentes.\n6. Paso 9: Completan el organizador gráfico (pág. 94):\n- Punto de partida: tema, cómo introducirlo, tesis.\n- Desarrollo: razones o argumentos.\n- Conclusión: cómo concluir.\n7. Paso 10: Redactan el primer borrador.\n8. Paso 11: Revisan el borrador con preguntas (pág. 95):\n- \"¿Escribí un comentario defendiendo mi punto de vista?\"\n- \"¿Lo escribí para un público que no sabe del tema?\"\n- \"¿Están claras las ideas?\"\n- \"¿Está en lenguaje formal?\"\n- \"¿Está clara la tesis?\"\n- \"¿Tiene dos o más razones?\"\n- \"¿Tiene introducción, desarrollo y conclusión?\"\n- \"¿Hay errores de ortografía?\"\n9. Pasos 12-13: Piden a dos compañeros y al docente que revisen su borrador con las mismas preguntas.",
+          "actividad_numero": "Producción escrita Pasos 1-13 (págs. 93-95)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Borradores de los estudiantes",
+          "descripcion": "1. Los estudiantes toman en cuenta las observaciones y reescriben su borrador (paso 14).\n2. Se anuncia que pasarán en limpio para publicar en el mural (paso 15).",
+          "actividad_numero": "Producción escrita Pasos 14-15 (pág. 95)"
+        }
+      ]
+    }
+  ]
+}

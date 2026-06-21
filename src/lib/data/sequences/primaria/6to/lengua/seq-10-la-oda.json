@@ -1,0 +1,360 @@
+{
+  "id": "seq-1772114716011",
+  "title": "La oda",
+  "description": "Introduce el género poético enfocado en expresar admiración o sentimientos hacia algo o alguien. Los estudiantes aprenden recursos literarios, ritmo y lenguaje figurado.",
+  "order": 10,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772114716006",
+      "sequence_id": "seq-1772114716011",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión oral - Exploración",
+      "intencion_pedagogica": "Activar conocimientos previos sobre la bicicleta, introducir el concepto de oda y realizar una primera aproximación al género a través de la lectura de \"Oda a la bicicleta\".",
+      "estrategia": "Indagación dialógica: Preguntas exploratorias para conectar las emociones de los alumnos con el objeto de estudio.\nInferencia y anticipación: Elaboración de hipótesis sobre el contenido del texto a partir de su título.\nEscucha activa y audición musical: Escucha atenta de la recitación del poema prestando atención a la entonación y al ritmo.",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre un objeto cotidiano como la bicicleta y los sentimientos que les genera, conectando así con sus experiencias personales de diversión, deporte o transporte.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una copia del poema para seguir la lectura.\n• Para estudiantes kinestésicos: Mientras escuchan, pueden dibujar una bicicleta.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción del poema.\n• Para estudiantes avanzados: Se les pide que investiguen quién fue Pablo Neruda.",
+      "actividades_cuaderno": "1. ¿Qué es una oda? Escribe la definición que encontraste en el diccionario.\n2. ¿Qué sentimientos te provoca la bicicleta?\n3. ¿De qué crees que trata la \"Oda a la bicicleta\" de Pablo Neruda?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente inicia la conversación: \"¡Vamos a hablar sobre la bicicleta!\" (pág. 160).\n2. Formula preguntas:\n- \"¿Quién tiene bicicleta? Si no tienes, ¿te gustaría tener una?\"\n- \"¿Qué sensaciones o emociones te provocan?\"\n- \"¿A quién no le gustan las bicicletas? ¿Por qué?\"\n3. Anota en la pizarra los sentimientos que mencionan los estudiantes.\n4. Anuncia que leerán un texto cuyo tema central es la bicicleta. Pide hipótesis: \"¿Qué aspectos de la bicicleta creen que se destacarán en ese texto?\" Anota las hipótesis.",
+          "actividad_numero": "Comprensión oral (Pre-escucha, pág. 160)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Diccionarios\n• Texto de \"Oda a la bicicleta\" (pág. 161)\n• Audio del poema (opcional)",
+          "descripcion": "1. El docente copia el título en la pizarra: \"Oda a la bicicleta\" de Pablo Neruda (pág. 160).\n2. Pregunta: \"¿A qué tipo de texto creen que pertenece?\"\n3. Si nadie menciona \"oda\", pregunta: \"¿Alguien sabe qué es una oda?\"\n4. Invita a los estudiantes a consultar el diccionario (pág. 160).\n5. Comparten las definiciones encontradas.\n6. El docente complementa con información (pág. 160): \"Una oda es una composición en verso que expresa admiración o alabanza hacia algo o alguien.\"\n7. Anuncia que leerá el poema dos veces, y que deben prestar atención al contenido, ritmo y entonación.\n8. Recita la \"Oda a la bicicleta\" (pág. 161).\n9. Si es posible, reproduce un audio de alguien declamando el poema (pág. 161).",
+          "actividad_numero": "Comprensión oral (Introducción y lectura, pág. 160-161)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra con hipótesis",
+          "descripcion": "1. El docente recoge las primeras impresiones: \"¿Qué les pareció el poema?\"\n2. \"¿Qué sentimientos les despertó?\"\n3. Retoma las hipótesis: \"¿Se cumplieron?\"\n4. Anuncia que en la próxima clase analizarán el poema con más detalle.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772235398027",
+      "sequence_id": "seq-1772114716011",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión oral - Análisis",
+      "intencion_pedagogica": "Analizar la \"Oda a la bicicleta\" de Pablo Neruda, interpretando el lenguaje figurado e identificando los sentimientos que el autor expresa hacia la bicicleta.",
+      "estrategia": "• Re-lectura del poema.\n• Ejercicios de interpretación de lenguaje figurado.\n• Identificación de sentimientos del autor.\n• Trabajo individual y socialización.",
+      "aprendizaje_significativo": "Los estudiantes descubren que la poesía usa un lenguaje especial (metáforas, comparaciones) para expresar sentimientos, algo que ellos también pueden hacer para hablar de las cosas que aman.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una versión del poema con explicaciones de las metáforas al margen.\n• Para estudiantes kinestésicos: Pueden representar con gestos algunas de las imágenes del poema (el sol ardiendo, las bicicletas como insectos, el esqueleto frío).\n• Para estudiantes con discapacidad visual: Se les proporciona el poema en formato ampliado y una descripción detallada de las imágenes poéticas.\n• Para estudiantes avanzados: Se les pide que identifiquen otras figuras literarias en el poema (personificación, hipérbole) y las anoten.",
+      "actividades_cuaderno": "Título: Analizando la \"Oda a la bicicleta\"\n1. Copia el cuadro de la página 162 y escribe la interpretación de los fragmentos.\n2. ¿Qué sentimientos expresa Pablo Neruda hacia la bicicleta? Escribe al menos tres.\n3. ¿Por qué la bicicleta inmóvil es un \"esqueleto frío\"? Explica con tus palabras.\n4. ¿Por qué este poema es una oda?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\nManual del docente o copias.",
+          "descripcion": "Retomar el poema:\n1. El docente pregunta: \"¿Recuerdan la 'Oda a la bicicleta' que escuchamos la clase pasada? ¿Qué imágenes o sensaciones les quedaron?\"\n2. Anuncia que hoy analizarán el poema en profundidad para descubrir cómo el autor expresa sus sentimientos.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "Cuadernos, tabla copiada en la pizarra o impresa.",
+          "descripcion": "Actividad 1 - Re-lectura del poema (5 min):\n1. El docente vuelve a leer el poema \"Oda a la bicicleta\" (pág. 161) o reproduce el audio, para refrescar la memoria de los estudiantes.\n\nActividad 2 - Interpretación de fragmentos en parejas (20 min):\n1. El docente presenta el cuadro de la página 162 (actividad 2) en la pizarra o en una fotocopia.\n\nAnálisis y Paráfrasis: En parejas, los estudiantes leen la tabla de fragmentos poéticos (a, b, c, d, e) y escriben al lado la interpretación en lenguaje cotidiano, como si se lo explicaran a un niño menor. Reflexión: De forma individual, listan los sentimientos que provoca la bicicleta en el autor y los comparan con los suyos.",
+          "actividad_numero": "Fragmento"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra\n• Cuadernos.",
+          "descripcion": "Actividad 6 - Conclusión sobre el género (pág. 162):\n1. El docente retoma la pregunta de la actividad 5: \"¿Por qué el texto leído es una oda?\"\n2. Los estudiantes responden oralmente: porque expresa admiración y alabanza hacia la bicicleta, usando un lenguaje poético y lleno de sentimiento.\n3. El docente refuerza la definición de oda: \"composición poética que alaba a alguien o algo\".\n4. Anuncia que en la próxima clase leerán otra oda: \"Oda a los juguetes silenciosos\", y deberán investigar sobre juguetes de antes.",
+          "actividad_numero": "Corrección en grupo"
+        }
+      ]
+    },
+    {
+      "id": "1772235659275",
+      "sequence_id": "seq-1772114716011",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión escrita - Prelectura",
+      "intencion_pedagogica": "Activar conocimientos previos sobre los juguetes mediante la socialización de una investigación familiar y preparar la lectura de \"Oda a los juguetes silenciosos\".",
+      "estrategia": "• Socialización de investigación familiar.\n• Trabajo en grupos: Comparación de juguetes de antes y ahora.\n• Plenaria y puesta en común.\n• Formulación de hipótesis a partir del título.",
+      "aprendizaje_significativo": "Los estudiantes conectan con sus familias al investigar sobre los juguetes de antes, valorando la historia familiar y las tradiciones, y reflexionando sobre los cambios en su propia infancia.",
+      "actividades_complementarias": "• Para estudiantes que no pudieron investigar: Se les permite compartir algún juguete que tengan en casa o dibujar uno que conozcan, o describir cómo imaginan que eran los juguetes de antes.\n• Para estudiantes kinestésicos: Pueden traer el juguete y mostrar cómo se usa.\n• Para estudiantes con discapacidad visual: Se les permite describir táctilmente el juguete que trajeron.\n• Para estudiantes avanzados: Se les pide que escriban una breve comparación escrita entre un juguete de antes y uno actual.",
+      "actividades_cuaderno": "Título: Juguetes de ayer y hoy\n1. ¿Qué juguete de tus padres o abuelos te llamó más la atención? Descríbelo.\n2. ¿En qué se diferencian los juguetes de antes de los de ahora? Escribe al menos tres diferencias.\n3. ¿Qué crees que significa \"juguetes silenciosos\"? Escribe tus hipótesis sobre el poema que leeremos.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Juguetes antiguos, dibujos o fotos traídos por los estudiantes",
+          "descripcion": "1. El docente retoma la tarea asignada en la clase anterior (pág. 163).\n2. Invita a los estudiantes a compartir (2-3 minutos cada uno):\n- \"¿Qué juguetes usaban tus padres o abuelos cuando eran niños?\"\n- \"¿Alguien trajo un juguete antiguo? ¿O un dibujo o foto?\"\n- \"¿Cómo se usa ese juguete? ¿Qué impresión te provoca?\"\n3. Los estudiantes muestran los juguetes, dibujos o fotos que trajeron.\n4. El docente anima la participación y valora el trabajo de investigación.v",
+          "actividad_numero": "Comprensión escrita (Tarea, pág. 163)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente forma grupos de 5-6 estudiantes (pág. 163).\n2. Pide que comparen los juguetes de antes con los de ahora:\n- ¿De qué materiales estaban hechos?\n- ¿Funcionaban con pilas o no?\n- ¿Hacían ruido o eran silenciosos?\n- ¿Cómo se jugaba con ellos?\n3. Cada grupo elige un representante para la plenaria y prepara una síntesis de sus conclusiones.\n\nActividad 2 - Plenaria (20 min):\n1. Los representantes de cada grupo comparten la síntesis.\n2. El docente anota en la pizarra las diferencias principales entre juguetes de antes y de ahora.\n3. Anuncia que leerán un texto titulado \"Oda a los juguetes silenciosos\".\n4. Copia el título en la pizarra y pide hipótesis:\n- \"¿De qué creen que tratará?\"\n- \"¿Qué relación tiene con lo que hemos hablado?\"\n5. Anota las hipótesis en la pizarra.",
+          "actividad_numero": "Comprensión escrita (Actividades 2-3, pág. 163)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copias del texto \"Oda a los juguetes silenciosos\" (pág. 164) para cada estudiante",
+          "descripcion": "Preparación para la lectura:\n1. El docente entrega una copia de \"Oda a los juguetes silenciosos\" a cada estudiante (pág. 164).\n2. Explica que en la próxima clase harán una lectura compartida con pausas y preguntas para comprender mejor el poema.\n3. Los estudiantes pueden hacer una primera lectura silenciosa del texto en los minutos finales.",
+          "actividad_numero": "Comprensión escrita (Preparación)"
+        }
+      ]
+    },
+    {
+      "id": "1772235792499",
+      "sequence_id": "seq-1772114716011",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión escrita - Durante la lectura",
+      "intencion_pedagogica": "Realizar la lectura compartida de \"Oda a los juguetes silenciosos\", formulando y respondiendo preguntas para garantizar la comprensión del texto.",
+      "estrategia": "• Lectura compartida: Lectura en voz alta por párrafos.\n• Preguntas intercaladas para guiar la comprensión.\n• Verificación de hipótesis.\n• Reflexión sobre el lenguaje coloquial.",
+      "aprendizaje_significativo": "Los estudiantes analizan un texto que critica el exceso de ruido y tecnología en los juguetes actuales, reflexionando sobre su propia experiencia con juguetes electrónicos y el impacto del ruido en su vida diaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les asigna la tarea de identificar un solo aspecto durante la lectura (ej: los tipos de juguetes mencionados o las frases de los juguetes ruidosos).\n• Para estudiantes kinestésicos: Pueden imitar los sonidos de los juguetes ruidosos que menciona el texto.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción y trabajan directamente con ella, siguiendo la lectura de sus compañeros.\n• Para estudiantes avanzados: Se les pide que identifiquen la postura de la autora sobre los juguetes y tomen nota de las palabras que usa para describir unos y otros.",
+      "actividades_cuaderno": "1. ¿Qué tipo de juguetes alaba la autora? Da un ejemplo del texto.\n2. ¿Qué tipo de juguetes critica? Da un ejemplo del texto.\n3. ¿Qué significa \"cantinela\"? Copia un ejemplo que aparezca en el texto.\n4. ¿Cuál es la opinión de la autora sobre los juguetes ruidosos? Explica con tus palabras.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis",
+          "descripcion": "1. El docente retoma las hipótesis anotadas en la pizarra la clase anterior sobre \"Oda a los juguetes silenciosos\".\n2. Recuerda que durante la lectura irán verificando si se cumplen.",
+          "actividad_numero": "Comprensión escrita (Activación)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del texto \"Oda a los juguetes silenciosos\" (pág. 164) para cada estudiante\nCierre (20 min)\tVerificación de hipótesis:\n1. El docente retoma las hipótesis anotadas en la pizarra.\n2. Pregunta: \"¿Cuáles hipótesis se confirmaron? ¿Cuáles no?\"\n3. Los estudiantes justifican sus respuestas basándose en el texto.\n4. El docente anuncia que en la próxima clase realizarán actividades de post-lectura para comprender mejor el poema.\tComprensión escrita\n(Cierre)\t• Pizarra con hipótesis\n• Participación de los estudiantes\n",
+          "descripcion": "1. Los estudiantes tienen su copia del texto (pág. 164).\n2. El docente explica que irán leyendo por párrafos y haciendo pausas para preguntas.\n\nPárrafo 1: Un estudiante lee en voz alta. Preguntas (pág. 165):\n- \"¿Entienden qué significa 'vosotros'? ¿La han escuchado antes?\"\n- \"¿A quién se refiere la autora con 'vosotros'?\" (a los juguetes silenciosos).\n- \"¿Qué se extraña en este párrafo?\" (los juguetes silenciosos).\n- \"¿Qué significa 'estruendo'?\" (ruido fuerte).\n- \"¿Se confirma alguna hipótesis?\"\n\nPárrafo 2: Otro estudiante lee. Preguntas (pág. 165):\n- \"¿Cómo caracteriza la autora los juguetes de antes?\" (bebés de trapo sin articulaciones, cochecitos silenciosos).\n- \"¿Qué significa 'articulación'?\" (parte que une dos piezas y permite movimiento).\n\nPárrafo 3: Otro estudiante lee. Preguntas (pág. 165):\n- \"¿De qué 'sonido continuo' está hablando la autora?\" (el ruido de los juguetes modernos).\n- \"¿Qué presente la autora que ocurre con ese sonido?\" (deja huella, como después de una discoteca).\n\nPárrafo 4: Otro estudiante lee. Preguntas (pág. 165):\n- \"¿Qué significa 'cantinela'?\" (repetición molesta).\n- \"¿Qué ejemplos de cantinela aparecen?\" (\"Muy bien, has acegg-ta-do\", \"Pulsa otra te-cla\").\n- \"¿Qué efecto busca la autora al alargar las palabras?\" (transmitir molestia, estrés).\n\nPárrafo 5: Otro estudiante lee. Preguntas (pág. 165):\n- \"¿Qué cantinela prefiere la autora?\" (las risas de los niños, las canciones inventadas por ellos).\n\nPárrafo 6: Otro estudiante lee. Preguntas (pág. 165):\n- \"¿Cómo concluye la autora?\" (deseando que se acaben las pilas, añorando los juguetes silenciosos).\n- \"¿Se confirma alguna hipótesis?\"",
+          "actividad_numero": "Comprensión escrita (Durante la lectura, pág. 165)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis\n• Participación de los estudiantes",
+          "descripcion": "1. El docente retoma las hipótesis anotadas en la pizarra.\n2. Pregunta: \"¿Cuáles hipótesis se confirmaron? ¿Cuáles no?\"\n3. Los estudiantes justifican sus respuestas basándose en el texto.\n4. El docente anuncia que en la próxima clase realizarán actividades de post-lectura para comprender mejor el poema.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772235873524",
+      "sequence_id": "seq-1772114716011",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Comprensión escrita - Post-lectura",
+      "intencion_pedagogica": "Profundizar en la comprensión de \"Oda a los juguetes silenciosos\" mediante ejercicios de vocabulario, análisis de la postura de la autora a través de las palabras que utiliza, y elaboración de un comentario personal argumentado.",
+      "estrategia": "• Ejercicios de vocabulario contextual.\n• Trabajo individual y en parejas.\n• Análisis de la postura de la autora.\n• Identificación de cadenas semánticas.\n• Elaboración de comentario personal.",
+      "aprendizaje_significativo": "El estudiante utiliza la escritura expresiva no solo como un requisito escolar, sino como un regalo emocional genuino. Al dedicar una oda a un ser querido (madre, abuelo, mascota) y recitarla públicamente, desarrolla su autoestima, su oratoria y fortalece sus vínculos afectivos familiares.\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura o bloqueos creativos: Proveer la plantilla de \"la estrella\" (Pág. 170) ya dibujada, donde solo deban colocar un adjetivo en cada punta sin hacer oraciones complejas de inmediato.\nPara estudiantes tímidos o con ansiedad social (frente al recital): Permitirles grabar su oda en audio o video en casa y presentarla el día del recital de forma digital, en lugar de hacerlo en vivo.\nPara estudiantes kinestésicos: Enseñarles técnicas de gesticulación y movimiento de manos durante el ensayo de la declamación para que canalicen su energía.\nPara estudiantes avanzados: Exigirles que su oda contenga rima (asonante o consonante) y al menos una de cada figura literaria estudiada.",
+      "actividades_cuaderno": "1. Copia la tabla de palabras con las que la autora se refiere a los juguetes silenciosos y a los ruidosos.\n2. ¿Qué nos muestran estas palabras sobre lo que piensa la autora?\n3. ¿Estás de acuerdo con la autora? Escribe tu comentario con al menos dos razones.\n4. ¿Qué tipo de juguetes prefieres tú? ¿Los silenciosos o los ruidosos? ¿Por qué?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan la 'Oda a los juguetes silenciosos'? ¿Qué opinaba la autora de los juguetes ruidosos?\"\n2. Anuncia que hoy harán actividades para comprender mejor el vocabulario y la postura de la autora.\n3.Motivación: El docente anuncia el gran proyecto: \"El recital de despedida\". Explica que cada uno escribirá una oda a alguien o algo que amen profundamente. Se explica la logística general del evento.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "Definición\nEstruendo",
+          "descripcion": "Actividad 1 - Vocabulario contextual (15 min):\n1. El docente presenta la actividad 1 de la página 166: relacionar palabras con su definición.\n2.  Los alumnos dibujan la estrella de cualidades. Organizan en un esquema qué dirán primero y qué después. Textualización: Empiezan a redactar su primer borrador usando figuras literarias. Revisión: Intercambian el borrador con un compañero para revisión entre pares y luego con el docente.",
+          "actividad_numero": "Palabra"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "",
+          "recursos": "",
+          "descripcion": "1. El docente presenta la pregunta: \"¿Estás de acuerdo con lo que opina la autora sobre los juguetes silenciosos y los ruidosos? Escribe un comentario en el que des al menos dos razones diferentes para sustentar tu punto de vista.\"\n2. Los estudiantes escriben su comentario individualmente.\n3. Algunos voluntarios comparten su opinión con la clase.\n4. El docente anuncia que en la próxima clase trabajarán en la gramática textual de la oda.",
+          "actividad_numero": ""
+        }
+      ]
+    },
+    {
+      "id": "1772236798685",
+      "sequence_id": "seq-1772114716011",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Gramática textual",
+      "intencion_pedagogica": "Analizar las características comunes de las odas estudiadas y conocer los recursos literarios propios del género (apóstrofe, metáfora, personificación, hipérbole) para comprender cómo se construye una oda.",
+      "estrategia": "• Trabajo en grupos: Comparación de las dos odas analizadas.\n• Preguntas guía para el análisis.\n• Lectura guiada de texto informativo.\n• Socialización y construcción colectiva.\n• Toma de apuntes.",
+      "aprendizaje_significativo": "Los estudiantes descubren que la poesía tiene reglas y recursos específicos (apóstrofe, metáfora, personificación), lo que les permitirá no solo apreciar mejor la poesía que leen, sino también escribir sus propios poemas con más conciencia y creatividad.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona un cuadro comparativo con las características ya escritas, para que solo tengan que identificar ejemplos en las odas.\n• Para estudiantes kinestésicos: Pueden representar con gestos la \"actitud apostrófica\" (hablarle a un objeto imaginario como si fuera una persona).\n• Para estudiantes con discapacidad visual: Se les proporcionan los textos en formato ampliado y el resumen de características en una hoja aparte.\n• Para estudiantes avanzados: Se les pide que busquen un ejemplo de hipérbole en otra canción o poema conocido y lo compartan en la próxima clase.",
+      "actividades_cuaderno": "Título: Características de la oda\n1. ¿Qué es una oda? Escribe una definición con tus palabras.\n2. Escribe al menos cuatro características de la oda.\n3. Explica qué es:\n- Actitud apostrófica\n- Metáfora\n- Personificación\n- Hipérbole\n4. Busca un ejemplo de metáfora en \"Oda a la bicicleta\" o \"Oda a los juguetes silenciosos\" y cópialo en tu cuaderno.\n5. Piensa en un posible tema para tu propia oda y escríbelo.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Qué odas hemos estudiado hasta ahora?\" (\"Oda a la bicicleta\" y \"Oda a los juguetes silenciosos\").\n2. \"¿Recuerdan de qué trataba cada una? ¿Qué sentimientos expresaban los autores?\"\n3. Anuncia que hoy compararán ambas odas para descubrir las características del género y los recursos literarios que utilizan.",
+          "actividad_numero": "Gramática textual (Introducción, pág. 168)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias de ambas odas (pág. 161 y 164)\n• Copias del texto informativo (pág. 169)\n• Pizarra\n• Marcadores",
+          "descripcion": "Actividad 1 - Trabajo en grupos: comparación de odas (25 min):\n1. El docente forma grupos de 4-5 estudiantes.\n2. Proporciona copias de ambas odas (\"Oda a la bicicleta\" y \"Oda a los juguetes silenciosos\") o las proyecta en la pizarra.\n3. Presenta las preguntas de análisis (pág. 168):\n- \"¿Qué características comunes tienen estas dos odas? ¿Qué hacen los autores con la bicicleta y con los juguetes silenciosos?\" (ambos alaban, expresan admiración, destacan cualidades).\n- \"¿Por qué en la oda predominan los adjetivos?\" (para resaltar las cualidades de lo que se alaba).\n- \"Además de los adjetivos, ¿qué otros recursos literarios emplean? Busquen ejemplos de comparaciones, metáforas o personificaciones en cada oda.\"\n- \"Observen el inicio y el final de cada oda. ¿Qué recursos emplean para empezar y terminar?\"\n4. Los grupos discuten y toman notas en sus cuadernos. El docente circula y apoya.\n\nActividad 2 - Socialización (15 min):\n1. Cada grupo comparte sus conclusiones.\n2. El docente anota en la pizarra las características identificadas:\n- Alabanza hacia algo o alguien.\n- Uso abundante de adjetivos para destacar cualidades.\n- Actitud apostrófica (hablarle directamente al objeto: \"Oh, bicicleta\", \"Oh, juguetes silenciosos\").\n- Uso de metáforas, comparaciones y personificaciones.\n\nActividad 3 - Lectura de texto informativo (20 min):\n1. El docente entrega o proyecta el texto \"Qué es una Oda\" y \"Características de una Oda\" (pág. 169).\n2. Los estudiantes leen en silencio durante 5 minutos.\n3. El docente guía la lectura con preguntas:\n- \"¿Qué es una oda según el texto?\"\n- \"¿Qué es la actitud apostrófica? ¿En qué odas la hemos visto?\"\n- \"¿Qué son la metáfora, la personificación y la hipérbole? Busquen ejemplos en las odas que hemos leído.\"\n4. Los estudiantes identifican ejemplos:\n- Metáfora: \"las bicicletas, los únicos insectos\" (Neruda).\n- Personificación: \"la bicicleta inmóvil... esqueleto frío\" (Neruda).\n- Hipérbole: \"millares de velitas\" (en el cuento, pero pueden buscar en odas).\n5. El docente explica que la hipérbole es una exageración para destacar algo.",
+          "actividad_numero": "Gramática textual (Actividades 1-5, pág. 168-169)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n• Participación de los estudiantes",
+          "descripcion": "Síntesis y aplicación:\n1. El docente resume las características de la oda en la pizarra:\n- Expresa admiración o alabanza.\n- Usa actitud apostrófica (habla directamente al objeto).\n- Emplea lenguaje figurado: metáforas, comparaciones, personificaciones, hipérboles.\n- Predominan los adjetivos.\n2. Pregunta: \"¿Para qué nos sirve conocer estos recursos?\" (para apreciar mejor la poesía, para escribir nuestras propias odas con más calidad).\n3. Los estudiantes escriben en su cuaderno una breve síntesis de las características de la oda.\n4. El docente anuncia que en la próxima clase comenzarán a escribir su propia oda, y que deben ir pensando en el tema que elegirán (una persona, animal, objeto o lugar importante para ellos).",
+          "actividad_numero": "Gramática textual (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772236904092",
+      "sequence_id": "seq-1772114716011",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Producción oral y escrita - Planificación",
+      "intencion_pedagogica": "Planificar la escritura de una oda eligiendo un tema significativo, definiendo los sentimientos a transmitir, las cualidades a destacar y los recursos literarios a utilizar (apóstrofe, metáforas, comparaciones, personificaciones).",
+      "estrategia": "• Diálogo dirigido: Elección del tema de la oda.\n• Trabajo individual: Listado de sentimientos, cualidades y recursos literarios.\n• Uso de organizador gráfico mental.\n• Socialización en grupos pequeños.\n• Planificación guiada paso a paso.",
+      "aprendizaje_significativo": "Los estudiantes eligen un tema significativo para ellos (un familiar, una mascota, un objeto querido, un lugar especial, la naturaleza) para escribir su oda, conectando así la producción poética con sus afectos, recuerdos y experiencias personales más profundas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades para elegir tema: El docente sugiere opciones concretas: mamá, papá, abuelo, abuela, mascota (perro, gato), juguete favorito, la naturaleza (el mar, las flores), un lugar (la escuela, el parque).\n• Para estudiantes kinestésicos: Pueden hacer un pequeño dibujo de su tema mientras piensan en las cualidades.\n• Para estudiantes con discapacidad visual: Se les proporciona una lista de posibles temas y recursos en formato ampliado.\n• Para estudiantes con dificultades de escritura: Se les permite usar un grabador para registrar sus ideas y luego transcribirlas con ayuda.\n• Para estudiantes avanzados: Se les pide que investiguen un recurso literario adicional (hipérbole, asíndeton) y planeen incluirlo en su oda.",
+      "actividades_cuaderno": "1. ¿Qué tema elegiste para tu oda? ¿Por qué?\n2. ¿Qué sentimientos quieres expresar?\n3. ¿Qué cualidades (adjetivos) destacarás?\n4. Anota ideas para usar estos recursos:\n- Apóstrofe (¿cómo llamarás a tu tema?):\n- Metáforas o comparaciones:\n- Personificaciones:\n5. Escribe un esquema de tu oda:\n- Inicio:\n- Desarrollo (qué cualidades mencionarás):\n- Final:",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente anuncia que hoy comenzarán a escribir su propia oda (pág. 170).\n2. Explica el propósito: \"Vamos a realizar un recital de odas al que invitaremos a los estudiantes de quinto grado y a sus familias. Cada uno de ustedes leerá su oda en ese evento\" (pág. 170).\n3. Recuerda las características de la oda vistas en la clase anterior: alabanza, actitud apostrófica, adjetivos, metáforas, comparaciones, personificaciones.\n4. El tema puede ser cualquier persona, animal, objeto o lugar que sea significativo para ellos: su mamá, su abuelo, su mascota, su juguete favorito, su barrio, la playa, las flores, etc.",
+          "actividad_numero": "Producción oral y escrita (Introducción, pág. 170)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lápices\n• Pizarra con ejemplos de recursos literarios\nCierre (15 min)\tPuesta en común y preparación para el borrador:\n1. Algunos voluntarios comparten su tema y las ideas principales de su oda con toda la clase.\n2. El docente da retroalimentación positiva y sugerencias breves.\n3. Anuncia que en la próxima clase escribirán el primer borrador de su oda.\n4. Recuerda que deben traer todas sus ideas y apuntes para la próxima sesión.\tProducción oral y escrita\n(Cierre)\t• Participación de los estudiantes\n",
+          "descripcion": "Actividad 1 - Elección del tema (5 min):\n1. Los estudiantes piensan y eligen el tema de su oda.\n2. Lo escriben en su cuaderno.\n\nActividad 2 - Sentimientos y cualidades (15 min):\n1. El docente guía con preguntas: \"¿Qué sientes por ese tema? ¿Qué emociones te provoca? (amor, admiración, respeto, alegría, nostalgia).\"\n2. \"¿Qué cualidades tiene? ¿Cómo es? (fuerte, tierno, hermoso, divertido, leal, valiente, brillante).\"\n3. Los estudiantes anotan en su cuaderno una lista de sentimientos y una lista de adjetivos (cualidades) relacionados con su tema.\n\nActividad 3 - Recursos literarios (20 min):\n1. El docente recuerda los recursos propios de la oda (pág. 170-171):\n- Apóstrofe: hablarle directamente al objeto (ej: \"Oh, bicicleta...\", \"Querida abuela...\").\n- Metáfora: comparación implícita (ej: \"tus ojos son dos luceros\", \"tus ruedas son alas\").\n- Comparación: usar \"como\" (ej: \"rápida como el viento\", \"tierna como la luna\").\n- Personificación: dar cualidades humanas a objetos o animales (ej: \"el viento susurra\", \"la montaña me llama\").\n2. El docente escribe ejemplos en la pizarra.\n3. Los estudiantes piensan y anotan ideas de cómo podrían usar estos recursos en su oda. Pueden escribir posibles metáforas, comparaciones o personificaciones para su tema.\n\nActividad 4 - Organización de ideas (10 min):\n1. Los estudiantes organizan sus ideas respondiendo:\n- \"¿Cómo voy a empezar mi oda?\" (con un apóstrofe, llamando a mi tema).\n- \"¿Qué cualidades voy a destacar y en qué orden?\"\n- \"¿Qué metáforas o comparaciones voy a usar?\"\n- \"¿Cómo voy a terminar?\" (reafirmando mi admiración o sentimiento).\n2. Pueden hacer un esquema o lista de ideas en su cuaderno.\n\nActividad 5 - Socialización en grupos (10 min):\n1. En grupos pequeños (3-4 estudiantes), cada uno comparte su tema y algunas de sus ideas.\n2. Los compañeros pueden hacer sugerencias o preguntas para ayudar a enriquecer la oda.",
+          "actividad_numero": "Producción oral y escrita (Planificación, pág. 170-171)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Algunos voluntarios comparten su tema y las ideas principales de su oda con toda la clase.\n2. El docente da retroalimentación positiva y sugerencias breves.\n3. Anuncia que en la próxima clase escribirán el primer borrador de su oda.\n4. Recuerda que deben traer todas sus ideas y apuntes para la próxima sesión.",
+          "actividad_numero": "Producción oral y escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772237067463",
+      "sequence_id": "seq-1772114716011",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Producción escrita - Borrador y preparación para el recital",
+      "intencion_pedagogica": "Redactar el primer borrador de la oda, revisarlo con ayuda de compañeros y del docente, y preparar la recitación para el recital, practicando la dicción, entonación y gestos.",
+      "estrategia": "• Redacción de borrador guiada.\n• Revisión individual con preguntas guía.\n• Coevaluación en parejas.\n• Corrección docente.\n• Preparación para el recital (dicción, entonación, gestos).",
+      "aprendizaje_significativo": "Los estudiantes escriben un poema para compartirlo en un evento real con sus familias y compañeros de otros grados, dando un propósito auténtico y significativo a su creación literaria y desarrollando su confianza para hablar en público.",
+      "actividades_complementarias": " Para estudiantes con dificultades de escritura: Se les permite que su oda sea más breve (4-6 versos) pero que mantenga los elementos esenciales (apóstrofe, adjetivos, un recurso literario).\n• Para estudiantes kinestésicos: Durante el ensayo de recitación, se enfatiza el uso de gestos y movimientos.\n• Para estudiantes con discapacidad visual: Se les proporciona el borrador en formato ampliado y se les da retroalimentación oral detallada.\n• Para estudiantes con ansiedad escénica: Se les permite leer su oda en lugar de recitarla de memoria, y se les anima a practicar frente a un compañero de confianza.\n• Para estudiantes avanzados: Se les pide que memoricen su oda para el recital y que añadan un gesto o movimiento especial en la parte más importante.",
+      "actividades_cuaderno": "1. Escribe la versión final de tu oda en tu cuaderno (después de las correcciones).\n2. ¿Qué sugerencias de tus compañeros te ayudaron a mejorar tu oda?\n3. Practica la lectura en voz alta de tu oda en casa. Marca en el texto dónde harás pausas y qué palabras enfatizarás.\n4. ¿Cómo te sientes acerca del recital? ¿Qué esperas de esta experiencia?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos con la planificación",
+          "descripcion": "1. El docente pide a los estudiantes que tengan a mano sus notas de planificación de la clase anterior.\n2. Recuerda las características de la oda: apóstrofe, adjetivos, metáforas, comparaciones, personificaciones.\n3. Anuncia que hoy escribirán el primer borrador y comenzarán a preparar la recitación para el recital.",
+          "actividad_numero": "Producción escrita (Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lápices\n• Notas de planificación",
+          "descripcion": "1. Los estudiantes escriben el primer borrador de su oda basándose en su planificación (pág. 171).\n2. Mientras escriben, el docente recuerda las preguntas de autoevaluación:\n- \"¿Estoy transmitiendo los sentimientos que quiero expresar?\"\n- \"¿Entendería mi público lo que estoy diciendo?\"\n- \"¿Estoy usando los recursos de la oda (apóstrofe, metáforas, adjetivos)?\"\n3. El docente circula por el aula, ofrece apoyo y resuelve dudas.\n\nActividad 2 - Revisión individual (10 min):\n1. Los estudiantes leen su borrador en silencio y hacen ajustes.\n2. Pueden usar las preguntas anteriores como guía.\n\nActividad 3 - Coevaluación en parejas (10 min):\n1. Los estudiantes intercambian su borrador con un compañero (pág. 171).\n2. Se retroalimentan mutuamente usando las mismas preguntas.\n3. Devuelven el borrador con sugerencias.\n\nActividad 4 - Corrección con el docente (15 min):\n1. El docente circula y revisa los borradores, dando sugerencias personalizadas.\n2. Los estudiantes reelaboran su oda a partir de las recomendaciones.\n3. Pueden escribir una segunda versión mejorada.",
+          "actividad_numero": "Producción escrita (Pasos 1-4, pág. 171)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente explica que ahora practicarán la recitación (pág. 171).\n2. Trabaja aspectos clave:\n- Dicción: hablar claro, pronunciar bien las palabras.\n- Entonación: dar énfasis a las palabras importantes, variar el tono según el sentimiento.\n- Gestos: usar manos y expresión facial para acompañar el poema.\n3. Los estudiantes ensayan en parejas, leyendo su oda en voz alta y recibiendo retroalimentación.\n4. El docente recuerda la logística del recital (pág. 172):\n- Se invitará a estudiantes de quinto grado y a las familias.\n- Se organizará un cronograma de presentaciones.\n- Habrá un decorado especial.\n5. Anima a los estudiantes a practicar en casa y a prepararse para el gran día.",
+          "actividad_numero": "Producción oral (Preparación para el recital, pág. 171-172)"
+        }
+      ]
+    },
+    {
+      "id": "1772237173950",
+      "sequence_id": "seq-1772114716011",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Recital de odas - Día del evento",
+      "intencion_pedagogica": "Presentar las odas escritas en un recital poético ante estudiantes de quinto grado y familias, demostrando creatividad, expresión oral y sensibilidad artística, y celebrando el cierre de la secuencia.",
+      "estrategia": "• Recital poético: Presentación oral de las odas.\n• Escucha activa: Público invitado (estudiantes de 5to y familias).\n• Ambiente festivo y de celebración.\n• Participación de la comunidad educativa.",
+      "aprendizaje_significativo": "Los estudiantes comparten sus creaciones poéticas con una audiencia real (familias y compañeros de otros grados), experimentando la satisfacción de ver su trabajo valorado y cumpliendo un propósito comunicativo auténtico y significativo en su comunidad escolar.",
+      "actividades_complementarias": "• Para estudiantes con ansiedad escénica: Se les permite tener su oda escrita para leerla, en lugar de recitarla de memoria. Se les anima a practicar con un compañero antes del recital.\n• Para estudiantes kinestésicos: Se valora el uso de gestos y movimientos durante la recitación como parte de su expresión.\n• Para estudiantes con discapacidad visual: Se les proporciona su oda en formato ampliado para que pueda leerla cómodamente.\n• Para estudiantes con discapacidad auditiva: Si es necesario, se puede contar con un intérprete o asegurar que el estudiante pueda ver los gestos de apoyo del docente.\n• Para estudiantes avanzados: Pueden haber memorizado su oda y preparado gestos especiales para acompañar los momentos más importantes.",
+      "actividades_cuaderno": "1. ¿Cómo te sentiste al recitar tu oda frente al público?\n2. ¿Qué oda de algún compañero te gustó más? ¿Por qué?\n3. ¿Qué aprendiste sobre ti mismo al escribir y compartir tu oda?\n4. ¿Qué fue lo más importante que aprendiste en esta secuencia sobre la poesía y las odas?\n5. ¿Te gustaría seguir escribiendo poemas? ¿Por qué?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio decorado\n• Invitados (estudiantes de 5to y familias)\n• Programa de presentaciones",
+          "descripcion": "1. El docente ha coordinado previamente con los docentes de quinto grado y con las familias la realización del recital (pág. 172).\n2. El aula o el espacio designado está decorado para la ocasión (los estudiantes pueden haber participado en la decoración en clases anteriores de Educación Artística).\n3. El docente da la bienvenida a los invitados (estudiantes de quinto grado y familiares).\n4. Explica brevemente el trabajo realizado: \"Durante varias semanas, los estudiantes han estudiado la oda, han leído poemas de Pablo Neruda y han escrito sus propias odas a personas, animales u objetos importantes para ellos. Hoy nos compartirán sus creaciones.\"\n5. Presenta el programa o itinerario de presentaciones.",
+          "actividad_numero": "Producción oral (Recomendaciones, pág. 172)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Versiones finales de las odas (los estudiantes pueden tener su copia para leer si lo necesitan)\n• Micrófono (opcional)",
+          "descripcion": "1. Los estudiantes pasan al frente en el orden establecido en el programa.\n2. Cada estudiante recita su oda (aproximadamente 2-3 minutos cada uno).\n3. El docente y el público (compañeros de 5to y familias) escuchan atentamente y muestran aprecio con aplausos al final de cada presentación.\n4. Si el tiempo lo permite, al final de cada oda, el público puede hacer un breve comentario positivo o una pregunta (opcional).\n5. El docente coordina los tiempos para asegurar que todos los estudiantes puedan presentar.\n6. Se puede designar a un estudiante como maestro de ceremonia para presentar a cada compañero.",
+          "actividad_numero": "Producción oral (Recital, pág. 172)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes e invitados",
+          "descripcion": "1. Al finalizar todas las presentaciones, el docente felicita a todos los estudiantes por su creatividad, esfuerzo y valentía al compartir sus poemas.\n2. Invita a los familiares a dar un aplauso general.\n3. El docente cierra la secuencia destacando la importancia de la poesía para expresar sentimientos y la satisfacción de haber creado algo propio.\n4. Puede anunciar que las odas serán compiladas en un libro o publicadas en el mural de la escuela.\n5. Agradece a los invitados por su presencia.",
+          "actividad_numero": "Producción oral (Cierre de la secuencia)"
+        }
+      ]
+    }
+  ]
+}

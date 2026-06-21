@@ -1,0 +1,39 @@
+﻿{
+    "value":  [
+                  {
+                      "id":  "matematica-1ro",
+                      "name":  "Matemática",
+                      "description":  "Conteo, reconocimiento de números y resolución de situaciones sencillas.",
+                      "level":  "PRIMARIA",
+                      "grades":  [
+                                     "1ro"
+                                 ],
+                      "curriculum_type":  "CON_BASE",
+                      "sequences":  0,
+                      "color":  "from-blue-500 to-blue-600",
+                      "icon":  "🧮",
+                      "adaptation_id":  "",
+                      "ai_config":  {
+                                        "files":  [
+
+                                                  ],
+                                        "enabled":  false,
+                                        "toolPrompts":  {
+
+                                                        },
+                                        "gradePrompts":  {
+
+                                                         },
+                                        "systemPrompt":  "Eres un asistente experto curricular del MINERD. Tu objetivo es ayudar a los docentes a planificar sus clases basándote en el currículo dominicano y los documentos adjuntos.\n\nDIRECTRICES DE ORIGINALIDAD (CRÍTICO):\n- NO copies textualmente el contenido de las guías didácticas\n- Usa las guías como REFERENCIA normativa, no como plantilla a copiar\n- Genera propuestas ORIGINALES que cumplan con la normativa establecida\n- Parafrasea y adapta el contenido a las necesidades específicas del docente\n- Aporta valor creativo mientras mantienes la alineación curricular\n- Cada planificación debe ser única y contextualizada\n\nBasándote en la normativa de las guías didácticas adjuntas, genera contenido original y creativo.",
+                                        "enableUnitPlanning":  false
+                                    },
+                      "created_at":  "2026-01-28T01:07:48.129109+00:00",
+                      "updated_at":  "2026-01-28T01:07:48.129109+00:00",
+                      "template_assignments":  {
+
+                                               },
+                      "order":  2
+                  }
+              ],
+    "Count":  1
+}

@@ -1,0 +1,377 @@
+{
+    "id": "secuencia-6-matematica-3ro",
+    "sequenceId": "secuencia-6-matematica-3ro",
+    "title": "Viajes y Paseos",
+    "gradeId": "primaria-3ro",
+    "subjectId": "matematica-3ro",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "Recolecten y organicen datos en tablas.",
+                    "resources": "papelógrafo de aprendizajes, papelógrafo con tabla para la votación de la actividad 1 del fascículo. Actividad 1 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Este cuadro de datos muestra la cantidad de turistas que visitaron cuatro lugares durante el último mes. Lugar: Lago Enriquillo (45), Zona Colonial (30), Punta Cana (60), Samaná (20). Responder: A. ¿Cuál es el lugar que recibió la mayor cantidad de turistas? ¿Y el que recibió la menor cantidad? B. ¿Cuántos turistas visitaron en total estos cuatro lugares? Completa ese total también en el cuadro. C. ¿Cuántos turistas más visitaron el lugar más popular que el menos popular? D. ¿Cuántos turistas visitaron el lago Enriquillo o la zona colonial?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes",
+                            "description": "El docente presenta el texto, leyendo y explicando los propósitos de trabajo con el grupo. EN ESTAS SEMANAS TRABAJAREMOS PARA: 1. Resolver problemas con más de una operación. 2. Leer y escribir números grandes hasta el 99,999. 3. Usar estrategias de cálculo para resolver problemas de multiplicaciones. 4. Profundizar lo aprendido de la operación división y los procedimientos de cálculo. 5. Interpretar y construir tablas de datos estadísticos y gráficas de barras."
+                        },
+                        {
+                            "title": "Momento 2. Introducir la secuencia",
+                            "description": "El docente comenta que las próximas actividades se relacionarán con los viajes y paseos. Propone una conversación sobre el tema: viajes realizados, medios de transporte, actividades, y sobre los turistas que visitan el país."
+                        },
+                        {
+                            "title": "Momento 3. El lugar favorito",
+                            "description": "Se indica el título para el cuaderno: Ir de paseo. El docente selecciona cuatro lugares para visitar y los anota en un papelógrafo. Los estudiantes votan haciendo una marca. Luego, se resumen las marcas y se completa de forma conjunta la tabla de la actividad 1 del fascículo. Se intercambian preguntas por parejas sobre el lugar favorito, el menos elegido y cómo lo saben."
+                        },
+                        {
+                            "title": "Momento 4: Profundizar en la información",
+                            "description": "El docente propone oralmente situaciones que requieren comparar y relacionar categorías de la tabla mediante distintas operaciones (ej. cuántos votaron por dos lugares específicos, cuántos más eligieron uno que otro)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "Construyan y relacionan gráficas de barras con datos de tablas.",
+                    "resources": "actividad 2 del fascículo; papelógrafo con la tabla de la votación de la actividad 1.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: A partir de la tabla o la gráfica sobre los turistas, responder: a) ¿Cuántos turistas visitaron el mar o la Zona Colonial? b) ¿Cuántos más visitaron el pico Duarte que la Zona Colonial?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea del hogar",
+                            "description": "El docente invita a estudiantes a exponer sus respuestas de la tarea. Se discute qué información muestra el cuadro, máximos, mínimos y totales. Se enfatiza la importancia de registrar datos para la toma de decisiones."
+                        },
+                        {
+                            "title": "Momento 2. De la tabla a la gráfica",
+                            "description": "Se recupera la encuesta de la actividad anterior pegando el papelógrafo. Título en cuaderno: Información en tablas y gráficas. Se busca la actividad 2 del fascículo. A. Completar la gráfica con la información de la tabla anterior. Los estudiantes completan la gráfica (título, rótulos, escalas, barras). El docente guía sobre los elementos de la gráfica."
+                        },
+                        {
+                            "title": "Momento 3. De la gráfica a la tabla",
+                            "description": "Título en cuaderno: Lugares que visitan los turistas. Se busca el gráfico de la actividad 2 sobre turistas en RD. Se analiza la gráfica y se responde en el cuaderno: qué muestra, qué fue lo más/menos elegido, cantidades por lugar. Luego se completa la tabla a partir de la gráfica (ítem d)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "Lean, escriban y ordenen los números de 10,000 en 10,000 desde el 0 hasta el 100,000.",
+                    "resources": "cada estudiante necesitará una moneda de cualquier valor, una ficha o semilla para marcar su posición durante el juego, la tira de la actividad 3 del fascículo y los 10 papeles de color en la misma actividad pero en recortables del fascículo.",
+                    "homework": "Se indica el título para el cuaderno: Carrera a 100,000. Recortar del fascículo y pegar en el cuaderno: Observar la siguiente tira, en ella, hay una semilla en una posición, y el símbolo de cara indica que se debe avanzar y el de escudo, indica retroceder. ¿En qué número se encuentra la semilla después de avanzar o retroceder según las siguientes tiradas? Registrar los números en el cuaderno.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "El docente copia la tabla de turistas en la pizarra. Estudiantes exponen respuestas y procedimientos. Se discuten operaciones para calcular totales y diferencias."
+                        },
+                        {
+                            "title": "Momento 2. Serie de 10,000 en 10,000 hasta el 100,000",
+                            "description": "Se busca la actividad 3 del fascículo. Se completa la tira numérica de 10,000 en 10,000 hasta 100,000 escribiendo en números y letras. Se reflexiona sobre la escritura de 'diez mil', la cantidad de dígitos y la relación con la serie de 1,000."
+                        },
+                        {
+                            "title": "Momento 3. Serie ascendente de 10,000 en 10,000 desde 0 hasta 100,000",
+                            "description": "Juego: Carrera a 100,000. Se juega en parejas con moneda y ficha. Se cubren casilleros con papeles de colores. Cara avanza, escudo retrocede. Para mover la ficha hay que decir en voz alta el número del casillero. Gana quien llega a 100,000."
+                        },
+                        {
+                            "title": "Momento 4. Serie descendente de 10,000 en 10,000 hasta 100,000",
+                            "description": "Variante del juego: se empieza en 100,000 y se retrocede hasta 0. Se cierra con el recitado de la serie descendente."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "Lean, escriban y ordenen los números hasta el 100,000.",
+                    "resources": "actividad 4 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Ordenar estos números de menor a mayor: 50,555 — 55,505 — 50,000 — 5,555 — 50,505",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Recuperar el juego anterior. Releer números de 0 a 100,000. Compartir resolución de la tarea en la pizarra mostrando posiciones de la semilla."
+                        },
+                        {
+                            "title": "Momento 2. Números hasta el 100,000",
+                            "description": "Título: De paseo por República Dominicana. Se resuelve actividad 4 del fascículo: A. Completar cuadro de visitantes ordenado de mayor a menor. B. Escribir en palabras cantidades de turistas de ciertos países. C. Identificar países con 30,000-50,000 turistas. D. Rodear el número que corresponde a 'doce mil tres'. Se realiza puesta en común en la pizarra."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "relacionen distintas estrategias para resolver cálculos de multiplicación.",
+                    "resources": "actividad 5 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver con cualquiera de las estrategias utilizadas en la actividad 5. En otro hotel se ocuparon 15 habitaciones con 3 personas cada una. ¿Cuántas personas se alojaron en total?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Recuperar la tarea anterior haciendo énfasis en criterios de comparación y orden de números (cantidad de dígitos, valor de posición)."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de multiplicación",
+                            "description": "Título: La mamá de Alba trabaja en un hotel. Se lee la situación: a) 12 habitaciones con 6 personas. b) 16 habitaciones con 5 personas. Se resuelve en cuaderno. Se guía identificación de datos y operación. Se socializan estrategias (dibujos, sumas, descomposiciones)."
+                        },
+                        {
+                            "title": "Momento 3. Comparar estrategias",
+                            "description": "El docente copia en pizarra resolución con algoritmo intermedio y convencional para el ítem a). Se interpretan colectivamente (de dónde salen el 72, 12, 60). Se relaciona con la descomposición (6x2=12, 6x10=60). Se hace lo mismo con el inciso b). Se copia la resolución más sencilla en el cuaderno."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "Afianzan el cálculo de multiplicaciones a partir del uso de estrategias de cálculo reflexivo",
+                    "resources": "tablero de la actividad 6 del fascículo; un dado y cartas o tarjetas numerados del 1 al 30 (ya recortadas para secuencia 5 y anteriores) en un sobre o funda por pareja; lápices de colores.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: A. Colorear los rectángulos que correspondan en cada caso si se saca: una tarjeta con el número 26 y un 4 en el dado; 13 en la tarjeta y 6 en el dado. Anotar dentro de cada uno el cálculo. B. Observar los rectángulos coloreados en el tablero. Anotar cálculo y resultado.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten respuestas de la tarea. Se explican estrategias usadas (descomposición aditiva, sumas reiteradas, algoritmo convencional)."
+                        },
+                        {
+                            "title": "Momento 2. Multiplicar filas y columnas",
+                            "description": "Se recupera el juego de Las Mascotas. Juego: Las mascotas (versión mosaicos). Se usa tablero 30x30, dado y cartas 1-20. Se pintan rectángulos según números obtenidos. Se multiplica para verificar total de cuadraditos. Se anota cálculo."
+                        },
+                        {
+                            "title": "Momento 3. Jugar con otros productos",
+                            "description": "Se juega otra partida usando cartas del 10 al 30 y otra hoja cuadriculada."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se recupera que los números indican lados de un rectángulo (filas/columnas). Al multiplicar se obtiene el total. Se copia ejemplo en el cuaderno."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "Resuelvan problemas de organizaciones rectangulares.",
+                    "resources": "actividad 7 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver, escribir lo que se conoce, lo que se quiere averiguar y la respuesta completa: Se va a agregar un mosaico de un manatí de 8 filas y 23 columnas. ¿Cuántas baldosas se necesitarán en total?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten respuestas, recordando distintas ubicaciones de rectángulos y estrategias para 26x4 y 13x6."
+                        },
+                        {
+                            "title": "Momento 2. Multiplicar filas por columnas",
+                            "description": "Título: Cálculos con mosaicos. Problema del Aeropuerto: mosaicos de animales. a) Delfín 9x15. b) Tortuga 8x17. c) Cocodrilo 6x24. Se resuelve en cuaderno. Se sugieren estrategias: números pequeños, descomposición aditiva, productos conocidos. Puesta en común."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 8: Recapitulación",
+                    "pedagogicalIntention": "repasen algunos de los contenidos trabajados.",
+                    "resources": "papelógrafo de aprendizajes; actividad 8 del fascículo.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten resoluciones en pizarra. Se destacan estrategias de multiplicación."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Se revisan actividades del bloque 1 y se registra en papelógrafo."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido",
+                            "description": "Título: Repasamos lo trabajado. Actividad 8 del fascículo: A. a) Ordenar números de menor a mayor. b) Escribir menor en palabras. c) Rodear número. B. Mosaico aeropuerto Cibao (34 filas, 8 columnas). Se resuelve en cuaderno."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "Relacionan el valor de posición de cada cifra con el lugar que ocupa en un cierto número y la operación que oculta cada lugar de posición.",
+                    "resources": "la caja elaborada por cada estudiante en la producción final de la secuencia 3; 10 pelotitas de papel para cada estudiante.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: ¿Qué cálculos esconden estos puntajes obtenidos en esta caja? 500, 5, 50 y 5,000. Utilizar las multiplicaciones x 1, x 10, x 100 o x 1,000.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Jugar a encestar",
+                            "description": "Título: El juego de encestar en la caja. Juego: Encestar en la caja. Objetivo: encestar y calcular puntaje con la puerta de mayor cantidad. Se juega con 10 pelotitas. Puertas valen 1, 10, 100, 1000. Puesta en común."
+                        },
+                        {
+                            "title": "Momento 2. Jugar a encestar II",
+                            "description": "Título: Los números esconden cálculos. Variante del juego: calcular puntaje total sumando parciales de todas las puertas. Se completan cuadros con los cálculos (ej. 5 x 10 = 50)."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Se analizan puntajes totales (ej. 6,112) para deducir las jugadas. Se registra la descomposición en la pizarra (ej. 6x1000 + 1x100 + 1x10 + 2x1). Estudiantes copian un ejemplo."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "Reconozcan y expliciten todas las operaciones ocultas en un número considerando la suma de las operaciones ocultas en cada lugar de posición.",
+                    "resources": "la caja elaborada por cada estudiante en la producción final de la secuencia 3; 12 pelotitas de papel para cada estudiante.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Escribir debajo de cada flecha los cálculos escondidos en cada lugar de posición y también el cálculo que permite obtener todo el número: 7,441.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se retoma la tarea, estudiantes comparten resoluciones. Se explicita el valor posicional con multiplicaciones x1, x10, x100, x1000."
+                        },
+                        {
+                            "title": "Momento 2. Jugar a encestar II",
+                            "description": "Título: Los números esconden cálculos. Se juega nuevamente con 12 pelotitas. Se calcula puntaje total sumando parciales. Se completa cuadro en pizarra (Jugador, Pelotas, Puerta, Cálculo, Puntaje). Se analiza el rol del 0."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Se analizan puntajes totales (ej. 6,112 y 2,423) para deducir jugadas. Se deja registro en pizarra descomponiendo el número con flechas y cálculos. Estudiantes copian un ejemplo."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 11",
+                    "pedagogicalIntention": "Escriban cuentas de dividir e identifiquen la información que se indica en cada uno de los espacios de la misma.",
+                    "resources": "cuadro personal de multiplicaciones, actividad 11 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver utilizando el cuadro de multiplicaciones si es necesario: 36 / 4 y 48 / 8. Estas cuentas permiten resolver los siguientes problemas... (Bombones).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Estudiante escribe resolución de la tarea (7,441). Se refuerza identificación de cálculos escondidos."
+                        },
+                        {
+                            "title": "Momento 2. Repartir en partes iguales",
+                            "description": "Título: Una tarde en el cine. Problema A: 54 caramelos, 6 nietos. Problema B: 28 bombones, 7 personas. Se resuelve sin calculadora, usando cuadro de multiplicaciones. Puesta en común."
+                        },
+                        {
+                            "title": "Momento 3. La cuenta de dividir",
+                            "description": "Se presenta la cuenta de dividir tradicional (vertical). Se explica el significado de cada número en la cuenta (total, partes, cuánto toca, sobra). Se plantea la cuenta para el segundo problema."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Estudiantes completan en el fascículo un esquema con las partes de la cuenta de dividir."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 12",
+                    "pedagogicalIntention": "Resuelvan problemas de distribuir en partes iguales y utilicen la cuenta correspondiente para resolver el cálculo correspondiente.",
+                    "resources": "cuadro personal de multiplicaciones. Actividad 12 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver utilizando el cuadro de multiplicaciones si es necesario: ¿Cuántas cajas de bombones se pueden armar si se tienen 59 bombones y se colocan 9 en cada caja? ¿Cuántos bombones se colocarán en cada caja si se tienen 33 bombones y se distribuyen en 5 cajas iguales?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa tarea (cuentas 36/4 y 48/8). Se pregunta sobre el uso del cuadro de multiplicaciones."
+                        },
+                        {
+                            "title": "Momento 2. Distribuciones equitativas con resto o residuo",
+                            "description": "Título: Las piedras de Estela. Problema A: 15 estrellas, 4 amigas. Problema B: 22 corazones, 4 amigas (sobran). Problema 2: 35 lunas, 6 para cada sobrino. Se usa cuadro multiplicaciones buscando el menor más cercano. Se analiza el resto."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Estudiantes completan en el fascículo los números que faltan en las cuentas de dividir de los problemas (piedras corazón y luna)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 13",
+                    "pedagogicalIntention": "Resuelvan problemas en los que se conoce cuánto corresponde a cada grupo y se pregunta cuántos grupos se pueden armar. Analicen estrategias de cálculo en divisiones con números más grandes.",
+                    "resources": "actividad 13 del fascículo. Cuadro personal de multiplicaciones.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo qué se conoce, qué se tiene que averiguar y la respuesta completa. Mostrar cómo lo resuelves. En la próxima semana la empresa consiguió 45 folletos para repartir de a 2 a cada turista. ¿Para cuántos turistas le alcanzan los folletos?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa tarea. Se explica qué información indica cada número de la cuenta."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de agrupamiento y cuenta de dividir de un número menor que 100 por un dígito",
+                            "description": "Título: Los folletos. Se plantean situaciones orales (60/3, etc.). Se trabaja problema A: 94 folletos, paquetes de 3. Se analiza resolución de José Rafael (descomposición 90+4). Se valida estrategia de dividir por partes (decenas y unidades)."
+                        },
+                        {
+                            "title": "Momento 3. Resolver otro problema de agrupamiento y cuenta de dividir con números menores a 100",
+                            "description": "Se resuelve problema B (45 folletos de a 2) de forma semejante a José Rafael."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 14",
+                    "pedagogicalIntention": "Resuelvan problemas de distribución y analicen estrategias de cálculo de divisiones con números más grandes.",
+                    "resources": "actividad 14 del fascículo. Cuadro personal de multiplicaciones.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo qué se conoce, qué se tiene que averiguar y la respuesta completa: En la agencia de turismo decidieron preparar una merienda... 63 sándwiches... 3 por turista. ¿Cuántos pasajeros iban en la excursión?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea del hogar",
+                            "description": "Se revisa tarea (45/2). Se explica la cuenta y se suman resultados parciales."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de agrupamiento y cuenta de dividir de un número menor que 100 por un dígito",
+                            "description": "Problema A: 78 fotos, 6 por página. Se analiza resolución de Ana y Manuel (restar 60 y dividir resto 18 vs cuenta directa). Se valida estrategia de distribución en pasos y suma de cocientes parciales."
+                        },
+                        {
+                            "title": "Momento 3. Resolver un problema de reparto equitativo y cuenta de dividir de un número menor que 100 por un dígito",
+                            "description": "Título: Los llaveros. Problema B: 98 llaveros en 4 grupos. Se resuelve buscando números cercanos en la tabla (4x10, 4x20) o restando. Puesta en común y registro de cuenta en pizarra."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 15",
+                    "pedagogicalIntention": "Desarrollen estrategias de cálculo para resolver situaciones problemáticas.",
+                    "resources": "cuadro personal de multiplicaciones, actividad 15 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo lo que se conoce, lo que se quiere averiguar y la respuesta completa: En otra granja, Ana recolectó 265 huevos el lunes y 193 huevos el martes. ¿Cuántos más recolectó el lunes que el martes?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea del hogar",
+                            "description": "Se revisa tarea (63 sándwiches). Se pone énfasis en significado de números en la cuenta."
+                        },
+                        {
+                            "title": "Momento 2. Completar tablas",
+                            "description": "Título: De visita por la granja. Actividad 15 A. Completar tabla de cartones y huevos (1 cartón=6 huevos). Se usan multiplicación y división. Puesta en común."
+                        },
+                        {
+                            "title": "Momento 3. Diferencia en problema de comparación aditiva",
+                            "description": "Actividad 15 B: Gabriel recolectó 229 huevos día 1 y 186 día 2. Diferencia. Se resuelve con resta o suma con complemento."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 16: Producción final",
+                    "pedagogicalIntention": "Repasen algunos de los contenidos trabajados.",
+                    "resources": "papelógrafo de aprendizajes, media hoja cuadriculada y una hoja en blanco para cada estudiante; un dado y cartas del 1 al 30 en un sobre o funda por grupo de cuatro estudiantes; lápices de colores.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten resoluciones de la resta (265-193)."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué estudiamos en este bloque?",
+                            "description": "Revisión de actividades del bloque 2."
+                        },
+                        {
+                            "title": "Momento 3. Diseñar un mosaico creativo",
+                            "description": "Título: Creo un mosaico. En grupos, tiran dado y sacan carta (10-30), multiplican y anotan. 4 vueltas (16 productos). Se marcan productos iguales. Se pintan rectángulos en cuadrícula. Se pega en hoja blanca."
+                        },
+                        {
+                            "title": "Momento 4. Compartir los mosaicos",
+                            "description": "Se muestran trabajos y se exponen en el aula."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 17: Cierre y metacognición",
+                    "pedagogicalIntention": "Reflexionen sobre lo realizado y aprendido durante la secuencia.",
+                    "resources": "papelógrafo de aprendizajes, actividad 17 del fascículo.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Entregar las producciones con la retroalimentación",
+                            "description": "Devolución de trabajos."
+                        },
+                        {
+                            "title": "Momento 2. Revisar la retroalimentación para consolidar los saberes principales",
+                            "description": "Revisión de conceptos."
+                        },
+                        {
+                            "title": "Momento 3. Reflexión metacognitiva",
+                            "description": "Título: ¿Cómo lo hago? Completar cuadro en fascículo sobre facilidad/dificultad en: leer/escribir números, sumar/restar, multiplicar, dividir, interpretar gráficas."
+                        },
+                        {
+                            "title": "Momento 4. Revisar el afiche de aprendizajes de la secuencia",
+                            "description": "Cierre del papelógrafo con fecha."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

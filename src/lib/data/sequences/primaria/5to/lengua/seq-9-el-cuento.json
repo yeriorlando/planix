@@ -1,0 +1,243 @@
+{
+  "id": "seq-1771353844763",
+  "title": "El cuento",
+  "description": "Comprensión y producción de textos narrativos con estructura literaria.",
+  "order": 9,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771359052730",
+      "sequence_id": "seq-1771353844763",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Pre-escucha y exploración)",
+      "intencion_pedagogica": "Activar conocimientos previos sobre los cuentos y los piratas, y realizar la primera escucha del cuento \"Los buenos modales de los piratas\", formulando hipótesis y tomando apuntes.\n\n",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre el cuento.\n\nUso de imágenes: Presentación de un pirata para activar el interés.\n\nLectura en voz alta (modelado): El docente lee el cuento con entonación adecuada.\n\nPausas estratégicas: Durante la lectura para formular preguntas.\n\nToma de apuntes: Los estudiantes registran información relevante.",
+      "aprendizaje_significativo": "Se parte de un tema fascinante para los niños (los piratas) para introducir el análisis del cuento, conectando así la literatura con la imaginación y la aventura.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de dibujar a los piratas mientras escuchan.\n\nPara estudiantes kinestésicos: Se les invita a representar gestos de piratas.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona el texto del cuento por escrito.\n\nPara estudiantes avanzados: Se les pide que identifiquen los valores que aparecen en el cuento.",
+      "actividades_cuaderno": "Dibujar una escena del cuento que más les haya gustado y escribir una oración sobre ella.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imagen de un pirata\n• Pizarra",
+          "descripcion": "1. El docente conversa con los estudiantes sobre qué es un cuento, cuáles les gusta leer, si les gusta escucharlos, etc. (pág. 110).\n2. Presenta la imagen de un pirata (pág. 110).\n3. Formula preguntas:\n- \"¿Quién es?\"\n- \"¿Cómo es?\"\n- \"¿A qué se dedica?\"\n- \"¿Dónde has visto este personaje?\"\n4. Guía a los estudiantes hacia la construcción del concepto de pirata.",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 110)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto del cuento \"Los buenos modales de los piratas\" (págs. 110-112)",
+          "descripcion": "1. El docente anuncia que escucharán un cuento de piratas titulado \"Los buenos modales de los piratas\" (pág. 110-112).\n2. Lee el título y pide a los estudiantes que digan de qué creen que tratará.\n3. Indica que deben prestar atención y tomar apuntes.\n4. Lee el texto completo con las pausas y entonación adecuadas.\n5. Al terminar de leer el nudo (entre líneas de puntos), se detiene y pregunta sobre las complicaciones.\n6. Termina de leer y pregunta cómo se resolvió la situación.",
+          "actividad_numero": "Comprensión oral (Párrafos 3-5, pág. 110)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente recoge las primeras impresiones sobre el cuento.\n2. Anuncia que en la próxima clase realizarán actividades de comprensión oral.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771359323497",
+      "sequence_id": "seq-1771353844763",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Oral (Post-escucha)",
+      "intencion_pedagogica": "Analizar en profundidad el cuento \"Los buenos modales de los piratas\", identificando personajes, estructura, acciones, descripciones y vocabulario.\n\n",
+      "estrategia": "Preguntas de comprensión oral: Análisis detallado del cuento.\n\nIdentificación de elementos: Personajes, estructura, acciones, descripciones.\n\nTrabajo de vocabulario: Significado de palabras en contexto.\n\nReconstrucción oral: Los estudiantes re cuentan la historia.",
+      "aprendizaje_significativo": "Se analiza el cuento en profundidad, identificando sus elementos estructurales (inicio, nudo, desenlace), personajes, acciones y vocabulario, lo que permite a los estudiantes comprender cómo se construye una narración.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les permite trabajar las preguntas en pareja.\n\nPara estudiantes kinestésicos: Se les invita a representar las acciones de los piratas.\n\nPara estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que escriban un breve diálogo entre dos personajes.",
+      "actividades_cuaderno": "Escribir un breve resumen del cuento \"Los buenos modales de los piratas\" identificando inicio, nudo y desenlace.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se recuerda brevemente el cuento de los piratas.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto del cuento\n• Pizarra\n• Diccionarios",
+          "descripcion": "1. Preguntas 1-12: Responden oralmente:\n- \"¿Cuáles son los personajes? ¿Cómo son? ¿Cuál es su atuendo? ¿Dónde y cómo viven? ¿Cuáles son principales y secundarios?\" (1)\n- \"¿En qué parte del cuento se dan estas informaciones?\" (2)\n- \"¿Qué ocurre después de que se presenta la situación?\" (3)\n- \"¿Sabes en qué parte se sitúan las complicaciones?\" (4)\n- \"¿Cuál es la solución? ¿Cómo se llama esa parte?\" (5)\n- \"¿Cuáles acciones realizan los personajes? ¿Con qué palabras se refieren a esas acciones? ¿En qué tiempo verbal están?\" (6)\n- \"¿Hay descripciones? ¿Qué se describe? ¿Qué palabras se usan?\" (7)\n- \"¿Con qué palabras se señala el orden de las acciones?\" (8)\n- \"¿Quién cuenta la historia? ¿Cómo se marca la diferencia entre narrador y personajes?\" (9)\n- \"¿Cómo es la atmósfera? ¿Cómo lo sabes?\" (10)\n- \"¿Recuerdas el título? ¿Hay relación entre título y contenido?\" (11)\n- \"¿Puedes recontar la historia con tus propias palabras?\" (12)\n2. Vocabulario (pág. 113): Anotan palabras desconocidas y trabajan su significado por contexto, familia de palabras, consulta con compañeros o diccionario. Asegurar que no falten: superficial, estribor, viraron, ensimismados, abordaje, a la deriva, al unísono.",
+          "actividad_numero": "Comprensión oral Preguntas 1-12 (págs. 112-113) Vocabulario (pág. 113)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas.\n2. El docente refuerza los elementos del cuento identificados.",
+          "actividad_numero": "Comprensión oral (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771359415403",
+      "sequence_id": "seq-1771353844763",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Producción Oral (Preparación)",
+      "intencion_pedagogica": "Preparar y narrar oralmente un cuento propio, utilizando los elementos del género (personajes, acciones, ambientes) y respetando la estructura de inicio, nudo y desenlace.\n\n",
+      "estrategia": "Asignación previa de tarea: Los estudiantes completan un cuadro con personajes, acciones y ambientes.\n\nTrabajo colaborativo: Socialización y selección de elementos para crear cuentos.\n\nUso de consigna estructurada: Pautas claras para la creación oral.\n\nNarración oral: Los estudiantes cuentan sus cuentos frente a la clase.",
+      "aprendizaje_significativo": "Los estudiantes se convierten en creadores de historias, utilizando su imaginación y creatividad para inventar cuentos que luego compartirán con sus compañeros, desarrollando así su capacidad expresiva y narrativa.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite leer su cuento escrito.\n\nPara estudiantes tímidos: Se les da la opción de narrar en grupos pequeños.\n\nPara estudiantes kinestésicos: Se les anima a incluir gestos y movimientos.\n\nPara estudiantes avanzados: Se les pide que incluyan diálogos entre personajes.",
+      "actividades_cuaderno": "Escribir el cuento que narraron oralmente, respetando la estructura trabajada.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente recuerda la tarea asignada: completar un cuadro con personajes, acciones y ambientes que les gustaría utilizar en su cuento.\n2. Dibuja el cuadro en el pizarrón y lo completa con la información que resulta de la socialización.",
+          "actividad_numero": "Producción oral Tarea (pág. 113)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Participación de los estudiantes\nCierre y evaluación\nTiempo (15 min)\tReflexión:\n1. El docente destaca los aciertos en las narraciones.\n2. Si es necesario, continúa la socialización en la próxima clase.\tProducción oral\n(Cierre)\t• Participación de los estudiantes\n",
+          "descripcion": "Creación y narración de cuentos:\n1. Los estudiantes seleccionan del cuadro los personajes, acciones y ambientes que prefieren para construir sus cuentos.\n2. El docente recuerda las pautas (pág. 114):\n- Inicio, nudo y desenlace.\n- Fórmulas de inicio y cierre.\n- Descripción de personajes y situación en espacio y tiempo.\n- Uso de conectores de orden (primero, luego, después) y progresión (y, en esto, entonces).\n- Marcadores de causalidad (porque, por eso, por lo que).\n- Verbos en pasado para acciones y presente para diálogos.\n- Solución del problema en el desenlace.\n3. Los estudiantes tienen 15 minutos para articular sus historias.\n4. Luego, comienzan a narrar sus cuentos frente a la clase.\n5. El docente hace preguntas al resto para favorecer la escucha atenta.",
+          "actividad_numero": "Producción oral Pautas (pág. 114)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente destaca los aciertos en las narraciones.\n2. Si es necesario, continúa la socialización en la próxima clase.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771359566827",
+      "sequence_id": "seq-1771353844763",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión Escrita (Pre-lectura y Durante la lectura)",
+      "intencion_pedagogica": "Realizar la pre-lectura y la lectura compartida del cuento \"El Gigante Amarillo\", formulando hipótesis sobre el título y verificándolas durante la lectura.\n\n",
+      "estrategia": "Formulación de hipótesis: Predicción del contenido a partir del título.\n\nLectura compartida: Estudiantes leen en voz alta alternándose.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión.\n\nVerificación de hipótesis: Contraste de predicciones con el texto real.",
+      "aprendizaje_significativo": "Se trabaja con un cuento que aborda el tema del progreso y la civilización (\"El Gigante Amarillo\"), permitiendo a los estudiantes reflexionar sobre el choque entre tradición y modernidad.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades lectoras: Se les asignan párrafos más cortos.\n\nPara estudiantes visuales: Se utilizan imágenes de grúas y construcción.\n\nPara estudiantes kinestésicos: Se les invita a representar la reacción de la tribu al ver la grúa.\n\nPara estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.",
+      "actividades_cuaderno": "Dibujar lo que imaginaban que era el Gigante Amarillo antes de leer el cuento, y luego dibujar lo que realmente era (una grúa).\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copia del cuento \"El Gigante Amarillo\" (págs. 115-116)\n• Pizarra",
+          "descripcion": "1. El docente coloca el cuento \"El Gigante Amarillo\" (págs. 115-116) en un papelógrafo o entrega copias.\n2. Pide a un estudiante que lea el título.\n3. Formula preguntas:\n- \"¿Qué podría ser un gigante amarillo?\"\n- \"¿De qué creen que tratará este cuento?\"\n- \"¿Quién o quiénes serán sus personajes?\"\n- \"¿Dónde piensan que se desarrollará la historia?\"\n4. Anota las predicciones en la pizarra.",
+          "actividad_numero": "Comprensión escrita Pre-lectura (pág. 114)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copia del cuento\n• Pizarra",
+          "descripcion": "1. Se realiza la lectura de manera interactiva, con pausas para preguntas.\n2. Inicio: Cuando terminen de leer el inicio, se llama la atención sobre sus componentes (presentación de personajes, contextualización, situación inicial).\n3. Nudo: Cuando terminen de leer el nudo, se orienta el enfoque hacia los hechos contados, el orden y las marcas que indican ese orden.\n4. Antes del desenlace: Se pregunta: \"Ya sabemos cuál es el nudo. ¿Qué parte viene ahora? ¿Qué marcas nos lo indican?\"\n5. Cambios en el desarrollo: Cuando se marquen cambios (resaltados en amarillo), se detiene la lectura y se reflexiona sobre esos cambios.",
+          "actividad_numero": "Comprensión escrita Durante la lectura (pág. 117)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se retoman las hipótesis anotadas al inicio.\n2. Se identifican cuáles se cumplieron y cuáles no.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771359685989",
+      "sequence_id": "seq-1771353844763",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Post-lectura",
+      "intencion_pedagogica": "Consolidar la comprensión del cuento \"El Gigante Amarillo\" a través de actividades de post-lectura que incluyen vocabulario, análisis de personajes y resumen.\n\n",
+      "estrategia": "Trabajo individual con el texto: Para resolver actividades de comprensión.\n\nUso de contexto: Para deducir significados.\n\nPreguntas de análisis: Literales, inferenciales y críticas.\n\nResumen: Síntesis del cuento con propias palabras.",
+      "aprendizaje_significativo": "Se profundiza en la comprensión del cuento, analizando el conflicto entre la tribu y la ciudad, y reflexionando sobre conceptos como \"civilización\" y \"progreso\" desde la perspectiva de los personajes.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les permite trabajar las actividades en pareja.\n\nPara estudiantes kinestésicos: Se les invita a representar la escena de la explicación de la grúa.\n\nPara estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que escriban un final alternativo para el cuento.",
+      "actividades_cuaderno": "Completar las actividades que no se terminaron en clase. Pasar en limpio el resumen del cuento.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copia del cuento",
+          "descripcion": "1. Se recuerda brevemente la historia de la tribu y el Gigante Amarillo.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos\n• Diccionarios",
+          "descripcion": "1. Actividad A (pág. 118-119): Responden preguntas de opción múltiple:\n- \"¿Qué significa 'esparcidos'?\" (c. dispersos)\n- \"Los habitantes eran alegres porque:\" (b. gozaban de salud)\n- \"No querían la amistad de la Gran Ciudad porque:\" (b. perdieron a tres hombres)\n- \"El enorme bulto amarillo se refiere a:\" (b. un Gigante Amarillo)\n- \"La palabra 'atemorizados' significa:\" (a. asustados)\n- \"El Jefe de la tribu era:\" (b. anciano)\n- \"Los habitantes estaban dispuestos a:\" (b. defender su territorio)\n- \"La solución al problema fue:\" (b. una explicación)\n2. Actividad B (pág. 119): Responden preguntas:\n- \"Explica por qué el cuento se titula 'El Gigante Amarillo'.\" (1)\n- \"Si resumieras el cuento con una sola palabra, ¿cuál sería? ¿Por qué?\" (2)\n- \"¿Qué significa 'civilización' para la gran ciudad? Compara con la definición del diccionario.\" (3)\n- \"¿Por qué se puede afirmar que la tribu desconocía la civilización?\" (4)\n- \"¿Cuál crees es la intención del autor? ¿Qué aprendiste?\" (5)\n- \"Resume el cuento con tus propias palabras.\" (6)",
+          "actividad_numero": "Comprensión escrita (págs. 118-119) (pág. 119)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas, especialmente las preguntas de la Actividad B.\n2. El docente refuerza las ideas principales.",
+          "actividad_numero": "Comprensión escrita (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771359811077",
+      "sequence_id": "seq-1771353844763",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": " Gramática Textual y Producción Escrita",
+      "intencion_pedagogica": "Sistematizar los elementos gramaticales del cuento y guiar a los estudiantes en el proceso de producción escrita de su propio cuento.\n\n",
+      "estrategia": "Análisis gramatical: Identificación de estructura, voces y recursos del cuento.\n\nUso de cuadros: Para organizar la información.\n\nTaller de escritura: Acompañamiento en la producción escrita.\n\nUso de organizador gráfico: Para planificar el cuento.\n\nRevisión con instrumento: Lista de cotejo para autoevaluación.",
+      "aprendizaje_significativo": "Los estudiantes escriben su propio cuento, aplicando todos los elementos aprendidos (estructura, personajes, diálogos, conectores) y creando una historia original que será valorada por sus compañeros.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite escribir en computadora.\n\nPara estudiantes con dificultades para generar ideas: Se les proporciona un banco de personajes y conflictos.\n\nPara estudiantes visuales: Se les anima a ilustrar su cuento.\n\nPara estudiantes kinestésicos: Se les permite actuar su cuento antes de escribirlo.\n\nPara estudiantes avanzados: Se les pide que incluyan un narrador en primera persona.",
+      "actividades_cuaderno": "Completar el organizador gráfico y escribir el primer borrador del cuento. Traerlo para la próxima clase para la revisión final.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copia del cuento\n• Cuadernos\n• Lápices de colores",
+          "descripcion": "1. Actividad 1: Releen el cuento, tachan con X el inicio, encierran entre llaves el nudo y subrayan el desenlace. Anotan las marcas que les permitieron identificar esas partes.\n2. Actividad 2: Identifican expresiones del narrador y de los personajes, y las anotan en un cuadro.\n3. Actividad 3: Hacen un dibujo relacionado con el cuento.\n4. El docente presenta la definición y características del cuento (pág. 120): relato en prosa de hechos ficticios, con inicio, nudo y desenlace, acciones centrales, personajes, narrador, etc.",
+          "actividad_numero": "Gramática textual Actividades 1-3 (págs. 119-120) Definición (pág. 120)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Organizador gráfico en la pizarra o fotocopiado\n• Cuadernos",
+          "descripcion": "1. El docente presenta la consigna: escribir un cuento propio.\n2. Organiza la clase en grupos para que conversen y anoten ideas sobre los cuentos que les gustaría escribir.\n3. Provee un organizador gráfico (pág. 121):\n- Personajes, características físicas y de personalidad, acciones, lugar y tiempo.\n4. Los estudiantes completan el organizador.\n5. Textualización: Escriben el primer borrador de su cuento.\n6. El docente acompaña y resuelve dudas.",
+          "actividad_numero": "Producción escrita Organizador gráfico (pág. 121) Textualización (pág. 121)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Borradores de los estudiantes",
+          "descripcion": "1. Los estudiantes revisan su borrador con las preguntas clave:\n- \"¿Tiene inicio, nudo y desenlace?\"\n- \"¿Usa verbos en pasado para las acciones?\"\n- \"¿Incluye diálogos?\"\n- \"¿Usa conectores de orden y causalidad?\"\n- \"¿Hay errores de ortografía?\"\n2. Se anuncia que en la próxima clase continuarán con la revisión y la versión final.",
+          "actividad_numero": "Producción escrita Revisión (pág. 122)"
+        }
+      ]
+    }
+  ]
+}

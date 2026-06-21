@@ -1,0 +1,385 @@
+{
+    "sequenceId": "seq-lengua-4",
+    "subjectId": "lengua",
+    "sequenceTitle": "La Noticia",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1 - Introducción a la Noticia",
+            "activities": [
+                {
+                    "title": "Actividad 1",
+                    "pedagogicalIntention": "Comparten conocimientos previos sobre las noticias y conocen funciones sociales de este tipo textual.",
+                    "resources": "Noticias en distintos medios. Papelógrafo de aprendizajes.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Conocer las ideas previas de los estudiantes sobre las noticias y sus fuentes",
+                            "description": "El docente organiza una conversación a partir de las siguientes preguntas: ¿Cómo hacen las personas para saber el resultado del partido de pelota o de béisbol? ¿Dónde buscan el pronóstico del tiempo para esta semana? ¿Dónde nos informamos de los hechos importantes que pasaron en el país o en el mundo? Seguramente los estudiantes mencionarán los medios conocidos en sus hogares, como la radio o la televisión. ¿Cómo llamamos a las comunicaciones que transmiten estos medios? La conversación tiene como finalidad que comprendan que mencionaron medios de información que comunican noticias."
+                        },
+                        {
+                            "title": "Momento 2. Presentar el papelógrafo de aprendizajes",
+                            "description": "El docente explica que van a trabajar ese tipo de texto: la noticia, tanto en su versión oral como en su versión escrita. Presenta los propósitos que se trabajarán en la secuencia. Lee el texto junto con sus estudiantes. Solicita que ellos lean en voz alta y expliquen lo que entienden. Luego, el docente lee en voz alta.\nEN ESTE TIEMPO TRABAJAREMOS PARA:\n● Conocer las partes de la noticia.\n● Leer noticias.\n● Contar noticias\n● Escribir noticias."
+                        },
+                        {
+                            "title": "Momento 3. Conocer las distintas fuentes donde aparecen noticias",
+                            "description": "El docente presentará noticias en cada uno de los formatos:\n- una noticia radial en formato audio;\n- una noticia de periódico en formato impreso;\n- una noticia de algún blog o periódico en formato digital;\n- una noticia televisiva en formato video.\nLuego, realizan un juego en el que se identificarán algunas características de cada uno. El juego consiste en que el docente pregunte: ¿En qué medio aparece la noticia que se escucha, pero no se ve? ¿Dónde aparece la noticia que se lee, pero no se escucha? ¿Dónde aparece la noticia que se escucha y se ve? De esta forma, se pondrán en evidencia las diferentes formas de transmitir noticias: el docente les explica oralmente que se emplea la palabra audiovisual para referirse a las características de las noticias escuchadas y vistas. La palabra audiovisual está formada por dos partes: audio que significa que se escucha, y visual, significa que se ve.\nSi el docente no puede presentar la selección de noticias, igualmente se puede realizar el juego, porque los estudiantes conocen la existencia de periódicos, radio y televisión, y a partir de esa experiencia pueden responder."
+                        },
+                        {
+                            "title": "Momento 4. Definición de noticia",
+                            "description": "El docente indica que realicen la actividad uno del fascículo. Tienen que completar las palabras faltantes de la siguiente frase: “Una noticia comunica un hecho real. Puede transmitirse en forma oral, en forma escrita o en forma audiovisual”. Luego, revisan colectivamente la resolución de la actividad en la pizarra. Se sugiere que el docente invite a uno o dos estudiantes a compartir su producción, leerla en voz alta (con su apoyo, si es necesario) y propiciar una instancia de valoración grupal.\nRecorrido docente: Ayuda a los estudiantes que presentan mayor dificultad. Orienta en la revisión de la copia. Señala en el momento los errores que cometen al copiar y anima a mirar con atención cada palabra y trazo de las letras."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordar cómo escribirla en formato corto, utilizando solo números. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Luego explica que escribirán en el cuaderno el nombre de la secuencia que comienzan hoy: “Noticia”. El docente dicta la palabra. Luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen su escrito. El docente recorre el aula y ayuda a quién requiere más apoyo."
+                        }
+                    ],
+                    "homework": "Recorta la tarea para el hogar y pégala en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Realiza una encuesta a cuatro familiares”."
+                },
+                {
+                    "title": "Actividad 2",
+                    "pedagogicalIntention": "Conocen la estructura común de la noticia oral y escrita. Identifican el titular. Clasifican noticias por temática.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Los estudiantes comparten la información obtenida en las encuestas sobre los medios de comunicación informativos más utilizados en su hogar. Para eso, el docente indica a los estudiantes que se agrupen según el medio más usado. Por ejemplo:\n- ¿En cuál hogar la radio es el medio más usado? Se agrupan esos estudiantes.\n- ¿En cuál hogar el periódico es el medio más usado? Se agrupan esos estudiantes.\n- ¿En cuál hogar la televisión es el medio más usado? Se agrupan esos estudiantes.\n- ¿En cuál hogar los medios digitales son los más usados? Se agrupan esos estudiantes.\nCon los grupos conformados, obtienen el resultado y el docente abre una reflexión sobre cuál es el medio más utilizado en la mayoría de los hogares."
+                        },
+                        {
+                            "title": "Momento 2. Escritura en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordar cómo escribirla en formato corto, utilizando solo números. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Luego, explica que van a escribir la conclusión a la que llegaron. Escriben: El medio de comunicación más usado es ……………………………. Copian los resultados. Lo fundamental es que los estudiantes han comprobado que todas las personas se informan acerca de las noticias a través de distintos medios."
+                        },
+                        {
+                            "title": "Momento 3. Clasificar y anticipar noticias a partir del titular",
+                            "description": "El docente pide a los estudiantes observar las noticias que están en el fascículo, para que vean que todas tienen una frase breve al principio. Luego, abre una conversación sobre el uso del titular: Cuando leemos el titular, ¿nos podemos imaginar de qué se va a tratar la noticia? ¿Qué nos dice esta primera frase al inicio de la noticia? ¿Adelanta lo que vamos a leer? ¿Está escrita con el mismo tipo de letra que el resto de la noticia? ¿Por qué creen que está escrita más grande y con otra letra?\nEl docente escribe en la pizarra: Titular y escribe alguna de las ideas que intercambiaron con los estudiantes a modo de síntesis."
+                        },
+                        {
+                            "title": "Momento 4. Realizar la actividad del fascículo",
+                            "description": "El docente indica que realicen la actividad n.º 2 del fascículo. El docente explica que deben completar la definición de “titular” con las palabras que faltan. Primero leen en silencio y luego el docente lee en voz alta señalando el texto. Completan las palabras que faltan. Luego, entre todos, revisan la resolución de la actividad en la pizarra.\nEl texto completo es el siguiente: El titular es una oración breve que está al principio de la noticia y anticipa su contenido."
+                        },
+                        {
+                            "title": "Momento 5. Anticipar noticias",
+                            "description": "Todos leen los titulares en el fascículo (Actividad n.º 2): “Se aprobó una nueva vacuna para el Covid-19” - “Juan Luis Guerra presentará su nuevo disco en el teatro principal” -“El robo del banco fue un fracaso” - “Dura derrota del campeón del mundo” - “El presidente abrió las sesiones del Congreso”.\nLos estudiantes deben decir, de forma oral, sobre qué tema puede informar la noticia que tiene ese titular. Realizan inferencias para anticipar el contenido de las noticias y su temática. El docente orienta con preguntas como: ¿En sus hogares leen revistas que solo presentan información sobre determinados temas, por ejemplo, revistas de autos, revistas de viajes, revistas de béisbol? ¿Alguna vez vieron que en el noticiero hay una persona que siempre habla de deporte? ¿Se fijaron que en el periódico hay “secciones”, es decir, temas sobre cada tipo de noticia? ¿Sobre cuáles temas tratarán las noticias que tienen los titulares que leímos? ¿Deportes? ¿Ciencia? ¿Cultura? El docente informa que las noticias se pueden clasificar por temáticas: deportes, policiales, farándula, sociales, culturales, económicas, entre otras. Puede mostrar un periódico y observar las distintas secciones."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: \"Busca un titular en un periódico, recórtalo y pégalo en tu cuaderno. Léelo con ayuda de un familiar y conversen juntos sobre de qué imaginan que trata la noticia.\""
+                },
+                {
+                    "title": "Actividad 3",
+                    "pedagogicalIntention": "Reconocen la estructura común a la noticia oral y escrita. Identifican en el cuerpo de la noticia el contenido. Conocen las preguntas que organizan la noticia.",
+                    "resources": "Seis carteles grandes elaborados por el docente con preguntas clave. Hojas sueltas con líneas.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente indica a varios estudiantes que lean en voz alta los titulares que seleccionaron. El docente ayuda. Entre todos anticipan de qué podría tratarse esa noticia."
+                        },
+                        {
+                            "title": "Momento 2. El juego de las preguntas",
+                            "description": "El docente anticipa que toda noticia, para que esté completa, debe responder a los siguientes interrogantes: ¿Qué sucedió? ¿A quién le sucedió? ¿Cuándo sucedió? ¿Dónde sucedió? ¿Por qué sucedió? ¿Cómo sucedió? Para jugar, el docente divide a los estudiantes en seis grupos. A cada uno le da un cartel con una de estas preguntas. El juego se trata de que el docente lee o cuenta una noticia breve de su comunidad o región y cada grupo escribe en una hoja suelta con líneas la respuesta a la pregunta de su cartel. Luego entre todos reconstruyen la noticia porque cada grupo pasa al frente con su cartel y contesta en voz alta la pregunta que le corresponde."
+                        },
+                        {
+                            "title": "Momento 3. Realizar la actividad del fascículo (Actividad n.º 3)",
+                            "description": "Los estudiantes completan las palabras que faltan en la definición del “cuerpo de noticia”. Luego, entre todos, revisan la resolución de la actividad en la pizarra. El texto completo es el siguiente: El cuerpo de la noticia informa qué sucedió, cuándo sucedió, dónde sucedió, a quién le sucedió y por qué."
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordar cómo escribirla en formato corto, utilizando solo números. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Reflexionan sobre lo trabajado en el día. El docente escribe en la pizarra: “Hoy contamos una noticia sobre…” (completa con la información pertinente). La escribe sin decir nada. Invita a los estudiantes a leer la frase. Por turnos, cada uno lee una palabra. Luego leen todos juntos. Al finalizar, copian la frase. El docente recorre el aula y ayuda a quién requiere más apoyo."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Piensa, junto a un familiar, acerca de una noticia para compartir con tus compañeros. Recuerda que debe ser sobre un hecho real y que deben incorporar información sobre qué pasó, dónde pasó, a quién le pasó, y cuándo pasó."
+                },
+                {
+                    "title": "Actividad 4",
+                    "pedagogicalIntention": "Producen noticias orales.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente comienza la actividad pidiendo a los estudiantes que compartan la noticia que pensaron junto a sus familiares. A medida que cuentan sus noticias, el docente pregunta: ¿Este hecho realmente ocurrió? ¿Cómo lo sabemos? Luego, guía la revisión con preguntas clave: ¿Incluyeron qué pasó, dónde pasó, a quién le pasó y cuándo pasó? Si falta alguna información, invita a completarla para que la noticia esté bien estructurada. Para finalizar, el docente destaca la importancia de que una noticia siempre informe sobre hechos reales y completos, ya que, de lo contrario, se convierte en otra clase de texto, como un cuento o una historia inventada. Se pueden comparar ejemplos reales y ficticios para reforzar esta diferencia."
+                        },
+                        {
+                            "title": "Momento 2. Noticias orales del grado o la escuela",
+                            "description": "El docente propone a los estudiantes la producción de noticias orales a modo de noticiero radial para informar sobre los hechos más importantes del grado y la escuela. Interrogantes para motivar la producción de las noticias: ¿Sucedió algo nuevo en este año? ¿Aprendimos a hacer algo que no sabíamos? ¿Nos resultó sorprendente? ¿Hubo o habrá algún cumpleaños o evento especial? ¿Podemos contar alguna noticia sobre la fecha de los campeonatos deportivos de la escuela? ¿Hay nuevos docentes o nuevos estudiantes que se incorporaron en el año?\nLes indica que recuerden que deben pensar el titular y que el cuerpo de la noticia, aunque sea oral, debe permitir que se contesten las preguntas de contenido (qué, cuándo, cómo, dónde, a quién y por qué)."
+                        },
+                        {
+                            "title": "Momento 3. Compartimos las noticias orales",
+                            "description": "Los estudiantes pasan al frente y exponen sus noticias orales."
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordar cómo escribirla en formato corto, utilizando solo números. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Reflexionan sobre lo trabajado en el día. El docente anticipa que van a escribir la frase: “Hoy contamos noticias del grado y la escuela”. Escribe las palabras desordenadas en la pizarra. Explica que deben armar la frase entre todos. Por turno, pasan a leer y ubicar las palabras de la frase. El docente orienta con preguntas como, por ejemplo: ¿Con qué palabra empieza la frase? ¿Cuál es la segunda palabra? ¿con qué letra empieza esa palabra? Luego los estudiantes copian la frase completa. El docente recorre el aula y revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “\"Escribe el titular de la noticia que compartiste hoy sobre tu grado o escuela.”"
+                },
+                {
+                    "title": "Actividad 5",
+                    "pedagogicalIntention": "Juegan a identificar sonidos y letras en nombres de animales.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente pide a los estudiantes que lean en voz alta los titulares que copiaron en su cuaderno. Luego, los escribe en la pizarra y guía una comparación con la escritura de los estudiantes para revisar y corregir, si es necesario."
+                        },
+                        {
+                            "title": "Momento 2. Juego: Veo, veo de animales",
+                            "description": "El docente explica que en las próximas actividades leerán noticias de animales. Y que en el día de hoy realizarán juegos sobre nombres de animales. Explica el primer juego del veo veo. El docente inicia el juego diciendo:\n● \"Veo, veo un animal que empieza con el sonido cccc /k/\" (Los estudiantes responden con palabras como caballo, conejo, koala). El docente aprovecha para escribir estos tres animales en la pizarra: Koala - Caballo - Cebra. Las lee en voz alta y reflexiona sobre el sonido de la letra C que puede sonar /k/ o /s/ . Además, los anima a reflexionar que el sonido /k/ puede representarse con la C (en el caso de caballo) o con la K (en el caso de koala).\n● \"Veo, veo un animal que termina en /o/.\" (Perro, armadillo, oso).\n● \"Veo, veo un animal que tiene el sonido /r/ en cualquier parte.\" (Tigre, loro, canguro).\nA medida que los estudiantes responden, el docente los anima a proponer nuevas reglas para continuar el juego."
+                        },
+                        {
+                            "title": "Momento 3. Jugamos con los sonidos de los nombres de animales",
+                            "description": "El docente plantea preguntas para que los estudiantes piensen en la estructura y los sonidos de los nombres de los animales:\n● Escuchen atentamente esta palabra y digan lentamente: elefante (e-le-fan-te). ¿Cuántas sílabas tiene?\n● Escuchen esta otra palabra: ratón (rrrr aaa ttt ooo nnn). ¿Cuántos sonidos escuchan?\n● Si quitamos la sílaba \"ba\" de \"ballena\", ¿qué palabra queda?\n● ¿Cuál de estos animales empieza por vocal?: iguana - zorro - oso\n● ¿Cuál de estos animales empieza por consonante?: elefante - gato - águila\n● ¿Cuántas palabras escuchan en este nombre?: \"pez espada\".\nEl docente continúa con otros ejemplos."
+                        },
+                        {
+                            "title": "Momento 4. Descubre el animal secreto",
+                            "description": "El docente piensa en un animal (ejemplo: tigre, jirafa, lechuza, canguro) y escribe en la pizarra una raya por cada letra. Los estudiantes adivinan las letras diciendo una por turno. Si la letra está en la palabra, se escribe en la raya correspondiente; si no, se anota a un lado como intento fallido. El juego continúa hasta descubrir el animal completo. Luego, el estudiante que adivinó la última letra elige un nuevo animal y el juego se repite."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordar cómo escribirla en formato corto, utilizando solo números. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Reflexionan sobre lo trabajado en el día. El docente anticipa que van a escribir la frase: “Hoy jugamos a escuchar sonidos en las palabras”. Escribe las palabras desordenadas en la pizarra. Explica que deben armar la frase entre todos. Por turno, pasan a leer y ubicar las palabras de la frase. El docente orienta con preguntas como, por ejemplo: ¿Con qué palabra empieza la frase? ¿Cuál es la segunda palabra? ¿con qué letra empieza esa palabra? Luego los estudiantes copian la frase completa. El docente recorre el aula y revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea del fascículo y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: \"Explícale a un familiar cómo se juega a ‘Descubre el animal secreto’ y jueguen juntos con nombres de animales.\""
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2 - Lectura y Comprensión",
+            "activities": [
+                {
+                    "title": "Actividad 6",
+                    "pedagogicalIntention": "Identifican las partes de una noticia escrita. Leen de forma guiada.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente indaga cómo les fue jugando con los familiares al producto secreto. Leen en voz alta los nombres de los animales con los que jugaron."
+                        },
+                        {
+                            "title": "Momento 2. Revisión de lo aprendido",
+                            "description": "El docente propone revisar el papelógrafo de aprendizajes y hace una breve reflexión sobre lo trabajado hasta el momento. Indica que seguirán trabajando sobre las noticias, pero ahora se centrarán en las noticias escritas. Luego, para verificar la comprensión del tema hasta el momento, el docente propone un juego de verdadero o falso. El docente lee las siguientes afirmaciones e intercambian opiniones para decidir la respuesta. Responden si son verdaderas o falsas y por qué.\n1. Las noticias cuentan cómo se hace una comida o cómo se arma un juguete. Falso.\nJustificación: las noticias sirven para informar a muchas personas sobre hechos reales e importantes. Por eso, se publican en periódicos, radios, revistas, televisión o en internet.\n2. Hay noticias sobre distintos temas: deportes, actualidad, educación, salud, ciencia. Verdadero.\n3. Para reconocer lo que se cuenta en una noticia, podemos ayudarnos con preguntas como ¿Qué sucedido? ¿A quién le sucedió? ¿Cuándo? ¿Dónde? ¿Por qué? Verdadero.\n4. El docente propone: les voy a decir una frase y ustedes me dicen si puede ser el titular de una noticia o no y por qué.\n● Una oruga se transformó en mariposa. Falso. (No es noticia).\n● Nacieron tortugas marinas en un centro de conservación de animales en peligro de extinción. Verdadero. (Noticia).\n● Un nuevo huracán se aproxima al Caribe. Verdadero. (Noticia).\n● El sol se pone a las seis de la tarde cada día. Falso. (No es noticia)."
+                        },
+                        {
+                            "title": "Momento 3. Las partes de la noticia. Paratextos. Titular, foto y pie de foto",
+                            "description": "Observan la noticia en el fascículo “Rescatan a un solenodonte”. Les recuerda que habían trabajado sobre los titulares de las noticias. Solicita que marquen con el dedo cuál es el titular de esta noticia. También solicita que marquen cuál es el cuerpo de la noticia, la foto y el pie de foto.\nEl docente pregunta: en la noticia escrita, ¿qué aparece que no podemos encontrar en una noticia oral? ¿Qué es? ¿Para qué sirve? Se trata de que identifiquen que la foto y el pie de foto no pueden aparecer en una noticia oral. Abre una conversación sobre la función de la foto y el pie de foto, por ejemplo: cuando vemos la foto, ¿comenzamos a pensar en lo que va a decir la noticia? Si no se entiende mucho la foto, ¿dónde buscamos la explicación?\nEl docente pregunta: la noticia tiene un título, ¿cuál es? ¿Qué dice el título? ¿Sabían qué es un solenodonte? ¿Qué quiere decir que lo “rescataron”? Ahora observen la imagen: ¿Qué vemos en la imagen? ¿Conocían al animal de la foto? ¿Cómo sabemos el nombre del animal de la foto?"
+                        },
+                        {
+                            "title": "Momento 4. Primera lectura",
+                            "description": "El docente lee en voz alta la noticia. Señala en un fascículo cada parte que va a leer. Luego, propone que lean silenciosamente la noticia. Finalmente comentan lo que entendieron de la noticia."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordar cómo escribirla en formato corto, utilizando solo números. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Reflexionan sobre lo trabajado en el día. El docente anticipa que van a dictar el título de la noticia que leyeron: “Rescatan a un solenodonte”. Primero dice las palabras de forma habitual, luego prolongando cada sonido de cada palabra (prolonga o aísla el sonido de cada letra, no de la sílaba). Luego el docente copia el título en la pizarra. Los estudiantes revisan, comparan y corrigen. El docente recorre el aula y revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Cuéntale a un familiar sobre la noticia que leímos acerca del solenodonte y pregúntale si sabe qué es”."
+                },
+                {
+                    "title": "Actividad 7",
+                    "pedagogicalIntention": "Conocen palabras nuevas. Comprenden una noticia.",
+                    "resources": "Diccionario.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente pregunta a los estudiantes si contaron la noticia del solenodonte a un familiar y qué respuestas obtuvieron. Luego, algunos voluntarios resumen brevemente la noticia, destacando qué sucedió y por qué fue importante. Finalmente, el docente muestra la imagen del solenodonte y reflexiona con el grupo sobre cómo la foto ayudó a comprender mejor la noticia."
+                        },
+                        {
+                            "title": "Momento 2. Vocabulario",
+                            "description": "El docente vuelve a leer la noticia del solenodonte. Los estudiantes siguen la lectura en sus fascículos. El docente pide a los estudiantes que levanten la mano cada vez que escuchan una palabra que no comprenden. El docente las escribe en la pizarra, mostrando cómo escribe atentamente, cuidando que estén todas las letras escritas correctamente. Seguramente, identifique palabras como: solenodonte, cautivo, autoridades, mamífero, extinción, nuca, hocico. Para conocer el significado de cada palabra, el docente propone volver a leer la oración donde aparece en el texto e intentan inferir el significado del texto. Entre todos explican su significado. Si no es claro el significado a partir del texto, el docente puede mostrar cómo busca las palabras en el diccionario."
+                        },
+                        {
+                            "title": "Momento 3. Comprensión lectora literal",
+                            "description": "Para comprobar la comprensión lectora, el docente propone preguntas y los estudiantes deben responder. Para cada respuesta, deben mostrar en el texto dónde encuentran la respuesta.\nPreguntas de comprensión literal Respuestas\n¿Qué pasó? Rescataron a un solenodonte.\n¿Quién rescató al solenodonte? El Ministerio de Medio Ambiente dominicano.\n¿Dónde lo encontraron? En la casa de una mujer en la provincia El Seibo.\n¿Qué es un solenodonte? Es un mamífero.\n¿Dónde se encuentra el solenodonte? En Cuba, Haití y República Dominicana.\n¿Qué características tiene el solenodonte? Tiene el cuerpo cubierto de pelos gruesos de color marrón con una pequeña mancha de pelos blancos en medio de la nuca. El hocico es alargado. De la cabeza a la cola puede medir 20 centímetros. Puede pesar hasta un kilo."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordar cómo escribirla en formato corto, utilizando solo números. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Reflexionan sobre lo trabajado en el día. El docente anima a los estudiantes a escribir tres palabras nuevas que aprendieron. El docente recorre el aula y revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: \"Juega con las letras de la palabra 'SOLENODONTE'. Forma nuevas palabras reordenándolas o usando solo algunas de ellas."
+                },
+                {
+                    "title": "Actividad 8",
+                    "pedagogicalIntention": "Comprenden con mayor profundidad la información de la noticia leída.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente inicia preguntando a los estudiantes qué palabras lograron formar con las letras de SOLENODONTE y anota algunas en la pizarra. A medida que comparten sus respuestas, guía la reflexión sobre cómo al reorganizar las letras pueden surgir nuevas palabras. Ejemplos de palabras posibles: sol - lente - no - te. El docente señala que, al combinar las mismas letras de diferentes maneras, obtenemos palabras con significados distintos."
+                        },
+                        {
+                            "title": "Momento 2. Comprensión lectora inferencial",
+                            "description": "El docente plantea preguntas para lograr que los estudiantes realicen análisis inferenciales de la noticia. En este caso son interrogantes más complejos, que precisan de un mayor análisis. Se recomienda que las preguntas se realicen de la siguiente forma:\n- El docente formula la pregunta.\n- Da tiempo para que los estudiantes lean la pregunta en el fascículo y traten de dar la respuesta.\n- Acompaña las respuestas tratando de que los estudiantes empleen sus conocimientos sobre el vocabulario que aprendieron y aportando información adicional.\nPreguntas de comprensión inferencial Información adicional que puede brindar el docente\n¿Por qué el encuentro de este ejemplar es tan importante y se ha convertido en una noticia? Porque se trata de un animal que está en peligro de extinción.\n¿Qué quiere decir que la mujer tenía “cautivo” al solenodonte? Estar en cautiverio significa que no vive libremente en su hábitat natural. Es lo que sucede, por ejemplo, con los animales en los zoológicos, no tienen la posibilidad de desplazarse con libertad. Se recomienda que el docente busque en el diccionario la palabra “cautivo” frente al grupo. Es importante que los estudiantes vean al docente realizando el ejercicio de buscar el significado de palabras en el diccionario. Lee la definición, por ejemplo: “Que vive retenido por fuerza en un lugar”.\n¿Qué quiere decir que una especie está en peligro de extinción? Se considera que una especie está en peligro de extinción cuando corre el riesgo de desaparecer de la faz de la Tierra. Otros animales que están en peligro de extinción son los osos polares y los tigres. Pueden buscar la palabra extinción en el diccionario."
+                        },
+                        {
+                            "title": "Momento 3. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordar cómo escribirla en formato corto, utilizando solo números. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Reflexionan sobre lo trabajado en el día. El docente pregunta: ¿La noticia explica que es correcto tener un solenodonte cautivo? ¿Por qué? ¿Qué opinan? Comentan entre todos. Luego de la conversación, escriben la respuesta en el cuaderno. El docente revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Lee con atención estas palabras de la noticia: mujer - solenodonte - casa - República Dominicana - Cuba - Haití - pelos”."
+                },
+                {
+                    "title": "Actividad 9",
+                    "pedagogicalIntention": "Escriben palabras aprendidas.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente realiza un dictado de las palabras que debían leer en la tarea del hogar. Se puede realizar en el cuaderno. Entre todos revisan la correcta escritura al dictado. Si tienen dudas con alguna palabra, se puede escribir usando las tarjetas de letras. Durante la revisión, el docente guía una reflexión sobre algunos aspectos ortográficos clave:\n● Uso de mayúsculas en nombres propios, destacando que República Dominicana, Cuba y Haití llevan mayúscula porque son nombres de países.\n● La letra \"H”, resaltando que Haití lleva \"h\", aunque no se pronuncia. Brinda ejemplo de otras palabras que llevan H.\n● La \"B\" y la \"V”, explicando que, aunque suenan igual, solo podemos saber cuál usar observando la palabra escrita, como en República y Cuba.\nOrientaciones específicas al docente: Para analizar y abordar los errores más frecuentes en el aprendizaje de la lectura y escritura, el docente puede revisar el apartado \"Todos los estudiantes cometen los mismos errores cuando aprenden a leer y escribir\" en la Guía teórica páginas 27 a 30."
+                        },
+                        {
+                            "title": "Momento 2. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordar cómo escribirla en formato corto, utilizando solo números. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. El docente anticipa que van a hacer una actividad de escritura de palabras al dictado. Organiza grupos de estudiantes. Cada integrante del grupo elige una palabra para dictarle al resto del grupo. Pueden ser palabras o frases. Las escriben en hojas sueltas con líneas y luego las comparan con el texto original (la noticia). El docente circula por los grupos y revisa las escrituras. Al finalizar, los grupos leen en voz alta las palabras dictadas y el docente las escribe en la pizarra."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Si tuvieras que describir un solenodonte a alguien, ¿cómo lo harías? Escribe tu respuesta”."
+                },
+                {
+                    "title": "Actividad 10",
+                    "pedagogicalIntention": "Identifican sustantivos y adjetivos.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente invita a los estudiantes a compartir cómo describieron al solenodonte. Luego, releen el segundo y tercer párrafo de la noticia “Rescatan a un solenodonte” para recordar sus características. A medida que los estudiantes mencionan las descripciones, el docente las escribe en la pizarra, resaltando los sustantivos y adjetivos utilizados, por ejemplo: cuerpo grueso, hocico alargado, pelos marrones. Finalmente, el grupo reflexiona sobre la importancia de usar adjetivos para dar detalles claros en una descripción y completar la información."
+                        },
+                        {
+                            "title": "Momento 2. Sustantivos y adjetivos",
+                            "description": "El docente explica que algunas palabras nombran objetos, animales o personas, mientras que otras describen sus características. Por ejemplo: La jirafa es alta, La botella es de vidrio, El cuaderno es de papel, La pizarra es grande. Luego, los estudiantes aportan más ejemplos.\nA continuación, el docente introduce los términos: sustantivo (nombres de cosas, animales o personas) y adjetivo (palabras que indican cómo son esas cosas). Para reforzar el concepto, propone un juego: menciona palabras al azar y los estudiantes deben sentarse si es un sustantivo (mesa, león, montaña) y pararse si es un adjetivo (grande, suave, alto)."
+                        },
+                        {
+                            "title": "Momento 3. Actividad n.º 10 del fascículo",
+                            "description": "En parejas, completan el cuadro con la palabra que falta (un adjetivo o un sustantivo). Luego, se realiza una revisión colectiva de la actividad."
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordarla y escribirla en formato corto, utilizando solo números. Si lo considera oportuno, pueden incluir también el nombre del día o del mes. Al finalizar la actividad, el docente propone una breve puesta en común para recuperar lo trabajado, con preguntas como: ¿Qué aprendimos hoy? ¿Qué entienden por sustantivo? ¿Pueden mencionar algunos sustantivos que vimos? ¿Qué entienden por adjetivo? ¿Recuerdan alguno? El docente anima a escribir la palabra “Sustantivo” y la palabra “Adjetivo” y escribir un ejemplo para cada uno."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Añade un adjetivo a estos sustantivos, basándote en la información leída en la noticia: Hocico ________ Pelos _____________ Macha ___________"
+                }
+            ]
+        },
+        {
+            "blockNumber": 3,
+            "title": "Bloque 3 - Producción de Noticias",
+            "activities": [
+                {
+                    "title": "Actividad 11",
+                    "pedagogicalIntention": "Juegan al crucigrama y a encontrar palabras.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente invita a los estudiantes a compartir los adjetivos que agregaron a los sustantivos en la tarea. Escribe en la pizarra algunas de sus respuestas y las compara con la información de la noticia. Luego, revisan juntos las opciones correctas, destacando cómo los adjetivos aportan detalles importantes."
+                        },
+                        {
+                            "title": "Momento 2. Juegos en el fascículo",
+                            "description": "El docente anticipa que será un día de juegos. Buscan la actividad n.º 11 de fascículo. Explica que deben resolver un crucigrama y encontrar las palabras correctas de los animales. Pueden trabajar en parejas.\nPalabras del crucigrama: solenodonte - Dominicana - cabeza - casa\nPalabras entre distractores (animales): oveja - abeja - jirafa - vaca - caracol"
+                        },
+                        {
+                            "title": "Momento 3. Puesta en común y reflexión",
+                            "description": "Una vez que todos han terminado, se realiza una puesta en común, donde el docente resuelve el crucigrama en la pizarra con la participación de los estudiantes. Juntos verifican las respuestas, corrigen si es necesario y refuerzan la ortografía de palabras complejas (por ejemplo, la palabra “cabeza”). Luego resuelven la identificación del nombre del animal entre distractores. Leen en voz alta las opciones."
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordarla y escribirla en formato corto, utilizando solo números. Si lo considera oportuno, pueden incluir también el nombre del día o del mes. Propone una breve puesta en común para recuperar lo trabajado, con preguntas como: ¿Qué aprendimos hoy? ¿Les gustaron los juegos del fascículo? ¿Qué palabras escribieron? El docente anima a escribir las dos palabras qué más les gustaron del crucigrama."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Cuéntales a tus familiares los juegos que hicimos hoy. Explícales qué es un crucigrama."
+                },
+                {
+                    "title": "Actividad 12",
+                    "pedagogicalIntention": "Crean noticias de forma escrita y oral.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente inicia la actividad preguntando a los estudiantes si contaron a sus familiares sobre los juegos realizados en clase y cómo les explicaron qué es un crucigrama. Invita a algunos voluntarios a compartir sus respuestas."
+                        },
+                        {
+                            "title": "Momento 2. Plan para escribir una noticia",
+                            "description": "El docente propone crear un espacio en el centro educativo para compartir noticias de la comunidad y/o de la escuela. Se trata de un espacio de acceso común a todos (por ejemplo, una cartelera en el patio o en la puerta de entrada del centro), donde se cuelguen papelógrafos con las noticias que ellos van a escribir de forma colectiva: una noticia de la escuela o la comunidad. Pueden escribir la noticia que habían seleccionado en la Actividad 4 para transmitir en forma oral, o pensar una nueva. El docente anima a pensar posibles temáticas para las noticias que sean de interés para la comunidad. Recuerda que las noticias son relatos de hechos reales, con lo cual no es posible “inventar” noticias. El docente toma nota en la pizarra de los posibles hechos de interés en la comunidad educativa a ser desarrollados en las noticias."
+                        },
+                        {
+                            "title": "Momento 3. Selección de tema y conversación sobre el contenido",
+                            "description": "El docente organiza la clase en pequeños grupos. Cada grupo acuerda sobre qué tema van a escribir la noticia. Leen las orientaciones del fascículo para la producción de una noticia. Deben escribir el tema de la noticia. Luego conversar sobre qué, cómo, cuándo, dónde y a quién le pasó. Para finalizar la tarea, piensan y escriben el titular.\nRecorrido docente: El docente ayuda a leer y comprender los textos y mandatos. Verifica las escrituras. Acompaña a los estudiantes que necesiten más apoyo. Además promueve el siguiente análisis ¿Este titular responde al cuerpo de la noticia? ¿Es corto y expresa la idea principal? ¿Empieza con mayúscula? ¿Hay separación de palabras? ¿Falta alguna letra en alguna de las palabras del título? ¿Hay algún error de ortografía? Los ayuda a controlar la correcta escritura del titular."
+                        },
+                        {
+                            "title": "Momento 4. Puesta en común",
+                            "description": "Cada grupo tiene que contar de forma oral la noticia al resto de los compañeros. Entre todos controlan que la información brindada de forma oral responda a todos los interrogantes."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordarla y escribirla en formato corto, utilizando solo números. Si lo considera oportuno, pueden incluir también el nombre del día o del mes. Propone una breve puesta en común para recuperar lo trabajado y aprendido. Luego explica que van a escribir una oración que resuma lo realizado, por ejemplo: “Hoy planificamos la noticia a escribir.” el docente dicta palabra por palabra, prolongando los sonidos. Luego la escribe en la pizarra. Los estudiantes revisan, comparan y corrigen. El docente ayuda a quienes más lo necesitan."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Dibuja una imagen que represente la noticia y escribe un pie de foto que la describe.”"
+                },
+                {
+                    "title": "Actividad 13",
+                    "pedagogicalIntention": "Escriben el cuerpo de la noticia.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente invita a los estudiantes a mostrar sus dibujos y leer en voz alta el pie de foto que escribieron. A medida que los comparten, se reflexiona sobre si la imagen representa correctamente la noticia y si el pie de foto brinda información clara y relevante."
+                        },
+                        {
+                            "title": "Momento 2 Escritura del cuerpo de la noticia",
+                            "description": "Los estudiantes comienzan a redactar la noticia en grupo. Usan hojas sueltas con líneas. Piensan entre todos los miembros del grupo: cómo contar el suceso. Van acordando cada frase. Cada grupo entrega sus hojas sueltas con líneas al docente.\nRecorrido docente: Recorre los grupos revisando cómo escriben. Observa que todos participen. Colabora con los que tienen dificultades ayudándolos a escribir algunas palabras. Para hacerlo, selecciona una palabra que quieran escribir y los ayuda a armarla con tarjetas de letras. Controla que tengan todas las letras en orden y dirección correcta.\nOrientaciones específicas para el docente: La revisión de borradores debe contemplar que el texto:\n- Responda a todas las preguntas de la noticia (qué; cómo; a quiénes; dónde; cuándo y por qué).\n- Tenga coherencia y concordancia.\n- Respete las convencionalidades de la escritura.\nEl docente puede revisar en la Guía teórica el apartado “Escritura de un texto con y sin ayuda”, páginas 43 a 45, donde encontrará elementos para gestionar didácticamente el trabajo con borradores y la revisión."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordarla y escribirla en formato corto, utilizando solo números. Si lo considera oportuno, pueden incluir también el nombre del día o del mes. Propone una breve puesta en común para recuperar lo trabajado y aprendido. Luego explica que van a escribir una oración que resuma lo realizado. El docente dicta palabra por palabra, prolongando los sonidos. Luego la escribe en la pizarra. Los estudiantes revisan, comparan y corrigen. El docente ayuda a quienes más lo necesitan."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “\"Cuéntales a tus familiares sobre la noticia que creaste en clase y explícale de qué trata.\""
+                },
+                {
+                    "title": "Actividad 14",
+                    "pedagogicalIntention": "Mejoran la escritura a través de la revisión.",
+                    "resources": "Hojas sueltas con líneas.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente inicia preguntando a los estudiantes si contaron a sus familiares sobre la noticia creada en clase y cómo la explicaron."
+                        },
+                        {
+                            "title": "Momento 2. Devolución de borradores",
+                            "description": "El docente escribe en la pizarra las oraciones de los borradores que presentaban los siguientes problemas. Les hace ver los problemas y todos los corrigen en la pizarra:\n- Falta de mayúscula inicial y punto final.\n- Incorrecta separación de palabras.\n- Contenido confuso: ideas incompletas que no responden a la pregunta que quieren contestar, falta de concordancia en sustantivos y adjetivos y en el verbo de las oraciones.\nEl docente devuelve los borradores corregidos. Los grupos revisan las correcciones."
+                        },
+                        {
+                            "title": "Momento 3. Escritura del vocabulario en el cuaderno",
+                            "description": "El docente realiza una selección de seis palabras que hayan presentado dificultad en su escritura y que hayan necesitado una revisión. Pueden ser de los titulares, de la entradilla o del cuerpo de las noticias. Las escribe de forma correcta en el pizarrón. Las lee. Los estudiantes escriben en el cuaderno: Título: Vocabulario y copian las palabras de la pizarra en sus cuadernos."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Practica la escritura de las palabras que escribimos hoy en el cuaderno”."
+                },
+                {
+                    "title": "Actividad 15",
+                    "pedagogicalIntention": "Escriben la versión final de las noticias.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar: Dictado de palabras",
+                            "description": "El docente dicta las palabras (también puede dictar una pequeña frase) de las que revisaron en actividades anteriores de forma colectiva. Escriben en el cuaderno. Revisan sus dictados de forma compartida."
+                        },
+                        {
+                            "title": "Momento 2. Escritura de versión final de las noticias",
+                            "description": "Los grupos escriben la versión definitiva de sus noticias en hojas sueltas con líneas que luego pegarán en un papelógrafo para exhibirlas. Colectivamente revisan la escritura. Luego leen las noticias en voz alta."
+                        },
+                        {
+                            "title": "Momento 3. Publicación y divulgación",
+                            "description": "Invitan al resto de la comunidad educativa a leer o escuchar las noticias."
+                        },
+                        {
+                            "title": "Momento 4. Conversación. Reflexión metacognitiva",
+                            "description": "El docente conversa con los estudiantes acerca de lo que aprendieron en la secuencia. Por ejemplo: ¿Habían leído noticias anteriormente? ¿Creían que podían escribir noticias? ¿Qué les gustó más? ¿Qué les causó más dificultad? A partir de la reflexión metacognitiva, entre todos revisan el papelógrafo de aprendizajes. Verifican si han cumplido las metas."
+                        }
+                    ],
+                    "homework": ""
+                }
+            ]
+        }
+    ]
+}

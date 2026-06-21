@@ -1,0 +1,375 @@
+{
+    "sequenceId": "seq-mat-1-1ro",
+    "subjectId": "matematica-1ro",
+    "sequenceTitle": "¿Cuántos hay?",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1: Contamos y reconocemos cantidades",
+            "activities": [
+                {
+                    "title": "Actividad de Bienvenida",
+                    "pedagogicalIntention": "Familiarizar a los estudiantes con las estrategias y actividades a desarrollar durante el año escolar.",
+                    "resources": "fichas de dominó recortables del fascículo en la actividad de bienvenida. Calendario para el salón de clases. Dos papelógrafos en blanco. Por cada estudiante: 1 tarjeta o rectángulo en blanco de 7 cm x 10 cm de la actividad de bienvenida del fascículo previamente recortadas y guardadas por el docente.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Conversar sobre el trabajo en Matemática este año.",
+                            "description": "El docente realiza las siguientes preguntas a todo el grupo, de a una por vez: ¿qué imaginan que van a trabajar en Matemática durante este año? ¿Qué es lo que más les gusta de Matemática? ¿Qué les gustaría hacer en las clases de Matemática? ¿Cómo podemos ayudar para que todos puedan aprender en las clases de Matemática? Se pide a los estudiantes que cuenten sus experiencias del nivel inicial si las tuvieran. A partir de lo que ellos dicen, se resume diciendo: aprenderán a leer y a escribir los números, a resolver problemas de acontecimientos de todos los días, a medir largos o anchos, a trabajar con datos y gráficos y cómo se llaman algunas formas. Para aprender esto es importante que todos estén convencidos que pueden aprender Matemática porque todos podemos aprenderla. Se habla con ellos de la importancia de que todos trabajen, que aprendan a hacerlo en grupo, a respetar lo que dicen los compañeros y a ayudarse entre ellos. También que, si tienen dudas o no entienden, que pregunten."
+                        },
+                        {
+                            "title": "Momento 2. Recitar la serie numérica.",
+                            "description": "El docente pregunta: ¿dónde ustedes ven los números? ¿Saben contar? ¿Quién se anima a decir o recitar los números? Yo empiezo, ¿quiénes me siguen? Uno, dos, tres, ... El docente registra: hasta qué número enuncian o recitan, a partir de qué momento confunden el orden y dejan de contar, si pueden continuar si se les dice el número que los traba (por ejemplo 20, 30, etc.). Luego los invita a determinar cuántos son en el salón. Para ello, se empieza por un estudiante y a continuación siguen en orden el resto. Cuando no saben cómo seguir, un compañero puede ayudar o sino continúa el docente."
+                        },
+                        {
+                            "title": "Momento 3. Quiénes cumplen años este mes.",
+                            "description": "El docente pregunta: ¿quiénes cumplen años ese mes? Se le pide a cada cumpleañero que pase a ubicar su fecha en el calendario, si no puede hacerlo solo, algún compañero lo ayuda. Se les pregunta cómo ubican el número. Luego, el docente escribe los nombres y las fechas de cumpleaños del mes en un papelógrafo. En esta oportunidad esto se hará en este primer día de clase y, luego, se repetirá al inicio de cada mes. Una vez escritos los cumpleaños se preguntará en función de ellos: ¿quién cumple primero este mes? ¿Y quién último? ¿Cómo se dan cuenta? ¿Quién cumple entre el 4 y el 12? Esto se realizará al comenzar cada mes colocando el calendario correspondiente en un lugar visible."
+                        },
+                        {
+                            "title": "Momento 4. Repartir material.",
+                            "description": "Se le pide a un estudiante que reparta una tarjeta (o rectángulo de papel en blanco) a cada uno de sus compañeros para que allí escriban el número más grande que conocen. Si no saben escribir ningún número, pueden copiarlo del calendario y un compañero les dice cómo se lee si no lo conocen. Luego se indica que cada uno pegue en un papelógrafo la tarjeta con el número escrito y lo lea en voz alta. Si no puede hacerlo, otro estudiante puede ayudarlo y, en última instancia, lo hace el docente.\nCada día, rotativamente, un estudiante será responsable de entregar los materiales a los compañeros. Para hacerlo, debe respetar como condición que tiene que separar el total a utilizar antes de entregarlo, es decir, que no está habilitada la correspondencia 1 a 1 (buscar 1 hoja y entregarla a un estudiante, buscar otra hoja y entregarla a otro, etc.). Esto lo obligará a contar en primera instancia a cuántos compañeros tiene que entregarle material y luego volver a contar esa cantidad de elementos a repartir. Se propicia así el establecimiento del uso del número como memoria de cantidad. Eventualmente, si no usa números deberá buscar otras estrategias para memorizar la cantidad. Esto se logra si se plantea que se debe separar de una sola vez el total de elementos a distribuir."
+                        },
+                        {
+                            "title": "Momento 5. Contar dedos hasta 10.",
+                            "description": "El docente muestra algunos dedos levantados y los estudiantes tienen que decir cuántos son, luego son ellos, de a uno, los que muestran dedos levantados y todo el grupo y el docente dicen qué número se vincula con esa cantidad. Utilizará una o las dos manos (a 5 o a 10 dedos) según las características del grupo que tenga."
+                        },
+                        {
+                            "title": "Momento 6. Jugar al dominó.",
+                            "description": "El docente reúne a todo el grupo y pregunta si conocen el juego del dominó y los invita a conformar equipos de 4. Mientras se acomodan, reparte a cada grupo un juego de dominó. Cuando todos tienen las fichas, pregunta: ¿Alguno sabe cómo se juega? Si es así, le pide que lo explique a los compañeros y puntualiza lo que no quedó claro. Si no conocen el juego, debe prever un tiempo de exploración de las fichas (cómo son las fichas, cuál es el total de puntos que se muestran por lado de cada ficha, cuántos puntos muestran, que hay fichas dobles). Jugarán bajo las reglas estándar del dominó."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 1",
+                    "pedagogicalIntention": "Resuelvan problemas en los que utilicen el conteo, identificando cuántos elementos le faltan a una colección para tener la misma cantidad que otra.",
+                    "resources": "papelógrafo de aprendizaje previamente escrito. Imagen de la actividad 1 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Contar y anotar como pueda cuántos platos necesitamos poner en la mesa para el almuerzo en casa.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes.",
+                            "description": "Se conversa con los estudiantes sobre lo que van a trabajar en las próximas clases, mostrándoles dónde dice lo que se va leyendo sobre contar, conocer números del 1 al 10, comparar, ordenar y completar colecciones."
+                        },
+                        {
+                            "title": "Momento 2. Cardinalizar y contar.",
+                            "description": "Se organiza a los estudiantes en parejas para resolver problemas de mesa de almuerzo. Se pregunta: ¿qué falta para que todos tengan su plato y su vaso? Se invita a los grupos a resolver y registrar en el fascículo o cuaderno. Se analizan las producciones colectivamente."
+                        },
+                        {
+                            "title": "Momento 3. Completar una colección.",
+                            "description": "Resolución individual: dibujar en el cuaderno una fruta para cada integrante de la familia del dibujo. Se observa cómo establecen correspondencias y si usan conteo hasta 5."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización.",
+                            "description": "Preguntas de cierre sobre cómo asegurar que todos tengan lo necesario y cómo contar con cuidado asignando un solo objeto para cada persona."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 2",
+                    "pedagogicalIntention": "Desarrollen habilidades de conteo de elementos concretos a partir de reproducir una colección dada.",
+                    "resources": "tablero con 15 casilleros de la actividad 2 del fascículo y una caja con unas 20 semillas o tapitas por estudiante. Para cada grupo de 4 estudiantes: un dado.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Anotar en cada dado los puntos que te hubiera gustado sacar en el juego. Marcar en las casillas de abajo tantas “X” como indican los puntos del dado en cada tirada. Colocar una sola “X” por casilla.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Comentario sobre cuántos platos pusieron en la mesa y cómo lo registraron."
+                        },
+                        {
+                            "title": "Momento 2. Reproducir una colección.",
+                            "description": "Juego: Completar el tablero. Cada jugador tira el dado y coloca tantas semillas como puntos indica el dado en su tablero. Gana quien complete primero su tablero de 15 casillas."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "Conversación sobre cómo supieron cuántas semillas poner y cómo asegurar la igualdad de cantidad entre dados y semillas. Sínteis de procedimientos compartidos."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 3",
+                    "pedagogicalIntention": "Cuenten, expresen cuántos hay y establezcan correspondencias entre colecciones.",
+                    "resources": "4 imágenes de dados y casillas del cuadro de la actividad 3 del fascículo.",
+                    "homework": "Título: Tantos como. Recortar del fascículo y pegar en el cuaderno: Dibujar en los casilleros tantas semillas como indican los dados juntos. Sólo se puede poner una semilla en cada casillero. Dibujar entre los dos dados tantos puntos como semillas hay.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Comentario sobre las X dibujadas y cómo evitar errores de conteo."
+                        },
+                        {
+                            "title": "Momento 2. Correspondencia y conteo de colecciones.",
+                            "description": "Resolución directa en el fascículo: colocar semillas según los puntos de los dados. Observación docente de estrategias de conteo y correspondencia."
+                        },
+                        {
+                            "title": "Momento 3. Relacionar cantidades.",
+                            "description": "Actividad inversa: dada una cantidad de semillas, dibujar los posibles puntos en los dados que sumen esa cantidad (ej: 7 semillas -> 4 y 3, 5 y 2, etc.)."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 4",
+                    "pedagogicalIntention": "Cuenten y establezcan correspondencia entre colecciones.",
+                    "resources": "actividad 4 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Dibujar una fruta para cada miembro de la familia de la imagen.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Intercambio de fascículos para revisión entre compañeros."
+                        },
+                        {
+                            "title": "Momento 2. Completar colecciones de hasta 7 elementos.",
+                            "description": "Dibujo de platos y vasos para una familia de seis niños y su madre (total 7). Registro en el cuaderno siguiendo el título 'Preparar la mesa'."
+                        },
+                        {
+                            "title": "Momento 3. Comparar cantidades.",
+                            "description": "Situación con comida preparada en otra mesa: ¿Alcanza para que cada uno coma dos porciones? ¿Alcanzan los tenedores? Análisis de suficiencia y justificación de conclusiones."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 5",
+                    "pedagogicalIntention": "Representen cantidades y escriban números.",
+                    "resources": "actividad 5 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Anotar en la lista la cantidad de esa fruta que te gustaría comprar.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Dibujo en pizarra por un estudiante y validación colectiva de la cantidad de frutas."
+                        },
+                        {
+                            "title": "Momento 2. Registrar cantidades.",
+                            "description": "Lista de compras dictada: sandía (1), cocos (2), piñas (3), mangos (4), manzanas (5), guineos (6). Los estudiantes registran con marcas o números."
+                        },
+                        {
+                            "title": "Momento 3. Escribir los números hasta el 6.",
+                            "description": "Identificación en la banda numérica de la pared y escritura sistemática en el cuaderno del 1 al 6."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 6",
+                    "pedagogicalIntention": "Establezcan correspondencias entre colecciones de elementos y los números del 1 al 10, y escriban en forma ordenada dicha serie.",
+                    "resources": "papelógrafo para el aula, tira en blanco para banda numérica, actividad 6 y banda recortable.",
+                    "homework": "Título: Los números. Recortar del fascículo y pegar en el cuaderno: Unir con una línea cada canasta con el número que corresponda.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Indagación sobre por qué usaron números o marcas para representar cantidades."
+                        },
+                        {
+                            "title": "Momento 2. Reconocer y escribir numerales.",
+                            "description": "Completar cantidad de melones, piñas y manzanas en una canasta. Uso de cruz para evitar repetir conteo."
+                        },
+                        {
+                            "title": "Momento 3. Completar colecciones.",
+                            "description": "Dibujar frutas según el número indicado en 4 canastas diferentes. Validación colectiva en pizarra."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización.",
+                            "description": "Elaboración conjunta de banda numérica hasta el 10. Recitado ascendente y descendente."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 7",
+                    "pedagogicalIntention": "Establezcan relaciones de orden en colecciones y comparen cantidades.",
+                    "resources": "10 tarjetas recortables por estudiante. Actividad 7 del fascículo.",
+                    "homework": "Título: El mayor. Recortar del fascículo y pegar en el cuaderno: Explicar el juego a alguien en su hogar e invitarlo a jugar. Encerrar quién ganó en las rondas de Ana y Juan.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Validación de canastas unidas a números. Recitado del 10 al 1 usando la banda."
+                        },
+                        {
+                            "title": "Momento 2. Comparar números para determinar cuál es mayor.",
+                            "description": "Juego: El mayor. En parejas, voltean cartas simultáneamente y quien tiene el número mayor se lleva ambas. Uso de la banda para verificar cuál está más lejos del 1."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "Discusión sobre validez de estrategias: contar dibujos vs. mirar orden en la banda numérica."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 8",
+                    "pedagogicalIntention": "Identifiquen números mayores y menores en colecciones gráficas o numéricas.",
+                    "resources": "actividad 8 del fascículo.",
+                    "homework": "Título: Antes y después. Recortar del fascículo y pegar en el cuaderno: Completar el anterior y el siguiente de cada número (76, 34, 51, 88, 47).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Comentario sobre quién ganó en las rondas de la tarea y cómo lo supieron."
+                        },
+                        {
+                            "title": "Momento 2. Relaciones de mayor y menor.",
+                            "description": "Comparación de tarjetas de Teresa/Jorge y completar tarjetas vacías para que Ana gane a Andrés (introducción a la idea de múltiples respuestas correctas)."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "Escritura de números menores que 6 y mayores que 4. Destacar que una pregunta puede tener varias respuestas válidas."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 9",
+                    "pedagogicalIntention": "Repasen contenidos trabajados.",
+                    "resources": "banda numérica visible en el aula. Actividad 9 del fascículo.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Completar series en pizarra y verificar con la banda numérica."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Revisión sistemática de actividades y marcado en el papelógrafo de aprendizajes."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido.",
+                            "description": "Recitado ascendente y descendente en parejas. Resolución de problemas del mayor y completar tarjetas para que se cumpla una condición de derrota/victoria."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2: Relacionamos cantidades y números",
+            "activities": [
+                {
+                    "title": "Actividad 10",
+                    "pedagogicalIntention": "Ordenen y escriban los números del 1 al 10.",
+                    "resources": "trúcamelo o peregrina dibujado en el patio, piedras o chapitas. Actividad 10 del fascículo.",
+                    "homework": "Título: Trúcamelo o La peregrina. Recortar y pegar: Dibujar un trúcamelo en casa o barrio e invitar a alguien a jugar.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recitado del 1 al 10 ascendente.",
+                            "description": "Juego: Trúcamelo. Brincar en un pie diciendo los números que se pisan. El docente cuida la correspondencia palabra-número-pisada."
+                        },
+                        {
+                            "title": "Momento 2. Conteo oral regresivo del 10 al 1.",
+                            "description": "Recorrido del trúcamelo al revés (del 10 al 1). Reflexión sobre la dificultad mayor de contar hacia atrás."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 11",
+                    "pedagogicalIntention": "Identifiquen y completen series numéricas ascendentes y descendentes.",
+                    "resources": "actividad 11 del fascículo, bandas numéricas de los alumnos.",
+                    "homework": "Título: Del 1 al 10. Recortar y pegar: Completar los números que faltan.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Conversación sobre experiencias de juego en el hogar."
+                        },
+                        {
+                            "title": "Momento 2. Completar la secuencia numérica hasta el 10.",
+                            "description": "Completar trúcamelos que solo tienen dos números escritos. Uso de la banda personal para apoyo. Corrección de números en espejo."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 12",
+                    "pedagogicalIntention": "Cuenten, comparen y registren cantidades.",
+                    "resources": "actividad 12 del fascículo.",
+                    "homework": "Título: A completar. Recortar y pegar: Completar series de cartas ordenadas.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Validación de trúcamelos completados en pizarra."
+                        },
+                        {
+                            "title": "Momento 2. Orden ascendente.",
+                            "description": "Completar números y dibujos (pollitos) en tarjetas ordenadas de menor a mayor."
+                        },
+                        {
+                            "title": "Momento 3. Orden descendente.",
+                            "description": "Completar tarjetas ordenadas de mayor a menor. Comparación de dificultad entre ambos tipos de orden."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 13",
+                    "pedagogicalIntention": "Establezcan correspondencia entre la escritura simbólica y las cantidades que representan.",
+                    "resources": "11 tapitas (una marcada), un dado, papelógrafo de series de cartas. Actividad 13.",
+                    "homework": "Recortar y pegar situación de Ada y Raúl: ¿Quién ganó? ¿Quién sacó menos? ¿Total entre los dos?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Verificación de series de tarjetas usando la banda numérica."
+                        },
+                        {
+                            "title": "Momento 2. Registrar y reunir cantidades.",
+                            "description": "Juegos: 'Vuelan las tapitas' y 'Lanzando dados'. Realizan dos lanzamientos y registran el total. Puesta en común sobre formas de registro (palitos vs números)."
+                        },
+                        {
+                            "title": "Momento 3. Comparar números.",
+                            "description": "Análisis de puntajes de otros grupos (Irene, Rosario, Hugo...). Colorear quién ganó según los números escritos (8, 7, 9...)."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización.",
+                            "description": "Relación entre cercanía al 1 (menor) y lejanía del 1 (mayor) en la banda numérica."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 14",
+                    "pedagogicalIntention": "Resuelvan problemas de averiguar el total cuando se juntan o reúnen cantidades.",
+                    "resources": "mazo de cartas del 1 al 5 por estudiante, banda numérica, semillas/tapitas. Actividad 14.",
+                    "homework": "Recortar y pegar: Anotar total de cartas sacadas, pintar menor puntaje y ganador. Gana el menor puntaje.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Análisis de quién sacó menos entre Ada y Raúl (5 vs 8)."
+                        },
+                        {
+                            "title": "Momento 2. Escribir números. Reunir dos cantidades.",
+                            "description": "Juego: Gana el menor score. Sacan dos cartas (caramelos), obtienen total y comparan. El que tiene el total menor gana la ronda."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "Verbalización de que para hallar el total hay que contar todos los elementos reunidos."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 15",
+                    "pedagogicalIntention": "Repasar contenidos trabajados.",
+                    "resources": "2 latas/cajas, 10 tapitas/bollitos de papel, banda numérica. Actividad 15.",
+                    "homework": "Título: Hoy sumamos. Recortar y pegar: Escribir puntaje total y cálculo (ej: 4+3=7) para estudiantes que embocaron.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Repaso de cómo obtener el total de dos cantidades."
+                        },
+                        {
+                            "title": "Momento 2. Presentar la suma y los signos + e =.",
+                            "description": "Juego: Gana el mayor (emboque). Registro de tapitas en cada lata. Introducción formal de la palabra SUMA y los signos + y = vinculándolos a reunir cantidades."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 16",
+                    "pedagogicalIntention": "Reciten los números del 1 al 10 y establezcan la correspondencia con su escritura.",
+                    "resources": "actividad 16 del fascículo.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Escritura de cálculos completos (ej: 5+4=9) en la pizarra."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué estudiaron en este bloque?",
+                            "description": "Revisión sistemática desde la actividad 10 y marcado en el papelógrafo de aprendizajes."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido.",
+                            "description": "Contar dulces en bolsas, escribir serie ordenada al 10 y otros números conocidos. Validación colectiva."
+                        },
+                        {
+                            "title": "Momento 4. Metacognición.",
+                            "description": "Conversación sobre qué gustó más y qué costó más trabajo aprender."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

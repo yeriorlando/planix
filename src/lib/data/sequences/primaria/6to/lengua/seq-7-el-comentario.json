@@ -1,0 +1,399 @@
+{
+  "id": "seq-1772114511750",
+  "title": "El comentario",
+  "description": "Los estudiantes aprenden a argumentar, justificar ideas y organizar puntos de vista. Promueve la reflexión crítica y el uso adecuado del lenguaje para opinar.",
+  "order": 7,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772114511745",
+      "sequence_id": "seq-1772114511750",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión oral - Pre-escucha y exploración",
+      "intencion_pedagogica": "Activar conocimientos previos sobre programas infantiles, explorar el personaje de Bob Esponja y realizar una primera aproximación al comentario audiovisual.",
+      "estrategia": "• Uso de imágenes: Presentación de personajes de caricaturas.\n• Diálogo dirigido: Exploración de programas favoritos.\n• Proyección de video (o lectura dramatizada): Comentario sobre Bob Esponja.\n• Preguntas intercaladas durante la proyección.",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre sus programas de televisión favoritos y los personajes que admiran, conectando así el contenido académico con su cultura mediática y preferencias personales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar un solo aspecto durante la proyección (ej: los personajes mencionados).\n• Para estudiantes kinestésicos: Se les invita a dibujar a Bob Esponja mientras escuchan el comentario.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción impresa del comentario para que puedan seguir la lectura.\n• Para estudiantes avanzados: Se les pide que investiguen quién es Stephen Hillenburg (creador de Bob Esponja).",
+      "actividades_cuaderno": "Escribir el nombre de su programa de televisión favorito y dar una razón por la que les gusta.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imagen de Bob Esponja\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente inicia un diálogo sobre las caricaturas o programas infantiles que los estudiantes acostumbran ver (pág. 108).\n2. Pregunta cuáles son las que más y menos les gustan, y por qué.\n3. Muestra una imagen de Bob Esponja (pág. 108).\n4. Formula preguntas:\n- \"¿De quién se trata?\"\n- \"¿Cómo es?\"\n- \"¿Dónde lo han visto?\"\n- \"¿Les gusta esa serie? ¿Por qué?\"\n- \"¿Alguien ha visto la película 'Un héroe fuera del agua'? ¿Puedes contarnos de qué trata?\"\n5. Si algún estudiante no conoce el personaje, el docente aprovecha para que los demás compartan información.",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 108)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Video o transcripción del comentario (págs. 109-110)\n• Proyector/TV\n• Computadora\n• Parlantes",
+          "descripcion": "1. Si dispone de recursos, el docente proyecta el video \"Opinión (Bob Esponja: Un héroe fuera del agua)\" disponible en: https://youtu.be/pY6ANn7mQM (pág. 108).\n2. Si no hay recursos, lee la transcripción del texto (pág. 109-110).\n3. Informa que la proyección (o lectura) será interrumpida ocasionalmente para facilitar la comprensión.\n4. Primer segmento (primer párrafo): Reproduce o lee el primer párrafo del comentario. Detiene y pregunta:\n- \"¿De qué creen que tratará este comentario?\"\n- \"¿Qué se dice de Bob Esponja?\"\n5. Segundo segmento (segundo párrafo): Continúa con el segundo párrafo. Pregunta:\n- \"¿Qué opinión tiene el comentarista sobre la película?\"\n- \"¿Están de acuerdo con lo que dice hasta ahora?\"",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 108-109)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente recoge las primeras impresiones de los estudiantes sobre el texto escuchado.\n2. Formula preguntas finales: \"¿Les pareció interesante lo que dijo el comentarista?\", \"¿Creen que un comentario siempre tiene que estar de acuerdo con lo que uno piensa?\"\n3. Anuncia que en la próxima clase continuarán analizando el comentario en profundidad.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772121552864",
+      "sequence_id": "seq-1772114511750",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión oral - Análisis",
+      "intencion_pedagogica": "Analizar en profundidad el comentario sobre Bob Esponja, identificando la tesis u opinión principal y los argumentos que la sostienen.",
+      "estrategia": "• Re-proyección del video (o relectura).\n• Preguntas de comprensión detallada.\n• Identificación de tesis y argumentos.\n• Trabajo individual y socialización.",
+      "aprendizaje_significativo": "Los estudiantes descubren que los comentarios expresan opiniones personales y que esas opiniones se apoyan en argumentos, una estructura que ellos mismos usan cuando defienden sus puntos de vista.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una copia del texto con la tesis ya señalada.\n• Para estudiantes kinestésicos: Pueden representar con gestos la diferencia entre un hecho y una opinión.\n• Para estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.\n• Para estudiantes avanzados: Se les pide que escriban su propio comentario sobre su programa favorito (solo un párrafo).",
+      "actividades_cuaderno": "Título: La estructura del comentario\n1. ¿Qué es la tesis en un comentario?\n2. ¿Qué son los argumentos?\n3. Escribe la tesis del comentario sobre Bob Esponja y al menos dos argumentos que usó el comentarista.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan el comentario sobre Bob Esponja que escuchamos la clase pasada? ¿De qué opinión trataba?\"\n2. Anuncia que hoy analizarán cómo está construido ese comentario.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Video o transcripción del comentario\n• Copias del texto\n• Pizarra\n• Marcadores de colores",
+          "descripcion": "Actividad 1 - Re-escucha y preguntas de comprensión (30 min):\n1. El docente vuelve a proyectar el video o relee el texto del comentario (págs. 109-110).\n2. Formula preguntas detalladas (pág. 111 adaptado):\n- \"¿Cuál es el tema del comentario?\"\n- \"¿Qué opina el comentarista sobre la película?\"\n- \"¿En qué se apoya para dar esa opinión?\"\n- \"¿Qué adjetivos usa para describir la película?\"\n3. Los estudiantes responden oralmente.\n\nActividad 2 - Identificación de tesis y argumentos (30 min):\n1. El docente explica: \"En un comentario, la opinión principal se llama TESIS. Las razones que la apoyan son ARGUMENTOS.\"\n2. Presenta el texto del comentario en la pizarra o en una diapositiva.\n3. Guía a los estudiantes para identificar:\n- Tesis: \"Bob Esponja: Un héroe fuera del agua es una película que...\" (completar según el texto).\n- Argumentos: \"porque...\", \"ya que...\", \"además...\"\n4. Los estudiantes subrayan en su copia la tesis y los argumentos.\n5. Socializan y el docente anota en la pizarra.",
+          "actividad_numero": "Comprensión oral (Actividades de análisis)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta: \"¿Qué aprendieron hoy sobre cómo se construye un comentario?\"\n2. \"¿Qué diferencia hay entre un hecho y una opinión?\"\n3. Anuncia que en la próxima clase trabajarán con la comprensión escrita de otro comentario.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772121623419",
+      "sequence_id": "seq-1772114511750",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión escrita - Prelectura",
+      "intencion_pedagogica": "Activar conocimientos previos sobre la paz y realizar la primera lectura del comentario \"Nuestra aportación a la paz mundial\".",
+      "estrategia": "• Uso de imágenes: Fotografías relacionadas con la paz.\n• Diálogo dirigido: Exploración de ideas sobre la paz.\n• Formulación de hipótesis a partir del título.\n• Lectura en voz alta del texto \"Nuestra aportación a la paz mundial\".",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre un tema relevante en su vida diaria y comunidad: la paz y la resolución de conflictos, conectando así el aprendizaje con su realidad social.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía con las preguntas clave para responder durante la lectura.\n• Para estudiantes kinestésicos: Mientras escuchan, pueden dibujar un símbolo de la paz.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción del texto.\n• Para estudiantes avanzados: Se les pide que escriban un ejemplo personal de cómo aplican la tolerancia en su vida.",
+      "actividades_cuaderno": "Título: La paz\n1. ¿Qué significa la paz para ti?\n2. ¿Cuál es la idea principal del texto \"Nuestra aportación a la paz mundial\"?\n3. Escribe dos formas en las que puedes contribuir a la paz en tu escuela.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imágenes relacionadas con la paz\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente muestra imágenes relacionadas con la paz (pueden ser fotos de manifestaciones por la paz, símbolos de paz, personas reconciliándose).\n2. Entabla un diálogo:\n- \"¿Qué ven en estas imágenes?\"\n- \"¿Qué es la paz para ustedes?\"\n- \"¿Creen que la paz es importante? ¿Por qué?\"\n- \"¿Qué cosas pueden generar conflictos en la escuela o en la casa?\"\n- \"¿Cómo los resuelven?\"\n3. Anuncia que leerán un texto titulado \"Nuestra aportación a la paz mundial\". Copia el título en la pizarra.\n4. Pide hipótesis: \"¿De qué creen que tratará?\" Anota en la pizarra.",
+          "actividad_numero": "Comprensión escrita (Prelectura, pág. 108)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del texto \"Nuestra aportación a la paz mundial\" para cada estudiante (pág. 109)",
+          "descripcion": "1. El docente lee en voz alta el texto \"Nuestra aportación a la paz mundial\" (pág. 109).\n2. Los estudiantes siguen la lectura con la vista en sus copias.\n3. Al terminar, el docente reconstruye el sentido con preguntas orales (pág. 109):\n- \"¿Cuál es el tema del artículo?\" (La paz).\n- \"¿Qué plantea el autor sobre ese tema?\" (La paz debe partir de cada persona).\n- \"¿En qué se apoya para hacer ese planteamiento?\" (La tolerancia y la solución de conflictos).\n4. Retoma las hipótesis de la pizarra: \"¿Cuáles se confirmaron?\"",
+          "actividad_numero": "Comprensión escrita (Lectura, pág. 109)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente recoge las primeras impresiones: \"¿Están de acuerdo con lo que dice el autor? ¿Por qué?\"\n2. Anuncia que en la próxima clase realizarán actividades de comprensión más detalladas.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772121694709",
+      "sequence_id": "seq-1772114511750",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión escrita - Post-lectura",
+      "intencion_pedagogica": "Profundizar en la comprensión del comentario \"Nuestra aportación a la paz mundial\" mediante ejercicios de vocabulario, identificación de tesis y argumentos, y elaboración de un resumen.",
+      "estrategia": "• Ejercicios de vocabulario: Sinónimos contextuales.\n• Preguntas de comprensión.\n• Identificación de tesis y argumentos.\n• Elaboración de resumen.",
+      "aprendizaje_significativo": "Los estudiantes aplican lo aprendido sobre comentarios a un texto con contenido valioso para su formación ciudadana, reflexionando sobre su papel en la construcción de la paz.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de vocabulario: Se les proporciona una lista de posibles sinónimos para la actividad 1.\n• Para estudiantes kinestésicos: Pueden representar con gestos las actitudes que van en contra de la paz.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que añadan un argumento propio al texto.",
+      "actividades_cuaderno": "Título: Analizando un comentario sobre la paz\n1. ¿Cuál es la tesis del texto \"Nuestra aportación a la paz mundial\"?\n2. Escribe dos argumentos que usa el autor.\n3. Copia el resumen que escribiste en clase.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan el texto sobre la paz que leímos la clase pasada? ¿Cuál era la idea principal?\"\n2. Anuncia que hoy harán actividades de comprensión.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias de los ejercicios o pizarra\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente presenta el ejercicio de la página 110 (actividad 1): escribir sinónimos de palabras subrayadas.\n- \"asunto que no nos concierne\"\n- \"conflictos\" / \"imprescindibles\"\n- \"manejo apropiado\"\n- \"oponente\"\n2. Los estudiantes trabajan individualmente y socializan.\n\nActividad 2 - Preguntas de comprensión (20 min):\n1. El docente presenta las preguntas de la página 110-111 (actividad 2):\n- \"¿Qué actitudes van en contra de la paz?\"\n- \"Apoyándote en el texto, sustenta: 'La paz es un asunto de todas las personas'.\"\n2. Los estudiantes responden en su cuaderno y socializan.\n\nActividad 3 - Identificación de tesis y argumentos (15 min):\n1. El docente presenta la actividad 3 (pág. 111):\n- \"Escribe cuál es el punto de vista que se sustenta en el texto (tesis).\"\n- \"Escribe los argumentos con los que se defiende esa tesis.\"\n2. Los estudiantes identifican y escriben:\n- Tesis: La paz depende de que cada persona tolere a sus semejantes y solucione apropiadamente los conflictos.\n- Argumentos: La tolerancia facilita escuchar y entender; los derechos y deberes deben tomarse en cuenta.\n\nActividad 4 - Resumen (10 min):\n1. Los estudiantes escriben un resumen de 5-6 líneas del texto (pág. 111).",
+          "actividad_numero": "Comprensión escrita (Actividades 1-3, pág. 110-111)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Algunos estudiantes comparten sus resúmenes.\n2. El docente guía una reflexión: \"¿Creen que estos argumentos son válidos en su vida diaria?\"\n3. Anuncia que en la próxima clase leerán otro comentario sobre un tema diferente: las armas.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772121779760",
+      "sequence_id": "seq-1772114511750",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Comprensión escrita - Las armas",
+      "intencion_pedagogica": "Realizar la lectura compartida del comentario \"Las armas\", formulando y respondiendo preguntas para garantizar la comprensión del texto.",
+      "estrategia": "• Diálogo dirigido: Exploración de ideas sobre las armas.\n• Formulación de hipótesis.\n• Lectura compartida: Lectura en voz alta por párrafos con preguntas intercaladas.",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre un tema de actualidad y relevancia social (la violencia y las armas), conectando así el aprendizaje con problemas reales de su comunidad y el mundo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les asigna la tarea de leer un solo párrafo y responder preguntas específicas sobre él.\n• Para estudiantes kinestésicos: Mientras leen, pueden subrayar las frases que expresan opiniones.\n• Para estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.\n• Para estudiantes avanzados: Se les pide que identifiquen los verbos que expresan opinión (debería, es necesario, etc.).",
+      "actividades_cuaderno": "Título: Comentario \"Las armas\"\n1. ¿Cuál es la tesis del autor sobre las armas?\n2. ¿Qué argumentos usa para defender su postura?\n3. ¿Estás de acuerdo con el autor? ¿Por qué?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente escribe el título en la pizarra: \"Las armas\" (pág. 112).\n2. Entabla un diálogo:\n- \"¿Qué opinan sobre las armas?\"\n- \"¿Creen que la gente debería tener armas en su casa? ¿Por qué?\"\n- \"¿Qué noticias han escuchado sobre la violencia con armas?\"\n3. Pide hipótesis: \"¿Qué creen que va a decir este comentario sobre las armas?\" Anota en la pizarra.",
+          "actividad_numero": "Comprensión escrita (Prelectura, pág. 112)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del texto \"Las armas\" para cada estudiante (pág. 112)",
+          "descripcion": "1. El docente entrega una copia del texto \"Las armas\" a cada estudiante (pág. 112).\n2. Explica la dinámica: un estudiante diferente leerá cada párrafo, y tras cada uno se harán preguntas.\n3. Párrafo 1: Un estudiante lee. Preguntas (pág. 113):\n- \"¿Refleja el autor su punto de vista? ¿Cómo?\"\n- \"¿Cuál es la tesis?\" (Si se prohibiera el porte, el crimen bajaría).\n4. Párrafo 2: Otro estudiante lee. Preguntas (pág. 113):\n- \"¿Qué dos puntos de vista hay aquí?\"\n- \"¿Cuál es la función de este párrafo?\" (Presentar un contraargumento y rebatirlo).\n5. Párrafo 3: Otro estudiante lee. Preguntas (pág. 114):\n- \"¿Cuál es la función de este párrafo?\" (Presentar un nuevo argumento).\n- \"¿Qué marcas del 'yo' comentarista hay?\"\n6. Párrafo 4: Otro estudiante lee. Preguntas (pág. 114):\n- \"¿Qué propósito tiene este párrafo?\" (Ofrecer otro razonamiento).\n7. Párrafo 5: Otro estudiante lee. Preguntas (pág. 114):\n- \"¿Hay alguna idea que se haya dicho antes?\" (Reformula la tesis).\n- \"¿Cuál es la función de este párrafo?\" (Concluir).",
+          "actividad_numero": "Comprensión escrita (Durante la lectura, pág. 113-114)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis",
+          "descripcion": "1. El docente retoma las hipótesis anotadas en la pizarra.\n2. Pregunta: \"¿Cuáles se confirmaron?\"\n3. Anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772121859561",
+      "sequence_id": "seq-1772114511750",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Comprensión escrita - Post-lectura",
+      "intencion_pedagogica": "Profundizar en la comprensión del comentario \"Las armas\" mediante ejercicios de vocabulario, identificación de tesis y argumentos, y elaboración de un resumen.",
+      "estrategia": "• Ejercicios de vocabulario: Sinónimos contextuales.\n• Preguntas de comprensión.\n• Identificación de tesis y argumentos.\n• Elaboración de resumen.",
+      "aprendizaje_significativo": "Los estudiantes profundizan en un tema de relevancia social, formándose una opinión propia y aprendiendo a expresarla de manera argumentada.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de vocabulario: Se les proporciona una lista de posibles sinónimos para la actividad 1.\n• Para estudiantes kinestésicos: Pueden representar con gestos el significado de \"sofisma\" o \"paradigma\".\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen qué es un \"sofisma\" y escriban un ejemplo.",
+      "actividades_cuaderno": "Título: Comprendiendo el comentario \"Las armas\"\n1. ¿Cuál es la tesis del autor?\n2. Escribe dos argumentos que usa.\n3. Copia el resumen que escribiste.\n4. ¿Por qué este texto es un comentario?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan el comentario sobre las armas? ¿Cuál era la postura del autor?\"\n2. Anuncia que hoy harán actividades de comprensión.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias de los ejercicios o pizarra\n• Cuadernos\n• Lápices",
+          "descripcion": "Actividad 1 - Vocabulario (15 min):\n1. El docente presenta la actividad 1 de la página 115: explicar el significado contextual de palabras subrayadas.\n- \"sustancialmente\"\n- \"sofisma\"\n- \"agentes del orden\"\n- \"cambio de paradigma\"\n2. Los estudiantes trabajan individualmente y socializan.\n\nActividad 2 - Preguntas de comprensión (20 min):\n1. El docente presenta las preguntas de la página 115 (actividad 2):\n- \"¿Cuál es el tema del artículo?\"\n- \"¿Cuál es la tesis?\"\n- \"¿Cuáles son los argumentos?\"\n2. Los estudiantes responden en su cuaderno.\n\nActividad 3 - Sustentación de ideas (15 min):\n1. Actividad 3 (pág. 115): \"Sustenta las siguientes ideas apoyándote en el texto: a) Mucha gente se siente en peligro por lo que cree que debe portar un arma. b) Hasta ahora la Ley contempla que no solo los agentes del orden porten armas.\"\n2. Los estudiantes buscan en el texto las partes que apoyan estas ideas.\n\nActividad 4 - Resumen (10 min):\n1. Actividad 4 (pág. 115): \"Resume en no más de seis líneas el texto 'Las armas'.\"\n2. Los estudiantes escriben su resumen.",
+          "actividad_numero": "Comprensión escrita (Actividades 1-4, pág. 115)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente presenta la actividad 5: \"Justifica por qué el texto leído es un comentario.\"\n2. Los estudiantes responden oralmente: porque expresa una opinión personal (tesis) y la defiende con argumentos.\n3. El docente anuncia que en la próxima clase comenzarán con la producción oral de un comentario.",
+          "actividad_numero": "Comprensión escrita (Actividad 5, pág. 115)"
+        }
+      ]
+    },
+    {
+      "id": "1772121954596",
+      "sequence_id": "seq-1772114511750",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Producción oral - Preparación",
+      "intencion_pedagogica": "Iniciar la preparación de un comentario oral sobre un tema de la realidad social, siguiendo los pasos de planificación: elección de tema, formulación de tesis y argumentos.",
+      "estrategia": "• Trabajo individual: Selección de tema.\n• Uso de organizador gráfico: Planificación del comentario.\n• Trabajo colaborativo: Socialización de ideas en grupos.\n• Redacción de borrador.",
+      "aprendizaje_significativo": "Los estudiantes eligen temas cercanos a su realidad (¿Deben los padres comprar armas de juguete? ¿Deben llevar celular a la escuela?), conectando así la producción académica con situaciones que enfrentan en su vida diaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades para elegir tema: El docente sugiere el tema más cercano a su realidad.\n• Para estudiantes kinestésicos: Mientras piensan en argumentos, pueden mover objetos que representen sus ideas.\n• Para estudiantes con discapacidad visual: Se les proporcionan los organizadores en formato ampliado.\n• Para estudiantes avanzados: Se les pide que preparen un tercer argumento.",
+      "actividades_cuaderno": "Título: Preparando mi comentario\n1. ¿Qué tema elegiste?\n2. ¿Cuál es tu tesis?\n3. Escribe tus dos argumentos.\n4. Copia el organizador gráfico que completaste.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con la lista de preguntas",
+          "descripcion": "1. El docente presenta las preguntas para elegir tema (pág. 116):\n- \"¿Está bien que los padres compren armas de juguetes a sus hijos?\"\n- \"¿Deben los padres obligar a los hijos a ponerse la ropa que aquellos quieran?\"\n- \"¿Estás de acuerdo con que los padres te impongan los amigos que debes tener?\"\n- \"¿Deben los niños llevar su celular a la escuela?\"\n- \"¿Debo parecerme a mi papá o mi mamá?\"\n2. Cada estudiante elige una pregunta de su interés.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 116)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "Actividad 3 - Fortaleza de argumentos (10 min):\n1. Paso 3 (pág. 117): \"¿Son tus argumentos fuertes para convencer a tus compañeros?\"\n2. Los estudiantes evalúan y ajustan.\n\nActividad 4 - Organizador gráfico (20 min):\n1. Paso 4 (pág. 117): Los estudiantes completan el cuadro de estructura:",
+          "descripcion": "Actividad 1 - Formulación de tesis (15 min):\n1. El docente explica el paso 1 (pág. 116): \"Formula una oración que responda a la pregunta, sin incluir 'sí' ni 'no'. Esta será tu tesis.\"\n2. Los estudiantes escriben su tesis en el cuaderno.\n\nActividad 2 - Generación de argumentos (15 min):\n1. Paso 2 (pág. 117): \"¿Por qué crees lo que planteas? ¿Cuáles son las razones?\"\n2. Los estudiantes completan el cuadro de argumentos.",
+          "actividad_numero": "Pregunta:"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "Socialización y tarea:\n1. Algunos voluntarios comparten su tema y tesis.\n2. El docente da retroalimentación.\n3. Anuncia que en la próxima clase redactarán el borrador completo y ensayarán.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772122072564",
+      "sequence_id": "seq-1772114511750",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Producción oral - Borrador y ensayo",
+      "intencion_pedagogica": "Redactar el borrador del comentario oral, revisarlo y ensayar la presentación para compartirla con los compañeros en la próxima clase.",
+      "estrategia": "• Redacción de borrador: Textualización del comentario.\n• Revisión guiada.\n• Ensayo oral en parejas.\n• Retroalimentación entre pares.",
+      "aprendizaje_significativo": "Los estudiantes ensayan la defensa de sus opiniones sobre temas que les afectan directamente, preparándose para participar activamente en debates y conversaciones de la vida real.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de escritura: Se les permite usar el organizador gráfico como guía durante la exposición.\n• Para estudiantes kinestésicos: Durante el ensayo, pueden ensayar también los gestos que usarán.\n• Para estudiantes con discapacidad visual: Se les proporciona el borrador en formato ampliado.\n• Para estudiantes avanzados: Se les pide que memoricen las partes principales de su comentario.",
+      "actividades_cuaderno": "Título: Mi comentario - Versión final\nEscribe la versión final de tu comentario en tu cuaderno, incluyendo:\n1. Introducción (tema y tesis)\n2. Desarrollo (argumento 1 y argumento 2)\n3. Conclusión\nRecuerda ensayar en casa para la próxima clase.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos con la planificación",
+          "descripcion": "1. El docente pide a los estudiantes que tengan a mano el organizador gráfico que completaron la clase pasada.\n2. Recuerda la estructura: introducción, desarrollo (argumentos), conclusión.",
+          "actividad_numero": "Producción oral"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lápices\n• Participación de los estudiantes",
+          "descripcion": "Actividad 1 - Redacción del borrador (25 min):\n1. Paso 5 (pág. 118): Los estudiantes escriben el primer borrador de su comentario basándose en el organizador gráfico.\n2. El docente circula y apoya.\n\nActividad 2 - Revisión individual (15 min):\n1. Paso 6 (pág. 118): Los estudiantes revisan su borrador con las preguntas:\n- \"¿Está clara la tesis?\"\n- \"¿Tengo al menos dos argumentos?\"\n- \"¿Tiene introducción y conclusión?\"\n- \"¿Lo entenderían mis compañeros?\"\n\nActividad 3 - Coevaluación y ensayo en parejas (20 min):\n1. Paso 7 (pág. 118): Los estudiantes intercambian su borrador con un compañero y se retroalimentan.\n2. Luego, ensayan su presentación oral en parejas: uno expone mientras el otro escucha y da sugerencias sobre claridad, tono de voz y gestos.",
+          "actividad_numero": "Producción oral (Pasos 5-7, pág. 118)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente recuerda que en la próxima clase comenzarán las exposiciones orales.\n2. Cada estudiante debe llevar su comentario preparado para presentar en no más de 7 minutos.\n3. El docente resuelve dudas finales.",
+          "actividad_numero": "Producción oral (Preparación final)"
+        }
+      ]
+    },
+    {
+      "id": "1772122168387",
+      "sequence_id": "seq-1772114511750",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Exposiciones orales - Día 1",
+      "intencion_pedagogica": "Iniciar las exposiciones orales de los comentarios preparados, demostrando capacidad para expresar y defender una opinión con argumentos.",
+      "estrategia": "• Exposiciones orales: Estudiantes presentan sus comentarios.\n• Escucha activa: Compañeros toman nota.\n• Preguntas de comprensión oral.\n• Retroalimentación docente.",
+      "aprendizaje_significativo": "Los estudiantes defienden sus opiniones sobre temas que les afectan directamente ante sus compañeros, desarrollando habilidades para participar en debates y conversaciones de la vida real.",
+      "actividades_complementarias": "• Para estudiantes con ansiedad escénica: Se les permite tener tarjetas con palabras clave para consultar.\n• Para estudiantes kinestésicos: Se valora el uso de gestos durante su exposición.\n• Para estudiantes con discapacidad auditiva: Se asegura que puedan ver los labios del expositor o se les proporciona un resumen escrito.\n• Para estudiantes avanzados: Se les anima a hacer preguntas desafiantes a los expositores.",
+      "actividades_cuaderno": "Título: Exposiciones de comentarios - Día 1\n1. ¿Qué tema de los expuestos hoy te pareció más interesante? ¿Por qué?\n2. ¿Qué argumento de algún compañero te pareció más convincente?\n3. ¿Estabas de acuerdo o en desacuerdo con alguna de las opiniones escuchadas? Explica.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio organizado",
+          "descripcion": "1. El docente organiza el espacio para las exposiciones.\n2. Recuerda las pautas: máximo 7 minutos por exposición, mirar al público, hablar con claridad, presentar tesis y argumentos.\n3. Recuerda al público que debe escuchar atentamente, pues se harán preguntas.",
+          "actividad_numero": "Producción oral (Organización)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes\n• Cuaderno de notas del docente",
+          "descripcion": "1. El docente invita a los primeros 6-7 estudiantes a pasar al frente (aproximadamente 7 minutos cada uno, más preguntas).\n2. Cada estudiante presenta su comentario:\n- Introduce el tema y presenta su tesis.\n- Expone sus argumentos.\n- Concluye reafirmando su postura.\n3. Al final de cada exposición, el docente invita al público a hacer preguntas o comentarios.\n4. El docente toma nota de los aspectos a destacar y áreas de mejora.",
+          "actividad_numero": "Producción oral (Exposiciones)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente ofrece retroalimentación general sobre las exposiciones del día: aspectos positivos (claridad de la tesis, calidad de los argumentos, organización) y aspectos a mejorar.\n2. Anuncia que en la próxima clase continuarán con las exposiciones restantes.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772122244942",
+      "sequence_id": "seq-1772114511750",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Exposiciones orales - Día 2 y cierre",
+      "intencion_pedagogica": "Completar las exposiciones orales de comentarios y realizar una reflexión final sobre el proceso de producción de textos argumentativos.",
+      "estrategia": "• Exposiciones orales: Continuación de presentaciones.\n• Preguntas de comprensión.\n• Reflexión final.\n• Evaluación formativa.",
+      "aprendizaje_significativo": "Los estudiantes completan el ciclo de exposiciones y reflexionan sobre la importancia de expresar y defender sus opiniones de manera respetuosa y argumentada en la vida cotidiana.Los estudiantes completan el ciclo de exposiciones y reflexionan sobre la importancia de expresar y defender sus opiniones de manera respetuosa y argumentada en la vida cotidiana.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de expresión oral: Se les permitió apoyarse en sus notas durante la exposición.\n• Para estudiantes kinestésicos: Se valoró su expresividad gestual durante las presentaciones.\n• Para estudiantes con discapacidad visual: Se les permitió tener su texto en formato ampliado para consulta.\n• Para estudiantes avanzados: Se reconoció su capacidad para incluir argumentos complejos y responder preguntas.",
+      "actividades_cuaderno": "Título: Reflexión sobre mi aprendizaje\n1. ¿Cómo te sentiste durante tu exposición?\n2. ¿Qué fue lo más importante que aprendiste en esta secuencia sobre los comentarios?\n3. ¿En qué situación de tu vida cotidiana podrías usar lo que aprendiste?\n4. Escribe un párrafo evaluando tu propio desempeño (qué hiciste bien y qué podrías mejorar).",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio organizado",
+          "descripcion": "1. El docente organiza el espacio para las exposiciones restantes.\n2. Recuerda las pautas y anuncia que hoy se completarán todas las exposiciones.",
+          "actividad_numero": "Producción oral (Organización)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes restantes (6-7) pasan al frente a presentar sus comentarios.\n2. Cada exposición dura aproximadamente 7 minutos, más preguntas.\n3. Al final de cada exposición, el docente invita al público a hacer preguntas o comentarios.\n4. El docente completa sus notas de evaluación formativa.",
+          "actividad_numero": "Producción oral (Exposiciones)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente felicita a todos los estudiantes por su participación.\n2. Guía una reflexión final:\n- \"¿Qué aprendieron sobre cómo expresar y defender una opinión?\"\n- \"¿Qué fue lo más difícil de preparar su comentario?\"\n- \"¿En qué situaciones de la vida real usan o usarán lo aprendido?\"\n- \"¿Por qué es importante dar argumentos cuando damos una opinión?\"\n3. El docente cierra la secuencia recordando la importancia de expresar nuestras ideas con respeto y fundamento.",
+          "actividad_numero": "Producción oral (Cierre de la secuencia)"
+        }
+      ]
+    }
+  ]
+}

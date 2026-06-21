@@ -1,0 +1,516 @@
+{
+  "id": "seq-1771696486045",
+  "title": "División, potenciación y radicación de números naturales",
+  "description": "Esta secuencia introduce y profundiza en la división como operación inversa de la multiplicación, así como en los conceptos de potenciación y radicación.",
+  "order": 3,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771696486040",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Repartiendo entre todos",
+      "intencion_pedagogica": "Resolver situaciones problemáticas que impliquen división de números naturales\ncon un dígito en el divisor.\n",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre béisbol y división.\n\nCálculo mental: Resolución de problemas de reparto simple.\n\nUso de material audiovisual: Video sobre concepto de reparto y división.\n\nDos estrategias: Resta repetida y forma tradicional.\n\nIdentificación de términos: Dividendo, divisor, cociente, residuo.",
+      "aprendizaje_significativo": "Se parte del contexto del béisbol (deporte nacional) para introducir la división, conectando así el aprendizaje matemático con los intereses y experiencias de los estudiantes.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les permite usar material concreto (fichas) para representar el reparto.\n\nPara estudiantes kinestésicos: Se les invita a representar la resta repetida con saltos en una recta numérica.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que inventen un problema de división similar.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 75, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o imágenes de béisbol\n• Pizarra\n• (https://youtu.be/_6Qt-bFS8_Q)",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué son los juegos de béisbol? ¿Quiénes han ido al estadio? ¿Cuál es su equipo preferido?\"\n2. Presenta la situación: \"Si te dan 1,000 pesos para ir a ver 5 juegos de pelota, ¿cuánto puedes gastar cada día si lo repartes en partes iguales?\" Escucha las respuestas.\n3. Proyecta el video \"Concepto de reparto y división\" (https://youtu.be/_6Qt-bFS8_Q).\n4. Socializa: \"¿De qué trata el video? ¿Qué operación se usa? ¿Qué es la división?\"",
+          "actividad_numero": "Actividad 1 A (pág. 74)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cartel con términos\n• Cuadernos",
+          "descripcion": "1. Si no hay video, plantea: \"Marina tiene 30 pelotas para regalar a los 6 equipos de béisbol. ¿Cuántas le tocan a cada equipo?\"\n2. Los estudiantes resuelven. Socializa procesos.\n3. Explica dos estrategias (pág. 74):\n- Estrategia 1 (resta repetida): 30-6=24, 24-6=18, 18-6=12, 12-6=6, 6-6=0. Se restó 5 veces, cada equipo recibe 5.\n- Estrategia 2 (forma tradicional): 30 ÷ 6 = 5.\n4. Pregunta: \"¿Cuál les parece más fácil? ¿Cuál entendieron más?\"\n5. Introduce los términos: dividendo (30), divisor (6), cociente (5), residuo (0). Coloca un cartel con los términos.",
+          "actividad_numero": "Actividad 1 B y C (págs. 74-75)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Nelly gastó 600 pesos para comprar 3 boletas. ¿Cuál es el precio de cada boleta?\"\n\nCierre (pág. 75):\nPreguntas: \"¿Qué aprendimos hoy? ¿Qué operación usamos? ¿Cuáles son los elementos de la división? ¿Qué es el residuo?\"\n\nActividad complementaria (pág. 75):\nResolver divisiones y escribir el nombre de cada término (en imágenes). Problemas: 1) En el Estadio Cibao, cada familia llevó 5 integrantes, había 16,400 personas. ¿Cuántas familias asistieron? 2) En un juego asistieron 12,000 personas con 4 equipos y misma cantidad de seguidores. ¿Cuántos seguidores tenía cada equipo?\n\nActividad para el diario del estudiante (pág. 75):\nResolver: \"En un juego de pelota, se repartieron 15,000 mentas entre 25 compañeros. ¿Cuántas mentas le tocaron a cada uno?\" (Se puede plantear al final o como tarea).",
+          "actividad_numero": "Actividad 1 Actividad para el cuaderno (pág. 75) Cierre (pág. 75) Actividad complementaria (pág. 75) Actividad para el diario (pág. 75)"
+        }
+      ]
+    },
+    {
+      "id": "1771696640249",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": " Qué divertido es dividir",
+      "intencion_pedagogica": "Resolver problemas del contexto usando la división de números naturales.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nSituación problemática: Resolución de divisiones con divisor de dos cifras.\n\nTrabajo en grupos: Resolución colaborativa de problemas.\n\nIdentificación de términos: Dividendo, divisor, cociente, residuo.",
+      "aprendizaje_significativo": "Se utilizan situaciones de compras en el estadio para practicar la división con divisor de dos cifras, mostrando su aplicación en contextos cotidianos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una tabla de multiplicar para apoyar la división.\n\nPara estudiantes kinestésicos: Se les invita a representar la división con material concreto (fichas).\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen el procedimiento paso a paso.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 79, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la actividad del diario.\n2. Retroalimenta los términos de la división.\n3. Anuncia que hoy continuarán resolviendo problemas de división.",
+          "actividad_numero": "Actividad 2 A (pág. 76)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 76): \"En un almacén del Estadio Cibao se quiere colocar 21,615 artículos en estantes que cogen 12 artículos cada uno. ¿Cuántos estantes se podrán llenar?\"\n2. Un estudiante lee. Preguntas: \"¿Cuál es el dividendo? ¿El divisor?\"\n3. Los estudiantes resuelven en grupos de tres. Monitorea.\n4. Socializa las respuestas. Pide a un voluntario resolver en la pizarra (pág. 76):\n21,615 ÷ 12 = 1,801 estantes y sobran 3 artículos.\n5. Plantea otro problema (pág. 77): \"Alberto tiene 800 pesos para comprar 8 manzanas. ¿Cuánto cuesta cada manzana?\"\n6. Pregunta: \"¿Cuál es el dividendo? ¿El divisor? ¿El cociente? ¿El residuo?\"",
+          "actividad_numero": "Actividad 2 B (págs. 76-77)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas con divisiones\n• Cuadernos",
+          "descripcion": "Resolver: 1) Una familia gastó RD$ 25,850 en el estadio. Eran 13 personas. ¿Cuánto pagó cada una? 2) En 5 años, los Toros del Este recolectaron RD$ 24,000,000 de 20 personas. ¿Cuánto aportó cada una?\n\nCierre (pág. 79):\nJuego de tarjetas: llevar divisiones en tarjetas. Los estudiantes sacan una tarjeta, resuelven y explican.\n\nActividad complementaria (pág. 79):\nResolver y explicar: 1) Manuel tiene 200 mentas para 25 compañeros; 2) Alberto recolectó 465 tazos en 31 días, ¿cuántos por día en promedio?\n\nActividad para el diario del estudiante (pág. 79):\n1) Nelly ahorra RD$ 25 por día y tiene RD$ 3,250, ¿cuántos días lleva?; 2) El padre de Alexander gastó RD$ 36,000 en 15 días, ¿cuánto gastaba por día?",
+          "actividad_numero": "Actividad 2 Actividad para el cuaderno (pág. 79) Cierre (pág. 79) Actividad complementaria (pág. 79) Actividad para el diario (pág. 79)"
+        }
+      ]
+    },
+    {
+      "id": "1771696704218",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Me divierto dividiendo",
+      "intencion_pedagogica": "Resolver problemas de división con cantidades mayores que un millón.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre divisiones con divisor de dos cifras.\n\nSituación problemática: División con cantidades mayores que un millón.\n\nTrabajo en grupos: Resolución colaborativa.",
+      "aprendizaje_significativo": "Se amplía la división a cantidades mayores que un millón (presupuestos de estadios), mostrando la utilidad de esta operación en contextos de grandes cantidades.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les permite usar la calculadora para verificar resultados.\n\nPara estudiantes kinestésicos: Se les invita a representar la división con billetes ficticios.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen el procedimiento de la división.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 79, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por las actividades del diario.\n2. Si hubo dificultades, resuelve un ejemplo en la pizarra.\n3. Anuncia que hoy trabajarán con cantidades mayores que un millón.",
+          "actividad_numero": "Actividad 3 A (pág. 78)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video o pizarra\n• Cuadernos",
+          "descripcion": "1. Proyecta el video \"Divisiones con divisor de dos cifras\" (https://youtu.be/sT836HYYqX8). Socializa: \"¿De qué trata? ¿Qué operación se usa?\"\n2. Si no hay video, pregunta: \"Si se tienen que jugar 12 juegos entre 6 equipos, ¿cuántos juega cada uno?\"\n3. Forma grupos de 5. Plantea el problema (pág. 78): \"Son 62 estudiantes y el precio total de las entradas es RD$ 15,500. ¿Cuánto pagará cada estudiante?\"\n4. Los grupos resuelven. Monitorea.\n5. Socializa. Pide a un estudiante resolver en la pizarra (pág. 79): 15,500 ÷ 62 = 250.\n6. Pregunta: \"¿Por qué se dividieron los primeros tres números entre 62?\"",
+          "actividad_numero": "Actividad 3 B y C (págs. 78-79)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas con divisiones\n• Cuadernos• Tarjetas con divisiones\n• Cuadernos",
+          "descripcion": "Resolver: 1) Una familia gastó RD$ 25,850 en el estadio. Eran 13 personas. ¿Cuánto pagó cada una? 2) En 5 años, los Toros del Este recolectaron RD$ 24,000,000 de 20 personas. ¿Cuánto aportó cada una?\n\nCierre (pág. 79):\nJuego de tarjetas: llevar divisiones en tarjetas. Los estudiantes sacan una tarjeta, resuelven y explican.\n\nActividad complementaria (pág. 79):\nResolver y explicar: 1) Manuel tiene 200 mentas para 25 compañeros; 2) Alberto recolectó 465 tazos en 31 días, ¿cuántos por día en promedio?\n\nActividad para el diario del estudiante (pág. 79):\n1) Nelly ahorra RD$ 25 por día y tiene RD$ 3,250, ¿cuántos días lleva?; 2) El padre de Alexander gastó RD$ 36,000 en 15 días, ¿cuánto gastaba por día?",
+          "actividad_numero": "Actividad 3 Actividad para el cuaderno (pág. 79) Cierre (pág. 79) Actividad complementaria (pág. 79) Actividad para el diario (pág. 79)"
+        }
+      ]
+    },
+    {
+      "id": "1771696773700",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Estimando cocientes",
+      "intencion_pedagogica": "Resolver situaciones problemáticas sobre división utilizando estimación.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración del concepto de estimación.\n\nSituación problemática: Estimación del cociente por defecto y por exceso.\n\nComparación de resultados: Estimación vs. cálculo exacto.",
+      "aprendizaje_significativo": "Se introduce la estimación en la división como una herramienta para obtener resultados aproximados de manera rápida, mostrando su utilidad en situaciones cotidianas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una guía con los pasos para estimar.\n\nPara estudiantes kinestésicos: Se les invita a redondear los números en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen cuándo es más útil cada tipo de estimación.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 81, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por las actividades del diario.\n2. Retroalimenta.\n3. Pregunta: \"¿Saben qué es estimar? ¿En qué otros temas han estimado?\" Escucha respuestas. Anuncia el tema: estimación de cocientes.",
+          "actividad_numero": "Actividad 4 A (pág. 80)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 80): \"Nelly compró 5 boletos por RD$ 1,125. ¿Cuánto pagó por cada boleta?\"\n2. Un estudiante lee. Preguntas de comprensión.\n3. Los estudiantes resuelven. Monitorea.\n4. Explica dos formas de estimar (pág. 80):\n- Estimación por defecto: aproximar el dividendo a una cantidad redonda menor (1,100 ÷ 5 = 220).\n- Estimación por exceso: aproximar a una cantidad redonda mayor (1,200 ÷ 5 = 240).\n5. Compara con el cálculo exacto (1,125 ÷ 5 = 225).\n6. Concluye que ambas estimaciones son válidas y que la palabra \"aproximadamente\" es clave.",
+          "actividad_numero": "Actividad 4 B (págs. 80-81)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver estimando por defecto y por exceso: 1) 30 padres pagaron RD$ 9,750, ¿cuánto por boleta?; 2) Alberto repartió 846 tazos entre 25 compañeros, ¿cuántos cada uno?\n\nCierre (pág. 81):\nPreguntas: \"¿Qué es estimar por defecto? ¿Y por exceso? ¿En qué nos ayuda la estimación?\"\n\nActividad complementaria (pág. 81):\nEstimar por defecto y por exceso las cantidades de ingresos de un equipo de béisbol durante 3 días: RD$ 3,651; RD$ 22,473; RD$ 198,769.\n\nActividad para el diario del estudiante (pág. 81):\nElaborar 2 problemas para resolverlos estimando las cantidades por defecto y por exceso.",
+          "actividad_numero": "Actividad 4 Actividad para el cuaderno (pág. 81) Cierre (pág. 81) Actividad complementaria (pág. 81) Actividad para el diario (pág. 81)"
+        }
+      ]
+    },
+    {
+      "id": "1771696855557",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Jugando con las divisiones",
+      "intencion_pedagogica": "Fortalecer los conocimientos adquiridos sobre las operaciones básicas con números\nnaturales.",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nJuego didáctico: \"Monopolio Matemático\" para reforzar operaciones.\n\nTrabajo en grupos: Juego colaborativo.\n\nRegistro de jugadas: Los estudiantes registran sus movimientos.",
+      "aprendizaje_significativo": "Se utiliza un juego de mesa adaptado para reforzar las operaciones con números naturales, haciendo el aprendizaje más lúdico y motivador.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en las operaciones: Se les permite usar papel y lápiz para resolver las operaciones.\n\nPara estudiantes kinestésicos: El juego es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se les proporciona el tablero en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que sean los \"árbitros\" que verifican las operaciones.",
+      "actividades_cuaderno": "Escribir una breve reflexión sobre el juego: ¿cómo se sintieron? ¿Qué aprendieron?\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por los problemas que elaboraron.\n2. Retroalimenta la estimación.\n3. Anuncia que hoy jugarán \"Monopolio Matemático\". Pregunta si lo conocen.",
+          "actividad_numero": "Actividad 5 A (pág. 82)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tablero (pág. 101)\n• Dados\n• Fichas de colores",
+          "descripcion": "1. Explica las reglas del juego (pág. 82):\n- Se juega con 4 participantes, todos inician en el espacio en blanco.\n- Lanzan el dado para ver el orden de turno (mayor número inicia).\n- Cada jugador tiene una ficha de color. Al lanzar el dado, si caen en un cuadro con operación, sustituyen el valor del dado en la operación para saber cuánto avanzar.\n- Ejemplo: si están en \"7 - D\" y sacan 3, avanzan 7-3=4 espacios.\n2. Los estudiantes juegan en grupos. El docente observa y apoya.\n3. Gana el primero en dar 3 vueltas completas.",
+          "actividad_numero": "Actividad 5 B (pág. 82) Anexo (pág. 101)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "Preguntas: \"¿En qué consiste el juego? ¿Cómo sabían cuántos cuadros avanzar? ¿Qué fue lo que más te gustó? ¿Quién ganó?\"\n\nActividad para el cuaderno:\nNo hay actividad específica para el cuaderno en esta clase, pero se puede pedir que escriban una breve reflexión sobre el juego.",
+          "actividad_numero": "Actividad 5 Cierre (pág. 82)"
+        }
+      ]
+    },
+    {
+      "id": "1771697352384",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "El mundo de las potencias",
+      "intencion_pedagogica": "Resolver situaciones problemáticas usando la potenciación.\n",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre el juego de la clase anterior.\n\nUso de material audiovisual: Video sobre potencias.\n\nSituación problemática: Aplicación de la potenciación en contextos reales (cajas).\n\nIdentificación de elementos: Base, exponente, potencia.",
+      "aprendizaje_significativo": "Se introduce la potenciación a partir de situaciones concretas (cajas dentro de cajas), mostrando su utilidad para expresar multiplicaciones repetidas de manera abreviada.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les permite escribir la multiplicación repetida antes de convertirla en potencia.\n\nPara estudiantes kinestésicos: Se les invita a representar las potencias con material concreto (cajas).\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen la relación entre potencia y multiplicación.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 84, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta: \"¿Quién ganó en cada equipo? ¿Cómo sabían cuántos espacios tenían que moverse? ¿Qué operaciones usaron?\"\n2. Anuncia que hoy aprenderán sobre potencias.",
+          "actividad_numero": "Actividad 6 A (pág. 83)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Video o pizarra\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Proyecta el video \"Potencias para principiantes\" (https://youtu.be/-KOZSm9lPeY). Socializa: \"¿De qué trata? ¿Qué vieron?\"\n2. Si no hay video, escribe en la pizarra: 3x3x3, 5x5x5, 2x2x2x2x2x2. Pregunta: \"¿Cómo son sus factores? ¿A qué otra operación se parece?\"\n3. Explica que estas operaciones pueden representarse como potencias.\n4. Introduce los elementos: base (factor que se repite), exponente (veces que se repite), potencia (resultado).\n5. Ejemplos: 2⁵ = 2x2x2x2x2 = 32; 5³ = 5x5x5 = 125.\n6. Plantea el problema (pág. 84): \"El padre de Alberto tiene 6 cajas grandes, cada una con 6 cajas medianas, y cada mediana con 6 cajas pequeñas. ¿Cuántas cajas pequeñas tiene?\"\n7. Explica que es 6x6x6 = 6³ = 216.",
+          "actividad_numero": "Actividad 6 B (págs. 83-84)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "En equipos de 5, resolver: \"Un estadio tiene 10 espacios de asientos, cada espacio tiene 10 divisiones, cada división tiene 10 filas y cada fila tiene 10 asientos. ¿Cuántos asientos tiene el estadio?\" (10⁴ = 10,000).\n\nCierre (pág. 84):\nPreguntas: \"¿Qué indica la base? ¿Qué indica el exponente? ¿Cómo se llama el resultado?\"\n\nActividad complementaria (pág. 84):\nCompletar un cuadro con: cantidad, base, exponente, potencia (3⁴, 2⁵, 8², 1000).\n\nActividad para el diario del estudiante (pág. 84):\n1) Un videojuego tiene el triple de pruebas cada nivel. Nivel 1 tiene 3 pruebas. ¿Cuántas tendrá el nivel 5? (3⁵ = 243). 2) Entrar al enlace: https://www.liveworksheets.com/w/es/matematicas/928978",
+          "actividad_numero": "Actividad 6 Actividad para el cuaderno (pág. 84) Cierre (pág. 84) Actividad complementaria (pág. 84) Actividad para el diario (pág. 84)"
+        }
+      ]
+    },
+    {
+      "id": "1771697904481",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Conociendo la raíz de un número",
+      "intencion_pedagogica": "Calcular la raíz de números naturales cuadrados perfectos menores que 100.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre raíz cuadrada.\n\nSituación problemática: Cálculo de raíz cuadrada en contextos reales (cajas de bombones).\n\nIdentificación de elementos: Radicando, raíz, índice.",
+      "aprendizaje_significativo": "Se introduce la raíz cuadrada como operación inversa de la potenciación, utilizando situaciones concretas (cajas cuadradas) para comprender su significado.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una tabla de cuadrados perfectos.\n\nPara estudiantes kinestésicos: Se les invita a dibujar la caja cuadrada y contar las pelotas.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen la relación entre potencia y raíz.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 86, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la actividad interactiva y el problema del videojuego.\n2. Retroalimenta potencias.\n3. Anuncia el tema: raíz cuadrada. Pregunta: \"¿Han escuchado sobre raíz cuadrada? ¿Cuál es la raíz cuadrada de 4?\"",
+          "actividad_numero": "Actividad 7 A (pág. 85)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Video o pizarra\n• Cuadernos",
+          "descripcion": "1. Proyecta el video \"Raíz cuadrada\" (https://youtu.be/gPV5VqQ3Ajg). Socializa: \"¿De qué trata? ¿Con qué operación se relaciona?\"\n2. Si no hay video, plantea: \"Alberto vende bombones. La caja llena tiene 100 bombones y es cuadrada. ¿Cuántos bombones tiene cada lado?\"\n3. Los estudiantes resuelven en grupos. Guía: \"Como es cuadrada, cada lado tiene la misma cantidad. Buscamos un número que multiplicado por sí mismo dé 100.\"\n4. Explica: √100 = 10 porque 10x10 = 100. Introduce elementos: radicando (100), raíz (10), índice (2, aunque no se escribe).\n5. Plantea otro problema: \"Alexander tiene una caja cuadrada con 16 pelotas. ¿Cuántas pelotas tiene cada lado?\" (√16 = 4).",
+          "actividad_numero": "Actividad 7 B (págs. 85-86)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Nelly tiene una caja cuadrada con 64 pelotas. ¿Cuántas pelotas tiene cada lado?\" (√64 = 8).\n\nCierre (pág. 86):\nPreguntas: \"¿Qué aprendimos hoy? ¿Cuál es la raíz cuadrada de 25? ¿Qué te resultó más fácil?\"\n\nActividad complementaria (pág. 86):\nCompletar un cuadro con: raíz cuadrada, radicando, raíz (√9, √36, √64, √81, √49, √4, √1).\n\nActividad para el diario del estudiante (pág. 86):\nElaborar un problema que se resuelva usando la raíz cuadrada.",
+          "actividad_numero": "Actividad 7 Actividad para el cuaderno (pág. 86) Cierre (pág. 86) Actividad complementaria (pág. 86) Actividad para el diario (pág. 86)"
+        }
+      ]
+    },
+    {
+      "id": "1771852824127",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Me divierto con los números primos y compuestos",
+      "intencion_pedagogica": "Clasificar números naturales en primos y compuestos.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de conocimientos sobre números pares e impares.\n\nUso de material audiovisual: Video sobre números primos y compuestos.\n\nIdentificación de divisores: Para clasificar números.\n\nTrabajo en grupos: Resolución colaborativa.",
+      "aprendizaje_significativo": "Se introduce la clasificación de números en primos y compuestos a partir de los números de asientos en un estadio, conectando con el contexto del béisbol.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una lista de divisores de números pequeños.\n\nPara estudiantes kinestésicos: Se les invita a escribir los divisores en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que investiguen sobre números primos famosos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 88, la Actividad complementaria y la Actividad para el diario del estudiante.\n\nCompletar la Actividad para el cuaderno de la página 88, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por los problemas que elaboraron.\n2. Retroalimenta raíz cuadrada.\n3. Pregunta: \"¿Cuáles son los números pares? ¿Cuáles los impares? ¿Cómo los diferencian?\"\n4. Anuncia el tema: números primos y compuestos.",
+          "actividad_numero": "Actividad 8 A (pág. 87)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Video o pizarra\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Proyecta el video \"Primos y compuestos para niños de primaria\" (https://www.youtube.com/watch?v=So6kfozTG1Y). Socializa.\n2. Si no hay video, escribe 20 y 11 en la pizarra. Pregunta: \"¿Entre cuáles números se pueden dividir sin que sobre?\"\n3. Presenta ejemplos (págs. 87-88):\n- Ejemplo 1 (24): 24 tiene divisores 1,2,3,4,6,8,12,24 → más de 2 divisores → compuesto.\n- Ejemplo 2 (21): 21 tiene divisores 1,3,7,21 → más de 2 divisores → compuesto.\n- Ejemplo 3 (17): 17 tiene divisores 1 y 17 → solo 2 divisores → primo.\n4. Concluye: número primo tiene solo dos divisores (él mismo y 1). Número compuesto tiene más de dos divisores.",
+          "actividad_numero": "Actividad 8 B (págs. 87-88)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas con números\n• Cuadernos\n• https://www.liveworksheets.com/w/es/matematicas/218403",
+          "descripcion": "Completar un cuadro con 4 números diferentes (ej. 20, 11, etc.) marcando si son compuestos o primos.\n\nCierre (pág. 88):\nJuego de tarjetas: llevar números primos y compuestos. Los estudiantes sacan una tarjeta y explican si es primo o compuesto, justificando.\n\nActividad complementaria (pág. 88):\nEscribir 3 números y determinar sus divisores.\n\nActividad para el diario del estudiante (pág. 88):\nEntrar al enlace: https://www.liveworksheets.com/w/es/matematicas/218403",
+          "actividad_numero": "Actividad 8 Actividad para el cuaderno (pág. 88) Cierre (pág. 88) Actividad complementaria (pág. 88) Actividad para el diario (pág. 88)"
+        }
+      ]
+    },
+    {
+      "id": "1771852922762",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Descomponiendo en factores",
+      "intencion_pedagogica": "Descomponer números naturales en sus factores primos.\n",
+      "estrategia": "Corrección de tarea: Socialización de la actividad interactiva.\n\nUso de material audiovisual: Video sobre descomposición en factores primos.\n\nMétodo de divisiones sucesivas: Descomposición de números en factores primos.\n\nTrabajo en grupos: Resolución colaborativa.",
+      "aprendizaje_significativo": "Se enseña la descomposición en factores primos como una herramienta para comprender la estructura de los números, conectando con la clasificación en primos y compuestos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una tabla de números primos.\n\nPara estudiantes kinestésicos: Se les invita a escribir las divisiones en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que descompongan números más grandes.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 90, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la actividad del enlace.\n2. Retroalimenta números primos y compuestos.\n3. Anuncia el tema: descomposición en factores primos.",
+          "actividad_numero": "Actividad 9 A (pág. 89)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Video o pizarra\n• Pizarra\n• Cuadernos\n• (https://youtu.be/4WOS6aG7uyA). ",
+          "descripcion": "1. Proyecta el video (https://youtu.be/4WOS6aG7uyA). Socializa: \"¿Qué observaron? ¿Entendieron el proceso?\"\n2. Si no hay video, presenta el número 84. Pregunta: \"¿Cómo podemos expresar 84 usando multiplicación de números primos?\"\n3. Explica el método de divisiones sucesivas (pág. 89):\n84 ÷ 2 = 42\n42 ÷ 2 = 21\n21 ÷ 3 = 7\n7 ÷ 7 = 1\nPor tanto, 84 = 2 x 2 x 3 x 7 = 2² x 3 x 7.\n4. Otro ejemplo: 48 (pág. 89): 48 = 2⁴ x 3.\n5. Otro ejemplo: 186 (pág. 90): 186 = 2 x 3 x 31.",
+          "actividad_numero": "Actividad 9 B (págs. 89-90)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas con números\n• Cuadernos\n• https://www.liveworksheets.com/w/es/matematicas/272759",
+          "descripcion": "En grupos de 4, resolver: a) Alexander dice que 45 = 3x2x5. ¿Tiene razón? (No, 45 = 3²x5). b) Alberto dice que 1,040 = 2⁴ x 5 x 13. ¿Es correcto? (Sí).\n\nCierre (pág. 90):\nJuego de tarjetas: llevar números. Los estudiantes eligen una tarjeta y descomponen en factores primos.\n\nActividad complementaria (pág. 90):\nDescomponer y expresar: 50, 40, 29, 68, 22, 27, 25, 41.\n\nActividad para el diario del estudiante (pág. 90):\nEntrar al enlace: https://www.liveworksheets.com/w/es/matematicas/272759",
+          "actividad_numero": "Actividad 9 Actividad para el cuaderno (pág. 90) Cierre (pág. 90) Actividad complementaria (pág. 90) Actividad para el diario (pág. 90)"
+        }
+      ]
+    },
+    {
+      "id": "1771853035977",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Encontrando el MCM y MCD entre números ",
+      "intencion_pedagogica": "Identificar el MCM y el MCD de números naturales dados para resolver situaciones\nproblemáticas del contexto.\n",
+      "estrategia": "Corrección de tarea: Socialización de la actividad interactiva.\n\nSituaciones problemáticas: Aplicación de MCM y MCD en contextos reales.\n\nMétodo de múltiplos y divisores: Para encontrar MCM y MCD.\n\nMétodo de descomposición en factores primos: Para encontrar MCM y MCD.\n\nTrabajo en grupos: Resolución colaborativa.",
+      "aprendizaje_significativo": "Se introducen el Mínimo Común Múltiplo (MCM) y el Máximo Común Divisor (MCD) a partir de situaciones reales (autobuses, cortes de cintas), mostrando su utilidad en la vida cotidiana.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan listas de múltiplos y divisores.\n\nPara estudiantes kinestésicos: Se les invita a representar los múltiplos con saltos en una recta numérica.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen la relación entre MCM y MCD.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 93, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la actividad del enlace.\n2. Retroalimenta descomposición en factores primos.\n3. Anuncia el tema: MCM y MCD. Pregunta: \"¿Qué significan esas siglas?\"",
+          "actividad_numero": "Actividad 10 A (pág. 91)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 91): \"Dos autobuses salen de una parada. Uno tarda 2 horas en volver, el otro 3. ¿Dentro de cuántas horas volverán a coincidir?\"\n2. Guía para que encuentren múltiplos de 2 (2,4,6,8...) y de 3 (3,6,9...). El común es 6. MCM (2 y 3) = 6.\n3. Otro problema (pág. 92): \"Alexander y Nelly se encuentran. Nelly va cada 6 días, Alexander cada 8. ¿Cuándo volverán a encontrarse?\" MCM (6 y 8) = 24.\n\nMáximo Común Divisor (MCD):\n1. Plantea el problema (pág. 92): \"Alberto y Nelly tienen cintas de 60 cm y 45 cm. Quieren cortar pedazos del mismo tamaño. ¿Cuál será el mayor tamaño posible?\"\n2. Guía para encontrar divisores de 60 y 45. Comunes: 1,3,5,15. El mayor es 15. MCD (60 y 45) = 15.\n3. Explica también el método de descomposición en factores primos (pág. 93).1. Plantea el problema (pág. 91): \"Dos autobuses salen de una parada. Uno tarda 2 horas en volver, el otro 3. ¿Dentro de cuántas horas volverán a coincidir?\"\n2. Guía para que encuentren múltiplos de 2 (2,4,6,8...) y de 3 (3,6,9...). El común es 6. MCM (2 y 3) = 6.\n3. Otro problema (pág. 92): \"Alexander y Nelly se encuentran. Nelly va cada 6 días, Alexander cada 8. ¿Cuándo volverán a encontrarse?\" MCM (6 y 8) = 24.\n\nMáximo Común Divisor (MCD):\n1. Plantea el problema (pág. 92): \"Alberto y Nelly tienen cintas de 60 cm y 45 cm. Quieren cortar pedazos del mismo tamaño. ¿Cuál será el mayor tamaño posible?\"\n2. Guía para encontrar divisores de 60 y 45. Comunes: 1,3,5,15. El mayor es 15. MCD (60 y 45) = 15.\n3. Explica también el método de descomposición en factores primos (pág. 93).",
+          "actividad_numero": "Actividad 10 B (págs. 91-93)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "n grupos de 6, resolver: 1) Dos autobuses, uno tarda 36 h y otro 24 h, ¿cuándo se encontrarán? (MCM); 2) Telas de 140 y 100 yardas, cortar en pedazos iguales, ¿longitud mayor? (MCD).\n\nCierre (pág. 93):\nPreguntas: \"¿Qué es el MCM? ¿Qué es el MCD? ¿En qué nos ayudan estos temas?\"\n\nActividad complementaria (pág. 93):\nDeterminar MCM y MCD entre: 8 y 10; 25 y 30; 5 y 7; 102 y 83; 12 y 21; 840 y 620.\n\nActividad para el diario del estudiante (pág. 93):\nEntrar al enlace: https://www.liveworksheets.com/w/es/matematicas/2076320",
+          "actividad_numero": "Actividad 10 Actividad para el cuaderno (pág. 93) Cierre (pág. 93) Actividad complementaria (pág. 93) Actividad para el diario (pág. 93)"
+        }
+      ]
+    },
+    {
+      "id": "1771853143223",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Dividiendo fácil entre 2, 5 y 10",
+      "intencion_pedagogica": "Utilizar criterios de divisibilidad (por 2; 5 y10) para resolver situaciones problemáticas del contexto.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre criterios de divisibilidad.\n\nDiálogo dirigido: Exploración de reglas para divisibilidad por 2, 5 y 10.\n\nSituaciones problemáticas: Aplicación de criterios en contextos reales.\n\nTrabajo en grupos: Resolución colaborativa.",
+      "aprendizaje_significativo": "Se introducen los criterios de divisibilidad como reglas prácticas para determinar si un número es divisible por otro sin necesidad de hacer la división, aplicándolos en contextos de empaquetado y organización en el béisbol.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una lista de números y se les guía para observar la última cifra.\n\nPara estudiantes kinestésicos: Se les invita a escribir números en la pizarra y encerrar la última cifra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que investiguen por qué funcionan estos criterios.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 95, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra\n• (https://youtu.be/1XSZuMgMOnO",
+          "descripcion": "1. El docente pregunta por la actividad interactiva del enlace.\n2. Retroalimenta MCM y MCD.\n3. Anuncia el tema: criterios de divisibilidad. Pregunta: \"¿Qué significa que un número sea divisible por otro?\"\n4. Proyecta el video \"Criterios de divisibilidad para niños: dividir entre 1, 2, 5 y 10\" (https://youtu.be/1XSZuMgMOnO). Socializa: \"¿De qué trata el video?\"",
+          "actividad_numero": "Actividad 11 A (pág. 94)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, presenta números 20,000; 5,000; 415. Pregunta: \"¿Entre cuáles números se pueden repartir estas cantidades sin que sobre?\"\n2. Plantea el problema (pág. 94): \"Alberto tiene 40 pelotas de béisbol. ¿Se pueden usar exactamente 2 pelotas por día sin reusarlas?\" (Sí, porque termina en 0, que es par).\n3. Plantea el problema (pág. 94): \"El padre de Alexander tiene 23,486 cojines para empacar en cajas de 2. ¿Se pueden empacar sin que sobren?\" (Sí, termina en 6, par).\n4. Plantea el problema (pág. 94): \"15,485 personas en grupos de 5. ¿Se puede?\" (Sí, termina en 5).\n5. Plantea el problema (pág. 95): \"13,840 personas en filas de 10. ¿Se puede? ¿Y en filas de 5? ¿Y en parejas?\" (10: sí, termina en 0; 5: sí, termina en 0; 2: sí, termina en 0, par).\n6. Concluye:\n- Un número es divisible por 2 si termina en 0 o cifra par.\n- Un número es divisible por 5 si termina en 0 o 5.\n- Un número es divisible por 10 si termina en 0.",
+          "actividad_numero": "Actividad 11 B (págs. 94-95)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver usando criterios de divisibilidad: 1) El abuelo de Alberto va a vender 71,980 pollos. ¿Puede dividirlos en grupos de 10? ¿Qué otros grupos puede formar? 2) Al estadio asistieron 15,483 personas. Las filas son de 10. ¿Todas las filas estaban llenas?\n\nCierre (pág. 95):\nPreguntas: \"¿Cuándo un número es divisible entre 2? ¿Entre 5? ¿Entre 10? ¿En qué nos ayudan estos criterios?\"\n\nActividad complementaria (pág. 95):\nUsando las visitas al Estadio Cibao (21,182; 386,960; 72,431), marcar con X los números que son divisibles por 2, 5 y 10.\n\nActividad para el diario del estudiante (pág. 96):\nEscribir un problema en el que la cantidad sea divisible por 2, por 5 y por 10.",
+          "actividad_numero": "Actividad 11 Actividad para el cuaderno (pág. 95) Cierre (pág. 95) Actividad complementaria (pág. 95) Actividad para el diario (pág. 96)"
+        }
+      ]
+    },
+    {
+      "id": "1771853415655",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Explorando más criterios de divisibilidad",
+      "intencion_pedagogica": "Utilizar criterios de divisibilidad para resolver situaciones problemáticas del contexto (sección 2).\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre divisibilidad entre 3, 4 y 6.\n\nDiálogo dirigido: Exploración de reglas para divisibilidad por 3, 4 y 6.\n\nSituaciones problemáticas: Aplicación de criterios en contextos reales.\n\nTrabajo en grupos: Resolución colaborativa.",
+      "aprendizaje_significativo": "Se amplían los criterios de divisibilidad a 3, 4 y 6, mostrando cómo estas reglas facilitan la resolución de problemas de organización y reparto en contextos cotidianos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una guía con los pasos para cada criterio.\n\nPara estudiantes kinestésicos: Se les invita a escribir los números y sumar dígitos en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que investiguen el criterio de divisibilidad por 9.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 97, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra\n • (https://youtu.be/tVxlPZf1VT4)",
+          "descripcion": "1. El docente pregunta por el problema que elaboraron.\n2. Retroalimenta criterios de divisibilidad por 2, 5 y 10.\n3. Pregunta: \"¿Cuándo un número es divisible por 2? ¿Por 5? ¿Por 10?\"\n4. Anuncia que hoy aprenderán criterios para 3, 4 y 6. Proyecta el video \"Divisibilidad entre 3, 4 Y 6\" (https://youtu.be/tVxlPZf1VT4). Socializa.",
+          "actividad_numero": "Actividad 12 A (pág. 96)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, plantea el problema (pág. 96): \"La madre de Alberto tiene 285 pastelitos para colocar en cajas de 3. ¿Podrá hacerlo sin que sobren?\"\n2. Guía para sumar dígitos: 2+8+5=15, 15 es múltiplo de 3 → 285 es divisible por 3.\n3. Concluye: un número es divisible por 3 si la suma de sus dígitos es múltiplo de 3.\n4. Mismo problema con cajas de 4: 85 no es múltiplo de 4, no se puede. Concluye: divisible por 4 si sus dos últimas cifras son ceros o múltiplo de 4.\n5. Plantea el problema (pág. 97): \"71,980 botellas en cajas de 4. ¿Se puede?\" (80 es múltiplo de 4, sí).\n6. Plantea el problema (pág. 97): \"23,682 pantalones en paquetes de 6. ¿Se puede?\" (Debe ser divisible por 2 y 3: termina en 2 (par) y suma dígitos 2+3+6+8+2=21, múltiplo de 3 → sí).\n7. Concluye: un número es divisible por 6 si lo es por 2 y por 3 simultáneamente.",
+          "actividad_numero": "Actividad 12 B (págs. 96-97)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Una empresa tiene 23,682 pantalones. ¿Pueden colocarlos en paquetes de 6?\" (Justificar con criterios).\n\nCierre (pág. 97):\nPreguntas: \"¿Cuándo un número es divisible entre 3? ¿Entre 4? ¿Entre 6? ¿En qué nos ayudan estos criterios?\"\n\nActividad complementaria (pág. 98):\nEn la tabla, marcar con X los números divisibles por 3, 4 y 6 (21,184; 1,386,960; 172,431; 333,330).\n\nActividad para el diario del estudiante (pág. 98):\nEscribir un problema en el que la cantidad sea divisible por 3, por 4 y por 6.",
+          "actividad_numero": "Actividad 12 Actividad para el cuaderno (pág. 97) Cierre (pág. 97) Actividad complementaria (pág. 98) Actividad para el diario (pág. 98)"
+        }
+      ]
+    },
+    {
+      "id": "1771853516786",
+      "sequence_id": "seq-1771696486045",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar los conocimientos adquiridos en la Secuencia 3 (división, potenciación, radicación, números primos y compuestos, factores primos, MCM, MCD, criterios de divisibilidad) a través de la resolución de problemas.\n\n",
+      "estrategia": "Retroalimentación inicial: Preguntas orales para recordar los temas de la secuencia.\n\nEvaluación escrita: Resolución individual de un conjunto de problemas.\n\nUso de escala de valoración: Para que los estudiantes comprendan cómo se evaluará su desempeño.",
+      "aprendizaje_significativo": "La evaluación se presenta como una oportunidad para demostrar lo aprendido en contextos significativos (béisbol, estadios), y se utiliza una escala de valoración para que los estudiantes tomen conciencia de su propio nivel de logro.\n\n",
+      "actividades_complementarias": "Para estudiantes que necesitan más tiempo: Se les puede permitir terminar la evaluación en otra sesión, según la Ordenanza 04-2023.\n\nPara estudiantes con dificultades de lectura: Se les leen los problemas en voz alta si es necesario.\n\nPara estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n\nPara estudiantes que terminan rápido: Se les puede pedir que revisen sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué trabajaron en esta secuencia? ¿Qué operaciones usaron? ¿Qué es un número primo? ¿Qué es el MCM? ¿Qué criterios de divisibilidad recuerdan?\"\n2. Da tiempo para responder y retroalimenta los temas.",
+          "actividad_numero": "Actividad 13 (Párrafo 1, pág. 98)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Copia de la evaluación o pizarra con los ítems\n• Escala de valoración",
+          "descripcion": ". El docente explica que esta actividad evalúa la secuencia y que se hará énfasis en la resolución de problemas.\n2. Explica que cada ítem tiene un valor numérico por procedimiento y respuesta completa.\n3. Lee y explica la escala de valoración (pág. 98).\n4. Entrega una hoja en blanco a cada estudiante para que coloquen sus datos.\n5. Aplica la evaluación, ítem por ítem, dando el tiempo necesario. La evaluación consta de 10 puntos:\n- Ítem 1: Resolver divisiones y escribir el nombre de cada elemento (10 pts).\n- Ítem 2: Resolver problemas de división (a) asistencia al estadio en 5 meses con 30 días cada uno; (b) cuenta de RD$ 15,856 entre 13 personas (10 pts).\n- Ítem 3: Completar crucigrama de divisiones (10 pts).\n- Ítem 4: Completar cuadro de potencias (cantidad, base, exponente, potencia) (10 pts).\n- Ítem 5: Clasificar números en primos o compuestos (89, 13, 1, 97, 198) (10 pts).\n- Ítem 6: Descomponer números en factores primos (10 pts).\n- Ítem 7: Resolver problemas de MCM y MCD (a) cajeros de boletería, uno tarda 20 min, otro 15 min, ¿cuándo volverán a llamar simultáneamente?; (b) rollos de 40 y 60 pies para cortar en pedazos iguales, ¿longitud mayor? (10 pts).\n- Ítem 8: Marcar con X los divisores (2,3,4,5,6) de las cantidades de visitantes al estadio (2017: 231,184; 2018: 386,962; 2019: 172,735; 2020: 46,976,740) (10 pts).\n- Ítem 9: Elaborar 2 problemas que se puedan resolver usando reglas de divisibilidad (10 pts).\n- Ítem 10: Resolver problemas estimando por defecto o por exceso (a) 62 padres pagaron RD$ 19,750, ¿cuánto aproximadamente por boleta?; (b) 720 tazos entre 30 compañeros, ¿cuántos aproximadamente? (10 pts).",
+          "actividad_numero": "Actividad 13 Evaluación (págs. 98-100)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones de los estudiantes",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Puede hacer un breve comentario sobre la importancia de la evaluación para medir el aprendizaje.\n3. Anuncia que en la próxima clase se darán los resultados y se retroalimentarán los puntos con mayores dificultades.",
+          "actividad_numero": "Actividad 13 (Cierre)"
+        }
+      ]
+    }
+  ]
+}

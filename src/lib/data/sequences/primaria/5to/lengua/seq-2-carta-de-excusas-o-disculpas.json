@@ -1,0 +1,204 @@
+{
+  "id": "seq-1771353514875",
+  "title": "Carta de excusas o disculpas",
+  "description": "Aprendizaje de la estructura y redacción de cartas para justificar situaciones o pedir disculpas.",
+  "order": 2,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771354519198",
+      "sequence_id": "seq-1771353514875",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral",
+      "intencion_pedagogica": "Desarrollar la comprensión oral de una carta de excusa o disculpa, identificando su propósito, estructura y los elementos que la componen.\n\n",
+      "estrategia": "Lectura en voz alta (modelado): El docente lee la carta con la entonación adecuada.\n\nTrabajo individual: Los estudiantes responden preguntas por escrito.\n\nTrabajo en grupos cooperativos: Socialización de respuestas entre pares.\n\nPlenaria: Puesta en común y construcción colectiva de significados.",
+      "aprendizaje_significativo": "Se parte de una situación real y cercana a los estudiantes (un accidente en el recreo que obliga a faltar a clases) para introducir la carta de excusa, conectando así el contenido académico con experiencias cotidianas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les proporciona una copia escrita de la carta para que sigan visualmente mientras el docente lee.\n\nPara estudiantes con dificultades de comprensión: Se les permite trabajar las preguntas en pareja antes de la discusión grupal.\n\nPara estudiantes kinestésicos: Se les invita a representar la situación de Manuel (la caída, el internamiento) mientras otros leen.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona la transcripción de la carta y las preguntas por escrito.",
+      "actividades_cuaderno": "Copiar la síntesis de la pizarra: partes de la carta de excusa y su propósito. Escribir un breve párrafo sobre alguna vez que hayan tenido que excusarse por faltar a clase.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Texto de la carta (pág. 18)",
+          "descripcion": "1. El docente anuncia que leerá en voz alta un texto (sin decir que es una carta) y que los estudiantes deben estar muy atentos, pues luego responderán preguntas (pág. 18).",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 18)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto de la carta (pág. 18)\n• Cuadernos\n• Pizarra",
+          "descripcion": "1. El docente lee en voz alta la carta de Manuel Díaz (pág. 18), haciendo las pausas pertinentes y con la entonación adecuada.\n2. Los estudiantes responden individualmente las preguntas de comprensión (pág. 18-19):\n- \"¿Qué tipo de texto es el que acabas de escuchar? ¿Cómo lo sabes? ¿Qué partes lo conforman?\" (pregunta 1)\n- \"¿Cuál es la intención de dicho texto?\" (pregunta 2)\n- \"¿Qué problemas tiene Manuel? ¿Por qué ocurren?\" (pregunta 3)\n- \"¿Se presenta en el texto alguna solución a alguno de esos problemas? ¿Cuáles?\" (pregunta 4)\n3. Pasados 15 minutos, el docente divide la clase en grupos de tres estudiantes para que compartan sus respuestas (8-10 minutos).\n4. El docente se pasea por los grupos, anotando aciertos, desaciertos e incomprensiones para aprovecharlos en la plenaria.",
+          "actividad_numero": "Comprensión oral Preguntas 1-4 (págs. 18-19)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra",
+          "descripcion": "1. Se realiza una plenaria para socializar las respuestas.\n2. El docente guía la construcción de las respuestas correctas (pág. 19-20):\n- Tipo de texto: Carta de excusa. Se sabe por el propósito (excusarse), las razones que da y los compromisos que presenta.\n- Partes: Localidad y fecha, destinatario, saludo, cuerpo, despedida, firma.\n- Intención: Excusarse por faltar a la escuela.\n- Problemas: Se cayó en el patio y tiene problemas en la pierna; lo internarán.\n- Soluciones: Internamiento para el dolor; ponerse al día con ayuda de su vecino.",
+          "actividad_numero": "Comprensión oral Socialización (págs. 19-20)"
+        }
+      ]
+    },
+    {
+      "id": "1771354587998",
+      "sequence_id": "seq-1771353514875",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Producción Oral y Preparación para la Escritura",
+      "intencion_pedagogica": "Planificar oralmente la carta de excusa que se escribirá posteriormente, definiendo destinatario, motivo, explicaciones y compromisos.\n\n",
+      "estrategia": "Diálogo dirigido: Para explorar ideas sobre la futura carta.\n\nUso de esquema: Organizador gráfico para planificar la producción oral.\n\nPresentación oral: Los estudiantes comparten sus ideas con los compañeros.\n\nRegistro escrito: Anotación de ideas en el cuaderno para su uso posterior.",
+      "aprendizaje_significativo": "La producción oral sirve como andamiaje para la producción escrita, permitiendo a los estudiantes clarificar sus ideas y recibir retroalimentación antes de enfrentarse a la página en blanco.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite escribir primero sus ideas y luego leerlas.\n\nPara estudiantes tímidos: Se les da la opción de compartir solo con el docente o con un compañero de confianza.\n\nPara estudiantes kinestésicos: Se les anima a representar la situación que motiva la excusa.\n\nPara estudiantes avanzados: Se les pide que piensen en más de un compromiso o en explicaciones más detalladas.",
+      "actividades_cuaderno": "Completar el esquema en el cuaderno con las ideas para su carta: a quién, por qué, explicaciones y compromisos.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente explica que, aunque la carta es un texto escrito, la producción oral ayudará a desarrollar y complementar los procesos de escritura (pág. 20).\n2. Indica que conversarán sobre la carta que más adelante escribirán.\n3. Motiva a pensar en: persona a quien escribirán, motivo de la excusa, cómo lo dirán.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 20)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Pizarra con el esquema\n• Cuadernos",
+          "descripcion": "1. El docente presenta el esquema para organizar ideas (pág. 20):\n- A quién le escribiré la carta.\n- Por qué pediré excusa.\n- Qué explicaciones daré.\n- A qué me comprometeré.\n2. Los estudiantes piensan en sus respuestas y las comparten oralmente con la clase.\n3. El docente ayuda a organizar las ideas y ofrece retroalimentación.\n4. Después de la presentación oral, los estudiantes escriben la información en sus cuadernos, ya que la utilizarán para la producción escrita (pág. 20).",
+          "actividad_numero": "Producción oral Esquema (pág. 20)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Algunos estudiantes comparten brevemente sus ideas con toda la clase.\n2. El docente refuerza la importancia de tener claros estos elementos antes de escribir.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771354687593",
+      "sequence_id": "seq-1771353514875",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión Escrita",
+      "intencion_pedagogica": "Leer y comprender una carta de excusa o disculpa, identificando sus partes, el problema que la motiva y las acciones que realiza la autora con el lenguaje.\n\n",
+      "estrategia": "Observación de la silueta textual: Identificación de las partes de la carta.\n\nLectura compartida: Estudiantes leen en voz alta alternándose.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión.\n\nAnálisis de actos de habla: Identificación de acciones realizadas con el lenguaje.",
+      "aprendizaje_significativo": "Se analiza una carta escrita por una niña (Luisita) que debe disculparse con su madre por haberle mentido y tomado dinero, una situación profundamente humana y cercana a las experiencias de los estudiantes.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades lectoras: Se les asignan párrafos más cortos o se les permite leer en pareja.\n\nPara estudiantes visuales: Se utiliza el papelógrafo grande para que todos puedan seguir la lectura.\n\nPara estudiantes kinestésicos: Se les invita a pasar al frente y señalar las partes de la carta mientras se leen.\n\nPara estudiantes avanzados: Se les pide que identifiquen otros actos de habla en la carta.",
+      "actividades_cuaderno": "Anotar las partes de la carta de Luisita y el problema que la motiva. Escribir una oración sobre el compromiso que hace.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con la carta de Luisita (pág. 21)",
+          "descripcion": "1. El docente presenta la carta de Luisita escrita en papelógrafo (pág. 21).\n2. Explica el propósito de lectura: profundizar en las características del género y comprender su contenido.\n3. Pide a los estudiantes que observen la silueta del texto y digan qué partes lo conforman.\n4. Invita a señalar en el texto: localidad y fecha, destinatario, saludo, cuerpo, despedida, firma.",
+          "actividad_numero": "Comprensión escrita Pre-lectura (pág. 21)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con la carta de Luisita\n• Participación de los estudiantes",
+          "descripcion": "1. Se realiza la lectura de manera rotativa: un estudiante diferente leerá cada párrafo (pág. 21).\n2. Párrafo 1: Después de la lectura, el docente pregunta: \"¿Cuál es el problema de Luisita?\"\n3. Párrafo 2: Después de la lectura, pregunta: \"Se dice que cuando hablamos realizamos acciones con el lenguaje (aclarar, prometer, informar, excusarnos, convencer...). ¿Cuál de estas acciones realiza Luisita en este segundo párrafo? ¿Y en el primero?\"\n4. Párrafo 3: Después de la lectura, pregunta: \"¿Cuál es el compromiso que hace Luisita con su mamá? ¿Qué acción lleva a cabo Luisita en este párrafo?\"\n5. Última parte: Un cuarto estudiante termina de leer. El docente pregunta: \"¿Qué hace Luisita en esta parte?\"",
+          "actividad_numero": "Comprensión escrita Durante la lectura (págs. 21-22)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se retoman las ideas principales: el problema de Luisita, cómo lo expresa, sus sentimientos, su compromiso.\n2. El docente anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771354785575",
+      "sequence_id": "seq-1771353514875",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Post-lectura y Gramática Textual",
+      "intencion_pedagogica": "Consolidar la comprensión de la carta de excusa a través de actividades de post-lectura y analizar las características y recursos lingüísticos de este género textual.\n\n",
+      "estrategia": "Trabajo individual con el texto: Para resolver actividades de comprensión.\n\nUso de contexto: Para deducir significados sin diccionario.\n\nClase expositiva dialogada: Para presentar las características de la carta de excusa.\n\nAnálisis de texto modelo: Se retoma la carta de Luisita para identificar recursos.",
+      "aprendizaje_significativo": "Se profundiza en el análisis de la carta de Luisita, conectando los sentimientos y acciones de la protagonista con las propias experiencias de los estudiantes, promoviendo la reflexión ética y la expresión de emociones.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de vocabulario: Se les permite usar el diccionario para la Actividad 1.\n\nPara estudiantes con dificultades de escritura: Se les permite dictar sus respuestas a un compañero.\n\nPara estudiantes kinestésicos: Se les invita a representar los sentimientos de Luisita.\n\nPara estudiantes avanzados: Se les pide que escriban un breve párrafo sobre cómo habrían actuado ellos en la situación de Luisita.",
+      "actividades_cuaderno": "Completar las actividades que no se terminaron en clase. Copiar la definición y estructura de la carta de excusas o disculpas.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con la carta de Luisita",
+          "descripcion": "1. Se recuerda brevemente la historia de Luisita y su carta.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos\n• Papelógrafo con la carta",
+          "descripcion": "1. Actividad 1: Explican el significado de palabras en contexto: inculcado, ajeno, honradez, quebrantaran.\n2. Actividad 2: Explican en una oración el motivo de la carta de Luisita.\n3. Actividad 3: Identifican los sentimientos que refleja Luisita y buscan pistas en la carta.\n4. Actividad 4: Caracterizan la personalidad de Luisita en un párrafo, explicando cada rasgo.\n5. Actividad 5: Explican el propósito de las expresiones subrayadas: como recordarás, sin embargo, porque, por el contrario, de hoy en adelante.\n6. Actividad 6: Opinan sobre la actitud de Luisita y comparten experiencias similares (puede ser tarea).\n\nGramática textual (pág. 23):\n1. El docente presenta las características de la carta de excusas o disculpas:\n- Función: establecer comunicación por escrito con una persona ausente.\n- Estructura: lugar y fecha, destinatario/a, saludo, cuerpo o asunto, despedida y firma.\n- Tipos: información, agradecimiento, excusas, invitación, solicitud de permiso, etc.\n- En 5to grado: carta de excusas o disculpas (comunicar causas por las que no se cumplió un compromiso).\n2. El docente menciona los recursos lingüísticos: verbos en futuro, conectores de causa, adverbios como modalizadores.",
+          "actividad_numero": "Comprensión escrita Actividades 1-6 (pág. 22) Gramática textual (pág. 23)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas de las actividades.\n2. El docente refuerza la importancia de los conectores y la estructura de la carta.",
+          "actividad_numero": "Comprensión escrita (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771354873506",
+      "sequence_id": "seq-1771353514875",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Producción Escrita",
+      "intencion_pedagogica": "Redactar una carta de excusas o disculpas real, aplicando todo lo aprendido, a través de las fases de planificación, textualización y revisión, y prepararla para su envío o publicación.\n\n",
+      "estrategia": "Taller de escritura: Acompañamiento paso a paso en el proceso de producción.\n\nUso de organizador gráfico: Para planificar la carta.\n\nRevisión en pares: Coevaluación de borradores.\n\nAndamiaje docente: El docente guía a través de preguntas y entrevistas individuales.\n\nPublicación: Envío real de la carta o publicación en el mural.",
+      "aprendizaje_significativo": "Los estudiantes escriben una carta real para disculparse con alguien a quien han faltado, dando autenticidad y propósito emocional a la tarea de escritura, y promoviendo valores como la honestidad y la responsabilidad.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite escribir en computadora o dictar a un compañero.\n\nPara estudiantes con dificultades de organización: Se les proporciona una plantilla con espacios para completar.\n\nPara estudiantes kinestésicos: Se les anima a decorar sus sobres y cartas creativamente.\n\nPara estudiantes con discapacidad motriz: Se adaptan los materiales (hojas con renglones más separados, uso de computadora).\n\nPara estudiantes avanzados: Se les pide que incluyan más de un compromiso o que utilicen un vocabulario más formal.",
+      "actividades_cuaderno": "Pegar una copia de la versión final de la carta (si es posible) y escribir una breve reflexión sobre cómo se sintieron al escribirla y enviarla.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Organizador gráfico en la pizarra o fotocopiado\n• Cuadernos",
+          "descripcion": "1. El docente recuerda el trabajo realizado en producción oral y anima a los estudiantes a retomar esas ideas (pág. 23).\n2. Presenta el organizador gráfico para planificar la carta (pág. 23):\n- Lugar y fecha\n- Destinatario (fórmula de tratamiento)\n- Saludo (fórmula de cortesía)\n- Cuerpo de la carta (situación y motivo de la excusa)\n- Fórmula de despedida\n- Firma\n3. Recuerda utilizar la fórmula de tratamiento, cortesía y despedida adecuadas a la relación con el destinatario.",
+          "actividad_numero": "Producción escrita Planificación (pág. 23)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Borradores de los estudiantes\n• Organizador gráfico\n• Lista de cotejo (opcional)",
+          "descripcion": "1. Textualización: Los estudiantes comienzan a escribir su primer borrador, tomando en cuenta el propósito (excusarse) y las características del destinatario (pág. 24).\n2. El docente apoya durante el proceso, haciendo preguntas que ayuden a completar vacíos (ej: \"¿Dónde vive esa persona? Escríbelo\").\n3. Revisión en grupos (pág. 24): En grupos de 5, comparten sus borradores y se ayudan mutuamente a mejorar, usando el organizador gráfico como guía.\n4. Revisión docente: El docente revisa los borradores y ofrece retroalimentación individual.\n5. Los estudiantes corrigen sus borradores con las sugerencias recibidas.",
+          "actividad_numero": "Producción escrita Textualización (pág. 24) Revisión (pág. 24)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Hojas para la versión final\n• Sobres o plantillas para hacer sobres\n• Mural del aula",
+          "descripcion": "1. Los estudiantes pasan en limpio su carta en una hoja bonita, con su mejor letra.\n2. El docente muestra cómo colocar el remitente y destinatario en un sobre (pág. 24).\n3. Los estudiantes preparan sus sobres (pueden comprarlos o hacerlos con una plantilla).\n4. Se relaciona esta actividad con la clase de Manualidades o Educación Artística.\n5. Cada estudiante envía su carta (si es posible) o se publican en un mural del aula destinado para tal propósito.",
+          "actividad_numero": "Producción escrita Publicación (pág. 24)"
+        }
+      ]
+    }
+  ]
+}

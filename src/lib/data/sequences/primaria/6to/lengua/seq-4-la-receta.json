@@ -1,0 +1,243 @@
+{
+  "id": "seq-1772114316534",
+  "title": "La receta",
+  "description": "Enseña a comprender y producir instrucciones claras, ordenadas y precisas utilizando verbos en modo imperativo y secuencias lógicas. Promueve la lectura funcional y la escritura práctica.",
+  "order": 4,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772114316530",
+      "sequence_id": "seq-1772114316534",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión oral y escrita - Exploración",
+      "intencion_pedagogica": "Activar conocimientos previos sobre la receta de cocina mediante un diálogo sobre quién cocina en casa y qué saben preparar los estudiantes, y asignar la preparación práctica para la próxima clase.",
+      "estrategia": "• Uso de imágenes: Presentación de personas realizando quehaceres domésticos.\n• Diálogo dirigido: Conversación sobre quién cocina en casa y qué saben preparar.\n• Exposición oral espontánea: Estudiantes explican cómo preparan algún plato.\n• Asignación de tarea práctica: Traer ingredientes para ensalada de frutas.",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre las tareas del hogar y quién cocina en su casa, conectando así el contenido académico con su vida familiar y sus propias experiencias culinarias.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de expresión oral: Se les permite responder con frases cortas y se les ayuda a completar sus ideas.\n• Para estudiantes kinestésicos: La actividad práctica de la próxima clase será ideal para ellos.\n• Para estudiantes con dificultades económicas: El docente coordina con el grupo para que los ingredientes se compartan o busca apoyo de la escuela para proveerlos.\n• Para estudiantes avanzados: Se les pide que investiguen el origen de alguna de las frutas que traerán.",
+      "actividades_cuaderno": "Título: La receta de cocina\n1. ¿Qué plato sabes preparar? Escribe los ingredientes que necesitas.\n2. ¿Quién cocina normalmente en tu casa?\n3. Para la próxima clase, recuerda traer los ingredientes y utensilios que te asignaron en tu grupo.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imágenes de personas realizando quehaceres domésticos\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente lleva al aula imágenes de personas realizando tareas o quehaceres domésticos (pág. 52).\n2. Pide a los niños que observen y expresen lo que ven.\n3. Guía un diálogo con preguntas:\n- \"¿Qué se está haciendo en cada foto?\"\n- \"¿Hay algún aspecto que llame especialmente tu atención?\"\n- \"¿Quiénes están participando en las tareas ilustradas?\"\n- \"¿Ocurre así en tu casa? ¿Cómo es en tu realidad?\"\n- \"Tú, ¿con cuáles de estas tareas colaboras en el hogar?\"\n- \"¿Quién cocina en tu casa? ¿Qué cocina regularmente?\"\n- \"Y tú, ¿sabes cocinar? ¿qué sabes preparar?\"",
+          "actividad_numero": "Comprensión oral y escrita (Párrafos 1-2, pág. 52)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes\n• Pizarra\n• Lista de ingredientes en la pizarra",
+          "descripcion": "1. El docente alienta a los estudiantes a participar activamente: \"¿Puedes decirle a la clase cómo se prepara esa comida que sabes hacer?\" (pág. 52).\n2. Da oportunidad a que la mayor cantidad posible de estudiantes explique cómo cocina eso que sabe hacer.\n3. Gestiona la atención del resto del grupo haciendo preguntas puntuales después de cada explicación:\n- \"¿Cuáles son los ingredientes necesarios para preparar ese plato?\"\n- \"¿Qué se hace después de...?\"\n- \"¿Qué es necesario hacer antes de...?\"\n- \"¿En qué momento se recomienda consumir el plato que nos describió...?\"\n\nActividad 2 - Introducción al género y asignación de tarea (25 min):\n1. Continúa el diálogo preguntando: \"¿Alguien sabe qué tipo de texto utilizamos para explicar cómo preparar alimentos?\" (Debe conducir a que respondan \"receta de cocina\") (pág. 52).\n2. Explica que en esta secuencia aprenderán sobre las recetas.\n3. Asigna la tarea práctica (pág. 53): \"Para la próxima clase, vamos a preparar una ensalada de frutas. Por grupos, deben traer los siguientes recursos:\"\n- 1 botella de agua potable\n- Un cuchillo\n- Una ponchera\n- Un bol\n- Un cucharón\n- 1 limón\n- 2 naranjas\n- 2 peras*\n- 2 manzanas*\n- 2 guineos maduros\n- 3 kiwis*\n- 1/2 libra de fresas*\n- 1 lata de leche condensada\n- Vasitos plásticos y cucharitas desechables (para todos)\n4. Explica que las frutas con * pueden sustituirse por frutas a las que tengan acceso en su comunidad.",
+          "actividad_numero": "Comprensión oral y escrita (Párrafos 3-4, pág. 52-53)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Lista de grupos",
+          "descripcion": "1. El docente forma grupos de seis o siete estudiantes (pág. 53).\n2. Explica que en cada grupo se distribuirán los productos y que deben traerlos todos.\n3. Verifica que cada grupo tenga claro qué debe traer.\n4. Anuncia que en la próxima clase, con los ingredientes, leerán una receta y prepararán la ensalada de frutas.",
+          "actividad_numero": "Comprensión oral y escrita (Párrafo final, pág. 53)"
+        }
+      ]
+    },
+    {
+      "id": "1772118197340",
+      "sequence_id": "seq-1772114316534",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión escrita y práctica",
+      "intencion_pedagogica": "Leer y comprender una receta de ensalada de frutas, identificar sus partes y características lingüísticas, y seguir sus instrucciones para preparar el plato.",
+      "estrategia": "• Presentación de texto: Receta de ensalada de frutas en papelógrafo.\n• Formulación de hipótesis: Anticipación del contenido a partir del título.\n• Lectura silenciosa y guiada.\n• Actividad práctica: Preparación de la receta siguiendo las instrucciones.\n• Análisis lingüístico: Identificación de formas impersonales con \"se\".",
+      "aprendizaje_significativo": "Los estudiantes experimentan la utilidad real de una receta al seguir sus instrucciones para preparar un alimento que luego compartirán, conectando así la lectura con una experiencia práctica y significativa.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de lectura: Se les asigna la tarea de leer solo la lista de ingredientes y ayudar a verificarlos.\n• Para estudiantes kinestésicos: La actividad práctica de preparación es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les describe el proceso paso a paso y se les permite participar en el lavado y mezclado.\n• Para estudiantes avanzados: Se les pide que observen si en sus casas preparan la ensalada de frutas de manera diferente y tomen nota.",
+      "actividades_cuaderno": "Título: Mi experiencia con la receta\n1. ¿Qué receta preparamos hoy?\n2. Escribe los ingredientes que utilizamos.\n3. ¿Qué significan las expresiones \"se lavan\", \"se pelan\"? ¿Por qué crees que se usan así en las recetas?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Ingredientes y utensilios traídos por los estudiantes",
+          "descripcion": "1. El docente organiza los grupos y verifica que cada grupo tenga todos los ingredientes y utensilios traídos de casa (pág. 53).\n2. Recuerda las normas de higiene y seguridad para manipular alimentos.",
+          "actividad_numero": "Comprensión escrita (Párrafo 1, pág. 54)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Receta de ensalada de frutas en papelógrafo o proyección\n• Pizarra\n• Marcadores\n• Ingredientes y utensilios\n• Receta visible para todos",
+          "descripcion": "1. El docente presenta el texto con la receta de \"Ensalada de frutas\" en un papelógrafo o proyección (pág. 54).\n2. Muestra y lee solo el título. Pide que hagan anticipaciones sobre el contenido y las anota en la pizarra.\n3. Pregunta: \"¿Qué creen que será necesario para preparar la ensalada de frutas?\" Anota sus suposiciones.\n4. Pregunta: \"¿Cómo piensan que se prepara?\" Anota las ideas.\n5. Muestra el texto completo y permite que lo lean en silencio (pág. 54).\n6. Cuando todos hayan terminado, pregunta: \"¿Hay palabras que desconocen?\" Realiza ejercicios para encontrar significado por contexto.\n7. Conversa sobre la intención del texto: \"¿Para qué fue escrito?\" (Dar indicaciones para preparar un plato).\n8. Pregunta: \"¿A quién está dirigido?\"\n9. Señala las expresiones destacadas en amarillo (se lavan, se pelan, se descorazonan) y pregunta: \"¿Qué características presentan estas expresiones? ¿A quién se refieren?\"\n10. Explica la función de las formas impersonales con \"se\": expresar cortesía hacia el interlocutor.\n11. Pregunta: \"¿Conocen otras formas de expresar la misma idea?\" (Ej: lavar y pelar, lava y pela). Anota ejemplos y explica las diferencias.\n\n1. El docente indica que ahora seguirán las instrucciones para hacer la ensalada con los recursos que trajeron (pág. 54).\n2. Los grupos trabajan siguiendo los pasos de la receta: lavar, pelar, cortar, mezclar.\n3. El docente circula por los grupos, supervisando y ayudando.\n4. Al final, sirven la ensalada en los vasitos plásticos y añaden la leche condensada.\n5. Todos comparten la ensalada preparada.",
+          "actividad_numero": "Comprensión escrita (Párrafo 5, pág. 54)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente guía una reflexión: \"¿Fue fácil seguir las instrucciones? ¿Qué pasaría si no siguiéramos el orden?\"\n2. Pregunta: \"¿Para qué nos sirven las recetas en la vida diaria?\"\n3. Anuncia que en la próxima clase profundizarán en la gramática de la receta (construcciones con \"se\" y conectores de orden).",
+          "actividad_numero": "Cierre"
+        }
+      ]
+    },
+    {
+      "id": "1772118393642",
+      "sequence_id": "seq-1772114316534",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Gramática textual",
+      "intencion_pedagogica": "Conocer y analizar las construcciones impersonales con \"se\" y los conectores de orden utilizados en las recetas de cocina.",
+      "estrategia": "• Lectura guiada de texto informativo.\n• Análisis de ejemplos: Construcciones impersonales con \"se\".\n• Identificación de conectores de orden en la receta.\n• Ejercicios prácticos de escritura de oraciones.",
+      "aprendizaje_significativo": "Los estudiantes comprenden que las recetas usan un lenguaje especial (impersonal) para dar instrucciones claras y universales, y que este tipo de lenguaje aparece también en otros contextos como manuales de instrucciones.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan ejemplos adicionales de oraciones con \"se\" y conectores.\n• Para estudiantes kinestésicos: Pueden representar con gestos las acciones mientras dicen las instrucciones (ej: \"primero se lavan las manos\").\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejemplos en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen otros tipos de conectores (causales, temporales) y los añadan a su lista.",
+      "actividades_cuaderno": "Título: El lenguaje de las recetas\n1. Explica con tus palabras qué son las construcciones impersonales con \"se\" y para qué se usan en las recetas.\n2. Escribe tres ejemplos de instrucciones de cocina usando \"se\".\n3. Escribe una lista de 5 conectores de orden y úsalos en una oración cada uno.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan la receta que usamos la clase pasada? ¿Cómo empezaba? (se lavan, se pelan...)\".\n2. Anuncia que hoy aprenderán por qué se usa ese tipo de lenguaje en las recetas.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Libro de texto o copias de la página 56\n• Receta de ensalada de frutas (pág. 53)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Construcciones impersonales con \"se\" (30 min):\n1. El docente presenta el apartado \"Gramática textual - Construcciones impersonales con SE\" (pág. 56).\n2. Lee y explica: \"En español existen construcciones impersonales en las que no aparece un sujeto concreto: SE + VERBO (3ª persona singular)\".\n3. Escribe ejemplos en la pizarra:\n- \"En Italia se vive bien.\"\n- \"En esta casa se trabaja mucho.\"\n4. Relaciona con la receta: \"Se lavan las naranjas\" (no dice quién las lava, es una instrucción general).\n5. Pregunta: \"¿Por qué creen que se usa esta forma en las recetas?\" (Para dar instrucciones de manera cortés y general, sin señalar directamente al lector).\n6. Los estudiantes escriben 3 oraciones con \"se\" para instrucciones de cocina (ej: \"Se cortan las frutas en trozos pequeños\").\n\nActividad 2 - Conectores de orden (30 min):\n1. El docente presenta el apartado \"Conectores de orden\" (pág. 56).\n2. Lee y explica: \"Los conectores secuenciales o de orden vinculan las partes de un texto para dotarlo de hilación lógica.\"\n3. Enumera ejemplos: primero, segundo, luego, a continuación, después, finalmente, etc.\n4. Pide a los estudiantes que busquen en la receta de ensalada de frutas los conectores de orden que aparecen (pág. 53): \"Luego\", \"Por último\", \"En el momento de servir\".\n5. Los estudiantes copian los conectores en su cuaderno.\n6. En parejas, escriben una breve secuencia de instrucciones (3 pasos) para una tarea simple (ej: lavarse los dientes, hacer una cama) usando conectores de orden.",
+          "actividad_numero": "Gramática textual (Pág. 56)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Algunos estudiantes comparten las oraciones con \"se\" que escribieron.\n2. Otros comparten las secuencias de instrucciones con conectores de orden.\n3. El docente refuerza los aciertos y corrige suavemente los errores.\n4. Anuncia que en la próxima clase comenzarán a investigar sobre recetas del mundo.",
+          "actividad_numero": "Cierre"
+        }
+      ]
+    },
+    {
+      "id": "1772118514379",
+      "sequence_id": "seq-1772114316534",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Producción oral - Investigación",
+      "intencion_pedagogica": "Investigar sobre platos típicos de diferentes regiones del mundo y seleccionar uno para preparar en familia, como preparación para la producción oral y escrita.",
+      "estrategia": "• Uso de material concreto: Globo terráqueo o mapa mundial.\n• Diálogo dirigido: Exploración de conocimientos sobre regiones del mundo.\n• Investigación guiada: Búsqueda de platos del recetario mundial.\n• Trabajo colaborativo: Socialización de hallazgos en grupos.",
+      "aprendizaje_significativo": "Los estudiantes descubren la diversidad culinaria del mundo, conectando así el aprendizaje con la geografía y la cultura de diferentes países.",
+      "actividades_complementarias": "• Para estudiantes sin acceso a internet: Se les permite investigar preguntando a familiares o vecinos sobre platos típicos de otras regiones.\n• Para estudiantes kinestésicos: Mientras investigan, pueden dibujar algunos de los platos que encuentren.\n• Para estudiantes con discapacidad visual: Se les proporciona una lista de platos por región en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen también el origen histórico de uno de los platos.",
+      "actividades_cuaderno": "Título: Recetas del mundo\n1. Copia el cuadro de regiones y platos que completaste en clase.\n2. ¿Qué plato seleccionaste para preparar con tu familia? ¿Por qué lo elegiste?\n3. Investiga y escribe los ingredientes principales de ese plato.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Globo terráqueo o mapa mundial\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente lleva al aula un globo terráqueo o un mapa mundial (pág. 56).\n2. Pregunta: \"¿Qué es este objeto? ¿Para qué lo utilizamos?\"\n3. Pide que localicen dónde estamos nosotros.\n4. Pregunta: \"¿Cuáles países conocen o sobre cuáles han escuchado?\" Los localizan en el globo.\n5. Pregunta: \"¿Cuáles son las regiones geográficas en que se divide el planeta?\" (Asia, África, Europa, América, etc.).\n6. Pregunta: \"¿Cómo llamamos a algo que es común en todo el planeta?\" (Mundial). \"¿Y cuando se refiere a cada región?\" (Regional).\n7. Pide ejemplos: \"cultura asiática\", \"comida africana\", \"música caribeña\".\n8. Explica que esto también ocurre con las comidas: las recetas de una región forman el \"recetario regional\" o \"recetario mundial\".",
+          "actividad_numero": "Producción oral y escrita (Párrafos 1-2, pág. 56)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "Platos del recetario mundial que más se consumen",
+          "descripcion": "Actividad 1 - Investigación guiada (25 min):\n1. El docente presenta la consigna de investigación (pág. 57): \"Vamos a aprender sobre recetas del mundo. Investiga en la biblioteca de tu escuela, de tu comunidad o en internet acerca de los platos que contiene el recetario mundial.\"\n2. Entrega o dibuja en la pizarra el cuadro para completar:",
+          "actividad_numero": "Regiones"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente explica que la tarea para la próxima clase es: \"Van a compartir con sus compañeros cuál es el plato del recetario mundial que les gustaría preparar en su casa.\"\n2. Forma grupos de tres o cuatro estudiantes para que realicen un trabajo colaborativo en la próxima clase.\n3. Recuerda que cada quien elaborará su tarea individualmente.",
+          "actividad_numero": "Producción oral y escrita (Párrafo final, pág. 57)"
+        }
+      ]
+    },
+    {
+      "id": "1772118602798",
+      "sequence_id": "seq-1772114316534",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Producción oral - Exposiciones",
+      "intencion_pedagogica": "Exponer oralmente, en grupos pequeños y luego ante la clase, la información sobre el plato del recetario mundial seleccionado, incluyendo ingredientes, cantidades y pasos de preparación.",
+      "estrategia": "• Trabajo colaborativo en grupos: Compartir información del plato seleccionado.\n• Exposición oral: Presentación del plato ante la clase.\n• Escucha activa: Compañeros toman nota y aprenden sobre recetas del mundo.",
+      "aprendizaje_significativo": "Los estudiantes comparten sus investigaciones sobre platos de diferentes culturas, ampliando así su conocimiento del mundo y valorando la diversidad culinaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de expresión oral: Se les permite tener una tarjeta con los puntos clave (nombre, ingredientes, pasos) para consultar durante su exposición.\n• Para estudiantes kinestésicos: Pueden hacer gestos mientras describen los pasos de preparación.\n• Para estudiantes con discapacidad auditiva: Se les permite presentar por escrito y luego leerlo, o se asegura que puedan ver los labios de los compañeros.\n• Para estudiantes avanzados: Se les pide que incluyan datos curiosos sobre el origen del plato.",
+      "actividades_cuaderno": "Título: Preparando mi exposición\n1. ¿Qué plato del recetario mundial vas a preparar con tu familia?\n2. Escribe los ingredientes y las cantidades necesarias.\n3. Escribe los pasos de preparación en orden, usando conectores (primero, luego, después, finalmente).",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Grupos formados",
+          "descripcion": "1. El docente organiza los grupos de tres o cuatro estudiantes (formados la clase anterior) (pág. 57).\n2. Recuerda la consigna: van a compartir con sus compañeros cuál es el plato del recetario mundial que les gustaría preparar en su casa.\n3. Explica que cada quien elaborará su tarea individualmente, pero pueden ayudarse en el grupo.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 57)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Pizarra con la consigna\n• Cuadernos\n• Participación de los estudiantes\nCierre (15 min)\tReflexión y anuncio:\n1. El docente felicita a los estudiantes por sus exposiciones.\n2. Pregunta: \"¿Qué aprendieron sobre las recetas de otros países?\"\n3. Anuncia que en la próxima clase escribirán la receta del plato que presentaron hoy.\tCierre\t• Participación de los estudiantes\n",
+          "descripcion": "Actividad 1 - Trabajo en grupos (25 min):\n1. El docente copia en la pizarra la consigna para ayudar a los estudiantes (pág. 57-58):\n- \"Piensa en el nombre del plato del recetario mundial que te gustaría preparar con tu familia y escríbelo en tu cuaderno.\"\n- \"Enumera los ingredientes necesarios para preparar el plato.\"\n- \"Decide la cantidad de personas para las que prepararás el plato.\"\n- \"Calcula y anota la proporción de cada ingrediente.\"\n- \"Ordena los pasos que seguirás para preparar el plato.\"\n- \"Determina el tiempo promedio que se necesita para la elaboración.\"\n- \"Comparte oralmente con tus compañeros del grupo, a manera de ensayo.\"\n2. Los estudiantes trabajan individualmente completando la información en su cuaderno.\n3. Luego, en grupos, comparten oralmente su plato a manera de ensayo y reciben retroalimentación.\n\nActividad 2 - Exposiciones frente a la clase (35 min):\n1. El docente invita a los estudiantes a exponer frente a toda la clase lo que ensayaron (pág. 58).\n2. Cada estudiante tiene 2-3 minutos para presentar su plato.\n3. Mientras exponen, el docente aprovecha para continuar con la construcción del concepto del género receta de cocina.\n4. El resto de la clase escucha atentamente.",
+          "actividad_numero": "Producción oral (Pasos 1-8, pág. 57-58)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente felicita a los estudiantes por sus exposiciones.\n2. Pregunta: \"¿Qué aprendieron sobre las recetas de otros países?\"\n3. Anuncia que en la próxima clase escribirán la receta del plato que presentaron hoy.",
+          "actividad_numero": "Cierre"
+        }
+      ]
+    },
+    {
+      "id": "1772118701035",
+      "sequence_id": "seq-1772114316534",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción escrita",
+      "intencion_pedagogica": "Redactar la receta del plato del recetario mundial seleccionado, siguiendo la estructura y características del género, para intercambiarla con compañeros y elaborar un libro de recetas.",
+      "estrategia": "• Redacción guiada: Escritura de la receta siguiendo pasos establecidos.\n• Uso de organizador: Lista de ingredientes y pasos.\n• Coevaluación: Intercambio de borradores entre compañeros.\n• Corrección docente.\n• Publicación: Elaboración de un libro de recetas.",
+      "aprendizaje_significativo": "Los estudiantes escriben una receta que podrán usar en su casa para preparar un plato con su familia, conectando así la producción escrita con una actividad familiar real y significativa.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de escritura: Se les permite usar un formato de plantilla con espacios para nombre, ingredientes y preparación.\n• Para estudiantes kinestésicos: Pueden ilustrar su receta con un dibujo del plato terminado.\n• Para estudiantes con discapacidad visual: Se les proporciona una plantilla en formato ampliado.\n• Para estudiantes avanzados: Se les pide que añadan una sección de \"consejos\" o \"variaciones\" a su receta.",
+      "actividades_cuaderno": "Título: Mi receta del mundo\nEscribe la versión final de tu receta en tu cuaderno, incluyendo:\n1. Nombre del plato\n2. Ingredientes (con cantidades)\n3. Preparación (pasos ordenados con conectores)",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente anuncia: \"Ahora van a redactar la receta del plato que desean preparar con su familia y que pertenece al recetario mundial\" (pág. 58).\n2. Recuerda las partes de una receta: nombre, ingredientes, preparación.",
+          "actividad_numero": "Producción escrita (Párrafo 1, pág. 58)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lápices\n• Pizarra con la consigna",
+          "descripcion": "1. El docente presenta la consigna de producción escrita (pág. 58):\n- \"Escribe el nombre del plato, recordando que debe ser un poco descriptivo.\"\n- \"Haz un listado de los ingredientes.\"\n- \"Escribe el número de personas para las que se preparará.\"\n- \"Calcula la cantidad de cada ingrediente en relación con las personas.\"\n- \"Escribe cómo se preparará, explicando cada paso en orden. Usa conectores de orden: primero, segundo, después, luego, cuando.\"\n- \"Escribe un borrador poniendo el nombre a cada parte: nombre del plato, ingredientes, preparación.\"\n2. Los estudiantes trabajan individualmente en su borrador, usando la información que prepararon en la clase anterior.\n3. El docente circula y apoya.\n\nActividad 2 - Coevaluación (15 min):\n1. El docente indica: \"Intercambia tu borrador con un compañero para que se ayuden en la corrección\" (pág. 58).\n2. Los estudiantes intercambian borradores y revisan usando como guía:\n- ¿Tiene nombre del plato?\n- ¿Tiene lista de ingredientes con cantidades?\n- ¿Los pasos están en orden?\n- ¿Usa conectores?\n3. Devuelven el borrador con comentarios.\n\nActividad 3 - Corrección docente y versión final (15 min):\n1. El docente recoge los borradores para una revisión rápida o revisa en el aula mientras los estudiantes trabajan.\n2. Los estudiantes escriben un nuevo borrador mejorando las partes señaladas.\n3. Indica: \"Relee otra vez el texto para saber si todo está claro. Si es necesario, haz ajustes. Pasa tu receta en limpio.\"",
+          "actividad_numero": "Producción escrita (Pasos 1-11, pág. 58)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Versiones finales de las recetas",
+          "descripcion": "1. El docente explica que con todas las recetas elaborarán un libro de recetas mundiales (pág. 58).\n2. Los estudiantes que hayan terminado pueden compartir su receta en voz alta.\n3. El docente anuncia que las recetas se compilarán y se compartirán con las familias.\n4. Reflexión final: \"¿Qué aprendieron sobre las recetas y sobre la comida de otros países?\"",
+          "actividad_numero": "Producción escrita (Cierre, pág. 58)"
+        }
+      ]
+    }
+  ]
+}

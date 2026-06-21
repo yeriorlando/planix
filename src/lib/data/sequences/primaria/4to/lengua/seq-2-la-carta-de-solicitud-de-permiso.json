@@ -1,0 +1,243 @@
+{
+  "id": "seq-1771194880215",
+  "title": "La carta de solicitud de permiso",
+  "description": "Orienta la producción de cartas formales, identificando su estructura y propósito para comunicar solicitudes de manera clara y respetuosa.",
+  "order": 2,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771197475662",
+      "sequence_id": "seq-1771194880215",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Pre-escucha)",
+      "intencion_pedagogica": "Explorar los conocimientos previos sobre el permiso y desarrollar la comprensión oral de una carta de solicitud de permiso (Anexo 1) a través de actividades de pre-escucha, durante la escucha y post-escucha.\n",
+      "estrategia": "Diálogo dirigido: Para explorar conocimientos previos sobre el permiso.\n\nLluvia de ideas: Para registrar hipótesis y saberes.\n\nPreguntas generadoras: Para activar la reflexión sobre la función social del permiso.",
+      "aprendizaje_significativo": "Se parte de la experiencia cotidiana del estudiante (pedir permiso en casa o en la escuela) para introducir el concepto de que el permiso es una acción social necesaria para la convivencia.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite dibujar una situación donde piden permiso y luego explicarla brevemente.\n\nPara estudiantes que se distraen fácilmente: Se les asigna la tarea específica de ser \"vigías del tiempo\" o \"vigías de las ideas\" para mantenerlos involucrados.\n\nPara estudiantes kinestésicos: Se les invita a pasar al frente y representar con gestos una situación de pedir permiso (ej: pedir permiso para ir al baño).",
+      "actividades_cuaderno": "Registrar las ideas del \"decálogo de buenos modales\" y las predicciones sobre la carta que se escuchará.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos de los estudiantes",
+          "descripcion": "1. El docente entabla un diálogo con los niños sobre el tema del permiso en la vida cotidiana.\n2. Formula las siguientes preguntas de la guía:\n- \"¿Alguien me puede recordar qué es un permiso?\"\n- \"Una de las personas que posiblemente tienen que pedir más permisos en su casa, en la escuela, etc., eres tú. ¿Por qué crees que esto es así?\"\n- \"¿Por qué es importante pedir permiso?\"\n- \"¿A través de qué medio pedimos permiso?\"\n3. Se recogen las ideas más relevantes y se registran en el cuaderno como parte de un \"decálogo de buenos modales\".",
+          "actividad_numero": "Comprensión oral (Párrafo 1 y preguntas 1-5, pág. 20)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Dos cartas cortas en cartulina (una de permiso y otra de otro tipo)\n• Pizarra",
+          "descripcion": "1. El docente anuncia que escucharán una carta de solicitud de permiso.\n2. Realiza preguntas de exploración sobre el género carta:\n- \"¿Sabes qué es una carta? ¿Con qué propósito se escribe una carta?\"\n- \"¿Cuáles son sus partes?\" (Se recomienda llevar dos cartas cortas en cartulina para mostrarlas).\n- \"¿Cuál de las dos es una carta de solicitud de permiso? ¿Por qué?\"\n- \"En cuanto a la carta de permiso, ¿cuál es su función?\"\n- \"¿Para qué crees que se pide permiso en la carta que vas a escuchar?\"\n- \"¿Cómo crees que empieza y termina dicha carta?\"\n3. Se anotan las respuestas en la pizarra.",
+          "actividad_numero": "Comprensión oral (Párrafos de la pág. 21)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente comparte las estrategias para una comprensión oral de calidad: escuchar atentamente, evitar distracciones, no interrumpir, tomar apuntes.\n2. Se informa que tras la escucha, se realizarán actividades para comprobar la comprensión.",
+          "actividad_numero": "Comprensión oral (Párrafo final, pág. 21)"
+        }
+      ]
+    },
+    {
+      "id": "1771197607071",
+      "sequence_id": "seq-1771194880215",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": " Comprensión Oral (Durante y Post-escucha)",
+      "intencion_pedagogica": "Escuchar y comprender una carta de solicitud de permiso (Anexo 1), respondiendo preguntas literales e identificando el propósito comunicativo y los actos de habla.\n\n",
+      "estrategia": "Lectura en voz alta (modelado): El docente lee la carta con la entonación adecuada.\n\nToma de apuntes: Los estudiantes registran información durante la escucha.\n\nPreguntas de comprensión: Literales e inferenciales para verificar la comprensión.\n\nTrabajo individual: Para resolver actividades escritas.",
+      "aprendizaje_significativo": "Se analiza una carta real de una niña (Nicole) que necesita justificar su ausencia a clases por enfermedad, lo que refleja una situación común en la vida escolar y familiar.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención sostenida: Se les entrega una copia de la carta para que sigan visualmente mientras el docente lee.\n\nPara estudiantes con dificultades de comprensión lectora: Se les permite trabajar la Actividad 1 en pareja con un compañero tutor.\n\nPara estudiantes avanzados: Se les pide que, además de responder la Actividad 3, escriban un breve párrafo explicando si ellos cambiarían algo de la carta de Nicole y por qué.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona la transcripción de la carta y las preguntas por escrito.",
+      "actividades_cuaderno": "Copiar la síntesis de la pizarra sobre la importancia de la cortesía y la justificación en una carta de permiso.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copia de la carta Anexo 1 (para el docente)",
+          "descripcion": "1. El docente recuerda las estrategias de escucha activa.\n2. Lee en voz alta, UNA SOLA VEZ, la carta del Anexo 1 (pág. 40) con las pausas, el ritmo y el tono adecuados.",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 22)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente formula oralmente preguntas de comprensión literal (pág. 22):\n- \"¿Cuál/es de las hipótesis que adelantaron pudiste comprobar?\"\n- \"¿Por qué la carta que acabas de escuchar es de solicitud de permiso?\"\n- \"¿A quién dirige Nicole su carta?\"\n- \"¿Cómo se llama la escuela en la que estudia Nicole? ¿Dónde está ubicada?\"\n- \"¿En qué curso está Nicole?\"\n2. Actividades escritas de post-escucha:\na. Actividad 1 (pág. 22): Explican el significado de palabras subrayadas en la carta (experimentando, consentimiento, ausentarme).\nb. Actividad 2 (punto 1 y 2, pág. 23): Encierran en un círculo la opción correcta sobre el carácter de Nicole y los actos de habla en la carta.",
+          "actividad_numero": "Comprensión oral (Párrafo de la pág. 22) Actividad 1 (pág. 22) Actividad 2 (punto 1 y 2, pág. 23)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra para la síntesis",
+          "descripcion": "1. Actividad 3 (pág. 25): Los estudiantes responden preguntas de alto nivel:\n- \"¿Por qué crees que Nicole para pedir permiso tuvo que realizar otros actos de comunicación?\"\n- \"¿Por qué consideras que Nicole muestra mucha cortesía en su carta?\"\n- \"Si tuvieras que redactar una carta de permiso, ¿harías lo mismo que Nicole? ¿Por qué?\"\n2. Se socializan las respuestas y el docente sintetiza la importancia de la cortesía y la justificación para lograr el propósito comunicativo.",
+          "actividad_numero": "Comprensión oral Actividad 3 (pág. 25)"
+        }
+      ]
+    },
+    {
+      "id": "1771197754119",
+      "sequence_id": "seq-1771194880215",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": " Comprensión Escrita (Pre-lectura y Durante la lectura)",
+      "intencion_pedagogica": "Analizar los recursos gramaticales propios de la carta de solicitud de permiso: los tipos de oraciones (enunciativas y desiderativas) y la concordancia entre sujeto y predicado.\n\n",
+      "estrategia": "Lluvia de ideas: Para recuperar aprendizajes de clases anteriores.\n\nLectura compartida: Docente y alumnos leen en voz alta, alternándose.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión.\n\nVerificación de hipótesis: Los estudiantes contrastan sus predicciones con el texto real.",
+      "aprendizaje_significativo": "Se analiza una carta escrita por un grupo de niños (los compañeros de Lillybeth) para organizar una fiesta sorpresa, mostrando cómo la carta puede usarse para fines emotivos y sociales dentro de la comunidad escolar.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades lectoras: Se les asigna la lectura de los párrafos más cortos durante la lectura compartida.\n\nPara estudiantes visuales: Se utiliza un papelógrafo grande con la carta para que todos puedan seguir la lectura fácilmente.\n\nPara estudiantes que necesitan apoyo en la comprensión: Se les da una copia de la carta con espacios para que dibujen lo que sucede en cada párrafo (ej: el dibujo de una fiesta, un papá llegando, etc.).\n\nPara estudiantes con TDAH: Se les permite levantarse a señalar en el papelógrafo la parte de la carta que se está leyendo.",
+      "actividades_cuaderno": "Anotar las hipótesis que se cumplieron y las que no, con una breve explicación.\n\n",
+      "inicio": [
+        {
+          "letras": "A, C",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente recupera los aprendizajes adquiridos sobre la carta de permiso mediante una lluvia de ideas (pág. 26):\n- \"¿Alguien me puede recordar cuál es la importancia de la solicitud de un permiso en nuestra vida social?\"\n- \"Para alcanzar el propósito de solicitar permiso, ¿qué otras ideas o informaciones hay que incluir?\"\n- \"¿Cuál es la importancia de la cortesía en la carta de permiso?\"\n2. Se anuncian las respuestas.",
+          "actividad_numero": "Comprensión escrita (Párrafo 1 y preguntas a-c, pág. 26)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copia de la carta Anexo 2 (fotocopia o papelógrafo)\n• Pizarra",
+          "descripcion": "1. El docente anuncia que se leerá una nueva carta de permiso.\n2. Motiva a los estudiantes a hipotetizar sobre (pág. 26):\n- El motivo de la carta.\n- Quién la escribe.\n- A quién se la dirige.\n- El contexto en que circulará.\n3. Se anotan las hipótesis en la pizarra.\n\nDurante la lectura - Lectura compartida:\n1. Se entrega una copia de la carta del Anexo 2 (pág. 41) o se presenta en papelógrafo.\n2. Se inicia la lectura compartida (pág. 27):\n- Se lee la fecha y el destinatario. Se pregunta: \"¿Coincide alguna información de la que acabamos de leer con la que diste tú (o tus compañeros) antes de leer?\"\n- Un alumno lee el saludo y el primer párrafo. Se pregunta: \"¿Para qué se solicitó el permiso?\", \"¿Para qué fecha?\" (pág. 27).\n- Otro alumno lee el segundo párrafo. Se pregunta si aparece alguna información adelantada.\n- Se continúa así con los párrafos 3, 4 y el resto, realizando las preguntas guía de las páginas 27 y 28.",
+          "actividad_numero": "Comprensión escrita (Párrafo 2, pág. 26) (Párrafos 1-6, págs. 27-28)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Al finalizar la lectura, se retoman las hipótesis anotadas al inicio.\n2. Se identifican cuáles se cumplieron y cuáles no, y por qué.",
+          "actividad_numero": "Comprensión escrita (Párrafo final, pág. 29)"
+        }
+      ]
+    },
+    {
+      "id": "1771198543708",
+      "sequence_id": "seq-1771194880215",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión Escrita (Post-lectura) e Inicio de Gramática",
+      "intencion_pedagogica": "Consolidar la comprensión de la carta del Anexo 2 a través de actividades de post-lectura e iniciar el análisis gramatical de los tipos de oraciones presentes en las cartas.\n\n",
+      "estrategia": "Trabajo individual con el texto: Los estudiantes vuelven al texto para justificar sus respuestas.\n\nSocialización de respuestas: Para compartir y corregir estrategias de comprensión.\n\nClase expositiva dialogada: Para introducir los conceptos gramaticales (oraciones enunciativas y desiderativas).\n\nAnálisis de textos modelo: Se retoman las cartas de los Anexos 1 y 2 para identificar en contexto los contenidos gramaticales.",
+      "aprendizaje_significativo": "La comprensión lectora se consolida al tener que justificar las respuestas con evidencia del texto. La gramática se introduce como una herramienta para entender mejor cómo se construyen las ideas en las cartas que ya conocen.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectoescritura: Se les permite dictar sus respuestas de la Actividad B a un compañero o al docente.\n\nPara estudiantes que trabajan más lento: Se les da una versión de la Actividad A con opciones para encerrar en círculo en lugar de tener que escribir el significado.\n\nPara estudiantes con discapacidad visual: Se utilizan cartas en formato grande (papelógrafo) y letra Arial 16 o superior.\n\nPara estudiantes avanzados: Se les pide que, además de identificar, escriban 2 oraciones desiderativas y 2 enunciativas sobre el tema de su propia carta de permiso.",
+      "actividades_cuaderno": "Copiar la definición de oración enunciativa y desiderativa. Escribir un ejemplo de cada una tomado de las cartas.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con la carta Anexo 2",
+          "descripcion": "1. Se recuerda brevemente la historia de Lillybeth y la carta que sus compañeros escribieron.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "A, B, C",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos\n• Papelógrafos con las cartas Anexo 1 y 2\n• Marcadores de colores",
+          "descripcion": "1. Actividad A (pág. 29): Encierran en un círculo la palabra que significa lo mismo que la subrayada (agasajo, autorización).\n2. Actividad B (págs. 29-30): Escriben V o F y justifican su respuesta apoyándose en lo que dice el texto.\n3. Actividad C (pág. 30): Completan los espacios en blanco con la información apropiada.\n4. Se socializan las respuestas, haciendo hincapié en la justificación.\n\nInicio de Gramática textual:\n1. El docente retoma las cartas de los Anexos 1 y 2.\n2. Explica que según la intención del que escribe, se usan diferentes tipos de oraciones. Introduce los conceptos de oración enunciativa (afirma o niega) y oración desiderativa (expresa un deseo) (págs. 32-33).\n3. Con ayuda de los estudiantes, identifica ejemplos en las cartas utilizando el listado de la página 33.",
+          "actividad_numero": "Comprensión escrita (pág. 29) (págs. 29-30) (pág. 30) Gramática textual (Párrafos 1-3, pág. 32)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Actividad de infinitivos (pág. 33): En parejas, buscan otros infinitivos en las cartas.\n2. Se comparten los hallazgos.",
+          "actividad_numero": "Gramática textual (Actividad, pág. 33)"
+        }
+      ]
+    },
+    {
+      "id": "1771198707842",
+      "sequence_id": "seq-1771194880215",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Gramática Textual (Concordancia)",
+      "intencion_pedagogica": "Analizar y aplicar la concordancia entre sujeto y predicado, identificando sujetos explícitos y omitidos en oraciones de las cartas trabajadas.\n\n",
+      "estrategia": "Trabajo en grupos cooperativos: Para resolver actividades de análisis gramatical.\n\nAndamiaje docente: El docente circula entre los grupos para guiar y resolver dudas.\n\nUso de terminología específica: Se promueve el uso de términos como \"sujeto\", \"predicado\", \"singular\", \"plural\", \"concordancia\".\n\nAprendizaje entre pares: Los estudiantes se explican mutuamente los conceptos.",
+      "aprendizaje_significativo": "Se analiza la concordancia en oraciones extraídas de las cartas que los estudiantes ya conocen, demostrando que la gramática no es abstracta, sino que tiene una función práctica en la construcción de textos claros y correctos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de abstracción: Se utilizan tarjetas de colores (rojo para sujeto, azul para predicado) para que los estudiantes manipulen físicamente los conceptos.\n\nPara estudiantes kinestésicos: Se escriben oraciones en tiras de papel y los estudiantes deben \"concordar\" colocando el sujeto y el predicado juntos.\n\nPara estudiantes con dificultades de aprendizaje: Se les da una guía con ejemplos visuales de concordancia (ej: un dibujo de una persona para singular, varias personas para plural).\n\nPara estudiantes avanzados: Se les pide que escriban 3 oraciones donde el sujeto esté omitido y se lo intercambien a un compañero para que lo identifique.",
+      "actividades_cuaderno": "Copiar la síntesis de la pizarra sobre concordancia. Escribir 3 oraciones y subrayar el sujeto de rojo y el predicado de azul.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafos con las cartas Anexo 1 y 2\n• Pizarra",
+          "descripcion": "1. El docente retoma las cartas de los Anexos 1 y 2.\n2. Explica el concepto de concordancia entre sujeto y predicado, y la diferencia entre singular y plural (pág. 34).\n3. Explora los conocimientos previos preguntando: \"¿Alguien recuerda qué era el sujeto y qué el predicado?\"",
+          "actividad_numero": "Gramática textual (Párrafos 1-2, pág. 34)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades para los grupos\n• Cuadernos",
+          "descripcion": "1. El docente divide la clase en grupos de no más de 5 estudiantes.\n2. Actividad grupal (págs. 34-35): Los grupos realizan la actividad de la página 35. Deben:\n- Explicar por qué los verbos subrayados en las oraciones 1 y 2 están en singular o plural.\n- Identificar el sujeto y el predicado en las oraciones del punto 2.\n3. El docente circula entre los grupos, asegurándose de que los estudiantes entienden la diferencia y utilizan la terminología adecuada.",
+          "actividad_numero": "Gramática textual (Actividad grupal, págs. 34-35)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra",
+          "descripcion": "1. Se socializan las respuestas de la actividad grupal.\n2. El docente refuerza la idea de que muchas veces el sujeto puede estar omitido y hay que recuperarlo del contexto.\n3. Se realiza una síntesis final en la pizarra.",
+          "actividad_numero": "Gramática textual (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771198785010",
+      "sequence_id": "seq-1771194880215",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción Escrita",
+      "intencion_pedagogica": "Guiar a los estudiantes en el proceso de producción escrita de una carta de solicitud de permiso real, aplicando todo lo aprendido, a través de las fases de preescritura, textualización y revisión.\n\n",
+      "estrategia": "Taller de escritura: Acompañamiento paso a paso en el proceso de producción.\n\nPreguntas guía: Para la fase de planificación (preescritura).\n\nTutoría entre pares (coevaluación): Los estudiantes revisan los borradores de sus compañeros.\n\nAndamiaje docente: El docente guía a través de preguntas y entrevistas individuales.\n\nUso de instrumentos de evaluación: Lista de cotejo para la autoevaluación.",
+      "aprendizaje_significativo": "La producción de la carta surge de una necesidad comunicativa real del estudiante. Se les pide que escriban sobre una situación real en la que necesiten pedir un permiso, dando autenticidad a la tarea.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura (disgrafía): Se les permite escribir en computadora o dictarle la carta al docente o a un compañero tutor.\n\nPara estudiantes con dificultades para generar ideas: Se les proporciona un banco de frases y ejemplos de situaciones comunes (ej: \"necesito permiso para ir al médico\", \"quiero permiso para una excursión\").\n\nPara estudiantes que necesitan apoyo en la estructura: Se les entrega una plantilla o esquema de la carta con espacios para completar.\n\nPara estudiantes avanzados: Se les reta a incluir un párrafo de compromiso más elaborado o a usar un vocabulario más formal y variado.\n\nPara estudiantes con discapacidad motriz: Se adaptan los materiales (hojas con renglones más separados, uso de computadora, etc.).",
+      "actividades_cuaderno": "Pasar en limpio la versión final de la carta de solicitud de permiso, asegurándose de cumplir con todos los criterios de la lista de cotejo.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Consigna en la pizarra\n• Cuadernos",
+          "descripcion": "1. El docente presenta la consigna de producción (párrafo 1, pág. 36): los estudiantes redactarán una carta para una situación real de solicitud de permiso (faltar a clase, asistir a un cumpleaños, etc.).\n2. Se asegura de que los estudiantes entienden la consigna.\n3. Preguntas de planificación (punto 1, pág. 37): Cada estudiante responde en su cuaderno las preguntas guía (a-f):\n- \"¿A quién voy a pedir permiso? ¿Qué autoridad tiene sobre mí?\"\n- \"¿Qué informaciones tengo que dar sobre la razón?\"\n- \"¿Qué diré primero?\", etc.\n4. En grupos de 4-5, comparten sus ideas.",
+          "actividad_numero": "Producción escrita (Párrafo 1, pág. 36) (Punto 1, pág. 37)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Borradores de los estudiantes\n• Lista de preguntas para la revisión en pares (en la pizarra o fotocopia)",
+          "descripcion": "1. Textualización (punto 2, pág. 37): Los estudiantes inician la redacción del primer borrador de su carta. El docente acompaña y resuelve dudas.\n2. Revisión en pares (punto 3, pág. 38): Se integran en grupos. Cada estudiante lee su borrador a sus compañeros y les hace las preguntas de la página 38 (a-f) para recibir retroalimentación.\n3. Revisión docente (punto 3, pág. 38): El docente tiene entrevistas breves con los estudiantes para revisar el borrador y sugerir mejoras.",
+          "actividad_numero": "Producción escrita (Punto 2, pág. 37) (Punto 3, pág. 38)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "Producción escrita\n(Instrumento de evaluación, pág. 39)",
+          "descripcion": "1. Los estudiantes, tomando en cuenta las correcciones de sus compañeros y del docente, corrigen su borrador.\n2. El docente entrega el Instrumento de evaluación (pág. 39) para que los estudiantes autoevalúen su propio borrador antes de pasarlo en limpio.\n3. Se indica que la versión final se pasará en limpio y, si es posible, se enviará al destinatario real.",
+          "actividad_numero": "Producción escrita (Instrumento de evaluación, pág. 39)"
+        }
+      ]
+    }
+  ]
+}

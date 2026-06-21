@@ -1,0 +1,477 @@
+{
+  "id": "seq-1772499660982",
+  "title": "Estadística",
+  "description": "Trabaja la recolección, organización e interpretación de datos mediante tablas y gráficos para analizar información y sacar conclusiones.",
+  "order": 7,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772499660976",
+      "sequence_id": "seq-1772499660982",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Tablas de frecuencia",
+      "intencion_pedagogica": "Introducir a los estudiantes en el mundo de la estadística, ayudándoles a recopilar, organizar y representar datos en tablas de frecuencia, comprendiendo los conceptos de frecuencia absoluta y relativa.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre estadística.\n• Trabajo colaborativo: Recolección de datos en el aula.\n• Uso de tablas: Organización de datos en tablas de frecuencia.\n• Construcción de conceptos: Frecuencia absoluta y relativa.",
+      "aprendizaje_significativo": "Los estudiantes recopilan datos de su entorno cercano (edad, deporte favorito, etc.) y aprenden a organizarlos, comprendiendo que la estadística sirve para entender mejor la realidad que les rodea.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una plantilla de tabla de frecuencia para que solo tengan que llenar los datos.\n• Para estudiantes kinestésicos: La recolección de datos activa es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan las tablas en formato ampliado.\n• Para estudiantes avanzados: Se les pide que calculen también la frecuencia relativa en porcentaje.",
+      "actividades_cuaderno": "\"Pregunta a 10 compañeros cuál es su fruta favorita. Organiza los datos en una tabla de frecuencia.\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente pregunta: \"¿Qué es la estadística? ¿Para qué sirve? ¿Dónde han visto datos estadísticos? (noticias, deportes, encuestas)\" (pág. 263).\n2. Anima a los estudiantes a dar ejemplos de situaciones donde se recopilan datos.",
+          "actividad_numero": "Actividad 1 - A (Pág. 263)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Hojas de papel\n• Lápices\n• Reglas\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Recolección de datos (15 min):\n1. Los estudiantes, en grupos, eligen un tema de interés (deporte favorito, color favorito, mes de nacimiento, etc.).\n2. Recopilan datos de sus compañeros de clase.\n\nActividad 2 - Organización en tablas de frecuencia (25 min):\n1. El docente explica cómo construir una tabla de frecuencia:\n- Primera columna: valores de la variable.\n- Segunda columna: frecuencia absoluta (conteo).\n- Tercera columna: frecuencia relativa (porcentaje).\n2. Los estudiantes organizan sus datos en tablas.\n\nActividad 3 - Socialización (20 min):\n1. Cada grupo presenta su tabla al resto de la clase.\n2. Discuten sobre los resultados y su interpretación.",
+          "actividad_numero": "Actividad 1 - B y C (Pág. 264)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué es la frecuencia absoluta? ¿Qué es la frecuencia relativa? ¿Para qué sirve organizar datos en tablas?\" (pág. 264).\n2. Asigna la actividad para el cuaderno: \"Pregunta a 10 compañeros cuál es su fruta favorita. Organiza los datos en una tabla de frecuencia.\"\n3. Asigna la actividad para el diario del estudiante: \"Busca en un periódico o noticia una tabla estadística y pégala en tu cuaderno.\"",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 264)"
+        }
+      ]
+    },
+    {
+      "id": "1772499812943",
+      "sequence_id": "seq-1772499660982",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Gráficos de barras",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de construir e interpretar gráficos de barras a partir de datos organizados en tablas de frecuencia.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de ejemplos: Presentación de diferentes gráficos de barras.\n• Trabajo práctico: Elaboración de gráficos de barras a partir de tablas.\n• Interpretación de datos: Análisis de la información representada.",
+      "aprendizaje_significativo": "Los estudiantes representan visualmente los datos recopilados, comprendiendo que los gráficos facilitan la interpretación y comunicación de la información estadística.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una plantilla de gráfico de barras con ejes ya dibujados.\n• Para estudiantes kinestésicos: Pueden dibujar gráficos de gran tamaño en el piso con tiza.\n• Para estudiantes con discapacidad visual: Se les proporcionan gráficos en relieve para que palpen las barras.\n• Para estudiantes avanzados: Se les pide que utilicen dos colores diferentes para representar dos conjuntos de datos.",
+      "actividades_cuaderno": "\"Pregunta a 10 personas cuál es su programa de televisión favorito. Elabora una tabla de frecuencia y un gráfico de barras.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Periódicos o revistas con gráficos\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué tabla estadística encontraron en el periódico? ¿Qué información mostraba?\" (retomando actividad de la clase anterior).\n2. Luego, muestra diferentes gráficos de barras (pueden ser de periódicos o revistas) y pregunta: \"¿Qué información nos dan estos gráficos? ¿Por qué son útiles?\" (pág. 265).",
+          "actividad_numero": "Actividad 2 - A (Pág. 265)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Papel cuadriculado\n• Reglas\n• Lápices de colores\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Elementos del gráfico de barras (15 min):\n1. El docente explica las partes de un gráfico de barras: título, ejes (horizontal: categorías, vertical: frecuencia), barras.\n\nActividad 2 - Construcción de gráficos (30 min):\n1. Los estudiantes utilizan los datos de la tabla de frutas favoritas (actividad del cuaderno de la clase anterior).\n2. Construyen un gráfico de barras en papel cuadriculado.\n3. El docente circula y orienta.\n\nActividad 3 - Interpretación (15 min):\n1. Los estudiantes intercambian sus gráficos con un compañero.\n2. Interpretan el gráfico que recibieron: \"¿Cuál es la fruta más popular? ¿Cuál es la menos popular?\"",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 265-266)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué elementos tiene un gráfico de barras? ¿Para qué sirve representar datos en gráficos?\" (pág. 266).\n2. Asigna la actividad para el cuaderno: \"Pregunta a 10 personas cuál es su programa de televisión favorito. Elabora una tabla de frecuencia y un gráfico de barras.\"\n3. Asigna la actividad para el diario del estudiante: \"Busca en internet o en un periódico un gráfico de barras, pégalo en tu cuaderno y escribe una breve interpretación.\"",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 266)"
+        }
+      ]
+    },
+    {
+      "id": "1772499884931",
+      "sequence_id": "seq-1772499660982",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Gráficos circulares",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de construir e interpretar gráficos circulares a partir de datos organizados en tablas de frecuencia con porcentajes.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de ejemplos: Presentación de gráficos circulares.\n• Cálculo de porcentajes: Relación con la frecuencia relativa.\n• Trabajo práctico: Elaboración de gráficos circulares.",
+      "aprendizaje_significativo": "Los estudiantes representan datos en gráficos circulares, comprendiendo que este tipo de gráfico muestra la proporción de cada categoría respecto al total.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una plantilla con el círculo dividido en porcentajes.\n• Para estudiantes kinestésicos: Pueden dibujar el gráfico en el piso con tiza.\n• Para estudiantes con discapacidad visual: Se les proporciona un círculo en relieve con sectores marcados.\n• Para estudiantes avanzados: Se les pide que calculen los ángulos exactos para cada sector.",
+      "actividades_cuaderno": "\"Pregunta a 15 personas cuál es su estación del año favorita. Elabora una tabla de frecuencia con porcentajes y un gráfico circular.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Periódicos o revistas con gráficos circulares\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué gráfico de barras encontraron? ¿Qué interpretación hicieron?\" (retomando actividad de la clase anterior).\n2. Luego, muestra un gráfico circular y pregunta: \"¿Qué tipo de gráfico es este? ¿Qué información nos da? ¿En qué se diferencia del gráfico de barras?\" (pág. 267).",
+          "actividad_numero": "Actividad 3 - A (Pág. 267)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Compás\n• Transportadores\n• Reglas\n• Lápices de colores\n• Calculadoras\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Elementos del gráfico circular (15 min):\n1. El docente explica que el gráfico circular representa el total como un círculo dividido en sectores.\n2. Relaciona con la frecuencia relativa (porcentaje): cada sector corresponde a un porcentaje del total.\n\nActividad 2 - Cálculo de porcentajes (20 min):\n1. Los estudiantes retoman los datos de la tabla de frutas favoritas.\n2. Calculan los porcentajes para cada categoría (frecuencia relativa).\n\nActividad 3 - Construcción del gráfico circular (25 min):\n1. Los estudiantes dibujan un círculo con compás.\n2. Usan transportador para dibujar los sectores según los porcentajes calculados (360° × porcentaje).\n3. Colorean y etiquetan cada sector.",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 267-268)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué representa cada sector en un gráfico circular? ¿Cómo se relaciona con el porcentaje?\" (pág. 268).\n2. Asigna la actividad para el cuaderno: \"Pregunta a 15 personas cuál es su estación del año favorita. Elabora una tabla de frecuencia con porcentajes y un gráfico circular.\"\n3. Asigna la actividad para el diario del estudiante: \"Busca un gráfico circular en internet o un periódico, pégalo en tu cuaderno y explica qué información muestra.\"",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 268)"
+        }
+      ]
+    },
+    {
+      "id": "1772499992492",
+      "sequence_id": "seq-1772499660982",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Medidas de tendencia central: media aritmética",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular la media aritmética (promedio) de un conjunto de datos, aplicándola en situaciones cotidianas.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre promedio.\n• Resolución de problemas: Cálculo de la media aritmética.\n• Uso de calculadora.",
+      "aprendizaje_significativo": "Los estudiantes calculan el promedio de calificaciones, edades o cualquier conjunto de datos, comprendiendo que la media aritmética es un valor representativo del conjunto.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para calcular la media.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para practicar.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen la media ponderada.",
+      "actividades_cuaderno": "\"Pregunta a 10 compañeros su edad. Calcula la edad media.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué gráfico circular encontraron? ¿Qué información mostraba?\" (retomando actividad de la clase anterior).\n2. Luego, pregunta: \"¿Qué es el promedio? ¿Cómo se calcula la calificación promedio de un estudiante?\" (pág. 269).",
+          "actividad_numero": "Actividad 4 - A (Pág. 269)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Concepto de media aritmética (15 min):\n1. El docente explica: la media aritmética se calcula sumando todos los datos y dividiendo entre el número de datos.\n2. Ejemplo: Calificaciones: 85, 90, 78, 92. Media = (85+90+78+92)/4 = 86.25.\n\nActividad 2 - Cálculo de medias (25 min):\n1. Los estudiantes recopilan datos de su entorno (edades de compañeros, estaturas, número de hermanos).\n2. Calculan la media aritmética de los datos recopilados.\n\nActividad 3 - Problemas (20 min):\n1. Plantea problemas:\n- Las temperaturas de una semana fueron: 25°, 27°, 26°, 28°, 30°, 29°, 26°. ¿Cuál es la temperatura media?\n- Un estudiante tiene calificaciones: 78, 85, 92. ¿Qué calificación necesita en el próximo examen para tener un promedio de 85?\n2. Los estudiantes resuelven en sus cuadernos.",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 269-270)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo se calcula la media aritmética? ¿Para qué sirve?\" (pág. 270).\n2. Asigna la actividad para el cuaderno: \"Pregunta a 10 compañeros su edad. Calcula la edad media.\"\n3. Asigna la actividad para el diario del estudiante: \"Busca en internet el concepto de 'media aritmética' y escribe un ejemplo diferente a los vistos en clase.\"",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 270)"
+        }
+      ]
+    },
+    {
+      "id": "1772500129241",
+      "sequence_id": "seq-1772499660982",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Mediana y moda",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular la mediana y la moda de un conjunto de datos, comprendiendo su significado y utilidad.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre mediana y moda.\n• Resolución de problemas: Cálculo de mediana y moda.\n• Comparación: Diferencia entre media, mediana y moda.",
+      "aprendizaje_significativo": "Los estudiantes identifican el valor central (mediana) y el valor más frecuente (moda) en un conjunto de datos, comprendiendo que estas medidas complementan la información del promedio.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan ejemplos paso a paso y una guía para ordenar los datos.\n• Para estudiantes kinestésicos: Pueden ordenar tarjetas con números para encontrar la mediana.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y tarjetas táctiles.\n• Para estudiantes avanzados: Se les pide que investiguen la media geométrica.",
+      "actividades_cuaderno": "\"Pregunta a 15 compañeros cuántos hermanos tienen. Calcula la media, mediana y moda.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuál fue la edad media de sus 10 compañeros?\" (retomando actividad de la clase anterior).\n2. Luego, pregunta: \"Además del promedio, ¿qué otras medidas pueden describir un conjunto de datos? ¿Qué es la moda? ¿Qué es la mediana?\" (pág. 271).",
+          "actividad_numero": "Actividad 5 - A (Pág. 271)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Concepto de mediana (20 min):\n1. El docente explica: la mediana es el valor central cuando los datos están ordenados.\n2. Ejemplo con número impar de datos: 5, 8, 12, 15, 20 → mediana = 12.\n3. Ejemplo con número par de datos: 5, 8, 12, 15 → mediana = (8+12)/2 = 10.\n\nActividad 2 - Concepto de moda (15 min):\n1. El docente explica: la moda es el valor que más se repite. Puede haber más de una moda o ninguna.\n2. Ejemplos: 2, 3, 3, 5, 7 → moda = 3; 2, 2, 4, 4, 6 → modas = 2 y 4 (bimodal).\n\nActividad 3 - Problemas (25 min):\n1. Plantea problemas:\n- Edades: 12, 13, 12, 14, 15, 12, 13. Calcula media, mediana y moda.\n- Calificaciones: 85, 90, 78, 92, 85, 88. Calcula media, mediana y moda.\n- Número de hermanos: 2, 1, 3, 2, 4, 2, 1, 3. Calcula media, mediana y moda.\n2. Los estudiantes resuelven en sus cuadernos.",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 271-272)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué es la mediana? ¿Qué es la moda? ¿En qué se diferencian de la media?\" (pág. 272).\n2. Asigna la actividad para el cuaderno: \"Pregunta a 15 compañeros cuántos hermanos tienen. Calcula la media, mediana y moda.\"\n3. Asigna la actividad para el diario del estudiante: \"Investiga en qué situaciones es más útil usar la mediana en lugar de la media.\"",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 272)"
+        }
+      ]
+    },
+    {
+      "id": "1772500217503",
+      "sequence_id": "seq-1772499660982",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Probabilidad: experimentos aleatorios",
+      "intencion_pedagogica": "Introducir a los estudiantes en el concepto de probabilidad a través de experimentos aleatorios simples, registrando resultados y comprendiendo la noción de suceso probable.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Experimentación práctica: Lanzamiento de monedas y dados.\n• Registro de resultados: Tablas de frecuencia.\n• Introducción a la probabilidad: Concepto de suceso probable.",
+      "aprendizaje_significativo": "Los estudiantes realizan experimentos simples como lanzar monedas o dados, observando que los resultados son aleatorios y que pueden estudiarse mediante la probabilidad.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan hojas de registro ya elaboradas.\n• Para estudiantes kinestésicos: La experimentación práctica es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan monedas y dados con texturas diferentes.\n• Para estudiantes avanzados: Se les pide que calculen la probabilidad de obtener dos caras seguidas.",
+      "actividades_cuaderno": "\"Lanza una moneda 30 veces en casa y registra los resultados. Compara con la probabilidad teórica.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿En qué situaciones es más útil usar la mediana?\" (retomando actividad de la clase anterior).\n2. Luego, pregunta: \"¿Qué es un experimento aleatorio? ¿Qué resultados pueden obtenerse al lanzar una moneda? ¿Y un dado?\" (pág. 273).",
+          "actividad_numero": "Actividad 6 - A (Pág. 273)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Monedas (una por grupo)\n• Dados (uno por grupo)\n• Hojas de registro\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Experimento con monedas (20 min):\n1. Los estudiantes, en grupos, lanzan una moneda 20 veces.\n2. Registran los resultados (cara o sello) en una tabla de frecuencia.\n\nActividad 2 - Experimento con dados (20 min):\n1. Los estudiantes lanzan un dado 30 veces.\n2. Registran los resultados (1 al 6) en una tabla de frecuencia.\n\nActividad 3 - Análisis de resultados (20 min):\n1. Los estudiantes calculan la frecuencia relativa de cada resultado.\n2. El docente introduce el concepto de probabilidad teórica: para una moneda, probabilidad de cara = 1/2; para un dado, probabilidad de cada número = 1/6.\n3. Comparan la frecuencia relativa con la probabilidad teórica.",
+          "actividad_numero": "Actividad 6 - B y C (Pág. 273-274)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué es un experimento aleatorio? ¿Qué relación hay entre la frecuencia relativa y la probabilidad teórica?\" (pág. 274).\n2. Asigna la actividad para el cuaderno: \"Lanza una moneda 30 veces en casa y registra los resultados. Compara con la probabilidad teórica.\"\n3. Asigna la actividad para el diario del estudiante: \"Investiga qué es la ley de los grandes números.\"",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 274)"
+        }
+      ]
+    },
+    {
+      "id": "1772500631038",
+      "sequence_id": "seq-1772499660982",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Cálculo de probabilidades",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular probabilidades de eventos simples, utilizando la fórmula P = casos favorables / casos posibles.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Resolución de problemas: Cálculo de probabilidades en situaciones cotidianas.\n• Uso de fracciones: Expresión de probabilidades.\n• Trabajo colaborativo.",
+      "aprendizaje_significativo": "Los estudiantes calculan la probabilidad de eventos cotidianos, como sacar una bola de color de una bolsa, comprendiendo que la probabilidad es una medida de la posibilidad de que ocurra un suceso.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona la fórmula y ejemplos paso a paso.\n• Para estudiantes kinestésicos: Pueden simular los experimentos con objetos reales.\n• Para estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n• Para estudiantes avanzados: Se les pide que calculen probabilidades compuestas.",
+      "actividades_cuaderno": "\"En una bolsa hay 5 caramelos de fresa, 3 de menta y 2 de naranja. Calcula la probabilidad de sacar un caramelo de fresa, de menta y de naranja.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué resultados obtuvieron al lanzar la moneda 30 veces? ¿Se acercó a la probabilidad teórica?\" (retomando actividad de la clase anterior).\n2. Luego, pregunta: \"¿Cómo calcularíamos la probabilidad de sacar un 5 al lanzar un dado? ¿Y la probabilidad de sacar una bola roja de una bolsa con 3 bolas rojas y 2 azules?\" (pág. 275).",
+          "actividad_numero": "Actividad 7 - A (Pág. 275)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Fórmula de probabilidad (15 min):\n1. El docente explica: P(Evento) = N° de casos favorables / N° de casos posibles.\n2. Ejemplos con moneda, dado, bolas de colores.\n\nActividad 2 - Problemas de probabilidad (30 min):\n1. Plantea problemas:\n- En una bolsa hay 4 bolas rojas, 3 azules y 2 verdes. ¿Probabilidad de sacar una bola roja? ¿Azul? ¿Verde?\n- Se lanza un dado. ¿Probabilidad de obtener un número par? ¿Un número mayor que 4?\n- En una clase hay 15 niños y 10 niñas. Si se elige un estudiante al azar, ¿probabilidad de que sea niña?\n2. Los estudiantes resuelven en sus cuadernos.\n\nActividad 3 - Socialización (15 min):\n1. Los estudiantes comparten sus resultados y explican sus procedimientos.",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 275-276)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo se calcula la probabilidad de un evento? ¿Qué valores puede tomar la probabilidad?\" (pág. 276).\n2. Asigna la actividad para el cuaderno: \"En una bolsa hay 5 caramelos de fresa, 3 de menta y 2 de naranja. Calcula la probabilidad de sacar un caramelo de fresa, de menta y de naranja.\"\n3. Asigna la actividad para el diario del estudiante: \"Investiga qué es la probabilidad y escribe tres ejemplos de la vida cotidiana donde se aplique.\"",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 276)"
+        }
+      ]
+    },
+    {
+      "id": "1772500730317",
+      "sequence_id": "seq-1772499660982",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Probabilidad y frecuencia relativa",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la comprensión de la relación entre la frecuencia relativa y la probabilidad teórica, a través de experimentos repetidos.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Experimentación: Lanzamiento de dados en múltiples ocasiones.\n• Comparación: Frecuencia relativa vs. probabilidad teórica.\n• Uso de tablas y gráficos.",
+      "aprendizaje_significativo": "Los estudiantes relacionan la frecuencia relativa obtenida en experimentos con la probabilidad teórica, comprendiendo que a mayor número de repeticiones, más se acercan.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan hojas de registro ya elaboradas.\n• Para estudiantes kinestésicos: La experimentación práctica es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan dados con texturas y números en relieve.\n• Para estudiantes avanzados: Se les pide que calculen la probabilidad de obtener cada suma al lanzar dos dados.",
+      "actividades_cuaderno": "\"Lanza un dado 30 veces en casa, registra los resultados y compáralos con la probabilidad teórica.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué ejemplos de probabilidad encontraron en la vida cotidiana?\" (retomando actividad de la clase anterior).\n2. Luego, pregunta: \"¿Qué relación hay entre la frecuencia relativa que calculamos en el experimento del dado y la probabilidad teórica?\" (pág. 277).",
+          "actividad_numero": "Actividad 8 - A (Pág. 277)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Dados (uno por grupo)\n• Hojas de registro\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Experimento con dados (20 min):\n1. Los estudiantes lanzan un dado 60 veces (pueden hacerlo en grupos y sumar resultados).\n2. Registran las frecuencias absolutas y relativas.\n\nActividad 2 - Comparación (20 min):\n1. Calculan la probabilidad teórica para cada resultado (1/6 ≈ 0.1667).\n2. Comparan con las frecuencias relativas obtenidas.\n3. Discuten las diferencias.\n\nActividad 3 - Ley de los grandes números (20 min):\n1. El docente explica la ley de los grandes números: a mayor número de repeticiones, la frecuencia relativa se acerca más a la probabilidad teórica.\n2. Muestran ejemplos con simulaciones si es posible.",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 277-278)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué relación hay entre la frecuencia relativa y la probabilidad teórica? ¿Qué dice la ley de los grandes números?\" (pág. 278).\n2. Asigna la actividad para el cuaderno: \"Lanza un dado 30 veces en casa, registra los resultados y compáralos con la probabilidad teórica.\"\n3. Asigna la actividad para el diario del estudiante: \"Investiga un ejemplo de la ley de los grandes números en la vida real.\"",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 278)"
+        }
+      ]
+    },
+    {
+      "id": "1772500817349",
+      "sequence_id": "seq-1772499660982",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Probabilidad de eventos compuestos",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular la probabilidad de eventos compuestos simples, utilizando diagramas de árbol y la regla de la multiplicación.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Resolución de problemas: Probabilidad de eventos compuestos (lanzar dos monedas, dos dados).\n• Uso de diagramas de árbol.\n• Trabajo colaborativo.",
+      "aprendizaje_significativo": "Los estudiantes analizan situaciones donde intervienen dos eventos aleatorios, como lanzar dos monedas, comprendiendo cómo se calcula la probabilidad de combinaciones.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona el diagrama de árbol ya dibujado.\n• Para estudiantes kinestésicos: Pueden lanzar realmente las monedas y registrar.\n• Para estudiantes con discapacidad visual: Se les proporcionan los diagramas en relieve.\n• Para estudiantes avanzados: Se les pide que calculen la probabilidad de obtener al menos un 6 al lanzar dos dados.",
+      "actividades_cuaderno": "\"Lanza dos monedas 20 veces y registra los resultados. Compara con la probabilidad teórica.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué ejemplo de la ley de los grandes números encontraron?\" (retomando actividad de la clase anterior).\n2. Luego, pregunta: \"Si lanzamos dos monedas, ¿cuáles son todos los resultados posibles? ¿Cómo calcularíamos la probabilidad de obtener dos caras?\" (pág. 279).",
+          "actividad_numero": "Actividad 9 - A (Pág. 279)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Diagramas de árbol (20 min):\n1. El docente explica cómo construir un diagrama de árbol para lanzar dos monedas.\n2. Resultados: CC, CS, SC, SS. Probabilidad de CC = 1/4.\n\nActividad 2 - Problemas con dos dados (20 min):\n1. Los estudiantes construyen una tabla de resultados posibles al lanzar dos dados (36 resultados).\n2. Calculan probabilidades: suma 7, suma 12, dos números iguales, etc.\n\nActividad 3 - Problemas (20 min):\n1. Plantea problemas:\n- ¿Probabilidad de obtener dos sellos al lanzar dos monedas?\n- ¿Probabilidad de obtener suma 5 al lanzar dos dados?\n- ¿Probabilidad de obtener al menos una cara al lanzar dos monedas?\n2. Los estudiantes resuelven en sus cuadernos.",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 279-280)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo se calcula la probabilidad de eventos compuestos? ¿Qué es un diagrama de árbol?\" (pág. 280).\n2. Asigna la actividad para el cuaderno: \"Lanza dos monedas 20 veces y registra los resultados. Compara con la probabilidad teórica.\"\n3. Asigna la actividad para el diario del estudiante: \"Investiga qué es la probabilidad condicional.\"",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 280)"
+        }
+      ]
+    },
+    {
+      "id": "1772500912759",
+      "sequence_id": "seq-1772499660982",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Aplicaciones de la estadística y la probabilidad",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de aplicar los conceptos de estadística y probabilidad en situaciones problemáticas del contexto real.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Resolución de problemas: Aplicaciones de estadística y probabilidad en contextos reales.\n• Trabajo colaborativo: Análisis de situaciones.\n• Debate: Interpretación de resultados.",
+      "aprendizaje_significativo": "Los estudiantes aplican los conceptos de estadística y probabilidad a situaciones reales como encuestas, predicciones meteorológicas o juegos, comprendiendo su utilidad en la vida cotidiana.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía para el diseño de la encuesta.\n• Para estudiantes kinestésicos: La recolección de datos activa es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan los materiales en formato ampliado.\n• Para estudiantes avanzados: Se les pide que utilicen herramientas digitales para crear los gráficos.",
+      "actividades_cuaderno": "\"Escribe un párrafo sobre la importancia de la estadística en la vida cotidiana.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué resultados obtuvieron al lanzar dos monedas? ¿Se acercaron a la probabilidad teórica?\" (retomando actividad de la clase anterior).\n2. Luego, plantea: \"Hoy veremos aplicaciones de la estadística y la probabilidad en la vida real.\"",
+          "actividad_numero": "Actividad 10 - A (Pág. 281)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Hojas de papel\n• Lápices\n• Reglas\n• Compás\n• Transportadores\n• Calculadoras",
+          "descripcion": "Actividad 1 - Encuesta escolar (20 min):\n1. Los estudiantes diseñan una pequeña encuesta sobre un tema de interés (hábitos de lectura, uso de redes sociales, etc.).\n2. Recogen datos de sus compañeros.\n\nActividad 2 - Análisis de datos (20 min):\n1. Organizan los datos en tablas de frecuencia.\n2. Calculan media, mediana y moda.\n3. Representan en gráficos de barras o circulares.\n\nActividad 3 - Interpretación y conclusiones (20 min):\n1. Los estudiantes interpretan los resultados y extraen conclusiones.\n2. Discuten cómo podrían usar esta información.",
+          "actividad_numero": "Actividad 10 - B y C (Pág. 281-282)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Cada grupo presenta sus conclusiones.\n2. Realiza preguntas de cierre: \"¿Para qué sirve la estadística? ¿Dónde se aplica la probabilidad?\" (pág. 282).\n3. Asigna la actividad para el cuaderno: \"Escribe un párrafo sobre la importancia de la estadística en la vida cotidiana.\"\n4. Asigna la actividad para el diario del estudiante: \"Busca una noticia que utilice datos estadísticos y pégala en tu cuaderno.\"",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 282)"
+        }
+      ]
+    },
+    {
+      "id": "1772500983224",
+      "sequence_id": "seq-1772499660982",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Recapitulación de la secuencia",
+      "intencion_pedagogica": "Guiar a los estudiantes en un proceso de recapitulación y consolidación de los aprendizajes adquiridos durante la secuencia de estadística, integrando los diferentes contenidos a través de la resolución de ejercicios y problemas.",
+      "estrategia": "• Diálogo dirigido: Recuperación de contenidos de la secuencia.\n• Resolución de ejercicios: Aplicación integrada de todos los temas.\n• Trabajo colaborativo: Repaso en grupos.\n• Uso de calculadora.",
+      "aprendizaje_significativo": "Los estudiantes repasan y consolidan todos los conceptos trabajados en la secuencia (tablas de frecuencia, gráficos, medidas de tendencia central, probabilidad) mediante la resolución de ejercicios variados.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una hoja resumen con fórmulas y conceptos clave.\n• Para estudiantes kinestésicos: Pueden dibujar los gráficos a mano.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que calculen la probabilidad de eventos más complejos.",
+      "actividades_cuaderno": "Los estudiantes resuelven en sus cuadernos todos los ejercicios planteados durante la clase de recapitulación.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente pregunta: \"¿Qué trabajamos en esta secuencia? ¿Qué tipos de gráficos estadísticos conocen? ¿Qué son la media, mediana y moda? ¿Qué es la probabilidad?\" (pág. 283).\n2. Anota las respuestas en la pizarra.",
+          "actividad_numero": "Actividad 11 - A (Pág. 283)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n• Reglas\n• Compás\n• Transportadores",
+          "descripcion": "Actividad 1 - Ejercicios de tablas y gráficos (20 min):\n1. Los estudiantes reciben un conjunto de datos (ej: edades de 20 personas).\n2. Organizan en tabla de frecuencia, construyen gráfico de barras y circular.\n\nActividad 2 - Ejercicios de medidas de tendencia central (20 min):\n1. Calculan media, mediana y moda del conjunto de datos.\n\nActividad 3 - Ejercicios de probabilidad (20 min):\n1. Plantea problemas:\n- Probabilidad de sacar una bola roja de una bolsa con 5 rojas, 3 azules y 2 verdes.\n- Probabilidad de obtener suma 8 al lanzar dos dados.\n2. Los estudiantes resuelven.",
+          "actividad_numero": "Actividad 11 - B y C (Pág. 283-284)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Revisa las respuestas en la pizarra.\n2. Aclara dudas.\n3. Prepara a los estudiantes para la evaluación de la próxima clase.",
+          "actividad_numero": "Actividad 11 - Cierre (Pág. 284)"
+        }
+      ]
+    },
+    {
+      "id": "1772501049330",
+      "sequence_id": "seq-1772499660982",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Evaluación de la secuencia",
+      "intencion_pedagogica": "Evaluar el nivel de logro de los estudiantes en relación con los contenidos y competencias desarrolladas durante la secuencia de estadística, mediante la resolución de problemas integradores.",
+      "estrategia": "• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas.",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia (tablas de frecuencia, gráficos, medidas de tendencia central, probabilidad).",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite el uso de calculadora. Se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden dibujar los gráficos con regla.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que resuelvan problemas adicionales.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración",
+          "descripcion": "1. El docente pregunta por los temas trabajados en la secuencia.\n2. Aclara dudas finales.\n3. Explica la valoración de cada ítem.",
+          "actividad_numero": "Actividad 12 - A (Pág. 285)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices\n• Calculadoras\n• Reglas",
+          "descripcion": "Evaluación escrita:\n1. El docente entrega una hoja en blanco a cada estudiante.\n2. Presenta los problemas de evaluación:\n\nProblema 1: Se preguntó a 20 estudiantes su color favorito. Los resultados fueron: rojo, azul, rojo, verde, azul, rojo, amarillo, azul, rojo, verde, azul, rojo, azul, rojo, verde, amarillo, azul, rojo, azul, rojo.\na) Elabora una tabla de frecuencia (absoluta y relativa). (10 pts)\nb) Construye un gráfico de barras. (10 pts)\n\nProblema 2: Calcula la media, mediana y moda de los siguientes datos: 12, 15, 12, 14, 16, 12, 15, 13, 14, 15. (15 pts)\n\nProblema 3: En una bolsa hay 6 bolas rojas, 4 azules y 2 verdes. Se extrae una bola al azar. Calcula:\na) Probabilidad de que sea roja. (5 pts)\nb) Probabilidad de que sea azul. (5 pts)\nc) Probabilidad de que sea verde. (5 pts)\n\nProblema 4: Se lanzan dos dados. Calcula la probabilidad de:\na) Obtener suma 7. (5 pts)\nb) Obtener suma 10. (5 pts)\nc) Obtener dos números iguales. (5 pts)\n\nProblema 5: Explica con tus palabras la diferencia entre media, mediana y moda. Proporciona un ejemplo de cada una. (10 pts)\n\nProblema 6: En una clase de 30 estudiantes, 18 son niños y 12 son niñas. Si se elige un estudiante al azar, ¿cuál es la probabilidad de que sea niña? Expresa el resultado como fracción, decimal y porcentaje. (10 pts)\n\nProblema 7: Los siguientes datos son las temperaturas máximas de una semana: 28°, 30°, 29°, 31°, 28°, 30°, 29°. Calcula la media, mediana y moda. (15 pts)\n\n3. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad 12 - B (Pág. 285-286)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Realiza un breve comentario sobre la importancia de la estadística y la probabilidad en la vida cotidiana.\n4. Anuncia el cierre del año escolar o la siguiente actividad.",
+          "actividad_numero": "Actividad 12 - Cierre (Pág. 286)"
+        }
+      ]
+    }
+  ]
+}

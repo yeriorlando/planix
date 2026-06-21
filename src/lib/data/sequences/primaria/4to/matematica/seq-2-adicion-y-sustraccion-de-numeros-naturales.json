@@ -1,0 +1,477 @@
+{
+  "id": "seq-1772507216335",
+  "title": "Adición y sustracción de números naturales",
+  "description": "Desarrollar la suma y la resta con números naturales aplicadas a situaciones problemáticas del entorno. Se enfatizan estrategias de cálculo, estimación y resolución de problemas.",
+  "order": 2,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772507216329",
+      "sequence_id": "seq-1772507216335",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Recordando la adición",
+      "intencion_pedagogica": "Resolver problemas de adición con cantidades menores que 100,000.\n",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre la adición y el censo poblacional.\n• Trabajo colaborativo en grupos: Resolución de problemas de adición con datos del censo de Santiago.\n• Uso de estrategias de cálculo: Descomposición y algoritmo tradicional.\n• Socialización en pizarra: Comparación de estrategias.",
+      "aprendizaje_significativo": "Los estudiantes utilizan datos reales del censo poblacional de Santiago (2010 y 2022) para resolver problemas de adición, comprendiendo que las operaciones matemáticas sirven para analizar información demográfica y entender el crecimiento de su comunidad.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan bloques multibase para representar las cantidades.\n• Para estudiantes kinestésicos: Pueden usar los bloques para realizar las sumas físicamente.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que realicen las sumas usando también la descomposición.",
+      "actividades_cuaderno": "Los estudiantes resuelven el problema de la página 37: \"Según el censo del año 2022 la población de Tamboril era de 57,669 y la de Licey al Medio, era de 30,103 habitantes. ¿Qué cantidad de habitantes tenían en total los dos municipios?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente inicia un diálogo sobre la operación de adición, su utilidad y su importancia en la vida (pág. 35).\n2. Propone una lluvia de ideas: \"¿Qué números han sumado? ¿Dónde han usado la adición?\"\n3. Los estudiantes escriben ejemplos en la pizarra.\n4. Motiva a anticipar el tema y anota las hipótesis.",
+          "actividad_numero": "Actividad 1 - A (Pág. 35)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Tabla censo 2010 (pág. 35)\n• Tabla censo 2022 (pág. 35)\n• Pizarra\n• Cuadernos\n• Bloques multibase (opcional",
+          "descripcion": "Actividad 1 - Presentación de tablas poblacionales (10 min):\n1. El docente presenta la tabla del censo poblacional de Santiago 2010 (pág. 35).\n2. Realiza preguntas: \"¿Qué es un censo? ¿Para qué se realiza? ¿Su casa fue censada?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y presenta la primera situación usando la tabla del censo 2022 (pág. 36): \"En el municipio de Jánico había 7,824 hombres y 6,561 mujeres. ¿Qué cantidad de habitantes tenía el municipio?\"\n2. Los grupos trabajan.\n3. Un voluntario resuelve en la pizarra usando dos estrategias (descomposición y forma tradicional).\n4. El docente repasa los elementos de la adición (sumandos, suma total).\n\nActividad 3 - Segunda situación problemática (25 min):\n1. El docente plantea (pág. 36): \"Puñal tenía 46,090 habitantes y Tamboril 57,669. ¿Cuántos habitantes vivían en total en esos municipios?\"\n2. Los grupos resuelven y socializan en la pizarra.",
+          "actividad_numero": "Actividad 1 - B y C (Pág. 35-36)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven el problema de la página 37: \"Según el censo 2022, Tamboril tenía 57,669 habitantes y Licey al Medio 30,103. ¿Qué cantidad de habitantes tenían en total los dos municipios?\" (Deben usar la tabla para comprobar).\n2. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Cómo se obtiene la suma de dos cantidades?\" (pág. 37).\n3. Actividad complementaria: Los estudiantes resuelven las adiciones de la página 37 (34,978 + 26,987; 1,045 + 4,590; 8,473 + 9,074).\n4. Actividad para el diario del estudiante: Los estudiantes investigan con sus padres la población de dos distritos municipales de su provincia en el Censo 2022 y determinan la suma de esas cantidades (pág. 37).",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 37)"
+        }
+      ]
+    },
+    {
+      "id": "1772507339624",
+      "sequence_id": "seq-1772507216335",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Adición de números naturales",
+      "intencion_pedagogica": "Resolver problemas de adición con cantidades cuyos resultados sean mayores que\n100,000 usando la tabla de valor posicional.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Sumas con reagrupación\".\n• Trabajo en grupos: Resolución de problemas de adición con datos del censo usando tabla de valor posicional.\n• Uso de tabla de valor posicional como estrategia de cálculo.",
+      "aprendizaje_significativo": "Los estudiantes continúan trabajando con datos reales del censo de Santiago, resolviendo sumas cuyo resultado supera las 100,000 unidades, comprendiendo la importancia del valor posicional y la reagrupación.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de valor posicional impresa para que ubiquen los dígitos.\n• Para estudiantes kinestésicos: Pueden usar los bloques multibase para representar las sumas.\n• Para estudiantes con discapacidad visual: Se les proporciona la tabla de valor posicional en formato ampliado.\n• Para estudiantes avanzados: Se les pide que realicen las sumas también por descomposición.",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 39:\n1. \"Si los municipios de Jánico y San José de las Matas tenían una población de 14,385 y 37,411 habitantes respectivamente, en el Censo del 2022, ¿cuántos habitantes tenían en total los dos municipios?\"\n2. \"En el 2022, el municipio de Santiago tenía una población formada por 377,324 hombres y 394,424 mujeres. Si juntamos ambas cantidades, ¿cuál era la población total?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué distritos municipales investigaron? ¿Cuál fue la suma de esas cantidades?\" (pág. 37).\n2. Anuncia que hoy continuarán resolviendo problemas de adición.",
+          "actividad_numero": "Actividad 2 - A (Pág. 37)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Tabla de valor posicional\n• Tabla censo 2022 (pág. 38)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Sumas con reagrupación\" disponible en: https://www.youtube.com/watch?v=HVZxhXBD3zs (pág. 37).\n2. Después del video, pregunta: \"¿Qué entendieron? ¿Qué significa sumar por reagrupación? ¿Cómo se usa la tabla de valor posicional?\"\n3. En caso de no tener acceso a tecnología, explora con preguntas sobre suma usando la tabla de valor posicional.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 5 estudiantes y presenta la primera situación usando la tabla del censo 2022 (pág. 38): \"Puñal tenía 46,090 habitantes y Sabana Iglesia 14,018. ¿Qué cantidad de habitantes tenían en total?\"\n2. Los grupos trabajan usando la tabla de valor posicional como estrategia.\n3. Socializan en la pizarra el procedimiento (pág. 39).\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 38): \"Licey al Medio tenía 30,103 habitantes y Villa González 42,198. ¿Qué cantidad de habitantes tenían en total?\"\n2. Los grupos resuelven usando la tabla de valor posicional.\n3. Socializan: 30,103 + 42,198 = 72,301 habitantes.",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 37-39)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Funda con números > 50,000\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 39: la suma de Jánico y San José de las Matas, y la suma de hombres y mujeres de Santiago.\n2. Juego de cierre (pág. 39): Llevar en una funda cantidades mayores que 50,000. Por turno, dos estudiantes sacan una cantidad cada uno y entre todos obtienen la suma.\n3. Actividad complementaria: Los estudiantes completan la tabla de la página 39, colocando en la columna final la suma o total de las cantidades.\n4. Actividad para el diario del estudiante: Los estudiantes piden a sus padres dos números mayores que 40,000 y realizan la suma de esas dos cantidades (pág. 39).",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 39)"
+        }
+      ]
+    },
+    {
+      "id": "1772507535497",
+      "sequence_id": "seq-1772507216335",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Adición con números naturales 2",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto usando la adición con números naturales.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo en parejas: Resolución de problemas de adición con datos del censo.\n• Uso de múltiples estrategias: Descomposición, forma tradicional y tabla de valor posicional.\n• Socialización y comparación de estrategias.",
+      "aprendizaje_significativo": "Los estudiantes resuelven problemas de adición con datos reales del censo de Santiago, aplicando diferentes estrategias y verificando la validez de los resultados a través de la comparación de métodos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de valor posicional para apoyar el cálculo.\n• Para estudiantes kinestésicos: Pueden usar bloques multibase para representar las cantidades.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que resuelvan los problemas usando al menos dos estrategias diferentes.",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 41:\n1. \"Yazmin encontró en el periódico que, en el último censo realizado en el país, en el municipio de Sabana Iglesia habitan 7,320 hombres y 6,698 mujeres. ¿Cuál es la población total del municipio según el censo?\"\n2. \"Adrián está sumando la cantidad de habitantes que tienen los municipios de Puñal y Bisonó en el último censo, con una población de 46,090 y 49,367 respectivamente. Él dice que, entre los dos municipios, hay un total de 106,745 habitantes. ¿Adrián tiene razón en lo que dice? Justifica tu respuesta.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué números mayores que 40,000 les dijeron sus padres? ¿Qué estrategia usaron para sumarlos?\" (pág. 39).\n2. Escribe 845 en la pizarra para explorar su forma desarrollada y descomposición.",
+          "actividad_numero": "Actividad 3 - A (Pág. 40)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Tabla de valor posicional\n",
+          "descripcion": "Actividad 1 - Situación problemática en parejas (25 min):\n1. El docente organiza parejas y plantea la situación (pág. 40): \"San José de las Matas tiene 19,792 hombres y 17,619 mujeres. ¿Cuál es la población total?\"\n2. Las parejas trabajan.\n3. Socializan en la pizarra mostrando tres estrategias: descomposición, forma tradicional y tabla de valor posicional (pág. 40). Resultado: 37,411.\n\nActividad 2 - Segunda situación problemática (25 min):\n1. El docente plantea (pág. 41): \"Baitoa tenía 5,555 mujeres y 6,135 hombres. El padre de Alexander dice que la población era 11,690. ¿Tiene razón?\"\n2. Las parejas resuelven.\n3. Socializan: 5,555 + 6,135 = 11,690. El padre tiene razón.\n\nActividad 3 - Problemas de verificación (10 min):\n1. Si alguna pareja usó otro procedimiento, lo comparten en la pizarra.",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 40-41)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 41: la población total de Sabana Iglesia y la verificación de Adrián sobre Puñal y Bisonó.\n2. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Cuáles estrategias usamos? ¿Tuvieron alguna dificultad?\" (pág. 41).\n3. Actividad complementaria: Los estudiantes realizan las adiciones de la página 41 (3,994 + 9,329; 9,579 + 9,329; etc.).\n4. Actividad para el diario del estudiante: Los estudiantes escriben un problema con dos cantidades cuyo resultado sea mayor que 100,000 y lo explican a un familiar (pág. 41).",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 41)"
+        }
+      ]
+    },
+    {
+      "id": "1772507685358",
+      "sequence_id": "seq-1772507216335",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Propiedades de la adición",
+      "intencion_pedagogica": "Valorar la importancia de las propiedades de la adición para calcular con mayor agilidad una suma.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Resolución de problemas: Aplicación de la propiedad conmutativa con datos de distritos municipales.\n• Trabajo colaborativo: Comparación de resultados al cambiar el orden de los sumandos.\n• Elaboración de cartel: Definición de propiedad y propiedad conmutativa.",
+      "aprendizaje_significativo": "Los estudiantes descubren que al sumar las poblaciones de dos distritos municipales (Juncalito y El Caimito) el resultado es el mismo sin importar el orden, comprendiendo que esta propiedad facilita el cálculo mental.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona ejemplos concretos con objetos para visualizar la propiedad.\n• Para estudiantes kinestésicos: Pueden usar fichas para representar las cantidades y comprobar que el orden no altera el total.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué la propiedad conmutativa no aplica en la resta.",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 43 usando la propiedad conmutativa:\n1. \"Según el censo del 2010 la población del municipio de Licey al Medio era en ese año de 25,539 habitantes. Al momento de realizar el censo del 2022 había aumentado en 4,564. ¿Cuántos habitantes en total tuvo Licey al Medio en el censo del 2022?\"\n2. \"La cantidad de hombres en el municipio de Baitoa era de 6,135 y la cantidad de mujeres de 5,555, según el censo del 2022. ¿Cuál es la población total de hombres y mujeres en este municipio en el 2022?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué problema inventaron? ¿Cuál fue el resultado? ¿Cómo lo resolvieron?\" (pág. 41).\n2. Luego, pregunta: \"¿Saben qué es una propiedad? ¿Qué propiedades de la adición conocen?\" (pág. 42).",
+          "actividad_numero": "Actividad 4 - A (Pág. 42)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Papelógrafo para cartel\n\n",
+          "descripcion": "Actividad 1 - Situación problemática colaborativa (25 min):\n1. El docente plantea la situación (pág. 42): \"Alberto y Nelly necesitan saber la cantidad total de niños menores de 5 años en La Cuesta (255) y Las Placetas (294).\"\n2. Dos estudiantes pasan a la pizarra y resuelven colocando las cantidades en diferente orden.\n3. Pregunta: \"¿Por qué el resultado es el mismo sin importar el orden? ¿Cómo se llama esta propiedad?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea (pág. 42): \"Juncalito tenía 4,215 habitantes y El Caimito 5,106 en el censo 2010. ¿Cuál era la población total? Resuelvan dos veces, cambiando el orden de los sumandos.\"\n2. Los grupos trabajan.\n3. Socializan en la pizarra: 4,215 + 5,106 = 9,321; 5,106 + 4,215 = 9,321.\n4. El docente elabora un cartel con la definición de propiedad y propiedad conmutativa (pág. 42).",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 42-43"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 43 usando la propiedad conmutativa: el aumento de población de Licey al Medio (25,539 + 4,564) y la población total de Baitoa (hombres + mujeres).\n2. Realiza preguntas de cierre: \"¿Qué es una propiedad? ¿En qué consiste la propiedad conmutativa? ¿Para qué sirve?\" (pág. 43).\n3. Actividad complementaria: Los estudiantes completan las cantidades faltantes usando la propiedad conmutativa (pág. 43).\n4. Actividad para el diario del estudiante: Los estudiantes escriben un problema de adición y lo resuelven usando la propiedad conmutativa (pág. 43).",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 43)"
+        }
+      ]
+    },
+    {
+      "id": "1772507759565",
+      "sequence_id": "seq-1772507216335",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Más propiedades de la adición",
+      "intencion_pedagogica": "Desarrollar habilidades para el cálculo de sumas, usando la propiedad asociativa de la\nadición.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Propiedad asociativa de la adición\".\n• Trabajo en grupos: Resolución de problemas con tres sumandos usando la propiedad asociativa.\n• Comparación de estrategias: Agrupación diferente de sumandos.",
+      "aprendizaje_significativo": "Los estudiantes suman las poblaciones de tres distritos municipales (El Rubio, La Cuesta y Las Placetas) agrupando los sumandos de diferentes maneras, descubriendo que el resultado no cambia.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona el cartel con la propiedad asociativa para consultar.\n• Para estudiantes kinestésicos: Pueden usar fichas para representar los sumandos y agruparlos físicamente.\n• Para estudiantes con discapacidad visual: Se les proporciona el cartel en formato ampliado.\n• Para estudiantes avanzados: Se les pide que creen un problema con tres sumandos que se resuelva aplicando la propiedad asociativa.",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 45 aplicando la propiedad asociativa de dos formas diferentes:\n1. \"En el 2010, los distritos municipales de Pedro García, Juncalito y Palmar Arriba, tenían una población de 4,006, 4,215 y 6,365 habitantes, respectivamente. ¿Cuál era la población total de estos 3 distritos municipales?\"\n2. \"En el censo del 2022, en los municipios de Baitoa, Jánico y Villa González, tenían 11,690; 14,335 y 42,198 personas respectivamente, viviendo en la zona urbana. ¿Cuántos habitantes en total vivían en la zona urbana en estos 3 municipios, en ese último censo?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué problema escribieron? ¿Cómo lo resolvieron?\" (pág. 43).\n2. Plantea un ejemplo para repasar la propiedad conmutativa: 245 + 350 = 595, y 350 + 245 = 595.",
+          "actividad_numero": "Actividad 5 - A (Pág. 44)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos\n• Papelógrafo para cartel",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Propiedad asociativa de la adición\" disponible en: https://www.youtube.com/watch?v=3AHOBJTqrVM (pág. 44).\n2. Después del video, pregunta: \"¿Qué observaron? ¿En qué consiste la propiedad asociativa? ¿Qué diferencia hay con la conmutativa?\"\n3. En caso de no tener acceso a tecnología, trabaja con el ejemplo: 20 + 12 + 15, preguntando cómo se puede sumar de diferentes maneras.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 44): \"El Rubio tenía 572 niños menores de 5 años, La Cuesta 255 y Las Placetas 294. ¿Cuál es la cantidad total de niños?\"\n2. Los grupos trabajan.\n3. Dos estudiantes resuelven en la pizarra agrupando de forma diferente los sumandos: (572 + 255) + 294 = 827 + 294 = 1,121; 572 + (255 + 294) = 572 + 549 = 1,121.\n\nActividad 3 - Elaboración de cartel (20 min):\n1. El docente elabora un cartel con la propiedad asociativa a partir de las conclusiones de los estudiantes (pág. 45).\n2. Si es necesario, plantea otro problema para reforzar.",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 44-45)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 45 aplicando la propiedad asociativa de dos formas diferentes: las poblaciones de Pedro García, Juncalito y Palmar Arriba (censo 2010) y las poblaciones urbanas de Baitoa, Jánico y Villa González (censo 2022).\n2. Realiza preguntas de cierre: \"¿En qué consiste la propiedad asociativa? ¿Qué diferencia hay entre conmutativa y asociativa?\" (pág. 45).\n3. Actividad complementaria: Los estudiantes identifican la propiedad aplicada en cada expresión de la página 46 (a, b, c, d) y explican cómo resolverían usando esa propiedad.\n4. Actividad para el diario del estudiante: Los estudiantes explican a sus padres las propiedades conmutativa y asociativa con ejemplos (pág. 46).",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 45-46)"
+        }
+      ]
+    },
+    {
+      "id": "1772508204692",
+      "sequence_id": "seq-1772507216335",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Jugando a la ruleta",
+      "intencion_pedagogica": "Resolver situaciones problemáticas, usando las\npropiedades de la adición, con el juego como estrategia.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Juego didáctico: \"Jugando a la ruleta\" con operaciones de adición.\n• Trabajo en parejas: Resolución de operaciones aplicando propiedades.\n• Registro de desempeño: Observación del nivel de logro de los estudiantes.",
+      "aprendizaje_significativo": "Los estudiantes refuerzan las propiedades de la adición a través de un juego interactivo, comprendiendo que el aprendizaje matemático puede ser divertido y que las propiedades facilitan el cálculo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar calculadora para verificar resultados.\n• Para estudiantes kinestésicos: El juego mismo es una actividad kinestésica que facilita su aprendizaje.\n• Para estudiantes con discapacidad visual: Se les proporcionan las operaciones en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen qué propiedad usaron en cada operación.",
+      "actividades_cuaderno": "Los estudiantes resuelven el problema de la página 47: \"Los municipios de Bisonó y Licey al Medio en el censo del 2010 tenían una población de 42,092 y 25,539 habitantes, respectivamente. Determina la cantidad total de habitantes de estos dos municipios. ¿Cuál es la estimación del total de habitantes de ambos municipios, si se redondea a la unidad de millar?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo le explicaron a sus padres las propiedades? ¿Qué ejemplos usaron?\" (pág. 46).\n2. Anuncia que hoy jugarán para practicar lo aprendido.",
+          "actividad_numero": "Actividad 6 - A (Pág. 46)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Ruleta online (https://es.piliapp.com/random/wheel/) o ruletas manuales\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente prepara el juego (pág. 46). Puede usar el enlace online o ruletas manuales.\n2. Explica las reglas (pág. 46):\n- Cada pareja, por turno, da vuelta a la ruleta.\n- Resuelven la operación de dos formas diferentes, usando la propiedad que indique la ruleta.\n- Si hacen la operación correcta, ganan 1 punto.\n- Cada pareja gira la ruleta 3 veces.\n- Gana la pareja con más puntos al final.\n3. Los estudiantes juegan mientras el docente registra el desempeño.",
+          "actividad_numero": "Actividad 6 - B (Pág. 46)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Socializa con preguntas: \"¿Cómo jugaron? ¿Qué fue lo más difícil? ¿Qué pareja ganó?\" (pág. 47).\n2. Actividad para el cuaderno: Los estudiantes resuelven el problema de la página 47, que consiste en determinar la cantidad total de habitantes de Bisonó y Licey al Medio y luego estimar redondeando a la unidad de millar.\n3. Actividad complementaria: Los estudiantes realizan las actividades de la página 46 (opcional según tiempo).",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 47)"
+        }
+      ]
+    },
+    {
+      "id": "1772508835958",
+      "sequence_id": "seq-1772507216335",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Estimación de números naturales",
+      "intencion_pedagogica": "Estimar suma mediante el redondeo de los sumandos.",
+      "estrategia": "• Revisión de juego: Socialización de la experiencia del juego anterior.\n• Retroalimentación de redondeo y valor posicional.\n• Trabajo en grupos: Estimación de sumas mediante redondeo.\n• Uso de tabla de valor posicional para identificar posición a redondear.",
+      "aprendizaje_significativo": "Los estudiantes estiman la población total de municipios (Bisonó y Licey al Medio, Tamboril) redondeando a la unidad de millar o decena de millar, comprendiendo que la estimación permite obtener resultados aproximados y razonables para la toma de decisiones.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para redondear.\n• Para estudiantes kinestésicos: Pueden usar la tabla de valor posicional para identificar la posición a redondear.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué la diferencia entre el resultado exacto y el estimado es razonable.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 49:\n1. \"Los distritos municipales de Guayabal y Canabacoa tenían en el 2010 una población de 11,509 y 11,151 habitantes, respectivamente. ¿Cómo se escribe esta cantidad redondeada a la centena más cercana? ¿Cuál era la cantidad de habitantes aproximadamente de estos distritos municipales, en el 2010?\"\n2. \"En el censo del año 2022 la población de hombres del municipio de Baitoa es de 6,135 personas y la población de mujeres es de 5,555 personas. ¿Cómo se escriben estas cantidades redondeadas a la unidad de millar más cercana? ¿Cuántas personas, aproximadamente, viven en total en el municipio de Baitoa?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Tabla de valor posicional\n• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Cómo les fue en el juego? ¿Qué propiedades usaron?\" (pág. 47).\n2. Pregunta: \"¿Qué es redondear? ¿Qué es estimar? ¿Qué diferencia hay?\" (pág. 47).\n3. Retroalimenta el valor posicional con 479,035 en tabla de valor posicional.",
+          "actividad_numero": "Actividad 7 - A (Pág. 47)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Tabla de valor posicional",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (30 min):\n1. El docente organiza grupos de 5-6 estudiantes y plantea la situación (pág. 47): \"Bisonó tenía 42,092 habitantes y Licey al Medio 25,539 en el censo 2010. Determina el total exacto y la estimación redondeando a la unidad de millar.\"\n2. Los grupos trabajan.\n3. Socializan: 42,092 + 25,539 = 67,631. Estimación: 42,000 + 26,000 = 68,000. El resultado es razonable.\n\nActividad 2 - Segunda situación problemática (30 min):\n1. El docente plantea (pág. 47): \"Tamboril tenía 28,979 hombres y 28,690 mujeres en el censo 2022. Calcula el total exacto y la estimación redondeando a la decena de millar.\"\n2. Los grupos resuelven.\n3. Socializan: 28,979 + 28,690 = 57,669. Estimación: 30,000 + 30,000 = 60,000. El resultado es razonable.",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 47-48)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué es redondear? ¿Por qué redondeamos? ¿Qué se debe tomar en cuenta para redondear?\" (pág. 49).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 49: el de Guayabal y Canabacoa redondeado a la centena, y el de Baitoa redondeado a la unidad de millar.\n3. Actividad complementaria: Los estudiantes completan la tabla de la página 49 redondeando a la centena, unidad de millar y decena de millar.",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 49)"
+        }
+      ]
+    },
+    {
+      "id": "1772508929522",
+      "sequence_id": "seq-1772507216335",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Sustracción de números naturales",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto, usando la sustracción de números naturales.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre sustracción.\n• Trabajo en grupos: Resolución de problemas de sustracción con datos del censo.\n• Uso de bloques multibase para estudiantes con dificultades.",
+      "aprendizaje_significativo": "Los estudiantes calculan la diferencia de población entre diferentes grupos etarios y municipios (niños menores de 5 años vs. población total), comprendiendo que la resta permite encontrar diferencias y cantidades restantes.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan bloques multibase para representar las cantidades.\n• Para estudiantes kinestésicos: Pueden usar los bloques para realizar las restas físicamente.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que resuelvan los problemas también por descomposición.",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 51:\n1. \"Alexander quiere saber cuántos hombres más que mujeres hay en el municipio de Sabana Iglesia; según el último censo, viven 7,320 hombres y 6,698 mujeres. ¿Cómo puede Alexander saber esta diferencia? ¿Cuántos hombres más que mujeres viven en el municipio de Sabana Iglesia?\"\n2. \"Yasmeiry dice que el municipio Licey al Medio tiene 15,840 habitantes más que el municipio de Jánico; usando los datos obtenidos en el censo en el 2022, donde Licey tiene 30,103 habitantes y Jánico tiene 14,385 habitantes. ¿Tiene Yasmeiry la razón? ¿Por qué? Justifica tu respuesta.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo les fue con las estimaciones? ¿Qué resultados obtuvieron?\" (pág. 49).\n2. Luego, pregunta: \"¿Qué es la sustracción? ¿Dónde la han usado?\" (pág. 50).",
+          "actividad_numero": "Actividad 8 - A (Pág. 50)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Bloques multibase (opcional)\n",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (30 min):\n1. El docente organiza grupos de 5 estudiantes y plantea la situación (pág. 50): \"El Limón tenía 3,680 personas en 2010, de los cuales 230 eran niños menores de 5 años. ¿Cuántos habitantes tenían 5 años o más?\"\n2. Los grupos trabajan.\n3. Socializan usando descomposición y forma tradicional (pág. 51): 3,680 - 230 = 3,450.\n4. El docente repasa los elementos de la sustracción (minuendo, sustraendo, diferencia).\n\nActividad 2 - Segunda situación problemática (30 min):\n1. El docente plantea (pág. 50): \"Tamboril tenía 4,585 niños menores de 5 años y Villa González 3,300. ¿Cuántos más tenía Tamboril?\"\n2. Los grupos resuelven.\n3. Socializan: 4,585 - 3,300 = 1,285.",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 50-51)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Funda con preguntas\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Juego de cierre (pág. 51): Introducir en una funda preguntas sobre lo trabajado. Los estudiantes sacan una al azar y responden. Pueden usar un comodín.\n2. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 51: la diferencia de hombres y mujeres en Sabana Iglesia, y la verificación de Yasmeiry sobre Licey al Medio y Jánico.\n3. Actividad complementaria: Los estudiantes resuelven las sustracciones de la página 51.\n4. Actividad para el diario del estudiante: Los estudiantes elaboran un problema de sustracción con cantidades trabajadas y lo explican a un familiar (pág. 52).",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 51-52)"
+        }
+      ]
+    },
+    {
+      "id": "1772509027362",
+      "sequence_id": "seq-1772507216335",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Sustracción de números naturales",
+      "intencion_pedagogica": "Identificar situaciones problemáticas en su entorno y resolverlas utilizando la sustracción con números naturales.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo en grupos: Resolución de problemas de sustracción con datos del censo y situaciones comerciales.\n• Uso de múltiples estrategias: Descomposición y forma tradicional.",
+      "aprendizaje_significativo": "Los estudiantes resuelven problemas de sustracción con datos del censo (población urbana y rural) y situaciones comerciales (ventas), comprendiendo que la resta es una herramienta para encontrar diferencias en diversos contextos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de valor posicional para apoyar el cálculo.\n• Para estudiantes kinestésicos: Pueden usar los bloques multibase para representar las cantidades.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que resuelvan los problemas usando también la descomposición.",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 53:\n1. \"En el municipio de San José de las Matas, viven 26,861 personas en la zona rural y 11,767 en la zona urbana. ¿Cuántas personas menos viven en la zona urbana que en la zona rural de este municipio?\"\n2. \"Según el censo realizado en el 2010, en la provincia de Santiago vivían en la zona urbana 728,484 personas y en la zona rural 234,938 personas. ¿Cuál es la diferencia en cuanto a la cantidad de personas que viven en la zona urbana y la zona rural?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué problema elaboraron? ¿Cómo lo resolvieron?\" (pág. 52).\n2. Anuncia que hoy continuarán resolviendo problemas de sustracción.",
+          "actividad_numero": "Actividad 9 - A (Pág. 52)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (30 min):\n1. El docente organiza grupos de 5 estudiantes y plantea la situación (pág. 52): \"Puñal tenía 46,516 habitantes en 2010, de los cuales 12,849 vivían en zona urbana. ¿Cuántos vivían en zona rural?\"\n2. Los grupos trabajan.\n3. Socializan: 46,516 - 12,849 = 33,667 (pág. 52).\n\nActividad 2 - Segunda situación problemática (30 min):\n1. El docente plantea (pág. 52): \"Un colmado vendió RD$ 32,520 y RD$ 55,523 en dos meses. ¿Cuál es la diferencia?\"\n2. Los grupos resuelven.\n3. Socializan: 55,523 - 32,520 = 23,003 (pág. 53).",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 52-53)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Para qué sirve aprender a resolver problemas de sustracción?\" (pág. 53).\n2. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 53: la diferencia entre zona rural y urbana en San José de las Matas, y la diferencia entre población urbana y rural en la provincia de Santiago.\n3. Actividad complementaria: Los estudiantes determinan el número faltante en cada caso y resuelven los problemas de la página 53.\n4. Actividad para el diario del estudiante: Los estudiantes acceden a los enlaces de Wordwall para practicar sumas y restas (pág. 53).",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 53)"
+        }
+      ]
+    },
+    {
+      "id": "1772509124850",
+      "sequence_id": "seq-1772507216335",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Estimación de números naturales",
+      "intencion_pedagogica": "Resolver problemas de sustracción utilizando la estimación.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Retroalimentación de redondeo.\n• Trabajo en grupos: Estimación de diferencias mediante redondeo.\n• Uso de tabla de valor posicional.",
+      "aprendizaje_significativo": "Los estudiantes estiman la diferencia de población entre municipios (Santiago y Bisonó, Tamboril y Sabana Iglesia) redondeando a diferentes posiciones, comprendiendo que la estimación permite obtener resultados aproximados útiles para análisis rápidos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para redondear.\n• Para estudiantes kinestésicos: Pueden usar la tabla de valor posicional para identificar la posición a redondear.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué la estimación es razonable.",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 55 estimando a la unidad de millar más cercana:\n1. \"Una farmacia fue visitada en el año por 53,305 personas y otra cercana a esta por 14,907 personas. ¿Cuántas personas más visitaron la primera farmacia que la segunda?\"\n2. \"En el 2022, en la provincia de Santiago vivían en la zona urbana 531,377 hombres y 543,302 mujeres. ¿Cuántas mujeres más que hombres vivían en la zona urbana según ese censo?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo les fue en los enlaces? ¿Qué operaciones practicaron?\" (pág. 53).\n2. Retroalimenta el tema del redondeo con preguntas.",
+          "actividad_numero": "Actividad 10 - A (Pág. 54)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Tabla de valor posicional\n",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (30 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 54): \"Santiago tenía 691,262 habitantes en 2010 y Bisonó 42,092. ¿Cuál es la diferencia estimada redondeando a la decena de millar?\"\n2. Los grupos trabajan.\n3. Socializan: 691,262 - 42,092 = 649,170. Estimación: 690,000 - 40,000 = 650,000.\n\nActividad 2 - Segunda situación problemática (30 min):\n1. El docente plantea (pág. 54): \"Sabana Iglesia tenía 13,348 habitantes y Tamboril 51,695 en 2010. ¿Cuántos más tenía Tamboril? Redondea a la unidad de millar.\"\n2. Los grupos resuelven.\n3. Socializan: 51,695 - 13,348 = 38,347. Estimación: 52,000 - 13,000 = 39,000.",
+          "actividad_numero": "Actividad 10 - B y C (Pág. 54-55)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo se redondea un número? ¿Es útil redondear? ¿Por qué?\" (pág. 55).\n2. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 55 estimando a la unidad de millar: las visitas a dos farmacias y la diferencia de hombres y mujeres en Santiago.\n3. Actividad complementaria: Los estudiantes estiman y resuelven los ejercicios de la página 55 redondeando a la centena.\n4. Actividad para el diario del estudiante: Los estudiantes elaboran un problema de sustracción con cantidades mayores que 50,000, redondean a la decena de millar y determinan la diferencia (pág. 55).",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 55)"
+        }
+      ]
+    },
+    {
+      "id": "1772509208490",
+      "sequence_id": "seq-1772507216335",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Juego del boliche matemático",
+      "intencion_pedagogica": "Retroalimentar las operaciones de adición y sustracción con números naturales usando el juego como estrategia.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Juego didáctico: \"Juego del boliche matemático\" con boliches de colores.\n• Trabajo en parejas: Cálculo de sumas y restas con valores posicionales.\n• Registro de desempeño: Observación del nivel de logro de los estudiantes.",
+      "aprendizaje_significativo": "Los estudiantes refuerzan las operaciones de adición y sustracción a través de un juego lúdico con boliches que representan valores posicionales, comprendiendo que el aprendizaje matemático puede ser divertido y colaborativo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar la tabla de valor posicional para identificar el valor de cada color.\n• Para estudiantes kinestésicos: El juego mismo es una actividad kinestésica ideal.\n• Para estudiantes con discapacidad visual: Se les proporcionan boliches con texturas diferentes para cada color.\n• Para estudiantes avanzados: Se les pide que calculen mentalmente las operaciones sin escribirlas.",
+      "actividades_cuaderno": "Los estudiantes registran en su cuaderno las operaciones realizadas durante el juego (no hay actividad específica en la página, es el registro del juego).",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué problemas inventaron? ¿Cómo los resolvieron?\" (pág. 55).\n2. Anuncia que hoy jugarán al boliche matemático.",
+          "actividad_numero": "Actividad 11 - A (Pág. 56)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• 10 boliches de cinco colores\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente prepara 10 boliches de cinco colores distintos (blanco, verde, amarillo, azul, rojo) que representan unidades, decenas, centenas, unidades de millar y decenas de millar respectivamente (pág. 56).\n2. Explica las reglas (pág. 56):\n- Juegan 4 jugadores en parejas.\n- El primer jugador lanza y calcula la cantidad representada por los colores derribados, sumando los valores.\n- El segundo jugador lanza y hace lo mismo. Luego a la cantidad mayor se le resta la menor.\n- Pasa el turno a la siguiente pareja.\n- Se juegan 2 rondas.\n- En cada ronda, la pareja obtiene los puntos de diferencia entre ellos y la otra pareja.\n- Gana la pareja con mayor puntaje al final.\n3. Los estudiantes juegan mientras el docente registra el desempeño.",
+          "actividad_numero": "Actividad 11 - B (Pág. 56)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Socializa con preguntas: \"¿Cómo jugaron? ¿Qué pareja ganó? ¿Qué fue lo más difícil?\" (pág. 56).\n2. Actividad para el cuaderno: Los estudiantes registran en su cuaderno las operaciones realizadas durante el juego (no hay actividad específica en la página, es el registro del juego).\n3. Actividad complementaria: No aplica para esta clase.\n4. Actividad para el diario del estudiante: No aplica para esta clase.",
+          "actividad_numero": "Actividad 11 - Cierre (Pág. 56)"
+        }
+      ]
+    },
+    {
+      "id": "1772509306765",
+      "sequence_id": "seq-1772507216335",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar la secuencia #2, haciendo énfasis en la resolución de problemas.",
+      "estrategia": "• Diálogo dirigido: Recuperación de temas de la secuencia.\n• Explicación de la escala de valoración.\n• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas.",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia (adición, sustracción, propiedades, estimación) en contextos variados.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden usar la tabla de valor posicional si lo necesitan.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que, al terminar, ayuden a revisar sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración",
+          "descripcion": "1. El docente pregunta: \"¿Qué trabajaron en esta secuencia?\" (pág. 57).\n2. Lee con los estudiantes la tabla de valoración para que comprendan cómo se evaluarán los resultados (pág. 57).",
+          "actividad_numero": "Actividad 12 - A (Pág. 57)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices",
+          "descripcion": "1. El docente entrega una hoja en blanco a cada estudiante donde colocarán sus datos: nombre del centro, nombre del estudiante, fecha, grado y sección (pág. 57).\n2. Explica la valoración de cada ítem.\n3. Presenta los problemas de evaluación (págs. 57-58):\n\nÍtem 1 (10 pts): Estimar a la decena de millar: 254,735; 334,891; 837,452; 155,357.\nÍtem 2 (10 pts): Población total de Villa González (zona urbana 18,288 + rural 19,061).\nÍtem 3 (10 pts): Total de hombres en Baitoa (6,135) y Jánico (7,824).\nÍtem 4 (10 pts): Estimar a la posición indicada (operaciones de la página 58).\nÍtem 5 (10 pts): Total de habitantes de Espaillat (231,938) y Puerto Plata (321,577).\nÍtem 6 (10 pts): Identificar la propiedad en cada operación (a, b, c, d).\nÍtem 7 (10 pts): Diferencia entre población rural de Puñal (17,071) y Villa González (19,061).\nÍtem 8 (10 pts): Escribir los nombres de los elementos de la adición y sustracción.\nÍtem 9 (10 pts): Problema de sustracción redondeando a la decena de millar (Bisonó: rural 10,484, urbana 31,308).\nÍtem 10 (10 pts): Encerrar la respuesta correcta (elementos de adición y sustracción).\n\n4. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad 12 - B (Pág. 57-58)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Anuncia el inicio de la siguiente secuencia.",
+          "actividad_numero": "Actividad 12 - Cierre (Pág. 58)"
+        }
+      ]
+    }
+  ]
+}

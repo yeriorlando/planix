@@ -1,0 +1,360 @@
+{
+  "id": "seq-1772022744281",
+  "title": "Círculos y circunferencias",
+  "description": "Esta secuencia profundiza en los elementos del círculo y la circunferencia, como radio, diámetro y centro. Se desarrollan actividades de identificación, construcción y análisis de sus propiedades.",
+  "order": 7,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772022744273",
+      "sequence_id": "seq-1772022744281",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "¡Círculo o circunferencia!",
+      "intencion_pedagogica": "Identificar círculos y circunferencias en objetos del entorno.\n\n",
+      "estrategia": "Uso de material concreto: Tapas circulares para exploración táctil.\n\nDiálogo dirigido: Preguntas para diferenciar círculo y circunferencia.\n\nUso de material audiovisual: Video sobre diferencia entre círculo y circunferencia.\n\nSituaciones problemáticas: Aplicación en contextos de la industria textil.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se parte del contexto de la industria textil (forros de cojines circulares) para introducir la diferencia entre círculo y circunferencia, conectando así el aprendizaje matemático con la vida real.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se utilizan objetos concretos (aros, tapas) para diferenciar visual y táctilmente.\n\nPara estudiantes kinestésicos: Se les invita a dibujar una circunferencia y colorear el círculo.\n\nPara estudiantes con discapacidad visual: Se utilizan objetos con diferentes texturas (liso para círculo, rugoso para borde).\n\nPara estudiantes avanzados: Se les pide que investiguen otros objetos con forma circular.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 210, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Tapas circulares",
+          "descripcion": "1. El docente entrega una tapa circular a cada estudiante.\n2. Pide que pasen sus manos por la superficie plana y por el borde.\n3. Pregunta: \"¿Esta tapa es un círculo o una circunferencia? ¿Cuál es la diferencia?\"\n4. Anuncia el tema: diferencia entre círculo y circunferencia.",
+          "actividad_numero": "Actividad 1 A (pág. 209)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video o pizarra\n• Cuadernos",
+          "descripcion": "1. Proyecta el video \"Diferencia entre círculo y circunferencia\" (https://www.youtube.com/watch?v=xt0HXtr8C0c). Socializa: \"¿De qué trata? ¿Qué es un círculo? ¿Qué es una circunferencia?\"\n2. Si no hay video, puntualiza:\n- Circunferencia: curva cerrada formada por puntos que están a la misma distancia del centro.\n- Círculo: superficie plana que está dentro de la circunferencia.\n3. Plantea el problema (pág. 209): \"Alberto dibujó la forma de la tapa y quiere colorear el dibujo. ¿Qué va a colorear, el círculo o la circunferencia?\" (El círculo).\n4. Plantea otro problema (pág. 209-210): \"La madre de Nelly fabrica forros para cojines de forma circular. ¿Cuál será el círculo y la circunferencia en estos forros?\" (El relleno es el círculo, la costura del borde es la circunferencia).",
+          "actividad_numero": "Actividad 1 B y C (págs. 209-210)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: 1) Una empresa textil coloca cinta azul alrededor de los forros. ¿Qué representa la cinta, círculo o circunferencia? (circunferencia). 2) Nelly quiere pintar todo el interior de un reloj circular. Alexander dice que pintará la circunferencia. ¿Tiene razón? (No, pintará el círculo).\n\nCierre (pág. 210):\nPreguntas: \"¿Qué aprendimos hoy? ¿Qué es un círculo? ¿Qué es una circunferencia? ¿Cuál es la diferencia?\"\n\nActividad complementaria (pág. 210):\nSeñalar en la figura, con su nombre, la circunferencia y el círculo.\n\nActividad para el diario del estudiante (pág. 210):\nObservar en tu entorno y escribir el nombre de cinco objetos donde se observen el círculo y la circunferencia.",
+          "actividad_numero": "Actividad 1 Actividad para el cuaderno (pág. 210) Cierre (pág. 210) Actividad complementaria (pág. 210) Actividad para el diario (pág. 210)"
+        }
+      ]
+    },
+    {
+      "id": "1772022860263",
+      "sequence_id": "seq-1772022744281",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Conociendo lo elementos de círculo y la circunferencia",
+      "intencion_pedagogica": "Reconocer los elementos del círculo y la circunferencia en su entorno.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material concreto: Rueda de bicicleta para identificar elementos.\n\nUso de material audiovisual: Video sobre radio y diámetro.\n\nConceptualización: Definición de centro, radio y diámetro.\n\nSituaciones problemáticas: Aplicación en contextos de la industria.",
+      "aprendizaje_significativo": "Se utiliza una rueda de bicicleta para identificar visualmente los elementos del círculo y la circunferencia, conectando la geometría con objetos cotidianos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan circunferencias dibujadas para marcar los elementos.\n\nPara estudiantes kinestésicos: Se les invita a trazar radios y diámetros en el piso con tiza.\n\nPara estudiantes con discapacidad visual: Se utilizan modelos de circunferencias en cartulina con hilos.\n\nPara estudiantes avanzados: Se les pide que expliquen la relación entre radio y diámetro.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 211, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Rueda de bicicleta\n• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los objetos circulares encontrados.\n2. Retroalimenta la diferencia entre círculo y circunferencia.\n3. Muestra una rueda de bicicleta. Pregunta: \"¿Qué forma tiene? ¿Qué representan los rayos?\"\n4. Proyecta el video \"¿Qué es radio y diámetro en un círculo?\" (https://www.youtube.com/watch?v=rKU482u3XXQ). Socializa.",
+          "actividad_numero": "Actividad 2 A (pág. 210)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, explica:\n- Centro: punto interior que equidista de todos los puntos de la circunferencia.\n- Radio: segmento del centro a cualquier punto de la circunferencia.\n- Diámetro: segmento que pasa por el centro y une dos puntos de la circunferencia.\n2. Plantea el problema (pág. 211): \"Una industria fabricó 50,000 rayos para aros de bicicletas. ¿Qué representan estos rayos, radio o diámetro?\" (Radio).\n3. Plantea otro problema (pág. 211): \"El padre de Alexander fabrica monedas de 5 pesos con anchura de 5 cm. ¿Qué longitud representa el ancho?\" (Diámetro).\n4. Concluye: el diámetro contiene 2 radios.",
+          "actividad_numero": "Actividad 2 B y C (pág. 211)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas\n• Cuadernos",
+          "descripcion": "Resolver: 1) Una industria fabrica relojes. Las agujas minuteras van del centro al borde. ¿Representan radio o diámetro? (radio). 2) Alberto pegó cinta amarilla de un extremo a otro de la rueda de su bicicleta. ¿Radio o diámetro? (diámetro).\n\nCierre (pág. 211):\nJuego de tarjetas: escribir radio y diámetro en tarjetas. Por turno, dos estudiantes eligen una y dibujan en la pizarra una circunferencia trazando el elemento correspondiente.\n\nActividad complementaria (pág. 212):\nColocar el nombre correspondiente en cada recuadro de la imagen (centro, radio, diámetro).\n\nActividad para el diario del estudiante (pág. 212):\nDibujar 3 objetos de tu casa que tengan forma circular y trazar a cada uno un radio y un diámetro.",
+          "actividad_numero": "Actividad 2 Actividad para el cuaderno (pág. 211) Cierre (pág. 211) Actividad complementaria (pág. 212) Actividad para el diario (pág. 212)"
+        }
+      ]
+    },
+    {
+      "id": "1772023094738",
+      "sequence_id": "seq-1772022744281",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Me divierto aprendiendo sobre el círculo y la circunferencia",
+      "intencion_pedagogica": "Resolver problemas de su entorno relacionados con el círculo y la circunferencia.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre cuerda de una circunferencia.\n\nConceptualización: Definición de cuerda.\n\nSituaciones problemáticas: Aplicación en contextos de la industria.",
+      "aprendizaje_significativo": "Se introduce el concepto de cuerda a partir de situaciones de diseño de espejos circulares, conectando la geometría con la fabricación de objetos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan circunferencias dibujadas para trazar cuerdas.\n\nPara estudiantes kinestésicos: Se les invita a trazar cuerdas en circunferencias dibujadas en el piso.\n\nPara estudiantes con discapacidad visual: Se utilizan modelos de circunferencias con hilos para cuerdas.\n\nPara estudiantes avanzados: Se les pide que tracen cuerdas de diferentes longitudes.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 213, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los objetos con radio y diámetro trazados.\n2. Retroalimenta radio y diámetro.\n3. Pregunta: \"¿Saben qué es una cuerda en una circunferencia?\"\n4. Proyecta el video \"Cuerda de una Circunferencia\" (https://www.youtube.com/watch?v=qLrg5y0jrCY). Socializa.",
+          "actividad_numero": "Actividad 3 A (pág. 212)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Imagen de espejo\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, pregunta: \"¿Cuál es la diferencia entre radio, diámetro y cuerda?\"\n2. Explica:\n- Cuerda: segmento que une dos puntos de la circunferencia.\n- Diámetro: es una cuerda que pasa por el centro.\n3. Plantea el problema (pág. 212): \"Una industria que fabrica espejos circulares quiere trazar un segmento en una parte para cortar, como muestra la imagen. ¿El segmento representa una cuerda?\" (Sí, porque une dos puntos sin pasar por el centro).\n4. Plantea otro problema (pág. 213): \"El padre de Alberto colocó losetas en la entrada de su casa. Los cortes a las circunferencias, ¿representan un diámetro o una cuerda?\" (Cuerda, porque no pasan por el centro).",
+          "actividad_numero": "Actividad 3 B y C (págs. 212-213)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Nelly quiere recortar una cartulina circular en 4 pedazos con cortes rectos sin importar el tamaño. ¿Qué elemento de la circunferencia debe emplear?\" (Cuerdas).\n\nCierre (pág. 213):\nPreguntas: \"¿Cuándo un segmento representa una cuerda? ¿Cómo se llama una cuerda que pasa por el centro?\" (diámetro).\n\nActividad complementaria (pág. 213):\nTrazar tres cuerdas diferentes en la circunferencia dada.\n\nActividad para el diario del estudiante (pág. 213):\nDibujar y recortar en cartón o papel tres circunferencias iguales. En la primera trazar una cuerda, en la segunda un radio, en la tercera un diámetro.",
+          "actividad_numero": "Actividad 3 Actividad para el cuaderno (pág. 213) Cierre (pág. 213) Actividad complementaria (pág. 213) Actividad para el diario (pág. 213)"
+        }
+      ]
+    },
+    {
+      "id": "1772023172162",
+      "sequence_id": "seq-1772022744281",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Conociendo los elementos de círculo y la circunferencia",
+      "intencion_pedagogica": "Resolver problemas en su contexto usando los elementos del círculo y la\ncircunferencia.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nObservación de imágenes: Análisis de una pizza para introducir sector circular.\n\nConceptualización: Definición de sector circular.\n\nSituaciones problemáticas: Aplicación en contextos de pastelería y reparto.",
+      "aprendizaje_significativo": "Se utiliza una pizza para introducir el concepto de sector circular, conectando la geometría con situaciones cotidianas de reparto de alimentos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan círculos de papel para recortar sectores.\n\nPara estudiantes kinestésicos: Se les invita a recortar sectores circulares de papel.\n\nPara estudiantes con discapacidad visual: Se utilizan círculos de cartón con textura para identificar sectores.\n\nPara estudiantes avanzados: Se les pide que calculen la fracción que representa el sector.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 215, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Imagen de pizza",
+          "descripcion": "1. El docente pregunta por las circunferencias recortadas y los elementos trazados.\n2. Retroalimenta radio, diámetro y cuerda.\n3. Muestra la imagen de una pizza. Pregunta: \"¿Qué representa el pedazo faltante?\"\n4. Anuncia el tema: sector circular.",
+          "actividad_numero": "Actividad 4 A (pág. 214)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Explica:\n- Sector circular: porción de un círculo limitada por dos radios y el arco correspondiente.\n2. Plantea el problema (pág. 214): \"Jasmín compró un bizcocho circular. Le sacaron una porción de muestra. ¿Qué representa esta porción?\" (Sector circular).\n3. Plantea otro problema (pág. 214-215): \"Alberto y Nelly compraron pasteles circulares. Alberto dividió el suyo en 6 partes iguales, Nelly en 10. Cada uno le dio una porción a Alexander. ¿Las porciones representan sectores circulares? ¿Quién le dio una porción mayor?\"\n4. Explica la comparación: 1/6 > 1/10, Alberto le dio mayor porción.",
+          "actividad_numero": "Actividad 4 B y C (págs. 214-215)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Nelly dice que si toma de una torta rectangular una porción desde su centro hasta los extremos, esa porción es un sector circular. ¿Está en lo correcto?\" (No, porque la torta no es circular).\n\nCierre (pág. 215):\nPreguntas: \"¿Qué es un sector circular? Da ejemplo del entorno donde has visto sectores circulares.\"\n\nActividad complementaria (pág. 215):\nColorear de tu color preferido uno de los sectores circulares de los círculos dados.\n\nActividad para el diario del estudiante (pág. 215):\nDibujar y recortar en cartón o papel un círculo y recortarle un sector circular.",
+          "actividad_numero": "Actividad 4 Actividad para el cuaderno (pág. 215) Cierre (pág. 215) Actividad complementaria (pág. 215) Actividad para el diario (pág. 215)"
+        }
+      ]
+    },
+    {
+      "id": "1772023237015",
+      "sequence_id": "seq-1772022744281",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Jugando a la ruleta",
+      "intencion_pedagogica": " Favorecer la integración del conocimiento sobre círculo y circunferencia, a través del juego.\n",
+      "estrategia": "Juego didáctico: Ruleta de construcción de circunferencias.\n\nUso de tecnología: Ruleta online o ruleta física.\n\nTrabajo en grupos: Juego colaborativo.\n\nUso de instrumentos: Compás, regla, lápiz.",
+      "aprendizaje_significativo": "Se utiliza un juego de ruleta para practicar la construcción de circunferencias con diferentes radios y diámetros, haciendo el aprendizaje más lúdico y motivador.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en el uso del compás: Se les proporciona una guía paso a paso.\n\nPara estudiantes kinestésicos: El juego es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se utilizan ruletas con texto en braille o instrucciones verbales.\n\nPara estudiantes avanzados: Se les pide que dibujen circunferencias concéntricas.",
+      "actividades_cuaderno": "Escribir una breve reflexión sobre el juego: ¿cómo se sintieron? ¿Qué aprendieron?\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Ruleta online o física (pág. 224)",
+          "descripcion": "1. El docente explica que hoy jugarán a la ruleta para practicar lo aprendido.\n2. Si hay tecnología, accede a https://wordwall.net/es-ar/community/ruleta-de-presentacion para crear o editar una ruleta.\n3. Si no hay tecnología, prepara ruletas físicas (anexo pág. 224).\n4. Explica el objetivo del juego: dibujar una circunferencia con la característica que salga en la ruleta.",
+          "actividad_numero": "Actividad 5 A (pág. 216)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Ruleta\n• Compases\n• Reglas\n• Cuadernos",
+          "descripcion": ". Organiza grupos de 4 a 8 jugadores.\n2. Cada estudiante necesita regla, lápiz, compás y cuaderno.\n3. Reglas:\n- Cada jugador por turno da vuelta a la ruleta y dibuja una circunferencia con las características indicadas.\n- Si lo hace correctamente, gana 1 punto.\n- Cada jugador gira la ruleta 3 veces.\n- Gana quien tenga más puntos al final.\n- En caso de empate, ronda final con el profesor girando la ruleta.\n4. Los estudiantes juegan. El docente observa y apoya.",
+          "actividad_numero": "Actividad 5 B (pág. 216) Anexo (pág. 224)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "Preguntas: \"¿Cómo se llamaba el juego? ¿Cómo sabías qué dibujar? ¿Qué te resultó más difícil?\"\n\nActividad para el cuaderno:\nNo hay actividad específica para el cuaderno en esta clase.",
+          "actividad_numero": "Actividad 5 Cierre (pág. 216)"
+        }
+      ]
+    },
+    {
+      "id": "1772023297263",
+      "sequence_id": "seq-1772022744281",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Aprendo usando varias circunferencias",
+      "intencion_pedagogica": "Resolver problemas del contexto usando circunferencias concéntricas. \n\n\n",
+      "estrategia": "Corrección de tarea: Socialización del juego.\n\nUso de material audiovisual: Video sobre círculos concéntricos.\n\nObservación de imágenes: Diana de tiro al blanco.\n\nConceptualización: Definición de circunferencias concéntricas.\n\nSituaciones problemáticas: Aplicación en contextos de juegos.",
+      "aprendizaje_significativo": "Se utiliza la imagen de una diana de tiro al blanco para introducir el concepto de circunferencias concéntricas, conectando la geometría con juegos populares.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan circunferencias dibujadas para identificar el centro.\n\nPara estudiantes kinestésicos: Se les invita a dibujar circunferencias concéntricas en el piso con tiza.\n\nPara estudiantes con discapacidad visual: Se utilizan modelos de cartón con diferentes tamaños.\n\nPara estudiantes avanzados: Se les pide que dibujen circunferencias concéntricas con radios específicos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 217, la Actividad complementaria y la Actividad para el diario del estudiante.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por la experiencia del juego.\n2. Retroalimenta construcción de circunferencias.\n3. Proyecta el video \"Organizadores visuales: El círculo concéntrico\" (https://www.youtube.com/watch?v=Tw3jFpbKlbI). Socializa.",
+          "actividad_numero": "Actividad 6 A (pág. 216)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Imagen de diana\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, muestra la imagen de una diana de tiro al blanco. Pregunta: \"¿Cuántos círculos tiene? ¿El centro de todos es el mismo?\"\n2. Explica:\n- Circunferencias concéntricas: dos o más circunferencias que tienen el mismo centro.\n3. Plantea el problema (pág. 217): \"El padre de Alexander fabrica juegos de tiro al blanco con varias circunferencias una dentro de la otra. ¿Qué tienen en común? ¿Cómo se llama esa relación?\" (Tienen el mismo centro, son concéntricas).\n4. Plantea otro problema (pág. 217): \"Alberto, Nelly y Alexander dibujaron 3 circunferencias con el mismo centro. ¿Cómo se llaman?\" (Concéntricas).",
+          "actividad_numero": "Actividad 6 B (págs. 216-217)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas\n• Cuadernos",
+          "descripcion": "Resolver: \"Nelly quiere dibujar 4 circunferencias de distintos tamaños que se crucen entre sí. ¿Son concéntricas?\" (No, porque no tienen el mismo centro).\n\nCierre (pág. 217):\nJuego: escribir diámetros de 8 circunferencias en tarjetas. Por turno, dos estudiantes sacan una tarjeta y dibujan circunferencias concéntricas con esas medidas.\n\nActividad complementaria (pág. 217):\nEscribir al lado de cada imagen si las circunferencias son concéntricas o no.\n\nActividad para el diario del estudiante (pág. 218):\nDibujar una circunferencia concéntrica a cada una de las circunferencias dadas y colorear la que has trazado.",
+          "actividad_numero": "Actividad 6 Actividad para el cuaderno (pág. 217) Cierre (pág. 217) Actividad complementaria (pág. 217) Actividad para el diario (pág. 218)"
+        }
+      ]
+    },
+    {
+      "id": "1772023493600",
+      "sequence_id": "seq-1772022744281",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Más relaciones de las circunferencias",
+      "intencion_pedagogica": "Resolver problemas de su contexto usando circunferencias excéntricas. \n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre círculos concéntricos y excéntricos.\n\nConceptualización: Definición de círculos excéntricos.\n\nSituaciones problemáticas: Aplicación en contextos de la industria textil.",
+      "aprendizaje_significativo": "Se introduce el concepto de círculos excéntricos a partir de la observación de botones, conectando la geometría con objetos cotidianos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan dibujos para identificar centros.\n\nPara estudiantes kinestésicos: Se les invita a dibujar círculos excéntricos con compás.\n\nPara estudiantes con discapacidad visual: Se utilizan modelos de cartón con centros marcados.\n\nPara estudiantes avanzados: Se les pide que expliquen aplicaciones prácticas de círculos excéntricos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 219, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por las circunferencias concéntricas dibujadas.\n2. Retroalimenta el concepto de concéntricas.\n3. Proyecta el video \"Círculos concéntricos y excéntricos\" (https://www.youtube.com/watch?v=Trqq8WBwsVg). Socializa.",
+          "actividad_numero": "Actividad 7 A (pág. 218)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Imágenes de botones\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, pregunta: \"¿Qué relación pueden tener dos círculos si no comparten el mismo centro?\"\n2. Explica:\n- Círculos excéntricos: dos o más círculos en los que uno está dentro de otro, pero sus centros son diferentes.\n3. Plantea el problema (pág. 218): \"Una industria fabrica botones con 4 círculos dentro de algunos y 2 círculos dentro de otros. ¿Cómo son estos círculos en cada botón, concéntricos o excéntricos?\" (Excéntricos, porque no comparten el mismo centro).\n4. Plantea otro problema (pág. 219): \"¿Qué relación entre círculos se puede usar para mejorar los desagües en una ciudad, tapas concéntricas o excéntricas? ¿Por qué?\" (Excéntricas, porque las concéntricas se caerían).",
+          "actividad_numero": "Actividad 7 B y C (págs. 218-219)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "A partir de una circunferencia con radio de 4 cm, construir dos círculos excéntricos.\n\nCierre (pág. 219):\nPreguntas: \"¿Qué son circunferencias concéntricas? ¿Qué son círculos excéntricos? ¿Qué diferencia existe entre ellos?\"\n\nActividad complementaria (pág. 219):\nEscribir al lado de cada imagen si las circunferencias son excéntricas o concéntricas.\n\nActividad para el diario del estudiante (pág. 219):\nDibujar un círculo excéntrico a cada una de las circunferencias dadas y colorear el que has trazado.",
+          "actividad_numero": "Actividad 7 Actividad para el cuaderno (pág. 219) Cierre (pág. 219) Actividad complementaria (pág. 219) Actividad para el diario (pág. 219)"
+        }
+      ]
+    },
+    {
+      "id": "1772023658102",
+      "sequence_id": "seq-1772022744281",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Conociendo el valor del número Pi (π)",
+      "intencion_pedagogica": "Resolver situaciones problemáticas utilizando el significado y el valor del PI (π).\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de conocimientos sobre perímetro y longitud de circunferencia.\n\nUso de material audiovisual: Video sobre el círculo y el número Pi.\n\nSituaciones problemáticas: Cálculo de la relación longitud/diámetro.\n\nConceptualización: El número Pi (π) como constante.",
+      "aprendizaje_significativo": "Se descubre experimentalmente que la relación entre la longitud de una circunferencia y su diámetro es constante (π), a partir de problemas prácticos con objetos cotidianos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la división: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a medir objetos circulares con hilo.\n\nPara estudiantes con discapacidad visual: Se utilizan objetos circulares grandes para medir.\n\nPara estudiantes avanzados: Se les pide que investiguen la historia del número Pi.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 221, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los círculos excéntricos dibujados.\n2. Retroalimenta conceptos de concéntricas y excéntricas.\n3. Pregunta: \"¿Qué es el perímetro de una figura? ¿Cómo se obtiene el perímetro de una circunferencia? ¿Qué pasa si dividimos la longitud de la circunferencia entre su diámetro?\"\n4. Proyecta el video \"El círculo, la circunferencia y el número pi\" (https://youtu.be/OaZoSlIcSGI). Socializa.",
+          "actividad_numero": "Actividad 8 A (pág. 220)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Calculadoras\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 220): \"Jazmín, usando una cuerda de 18.85 pulgadas, forma una circunferencia de 6 pulgadas de diámetro. ¿Cuánto es la división de la longitud entre el diámetro?\" (18.85 ÷ 6 = 3.1416 ≈ 3.14).\n2. Explica que ese número se llama Pi (π).\n3. Plantea otro problema (pág. 220-221): \"Alexander tiene una bicicleta con un aro de 25.133 pulgadas de longitud y 8 pulgadas de diámetro. Sin resolver la división, ¿cuánto dará la relación?\" (Aproximadamente 3.14). Luego verifican con la división.\n4. Concluye: siempre que se divide la longitud de una circunferencia entre su diámetro, se obtiene aproximadamente 3.14.",
+          "actividad_numero": "Actividad 8 B y C (págs. 220-221)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: 1) Daniel tiene un anillo de 6.28 cm de longitud y 2 cm de diámetro. ¿Cuánto da la división? (3.14). 2) El borde de un tanque mide 31.412 cm de longitud y 10 cm de diámetro. ¿Cuánto da la división? (3.1412).\n\nCierre (pág. 221):\nPreguntas: \"¿Cuánto se obtiene al dividir la longitud de una circunferencia entre su diámetro? ¿Qué es el número Pi?\"\n\nActividad complementaria (pág. 221):\nComprobar el valor de Pi dividiendo cada longitud entre su diámetro (figuras con medidas dadas).\n\nActividad para el diario del estudiante (pág. 221):\n1) Usando un hilo fino, formar una circunferencia, medir la longitud del hilo y el diámetro, comprobar si da aproximadamente 3.14. 2) Elaborar un problema donde el resultado sea el valor de Pi.",
+          "actividad_numero": "Actividad 8 Actividad para el cuaderno (pág. 221) Cierre (pág. 221) Actividad complementaria (pág. 221) Actividad para el diario (pág. 221)"
+        }
+      ]
+    },
+    {
+      "id": "1772023722454",
+      "sequence_id": "seq-1772022744281",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar los conocimientos adquiridos en la Secuencia 7 (círculo, circunferencia, sus elementos, sectores circulares, circunferencias concéntricas y excéntricas, número Pi) a través de la resolución de problemas.\n\n",
+      "estrategia": "Retroalimentación inicial: Preguntas orales para recordar los temas de la secuencia.\n\nEvaluación escrita: Resolución individual de un conjunto de problemas.\n\nUso de escala de valoración: Para que los estudiantes comprendan cómo se evaluará su desempeño.",
+      "aprendizaje_significativo": "La evaluación se presenta como una oportunidad para demostrar lo aprendido en contextos significativos (industria textil, objetos cotidianos), y se utiliza una escala de valoración para que los estudiantes tomen conciencia de su propio nivel de logro.\n\n",
+      "actividades_complementarias": "Para estudiantes que necesitan más tiempo: Se les puede permitir terminar la evaluación en otra sesión, según la Ordenanza 04-2023.\n\nPara estudiantes con dificultades de lectura: Se les leen los problemas en voz alta si es necesario.\n\nPara estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n\nPara estudiantes que terminan rápido: Se les puede pedir que revisen sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué trabajaron en esta secuencia? ¿Cuál es la diferencia entre círculo y circunferencia? ¿Qué elementos tienen? ¿Qué son circunferencias concéntricas? ¿Qué es el número Pi?\"\n2. Da tiempo para responder y retroalimenta los temas.",
+          "actividad_numero": "Actividad 9 (Párrafo 1, pág. 222)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Copia de la evaluación o pizarra con los ítems\n• Escala de valoración",
+          "descripcion": "1. El docente explica que esta actividad evalúa la secuencia y que se hará énfasis en la resolución de problemas.\n2. Explica que cada ítem tiene un valor numérico por procedimiento y respuesta completa.\n3. Lee y explica la escala de valoración (pág. 222).\n4. Entrega una hoja en blanco a cada estudiante para que coloquen sus datos (nombre del centro, nombre del estudiante, fecha, grado y sección).\n5. Aplica la evaluación, ítem por ítem, dando el tiempo necesario. La evaluación consta de 6 puntos (ítems):\n- Ítem 1: Escribir al lado de cada figura si la parte sombreada representa un círculo o una circunferencia (20 pts).\n- Ítem 2: Completar la línea en blanco en cada caso usando círculo o circunferencia (10 pts):\na) ________________ Representa el espacio interior de un espejo de forma circular. (círculo)\nb) ________________ Es la línea formada por todos los puntos que están a la misma distancia de un punto llamado centro. (circunferencia)\nc) _______________ Representa el espacio donde se coloca el relleno de un cojín de forma circular. (círculo)\nd) _______________ Representa el aro de una goma de bicicleta. (circunferencia)\ne) _______________ Es el borde de una tapa circular. (circunferencia)\n- Ítem 3: Seleccionar la respuesta correcta en cada caso (20 pts):\n- \"Es la distancia desde el centro hasta un punto de la circunferencia.\" (radio)\n- \"Es el segmento que divide una circunferencia en 2 partes iguales.\" (diámetro)\n- \"El segmento cuyos extremos son dos puntos de la circunferencia.\" (cuerda)\n- \"Es el punto que está a la misma distancia de todos los puntos de la circunferencia.\" (centro)\n- Ítem 4: Colocar el nombre correspondiente en cada recuadro de la imagen (20 pts).\n- Ítem 5: Analizar y resolver: \"Nelly dejó caer un espejo rectangular y se le despegó un pedazo en forma de medialuna. ¿Este pedazo representa un sector circular del espejo? Justifica con un dibujo.\" (No, porque el espejo es rectangular, no circular) (20 pts).\n- Ítem 6: Explicar brevemente los siguientes términos y dar ejemplo en cada caso (20 pts):\na) Cuerda\nb) Círculos excéntricos\nc) Circunferencias concéntricas\nd) Circunferencia\ne) Círculo",
+          "actividad_numero": "Actividad 9 Evaluación (págs. 222-223)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones de los estudiantes",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Puede hacer un breve comentario sobre la importancia de la evaluación para medir el aprendizaje.\n3. Anuncia que en la próxima clase se darán los resultados y se retroalimentarán los puntos con mayores dificultades.",
+          "actividad_numero": "Actividad 9 (Cierre)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+    "sequenceId": "seq-lengua-1",
+    "subjectId": "lengua",
+    "sequenceTitle": "Documento de Identidad",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1 - Presentación de los textos",
+            "activities": [
+                {
+                    "title": "Actividad de bienvenida",
+                    "pedagogicalIntention": "Conocen los tipos de texto y recursos de Lengua Española para segundo grado.",
+                    "resources": "Papelógrafo con los tipos de texto de 2.º grado. El abecedario. Las letras móviles.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Papelógrafo textos 2.o grado",
+                            "description": "Comenta que en segundo grado van a seguir aprendiendo a leer y escribir. Comparte un papelógrafo en el que se muestren los textos que aprenderán a leer y escribir durante el año:\nEn segundo grado aprenderemos a leer y escribir los siguientes textos:\n● Documentos de identidad\n● Etiquetas\n● Recetas\n● Noticias\n● Canciones infantiles\n● Cuentos"
+                        },
+                        {
+                            "title": "Momento 2",
+                            "description": "El docente recuerda a los estudiantes que para aprender a leer y escribir vamos a utilizar: el abecedario, las letras móviles, los fascículos y las tarjetas de palabras. Pide a los estudiantes que busquen estos materiales (los del aula y los personales) y que los exploren."
+                        },
+                        {
+                            "title": "Momento 3",
+                            "description": "El docente invita a los estudiantes a observar el abecedario del aula y les pregunta si recuerdan para qué sirve. Invita a los estudiantes a identificar la letra inicial de su nombre, su sonido, y a mencionar otras palabras que comienzan igual. El docente explica que todos los textos que van a aprender se escriben con partes más pequeñas llamadas \"letras\". Todas las letras del español están en el abecedario. Cada una tiene un nombre, pero lo más importante es su sonido. Como los rompecabezas o los juegos para armar, cada letra es como una pieza. Deben combinar estas letras para formar palabras y textos. Explica que las letras tienen diferentes formas de trazarse: mayúscula y minúscula."
+                        },
+                        {
+                            "title": "Momento 4. Ordenar letras para formar palabras",
+                            "description": "El docente escribe en la pizarra las letras desordenadas de la palabra \"Aprendemos\". Entre todos ordenan las letras hasta formar la palabra, la escriben en el cuaderno y la leen.\nm e d e n A r p s o\nEl docente recuerda prolongar los sonidos al ir diciendo la palabra. Invita a los estudiantes a pasar y buscar la letra que se corresponde con el sonido."
+                        }
+                    ],
+                    "homework": ""
+                },
+                {
+                    "title": "Actividad 1: El nombre propio",
+                    "pedagogicalIntention": "Escriben el nombre propio con letras móviles.",
+                    "resources": "Tarjetas con nombre y apellido de cada estudiante. Letras móviles personales.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Nombre con letras móviles",
+                            "description": "El docente indica a los estudiantes que armen su nombre con las letras móviles, utilizando como referencia la tarjeta con el nombre propio. Luego, revisen la escritura.\nRealiza el recorrido docente para ayudar a los estudiantes con la escritura con letras móviles. Recuerda prolongar los sonidos al ir diciendo los nombres y apellidos."
+                        },
+                        {
+                            "title": "Momento 2. Escriben en el cuaderno",
+                            "description": "El docente escribe la fecha (el nombre del día, del mes y número de año). A medida que escribe prolonga los sonidos. (por ejemplo: lll-uuu-nnn-eee-sss). Escribe cada letra correspondiente al sonido. Explica que cuando se escribe otra palabra hay que dejar un espacio. Orienta sobre el correcto trazado de las letras. Indica el correcto uso de mayúscula. Luego, realiza el recorrido docente para revisar si los estudiantes copian correctamente. Se recomienda ver el video del código QR de apoyo. Luego, el docente indica a los estudiantes que escriban su nombre y apellido en el cuaderno.\nRealiza el recorrido docente para ayudar a los estudiantes con el trazado de las letras: cómo toman el lápiz, dónde escriben, la direccionalidad de la escritura, los sonidos de la letra que están escribiendo. Asegúrate de que todos los estudiantes hayan podido escribir su nombre y apellido de forma completa y correcta. Dedícale el tiempo necesario para lograrlo."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: \"Escribe el nombre y apellido de un familiar\"."
+                },
+                {
+                    "title": "Actividad 2: El documento de identidad",
+                    "pedagogicalIntention": "Comprenden la función del documento de identidad.",
+                    "resources": "Una caja con copias de documentos de identidad de los estudiantes. Tarjetas con nombre y apellido de cada estudiante. Papelógrafo de aprendizajes.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente pide a los estudiantes que leen en voz alta el nombre y apellido del familiar (mientras leen, el docente observa el cuaderno y revisa la escritura). Pregunta por qué han elegido a esa persona para escribir su nombre y apellido. Les pide que revisen si escribieron las iniciales con mayúscula."
+                        },
+                        {
+                            "title": "Momento 2. Búsqueda de documentos",
+                            "description": "El docente propone el siguiente juego: cada estudiante encuentra la copia de su documento de Identidad, mezclado entre todos los otros documentos. Prepara previamente la caja con las copias de los documentos de identidad. Indica que cada estudiante pase con su tarjeta de presentación para poder orientarse."
+                        },
+                        {
+                            "title": "Momento 3. Indaga los conocimientos previos sobre el documento de identidad",
+                            "description": "A partir de las preguntas: ¿Para qué sirve el documento? ¿Cuándo lo usamos? ¿Qué información tiene? Da tiempo a los estudiantes a que participen. Motívalos para que hagan preguntas y den respuestas. Informa sobre el tema: todas las personas tienen un documento que los identifica con sus datos (nombre, apellido, lugar de nacimiento, fecha de nacimiento), para poder realizar actividades importantes: inscribirse en la escuela, votar, realizar compras, viajar."
+                        },
+                        {
+                            "title": "Momento 4. Presenta el papelógrafo de aprendizajes",
+                            "description": "El docente lee en voz alta. Explica que van a aprender a leer y a emplear sus documentos de identidad. Señala el texto a medida que lee.\nEN ESTE TIEMPO TRABAJAREMOS PARA:\n● Conocer el documento de identidad.\n● Comprender para qué se usa.\n● Saber qué información contiene el documento.\n● Leer y escribir documentos de identidad.\n● Aprender nuevas palabras."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "El docente escribe la fecha (el nombre del día, del mes y número de año). A medida que escribe prolonga los sonidos de cada letra (por ejemplo: mmm-aaa-rrr-ttt-eee-sss). Escribe cada letra correspondiente al sonido. Explica que cuando se escribe otra palabra hay que dejar un espacio. Orienta sobre el correcto trazado de las letras. Indica el correcto uso de mayúscula. Realiza el recorrido docente para revisar si los estudiantes copian correctamente.\nLuego indica que deben escribir: Documento de identidad y pegar la copia de su documento en el cuaderno. Para hacer esta escritura, el docente debe prolongar o aislar los sonidos de cada letra (no por sílaba) e ir identificando cada sonido con la letra correspondiente. Los estudiantes van copiando en simultáneo. El docente revisa las escrituras y corrige."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: \"Observa y lee la copia de tu documento de identidad. ¿Qué información podemos saber de una persona al leer su documento de identidad?\""
+                },
+                {
+                    "title": "Actividad 3: Nombres cortos y largos",
+                    "pedagogicalIntention": "Ordenan nombres de los más cortos a los más largos.",
+                    "resources": "Copias del documento de identidad en la actividad 1.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente pide a los estudiantes que respondan el interrogante: ¿Qué información podemos saber de una persona al leer su documento de identidad? El docente escribe en la pizarra los aportes: nombre, apellido, fecha de nacimiento, edad, foto. Los estudiantes completan sus respuestas en el cuaderno."
+                        },
+                        {
+                            "title": "Momento 2. Cantidad de letras de los nombres",
+                            "description": "El docente propone el siguiente juego: cada estudiante cuenta las letras de su nombre usando como referencia la copia de su documento de identidad. Luego, pregunta: ¿Quién tiene un nombre con tres letras? Levanta la mano quien tiene un nombre con tres letras. Lo dice y lo escribe en la pizarra. Continúa con nombres con cuatro letras y, así, hasta llegar al nombre más largo del grupo. Prolonga los sonidos al ir diciendo los nombres. Entre todos revisan la correcta escritura, comparando la escritura con las copias de los documentos de identidad."
+                        },
+                        {
+                            "title": "Momento 3. Cantidad de letras de los apellidos",
+                            "description": "El docente vuelve a realizar la actividad anterior, ahora leyendo y escribiendo los apellidos."
+                        },
+                        {
+                            "title": "Momento 4. Escritura en el cuaderno",
+                            "description": "El docente escribe la fecha (el nombre del día, del mes y número de año). A medida que escribe prolonga los sonidos de cada letra (por ejemplo: mmm-aaa-rrr-ttt-eee-sss). Escribe cada letra correspondiente al sonido. Explica que cuando se escribe otra palabra hay que dejar un espacio. Orienta sobre el correcto trazado de las letras. Indica el correcto uso de mayúscula. Realiza el recorrido docente para revisar si los estudiantes copian correctamente.\nLuego indica que deben escribir: Nombres cortos y largos y copiar el nombre más corto y el nombre más largo de la pizarra. Para hacer estas escrituras, el docente debe prolongar o aislar los sonidos de cada letra (no por sílaba) e ir identificando cada sonido con la letra correspondiente. Los estudiantes van copiando en simultáneo. El docente revisa las escrituras y corrige."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: \"Piensa y escribe un nombre de tres letras y un nombre de cinco letras\"."
+                },
+                {
+                    "title": "Actividad 4: Vocales en nombres",
+                    "pedagogicalIntention": "Identifican vocales en nombres y apellidos.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente pide a los estudiantes que lean los dos nombres que escribieron (uno con tres letras y otro con cinco letras). El docente los escribe en la pizarra a medida que leen. Entre todos, verifican que los nombres seleccionados tengan la cantidad de letras del mandato. Los estudiantes revisan y corrigen sus escrituras (comparando con la escritura modélica del docente en la pizarra)."
+                        },
+                        {
+                            "title": "Momento 2. Juego con vocales",
+                            "description": "El docente propone el siguiente juego de identificación de vocales en los nombres y apellidos. Escribe las vocales en la pizarra. Luego, propone:\n- Levante la mano y diga quien tiene un apellido que empieza por vocal. El estudiante lo escribe en la pizarra. Entre todos revisan la escritura.\n- Levante la mano y diga quien tiene un apellido que termina con vocal. Pasa a escribir en la pizarra. Entre todos revisan la escritura.\n- Levante la mano y diga quien tiene un apellido con a en el medio, (sigue con todas las vocales). Pasa a escribir en la pizarra. Entre todos revisan la escritura."
+                        },
+                        {
+                            "title": "Momento 3. Escritura en el cuaderno",
+                            "description": "El docente escribe la fecha (el nombre del día, del mes y número de año). A medida que escribe prolonga los sonidos de cada letra (por ejemplo: mmm-aaa-rrr-ttt-eee-sss). Escribe cada letra correspondiente al sonido. Explica que cuando se escribe otra palabra hay que dejar un espacio. Orienta sobre el correcto trazado de las letras. Indica el correcto uso de mayúscula. Luego, realiza el recorrido docente para revisar si los estudiantes copian correctamente.\nLuego indica que deben escribir: Apellidos con vocales. Para hacerlo, el docente prolonga el sonido de cada letra y va escribiendo la letra correspondiente. A continuación, explica que deben identificar los apellidos de la pizarra: un apellido que empieza por vocal, uno que termina con vocal y uno que tenga tres vocales. Copian esos tres apellidos y colorean las vocales de cada apellido.\nEl docente recorre el aula verificando que la copia sea correcta. Señala errores e invita a comparar las escrituras del cuaderno con las de la pizarra. Verifica que los estudiantes coloreen las vocales."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe nuevamente tu nombre y apellido. No olvides el uso de la mayúscula en la letra inicial. Pon atención en el trazado de las letras. Contesta: ¿Cuántas vocales tiene en total? ____ ¿Cuántas consonantes tiene en total? ________"
+                },
+                {
+                    "title": "Actividad 5: Consonantes y sílabas",
+                    "pedagogicalIntention": "Identifican consonantes en nombres y apellidos y practican la separación de palabras en sílabas.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente escribe su nombre y apellido en la pizarra y realiza de forma modélica la tarea del hogar: cuenta y escribe la cantidad de vocales y la cantidad de consonantes. Revisa los cuadernos y verifica la resolución de la actividad. Si algún estudiante no hizo la tarea, la completa en el momento."
+                        },
+                        {
+                            "title": "Momento 2. Juego con consonantes",
+                            "description": "El docente propone el siguiente juego de identificación de consonantes en los nombres y apellidos.\n- Levante la mano y diga quien tiene un apellido que empieza con la consonante (va nombrando el sonido de las distintas consonantes). El estudiante que tiene el apellido que corresponde pasa a escribir en la pizarra. Entre todos controlan la escritura.\n- Repite el juego con consonantes finales y consonantes intermedias. Una variante de este juego puede ser que lo conduzca algún estudiante con la guía del docente."
+                        },
+                        {
+                            "title": "Momento 3. Escritura en el cuaderno",
+                            "description": "Título: Consonantes. Copian de la pizarra un apellido que empieza por consonante, uno que termina en consonante, uno que tiene una determinada consonante en el medio. Colorean las consonantes."
+                        },
+                        {
+                            "title": "Momento 4. Juego con sílabas",
+                            "description": "El docente propone el siguiente juego: Levante la mano y diga quien tiene un apellido que tiene una sílaba, dos sílabas (continúa). Pasan a escribir en la pizarra. Entre todos revisan el número de sílabas y la escritura.\nRecuérdales que las palabras se dividen en sílabas y que las sílabas se pueden reconocer diciendo las palabras en voz alta y palmeando cada sílaba. Ensayan con varios apellidos."
+                        },
+                        {
+                            "title": "Momento 5. Escritura en el cuaderno",
+                            "description": "El docente escribe la fecha (el nombre del día, del mes y número de año). A medida que escribe prolonga los sonidos de cada letra (por ejemplo: mmm-aaa-rrr-ttt-eee-sss). Escribe cada letra correspondiente al sonido. Explica que cuando se escribe otra palabra hay que dejar un espacio. Orienta sobre el correcto trazado de las letras. Indica el correcto uso de mayúscula. Realiza el recorrido docente para revisar si los estudiantes copian correctamente.\nLuego indica que deben escribir: Sílabas. Para hacerlo, el docente prolonga el sonido de cada letra y va escribiendo la letra correspondiente. A continuación, explica que deben identificar un apellido con una sílaba, otro con dos sílabas, y otro con tres. Escriben los tres apellidos y en cada apellido indican el número de sílabas."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe un nombre con una sílaba y otro nombre con cuatro sílabas."
+                },
+                {
+                    "title": "Actividad 6: Juegos con sonidos",
+                    "pedagogicalIntention": "Juegan a identificar sonidos y letras en nombres y apellidos.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente pide a los estudiantes que leen los dos nombres que escribieron (uno con una sílaba y otro con cuatro sílabas). El docente los escribe en la pizarra a medida que leen. Entre todos verifican que los nombres seleccionados tengan la cantidad de sílabas del mandato. Los estudiantes revisan y corrigen sus escrituras (comparando con la escritura modélica del docente en la pizarra)."
+                        },
+                        {
+                            "title": "Momento 2. Juego: Cadena de nombres",
+                            "description": "Inicia el juego diciendo un nombre que cumpla con una regla fonológica específica: \"Digan nombres que empiecen con el sonido mmm.\" Cada estudiante debe continuar la cadena con un nombre que cumpla la misma regla. Cambia la regla fonológica: \"Nombres que terminen con aaa.\" \"Nombres que contengan el sonido lll en cualquier parte.\""
+                        },
+                        {
+                            "title": "Momento 3. ¡Jugamos con los sonidos de las palabras!",
+                            "description": "El docente realiza preguntas sobre los sonidos y características de nombres del grupo:\n● Escuchen atentamente este nombre. Díganlo lentamente: Mariana. ¿Cuántas sílabas tiene? ¿y cuántas letras? (Recordar que, para ver cuántas letras tiene, hay que prolongar los sonidos, diferenciar las sílabas de los sonidos de cada letra). Cuentan los sonidos a medida que los prolongas: mmm-aaa–rrr-iii-aaa-nnn-aaa\n● Escuchen atentamente este nombre. Díganlo lentamente: Mariano. mmm-aaa–rrr-iii-aaa-nnn-ooo ¿Cuántos sonidos escuchan?\n● ¿Hay algún sonido diferente en Mariano y Mariana? ¿Cuál es?\n● Escuchen atentamente este nombre: Analía. Aaa-nnn-aaa-lll-iii-aaa. ¿Cuántos sonidos escuchan?\n● ¿Qué nombre queda si quitamos -lía de Analía?\n● ¿Cuál de estos nombres empieza por vocal? Mariana - Luis - Analía\n● ¿Cuál de estos nombres empieza por consonante? Carlos - Elena - José\n● ¿Cuántas palabras escuchan en este nombre y apellido? José Alberto Montes"
+                        },
+                        {
+                            "title": "Momento 4. ¡Jugamos a descubrir el nombre secreto!",
+                            "description": "El docente piensa en un nombre de un compañero o compañera del curso y escribe en la pizarra una raya para cada letra del nombre. Los estudiantes comenzarán a adivinar las letras del nombre secreto, diciendo una letra por turno. Si la letra está en el nombre, el docente escribe en la raya correspondiente. Si no está, se anota en un lado de la pizarra como intento fallido. El juego continúa hasta que descubran el nombre completo. Luego, el estudiante que adivinó el nombre elige un nuevo nombre secreto y el juego se repite."
+                        },
+                        {
+                            "title": "Momento 5. Escritura en el cuaderno",
+                            "description": "El docente escribe la fecha (el nombre del día, del mes y número de año). A medida que escribe prolonga los sonidos de cada letra (por ejemplo: mmm-aaa-rrr-ttt-eee-sss). Escribe cada letra correspondiente al sonido. Explica que cuando se escribe otra palabra hay que dejar un espacio. Orienta sobre el correcto trazado de las letras. Indica el correcto uso de mayúscula. Realiza el recorrido docente para revisar si los estudiantes copian correctamente.\nEl docente indica que van a escribir lo que hicieron en clase: Hoy jugamos con los sonidos de las palabras. Para ello, escribe en la pizarra las palabras desordenadas de la oración; por ejemplo:\npalabras. las de jugamos Hoy con los sonidos\nLes avisa que las palabras están desordenadas y entre todos hay que ordenarlas. Orienta con preguntas: Si queremos escribir \"Hoy jugamos con los sonidos de las palabras.\", ¿cuál es la primera palabra? ¿Con qué sonido empieza la palabra \"hoy\"? Indica que es una palabra que empieza con una letra que no suena, ¿cuál es la letra que no suena? ¿Por qué la H de la palabra \"Hoy\" está en mayúscula? Continúa con el resto de la frase. Luego los estudiantes copian y el docente revisa las escrituras en el momento."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Explícale a un familiar cómo se juega al \"nombre secreto\" y jueguen juntos."
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2 - Comprensión lectora y gramática",
+            "activities": [
+                {
+                    "title": "Actividad 7: Lugar de nacimiento",
+                    "pedagogicalIntention": "Identifican el lugar de nacimiento en documentos de identidad.",
+                    "resources": "Mapa político de República Dominicana.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente indaga cómo les fue jugando con los familiares al nombre secreto. Leen en voz alta los nombres con los que jugaron."
+                        },
+                        {
+                            "title": "Momento 2. Mi Lugar de nacimiento",
+                            "description": "El docente muestra en el mapa dónde está la Capital y dónde está el lugar donde ellos viven. Explica que van a conocer dónde nacieron. Para ello, pide a los estudiantes que busquen en su cuaderno la copia de su documento de identidad. Los estudiantes deben leer su lugar de nacimiento. Primero lo hacen en silencio y luego en voz alta. El docente ayuda a los estudiantes a leer. A medida que leen los lugares, el docente señala en el mapa los lugares que se nombran. Además, el docente escribe los lugares en la pizarra. Es importante que el docente muestre cómo escribe y lea en voz alta, señala cada palabra y cada letra con el dedo."
+                        },
+                        {
+                            "title": "Momento 3. Escriben en el cuaderno",
+                            "description": "Título: Lugar de nacimiento. Copian los nombres de los lugares que están escritos en la pizarra. Entre todos, revisan la correcta escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Lee a tu familia los nombres de los lugares que aprendieron. Revisa tu fecha de nacimiento en el documento de identidad."
+                },
+                {
+                    "title": "Actividad 8: Fecha de nacimiento",
+                    "pedagogicalIntention": "Identifican la fecha de nacimiento en documentos de identidad.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente pide a los estudiantes que muestren dónde encontraron la fecha de nacimiento en el documento de identidad y pregunta ¿Cómo está escrita la fecha de nacimiento? ¿Se indica el nombre del mes o el número del mes? Comparan distintos formatos para escribir la fecha. El docente escribe en la pizarra: 05/06/2016 y 5 de junio del año 2016. Conversan sobre las diferencias. El docente explica que los meses pueden representarse de dos formas: con su nombre o con su número. Luego, pide a los estudiantes que observen nuevamente la fecha de nacimiento en sus documentos y que identifiquen si está escrita con números o con el nombre del mes."
+                        },
+                        {
+                            "title": "Momento 2. Fechas de nacimiento",
+                            "description": "Una vez que todos identificaron y leyeron su fecha de nacimiento en el documento de identidad, el docente propone el siguiente juego:\n- Levanten la mano los que nacieron en el mes que empieza con \"a\".\n- Levanten la mano los que nacieron en un mes que empieza termina con \"o\".\n- Levanten la mano los que nacieron en un mes que termina con \"e\".\n(El docente continúa con otros sonidos, por ejemplo: ¿Quién nació en un mes que tiene el sonido uuu, o el sonido rrrr?)"
+                        },
+                        {
+                            "title": "Momento 3. Escriben en el cuaderno",
+                            "description": "Título: Fecha de nacimiento. Lee el título señalando cada palabra. Cada uno escribe su fecha de nacimiento en ambos formatos: solo con números (ej.: 05/06/2016 y 5 de junio del año 2016).\nRealiza el recorrido docente, mientras los estudiantes escriben para hacer correcciones individuales sobre el sonido de las letras que están escribiendo y el trazado de las letras: cómo toman el lápiz, dónde escriben, la direccionalidad."
+                        },
+                        {
+                            "title": "Momento 4. Actividad en el fascículo",
+                            "description": "El docente invita a los estudiantes a utilizar, por primera vez en el año, el fascículo de actividades. El docente explica que los números de las actividades del fascículo no son correlativos. Es decir, que empieza con la actividad n.º 8, porque el resto de las actividades las completaron en el cuaderno o en la pizarra. Explica que no todas las actividades tienen algo a completar en el fascículo. El docente lee los tres mandatos y verifica la comprensión por parte de los estudiantes.\nRealiza el recorrido docente mientras los estudiantes trabajan para hacer correcciones individuales de las actividades. Verifica que los estudiantes comprendan el calendario y logren identificar su fecha de nacimiento."
+                        },
+                        {
+                            "title": "Momento 5. Puesta en común",
+                            "description": "El docente pide a un estudiante que pase a la pizarra a escribir de forma completa y ordenada los meses del ítem tres del fascículo. Verifica que escriba correctamente: enero - agosto - abril - junio - octubre. Todos revisan y corrigen sus escrituras."
+                        },
+                        {
+                            "title": "Momento 6. Escriben en el cuaderno",
+                            "description": "El docente indica que van a escribir la fecha, pero esta vez al dictado. Es decir, van a escribir el día y el mes escuchando los sonidos de estas palabras y después van a revisar cómo lo hicieron entre todos. El docente dicta el día prolongando o aislando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: mmm-aaa-rrr-ttt-eee-ss). Brinda ayuda apoyándose del abecedario, en caso de que no reconozcan el sonido y la letra. Luego, el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe el día, mes y año de nacimiento de un familiar. Hazlo en los dos formatos: solo con número y escribiendo el nombre del mes."
+                },
+                {
+                    "title": "Actividad 9: Dictado de fechas",
+                    "pedagogicalIntention": "Identifican y escriben la fecha de nacimiento en documentos de identidad y presentaciones.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente revisa las fechas de nacimiento escritas. Se fija que coincida el número del mes con el nombre del mes escrito. Verifica la correcta escritura."
+                        },
+                        {
+                            "title": "Momento 2. Escribimos el dictado",
+                            "description": "Indica que cada estudiante dicte su fecha de nacimiento a su compañero. Deberán escribir, por ejemplo: Juan cumple años el día 5 de enero.\nOrganiza a los estudiantes en pares. Reparte una hoja suelta con líneas a cada uno. Procura que cada estudiante le dicte su fecha de nacimiento al compañero o compañera. Revisa la correcta escritura leyendo atentamente su documento. Entre los dos corrigen si hay errores."
+                        },
+                        {
+                            "title": "Momento 3. Escriben en el cuaderno",
+                            "description": "El docente indica que van a escribir la fecha, pero esta vez al dictado. Es decir, van a escribir el día y el mes escuchando los sonidos de estas palabras y después van a revisar entre todos cómo lo hicieron. El docente dicta el día prolongando o aislando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: mmm-aaa-rrr-ttt-eee-ss). Brinda ayuda apoyándose del abecedario, en caso de que no reconozcan el sonido y la letra. Luego, el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento. Luego indica que deben escribir: Fecha de nacimiento de mi compañero. Copian las fechas que escribieron; por ejemplo: Juan cumple años el día 5 de agosto.\nRealiza el recorrido docente: Revisar que la fecha de nacimiento y la escritura de la frase no tengan errores. Orienta, guía y apoya a los estudiantes en el trabajo en equipo. Mientras los estudiantes escriben el docente hace correcciones individuales sobre lo que están escribiendo y el trazado de las letras: cómo toman el lápiz, dónde escriben, la direccionalidad."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Pide a tu familia que te permita leer tu tarjeta de vacunación o tu acta de nacimiento."
+                },
+                {
+                    "title": "Actividad 10: Lectura y escritura de fechas",
+                    "pedagogicalIntention": "Leen y escriben fechas y lugares.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente indaga sobre lo que leyeron con relación a la tarjeta de vacunación o el acta de nacimiento. Orienta con preguntas: ¿Para qué sirven esos documentos? ¿Qué información encontraron? ¿En qué se diferencia con el documento de identidad? ¿Por qué es importante guardar y cuidar estas documentaciones?"
+                        },
+                        {
+                            "title": "Momento 2. Sílabas y letras",
+                            "description": "El docente escribe en la pizarra y resuelven entre todos:\n1. Nací el siete de diciembre Tiene _____ palabras\n2. diciembre Tiene _____ sílabas\n3. diciembre Tiene _____ letras\n4. agosto - enero Encierra la palabra que es más corta\n5. junio - julio Encierra la letra que cambia\n6. nov_embr_ Completa con las letras que faltan\nConviene escribir un solo mandato por vez. Leerlo en voz alta señalando el texto con el dedo. Explica que hay que prestar atención a lo que pide el mandato: contar palabras, contar sílabas, contar letras o comparar letras. Invita a los estudiantes a pasar al frente y resolver el mandato."
+                        },
+                        {
+                            "title": "Momento 3. Actividad en el fascículo",
+                            "description": "El docente invita a los estudiantes a leer los mandatos del ítem 1 y 2 de la actividad n.º 10 del fascículo. Primero los estudiantes intentan leer en silencio. Luego el docente lee en voz alta. Verifica la comprensión de las actividades.\nRealiza el recorrido docente mientras los estudiantes trabajan para hacer correcciones individuales de las actividades.\nAl finalizar, el docente copia los ítems 1 y 2 en la pizarra y pide a estudiantes (por turno) que pasen a resolver. Entre todos, hacen una revisión colectiva. Cada uno verifica si respondió correctamente y corrige."
+                        },
+                        {
+                            "title": "Momento 4. Dictado",
+                            "description": "El docente anticipa que van a escribir palabras al dictado. Deben hacerlo en el ítem 3 de la actividad n.º 10 del fascículo. Propone a los estudiantes escribir palabras y frases que le dicta: nombre - apellido - lugar de nacimiento – fecha.\nRealiza el recorrido docente mientras los estudiantes escriben el dictado para hacer correcciones individuales sobre el sonido de las letras que están escribiendo, puedes señalarles el abecedario para identificar cada letra."
+                        },
+                        {
+                            "title": "Momento 5. Revisión colectiva de la escritura",
+                            "description": "Realiza una revisión colectiva de las palabras dictadas. Los estudiantes las escriben en la pizarra. El docente guía el control y revisión de cada palabra."
+                        },
+                        {
+                            "title": "Momento 6. Escriben en el cuaderno",
+                            "description": "El docente indica que van a escribir la fecha al dictado. Es decir, van a escribir el día y el mes escuchando los sonidos de estas palabras y después van a revisar cómo lo hicieron entre todos. El docente dicta el día prolongando o aislando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: mmm-aaa-rrr-ttt-eee-ss). Brinda ayuda apoyándose del abecedario en caso de que no reconozcan el sonido y la letra. Luego el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe en orden alfabético los nombres de los meses del año: enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre.\nEl docente explica que ordenar palabras alfabéticamente significa colocarlas según el orden de las letras en el abecedario, desde la A hasta la Z. Muestra el abecedario. Orienta que para hacerlo les recomienda mirar la primera letra de cada palabra. La que va primero en el abecedario es la primera en la lista. Si dos palabras comienzan con la misma letra, hay que mirar la segunda letra y seguimos comparando. Seguimos este orden hasta acomodarlas todas correctamente."
+                },
+                {
+                    "title": "Actividad 11: Meses del año",
+                    "pedagogicalIntention": "Juegan a una sopa de letras y adivinanzas para leer y escribir palabras cotidianas.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente pide a un estudiante que lea en voz alta el orden de la escritura de los meses. Verifica si es correcto. El docente escribe el orden correcto en la pizarra y explica relacionando con el abecedario: abril, agosto, diciembre, enero, febrero, julio, junio, marzo, mayo, noviembre, octubre, septiembre. Los estudiantes completan y corrigen."
+                        },
+                        {
+                            "title": "Momento 2. Juegos en el fascículo",
+                            "description": "El docente anticipa que será un día de juegos sobre los meses del año. Buscan la actividad n.º 11 de fascículo. Deben completar una sopa de letras y jugar a las adivinanzas. El docente lee en voz alta las adivinanzas y los estudiantes resuelven la escritura de forma individual. Luego corrigen entre todos. El docente escribe las respuestas correctas en la pizarra para que todos controlen y revisen sus escrituras.\nEmpieza el año con mucha emoción,\ncon los Reyes Magos y gran celebración.\nHace calor en mi país,\n¿sabes cómo me llamo al fin?\n(enero)\nEn este mes llueve un montón,\nlas flores crecen con gran color.\nLa Semana Santa llega ya,\ny en la playa me puedo bañar.\n(abril)\nMucho sol y diversión,\nen vacaciones hay emoción.\nHace calor en la nación,\ny todos disfrutan sin preocupación.\n(julio)\nCon fuegos y luces el año va a acabar,\ncon Navidad y fiesta para celebrar.\nBailamos merengue y cantamos sin fin,\nporque este mes nos hace feliz.\n(diciembre)"
+                        },
+                        {
+                            "title": "Momento 3. Escriben en el cuaderno",
+                            "description": "El docente indica que van a escribir la fecha al dictado. El docente dicta el día prolongando o aislando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: mmm-aaa-rrr-ttt-eee-ss). Brinda ayuda apoyándose del abecedario, en caso de que no reconozcan el sonido y la letra. Luego el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento.\nEl docente indica que van a escribir lo que hicieron en clase: Hoy jugamos con sopa de letras y adivinanzas. Para ello, escribe en la pizarra las palabras desordenadas de la oración; por ejemplo:\nadivinanzas. y de jugamos Hoy con sopa letras\nLes avisa que están las palabras desordenadas y entre todos hay que ordenarlas. Por turnos, los estudiantes pasan para ir colocando en orden las palabras de la frase sobre lo realizado en clase. El docente orienta con preguntas para que los estudiantes lean las palabras y construyan la frase. Luego los estudiantes copian y el docente revisa las escrituras en el momento."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: ¡Diseña una sopa de letras! Elige dos meses del año. Dibuja un cuadro con varias filas y columnas (como una cuadrícula). Escribe los meses dentro del cuadro, pueden estar en cualquier dirección (horizontal o vertical). Llena los espacios vacíos con otras letras.\nEl docente realiza un ejemplo en la pizarra para modelar cómo se realiza la actividad."
+                }
+            ]
+        },
+        {
+            "blockNumber": 3,
+            "title": "Bloque 3 - Producción escrita",
+            "activities": [
+                {
+                    "title": "Actividad 12: Completar formularios",
+                    "pedagogicalIntention": "Escriben datos personales en formularios, destacando la importancia del lugar de cada letra.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Los estudiantes se intercambian las sopas de letras que diseñaron. Juegan y resuelven la sopa de letras de otro compañero."
+                        },
+                        {
+                            "title": "Momento 2. Actividad n.º 12 del fascículo",
+                            "description": "El docente explica y guía la realización de la actividad con preguntas como:\n- Lean donde dice Nombre. ¿Qué ven al lado? ¿Qué deberíamos escribir allí?\n- Lean donde dice Apellido. ¿Qué ven al lado? ¿Qué deberíamos escribir allí?\n- Lean donde dice Fecha de nacimiento: ¿Qué ven al lado? ¿Qué deberíamos escribir allí?\n- Lean donde dice Lugar. ¿Qué ven al lado? ¿Qué deberíamos escribir allí?\n- Observen un recuadro que está arriba o encima ¿Qué podría escribirse allí?\nSe trata de que los estudiantes comprendan cómo se completa un formulario: que hay lugares en blanco o líneas para que escriban los datos que están en su documento. Explica oralmente qué deben escribir en cada espacio. Podría agregarse una foto en el recuadro o dibujarse.\nRealiza el recorrido docente mientras los estudiantes realizan la actividad del fascículo. Realiza correcciones individuales y da explicaciones para mejorar la comprensión de la actividad y la escritura."
+                        },
+                        {
+                            "title": "Momento 3. Lectura en voz alta",
+                            "description": "Cada estudiante muestra cómo completó el gráfico en el fascículo y lee en voz alta sus datos."
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "El docente indica que van a escribir la fecha al dictado. El docente dicta el día prolongando o aislando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: mmm-aaa-rrr-ttt-eee-ss). Brinda ayuda apoyándose del abecedario, en caso de que no reconozcan el sonido y la letra. Luego el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento.\nEl docente indica que van a escribir lo que hicieron en clase: Hoy completamos un formulario en el fascículo. Para ello, escribe en la pizarra las palabras desordenadas de la oración, por ejemplo:\nformulario un en el Hoy completamos fascículo.\nLes avisa que las están palabras desordenadas y entre todos hay que ordenarlas. Por turnos, los estudiantes pasan para ir colocando en orden las palabras de la frase sobre lo realizado en clase. El docente orienta con preguntas para que los estudiantes lean las palabras y construyan la frase. Luego los estudiantes copian y el docente revisa las escrituras en el momento."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Elige una persona famosa (puede ser un actor, actriz, deportista, cantante…) y realiza su documento de identidad. Si te es posible, averigua su nombre and apellido completo, su fecha y lugar de nacimiento. Realiza un dibujo de la persona elegida.\nEl docente realiza un ejemplo en la pizarra para modelar cómo se realiza la actividad."
+                },
+                {
+                    "title": "Actividad 13: Personajes famosos",
+                    "pedagogicalIntention": "Escriben datos personales en formularios, resaltando la importancia del orden de las letras.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Los estudiantes leen y comparten los documentos de identidad que crearon de una persona famosa."
+                        },
+                        {
+                            "title": "Momento 2. Actividad n.º 13 del fascículo",
+                            "description": "El docente invita a los estudiantes a leer la actividad n.º 13. Deben completar los documentos de identidad con la información de los personajes. El docente invita a los estudiantes a leer en silencio. Luego lee en voz alta, señalando el texto a medida que pronuncia cada palabra. Una vez que lee los datos de los personajes que aparecen en el fascículo, verifica que hayan comprendido el mandato. Los estudiantes completan los documentos.\nRealiza el recorrido docente mientras los estudiantes realizan la actividad del fascículo. Si detectas errores, para corregirlos, pídeles que cuenten la cantidad de letras que tiene la palabra y los cuadritos que deben completar, que comparen letra por letra lo que escribieron."
+                        },
+                        {
+                            "title": "Momento 3. Realiza una corrección colectiva de la actividad del fascículo",
+                            "description": "El docente copia los documentos en la pizarra y los completa, asociando los sonidos a cada letra. Los estudiantes corrigen sus escrituras."
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "El docente indica que van a escribir la fecha al dictado. El docente dicta el día prolongando o aislando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: mmm-aaa-rrr-ttt-eee-ss). Brinda ayuda apoyándose del abecedario, en caso de que no reconozcan el sonido y la letra. Luego el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento.\nEl docente indica que van a escribir al dictado el nombre de uno de los personajes del fascículo. El docente dicta el nombre: \"Josúe Adalberto Cortés\". Al hacerlo, primero dice la palabra de forma habitual y luego prolongando cada sonido (de cada letra, no de la sílaba). El docente revisa las escrituras e identifica quienes necesitan más apoyo. Luego el docente escribe en la pizarra el nombre dictado, para que todos revisen su escritura y hagan sus correcciones."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Inventa y escribe una rima con tu nombre o apellido."
+                },
+                {
+                    "title": "Actividad 14: Presentación personal",
+                    "pedagogicalIntention": "Escriben documentos de presentación personal.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Los estudiantes comparten la rima que inventaron con su nombre o apellido."
+                        },
+                        {
+                            "title": "Momento 2. Presentación personal",
+                            "description": "El docente escribe en la pizarra una presentación personal con espacios en blanco en la pizarra. Indica que la copien en la hoja y la completen.\nMe llamo………………. nací el …. de …… del año ….. en ………….\nRealiza el recorrido docente mientras los estudiantes realizan la actividad en el cuaderno. Ayuda a los estudiantes que más lo necesitan. Prolonga los sonidos de las palabras que necesitan escribir para que puedan hacer la correspondencia entre el sonido y la letra."
+                        },
+                        {
+                            "title": "Momento 3. Jugamos a adivinar nombres",
+                            "description": "El docente propone el siguiente juego: Los estudiantes escriben en un papel la primera y la última letra de su nombre. Colocan el papel en una caja o saco donde se mezclan los papeles. Por turnos, cada estudiante saca un papel, dice las letras y, entre todos, deben adivinar de quién se trata. Una vez que adivinaron, el estudiante con ese nombre se presenta y lee su presentación."
+                        },
+                        {
+                            "title": "Momento 4. Preparamos el mural del grado",
+                            "description": "Entre todos, pegan todas las presentaciones en un cartel con un título, por ejemplo: \"Somos 2.° B\". y lo exhiben."
+                        },
+                        {
+                            "title": "Momento 5. Revisamos el papelógrafo de aprendizajes",
+                            "description": "Entre todos, leen el papelógrafo de aprendizajes y revisan si han alcanzado los objetivos propuestos. El docente puede hacer preguntas como: ¿Qué aprendimos sobre nuestros nombres y documentos de identidad? ¿Para qué sirve conocer esta información? ¿Qué fue lo más fácil y qué nos costó más? Luego, refuerza la importancia de escribir correctamente sus datos personales y valorar su identidad como parte de su aprendizaje."
+                        },
+                        {
+                            "title": "Momento 6. Actividad del fascículo",
+                            "description": "El docente lee las palabras del vocabulario en el fascículo y realiza la actividad n.° 14: Dictado de las palabras y escritura de una oración con algunas de estas palabras. El docente dicta al menos dos de las palabras aprendidas: nombre, apellido, nombre, fecha de nacimiento, lugar de nacimiento. Dicta sin prolongar los sonidos. Luego corrige. Luego, anima a los estudiantes a escribir una frase que deseen usando alguna de las palabras aprendidas."
+                        }
+                    ],
+                    "homework": ""
+                }
+            ]
+        }
+    ]
+}

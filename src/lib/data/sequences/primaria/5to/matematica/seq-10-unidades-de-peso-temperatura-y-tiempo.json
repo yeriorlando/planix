@@ -1,0 +1,594 @@
+{
+  "id": "seq-1772028008842",
+  "title": "Unidades de peso, temperatura y tiempo",
+  "description": "En esta secuencia se trabajan diversas magnitudes como peso, temperatura y tiempo, así como sus respectivas unidades de medida. Se promueve la conversión entre unidades y la resolución de problemas cotidianos.",
+  "order": 10,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772028008836",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": " ¡Qué interesantes son las unidades de peso!",
+      "intencion_pedagogica": "Utilizar unidades de peso del sistema inglés: libra y onza, realizando conversiones entre ellas en situaciones de compra.\n\n",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre compras y unidades de peso.\n\nUso de material concreto: Balanza y empaques de productos.\n\nUso de material audiovisual: Video sobre la libra como unidad de medida.\n\nSituaciones problemáticas: Conversiones entre libras y onzas.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se parte del contexto de los colmados y supermercados dominicanos para introducir las unidades de peso del sistema inglés (libra y onza), conectando así el aprendizaje matemático con experiencias cotidianas de compra.\n\n",
+      "actividades_complementarias": "ara estudiantes con dificultades en la multiplicación/división: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a manipular empaques de productos.\n\nPara estudiantes con discapacidad visual: Se utilizan empaques con etiquetas en relieve.\n\nPara estudiantes avanzados: Se les pide que resuelvan problemas con fracciones de libra.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 280, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Balanza\n• Empaques de productos\n• Video o pizarra",
+          "descripcion": "1. El docente inicia preguntando: \"¿Quiénes han ido de compras a un supermercado? ¿Qué les gusta comprar? ¿Cómo se vende el arroz? ¿Qué unidades de peso conocen?\"\n2. Muestra una balanza y empaques de productos.\n3. Proyecta el video \"Conozcamos la libra como unidad de medida\" (https://www.youtube.com/watch?v=_ol271oLDgU). Socializa.",
+          "actividad_numero": "Actividad 1 A (pág. 279)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Imagen de balanza (pág. 306)\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, presenta la imagen de la balanza (anexo pág. 306). Pregunta: \"¿Cuántas onzas tiene una libra?\" (16).\n2. Explica las equivalencias:\n- 1 libra (lb) = 16 onzas (oz).\n- Para convertir onzas a libras: dividir entre 16.\n- Para convertir libras a onzas: multiplicar por 16.\n3. Plantea el problema (pág. 279): *\"Juan compró leche de 64 oz y Roberto habichuelas de 5 lb. ¿Cuántas libras compró Juan? (64 ÷ 16 = 4 lb). ¿Cuántas onzas compró Roberto? (5 × 16 = 80 oz).\"*\n4. Explica las abreviaturas: oz (onza), lb (libra).",
+          "actividad_numero": "Actividad 1 B y C (págs. 279-280)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: *\"July compró pescado de 7 lb y Diosmary avena de 96 oz. ¿Cuántas onzas tiene el pescado? (7 × 16 = 112 oz). ¿Cuántas libras de avena compró Diosmary? (96 ÷ 16 = 6 lb).\"*\n\nCierre (pág. 280):\nCompletar tabla: 10 lb = 160 oz; 160 oz = 10 lb; 320 oz = 20 lb; 20 lb = 320 oz; 15 lb = 240 oz.\n\nActividad complementaria (pág. 280):\n1) María compró 4 lb queso blanco y 3 lb queso chédar. ¿Cuántas oz de cada uno? (64 oz y 48 oz). 2) Armar pedido de 12 lb con empaques de 16, 48 y 60 oz. 3) 12 lb de plátanos = 18 plátanos, ¿oz por plátano? (aprox. 10.67 oz). 4) 10 lb de guineos = 39 guineos, ¿oz por guineo? (aprox. 4.1 oz).\n\nActividad para el diario del estudiante (pág. 280):\nResolver: \"¿Cuántas onzas hay en 25 libras?\" (400 oz).",
+          "actividad_numero": "Actividad 1 Actividad para el cuaderno (pág. 280) Cierre (pág. 280) Actividad complementaria (pág. 280) Actividad para el diario (pág. 280)V"
+        }
+      ]
+    },
+    {
+      "id": "1772028127722",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "¡Son importantes las unidades de peso!",
+      "intencion_pedagogica": "Relacionar las unidades de peso: libra y onza, realizando operaciones de suma y conversión con fracciones de libra.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de tabla de productos: Análisis de pesos de productos de la canasta básica.\n\nSituaciones problemáticas: Suma de pesos con fracciones de libra.\n\nConversiones: Onzas a libras y viceversa.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se utilizan productos reales de la canasta básica dominicana para practicar conversiones entre libras y onzas, conectando las matemáticas con la vida cotidiana.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en fracciones: Se les explica que ½ lb = 8 oz, ¼ lb = 4 oz.\n\nPara estudiantes kinestésicos: Se les invita a manipular productos con sus pesos.\n\nPara estudiantes con discapacidad visual: Se utilizan etiquetas en relieve.\n\nPara estudiantes avanzados: Se les pide que resuelvan problemas con más productos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 282, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Tabla de productos (pág. 307)",
+          "descripcion": "1. El docente pregunta por las onzas en 25 libras (400 oz).\n2. Retroalimenta conversiones lb - oz.\n3. Presenta la tabla de productos de la canasta básica (pág. 281 y anexo pág. 307). Pregunta: \"¿Qué significan oz y lb?\"",
+          "actividad_numero": "Actividad 2 A (pág. 281)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Calculadoras\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 281): \"María compra 5½ lb de arroz y 2¼ lb de pescado. Cristal compra 56 oz de avena y 7½ lb de leche. ¿Cuántas onzas compró María? ¿Cuántas libras compró Cristal?\"\n2. Resuelven paso a paso:\n- María: 5½ + 2¼ = 7¾ lb. 7 lb = 112 oz. ½ lb = 8 oz, ¼ lb = 4 oz. Total: 112 + 8 + 4 = 124 oz.\n- Cristal: 56 oz = 3 lb 8 oz. 7½ lb = 7 lb 8 oz. Total: 3 lb + 7 lb = 10 lb; 8 oz + 8 oz = 16 oz = 1 lb. Total: 11 lb.\n3. Explica el procedimiento paso a paso.",
+          "actividad_numero": "Actividad 2 B (págs. 281-282)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"Penélope compra 2 cafés de 16 oz, 3½ lb de queso y 32 oz de chocolate. ¿Cuántas libras y onzas compró?\" (2×16=32 oz = 2 lb; 3½ lb; 32 oz = 2 lb. Total: 2 + 3½ + 2 = 7½ lb = 7 lb 8 oz).\n\nCierre (pág. 282):\nPreguntas sobre productos de la canasta: \"¿Cuántas libras tienen juntos el pescado y la avena? ¿Cuántas onzas tiene el salami y la leche juntos?\"\n\nActividad complementaria (pág. 282):\n1) Manuel: 32 oz queso + 2½ lb salami = 2 lb + 2½ lb = 4½ lb? (32 oz = 2 lb, total 4½ lb). Juan José: 2 leches 36 oz (72 oz = 4 lb 8 oz) + 1 crema 8 oz = 4 lb 16 oz = 5 lb. 2) Juana: 4 lb papa + 1½ lb salami = 5½ lb = 88 oz. Inés: 3 chocolates ½ lb (1½ lb) + 2 avenas 24 oz (48 oz = 3 lb) = 4½ lb.\n\nActividad para el diario del estudiante (pág. 282):\nResolver: \"Facundo compra 3 paquetes de 1 lb de café y 68 oz de avena. ¿Cuántas onzas de café y libras de avena?\" (3 lb café = 48 oz; 68 oz avena = 4 lb 4 oz).",
+          "actividad_numero": "Actividad 2 Actividad para el cuaderno (pág. 282) Cierre (pág. 282) Actividad complementaria (pág. 282) Actividad para el diario (pág. 282)"
+        }
+      ]
+    },
+    {
+      "id": "1772028194280",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Es interesante conocer sobre el quintal",
+      "intencion_pedagogica": "Utilizar otras unidades de peso: el quintal, realizando conversiones a libras.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de conocimientos sobre el quintal.\n\nPresentación de tabla: Unidades de peso con quintal.\n\nSituaciones problemáticas: Conversiones de quintal a libras.\n\nUso de regla de tres: Para conversiones.",
+      "aprendizaje_significativo": "Se introduce el quintal como unidad de peso mayor (100 libras) utilizada en comercio mayorista, conectando con compras en supermercados y colmados.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en fracciones: Se les explica que ¼ = 0.25, ½ = 0.5.\n\nPara estudiantes kinestésicos: Se les invita a representar los quintales con sacos imaginarios.\n\nPara estudiantes con discapacidad visual: Se utilizan tablas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que calculen el total en quintales de varios productos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 284, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el problema de Facundo.\n2. Retroalimenta conversiones lb - oz.\n3. Pregunta: \"¿Qué otras unidades de peso conocen, mayores que la libra?\" (quintal, tonelada).",
+          "actividad_numero": "Actividad 3 A (pág. 283)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Tabla de unidades\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta la tabla:\n- 1 quintal = 100 libras.\n- 1 libra = 16 onzas.\n2. Pregunta: \"¿Cuántas libras hay en ½ quintal? (50 lb). ¿En ¼ quintal? (25 lb).\"\n3. Plantea el problema (pág. 283): \"La familia Gómez compra ½ quintal de arroz y ¼ quintal de pollo. ¿Cuántas libras de cada producto?\"\n- ½ quintal = ½ × 100 = 50 lb de arroz.\n- ¼ quintal = ¼ × 100 = 25 lb de pollo.\n4. Explica el uso de la regla de tres para las conversiones.",
+          "actividad_numero": "Actividad 3 B y C (págs. 283-284)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"Cilia compra 1¼ quintal de arroz y ½ quintal de pasta. ¿Cuántas libras de cada producto?\" (1¼ × 100 = 125 lb arroz; ½ × 100 = 50 lb pasta).\n\nCierre (pág. 284):\nPreguntas: \"¿Cuántas libras hay en ½ quintal? ¿Cuál es más, 700 oz o un quintal?\" (700 oz = 43.75 lb, un quintal = 100 lb → mayor el quintal).\n\nActividad complementaria (pág. 284):\n1) Cadena de supermercados compra 40,000 lb azúcar y 3,750 lb carne. ¿Cuántos quintales de cada? (400 qq azúcar; 37.5 qq carne). 2) Familia vende 3,500 lb arroz y 900 lb azúcar en un año, ¿cuántos quintales? (35 qq arroz; 9 qq azúcar). 3) ¿Cuántos quintales son 13,750 lb? (137.5 qq).\n\nActividad para el diario del estudiante (pág. 284):\nResolver: \"La familia Zapata vendió 1,115 lb azúcar y 3,075 lb arroz. ¿Cuántos quintales de cada producto?\" (11.15 qq azúcar; 30.75 qq arroz).",
+          "actividad_numero": "Actividad 3 Actividad para el cuaderno (pág. 284) Cierre (pág. 284) Actividad complementaria (pág. 284) Actividad para el diario (pág. 284)"
+        }
+      ]
+    },
+    {
+      "id": "1772028365726",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": " Aprendo unidades de peso y me divierto",
+      "intencion_pedagogica": "Convertir toneladas a quintales y a libras, utilizando los factores de conversión aproximados.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de conocimientos sobre la tonelada.\n\nUso de material audiovisual: Video sobre conversión de toneladas a libras.\n\nPresentación de tabla: Unidades completas (tonelada, quintal, libra, onza).\n\nSituaciones problemáticas: Conversiones de toneladas a libras y quintales.\n\nUso de regla de tres: Para conversiones.",
+      "aprendizaje_significativo": "Se introduce la tonelada como unidad de peso mayor utilizada en importaciones y comercio mayorista, conectando con la actividad económica del país.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en multiplicación de decimales: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a representar las toneladas con objetos.\n\nPara estudiantes con discapacidad visual: Se utilizan tablas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que investiguen la equivalencia exacta.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 286, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los quintales de la familia Zapata.\n2. Retroalimenta quintal - libra.\n3. Pregunta: \"¿Qué unidad de peso mayor que el quintal conocen?\" (tonelada). Proyecta el video \"Convertir toneladas a libras\" (https://www.youtube.com/watch?v=BB4Oho5hSBo). Socializa.",
+          "actividad_numero": "Actividad 4 A (pág. 285)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Tabla de unidades\n• Calculadoras\n• Pizarra",
+          "descripcion": "1. Presenta la tabla completa:\n- 1 tonelada (t) ≈ 2,205 lb ≈ 22 quintales.\n- 1 quintal = 100 lb.\n- 1 lb = 16 oz.\n2. Plantea el problema (pág. 285): \"La Unión de Supermercados importa 13.5 t de avena. ¿Cuántas libras son? ¿Cuántos quintales?\"\n- Libras: 13.5 × 2,205 = 29,767.5 lb.\n- Quintales: 13.5 × 22 = 297 qq.\n3. Explica el uso de factores aproximados y la multiplicación de decimales.",
+          "actividad_numero": "Actividad 4 B y C (págs. 285-286)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"La Unión de Supermercados importa 20.25 t de harina. ¿Cuántos quintales son?\" (20.25 × 22 = 445.5 qq).\n\nCierre (pág. 286):\nPreguntas: \"¿Cómo resolvieron? ¿Cuántos quintales son 205 t? (4,510 qq). ¿Cuántas libras son 2 t? (4,410 lb).\"\n\nActividad complementaria (pág. 286):\n1) Cadena compra 440 qq arroz y 17.5 qq leche. ¿Cuántas toneladas? (440÷22=20 t arroz; 17.5÷22=0.795 t leche). 2) Supermercado compra ¾ t arroz, ¿cuántos qq? (0.75×22=16.5 qq). 3) Venta de plátanos: 6,250 lb, ¿cuántos qq? (62.5 qq). 4) ¿Cuánto es más, 2,410 lb o 3 t? (3 t = 6,615 lb, mayor 3 t). 5) ¿Cuántos qq tiene 15 t? (330 qq).\n\nActividad para el diario del estudiante (pág. 286):\nResolver: \"Una cadena de supermercados compró 75 qq de carne de cerdo. ¿Cuántas toneladas son?\" (75 ÷ 22 = 3.409 t).",
+          "actividad_numero": "Actividad 4 Actividad para el cuaderno (pág. 286) Cierre (pág. 286) Actividad complementaria (pág. 286) Actividad para el diario (pág. 286)"
+        }
+      ]
+    },
+    {
+      "id": "1772028568646",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Me gustan las conversiones",
+      "intencion_pedagogica": "Convertir libras y quintales a toneladas, utilizando los factores de conversión aproximados.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre convertir libras a toneladas.\n\nRevisión de tabla: Unidades de peso del sistema inglés.\n\nSituaciones problemáticas: Conversiones de quintales a toneladas.\n\nUso de regla de tres: Para conversiones.",
+      "aprendizaje_significativo": "Se refuerzan las conversiones entre quintales y toneladas, aplicándolas a problemas de inventarios de supermercados.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la división: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a escribir los cálculos en la pizarra.\n\nPara estudiantes con discapacidad visual: Se utilizan tablas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que calculen totales en diferentes unidades.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 288, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por las toneladas de 75 qq.\n2. Retroalimenta conversiones t - qq.\n3. Proyecta el video \"Convertir libras a toneladas\" (https://www.youtube.com/watch?v=0ULRmVpkPfQ). Socializa.",
+          "actividad_numero": "Actividad 5 A (pág. 286)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tabla de unidades\n• Calculadoras\n• Pizarra",
+          "descripcion": "1. Revisa la tabla de unidades (pág. 287).\n2. Plantea el problema (pág. 287): \"Un supermercado compró 231 qq de arroz a la factoría A y 165 qq a la B. ¿Cuántas toneladas de cada una?\"\n- Factoría A: 231 ÷ 22 = 10.5 t.\n- Factoría B: 165 ÷ 22 = 7.5 t.\n3. Explica el procedimiento con regla de tres y división.\n4. Actividad para el cuaderno (pág. 288): Completar tabla de conversión de quintales a toneladas (56 qq = 2.545 t; 7 qq = 0.318 t; 154 qq = 7 t; 232 qq = 10.545 t; 308 qq = 14 t).",
+          "actividad_numero": "Actividad 5 B (págs. 287-288)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Completar descripciones: \"Es la unidad de peso formada por veintidós quintales aproximados\" (tonelada). \"¿Cuántas libras hay en 88 qq?\" (8,800 lb). \"Unidad de peso formada por 100 lb\" (quintal). \"Unidad de peso con 2,204 lb aproximadas\" (tonelada).\n\nActividad complementaria (pág. 288):\n1) Cadena: 715 qq arroz (32.5 t), 76 qq pasta (3.45 t). 2) Supermercado compra 12 t arroz = 264 qq. 3) Venta de papa 9.75 t = 214.5 qq. 4) Producción de habichuelas 1,255 qq = 57.05 t. 5) Patana con 3.5 t cemento = 7,717.5 lb.\n\nActividad para el diario del estudiante (pág. 288):\nResolver: \"Cadena de supermercados de La Vega tiene 870 qq pollo y 750 qq cerdo. ¿Cuántas toneladas de cada producto?\" (870÷22=39.55 t pollo; 750÷22=34.09 t cerdo).",
+          "actividad_numero": "Actividad 5 Cierre (pág. 288) Actividad complementaria (pág. 288) Actividad para el diario (pág. 288)"
+        }
+      ]
+    },
+    {
+      "id": "1772028646011",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Aprendo y me divierto con las unidades de peso (kg y g)",
+      "intencion_pedagogica": "Utilizar las unidades de peso del sistema métrico decimal: kilogramo y gramo, realizando conversiones entre ellas.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de conocimientos sobre kilogramo y gramo.\n\nUso de envases de productos: Observación de etiquetas.\n\nPresentación de tabla: Unidades de peso del sistema métrico decimal.\n\nSituaciones problemáticas: Conversiones de gramos a kilogramos.\n\nUso de regla de tres: Para conversiones.",
+      "aprendizaje_significativo": "Se introducen las unidades de peso del sistema métrico decimal (kilogramo y gramo) a partir de envases de productos cotidianos, conectando con la experiencia de compra.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la división por 1,000: Se les explica que es correr el punto tres lugares.\n\nPara estudiantes kinestésicos: Se les invita a manipular envases con diferentes pesos.\n\nPara estudiantes con discapacidad visual: Se utilizan envases con etiquetas en relieve.\n\nPara estudiantes avanzados: Se les pide que conviertan kg a lb.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 290, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Envases de productos",
+          "descripcion": "1. El docente pregunta por las toneladas de pollo y cerdo.\n2. Retroalimenta conversiones t - qq.\n3. Pregunta: \"¿Qué otras unidades de peso conocen? ¿Qué es el kilogramo? ¿Qué productos se venden en kg? ¿En gramos?\"\n4. Los estudiantes observan envases que trajeron.",
+          "actividad_numero": "Actividad 6 A (pág. 289)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Tabla de unidades\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta la tabla:\n- 1 kilogramo (kg) = 1,000 gramos (g).\n- 1 kg ≈ 2.20462 lb.\n2. Explica: para convertir de gramos a kg se divide entre 1,000; de kg a gramos se multiplica por 1,000.\n3. Plantea el problema (pág. 289): \"Un cliente compra una leche de 1,800 g. ¿Cuántos kg son?\" (1,800 ÷ 1,000 = 1.8 kg).\n4. Explica que dividir entre 1,000 es correr el punto tres veces a la izquierda.",
+          "actividad_numero": "Actividad 6 B y C (págs. 289-290)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"Una madre compra una lata de leche de 2,200 g. ¿Cuántos kg son?\" (2.2 kg).\n\nCierre (pág. 290):\nProyecta el video \"Unidades de medida para niños el kilogramo\" (https://www.youtube.com/watch?v=u3Yz4HCF4uQ). Socializa.\n\nActividad complementaria (pág. 290):\n1) 800 g = 0.8 kg; 2) 3,450 g = 3.45 kg; 3) 1,880 g = 1.88 kg; 4) 5,350 g = 5.35 kg; 5) 1,450 g = 1.45 kg.\n\nActividad para el diario del estudiante (pág. 290):\nResolver: \"Kelly compra 4,750 g de alimento para animales. ¿Cuántos kg compró?\" (4.75 kg).",
+          "actividad_numero": "Actividad 6 Actividad para el cuaderno (pág. 290) Cierre (pág. 290) Actividad complementaria (pág. 290) Actividad para el diario (pág. 290)"
+        }
+      ]
+    },
+    {
+      "id": "1772028779132",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Es maravilloso aprender sobre unidades de peso (mg)",
+      "intencion_pedagogica": "Usar las unidades de peso del sistema métrico decimal: gramo y miligramo, realizando conversiones entre ellas.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nObservación de envases de medicamentos: Identificación de mg.\n\nDiálogo dirigido: Exploración de la relación gramo - miligramo.\n\nPresentación de tabla: Unidades completas (kg, g, mg).\n\nSituaciones problemáticas: Conversiones de miligramos a gramos.\n\nUso de regla de tres: Para conversiones.",
+      "aprendizaje_significativo": "Se introduce el miligramo a partir de envases de medicamentos, mostrando su utilidad en contextos de salud.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la división por 1,000: Se les explica que es correr el punto tres lugares.\n\nPara estudiantes kinestésicos: Se les invita a escribir los números y correr el punto.\n\nPara estudiantes con discapacidad visual: Se utilizan tablas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que conviertan mg a kg.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 292, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Envases de medicamentos",
+          "descripcion": "1. El docente pregunta por los kg de alimento de Kelly (4.75 kg).\n2. Retroalimenta conversiones kg - g.\n3. Pide que observen envases de medicamentos. Pregunta: \"¿Qué significa mg?\" (miligramo).",
+          "actividad_numero": "Actividad 7 A (pág. 290)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Tabla de unidades\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta la tabla:\n- 1 gramo (g) = 1,000 miligramos (mg).\n- 1 kg = 1,000 g.\n2. Pregunta: \"¿Qué es más grande, el kg o el mg?\" (kg).\n3. Plantea el problema (pág. 291): \"Un medicamento contiene 350 mg de un compuesto. ¿A cuántos gramos equivalen?\"\n- 350 ÷ 1,000 = 0.350 g.\n4. Explica que dividir entre 1,000 es correr el punto tres veces a la izquierda.",
+          "actividad_numero": "Actividad 7 B y C (págs. 291-292)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"Una familia compra un medicamento de 1,200 mg. ¿A cuántos gramos equivalen?\" (1.2 g).\n\nCierre (pág. 292):\nProyecta el video \"Convertir de miligramos (mg) a gramos (g)\" (https://www.youtube.com/watch?v=hgriOvG6al8). Socializa.\n\nActividad complementaria (pág. 293):\n1) ¿Cuántos gramos en 700 mg? (0.7 g). 2) Jarabe con 2,200 mg = 2.2 g. 3) Medicamento de 3,250 mg = 3.25 g. 4) 5,650 mg = 5.65 g.\n\nActividad para el diario del estudiante (pág. 293):\nResolver: \"Víctor compra un medicamento de 2,850 mg. ¿A cuántos gramos equivalen?\" (2.85 g).",
+          "actividad_numero": "Actividad 7 Actividad para el cuaderno (pág. 292) Cierre (pág. 292) Actividad complementaria (pág. 293) Actividad para el diario (pág. 293)"
+        }
+      ]
+    },
+    {
+      "id": "1772028855686",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Actividad 8 - Aprender es divertido",
+      "intencion_pedagogica": "Convertir unidades de peso dentro del sistema métrico decimal, realizando conversiones múltiples (kg a g, g a mg, kg a mg).\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de conversiones combinadas.\n\nSituaciones problemáticas: Conversiones de kg a g y mg.\n\nUso de regla de tres: Para conversiones múltiples.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se integran las conversiones entre kilogramos, gramos y miligramos en problemas de compras cotidianas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en multiplicaciones por 1,000: Se les explica que es agregar ceros.\n\nPara estudiantes kinestésicos: Se les invita a escribir las conversiones en la pizarra.\n\nPara estudiantes con discapacidad visual: Se utilizan tablas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que conviertan mg a kg directamente.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 293, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por los gramos de 2,850 mg (2.85 g).\n2. Retroalimenta conversiones g - mg.\n3. Pregunta: \"¿Cómo se convierte de kg a g? ¿De g a mg? ¿De kg a mg?\"",
+          "actividad_numero": "Actividad 8 A (pág. 292)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Calculadoras\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 292): \"María compra ¼ kg de especias. ¿A cuántos gramos equivalen? ¿Cuántos mg?\"\n- Gramos: ¼ kg = 0.25 kg = 0.25 × 1,000 = 250 g.\n- Miligramos: 250 g × 1,000 = 250,000 mg.\n2. Explica paso a paso usando regla de tres.\n3. Actividad para el cuaderno (pág. 293): Resolver: \"Una familia compra ½ kg de queso rallado. ¿Cuántos gramos? ¿Cuántos mg?\" (500 g; 500,000 mg).",
+          "actividad_numero": "Actividad 8 B (págs. 292-293)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Preguntas: \"¿Cuántos mg tienen 2 g? (2,000 mg). ¿Cómo se convierte de kg a g?\"\n\nActividad complementaria (pág. 293):\n1) 1¼ kg = 1,250 g = 1,250,000 mg. 2) 1½ kg queso = 1,500 g = 1,500,000 mg. 3) 8.5 kg = 8,500 g = 8,500,000 mg. 4) 0.875 kg = 875 g = 875,000 mg. 5) 4.50 kg = 4,500 g = 4,500,000 mg.\n\nActividad para el diario del estudiante (pág. 293):\nResolver: \"La señora Pérez compra 1.65 kg de leche en polvo. ¿A cuántos g equivalen? ¿Cuántos mg?\" (1,650 g; 1,650,000 mg).",
+          "actividad_numero": "Actividad 8 Cierre (pág. 293) Actividad complementaria (pág. 293) Actividad para el diario (pág. 293)"
+        }
+      ]
+    },
+    {
+      "id": "1772028934797",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Me emociona aprender (temperatura °F a °C)",
+      "intencion_pedagogica": "Convertir unidades de temperatura de Fahrenheit a Celsius, aplicando la fórmula correspondiente.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de conocimientos sobre temperatura.\n\nUso de material audiovisual: Video sobre conversión °F a °C.\n\nPresentación de fórmulas: °C = (°F - 32) / 1.8.\n\nSituaciones problemáticas: Conversiones de temperatura en contextos de supermercados.\n\nUso de termómetro: Observación de escalas.",
+      "aprendizaje_significativo": "Se introducen las unidades de temperatura (Celsius y Fahrenheit) a partir de situaciones de conservación de alimentos en supermercados, conectando con la vida cotidiana.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la división: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a leer termómetros reales.\n\nPara estudiantes con discapacidad visual: Se utilizan termómetros con marcas táctiles.\n\nPara estudiantes avanzados: Se les pide que investiguen otras escalas de temperatura.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 294, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Termómetros\n• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los gramos y mg de leche (1,650 g; 1,650,000 mg).\n2. Retroalimenta conversiones de peso.\n3. Pregunta: \"¿Con qué se mide la temperatura? ¿Para qué se usan neveras y congeladores? ¿En qué unidades se mide?\"\n4. Proyecta el video \"Conversión de grados Fahrenheit a Celcius\" (https://www.youtube.com/watch?v=pMJX8rPv5T8). Socializa.",
+          "actividad_numero": "Actividad 9 A (pág. 294)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Calculadoras\n• Cuadernos",
+          "descripcion": "Conversión °F a °C (pág. 294-295):\n1. Explica las escalas: agua se congela a 32°F (0°C) y hierve a 212°F (100°C).\n2. Presenta la fórmula: °C = (°F - 32) / 1.8.\n3. Plantea el problema (pág. 294): \"En el supermercado conservan embutidos a 38°F. ¿A cuántos °C equivalen?\"\n- °C = (38 - 32) / 1.8 = 6 / 1.8 = 3.33°C.\n4. Explica la división paso a paso.",
+          "actividad_numero": "Actividad 9 B (págs. 294-295)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"La temperatura de un congelador marca 66°F. ¿A cuántos °C equivalen?\" ((66-32)/1.8 = 34/1.8 = 18.89°C).\n\nCierre (pág. 295):\nPreguntas: \"¿Cuál es el punto de congelación en °F? (32°F). ¿En °C? (0°C).\"\n\nActividad complementaria (pág. 295):\n1) Cuarto frío a 47°F = (47-32)/1.8 = 15/1.8 = 8.33°C. 2) Nevera a 43°F = (43-32)/1.8 = 11/1.8 = 6.11°C. 3) Temperatura en Valle Nuevo 34°F = (34-32)/1.8 = 2/1.8 = 1.11°C. 4) 125°F = (125-32)/1.8 = 93/1.8 = 51.67°C.\n\nActividad para el diario del estudiante (pág. 295):\nResolver: \"Los pollos de un supermercado se conservan a 40°F. ¿Cuántos °C son?\" ((40-32)/1.8 = 8/1.8 = 4.44°C).",
+          "actividad_numero": "Actividad 9 Actividad para el cuaderno (pág. 294) Cierre (pág. 295) Actividad complementaria (pág. 295) Actividad para el diario (pág. 295)"
+        }
+      ]
+    },
+    {
+      "id": "1772029072832",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Disfruto aprendiendo (temperatura °C a °F)",
+      "intencion_pedagogica": "Convertir de una unidad de temperatura a otra: Celsius a Fahrenheit, aplicando la fórmula correspondiente.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nObservación de termómetros: Identificación de escalas.\n\nUso de material audiovisual: Video sobre conversión °C a °F.\n\nRevisión de fórmulas: °F = °C × 1.8 + 32.\n\nSituaciones problemáticas: Conversiones de temperatura en contextos de supermercados.",
+      "aprendizaje_significativo": "Se refuerzan las conversiones de temperatura, ahora de Celsius a Fahrenheit, aplicándolas a la conservación de alimentos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la multiplicación: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a leer termómetros reales.\n\nPara estudiantes con discapacidad visual: Se utilizan termómetros con marcas táctiles.\n\nPara estudiantes avanzados: Se les pide que inviertan la fórmula.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 296, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Termómetros\n• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los °C de 40°F (4.44°C).\n2. Retroalimenta conversión °F a °C.\n3. Organiza grupos y entrega termómetros para observar escalas.\n4. Proyecta el video \"Conversión de grados Celsius a Fahrenheit\" (https://www.youtube.com/watch?v=VqujmKe7dGQ). Socializa.",
+          "actividad_numero": "Actividad 10 A (pág. 295)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Calculadoras\n• Cuadernos",
+          "descripcion": "1. Presenta la fórmula: °F = °C × 1.8 + 32.\n2. Plantea el problema (pág. 295): \"En el supermercado conservan el pescado a 2°C. ¿Cuántos °F son?\"\n- °F = 2 × 1.8 + 32 = 3.6 + 32 = 35.6°F.\n3. Explica la multiplicación y suma paso a paso.\n4. Refuerza los puntos de congelación y ebullición.",
+          "actividad_numero": "Actividad 10 B (págs. 295-296)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"La temperatura de un congelador marca 11°C. ¿A cuántos °F equivalen?\" (11×1.8+32 = 19.8+32 = 51.8°F).\n\nCierre (pág. 296):\nPreguntas: \"¿A cuántos °C equivalen 32°F? (0°C). ¿A cuántos °F equivalen 100°C? (212°F).\"\n\nActividad complementaria (pág. 296):\n1) Refrigerador a 7°C = 7×1.8+32 = 12.6+32 = 44.6°F. 2) Congelador a 10°C = 10×1.8+32 = 18+32 = 50°F. 3) Valle Nuevo a 4°C = 4×1.8+32 = 7.2+32 = 39.2°F. 4) 25°C = 25×1.8+32 = 45+32 = 77°F. 5) Malteada a 1°C = 1×1.8+32 = 1.8+32 = 33.8°F.\n\nActividad para el diario del estudiante (pág. 296):\nResolver: \"Los huevos de un supermercado se almacenan a 15°C. ¿Cuántos °F son?\" (15×1.8+32 = 27+32 = 59°F).",
+          "actividad_numero": "Actividad 10 Actividad para el cuaderno (pág. 296) Cierre (pág. 296) Actividad complementaria (pág. 296) Actividad para el diario (pág. 296)"
+        }
+      ]
+    },
+    {
+      "id": "1772029167941",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": " Es emocionante aprender sobre el tiempo",
+      "intencion_pedagogica": "Utilizar las unidades de tiempo: hora, minuto y segundo, calculando intervalos de tiempo y realizando conversiones.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nObservación de relojes: Identificación de agujas y marcas.\n\nUso de material audiovisual: Video sobre el reloj.\n\nPresentación de tabla: Unidades de tiempo.\n\nSituaciones problemáticas: Cálculo de intervalos de tiempo.\n\nUso de regla de tres: Para conversiones.",
+      "aprendizaje_significativo": "Se introducen las unidades de tiempo (hora, minuto, segundo) a partir de situaciones cotidianas como la hora de almuerzo en un supermercado.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en el cálculo de intervalos: Se les enseña a contar en el reloj.\n\nPara estudiantes kinestésicos: Se les invita a mover las agujas de un reloj.\n\nPara estudiantes con discapacidad visual: Se utilizan relojes con marcas táctiles.\n\nPara estudiantes avanzados: Se les pide que calculen segundos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 298, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Relojes de agujas\n• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los °F de 15°C (59°F).\n2. Retroalimenta conversiones de temperatura.\n3. Pregunta: \"¿Para qué se usa el reloj? ¿Cuántas agujas tiene? ¿Cuántos minutos hay en una hora?\"\n4. Proyecta el video \"Qué Hora Es? Cómo Usar el Reloj\" (https://www.youtube.com/watch?v=3BJeYFcx0iU). Socializa.",
+          "actividad_numero": "Actividad 11 A (pág. 297)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta la tabla:\n- 1 hora (h) = 60 minutos (min) = 3,600 segundos (s).\n- 1 minuto = 60 segundos.\n2. Plantea el problema (pág. 297): \"La hora de almuerzo de un empleado inicia a las 12:30 p.m. y termina a las 2:00 p.m. ¿Cuántos minutos duró?\"\n- De 12:30 a 1:00 = 30 min; de 1:00 a 2:00 = 60 min; total 90 min.\n- También: 1.5 h × 60 = 90 min.\n3. Explica ambos métodos.",
+          "actividad_numero": "Actividad 11 B y C (págs. 297-298)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"Luisa llega a la escuela a las 7:45 a.m. y su recreo es a las 10:15 a.m. ¿Cuántos minutos pasaron?\" (de 7:45 a 10:15 = 2 h 30 min = 150 min).\n\nCierre (pág. 298):\nPreguntas: \"¿Cuántos minutos hay en 3 h? (180 min).\"\n\nActividad complementaria (pág. 298):\n1) Familia Gómez: 3:45 p.m. a 5:15 p.m. = 90 min. 2) Supermercado: 7:15 a.m. a 8:45 p.m. = 13 h 30 min = 810 min. 3) Perla: 6:50 a.m. a 7:35 a.m. = 45 min. 4) 2 h y cuarto = 135 min. 5) Haydé: sale 5:30 p.m., dura 45 min, llega 6:15 p.m.\n\nActividad para el diario del estudiante (pág. 298):\nResolver: \"La familia Jirón caminó de 6:45 a.m. a 9:15 a.m. ¿Cuántos minutos caminó?\" (2 h 30 min = 150 min).",
+          "actividad_numero": "Actividad 11 Actividad para el cuaderno (pág. 298) Cierre (pág. 298) Actividad complementaria (pág. 298) Actividad para el diario (pág. 298)"
+        }
+      ]
+    },
+    {
+      "id": "1772029281817",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Disfruto aprender las unidades de tiempo",
+      "intencion_pedagogica": "Convertir de una unidad de tiempo a otra: hora, minuto y segundo, realizando conversiones múltiples.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de unidades mayores (día, mes, año).\n\nSituaciones problemáticas: Conversiones de horas a segundos.\n\nUso de regla de tres: Para conversiones.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se amplían las conversiones de tiempo, incluyendo segundos, aplicándolas a situaciones de congelación de alimentos en supermercados.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la multiplicación: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a representar los intervalos en una línea de tiempo.\n\nPara estudiantes con discapacidad visual: Se utilizan relojes con marcas táctiles.\n\nPara estudiantes avanzados: Se les pide que calculen días completos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 299, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por los minutos de la familia Jirón (150 min).\n2. Retroalimenta cálculo de intervalos.\n3. Pregunta: \"¿Qué unidades de tiempo mayores que la hora conocen? (día, mes, año). ¿Cuántos segundos tiene un minuto? ¿Una hora?\"",
+          "actividad_numero": "Actividad 12 A (pág. 298)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Calculadoras\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 299): \"En un supermercado, pusieron carne a congelar de 5:15 a.m. a 7:30 a.m. ¿Cuántos segundos duró?\"\n- De 5:15 a 7:15 = 2 h = 120 min; de 7:15 a 7:30 = 15 min. Total 135 min.\n- 135 min × 60 = 8,100 s.\n- También: 2.25 h × 3,600 = 8,100 s.\n2. Explica ambos métodos.\n3. Actividad para el cuaderno (pág. 299): Resolver: \"Yovanny llega a la escuela 7:50 a.m., recreo 10:20 a.m. ¿Cuántos segundos pasaron?\" (de 7:50 a 10:20 = 2 h 30 min = 150 min = 9,000 s).",
+          "actividad_numero": "Actividad 12 B (págs. 299-300)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Cierre (pág. 300):\nProyecta el video \"Convertir de Horas a Segundos (h a s)\" (https://www.youtube.com/watch?v=w9mISML9qMo). Socializa.\n\nActividad complementaria (pág. 300):\n1) Familia Díaz: 2:45 p.m. a 5:15 p.m. = 150 min = 9,000 s. 2) Oferta: 11:15 a.m. a 10:45 p.m. = 11 h 30 min = 690 min = 41,400 s. 3) Alejandro: 6:15 p.m. a 7:45 p.m. = 90 min = 5,400 s. 4) 2 h y cuarto = 135 min = 8,100 s. 5) Miriam: 7:00 p.m. a 8:40 p.m. = 100 min = 6,000 s.\n\nActividad para el diario del estudiante (pág. 301):\nResolver: \"El supermercado La Caoba pone una oferta durante 2½ horas. ¿Cuántos segundos duró?\" (2.5 h × 3,600 = 9,000 s).",
+          "actividad_numero": "Actividad 12 Cierre (pág. 300) Actividad complementaria (pág. 300) Actividad para el diario (pág. 301)"
+        }
+      ]
+    },
+    {
+      "id": "1772029432098",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": "Afianzando lo aprendido sobre conversiones de tiempo",
+      "intencion_pedagogica": "Convertir de una unidad de tiempo a otra: segundo, minuto y hora, realizando conversiones inversas.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de conversiones inversas (segundos a horas).\n\nSituaciones problemáticas: Conversiones de segundos a horas.\n\nUso de regla de tres: Para conversiones.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se trabajan conversiones inversas (de segundos a horas) aplicadas a situaciones de duración de procesos en supermercados.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la división: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a representar los segundos con un cronómetro.\n\nPara estudiantes con discapacidad visual: Se utilizan cronómetros con voz.\n\nPara estudiantes avanzados: Se les pide que expresen el resultado en horas y minutos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 301, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por los segundos de 2½ h (9,000 s).\n2. Retroalimenta conversiones h a s.\n3. Pregunta: \"¿Cuántas horas son 3,600 s? (1 h). ¿Cómo lo saben?\"",
+          "actividad_numero": "Actividad 13 A (pág. 301)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Calculadoras\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 301): \"El pescado duró para congelarse 8,750 s. ¿Cuántas horas duró?\"\n- 8,750 ÷ 3,600 = 2.43 h.\n2. Explica la división paso a paso.\n3. Actividad para el cuaderno (pág. 301): Resolver: \"Miledys duró en el supermercado 6,745 s. ¿Cuántas horas duró?\" (6,745 ÷ 3,600 = 1.87 h).",
+          "actividad_numero": "Actividad 13 B (pág. 301)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Proyecta el video \"Conversión de segundos a horas (es fácil)\" (https://www.youtube.com/watch?v=ovmfzeqY1yo). Socializa.\n\nActividad complementaria (pág. 302):\n1) Guagua 4,655 s = 1.29 h. 2) Oferta 12,575 s = 3.49 h. 3) Luisa 11,325 s = 3.15 h. 4) 9,785 s = 2.72 h. 5) Oferta 15,275 s = 4.24 h.\n\nActividad para el diario del estudiante (pág. 302):\nResolver: \"El supermercado Las Flores pone oferta durante 18,750 s. ¿Cuántas horas duró?\" (18,750 ÷ 3,600 = 5.21 h).",
+          "actividad_numero": "Actividad 13 Cierre (pág. 302) Actividad complementaria (pág. 302) Actividad para el diario (pág. 302)"
+        }
+      ]
+    },
+    {
+      "id": "1772029497815",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 13,
+      "title": "Actividad 14",
+      "name": "Me gusta repasar lo aprendido (problemas integradores)",
+      "intencion_pedagogica": "Utilizar unidades de peso del sistema inglés y métrico decimal, tiempo y temperatura en problemas integradores de su contexto.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nProblemas integradores: Aplicación de todas las unidades trabajadas.\n\nUso de tablas de equivalencia: Para consulta.\n\nTrabajo individual: Resolución de problemas.\n\nSocialización de resultados: Puesta en común.",
+      "aprendizaje_significativo": "Se integran todos los conceptos de la secuencia (peso, temperatura, tiempo) en problemas contextualizados, permitiendo una visión global de la utilidad de estas unidades.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les permite usar calculadora y tablas de equivalencia.\n\nPara estudiantes kinestésicos: Se les invita a escribir los problemas en la pizarra.\n\nPara estudiantes con discapacidad visual: Se utilizan tablas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que inventen problemas similares.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 304, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por las horas de 18,750 s (5.21 h).\n2. Retroalimenta conversiones de tiempo.\n3. Pregunta: \"¿Qué unidades de peso recuerdan? ¿A qué sistemas pertenecen?\"",
+          "actividad_numero": "Actividad 14 A (pág. 302)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C, D, E",
+          "tiempo": "60",
+          "recursos": "• Tablas de equivalencia\n• Calculadoras\n• Pizarra",
+          "descripcion": "1. Peso (qq a lb y t): \"Un comedor compra 27 qq de arroz. ¿Cuántas libras? ¿Cuántas toneladas?\"\n- Libras: 27 × 100 = 2,700 lb.\n- Toneladas: 2,700 ÷ 2,205 = 1.22 t.\n2. Peso (mg a g y kg): \"Industria compra 925,375 mg. ¿Cuántos g? ¿Cuántos kg?\"\n- Gramos: 925,375 ÷ 1,000 = 925.375 g.\n- Kilogramos: 925.375 ÷ 1,000 = 0.925 kg.\n3. Temperatura: \"29°C a °F\" (29×1.8+32=84.2°F). \"42°F a °C\" ((42-32)/1.8=5.56°C).\n4. Tiempo: \"Atleta recorre 8 km en 2 h 10 min. ¿Cuántos segundos?\" (2 h 10 min = 130 min × 60 = 7,800 s).",
+          "actividad_numero": "Actividad 14 B, C, D, E (págs. 302-304)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "1) Norma compra 71,258 mg = 0.071258 kg. 2) Cadena compra 34,105 qq carne = 3,410,500 lb = 1,550.23 t.\n\nCierre (pág. 305):\nPreguntas de repaso: \"¿Cuántas libras en 3 qq? (300 lb). ¿Cuántas onzas en una libra? (16). ¿Cuántas libras en 48 oz? (3). ¿Cuántos g en 2 kg? (2,000). ¿Cuántos mg en 3 g? (3,000).\"\n\nActividad complementaria (pág. 305):\n1) 16,279 qq = 1,627,900 lb = 739.95 t. 2) 4,500 mg = 4.5 g. 3) 1°C = 33.8°F. 4) 17 lb = 272 oz. 5) 500,000 mg = 0.5 kg.\n\nActividad para el diario del estudiante (pág. 305):\n1) 585,254 mg = 0.585254 kg. 2) 55,715 qq arroz = 5,571,500 lb = 2,532.5 t.",
+          "actividad_numero": "Actividad 14 Actividad para el cuaderno (pág. 304) Cierre (pág. 305) Actividad complementaria (pág. 305) Actividad para el diario (pág. 305)"
+        }
+      ]
+    },
+    {
+      "id": "1772029561905",
+      "sequence_id": "seq-1772028008842",
+      "order_index": 14,
+      "title": "Actividad 15",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar los conocimientos adquiridos en la Secuencia 10 (unidades de peso, temperatura y tiempo) a través de la resolución de problemas.\n\n",
+      "estrategia": "Retroalimentación inicial: Preguntas orales para recordar los temas de la secuencia.\n\nEvaluación escrita: Resolución individual de un conjunto de problemas.\n\nUso de escala de valoración: Para que los estudiantes comprendan cómo se evaluará su desempeño.",
+      "aprendizaje_significativo": "La evaluación se presenta como una oportunidad para demostrar lo aprendido en contextos significativos (colmados, supermercados), y se utiliza una escala de valoración para que los estudiantes tomen conciencia de su propio nivel de logro.\n\n",
+      "actividades_complementarias": "Para estudiantes que necesitan más tiempo: Se les puede permitir terminar la evaluación en otra sesión, según la Ordenanza 04-2023.\n\nPara estudiantes con dificultades de lectura: Se les leen los problemas en voz alta si es necesario.\n\nPara estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n\nPara estudiantes que terminan rápido: Se les puede pedir que revisen sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué trabajaron en esta secuencia? ¿Qué unidades de peso aprendieron? ¿Cómo se convierte de °F a °C? ¿Cómo se calcula el tiempo transcurrido?\"\n2. Da tiempo para responder y retroalimenta los temas.",
+          "actividad_numero": "Actividad 15 (Párrafo 1, pág. 305)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Calculadoras\n• Copia de la evaluación o pizarra con los ítems\n• Escala de valoración",
+          "descripcion": "1. El docente explica que esta actividad evalúa la secuencia y que se hará énfasis en la resolución de problemas.\n2. Explica que cada ítem tiene un valor numérico por procedimiento y respuesta completa.\n3. Lee y explica la escala de valoración (pág. 305).\n4. Entrega una hoja en blanco a cada estudiante para que coloquen sus datos (nombre del centro, nombre del estudiante, fecha, grado y sección).\n5. Aplica la evaluación, ítem por ítem, dando el tiempo necesario. La evaluación consta de 10 puntos (ítems):\n- Ítem 1: Familia López compra leche de 925 oz. ¿Cuántas libras? (925 ÷ 16 = 57.8125 lb) (10 pts).\n- Ítem 2: Funda de arroz de 10 lb, ¿cuántas onzas? (10 × 16 = 160 oz) (10 pts).\n- Ítem 3: Colmado compra 41.25 qq arroz, ¿cuántas toneladas? (41.25 ÷ 22 = 1.875 t) (10 pts).\n- Ítem 4: Termómetro marca 7.5°C, ¿cuántos °F? (7.5×1.8+32 = 13.5+32 = 45.5°F) (10 pts).\n- Ítem 5: Nevera marca 39.0°F, ¿cuántos °C? ((39-32)/1.8 = 7/1.8 = 3.89°C) (10 pts).\n- Ítem 6: Fábrica compra 785 g, ¿cuántos mg? (785 × 1,000 = 785,000 mg) (10 pts).\n- Ítem 7: Jarabe contiene 2,682 mg, ¿cuántos g? (2,682 ÷ 1,000 = 2.682 g) (10 pts).\n- Ítem 8: Carne se congela 16,456 s, ¿cuántas horas? (16,456 ÷ 3,600 = 4.57 h) (10 pts).\n- Ítem 9: Colmado compra 252,725 mg especias, ¿cuántos kg? (252,725 ÷ 1,000,000 = 0.252725 kg) (10 pts).\n- Ítem 10: Parear correctamente: a) punto de ebullición °C (100°); b) un kilogramo (1,000 g); c) una libra (16 oz); d) un quintal (100 lb); e) una hora (3,600 s) (10 pts).",
+          "actividad_numero": "Actividad 15 Evaluación (págs. 305-306)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones de los estudiantes",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Puede hacer un breve comentario sobre la importancia de la evaluación para medir el aprendizaje.\n3. Anuncia que en la próxima clase se darán los resultados y se retroalimentarán los puntos con mayores dificultades.",
+          "actividad_numero": "Actividad 15 (Cierre)"
+        }
+      ]
+    }
+  ]
+}

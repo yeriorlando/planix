@@ -1,0 +1,204 @@
+{
+  "id": "seq-1771353859619",
+  "title": "La copla",
+  "description": "Exploración de textos poéticos breves con ritmo y rima.",
+  "order": 10,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771450384494",
+      "sequence_id": "seq-1771353859619",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Introducción y exploración)",
+      "intencion_pedagogica": "Explorar conocimientos previos sobre textos literarios, comparar un poema, un acróstico y una copla, e introducir las características básicas de la copla.\n\n",
+      "estrategia": "Ambientación del aula: Colocar coplas escritas en papelógrafos.\n\nComparación de textos: Poema, acróstico y copla.\n\nLectura en voz alta (modelado): El docente lee con entonación adecuada.\n\nDiálogo dirigido: Preguntas para explorar conocimientos previos y comparar textos.",
+      "aprendizaje_significativo": "Se parte de la experiencia de los estudiantes con canciones infantiles y juegos de ronda para introducir la copla, conectando así la tradición oral y popular con el análisis literario.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades visuales: Se utilizan papelógrafos con letra grande.\n\nPara estudiantes kinestésicos: Se les invita a marcar con el dedo los versos mientras se leen.\n\nPara estudiantes con discapacidad auditiva: Se les proporcionan los textos por escrito.\n\nPara estudiantes avanzados: Se les pide que identifiquen la rima en cada texto.",
+      "actividades_cuaderno": "Copiar las características de los textos poéticos: versos, estrofas, rima. Pegar o copiar uno de los textos trabajados.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafos con coplas, poema y acróstico\n• Pizarra",
+          "descripcion": "1. El docente ambienta el aula con coplas escritas en papelógrafos o carteles (pág. 124).\n2. Tiene fuera de la vista de los estudiantes, escritos en tres papelógrafos, el poema, la copla y el acróstico que están en la secuencia.\n3. Formula preguntas de observación:\n- \"¿Qué detalles nuevos observan en el aula?\" (a)\n- \"¿Saben cómo se llaman esos textos?\" (b)\n- \"¿Se parecen a otros que han visto?\" (c)\n- \"¿A cuáles?\" (d)",
+          "actividad_numero": "Comprensión oral Preguntas a-d (pág. 124)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Textos de poema, acróstico y copla (pág. 125)",
+          "descripcion": "1. El docente muestra los tres textos (poema, acróstico y copla) de las páginas 125 y 209 (de la secuencia de 4to).\n2. Los estudiantes observan los textos.\n3. Formula preguntas de exploración (pág. 124):\n- \"¿Cuáles de estos conocen?\" (a)\n- \"¿Están escritos igual que un cuento? ¿Por qué?\" (b)\n- \"¿Sabes qué nombre reciben todos estos textos?\" (c)\n4. Explica que son textos literarios (se escriben para disfrutar). Dentro de ellos están los poéticos (expresan emociones).\n5. Lee en voz alta, con entonación adecuada, los tres textos (pág. 125).\n6. Después de la lectura, formula preguntas de post-lectura (pág. 125):\n- \"¿Qué tienen en común estos textos?\" (1)\n- \"¿Qué diferencias tienen?\" (2)\n- \"¿Cómo se llaman las partes separadas por espacios?\" (3, estrofas)\n- \"¿En cuál se usa un lenguaje más sencillo?\" (4)\n- \"¿Sabes cómo se llama cada texto?\" (5)\n7. Orienta el diálogo para que identifiquen versos, estrofas y rima. Destaca la diferencia entre poema y copla (lenguaje más sencillo en la copla).",
+          "actividad_numero": "Comprensión oral Comparación (pág. 124-125)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente concluye que trabajarán con la copla.\n2. Los estudiantes copian en su cuaderno las características básicas identificadas.",
+          "actividad_numero": "Comprensión oral (Síntesis)"
+        }
+      ]
+    },
+    {
+      "id": "1771450459593",
+      "sequence_id": "seq-1771353859619",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Análisis de la copla de Machado",
+      "intencion_pedagogica": "Analizar la copla de Manuel Machado, identificando su contenido, sentimientos, rima y ritmo, y relacionarla con las coplas de juegos infantiles.\n\n",
+      "estrategia": "Recitación en voz alta: El docente recita la copla con entonación adecuada.\n\nPreguntas de análisis: Comprensión del contenido y los sentimientos expresados.\n\nIdentificación de elementos poéticos: Rima, ritmo, pausas.\n\nConexión con canciones infantiles: Relación de la copla con juegos de ronda.",
+      "aprendizaje_significativo": "Se analiza una copla del poeta Manuel Machado que habla sobre la naturaleza popular de las coplas, conectando la poesía culta con la tradición oral y los juegos infantiles que los estudiantes conocen.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les permite trabajar las preguntas en pareja.\n\nPara estudiantes kinestésicos: Se les invita a marcar el ritmo con palmadas.\n\nPara estudiantes con discapacidad auditiva: Se les proporcionan los textos por escrito.\n\nPara estudiantes avanzados: Se les pide que identifiquen el tipo de rima (asonante/consonante)",
+      "actividades_cuaderno": "Copiar la copla de Manuel Machado y la copla corta \"Quisiera verte y no verte\". Subrayar las palabras que riman.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Texto de la copla (pág. 125)",
+          "descripcion": "1. El docente recita nuevamente la copla de Manuel Machado (pág. 125).",
+          "actividad_numero": "Comprensión oral (Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto de la copla\n• Pizarra",
+          "descripcion": "1. Pregunta 1: \"¿Por qué el autor tituló así el texto?\" (Porque habla de las coplas).\n2. Pregunta 2: \"¿Qué cuenta el autor en el texto?\" (Que las coplas no son coplas si no las canta el pueblo, que después que el pueblo las canta pierden su autor, que deben llegar al pueblo).\n3. Pregunta 3: \"¿Qué quiso decir con 'Hasta que el pueblo las canta, las coplas, coplas no son'?\" (Que deben ser cantadas por el pueblo).\n4. Pregunta 4: \"¿Quién crees que sea Guillén?\" (Un poeta o escritor).\n5. Pregunta 5: \"¿Qué significa 'fundir'?\" (Unir, derretir).\n6. Pregunta 6: \"¿Cuáles sentimientos expresa el autor? ¿Qué sintieron ustedes?\" (Respuesta variada).\n7. El docente recita la segunda estrofa y pide identificar palabras con sonidos parecidos al final (rima). Explica qué es la rima.\n8. Recita nuevamente haciendo énfasis en entonación, pausas y ritmo. Pregunta dónde y cuántas pausas se hacen, y si la lectura es igual que la de un cuento.",
+          "actividad_numero": "Comprensión oral Preguntas 1-6 (pág. 126) Análisis de rima (pág. 126)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Texto de la copla corta\n• Grabaciones de canciones infantiles (opcional)",
+          "descripcion": "1. El docente recita una copla corta (pág. 127):\nQuisiera verte y no verte,\nQuisiera hablarte y no hablarte,\nQuisiera no conocerte\nPara poder olvidarte\n2. Formula preguntas: a) ¿Qué dice? b) ¿Qué sentimientos expresa? c) ¿Puede sentirlo alguien en la realidad? d) ¿Qué palabras riman? e) ¿Cuántos versos tiene?\n3. Si es posible, reproduce canciones de juegos de ronda (Arroz con leche, Naranja dulce) o pregunta si las conocen. Concluye que esas son coplas cantadas.",
+          "actividad_numero": "Comprensión oral Análisis de copla corta (pág. 127)"
+        }
+      ]
+    },
+    {
+      "id": "1771450587267",
+      "sequence_id": "seq-1771353859619",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión Escrita",
+      "intencion_pedagogica": "Leer y comprender una copla de amor, formulando hipótesis a partir del título, identificando los sentimientos expresados y las figuras literarias utilizadas.\n\n",
+      "estrategia": "Formulación de hipótesis: Predicción del contenido a partir del título.\n\nLectura silenciosa: Los estudiantes leen individualmente.\n\nLectura en voz alta (modelado): El docente lee con entonación adecuada.\n\nLectura compartida: Estudiantes leen en voz alta por estrofas.\n\nPreguntas de comprensión: Análisis del contenido.",
+      "aprendizaje_significativo": "Se trabaja con una \"Copla de amor\" del escritor español Miguel Ángel Yusta, conectando la poesía con los sentimientos universales y mostrando cómo la copla puede expresar emociones profundas con un lenguaje sencillo.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectura: Se les permite leer en pareja.\n\nPara estudiantes kinestésicos: Se les invita a representar el \"jardín de tu cara\" con gestos.\n\nPara estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que identifiquen otras metáforas en la copla.",
+      "actividades_cuaderno": "Copiar la \"Copla de amor\" y escribir con sus propias palabras lo que significa cada estrofa.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente escribe en el pizarrón el título: \"Copla de amor\" de Miguel Ángel Yusta.\n2. Pregunta de qué creen que trata y anota las hipótesis.",
+          "actividad_numero": "Comprensión escrita Pre-lectura (pág. 128)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con la copla\n• Pizarra",
+          "descripcion": "1. El docente muestra la copla en papelógrafo o proyectada:\nEn el jardín de tu cara\nhay una flor especial;\nquiero ser tu jardinero\npara poderla besar.\n\nNo voy a decir a nadie\nlo mucho que yo te quiero\nque hay gente muy envidiosa\ny te dirán que no es cierto.\n\nQuise beber una vez\nen la fuente de tus besos\ny por calmar tanta sed\nme ahogué para siempre en ellos.\n2. Pide que lean en silencio.\n3. Lee en voz alta para modelar entonación y pausas.\n4. Tres estudiantes leen una estrofa cada uno.\n5. Todos leen a coro la copla.\n6. Verifican las hipótesis formuladas antes de la lectura.\n\nPost-lectura (pág. 128):\n1. \"¿Cuál sentimiento expresa el autor?\" (Amor)\n2. \"¿A quién le ha escrito?\" (A alguien de quien está enamorado)\n3. \"¿Qué quiere decir 'En el jardín de tu cara'?\" (Que la cara es hermosa como un jardín)\n4. \"¿Qué parte de la cara es la 'flor especial'? ¿Por qué?\" (La boca, porque quiere besarla)\n5. \"¿Qué dice el autor en la copla? Exprésalo con tus palabras.\"",
+          "actividad_numero": "Comprensión escrita Lectura (pág. 128) Post-lectura (pág. 128)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas.\n2. El docente refuerza las ideas principales.",
+          "actividad_numero": "Comprensión escrita (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771450686240",
+      "sequence_id": "seq-1771353859619",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Gramática Textual",
+      "intencion_pedagogica": "Sistematizar las características de la copla: origen, estructura, rima (asonante/consonante) y figuras literarias (comparación, metáfora, anáfora).\n\n",
+      "estrategia": "Clase expositiva dialogada: Presentación de las características de la copla.\n\nUso de ejemplos: Análisis de coplas trabajadas para identificar elementos.\n\nIdentificación de rima y figuras literarias: Los estudiantes reconocen estos elementos en las coplas leídas.\n\nUso de recursos digitales: Sugerencia de sitios web para ampliar.",
+      "aprendizaje_significativo": "Se sistematizan los conocimientos sobre la copla como género popular, identificando su estructura, rima y figuras literarias, lo que permite a los estudiantes apreciar la riqueza de la poesía tradicional.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de abstracción: Se les proporcionan ejemplos muy claros de cada figura.\n\nPara estudiantes visuales: Se utilizan esquemas y colores para cada tipo de rima.\n\nPara estudiantes kinestésicos: Se les invita a crear un movimiento para cada figura literaria.\n\nPara estudiantes avanzados: Se les pide que busquen una copla e identifiquen sus elementos.",
+      "actividades_cuaderno": "Copiar la síntesis de las características de la copla: origen, estructura, tipos de rima y figuras literarias con ejemplos.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente presenta el origen de la copla (pág. 129): España, siglo XVIII, también llamada tonadilla. Llegó a América.\n2. Explica que pueden ser populares (autor desconocido) o cultas (autores reconocidos).\n3. Menciona las coplas infantiles de juegos populares.",
+          "actividad_numero": "Gramática textual (Párrafos 1-3, pág. 129)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Coplas trabajadas anteriormente\n• Pizarra",
+          "descripcion": "1. Estructura: Generalmente cuatro versos de arte menor (octosílabos), organizados en cuarteta, redondilla o seguidilla. Explica cada tipo.\n2. Rima:\n- Asonante: Combinan solo las vocales a partir de la sílaba acentuada. Ejemplo: \"son\" y \"autor\" (pág. 130).\n- Consonante: Combinan vocales y consonantes. Ejemplo: \"verte\" y \"conocerte\", \"hablarte\" y \"olvidarte\" (pág. 130).\n3. Figuras literarias:\n- Comparación: Relación de semejanza con \"como\". Ejemplo: \"Era blanca como un queso\" (pág. 130-131).\n- Metáfora: Sustitución de un término real por otro imaginario. Ejemplo: \"En el jardín de tu cara\" (pág. 131).\n- Anáfora: Repetición de una palabra al inicio de varios versos. Ejemplo: \"Tírame la lima, tírame el limón\" (pág. 131).\n4. Los estudiantes identifican en las coplas trabajadas ejemplos de rima y figuras literarias.",
+          "actividad_numero": "Gramática textual Estructura (pág. 129) Rima (pág. 130) Figuras literarias (págs. 130-131)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Códigos QR o direcciones web",
+          "descripcion": "1. El docente sugiere visitar sitios web con más coplas (pág. 132) y muestra los códigos QR.\n2. Los estudiantes copian la síntesis en su cuaderno.",
+          "actividad_numero": "Gramática textual Ampliación (pág. 132)"
+        }
+      ]
+    },
+    {
+      "id": "1771450764827",
+      "sequence_id": "seq-1771353859619",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Producción Oral y Escrita",
+      "intencion_pedagogica": "Producir oralmente y por escrito una copla propia, aplicando las características del género (estrofas, rima, figuras literarias) y prepararla para su recitación en la actividad escolar.\n\n",
+      "estrategia": "Proyecto de recitación: Actividad \"Vamos a recitar y a cantar coplas\".\n\nTaller de escritura: Acompañamiento en la creación de coplas propias.\n\nUso de organizador gráfico: Para planificar la copla.\n\nRevisión con instrumento: Lista de cotejo para autoevaluación.\n\nRecitación y publicación: Los estudiantes recitan sus coplas y participan en un concurso.",
+      "aprendizaje_significativo": "Los estudiantes crean sus propias coplas sobre temas de su comunidad o experiencias personales, y las comparten en un evento escolar, conectando la tradición poética con su propia creatividad y expresión personal.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite escribir coplas más cortas o con ayuda.\n\nPara estudiantes tímidos: Se les permite recitar en grupos pequeños o con un compañero.\n\nPara estudiantes kinestésicos: Se les anima a incluir gestos y movimientos.\n\nPara estudiantes avanzados: Se les pide que incluyan al menos dos figuras literarias en su copla.\n\nPara estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado para la recitación.",
+      "actividades_cuaderno": "Escribir la versión final de su copla, decorarla y prepararse para la recitación.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente anuncia la actividad \"Vamos a recitar y a cantar coplas\" para estudiantes de 3ero y 4to.\n2. Explica que cada estudiante declamará o cantará una copla de su autoría o de otro autor.",
+          "actividad_numero": "Producción oral Proyecto (pág. 132)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Coplas adicionales\n• Cuadernos\n• Instrumento de evaluación fotocopia.",
+          "descripcion": "1. El docente lleva al aula otras coplas (fotocopiadas o grabadas) para que los estudiantes las lean/escuchen (pág. 132).\n2. Conversan sobre los temas que han servido de inspiración a los autores.\n3. Ayuda a los estudiantes a seleccionar la temática de su copla (historias reales, hechos humorísticos, costumbres de la región).\n4. Producción escrita (págs. 133-134):\n- Planificación: Clarificar propósito, seleccionar tema, tipo de estrofa (cuarteta o redondilla), tipo de rima y vocabulario según los sentimientos a expresar.\n- Textualización: Escribir los borradores necesarios.\n- Revisión: Usar el instrumento de evaluación (pág. 134):\n1. ¿La copla narra un hecho real o describe una costumbre de su comunidad?\n2. ¿Está estructurada en cuartetas o redondillas?\n3. ¿Utiliza vocabulario apropiado para expresar sentimientos?\n4. ¿Sus versos tienen rima asonante o consonante?\n5. ¿Se nota el uso de figuras literarias?\n5. El docente revisa individualmente para evitar que alguien copie ideas.\n6. Los estudiantes ensayan la recitación con entonación, pausas y movimientos corporales adecuados.",
+          "actividad_numero": "Producción escrita Pasos (págs. 133-134) Instrumento de evaluación (pág. 134)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio ambientado",
+          "descripcion": "1. El docente organiza el lugar para la actividad (salón o patio) con ambiente de alegría y creatividad.\n2. Recuerda que si algún estudiante no logra inspirarse, puede recitar una copla de las trabajadas en clase.\n3. Se anima a los estudiantes a poner música a sus coplas, involucrando al docente de Educación Artística.",
+          "actividad_numero": "Producción oral Evento (pág. 132)"
+        }
+      ]
+    }
+  ]
+}

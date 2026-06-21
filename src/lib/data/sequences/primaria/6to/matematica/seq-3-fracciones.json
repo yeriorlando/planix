@@ -1,0 +1,399 @@
+{
+  "id": "seq-1772478754507",
+  "title": "Fracciones",
+  "description": "Introduce el concepto de fracción como parte de un todo. Se trabajan la representación, comparación y operaciones con fracciones aplicadas a situaciones de la vida diaria.",
+  "order": 3,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772478754486",
+      "sequence_id": "seq-1772478754507",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Los números fraccionarios",
+      "intencion_pedagogica": "Introducir a los estudiantes en el mundo de los números fraccionarios, ayudándoles a identificar, representar gráficamente y escribir fracciones, diferenciando entre fracciones propias e impropias, y comprendiendo el significado del numerador y denominador.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre fracciones.\n• Uso de material concreto: Rótulos y gráficos de fracciones.\n• Trabajo colaborativo: Identificación y representación de fracciones.\n• Ejercicios prácticos: Graficación y escritura de fracciones.",
+      "aprendizaje_significativo": "Los estudiantes relacionan las fracciones con situaciones cotidianas del comercio mayorista y minorista, como dividir productos en partes iguales o determinar porciones de mercancía, comprendiendo su utilidad en la vida diaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan gráficos pre-dibujados para que solo tengan que escribir la fracción.\n• Para estudiantes kinestésicos: Pueden usar material concreto (papeles de colores, fichas) para construir sus propias representaciones de fracciones.\n• Para estudiantes con discapacidad visual: Se les proporcionan las figuras en relieve para que puedan palpar las divisiones.\n• Para estudiantes avanzados: Se les pide que representen una fracción impropia como número mixto.",
+      "actividades_cuaderno": "\"Escribe la fracción que representa la parte coloreada y la no coloreada en la figura.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente pregunta: \"¿Qué recuerdan sobre las fracciones? ¿Cómo se representan? ¿Cómo se llaman sus elementos? ¿Qué es una fracción propia? ¿Qué es una fracción impropia?\" (pág. 81).\n2. Escucha las respuestas y las anota en la pizarra.",
+          "actividad_numero": "Actividad 1 - A (Pág. 81)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C, D",
+          "tiempo": "60",
+          "recursos": "• Rótulos con gráficos de fracciones\n• Pizarra\n• Cuadernos\n• Lápices de colores",
+          "descripcion": "Actividad 1 - Representación gráfica de fracciones (25 min):\n1. El docente presenta en rótulos gráficos que representan fracciones (como los de la página 81).\n2. Solicita que observen cada fracción, cuenten las partes en que se dividió el entero y las partes sombreadas.\n3. Los estudiantes trabajan en sus cuadernos identificando la fracción que representa cada gráfica, escribiéndolas en números y en palabras.\n4. Envía estudiantes a pegar los rótulos en la representación gráfica correspondiente.\n5. Construyen el concepto de fracción, enfatizando el total de partes y la cantidad sombreada.\n\nActividad 2 - Cápsula y ejercicios (25 min):\n1. El docente presenta la cápsula sobre fracciones propias e impropias (pág. 82).\n2. Explica los elementos de una fracción: numerador y denominador.\n3. Plantea los ejercicios de la página 82:\na. Graficar: siete doceavos; quince veinteavos.\nb. Identificar la fracción que representa la parte coloreada y la no coloreada en cada caso.\n4. Los estudiantes trabajan en sus cuadernos mientras el docente circula y apoya.\n\nActividad 3 - Actividades complementarias (10 min):\n1. El docente asigna las actividades de la página 82:\n- Escribir en palabras las fracciones: 7/8 y 9/20.\n- Escribir en forma numérica: tres diecisieteavos.\n- Graficar la fracción: 6/5.\n- Escribir una fracción con denominador 10.\n- Identificar la fracción de la parte coloreada en la figura.",
+          "actividad_numero": "Actividad 1 - B y C (Pág. 81-82)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente realiza preguntas de cierre: \"En la fracción 3/7, ¿en cuántas partes se dividió el entero? ¿Cuántas partes se tomaron? ¿Qué es una fracción impropia?\" (pág. 82).\n2. Asigna la actividad para el diario del estudiante (pág. 82): \"Escribe la fracción que representa la parte coloreada y la no coloreada.\"",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 82)"
+        }
+      ]
+    },
+    {
+      "id": "1772478844351",
+      "sequence_id": "seq-1772478754507",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Suma y resta de fracciones",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de sumar y restar fracciones con diferentes denominadores, utilizando el mínimo común múltiplo (m.c.m.) para igualar denominadores y aplicando estos conocimientos en situaciones problemáticas del entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre suma y resta de fracciones.\n• Resolución de problemas: Aplicación de suma y resta de fracciones en situaciones cotidianas.\n• Uso de estrategias: Cálculo de m.c.m. y descomposición.",
+      "aprendizaje_significativo": "Los estudiantes aplican la suma y resta de fracciones a situaciones cotidianas como preparar recetas de cocina o combinar ingredientes, comprendiendo la necesidad de encontrar un denominador común para operar.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla con los pasos para encontrar el m.c.m. y reescribir fracciones.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los resultados.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que resuelvan el problema utilizando ambas estrategias y comparen los resultados.",
+      "actividades_cuaderno": "Actividad para el cuaderno:\n\"Para la elaboración de una receta se compró 4/5 libras de queso blanco y 1/2 libra de queso blanco. ¿Cuántas libras de queso se compraron?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo representaron gráficamente las fracciones? ¿Qué hicieron primero?\" (pág. 83).\n2. Invita a un estudiante a pasar a la pizarra para graficar su solución.\n3. Luego, pregunta: \"¿Quién sabe cómo se suman o restan fracciones? ¿Qué hay que tener en cuenta? ¿Qué pasa si los denominadores son diferentes?\" (pág. 83).",
+          "actividad_numero": "Actividad 2 - A (Pág. 83)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Ejemplos iniciales (10 min):\n1. El docente plantea ejemplos con denominadores iguales: 3/8 + 4/8 y 3/8 - 2/8.\n2. Los estudiantes resuelven en cuadernos.\n3. Socializa los resultados, enfatizando que se suman o restan los numeradores y se mantiene el denominador.\n\nActividad 2 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 83): \"Una madre de familia compra 1/2 de libra de harina para completar una receta. Si ella tiene 3/5 de libra en su casa y le sobran 3/8 después de la preparación de la receta, ¿qué cantidad de harina usó en la receta?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo piensan resolverlo?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a un estudiante a la pizarra.\n6. Socializa el procedimiento apoyándose en los cuadros de la página 84 (dos posibles soluciones).\n7. Explica cómo buscar el común denominador (m.c.m.) y reescribir las fracciones.\n\nActividad 3 - Actividad para el cuaderno (20 min):\n1. Asigna la actividad (pág. 85): \"Para la elaboración de una receta se compró 4/5 libras de queso blanco y 1/2 libra de queso blanco. ¿Cuántas libras de queso se compraron?\"",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 83-85)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cuál es la suma de 2/5 + 1/8? ¿Qué procedimientos usamos? ¿Cuál fue el resultado en ambos procedimientos?\" (pág. 85).\n2. Asigna la actividad complementaria (pág. 85).\n3. Asigna la actividad para el diario del estudiante (pág. 86): \"Resuelve: 1/2 + 2/3 + 3/4\" (adaptado de la página 85).",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 85-86)"
+        }
+      ]
+    },
+    {
+      "id": "1772478914951",
+      "sequence_id": "seq-1772478754507",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Multiplicación y división de fracciones",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de multiplicar y dividir fracciones, aplicando la regla de multiplicar numeradores y denominadores, y utilizando la fracción recíproca para la división, resolviendo situaciones problemáticas del entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre multiplicación y división de fracciones.\n• Resolución de problemas: Aplicación de multiplicación y división de fracciones en situaciones cotidianas.\n• Uso de estrategias: Fracción recíproca y simplificación.",
+      "aprendizaje_significativo": "Los estudiantes aplican la multiplicación y división de fracciones a situaciones cotidianas como repartir alimentos, cortar cables en pedazos o aumentar cantidades, comprendiendo la utilidad de la fracción recíproca en la división.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tarjeta con los pasos para multiplicar y dividir fracciones.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los resultados.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué la división de fracciones se resuelve multiplicando por la fracción recíproca.",
+      "actividades_cuaderno": "\"Mirna compró un queso que pesaba 3/4 kilo. Si lo partió en porciones de 1/8 de kilo cada una, ¿cuántas porciones de queso pudo sacar?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema del tanque de agua? ¿Qué hicieron primero?\" (pág. 86).\n2. Solicita a un estudiante que vaya a la pizarra.\n3. Refuerza conocimientos.\n4. Luego, escribe ejemplos en la pizarra: 3/4 × 2, 3/5 × 2/5, 2/8 ÷ 3/10. Pregunta: \"¿Cómo se multiplican las fracciones? ¿Cómo se dividen? ¿Cómo se simplifican?\" (pág. 86).",
+          "actividad_numero": "Actividad 3 - A (Pág. 86)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Situaciones problemáticas (35 min):\n1. El docente plantea dos situaciones (pág. 86):\n- \"Una ferretería tiene un cable de 4/5 m de longitud para cortar pedazos iguales de 1/10 m. ¿Cuántos pedazos cortarán?\"\n- \"Un tinaco contiene agua en 1/6 de su capacidad y aumentan 2/3 veces su contenido. ¿Cuánta agua tiene ahora?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Qué operación creen que resuelve el primer problema? ¿Por qué? ¿Y el segundo?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía voluntarios a la pizarra.\n6. Socializa los procedimientos apoyándose en el cuadro de la página 86-87.\n7. Explica el concepto de fracción recíproca y cómo se usa en la división.\n\nActividad 2 - Cápsula (10 min):\n1. Presenta la cápsula sobre multiplicación y división de fracciones (pág. 87).\n\nActividad 3 - Actividad para el cuaderno (15 min):\n1. Asigna la actividad (pág. 87): \"Mirna compró un queso que pesaba 3/4 kilo. Si lo partió en porciones de 1/8 de kilo cada una, ¿cuántas porciones de queso pudo sacar?\"",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 86-87)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo resolvieron el problema de los huevos? ¿Cómo se multiplican las fracciones? ¿Cómo se dividen?\" (pág. 87).\n2. Asigna la actividad complementaria (pág. 87).\n3. Asigna la actividad para el diario del estudiante (pág. 88): \"Un vendedor de mangos tiene en su puesto 3/4 unidades y un cliente compra 1/2 del total, ¿cuántos mangos compró?\"",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 87-88)"
+        }
+      ]
+    },
+    {
+      "id": "1772478983390",
+      "sequence_id": "seq-1772478754507",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comparación de fracciones",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de comparar fracciones utilizando diferentes estrategias (igualación de denominadores, comparación de numeradores cuando los denominadores son iguales, y regla del denominador menor cuando los numeradores son iguales), aplicando estos conocimientos en situaciones problemáticas del entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre comparación de fracciones.\n• Resolución de problemas: Aplicación de comparación de fracciones en situaciones cotidianas.\n• Uso de estrategias: Igualación de denominadores y comparación de numeradores.",
+      "aprendizaje_significativo": "Los estudiantes aplican la comparación de fracciones a situaciones cotidianas como determinar qué recipiente tiene más líquido o qué producto se ha vendido más, comprendiendo la necesidad de igualar denominadores para comparar.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para igualar denominadores.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar las comparaciones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué cuando los numeradores son iguales, la fracción con denominador menor es mayor.",
+      "actividades_cuaderno": "\"Una familia tiene en su nevera 3/4 libras de queso y 6/10 libras de mantequilla, ¿de cuál de los dos alimentos tiene menos?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de los mangos? ¿Cuál fue el resultado?\" (pág. 88).\n2. Invita a un estudiante a pasar a la pizarra.\n3. Apoya el proceso con preguntas.\n4. Luego, explora el tema: \"¿Qué saben sobre la comparación de fracciones? ¿Cuáles signos se usan? ¿Cuál será el tema del día?\" (pág. 88).",
+          "actividad_numero": "Actividad 4 - A (Pág. 88)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "Actividad 1 - Situaciones problemáticas (35 min):\n1. El docente plantea las situaciones (pág. 88):\n- \"En un hogar hay 2 tanques de agua de igual tamaño y contienen respectivamente 3/9 y 2/5 de su contenido, ¿cuál tanque tiene mayor contenido?\"\n- \"Una ferretería tiene tiras de soga del mismo tamaño pero de diferente color. Si de una tira roja vendieron 6/7 y de una tira verde vendieron 6/9, ¿de cuál tira vendieron más?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo son sus numeradores? ¿Cómo son sus denominadores?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía voluntarios a la pizarra.\n6. Socializa los procedimientos apoyándose en la cápsula de la página 89.\n7. Explica que cuando los denominadores son diferentes, se igualan multiplicando cada fracción intercambiando los denominadores.\n\nActividad 2 - Cápsula (10 min):\n1. Presenta la cápsula sobre comparación de fracciones (pág. 89).\n\nActividad 3 - Actividad para el cuaderno (15 min):\n1. Asigna la actividad (pág. 90): \"Una familia tiene en su nevera 3/4 libras de queso y 6/10 libras de mantequilla, ¿de cuál de los dos alimentos tiene menos?\"",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 88-90)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Presenta la tabla de cierre (pág. 90) para completar las comparaciones y justificar por qué.\n2. Asigna la actividad complementaria (pág. 90).\n3. Asigna la actividad para el diario del estudiante (pág. 90): \"En una repostería preparan dos bizcochos, uno con mermelada de piña y otro de fresa. Si de la mermelada de piña le queda 4/5 y de la de fresa, 4/9, ¿de cuál queda la mayor cantidad?\"",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 90)"
+        }
+      ]
+    },
+    {
+      "id": "1772479052925",
+      "sequence_id": "seq-1772478754507",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Fracciones equivalentes",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de obtener fracciones equivalentes por simplificación y amplificación, comprendiendo que representan la misma cantidad y aplicando estos conocimientos en situaciones problemáticas del entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: Fracciones equivalentes.\n• Resolución de problemas: Aplicación de fracciones equivalentes por simplificación y amplificación.\n• Trabajo individual y colaborativo: Obtención de fracciones equivalentes.",
+      "aprendizaje_significativo": "Los estudiantes aplican las fracciones equivalentes a situaciones cotidianas como encontrar diferentes formas de expresar una misma porción o cantidad, comprendiendo que al multiplicar o dividir numerador y denominador por el mismo número se obtienen fracciones equivalentes.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla con los pasos para simplificar y amplificar.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar que las fracciones son equivalentes.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que encuentren la fracción irreducible de una fracción dada.",
+      "actividades_cuaderno": "\"Una ferretería vende porciones de pintura para autos de 3/15 de litro. ¿Cuáles fracciones equivalentes por simplificación y amplificación se obtienen?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de los bizcochos? ¿De cuál queda la mayor cantidad?\" (pág. 90).\n2. Invita a un estudiante a pasar a la pizarra.\n3. Luego, pregunta: \"¿Qué saben sobre fracciones equivalentes? ¿Cómo se obtienen?\" (pág. 91).",
+          "actividad_numero": "Actividad 5 - A (Pág. 91)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video\n• Proyector/TV\n• Computadora\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video sobre fracciones equivalentes disponible en: https://www.youtube.com/watch?v=juaScoKLISY (pág. 91).\n2. Después del video, pregunta: \"¿De qué trata? ¿Qué son fracciones equivalentes? ¿Cómo se obtienen por simplificación? ¿Por amplificación?\"\n3. En caso de no tener tecnología, trabaja con los ejemplos de la página 91.\n\nActividad 2 - Situaciones problemáticas (30 min):\n1. El docente plantea las situaciones (pág. 91-92):\n- \"María guarda 6/24 partes de una barra de chocolate para su merienda, ¿cuáles serían dos fracciones equivalentes por simplificación?\"\n- \"Un carpintero tiene un pedazo de madera de 2/7 m de longitud, ¿cuáles dos fracciones equivalentes por amplificación puede obtener?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo creen que se pueden obtener las fracciones equivalentes?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía voluntarios a la pizarra.\n6. Socializa los procedimientos apoyándose en los cuadros de la página 92.\n7. Explica que en la simplificación se divide numerador y denominador por el mismo número, y en la amplificación se multiplica.\n\nActividad 3 - Actividad para el cuaderno (15 min):\n1. Asigna la actividad (pág. 92): \"Una ferretería vende porciones de pintura para autos de 3/15 de litro. ¿Cuáles fracciones equivalentes por simplificación y amplificación se obtienen?\"",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 91-92)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta el ejercicio de cierre (pág. 93): Identificar con un cotejo las fracciones equivalentes a la fracción dada.\n2. Asigna la actividad complementaria (pág. 93).\n3. Asigna la actividad para el diario del estudiante (pág. 93): \"Un motoconcho le coloca 3/5 de galón de combustible al tanque de su motocicleta: halle dos fracciones equivalentes.\"",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 93)"
+        }
+      ]
+    },
+    {
+      "id": "1772479127986",
+      "sequence_id": "seq-1772478754507",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Equivalencias entre fracciones y decimales",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de convertir fracciones a decimales (mediante división) y decimales a fracciones (mediante lectura y simplificación), aplicando estos conocimientos en situaciones problemáticas del entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre equivalencias entre fracciones y decimales.\n• Resolución de problemas: Aplicación de conversiones entre fracciones y decimales.\n• Uso de estrategias: División numerador/denominador y lectura de decimales.",
+      "aprendizaje_significativo": "Los estudiantes aplican las equivalencias entre fracciones y decimales a situaciones cotidianas como expresar cantidades de combustible o porciones de alimentos en diferentes formatos, comprendiendo que una misma cantidad puede representarse de distintas maneras.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla con las equivalencias decimales de fracciones comunes (1/2=0.5, 1/4=0.25, etc.).\n• Para estudiantes kinestésicos: Pueden usar la calculadora para realizar las divisiones y verificar equivalencias.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen qué fracciones generan decimales periódicos.",
+      "actividades_cuaderno": "\"En una fiesta de cumpleaños se consume 0.45 de un bizcocho, ¿cuál es la fracción equivalente de lo consumido?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema del motoconcho? ¿Cuáles fracciones equivalentes obtuvieron?\" (pág. 93).\n2. Invita a varios estudiantes a pasar a la pizarra.\n3. Socializa los resultados.\n4. Luego, explora conocimientos: \"¿Qué significa la palabra equivalente? ¿Cómo se puede encontrar la equivalencia entre una fracción y un número decimal? ¿Cómo se expresa un número decimal como fracción?\" (pág. 94).",
+          "actividad_numero": "Actividad 6 - A (Pág. 94)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Ejemplos introductorios (15 min):\n1. El docente plantea los ejercicios de la página 94:\n- \"¿Cuál es el decimal equivalente a la fracción 1/4?\"\n- \"¿Cuál es la fracción equivalente al decimal 0.75?\"\n2. Los estudiantes resuelven en sus cuadernos.\n3. Socializa los procedimientos apoyándose en el cuadro de la página 94.\n4. Explica que para convertir fracción a decimal se divide numerador entre denominador, y para convertir decimal a fracción se escribe el decimal como fracción con denominador 10, 100, 1000, etc., y se simplifica.\n\nActividad 2 - Situación problemática (25 min):\n1. El docente plantea la situación (pág. 95): \"Una estación de combustible vende a un cliente 1/8 de galón de querosen, ¿cuál número decimal es equivalente a esta fracción?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Qué les piden encontrar?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a un estudiante a la pizarra.\n6. Socializa el procedimiento apoyándose en el cuadro de la página 95.\n7. Comprueban convirtiendo el decimal obtenido nuevamente a fracción.\n\nActividad 3 - Actividad para el cuaderno (20 min):\n1. Asigna la actividad (pág. 95): \"En una fiesta de cumpleaños se consume 0.45 de un bizcocho, ¿cuál es la fracción equivalente de lo consumido?\"",
+          "actividad_numero": "Actividad 6 - B y C (Pág. 94-95)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cuál operación se realiza para encontrar el decimal equivalente a una fracción? ¿Cómo se obtiene la expresión más simple de una fracción?\" (pág. 95).\n2. Asigna la actividad complementaria (pág. 96).\n3. Asigna la actividad para el diario del estudiante (pág. 96): \"Encuentra la fracción equivalente a 0.625.\"",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 95-96)"
+        }
+      ]
+    },
+    {
+      "id": "1772479209467",
+      "sequence_id": "seq-1772478754507",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Razones y proporciones",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de identificar y trabajar con razones y proporciones, aplicando la propiedad fundamental (producto de medios igual a producto de extremos) para resolver problemas del contexto comercial.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: Razones y proporciones.\n• Resolución de problemas: Aplicación de razones y proporciones en situaciones comerciales.\n• Uso de estrategias: Regla de tres y producto de medios y extremos.",
+      "aprendizaje_significativo": "Los estudiantes aplican las razones y proporciones a situaciones cotidianas del comercio, como comparar precios, salarios o cantidades de productos, comprendiendo que una proporción es una igualdad entre dos razones.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para plantear y resolver proporciones.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los productos cruzados.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que creen un problema de proporción y lo intercambien con un compañero.",
+      "actividades_cuaderno": "\"El precio del quintal de pollo con relación al quintal de arroz es de 5:3. Si el precio del quintal de arroz es de RD$ 3,325, ¿cuánto vale el quintal de pollo?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema? ¿Qué fracción equivalente obtuvieron?\" (pág. 96).\n2. Invita a un estudiante a pasar a la pizarra.\n3. Refuerza conocimientos.\n4. Luego, explora: \"¿Qué es una razón? ¿Qué es una proporción? ¿Cuál será el tema de la clase?\" (pág. 97).",
+          "actividad_numero": "Actividad 7 - A (Pág. 97)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video\n• Proyector/TV\n• Computadora\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video sobre razones y proporciones disponible en: https://www.youtube.com/watch?v=avKSHL8Dt5M (pág. 97).\n2. Después del video, pregunta: \"¿De qué trata? ¿Qué es una razón? ¿Qué es una proporción? ¿Cómo se lee 3:4?\"\n3. En caso de no tener tecnología, trabaja con la cápsula de la página 98.\n\nActividad 2 - Situaciones problemáticas (30 min):\n1. El docente plantea las situaciones (pág. 97-98):\n- \"En la estantería de un colmado hay 45 guineos maduros y 90 verdes. Escribe la razón que indica los guineos maduros con relación a los verdes. ¿Cuántos guineos maduros habrá si hay 104 verdes?\"\n- \"El salario quincenal de un chofer de guagua y un cobrador, están en la razón 4:3 respectivamente. Si el sueldo del chofer es RD$ 30,000, ¿cuál es el sueldo del cobrador?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo creen que se resuelven?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía voluntarios a la pizarra.\n6. Socializa los procedimientos apoyándose en los cuadros de las páginas 98-99.\n7. Explica la propiedad fundamental: producto de medios = producto de extremos.\n\nActividad 3 - Actividad para el cuaderno (15 min):\n1. Asigna la actividad (pág. 99): \"El precio del quintal de pollo con relación al quintal de arroz es de 5:3. Si el precio del quintal de arroz es de RD$ 3,325, ¿cuánto vale el quintal de pollo?\"",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 97-99)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué es una razón? ¿Qué es una proporción? ¿Cómo se comprueba si dos razones forman una proporción?\" (pág. 99).\n2. Asigna la actividad complementaria (pág. 100).\n3. Asigna la actividad para el diario del estudiante (pág. 100): \"En la sucursal A y B de una tienda de calzados la relación de venta es de 6:10 respectivamente. Si en la sucursal B venden RD$ 120,000, ¿cuánto vendió la sucursal A?\"",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 99-100)"
+        }
+      ]
+    },
+    {
+      "id": "1772479285153",
+      "sequence_id": "seq-1772478754507",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Porcentaje y tanto por ciento",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular porcentajes y tanto por ciento, utilizando la calculadora y aplicando estos conocimientos en situaciones problemáticas del contexto comercial.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre porcentaje.\n• Uso de calculadora: Cálculo de porcentajes.\n• Resolución de problemas: Aplicación de porcentajes en situaciones de compras y descuentos.",
+      "aprendizaje_significativo": "Los estudiantes aplican el concepto de porcentaje a situaciones cotidianas como calcular descuentos en tiendas, ganancias o gastos, comprendiendo que el porcentaje representa una fracción con denominador 100.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía con los pasos para calcular porcentajes en la calculadora.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para practicar diferentes porcentajes.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que calculen el porcentaje de descuento si conocen el precio original y el final.",
+      "actividades_cuaderno": "\"Un motoconcho produce en promedio RD$ 2,220 diarios y de combustible gasta el 13%, ¿cuánto dinero gasta en combustible? ¿cuánto dinero le queda?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de la tienda de calzados? ¿Cuánto vendió la sucursal A?\" (pág. 100).\n2. Invita a un estudiante a pasar a la pizarra.\n3. Refuerza conocimientos.\n4. Luego, pregunta: \"¿Qué saben de porcentaje? ¿Qué es el tanto por ciento? ¿Dónde han visto porcentajes? ¿Cuál es el signo de por ciento?\" (pág. 100).",
+          "actividad_numero": "Actividad 8 - A (Pág. 100)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Cálculo de porcentajes con calculadora (20 min):\n1. El docente plantea los ejercicios de la página 101:\na. 25% de 1,000\nb. 20% de 10,000\nc. 8.5% de 75,800\nd. 0.95% de 1,025,000\ne. 3/4% de 5,258,200\n2. Los estudiantes resuelven con calculadora y registran procedimientos.\n3. Envía voluntarios a la pizarra.\n4. Socializa los resultados, explicando que para calcular un porcentaje se multiplica por el porcentaje y se divide entre 100.\n\nActividad 2 - Situación problemática (25 min):\n1. El docente plantea la situación (pág. 101): \"La familia Rodríguez va de compras a una tienda de Santo Domingo, compran ropas que están a precio especial con 15% de descuento. Si el valor de la compra fue de RD$ 34,800, ¿cuánto dinero pagaron al aplicar el descuento?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo piensan resolverlo?\"\n4. Da tiempo para resolver en cuadernos usando calculadora.\n5. Envía a un estudiante a la pizarra.\n6. Socializa los procedimientos apoyándose en la cápsula de la página 101 (dos formas de calcular).\n\nActividad 3 - Actividad para el cuaderno (15 min):\n1. Asigna la actividad (pág. 103): \"Un motoconcho produce en promedio RD$ 2,220 diarios y de combustible gasta el 13%, ¿cuánto dinero gasta en combustible? ¿cuánto dinero le queda?\"",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 101-103)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo se calcula el 25% de una cantidad? ¿Por qué se divide entre 100?\" (pág. 101).\n2. Asigna la actividad complementaria (pág. 103).\n3. Asigna la actividad para el diario del estudiante (pág. 103): \"Resuelve las siguientes problemáticas: a) En la repartición de una herencia de RD$ 900,500 a cada heredero le corresponde el 20%, ¿cuánto dinero le toca a cada uno? b) Un trabajador independiente realiza un trabajo por RD$ 34,800. Si le descuentan el 10%, ¿cuánto dinero recibirá?\"",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 103)"
+        }
+      ]
+    },
+    {
+      "id": "1772479354189",
+      "sequence_id": "seq-1772478754507",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Repaso de la secuencia",
+      "intencion_pedagogica": "Guiar a los estudiantes en un proceso de recapitulación y consolidación de los aprendizajes adquiridos durante la secuencia sobre fracciones, integrando los diferentes contenidos (operaciones, comparación, equivalencias, razones, proporciones y porcentajes) a través de la resolución de ejercicios y problemas.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Recuperación de contenidos de la secuencia.\n• Resolución de ejercicios: Aplicación integrada de todos los temas.\n• Uso de diferentes estrategias: Suma, resta, multiplicación, división, comparación, equivalencias, razones y porcentajes.",
+      "aprendizaje_significativo": "Los estudiantes repasan y consolidan todos los conceptos trabajados en la secuencia (fracciones, operaciones, comparación, equivalencias, razones, proporciones y porcentajes) mediante la resolución de ejercicios variados, conectando estos conocimientos con su utilidad en la vida cotidiana y comercial.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una hoja resumen con las fórmulas y procedimientos clave.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los resultados.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen los procedimientos utilizados en cada problema.",
+      "actividades_cuaderno": "Los estudiantes deben resolver en sus cuadernos todos los ejercicios planteados durante la clase de repaso, mostrando los procedimientos completos.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema del motoconcho? ¿Cuánto le queda en promedio cada día?\" (pág. 103).\n2. Invita a un estudiante a pasar a la pizarra.\n3. Retroalimenta.\n4. Luego, inicia diálogo: \"¿Qué es una fracción? ¿Cómo se suman o restan? ¿Cómo se multiplican? ¿Cómo se dividen? ¿Qué es una razón? ¿Qué es una proporción? ¿Qué es el tanto por ciento?\" (pág. 103).",
+          "actividad_numero": "Actividad 9 - A (Pág. 103)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C, D",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Problemas de suma y resta (15 min):\n1. El docente plantea los problemas de la página 104:\n- \"En un huerto siembran 2/7 de su área con tomates y 1/9 con ajíes, ¿qué fracción de terreno sembraron?\"\n- \"Para un pastel compran 3/4 libra de harina, la receta requiere 1/2 libra, ¿cuánto sobra?\"\n2. Da tiempo para resolver.\n3. Socializa apoyándose en la tabla de la página 104.\n\nActividad 2 - Representación gráfica (10 min):\n1. Plantea: \"La biblioteca tiene 2/5 libros de matemática y 2/3 de historia. Representa gráficamente.\" (pág. 104).\n2. Los estudiantes dibujan en sus cuadernos.\n3. Socializa en la pizarra.\n\nActividad 3 - Multiplicación y división (15 min):\n1. Plantea los problemas de la página 105:\n- \"El tanque de combustible marca 3/4 y lo divide en 2/4, ¿cuál es el producto?\"\n- \"Tienen 3/4 de pizza para 6 miembros, ¿qué porción le corresponde a cada uno?\"\n2. Da tiempo para resolver.\n3. Socializa con las tablas de las páginas 105-106.\n\nActividad 4 - Equivalencias y razones (20 min):\n1. Plantea los problemas de la página 106-107:\n- \"Gasta el jueves 0.32, ¿fracción equivalente?\"\n- \"Gasta 2/5 el viernes, ¿decimal equivalente?\"\n- \"Lenny compra con 16% de descuento, precio RD$ 25,750, ¿cuánto le descuentan?\"\n- \"Pavos blancos y negros relación 5:6, 180 negros, ¿cuántos blancos?\"\n2. Da tiempo para resolver con calculadora.\n3. Socializa con las tablas de las páginas 107-108.",
+          "actividad_numero": "Actividad 9 - B, C y D (Pág. 104-108)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Asigna la actividad complementaria (pág. 108).\n2. Prepara a los estudiantes para la evaluación de la próxima clase.",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 108)"
+        }
+      ]
+    },
+    {
+      "id": "1772479426648",
+      "sequence_id": "seq-1772478754507",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Evaluando lo aprendido",
+      "intencion_pedagogica": "Evaluar el nivel de logro de los estudiantes en relación con los contenidos y competencias desarrolladas durante la secuencia de fracciones, mediante la resolución de problemas que integran operaciones, comparación, equivalencias, razones, proporciones y porcentajes.",
+      "estrategia": "• Diálogo dirigido: Recuperación de temas de la secuencia.\n• Explicación de la escala de valoración.\n• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas.",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia (operaciones con fracciones, comparación, equivalencias, razones, proporciones y porcentajes) en contextos variados (cocina, compras, repartos), evidenciando su capacidad para aplicar las matemáticas en situaciones reales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite el uso de calculadora y se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar sus cálculos.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que, al terminar, ayuden a revisar sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración",
+          "descripcion": "1. El docente inicia diciendo que evaluarán la secuencia 3 sobre números fraccionarios (pág. 109).\n2. Lee con ellos la tabla de valoración (escala numérica y nominal) para que comprendan cómo se evaluarán los resultados (pág. 109).",
+          "actividad_numero": "Actividad 10 - A (Pág. 109)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices\n• Calculadoras (si se permite)\n",
+          "descripcion": "1. El docente entrega una hoja en blanco a cada estudiante donde colocarán sus datos (pág. 109).\n2. Explica la valoración de cada ítem.\n3. Presenta los problemas de evaluación (págs. 109-110):\n\nÍtem 1 (10 pts): Cocinero tiene 3/4 lb jamón, empanadas de 1/8 lb, ¿cuántas empanadas?\nÍtem 2 (10 pts): Juan 2/5 tarea, Iris 1/3, Pedro 6/7, ¿total? Simplificar.\nÍtem 3 (10 pts): Escribir <, >, = : a) 5/8 __ 15/24; b) 3/4 __ 2/3; c) 2/3 __ 8/12; d) 5/6 __ 10/12; e) 10/3 __ 12/5.\nÍtem 4 (10 pts): Escribir la fracción que representa la parte coloreada en figuras.\nÍtem 5 (10 pts): a) Vendedor: 4.8% sobre ventas, vende RD$ 1,075,835, ¿ganancia? b) Compra RD$ 14,855 con 18.5% descuento, ¿ahorro?\nÍtem 6 (10 pts): a) Consumo pollo:cerdo 8:5, pollo RD$ 458,700, ¿consumo cerdo? b) Jardinero 2/5 litros por planta, tiene 10 litros, ¿cuántas plantas?\nÍtem 7 (10 pts): Ubicar en recta numérica: 2/3, 2/5, 2/8, 2/10.\nÍtem 8 (10 pts): a) Chofer y cobrador relación 8:5, cobrador RD$ 35,000, ¿salario chofer? b) Juanny y Maritza pagan luz relación 4:5, Juanny RD$ 8,000, ¿Maritza?\nÍtem 9 (10 pts): Queda 1/3 de bizcocho para 8 invitados, ¿porción?\nÍtem 10 (10 pts): Vendedor huevos tiene 1/4 de cartón (30 unidades), compra 5 veces esa cantidad, ¿cuántos huevos?\n\n4. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad 10 - B (Pág. 109-110)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Realiza un breve comentario sobre la importancia de las fracciones en la vida cotidiana (cocina, compras, repartos).\n4. Anuncia que en la próxima secuencia trabajarán con geometría.",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 110)"
+        }
+      ]
+    }
+  ]
+}

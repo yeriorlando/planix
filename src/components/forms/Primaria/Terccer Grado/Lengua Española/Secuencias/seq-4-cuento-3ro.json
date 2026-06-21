@@ -1,0 +1,381 @@
+{
+    "sequenceId": "secuencia-4-lengua-3ro-cuento",
+    "subjectId": "lengua",
+    "sequenceTitle": "Cuento",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1 - Presentación de los textos",
+            "activities": [
+                {
+                    "title": "Actividad 1: Indagar sobre los cuentos",
+                    "pedagogicalIntention": "Identifican las características y estructura de los cuentos.",
+                    "resources": "Pizarra y marcadores.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: ¿Cuál es tu cuento favorito? Escribe la respuesta.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Indagar sobre los cuentos que conocen.",
+                            "description": "El docente organiza un breve intercambio para identificar los cuentos que conocen, les pregunta qué cuentos conocen y cuáles prefieren. A medida que los estudiantes nombran un cuento, registra la información en la pizarra. Además de identificar el nombre del cuento, el docente puede indagar acerca de cómo lo conocieron: si fue leído en la escuela, si se lo contó un familiar, si lo vio en una película, etcétera. Asimismo, descubre los gustos y preferencias de sus estudiantes sobre este género literario; por ejemplo: ¿Cuál es el cuento que más te gustó? ¿Qué es lo que te gustó de ese cuento? ¿Hay algún cuento que no te haya gustado? ¿Por qué no te gustó?"
+                        },
+                        {
+                            "title": "Momento 2: Analizar qué es un cuento.",
+                            "description": "El docente promueve la reflexión a través de preguntas como: ¿Qué características tienen los cuentos? ¿Cómo diferenciamos, por ejemplo, una noticia de un cuento? Un poema, una rima o una adivinanza, ¿son cuentos? ¿Por qué no? ¿Qué son los cuentos? ¿Instrucciones, informaciones o narraciones? ¿Cómo los podemos definir? ¿Para qué sirven los cuentos?\nEl docente guía el intercambio con el fin de construir de forma colectiva una definición de cuento. El docente registra la definición consensuada en la pizarra y los estudiantes la escriben en sus cuadernos. Por ejemplo:\nLos cuentos son narraciones breves de historias imaginarias. Tienen personajes que realizan acciones en un tiempo y lugar determinado."
+                        },
+                        {
+                            "title": "Momento 3: Las partes de la estructura del cuento.",
+                            "description": "El docente propone un repaso oral de la estructura del cuento: inicio, nudo y desenlace. Para ello, elige un cuento que todos los estudiantes conozcan, como Caperucita roja o Los tres cerditos. Primero, explica brevemente cada parte: inicio, nudo y desenlace. El docente supervisa y realiza preguntas para asegurar que la información de cada parte sea completa y clara, garantizando que todos los estudiantes participen."
+                        },
+                        {
+                            "title": "Momento 4: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Cada uno escribe una frase que resuma lo realizado, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 2: Personajes y conflictos",
+                    "pedagogicalIntention": "Identifican los personajes y conflictos de los cuentos clásicos.",
+                    "resources": "Papelógrafo de aprendizajes, tarjetas con nombres de cuentos clásicos.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: ¿Cuál es tu personaje de cuento favorito? ¿Cómo es? Escribe el nombre del personaje y tres palabras que lo describan.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que lean sus respuestas de cuál es el cuento favorito y que identifiquen cuál es el nudo, es decir, el conflicto del cuento."
+                        },
+                        {
+                            "title": "Momento 2: Presentación del papelógrafo de aprendizaje.",
+                            "description": "El docente explica que van a trabajar sobre los cuentos, presenta el papelógrafo de aprendizajes con los propósitos que se trabajarán en este tiempo y pide a un estudiante que lo lea en voz alta."
+                        },
+                        {
+                            "title": "Momento 3: Juego: Adivinando personajes.",
+                            "description": "El docente explica el juego: un estudiante pasa y saca al azar una tarjeta con el nombre de un cuento clásico, debe leer el nombre del cuento y luego describir al personaje sin decir ninguna de las palabras que están en el nombre. El resto de los compañeros debe adivinar de quién se trata."
+                        },
+                        {
+                            "title": "Momento 4: Actividad Nº 2 del fascículo.",
+                            "description": "El docente lee el mandato y verifica la comprensión de la actividad. Completan la lectura de nudos o conflictos e identificación del cuento clásico correspondiente."
+                        },
+                        {
+                            "title": "Momento 6: Puesta en común.",
+                            "description": "Al finalizar, el docente pregunta: ¿Cómo lo hicieron? Los estudiantes exponen sus respuestas y pasan a la pizarra a mostrar cómo escribieron."
+                        },
+                        {
+                            "title": "Momento 7: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy?¿Qué aprendimos? Cada uno escribe una frase que resuma lo realizado."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 3: Las partes del cuento",
+                    "pedagogicalIntention": "Identifican las partes de un cuento (inicio, nudo, desenlace).",
+                    "resources": "Tres tarjetas o folios con las tres partes estructurales de un cuento.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Colorea las partes del cuento: Inicio, Nido, Desatar, Nudo, Inicial, Desenlace.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a un estudiante que lea las tres palabras que describen a su personaje favorito, mientras el resto intenta adivinar de quién se trata. Luego lee el nombre del personaje."
+                        },
+                        {
+                            "title": "Momento 2: Rompecabezas de cuentos.",
+                            "description": "El docente organiza a los estudiantes en tres grupos; le entrega a cada uno una de las tarjetas con partes de un cuento previamente preparadas por el docente. Cada grupo lee la tarjeta que le tocó con un fragmento del cuento y debe responder: ¿Qué parte de la historia tiene esta tarjeta?"
+                        },
+                        {
+                            "title": "Momento 3: Lectura en voz alta.",
+                            "description": "Se realiza una lectura en voz alta de las tres tarjetas. Cada estudiante puede leer en voz alta una frase y entre todos deben ordenar la secuencia del cuento. Luego, el docente inicia una reflexión oral grupal para analizar los tres momentos: inicio-nudo-desenlace."
+                        },
+                        {
+                            "title": "Momento 4: Sistematización en el cuaderno.",
+                            "description": "El docente escribe en la pizarra: INICIO: Principio de la historia, NUDO: Conflicto de la historia, DESENLACE: Final de la historia. Los estudiantes lo copian."
+                        },
+                        {
+                            "title": "Momento 5: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy?¿Qué aprendimos?"
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 4: Lectura y comprensión",
+                    "pedagogicalIntention": "Leer y comprenden un cuento.",
+                    "resources": "Papelógrafo con el cuento “La capa del emperador”.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Colorea el título del cuento: La casa del emperador, La cama de la princesa, La capa del emperador. Luego, cuéntale a un familiar el cuento completo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que compartan la tarea para el hogar, escucha las formas de resolver de los estudiantes y los guía hacia la comprensión de la respuesta correcta."
+                        },
+                        {
+                            "title": "Momento 2: Anticipación de la lectura.",
+                            "description": "El docente anticipa que leerá un cuento, lo muestra y comenta: Observen las imágenes y el título. ¿Sobre qué creen que se tratará? Lee el nombre del cuento y invita a los estudiantes a que realicen anticipaciones."
+                        },
+                        {
+                            "title": "Momento 3: Lectura del cuento.",
+                            "description": "El docente lee el cuento en voz alta utilizando el papelógrafo. Los estudiantes siguen la lectura en el fascículo (Actividad Nº 4)."
+                        },
+                        {
+                            "title": "Momento 4: Contrastación de anticipaciones.",
+                            "description": "El docente vuelve a realizar las preguntas anticipatorias y contrastan las respuestas previas con la información del cuento. ¿Quién era el protagonista? ¿Qué otros personajes aparecieron?"
+                        },
+                        {
+                            "title": "Momento 5: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2 - Comprensión lectora y gramática",
+            "activities": [
+                {
+                    "title": "Actividad 5: Vocabulario del cuento",
+                    "pedagogicalIntention": "Conocen el significado de palabras desconocidas en el cuento. Leen en voz alta.",
+                    "resources": "Diccionarios.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe el nombre de los personajes que recuerdes del cuento “La capa del emperador”.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente pregunta qué personajes recuerdan del cuento. A medida que los nombran, los escribe en la pizarra y solicita que cuenten quién es el personaje y qué rol tiene."
+                        },
+                        {
+                            "title": "Momento 2: Vocabulario y comprensión lectora. Búsqueda en el diccionario.",
+                            "description": "El docente propone una lectura del cuento por párrafos. A medida que lee, motivará a que los estudiantes identifiquen las palabras desconocidas. Las palabras desconocidas se distribuyen para su búsqueda en el diccionario."
+                        },
+                        {
+                            "title": "Momento 3: Lectura dialogada.",
+                            "description": "El docente comienza leyendo en voz alta el primer párrafo e invita a un estudiante a leer el siguiente. Después de cada párrafo, hace preguntas guiadas para asegurar la comprensión."
+                        },
+                        {
+                            "title": "Momento 4: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos?"
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 6: Comprensión lectora profunda",
+                    "pedagogicalIntention": "Desarrollan la comprensión lectora.",
+                    "resources": "Fascículo de actividades.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Piensa y escribe un nuevo título para el cuento “La capa del emperador”.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que compartan la tarea para el hogar, escucha las formas de resolver y escribe la respuesta en la pizarra."
+                        },
+                        {
+                            "title": "Momento 2: Actividad Nº 6 del fascículo.",
+                            "description": "El docente lee el mandato y verifica la comprensión. En grupos de tres, responden las preguntas de opción múltiple de la actividad."
+                        },
+                        {
+                            "title": "Momento 3: Puesta en común.",
+                            "description": "El docente pide a los grupos que lean sus respuestas, las escribe completas en la pizarra y entre todos corrigen y revisan. Se reflexiona sobre las intenciones del autor."
+                        },
+                        {
+                            "title": "Momento 4: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos?"
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 7: Conectores",
+                    "pedagogicalIntention": "Practican el uso de conectores de orden y causales.",
+                    "resources": "Pizarra y marcadores.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe una frase usando al menos dos palabras que aprendimos hoy (primero, luego, después, porque, por eso).",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes leen los nuevos títulos que escribieron y entre todos verifican su coherencia con la temática del cuento."
+                        },
+                        {
+                            "title": "Momento 2: Completar las frases.",
+                            "description": "Actividad Nº 7 del fascículo. Los estudiantes deben completar, en parejas, las frases con los conectores de orden y causales proporcionados."
+                        },
+                        {
+                            "title": "Momento 3: Puesta en común.",
+                            "description": "Los estudiantes leen las frases completadas y el docente revisa las respuestas, explicando la función de cada conector para organizar y explicar los sucesos."
+                        },
+                        {
+                            "title": "Momento 4: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos?"
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 8: Verbos en pasado",
+                    "pedagogicalIntention": "Reconocen y utilizan verbos en pasado.",
+                    "resources": "Fragmento del cuento en la pizarra.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Lee en voz alta estas oraciones y completa las acciones en pasado: El emperador compró, Los sastres engañaron, El pueblo vio.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes leen la frase que escribieron utilizando los conectores y entre todos verifican la coherencia del texto."
+                        },
+                        {
+                            "title": "Momento 2: Actividad Nº 8 del fascículo. Verbos en pasado.",
+                            "description": "Los estudiantes resuelven la actividad en la que deben subrayar verbos, identificar su tiempo verbal y volver a escribir el fragmento en presente."
+                        },
+                        {
+                            "title": "Momento 3: Puesta en común y reflexión.",
+                            "description": "Un estudiante subraya los verbos en el fragmento escrito en la pizarra. Concluyen que el cuento está en pasado y practican transformarlo al presente. Se reflexiona sobre el uso del pasado en la narración."
+                        },
+                        {
+                            "title": "Momento 4: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos?"
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 9: Adjetivos y personajes",
+                    "pedagogicalIntention": "Identifican adjetivos a través del análisis de los personajes del cuento.",
+                    "resources": "Pizarra y fascículo.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Piensa en un familiar o amigo, ¿cómo es? Escribe una oración para describirlo usando al menos dos adjetivos.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente escribe las frases de la tarea en la pizarra, un estudiante completa los verbos en pasado y todos revisan."
+                        },
+                        {
+                            "title": "Momento 2: Descripción de personajes.",
+                            "description": "Los estudiantes buscan personajes en el texto y conversan sobre sus actitudes. Asignan adjetivos: vanidoso, mentirosos, temerosos, obediente, valiente. El docente explica la función de los adjetivos."
+                        },
+                        {
+                            "title": "Momento 3: Actividad Nº 9 del fascículo.",
+                            "description": "Los estudiantes resuelven la actividad en grupos aplicando lo aprendido sobre los adjetivos de los personajes."
+                        },
+                        {
+                            "title": "Momento 4: Puesta en común.",
+                            "description": "Los estudiantes exponen sus respuestas y pasan a la pizarra a mostrar cómo escribieron."
+                        },
+                        {
+                            "title": "Momento 5: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos?"
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 10: Crucigrama de vocabulario",
+                    "pedagogicalIntention": "Juegan al crucigrama para favorecer la comprensión y la escritura.",
+                    "resources": "Crucigrama en el fascículo.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe una oración en la que expreses qué parte del cuento te gustó más. Puedes comenzar: Lo que más me gustó fue…",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes leen sus descripciones y el docente registra los adjetivos en la pizarra, revisando mayúsculas y puntos."
+                        },
+                        {
+                            "title": "Momento 2: Actividad Nº 10 del fascículo.",
+                            "description": "Los estudiantes resuelven en parejas los crucigramas de vocabulario. El docente brinda apoyo en la identificación de respuestas y en la escritura fonográfica."
+                        },
+                        {
+                            "title": "Momento 3: Puesta en común.",
+                            "description": "Se resuelven los crucigramas en la pizarra. Se recuperan términos clave como: Desfiló, Valiente, Emperador, Vanidoso, Sastres."
+                        },
+                        {
+                            "title": "Momento 4. Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 3,
+            "title": "Bloque 3 - Producción escrita",
+            "activities": [
+                {
+                    "title": "Actividad 11: Planificación del cuento",
+                    "pedagogicalIntention": "Planifican su cuento: personajes, lugares y objetivos.",
+                    "resources": "Tarjetas cuentacuentos del fascículo.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe las ideas que pensaste: Personaje, Objetivo y Lugar.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes leen en voz alta la frase que escribieron y comparten sus reflexiones."
+                        },
+                        {
+                            "title": "Momento 2: Relectura del papelógrafo.",
+                            "description": "Releen el papelógrafo de aprendizajes y se motivan para el desafío de escribir sus propios cuentos para un libro del grado."
+                        },
+                        {
+                            "title": "Momento 3: El personaje principal.",
+                            "description": "Usando las tarjetas cuentacuentos, eligen un protagonista y lo describen: cómo es, qué le gusta, dónde vive."
+                        },
+                        {
+                            "title": "Momento 4: El objetivo.",
+                            "description": "Determinan qué quiere lograr el personaje en la historia, inspirándose en cuentos conocidos."
+                        },
+                        {
+                            "title": "Momento 5: El lugar.",
+                            "description": "Eligen el escenario para su historia entre las opciones propuestas en el fascículo."
+                        },
+                        {
+                            "title": "Momento 6. Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 12: Nudo y desenlace",
+                    "pedagogicalIntention": "Planifican su cuento: personajes, conflictos y desenlaces.",
+                    "resources": "Imágenes del fascículo.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Cuéntale a tu familia el nudo y desenlace del cuento que has pensado. Pídeles sugerencias.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes leen en voz alta las ideas iniciales para su cuento."
+                        },
+                        {
+                            "title": "Momento 2: El nudo y funciones de los personajes.",
+                            "description": "Inventan un obstáculo y un personaje antagonista. Deciden qué hace este personaje para oponerse al protagonista: ¿Engaña? ¿Asusta?"
+                        },
+                        {
+                            "title": "Momento 3: Ayuda y desenlace.",
+                            "description": "Eligen personajes ayudantes y deciden cómo colaboran para resolver el conflicto. Imaginan el final: ¿Qué consigue el protagonista?"
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 13: Primer borrador",
+                    "pedagogicalIntention": "Escriben el primer borrador de su cuento.",
+                    "resources": "Hojas sueltas con líneas.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Dibuja una ilustración que represente tu cuento en una hoja aparte.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Comparten sugerencias recibidas de sus familiares y posibles cambios realizados."
+                        },
+                        {
+                            "title": "Momento 2: Primer borrador.",
+                            "description": "Escriben el cuento integrando inicio, nudo y desenlace. El docente orienta en la escritura de oraciones cortas, mayúsculas y puntos."
+                        },
+                        {
+                            "title": "Momento 3: Puesta en común.",
+                            "description": "Los estudiantes leen en voz alta sus borradores y el docente los recolecta para corregir."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 14: Edición y publicación",
+                    "pedagogicalIntention": "Editan y publican su cuento. Reflexionan sobre lo aprendido.",
+                    "resources": "Hojas sueltas, materiales para la portada del libro.",
+                    "homework": "No hay tarea asignada para el cierre de secuencia.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea del hogar.",
+                            "description": "Los estudiantes comparten las ilustraciones creadas."
+                        },
+                        {
+                            "title": "Momento 2: Edición de los borradores.",
+                            "description": "Realizan la versión final incorporando correcciones. Preparan la portada del 'Libro de cuentos de tercer grado'."
+                        },
+                        {
+                            "title": "Momento 3: Presentación del libro.",
+                            "description": "Comparten el libro de cuentos con el resto de la escuela, leyéndolos en otros grados o en un festival."
+                        },
+                        {
+                            "title": "Momento 4: Reflexión grupal.",
+                            "description": "Conversan sobre lo aprendido, las características de los cuentos y la importancia de la revisión de escritos."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,633 @@
+{
+  "id": "seq-1771853765807",
+  "title": "Medidas de longitud",
+  "description": "Aquí se trabajan las unidades de medida de longitud dentro del sistema métrico, promoviendo la conversión entre diferentes unidades",
+  "order": 4,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771853765801",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Disfruto realizando mediciones",
+      "intencion_pedagogica": "Resolver problemas que impliquen medidas convencionales de longitud: centímetro\ny pulgada\n",
+      "estrategia": "Trabajo previo: Solicitar a los estudiantes traer reglas y cintas métricas.\n\nDiálogo dirigido: Exploración de conocimientos previos sobre medidas.\n\nObservación guiada: Análisis de las escalas en reglas y cintas métricas.\n\nSituación problemática: Comparación de mediciones en pulgadas y centímetros.\n\nTrabajo en parejas: Mediciones de objetos del aula.",
+      "aprendizaje_significativo": "Se parte de la experiencia cotidiana de medir objetos del entorno escolar para introducir los sistemas de medida convencionales, conectando así el aprendizaje matemático con la vida real.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la lectura de instrumentos: Se les proporciona una guía visual de cómo colocar la regla correctamente.\n\nPara estudiantes kinestésicos: Se les invita a realizar las mediciones ellos mismos.\n\nPara estudiantes con discapacidad visual: Se les proporcionan instrumentos con marcas táctiles y se les describe el proceso.\n\nPara estudiantes avanzados: Se les pide que investiguen la equivalencia exacta entre pulgada y centímetro.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 105, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Reglas\n• Cintas métricas\n• Pizarra",
+          "descripcion": "1. El docente inicia preguntando: \"¿De qué forma se transportan a la escuela? ¿Qué distancia hay aproximadamente de tu casa a la escuela? ¿Qué es medir? ¿Qué se mide? ¿Con qué se mide?\"\n2. Anota las respuestas en la pizarra.\n3. Pide que observen el aula y nombren objetos que puedan medirse.\n4. Pide que muestren las reglas y cintas métricas que trajeron. Pregunta: \"¿Por qué la regla y la cinta métrica tienen números grandes y pequeños? ¿Qué representan esos números?\"",
+          "actividad_numero": "Actividad 1 A (pág. 104)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Reglas\n• Cintas métricas\n• Pizarra",
+          "descripcion": "1. Plantea el problema: \"Armando y Bruno midieron el largo y ancho del escritorio. Armando dice que de largo tiene 4 reglas de 12 pulgadas (48 pulgadas) y de ancho 3 (36 pulgadas). Bruno dice que de largo tiene 121 cm y de ancho 91 cm. ¿Quién tiene la razón?\"\n2. Pregunta: \"¿Cómo se colocan estos instrumentos para medir?\"\n3. Explica la forma correcta de colocar la regla y la cinta métrica.\n4. Guía para que observen las escalas: pulgadas (números grandes) y centímetros (números pequeños).\n5. Concluye que ambos tienen razón, solo que usaron diferentes sistemas de medida. Muestra la equivalencia: 48 pulgadas ≈ 121.5 cm; 36 pulgadas ≈ 91 cm.",
+          "actividad_numero": "Actividad 1 B (págs. 104-105)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Reglas\n• Cintas métricas\n• Cuadernos",
+          "descripcion": "Usando regla o cinta métrica, realizar las siguientes mediciones: a) Largo y ancho del cuaderno en cm y pulgadas; b) Largo de los zapatos en cm y pulgadas; c) Largo y ancho del escritorio en cm y pulgadas; d) ¿Cuántos cm tiene una pulgada? (aproximadamente 2.54 cm).\n\nCierre (pág. 105):\nPreguntas: \"¿Cuánto les dio la medición del escritorio? ¿A quiénes les dio igual? ¿Y diferente? ¿Cuántos centímetros tiene una pulgada? ¿Cuál es más grande, un centímetro o una pulgada?\"\n\nActividad complementaria (pág. 105):\nResolver problemas: 1) Luisa y Adrián miden su habitación: ancho 125 pulgadas, largo 152 pulgadas. ¿Cuánto mide en cm? 2) Una torre del metro mide 314 pulgadas. ¿Cuántos cm? 3) Un librero mide 32 pulgadas. ¿Cuántos cm? 4) Mide el alto del espaldar de una silla en cm. 5) Mide el largo del brazo de un compañero en pulgadas.\n\nActividad para el diario del estudiante (pág. 105):\n1) Largo y ancho de tu cama en pulgadas; 2) Altura de tu mejor amigo en centímetros.",
+          "actividad_numero": "Actividad 1 Actividad para el cuaderno (pág. 105) Cierre (pág. 105) Actividad complementaria (pág. 105) Actividad para el diario (pág. 105)"
+        }
+      ]
+    },
+    {
+      "id": "1771854072885",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "¡Qué fascinante es el Sistema Métrico Decimal!",
+      "intencion_pedagogica": "Identificar los múltiplos y submúltiplos del metro.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de tabla: Presentación de múltiplos y submúltiplos del metro.\n\nDiálogo dirigido: Exploración de equivalencias.\n\nSituaciones problemáticas: Conversión y aplicación de unidades.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se introduce el Sistema Métrico Decimal y sus unidades de longitud a partir de contextos reales como el metro de Santo Domingo y la carretera Chirino-Monte Plata, mostrando la utilidad de las conversiones en la vida cotidiana.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en conversiones: Se les proporciona la tabla de equivalencias impresa.\n\nPara estudiantes kinestésicos: Se les invita a representar las distancias en el patio de la escuela.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que investiguen la altura de algún edificio famoso en diferentes unidades.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 107, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por las mediciones realizadas.\n2. Enfatiza la importancia de mencionar la unidad de medida.\n3. Anuncia el tema: múltiplos y submúltiplos del metro. Pregunta: \"¿En qué unidad se mide la distancia de Santiago a Santo Domingo? ¿En qué unidad medirías el alto de la ventana? ¿Por qué?\"",
+          "actividad_numero": "Actividad 2 A (pág. 106)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tabla de múltiplos y submúltiplos\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta la tabla de múltiplos y submúltiplos:\n- Múltiplos: kilómetro (km) = 1,000 m; hectómetro (hm) = 100 m; decámetro (dam) = 10 m.\n- Submúltiplos: decímetro (dm) = 0.1 m; centímetro (cm) = 0.01 m; milímetro (mm) = 0.001 m.\n2. Explica que los múltiplos se obtienen multiplicando y los submúltiplos dividiendo.\n3. Plantea el problema (pág. 106): \"El metro de Santo Domingo recorre 14.5 km con 16 estaciones. Si cada estación está a igual distancia, ¿cuántos metros separan cada estación?\"\n4. Guía la solución: convertir km a m (14.5 km = 14,500 m) y dividir entre 15 (distancia entre estaciones): 14,500 ÷ 15 ≈ 966.6 m.\n5. Plantea otro problema (pág. 107): *\"La carretera Chirino-Monte Plata tiene 13.4 km. Se colocaron mojones kilométricos a 1,000 m de distancia. ¿Cuántos mojones colocaron?\"* (13,400 m ÷ 1,000 = 13 mojones, sobran 400 m).",
+          "actividad_numero": "Actividad 2 B (págs. 106-107)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"El teleférico de Santo Domingo tiene 4 estaciones y recorre 5 km. Si cada estación está a igual distancia, ¿cuántos metros separan cada estación?\" (5 km = 5,000 m; 5,000 ÷ 3 = 1,666.6 m entre estaciones).\n\nCierre (pág. 108):\nAdivinanzas: 1) Está formado por 1,000 m, ¿cómo se llama? (km). 2) Está formado por 10 m, ¿cómo se llama? (dam). 3) Formado por 100 m (hm). 4) Resulta de dividir 1 m en 100 partes (cm). 5) Resulta de dividir 1 m en 10 partes (dm). 6) Resulta de dividir 1 m en 1,000 partes (mm).\n\nActividad complementaria (pág. 108):\n1) Medir el largo de la cancha en m, ¿cuántos cm son? 2) Medir el ancho del aula en cm, ¿cuántos m son? 3) La calle El Conde mide 0.95 km, ¿cuántos m son? 4) Cancha de baloncesto: largo 28 m, ancho 1,500 cm, ¿cuántos m más larga que ancha? 5) Cancha de voleibol: 18 m x 9 m, expresar en cm.\n\nActividad para el diario del estudiante (pág. 108):\n1) Largo y ancho en metros de tu salón de clase; 2) Altura de la puerta principal de tu casa, en metros.",
+          "actividad_numero": "Actividad 2 Actividad para el cuaderno (pág. 107) Cierre (pág. 108) Actividad complementaria (pág. 108) Actividad para el diario (pág. 108)"
+        }
+      ]
+    },
+    {
+      "id": "1771854168760",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Me divierte la medición",
+      "intencion_pedagogica": "Convertir de una unidad a otra dentro del Sistema Métrico Decimal (SMD).\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de tabla de conversiones: Para visualizar equivalencias.\n\nMétodo de regla de tres: Para convertir unidades.\n\nSituaciones problemáticas: Aplicación de conversiones en contextos reales.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se profundiza en las conversiones dentro del Sistema Métrico Decimal utilizando la regla de tres y la tabla de conversiones, aplicándolas a problemas reales como la longitud del metro de Santo Domingo.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en regla de tres: Se les proporciona una plantilla con los pasos.\n\nPara estudiantes kinestésicos: Se les invita a usar la tabla de conversiones como un \"camino\" para mover el punto decimal.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado y la tabla en relieve.\n\nPara estudiantes avanzados: Se les pide que realicen conversiones con decimales más complejos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 110, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Tabla de conversiones (pág. 135)\n• Pizarra",
+          "descripcion": "1. El docente pregunta por las mediciones del salón y la puerta.\n2. Enfatiza la necesidad de mencionar la unidad de medida.\n3. Pregunta: \"¿Qué es medir? ¿Qué es una magnitud?\"\n4. Anuncia el tema: conversiones en el SMD. Presenta la tabla de conversiones (pág. 109). Pregunta: \"¿Cómo convertir 8 hm a m? ¿200 cm a m?\"",
+          "actividad_numero": "Actividad 3 A (págs. 108-109)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tabla de conversiones (pág. 135)\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Explica el método de regla de tres:\n- Caso 1 (hm a m): 1 hm = 100 m, 8 hm = x → x = 8 x 100 = 800 m.\n- Caso 2 (cm a m): 1 m = 100 cm, x = 200 cm → x = (1 x 200)/100 = 2 m.\n2. Enfatiza: de unidad mayor a menor se multiplica; de menor a mayor se divide.\n3. Plantea el problema (pág. 109): \"La línea 2 del metro de Santo Domingo recorre 16.45 km. ¿Cuánto es en metros? ¿En decámetros? ¿En milímetros?\"\n4. Usa la tabla de conversiones (pág. 110) para resolver:\n- Metros: 16.45 km = 16,450 m.\n- Decámetros: 16.45 km = 1,645 dam.\n- Milímetros: 16.45 km = 16,450,000 mm.",
+          "actividad_numero": "Actividad 3 B (págs. 109-110)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tabla de conversiones\n• Cuadernos",
+          "descripcion": "Resolver: \"La autopista Duarte tiene 270 km. ¿Cuántos hm son? ¿Cuántos m? ¿Cuántos dm?\" (2,700 hm; 270,000 m; 2,700,000 dm).\n\nCierre (pág. 110):\nPreguntas: \"¿Cuántos km hay en 23 hm? (2.3 km). ¿Cuántos m hay en 2,785 mm? (2.785 m).\"\n\nActividad complementaria (pág. 110):\n1) Juan midió una pared: 37.25 m. ¿Cuántos dam? (3.725 dam). ¿Cuántos dm? (372.5 dm). 2) Una presa tiene elevación de 292 m. ¿Cuántos mm? (292,000 mm). 3) Altura de papá de Inés: 191 cm. ¿Cuántos dm? (19.1 dm). ¿Cuántos mm? (1,910 mm).\n\nActividad para el diario del estudiante (pág. 111):\nResolver: \"María camina 785 m, Daniela 0.7 km. ¿Quién recorre mayor cantidad de metros? (María). ¿Cuántos hectómetros recorren cada una? (María: 7.85 hm; Daniela: 7 hm).\"",
+          "actividad_numero": "Actividad 3 Actividad para el cuaderno (pág. 110) Cierre (pág. 110) Actividad complementaria (pág. 110) Actividad para el diario (pág. 111)"
+        }
+      ]
+    },
+    {
+      "id": "1771854273701",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Conociendo el sistema de medida inglés",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto utilizando unidades de Longitud\ndel Sistema Inglés.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre sistema de medida inglés.\n\nPresentación de tabla: Unidades del sistema inglés (milla, yarda, pie, pulgada).\n\nMétodo de regla de tres: Para conversiones.\n\nSituaciones problemáticas: Aplicación en contextos reales.",
+      "aprendizaje_significativo": "Se introduce el sistema de medida inglés a partir de construcciones emblemáticas como el edificio Juan Pablo Duarte, conectando con la realidad dominicana y mostrando la utilidad de conocer ambos sistemas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en regla de tres: Se les proporciona una plantilla con los pasos.\n\nPara estudiantes kinestésicos: Se les invita a representar las equivalencias con pasos en el aula.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que investiguen la historia de estas unidades.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 112, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra\n• (https://www.youtube.com/watch?v=fF5TdBa4QxU)",
+          "descripcion": "1. El docente pregunta por el problema de María y Daniela.\n2. Retroalimenta conversiones en el SMD.\n3. Pregunta: \"¿Conocen otros sistemas de medidas? ¿En qué unidades se mide la altura de la escuela, la profundidad de una presa, el ancho de la palma de la mano?\"\n4. Proyecta el video \"Sistema de Medida Inglesa\" (https://www.youtube.com/watch?v=fF5TdBa4QxU). Socializa.",
+          "actividad_numero": "Actividad 4 A (pág. 111)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tabla de sistema inglés\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta la tabla:\n- Milla (mi) = 1,760 yd\n- Yarda (yd) = 3 ft = 36 in\n- Pie (ft) = 12 in\n- Pulgada (in) = unidad básica\n2. Explica la simbología: mi (miles), yd (yard), ft (feet), in (inch).\n3. Plantea el problema (pág. 111): \"El edificio Juan Pablo Duarte tiene 14 pisos y su altura es de 66 yardas. ¿Cuántos pies tiene? ¿Cuántas pulgadas?\"\n4. Resuelve con regla de tres:\n- Pies: 3 ft = 1 yd, x = 66 yd → x = 3 x 66 = 198 ft.\n- Pulgadas: 36 in = 1 yd, x = 66 yd → x = 36 x 66 = 2,376 in.\n5. Plantea otro problema (pág. 112): \"La altura de una torre de iluminación de un estadio es 138 ft. ¿Cuántas yardas son? ¿Cuántos decímetros?\"\n- Yardas: 1 yd = 3 ft, x = 138 ft → x = 138 ÷ 3 = 46 yd.\n- Decímetros: 1 ft = 0.305 m = 3.05 dm, 138 ft = 138 x 3.05 = 420.9 dm.",
+          "actividad_numero": "Actividad 4 B (págs. 111-112)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Un campo de fútbol americano mide 120 yd de largo y 53.3 yd de ancho. ¿Cuántos pies tiene de largo y ancho? ¿Cuántas pulgadas?\" (Largo: 360 ft, 4,320 in; ancho: 159.9 ft, 1,918.8 in).\n\nCierre (pág. 112):\nPreguntas: \"¿Cuántas pulgadas hay en una yarda? ¿Cuántos pies hay en 3 yardas?\"\n\nActividad complementaria (pág. 112):\n1) Distancia del home al jardín central: 400 ft, ¿cuántos dm? (400 x 3.05 = 1,220 dm). 2) Segunda base al home: 127 ft, ¿cuántos dm? (387.35 dm). 3) Home al jardín derecho: 325 ft, ¿cuántos dm? (991.25 dm). 4) Tercera base al home: 90 ft, ¿cuántas yardas? (30 yd).\n\nActividad para el diario del estudiante (pág. 113):\nResolver: \"El hueco de una ventana de la escuela mide 54 in de ancho y 60 in de alto. ¿Cuántos pies tiene de ancho y alto? ¿Cuántas yardas?\" (Ancho: 4.5 ft, 1.5 yd; alto: 5 ft, 1.67 yd).",
+          "actividad_numero": "Actividad 4 Actividad para el cuaderno (pág. 112) Cierre (pág. 112) Actividad complementaria (pág. 112) Actividad para el diario (pág. 113)"
+        }
+      ]
+    },
+    {
+      "id": "1771854380857",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Jugando para aprender",
+      "intencion_pedagogica": "Retroalimentar los conocimientos adquiridos sobre el Sistema Métrico Decimal e\nInglés a través del juego.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nJuego didáctico: Tablero con sistema métrico decimal e inglés.\n\nTrabajo en grupos: Juego colaborativo.\n\nRegistro de jugadas: Los estudiantes registran sus movimientos en una tabla.",
+      "aprendizaje_significativo": "Se utiliza un juego de mesa para reforzar de manera lúdica los conocimientos sobre ambos sistemas de medida, haciendo el aprendizaje más motivador y participativo.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en conversiones: Se les permite tener la tabla de equivalencias a la vista.\n\nPara estudiantes kinestésicos: El juego es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se les proporciona el tablero en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que actúen como árbitros verificando las conversiones.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 114, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por las medidas de la ventana.\n2. Retroalimenta conversiones en sistema inglés.\n3. Pregunta: \"¿Qué juegos de mesa conocen? ¿Cómo se juegan? ¿Cómo se gana?\"\n4. Anuncia que hoy jugarán para aprender más sobre medidas de longitud.",
+          "actividad_numero": "Actividad 5 A (pág. 113)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tablero (pág. 135)\n• Dados de colores\n• Fichas\n• Tabla de registro",
+          "descripcion": "1. Explica las reglas del juego:\n- Se juega con un tablero (pág. 135), dos dados de colores diferentes y de 2 a 4 jugadores.\n- Un dado representa el sistema métrico decimal (en metros), el otro el sistema inglés (en yardas).\n- Cada jugador lanza los dados y coloca una ficha en la casilla correspondiente, si está libre. Si está ocupada, pueden usar submúltiplos (ej: si sale 1 yd y está ocupado, pueden usar 36 in o 3 ft).\n- Gana quien coloque más fichas.\n2. Los estudiantes juegan en grupos. El docente observa y apoya.\n3. Los estudiantes registran las jugadas en una tabla (pág. 113).",
+          "actividad_numero": "Actividad 5 B (págs. 113-114) Anexo (pág. 135)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Convertir a la unidad indicada los puntajes obtenidos por cuatro estudiantes en el juego (tabla dada).\n\nCierre (pág. 114):\nPreguntas: \"¿Por qué 6 m es igual a 60 dm? ¿Qué hiciste para saber los pies que hay en 3 yd? ¿Dónde hay más pies, en 4 m o en 3 yd?\"\n\nActividad complementaria (pág. 114):\nColocar el número de la primera columna después de su equivalencia (tabla de yardas, metros y submúltiplos).\n\nActividad para el diario del estudiante (pág. 114):\nInvestigar en internet las medidas del largo y ancho de un campo de fútbol americano profesional.",
+          "actividad_numero": "Actividad 5 Actividad para el cuaderno (pág. 114) Cierre (pág. 114) Actividad complementaria (pág. 114) Actividad para el diario (pág. 114)"
+        }
+      ]
+    },
+    {
+      "id": "1771854449956",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "¡Qué interesantes son las medidas de longitud!",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto usando medidas arbitrarias de\nlongitud.\n",
+      "estrategia": "Corrección de tarea: Socialización de la investigación sobre fútbol americano.\n\nUso de material audiovisual: Video sobre medidas antiguas.\n\nDiálogo dirigido: Exploración de medidas arbitrarias (paso, cuarta, codo, pie, pulgada, braza).\n\nTrabajo práctico: Mediciones con partes del cuerpo.\n\nRegistro de datos: Tabla de mediciones.",
+      "aprendizaje_significativo": "Se introduce el concepto de medidas arbitrarias a partir de la historia de la humanidad, mostrando cómo antes de los sistemas convencionales se usaban partes del cuerpo para medir, y se reflexiona sobre la inexactitud de estas medidas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades motrices: Se les permite pedir ayuda a un compañero para las mediciones.\n\nPara estudiantes kinestésicos: La actividad práctica es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se les describe las medidas y se les guía táctilmente.\n\nPara estudiantes avanzados: Se les pide que investiguen otras medidas arbitrarias usadas en la antigüedad.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 116, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra\n• (https://youtube.com/watch?v=r2LTBv5Ws_I)",
+          "descripcion": "1. El docente pregunta por las medidas del campo de fútbol americano (120 yd x 53.3 yd).\n2. Pregunta: \"¿Qué entienden por medidas arbitrarias? ¿Han usado alguna vez partes del cuerpo para medir? ¿Cuál es la diferencia entre medidas arbitrarias y convencionales?\"\n3. Proyecta el video \"Las antiguas medidas de longitud\" (https://youtube.com/watch?v=r2LTBv5Ws_I). Socializa.",
+          "actividad_numero": "Actividad 6 A (pág. 115)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tabla de medidas arbitrarias\n• Cuadernos",
+          "descripcion": "1. Después del video, pide a los estudiantes mostrar la longitud de la braza, el codo, la cuarta, el paso, el pie.\n2. Presenta la tabla de medidas arbitrarias (pág. 115).\n3. Plantea el problema (pág. 115): \"Jenny y Alex midieron el ancho de la cancha en pasos. Jenny dio 28 pasos, Alex 26. ¿Quién tiene la razón?\"\n4. Discute: las medidas dependen del tamaño de los pasos de cada persona, por eso son arbitrarias e inexactas.\n5. Actividad práctica: los estudiantes miden objetos del aula usando medidas arbitrarias (cuaderno con clips, escritorio con cuarta, salón con pasos, etc.) y registran en una tabla.",
+          "actividad_numero": "Actividad 6 B (págs. 115-116)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Objetos para medir",
+          "descripcion": "Medir los objetos indicados usando clips, pasos, codo, cuarta o lápiz (tabla dada).\n\nCierre (pág. 116):\nPreguntas: \"¿Cuánto midió el escritorio? ¿Por qué les dio diferente a algunos? ¿Cuál fue la medida del salón?\"\n\nActividad complementaria (pág. 116):\nCompletar una tabla con mediciones de objetos usando cuarta, braza, pie, pulgada, codo, paso.\n\nActividad para el diario del estudiante (pág. 116):\n1) Largo y ancho de tu cuaderno usando un clip; 2) Ancho del marco de la puerta de tu casa usando lápiz y cuarta.",
+          "actividad_numero": "Actividad 6 Actividad para el cuaderno (pág. 116) Cierre (pág. 116) Actividad complementaria (pág. 116) Actividad para el diario (pág. 116)"
+        }
+      ]
+    },
+    {
+      "id": "1771854555827",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Me emocionan las mediciones",
+      "intencion_pedagogica": "Identificar la relación existente entre las unidades de medidas del Sistema Métrico\nDecimal y el sistema Inglés\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de tabla de equivalencias: Para repasar sistema inglés.\n\nSituaciones problemáticas: Aplicación en contextos de estadios de béisbol.\n\nMétodo de regla de tres: Para conversiones.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se aplican las unidades del sistema inglés a problemas reales relacionados con las dimensiones de los estadios de béisbol dominicanos, conectando las matemáticas con el deporte nacional.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en las operaciones: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a dibujar el campo de béisbol en el piso con tiza y medir distancias.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que investiguen las dimensiones de otros estadios.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 118, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por las mediciones realizadas en casa.\n2. Retroalimenta medidas arbitrarias.\n3. Pregunta: \"¿Recuerdan las unidades del sistema inglés? ¿Cuáles son? ¿Cuántos pies tiene una yarda?\"\n4. Anuncia que hoy aplicarán estas unidades a problemas de béisbol.",
+          "actividad_numero": "Actividad 7 A (pág. 117"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Imagen del campo de béisbol (pág. 118)\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta la imagen del campo de béisbol con sus distancias (pág. 118).\n2. Plantea los problemas:\n- \"La distancia del home al jardín central es 400 ft. ¿Cuántos decímetros son?\" (400 ft = 400 x 3.05 = 1,220 dm).\n- \"La distancia de segunda base al home es 127 ft. ¿Cuántos decímetros son?\" (127 x 3.05 = 387.35 dm).\n- \"La distancia del home al jardín derecho es 325 ft. ¿Cuántos decímetros son?\" (325 x 3.05 = 991.25 dm).\n- \"La distancia de tercera base al home es 90 ft. ¿Cuántas yardas son?\" (90 ÷ 3 = 30 yd).\n3. Los estudiantes resuelven. Monitorea.\n4. Socializa las respuestas.",
+          "actividad_numero": "Actividad 7 B (págs. 117-118)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Las torres de iluminación del Estadio Quisqueya miden 138 ft de altura. ¿Cuántas yardas tienen? ¿Cuántos decímetros?\" (46 yd; 420.9 dm).\n\nCierre (pág. 118):\nPreguntas: \"¿Cuántas yardas tiene 1 ft? ¿Cómo se sintieron resolviendo estos problemas?\"\n\nActividad complementaria (pág. 118):\nResolver problemas similares con otras distancias del estadio.\n\nActividad para el diario del estudiante (pág. 118):\nResolver: \"La altura de las torres de iluminación del estadio Quisqueya es 138 ft. ¿Cuántas yardas tienen? ¿Cuántos decímetros?\" (Repaso).",
+          "actividad_numero": "Actividad 7 Actividad para el cuaderno (pág. 118) Cierre (pág. 118) Actividad complementaria (pág. 118) Actividad para el diario (pág. 118)"
+        }
+      ]
+    },
+    {
+      "id": "1771854642162",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Midiendo a mi compañero",
+      "intencion_pedagogica": "Utilizar los conocimientos adquiridos sobre medidas de longitud para medir la\nestatura de las personas.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración del concepto de estatura.\n\nTrabajo en equipo: Medición de la estatura de los compañeros.\n\nRegistro de datos: Tabla de estaturas en pies y centímetros.\n\nSocialización de resultados: Comparación de medidas.",
+      "aprendizaje_significativo": "Se mide la estatura de los propios estudiantes utilizando dos sistemas de medida (pies y centímetros), conectando el aprendizaje con una experiencia personal y significativa.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades motrices: Se les permite que un compañero les ayude a marcar el punto.\n\nPara estudiantes kinestésicos: La actividad práctica es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se les guía táctilmente para marcar el punto y se les describen las medidas.\n\nPara estudiantes avanzados: Se les pide que calculen la estatura promedio del grupo.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 119, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el problema de las torres del estadio.\n2. Retroalimenta conversiones en sistema inglés.\n3. Pregunta: \"¿Qué es la estatura? ¿Quién sabe cuánto mide de altura? ¿En qué unidad?\"\n4. Anuncia que hoy medirán su estatura en centímetros y pies.",
+          "actividad_numero": "Actividad 8 A (pág. 118)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "Estatura en pie",
+          "descripcion": "1. Organiza equipos de 3 o 4 participantes.\n2. Explica el procedimiento:\n- Pararse de espaldas a la pared, rectos.\n- Colocar una regla sobre la cabeza para marcar el punto.\n- Medir la distancia del piso al punto marcado.\n3. Los estudiantes se miden entre sí y registran en una tabla:",
+          "actividad_numero": "Nombres"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Realizar lo que se te pide usando tres unidades de medidas diferentes: 1) Ancho de tu tableta; 2) Largo de tu libro de matemáticas.\n\nCierre (pág. 119):\nPreguntas: \"¿Cuántos centímetros tiene la fila 2 de la tabla? ¿Cuántos metros hay en 180.34 cm? ¿Describan el proceso de medición?\"\n\nActividad complementaria (pág. 119):\nMedir la estatura de familiares (abuela, papá, mamá, primo, tía, amigo) y registrar en tabla (pie y centímetro).\n\nActividad para el diario del estudiante (pág. 119):\nResolver: \"La estatura de la profesora de 5° B es de 5 pies y 7 pulgadas. ¿Cuánto mide en centímetros? ¿En metros?\" (5'7\" = 67 in x 2.54 = 170.18 cm = 1.70 m).",
+          "actividad_numero": "Actividad 8 Actividad para el cuaderno (pág. 119) Cierre (pág. 119) Actividad complementaria (pág. 119) Actividad para el diario (pág. 119)"
+        }
+      ]
+    },
+    {
+      "id": "1771854723898",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Me divierte jugar para aprender",
+      "intencion_pedagogica": "Estimar longitudes del sistema métrico decimal.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nJuego didáctico: Estimación de longitudes en el sistema métrico decimal.\n\nTrabajo en equipos: Juego colaborativo.\n\nRegistro de diferencias: Comparación entre estimación y medición real.",
+      "aprendizaje_significativo": "Se utiliza un juego de estimación para desarrollar la habilidad de calcular longitudes aproximadas, una destreza muy útil en la vida cotidiana.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la estimación: Se les permite practicar con números más pequeños.\n\nPara estudiantes kinestésicos: El juego es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se les proporcionan tiras con marcas táctiles.\n\nPara estudiantes avanzados: Se les pide que estimen sin usar la línea como referencia visual.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 121, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la estatura de la profesora.\n2. Retroalimenta conversiones.\n3. Anuncia que hoy jugarán para aprender a estimar longitudes.",
+          "actividad_numero": "Actividad 9 A (pág. 120)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tiras de papel de 100 cm\n• Dados\n• Cintas métricas\n• Tabla de registro (pág. 136)",
+          "descripcion": "1. Prepara tiras de papel de 100 cm (1 m) marcando 0 cm y 100 cm.\n2. Organiza equipos de 3-4 estudiantes. Entrega una tira y dos dados de colores.\n3. Reglas:\n- Un dado representa las decenas (con caras 4,5,6 tapadas con valor 0), el otro las unidades.\n- Al lanzar los dados, forman un número de dos dígitos (ej: 2 y 3 = 23 o 32).\n- Cada miembro del equipo estima sobre la línea la longitud correspondiente y marca con sus iniciales.\n- Luego miden realmente la longitud y marcan.\n- Calculan la diferencia absoluta entre estimación y medición.\n- Gana quien tenga la menor diferencia acumulada.\n4. Los estudiantes juegan y registran en una tabla (pág. 121).",
+          "actividad_numero": "Actividad 9 B (págs. 120-121) Anexo (pág. 136)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "1) Expresar tu primera tirada en decímetros; 2) Expresar la tirada #2 en milímetros.\n\nCierre (pág. 121):\nPreguntas: \"¿Cómo jugaban? ¿Cómo registraban las jugadas? ¿Qué hacían para saber quién estaba más cerca?\"\n\nActividad complementaria (pág. 121):\nCompletar tabla con tiradas en cm, metros y decímetros.\n\nActividad para el diario del estudiante (pág. 121):\nResolver: \"La sumatoria del puntaje del equipo #1 fue de 268 cm. ¿Cuántos metros y milímetros representan?\" (2.68 m; 2,680 mm). \"El puntaje del equipo #4 fue 219 cm. ¿Cuántos metros y milímetros?\" (2.19 m; 2,190 mm).",
+          "actividad_numero": "Actividad 9 Actividad para el cuaderno (pág. 121) Cierre (pág. 121) Actividad complementaria (pág. 121) Actividad para el diario (pág. 121)"
+        }
+      ]
+    },
+    {
+      "id": "1771854795796",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Me divierte aprender",
+      "intencion_pedagogica": "Resolver situaciones problemáticas utilizando diferentes unidades de longitud.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre el puente Akashi Kaikyo.\n\nUso de lámina: Imagen del puente si no hay video.\n\nSituaciones problemáticas: Conversiones entre sistemas métrico e inglés.\n\nMétodo de regla de tres: Para conversiones.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se utiliza el ejemplo del puente colgante más largo del mundo para aplicar conversiones entre sistemas de medida, mostrando la utilidad de las matemáticas en la ingeniería y la construcción.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en regla de tres: Se les proporciona una guía paso a paso.\n\nPara estudiantes kinestésicos: Se les invita a representar las longitudes con cuerdas en el patio.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que investiguen otros puentes famosos y sus longitudes.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 123, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o lámina (pág. 122)",
+          "descripcion": "1. El docente pregunta por los problemas del juego.\n2. Retroalimenta estimación.\n3. Proyecta el video \"Puente Akashi Kaikyo\" (https://www.youtube.com/watch?v=OnSppJTBkEU) o muestra la lámina (pág. 122).\n4. Socializa: \"¿De qué trata el video? ¿Cuál es la longitud del puente? ¿Dónde se localiza?\"",
+          "actividad_numero": "Actividad 10 A (págs. 121-122)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Calculadoras\n• Cuadernos",
+          "descripcion": "1. Plantea el problema: *\"La longitud del puente Akashi-Kaikyo es de 3,911 metros. ¿Cuántos kilómetros tiene? ¿Cuántas yardas? ¿Cuántas millas?\"*\n2. Los estudiantes resuelven. Monitorea.\n3. Resuelve con ellos usando regla de tres y calculadora:\n- Kilómetros: 1 km = 1,000 m → 3,911 m ÷ 1,000 = 3.911 km.\n- Yardas: 1 yd = 0.914 m → 3,911 m ÷ 0.914 = 4,279 yd (aproximadamente).\n- Millas: 1 mi = 1,609 m → 3,911 m ÷ 1,609 = 2.43 mi.\n4. Explica el procedimiento paso a paso.",
+          "actividad_numero": "Actividad 10 B (págs. 122-123)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"El recorrido de la vía sobre el puente es de aproximadamente 4,000 m. ¿Cuántos hectómetros son? (40 hm). ¿Cuántos decámetros? (400 dam). ¿Cuántos decímetros? (40,000 dm).\"\n\nCierre (pág. 123):\nPreguntas: \"¿Cuál es la longitud del puente en yardas? ¿Y en km? ¿Cuántos km recorre la vía?\"\n\nActividad complementaria (pág. 123):\nResolver: \"El puente Francisco del Rosario Sánchez mide 800 m. Calcular en: dm (8,000 dm), millas (0.497 mi), km (0.8 km), hm (8 hm), mm (800,000 mm).\"\n\nActividad para el diario del estudiante (pág. 123):\nCompletar la tabla con kilómetros, millas y metros (dato faltante).",
+          "actividad_numero": "Actividad 10 Actividad para el cuaderno (pág. 123) Cierre (pág. 123) Actividad complementaria (pág. 123) Actividad para el diario (pág. 123)"
+        }
+      ]
+    },
+    {
+      "id": "1771854895375",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Me encantan las medidas convencionales y arbitrarias",
+      "intencion_pedagogica": "Retroalimentar los conocimientos adquiridos sobre medidas de longitud arbitrarias\ny convencionales.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nTrabajo práctico en el patio: Mediciones con sistema inglés y medidas arbitrarias.\n\nRegistro de datos: Tabla de mediciones.\n\nSocialización de resultados: Comparación y discusión.",
+      "aprendizaje_significativo": "Se realiza una actividad práctica al aire libre para medir objetos reales del entorno escolar (cancha, portón, biblioteca) utilizando tanto el sistema inglés como medidas arbitrarias, conectando el aprendizaje con la experiencia directa.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades motrices: Se les permite trabajar en parejas con un compañero que realice las mediciones.\n\nPara estudiantes kinestésicos: La actividad práctica en el patio es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se les guía táctilmente y se les describen las distancias.\n\nPara estudiantes avanzados: Se les pide que calculen el perímetro de la cancha en diferentes unidades.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 125, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la tabla completada.\n2. Retroalimenta conversiones.\n3. Anuncia que hoy medirán en el patio con sistema inglés y medidas arbitrarias. Pregunta: \"¿Qué instrumentos se usan para medidas arbitrarias?\"",
+          "actividad_numero": "Actividad 11 A (pág. 124)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Cintas métricas\n• Tabla de registro (pág. 124)\n• Patio de la escuela",
+          "descripcion": ". Forma grupos de 3 a 5 participantes.\n2. Entrega a cada grupo una copia de la tabla de registro (pág. 124) y una cinta métrica.\n3. Los estudiantes salen al patio y miden:\n- Largo y ancho de la cancha en yardas, pies, pasos y pisadas.\n- Largo del portón.\n- Largo y ancho de la biblioteca.\n- Distancia del centro de la cancha a la línea de fondo.\n4. Registran las mediciones en la tabla.\n5. Al regresar al aula, socializan las dificultades y resultados.",
+          "actividad_numero": "Actividad 11 B (págs. 124-125)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver problemas: 1) La longitud del salón de inicial es 14 yd, ¿cuántos pies son? (42 ft). 2) Marcar un punto, avanzar 3 pasos, medir en yardas y pies.\n\nCierre (pág. 125):\nPreguntas: \"¿Cómo medimos en la actividad? ¿Qué son medidas arbitrarias? ¿Cuánto les dio el problema del salón?\"\n\nActividad complementaria (pág. 125):\n1) Salón de clases: 13 yd vs 11 pasos, ¿por qué la diferencia? 2) Dos estudiantes miden ancho: 15 y 13 pisadas, ¿cuál midió correctamente? 3) Avanzar 7 pisadas, medir en pies. 4) Distancia de mango al tronco: 9 ft, ¿cuántas yd? (3 yd). 5) Tiro de baloncesto: 6.5 yd, ¿cuántos ft? (19.5 ft).\n\nActividad para el diario del estudiante (pág. 125):\nMarcar un punto, avanzar 8 brazas, medir en yardas. ¿Qué notaste?",
+          "actividad_numero": "Actividad 11 Actividad para el cuaderno (pág. 125) Cierre (pág. 125) Actividad complementaria (pág. 125) Actividad para el diario (pág. 125)"
+        }
+      ]
+    },
+    {
+      "id": "1771855013009",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Juego y aprendo",
+      "intencion_pedagogica": "Estimar longitudes usando unidades de medidas del sistema inglés.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nJuego didáctico: Estimación de longitudes en el sistema inglés.\n\nTrabajo en equipos: Juego colaborativo.\n\nRegistro de diferencias: Comparación entre estimación y medición real.",
+      "aprendizaje_significativo": "Se repite el juego de estimación, ahora con unidades del sistema inglés (pulgadas), para desarrollar la habilidad de estimar longitudes en este sistema.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la estimación: Se les permite practicar con números más pequeños.\n\nPara estudiantes kinestésicos: El juego es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se les proporcionan tiras con marcas táctiles.\n\nPara estudiantes avanzados: Se les pide que estimen sin usar la línea como referencia visual y que calculen el error porcentual.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 127, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la actividad de las 8 brazas y las medidas en yardas.\n2. Retroalimenta la diferencia entre medidas arbitrarias y convencionales.\n3. Anuncia que hoy jugarán nuevamente a estimar, pero ahora con pulgadas. Pregunta: \"¿Recuerdan cuántas pulgadas tiene una yarda?\" (36 in).",
+          "actividad_numero": "Actividad 12 A (pág. 126)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tiras de papel de 36 in\n• Dados\n• Cintas métricas\n• Tabla de registro (pág. 136)",
+          "descripcion": "1. Prepara tiras de papel de 36 pulgadas (1 yarda) marcando 0 in y 36 in.\n2. Organiza equipos de 3-4 estudiantes. Entrega una tira, dos dados de colores y una cinta métrica.\n3. Reglas:\n- Un dado representa las decenas (con caras 4,5,6 tapadas con valor 0), el otro las unidades.\n- Al lanzar los dados, forman un número de dos dígitos (ej: 3 y 1 = 13 o 31).\n- Cada miembro del equipo estima sobre la línea la longitud correspondiente y marca con sus iniciales y el valor estimado.\n- Luego miden realmente la longitud y marcan.\n- Calculan la diferencia absoluta entre estimación y medición.\n- Registran en una tabla (pág. 127).\n- Gana quien tenga la menor diferencia acumulada.\n4. Los estudiantes juegan y registran. El docente observa y apoya.",
+          "actividad_numero": "Actividad 12 B (págs. 126-127) Anexo (pág. 136)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "1) Expresar tu primera tirada en pies; 2) Expresar la tirada #2 en yardas.\n\nCierre (pág. 127):\nPreguntas: \"¿Cómo jugaban? ¿Qué hacían después de estimar? ¿Cómo registraban las jugadas? ¿Qué hacían para saber quién estaba más cerca? Antonio tiene diferencia de 4 in, ¿cuáles pueden ser las causas?\"\n\nActividad complementaria (pág. 127):\nCompletar tabla con tiradas en in, yardas y pies (26, 35, 12, 16, 24 in).\n\nActividad para el diario del estudiante (pág. 127):\nResolver: \"La sumatoria del puntaje del equipo #2 fue de 92 in. ¿Cuántas yardas y pies representan?\" (92 in = 7.67 ft = 2.56 yd). \"El puntaje del equipo #3 fue 103 in. ¿Cuántos pies representan?\" (8.58 ft).",
+          "actividad_numero": "Actividad 12 Actividad para el cuaderno (pág. 127) Cierre (pág. 127) Actividad complementaria (pág. 127) Actividad para el diario (pág. 127)"
+        }
+      ]
+    },
+    {
+      "id": "1771855169733",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": "¡Qué interesante es aprender medidas convencionales de longitud!",
+      "intencion_pedagogica": "Convertir mediciones realizadas en el sistema métrico decimal al sistema inglés y\nviceversa.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de procedimientos para conversiones entre sistemas.\n\nUso de tabla de equivalencias: Para consultar factores de conversión.\n\nSituaciones problemáticas: Conversiones entre sistema métrico e inglés.\n\nTrabajo individual: Resolución de problemas con calculadora.",
+      "aprendizaje_significativo": "Se integran los conocimientos de ambos sistemas de medida realizando conversiones entre ellos, aplicándolos a problemas reales como las dimensiones de aeropuertos dominicanos, conectando las matemáticas con la infraestructura nacional.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en el uso de calculadora: Se les proporciona una guía paso a paso.\n\nPara estudiantes kinestésicos: Se les invita a escribir los factores de conversión en tarjetas y usarlas como referencia.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado y calculadoras con voz.\n\nPara estudiantes avanzados: Se les pide que investiguen las dimensiones de otros aeropuertos del mundo.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 129, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por los puntajes de los equipos #2 y #3.\n2. Pregunta: \"¿Qué procedimiento usaron para obtener el resultado?\"\n3. Anuncia el tema: conversiones entre sistema métrico e inglés. Pregunta: \"¿Qué creen que aprenderán hoy?\" Anota hipótesis.",
+          "actividad_numero": "Actividad 13 A (pág. 128)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tabla de equivalencias (pág. 129)\n• Calculadoras\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta la tabla de equivalencias (pág. 129):\n- 1 mi = 1,609 m = 1.609 km\n- 1 yd = 0.914 m = 91.4 cm\n- 1 ft = 0.305 m = 30.5 cm\n- 1 in = 2.54 cm\n2. Plantea el problema (pág. 128): \"El Aeropuerto Internacional de Las Américas tiene una pista de 3.354 km de largo y 0.075 km de ancho. Determinar el largo y ancho en metros. ¿Cuántas yardas tiene el ancho?\"\n3. Los estudiantes resuelven con calculadora. Monitorea.\n4. Resuelve con ellos:\n- Largo: 3.354 km × 1,000 = 3,354 m\n- Ancho: 0.075 km × 1,000 = 75 m\n- Ancho en yardas: 75 m ÷ 0.914 = 82.057 yd\n5. Explica el uso de la calculadora y la regla de tres.",
+          "actividad_numero": "Actividad 13 B (págs. 128-129)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"El Aeropuerto Internacional del Cibao tiene una pista de 2.62 km. ¿Cuántos metros tiene? (2,620 m). ¿Cuántas yardas?\" (2,620 ÷ 0.914 = 2,866.5 yd).\n\nCierre (pág. 129):\nPreguntas: \"¿Qué procedimiento usaron para calcular las yardas? ¿Cuánto fue el resultado? ¿Cómo se llama la unidad que tiene 36 pulgadas?\" (yarda).\n\nActividad complementaria (pág. 129):\nResolver: 1) Autopista del Ámbar: 32.7 km, ¿metros? (32,700 m), ¿yardas? (35,776 yd). 2) Circunvalación de Azua: 13,500 m, ¿km? (13.5 km), ¿yardas? (14,768 yd). 3) Autopista del Nordeste: 106.5 km, ¿metros? (106,500 m), ¿yardas? (116,520 yd). 4) Autopista del Coral: 70 km, ¿yardas? (76,587 yd). 5) Distancia de Santo Domingo a su pueblo: 27.5 km, ¿metros? (27,500 m).\n\nActividad para el diario del estudiante (pág. 129):\nResolver: \"La Circunvalación Norte de Santiago tiene 24 km. ¿Cuántos metros tiene? (24,000 m). ¿Cuántas yardas?\" (26,260 yd).",
+          "actividad_numero": "Actividad 13 Actividad para el cuaderno (pág. 129) Cierre (pág. 129) Actividad complementaria (pág. 129) Actividad para el diario (pág. 129)"
+        }
+      ]
+    },
+    {
+      "id": "1771855263305",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 13,
+      "title": "Actividad 14",
+      "name": "Me divierten las medidas arbitrarias de longitud",
+      "intencion_pedagogica": "Utilizar unidades arbitrarias para medir longitudes de un mismo objeto.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nTrabajo práctico: Mediciones con objetos no convencionales (palitos de paleta, lápices, sorbetes, fósforos).\n\nComparación de resultados: Análisis de por qué las medidas varían.\n\nRegistro de datos: Tabla de mediciones.",
+      "aprendizaje_significativo": "Se refuerza el concepto de medidas arbitrarias utilizando objetos cotidianos como instrumentos de medición, permitiendo a los estudiantes experimentar directamente la falta de precisión de estas medidas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades motrices: Se les permite trabajar en pareja.\n\nPara estudiantes kinestésicos: La actividad práctica es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se les proporcionan objetos con diferentes texturas.\n\nPara estudiantes avanzados: Se les pide que calculen el promedio de las medidas obtenidas.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 130, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el problema de la Circunvalación Norte.\n2. Retroalimenta conversiones.\n3. Anuncia que hoy medirán con objetos no convencionales. Pregunta: \"¿Qué objetos podríamos usar para medir?\"",
+          "actividad_numero": "Actividad 14 A (pág. 130)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Palitos de paleta\n• Lápices\n• Sorbetes\n• Fósforos sin cabeza\n• Cuadernos",
+          "descripcion": "1. Forma equipos de 3-4 estudiantes.\n2. Entrega a cada grupo palitos de paleta, lápices, sorbetes, fósforos sin cabeza.\n3. Plantea el problema (pág. 130): \"Maura y Jordán quieren saber si al medir el largo de sus cuadernos (iguales) con cada objeto obtendrán las mismas medidas.\"\n4. Los estudiantes miden el largo de sus cuadernos con cada objeto y registran en una tabla (pág. 130).\n5. Comparan resultados. Discuten por qué varían (diferente longitud de los objetos).\n6. Socializan conclusiones.",
+          "actividad_numero": "Actividad 14 B (págs. 130-131)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Medir el ancho de tu mesa o largo de tu calzado usando los objetos de la tabla y escribir los resultados.\n\nCierre (pág. 131):\nPreguntas: \"¿Qué procedimiento usaron? ¿Qué midieron? ¿Con cuáles objetos obtuvieron menor medida? ¿Por qué?\"\n\nActividad complementaria (pág. 131):\nMedir largo del pie y del brazo con los objetos y responder: ¿Cuál mide más? ¿Cuál objeto es más largo? ¿Qué pasa al medir con él?\n\nActividad para el diario del estudiante (pág. 131):\nMedir tu altura usando sorbete y palito de paleta. ¿Cuál dio más? ¿Por qué?",
+          "actividad_numero": "Actividad 14 Actividad para el cuaderno (pág. 130) Cierre (pág. 131) Actividad complementaria (pág. 131) Actividad para el diario (pág. 131)"
+        }
+      ]
+    },
+    {
+      "id": "1771855352708",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 14,
+      "title": "Actividad 15",
+      "name": "Me fascinan las medidas de longitud (retroalimentación)",
+      "intencion_pedagogica": "Retroalimentar los conocimientos adquiridos sobre medidas de longitud.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Retroalimentación general de la secuencia.\n\nEjercicios integradores: Conversiones entre sistemas y medidas arbitrarias.\n\nTrabajo individual: Resolución de tablas de conversión.",
+      "aprendizaje_significativo": "Se realiza una retroalimentación general de todos los temas de la secuencia, integrando conversiones entre sistemas y medidas arbitrarias para consolidar los aprendizajes.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en conversiones: Se les permite tener las tablas de equivalencia a la vista.\n\nPara estudiantes kinestésicos: Se les invita a pasar al frente a resolver en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que creen sus propios problemas de conversión.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 132, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la medición de altura con sorbete y palito.\n2. Pregunta: \"¿Cuáles sistemas convencionales hemos usado? ¿Cómo se llama la medida no convencional? ¿Por qué?\"\n3. Anuncia que hoy repasarán todo lo aprendido.",
+          "actividad_numero": "Actividad 15 A (pág. 131)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Tablas de equivalencia\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Tabla de estatura en sistema inglés a métrico: Completar tabla con 5 ft en m, dm, cm, mm (1.525 m; 15.25 dm; 152.5 cm; 1,525 mm).\n2. Tabla de estatura en sistema métrico a inglés: Completar tabla con 2 m en yd, ft, in (2.188 yd; 6.564 ft; 78.77 in).\n3. Explica paso a paso usando las tablas de equivalencia.\n4. Medidas arbitrarias: Completar tabla con 14 cuartas, 27 palitos, 13 sorbetes. Pregunta: \"¿Por qué se necesitaron más palitos que sorbetes?\" (porque los palitos son más cortos).",
+          "actividad_numero": "Actividad 15 B y C (págs. 131-132)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"La construcción de un baño público de una plaza comercial mide 48 pies de largo. ¿Cuánto mide en metros? (14.64 m). ¿Y en yardas?\" (16 yd).\n\nCierre (pág. 133):\nPreguntas: \"¿Cuáles unidades de medidas se trabajaron hoy? ¿Mencione los sistemas de medidas convencionales? ¿Qué son medidas arbitrarias? ¿Qué es medir?\"\n\nActividad complementaria (pág. 133):\nCompletar tabla calculando mediciones: ancho de puerta 27 in, altura de Juan 4.85 ft, largo de mesa 175 in, etc.\n\nActividad para el diario del estudiante (pág. 133):\nResolver: \"Un camino vecinal mide 3.85 m de ancho. ¿Cuántos pies tiene?\" (12.63 ft).",
+          "actividad_numero": "Actividad 15 Actividad para el cuaderno (pág. 132) Cierre (pág. 133) Actividad complementaria (pág. 133) Actividad para el diario (pág. 133)"
+        }
+      ]
+    },
+    {
+      "id": "1771855463912",
+      "sequence_id": "seq-1771853765807",
+      "order_index": 15,
+      "title": "Actividad 16",
+      "name": " Evaluando lo aprendido",
+      "intencion_pedagogica": "Evaluar los conocimientos adquiridos en la Secuencia 4 (medidas de longitud, conversiones entre sistemas métrico e inglés, medidas arbitrarias) a través de la resolución de problemas.\n\n",
+      "estrategia": "Retroalimentación inicial: Preguntas orales para recordar los temas de la secuencia.\n\nEvaluación escrita: Resolución individual de un conjunto de problemas.\n\nUso de escala de valoración: Para que los estudiantes comprendan cómo se evaluará su desempeño.",
+      "aprendizaje_significativo": "La evaluación se presenta como una oportunidad para demostrar lo aprendido en contextos significativos (puentes, carreteras, canchas), y se utiliza una escala de valoración para que los estudiantes tomen conciencia de su propio nivel de logro.\n\n",
+      "actividades_complementarias": "Para estudiantes que necesitan más tiempo: Se les puede permitir terminar la evaluación en otra sesión, según la Ordenanza 04-2023.\n\nPara estudiantes con dificultades de lectura: Se les leen los problemas en voz alta si es necesario.\n\nPara estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n\nPara estudiantes que terminan rápido: Se les puede pedir que revisen sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué trabajaron en esta secuencia? ¿Cuáles sistemas de medida conocen? ¿Qué son medidas arbitrarias?\"\n2. Da tiempo para responder y retroalimenta los temas.",
+          "actividad_numero": "• Participación de los estudiantes"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Copia de la evaluación o pizarra con los ítems\n• Escala de valoración",
+          "descripcion": "1. El docente explica que esta actividad evalúa la secuencia y que se hará énfasis en la resolución de problemas.\n2. Explica que cada ítem tiene un valor numérico por procedimiento y respuesta completa.\n3. Lee y explica la escala de valoración (pág. 133).\n4. Entrega una hoja en blanco a cada estudiante para que coloquen sus datos.\n5. Aplica la evaluación, ítem por ítem, dando el tiempo necesario. La evaluación consta de 10 puntos:\n- Ítem 1: Puente Francisco del Rosario Sánchez mide 626 m, ¿cuántos dam? (62.6 dam) (10 pts).\n- Ítem 2: Carretera Navarrete Puerto Plata: 46.8 km, ¿cuántos m? (46,800 m) (10 pts).\n- Ítem 3: Puente Francisco del Rosario Sánchez: 626 m, ¿cuántos hm? (6.26 hm) (10 pts).\n- Ítem 4: Cancha de tenis: 23.67 m, ¿cuántos dm? (236.7 dm) (10 pts).\n- Ítem 5: ¿Cuántos pies hay en 6 yardas? (18 ft) (10 pts).\n- Ítem 6: Altura de jugador NBA: 203 cm, ¿cuántos pies? (6.66 ft) (10 pts).\n- Ítem 7: Tania mide con cuarta: 10 cuartas; Manuel: 8 cuartas. ¿Por qué a Tania le da más? (justificar: tamaño de la cuarta) (10 pts).\n- Ítem 8: Distancia Baní - San Cristóbal: 37.9 km, ¿cuántos m? (37,900 m) (10 pts).\n- Ítem 9: María mide cama: 15 cuartas; hermano: 12 cuartas. ¿Por qué a María le da más? (justificar) (10 pts).\n- Ítem 10: Colocar \"c\" al lado de medidas convencionales y \"a\" al lado de medidas arbitrarias (8 hm, 15 pasos, 9 km, 3 ft, 5 sorbetes) (10 pts).",
+          "actividad_numero": "Actividad 16 Evaluación (págs. 133-134)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones de los estudiantes",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Puede hacer un breve comentario sobre la importancia de la evaluación para medir el aprendizaje.\n3. Anuncia que en la próxima clase se darán los resultados y se retroalimentarán los puntos con mayores dificultades.",
+          "actividad_numero": "Actividad 16 (Cierre)"
+        }
+      ]
+    }
+  ]
+}

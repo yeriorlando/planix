@@ -1,0 +1,355 @@
+{
+    "sequenceId": "secuencia-4-matematica-2do-grado",
+    "subjectId": "matematica",
+    "sequenceTitle": "Secuencia 4: Problemas y cálculos",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1: Numeración de tres cifras y restas con canje",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "Lean, escriban y ordenen números del 0 al 1,000. Exploren anteriores y posteriores de números de tres dígitos.",
+                    "resources": "Actividad 1 del fascículo, los cuadros recortables de la actividad 1, pegamento para uso de los estudiantes.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Completar con el número anterior (a 900, 540) y el número siguiente (a 789, 299).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes",
+                            "description": "Se presenta el papelógrafo con los objetivos de la secuencia (leer/escribir números de tres cifras, resolver problemas de suma/resta, etc.)."
+                        },
+                        {
+                            "title": "Momento 2. Orden de la serie del 0 al 1,000",
+                            "description": "Los estudiantes ordenan los cuadros numéricos (0-100, 100-200, etc.) de menor a mayor. Analizan patrones y similitudes entre los cuadros."
+                        },
+                        {
+                            "title": "Momento 3. Leer y escribir números",
+                            "description": "Determinar posteriores y anteriores a los que terminan en 9, 99, 0 y 00. Escriben ejemplos y analizan qué cifras cambian."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Conclusiones sobre los cambios en los números terminados en 9/99 y 0/00. Registro en el cuaderno."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "Ordenen números de tres dígitos.",
+                    "resources": "Papelógrafo de aprendizajes, actividad 2 del fascículo: tarjetas con numerales del 0 al 9; papelógrafo en blanco.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Completar cinco números de tres dígitos eligiendo tres tarjetas dadas (3, 5, 8, 4) y ordenarlos de menor a mayor.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa cómo completaron los anteriores y siguientes, observando qué cifras se modificaron."
+                        },
+                        {
+                            "title": "Momento 2. Comparar números según el valor posicional",
+                            "description": "Juego: Tres de cuatro. En parejas, eligen 3 de 4 tarjetas para formar el número mayor (o menor). Gana quien forma el mayor número. Justifican decisiones basadas en el valor posicional."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Se registran pistas para comparar números (cantidad de dígitos, valor del primer dígito, el cero a la izquierda no vale, etc.)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "Comparen números de tres dígitos.",
+                    "resources": "Juego de tarjetas de la actividad anterior (opcional); actividad 3 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Escribir números que cumplan condiciones: a) Mayor que 40 con un 3, b) Mayor que 54 con un 6, c) Menor que 30 con un 8, d) Menor que 50 con un 2.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Compartir cómo ordenaron los números de menor a mayor y qué criterios usaron."
+                        },
+                        {
+                            "title": "Momento 2. Comparar números de tres dígitos",
+                            "description": "Resolver situaciones derivadas del juego anterior: qué números se pueden armar con ciertas cartas, números mayores a uno dado, qué cartas ganan a otras."
+                        },
+                        {
+                            "title": "Momento 3. Comparar números de dos dígitos",
+                            "description": "Resolver consignas individuales sobre escribir números mayores o menores que uno dado que contengan un dígito específico, atendiendo al valor posicional."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "Lean y escriban números de tres dígitos.",
+                    "resources": "Actividad 4 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Escribir en números: Trescientos cinco, Doscientos nueve, Ciento tres.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Compartir los números escritos en la tarea, atendiendo al orden y valor de las cifras."
+                        },
+                        {
+                            "title": "Momento 2. El cero para guardar posición",
+                            "description": "Situación problemática: Lectura errónea de números de butacas (306 vs 36). Reflexión sobre la función del cero intermedio."
+                        },
+                        {
+                            "title": "Momento 3. Un dictado para aprender a escribir los números",
+                            "description": "Dictado de números con cero intermedio (508, 207, 901, etc.). Cotejo en grupos y escritura en la pizarra."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "Resuelvan cálculos en forma aproximada y exacta.",
+                    "resources": "Papelógrafo con recta numérica del 0 al 200 (opcional). Actividad 5 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver en forma aproximada y exacta: Luisa colocó 40 de los 84 caramelos. ¿Cuántos faltan?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisar la escritura de números con ceros intermedios y la importancia del cero."
+                        },
+                        {
+                            "title": "Momento 2. Cálculos aproximados",
+                            "description": "Problema: Caramelos de piña (96) y fresa (54). Estimar si hay que comprar más o menos de 50 para igualar. Calcular la cantidad exacta."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "Redondeen números para resolver cálculos aproximados y relacionar cálculos.",
+                    "resources": "Un papelógrafo para los cálculos con números terminados en cero, actividad 6 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: a) Decidir si cálculos dan más que 100. b) Problema de envases: 63, 80 y 38 dulces, ¿más de una caja de 100?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Compartir la resolución del problema de los caramelos (aproximación y cálculo exacto)."
+                        },
+                        {
+                            "title": "Momento 2. Sumar y restar aproximadamente",
+                            "description": "Resolver consignas: decidir si cálculos dan más de 50 sin hacer la cuenta exacta. Estimar totales de dulces redondeando."
+                        },
+                        {
+                            "title": "Momento 3. Relacionar sumas y restas",
+                            "description": "Completar cálculos relacionados con números terminados en cero (ej: si 30+40=70, entonces 70-30=...). Uso de papelógrafo."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "Establezcan equivalencias entre decenas y unidades, particularmente que 1 decena = 10 unidades.",
+                    "resources": "Actividad 7 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: En la nevera hay una caja con 10 helados y 7 sueltos. ¿Qué hacen para dar a 9 jugadores? ¿Cuántos quedan?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisar estimaciones de la tarea anterior."
+                        },
+                        {
+                            "title": "Momento 2. Equivalencias entre decenas y unidades",
+                            "description": "Problema: Botellas de agua (2 cajas de 10 y 3 sueltas). Necesidad de 'abrir' una caja (decena) para repartir a 9 jugadores. Resta con canje implícito."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Reforzar con representación gráfica: 1 caja = 10 botellas (1 decena = 10 unidades)."
+                        },
+                        {
+                            "title": "Momento 4. Equivalencias entre billetes de 10 y monedas de 1",
+                            "description": "Problema: Pagar $6 teniendo solo billetes de $10. Necesidad de cambiar billete por monedas."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 8",
+                    "pedagogicalIntention": "Resuelvan problemas con distintas estrategias que implican realizar cálculos con un canje o cambio.",
+                    "resources": "Actividad 8 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Tenían 32 aros de básquet y se rompieron 15. ¿Cuántos quedan?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Compartir resolución del problema de helados. Retomar equivalencia 1 decena = 10 unidades."
+                        },
+                        {
+                            "title": "Momento 2. Restar con cambio de una decena por unidades",
+                            "description": "Problema: 54 pelotas, se perdieron 18. Resolver resta 54-18 usando descomposición y canje de decena."
+                        },
+                        {
+                            "title": "Momento 3. Restar verticalmente con cambios de una decena en unidades",
+                            "description": "Presentar y analizar la cuenta vertical de resta con canje, comparándola con la descomposición."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "Practiquen estrategias de cálculo para resolver problemas y cálculos.",
+                    "resources": "Actividad 9 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Tenían 63 refrescos, vendieron 47. ¿Cuántos quedan?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Compartir estrategias de resta (descomposición y algoritmo) para el problema de los aros."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas de resta con cambio de una decena por unidades",
+                            "description": "Problema: 75 boletas, vendieron 59. Calcular remanente. Énfasis en el canje."
+                        },
+                        {
+                            "title": "Momento 3. Un nuevo problema para practicar",
+                            "description": "Problema: 50 gorras, regalaron 38. Calcular cuántas quedan."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 10: RECAPITULACIÓN",
+                    "pedagogicalIntention": "Repasen algunos de los contenidos trabajados.",
+                    "resources": "Cuadro personal de números completo. Papelógrafo de aprendizajes. Actividad 10 en el fascículo. Media hoja en blanco.",
+                    "homework": "No especificada (actividad de cierre de bloque).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisar problema de los refrescos (resta con canje)."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Revisión de actividades y registro en el papelógrafo de aprendizajes."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido",
+                            "description": "Evaluación individual: Formar números con tarjetas, ordenarlos y resolver problema de resta con canje (46 helados, vendió 28)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2: Campo multiplicativo: dobles, triples y estrategias de cálculo",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 11",
+                    "pedagogicalIntention": "Resuelvan problemas de una cantidad que se repite varias veces usando distintos procedimientos.",
+                    "resources": "Material concreto (piedrecitas, semillas, tapitas). Actividad 11 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Problema: 10 parejas, 2 dados cada una. ¿Cuántos dados en total?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Retroalimentar las recapitulaciones",
+                            "description": "Devolución de correcciones de la actividad anterior."
+                        },
+                        {
+                            "title": "Momento 2. Iniciación a problemas de multiplicación",
+                            "description": "Problema: 4 piñatas con 3 dulces cada una. Resolver con material concreto, dibujos o conteo."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 12",
+                    "pedagogicalIntention": "Resuelvan de distintas maneras problemas de cantidades que se repiten.",
+                    "resources": "Material concreto (piedrecitas, semillas, tapitas). Actividad 12 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Problema: 5 mesas, 5 velas cada una. Calcular total.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Compartir procedimientos para el problema de los dados (sumas reiteradas, conteo)."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de multiplicación con procedimientos elementales",
+                            "description": "Problema: 5 mesas, 3 globos cada una. Resolver identificando la cantidad que se repite."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 13",
+                    "pedagogicalIntention": "Calculen sumas reiteradas de un mismo número.",
+                    "resources": "El cuadro de veces de la actividad 13 del fascículo. Dos dados (o dos mazos de tarjetas) por grupo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Completar espacios sombreados en el cuadro del juego 'Veces en el cuadro'.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisar resolución del problema de las velas."
+                        },
+                        {
+                            "title": "Momento 2. Sumas reiteradas de un mismo número y “veces”",
+                            "description": "Juego: 'Veces en el cuadro'. Llenar cuadro de doble entrada calculando X veces Y (ej: 4 veces 3)."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Concluir que 3 veces 4 es lo mismo que 4 veces 3 (conmutatividad intuitiva)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 14",
+                    "pedagogicalIntention": "Resuelvan problemas de cantidades que se repiten de diferentes maneras.",
+                    "resources": "Material concreto, Actividades 11, 12 y 14 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Problema: 6 mesas con 4 platos de frutas cada una. Calcular total.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisar cuadro de veces completo."
+                        },
+                        {
+                            "title": "Momento 2. Problema de multiplicación con estrategias elementales",
+                            "description": "Problema: 4 piñatas con 5 dulces cada una. Comparar con problema anterior (4x3) y resolver."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 15",
+                    "pedagogicalIntention": "Calculen dobles de distintos números.",
+                    "resources": "Doce tarjetas con números (0, 100... 500 repetidos), papelógrafo blanco, tabla de puntajes.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Problema: Carlos tiene tarjeta 400 y Lucía 300. ¿Quién ganó (diferencia de dobles)?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Comparar procedimientos del problema de frutas."
+                        },
+                        {
+                            "title": "Momento 2. Calcular dobles",
+                            "description": "Juego: 'Las diferencias'. Calcular el doble de números (ej: doble de 200). Ganar por diferencia de puntajes."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Definir doble como sumar dos veces el mismo número. Registrar ejemplos."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 16",
+                    "pedagogicalIntention": "Calculen el triple de algunos números de dos dígitos.",
+                    "resources": "Veinte tarjetas con números (0, 10... 90 repetidos), papelógrafo anterior.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Problema: Isabel tarjeta 30, Lucas 40 (juego de triples). ¿Quién ganó?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisar concepto de doble."
+                        },
+                        {
+                            "title": "Momento 2. Calcular triples",
+                            "description": "Introducir concepto de triple (tres veces el número)."
+                        },
+                        {
+                            "title": "Momento 3. Diferencia y comparación de números",
+                            "description": "Juego 'Las diferencias' pero calculando triples de números de dos cifras."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Registrar concepto de triple."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 17: CIERRE DE LA SECUENCIA Y METACOGNICIÓN",
+                    "pedagogicalIntention": "Reflexionen sobre lo realizado y aprendido durante la secuencia.",
+                    "resources": "Actividad 17 del fascículo.",
+                    "homework": "No especificada.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisar concepto de triple."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué estudiamos en este bloque?",
+                            "description": "Autoevaluación en el fascículo (cuadro 'Me resulta fácil/Me cuesta' sobre comparar, sumar, restar, problemas)."
+                        },
+                        {
+                            "title": "Momento 3. Revisar el papelógrafo de aprendizajes",
+                            "description": "Marcar lo aprendido y cerrar la secuencia."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

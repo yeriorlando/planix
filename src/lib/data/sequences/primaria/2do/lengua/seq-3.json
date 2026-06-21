@@ -1,0 +1,313 @@
+{
+    "sequenceId": "seq-lengua-3",
+    "subjectId": "lengua",
+    "sequenceTitle": "La Receta",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1 - Introducción a la Receta",
+            "activities": [
+                {
+                    "title": "Actividad 1",
+                    "pedagogicalIntention": "Comparten los conocimientos previos sobre las recetas y reconocen su importancia cultural.",
+                    "resources": "Papelógrafo de aprendizajes.",
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Muestra el cuaderno a algún familiar. Cuéntale de qué conversaron. Pega una receta en el cuaderno.”",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Conocimientos previos sobre las recetas",
+                            "description": "Se inicia una conversación en clase acerca de lo que los estudiantes conocen sobre recetas de cocina, comidas favoritas, quién las prepara, comidas especiales, etc. El docente introduce la palabra 'receta' y reflexiona sobre su escritura (sonido /s/ representado con c). Se pregunta qué es una receta, si han preparado alguna y si conocen comidas raras."
+                        },
+                        {
+                            "title": "Momento 2. El papelógrafo de aprendizajes",
+                            "description": "El docente presenta el papelógrafo de aprendizajes, lo lee en voz alta y luego lo hace leer entre todos. Se exponen los contenidos: conocer recetas, reconocer sus partes, leer recetas y escribir una receta."
+                        },
+                        {
+                            "title": "Momento 3. Escritura en el cuaderno. Fecha en versión larga y corta",
+                            "description": "Se escribe la fecha al dictado, revisando la escritura. Se explica la fecha en formato corto (numérico). Se escribe el nombre de la secuencia: 'Receta' y el nombre de su comida preferida: 'Mi comida preferida es...'. El docente recorre el aula y orienta."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 2",
+                    "pedagogicalIntention": "Reconocen las partes de una receta.",
+                    "resources": "Recetas de revistas o impresas.",
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Observa esta receta. Encierra las palabras “ingredientes” y “preparación”. Responde: ¿Cuál es el título de esta receta? __________________”.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Los estudiantes comparten las recetas que pegaron en sus cuadernos. Si alguien no tiene, el docente le proporciona una."
+                        },
+                        {
+                            "title": "Momento 2. Exploración de la estructura de las recetas de cocina",
+                            "description": "El docente orienta la exploración del paratexto con preguntas sobre cómo reconocer una receta, sus diferencias con otros textos y su organización. Anota en el pizarrón características como nombre de la comida, fotos, lista de ingredientes y modo de preparación."
+                        },
+                        {
+                            "title": "Momento 3. Las partes de las recetas",
+                            "description": "En grupos, con una receta nueva, juegan a identificar las partes (nombre del plato, ingredientes, preparación, imágenes) a medida que el docente las menciona."
+                        },
+                        {
+                            "title": "Momento 4. Escritura en el cuaderno",
+                            "description": "Se escribe la fecha. Luego, se escribe en la pizarra y se copia en el cuaderno: 'Las partes de las recetas son: título - ingredientes - preparación'. Se trabaja con letras móviles grandes en la pizarra y se revisa la copia."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 3",
+                    "pedagogicalIntention": "Comprenden la importancia de seguir el orden en las recetas.",
+                    "resources": "Tirillas con receta desordenada: Cortar las frutas en trozos, Agregar el jugo de limón y el azúcar, Ensalada de frutas, 2 naranjas, 2 bananas, 2 peras, Pelar las frutas, 2 manzanas, jugo de 1 limón, 1 taza de azúcar.",
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Pídele a un familiar que te cuente la receta de una comida que le guste mucho. Anota su título en el cuaderno.”",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Se comparten las respuestas de la tarea. El docente verifica la identificación del título 'Ensalada de frutas' y escribe la respuesta en la pizarra para corrección."
+                        },
+                        {
+                            "title": "Momento 2. Lectura de una receta desordenada",
+                            "description": "En grupos de dos, leen el cuadro del fascículo 'Receta desordenada'. El docente lee en voz alta y pregunta qué pasa si una receta está desordenada."
+                        },
+                        {
+                            "title": "Momento 3. Juego: Ordenar las partes de la receta",
+                            "description": "Con tirillas en la pizarra, se ordena la receta colectivamente: título, ingredientes y preparación. Se reflexiona sobre el orden lógico de los procedimientos (ej. pelar antes de cortar)."
+                        },
+                        {
+                            "title": "Momento 4. Actividad en el fascículo",
+                            "description": "Los estudiantes completan el cuadro del fascículo con la receta ordenada, copiando de la pizarra."
+                        },
+                        {
+                            "title": "Momento 5. Escritura en el cuaderno",
+                            "description": "Se escribe la fecha y la frase: 'Hoy ordenamos una receta', dictada palabra por palabra prolongando sonidos. Revisión colectiva."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 4",
+                    "pedagogicalIntention": "Juegan con palabras para identificar sonidos, sílabas y letras.",
+                    "resources": "",
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Lee con atención estas palabras: limón - frutas - azúcar - ingredientes - receta - cortar - guineo”",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Los estudiantes comparten las recetas favoritas de sus familiares. El docente escribe los títulos en la pizarra para verificación."
+                        },
+                        {
+                            "title": "Momento 2. Juego: Detectives de sonidos",
+                            "description": "El docente propone preguntas para identificar sonidos, sílabas y letras en palabras de la receta (ej. sílabas de 'Cortar', letras de 'naranjas', palabra escondida en 'ingredientes', palabras que empiezan con /p/ o terminan en /s/)."
+                        },
+                        {
+                            "title": "Momento 3: Adivina el ingrediente secreto",
+                            "description": "Juego del ahorcado en la pizarra con ingredientes de la receta (ej. limón). Los estudiantes adivinan letras."
+                        },
+                        {
+                            "title": "Momento 4. Escritura en el cuaderno",
+                            "description": "Se escribe la fecha y el nombre del juego: 'El ingrediente secreto', dictado palabra por palabra. Revisión y corrección."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2 - Lectura y Escritura de Palabras",
+            "activities": [
+                {
+                    "title": "Actividad 5",
+                    "pedagogicalIntention": "Desarrollan la comprensión lectora mediante la lectura guiada.",
+                    "resources": "",
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Subraya solamente los nombres de frutas: nena – lunes – mamá - manzana -ratón - pipa - piña - pera - uva - pero”.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Se realiza un dictado de las palabras de la tarea. Se revisa la escritura colectivamente."
+                        },
+                        {
+                            "title": "Momento 2. Identificación de letras y sonidos vocales",
+                            "description": "Se identifican vocales. Se piensa en frutas que contengan cada vocal. Se escribe en el cuaderno el cuadro 'Fruta con...' y se completa."
+                        },
+                        {
+                            "title": "Momento 3. Identificación de consonantes",
+                            "description": "Se anotan consonantes (m, l, n, b) y se piensan frutas que empiecen con ellas. Se escribe en el cuaderno el cuadro 'Fruta que empiece con...' y se completa."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 6",
+                    "pedagogicalIntention": "Clasifican palabras según su extensión y fortalecen la escritura de oraciones.",
+                    "resources": "",
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Escribe una frase utilizando estas palabras: limón - frutas - azúcar - ingredientes - receta - cortar - guineo”.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente copia las palabras de la tarea en la pizarra y pide subrayar las frutas. Se leen en voz alta."
+                        },
+                        {
+                            "title": "Momento 2. Escritura en el cuaderno",
+                            "description": "Se escribe la fecha y el título 'Palabras largas y cortas'. Se ordenan nombres de frutas de la receta del fascículo de más largas a más cortas."
+                        },
+                        {
+                            "title": "Momento 3. Formación de oraciones",
+                            "description": "En la actividad 6 del fascículo hay tres columnas (pasos, ingredientes, lugar/modo). Se leen y se arman oraciones uniendo las partes (ej. cortar manzanas en trozos). Se escriben dos oraciones en la pizarra y luego en el fascículo, revisando mayúsculas y puntos."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 7",
+                    "pedagogicalIntention": "Refuerzan la relación entre letras y sonidos.",
+                    "resources": "",
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Piensa y escribe el nombre de una fruta que empiece con la letra S y otra que empiece con la letra C”.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Dictado de las palabras de la tarea anterior. Revisión colectiva."
+                        },
+                        {
+                            "title": "Momento 2. Identificación de letras y sonidos vocales",
+                            "description": "Se recuerdan las vocales. Se piensan frutas con sonidos de vocales. Se escribe en el cuaderno el cuadro 'Fruta con...' y se completa."
+                        },
+                        {
+                            "title": "Momento 3. Identificación de consonantes",
+                            "description": "Se anotan consonantes (m, l, n, b) y se piensan frutas que empiecen con ellas. Se escribe en el cuaderno el cuadro 'Fruta que empiece con...' y se completa."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 7.1",
+                    "pedagogicalIntention": "Realizan actividades de lectura y escritura de palabras.",
+                    "resources": "",
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Lee la palabra 'uva'. Cambia la letra 'v' por otras letras para formar nuevas palabras y escríbelas en tu cuaderno.”",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Se leen las frutas escritas (con S y C). Se destaca que la C suena diferente en coco, cereza y chinola. Se escriben ejemplos en la pizarra."
+                        },
+                        {
+                            "title": "Momento 2. Identificación de palabras entre distractores",
+                            "description": "Actividad 7 del fascículo. Se resuelven individualmente y luego se revisa en la pizarra."
+                        },
+                        {
+                            "title": "Momento 3. Completar las palabras",
+                            "description": "Juego en la pizarra: completar letras faltantes (ej. pe_a -> pera, pepa, etc.). Se reflexiona sobre palabras con significado vs sin significado."
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "Se escribe la fecha. Se dicta y escribe en la pizarra 'coco - cereza - chinola'. Se revisa la escritura."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 8",
+                    "pedagogicalIntention": "Juegan a ordenar palabras y resolver un crucigrama.",
+                    "resources": "",
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Escribe una palabra que empiece con la ch y otra palabra que empiece con la z”.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Se leen palabras formadas a partir de 'uva'. Se verifican si existen en español."
+                        },
+                        {
+                            "title": "Momento 2. Juegos en el fascículo",
+                            "description": "Actividad 8 del fascículo. Ordenar letras de frutas mezcladas (sandía, melón, kiwi, manzana) y resolver crucigrama (naranja, lechosa, chinola, zapote, uvas)."
+                        },
+                        {
+                            "title": "Momento 3. Puesta en común y reflexión",
+                            "description": "Se resuelve en la pizarra. Se reflexiona sobre el sonido /ch/ y la letra 'z' (sonido igual a 's')."
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "Se escribe la fecha. Se ordena la frase 'Hoy jugamos a un crucigrama de frutas' en la pizarra y se copia en el cuaderno."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 3,
+            "title": "Bloque 3 - Producción Escrita",
+            "activities": [
+                {
+                    "title": "Actividad 9",
+                    "pedagogicalIntention": "Escriben el borrador de una receta.",
+                    "resources": "",
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Escribe en el cuaderno dos nombres de ingredientes para una ensalada salada”.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Se leen palabras con 'ch' y 'z'. Se comparan y corrigen."
+                        },
+                        {
+                            "title": "Momento 2. Lectura del papelógrafo y nueva actividad",
+                            "description": "Se revisa el papelógrafo de aprendizajes."
+                        },
+                        {
+                            "title": "Momento 3. Lectura de la receta incompleta",
+                            "description": "Actividad 9 del fascículo. Se lee la receta incompleta y se identifican los datos faltantes (ingredientes y verbos)."
+                        },
+                        {
+                            "title": "Momento 4. Escritura en el fascículo",
+                            "description": "Estudiantes completan la receta. Puesta en común en la pizarra prolongando sonidos y revisando ortografía."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Se escribe la fecha."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 10",
+                    "pedagogicalIntention": "Revisan el borrador de la receta.",
+                    "resources": "Tarjetas de letras.",
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Léele a un familiar el título de tu receta salada y sus ingredientes”.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Se verifica oralmente los ingredientes escritos. El docente escribe en la pizarra una lista de ingredientes para ensalada salada al dictado de los estudiantes (ej. ají, aguacate, lechuga, etc.)."
+                        },
+                        {
+                            "title": "Momento 2. Escriben en el cuaderno",
+                            "description": "Se escribe la fecha. En grupos de tres, arman palabras de ingredientes con tarjetas de letras. El docente anticipa que escribirán una receta. Cada grupo elige ingredientes y un título. El docente dicta el título 'Receta salada' para el cuaderno. Estudiantes escriben título y ingredientes de su receta."
+                        },
+                        {
+                            "title": "Momento 3. Puesta en común",
+                            "description": "Los estudiantes leen en voz alta título e ingredientes de sus recetas."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 11",
+                    "pedagogicalIntention": "Escriben una receta.",
+                    "resources": "Hojas sueltas con líneas.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente pregunta si leyeron el título e ingredientes y si imaginaron la preparación. Comparten ideas."
+                        },
+                        {
+                            "title": "Momento 2. Escritura del borrador de la ensalada salada",
+                            "description": "En grupos, reciben una hoja suelta para hacer el borrador: título, ingredientes y preparación."
+                        },
+                        {
+                            "title": "Momento 3. Revisión colectiva",
+                            "description": "Leen en voz alta la preparación. Se verifica si las indicaciones son claras y completas (título, ingredientes, 'Preparación' o 'Pasos'). Se corrigen y entregan borradores."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 12",
+                    "pedagogicalIntention": "Editan la versión final de la receta. Reflexionan sobre lo aprendido.",
+                    "resources": "Los borradores corregidos por el docente.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Devolución de borradores",
+                            "description": "El docente devuelve borradores con correcciones (palabra correcta arriba de la del estudiante). Se pide hacer la versión final en el cuaderno. Título: La receta."
+                        },
+                        {
+                            "title": "Momento 2. Reflexión sobre lo aprendido (reflexión metacognitiva)",
+                            "description": "Ronda de reflexión sobre lo aprendido (diferencias con otros textos, dificultad, palabras aprendidas). Se revisa el papelógrafo de aprendizajes y se agrega una reflexión final."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

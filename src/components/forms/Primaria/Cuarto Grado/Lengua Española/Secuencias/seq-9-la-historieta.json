@@ -1,0 +1,243 @@
+{
+  "id": "seq-1771196845085",
+  "title": "La historieta",
+  "description": "Integra texto e imagen para comprender y crear historietas, desarrollando la secuencia lógica de ideas y el uso de diálogos en viñetas.",
+  "order": 9,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771205957902",
+      "sequence_id": "seq-1771196845085",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Escrita",
+      "intencion_pedagogica": "Recordar los elementos de la historieta (viñetas, bocadillos, cartelas, onomatopeyas) y completar creativamente los bocadillos vacíos de una historieta dada.",
+      "estrategia": "Observación guiada: Análisis de una historieta sin texto.\n\nDiálogo dirigido: Preguntas para recordar elementos de la historieta.\n\nUso de imágenes: Presentación de los diferentes tipos de bocadillos.\n\nTrabajo creativo individual: Los estudiantes completan los bocadillos vacíos.\n\nSocialización y certamen: Elección de las historietas más creativas.",
+      "aprendizaje_significativo": "Se parte de los conocimientos que los estudiantes ya tienen sobre la historieta de grados anteriores, activando su memoria y permitiéndoles aplicar su creatividad para completar una historieta sin texto.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite dibujar los diálogos en lugar de escribirlos.\n\nPara estudiantes kinestésicos: Se les invita a representar con gestos lo que creen que dicen los personajes.\n\nPara estudiantes visuales: Se utilizan colores para diferenciar los tipos de bocadillos.\n\nPara estudiantes con discapacidad visual: Se describe detalladamente cada viñeta.\n\nPara estudiantes avanzados: Se les pide que agreguen onomatopeyas a su historieta.",
+      "actividades_cuaderno": "Pegar la fotocopia de la historieta completa con sus diálogos y colorearla.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Historieta Anexo 1 (pág. 201)\n• Imágenes de bocadillos (pág. 188)\n• Pizarra",
+          "descripcion": "1. El docente presenta la historieta del Anexo 1 (pág. 201) .\n2. Formula preguntas (pág. 188):\n- \"¿Qué tipo de texto es? ¿Cómo lo sabes?\"\n3. Pregunta por las partes de una viñeta (pág. 188):\n- Viñetas, bocadillos o globos, delta o rabillo, cartela, dibujos, onomatopeyas.\n4. Muestra los diferentes tipos de bocadillos (pág. 188):\n- Conversación, conversación a la vez, pensamiento, grito, susurro, llanto o sudor.\n5. Explica el significado de cada uno.",
+          "actividad_numero": "Comprensión escrita (Párrafos 1-3, pág. 188)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de la historieta Anexo 1 (pág. 201) con bocadillos vacíos\n• Lápices",
+          "descripcion": "1. El docente entrega una copia de la historieta del Anexo 1 (pág. 201) con los bocadillos vacíos.\n2. Consigna (pág. 188): \"Rellena cada uno de los bocadillos vacíos con la información que creas que dice cada personaje, según la secuencia de las imágenes o viñetas. Fíjate también en la forma de cada bocadillo.\"\n3. Los estudiantes trabajan individualmente completando los diálogos y pensamientos.\n4. El docente promueve la creatividad y circula para resolver dudas.",
+          "actividad_numero": "Comprensión escrita Actividad (pág. 188)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Mural del curso",
+          "descripcion": "1. Se socializan las creaciones de los estudiantes.\n2. El docente organiza un certamen para elegir las tres tiras cómicas más divertidas y creativas (pág. 189).\n3. En grupos de 5, eligen las mejores y luego en gran grupo se seleccionan las ganadoras.\n4. Las ganadoras se publican en el mural del curso.",
+          "actividad_numero": "Comprensión escrita Certamen (pág. 189)"
+        }
+      ]
+    },
+    {
+      "id": "1771206065293",
+      "sequence_id": "seq-1771196845085",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Escrita (Pre-lectura y Durante la lectura)",
+      "intencion_pedagogica": "Realizar la pre-lectura y la lectura compartida de la historieta \"Pepita y Papá\", formulando hipótesis sobre los diálogos y verificándolas durante la lectura.\n\n",
+      "estrategia": "Formulación de hipótesis: Predicción del contenido a partir de imágenes y bocadillos vacíos.\n\nTrabajo en grupos: Compartir hipótesis entre pares.\n\nLectura compartida: Docente y alumnos leen la historieta original.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión.",
+      "aprendizaje_significativo": "Se trabaja con una historieta sobre higiene en la cocina, un tema relevante para la vida cotidiana de los niños, conectando la lectura con hábitos saludables.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de seguir una viñeta específica.\n\nPara estudiantes visuales: Se utilizan las imágenes ampliadas de cada viñeta.\n\nPara estudiantes kinestésicos: Se les invita a representar las acciones de Pepita.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona el texto escrito de los diálogos.",
+      "actividades_cuaderno": "Anotar las hipótesis que más se acercaron a los diálogos reales de la historieta.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Fotocopia de la historieta Anexo 2A (págs. 202-203)\n• Cuadernos",
+          "descripcion": "1. El docente entrega una copia de la historieta del Anexo 2A (págs. 202-203) con los bocadillos vacíos.\n2. Pide a los estudiantes que respondan en su cuaderno (pág. 189):\n- \"¿Qué crees que dice cada personaje en los bocadillos vacíos?\" (a)\n- \"Según las imágenes y el bocadillo que está lleno, ¿cuál es el propósito de esta historieta?\" (b)",
+          "actividad_numero": "Comprensión escrita Pre-lectura (pág. 189)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copia de la historieta Anexo 2B (págs. 204-205)\n• Pizarra",
+          "descripcion": "1. El docente divide la clase en grupos de 5 para compartir hipótesis (pág. 189).\n2. Anuncia que leerán la historieta original del Anexo 2B (págs. 204-205) .\n3. Realiza la lectura compartida con preguntas intercaladas (pág. 190):\n- Cartela inicial: \"¿Sale alguna idea que hayas dicho antes? ¿Sabes el significado de superficies? ¿Qué significa utensilios?\"\n- Viñeta 1: \"¿Se dijo algo que ya habías dicho?\"\n- Viñetas 2-3: \"¿Qué pasa si no se limpia la cocina? ¿Se parece a lo que dijeron?\"\n- Viñeta 4: \"¿Se parece a lo que dijeron?\"\n- Viñetas 5-6: \"¿Por qué el papá se empieza a preocupar? ¿Hay alguna información que incluyeron?\"\n- Viñetas 7-8: Preguntas similares.",
+          "actividad_numero": "Comprensión escrita Durante la lectura (pág. 190)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se retoman las hipótesis anotadas al inicio.\n2. Se identifican cuáles se acercaron más al texto original.\n3. El docente anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771206187433",
+      "sequence_id": "seq-1771196845085",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión Escrita (Post-lectura)",
+      "intencion_pedagogica": "Consolidar la comprensión de la historieta \"Pepita y Papá\" a través de actividades de post-lectura, identificando el propósito, los personajes y la estructura de la historieta.\n\n",
+      "estrategia": "Trabajo individual con el texto: Para resolver actividades de comprensión.\n\nUso de contexto: Para deducir significados.\n\nIdentificación de estructura: Inicio, nudo y desenlace en la historieta.\n\nSocialización de respuestas: Para compartir y corregir estrategias.",
+      "aprendizaje_significativo": "La historieta sobre higiene permite reflexionar sobre hábitos de salud en el hogar, conectando la lectura con prácticas cotidianas y promoviendo la conciencia sobre la limpieza en la cocina.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les permite trabajar las actividades en pareja.\n\nPara estudiantes kinestésicos: Se les invita a representar la escena de lavarse las manos.\n\nPara estudiantes visuales: Se utilizan imágenes de los pasos de higiene en la cocina.\n\nPara estudiantes avanzados: Se les pide que escriban un breve compromiso de higiene para su casa.",
+      "actividades_cuaderno": "Escribir un compromiso personal sobre cómo ayudarán a mantener la higiene en la cocina de su casa.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se recuerda brevemente la historia de Pepita y su papá.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades\n• Cuadernos",
+          "descripcion": "1. Actividad A (pág. 190): Completan enunciados:\n- \"El propósito de la historieta es _______\"\n- \"Los bichos hay que eliminarlos porque _______\"\n- \"El papá se empezó a preocupar cuando _______\"\n- \"La palabra bicho significa _______\"\n2. Actividad B (pág. 191): Responden preguntas:\n- \"¿Qué medidas se proponen para evitar enfermarnos?\" (1)\n- \"¿Por qué crees que la palabra bichos aparece en mayúsculas?\" (2)\n- \"¿Por qué la historieta empieza y termina con la misma frase?\" (3)\n3. Actividad C (págs. 191-192): Marcan V o F y justifican:\n- \"Para mantener la higiene NO basta con lavar comida, cuchillos y ollas.\" (V)\n- \"Si la cocina está un poco sucia no hace daño.\" (F)\n- \"En la viñeta 7, Pepita está hablando.\" (F, está pensando)\n- \"La preocupación del papá se refleja a través del sudor.\" (V)\n4. Actividad D (pág. 192): Parafrasean la frase principal y reflexionan sobre sus hábitos en casa.\n5. Actividad E (pág. 192): Unen con una raya las partes de la historieta:\n- Inicio → Viñetas 1-2\n- Nudo o conflicto → Viñetas 3-4-5-6\n- Desenlace → Viñetas 7-8",
+          "actividad_numero": "Comprensión escrita (pág. 190) (pág. 191) (págs. 191-192) (pág. 192) (pág. 192)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas, especialmente la Actividad D (hábitos en casa).\n2. El docente refuerza la importancia de la higiene en la cocina.",
+          "actividad_numero": "Comprensión escrita (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771206327411",
+      "sequence_id": "seq-1771196845085",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": " Gramática Textual",
+      "intencion_pedagogica": "Sistematizar los conocimientos sobre la historieta: definición, elementos, estructura y recursos, y aplicarlos en el análisis de una historieta modelo.\n\n",
+      "estrategia": "Trabajo en grupos cooperativos: Para recordar y construir conocimientos.\n\nClase expositiva dialogada: Para presentar los elementos de la historieta.\n\nUso de organizadores gráficos: Para sintetizar la información.\n\nAnálisis de texto modelo: La historieta de Charlie Brown.v",
+      "aprendizaje_significativo": "Se sistematizan los conocimientos sobre la historieta como género narrativo gráfico, comprendiendo que puede usarse tanto para entretener como para comunicar mensajes importantes sobre la vida cotidiana.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de abstracción: Se les proporcionan tarjetas con imágenes de cada elemento.\n\nPara estudiantes visuales: Se utiliza un póster grande con todos los elementos señalados.\n\nPara estudiantes kinestésicos: Se les invita a crear una viñeta con plastilina.\n\nPara estudiantes avanzados: Se les pide que investiguen diferentes tipos de onomatopeyas.",
+      "actividades_cuaderno": "Copiar el esquema de los elementos de la historieta (viñeta, dibujo, globos, cartelas, onomatopeyas) y los pasos para crear una.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "Gramática textual\nActividad grupal (pág. 194)",
+          "descripcion": "Construcción colectiva de conocimientos:\n1. El docente divide la clase en grupos de 5 (pág. 194).\n2. Los grupos responden las preguntas (pág. 194):\n- \"¿Qué es una historieta?\" (a)\n- \"¿Cuáles son los elementos que la componen?\" (b)\n- \"¿Qué es una viñeta?\" (c)\n- \"¿Qué es un bocadillo?\" (d)\n- \"Expliquen el significado de los distintos bocadillos.\" (e)\n- \"¿A qué se llama cartela?\" (f)\n- \"¿Cuáles son las partes de una historieta?\" (g)\n- \"Si tuvieran que hacer una historieta, ¿qué pasos seguirían?\" (h)\n3. En plenaria, cada grupo comparte y el docente sintetiza en la pizarra.",
+          "actividad_numero": "• Pizarra • Participación de los estudiantes"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Documento Anexo 3 (pág. 206)\n• Fotocopia de actividades\n• Cuadernos",
+          "descripcion": "1. El docente entrega una copia del documento \"La historieta\" (Anexo 3, pág. 206) .\n2. Los estudiantes leen en grupo y comparan con la síntesis de la pizarra (pág. 195).\n3. El docente presenta formalmente los elementos (pág. 193):\n- Viñeta: espacio donde se colocan los personajes.\n- Dibujo: representa el ambiente y personajes.\n- Globos o bocadillos: espacio para lo que dicen o piensan (globo y rabillo).\n- Letras: tamaño y tipo según tono de voz.\n- Cartelas: voz del narrador en recuadro rectangular.\n- Onomatopeya: representación de sonidos (plop, zzzz, crash, splash).\n- Color: asociado a aspectos psicológicos.\n4. Actividad de aplicación (págs. 195-196): Analizan la historieta de Charlie Brown (Anexo 3, pág. 206):\n- Actividad 1 (pág. 195): Contestan V o F justificando.\n- Actividad 2 (pág. 196): Responden preguntas sobre propósito, moraleja, tipos de bocadillos, estructura.",
+          "actividad_numero": "Gramática textual (Párrafos 1-3, pág. 193) Actividad de aplicación (págs. 195-196)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas de la actividad de aplicación.\n2. El docente refuerza los conceptos clave.",
+          "actividad_numero": "Gramática textual (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771206478827",
+      "sequence_id": "seq-1771196845085",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Producción Escrita (Planificación)",
+      "intencion_pedagogica": "Planificar la producción de una historieta sobre una situación o problema de la familia o la escuela, definiendo tema, personajes, escenario y estructura.\n\n",
+      "estrategia": "Aprendizaje basado en proyectos: Creación de una historieta sobre la escuela o la familia.\n\nTrabajo individual con preguntas guía: Para planificar la historieta.\n\nTrabajo en grupos cooperativos: Para compartir ideas y recibir retroalimentación.\n\nUso de organizadores gráficos: Para estructurar la historia.",
+      "aprendizaje_significativo": "Los estudiantes crean una historieta sobre una situación o problema real de su familia o escuela, lo que les permite expresar sus inquietudes y reflexionar sobre su entorno de manera creativa.\n",
+      "actividades_complementarias": "Para estudiantes con dificultades para generar ideas: Se les proporciona una lista de posibles situaciones (problemas en el recreo, tareas, relaciones familiares, etc.).\n\nPara estudiantes visuales: Se les anima a dibujar primero los personajes.\n\nPara estudiantes kinestésicos: Se les permite actuar la historia antes de dibujarla.\n\nPara estudiantes con discapacidad motriz: Se les permite usar plantillas o recortes para armar las viñetas.",
+      "actividades_cuaderno": "Tener las respuestas a las preguntas de planificación listas para la próxima clase. Traer lápices de colores y papel.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Consigna en la pizarra",
+          "descripcion": "1. El docente presenta la consigna (pág. 197): \"La escuela y la familia a través de la historieta\".\n2. Explica que producirán una historieta de una página con dos propósitos:\n- Entretener a sus compañeros.\n- Dar a conocer una situación o problema de su familia, curso o escuela que quisieran que cambie o se resuelva.",
+          "actividad_numero": "Producción escrita (Párrafo 1, pág. 197)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes responden las preguntas de planificación en su cuaderno (pág. 197):\n- \"¿Sobre qué tema quiero realizar mi historieta?\" (1)\n- \"¿Cómo introduciré mi historieta?\" (2)\n- \"¿Cómo contaré a través de los personajes la narración?\" (3)\n- \"¿Cómo terminará mi historieta?\" (4)\n- \"¿Cuántas viñetas pienso incluir? ¿Qué dibujos tendrá? ¿Qué tipo de bocadillos incluiré?\" (5)\n- \"¿Quiénes serán mis personajes? ¿Qué ropa, peinado, etc., les pondré?\" (6)\n- \"¿Dónde se desarrollará mi historia? ¿Qué dibujos incluiré en cada viñeta?\" (7)\n2. El docente forma grupos de trabajo (pág. 197, punto a).\n3. Los estudiantes comparten sus ideas con el grupo y reciben retroalimentación.\n4. Anotan las sugerencias en su cuaderno.",
+          "actividad_numero": "Producción escrita Preguntas 1-7 (pág. 197) Trabajo en grupos (pág. 197)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente verifica que todos tengan claras sus ideas.\n2. Anuncia que en la próxima clase comenzarán el dibujo y la escritura de la historieta.",
+          "actividad_numero": "Producción escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771206581479",
+      "sequence_id": "seq-1771196845085",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción Escrita ",
+      "intencion_pedagogica": "Producir la versión final de la historieta, aplicando todos los elementos aprendidos, y prepararla para su publicación en el mural del curso.\n\n",
+      "estrategia": "Taller de creación: Los estudiantes dibujan y escriben su historieta.\n\nAcompañamiento docente: El docente guía y resuelve dudas.\n\nUso de instrumentos de evaluación: Lista de cotejo para autoevaluación.\n\nRevisión en pares: Coevaluación de borradores.\n\nPublicación: Exposición en el mural del curso.",
+      "aprendizaje_significativo": "Los estudiantes ven su trabajo publicado en el mural y reciben comentarios de sus compañeros, lo que da autenticidad a su esfuerzo y les permite reflexionar sobre problemas reales de su entorno.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de dibujo: Se les permite usar plantillas o recortes de revistas.\n\nPara estudiantes con dificultades de escritura: Se les permite escribir diálogos breves y simples.\n\nPara estudiantes kinestésicos: Se les anima a crear historietas con movimiento (plegables).\n\nPara estudiantes con discapacidad visual: Se les proporciona papel con viñetas en relieve.\n\nPara estudiantes avanzados: Se les pide que incluyan onomatopeyas y variados tipos de bocadillos.",
+      "actividades_cuaderno": "Pegar una copia reducida de la historieta (si es posible) y escribir una breve reflexión sobre lo que aprendieron al crear su historieta.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papel para dibujo\n• Lápices, colores, reglas",
+          "descripcion": "1. El docente recuerda los elementos de la historieta y los pasos para su creación.\n2. Entrega papel y materiales.",
+          "actividad_numero": "Producción escrita (Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Papel para dibujo\n• Lápices de colores\n• Lista de criterios fotocopiada\nCierre y evaluación\nTiempo (20 min)\tPublicación en el mural:\n1. Los estudiantes terminan sus historietas y las preparan para publicar.\n2. El docente organiza la publicación en el mural del curso (pág. 199).\n3. Se anima a los estudiantes a leer las historietas de sus compañeros.\n4. El docente anuncia que en clases siguientes se comentarán las historietas y se reflexionará sobre los problemas planteados.\tProducción escrita\nPublicación (pág. 199)\t• Mural del curso\n• Cinta adhesiva o chinches\n",
+          "descripcion": "1. Los estudiantes comienzan a dibujar las viñetas y a escribir los diálogos según su planificación (pág. 197, puntos b-e).\n2. El docente recuerda las recomendaciones (pág. 198):\n- Asegurarse de que los dibujos respondan al hecho que quieren contar.\n- El ambiente físico y las actitudes deben reflejar la historia.\n- Usar bocadillos según lo que exprese cada personaje.\n- Reflejar sentimientos en los dibujos (terror, alegría, enfado, etc.).\n- Incluir cartelas si interviene el narrador.\n- Asegurar que tenga inicio, nudo y desenlace.\n3. Revisión con criterios de evaluación (pág. 198):\n- \"¿He producido una historieta sobre un problema de mi familia o escuela?\" (1)\n- \"¿Me ayudan los dibujos a contar los hechos?\" (2)\n- \"¿Expresan los dibujos los sentimientos de los personajes?\" (3)\n- \"¿Tiene los bocadillos que necesitaba?\" (4)\n- \"¿Expresan los bocadillos los sentimientos?\" (5)\n- \"¿Diferencio los bocadillos de lo que digo en la cartela?\" (6)\n- \"¿Contiene inicio, nudo y desenlace?\" (7)\n4. Revisión en pares: Intercambian historietas y se retroalimentan usando los mismos criterios.\n5. El docente acompaña y ofrece sugerencias.",
+          "actividad_numero": "Producción escrita Puntos b-e (pág. 197) Recomendaciones (pág. 198) Criterios de evaluación (pág. 198)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Mural del curso\n• Cinta adhesiva o chinches\n",
+          "descripcion": "1. Los estudiantes terminan sus historietas y las preparan para publicar.\n2. El docente organiza la publicación en el mural del curso (pág. 199).\n3. Se anima a los estudiantes a leer las historietas de sus compañeros.\n4. El docente anuncia que en clases siguientes se comentarán las historietas y se reflexionará sobre los problemas planteados.",
+          "actividad_numero": "Producción escrita Publicación (pág. 199)"
+        }
+      ]
+    }
+  ]
+}

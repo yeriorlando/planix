@@ -1,0 +1,243 @@
+{
+  "id": "seq-1771353827999",
+  "title": "El anuncio",
+  "description": "Creación y análisis de mensajes publicitarios con intención persuasiva.",
+  "order": 8,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771358158530",
+      "sequence_id": "seq-1771353827999",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral del Anuncio Auditivo",
+      "intencion_pedagogica": "Desarrollar la comprensión oral de un anuncio auditivo, identificar sus características, propósito y estrategias persuasivas, y construir colectivamente el concepto de anuncio.\n\n",
+      "estrategia": "Reproducción de audio: Escucha de un anuncio publicitario.\n\nDiálogo dirigido: Preguntas para analizar el anuncio y construir el concepto.\n\nConceptualización colectiva: Los estudiantes construyen la definición de anuncio.\n\nIdentificación de tipos de anuncios: Según el anunciante y el propósito.",
+      "aprendizaje_significativo": "Se parte de un anuncio real y conocido (Coca Cola) que los estudiantes han escuchado en su vida cotidiana, conectando así el contenido académico con su experiencia como consumidores y oyentes de medios de comunicación.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar un solo elemento (ej: el producto).\n\nPara estudiantes kinestésicos: Se les invita a representar el anuncio con gestos.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona la transcripción del anuncio (Anexo, pág. 107).\n\nPara estudiantes avanzados: Se les pide que identifiquen otros valores implícitos en el anuncio.",
+      "actividades_cuaderno": "Copiar las respuestas correctas de la Actividad A. Escribir una breve definición de \"anuncio auditivo\".\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• https://youtu.be/WcEN-f-3teA\n• Audio del anuncio de Coca Cola",
+          "descripcion": "1. El docente anuncia que los estudiantes escucharán un anuncio de Coca Cola (disponible en: https://youtu.be/WcEN-f-3teA) un par de veces (pág. 98).",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 98)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Audio del anuncio\n• Pizarra",
+          "descripcion": "1. Los estudiantes escuchan el anuncio dos veces.\n2. El docente orienta una conversación con preguntas (pág. 98):\n- \"¿Qué tipo de texto es este?\"\n- \"¿Cuál es el producto del que se habla?\"\n- \"¿Para qué crees que fue elaborado este discurso?\"\n- \"¿Tú consumes este producto? ¿Con qué frecuencia?\"\n- \"¿Qué se dice del producto?\"\n- \"¿Con qué se relaciona su consumo?\"\n- \"¿A qué público está dirigido? ¿Cómo lo sabes?\"\n- \"¿Cuál es la relación entre anunciante y consumidor? (formal/informal, tú/usted)\"\n- \"¿Qué crees que se busca con ese tipo de relación?\"\n- \"¿Sabes qué es un valor? ¿Cuáles valores se destacan en el anuncio?\"\n3. El docente guía la construcción del concepto de anuncio: \"¿Qué es un anuncio? ¿De qué tipo es el que escuchamos?\" (anuncio auditivo).\n4. Indaga sobre otros tipos de anuncios: \"¿Cuáles son los tipos de anuncios que conocen?\" (de evento, propaganda, interés social, cinematográfico, de producto).",
+          "actividad_numero": "Comprensión oral Preguntas (pág. 98)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "A, B",
+          "tiempo": "15",
+          "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad A (pág. 99-100): Responden preguntas de opción múltiple:\n- \"El texto es un anuncio de:\" (c. producto)\n- \"Se habla principalmente de:\" (b. bebidas)\n- \"En el texto se afirma que:\" (d. todos deben comer tomando Coca Cola)\n- \"El eslogan se refiere a:\" (d. para qué consumir el producto)\n- \"La palabra 'porción' significa:\" (b. cantidad)\n- \"La palabra 'ajusta' puede sustituirse por:\" (d. adapta)\n2. Actividad B (pág. 100): Responden: \"¿A través de cuáles estrategias trata el anunciante de vender su producto?\"",
+          "actividad_numero": "Comprensión oral (págs. 99-100) (pág. 100)"
+        }
+      ]
+    },
+    {
+      "id": "1771358316507",
+      "sequence_id": "seq-1771353827999",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Escrita del Anuncio Auditivo",
+      "intencion_pedagogica": "Analizar los recursos lingüísticos y persuasivos del anuncio de Coca Cola, reflexionar críticamente sobre el mensaje y crear un anuncio original en grupos.\n\n",
+      "estrategia": "Análisis de recursos lingüísticos: Identificación de palabras y estrategias persuasivas.\n\nReflexión crítica: Sobre la veracidad del mensaje publicitario.\n\nTrabajo en grupos: Creación de un anuncio original.\n\nSocialización: Presentación de los anuncios creados.",
+      "aprendizaje_significativo": "Se promueve una mirada crítica hacia la publicidad, analizando los recursos que utiliza para persuadir y reflexionando sobre la honestidad de los mensajes, formando así consumidores más conscientes.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de análisis: Se les proporcionan preguntas más específicas sobre el anuncio.\n\nPara estudiantes kinestésicos: Se les anima a incluir gestos en su anuncio.\n\nPara estudiantes con discapacidad visual: Se les permite grabar su anuncio en audio.\n\nPara estudiantes avanzados: Se les pide que incluyan un eslogan pegadizo en su anuncio.",
+      "actividades_cuaderno": "Escribir una breve reflexión sobre la honestidad en la publicidad. Anotar las ideas para el anuncio que crearán en grupo.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Transcripción del anuncio (pág. 107)",
+          "descripcion": "1. El docente retoma el anuncio de Coca Cola para analizar los recursos lingüísticos (pág. 100).",
+          "actividad_numero": "Comprensión escrita (Párrafo 1, pág. 100)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Transcripción del anuncio\n• Pizarra",
+          "descripcion": "1. El docente guía la identificación de partes del anuncio con función persuasiva: repeticiones, adjetivos, tono de voz, etc.\n2. Motiva la criticidad: \"¿Qué tan reales o exageradas son las cualidades que se destacan del producto? ¿Por qué se desarrollan contenidos relacionados con la familia?\"\n3. Creación de anuncios en grupos (pág. 100):\n- Los estudiantes se organizan en grupos de 4 o 5.\n- De tarea, crearán un anuncio para convencer a la gente de adquirir un producto cualquiera.\n- En la próxima clase compartirán sus anuncios.\n4. Se recuerda que deben prestar atención y tomar notas para luego hacer preguntas.",
+          "actividad_numero": "Comprensión escrita Análisis (pág. 100) Creación de anuncios (pág. 100)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente anticipa que en la próxima clase se hará una reflexión sobre el grado de honestidad de los anuncios creados.\n2. Formula preguntas para esa reflexión futura (pág. 100):\n- \"¿Qué tan apegadas a la realidad estuvieron las estrategias?\"\n- \"¿Qué debes hacer cuando leas, escuches o veas un anuncio que pretende engañarte?\"",
+          "actividad_numero": "Comprensión escrita Reflexión (pág. 100)"
+        }
+      ]
+    },
+    {
+      "id": "1771358421301",
+      "sequence_id": "seq-1771353827999",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión Oral del Anuncio Visual",
+      "intencion_pedagogica": "Analizar anuncios visuales, identificando su estructura (encabezamiento, cuerpo, cierre) y los componentes que utilizan para captar la atención del público (texto, color, imagen, tipografía).\n\n",
+      "estrategia": "Trabajo en grupos con anuncios visuales: Análisis de anuncios impresos.\n\nPresentación grupal: Cada grupo presenta un anuncio.\n\nAnálisis de estructura: Identificación de encabezamiento, cuerpo y cierre.\n\nAnálisis de componentes: Texto, color, imagen, tipo y tamaño de letras.",
+      "aprendizaje_significativo": "Se trabaja con anuncios visuales reales (de periódicos, vallas, etc.), conectando el análisis académico con la publicidad que los estudiantes ven a diario en su entorno.",
+      "actividades_complementarias": "Para estudiantes con dificultades de análisis visual: Se les proporcionan preguntas guía más específicas.\n\nPara estudiantes kinestésicos: Se les invita a crear un gesto que represente el mensaje del anuncio.\n\nPara estudiantes con discapacidad visual: Se les describe detalladamente el anuncio.\n\nPara estudiantes avanzados: Se les pide que investiguen sobre el autismo y ASPAU.",
+      "actividades_cuaderno": "Copiar el cuadro de la Actividad 1. Investigar qué es el autismo y qué significa ASPAU.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Anuncios visuales variados",
+          "descripcion": "1. El docente ha compilado anuncios visuales diversos de periódicos y espacios públicos (pág. 101).\n2. Forma grupos de 5 estudiantes y entrega a cada grupo algunos anuncios visuales.",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 101)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Anuncios visuales variados\n• Anuncio del Día del Autismo (pág. 101)\nCierre y evaluación\nTiempo (15 min)\tActividades de análisis (págs. 102-103):\n1. Actividad 1: Completan un cuadro con encabezamiento, cuerpo y cierre del anuncio.\n2. Actividad 2: Responden preguntas sobre el mensaje:\n- \"¿A quiénes está dirigido?\"\n- \"¿Cuál es el mensaje?\"\n- \"¿Hay valores implicados? ¿Cuáles?\"\n- \"¿Con qué actitudes se relaciona la felicidad?\"\n- \"¿Cuál es el propósito?\"\n- \"¿Sabes qué es autismo? Investiga.\"\n- \"¿Conoces a alguien con esta condición?\"\n- \"¿Sabes qué significa ASPAU? Investiga.\"\n3. Actividad 3: Encierran la respuesta correcta en preguntas de opción múltiple.\tComprensión oral\nActividades 1-3 (págs. 102-103)\t• Fotocopia de las actividades o pizarra\n• Cuadernos\n",
+          "descripcion": "1. Cada grupo elige uno de sus anuncios para presentarlo al resto de la clase.\n2. A partir de esta actividad, se define la función de estos anuncios (persuadir y convencer).\n3. El docente proyecta o amplía el anuncio del Día Mundial del Autismo (pág. 101) para analizar su estructura:\n- Encabezamiento o titular: \"Este 2 de abril PON UN GLOBO AZUL EN TU VENTANA O BALCÓN\"\n- Cuerpo o desarrollo: \"Para que todo el mundo sepa que en esa casa viven personas que QUIEREN a una persona con autismo. RESPETAN la diversidad funcional y LUCHAN por sus derechos (y además, son muy felices).\"\n- Cierre o rúbrica: \"2 de abril, Día Mundial de Concienciación sobre el Autismo\"\n4. Analizan componentes: texto, color azul, imágenes, tipo y tamaño de letras, y su función para captar la atención.",
+          "actividad_numero": "Comprensión oral Análisis grupal (pág. 101) Análisis de estructura (pág. 101)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad 1: Completan un cuadro con encabezamiento, cuerpo y cierre del anuncio.\n2. Actividad 2: Responden preguntas sobre el mensaje:\n- \"¿A quiénes está dirigido?\"\n- \"¿Cuál es el mensaje?\"\n- \"¿Hay valores implicados? ¿Cuáles?\"\n- \"¿Con qué actitudes se relaciona la felicidad?\"\n- \"¿Cuál es el propósito?\"\n- \"¿Sabes qué es autismo? Investiga.\"\n- \"¿Conoces a alguien con esta condición?\"\n- \"¿Sabes qué significa ASPAU? Investiga.\"\n3. Actividad 3: Encierran la respuesta correcta en preguntas de opción múltiple.",
+          "actividad_numero": "Comprensión oral Actividades 1-3 (págs. 102-103)"
+        }
+      ]
+    },
+    {
+      "id": "1771358563603",
+      "sequence_id": "seq-1771353827999",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión Oral del Anuncio Audiovisual",
+      "intencion_pedagogica": "Analizar un anuncio audiovisual de interés social, identificando su propósito, los personajes, los recursos persuasivos y los valores que transmite.\n\n",
+      "estrategia": "Proyección de video: Anuncio audiovisual \"Quisqueya Aprende Contigo\".\n\nDiálogo dirigido: Preguntas para analizar el anuncio.\n\nAnálisis de personajes y recursos: Identificación de características de los personajes y estrategias persuasivas.\n\nActividades de cierre: Ejercicios sobre oraciones imperativas y adjetivos.",
+      "aprendizaje_significativo": "Se trabaja con un anuncio de interés social (alfabetización) que promueve valores como la solidaridad y la superación personal, conectando el análisis de medios con la formación ciudadana.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de observar a un personaje específico.\n\nPara estudiantes kinestésicos: Se les invita a representar a uno de los personajes del anuncio.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona la transcripción del anuncio (Anexo, pág. 108).\n\nPara estudiantes avanzados: Se les pide que escriban un eslogan para una campaña de alfabetización.",
+      "actividades_cuaderno": "Escribir un párrafo sobre la importancia de aprender a leer y escribir, incluyendo al menos una oración imperativa.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Video del anuncio\n• https://youtu.be/olC4aXm2ong",
+          "descripcion": "1. El docente anuncia que proyectará el anuncio \"Quisqueya Aprende Contigo\" (disponible en: https://youtu.be/olC4aXm2ong) (pág. 103).",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 103)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Video del anuncio\n• Pizarra",
+          "descripcion": "1. Proyecta el anuncio dos o tres veces.\n2. Motiva una conversación con preguntas (pág. 103):\n- \"¿Cuál es el propósito del anuncio?\"\n- \"¿Cuál es el público al que está dirigido?\"\n- \"¿Puedes describir los personajes? (cómo son, qué hacen, a quién representan, sexo, edad, clase social, estilo de vida, forma de hablar)\"\n- \"¿Hay personajes principales y secundarios? ¿Cuáles?\"\n- \"¿Cómo es su vestuario, movimientos, mirada?\"\n- \"¿Dónde están los personajes?\"\n- \"¿Hay una frase que se repite? ¿Cuál?\"\n- \"¿Con qué palabras se quiere convencer al público?\"\n- \"¿Con qué promesas se intenta atraer al receptor?\"\n- \"¿Hay valores proyectados? ¿Cuáles?\"\n3. Puntualiza que es un anuncio audiovisual, elaborado para TV, que usa oraciones imperativas e informalidad (relación yo/tú) como estrategias de cercanía.\n4. Analiza la expresión \"salir del obscurantismo\" y su relación con aprender a leer y escribir.",
+          "actividad_numero": "Comprensión oral Análisis (pág. 103-104)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad 1: Relacionan oraciones imperativas con su propósito y las identifican en los anuncios vistos.\n2. Actividad 2: Identifican y escriben todas las oraciones imperativas que encuentran en los anuncios.\n3. Actividad 3: Observan imágenes y escriben un párrafo de tres oraciones para cada una (una debe ser imperativa).\n4. Actividad 4: Identifican adjetivos en los anuncios y su función (calificar sustantivos). Buscan expresiones con función similar.",
+          "actividad_numero": "Comprensión oral Actividades 1-4 (pág. 104)"
+        }
+      ]
+    },
+    {
+      "id": "1771358661636",
+      "sequence_id": "seq-1771353827999",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Producción Escrita del Anuncio (Planificación)",
+      "intencion_pedagogica": "Planificar la producción de un anuncio para el concurso, completando un formulario con todos los componentes: tipo de anuncio, contenido textual, imágenes, tipografía y estrategias de acercamiento.\n\n",
+      "estrategia": "Proyecto de escritura: Concurso de anuncios.\n\nUso de formulario de planificación: Los estudiantes completan los componentes de su anuncio.\n\nSocialización de la rúbrica: Los estudiantes conocen los criterios de evaluación.\n\nAcompañamiento docente: El docente guía el proceso de planificación.",
+      "aprendizaje_significativo": "Los estudiantes participan en un concurso real de anuncios, con un jurado y premios, lo que da autenticidad a su trabajo y los motiva a producir un texto de calidad, creativo y persuasivo.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades para generar ideas: Se les proporcionan ejemplos de anuncios para inspirarse.\n\nPara estudiantes visuales: Se les anima a pensar en imágenes desde la planificación.\n\nPara estudiantes kinestésicos: Se les permite esbozar sus ideas en un papel aparte.\n\nPara estudiantes avanzados: Se les pide que piensen en más de una estrategia de acercamiento.",
+      "actividades_cuaderno": "Completar el formulario de planificación del anuncio si no se terminó en clase. Traerlo listo para la próxima clase.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente recuerda que se realizará un concurso de anuncios escritos.\n2. Explica que los anuncios pueden tener una de tres intenciones: vender un producto, invitar a participar en actividades de interés social, o convocar a un evento.\n3. Informa que un jurado (docentes de Español y representante del Consejo Estudiantil) seleccionará los mejores.",
+          "actividad_numero": "Producción escrita Concurso (págs. 103, 105)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Formulario en la pizarra o fotocopiado\n• Rúbrica fotocopiada\n• Cuadernos",
+          "descripcion": "1. El docente entrega la rúbrica de evaluación (pág. 106) para que los estudiantes conozcan los criterios.\n2. Copia en la pizarra el formulario de planificación (pág. 106):\n- Tipo de anuncio (de acuerdo a la intención comunicativa).\n- Contenido textual: titular, eslogan, informaciones complementarias.\n- Imágenes que servirán para la intención.\n- Tipo y tamaño de letras que serán utilizados.\n- Estrategias de acercamiento al consumidor o destinatario.\n3. Los estudiantes completan el formulario en su cuaderno.\n4. El docente acompaña y resuelve dudas.",
+          "actividad_numero": "Producción escrita Formulario (pág. 106) Rúbrica (pág. 106)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente explica que con la información del formulario, escribirán el borrador del anuncio en la próxima clase.\n2. Recuerda que el borrador será socializado con el profesor y luego pasarán a la versión final.",
+          "actividad_numero": "Producción escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771358764877",
+      "sequence_id": "seq-1771353827999",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción Escrita del Anuncio (Textualización y Revisión)",
+      "intencion_pedagogica": "Redactar el borrador del anuncio, revisarlo utilizando la rúbrica y preparar la versión final para participar en el concurso.\n\n",
+      "estrategia": "Taller de escritura: Los estudiantes escriben el borrador de su anuncio.\n\nRevisión con rúbrica: Autoevaluación y coevaluación.\n\nSocialización con el docente: Retroalimentación individual.\n\nPreparación para la versión final: Los estudiantes se preparan para pasar en limpio.",
+      "aprendizaje_significativo": "Los estudiantes materializan su planificación en un anuncio concreto que participará en un concurso real, aplicando todo lo aprendido y viendo su trabajo valorado por la comunidad educativa.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite escribir en computadora.\n\nPara estudiantes con dificultades de diseño: Se les permite recortar imágenes de revistas en lugar de dibujar.\n\nPara estudiantes kinestésicos: Se les anima a pensar en cómo presentarán su anuncio físicamente.\n\nPara estudiantes avanzados: Se les pide que incluyan más de un recurso persuasivo.",
+      "actividades_cuaderno": "Pasar en limpio la versión final del anuncio para entregar al jurado. Prepararse para la publicación en el mural.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Formularios de los estudiantes",
+          "descripcion": "1. El docente recuerda que hoy escribirán el borrador del anuncio usando el formulario de planificación.",
+          "actividad_numero": "Producción escrita (Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Borradores de los estudiantes\n• Rúbrica fotocopiada",
+          "descripcion": "1. Los estudiantes escriben el borrador de su anuncio basándose en el formulario completado (pág. 105).\n2. El docente acompaña y resuelve dudas.\n3. Revisión con rúbrica: Los estudiantes revisan su borrador usando la rúbrica de evaluación (pág. 106), marcando su autoevaluación en cada criterio:\n- 1. El contenido se corresponde con la intención comunicativa.\n- 2. Se distinguen las partes (titular, cuerpo, cierre).\n- 3. Las imágenes se corresponden con la intención.\n- 4. Las imágenes se relacionan con el contenido.\n- 5. El color, tipo y tamaño de letras es apropiado.\n- 6. El vocabulario es apropiado al público.\n- 7. Utiliza la segunda persona del singular y la informalidad.\n- 8. El texto cumple la función persuasiva.\n- 9. Hay honestidad en el anuncio.\n- 10. Hay creatividad e imaginación.\n4. El docente revisa los borradores y ofrece retroalimentación individual.",
+          "actividad_numero": "Producción escrita Textualización (pág. 105) Revisión con rúbrica (pág. 106)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes toman nota de las sugerencias del docente y de su autoevaluación.\n2. Se anuncia que en la próxima clase (o en casa) pasarán en limpio la versión final para entregar al jurado.\n3. Recuerda que las producciones se publicarán en el mural del aula.",
+          "actividad_numero": "Producción escrita (Cierre)"
+        }
+      ]
+    }
+  ]
+}

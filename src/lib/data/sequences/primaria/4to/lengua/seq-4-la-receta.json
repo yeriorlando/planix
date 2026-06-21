@@ -1,0 +1,204 @@
+{
+  "id": "seq-1771196708499",
+  "title": "La receta",
+  "description": "Desarrolla la comprensión y producción de recetas como textos instructivos, identificando sus partes (título, ingredientes y preparación) y organizando instrucciones de forma clara y ordenada.",
+  "order": 4,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771200834863",
+      "sequence_id": "seq-1771196708499",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Pre-escucha y exploración)",
+      "intencion_pedagogica": "Explorar conocimientos previos sobre la receta, activar el interés a través de imágenes y preparar a los estudiantes para la escucha de una receta (Mantequilla de aguacate).\n\n",
+      "estrategia": "Investigación previa: Los estudiantes investigan platos típicos de su comunidad.\n\nAmbientación del aula: Uso de imágenes relacionadas con la preparación de alimentos.\n\nDiálogo dirigido: Preguntas generadoras para activar conocimientos previos.\n\nSocialización de saberes: Los estudiantes comparten sus investigaciones.",
+      "aprendizaje_significativo": "Se parte de la cultura culinaria de la comunidad del estudiante (platos típicos) y de sus propias experiencias preparando alimentos, conectando el contenido académico con su vida familiar y social.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite mostrar una imagen del plato que investigaron en lugar de describirlo extensamente.\n\nPara estudiantes kinestésicos: Se les invita a pasar al frente y señalar en las imágenes los alimentos que reconocen.\n\nPara estudiantes que no completaron la investigación: Se les proporcionan imágenes de platos típicos para que puedan participar.\n\nPara estudiantes visuales: Se utilizan imágenes grandes y coloridas de los platos típicos mencionados.\n\nPara estudiantes con discapacidad auditiva: Se les proporcionan las preguntas por escrito.",
+      "actividades_cuaderno": "Anotar el título \"Mantequilla de aguacate\" y escribir 2 predicciones sobre los ingredientes que creen que llevará.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imágenes de personas cocinando\n• Pizarra",
+          "descripcion": "1. El docente ha ambientado el aula con imágenes de personas cocinando o preparando alimentos en diferentes espacios.\n2. A partir de la observación, motiva a los niños con preguntas (pág. 68):\n- \"¿Qué tienen en común las imágenes?\" (a)\n- \"¿Los alimentos que aparecen están crudos o cocidos? ¿Podrías nombrarlos? ¿Te gustan?\" (b)\n- \"¿Cuáles acciones realizan las personas que aparecen en las fotos?\" (c)\n- \"Y tú, ¿has preparado algún alimento? ¿Podrías compartir el nombre?\" (d)\n3. Los estudiantes comparten sus experiencias y alimentos preferidos.",
+          "actividad_numero": "Comprensión oral (Párrafo 1 y preguntas a-d, pág. 68)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta sobre la investigación asignada en la clase anterior: platos típicos de la comunidad que no requieran cocción (pág. 68).\n2. Preguntas para la socialización (pág. 68-69):\n- \"¿Cuáles de todos los platos típicos te llamó más la atención? Nómbralos.\" (a)\n- \"¿Cuál de los platos que se han nombrado es el más saludable? ¿Por qué?\" (b)\n- \"¿Cuál es el menos saludable? Justifica tu respuesta.\" (c)\n- \"¿Por qué es importante consumir alimentos saludables?\" (d)\n3. El docente refuerza la importancia de consumir alimentos saludables para conservar el cuerpo y la mente libres de enfermedades.\n4. Pre-escucha (pág. 69): Anuncia que escucharán un texto sobre cómo preparar un platillo a base de aguacate. Escribe el título en la pizarra: \"Mantequilla de aguacate\".\n5. Pide a los estudiantes que expresen sobre qué creen que tratará el texto y anota las ideas en la pizarra.",
+          "actividad_numero": "Comprensión oral (Párrafos 1-3, pág. 68-69) Pre-escucha (pág. 69)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente explica que deben estar muy atentos y tomar notas, porque después realizarán actividades.\n2. Se recuerdan las estrategias de escucha activa.",
+          "actividad_numero": "Comprensión oral (Párrafo \"Preescucha\", pág. 69)"
+        }
+      ]
+    },
+    {
+      "id": "1771201055684",
+      "sequence_id": "seq-1771196708499",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Oral (Escucha y Post-escucha)",
+      "intencion_pedagogica": "Escuchar y comprender la receta \"Mantequilla de aguacate\", identificando su estructura (título, ingredientes, preparación) y el significado de palabras en contexto.",
+      "estrategia": "Lectura en voz alta (modelado): El docente lee la receta con claridad.\n\nToma de apuntes: Los estudiantes registran información durante la escucha.\n\nAnálisis de la estructura: Identificación de título, ingredientes y preparación.\n\nTrabajo individual: Para resolver actividades de vocabulario y comprensión.\n\nUso de esquemas: Para organizar la información.",
+      "aprendizaje_significativo": "Se trabaja con una receta sencilla y saludable (Mantequilla de aguacate) que los niños pueden preparar en casa con su familia, promoviendo hábitos alimenticios saludables.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de contar cuántos ingredientes tiene la receta.\n\nPara estudiantes con dificultades de comprensión lectora: Se les proporciona una copia de la receta para que sigan visualmente.\n\nPara estudiantes kinestésicos: Se les invita a representar con gestos las acciones de la receta (pelar, cortar, machacar, untar).\n\nPara estudiantes con discapacidad visual: Se les proporciona la receta en braille o en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que investiguen un beneficio del aguacate para la salud y lo agreguen al resumen.",
+      "actividades_cuaderno": "Completar el esquema de la receta (título, ingredientes, preparación) y escribir un párrafo sobre cómo se sintieron al aprender a preparar este platillo.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Texto de la receta (pág. 69)\n• Cuadernos para apuntes",
+          "descripcion": "1. El docente lee en voz alta la receta \"Mantequilla de aguacate\" (pág. 69) con la entonación adecuada.\n2. Los estudiantes toman notas de los ingredientes y la preparación.",
+          "actividad_numero": "Comprensión oral (Párrafo \"Preescucha\", pág. 69)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "A, B",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con la receta\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente descubre el papelógrafo con la receta y pide a los estudiantes que observen la forma en que está escrito.\n2. Preguntas de análisis (pág. 70):\n- \"¿Se parece a otros textos estudiados? ¿Por qué?\"\n- \"¿Qué tipo de texto es?\" (Guiar hasta que respondan: receta de cocina)\n- \"¿Cuáles partes identificaste?\"\n- \"¿Cuáles acciones aparecen?\"\n- \"¿Quién debe realizar esas acciones?\"\n- \"¿Cómo deben realizarse?\"\n3. Explican el significado de palabras destacadas sin usar diccionario:\n- \"córtalas en tajadas\"\n- \"Haz un puré con la pulpa\"\n- \"condiméntalo con el zumo de limón\"\n- \"unta esta pasta sobre galletas\"\n4. El docente relee la preparación y pregunta: \"¿A qué se refieren las expresiones 'mientras lo haces' y 'disfrútala'?\" (Se refieren al puré y a la pasta).",
+          "actividad_numero": "Comprensión oral (Párrafos 1-3, pág. 70) (pág. 70) (pág. 70)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "",
+          "recursos": "• Esquema en la pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad de resumen (pág. 71): Los estudiantes resumen con sus propias palabras los ingredientes y la forma de preparación de la mantequilla de aguacate, utilizando el esquema:\n- Título\n- Lista de ingredientes y porciones\n- Forma de preparación\n2. Se les pide que compartan la receta con su familia y la preparen en casa.",
+          "actividad_numero": "Comprensión oral Actividad de resumen (pág. 71)"
+        }
+      ]
+    },
+    {
+      "id": "1771201188374",
+      "sequence_id": "seq-1771196708499",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Producción Oral y Preparación para Comprensión Escrita",
+      "intencion_pedagogica": "Producir oralmente una receta de un plato típico de la comunidad y asignar los ingredientes para la preparación práctica en la próxima clase.\n\n",
+      "estrategia": "Trabajo en grupos cooperativos: Para compartir producciones orales.\n\nUso de esquemas: Para organizar la información antes de hablar.\n\nCorrección fraterna entre pares: Los compañeros retroalimentan las producciones.\n\nAsignación de tareas: Para traer ingredientes y utensilios.",
+      "aprendizaje_significativo": "Los estudiantes producen oralmente una receta de un plato típico de su comunidad, valorando su cultura culinaria y preparándose para una experiencia real de cocina en el aula.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite leer su producción escrita en lugar de explicarla de memoria.\n\nPara estudiantes tímidos: Se les da la opción de grabar su explicación en casa y reproducirla en clase.\n\nPara estudiantes con dificultades para recordar secuencias: Se les proporciona el esquema con imágenes de los pasos.\n\nPara estudiantes con dificultades económicas: El docente gestiona con el comité de padres para que ningún niño se quede sin ingredientes.\n\nPara estudiantes avanzados: Se les pide que expliquen por qué eligieron ese plato y qué significado tiene en su familia.",
+      "actividades_cuaderno": "Escribir en el cuaderno la receta del plato que compartieron oralmente, usando el esquema de título, ingredientes y preparación.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Esquema en la pizarra\n• Cuadernos",
+          "descripcion": "1. El docente recuerda la investigación sobre platos típicos de la comunidad.\n2. Explica la consigna (pág. 71): \"Explica a tus compañeros cuál fue el plato que más te gustó y que desearías preparar.\"\n3. Presenta el esquema para organizar ideas (pág. 71):\n- Título (nombre del plato)\n- Lista de ingredientes y porciones\n- Forma de preparación",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 71)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Esquema de producción oral\n• Lista de materiales para la próxima clase (en la pizarra o fotocopia)",
+          "descripcion": "1. El docente forma grupos de 4 personas (pág. 72).\n2. Durante 20 minutos, los estudiantes socializan sus producciones en el grupo.\n3. Los compañeros verifican si falta algún elemento y hacen correcciones fraternas y colaborativas.\n4. Al final, varios estudiantes comparten su producción con toda la clase.\n\nPreparación para la comprensión escrita:\n1. El docente anuncia que en la próxima clase leerán una receta y la prepararán.\n2. Muestra la receta \"Brochetas de frutas con miel y ajonjolí\" (pág. 74) y los utensilios necesarios.\n3. Forma grupos de 5 estudiantes y asigna los materiales (pág. 72):\n- Un bol o recipiente grande\n- Palitos de madera\n- 3 mangos maduros, 1 lechosa, 3 guineos, etc.\n4. Explica que deben dividirse los materiales y traerlos para la próxima clase.",
+          "actividad_numero": "Producción oral (Párrafo 2, pág. 72) Comprensión escrita (Párrafos 1-3, pág. 72)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente felicita las producciones y refuerza la importancia de seguir un orden lógico en la preparación.\n2. Se recuerda la tarea: traer los ingredientes asignados para la próxima clase.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771201259488",
+      "sequence_id": "seq-1771196708499",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión Escrita y Preparación Práctica",
+      "intencion_pedagogica": "Leer comprensivamente la receta \"Brochetas de frutas con miel y ajonjolí\", prepararla en grupos y reflexionar sobre la importancia de una alimentación saludable.\n\n",
+      "estrategia": "Aprendizaje experiencial: Preparación real de la receta en el aula.\n\nLectura compartida: Lectura de la receta antes de la preparación.\n\nPreguntas de comprensión: Durante y después de la lectura.\n\nTrabajo en grupos cooperativos: Cada grupo prepara su receta.\n\nConexión interdisciplinaria: Con Ciencias Naturales (alimentación saludable).",
+      "aprendizaje_significativo": "Los estudiantes no solo leen una receta, sino que la preparan y la disfrutan, experimentando de primera mano la utilidad práctica de este tipo de texto.\n\n",
+      "actividades_complementarias": "Para estudiantes con alergias alimentarias: Se preparan alternativas (ej: brochetas solo con las frutas que pueden consumir).\n\nPara estudiantes con dificultades motrices: Se les asignan tareas como lavar las frutas o mezclar ingredientes.\n\nPara estudiantes con discapacidad visual: Se les permite explorar las frutas con el tacto y el olfato.\n\nPara estudiantes que no trajeron ingredientes: El docente y el comité de padres aseguran que todos tengan materiales para participar.\n\nPara estudiantes kinestésicos: Se les asignan las tareas que requieren más movimiento (pelar, cortar con supervisión, mezclar).",
+      "actividades_cuaderno": "Escribir un resumen de la experiencia de hoy, incluyendo cómo se sintieron al preparar las brochetas y qué aprendieron.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cartulina o proyector con la receta\n• Copias de la receta (pág. 74)\n• Pizarra",
+          "descripcion": "1. El docente muestra en una cartulina o proyector la imagen y el título de la receta \"Brochetas de frutas con miel y ajonjolí\" (pág. 74) .\n2. Formula preguntas de exploración (pág. 73):\n- \"¿Saben ustedes qué son las brochetas? ¿Qué otro nombre reciben?\" (1)\n- \"¿Con cuáles ingredientes se elaboran?\" (2)\n- \"¿Pueden imaginar cómo se preparan? Explícalo.\" (3)\n- \"¿Las has comido alguna vez?\" (4)\n- \"¿Ustedes creen que es importante que se escriban textos con este contenido? ¿Por qué?\" (5)\n- \"¿Qué nombre reciben los textos que se usan para explicar cómo se hacen los alimentos?\" (6)\n3. Se entrega una copia de la receta a cada estudiante.",
+          "actividad_numero": "Comprensión escrita Pre-lectura (pág. 73)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Ingredientes y utensilios traídos por los estudiantes\n• Comité de padres colaboradores\n• Fotocopia de las actividades",
+          "descripcion": "- El docente explica la lectura correcta de fracciones (½), abreviaturas (cdas.) y proporciones.\n- Dos niños leen el texto en voz alta: uno lee el título e ingredientes, otro lee la preparación y el consejo.\n2. Post-lectura - Actividades de comprensión:\n- Actividad de opción múltiple (pág. 75): Responden preguntas 1-5 sobre la intención comunicativa, el primer paso, referencias textuales, etc.\n- Actividad de vocabulario (pág. 76): Escriben definición y sinónimo de ensarta, bol, macerar.\n- Actividad de estructura (pág. 76): Completan un cuadro con: Título, Ingredientes, Preparación.\n3. Preparación práctica (pág. 77-78):\n- Los grupos se reúnen con sus ingredientes. Un adulto del comité de padres ayuda con el uso de cuchillos.\n- Un estudiante lee la lista de ingredientes, otro lee la preparación mientras los demás realizan las acciones.\n- Al final, todos disfrutan las brochetas.",
+          "actividad_numero": "Comprensión escrita Durante la lectura (pág. 73) Actividades 1-5 (pág. 75) Actividad de vocabulario (pág. 76) Actividad de estructura (pág. 76) Preparación práctica (págs. 77-78)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente realiza preguntas de reflexión (pág. 78):\n- \"¿Por qué es importante consumir frutas a diario?\"\n- \"¿Cuáles son sus frutas preferidas?\"\n- \"¿Les gustaron las brochetas?\"\n- \"¿Cómo se sintieron al preparar la receta?\"\n2. Actividad para la casa (pág. 78): Escribir un resumen de la experiencia y los sentimientos que despertó.",
+          "actividad_numero": "Comprensión escrita (Párrafo 7, pág. 78)"
+        }
+      ]
+    },
+    {
+      "id": "1771201409770",
+      "sequence_id": "seq-1771196708499",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Gramática Textual y Producción Escrita",
+      "intencion_pedagogica": "Sistematizar los conocimientos sobre la receta (estructura, verbos en imperativo, conectores de orden) y producir por escrito una receta de un plato típico de la comunidad.\n\n",
+      "estrategia": "Diálogo creativo: Para reconstruir los aprendizajes sobre la receta.\n\nClase expositiva dialogada: Para presentar los conceptos gramaticales.\n\nAnálisis de textos modelo: Identificación de verbos en imperativo y conectores de orden.\n\nTaller de escritura: Acompañamiento paso a paso en la producción de una receta.\n\nUso de instrumentos de evaluación: Lista de cotejo para la autoevaluación.",
+      "aprendizaje_significativo": "Los estudiantes escriben su propia receta de un plato típico de su comunidad, que podrán compartir con su familia y preparar en casa, valorando y preservando su cultura culinaria.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite dictar su receta a un compañero o al docente.\n\nPara estudiantes con dificultades de organización: Se les proporciona una plantilla con espacios para completar (título, ingredientes, preparación).\n\nPara estudiantes visuales: Se les anima a incluir dibujos detallados de los ingredientes y el plato terminado.\n\nPara estudiantes que no recuerdan recetas de su comunidad: Se les permite investigar en internet o preguntar a familiares durante la clase (con permiso).\n\nPara estudiantes avanzados: Se les pide que incluyan una variante del plato o un consejo adicional.",
+      "actividades_cuaderno": "Pasar en limpio la versión final de la receta, incluyendo dibujos o imágenes, y prepararse para compartirla en el mural del curso.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con la receta de brochetas\n• Pizarra",
+          "descripcion": "1. El docente inicia un diálogo con preguntas (pág. 79):\n- \"A través de las actividades anteriores, ¿qué tipo de texto produjeron?\" (Guiar a: receta)\n- \"¿Cuáles eran las partes de dicho texto?\" (Título, ingredientes, preparación)\n2. Refuerza los conceptos usando el papelógrafo de la receta de brochetas.\n3. Pregunta: \"¿Cuáles elementos aparecen en la parte de los ingredientes?\" (materiales, cantidad, condición, tamaño)\n4. Pregunta: \"¿Cuáles palabras usaron para expresar cada acción?\" (Guiar a: verbos en imperativo: lava, limpia, corta, unta)\n5. Pregunta: \"¿Cuáles palabras usaron para expresar el orden?\" (Guiar a: conectores de orden: primero, luego, después, finalmente)\n6. El docente sintetiza (pág. 80):\n- Las recetas son textos instructivos.\n- Toda receta debe llevar: nombre del plato, ingredientes y porciones, preparación.\n- Se usan verbos en imperativo y conectores de orden.",
+          "actividad_numero": "Gramática textual (Párrafos 1-4, págs. 79-80)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Borradores",
+          "descripcion": "1. El docente presenta la consigna (pág. 80): \"Escribe la receta de un plato típico de tu comunidad que no requiera cocción.\"\n2. Recuerda los pasos para la escritura (pág. 81):\n- Antes de escribir: Repasar mentalmente los pasos, escribir el nombre, asegurar los ingredientes y cantidades.\n- Al momento de escribir: Organizar las ideas, usar estructura, verbos en imperativo, conectores de orden.\n- Después de escribir: Revisar, socializar con compañeros, corregir, pasar en limpio.\n3. Los estudiantes escriben el primer borrador de su receta.\n4. Revisión en pares: Intercambian con un compañero para recibir retroalimentación.\n5. El docente acompaña y resuelve dudas.",
+          "actividad_numero": "Producción escrita (Párrafo 1, pág. 80) Pasos 1-3 (pág. 81)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tabla de criterios fotocopiada\n• Borradores corregidos",
+          "descripcion": "1. El docente entrega la tabla de Criterios de evaluación (pág. 82) .\n2. Los estudiantes autoevalúan su receta marcando Sí/No en cada indicador:\n- 1. ¿Tu texto tiene título, ingredientes y preparación?\n- 2. ¿Seguiste un orden lógico con conectores?\n- 3. ¿Usaste verbos en imperativo?\n- 4. ¿Las oraciones son breves y claras?\n- 5. ¿Incluiste dibujos o imágenes?\n- 6. ¿Las imágenes se relacionan con el texto?\n- 7. ¿Es un plato típico de tu comunidad?\n- 8. ¿Seguiste los pasos de escritura?\n- 9. ¿Las instrucciones son claras para tener éxito?\n- 10. ¿Corregiste errores de ortografía?\n3. Se indica que la versión final se pasará en limpio para publicar en el mural del curso.",
+          "actividad_numero": "Producción escrita Criterios de evaluación (pág. 82)"
+        }
+      ]
+    }
+  ]
+}

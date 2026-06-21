@@ -1,0 +1,411 @@
+{
+    "id": "secuencia-2-matematica-3ro",
+    "sequenceId": "secuencia-2-matematica-3ro",
+    "title": "UN PASEO POR EL PARQUE DE DIVERSIONES",
+    "subjectId": "matematica-3ro",
+    "gradeId": "primaria-3ro",
+    "blocks": [
+        {
+            "id": "block-mat-3ro-seq2-b1",
+            "title": "Bloque 1",
+            "blockNumber": 1,
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "Midan longitudes con metros y centímetros y establezcan equivalencias entre dichas unidades medidas.",
+                    "resources": "Papelógrafo de aprendizajes, reglas escolares, un trozo de hilo de plástico de más de 2 m de largo para cada estudiante, una regla métrica de pizarra y cintas métricas graduadas en centímetros de 2 m o más. Actividad 1 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Medir estas dos longitudes y anotarlas en la tabla: El ancho de la puerta, El largo de la mesa.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes",
+                            "description": "El docente presenta el texto con los propósitos de trabajo: 1. Medir en metros y centímetros. 2. Leer, escribir, ordenar y representar números de 4 dígitos. 3. Resolver problemas de sumas y restas. 4. Resolver problemas de multiplicación y de distribución en partes iguales. 5. Calcular y recordar resultados de multiplicaciones."
+                        },
+                        {
+                            "title": "Momento 2. Comparar con un metro",
+                            "description": "Se comenta la imagen del parque de diversiones y las restricciones de altura. Se reparte un hilo para que estimen y corten 1 metro. Se verifica con la cinta métrica. Se anota la equivalencia: 1 m = 100 cm. Título en cuaderno: Nos medimos."
+                        },
+                        {
+                            "title": "Momento 3. Medir en metros y centímetros",
+                            "description": "Se plantean las alturas mínimas para juegos (Pico Duarte 112 cm, Montaña Rusa 1m 30 cm). En parejas, miden sus estaturas usando la pared y cintas métricas."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "Apliquen equivalencias entre metros y centímetros para resolver problemas.",
+                    "resources": "Cintas métricas, actividad 2 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Medir estas dos longitudes y anotarlas en la tabla: El ancho de la mesa, El largo de mi cama.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Intercambio sobre las medidas registradas del ancho de la puerta y largo de la mesa. Se comparan resultados y calculan diferencias."
+                        },
+                        {
+                            "title": "Momento 2. Equivalencias entre metros y centímetros",
+                            "description": "Título: Medidas en el parque de diversiones. Se resuelven problemas sobre quiénes pueden entrar a los juegos según sus alturas, calculando diferencias y equivalencias (ej. 1m = 100cm). Se utiliza la cinta métrica como apoyo."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "Comparen y ubiquen números en la recta numérica.",
+                    "resources": "La recta numérica de la actividad 3 del fascículo, un papelógrafo con la recta numérica graduada en centenas del 0 al 1,000.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: ¿Qué premios se pueden canjear con estos puntos? A. 6,700 puntos... B. 2,640 puntos... C. 8,730 puntos... D. 5,590 puntos...",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Intercambio sobre las medidas de la mesa y la cama registradas en la tarea."
+                        },
+                        {
+                            "title": "Momento 2. La recta numérica al 1,000",
+                            "description": "Se presenta la recta numérica en papelógrafo. Se resuelven ítems A y B del fascículo: marcar puntos (548, 78, 129, 753, 802) entre centenas y decidir qué premios se pueden canjear. Título: Entre cuáles está."
+                        },
+                        {
+                            "title": "Momento 3. La recta numérica al 10,000",
+                            "description": "Se trabaja con la recta de miles. Se cuenta de 1,000 en 1,000 hasta 10,000. Se completa la recta en el fascículo marcando las unidades de mil."
+                        },
+                        {
+                            "title": "Momento 4. Encuadrar entre miles",
+                            "description": "En parejas, ubican números de cuatro dígitos (4,850; 1,140; 9,530; 6,831) en la recta numérica y determinan los premios canjeables."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "Comparen números de cuatro dígitos.",
+                    "resources": "Tarjetas de unidades, de decenas, de centenas (recortadas en la secuencia anterior) y de miles recortables del fascículo para jugar; papelógrafo con una recta numérica graduada en miles del 0 al 10,000.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Juan jugó al mayor, sumó y obtuvo los siguientes números: 5,637; 2,279; 4,753; 2,412. Observar los números y realizar lo que se pide (colorear mayor/menor, marcar en recta).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se verifica la ubicación de los números en la recta numérica del papelógrafo."
+                        },
+                        {
+                            "title": "Momento 2. Recitar series de a 100 y 1,000 a partir de un número",
+                            "description": "Recitado de series ascendentes y descendentes de 100 en 100 y de 1,000 en 1,000."
+                        },
+                        {
+                            "title": "Momento 3. Obtener el mayor número",
+                            "description": "Título: Jugamos al mayor con miles. Juego 'El mayor' con tarjetas hasta la unidad de mil. Se suman los valores, se comparan y gana el mayor. Se usa la recta numérica como apoyo."
+                        },
+                        {
+                            "title": "Momento 4. Obtener el menor número",
+                            "description": "Se juega otra partida con el objetivo de obtener el número menor. Se pueden variar las condiciones (más cercano a 5,000, etc.)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "Resuelvan problemas para averiguar cuánto quedó y cuánto se agregó.",
+                    "resources": "Actividad 5 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo qué se conoce y qué se quiere averiguar. Rita tenía 270 puntos. Jugó y ahora tiene 690 puntos. ¿Cuántos puntos ganó?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisión de los números mayor y menor de la tarea, y su ubicación en la recta numérica."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de suma",
+                            "description": "Título: ¡Problemas en el parque de diversiones! Resolución del problema A (Juan y Carolina). Se guía la identificación de datos y la operación. Puesta en común de estrategias."
+                        },
+                        {
+                            "title": "Momento 3. Resolver otro problema de suma",
+                            "description": "Resolución del problema B (Carolina). Se identifica la incógnita en lo que se agrega. Se analizan estrategias de cálculo (descomposición aditiva)."
+                        },
+                        {
+                            "title": "Momento 4. Comparar problemas",
+                            "description": "Se comparan los problemas para distinguir cuándo se suma para hallar el total y cuándo se resta para hallar lo agregado."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "Resuelvan problemas para averiguar cuánto se quitó.",
+                    "resources": "Actividad 6 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo qué se conoce y qué se quiere averiguar. Pablo tenía 870 puntos. Usó algunos... Le quedaron 310. ¿Cuántos puntos usó?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten las resoluciones de la tarea anterior, atendiendo a que se resuelve con resta aunque sea un problema de agregar."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de resta",
+                            "description": "Título: ¡Otro problema en el parque de diversiones! Se lee y resuelve el problema de Sonia (tenía 950, ahora 420). Se orienta sobre la operación de resta y el cálculo con tarjetas o descomposiciones."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "Resolver problemas con distintas estrategias.",
+                    "resources": "Actividad 7 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver para Anny y Junior (Tabla de puntos que tenía, ganó y tiene ahora).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisan procedimientos y respuestas. Se atiende a que se buscaba averiguar cuánto se quitó."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de suma",
+                            "description": "Título: Ganar puntos en el parque. Se resuelve el problema de Jimena y Rafael usando el cuadro de puntos. Se analizan estrategias de cálculo (descomposición aditiva)."
+                        },
+                        {
+                            "title": "Momento 3. Resolver problemas de resta",
+                            "description": "Se resuelven las situaciones de Laura y Roberto del cuadro. Se puntualiza la operación necesaria para saber lo que se agregó (resta)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 8: Recapitulación",
+                    "pedagogicalIntention": "Repasen algunos de los contenidos trabajados.",
+                    "resources": "Papelógrafo de aprendizajes. Actividad 8 del fascículo.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten resoluciones de la tarea. Se reflexiona sobre cómo identificar la operación y cómo hallar el resultado."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Se revisan las actividades del bloque 1 y se registran fechas en el papelógrafo."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido",
+                            "description": "Título: Repasamos lo trabajado. Se resuelven situaciones en el fascículo y cuaderno: A. Entrar al pico Duarte. B. Altura para montaña rusa. C. Problema de Raúl (puntos ganados/perdidos)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "block-mat-3ro-seq2-b2",
+            "title": "Bloque 2",
+            "blockNumber": 2,
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "Distingan las diferencias en la información inicial de los problemas que solo se resuelven con sumas de los que también pueden resolverse con una multiplicación.",
+                    "resources": "Actividad 9 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Encerrar el o los cálculos que resuelven el problema... A. En el kiosco... Santa compra 6 paquetes de 4 pilones. B. Elvira tenía 6 entradas y compró 4.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Resolver un problema aditivo",
+                            "description": "Título: Problemas en el kiosco del parque. Problema A (helados de crema y chocolate). Se encierran los cálculos correctos (suma). Se destaca que son cantidades distintas."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema multiplicativo",
+                            "description": "Problema B (cajas de empanadas). Se encierran cálculos (suma reiterada y multiplicación). Se destaca la repetición de la misma cantidad."
+                        },
+                        {
+                            "title": "Momento 3. Comparar problemas",
+                            "description": "Se intercambian opiniones sobre las diferencias entre los problemas y cuándo se puede usar multiplicación."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se registra en el cuaderno: Para averiguar el total, si las cantidades se juntan o agregan se suman. Si una indica cuántas veces se repite la otra, se multiplican."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "Resuelvan una situación y determinen si otras resoluciones son correctas argumentando la decisión.",
+                    "resources": "Actividad 10 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver en el cuaderno usando alguna una de las estrategias correctas: En la escuela se recibieron 9 paquetes de 15 lápices cada uno; ¿cuántos lápices hay en total?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisan los problemas de tarea, enfatizando la función de los números (misma naturaleza vs. veces)."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema multiplicativo",
+                            "description": "Título: Ayudamos a corregir. Se resuelve un problema (8 estuches de 12 témperas). Se analizan 6 estrategias de resolución presentadas en el fascículo, decidiendo cuáles son correctas y por qué. Se copian las correctas."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 11",
+                    "pedagogicalIntention": "Resuelvan y comparen problemas del campo multiplicativo e identifiquen la información inicial y lo que hay que averiguar con las operaciones correspondientes.",
+                    "resources": "Unas 50 piedrecitas, tapitas o similares, actividad 11 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver registrando qué se conoce y qué se quiere averiguar. A. Juego de tiburones (puntos por pelota). B. Francisco (puntos obtenidos).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisan respuestas y se observa si utilizaron suma reiterada o multiplicación."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de multiplicación",
+                            "description": "Título: Resolvemos problemas. Problema A (trencito, 9 vagones, 3 personas). Se resuelve y analiza la información. Puesta en común."
+                        },
+                        {
+                            "title": "Momento 3. Resolver un problema de agrupar o partir",
+                            "description": "Problema B (sillas voladoras, 9 personas, 3 por silla). Se resuelve con apoyo concreto o gráfico. Se enfatiza el conteo de grupos formados."
+                        },
+                        {
+                            "title": "Momento 4. Comparar problemas",
+                            "description": "Se comparan los problemas identificando qué se averigua (total vs. cantidad de partes/veces)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 12",
+                    "pedagogicalIntention": "Elaboren estrategias para resolver problemas de repartir y agrupar en partes iguales.",
+                    "resources": "Unas 50 piedrecitas, tapitas o similares, actividad 12 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: A. Mamá de Carmen compra 20 tickets para 4 hijos. B. Aniversario del parque, 3 tickets por persona, 18 tickets total.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparan procedimientos de resolución de los problemas de tarea."
+                        },
+                        {
+                            "title": "Momento 2. Problema de reparto equitativo",
+                            "description": "Título: Repartimos en partes iguales. Problema A (12 globos, 6 niños). Se resuelve repartiendo equitativamente."
+                        },
+                        {
+                            "title": "Momento 3. Problema de agrupamiento o partición",
+                            "description": "Problema B (12 globos, 2 por niño). Se resuelve agrupando. Se usan estrategias como conteo, restas sucesivas, dibujos."
+                        },
+                        {
+                            "title": "Momento 4. Comparar problemas",
+                            "description": "Se diferencian los problemas: repartir en partes iguales vs. agrupar/hacer grupos iguales."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 13",
+                    "pedagogicalIntention": "Resuelvan problemas de repartir y agrupar en partes iguales.",
+                    "resources": "Unas 50 piedrecitas, tapitas o similares, actividad 13 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: A. Resolver registrando... Carritos chocones (13 tickets, 3 por juego). B. Para la próxima clase, llevo una calculadora al centro.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten resoluciones y se compara la diferencia entre repartir cantidad vs. entregar cantidad fija."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de agrupamiento o partición",
+                            "description": "Título: Aventuras en el parque de diversiones. Problema A (Jerónimo 15 tickets, 2 por juego). Se trabaja con el residuo/sobrante."
+                        },
+                        {
+                            "title": "Momento 3. Resolver un problema de reparto equitativo",
+                            "description": "Problema B (7 brazaletes, 2 familias). Se reparte y analiza el sobrante. Se registra en pizarra."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se escribe en el cuaderno: Al distribuir en partes iguales a veces sobra."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 14",
+                    "pedagogicalIntention": "Resuelvan multiplicaciones utilizando el cuadro de multiplicaciones y apliquen la propiedad conmutativa.",
+                    "resources": "Cuadro de la actividad 14 del fascículo. Dos papelógrafos: uno con el cuadro vacío y otro en blanco. Una calculadora. Dos paquetes de tarjetas 1-10.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Oscarina jugó ¡Multiplicamos! y obtuvo... (Completar tabla con cálculos y resultados).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se explican estrategias y por qué sobraron tickets (reparto con residuo)."
+                        },
+                        {
+                            "title": "Momento 2. El cuadro de multiplicaciones",
+                            "description": "Título: Jugamos con el cuadro de multiplicaciones. Se explora el cuadro (filas, columnas). Se ubican resultados de multiplicaciones."
+                        },
+                        {
+                            "title": "Momento 3. Los resultados de las multiplicaciones",
+                            "description": "Juego: ¡Multiplicamos! Se sacan tarjetas, se multiplican y se ubica el resultado en el cuadro. Se gana puntos por cálculo mental, suma o calculadora. Se observa la conmutatividad."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Papelógrafo: Al multiplicar se puede cambiar el orden. Multiplicar por 1 da el mismo número. Multiplicar por 0 da 0."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 15",
+                    "pedagogicalIntention": "Proponen preguntas en problemas de multiplicación conocida cierta información y el cálculo que resuelve.",
+                    "resources": "Fascículo con cuadro de multiplicaciones completo y cuadro personal.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Escribir una pregunta... Al laberinto de los espejos... Cálculo: 5 x 3 =",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisan los cálculos del juego ¡Multiplicamos! y las estrategias usadas."
+                        },
+                        {
+                            "title": "Momento 2. Formular una pregunta",
+                            "description": "Título: Escribimos la pregunta de un problema. Problema A (Montaña rusa, 5 carritos, 5 personas). Se formula la pregunta a partir del cálculo 5 x 5."
+                        },
+                        {
+                            "title": "Momento 3. Resolver con el cuadro multiplicativo",
+                            "description": "Se busca el resultado en el cuadro personal."
+                        },
+                        {
+                            "title": "Momento 4. Formular otra pregunta",
+                            "description": "Problema B (Botes acuáticos, 4 personas, 6 botes). Cálculo 4 x 6. Se formula pregunta y resuelve."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 16",
+                    "pedagogicalIntention": "Detecten patrones para resolver multiplicaciones por 1, 10, 100 y 1,000.",
+                    "resources": "Tarjetas 0-9 y 10-100. Cinco tarjetas “x 1”, “x 10” y “x 100”. Calculadora. Cuadro de actividad 16.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: En una partida salieron las siguientes cartas. Anotar en el cuadro los cálculos...",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten preguntas formuladas y resultados."
+                        },
+                        {
+                            "title": "Momento 2. Multiplicar por 1, 10 y 100",
+                            "description": "Título: Multiplicamos por 1, 10 y 100. Juego con tarjetas de unidades, decenas y multiplicadores (x1, x10, x100). Se usa calculadora."
+                        },
+                        {
+                            "title": "Momento 3. Multiplicar por 1,000",
+                            "description": "Variante del juego multiplicando por 1,000. Puesta en común para detectar patrones (agregar ceros)."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Conclusiones: x1 queda igual, x10 agrega un 0, x100 dos 0s, x1000 tres 0s."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 17: Producción final",
+                    "pedagogicalIntention": "Repasen algunos contenidos trabajados.",
+                    "resources": "Una hoja para completar y entregar. Tarjetas 0-9, 10-90, 100-900.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisan los cálculos x1, x10, x100 en la pizarra. Se analiza el patrón de ceros."
+                        },
+                        {
+                            "title": "Momento 2. Presentar el trabajo a realizar en el día",
+                            "description": "Trabajo en grupos con juegos: a) Elegimos el mayor, b) Elegimos el menor, c) Nuevamente elegimos el mayor. Se completan actividades de colorear mayor/menor, valor posicional y cálculos."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 17: Cierre y metacognición",
+                    "pedagogicalIntention": "Reflexionen sobre lo realizado y aprendido durante la secuencia.",
+                    "resources": "Papelógrafo de aprendizajes, hojas de producción final.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Entregar las producciones con la retroalimentación",
+                            "description": "Devolución de trabajos."
+                        },
+                        {
+                            "title": "Momento 2. Revisar la retroalimentación para consolidar los saberes principales",
+                            "description": "Repaso de logros y dificultades."
+                        },
+                        {
+                            "title": "Momento 3. Reflexión metacognitiva",
+                            "description": "Título: Mi trabajo en estas semanas. Responder preguntas sobre actividad favorita, difícil y aprendizajes."
+                        },
+                        {
+                            "title": "Momento 4. Revisar el papelógrafo de aprendizajes de la secuencia",
+                            "description": "Registro de fechas y cierre del papelógrafo."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

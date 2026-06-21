@@ -1,0 +1,243 @@
+{
+  "id": "seq-1771353710508",
+  "title": "Informe de lectura",
+  "description": "Análisis y resumen de textos para desarrollar comprensión lectora crítica.",
+  "order": 6,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771356620988",
+      "sequence_id": "seq-1771353710508",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": " Comprensión Oral (Preparación y escucha del informe)",
+      "intencion_pedagogica": "Activar conocimientos previos sobre el cuento \"El conejo en el espejo\", introducir el concepto de informe de lectura y escuchar un informe sobre dicho cuento para identificar su estructura y propósito.\n\n",
+      "estrategia": "Asignación previa de tarea: Lectura del cuento \"El conejo en el espejo\" en casa.\n\nDiálogo dirigido: Preguntas para comentar el cuento.\n\nIntroducción conceptual: Definición de informe de lectura.\n\nLectura en voz alta (modelado): El docente lee el informe con entonación adecuada.\n\nToma de apuntes: Los estudiantes registran información clave.",
+      "aprendizaje_significativo": "Se parte de un cuento dominicano (\"El conejo en el espejo\") que los estudiantes han leído en casa, conectando la literatura nacional con el análisis crítico a través del informe de lectura.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión lectora: Se les permite tener el cuento a la vista durante el comentario.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona el texto del informe por escrito.\n\nPara estudiantes kinestésicos: Se les invita a representar alguna escena del cuento.\n\nPara estudiantes avanzados: Se les pide que identifiquen la tesis del informe.",
+      "actividades_cuaderno": "Copiar la definición de informe de lectura. Escribir un breve párrafo sobre el mensaje del cuento \"El conejo en el espejo\".\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copia del cuento \"El conejo en el espejo\" (pág. 72)\n• Pizarra",
+          "descripcion": "1. El docente entrega una copia del cuento \"El conejo en el espejo\" (Anexo, pág. 72) con anticipación para que los estudiantes lo lean en casa y lo comenten con la familia (pág. 58).\n2. Toma los primeros minutos para comentar el contenido del cuento con preguntas:\n- \"¿De qué trata el cuento?\"\n- \"¿Cuáles son sus personajes centrales?\"\n- \"¿Cuál es el inicio, el nudo y el desenlace?\"\n- \"¿Cuál es el mensaje del cuento?\"",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 58)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto del informe \"El conejo en el espejo\" (pág. 59)\n• Cuadernos",
+          "descripcion": "1. El docente anuncia que leerá un informe de lectura sobre el cuento discutido.\n2. Pregunta: \"¿Alguien sabe qué es un informe de lectura?\"\n3. Copia en la pizarra la definición (pág. 58): \"El informe de lectura es un texto en el que se analiza la información (o algún aspecto) de un texto leído o escuchado. Es una exposición que tiene como propósito dar a conocer a un lector uno o varios temas abordados en otro texto.\"\n4. Lee el texto con las pausas y entonación adecuadas (pág. 59).\n5. Los estudiantes toman apuntes.",
+          "actividad_numero": "Comprensión oral (Párrafos 2-3, pág. 58)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Pizarra",
+          "descripcion": "1. Actividad A: Explican el significado contextual de palabras subrayadas sin usar diccionario:\n- \"Esta narración refleja lo importante que es para convivir con otros de su especie...\"\n- \"Doña Fabiola tenía un problema con su mascota...\"\n- \"...a doña Fabiola le preocupaba la manía del conejo...\"\n- \"El conejo en el espejo refleja la necesidad que sentimos los miembros de muchas especies de convivir con nuestros semejantes...\"",
+          "actividad_numero": "Comprensión oral Actividad A (pág. 60)"
+        }
+      ]
+    },
+    {
+      "id": "1771356694738",
+      "sequence_id": "seq-1771353710508",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Oral (Análisis del informe)",
+      "intencion_pedagogica": "Analizar la estructura del informe de lectura \"El conejo en el espejo\", identificando la introducción, el desarrollo y la conclusión, y reconociendo la información que contiene cada parte.\n\n",
+      "estrategia": "Re-lectura por párrafos: El docente lee nuevamente el informe, pausando para preguntar.\n\nPreguntas de análisis: Identificación de las partes del informe.\n\nDiálogo dirigido: Para construir colectivamente la estructura del informe.",
+      "aprendizaje_significativo": "Se analiza la estructura del informe de lectura, identificando cómo se organiza la información (introducción con datos de la obra, desarrollo con resumen y análisis, conclusión) para que los estudiantes puedan aplicarlo en sus propias producciones.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar un solo aspecto (ej: solo los datos del autor).\n\nPara estudiantes visuales: Se utiliza un organizador gráfico con las partes del informe.\n\nPara estudiantes kinestésicos: Se les invita a pasar al frente y señalar las partes en el papelógrafo.",
+      "actividades_cuaderno": "Copiar el esquema de la estructura del informe de lectura (introducción, desarrollo, conclusión) con las características de cada parte.\n\n",
+      "inicio": [
+        {
+          "letras": "B",
+          "tiempo": "15",
+          "recursos": "• Texto del informe (pág. 59)",
+          "descripcion": "1. El docente anuncia que leerá nuevamente el informe por párrafos para hacer preguntas (pág. 60).\n2. Pide a los estudiantes que escuchen con atención.",
+          "actividad_numero": "Comprensión oral Actividad B (pág. 60)(pág. 60)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto del informe (pág. 59)\n• Pizarra",
+          "descripcion": "1. Párrafo 1: Después de leer, pregunta: \"¿Cuáles informaciones se dan en este párrafo? ¿Qué parte del informe es esta?\" (Introducción: datos del autor, datos de la obra, oración tópica).\n2. Párrafos 2 y 3: Después de leer, pregunta: \"¿Qué información contienen?\" (Resumen del contenido del cuento).\n3. Párrafos 4 y 5: Después de leer, pregunta: \"¿De qué se habla en estos párrafos?\" (Acciones de los personajes, por qué las realizan, cómo se solucionan).\n4. Pregunta: \"¿Qué parte del informe está contenida en los párrafos 2 al 5?\" (Desarrollo).\n5. Párrafo 6: Después de leer, pregunta: \"¿Qué parte del informe es esta? ¿Esta información ya está en otro lugar del texto?\" (Conclusión, retoma la oración tópica de la introducción).",
+          "actividad_numero": "Comprensión oral Análisis por párrafos (pág. 60)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente sintetiza en la pizarra la estructura del informe de lectura:\n- Introducción: datos del autor, obra, oración tópica.\n- Desarrollo: resumen del cuento, análisis de personajes (motivaciones).\n- Conclusión: retoma la idea principal o mensaje.",
+          "actividad_numero": "Comprensión oral Síntesis"
+        }
+      ]
+    },
+    {
+      "id": "1771356812025",
+      "sequence_id": "seq-1771353710508",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": " Producción Oral (Preparación)",
+      "intencion_pedagogica": "Seleccionar un cuento para la producción oral del informe, analizar sus personajes y motivaciones, y comenzar a planificar la exposición oral.\n\n",
+      "estrategia": "Asignación de tarea: Elección de un cuento para trabajar.\n\nTrabajo individual con preguntas guía: Para analizar el cuento elegido.\n\nPreparación de exposición oral: Los estudiantes planifican su informe.\n\nUso de consigna estructurada: Pasos a seguir para la producción oral.",
+      "aprendizaje_significativo": "Los estudiantes eligen libremente un cuento de su interés para preparar su informe oral, lo que aumenta su motivación y compromiso con la tarea, y les permite profundizar en la literatura infantil.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectura: Se les recomiendan cuentos más breves.\n\nPara estudiantes con dificultades de escritura: Se les permite grabar sus ideas en audio.\n\nPara estudiantes kinestésicos: Se les anima a preparar gestos para acompañar su exposición.\n\nPara estudiantes avanzados: Se les pide que investiguen sobre el autor del cuento.",
+      "actividades_cuaderno": "Completar el análisis del cuento elegido (personajes, metas, dificultades). Escribir el borrador del informe oral.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Lista de cuentos sugeridos",
+          "descripcion": "1. El docente sugiere a los alumnos que elijan un cuento de la biblioteca o de una lista elaborada por él (pág. 61).\n2. Explica que leerán el cuento y resolverán las consignas para preparar un informe oral.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 61)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuentos seleccionados por los estudiantes\n• Cuadernos",
+          "descripcion": "1. Los estudiantes leen el cuento que eligieron.\n2. Consigna 1: Señalan los personajes principales y sus características morales (actitudes y comportamientos).\n3. Consigna 2: Explican las metas de cada personaje, qué hicieron para alcanzarlas y qué dificultades tuvieron.\n4. Consigna 3: Explican cómo se relacionan las acciones entre sí.\n5. Consigna 4: Siguen instrucciones para preparar el informe oral:\n- Preparar un informe de 6-7 minutos.\n- Debe tener introducción, desarrollo y conclusión.\n- Incluir datos del autor, fecha de publicación, premios.\n- Escribir un borrador.\n- Revisarlo pensando en el público.\n- Ensayar sin leer, recordando las informaciones.",
+          "actividad_numero": "Producción oral Consignas 1-4 (pág. 61)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente recuerda los pasos a seguir y resuelve dudas.\n2. Anuncia que en las próximas clases se realizarán las exposiciones orales.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771356877960",
+      "sequence_id": "seq-1771353710508",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión Escrita (Pre-lectura y Durante la lectura)",
+      "intencion_pedagogica": "Analizar el cuento \"El hombre grama\" y realizar la lectura compartida del informe de lectura sobre este cuento, formulando hipótesis y respondiendo preguntas durante la lectura.\n\n",
+      "estrategia": "Análisis de cuento: Comprensión del cuento \"El hombre grama\".\n\nLectura compartida: Estudiantes leen en voz alta alternándose.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión.\n\nVerificación de hipótesis: Contraste de predicciones con el texto real.",
+      "aprendizaje_significativo": "Se trabaja con el cuento \"El hombre grama\" de Luis Martín Gómez, un autor dominicano premiado, conectando la literatura nacional con el análisis crítico y la reflexión sobre el medio ambiente.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades lectoras: Se les asignan párrafos más cortos.\n\nPara estudiantes visuales: Se utilizan imágenes relacionadas con el cuento (desierto, selva, fuego).\n\nPara estudiantes kinestésicos: Se les invita a representar las etapas del hombre grama.\n\nPara estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.",
+      "actividades_cuaderno": "Escribir un breve resumen del cuento \"El hombre grama\". Anotar las etapas por las que pasa el personaje.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copia del cuento \"El hombre grama\" (págs. 73-74)",
+          "descripcion": "1. El docente guía el análisis del cuento \"El hombre grama\" (Anexo, págs. 73-74) usando estrategias similares a las de la secuencia del cuento (pág. 62).\n2. Socializa la comprensión del cuento.",
+          "actividad_numero": "Comprensión escrita Pre-lectura (pág. 62)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copia del informe de lectura (pág. 63)\n• Pizarra",
+          "descripcion": "1. El docente entrega una copia del Informe de lectura de \"El hombre grama\" (pág. 63) .\n2. Pide que lean en silencio.\n3. Luego, realizan lectura en voz alta por párrafos, con preguntas intercaladas (pág. 64):\n- Párrafo 1: \"¿Cuál es la especialidad de este cuento? ¿A qué se refiere la palabra 'su'? ¿De qué se habla en este párrafo?\"\n- Párrafos 2-5: \"¿Qué ha hecho el autor del informe desde el segundo hasta este último párrafo?\" (conexión de sucesos).\n- Párrafo 6: \"¿Hay alguna información nueva? ¿Cuál?\" (motivaciones de los personajes).\n- Párrafo 7: \"¿Qué hace el autor en este último párrafo? ¿Qué idea se repite?\"",
+          "actividad_numero": "Comprensión escrita Durante la lectura (págs. 62-64)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se retoman las ideas exploradas al inicio.\n2. El docente anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771356987431",
+      "sequence_id": "seq-1771353710508",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": " Post-lectura y Gramática Textual",
+      "intencion_pedagogica": "Consolidar la comprensión del informe de lectura \"El hombre grama\" a través de actividades de post-lectura, identificando la estructura y diferenciando hechos de interpretaciones.\n\n",
+      "estrategia": "Trabajo individual con el texto: Para resolver actividades de comprensión.\n\nUso de contexto: Para deducir significados.\n\nTrabajo en grupos cooperativos: Para analizar y comparar informes.\n\nUso de cuadros comparativos: Para organizar información.",
+      "aprendizaje_significativo": "Se profundiza en el análisis del informe de lectura, diferenciando entre los hechos del cuento y las interpretaciones del autor del informe, desarrollando así el pensamiento crítico y la capacidad de análisis textual.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les permite trabajar las actividades en pareja.\n\nPara estudiantes con dificultades de vocabulario: Se les permite usar el diccionario.\n\nPara estudiantes kinestésicos: Se les invita a crear tarjetas con los conectores y clasificarlos.\n\nPara estudiantes avanzados: Se les pide que escriban un párrafo comparando ambos informes.",
+      "actividades_cuaderno": "Completar las actividades que no se terminaron en clase. Copiar el cuadro de la actividad 5 con los ejemplos identificados.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copia del informe (pág. 63)",
+          "descripcion": "1. Se recuerda brevemente el informe de lectura sobre \"El hombre grama\".",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad 1: Sin usar diccionario, escriben un sinónimo de palabras subrayadas: constituye, armonía, pensante, entorno, intervención, plenitud.\n2. Actividad 2: Encierran entre corchetes las ideas que aparecen en el cuento y pasan una raya a las interpretaciones del autor. Completan un cuadro con las marcas que permiten distinguirlas.\n3. Actividad 3: Identifican introducción, desarrollo y conclusión, anotando las marcas que les sirvieron.\n4. Actividad 4: Expresan con sus palabras y de manera abreviada el contenido del informe.\n5. Actividad 5: Completan un cuadro con: verbos en presente, verbos en pasado, conectores causales, conectores de finalidad, conectores de orden (pág. 65).",
+          "actividad_numero": "Comprensión escrita Actividades 1-5 (págs. 64-65)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas.\n2. En grupos, comparan los dos informes leídos (\"El conejo en el espejo\" y \"El hombre grama\") respondiendo: \"¿Qué tienen en común? ¿Cómo introducen? ¿En qué consiste el desarrollo? ¿Cómo concluyen?\"\n3. Comparan el informe de lectura con otros textos trabajados (carta, anécdota, receta).",
+          "actividad_numero": "Comprensión escrita Comparación (pág. 65)"
+        }
+      ]
+    },
+    {
+      "id": "1771357145326",
+      "sequence_id": "seq-1771353710508",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción Escrita",
+      "intencion_pedagogica": "Producir por escrito un informe de lectura sobre el cuento elegido, analizando la conexión de los sucesos y las motivaciones de los personajes, y prepararlo para su publicación en el mural.\n",
+      "estrategia": "Taller de escritura: Acompañamiento paso a paso en la producción escrita.\n\nUso de organizadores gráficos: Cuadros para planificar el informe.\n\nRevisión en pares: Coevaluación de borradores.\n\nUso de lista de cotejo: Para autoevaluación y revisión.\n\nPublicación: Exposición en el mural del curso.",
+      "aprendizaje_significativo": "Los estudiantes escriben su propio informe de lectura sobre un cuento que han elegido, aplicando todo lo aprendido y creando un texto que será leído y valorado por sus compañeros, lo que da autenticidad a su trabajo.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite escribir en computadora o dictar a un compañero.\n\nPara estudiantes con dificultades de organización: Se les proporcionan plantillas para cada paso.\n\nPara estudiantes kinestésicos: Se les anima a crear un dibujo que acompañe su informe.\n\nPara estudiantes avanzados: Se les pide que incluyan una cita del cuento para apoyar su análisis.",
+      "actividades_cuaderno": "Completar los pasos de escritura que no se terminaron en clase. Traer el borrador revisado para la próxima clase para la corrección ortográfica.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "\n1. El docente explica que los estudiantes producirán un informe de lectura sobre el cuento que eligieron (diferente al analizado en producción oral) (pág. 68).\n2. La consigna: redactar un informe analizando la relación entre las acciones y las motivaciones de los personajes, para ser publicado en el mural del curso.",
+          "actividad_numero": "Producción escrita Consigna (pág. 68)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Esquemas y cuadros en la pizarra o fotocopiados",
+          "descripcion": "1. Paso a (pág. 68): Leen el cuento cuantas veces sea necesario.\n2. Paso b: Completan un cuadro con: título, autor, año de publicación, libro donde está incluido.\n3. Paso c: Hacen una lista de personajes principales, sus metas, y los hechos que facilitaron o dificultaron el logro de esas metas.\n4. Paso d: Explican cómo se conectan los hechos del cuento.\n5. Paso e (pág. 69): Llenan un esquema con qué dirán y cómo lo dirán en introducción, desarrollo y conclusión.\n6. Paso f: Escriben el primer borrador.\n7. Paso g: Revisan el borrador respondiendo preguntas:\n- \"¿Hice un informe sobre las motivaciones de los personajes y la conexión de los hechos?\"\n- \"¿Escribí para un público que no conoce el cuento?\"\n- \"¿Están las ideas claras? ¿No sobra ni falta información?\"\n- \"¿Tiene introducción, desarrollo y conclusión?\"\n8. Paso h: Dan el borrador a uno o varios compañeros para que lo revisen con las mismas preguntas.\n9. El docente también revisa.",
+          "actividad_numero": "Producción escrita Pasos a-h (págs. 68-69)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Borradores de los estudiantes",
+          "descripcion": "1. Los estudiantes toman en cuenta las observaciones y reescriben su borrador.\n2. El docente anuncia que en las próximas clases trabajarán en la corrección de ortografía (pág. 70) y pasarán en limpio para publicar en el mural.",
+          "actividad_numero": "Producción escrita Revisión (pág. 69)"
+        }
+      ]
+    }
+  ]
+}

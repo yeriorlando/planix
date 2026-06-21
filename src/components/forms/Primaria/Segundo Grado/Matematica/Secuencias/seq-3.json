@@ -1,0 +1,359 @@
+{
+    "sequenceId": "secuencia-3-matematica-2do-grado",
+    "subjectId": "matematica",
+    "sequenceTitle": "Secuencia 3: Números más grandes",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1: Campo aditivo y números hasta 1,000",
+            "activities": [
+                {
+                    "title": "Actividad 1",
+                    "pedagogicalIntention": "Resuelvan problemas con distintos procedimientos.",
+                    "resources": "Actividad 1 del fascículo. Papelógrafo con el cuadro de la actividad 1 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Leo prepara otra tabla para registrar algunas actividades del Festival de Plantas y Flores. ¿Cuántas entradas entregó Leo para las actividades en el turno mañana? ¿Cuántas para el turno tarde?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes",
+                            "description": "Se conversa con los estudiantes sobre lo que van a trabajar en las próximas clases y se lee el papelógrafo con los objetivos."
+                        },
+                        {
+                            "title": "Momento 2. Sumar para reunir cantidades",
+                            "description": "Se presenta una situación sobre Leo trabajando en el Jardín Botánico y entregando entradas. Los estudiantes, en grupos, calculan los totales de entradas para distintas actividades en turnos de mañana y tarde. Luego completan un cuadro colectivo."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 2",
+                    "pedagogicalIntention": "Resuelvan nuevos problemas de reunir cantidades con distintos procedimientos.",
+                    "resources": "Actividad 2 del fascículo. Tabla con los totales por turno de cada actividad de la puesta en común de la actividad 1.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Leo necesita saber cuántas entradas entregó para cada actividad en ambos turnos. ¿Cuántas entradas entregó en total para cada actividad?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten respuestas, se comparan procedimientos de cálculo y se revisan los resultados."
+                        },
+                        {
+                            "title": "Momento 2. Reunir y comparar cantidades",
+                            "description": "Utilizando el cuadro de la actividad anterior, los estudiantes determinan en qué turno se entregaron más entradas y calculan los totales por turno, estimando y sumando."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 3",
+                    "pedagogicalIntention": "Calculen, aproximadamente, cuánto darán algunos cálculos de sumas y restas.",
+                    "resources": "Papelógrafo en blanco para la sistematización, cuadro personal de números y el cuadro numérico del salón. Actividad 3 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: ¿Cuál es el resultado terminado en 0 más cercano a 36 + 21? Completar la aproximación.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Comparten respuestas y procedimientos de cálculo de la tarea anterior."
+                        },
+                        {
+                            "title": "Momento 2. Aproximar a números terminados en cero",
+                            "description": "Los estudiantes practican encuadrar números entre decenas (ej. 48 está entre 40 y 50, más cerca de 50)."
+                        },
+                        {
+                            "title": "Momento 3. Cálculos aproximados",
+                            "description": "Resuelven ejercicios para decidir si un cálculo da más o menos de 50 sin hacer la cuenta exacta y para redondear resultados."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se concluye cómo aproximar cálculos cambiando los números por otros cercanos terminados en 0."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 4",
+                    "pedagogicalIntention": "Sumen números terminados en 0 en el juego de la oca.",
+                    "resources": "La pista de la actividad 4 del fascículo; un dado y cuatro fichas cada cuatro estudiantes.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Completar las porciones de números de la pista por los que avanzaron algunos niños.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Comparten cómo redondearon números y realizaron el cálculo aproximado."
+                        },
+                        {
+                            "title": "Momento 2. Sumar con números terminados en cero",
+                            "description": "Juegan a 'La oca' con una pista de 10 en 10 hasta el 200, donde cada punto del dado vale 10."
+                        },
+                        {
+                            "title": "Momento 3. Anticipar sumas de decenas enteras",
+                            "description": "Juegan con una variante: deben decir en qué número van a caer antes de mover la ficha."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 5",
+                    "pedagogicalIntention": "Resuelvan situaciones de avanzar y retroceder en el juego de la oca.",
+                    "resources": "Actividad 5 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver problemas sobre el juego de la oca (diferencia entre casilleros, retroceder).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Comparten respuestas sobre completar series descendentes y cambios de centenas."
+                        },
+                        {
+                            "title": "Momento 2. Sumar y restar números terminados en cero",
+                            "description": "Resuelven situaciones problemáticas basadas en el juego de la oca (cuánto avanzar, cuánto falta para llegar, dónde estaba antes)."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 6",
+                    "pedagogicalIntention": "Lean, escriban y ordenen números de tres dígitos terminados en 0.",
+                    "resources": "Paquete de tarjetas del 10 al 100, tarjetas en blanco, funda opaca con tarjetas del 10 al 100 y del 200 al 1,000. Actividad 6 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Unir con líneas cada número con su nombre (ej: 400 - cuatrocientos).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Exponen resoluciones y respuestas de las situaciones de la oca."
+                        },
+                        {
+                            "title": "Momento 2. Los números de dos dígitos terminados en 0",
+                            "description": "Preparan material para el bingo escribiendo números de tres cifras terminados en 00 a partir de los de dos cifras."
+                        },
+                        {
+                            "title": "Momento 3. Reconocer, leer y escribir los números de tres dígitos terminados en 00",
+                            "description": "Juegan al Bingo con los números preparados."
+                        },
+                        {
+                            "title": "Momento 4. Ordenar números de dos y tres dígitos de mayor a menor",
+                            "description": "Ordenan tarjetas y completan series numéricas de 100 en 100."
+                        },
+                        {
+                            "title": "Momento 5. Sistematización",
+                            "description": "Reflexión sobre la lectura y escritura de los cienes y sus similitudes con los dieces."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 7",
+                    "pedagogicalIntention": "Exploren patrones con números de tres dígitos.",
+                    "resources": "Actividad 7 del fascículo, tres papelógrafos con los cuadros iguales a los señalados del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Completar los números de la rifa ya vendidos en los siguientes cuadros de números.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Corrigen la unión de números con sus nombres."
+                        },
+                        {
+                            "title": "Momento 2. Patrones en la formación de los números de tres dígitos",
+                            "description": "Situación 'Las rifas'. Identifican errores en cuadros numéricos y completan los números faltantes."
+                        },
+                        {
+                            "title": "Momento 3. Más patrones en los números de tres dígitos",
+                            "description": "Colorean números con 5 en el medio e identifican patrones en las series."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Conclusiones sobre similitudes entre cuadros de cienes y el cuadro hasta el 100."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 8: Recapitulación",
+                    "pedagogicalIntention": "Repasen contenidos trabajados.",
+                    "resources": "Actividad 8 del fascículo. Media hoja en blanco por estudiante, papelógrafo de aprendizajes.",
+                    "homework": "No asignada.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Intercambian fascículos para revisar números completados en los cuadros."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Revisión de actividades y registro en el papelógrafo de aprendizajes."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido",
+                            "description": "Resuelven situaciones de evaluación (cálculos aproximados, problemas del juego de la oca) en una hoja para entregar."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2: Restas, reagrupamiento y valor posicional",
+            "activities": [
+                {
+                    "title": "Actividad 9",
+                    "pedagogicalIntention": "Ubiquen números en la recta numérica.",
+                    "resources": "Actividad 9 del fascículo. Papelógrafo con la recta numérica del 0 al 200 graduada de a 10.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Marcar en la recta: 27, 71, 135 y 188. ¿Cuáles números podrían ir en los puntos?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar las recapitulaciones",
+                            "description": "El docente devuelve las hojas corregidas y retoma dudas."
+                        },
+                        {
+                            "title": "Momento 2. Encuadrar números",
+                            "description": "Estiman la ubicación de números (35, 125, etc.) en una recta numérica en la pizarra."
+                        },
+                        {
+                            "title": "Momento 3. Ubicar números en la recta numérica",
+                            "description": "Identifican qué números podrían corresponder a puntos marcados en la recta del fascículo."
+                        },
+                        {
+                            "title": "Momento 4. Identificar números entre 0 y 200",
+                            "description": "Juego 'Adivinanza de números' con preguntas de sí/no apoyándose en la recta."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 10",
+                    "pedagogicalIntention": "Resuelvan problemas con apoyo de la recta numérica.",
+                    "resources": "Actividad 10 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver con el procedimiento de Hugo: 37 - 15 = _______",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisan la ubicación de números en la recta numérica."
+                        },
+                        {
+                            "title": "Momento 2. Restar por complemento",
+                            "description": "Analizan la estrategia de Hugo (restar pensando cuánto hay que agregar para llegar al otro número) usando la recta numérica."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 11",
+                    "pedagogicalIntention": "Descompongan o desarmen números para aprender más sobre ellos.",
+                    "resources": "Papelógrafo en blanco, marcador, tarjetas recortables con números y descomposiciones.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Pintar cifras según valor posicional e indicar sumas correspondientes.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisan la resolución del cálculo por complemento en la recta numérica."
+                        },
+                        {
+                            "title": "Momento 2. Valor posicional: unidad, decena y centena",
+                            "description": "Juego '¡A formar pares!': emparejan números con sus descomposiciones aditivas."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Copian un cuadro vinculando el nombre de la posición (centena, decena, unidad) con el valor y color."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 12",
+                    "pedagogicalIntention": "Agrupen elementos y usen números para mostrar dicha cantidad.",
+                    "resources": "Piedrecitas o semillas, actividad 12 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver problemas de envasar dulces de coco y menta en funditas de 10.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisan el coloreado de cifras según valor posicional."
+                        },
+                        {
+                            "title": "Momento 2. Agrupar de a 10",
+                            "description": "Título: 'A empacar'. Resuelven problema sobre envasar dulces en fundas de 10."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 13",
+                    "pedagogicalIntention": "Agrupen más elementos y usen números para mostrar dicha cantidad relacionando el primer dígito con los grupos de 10 y el último dígito con los elementos sueltos.",
+                    "resources": "Actividad 13 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Completar cuántas funditas de 10 y dulces sueltos para 96 y 57 dulces.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Explican cómo resolvieron la tarea de agrupar dulces."
+                        },
+                        {
+                            "title": "Momento 2. Valor de posición",
+                            "description": "Resuelven situaciones de envasado para diferentes cantidades y relacionan cifras con decenas y unidades."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Concluyen que el primer dígito indica decenas y el último unidades. Registran: 10 dulces = 1 fundita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 14",
+                    "pedagogicalIntention": "Analicen distintos procedimientos para sumar.",
+                    "resources": "Actividad 14 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver como Carolina, José o Rosa: 45 + 28 =",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Comparten respuestas sobre funditas y sobrantes."
+                        },
+                        {
+                            "title": "Momento 2. Sumar con un reagrupamiento",
+                            "description": "Analizan el procedimiento de Carolina (descomposición aditiva) para sumar."
+                        },
+                        {
+                            "title": "Momento 3. Sumar con la cuenta vertical",
+                            "description": "Comparan otras formas de resolver (José y Rosa) e introducen la cuenta vertical con reagrupamiento."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 15",
+                    "pedagogicalIntention": "Resuelvan sumas con distintas estrategias.",
+                    "resources": "Tarjetas con números del 1 al 9, actividad 15 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver sumas (34 + 29, 17 + 35, 68 + 26) usando el procedimiento preferido.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Comparten estrategias de cálculo para sumar 45 + 28."
+                        },
+                        {
+                            "title": "Momento 2. Un juego para sumar",
+                            "description": "Juego '¿Cuánto suman?' formando números de dos cifras con tarjetas y sumándolos."
+                        },
+                        {
+                            "title": "Momento 3. Analizar errores comunes en la cuenta vertical",
+                            "description": "Analizan errores de encolumnamiento y reagrupamiento en cuentas verticales."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 16",
+                    "pedagogicalIntention": "Resuelvan problemas.",
+                    "resources": "Actividad 16 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver problema de resta sobre la fiesta patronal.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Muestran resoluciones de sumas y analizan estrategias."
+                        },
+                        {
+                            "title": "Momento 2. Restar como quitar",
+                            "description": "Resuelven problema de resta (26 - 14) usando descomposiciones."
+                        },
+                        {
+                            "title": "Momento 3. Resta como quitar",
+                            "description": "Resuelven variante del problema (29 - 14) usando cálculo anterior o descomposición."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 17: Cierre de la secuencia y metacognición",
+                    "pedagogicalIntention": "Reflexionen sobre lo realizado y aprendido durante la secuencia.",
+                    "resources": "Una hoja en blanco por estudiante; papelógrafo de aprendizajes.",
+                    "homework": "No especificada.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Muestran resolución del problema de resta."
+                        },
+                        {
+                            "title": "Momento 2. Consolidar aprendizajes",
+                            "description": "Evaluación individual en hoja suelta con ejercicios variados."
+                        },
+                        {
+                            "title": "Momento 3. Revisar el papelógrafo de aprendizajes de la secuencia",
+                            "description": "Conversan sobre lo realizado y cierran el papelógrafo."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

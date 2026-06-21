@@ -1,0 +1,601 @@
+{
+  "id": "seq-1772509600963",
+  "title": "Multiplicación y división de números naturales",
+  "description": "Introduce y fortalece la multiplicación y división como operaciones relacionadas. ",
+  "order": 3,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772509600957",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Sumas repetidas",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del entorno usando números fraccionarios.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre fracciones.\n• Uso de imágenes: Identificación de partes iguales en figuras.\n• Trabajo colaborativo en grupos: Resolución de situaciones problemáticas con fracciones en contextos de cumpleaños.\n• Uso de material concreto: Recortes de hojas para representar fracciones.",
+      "aprendizaje_significativo": "Los estudiantes relacionan la multiplicación con situaciones cotidianas de compra en colmados (comprar varios artículos del mismo precio), comprendiendo que la multiplicación es una forma abreviada de sumar varias veces la misma cantidad.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite resolver los problemas usando solo sumas repetidas antes de introducir la multiplicación.\n• Para estudiantes kinestésicos: Pueden usar fichas o tapitas para representar las sumas repetidas.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expresen los problemas directamente como multiplicación y expliquen por qué funciona.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 63:\n1. \"En un colmado se vendieron 12 cartones de jugos a RD$ 80 cada uno. ¿Qué cantidad de dinero se hizo por esa venta?\"\n2. \"En una tienda tienen 9 fardos de rollos de papel de baño, si cada fardo tiene 48 rollos, ¿cuántos rollos de papel de baño en total hay en los 9 fardos?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores\n• Cuadernos",
+          "descripcion": "1. El docente inicia un diálogo sobre la operación de la adición, su importancia y los resultados de esas adiciones (pág. 63).\n2. Envía algunos estudiantes a la pizarra para que realicen sumas, dando seguimiento al proceso y enfatizando los aciertos.\n3. Explora conocimientos previos con preguntas: \"¿Cuáles números iguales has sumado? ¿Dónde has usado la adición con iguales cantidades?\"\n4. Presenta las situaciones: 6+6+6+6+6+6 y 5+5+5+5. Los estudiantes escriben los resultados en sus cuadernos y socializan con un compañero.\n5. Pregunta: \"¿Saben el tema que van a trabajar hoy?\" Anima a formular hipótesis y anuncia que resolverán problemas de multiplicación como sumas repetidas.",
+          "actividad_numero": "Actividad 1 - A (Pág. 63)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente organiza grupos de 3 estudiantes.\n2. Plantea la primera situación (pág. 63): \"Rosa compró en un colmado de Santiago 2 cartones de huevos a RD$ 200 cada uno. ¿Cuánto gastó en esa compra?\"\n3. Un estudiante lee en voz alta. El docente verifica la comprensión con preguntas.\n4. Los grupos trabajan en la solución. El docente orienta a quienes tienen dificultades.\n5. Socializan resultados: pueden resolver como suma repetida (200+200=400) o como multiplicación (2x200=400).\n\n6. Plantea la segunda situación (pág. 63): \"La madre de Nelly compró para su colmado 4 cajas de galletas, cada caja tiene 12 paquetes, ¿cuántos paquetes de galletas compró en total?\"\n7. Los grupos resuelven.\n8. Socializan: suma repetida (12+12+12+12=48) o multiplicación (4x12=48).\n9. El docente guía el proceso con preguntas para fortalecer los aprendizajes.",
+          "actividad_numero": "Actividad 1 - B (Pág. 63)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Cómo obtuvieron los resultados de los problemas? ¿De qué forma resolvieron el último problema? ¿Cuál es el signo que sustituye la palabra veces en la multiplicación?\" (pág. 63).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 63: \"En un colmado se vendieron 12 cartones de jugos a RD$ 80 cada uno. ¿Qué cantidad de dinero se hizo por esa venta?\" y \"En una tienda tienen 9 fardos de rollos de papel de baño, si cada fardo tiene 48 rollos, ¿cuántos rollos de papel de baño en total hay en los 9 fardos?\"\n3. Actividad complementaria: Los estudiantes resuelven los ejercicios de la página 63: 5 x 200, 8 x 56, 9 x 35, y acceden al enlace de Liveworksheets para practicar.\n4. Actividad para el diario del estudiante: Los estudiantes preguntan a sus padres el precio de la libra de arroz en el colmado y calculan cuánto costarían 5 libras a ese precio (pág. 63).",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 63)"
+        }
+      ]
+    },
+    {
+      "id": "1772511642576",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "La multiplicación",
+      "intencion_pedagogica": "Resolver situaciones problemáticas usando la multiplicación.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"La Multiplicación Videos Educativos\".\n• Trabajo en grupos: Resolución de problemas de multiplicación en contextos de colmados.\n• Uso de estrategias: Multiplicación vertical y suma repetida.",
+      "aprendizaje_significativo": "Los estudiantes aplican la multiplicación a situaciones cotidianas de compra en colmados (libras de azúcar, bolones), comprendiendo que la multiplicación es una herramienta más rápida que la suma repetida.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite resolver usando suma repetida y luego guiarlos a la multiplicación.\n• Para estudiantes kinestésicos: Pueden usar fichas para representar las cantidades.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué la multiplicación es más eficiente que la suma repetida.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 65:\n1. \"El padre de Adrián compró 6 libras de yuca a RD$ 28 cada libra. ¿Cuánto pagó en total?\"\n2. \"Nelly compró 9 libras de habichuela para su madre. Si cada libra tiene un precio de RD$ 54, ¿cuánto gastó Nelly por las 9 libras de habichuelas?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué precio le dijeron que tenía el arroz? ¿Cuánto costaron las 5 libras a ese precio? ¿Tuvieron dificultad para calcularlo?\" (pág. 63).\n2. Anuncia que hoy continuarán resolviendo problemas usando la multiplicación.",
+          "actividad_numero": "Actividad 2 - A (Pág. 64)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"La Multiplicación Videos Educativos\" disponible en: https://www.youtube.com/watch?v=xGKsYyyDSCI&t=204s (pág. 64).\n2. Después del video, pregunta: \"¿Qué observaron? ¿Cómo se hace una multiplicación?\"\n3. En caso de no tener acceso a tecnología, explora con preguntas: \"¿Cómo se obtiene 3+3+3+3? ¿De qué forma más simple se puede hacer?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 5 estudiantes y plantea la primera situación (pág. 64): \"Alberto compró en el colmado 4 libras de azúcar a RD$ 32 la libra. ¿Cuánto pagó Alberto por las 4 libras de azúcar?\"\n2. Los grupos trabajan.\n3. Socializan usando multiplicación (4 x 32 = 128) y suma repetida (32+32+32+32=128).\n4. El docente repasa los términos de la multiplicación: factores y producto.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 64): \"Alexander le llevó un bolón a cada uno de sus 35 compañeros. Cada bolón cuesta RD$ 6. ¿Cuánto gastó Alexander?\"\n2. Los grupos resuelven.\n3. Socializan: 35 x 6 = 210. Explican el proceso de multiplicación vertical.",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 64-65)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué se trabajó en la clase de hoy? ¿Cómo se escribe 6+6+6 como multiplicación? ¿Cuáles son los términos de la multiplicación?\" (pág. 65).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 65: \"El padre de Adrián compró 6 libras de yuca a RD$ 28 cada libra. ¿Cuánto pagó en total?\" y \"Nelly compró 9 libras de habichuela para su madre. Si cada libra tiene un precio de RD$ 54, ¿cuánto gastó Nelly por las 9 libras?\"\n3. Actividad complementaria: Los estudiantes resuelven el problema de la página 65 (los 8 plátanos a RD$ 15 cada uno) y expresan las sumas repetidas como multiplicaciones.\n4. Actividad para el diario del estudiante: Los estudiantes elaboran un problema que se resuelva usando la multiplicación (pág. 65).",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 65)"
+        }
+      ]
+    },
+    {
+      "id": "1772511739435",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Multiplicación de grandes cantidades",
+      "intencion_pedagogica": "Resolver problemas de su comunidad que requieran el uso de multiplicación con números naturales.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo en parejas: Resolución de problemas de multiplicación con números de hasta 4 cifras.\n• Uso de estrategias: Multiplicación vertical y suma repetida.\n• Socialización y comparación de procedimientos.",
+      "aprendizaje_significativo": "Los estudiantes resuelven problemas de compra en colmados con cantidades mayores (salamis de RD$468, sacos de arroz de RD$3,540), comprendiendo que la multiplicación es útil para calcular costos totales en transacciones comerciales reales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite resolver usando suma repetida y luego comparar con multiplicación.\n• Para estudiantes kinestésicos: Pueden usar billetes ficticios para representar las cantidades.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que inventen un problema similar con cantidades mayores.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 67:\n1. \"Yazmín y sus hermanas compraron 4 pantalones a RD$ 850 cada pantalón. ¿Cuánto pagaron por los 4 pantalones?\"\n2. \"Yasmeiry compró 2 galones de aceite de RD$ 1,000 cada uno. ¿Cuánto tuvo que pagar por esa compra?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué problema elaboraron? ¿Cómo lo resolvieron? ¿Qué números usaron?\" (pág. 65).\n2. Anuncia que hoy resolverán problemas con cantidades más grandes.",
+          "actividad_numero": "Actividad 3 - A (Pág. 66)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Situación problemática en parejas (25 min):\n1. El docente organiza parejas y plantea la situación (pág. 66): \"Alexander compró dos salamis de RD$ 468 cada uno. ¿Cuánto gastó Alexander en esos dos salamis?\"\n2. Las parejas trabajan.\n3. Socializan: usan multiplicación (2 x 468 = 936) y suma repetida (468+468=936). Explican el proceso de reagrupación.\n\nActividad 2 - Segunda situación problemática (25 min):\n1. El docente plantea (pág. 66): \"El dueño de un colmado pidió tres sacos de arroz de RD$ 3,540 cada uno. ¿Cuánto pagaría por los tres sacos?\"\n2. Las parejas resuelven.\n3. Socializan: 3 x 3,540 = 10,620. Explican el proceso de multiplicación vertical.\n\nActividad 3 - Comparación de estrategias (10 min):\n1. Si alguna pareja usó otro procedimiento, lo comparten en la pizarra.",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 66-67)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Funda con problemas\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 67: \"Yazmín y sus hermanas compraron 4 pantalones a RD$ 850 cada pantalón. ¿Cuánto pagaron por los 4 pantalones?\" y \"Yasmeiry compró 2 galones de aceite de RD$ 1,000 cada uno. ¿Cuánto tuvo que pagar por esa compra?\"\n2. Juego de cierre (pág. 67): Colocar en una funda varios problemas de multiplicación. Los estudiantes sacan uno, lo leen y encuentran el resultado.\n3. Actividad complementaria: Los estudiantes realizan las multiplicaciones de la página 67 (a, b, c, d, e, f) y resuelven el problema de los 9 pantalones a RD$ 899.\n4. Actividad para el diario del estudiante: Los estudiantes resuelven el problema de la página 67: \"María fue al supermercado con su madre y le pide que le compre 3 paquetes de galletas que cuestan 125 pesos cada uno. ¿Cuánto pagó su madre por los tres paquetes de galletas?\"",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 67)"
+        }
+      ]
+    },
+    {
+      "id": "1772511883760",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Multiplicación de otras cantidades",
+      "intencion_pedagogica": "Resolver problemas de multiplicación con números naturales de más de 2 dígitos en un factor.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Multiplicaciones de 2 cifras\".\n• Trabajo en grupos: Resolución de problemas de multiplicación con factores de 2 y 3 cifras.\n• Uso de estrategia: Multiplicación vertical con reagrupación.",
+      "aprendizaje_significativo": "Los estudiantes resuelven problemas de ventas en colmados con cantidades como 12 paquetes de pañales a RD$932 cada uno, comprendiendo que la multiplicación con números grandes requiere organización y reagrupación.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar la suma repetida para verificar resultados.\n• Para estudiantes kinestésicos: Pueden usar billetes ficticios para representar las cantidades.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué se deja un espacio al multiplicar por la decena.",
+      "actividades_cuaderno": "Los estudiantes resuelven el problema de la página 69: \"Un almacén tiene 1,050 cajas de jugos. Si cada caja contiene 24 jugos, ¿cuántos jugos hay en total en el almacén?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de las galletas? ¿Quién lo resolvió de manera diferente?\" (pág. 67).\n2. Pregunta: \"¿Cómo realizaban la multiplicación en las clases anteriores? ¿Qué significa el primer número? ¿Y el segundo?\" (pág. 68).",
+          "actividad_numero": "Actividad 4 - A (Pág. 68)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Multiplicaciones de 2 cifras\" disponible en: https://www.youtube.com/watch?v=bjWBeLKuNMc (pág. 68).\n2. Después del video, pregunta: \"¿Qué entendieron? ¿Qué se hace para multiplicar 2 cantidades? ¿Cómo se colocan los números?\"\n3. En caso de no tener acceso a tecnología, presenta una multiplicación en la pizarra y guía el proceso con preguntas.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 68): \"En un colmado vendieron 12 paquetes de pañales a RD$ 932 cada uno. ¿Cuánto recibió el colmado por la venta?\"\n2. Los grupos trabajan.\n3. Socializan: 932 x 12 = 11,184. Explican el proceso: multiplicar por 2 y luego por 10, sumar resultados.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 68): \"El dueño de un colmado pidió 743 rollos de papel a RD$ 25 cada uno. ¿Cuánto pagaría?\"\n2. Los grupos resuelven.\n3. Socializan: 743 x 25 = 18,575. Explican el proceso.",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 68-69)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Cómo resolvieron las multiplicaciones? ¿Tuvieron alguna dificultad?\" (pág. 69).\n2. Actividad para el cuaderno: Los estudiantes resuelven el problema de la página 69: \"Un almacén tiene 1,050 cajas de jugos. Si cada caja contiene 24 jugos, ¿cuántos jugos hay en total en el almacén?\"\n3. Actividad complementaria: Los estudiantes resuelven las multiplicaciones de la página 69 (56 x 20, 18 x 100, 36 x 1000, 180 x 15) y el problema de los 19 pantalones a RD$ 899.\n4. Actividad para el diario del estudiante: Los estudiantes completan el cuadro de la página 69 escribiendo el valor posicional de cada dígito del producto.",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 69)"
+        }
+      ]
+    },
+    {
+      "id": "1772511977220",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Propiedades de la multiplicación",
+      "intencion_pedagogica": "Resolver problemas que impliquen multiplicación, usando la propiedad conmutativa.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Resolución de problemas: Aplicación de la propiedad conmutativa en situaciones de compra.\n• Trabajo colaborativo: Comparación de resultados al cambiar el orden de los factores.\n• Elaboración de cartel: Definición de propiedad conmutativa.",
+      "aprendizaje_significativo": "Los estudiantes descubren que 5 fundas con 4 panes cada una (5x4) y 4 fundas con 5 panes cada una (4x5) dan el mismo total, comprendiendo que el orden de los factores no altera el producto.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan objetos concretos (fichas) para representar las situaciones.\n• Para estudiantes kinestésicos: Pueden formar grupos de objetos para visualizar la propiedad.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué la propiedad conmutativa no aplica en la división.",
+      "actividades_cuaderno": "Los estudiantes resuelven el problema de la página 71: \"Juan y Pedro van al supermercado a comprar frutas para su familia, Juan compró 4 paquetes de mango de 6 unidades cada uno y Pedro compró 6 paquetes de 4 mangos. ¿Cuántos mangos compró cada uno? ¿Es igual o diferente el resultado? ¿Quién compró mayor cantidad?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Completaron el cuadro? ¿Qué valores posicionales identificaron?\" (pág. 69).\n2. Explora saberes previos: \"¿Saben qué es una propiedad? ¿Qué propiedades de la multiplicación conocen?\" (pág. 70).",
+          "actividad_numero": "Actividad 5 - A (Pág. 70)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Papelógrafo para cartel\n",
+          "descripcion": "Actividad 1 - Situación problemática en parejas (25 min):\n1. El docente organiza parejas y plantea la situación (pág. 70): \"Pedro empacó 5 fundas con 4 panes cada una. Manuel empacó 4 fundas con 5 panes cada una. Representa como multiplicación. ¿Cuántos panes compró cada uno? ¿Qué notas?\"\n2. Las parejas trabajan.\n3. Socializan: 5x4=20, 4x5=20. El resultado es el mismo aunque el orden cambie.\n\nActividad 2 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 70): \"Una caja de 9 chocolates tiene 6 cajas. Otra de 6 chocolates tiene 9 cajas. ¿Cuántos chocolates hay en total en cada caso?\"\n2. Las parejas resuelven.\n3. Socializan: 9x6=54, 6x9=54. Confirman la propiedad.\n\nActividad 3 - Elaboración de cartel (15 min):\n1. El docente elabora un cartel con la propiedad conmutativa a partir de las conclusiones de los estudiantes (pág. 71).",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 70-71)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Funda con situaciones\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Juego de cierre (pág. 71): Colocar en una funda parejas de situaciones problemáticas que ilustren la propiedad conmutativa. Los estudiantes buscan la pareja que completa la \"situación conmutativa\".\n2. Actividad para el cuaderno: Los estudiantes resuelven el problema de la página 71: \"Juan y Pedro van al supermercado. Juan compró 4 paquetes de mango de 6 unidades cada uno y Pedro compró 6 paquetes de 4 mangos. ¿Cuántos mangos compró cada uno? ¿Es igual o diferente el resultado? ¿Quién compró mayor cantidad?\"\n3. Actividad complementaria: Los estudiantes completan las cantidades faltantes usando la propiedad conmutativa (pág. 72) y acceden al enlace de Wordwall.\n4. Actividad para el diario del estudiante: Los estudiantes escriben un par de situaciones problemáticas en las que se ilustre la propiedad conmutativa (pág. 72).",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 71-72)"
+        }
+      ]
+    },
+    {
+      "id": "1772512115477",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Propiedades de la multiplicación 2",
+      "intencion_pedagogica": "Resolver situaciones problemáticas usando otras propiedades de multiplicación.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Propiedad del elemento neutro (1) y elemento absorbente (0)\".\n• Resolución de problemas: Aplicación de las propiedades con números naturales.\n• Elaboración de carteles: Definición de propiedades.",
+      "aprendizaje_significativo": "Los estudiantes descubren que multiplicar por 1 no cambia el número (15 x 1 = 15) y que multiplicar por 0 siempre da 0 (8 x 0 = 0), comprendiendo la utilidad de estas propiedades en cálculos rápidos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan ejemplos concretos con objetos para visualizar las propiedades.\n• Para estudiantes kinestésicos: Pueden usar fichas para representar las multiplicaciones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen qué pasa con la multiplicación por 1 y por 0 con números decimales.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 73 aplicando las propiedades aprendidas y escribiendo al final la propiedad aplicada:\n1. \"En un colmado hay una funda de pan con 24 panes. ¿Cuántos panes hay en ese colmado?\"\n2. \"Una tienda de abanicos tiene 56 cajas, pero todas están vacías, ¿cuántos abanicos tiene esa tienda en esas 56 cajas?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué situaciones escribieron para ilustrar la propiedad conmutativa?\" (pág. 72).\n2. Plantea un ejemplo para repasar la propiedad conmutativa: 20 x 50 = 1,000, entonces 50 x 20 = 1,000.",
+          "actividad_numero": "Actividad 6 - A (Pág. 72)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos\n• Papelógrafo para carteles",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Propiedad del elemento neutro (1) y elemento absorbente (0) de la multiplicación\" disponible en: https://www.youtube.com/watch?v=Q6Dt6A_Y93w (pág. 72).\n2. Después del video, pregunta: \"¿Qué vieron? ¿Qué propiedades se trabajaron? ¿Cuál es la regla de cada una?\"\n3. En caso de no tener acceso a tecnología, explora con preguntas: \"¿Cuánto es 5 x 1? ¿Cuánto es 10 x 0? ¿Qué pasa cuando multiplicamos por 1? ¿Y por 0?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 72): \"Alexander compró 15 mentas a RD$ 1 cada una. ¿Cuánto pagó Alexander por las mentas?\"\n2. Los grupos trabajan.\n3. Socializan: 15 x 1 = 15. El docente explica la propiedad del elemento neutro.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 72): \"Nelly tiene 8 cajas de zapatos, todas vacías. ¿Cuántos zapatos tiene Nelly dentro de esas cajas?\"\n2. Los grupos resuelven.\n3. Socializan: 8 x 0 = 0. El docente explica la propiedad absorbente.\n4. Elaboran carteles con ambas propiedades (pág. 73).",
+          "actividad_numero": "Actividad 6 - B y C (Pág. 72-73)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papeles con ejercicios\n• Funda o caja\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Juego de cierre (pág. 73): Llevar ejercicios en papeles donde falte el 1 o el 0. Por turno, los estudiantes sacan un papel, dicen qué número falta y qué propiedad se aplica.\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 73: \"En un colmado hay una funda de pan con 24 panes. ¿Cuántos panes hay en ese colmado?\" y \"Una tienda de abanicos tiene 56 cajas, pero todas están vacías, ¿cuántos abanicos tiene esa tienda en esas 56 cajas?\" (Deben escribir al final la propiedad aplicada).\n3. Actividad complementaria: Los estudiantes identifican la propiedad aplicada en cada expresión de la página 73 (0 x 40 = 0, 1,000 x 0 = 0, 52 x 1 = 52, 3 x 4 = 4 x 3).\n4. Actividad para el diario del estudiante: Los estudiantes explican a sus padres las propiedades del elemento neutro y absorbente con ejemplos (pág. 73).",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 73)"
+        }
+      ]
+    },
+    {
+      "id": "1772512198668",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Más propiedades de la multiplicación",
+      "intencion_pedagogica": "Resolver problemas del contexto donde se aplique la propiedad asociativa.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Propiedad ASOCIATIVA de la multiplicación\".\n• Trabajo en grupos: Resolución de problemas con tres factores usando la propiedad asociativa.\n• Comparación de estrategias: Agrupación diferente de factores.",
+      "aprendizaje_significativo": "Los estudiantes calculan el total de botellas en un colmado (5 anaqueles x 6 cajas x 8 botellas) agrupando de diferentes maneras, descubriendo que el resultado no cambia.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona el cartel con la propiedad asociativa para consultar.\n• Para estudiantes kinestésicos: Pueden usar objetos para representar los grupos y agruparlos físicamente.\n• Para estudiantes con discapacidad visual: Se les proporciona el cartel en formato ampliado.\n• Para estudiantes avanzados: Se les pide que creen un problema con tres factores que se resuelva aplicando la propiedad asociativa.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 75 aplicando la propiedad asociativa:\n1. \"En un almacén hay 10 cajas con 12 cuadernos cada una, si cada cuaderno tiene 100 páginas. ¿Cuántas páginas hay en las 10 cajas?\"\n2. \"En la bodega de un colmado hay 8 anaqueles, cada uno tiene 15 cajas de 24 jugos de cada uno. ¿Cuántos jugos hay en total en los 8 anaqueles?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo le explicaron a sus padres las propiedades del elemento neutro y absorbente?\" (pág. 73).\n2. Plantea el ejemplo: (5x2)x3 = 10x3 = 30 y 5x(2x3) = 5x6 = 30. Pregunta: \"¿Qué observan?\" (pág. 74).",
+          "actividad_numero": "Actividad 7 - A (Pág. 74)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos\n• Papelógrafo para cartel",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Propiedad ASOCIATIVA de la multiplicación\" disponible en: https://www.youtube.com/watch?v=680WxpuGQfg (pág. 74).\n2. Después del video, pregunta: \"¿Qué observaron? ¿En qué consiste la propiedad asociativa? ¿Qué diferencia hay con la conmutativa?\"\n3. En caso de no tener acceso a tecnología, trabaja con el ejemplo de la pizarra.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 74): \"Un colmado tiene 5 anaqueles, cada uno tiene 6 cajas y cada caja tiene 8 botellas de agua. ¿Cuántas botellas de agua tiene el colmado?\"\n2. Los grupos trabajan.\n3. Dos estudiantes resuelven en la pizarra agrupando de forma diferente: (5x6)x8 = 30x8 = 240; 5x(6x8) = 5x48 = 240.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 74): \"En una tienda hay 4 cajas con 10 paquetes y cada paquete tiene 5 camisas. ¿Cuántas camisas hay en total?\"\n2. Los grupos resuelven.\n3. Socializan: (4x10)x5 = 40x5 = 200; 4x(10x5) = 4x50 = 200.\n4. Elaboran cartel con la propiedad asociativa (pág. 75).",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 74-75)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Funda con propiedades\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Juego de cierre (pág. 75): Colocar en una funda las 4 propiedades trabajadas. Los estudiantes sacan un papel y explican en qué consiste esa propiedad.\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 75 aplicando la propiedad asociativa: \"En un almacén hay 10 cajas con 12 cuadernos cada una, si cada cuaderno tiene 100 páginas. ¿Cuántas páginas hay en las 10 cajas?\" y \"En la bodega de un colmado hay 8 anaqueles, cada uno tiene 15 cajas de 24 jugos cada uno. ¿Cuántos jugos hay en total en los 8 anaqueles?\"\n3. Actividad complementaria: Los estudiantes escriben las diferentes maneras de encontrar el producto de 8x4x10 y completan los cuadros de la página 75.\n4. Actividad para el diario del estudiante: Los estudiantes resuelven el problema de la página 75: \"Alexander compró 2 cajas de dulces, si cada caja tiene 5 fundas y cada funda tiene 10 dulces, ¿cuántos dulces compró Alexander en total?\"",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 75)"
+        }
+      ]
+    },
+    {
+      "id": "1772512279257",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "La potenciación",
+      "intencion_pedagogica": "Resolver problemas del contexto usando potencia.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Potencias: cuadrados y cubos\".\n• Resolución de problemas: Aplicación de potencias en contextos de colmados.\n• Identificación de elementos: Base, exponente y potencia.",
+      "aprendizaje_significativo": "Los estudiantes calculan la cantidad de fundas en cajas de cereales (10 cajas x 10 fundas = 10²) y juguetes en góndolas (5 cajas x 5 fundas x 5 juguetes = 5³), comprendiendo que la potenciación es una forma abreviada de multiplicar factores iguales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar la multiplicación repetida para verificar los resultados.\n• Para estudiantes kinestésicos: Pueden usar cajas y objetos reales para representar las situaciones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expresen la potencia como multiplicación y viceversa.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 77 expresándolos como potenciación:\n1. \"José compró 8 cajas de bombones con 8 bombones en cada caja. ¿Cuántos bombones compró José en total? Expresa como una potenciación este problema.\"\n2. \"Alexander tiene 6 cajas de canicas, con 6 fundas dentro de cada caja y cada funda tiene 6 canicas. ¿Cuántas canicas tiene Alexander en total? ¿Cómo se expresa esta situación como una potenciación?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de los dulces? ¿Usaron la propiedad asociativa?\" (pág. 75).\n2. Anuncia que hoy aprenderán sobre potenciación.",
+          "actividad_numero": "Actividad 8 - A (Pág. 76)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Potencias: cuadrados y cubos\" disponible en: https://www.youtube.com/watch?v=WgqovnSC-no (pág. 76).\n2. Después del video, pregunta: \"¿De qué trata? ¿Cómo se llaman los números de una potencia? ¿Qué significa el exponente?\"\n3. En caso de no tener acceso a tecnología, escribe 2³ en la pizarra y pregunta qué significa.\n\nActividad 2 - Situación problemática en parejas (25 min):\n1. El docente organiza parejas y plantea la situación (pág. 76): \"En un colmado hay 10 cajas de cereales con 10 fundas en cada caja. ¿Cuántas fundas de cereales hay en total?\"\n2. Las parejas trabajan.\n3. Socializan: 10 x 10 = 100, también se puede expresar como 10² = 100.\n4. El docente explica los elementos: base (10), exponente (2), potencia (100).\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 76): \"En un almacén hay 5 cajas de juguetes, en cada caja hay 5 fundas y cada funda tiene 5 juguetes. ¿Cuántos juguetes hay en total?\"\n2. Las parejas resuelven.\n3. Socializan: 5 x 5 x 5 = 125, también 5³ = 125.",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 76-77)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué es una potenciación? ¿Qué es la base? ¿Qué indica el exponente?\" (pág. 77).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 77: \"José compró 8 cajas de bombones con 8 bombones en cada caja. ¿Cuántos bombones compró José en total? Expresa como una potenciación este problema.\" y \"Alexander tiene 6 cajas de canicas, con 6 fundas dentro de cada caja y cada funda tiene 6 canicas. ¿Cuántas canicas tiene Alexander en total? ¿Cómo se expresa esta situación como una potenciación?\"\n3. Actividad complementaria: Los estudiantes resuelven las potencias de la página 77 (4³, 8²) y completan el cuadro de potenciación.\n4. Actividad para el diario del estudiante: Los estudiantes colocan en 3 cajas tres objetos o juguetes en cada una, usando la potenciación, determinan la cantidad total de objetos (pág. 77).",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 77)"
+        }
+      ]
+    },
+    {
+      "id": "1772512393627",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "La división",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto usando la división como reparto equitativo.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Bloques multibase, fichas o paletas.\n• Trabajo en grupos: Resolución de problemas de reparto equitativo.\n• Representación gráfica: Reparto uno a uno.",
+      "aprendizaje_significativo": "Los estudiantes reparten 20 paletas entre 4 amigos y RD$30 entre 3 niños, comprendiendo que la división es la operación que permite distribuir cantidades en partes iguales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan fichas para realizar el reparto físico.\n• Para estudiantes kinestésicos: Pueden representar el reparto con objetos reales.\n• Para estudiantes con discapacidad visual: Se les proporcionan objetos táctiles para el reparto.\n• Para estudiantes avanzados: Se les pide que resuelvan los problemas también como multiplicación (5x4=20, 3x10=30).",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 79:\n1. \"En un colmado quieren colocar 50 jugos en 5 cajas. ¿Cuántos jugos colocarán en cada caja?\"\n2. \"Un colmado ha colocado en 6 neveras 120 paletas, si coloca la misma cantidad de paletas en cada nevera, ¿cuántas paletas coloca en cada una de las neveras?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo hicieron la actividad de las cajas? ¿Cuántos objetos tenían en total?\" (pág. 77).\n2. Explora conocimientos previos: \"¿En qué curso han visto la división? ¿Qué es dividir? ¿En qué situaciones has tenido que dividir?\" (pág. 78).",
+          "actividad_numero": "Actividad 9 - A (Pág. 78)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Fichas o paletas\n• Bloques multibase (opcional)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (30 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 78): \"Alexander tiene 20 paletas que compró en el colmado. Si quiere repartir esas paletas en partes iguales entre sus 4 mejores amigos, ¿cuántas paletas le dará a cada uno?\"\n2. Los grupos trabajan con material concreto (fichas o paletas).\n3. Socializan: reparten una a una hasta terminar. Cada amigo recibe 5 paletas.\n\nActividad 2 - Segunda situación problemática (30 min):\n1. El docente plantea (pág. 78): \"La madre de Alberto, Nelly y Rosa le dio RD$30 para que se los repartan en partes iguales. ¿Cuánto le toca a cada uno?\"\n2. Los grupos resuelven.\n3. Socializan: 30 ÷ 3 = 10.\n4. El docente explica los elementos de la división: dividendo, divisor, cociente (pág. 79).",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 78-79)"
+        },
+        {
+          "letras": "",
+          "tiempo": "",
+          "recursos": "",
+          "descripcion": "",
+          "actividad_numero": ""
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué es dividir? ¿Cómo se llaman los elementos de la división?\" (pág. 79).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 79: \"En un colmado quieren colocar 50 jugos en 5 cajas. ¿Cuántos jugos colocarán en cada caja?\" y \"Un colmado ha colocado en 6 neveras 120 paletas, si coloca la misma cantidad de paletas en cada nevera, ¿cuántas paletas coloca en cada una de las neveras?\"\n3. Actividad complementaria: Los estudiantes resuelven las divisiones de la página 80 (60 ÷ 6, 80 ÷ 8) y el problema de las 32 cartas.\n4. Actividad para el diario del estudiante: Los estudiantes acceden al enlace de IXL para practicar división (pág. 80).",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 79-80)"
+        }
+      ]
+    },
+    {
+      "id": "1772512466717",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Diferentes estrategias para dividir",
+      "intencion_pedagogica": "Identificar situaciones y resolver problemas de división relacionados con su entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo en grupos: Resolución de problemas de división usando diferentes estrategias.\n• Uso de estrategias: Resta repetida y relación con multiplicación.\n• Socialización y comparación de procedimientos.",
+      "aprendizaje_significativo": "Los estudiantes reparten 40 bolones entre 8 personas y 60 carritos entre 10 amigos, utilizando resta repetida y buscando el número que multiplicado por el divisor da el dividendo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar resta repetida con apoyo de objetos.\n• Para estudiantes kinestésicos: Pueden usar fichas para realizar las restas repetidas.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que resuelvan los problemas usando ambas estrategias y comparen.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 81:\n1. \"Juan José quiere compartir entre sus 9 mejores amigos 36 bizcochos que su madre compró en un colmado, él quiere que todos tengan la misma cantidad de bizcocho. ¿Cuántos bizcochos le tocan a cada amigo de Juan José?\"\n2. \"La madre de Orlando le dio 100 pesos para la merienda de la semana en la escuela, si él quiere gastar la misma cantidad cada día. ¿Cuánto tiene que gastar diario Orlando en la escuela?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Quiénes pudieron acceder al enlace? ¿Qué divisiones realizaron?\" (pág. 80).\n2. Anuncia que hoy usarán diferentes estrategias para dividir.",
+          "actividad_numero": "Actividad 10 - A (Pág. 80)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (30 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 80): \"El colmado tiene 40 bolones para repartir en partes iguales a las primeras 8 personas. ¿Cuántos bolones le tocan a cada persona?\"\n2. Los grupos trabajan.\n3. Socializan dos estrategias: resta repetida (40-8-8-8-8-8=0, se restó 5 veces, cociente 5) y relación con multiplicación (8 x 5 = 40).\n\nActividad 2 - Segunda situación problemática (30 min):\n1. El docente plantea (pág. 80): \"Ramira tiene 60 carritos para repartir entre 10 amigos. ¿Cuántos carritos le tocan a cada uno?\"\n2. Los grupos resuelven.\n3. Socializan: resta repetida (60-10-10-10-10-10-10=0, 6 veces) y multiplicación (10 x 6 = 60).",
+          "actividad_numero": "Actividad 10 - B y C (Pág. 80-81)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Caja con números\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Juego de cierre (pág. 81): Colocar en una caja varios números terminados en cero. Por turno, los estudiantes sacan un número y lo dividen entre la cantidad que ellos consideren que se puede dividir.\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 81: \"Juan José quiere compartir entre sus 9 mejores amigos 36 bizcochos que su madre compró en un colmado, él quiere que todos tengan la misma cantidad de bizcocho. ¿Cuántos bizcochos le tocan a cada amigo de Juan José?\" y \"La madre de Orlando le dio 100 pesos para la merienda de la semana en la escuela, si él quiere gastar la misma cantidad cada día. ¿Cuánto tiene que gastar diario Orlando en la escuela?\"\n3. Actividad complementaria: Los estudiantes resuelven el problema de la pizza (RD$500 entre 5 amigos) y realizan multiplicaciones y divisiones con los números 63, 9 y 7 (pág. 81).\n4. Actividad para el diario del estudiante: Los estudiantes acceden a los enlaces de IXL para reforzar lo aprendido (pág. 81).",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 81)"
+        }
+      ]
+    },
+    {
+      "id": "1772512539679",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Algoritmo de la división",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto usando el algoritmo de la división.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo en grupos: Resolución de problemas de división usando el algoritmo tradicional.\n• Introducción de conceptos: División exacta e inexacta.\n• Uso de calculadora para verificación.",
+      "aprendizaje_significativo": "Los estudiantes calculan el precio de cada galón de agua (RD$650 entre 10) y lo que debe pagar cada amigo en una parrillada (RD$945 entre 8), comprendiendo que la división puede tener residuo (inexacta).",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar calculadora para verificar resultados.\n• Para estudiantes kinestésicos: Pueden usar billetes ficticios para representar las cantidades.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué una división es exacta o inexacta.",
+      "actividades_cuaderno": "Los estudiantes resuelven el problema de la página 83: \"María está organizando una picadera para 20 amigos que forman parte de un grupo comun. Si se gastan RD$840 y se reparten los gastos entre todos, ¿cuánto deberá pagar cada amigo? ¿La división es exacta o inexacta?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo les fue en los enlaces? ¿Qué operaciones practicaron?\" (pág. 81).\n2. Anuncia que hoy aprenderán el algoritmo de la división.",
+          "actividad_numero": "Actividad 11 - A (Pág. 82)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (30 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 82): \"En un colmado cobraron a un cliente RD$650 por la compra de 10 galones de agua. ¿Cuál es el precio de cada galón de agua?\"\n2. Los grupos trabajan.\n3. Socializan el algoritmo: 650 ÷ 10. Se toma 65 entre 10 = 6, 6x10=60, resto 5, se baja el 0, 50 entre 10 = 5. Cociente 65.\n4. El docente explica que al no sobrar nada, es una división exacta.\n\nActividad 2 - Segunda situación problemática (30 min):\n1. El docente plantea (pág. 82): \"El padre de Alexander gastó RD$945 en una parrillada con 8 amigos. Si reparten la cuenta en partes iguales, ¿cuánto tiene que pagar cada uno?\"\n2. Los grupos resuelven.\n3. Socializan: 945 ÷ 8. 9 entre 8 = 1, resto 1, baja 4 → 14 entre 8 = 1, resto 6, baja 5 → 65 entre 8 = 8, 8x8=64, resto 1. Cociente 118, resto 1.\n4. El docente explica que al sobrar 1, es una división inexacta, cada uno paga aproximadamente RD$118.",
+          "actividad_numero": "Actividad 11 - B y C (Pág. 82-83)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cuándo una división es exacta? ¿Cuándo es inexacta?\" (pág. 83).\n2. Actividad para el cuaderno: Los estudiantes resuelven el problema de la página 83: \"María está organizando una picadera para 20 amigos. Si se gastan RD$840 y se reparten los gastos entre todos, ¿cuánto deberá pagar cada amigo? ¿La división es exacta o inexacta?\"\n3. Actividad complementaria: Los estudiantes responden: \"¿Cuál de los siguientes cocientes es mayor 60÷8 ó 90÷8? Explica cómo lo sabes sin realizar la división.\" y resuelven: \"Alexander tiene RD$100 y quiere comprar pollitos, si cada uno cuesta RD$30, ¿cuántos pollitos puede comprar?\" (pág. 83).\n4. Actividad para el diario del estudiante: Los estudiantes acceden al enlace de IXL para practicar división de dos cifras (pág. 83).",
+          "actividad_numero": "Actividad 11 - Cierre (Pág. 83)"
+        }
+      ]
+    },
+    {
+      "id": "1772512662501",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "La estimación",
+      "intencion_pedagogica": "Resolver situaciones problemáticas usando la estimación.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo en grupos: Estimación de productos y cocientes por defecto y por exceso.\n• Uso de redondeo: Redondear cantidades antes de operar.\n• Comparación de resultados estimados con exactos.",
+      "aprendizaje_significativo": "Los estudiantes estiman el dinero generado por la venta de arroz (2,450 libras a RD$26) y la cantidad de cajas de refrescos (1,512 refrescos en cajas de 24), comprendiendo que la estimación permite obtener rangos aproximados para la toma de decisiones.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para redondear antes de estimar.\n• Para estudiantes kinestésicos: Pueden usar la tabla de valor posicional para identificar la posición a redondear.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué los valores estimados son razonables.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 85 estimando por defecto y por exceso:\n1. \"Una farmacia fue visitada en el año por 315 personas si cada persona gastó RD$138. ¿Cuál será el resultado estimado por defecto del dinero generado por la venta en la farmacia? ¿Cuál será el resultado estimado por exceso?\"\n2. \"Si un proyecto habitacional va a recibir a 2,030 personas. Si habrá 58 personas por edificio, ¿cuántos edificios se construirán en el proyecto estimado por defecto? ¿Y estimado por exceso?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo les fue en el enlace de IXL? ¿Qué divisiones practicaron?\" (pág. 83).\n2. Pregunta: \"¿Qué es la aproximación por defecto y por exceso?\" (pág. 84).",
+          "actividad_numero": "Actividad 12 - A (Pág. 84)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Tabla de valor posicional",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (30 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 84): \"En un colmado se vendieron 2,450 libras de arroz a RD$26 por libra. ¿Cuál será el resultado estimado por defecto y por exceso del dinero generado?\"\n2. Los grupos trabajan.\n3. Socializan: Por defecto: 2,000 x 20 = 40,000. Por exceso: 3,000 x 30 = 90,000. El dinero está entre RD$40,000 y RD$90,000.\n\nActividad 2 - Segunda situación problemática (30 min):\n1. El docente plantea (pág. 84): \"El padre de Alexander pidió 1,512 refrescos. Cada caja tiene 24 refrescos. ¿Cuál es la estimación por defecto y por exceso de la cantidad de cajas?\"\n2. Los grupos resuelven.\n3. Socializan: Por defecto: 1,000 ÷ 20 = 50 cajas. Por exceso: 2,000 ÷ 30 ≈ 66 cajas. Las cajas están entre 50 y 66.\n4. El docente presenta la cápsula sobre estimación por defecto y por exceso (pág. 85).",
+          "actividad_numero": "Actividad 12 - B y C (Pág. 84-85)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo se estima por defecto? ¿Y por exceso? ¿Es útil estimar?\" (pág. 85).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 85 estimando por defecto y por exceso: \"Una farmacia fue visitada por 315 personas, cada una gastó RD$138. ¿Cuál será el resultado estimado por defecto y por exceso del dinero generado?\" y \"Un proyecto habitacional recibirá 2,030 personas. Si habrá 58 personas por edificio, ¿cuántos edificios se construirán estimado por defecto y por exceso?\"\n3. Actividad complementaria: Los estudiantes estiman los resultados por defecto y por exceso de las operaciones de la página 85 (54,280 x 81, 336 ÷ 21, 245 x 44, 238 ÷ 17).\n4. Actividad para el diario del estudiante: Los estudiantes explican a sus padres la estimación por defecto y por exceso con los ejemplos de clase (pág. 86).",
+          "actividad_numero": "Actividad 12 - Cierre (Pág. 85-86)"
+        }
+      ]
+    },
+    {
+      "id": "1772512748191",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": "Jugando aprendo y me divierto",
+      "intencion_pedagogica": "Retroalimentar las operaciones de suma, resta, multiplicación y división con números naturales usando el juego como estrategia.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Juego didáctico: \"Juego del calcu-dado\" con tablero y dados.\n• Trabajo en grupos: Aplicación de operaciones básicas en contexto lúdico.\n• Registro de desempeño: Observación del nivel de logro de los estudiantes.",
+      "aprendizaje_significativo": "Los estudiantes refuerzan las operaciones de suma, resta, multiplicación y división a través de un juego interactivo con dados, comprendiendo que el aprendizaje matemático puede ser divertido y colaborativo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar calculadora para verificar resultados.\n• Para estudiantes kinestésicos: El juego mismo es una actividad kinestésica ideal.\n• Para estudiantes con discapacidad visual: Se les proporciona el tablero en relieve y dados con texturas.\n• Para estudiantes avanzados: Se les pide que expliquen las estrategias que usaron para obtener los números.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, es el registro del juego.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo le explicaron a sus padres la estimación por defecto y por exceso?\" (pág. 86).\n2. Anuncia que hoy jugarán al calcu-dado.",
+          "actividad_numero": "Actividad 13 - A (Pág. 86)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tablero del 1 al 15 (anexo, pág. 92)\n• 4 dados de 6 caras por grupo\n• Fichas\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente prepara un tablero enumerado del 1 al 15 y 4 dados de 6 caras por grupo (pág. 86).\n2. Explica las reglas (pág. 86):\n- Se juega de 2 a 4 personas con un solo tablero.\n- El objetivo es llenar cada número del tablero usando los números que salen en los dados, pero solo una vez cada uno.\n- Se pueden usar suma, resta, multiplicación y división.\n- Si logra obtener el resultado, coloca una ficha en ese número y pasa el turno.\n- Si no logra encontrar el número, pierde el turno.\n- Gana quien tenga más fichas al final.\n3. Antes de jugar, pueden ver el video de ejemplo: https://www.youtube.com/watch?v=d0Mk6d0Z124&t=65s (pág. 86).\n4. Los estudiantes juegan mientras el docente registra el desempeño según los indicadores de logro.",
+          "actividad_numero": "Actividad 13 - B (Pág. 86)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Socializa con preguntas: \"¿Cómo jugaron? ¿Qué pareja ganó? ¿Qué fue lo más difícil?\" (pág. 86).\n2. Actividad para el cuaderno: No hay actividad específica, es el registro del juego.\n3. Actividad complementaria: No aplica.\n4. Actividad para el diario del estudiante: No aplica.",
+          "actividad_numero": "Actividad 13 - Cierre (Pág. 86)"
+        }
+      ]
+    },
+    {
+      "id": "1772512849278",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 13,
+      "title": "Actividad 14",
+      "name": "Conociendo las razones",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto, expresándola como una razón.",
+      "estrategia": "• Revisión de juego: Socialización de la experiencia del juego anterior.\n• Diálogo dirigido: Exploración de conocimientos sobre razones.\n• Trabajo en grupos: Resolución de problemas de razones en contextos de compras.\n• Elaboración de cartel: Definición de razón.",
+      "aprendizaje_significativo": "Los estudiantes expresan como razón la relación entre globos azules y amarillos (5:6) y entre carritos azules y rojos (6:3), comprendiendo que una razón compara dos cantidades.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona el cartel con la definición de razón para consultar.\n• Para estudiantes kinestésicos: Pueden usar objetos para representar las cantidades y formar las razones.\n• Para estudiantes con discapacidad visual: Se les proporciona el cartel en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expresen la razón en forma simplificada.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 88:\n1. \"Rosa Yris tiene un juego de cocina el cual contiene 5 cucharas y 4 ollas. ¿Cómo se escribe la relación que representa la razón de la cantidad de cucharas con respecto a las ollas? ¿Cómo se lee esta razón?\"\n2. \"Nelly recibió de regalo en su cumpleaños 10 cajas grandes y 8 cajas pequeñas, ¿Cuál sería la relación de las cajas pequeñas con respecto a las cajas grandes? ¿Cómo se lee esta razón?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo jugaron? ¿Quiénes ganaron?\" (pág. 86).\n2. Pregunta: \"¿Qué es una razón? ¿Han escuchado ese término? Si en una caja hay 2 pelotas rojas y 5 azules, ¿cómo se escribiría la relación?\" (pág. 86).",
+          "actividad_numero": "Actividad 14 - A (Pág. 86-87)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Papelógrafo para cartel",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 87): \"Alexander compró en un colmado 5 globos azules y 6 globos amarillos. ¿Cómo se escribe y se lee la relación de la cantidad de globos azules con respecto a los globos amarillos?\"\n2. Los grupos trabajan.\n3. Socializan: 5/6 o 5:6, se lee \"5 es a 6\".\n\nActividad 2 - Segunda situación problemática (25 min):\n1. El docente plantea (pág. 87): \"Alberto tiene 6 carritos azules y 3 rojos. Escribe como una división la relación de carritos azules con respecto a los rojos y la relación de los rojos con respecto a los azules. ¿Cómo se leen?\"\n2. Los grupos resuelven.\n3. Socializan: azules a rojos: 6/3 o 6:3 (6 es a 3); rojos a azules: 3/6 o 3:6 (3 es a 6).\n\nActividad 3 - Elaboración de cartel (10 min):\n1. El docente elabora un cartel con la definición de razón y ejemplos (pág. 87-88).",
+          "actividad_numero": "Actividad 14 - B y C (Pág. 87-88)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué es una razón? ¿Cómo se representa?\" (pág. 88).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 88: \"Rosa Yris tiene un juego de cocina con 5 cucharas y 4 ollas. ¿Cómo se escribe la relación que representa la razón de la cantidad de cucharas con respecto a las ollas? ¿Cómo se lee esta razón?\" y \"Nelly recibió de regalo 10 cajas grandes y 8 cajas pequeñas. ¿Cuál sería la relación de las cajas pequeñas con respecto a las cajas grandes? ¿Cómo se lee esta razón?\"\n3. Actividad complementaria: Los estudiantes cuentan los estudiantes del aula y escriben razones (niñas/total, niños/niñas, aulas de 4to/total de aulas) (pág. 88).\n4. Actividad para el diario del estudiante: Los estudiantes elaboran un problema que se resuelva usando una razón y lo explican a un familiar (pág. 88).",
+          "actividad_numero": "Actividad 14 - Cierre (Pág. 88)"
+        }
+      ]
+    },
+    {
+      "id": "1772512947184",
+      "sequence_id": "seq-1772509600963",
+      "order_index": 14,
+      "title": "Actividad 15",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar la secuencia #3, haciendo énfasis en la resolución de problemas.",
+      "estrategia": "• Diálogo dirigido: Recuperación de temas de la secuencia.\n• Explicación de la escala de valoración.\n• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas.",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia (multiplicación, división, propiedades, potenciación, estimación y razones) en contextos variados.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden usar la tabla de valor posicional si lo necesitan.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que, al terminar, ayuden a revisar sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración",
+          "descripcion": "1. El docente pregunta: \"¿Qué trabajaron en esta secuencia?\" (pág. 89).\n2. Lee con los estudiantes la tabla de valoración para que comprendan cómo se evaluarán los resultados (pág. 89).",
+          "actividad_numero": "Actividad 15 - A (Pág. 89)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices",
+          "descripcion": "Evaluación escrita:\n1. El docente entrega una hoja en blanco a cada estudiante donde colocarán sus datos: nombre del centro, nombre del estudiante, fecha, grado y sección (pág. 89).\n2. Explica la valoración de cada ítem.\n3. Presenta los problemas de evaluación (págs. 90-91):\n\nÍtem 1 (10 pts): Expresar como multiplicación sumas repetidas y viceversa: 20+20+20, 200+200+200+200, 8x30, 35x9.\nÍtem 2 (10 pts): Problema de 2 televisores a RD$16,500 cada uno.\nÍtem 3 (10 pts): Razón de lapiceros azules (6) y rojos (4).\nÍtem 4 (10 pts): Escribir multiplicación y nombrar sus elementos.\nÍtem 5 (10 pts): Identificar propiedades: 4x6=6x4, 35x1=35, 1x200=200, 0x3,565=0, (3x6)x8=3x(6x8).\nÍtem 6 (10 pts): Problema con propiedad asociativa: 4 corrales, 8 espacios, 10 animales cada espacio.\nÍtem 7 (10 pts): Problema de potenciación: 12 residenciales con 12 apartamentos cada uno.\nÍtem 8 (10 pts): Escribir división y nombrar sus elementos.\nÍtem 9 (10 pts): Repartir RD$10,200 entre 8 hijos.\nÍtem 10 (10 pts): Comprar 8 micrófonos con RD$4,500, precio de cada uno y dinero sobrante.\n\n4. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad 15 - B (Pág. 89-91)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "Recogida y cierre:\n1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Anuncia el inicio de la siguiente secuencia.",
+          "actividad_numero": "Actividad 15 - Cierre (Pág. 91)"
+        }
+      ]
+    }
+  ]
+}

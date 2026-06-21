@@ -1,0 +1,321 @@
+{
+  "id": "seq-1772114357147",
+  "title": "El artículo expositivo",
+  "description": "Los estudiantes aprenden a identificar ideas principales, organizar información y usar lenguaje claro para exponer conocimientos. Se fortalece la lectura crítica y la producción de textos informativos.",
+  "order": 5,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772114357142",
+      "sequence_id": "seq-1772114357147",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión oral - Exploración",
+      "intencion_pedagogica": "Activar conocimientos previos sobre los gatos y realizar una primera aproximación al artículo expositivo a través de la escucha del texto \"Ventajas de ser gato en el Antiguo Egipto\".",
+      "estrategia": "• Uso de imágenes: Presentación de fotografías de gatos.\n• Diálogo dirigido: Exploración de conocimientos y creencias sobre los gatos.\n• Formulación de hipótesis: Anticipación del contenido a partir del título.\n• Lectura en voz alta: Texto \"Ventajas de ser gato en el Antiguo Egipto\".\n• Toma de apuntes durante la escucha.",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre las creencias populares que existen sobre los gatos en su comunidad, conectando así el contenido académico con su cultura y experiencias personales con mascotas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar un solo aspecto durante la lectura (ej: los nombres de los dioses egipcios).\n• Para estudiantes kinestésicos: Mientras escuchan, pueden dibujar un gato egipcio imaginario.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción del texto para seguir la lectura.\n• Para estudiantes avanzados: Se les pide que investiguen quién era la diosa Bastet.",
+      "actividades_cuaderno": "1. ¿Qué título tenía el texto que escuchamos hoy?\n2. ¿Por qué crees que los gatos eran importantes en el Antiguo Egipto? Escribe dos razones.\n3. Dibuja un gato y escribe tres palabras que lo describan.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imágenes de gatos (Anexo 1, pág. 82)\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente coloca en un lugar visible las imágenes de gatos (Anexo 1, pág. 82) (pág. 60).\n2. Entabla un diálogo con los alumnos:\n- \"¿Alguien tiene un gato? ¿Hay un gato en tu casa?\"\n- \"¿Te gustan los gatos? ¿Por qué?\"\n- \"¿Qué piensa la gente de los gatos?\"\n3. Anima a que afloren distintas creencias: imagen misteriosa, desagradecidos, ladrones, etc.\n4. Pregunta: \"¿Qué sabes de los gatos? ¿Qué tipo de animal es? ¿Cómo es? ¿De qué se alimenta? ¿A qué animales se parece?\"\n5. Muestra las imágenes y pregunta: \"¿Qué tienen en común los gatos de la primera fotografía con los gatitos de la segunda?\" (Asegura que salgan rasgos: mamíferos, carnívoros, cazadores, que tienen garras, etc.).\n6. Introduce el término \"felinos\" para sustituir la palabra gato.",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 60)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Título en la pizarra\n• Imágenes de silo y catapulta (pág. 60-61)\n• Texto \"Ventajas de ser gato en el Antiguo Egipto\"",
+          "descripcion": "1. El docente anuncia que van a escuchar un artículo expositivo titulado \"Ventajas de ser gato en el Antiguo Egipto\". Copia el título en la pizarra (pág. 60).\n2. Pregunta: \"¿Qué les sugiere el título?\" Anota las hipótesis en la pizarra.\n3. Explora conocimientos sobre Egipto: \"¿Dónde está ubicado Egipto? ¿Por qué es famoso? ¿Han oído hablar de las pirámides?\"\n4. Muestra las imágenes de los anexos (silo y catapulta) y ayuda a identificar los objetos (pág. 60-61):\n- \"Este objeto cilíndrico se llama silo, sirve para almacenar cereales.\"\n- \"Este objeto se llama catapulta, se usaba como arma de guerra.\"\n5. Lee en voz alta el texto \"Ventajas de ser gato en el Antiguo Egipto\" (pág. 61).\n6. Mientras lee, anota en la pizarra palabras de otras lenguas: Bastet, Miw, Bubastis, Pelusium.\n7. Los estudiantes toman apuntes en su cuaderno de los aspectos centrales.",
+          "actividad_numero": "Comprensión oral (Párrafos 3-5, pág. 60-61)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente recoge las primeras impresiones: \"¿Qué les pareció el texto? ¿Se confirmaron algunas hipótesis?\"\n2. Anuncia que en la próxima clase realizarán actividades de comprensión sobre el texto escuchado.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772119154544",
+      "sequence_id": "seq-1772114357147",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión oral - Actividades",
+      "intencion_pedagogica": "Profundizar en la comprensión del texto \"Ventajas de ser gato en el Antiguo Egipto\" mediante ejercicios de sinónimos, preguntas de comprensión y la elaboración de un resumen oral.",
+      "estrategia": "• Ejercicios de vocabulario: Sinónimos contextuales.\n• Preguntas de comprensión: Respuestas basadas en el texto.\n• Trabajo individual y socialización.\n• Explicación gramatical: Diferencia entre \"por qué\" y \"porque\".",
+      "aprendizaje_significativo": "Los estudiantes amplían su vocabulario y comprensión lectora a través de un texto histórico sobre Egipto, conectando así el aprendizaje del lenguaje con conocimientos de historia universal.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de vocabulario: Se les proporciona una lista de posibles sinónimos para que elijan el más adecuado.\n• Para estudiantes kinestésicos: En la actividad de resumen, pueden hacer gestos mientras explican las razones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que escriban el resumen en su cuaderno y lo compartan con su familia, trayendo la firma de un familiar como constancia.",
+      "actividades_cuaderno": "Título: Los gatos en el Antiguo Egipto\n1. Escribe tres razones por las que el gato era considerado un dios en Egipto.\n2. Explica la diferencia entre \"por qué\" y \"porque\" y escribe un ejemplo de cada uno.\n3. Escribe un breve resumen (5 líneas) del texto que escuchamos.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan el texto que escuchamos la clase pasada? ¿De qué trataba?\"\n2. Anuncia que hoy harán actividades para comprenderlo mejor.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias de los ejercicios o pizarra\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente presenta el ejercicio de la página 62 (actividad 1): escribir un sinónimo o definición de las palabras subrayadas sin usar diccionario.\n- \"Se identificaba con una diosa, Bastet, deidad protectora...\"\n- \"...pronto comenzaron a considerar como benefactor a este felino...\"\n- \"El cuerpo del felino se momificaba y se enterraba en un sarcófago...\"\n- \"Era tal el aura de animal 'mágico' que rodeaba a los gatos...\"\n2. Los estudiantes trabajan individualmente en sus cuadernos.\n3. Socializan las respuestas, discutiendo por qué cada sinónimo es adecuado.\n\nActividad 2 - Preguntas de comprensión (25 min):\n1. El docente presenta las preguntas de la página 62-63:\n- \"¿Por qué el gato, en el Antiguo Egipto, era útil en la agricultura?\"\n- \"Alista las razones por las que el gato era considerado un dios.\"\n- \"¿Por qué en la Batalla de Pelusium los egipcios perdieron?\"\n2. Los estudiantes responden en su cuaderno.\n3. En la primera pregunta, el docente aprovecha para explicar la diferencia entre \"por qué\" (pregunta) y \"porque\" (respuesta). Copia ambos en la pizarra y pregunta: \"¿Cuál es la diferencia?\"\n4. Socializan las respuestas, asegurando que identifiquen todas las razones (ayudaba en agricultura, miembro de la familia, estatuas protectoras, utilizados en caza, perdieron una guerra por ellos).\n\nActividad 3 - Preparación del resumen oral (15 min):\n1. El docente presenta la consigna de la pregunta 4 (pág. 63): \"Cuando llegues a tu casa, comparte con algún familiar lo que aprendiste. Explica de forma sintética las ventajas de ser gato en el Antiguo Egipto.\"\n2. Explica cómo hacer un resumen: identificar ideas principales, decirlas con menos palabras, integrar ideas en una sola oración, conectar coherentemente.\n3. Los estudiantes, en parejas, practican diciéndose el resumen oralmente.",
+          "actividad_numero": "Comprensión oral (Actividades 1-4, pág. 62-63)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Algunos voluntarios comparten su resumen oral con la clase.\n2. El docente y los compañeros evalúan si incluyeron la idea principal (gato como divinidad) y las razones.\n3. El docente anuncia que en la próxima clase analizarán la estructura del texto expositivo.",
+          "actividad_numero": "Comprensión oral (Actividad 4 - cierre, pág. 63)"
+        }
+      ]
+    },
+    {
+      "id": "1772119233732",
+      "sequence_id": "seq-1772114357147",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Análisis de estructura",
+      "intencion_pedagogica": "Analizar la estructura del texto expositivo causal \"Ventajas de ser gato en el Antiguo Egipto\", identificando introducción, desarrollo, conclusión y conectores de causa-efecto.",
+      "estrategia": "• Lectura guiada: Análisis del texto en papelógrafo.\n• Preguntas de exploración: Identificación de partes (introducción, desarrollo, conclusión).\n• Identificación de conectores causales.\n• Trabajo colaborativo: Análisis en grupos.",
+      "aprendizaje_significativo": "Los estudiantes comprenden que los textos expositivos tienen una estructura clara y que los conectores causales (porque, debido a, por lo que) se usan en la vida diaria para explicar causas y consecuencias de fenómenos naturales o históricos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una copia del texto con las partes ya señaladas (introducción, desarrollo, conclusión).\n• Para estudiantes kinestésicos: Pueden usar colores diferentes para subrayar cada parte del texto y los conectores.\n• Para estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.\n• Para estudiantes avanzados: Se les pide que busquen otros conectores causales y los añadan a la lista.",
+      "actividades_cuaderno": "Título: Estructura del texto expositivo\n1. ¿Cuáles son las tres partes de un texto expositivo? Explica brevemente cada una.\n2. Escribe 5 conectores causales que aparecen en el texto \"Ventajas de ser gato en el Antiguo Egipto\".\n3. ¿A qué pregunta responde ese texto?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Qué tipo de texto estamos estudiando? (expositivo). ¿Cuál era su propósito? (explicar de manera objetiva)\".\n2. Anuncia que hoy analizarán cómo está organizado.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto en papelógrafo o cartulina\n• Copias del texto para cada estudiante\n• Pizarra\n• Marcadores de colores",
+          "descripcion": "1. El docente tiene el texto \"Ventajas de ser gato en el Antiguo Egipto\" transcrito en un papelógrafo o cartulina (pág. 64).\n2. Pide a los estudiantes que lean en silencio por 3 minutos.\n\nActividad 2 - Identificación de partes (20 min):\n1. El docente explora con preguntas (pág. 64):\n- \"¿Por qué este texto es una exposición?\" (Explica objetivamente un tema histórico).\n- \"Identifica las partes: introducción, desarrollo y conclusión.\"\n2. Los estudiantes discuten en grupos y luego socializan:\n- Introducción: párrafo 1 (tesis: el gato es importante en Egipto).\n- Desarrollo: párrafos 2, 3, 4, 5, 6 (explican y narran hechos que justifican la tesis).\n- Conclusión: párrafo 7 (no presenta información nueva, interactúa con el lector).\n3. Pregunta: \"¿A qué pregunta responde este texto?\" (¿Por qué al gato se le veía como dios en el Antiguo Egipto?).\n\nActividad 3 - Identificación de conectores causales (25 min):\n1. El docente explica: \"Los conectores causales establecen relaciones de causa y consecuencia.\"\n2. Guía el análisis párrafo por párrafo (pág. 65-66):\n- Párrafo 2: \"debido a\" (marca la causa de la domesticación).\n- Párrafo 3: \"así\" (marca consecuencia).\n- Párrafo 4: \"Pero la cosa no quedaba ahí\" (anuncia continuación), \"era tal el aura... que\" (causa-consecuencia).\n- Párrafos 5-6: \"Después de todo esto\" (marcador sumativo), \"por\", \"por lo que\", \"lo que provocó\".\n3. Los estudiantes subrayan en sus copias del texto los conectores causales.\n4. Socializan y el docente los anota en la pizarra.",
+          "actividad_numero": "Comprensión escrita (Preguntas 1-3, pág. 64-66)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta: \"¿Cuándo se dice que un texto está estructurado en forma de causa y consecuencia?\"\n2. \"¿A través de qué marcas nos damos cuenta?\" (Conectores causales: porque, debido a, por lo que, etc.).\n3. Anuncia que en la próxima clase aplicarán esto a otro texto expositivo.",
+          "actividad_numero": "Comprensión escrita (Preguntas finales, pág. 67)"
+        }
+      ]
+    },
+    {
+      "id": "1772119368337",
+      "sequence_id": "seq-1772114357147",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión escrita - Prelectura y durante la lectura",
+      "intencion_pedagogica": "Realizar la lectura compartida del texto expositivo \"¿Por qué tenemos hipo?\", formulando y verificando hipótesis y conociendo el funcionamiento del diafragma y el nervio frénico.",
+      "estrategia": "• Uso de material concreto: Dibujo o diagrama del aparato respiratorio.\n• Diálogo dirigido: Exploración de experiencias con el hipo.\n• Formulación de hipótesis.\n• Lectura compartida: Lectura interactiva con pausas y preguntas.",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre una experiencia común y cotidiana (el hipo), conectando así el contenido académico con sus vivencias personales y su propio cuerpo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les asigna la tarea de leer un solo párrafo y dibujar lo que entendieron.\n• Para estudiantes kinestésicos: Pueden hacer gestos de inhalar y exhalar mientras se explica el proceso respiratorio.\n• Para estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado y una descripción táctil del diagrama respiratorio.\n• Para estudiantes avanzados: Se les pide que investiguen otros datos curiosos sobre el hipo.",
+      "actividades_cuaderno": "Título: ¿Por qué nos da hipo?\n1. Según el texto, ¿qué es el hipo?\n2. Dibuja el diafragma y el nervio frénico (puedes copiar el diagrama de clase).\n3. Escribe dos causas físicas y una causa psicológica del hipo.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Dibujo o diagrama del aparato respiratorio (Anexo 3, pág. 84)\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente lleva un dibujo o diagrama del aparato respiratorio (Anexo 3, pág. 84) (pág. 67).\n2. Entabla un diálogo:\n- \"¿Qué sientes cuando te da hipo?\"\n- \"¿Qué tiempo tarda el hipo en quitársete?\"\n- \"¿Por qué crees que te da?\"\n- \"¿Cómo se te quita?\"\n3. Introduce el texto: \"Vamos a leer un texto que se llama '¿Por qué nos da hipo?'.\" Copia el título en la pizarra.\n4. Pide hipótesis: \"¿Qué creen que va a explicar este texto?\" Anota en la pizarra.\n5. Explica cómo se realizará la lectura: un estudiante lee un párrafo en voz alta, tras cada párrafo se harán preguntas.",
+          "actividad_numero": "Comprensión escrita (Prelectura, pág. 67)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del texto \"¿Por qué nos da hipo?\" para cada estudiante (pág. 68)\n• Diagrama del aparato respiratorio",
+          "descripcion": "1. El docente entrega una copia del texto \"¿Por qué nos da hipo?\" a cada estudiante (pág. 68).\n2. Párrafo 1: Un estudiante lee. Preguntas (pág. 69):\n- \"¿Sabes qué es el diafragma?\" (Señalar en el diagrama).\n- \"¿Qué es una contracción?\" (Hacer gestos).\n- \"¿Qué significa 'espasmódica'?\" (Explicar: contracción como un calambre).\n- \"¿De qué trata este párrafo?\" (Define qué es el hipo).\n3. Párrafo 2: Otro estudiante lee. Pregunta: \"¿Qué nos explica este párrafo?\"\n4. Párrafo 3: Otro estudiante lee. Pregunta: \"¿Cuál es el objetivo de este párrafo?\" (Explicar el proceso de respiración).\n5. Párrafo 4: Otro estudiante lee. Pregunta: \"¿Cuál es la función del nervio frénico?\" (Señalar en el diagrama).\n6. Párrafo 5: Otro estudiante lee. Pregunta: \"¿Quién es el culpable del hipo?\" (El nervio frénico).\n7. Párrafo 6: Otro estudiante lee. Preguntas: \"¿Cómo se clasifican las causas del hipo? ¿Qué causas se presentan aquí?\"\n8. Párrafo 7: Otro estudiante lee. Pregunta: \"¿Cuál es la función de este párrafo?\" (Otra causa: irritación del nervio frénico).\n9. Párrafo 8: Otro estudiante lee. Pregunta: \"¿Cuál es el tema de este párrafo?\" (Alcohol, bebidas carbónicas, ansiedad).\n10. Párrafo 9: Otro estudiante lee. Pregunta: \"¿Sabían estas curiosidades?\"",
+          "actividad_numero": "Comprensión escrita (Durante la lectura, pág. 69)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis",
+          "descripcion": "1. El docente retoma las hipótesis anotadas en la pizarra.\n2. Pregunta: \"¿Cuáles se confirmaron?\"\n3. Anuncia que en la próxima clase realizarán actividades de post-lectura sobre este texto.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772119446525",
+      "sequence_id": "seq-1772114357147",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Comprensión escrita - Post-lectura",
+      "intencion_pedagogica": "Profundizar en la comprensión del texto \"¿Por qué nos da hipo?\" mediante ejercicios de vocabulario, referentes y análisis de la estructura causa-efecto.",
+      "estrategia": "• Ejercicios de vocabulario: Sinónimos contextuales.\n• Ejercicios de referentes: Identificación de a qué idea se refieren las palabras.\n• Preguntas de comprensión.\n• Análisis de conectores causales en el texto.\n• Elaboración de resumen.",
+      "aprendizaje_significativo": "Los estudiantes aplican lo aprendido sobre conectores causales a un texto sobre su propio cuerpo, comprendiendo mejor un fenómeno fisiológico que experimentan frecuentemente.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de vocabulario: Se les proporciona una lista de posibles sinónimos para la actividad 1.\n• Para estudiantes kinestésicos: Pueden representar con gestos las diferentes causas del hipo mientras las mencionan.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que añadan a su resumen algún dato curioso sobre el hipo que hayan investigado.",
+      "actividades_cuaderno": "Título: Comprendiendo el hipo\n1. ¿Quién es el culpable del hipo y por qué?\n2. Escribe tres causas del hipo.\n3. Copia el resumen que escribiste en clase.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan el texto sobre el hipo? ¿Qué órgano era el culpable?\" (El nervio frénico).\n2. Anuncia que hoy harán actividades de comprensión más detalladas.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias de los ejercicios o pizarra\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente presenta el ejercicio de la página 70 (actividad 1): sustituir palabras subrayadas por sinónimos.\n- \"respiración súbita\"\n- \"se contrae o se dilata\"\n- \"señales anómalas\"\n- \"de índole psicológica\"\n2. Los estudiantes trabajan individualmente y socializan.\n\nActividad 2 - Referentes textuales (15 min):\n1. El docente presenta la tabla de la página 70-71 (actividad 2).\n2. En parejas, los estudiantes completan la columna derecha explicando a qué idea se refiere cada expresión subrayada.\n- \"esta tarea\" (párrafo 2)\n- \"estos movimientos\" (párrafo 3)\n- \"Este\" (párrafo 3)\n- \"Esto\" (párrafo 4)\n- \"este tipo de reacciones\" (párrafo 6)\n3. Socializan las respuestas.\n\nActividad 3 - Preguntas de comprensión (15 min):\n1. El docente presenta las preguntas de la página 71 (actividad 4):\n- \"¿Quién es el culpable del hipo?\"\n- \"¿Cuáles son las dos razones por las que nos da hipo?\"\n- \"Lista de razones físicas.\"\n- \"¿Qué razón psicológica provoca hipo?\"\n2. Los estudiantes responden en su cuaderno y socializan.\n\nActividad 4 - Análisis de conectores causales (15 min):\n1. El docente presenta el cuadro de la página 72.\n2. En grupos, los estudiantes identifican las marcas que establecen relaciones de causa y consecuencia en cada párrafo.\n3. Socializan y el docente anota en la pizarra: \"provocada por\", \"genera\", \"si... puede\", \"gracias a\", \"lo cual\", etc.",
+          "actividad_numero": "Comprensión escrita (Actividades 1-4, pág. 70-72)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "1. El docente pide: \"Resume con tus propias palabras, en un párrafo de ocho líneas, el texto ¿Por qué nos da hipo?\"\n2. Los estudiantes escriben su resumen individualmente.\n3. Quienes terminen, pueden compartirlo en voz alta.\n4. El docente anuncia que en la próxima clase comenzarán con la producción oral.",
+          "actividad_numero": "Comprensión escrita (Actividad 5, pág. 73)"
+        }
+      ]
+    },
+    {
+      "id": "1772119546024",
+      "sequence_id": "seq-1772114357147",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción oral y preparación escrita",
+      "intencion_pedagogica": "Iniciar la preparación de una exposición oral de causa y consecuencia sobre un tema de interés, siguiendo los pasos de investigación y planificación.",
+      "estrategia": "• Trabajo individual: Selección de tema para exposición oral.\n• Investigación guiada: Pasos para preparar una exposición.\n• Uso de organizador gráfico: Planificación de la exposición.\n• Redacción de borrador.",
+      "aprendizaje_significativo": "Los estudiantes investigan sobre temas cercanos a su realidad (¿Por qué el barrio se llama así? ¿Por qué me llamo así?), conectando así el aprendizaje con su identidad personal y comunitaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades para elegir tema: El docente sugiere temas más concretos y cercanos a su realidad.\n• Para estudiantes kinestésicos: Pueden preparar apoyos visuales para su exposición (carteles, dibujos).\n• Para estudiantes con discapacidad visual: Se les proporciona el organizador gráfico en formato ampliado.\n• Para estudiantes avanzados: Se les pide que incluyan al menos tres causas y tres consecuencias en su exposición.",
+      "actividades_cuaderno": "Título: Preparando mi exposición\n1. ¿Qué tema elegiste para tu exposición?\n2. ¿Tu tema pide explicar causas o consecuencias?\n3. Copia el organizador gráfico que completaste (Introducción, Desarrollo, Conclusión).\n4. Recuerda ensayar en casa para la próxima clase.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con la lista de temas",
+          "descripcion": "1. El docente presenta las opciones de temas para la exposición oral (pág. 73):\n- \"¿Por qué el barrio donde vives se llama así?\"\n- \"¿Por qué te llamas como te llamas?\"\n- \"¿Por qué es saludable comer frutas?\"\n- \"¿Qué pasaría si desapareciera la luna?\"\n- \"¿Por qué no debemos ver mucha televisión?\"\n- \"¿Por qué no deberíamos pasar muchas horas frente al computador?\"\n- \"¿Qué pasaría si no bebemos suficiente agua al día?\"\n2. Explica que deberán exponer oralmente la respuesta en no más de ocho minutos, dentro de una semana.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 73)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "Introducción\nDesarrollo\nConclusión",
+          "descripcion": "1. Cada estudiante elige un tema.\n2. El docente guía los pasos (pág. 74):\n- \"Busca información en libros, revistas, internet o consulta fuentes directas.\"\n- \"Haz una lista con las informaciones que te pueden servir.\"\n- \"Toma en cuenta qué te pide la pregunta: causas o consecuencias.\"\n- \"Haz una lista de dos o más causas o consecuencias.\"\n- \"Escribe esas causas con tus propias palabras.\"\n3. Los estudiantes comienzan a investigar en los recursos disponibles en el aula.\n\nActividad 2 - Planificación con organizador gráfico (20 min):\n1. El docente presenta el cuadro de planificación (pág. 74):",
+          "actividad_numero": "Introducción"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente presenta las preguntas de revisión (pág. 74):\n- \"¿He escrito un texto estructurado en forma de causa consecuencia?\"\n- \"¿He tomado en cuenta a mis compañeros?\"\n- \"¿Incluí todas las ideas necesarias?\"\n2. Los estudiantes revisan su borrador.\n3. El docente recuerda que deben ensayar en casa (paso 10, pág. 74) y que las exposiciones comenzarán en la próxima clase.",
+          "actividad_numero": "Producción oral (Pasos 9-10, pág. 74)"
+        }
+      ]
+    },
+    {
+      "id": "1772120245563",
+      "sequence_id": "seq-1772114357147",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Exposiciones orales - Día 1",
+      "intencion_pedagogica": "Presentar oralmente las exposiciones preparadas sobre temas de causa y consecuencia, demostrando organización, claridad y uso de conectores causales.",
+      "estrategia": "• Exposiciones orales: Estudiantes presentan sus temas.\n• Escucha activa: Compañeros toman nota.\n• Retroalimentación docente.",
+      "aprendizaje_significativo": "Los estudiantes comparten sus investigaciones sobre temas cercanos a su realidad (origen del nombre del barrio, por qué no ver mucha TV), conectando así el aprendizaje con su vida cotidiana.",
+      "actividades_complementarias": "• Para estudiantes con ansiedad escénica: Se les permite tener tarjetas con palabras clave para consultar.\n• Para estudiantes kinestésicos: Pueden usar gestos y movimientos durante su exposición.\n• Para estudiantes con discapacidad auditiva: Se asegura que puedan ver los labios del expositor o se les proporciona un resumen escrito.",
+      "actividades_cuaderno": "Título: Aprendiendo de mis compañeros\n1. ¿Qué exposición te gustó más hoy? ¿Por qué?\n2. Escribe un dato nuevo que hayas aprendido de las exposiciones de hoy.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio organizado",
+          "descripcion": "1. El docente organiza el espacio para las exposiciones.\n2. Recuerda las pautas: máximo 8 minutos por exposición, mirar al público, no leer, hablar con claridad.\n3. Recuerda al público que debe escuchar atentamente, pues se harán preguntas.",
+          "actividad_numero": "Producción oral"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente invita a los primeros 6-8 estudiantes a pasar al frente (según el tiempo disponible, aproximadamente 7-8 minutos cada uno).\n2. Cada estudiante presenta su exposición.\n3. El docente toma nota de los aspectos a destacar y las áreas de mejora.\n4. Al final de cada exposición, el docente puede hacer una pregunta breve para verificar la comprensión del público.",
+          "actividad_numero": "Producción oral (Pág. 74-75)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente ofrece retroalimentación general sobre las exposiciones del día: aspectos positivos (claridad, uso de conectores, organización) y aspectos a mejorar.\n2. Anuncia que en la próxima clase continuarán con las exposiciones restantes.\t",
+          "actividad_numero": "Producción oral"
+        }
+      ]
+    },
+    {
+      "id": "1772120353641",
+      "sequence_id": "seq-1772114357147",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Exposiciones orales - Día 2 y cierre",
+      "intencion_pedagogica": "Completar las exposiciones orales y realizar una reflexión final sobre el proceso de producción de textos expositivos de causa y consecuencia.",
+      "estrategia": "• Exposiciones orales: Continuación de presentaciones.\n• Evaluación con lista de cotejo.\n• Reflexión final.",
+      "aprendizaje_significativo": "Los estudiantes completan el ciclo de exposiciones y reflexionan sobre la importancia de explicar causas y consecuencias de fenómenos cotidianos para comprender mejor su entorno.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de expresión oral: Se les permite apoyarse en sus notas durante la exposición.\n• Para estudiantes kinestésicos: Pueden moverse mientras exponen para mantener la atención.\n• Para estudiantes con discapacidad visual: Se les permite tener su texto en formato ampliado para consulta.",
+      "actividades_cuaderno": "Título: Reflexión sobre mi aprendizaje\n1. ¿Cómo te sentiste durante tu exposición?\n2. ¿Qué fue lo más importante que aprendiste en esta secuencia sobre los textos expositivos?\n3. ¿En qué situación de tu vida cotidiana podrías usar lo que aprendiste?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio organizado",
+          "descripcion": "1. El docente organiza el espacio para las exposiciones restantes.\n2. Recuerda las pautas y anuncia que hoy se completarán todas las exposiciones.",
+          "actividad_numero": "Producción oral"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes\n• Lista de cotejo (opcional)",
+          "descripcion": "Exposiciones orales - Segunda ronda:\n1. Los estudiantes restantes (6-8) pasan al frente a presentar sus exposiciones.\n2. Cada exposición dura aproximadamente 7-8 minutos.\n3. El docente evalúa utilizando la lista de cotejo (pág. 16 adaptada) o toma nota para la retroalimentación final.",
+          "actividad_numero": "Producción oral (Pág. 74-75)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente felicita a todos los estudiantes por su participación.\n2. Guía una reflexión final:\n- \"¿Qué aprendieron sobre cómo explicar causas y consecuencias?\"\n- \"¿En qué otras situaciones de la vida usamos este tipo de explicaciones?\"\n- \"¿Qué fue lo más difícil de preparar la exposición?\"\n3. El docente anuncia que los textos escritos que prepararon pueden ser publicados en el mural del aula o compartidos con las familias.\n4. Cierra la secuencia recordando la importancia de los textos expositivos para comprender el mundo que nos rodea.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    }
+  ]
+}

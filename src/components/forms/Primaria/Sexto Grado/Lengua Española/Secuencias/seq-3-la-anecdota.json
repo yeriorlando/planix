@@ -1,0 +1,243 @@
+{
+  "id": "seq-1772114115790",
+  "title": "La anécdota",
+  "description": "os estudiantes aprenden a estructurar relatos breves usando secuencia temporal, detalles relevantes y elementos narrativos. Desarrolla habilidades de comprensión y producción oral y escrita.",
+  "order": 3,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772114115780",
+      "sequence_id": "seq-1772114115790",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión oral",
+      "intencion_pedagogica": "Activar conocimientos previos sobre la anécdota y realizar una primera aproximación al género a través de la escucha de una anécdota del comediante dominicano Luisito Martí.",
+      "estrategia": "• Uso de imágenes: Presentación de comediantes dominicanos.\n• Diálogo dirigido: Exploración de conocimientos previos sobre anécdotas.\n• Lectura en voz alta: Anécdota de Luisito Martí.\n• Preguntas de comprensión: Verificación de la escucha atenta.",
+      "aprendizaje_significativo": "Los estudiantes recuerdan y comparten historias curiosas que han escuchado sobre personas conocidas o familiares, conectando así el concepto de anécdota con sus experiencias cotidianas y su cultura popular.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar un solo aspecto durante la lectura (ej: los personajes que aparecen en la anécdota).\n• Para estudiantes kinestésicos: Se les invita a dibujar la escena que más les llamó la atención de la anécdota de Luisito Martí.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción de la anécdota para seguir la lectura.\n• Para estudiantes avanzados: Se les pide que investiguen quién fue Luisito Martí y qué otras anécdotas se cuentan de él.",
+      "actividades_cuaderno": "1. Escribe una breve definición de \"anécdota\" con tus propias palabras.\n2. ¿Qué anécdota de Luisito Martí escuchamos hoy? Resúmela en 3 oraciones.\n3. ¿Qué valores crees que demuestra Luisito Martí en esta historia?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imágenes de comediantes dominicanos (físicas o digitales)\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente lleva al aula imágenes de comediantes dominicanos (físicas o digitales) (pág. 38).\n2. Pregunta: \"¿Reconocen a estos personajes? ¿Quiénes son?\"\n3. Si no conocen a alguno, el docente cuenta de quién se trata.\n4. Pregunta: \"¿Cuál es la profesión que todos comparten?\" (comediante o humorista).\n5. Pregunta: \"¿Alguien sabe alguna historia curiosa que le haya ocurrido a uno de estos humoristas?\" Si hay respuestas afirmativas, motiva a que las cuenten.\n6. Pregunta específicamente: \"¿Alguien sabe quién era Luisito Martí? ¿Dónde o cómo lo conocieron? ¿Quieren que les cuente algo que le sucedió?\"",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 38)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto de la anécdota de Luisito Martí\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente lee en voz alta la anécdota de Luisito Martí (pág. 39).\n2. Al terminar la lectura, pide a los estudiantes que parafraseen el contenido de la anécdota (pág. 39).\n3. Pregunta: \"¿Algún episodio de la anécdota les ha llamado la atención de manera especial? ¿Por qué?\"\n4. Indaga sobre el vocabulario: \"¿Hay palabras cuyo significado desconozcan?\"\n5. Escribe en el pizarrón las palabras o expresiones subrayadas en el texto (pág. 39) y aplica estrategias para determinar su significado (contexto, derivación, composición).\n6. Pregunta: \"¿Alguien ha tenido una experiencia parecida que quiera contar?\" Motiva a que lo hagan.",
+          "actividad_numero": "Comprensión oral (Párrafos 3-4, pág. 39)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra",
+          "descripcion": "1. El docente conversa con los niños sobre el texto mediante preguntas (pág. 39):\n- \"¿Sabes qué tipo de texto es el que escuchaste?\"\n- \"¿Cuáles son sus características?\"\n- \"¿Cuáles partes identificaste en este texto?\"\n- \"¿Todo el texto se refiere al mismo tiempo verbal? ¿En qué tiempo se cuentan los hechos?\"\n- \"¿Cuáles voces puedes identificar en el texto?\" (Hacer notar que hay varias historias: la del locutor, la de Luisito, la del dueño de la tienda).\n- \"¿Se puede inferir algún mensaje del contenido del texto?\" (Valores: humildad, agradecimiento, acogida).\n- \"¿Cómo puedes calificar a Luisito Martí de acuerdo a lo narrado? ¿Por qué?\"\n2. El docente anuncia que en la próxima clase profundizarán en el análisis de la anécdota.",
+          "actividad_numero": "Comprensión oral (Preguntas 1-7, pág. 39)"
+        }
+      ]
+    },
+    {
+      "id": "1772116906539",
+      "sequence_id": "seq-1772114115790",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Producción oral - Preparación",
+      "intencion_pedagogica": "Preparar la producción oral de una anécdota recopilada en familia, siguiendo pasos específicos de planificación y ensayo.",
+      "estrategia": "• Asignación de tarea investigativa: Recopilar anécdotas familiares.\n• Trabajo guiado: Pasos para preparar una producción oral.\n• Modelado: Explicación de cómo ensayar una anécdota.",
+      "aprendizaje_significativo": "Los estudiantes se conectan con su historia familiar y comunitaria al investigar anécdotas de personas cercanas, valorando así sus propias raíces y experiencias compartidas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades para acceder a familiares: Se les permite investigar una anécdota de algún amigo, vecino o incluso buscar una anécdota corta en internet o libros.\n• Para estudiantes kinestésicos: Durante el ensayo en casa, pueden grabarse en video para verse y mejorar sus gestos.\n• Para estudiantes con discapacidad auditiva: Si la anécdota es contada por un familiar, pueden pedir que se la escriban o pueden usar un dispositivo de grabación con transcripción.\n• Para estudiantes avanzados: Se les pide que preparen dos anécdotas y elijan la mejor.",
+      "actividades_cuaderno": "Título: Preparando mi anécdota\n1. ¿A quién vas a entrevistar en tu familia para que te cuente una anécdota?\n2. Escribe el esquema de la anécdota de Luisito Martí que hicimos en clase (inicio, desarrollo, desenlace).\n3. Recuerda: ¡No olvides traer tu anécdota preparada para la próxima clase!",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente explica que van a trabajar en la producción oral de anécdotas.\n2. Presenta la consigna (pág. 40): \"Habla con personas de tu familia o con amigos y pídeles que te cuenten alguna historia interesante que les haya ocurrido en el pasado. Toma notas.\"\n3. Explica que de todas las historias, deben escoger la más interesante para contarla en clase.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 40)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lápices\n• Pizarra",
+          "descripcion": "1. El docente explica los pasos para tener éxito en la tarea (pág. 40):\n- Paso 1: Transcribe cuidadosamente la historia seleccionada.\n- Paso 2: Lee bien la historia después de transcribirla. Si es necesario, vuelve a hablar con la persona para aclarar dudas.\n- Paso 3: Asegúrate de que comprendes todo el contenido.\n- Paso 4: Si es posible, haz un dibujo o busca una foto relacionada con la historia.\n- Paso 5: Aprópiate de la historia. Prepara un esquema con la secuencia de los hechos.\n- Paso 6: Ensaya la exposición frente a alguien de tu familia. Recuerda: mirar al público, hablar con claridad, seguir la estructura, emplear tiempo pasado, contar con entusiasmo, mantener el orden.\n- Paso 7: Pide a la persona que te observa que te diga qué mejorar. Practica hasta que te salga bien.\n2. El docente modela cómo hacer un esquema con la secuencia de hechos usando como ejemplo la anécdota de Luisito Martí.\n3. Los estudiantes practican haciendo un esquema en su cuaderno de una anécdota conocida (puede ser la de Luisito Martí).",
+          "actividad_numero": "Producción oral (Pasos 1-7, pág. 40)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente asigna formalmente la tarea para la próxima clase: traer una anécdota preparada para contar.\n2. Resuelve dudas sobre el proceso.\n3. Recuerda que la anécdota debe ser interesante y estar bien preparada.",
+          "actividad_numero": "Asignación"
+        }
+      ]
+    },
+    {
+      "id": "1772117113690",
+      "sequence_id": "seq-1772114115790",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Producción oral - Presentaciones",
+      "intencion_pedagogica": "Presentar oralmente las anécdotas recopiladas en familia, demostrando capacidad expresiva y creatividad, mientras los compañeros practican la escucha activa.",
+      "estrategia": "• Exposiciones orales: Estudiantes cuentan sus anécdotas.\n• Escucha activa: Compañeros toman nota y responden preguntas.\n• Preguntas de comprensión: Verificación de la escucha.",
+      "aprendizaje_significativo": "Los estudiantes comparten historias reales de sus familias y comunidades, valorando así su propia historia y la de sus compañeros, y reconociendo el valor de la tradición oral.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de expresión oral: Se les permite tener un esquema escrito en una tarjeta para consultar durante su presentación.\n• Para estudiantes kinestésicos: Pueden hacer pequeños gestos o movimientos mientras cuentan su anécdota para hacerla más expresiva.\n• Para estudiantes con discapacidad auditiva: Si hay un compañero con esta discapacidad, se asegura que pueda ver los labios del que habla o se le proporciona un resumen escrito.\n• Para estudiantes avanzados: Se les pide que añadan un elemento de humor o sorpresa a su anécdota.",
+      "actividades_cuaderno": "Título: Anécdotas de mis compañeros\n1. Escribe el nombre de un compañero y el tema de la anécdota que contó.\n2. ¿Qué anécdota de las que escuchaste hoy te pareció más interesante? ¿Por qué?\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio organizado",
+          "descripcion": "1. El docente organiza el espacio para las presentaciones.\n2. Recuerda las pautas para contar una anécdota: claridad, orden de los hechos, uso del tiempo pasado, entusiasmo (pág. 40).\n3. Advierte al resto de la clase que debe prestar atención, pues se harán preguntas sobre lo escuchado (pág. 41).",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 41)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente invita a los estudiantes a pasar al frente, de forma voluntaria o según un orden establecido.\n2. Cada estudiante cuenta su anécdota (máximo 3-4 minutos cada uno).\n3. Después de cada presentación, el docente dirige preguntas a la clase para asegurar la comprensión (pág. 41):\n- \"¿De qué trató la anécdota contada por...?\"\n- \"¿Cuál es el personaje principal en la anécdota que nos relató...?\"\n- \"¿Cuál fue el acontecimiento principal de la anécdota de...?\"\n- \"¿Qué podemos aprender de la anécdota que contó...?\"\n4. El docente asegura que participen varios estudiantes en las respuestas.",
+          "actividad_numero": "Producción oral (Párrafo 2, pág. 41)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente felicita a los estudiantes por su participación.\n2. Pregunta: \"¿Qué anécdota les gustó más y por qué?\"\n3. Anuncia que en la próxima clase trabajarán con la comprensión escrita de una anécdota sobre Francia.",
+          "actividad_numero": "Cierre"
+        }
+      ]
+    },
+    {
+      "id": "1772117220920",
+      "sequence_id": "seq-1772114115790",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión escrita - Prelectura y durante la lectura",
+      "intencion_pedagogica": "Realizar la lectura compartida de una anécdota sobre la ciudad de Niza (Francia), formulando y verificando hipótesis durante el proceso.",
+      "estrategia": "• Uso de material concreto: Globo terráqueo para ubicación geográfica.\n• Diálogo dirigido: Exploración de conocimientos sobre Francia.\n• Lectura compartida: Lectura interactiva con pausas y preguntas.\n• Formulación y verificación de hipótesis.",
+      "aprendizaje_significativo": "Los estudiantes conectan el aprendizaje con el área de Ciencias Sociales al ubicar geográficamente Francia y conocer aspectos de su cultura, ampliando así su visión del mundo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión lectora: Se les asigna la tarea de leer un solo párrafo y responder preguntas específicas sobre él.\n• Para estudiantes kinestésicos: Mientras leen, pueden señalar en el mapa la ubicación de Francia y Niza.\n• Para estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado y descripciones detalladas de las imágenes.\n• Para estudiantes avanzados: Se les pide que investiguen más sobre la historia del cañonazo de Niza y si aún se realiza.",
+      "actividades_cuaderno": "1. ¿Dónde ocurre la anécdota que leímos hoy?\n2. ¿Quiénes son los personajes principales de esta anécdota?\n3. Escribe una oración que resuma de qué trata esta anécdota.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Globo terráqueo o mapa mundial\n• Imágenes de la cultura francesa (Anexo 1, pág. 49)\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente lleva al aula un globo terráqueo (pág. 41).\n2. Pide a los niños que señalen los distintos continentes y digan sus nombres.\n3. Se detiene en el continente europeo. Pregunta por los países que lo forman.\n4. Explica que hoy se centrarán en Francia. Pregunta: \"¿Qué saben de Francia?\"\n5. Motiva a localizar Francia en el globo y a situarlo con relación a los países que lo bordean.\n6. Muestra imágenes de la cultura francesa (Anexo 1, pág. 49).\n7. Orienta para localizar Niza en el mapa y comparte información breve sobre esa ciudad (pág. 41).\n8. Anuncia que leerán una anécdota ocurrida en Niza.\n9. Escribe el título en la pizarra: \"El cañonazo de las doce\". Pide que expresen hipótesis sobre el contenido y las anota.",
+          "actividad_numero": "Comprensión escrita (Prelectura, pág. 41)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del texto \"El cañonazo de las doce\" para cada estudiante (pág. 42)",
+          "descripcion": "1. El docente entrega una copia del texto a cada estudiante o lo presenta en papelógrafo (pág. 42).\n2. Explica que harán una lectura interactiva, con pausas para preguntar.\n3. Párrafo 1: Un estudiante lee. Pregunta: \"¿Cuál es la información que se nos ofrece en esta parte?\"\n4. Párrafos 2-3: Otro estudiante lee. Pregunta: \"¿Qué información aporta esta parte? ¿Se confirma alguna hipótesis?\"\n5. Párrafos 4-6: Otro estudiante lee. Pregunta: \"¿Qué nos informan aquí? ¿Cuáles hipótesis se pueden verificar?\"\n6. Párrafos 7-8: Otro estudiante lee. Pregunta: \"¿Qué información nueva se ofrece? ¿Las palabras en otro idioma dificultan la comprensión?\"\n7. Párrafo 9: Otro estudiante lee. Pregunta: \"¿Alguna hipótesis se contiene en este párrafo?\"\n8. Párrafos 10-11: Otro estudiante lee. Pregunta: \"¿Qué ocurrió con la secuencia de los hechos?\"\n9. Párrafos 12-13: Otro estudiante lee. Pregunta: \"¿Qué parte del texto es esta? ¿Cuáles hipótesis no han sido referidas?\" (Revisar todas).",
+          "actividad_numero": "Comprensión escrita (Durante la lectura, pág. 43)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis\n• Participación de los estudiantes",
+          "descripcion": "1. El docente retoma las hipótesis anotadas en la pizarra.\n2. Pregunta: \"¿Cuáles hipótesis se confirmaron? ¿Cuáles no?\"\n3. Los estudiantes justifican sus respuestas basándose en el texto.\n4. El docente anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772117308859",
+      "sequence_id": "seq-1772114115790",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Comprensión escrita - Post-lectura",
+      "intencion_pedagogica": "Profundizar en la comprensión de la anécdota \"El cañonazo de las doce\" mediante ejercicios de vocabulario, análisis de estructura y reflexión cultural.",
+      "estrategia": "• Ejercicios de comprensión: Identificación de estructura (inicio, desarrollo, desenlace).\n• Ejercicios de vocabulario: Sinónimos contextuales.\n• Análisis de personajes: Descripción con adjetivos.\n• Reflexión: Comparación cultural (bromas de abril).",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre las diferencias culturales entre países (bromas de abril en Francia vs. bromas en República Dominicana), conectando así el aprendizaje con su propia identidad cultural.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de vocabulario: Se les proporciona una lista de posibles sinónimos para que elijan el más adecuado en la actividad 2.\n• Para estudiantes kinestésicos: En la actividad 1, pueden usar colores diferentes para marcar las partes de la anécdota.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que escriban un breve párrafo opinando si estarían de acuerdo con pagar por un cañonazo diario como hizo Coventry.",
+      "actividades_cuaderno": "1. Copia en tu cuaderno las tres partes de una anécdota: inicio, desarrollo y desenlace.\n2. Elige tres palabras nuevas de la anécdota y escribe su significado.\n3. ¿En qué se diferencian las bromas de abril en Francia de las que hacemos en República Dominicana?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan la anécdota que leímos la clase pasada? ¿De qué trataba?\"\n2. Anuncia que hoy realizarán actividades para comprender mejor el texto.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del texto \"El cañonazo de las doce\"\n• Cuadernos\n• Lápices\n• Pizarra",
+          "descripcion": "1. El docente presenta la actividad 1 (pág. 44): \"Encierra en un cuadrado el inicio, en un óvalo el desarrollo y en un rectángulo el desenlace.\" Los estudiantes trabajan en su copia del texto.\n2. Socializan: explican las características de cada parte.\n3. Actividad 2 (pág. 44): Sustituir palabras destacadas por sinónimos contextuales. Trabajan individualmente y socializan.\n4. Actividad 3 (pág. 44): Explicar el significado de la frase \"la propuesta más estrafalaria\".\n5. Actividad 4 (pág. 44): Describir a Thomas Coventry y a la señora Coventry usando adjetivos calificativos.\n6. Actividad 5 (pág. 44): Opinar sobre las acciones del alcalde François Malausséna. ¿Son éticas?\n7. Actividad 6 (pág. 44): Reflexionar sobre las bromas de abril en Francia y comparar con República Dominicana (¿Hacemos esto? ¿En qué fecha? ¿Qué nombre recibe?).\n8. Actividad 7 (pág. 44): Evaluar el hecho que se relata.\n9. Actividad 8 (pág. 44): Identificar expresiones que dan idea de temporalidad.",
+          "actividad_numero": "Comprensión escrita (Actividades 1-8, pág. 44)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente socializa las respuestas más relevantes, especialmente las de las actividades 5, 6 y 7.\n2. Destaca la importancia de la honestidad y la ética.\n3. Anuncia que en la próxima clase se dedicarán a la producción escrita de una anécdota.",
+          "actividad_numero": "Cierre"
+        }
+      ]
+    },
+    {
+      "id": "1772117423793",
+      "sequence_id": "seq-1772114115790",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción escrita",
+      "intencion_pedagogica": "Planificar y redactar el primer borrador de una anécdota sobre una persona destacada del país o del mundo, siguiendo la estructura y características del género.",
+      "estrategia": "• Diálogo dirigido: Elección de tema y propósito.\n• Uso de organizador gráfico: Planificación de la anécdota (Anexo 2).\n• Trabajo colaborativo: Socialización de ideas en grupos.\n• Redacción de borrador: Textualización.\n• Revisión guiada: Uso de lista de verificación.",
+      "aprendizaje_significativo": "Los estudiantes escriben sobre personas destacadas del país o del mundo, conectando así la producción escrita con personajes históricos o culturales que admiran o conocen.",
+      "actividades_complementarias": "• Para estudiantes con dificultades para elegir persona destacada: El docente sugiere una lista de opciones (Juan Pablo Duarte, Salomé Ureña, Ercilia Pepín, etc.).\n• Para estudiantes kinestésicos: Pueden hacer un pequeño dibujo de la persona sobre la que escribirán mientras piensan en la anécdota.\n• Para estudiantes con discapacidad visual: El organizador gráfico se les proporciona en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen más detalles sobre la persona elegida para enriquecer su anécdota.",
+      "actividades_cuaderno": "Título: Planificando mi anécdota\n1. ¿Sobre qué persona destacada vas a escribir tu anécdota?\n2. Copia el organizador gráfico que llenaste en clase (Inicio, Desarrollo, Desenlace, Evaluación).\n3. Escribe el primer párrafo de tu anécdota (la presentación).",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente explica que van a escribir una anécdota sobre hechos ocurridos a personas destacadas del país o del mundo (pág. 47).\n2. Guía un diálogo: \"¿Sobre qué persona les gustaría escribir? ¿Con qué propósito? (hacer reír, dejar una enseñanza, compartir información)\".\n3. Los estudiantes escriben en su cuaderno el destinatario y el propósito de su texto.\n4. El docente presenta la consigna de producción (pág. 47).",
+          "actividad_numero": "Producción escrita (Pre-escritura, pág. 47"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Organizador gráfico (Anexo 2, pág. 50) en la pizarra o fotocopiado\n• Cuadernos\n• Lápices",
+          "descripcion": "Actividad 1 - Presentación del organizador gráfico (10 min):\n1. El docente entrega o dibuja en la pizarra el organizador gráfico (Anexo 2, pág. 50).\n2. Explica cada parte: Inicio (presentación de persona/s, lugar, tiempo), Desarrollo (relato del hecho/s), Desenlace (resolución), Evaluación (comentario).\n\nActividad 2 - Planificación individual (15 min):\n1. Los estudiantes llenan el organizador en su cuaderno con las ideas para su anécdota (pág. 47).\n2. El docente circula y apoya a quienes tengan dificultades.\n\nActividad 3 - Socialización en grupos (15 min):\n1. El docente forma grupos pequeños.\n2. Los estudiantes comparten las ideas que organizaron en su esquema (pág. 47).\n3. Los compañeros ofrecen sugerencias y comentarios.\n\nActividad 4 - Escritura del primer borrador (20 min):\n1. Después de la socialización, los estudiantes comienzan a escribir su primer borrador (pág. 47).\n2. El docente circula por el aula, ofreciendo apoyo personalizado y resolviendo dudas.",
+          "actividad_numero": "Producción escrita (Durante la escritura, pág. 47-48)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Lista de criterios de revisión (pág. 48) en la pizarra o fotocopiada",
+          "descripcion": "1. El docente presenta el instrumento de revisión (pág. 48) en la pizarra o fotocopiado:\n- ¿Está claro el hecho sobre el cual trata la anécdota?\n- ¿Queda clara la intención de la anécdota?\n- ¿Se distinguen las partes de la anécdota en tu borrador?\n- ¿En el inicio presentaste los personajes, el lugar y el tiempo?\n- ¿El desarrollo presenta el relato de los hechos sucedidos?\n- ¿La anécdota posee un desenlace evidente?\n- ¿El vocabulario es apropiado a los lectores?\n- ¿Utilizaste verbos en pasado y la primera y tercera persona gramatical?\n- ¿Empleaste marcadores de orden, temporales y causales?\n- ¿Utilizaste adjetivos para calificar las personas y hechos?\n- ¿Has sido cuidadoso con la ortografía?\n2. Los estudiantes revisan su propio borrador con la lista.\n3. El docente indica: \"Si contestaste NO a alguna pregunta, debes volver a revisar esa parte de tu texto.\"\n4. Anuncia que en la próxima clase (o como tarea) continuarán con la revisión entre pares y la versión final.",
+          "actividad_numero": "Producción escrita (Revisión, pág. 48)"
+        }
+      ]
+    }
+  ]
+}

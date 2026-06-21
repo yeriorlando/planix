@@ -1,0 +1,427 @@
+{
+    "id": "secuencia-1-matematica-3ro",
+    "sequenceId": "secuencia-1-matematica-3ro",
+    "title": "¡EMPEZAMOS TERCER GRADO!",
+    "subject": "matematica",
+    "grade": "3ro",
+    "blocks": [
+        {
+            "id": "block-mat-3ro-1",
+            "title": "Bloque 1",
+            "blockNumber": 1,
+            "activities": [
+                {
+                    "title": "Actividad de bienvenida",
+                    "pedagogicalIntention": "Conversen sobre las clases de matemática y sobre cómo vamos a trabajar durante el año.",
+                    "resources": "Calendario para el salón de clases, un papelógrafo en blanco, una hoja en blanco y un lápiz por estudiante o pareja de estudiantes, lupa (opcional). Las lupas se pueden dibujar y recortar en cartón y unirlas a un palito de helado (con ayuda del docente, recortar el círculo interno y pegar un trozo de folio o plástico transparente o papel de calcar, luego unir al palito).",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Conversar sobre el trabajo en matemática este año",
+                            "description": "El docente propone una conversación acerca de cómo fue el trabajo anterior en matemática. Es importante recuperar sus sensaciones y percepciones por lo cual se sugiere escuchar a todos los estudiantes y registrar, en lo posible, las respuestas en torno a preguntas como: ¿cómo se sienten cuando trabajan en matemática? ¿Cómo dirían que es una clase de matemática? ¿Qué cosas les gustó aprender? ¿Cuáles les resultaron difíciles? ¿Por qué? ¿Qué les gustaría hacer en las clases de matemática en tercer grado? ¿Qué puede aportar cada uno para que todos puedan aprender en las clases de matemática? Es deseable escribir en un papelógrafo algunos principios o ideas importantes para la clase de matemática."
+                        },
+                        {
+                            "title": "Momento 2. Recitar series numéricas",
+                            "description": "El docente divide a la clase en 3 grupos y se posiciona enfrente de todos con un objeto similar a una batuta. Explica que será el director de la orquesta e indicará desde qué número comenzar y de a cuánto contar oralmente, por ejemplo: de a 10 empezando en 100. Con la batuta irá apuntando qué grupo continúa, al unísono, el recitado. Se proponen otros conteos orales ascendentes y descendentes."
+                        },
+                        {
+                            "title": "Momento 3. Quiénes cumplen años este mes",
+                            "description": "Se propone recuperar las rutinas sugeridas para primero y segundo, avanzando además en introducir o recuperar el término “semana” y la cantidad de días que contiene, la cantidad de días por mes, que no todos los meses tienen igual cantidad de días, etc. Se podrán plantear preguntas utilizando el calendario."
+                        },
+                        {
+                            "title": "Momento 4. Somos detectives",
+                            "description": "Se organiza al grupo para el trabajo individual o en parejas. El docente plantea ser detectives de números. Saldrán a recorrer el centro y cada detective (o pareja) deberá ir atento a descubrir números en el recorrido y anotarlos. Al volver, en una puesta en común, cada detective lee uno de los números encontrados y comenta dónde lo vieron y qué creen que representa."
+                        },
+                        {
+                            "title": "Momento 5. Descifrar la clave",
+                            "description": "Esta rutina puede hacerse tanto para salir como para entrar del recreo o en alguna otra ocasión. Los estudiantes forman una fila y el docente explica que para salir (o entrar) del aula tienen que descifrar la clave que les dará (responder adecuadamente a preguntas matemáticas como mostrar dedos, cálculos simples, etc.)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "Lean, escriban y ordenen números menores o iguales a 100.",
+                    "resources": "Tarjetas del 0 al 100 de 10 en 10, recortables del fascículo para cada estudiante. Cuadro con los números del 0 al 100 pegado en un lugar visible del aula. Cuadro personal de números, recortable del fascículo. Este cuadro deberá estar preparado antes de la clase (recortado, pegado en cartón o cartulina y cubierto con cinta adhesiva transparente) y los estudiantes lo guardarán en un sobre pegado a la tapa del cuaderno. Papelógrafo de aprendizajes.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Ubicar 73, 15, 47, 8, 96 y 21 en la recta numérica. Se solicita traer una funda con media taza de habichuelas o semillas (entre 50 y 100 unidades).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes",
+                            "description": "El docente explica qué es el papelógrafo de aprendizajes. Lo tendrán al inicio de cada secuencia y presenta los aprendizajes esperados al trabajar en ella. Lee el texto junto con sus estudiantes: 1. Leer, escribir y ordenar números pequeños para avanzar luego con números mayores. 2. Resolver problemas. 3. Resolver cálculos y recordar algunos resultados."
+                        },
+                        {
+                            "title": "Momento 2. Leer y escribir números de dos dígitos",
+                            "description": "El docente escribe en la pizarra varios números de dos dígitos y pide a los estudiantes que los lean. Se indica el título para el cuaderno: Repasamos los números. Se entrega el cuadro de números y se dicta dos números de dos dígitos para que los escriban en el cuaderno. Se analizan escrituras, ubican números en el cuadro y dicen anteriores y posteriores. Durante el recorrido docente se observan y corrigen escrituras."
+                        },
+                        {
+                            "title": "Momento 3. Orden de la serie de 10 en 10",
+                            "description": "Se reparten las tarjetas con la serie de 10 en 10. Cada estudiante las mezcla y las ordena de mayor a menor. Se indica copiarlos ordenados en el cuaderno. Luego se pide ordenarlas de menor a mayor. Se les pide buscar en el fascículo la actividad 1 y completarla en la recta numérica."
+                        },
+                        {
+                            "title": "Momento 4. Decir entre qué números de la serie de 10 en 10 está otro",
+                            "description": "El docente nombrará cuatro números de dos dígitos distintos de 0 y uno de un dígito y los estudiantes tienen que ubicarlos en su recta numérica en el fascículo. Se pregunta: ¿entre qué números de la serie de 10 en 10 está el número...? Se pide colorear dígitos y reflexionar sobre cómo identificar la ubicación."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "Estimen y verifiquen la cantidad de elementos de una colección. Decir entre qué números de dos cifras terminados en 0 está una cantidad.",
+                    "resources": "Habichuelas, semillas u otros solicitados en la actividad anterior, tarjetas del 0 al 100 con la serie de 10 en 10 ya recortadas para la actividad 1.",
+                    "homework": "Recortar y pegar del fascículo y pegar en el cuaderno: Llenar alrededor de media taza de habichuelas o semillas, estimar cuántas hay y luego verificar. Ubicar ambos números en la recta numérica.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "El docente revisa las respuestas individuales en los cuadernos. Luego, los agrupa en parejas para comparar sus respuestas y verificar si coincidieron en la identificación de los números entre las decenas correspondientes."
+                        },
+                        {
+                            "title": "Momento 2. Recitar la serie de 10 en 10",
+                            "description": "El docente elige un número cualquiera terminado en 0 e inicia un recitado oral ascendente de a 10. Va nombrando a sus estudiantes para que cada uno diga el número siguiente. Se acompaña anotando en la pizarra. Luego propone recitados descendentes."
+                        },
+                        {
+                            "title": "Momento 3. Estimar y contar cantidades medianas",
+                            "description": "Se indica el título para el cuaderno: Contamos mucho. Cada estudiante coloca las habichuelas sobre la butaca, anota su estimación en el fascículo y luego las cuenta para verificar. Deben anotar el resultado y decidir entre qué números terminados en 0 está. Buscan la actividad 2 del fascículo."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "Identifiquen los lugares de las unidades, las decenas y las centenas y los valores posicionales de las cifras que allí están.",
+                    "resources": "Tarjetas ya recortadas del 0 al 90 de 10 en 10; tarjetas recortables del fascículo del 0 a 9 de 1 en 1 y del 0 al 900 de 100 en 100.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Observar los números dados y realizar lo que se pide: 687, 234, 462, 951. A. Colorear el mayor de los 4 números. B. Encerrar en un círculo el menor de los 4 números. C. Indicar el lugar de las unidades, de las decenas y de las centenas en el mayor y el menor de los números.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "El docente invita a compartir cómo hicieron para estimar y contar las habichuelas. Se intercambian cuadernos para ver la ubicación de los números en la recta numérica y los compañeros deciden si es correcto."
+                        },
+                        {
+                            "title": "Momento 2. Recitar la serie de 10 en 10 y de 100 en 100",
+                            "description": "El docente pide al grupo que recite la serie de 10 en 10 hasta el 100 a partir de un número dado. Se repite con la serie de 100 en 100 hasta el 1,000."
+                        },
+                        {
+                            "title": "Momento 3. Obtener el mayor número",
+                            "description": "Se indica el título: Jugamos al mayor. Juego: El mayor. Se organizan grupos de 4. Cada uno toma tarjetas de unidades, decenas y centenas, las suma y escribe el cálculo. Gana quien obtiene el mayor número. Se sistematiza el valor posicional."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "El docente elige números con mismo dígito en diferentes lugares (ej. 245 y 508) y pregunta cuánto vale. Se sistematizan los nombres de los lugares: unidad, decena, centena. Cada estudiante anota en su cuaderno el número menor que obtuvo y replica el modelo de la pizarra."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "Resuelvan situaciones problemáticas de compra.",
+                    "resources": "Billetes simulados recortables del fascículo. Actividad 4 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Anotar qué conoces y qué quieres averiguar. Resolver el problema y escribir la respuesta completa. Considerar los precios de la librería “La escuela”: A. Antonia va a la librería... B. Marcos tiene RD$100...",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "El docente copia en la pizarra los números de la tarea. Solicita a estudiantes que muestren respuestas. Aprovecha para preguntar sobre el valor posicional de los dígitos."
+                        },
+                        {
+                            "title": "Momento 2. Sumar números de dos dígitos terminados en 0 y de tres dígitos terminados en 00",
+                            "description": "Título: Compramos útiles. Se busca la actividad 4 del fascículo. Se observan precios. Se lee y resuelve el primer problema (Juan compra...). Se pide copiar información conocida y a averiguar. Se resuelve en el cuaderno."
+                        },
+                        {
+                            "title": "Momento 3. Restar números de dos dígitos terminados en 0 y de tres dígitos terminados en 00",
+                            "description": "Se abordan los otros dos problemas (Luci y Josías). Se hace recorrido docente y puesta en común. Se orienta sobre la operación (resta/devuelta) y el cálculo (complementos a 100)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "Fortalezcan la estrategia de descomposición de cantidades según el valor posicional para resolver sumas de números de tres dígitos.",
+                    "resources": "8 billetes de RD$100 y 10 monedas de RD$10 (ya recortados para la actividad anterior). Actividad 5 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo lo que se conoce y lo que se quiere averiguar. Hacer el cálculo y anotar la respuesta completa. Considerar los nuevos precios de la librería “La escuela”: Para comprar un pegamento y una lonchera, ¿cuánto dinero gastarías?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "El docente solicita que compartan las resoluciones de los problemas de la tarea, atendiendo a las estrategias de resolución empleadas."
+                        },
+                        {
+                            "title": "Momento 2. Descomponer aditivamente los números para sumarlos",
+                            "description": "Título: ¿Qué podemos comprar? Se busca la actividad 5 del fascículo con la nueva lista de precios. Se resuelve el problema de qué se puede comprar con 7 billetes de 100 y 9 monedas de 10. Se hace recorrido docente y puesta en común."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se pregunta cómo sumaron estos números de tres dígitos. Se anota en el cuaderno la conclusión: Se suman entre sí las decenas, las centenas y se vuelve a sumar esos resultados."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "Resuelvan problemas en los que una cantidad se repite cierto número de veces.",
+                    "resources": "Actividad 6 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver los siguientes problemas escribiendo qué se conoce y qué se quiere averiguar. Escribir las respuestas completas: A. La maestra compró 6 cajas de sacapuntas... B. En la escuela se compraron 6 cajas de marcadores...",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se invita a estudiantes a copiar en la pizarra su resolución y respuesta completa a la tarea. Se solicita que expliquen por qué eligieron la suma y cómo realizaron el cálculo."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema multiplicativo con diversas estrategias",
+                            "description": "Título: ¿Cuántos hay en varias cajas iguales? Se busca la actividad 6. Se resuelve el problema A (3 cajas de 5 lápices). Se hace recorrido docente y puesta en común, invitando a exponer distintas estrategias (concreto, dibujo, suma reiterada, multiplicación)."
+                        },
+                        {
+                            "title": "Momento 3. Resolver otro problema multiplicativo",
+                            "description": "Se resuelve el problema B (5 cajas de 50 lápices). Se evidencia la dificultad de dibujar 50 lápices para promover la suma reiterada o multiplicación. Puesta en común."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se revisan los problemas. Se registra la conclusión en el cuaderno: Averiguamos el total multiplicando las cantidades o sumando las cantidades iguales que se repiten."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "Diferencien un problema de adición de uno de multiplicación.",
+                    "resources": "Actividad 7 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver los siguientes problemas y escribir la respuesta completa: A. A la escuela llegaron 7 cajas con 20 juguitos... B. La profesora tenía 7 cartulinas y la directora le llevó 20...",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "En plenario, se invita a copiar la resolución y respuesta en la pizarra. Se comentan estrategias y se concluye reforzando la importancia de las sumas reiteradas o multiplicación para cantidades que se repiten."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema aditivo",
+                            "description": "Título: Comparamos problemas. Se busca la actividad 7. Se resuelve el problema A (quedaban 5 tizas y compraron 40). Se hace recorrido docente y puesta en común destacando que es un problema de suma."
+                        },
+                        {
+                            "title": "Momento 3. Resolver un problema multiplicativo",
+                            "description": "Se resuelve el problema B (5 cajas de 40 tizas). Se orienta sobre la diferencia con el anterior. En la puesta en común se comparan ambos problemas y estrategias."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se conversa sobre por qué en unos problemas se suman los números y en otros no (veces). Se copia en el cuaderno: Hay problemas en los que una cantidad indica cuántas veces hay que sumar a la otra."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 8",
+                    "pedagogicalIntention": "Reconozcan patrones en la organización los números de tres dígitos, los ordenen y determinen anteriores y posteriores a un número.",
+                    "resources": "Cuadro de números de dos dígitos del salón. Actividad 8 del fascículo. Tarjetas del 100 al 900 ya recortadas y tarjeta de 1,000 a recortar en actividad 8.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: A. Escribir tres números de tres dígitos con diferentes decenas y que no terminen en 9 o en 0. B. Ordenarlos de mayor a menor. C. Escribir el anterior y el posterior de cada uno.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se invita a estudiantes a copiar resolución y respuesta de los problemas. Se solicita explicar por qué en uno se sumaron números y en otro no. Se refuerza la multiplicación cuando una cantidad se repite."
+                        },
+                        {
+                            "title": "Momento 2. Leer números de tres dígitos",
+                            "description": "Se busca la actividad 8. El docente distribuye números del 1 al 9 para completar el dígito de las centenas en el cuadro. Se analizan las tarjetas de centenas y los cuadros completados."
+                        },
+                        {
+                            "title": "Momento 3. Ordenar números de tres dígitos",
+                            "description": "Título: Los números de tres cifras. El docente propone un dígito y los estudiantes colorean un número que termine en ese dígito. Se leen y escriben en la pizarra. Se ordenan de mayor a menor. Se destaca el valor de las centenas para ordenar."
+                        },
+                        {
+                            "title": "Momento 4. Anteriores y posteriores",
+                            "description": "El docente dicta un número de dos cifras (no terminado en 9 o 0). Estudiantes lo buscan en el cuadro y escriben el anterior y posterior. Puesta en común."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "Vinculen la lectura de los números de tres cifras con el valor posicional de las centenas, las decenas y las unidades.",
+                    "resources": "Cuadro numérico a 100 del salón, cuadro personal de números, cuadros de números de la actividad 8 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Colorear lo que tienen en común las siguientes series: 320 321... 520 521... 820 821...",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparan respuestas con el cuadro numérico. Se invita a estudiantes a leer números elegidos y sus anteriores/posteriores. Se insiste en el criterio de comparación por centenas."
+                        },
+                        {
+                            "title": "Momento 2. Organización de los números de tres dígitos",
+                            "description": "Se busca la actividad 8. Se colorea en el cuadro los números con un 7 en las decenas. Se leen y escriben series en la pizarra. Se comparan con el cuadro de dos dígitos."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Se indica colorear la fila con decena 8 en todos los cuadros. Se intercambia oralmente sobre lo común y diferente."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "Apliquen equivalencias entre decenas y centenas y entre centenas y unidad de mil, en situaciones de compra y venta.",
+                    "resources": "Para cada estudiante, 12 o 13 monedas de RD$1; 12 o 13 billetes de RD$100, y 1 billete de RD$1,000 (algunos billetes y monedas simulados ya fueron recortados para la actividad 4).",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver y escribir la respuesta completa. A. Sofía tiene un billete de RD$1,000 y necesita cambiarlo... B. Luis llevó 10 billetes de RD$100 al banco...",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "El docente solicita escribir las series en la pizarra y colorear lo común. Se continúa con preguntas de la actividad anterior."
+                        },
+                        {
+                            "title": "Momento 2. Relacionar decenas con centenas y centenas con unidades de mil",
+                            "description": "Título: Cambiamos billetes y monedas. Se busca actividad 10. Se resuelve problema A (paquetes de monedas y billetes). Se trabaja la equivalencia 10 decenas = 1 centena, 10 centenas = 1 unidad de mil."
+                        },
+                        {
+                            "title": "Momento 3. Relacionar centenas con decenas y unidades de mil con centenas",
+                            "description": "Se resuelve problema B (cambio de billetes). Se enfatiza la relación inversa: cuántas monedas/billetes se reciben al cambiar uno de mayor valor."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se recupera el trabajo con preguntas sobre cuántas decenas forman una centena, etc. Se copia en el cuaderno: Con 10 decenas armo 1 centena... Con 10 centenas armo 1 unidad de mil..."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 11: Recapitulación",
+                    "pedagogicalIntention": "Repasen algunos de los contenidos trabajados.",
+                    "resources": "Papelógrafo de aprendizajes, una hoja en blanco para cada estudiante, actividad 11 del fascículo, 1 billete de RD$1,000 y 11 o 12 de RD$100 recortados en actividades anteriores.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se invita a estudiantes a leer respuestas. Se destaca que cada unidad de mil se puede canjear por 10 centenas y viceversa."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Se revisa cada actividad del bloque y se registra la fecha en el papelógrafo de aprendizajes."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido",
+                            "description": "Título: Repasamos lo trabajado. Actividad 11. Se resuelve A (recta numérica). Se entrega hoja para dictado de números y resolución de ítems B y C. El docente toma nota de quiénes necesitan apoyo."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "block-mat-3ro-2",
+            "title": "Bloque 2",
+            "blockNumber": 2,
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 12",
+                    "pedagogicalIntention": "Reconozcan patrones numéricos al sumar y restar 10 y 100.",
+                    "resources": "Una calculadora para cada estudiante o para cada equipo de dos. Actividad 12 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Completar los espacios en blanco con los resultados de las sumas y restas... 325 + 10... 463 - 10... 276 + 100... 878 - 100...",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Retroalimentación",
+                            "description": "El docente entrega hojas y fascículos con devoluciones. Presenta ítems mejor resueltos y errores comunes."
+                        },
+                        {
+                            "title": "Momento 2. Presentar el uso de la calculadora",
+                            "description": "El docente recuerda o explica cómo hacer sumas y restas en la calculadora."
+                        },
+                        {
+                            "title": "Momento 3. Resolver cálculos con la calculadora",
+                            "description": "Se busca actividad 12. Se resuelven sumas y restas (+10, -10, +100, -100). Puesta en común dictando resultados y coloreando el dígito que cambia."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se elaboran conclusiones: Al sumar o restar 10 cambia el dígito de las decenas. Al sumar o restar 100 cambia el dígito de las centenas."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 13",
+                    "pedagogicalIntention": "Reconozcan patrones numéricos al sumar y restar 10 y 100.",
+                    "resources": "Una calculadora para cada estudiante o para cada equipo de dos, actividad 13 del fascículo, un papelógrafo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver los siguientes cálculos usando la calculadora si es que la necesitas. 490 + 10 = ... 600 - 10 = ...",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Estudiantes leen respuestas. Se pregunta qué cifra cambió y por qué. Se resalta que cambia decenas con +/-10 y centenas con +/-100."
+                        },
+                        {
+                            "title": "Momento 2. Nuevos patrones numéricos con calculadora",
+                            "description": "Título: Otros dígitos, otros cambios. Actividad 13. Se resuelven cálculos donde hay cambios (reagrupamientos) al sumar/restar 10 o 100 (ej. 390 + 10). Se colorean los dígitos que cambian (dos dígitos)."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Conclusiones: Si en las decenas hay un 9 cuando sumamos 10, cambian las decenas y las centenas. Si hay un 0 cuando restamos 10, cambian las decenas y centenas."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 14",
+                    "pedagogicalIntention": "Resuelvan problemas de “veces”.",
+                    "resources": "Una calculadora para cada estudiante o para cada equipo de dos. Actividad 14 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver los siguientes problemas usando la calculadora y escribir la respuesta completa: A. En la Dirección hay 21 cajas... B. Se recibieron 14 cajas...",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten respuestas. Se pregunta cómo usaron la calculadora y qué cambios observaron en los dígitos (cambios de dos dígitos)."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas de multiplicación con sumas reiteradas",
+                            "description": "Título: ¿Cuántos hay en total? Actividad 14. Se resuelve problema A (5 cajas de 30 marcadores). Se hace recorrido docente y puesta en común, notando la eficiencia de la suma reiterada sobre el dibujo."
+                        },
+                        {
+                            "title": "Momento 3. La multiplicación y el signo x",
+                            "description": "Se resuelve problema B (13 cajas de 12 lápices). Se introduce/recuerda la multiplicación y el signo x como operación para resolver problemas de veces. Se usa la calculadora."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "En los cuadernos: Para averiguar el total en los problemas de veces, usamos la multiplicación."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 15",
+                    "pedagogicalIntention": "Diferencien los problemas que solo se pueden resolver sumando de los que se pueden resolver también con una multiplicación.",
+                    "resources": "Actividad 15 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno. Resolver, escribir qué se conoce, qué se quiere averiguar y la respuesta completa. Puedes usar la calculadora: A. En la escuela hay 7 estantes... B. La directora compró 3 cajas...",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisan respuestas y procedimientos. Se refuerza que la multiplicación es una forma rápida de sumar muchas veces el mismo número."
+                        },
+                        {
+                            "title": "Momento 2. Un problema de suma",
+                            "description": "Título: Resolvemos. Actividad 15. Se resuelve problema A (Mariana compra barra adhesiva y tijera). Se identifica que es una suma de cantidades distintas."
+                        },
+                        {
+                            "title": "Momento 3. Un problema de multiplicación",
+                            "description": "Se resuelve problema B (8 cajas de 6 témperas). Se identifica que es una cantidad que se repite (multiplicación)."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se comparan los problemas. Se concluye: Problemas de suma: se suman dos cantidades dadas, pueden ser iguales o no. Problemas de multiplicación: se suma reiteradamente una cantidad tantas veces como indica la otra."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 16: Producción Final",
+                    "pedagogicalIntention": "Repasen contenidos trabajados.",
+                    "resources": "Una hoja para completar y entregar por alumno. Tarjetas del 0 al 9 de unidades, del 10 al 90 de decenas y de centenas del 100 al 900, recortadas en actividades anteriores.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisan los problemas de tarea. Se refuerza el uso de multiplicación para problemas de veces."
+                        },
+                        {
+                            "title": "Momento 2. Presentar el trabajo a realizar en el día",
+                            "description": "Trabajo en grupos de 4 con hoja individual. Se eligen dos de tres juegos: a) Elegimos el mayor (armar número mayor con tarjetas), b) Elegimos el menor (reiterar número de dos dígitos según tarjeta de un dígito), c) Nuevamente elegimos el mayor (sumar tarjetas y variar). Finalizar con actividades de colorear mayor/menor, valor posicional y cálculos."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 17: Cierre y metacognición",
+                    "pedagogicalIntention": "Reflexionen sobre lo realizado y aprendido durante la secuencia.",
+                    "resources": "Papelógrafo de aprendizajes, hojas de producción final con la retroalimentación escrita en cada una.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Entregar las producciones con la retroalimentación",
+                            "description": "El docente devuelve producciones con comentarios y valora el esfuerzo."
+                        },
+                        {
+                            "title": "Momento 2. Revisar la retroalimentación para consolidar los saberes principales",
+                            "description": "Se copian números y cálculos de los juegos en la pizarra. Se explican resoluciones y dificultades."
+                        },
+                        {
+                            "title": "Momento 3. Reflexión metacognitiva",
+                            "description": "Título: Mi trabajo en estas semanas. Preguntas: A. ¿Qué actividad les gustó más? B. ¿En qué actividad tuvieron más dificultades? C. ¿Qué aprendí en estas semanas? Diálogo."
+                        },
+                        {
+                            "title": "Momento 4. Revisar el papelógrafo de aprendizajes de la secuencia",
+                            "description": "Se revisa lo trabajado desde actividad 11 y se registran fechas. Se cierra el papelógrafo."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,324 @@
+{
+    "sequenceId": "seq-mat-3-1ro",
+    "subjectId": "matematica-1ro",
+    "sequenceTitle": "El Circo",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1: Usamos números en situaciones cotidianas",
+            "activities": [
+                {
+                    "title": "Actividad 1",
+                    "pedagogicalIntention": "identifiquen patrones para resolver sumas de 1 y 10.",
+                    "resources": "cuadro de números hasta el 100 en el salón. Cuadro personal de números. Papelógrafo elaborado por el docente con los cálculos organizados tal como se presentan en el fascículo. Actividad 1 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nResolver con ayuda del cuadro de números:\n37 + 1 = ____ 37 + 10 = ____\n37 - 1 = ____ 37 - 10 = ____",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes.",
+                            "description": "El docente lee y comenta los diferentes aprendizajes que se procura lograr en los próximos días.\nEN ESTAS SEMANAS TRABAJAREMOS PARA:\n1. Aprender algo más sobre los números de dos cifras.\n2. Encontrar sumas que dan iguales.\n3. Resolver problemas donde se suman y restan cantidades con distintos procedimientos.\n4. Conocer los nombres de algunas figuras geométricas."
+                        },
+                        {
+                            "title": "Momento 2. Sumar y restar 1 y 10.",
+                            "description": "El docente pregunta al grupo: ¿qué es el circo? ¿Alguna vez fueron a uno? ¿Qué se puede ver en el circo? Al finalizar este intercambio comenta que en los próximos días resolverán situaciones vinculadas al circo y continúa: en un circo tienen un cuadro con los números de las butacas para la venta de entradas como el del teatro, ¿lo recuerdan?\nMientras el docente pega en la pizarra el papelógrafo con el cuadro de números hasta el 100, solicita a sus estudiantes que busquen el cuadro personal de números y comenta: ustedes tienen también un cuadro con los números ordenados. ¿En qué se parecen los números de una misma fila?, ¿en qué cambian? ¿Y los números de una misma columna? ¿En qué se diferencian los números de la primera y los de la segunda fila?\nMientras pregunta, se señalan las filas y columnas, respectivamente. El docente reitera las preguntas señalando las filas del cuarenta y el sesenta. Pide a los estudiantes que lean los números de esas filas. Luego introduce la nueva situación: el mago del circo está hoy encargado de la venta de entradas y para entretener más a los compradores, ofrece las entradas disponibles presentándoles en voz alta este enigma: yo elijo un número del tablero de entradas, lo digo en voz alta y el comprador puede solicitar alguna de las entradas que sean 1 más, 1 menos, 10 más o 10 menos que ese número. Por ejemplo, dice: elijo la entrada 25, ¿qué número es 1 más que 25?, ¿y uno menos que 25?\nEl docente les pide que busquen los números de butacas posibles. Pueden usar el cuadro personal para ayudarse. Invita a algunos estudiantes a mostrar en el papelógrafo cómo encuentran 1 más y 1 menos que 25. Del mismo modo, pregunta por el número que es 10 más que 25, y el que es 10 menos. Otro estudiante pasa al papelógrafo a mostrar cómo avanzar y retroceder 10 a partir del 25. Es útil que señalen con los dedos los movimientos y números por los que va avanzando y como se hizo en actividades de la secuencia anterior. Se les comenta que ellos calcularán ahora con otros números y, luego, analizarán los resultados para encontrar alguna forma más fácil de obtenerlos sin tener que contar.\nSe da el mandato: buscar en la actividad 1 del fascículo el cuadro donde están los números que dijo el mago. Son los que están encerrados con un círculo rojo.\nCompletar en el cuadro los números que obtienen sumando y restando 1 y 10, y los cálculos correspondientes a medida que los van resolviendo."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "A partir de los aportes de los estudiantes, se les pide que copien como título del cuaderno: Sumar y restar 1 y 10. Comienza una serie de preguntas mientras escribe en la pizarra, utilizando nuevamente colores, los nuevos cálculos y sus resultados. Pregunta: ¿cuánto es 46 + 1? ¿Y 78 - 1? Si ahora quiero sumar 24 + 10, ¿cómo puedo encontrar el resultado sin contar? Y si quiero restar 10 a 97, ¿cuánto obtendré?\nSe indica copiar en el cuaderno los cálculos de la pizarra:\n46 + 1 = 47 78 - 1 = 77\n24 + 10 = 34 97 - 10 = 87\nAl hacer + 1 o - 1 a un número, cambia el último dígito.\nAl hacer + 10 o - 10 a un número, cambia el dígito de adelante."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 2",
+                    "pedagogicalIntention": "identifiquen el anterior y el siguiente o posterior de un número en el cuadro a 100.",
+                    "resources": "cuadro personal de números; papelógrafo con el cuadro de números completo del salón, lápices de colores. Actividad 2 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nEscribir cinco números que terminen en 3, uno debajo del otro, y al lado de cada uno su siguiente.\nNúmero terminado en 3: | Su siguiente:\n___ | ___",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Se invita a varios estudiantes a compartir la tarea de la actividad anterior. Se revisa y corrige atendiendo a las dudas y reforzando el significado de sumar y restar 1 y 10. Pueden avanzar y retroceder en el cuadro de números según sea el caso."
+                        },
+                        {
+                            "title": "Momento 2. Patrones en los siguientes y los anteriores de un número.",
+                            "description": "Se comenta a los estudiantes: en el circo había mucha gente para sacar entradas. Por eso, se decidió organizar a los interesados. Debían retirar un número para ser atendidos. Se repartieron números menores a 100. Johana decide que se acercará a la ventanilla cuando llamen al número anterior al que tiene. ¿Cuál número piensan que tiene Johana? Para ayudarse, los invita a sacar el cuadro numérico personal. Indica el título para el cuaderno: ¿Cuál sigue? Cuando todos colocaron el título y tienen el cuadro en la mano, les dice: Johana escuchó que el número que dijeron termina en 5, ¿cuál número pueden haber mencionado? ¿Hay una única posibilidad? ¿Dónde pueden encontrar todos los números posibles? De a uno a la vez irá pidiendo que lean los números terminados en cinco. Luego solicita: cada uno elija 5 números terminados en 5 y los escribe en su cuaderno, uno debajo del otro, y colorea la última cifra de cada número. Una vez que observa que ya lo hicieron, pregunta: ¿qué notan? ¿Cuál es el siguiente en cada caso? En el mismo renglón, al lado de cada número escrito, anoten su siguiente y también coloreen, pero con otro color, el último dígito. ¿Qué observan?\nEn la puesta en común pide a un estudiante que lea los números terminados en cinco que escribió, diciendo el siguiente de cada uno. Si hay dificultades en la lectura, sugerir que ubiquen el número en el cuadro y, luego, el número terminado en 0 de la fila correspondiente: ¿cómo se lee ese número? ¿Cómo sigue la serie en esa fila? ¿Cómo se leen los que siguen? Vincular la lectura con cómo se lee la primera cifra que termina en 0 y luego la segunda cifra, por ejemplo: 65 está en la fila del 60. Este número se lee sesenta entonces 65 es sesenta porque empieza igual y luego cinco porque termina con 5. Es el sesenta y cinco. El docente solicita a varios estudiantes que lean los números y sus siguientes y los escribe en la pizarra: ¿qué tienen en común todos estos números, los siguientes de estos terminados en cinco? Anota la respuesta y les indica que la copien en el cuaderno debajo de la columna con los números escritos. Luego pregunta: el número que tiene Johana es mayor que 40 y menor que 50, ¿cuál número tiene Johana? Comenta que pueden mirar el cuadro de la actividad anterior en el fascículo para responder: ¿qué cálculo permite encontrar el siguiente? Indica elegir un número de los que escribieron y expresar el cálculo con el que se obtiene su siguiente. En el cuaderno quedará, por ejemplo:\n25 26 85 + 1 = 86\nEl docente propone mirar nuevamente las columnas de números de la pizarra: ¿cuál es el anterior a 26? ¿Y a 36? ¿Y a 46? ¿En qué terminan todos los anteriores a los terminados en 6? ¿Qué cálculo expresa el anterior a 86? Escriban debajo el cálculo que permita encontrar el anterior de 86, del resultado del cálculo registrado."
+                        },
+                        {
+                            "title": "Momento 3. Relacionar anteriores y siguientes.",
+                            "description": "El docente indica que busquen números terminados en 8 y digan su anterior. No pueden repetir los números ya dichos por sus compañeros. Al finalizar pregunta: ¿en qué terminan todos los anteriores de los números terminados en 8? Del mismo modo, pregunta por los siguientes a terminados en 7: ¿y los siguientes a los terminados en 7? Puede ser necesario anotar estos nuevos números para promover su análisis: ¿sucede siempre que si se sabe el siguiente de un número se puede saber dicho número porque es el anterior?"
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 3",
+                    "pedagogicalIntention": "ubiquen y escriban números en el cuadro numérico.",
+                    "resources": "actividad 3 del fascículo. Cuadro numérico personal. Cuadro del salón con los números que faltan en el cuadro numérico del fascículo tapados.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nAl iniciar la venta de entradas, en el circo tienen los cuadros completos.\nCompletar el cuadro con los números de las butacas que faltan para preparar la venta de entradas del domingo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Se pide que lean los números terminados en 3 que eligieron y sus siguientes: ¿en qué terminan todos los siguientes a los terminados en 3? Luego, que digan los anteriores de los números que anotaron como siguientes: ¿en qué terminan los anteriores de los números terminados en 4? Continúa preguntando: ¿qué cálculo expresa el siguiente de algunos de ellos? ¿Qué cálculo expresa el anterior de un número terminado en 4? Se pide que pasen a la pizarra a escribirlos."
+                        },
+                        {
+                            "title": "Momento 2. Ubicar números según los patrones del cuadro numérico.",
+                            "description": "Se retoma la venta de entradas al circo y sus butacas numeradas presentadas en el cuadro de números. Se comenta que decidieron regalar algunas entradas de butacas y que ahora ellos tendrán que ver dónde están ubicadas en el cuadro. El docente solicita a los estudiantes que busquen el cuadro de la actividad 3 del fascículo y colocará el mismo cuadro incompleto para el salón de clase. Se explican en forma oral la situación y las instrucciones para que los estudiantes resuelvan individualmente en sus fascículos.\na) Esta semana, en el circo decidieron regalar algunas entradas para el sábado. Las butacas de las entradas son: 14, 21, 27, 34, 41, 53, 59, 81 y 88. Ubicarlas en el cuadro.\nEn la puesta en común se conversa sobre los procedimientos utilizados. Para ubicar los números de las butacas en el cuadro, los estudiantes podrán hacerlo considerando que los de una misma fila empiezan con el mismo número y que los de una columna terminan con el mismo número. También podrán apoyarse en el recitado de la serie considerando el anterior o el siguiente. Por ejemplo, para ubicar el 27 podrán decir que es el anterior a 28, y para ubicar el 21, que es el que está después del 20.\nEn esta instancia, cada número será completado en el cuadro del salón por un estudiante distinto. Es importante que cada uno explique cómo lo pensó, ya que para el aprendizaje de estas relaciones es tan importante utilizarlas para resolver cómo volver a pensarlas y ponerlas en palabras. Del mismo modo, se revisan en forma conjunta todos los números dados."
+                        },
+                        {
+                            "title": "Momento 3. Escribir números.",
+                            "description": "Se indica el título para el cuaderno: ¿Cuáles faltan? El docente plantea una nueva situación con el cuadro de números para que sus estudiantes resuelvan individualmente:\nb) Los espacios vacíos en el cuadro son entradas que ya se vendieron. Escribir al menos 10 números de butacas que ya se vendieron: ____________________\nEn la puesta en común se pide que pasen diferentes estudiantes a completar los números que escribieron en el cuadro del salón. En todos los casos se insiste en la lectura de los números. Se pregunta a los compañeros si es correcto cómo se leen y se ayuda a quienes tienen dificultades."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 4",
+                    "pedagogicalIntention": "recuerden resultados de sumas de los números hasta 5 usando los dedos.",
+                    "resources": "una tira para cada estudiante con los números del 2 al 10 de la actividad 4 del fascículo. El cuadro personal de números.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nJugar a “Los equilibristas” con algún integrante de la familia.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente tiene el cuadro de números del salón con los casilleros a completar por los estudiantes tapados. Solicita que saquen sus cuadernos y el cuadro personal de números. Indica que controlen el primero de los números a completar que escribieron con el que tienen en el cuadro. Luego pregunta qué número es y pide que un estudiante pase a escribirlo en la pizarra. Si todos acuerdan, se destapa el correspondiente número del cuadro del salón. Así se procede con todos los números. Una vez completos todos se leen entre todos."
+                        },
+                        {
+                            "title": "Momento 2. Obtener resultados de sumas de dígitos desde 1 hasta 5.",
+                            "description": "El docente inicia una breve conversación con los estudiantes acerca del circo: ¿a quiénes podemos ver en una función de circo? e indaga sobre los equilibristas: ¿saben lo que hacen los equilibristas? ¿Alguna vez los vieron? ¿Qué piruetas hacen? ¿Cómo creen que pueden hacer esas piruetas parados sobre tan solo una cuerda? ¿Cuántos equilibristas podrán subir a la vez sobre una misma cuerda? Comenta que les enseñará un juego llamado “Los equilibristas” en el que cada uno de sus dedos será un valiente acróbata que deberá subir a una cuerda floja junto a los dedos de su compañero. Se indica el título para el cuaderno: Los equilibristas. Luego les pide buscar la tira de números del 2 al 10 en la actividad 4 del fascículo y procede a su presentación.\n\nJuego: Los equilibristas\nObjetivo: subir a 2, 3, 4,… 10 equilibristas a una cuerda floja mediante el conteo con los dedos, es decir, pintar todos los casilleros de la tira con números del 2 al 10.\nInstrucciones: se juega en parejas. Cada estudiante esconde una mano debajo de la butaca y decide cuántos dedos levantará, que representan a los equilibristas que subirán la cuerda. Juntos dirán en voz alta: 1, 2, 3, ¡a la cuerda! Cada uno coloca su mano sobre la butaca, mostrando 1, 2, 3, 4 o 5 dedos levantados. Los dedos levantados representan el total de equilibristas que subieron a la cuerda floja en esa ronda. Uno de los jugadores debe decir el total y el otro decide si está de acuerdo. Si no lo está, intercambian entre ellos para determinar el resultado correcto. Ese será el número total de acróbatas que subieron a la cuerda durante esa ronda. Luego, cada uno en su tira numérica, hace una marca con lápiz indicando dicha cantidad.\nEn la próxima ronda cambian el rol del que suma y de quien verifica. Se repiten estas acciones. Si obtienen un resultado ya indicado, hacen otra marca en el mismo número. El juego termina cuando logran que todos los números de la tira tengan por lo menos una marca; es decir, cuando a la cuerda subieron 2, 3, 4, 5, 6, 7, 8, 9 y 10 equilibristas.\n\nGestión del juego: luego de dar las instrucciones, se recomienda hacer un ejemplo entre todos y pedir a los estudiantes que digan cuántos subieron, sin inducir el sobreconteo ni ninguna otra estrategia. Dar tiempo para jugar en parejas.\nAl comenzar la puesta en común, el docente indica a los estudiantes continuar recitando la serie numérica hasta el 10 a partir del número que él diga, por ejemplo: 4, luego 3, luego 8. Después comenzará el intercambio sobre cómo les resultó el juego y lo que se hizo. Se pide a diferentes estudiantes que elijan un número de la tira que recuerden de qué manera obtuvieron y muestren a sus compañeros, usando los dedos, las estrategias desplegadas para saber el total de equilibristas. Previamente, el docente debe haber identificado cuáles estudiantes cuentan todo y quiénes lo hacen a partir de una de las cantidades, pues es preferible que primero muestren su resolución los que cuentan todo y luego los que sobrecuentan. En ambos casos se les pide explicar cómo obtienen el total. Si ningún estudiante utiliza el sobreconteo se puede preguntar: ¿siempre es necesario contar todo desde el 1? Pide a dos estudiantes que pongan en una mano la cantidad de dedos que quieran y digan cuántos hay. Les voy a mostrar otra forma y ustedes dicen si da igual resultado. Considera el mayor número de dedos, repite esa cantidad y continúa contando uno a uno los dedos de la otra mano (sobreconteo). Luego muestra dos manos con cierta cantidad de dedos levantada en cada una y les pide que, usando la estrategia que les acaba de enseñar, intenten decir cuántos equilibristas subirán. Se espera a que todos puedan resolverlo. Se pide a algún estudiante que muestre cómo contó todo. Se propicia nuevamente el sobreconteo."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 5",
+                    "pedagogicalIntention": "sumen números pequeños con distintos procedimientos vinculándolos con la expresión simbólica de la suma.",
+                    "resources": "para cada tres estudiantes: una funda opaca, 20 piedrecitas o semillas y una varilla que simule una varita mágica. Actividad 5 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nResolver:\nEn el juego ¡Somos magos! los espectadores colocan 5 y 9 piedrecitas. ¿Cuál número debe decir el mago para ganar el punto?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente pide a sus estudiantes que compartan sobre el juego desarrollado en familia solicitando algunos ejemplos de equilibristas subidos a la cuerda y haciendo foco en la estrategia utilizada para encontrar dicho total."
+                        },
+                        {
+                            "title": "Momento 2. Obtener resultados de sumas de dígitos.",
+                            "description": "El docente inicia una breve conversación con los estudiantes, retomando el tema de los magos, quienes nunca faltan en los circos: ¿les gustan los trucos de magia? ¿Alguien conoce o sabe hacer algún truco? ¿Dónde podemos encontrar magos? ¿Conocen algún mago famoso de libros o películas? Luego, comenta que jugarán a ser magos durante un rato. Copian el título en el cuaderno: ¡Somos magos! y luego se presenta el juego:\n\nJuego: ¡Somos magos!\nObjetivo: indicar la cantidad exacta de piedrecitas que hay en la funda.\nInstrucciones: se juega de a tres estudiantes. Por turnos, uno será el mago y los otros dos, los espectadores. Estos últimos tendrán 10 piedrecitas cada uno y el mago tendrá la funda y la varita. Cada espectador toma una cantidad entre 1 y 10 piedrecitas y las coloca en la funda expresando en voz alta la cantidad de piedras colocada: pongo 7, pongo 9. El mago, antes de vaciar la funda, anticipa la cantidad de piedrecitas que contiene y dice en voz alta la cantidad que cree que habrá: Abracadabra, que aparezcan _______ piedrecitas. Vuelca el contenido sobre la butaca, entre todos se controla el resultado de la suma y si la cantidad expresada es correcta, el mago se lleva un punto. Se juegan al menos 6 rondas más, garantizando que todos hayan sido magos la misma cantidad de veces. Gana quien obtenga más puntos.\n\nGestión del juego: luego de dar las instrucciones, se recomienda hacer un ejemplo entre todos y pedir a los estudiantes que digan cuántas piedritas aparecieron. Dar tiempo para jugar.\nPara la puesta en común el docente dirá: pongo 8. Pongo 5. ¿Cuántas piedrecitas hay ahora dentro de la funda del mago? Mientras tanto, acompaña con la acción de colocar el material concreto dentro de la funda. Dará unos minutos para que los estudiantes puedan calcular la respuesta y luego los hará pasar al frente para que compartan sus estrategias. Hace pasar primero a quienes usaron representaciones gráficas de las cantidades. Luego, a quienes usaron sus dedos y los de un compañero. Posteriormente, a los que usaron sus dedos y el sobreconteo. Por último, pasan aquellos que desplegaron alguna estrategia de cálculo basándose en lo que saben acerca de los números y las operaciones o en los cálculos que tenían en su repertorio aditivo memorizado. Será muy importante que el docente valide y socialice que la operación que resuelve esta situación es la suma y pregunte: ¿que tipo de cálculo creen que expresa este problema que acaban de resolver? Mientras se realiza la puesta en común, se puede ir dejando un registro en la pizarra similar al siguiente:\nIdeas para resolver 8 + 5\n8...\n8... 9, 10, 11, 12, 13\n9, 10, 11, 12, 13\n8 + 5\n2+3\n10 + 3 = 13\nSe invita a diferentes estudiantes a repetir el juego frente a la clase y que luego escriban en la pizarra la suma correspondiente y su resultado."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 6",
+                    "pedagogicalIntention": "resuelvan problemas de contar y calcular para averiguar el total cuando se juntan o reúnen dos o más cantidades.",
+                    "resources": "actividad 6 del fascículo. Cuadro y/o banda personal numérica.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nResolver:\nUn payaso hizo 6 globos con forma de perro y 8 con forma de pez. ¿Cuántos globos hizo en total?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente pide a un estudiante que resuelva en la pizarra la situación y explique cómo resolvió el cálculo. Se pregunta a los compañeros si están de acuerdo y por qué. Se retoma la importancia del sobreconteo para facilitar la tarea y el análisis de cuál de los números conviene elegir para hacerlo. Se propone que resuelvan 5 + 7, 8 + 4 y 4 + 9, y muestren con los dedos cómo cuentan."
+                        },
+                        {
+                            "title": "Momento 2. Reunir dos cantidades.",
+                            "description": "El docente organiza a sus estudiantes en parejas, les indica el título para el cuaderno: Los payasos, y solicita que abran el fascículo en la actividad 6 para situarse en el primer problema:\nResolver el problema escribiendo el cálculo que lo resuelve:\n1. Los payasos del circo están preparando los materiales para su función. Para hacer malabares, usarán 9 pelotas verdes y 9 pelotas amarillas. ¿Cuántas pelotas usarán en total?\nPide que cierren los ojos e imaginen lo que está diciendo. Lee en voz alta el enunciado y pide a un estudiante que lo diga con sus palabras, cuidando que no se diga cómo resolver. Da el mandato de resolver en el cuaderno. Mientras trabajan, repite el problema tantas veces como sea necesario para que todos recuerden lo que se les pide.\nEn la puesta en común se invita a varios estudiantes a compartir en la pizarra sus resoluciones con el resto del aula. Para la suma con los dedos dirá: el primer número es 9 y en estas manos tengo los otros 9. Luego dice 9 y sobrecuenta: 10, 11, 12... Algunos de ustedes trabajaron con cálculos de sumas. ¿Cuál cálculo escribieron? ¿Cómo lo resolvieron? El docente va dejando registro escrito en la pizarra. Durante este momento es importante dar espacio para el análisis y la reflexión de todas las estrategias mencionadas anteriormente. Si alguna no surgiera, el docente la ofrece y la socializa con el grupo."
+                        },
+                        {
+                            "title": "Momento 3. Reunir tres cantidades.",
+                            "description": "El docente solicita volver al fascículo y considerar la segunda situación:\n2. Uno de los payasos hace formas divertidas con globos para regalar a los niños. Para la función de hoy hizo 5 flores, 4 espadas y 7 corazones. ¿Cuántos globos tiene ya listos para regalar?\nReitera el trabajo en torno a la comprensión del problema como para el anterior del momento 2 para garantizar una vez más que todos los estudiantes lo comprenden. Así pueden comenzar a resolver autónomamente.\nEn la puesta en común se da la palabra a varios estudiantes para que compartan sus estrategias. El docente copia diferentes resoluciones en la pizarra, de manera que queden a la vista de toda la clase y retoma las preguntas del recorrido docente. Hace las aclaraciones necesarias para corroborar la comprensión de los estudiantes. Es importante que quede claro que hay diversas estrategias válidas que conducen a un mismo resultado. Se atiende a la respuesta. Al finalizar la puesta en común, se espera ante la pregunta de cómo sumaron los tres números, que hayan circulado algunas ideas, como, por ejemplo:\n● cuando se suman tres números se puede empezar a sumar por cualquiera de ellos;\n● los números se pueden ubicar en cualquier orden que el resultado no cambia, y\n● es posible elegir dos números, sumarlos y luego agregar el tercero.\nEs fundamental reforzar una y otra vez que esta elección no se hace al azar, sino a partir de nuestros conocimientos sobre los números, las operaciones y las posibilidades que nos ofrecen. Algunas ideas interesantes para socializar serían:\n[Diagrama de sumas asociativas]"
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 7. RECAPITULACIÓN",
+                    "pedagogicalIntention": "repasen contenidos trabajados.",
+                    "resources": "actividad 7 del fascículo. Una hoja en blanco para cada estudiante.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Compartir grupalmente la resolución del problema. Revisar y corregir lo que sea necesario. Atender las dudas de los estudiantes. Prestar especial atención a la estrategia de conteo para obtener los resultados de las sumas, pues, aunque el estudiante escriba el cálculo, es muy probable que recurra a ellos para obtener el resultado. Se propiciará el sobreconteo como estrategia de conteo superadora del conteo uno a uno."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Se revisa cada actividad trabajada en el bloque 1, solicitando a los estudiantes que recuerden y expliquen lo que allí se resolvió. En el ítem correspondiente del papelógrafo de aprendizajes de la secuencia se registra con una cruz que se trabajó ese contenido."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido.",
+                            "description": "Se indica el título para el cuaderno: Repasamos lo trabajado. El docente indica buscar la actividad 7 del fascículo, entrega una hoja en blanco y presenta las situaciones problemáticas, una a la vez.\n1. Los espacios vacíos del cuadro muestran las entradas que ya se vendieron. Completar los números de butacas ya vendidas.\n2. El payaso Coco tiene 5 parches en su chaqueta y 7 en su pantalón. ¿Cuántos parches tiene en total la ropa de Coco?\nLos estudiantes resuelven la primera tarea en el fascículo y luego la segunda, sin copiar el enunciado, en la hoja para entregar, en la que se coloca primero: Nombre y Apellido y la fecha.\n\nSituación 1\nPara quién lo necesite: Algunas preguntas de apoyo serían similares a las planteadas en actividades semejantes. Si la dificultad está en completar el 7 se sugiere recitar la serie y ubicar el número en la banda. Si es en un número de dos cifras: ¿en cuál fila está el número a completar? ¿Con cuál cifra empiezan los números de esa fila? ¿En qué terminan todos los números de esa columna? ¿Cuál te parece que es la última cifra del número? ¿Y la primera? ¿Por qué?\nPuesta en común: En el cuadro del salón se taparán los números a completar y se solicitará a distintos estudiantes que pasen a completar un casillero. En algunos casos sus compañeros dicen si está bien o mal y explican por qué lo dicen. En otros, será el mismo estudiante quien explica por qué lo puso. En este proceso se atiende especialmente la adecuada lectura de los números y, si fuera necesario, se vuelve a plantear que miren el primero de la fila, cómo se lee, luego vean en qué termina y cómo se lee esa cifra para armar un nuevo número.\n\nSituación 2\nPara quién lo necesite: Se puede ayudar a identificar la información inicial y a comprender qué es lo que se debe averiguar mediante preguntas como las del recorrido docente de las actividades 4 a 6. Se les puede pedir que usen diferentes colores para identificar estos datos.\nPuesta en común: Se hará notar que este es un problema que se resuelve con una suma. Se retomarán las estrategias de conteo y cálculo abordadas en las actividades 4, 5 y 6."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2: Resolvemos problemas sencillos",
+            "activities": [
+                {
+                    "title": "Actividad 8",
+                    "pedagogicalIntention": "sumen distintos números que den 15.",
+                    "resources": "15 bolitas de papel para cada estudiante. Media hoja en blanco por cada grupo de tres o cuatro estudiantes. Un papelógrafo en blanco. Actividad 8 del fascículo.",
+                    "homework": "Escribir 5 sumas que den 15. Colorear las sumas que ya sepas de memoria. Puedes ayudarte con las bolitas de papel o con los dedos.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Un juego para recordar sumas.",
+                            "description": "El docente inicia una breve conversación con los estudiantes a fin de contextualizar un juego que desarrollarán durante la clase. Les puede contar lo siguiente: hace poco visité un circo donde había un mago haciendo un show de magia. En uno de sus actos mostraba que tenía 15 bolitas y dos cajas cerradas y vacías. Su truco consistía en abrir una de las cajas, colocar las 15 bolitas y cerrarla nuevamente. Agitaba su varita y al abrir las cajas podía verse cómo las 15 bolitas se habían repartido en ambas cajas. ¿Se imaginan la sorpresa? ¿Cuántas habrá en cada caja? Se indica título para el cuaderno: Sumas que dan 15. Se divide al salón en grupos de tres o cuatro estudiantes, se les entrega la media hoja en blanco y se presenta el juego:\n\nJuego: Las cajas del mago\nObjetivo: armar diferentes sumas que den 15.\nInstrucciones: cada participante tendrá 15 bolitas de papel. Con su cuaderno instalará una especie de mampara para que los demás jugadores no puedan ver su butaca. Cada uno deberá separar sus 15 bolitas dejando dos grupos claramente identificados.\nLuego deben bajar las “mamparas” y comparar sus reagrupamientos. Si en un equipo armaron grupos con las mismas cantidades se considera empate y no hay puntos. Quienes logran armar unos que nadie más hizo, se anotan un punto. Van registrando los puntajes de cada uno en la media hoja en blanco. Gana el primero que logre anotar 6 puntos.\n\nGestión del juego: antes de comenzar a jugar se recomienda hacer un ejemplo entre todos. Se indica que, al finalizar el juego, cada uno registre en su cuaderno las distribuciones de tres rondas. Durante el recorrido docente se debe garantizar que cada estudiante haya comprendido la dinámica del juego. Se orienta a quienes presentan dificultades con preguntas como: ¿cuántas tienes en total? ¿Y si las separas en dos grupos y cuentas cuántas bolitas te quedaron en cada uno?\nSe inicia la puesta en común recuperando la experiencia de jugar: ¿cómo les resultó el juego? ¿Quién ganó en cada grupo? ¿Tuvieron alguna dificultad al jugar? Luego se pide a los estudiantes que, de a uno y en voz alta, indiquen la cantidad que tenían en los dos grupos con los que salieron ganadores. El docente los va anotando en la pizarra. Una vez que hayan salido las 7 posibilidades (1 y 14, 2 y 13, 3 y 12, 4 y 11, 5 y 10, 6 y 9, 7 y 8) les pregunta: ¿estas son todas las posibilidades?, ¿podría haber más? ¿Cómo podemos estar seguros? ¿A alguien se le ocurre otra forma de anotar dos números que reunidos dan 15? ¿Hay algún cálculo que permita representar que con los dos grupos se tienen las 15 bolitas? Es esperable que aparezca la suma como expresión matemática que refleja lo sucedido durante el juego. Si no surge por parte de los alumnos, será el docente quien lo plantee para su análisis y reflexión."
+                        },
+                        {
+                            "title": "Momento 2. Sistematización.",
+                            "description": "El docente propone elaborar grupalmente un papelógrafo para la pared del aula donde queden registradas todas las sumas que dan 15. Los estudiantes le dictan los cálculos hasta tener todas las sumas:\n1 + 14 = 15\n2 + 13 = 15\n3 + 12 = 15\n4 + 11 = 15\n5 + 10 = 15\n6 + 9 = 15\n7 + 8 = 15\nLuego pregunta: ¿para qué creen que puede servirnos tener estos cálculos en la pared del salón de clase? ¿Hay sumas que dan 15 que ya sepan de memoria? ¿Cuáles son? ¿Aprendieron alguna nueva durante este juego? Se indica anotar al menos dos sumas diferentes a las ya copiadas en el cuaderno."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 9",
+                    "pedagogicalIntention": "resuelvan problemas de quitar y cálculos de restas con distintos procedimientos.",
+                    "resources": "cuadro personal de números hasta el 100, actividad 9 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nResolver:\nHabía 19 dulces y se vendieron 5. ¿Cuántos dulces quedan para vender?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente pregunta: ¿cuáles sumas cuyo resultado es 15 escribieron? ¿Cuáles son las que recuerdan de memoria? ¿Qué los ayuda a recordarlas? ¿Cuáles les resultan más difíciles de recordar? Mientras van respondiendo solicita a los estudiantes que pasen a la pizarra a escribir los cálculos."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas de restar.",
+                            "description": "El docente organiza a sus estudiantes en grupos de 4 e indica: primero resolverán solos y luego compartirán en el grupo la resolución. Es mejor si encuentran más de una estrategia de resolución. Indica el título para el cuaderno: Resolvemos en grupo. Solicita buscar la actividad 9 del fascículo, lee en voz alta la situación y asigna a cada grupo la resolución de uno de los cinco ítems del cuadro.\nEn el kiosco del circo llevan un registro de las ventas de distintos productos.\n¿Qué cantidad les queda de cada producto todavía para vender? Escribir un cálculo que exprese matemáticamente cómo lo resuelven.\n[Tabla de productos con Cantidad disponible, Cantidad vendida, Cálculo y resultado]\nDurante el recorrido docente, se interviene en los grupos para clarificar cualquier situación que lo requiera y alentar el uso de distintas estrategias observando cuáles seleccionará para la puesta en común. El docente recuerda que cada uno tiene que resolver como pueda y luego compartir en el grupo sus procedimientos, para interpretarlos y validarlos, esto significa, decir si están bien o no y explicar por qué. A quienes tienen dificultades les pregunta: ¿cuál información conoces sobre el problema? ¿Qué tienes que averiguar? A los que no identifican cómo hacerlo les sugiere mirar el cuadro de números: ¿te puede ayudar a resolver cuántos quedan? ¿Cómo lo tienes que usar? ¿Cuántos globos (helados, etc.) estaban disponibles? ¿En qué número del cuadro hay que pararse? ¿Hay que avanzar o retroceder en el cuadro si se vendieron algunos de estos globos (helados, etc.)? ¿Cuántas casilleros hay que volver o retroceder en este caso? ¿Dónde están los 6 globos (5 helados, etc.) que hay que restar? ¿Cuál es el resultado? ¿Qué cálculo permite resolver este problema? ¿Cuál número colocas en primer lugar? ¿Importa aquí el orden en que se colocan los números? ¿Cuál operación permite encontrar el resultado si se tenía algo y se perdió una parte de ello?\nEn la puesta en común se invita a los diferentes grupos a que pasen a compartir sus estrategias con el resto de la clase.\nPor ejemplo, para restar 18 - 6 dos compañeros podrían utilizar sus 4 manos para completar 18 dedos, luego bajar 6 y contar los que quedaron.\nTambién podrían poner 6 dedos y contar los que faltan para llegar a 10. Luego los que faltan para llegar de 10 a 18 y, finalmente, sumar (o contar) estos dos valores.\nTambién pueden surgir procedimientos de conteo y de cálculo como los siguientes:\n[Estrategias de cálculo]\nEs altamente probable que los estudiantes que escriben el cálculo 18 - 6 utilicen algún soporte para encontrar el resultado, sean estos dedos o dibujos.\nAquí se enfatiza la comparación entre el conteo de uno en uno de todos los elementos, el sobreconteo y el uso de relaciones numéricas basadas en descomposiciones convenientes y cálculos conocidos (como los dobles). Si no surge espontáneamente de los estudiantes, el docente propone resolver los cálculos con apoyo del cuadro de números retomando las preguntas específicas vinculadas a este recurso del recorrido docente. Se ejemplifican los cálculos sobre el cuadro del papelógrafo:\nSe atiende a las cinco respuestas. Dado el grado, sólo se requiere mencionar la cantidad y a qué refiere dicha cantidad."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 10",
+                    "pedagogicalIntention": "practiquen cálculo mental para sumar dígitos a un número terminado en 0, lean y escriban números de dos dígitos.",
+                    "resources": "cuadro personal de números. Papelógrafo con el cuadro de números. Actividad 10 del fascículo. Papelógrafo con el cuadro de la actividad 10 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nCompletar las dos filas correspondientes a magos y equilibristas.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente solicita a sus estudiantes compartir las respuestas a la tarea para el hogar, haciendo énfasis en el uso del cuadro de números para resolver la resta."
+                        },
+                        {
+                            "title": "Momento 2. Sumar dígitos a números terminados en 0.",
+                            "description": "El docente pega los papelógrafos en la pizarra mientras indica el título para el cuaderno: Tiempos en el circo. Da el mandato de buscar la actividad 10 del fascículo y de resolver individualmente allí mismo las cuatro primeras filas.\nPara organizar la nueva función del circo, el presentador toma los minutos que demoran en entrar y salir los artistas y los minutos que dura su acto y los anota en una tabla.\nDurante el recorrido docente primero considera si tienen una estrategia para resolver el problema: ¿qué cálculo permite resolverlo los problemas? ¿Cuál información brinda el problema? ¿Qué se tiene que averiguar? Sugiere el uso del cuadro de números como apoyo para resolver los cálculos, relacionándolos con los movimientos en sus filas: ¿cuál número indica en el cuadro la cantidad de tiempo del acto de los payasos? Para agregar el tiempo de entrada y salida, ¿hay que avanzar o retroceder en el cuadro? ¿Cómo se puede indicar que se agregaron 8 minutos? ¿Dónde están los 8 minutos que hay que sumar? ¿Dónde se ubica el resultado? Por ejemplo, para el tiempo de los payasos:\nEn la puesta en común se revisan los resultados invitando a algunos estudiantes a completarlos en el papelógrafo. Además, se dedica tiempo a los procedimientos utilizados para hallarlos, recuperando las preguntas del recorrido docente para analizar la relación entre la numeración oral y la escrita, así como la utilidad de los patrones del cuadro de números. Se pide a algunos estudiantes mostrar cada cálculo en el cuadro de números. Se pregunta: ¿qué cambia en estos casos? ¿Qué tienen en común todos los casos? Para facilitar el análisis se les invita a colorear las cifras en común del cálculo y del resultado, usando distintos colores en cada similitud. Se enfatiza cuáles cosas cambian y cuáles se mantienen al sumar un dígito a un número de dos dígitos terminado en 0. Esto se acompaña con colores en el papelógrafo de la pizarra:\nSe puede comentar: los payasos actúan cuarenta minutos y demoran ocho en entrar y salir, ¿qué sucede al decir “cuarenta más ocho, cuarenta y ocho”? ¿Cómo anotamos eso en un solo número? ¿En qué se parece este cálculo a lo que dices al leer el número del resultado? Se hacen comentarios similares para los otros actos (malabaristas, trapecistas y acróbatas)."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "Se pregunta: ¿cómo le explicarían a otro niño de 1er grado a saber rápido cuánto da una suma de un número terminado en 0 con otro de un dígito, por ejemplo: 10 + 5 o 30 + 4? A partir de los aportes de los estudiantes, se escribe en el cuaderno:\nSi sumo 10, 20... a un dígito, el primero se mantiene y el último es el que sumo:\n10 + 5 = 15\n30 + 4 = 34\n70 + 1 = 71"
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 11",
+                    "pedagogicalIntention": "resuelvan cálculos de resta de un dígito a un número de dos que termina igual y conozcan el cero.",
+                    "resources": "actividad 11 del fascículo. Cuadro personal de números. Papelógrafo con el cuadro de números del salón de clase. Casilla con el 0 para pegar en el cuadro personal de números.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nCompletar las filas del cuadro para calcular el número que le quedó a Carla y a Lucía:\nNombre | Subió hasta… | Bajó… | Quedó en… (con cálculo)\nCarla | 36 | 6 | ........\nLucía | 9 | 9 | ........",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Se revisa y corrige la tarea de la actividad anterior y se atienden las dudas. Se pregunta cómo lo resolvieron y, eventualmente, se retoma la facilidad de usar la regla o truco para sumar un dígito a un número de dos dígitos terminado en 0."
+                        },
+                        {
+                            "title": "Momento 2. La resta para retroceder. El cero.",
+                            "description": "El docente explica que en el circo hay un juego llamado “La torre mágica”. En este juego un peso sube por una torre cuando se presiona la base. Cuanto más fuerte se presiona, más alto sube el peso. Se plantea el caso de Lucas, Rosa y Juan.\nDurante el recorrido docente se alienta a los estudiantes que lo necesiten a imaginar la situación y representarla con el dedo sobre la torre de la imagen.\nEn la puesta en común se les invita a completar los cálculos y resultados explicando cómo los obtuvieron. Es importante hacer notar la relación de estas situaciones con la resta. Se explica que el 0 es el número que sirve para resolver situaciones como estas en las que se retrocede o vuelve (o baja) lo mismo que se avanzó (o subió)."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "Se invita a volver a mirar la tabla con los cálculos que hicieron: ¿qué tienen en común todos esos cálculos? A partir de los aportes de sus estudiantes, todos escriben en el cuaderno:\nSi resto el último dígito, el resultado termina en 0:\n35 - 5 = 30\n74 - 4 = 70\n91 - 1 = 90"
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 12",
+                    "pedagogicalIntention": "decidan si una afirmación es verdadera o falsa y justifiquen su decisión.",
+                    "resources": "cuadro numérico personal. Papelógrafo con el cuadro de números del salón de clases.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\n¿Verdadero o falso?\nLa pesa sube a 36. Baja 6. Llega a 33.\n_______________________________________",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Se revisa y corrige la tarea de la actividad anterior y se atienden las dudas acerca de qué dígito cambia en las restas y cómo lo hace."
+                        },
+                        {
+                            "title": "Momento 2. Analizar afirmaciones.",
+                            "description": "El docente presenta una serie de afirmaciones sobre el juego de la torre mágica y los estudiantes deben determinar si son verdaderas o falsas.\na) Juan dijo: La pesa sube a 46. Baja 6. Llega a 41.\nb) Maritza dijo: La pesa sube a 62. Baja 2. Llega a 60.\nc) Manuel dijo: La pesa sube a 23. Baja 23. Llega a 1.\nd) Franklin dijo: La pesa sube a 55. Baja 5. Llega a 45.\ne) Oscarina dijo: La pesa sube a 36. Baja 6. Llega a 33.\nEn la puesta en común se revisan las afirmaciones, atendiendo a que quede claramente establecido si son verdaderas o falsas."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 13",
+                    "pedagogicalIntention": "reconozcan algunas figuras geométricas.",
+                    "resources": "un papelógrafo en blanco para el salón de clase. Un papelógrafo en blanco por cada cinco estudiantes. Una figura geométrica distinta para cada estudiante.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nElegir un color para cada figura y colorear el payaso: Rectángulo, Círculo, Cuadrado, Triángulo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Se invita a distintos estudiantes a compartir su respuesta sobre la verdad o falsedad de la afirmación dada."
+                        },
+                        {
+                            "title": "Momento 2. Adivinanzas con figuras geométricas.",
+                            "description": "El docente enuncia distintas pistas para que quienes tengan una figura con esas características la levanten y muestren a todo el grupo. Se dan a conocer los nombres de las principales figuras geométricas (círculo, triángulo, cuadrado y rectángulo)."
+                        },
+                        {
+                            "title": "Momento 3. Armar figuras usando otras.",
+                            "description": "Los estudiantes realizan un diseño para el cartel del circo que incluye un payaso usando figuras geométricas. Luego cuentan cuántas figuras de cada clase utilizaron."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 14",
+                    "pedagogicalIntention": "identifiquen algunas características de las figuras geométricas y las dibujen con la regla.",
+                    "resources": "los cuadrados, rectángulos, triángulos y círculos de la actividad anterior. Actividad 14 del fascículo. Una regla por estudiante.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nElegir dos de las tres figuras (parches o remiendos) para copiar en la cuadrícula vacía:",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente solicita que compartan las respuestas a la tarea para el hogar, centrándose en las características que permiten reconocer las distintas figuras."
+                        },
+                        {
+                            "title": "Momento 2. Parches geométricos.",
+                            "description": "Los estudiantes observan parejas de figuras, piensan y anotan en qué se parecen y en qué se diferencian (vértices, lados, etc.)."
+                        },
+                        {
+                            "title": "Momento 3. Dibujar figuras geométricas.",
+                            "description": "Usar la regla para completar figuras incompletas en el fascículo. Se reflexiona sobre por qué no se puede dibujar un círculo con la regla."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 15",
+                    "pedagogicalIntention": "repasen contenidos trabajados.",
+                    "resources": "papelógrafo de aprendizajes. Rectángulos de papel, figuras de colores, pegamento, lápices.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente revisa la tarea para el hogar en los fascículos y observa los trazos realizados con la regla."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué estudiamos en este bloque?",
+                            "description": "Se revisa cada una de las actividades trabajadas en el bloque 2 y se registra en el papelógrafo."
+                        },
+                        {
+                            "title": "Momento 3. Regalar señaladores.",
+                            "description": "Resolución de problemas relacionados con señaladores repartidos por el payaso Coco (sumas de tres cantidades y sumas con números de dos dígitos)."
+                        },
+                        {
+                            "title": "Momento 4. Un señalador geométrico.",
+                            "description": "Cada estudiante decora su propio señalador usando figuras geométricas y registra cuántas figuras de cada tipo utilizó."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 16",
+                    "pedagogicalIntention": "reflexionen sobre lo realizado y aprendido durante la secuencia.",
+                    "resources": "papelógrafo de aprendizajes, actividad 16 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Entregar las producciones con la retroalimentación.",
+                            "description": "Entrega de trabajos corregidos."
+                        },
+                        {
+                            "title": "Momento 2. Revisar la retroalimentación para consolidar los saberes principales.",
+                            "description": "Revisión grupal de aciertos y errores."
+                        },
+                        {
+                            "title": "Momento 3. Reflexión metacognitiva.",
+                            "description": "Los estudiantes colorean o marcan en el fascículo cómo trabajaron, si les gustó y si les resultó fácil."
+                        },
+                        {
+                            "title": "Momento 4. Revisar el papelógrafo de aprendizajes de la secuencia.",
+                            "description": "Cierre final de la secuencia y firma del papelógrafo de aprendizajes."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

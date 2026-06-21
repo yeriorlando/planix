@@ -1,0 +1,257 @@
+{
+  "id": "seq-1771196358436",
+  "subject_id": "lengua-espanola-4to",
+  "grade_id": "primaria-4to",
+  "title": "La conversación",
+  "blocks": [],
+  "activities": [
+    {
+      "id": "1771196901269",
+      "sequence_id": "seq-1771196358436",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Introducción y Pre-escucha)",
+      "intencion_pedagogica": "Activar los conocimientos previos sobre la conversación, crear un ambiente propicio para el diálogo y preparar a los estudiantes para la comprensión oral de una conversación a través del fragmento de Zootopia.\n\n",
+      "estrategia": "Organización del espacio: Disposición del aula en círculo o semicírculo para facilitar el diálogo.\n\nAmbientación temática: Uso de imágenes de animales para generar interés.\n\nDiálogo dirigido: Preguntas generadoras para activar conocimientos previos.\n\nTrabajo en grupos pequeños: Para fomentar la interacción entre pares.\n\nDramatización: Representación de conversaciones frente al grupo.",
+      "aprendizaje_significativo": "Se parte de un tema cercano y de interés para los niños (las mascotas y animales preferidos) para introducir la conversación como una práctica social cotidiana y significativa.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite dibujar su mascota preferida y mostrarla al grupo mientras dicen su nombre.\n\nPara estudiantes tímidos: Se les asigna el rol de \"observador\" del grupo y luego reportan lo que escucharon.\n\nPara estudiantes kinestésicos: Se les anima a moverse y actuar durante la dramatización.\n\nPara estudiantes con discapacidad auditiva: Se les proporcionan imágenes de los animales y se les anima a participar mostrando las imágenes.\n\nPara estudiantes que se distraen fácilmente: Se les asigna la tarea específica de contar cuántas personas hablaron en su grupo.",
+      "actividades_cuaderno": "Dibujar su mascota favorita o la que les gustaría tener y escribir una oración sobre por qué les gusta.\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Aula con butacas móviles\n• Imágenes de animales\n• Pizarra",
+          "descripcion": "1. El docente prepara el aula colocando las butacas en semicírculo o círculo para favorecer el diálogo.\n2. Ambienta el espacio con imágenes de animales.\n3. Anuncia el objetivo de la actividad: van a conversar (en parejas) sobre la importancia de tener un animal en casa.\n4. Inicia el diálogo con preguntas generadoras (pág. 8):\n- \"¿Por qué es importante tener un animalito en la casa?\"\n- \"¿Cuáles animales son sus preferidos para tenerlos como mascotas? ¿Por qué?\"\n- \"¿Cuál de ustedes tiene una mascota en su casa? ¿Qué tipo de animal es?\"\n5. Orienta a los estudiantes sobre la forma de conversar: escuchar y ser escuchados, pedir la palabra, etc.",
+          "actividad_numero": "Comprensión oral (Párrafos 1 y 2, pág. 8)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fragmento de Zootopia (video/audio)\n• Transcripción del fragmento (pág. 9)\n• Cuadernos para tomar notas",
+          "descripcion": "1. El docente divide la clase en grupos de 5 estudiantes.\n2. Consigna: conversar sobre cuáles son las mascotas más comunes entre los niños del grupo (pág. 8).\n3. Indica que al final, dos miembros del grupo dramatizarán una conversación frente a toda la clase sobre las mascotas preferidas.\n4. Mientras conversan, el docente observa actitudes: si escuchan con atención, si respetan turnos, etc.\n5. Introducción al fragmento de Zootopia:\n- El docente presenta el fragmento de la película Zootopia (inicia en 1h 17min). Explica las modalidades: video, audio, o transcripción (pág. 9).\n- Prepara a los estudiantes para la escucha: \"Deben sosegar la mente, concentrar su atención auditiva y visual al máximo porque luego realizarán actividades para demostrar que comprendieron\" (pág. 8).",
+          "actividad_numero": "Comprensión oral (Párrafos 3, 4 y 5, pág. 8)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Los grupos designados presentan sus dramatizaciones sobre las mascotas preferidas.\n2. El docente refuerza positivamente el uso de los turnos de palabra y la escucha activa.\n3. Se anuncia que en la próxima clase se trabajará con el fragmento de Zootopia en profundidad.",
+          "actividad_numero": "Comprensión oral (Párrafo 3, pág. 8)"
+        }
+      ],
+      "created_at": "2026-02-15T23:08:23.657323+00:00",
+      "updated_at": "2026-02-24T22:04:58.206+00:00"
+    },
+    {
+      "id": "1771196986349",
+      "sequence_id": "seq-1771196358436",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": " Comprensión Oral (Durante y Post-escucha - Análisis)",
+      "intencion_pedagogica": "Analizar a fondo el fragmento de Zootopia para identificar personajes, actos de habla, recursos no lingüísticos y la estructura de la conversación (inicio, desarrollo, cierre).\n\n",
+      "estrategia": "Uso de material audiovisual: Proyección del fragmento de Zootopia.\n\nToma de apuntes: Los estudiantes registran información durante la escucha.\n\nPreguntas de comprensión: Literales e inferenciales para verificar la comprensión.\n\nAnálisis de actos de habla: Identificación de saludar, preguntar, disculparse, etc.\n\nAnálisis de recursos no lingüísticos: Gestos, miradas, postura.\n\nTrabajo individual y grupal: Para resolver actividades escritas.",
+      "aprendizaje_significativo": "Se analiza una conversación de una película conocida (Zootopia) para identificar elementos de la comunicación que los niños usan a diario sin ser conscientes de ello, como los actos de habla y el lenguaje corporal.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar un solo recurso no lingüístico (ej: solo los gestos).\n\nPara estudiantes con dificultades de comprensión lectora: Se les permite trabajar las actividades en pareja.\n\nPara estudiantes visuales: Se utilizan imágenes que muestren los gestos y posturas de los personajes.\n\nPara estudiantes kinestésicos: Se les invita a representar los gestos y posturas que identificaron.\n\nPara estudiantes avanzados: Se les pide que escriban un breve diálogo similar usando actos de habla y acotaciones de gestos.",
+      "actividades_cuaderno": "Copiar la lista de normas o reglas para una buena conversación que se elaborará en la pizarra a partir de las respuestas de la pregunta 10.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Fragmento de Zootopia\n• Transcripción (pág. 9)\n• Pizarra",
+          "descripcion": "1. El docente proyecta o lee nuevamente el fragmento de Zootopia.\n2. Inicia un diálogo sobre su contenido con preguntas de la página 10:\n- \"¿Podrías decir cuáles personajes participan en el fragmento? ¿Cómo son? ¿Qué hacen? ¿Cuál es su estilo de vida? ¿En qué lugar están? ¿Cuáles son sus sueños? ¿Cómo habla cada uno? ¿La manera de hablar se relaciona con su estado de ánimo?\" (Pregunta 1, pág. 10)\n- \"Por el tono de voz y la forma como actúa Judy al inicio del video, ¿qué podrías decir sobre su estado de ánimo?\" (Pregunta 2, pág. 10)\n- \"¿Cómo se ponen de acuerdo el papá y la mamá de Judy para acercarse a conversar con ella?\" (Pregunta 3, pág. 10)",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 10)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C, D",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos\n• Fragmento de Zootopia (para consultar)",
+          "descripcion": "1. Actividad de Verdadero/Falso (pág. 10): Los estudiantes marcan V o F y explican por qué. Enunciados:\n- 1. El papá de Judy se acerca llamándola varias veces porque está preocupado por ella.\n- 2. Cuando Judy responde que está bien, la forma no se corresponde con el significado.\n- 3. Judy está triste porque cree que les hizo daño a muchos animales.\n- 4. El propósito de los padres es recordarle que es valiosa.\n- 5. Los gestos dan información diferente a la oral.\n2. Actividad de actos de habla (pág. 11): Escriben debajo de cada oración el acto de habla realizado:\n- 1. \"¡Hola! ¡Judy, Judy, Judy! ¿Todavía te acuerdas?¿Cómo te sientes?\"\n- 2. \"¡Ese sí es un trabalenguas señor H! Mi familia siempre les ha llamado aulladores.\"\n- 3. \"¿Por qué creí que marcaría una diferencia?\"\n- 4. \"¡Adiós! ¡Gracias! ¡Los quiero!\"\n- 5. \"¡Hola, Judy!, quiero decirte que estoy apenado por el modo en que me porté en mi niñez.\"\n- 6. \"Ahora somos socios. Y no lo habíamos considerado hasta que tú abriste nuestras mentes.\"\n3. Actividad de vocabulario en contexto (pág. 11): Seleccionan la respuesta correcta para palabras destacadas:\n- depredadores (a. Animales que cazan a otros)\n- en tus orejas se ve (c. Que está triste y cabizbaja)\n- ataques de ira y agresión (b. Proceder con ira, enojo y violencia)\n- minicampunjolicitias (a. Flores que protegen pero provocan que los animales se vuelvan salvajes)\n- aulladores (b. Nombre común de las minicampunjolicitias)",
+          "actividad_numero": "Comprensión oral (pág. 10) (pág. 11) (pág. 11)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "E, F",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra\n• Mapamundi o globo terráqueo (para punto 9)",
+          "descripcion": "1. Actividad E (pág. 12-13): Responden preguntas sobre recursos no lingüísticos:\n- \"¿Cómo inicia la conversación?\" (punto 1)\n- \"¿Cuáles recursos no lingüísticos identificaste?\" Completan un cuadro con: Gesto, Mirada, Mímica, Postura física, Entonación y su significado (punto 2).\n- \"¿Qué importancia tienen la postura física, los gestos y las miradas?\" (punto 3)\n- \"¿Cómo inician la conversación? ¿Sobre qué dialogan?\" (punto 4)\n- \"¿Cómo termina la conversación?\" (punto 5)\n- \"¿Cuáles sentimientos se reflejan?\" (punto 6)\n- \"Cuando Judy se acerca a Gideon, ¿qué es lo primero que él hace?\" (punto 7)\n- \"¿Se escuchan unos a otros? ¿Se respetan los turnos?\" (punto 8)\n- \"¿De cuál país son originarios?\" (punto 9 - el docente aprovecha para trabajar ubicación geográfica de España)\n- \"¿Cuáles actitudes te han enseñado en casa para conversar?\" (punto 10)\n2. Actividad F (pág. 13): Completan un cuadro con los momentos de la conversación: ¿Cómo inicia? ¿Cuál es el tema? ¿Cómo termina?",
+          "actividad_numero": "Comprensión oral (puntos 1-10, págs. 12-13) (pág. 13)"
+        }
+      ],
+      "created_at": "2026-02-15T23:09:48.725883+00:00",
+      "updated_at": "2026-02-24T22:04:58.206+00:00"
+    },
+    {
+      "id": "1771197260467",
+      "sequence_id": "seq-1771196358436",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Gramática Textual y Producción Oral",
+      "intencion_pedagogica": "Sistematizar los conocimientos sobre la conversación (concepto, características, estructura, normas) y producir oralmente una conversación sobre resolución de conflictos, evaluando el desempeño comunicativo.\n\n",
+      "estrategia": "Clase expositiva dialogada: Para presentar los conceptos gramaticales sobre la conversación.\n\nAnálisis de texto modelo: Se retoma el fragmento de Zootopia para identificar estructura y características.\n\nTrabajo en grupos cooperativos: Para la producción oral y la reflexión sobre resolución de conflictos.\n\nUso de rúbricas: Para la autoevaluación y coevaluación.\n\nDramatización y juego de roles: Para practicar la conversación en un contexto simulado.",
+      "aprendizaje_significativo": "Se reflexiona sobre la importancia del diálogo para resolver conflictos en la vida real (familia, amigos), conectando el contenido académico con situaciones cotidianas de los estudiantes.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite escribir sus respuestas antes de compartirlas en el grupo.\n\nPara estudiantes que se sienten abrumados en grupos grandes: Se les asigna un rol específico (ej: tomar notas de lo que dicen los demás).\n\nPara estudiantes con dificultades de atención: El moderador puede llamarlos específicamente para que opinen.\n\nPara estudiantes kinestésicos: Se les permite moverse y usar gestos exagerados durante la conversación.\n\nPara estudiantes avanzados: Se les pide que sean moderadores y practiquen la habilidad de ceder turnos.\n\nPara estudiantes con discapacidad auditiva: Se les sienta cerca del moderador y se les proporcionan las preguntas por escrito.",
+      "actividades_cuaderno": "Escribir una breve reflexión sobre cómo el diálogo puede ayudar a resolver un conflicto en su familia o con sus amigos, basándose en la actividad de la clase. Pegar la rúbrica de autoevaluación en el cuaderno.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con el contenido\n• Transcripción de Zootopia (pág. 9)\n• Pizarra",
+          "descripcion": "1. El docente presenta el contenido teórico apoyándose en el fragmento de Zootopia (págs. 14-15):\n- Definición: Herramienta de comunicación para intercambiar información.\n- Interlocutores: Quienes participan.\n- Intención comunicativa y actos de habla: saludar, informar, agradecer, etc.\n- Lenguaje oral y gestual.\n- Características: espontánea, informal, dialogada, respetuosa.\n- Cualidades: tono adecuado, mirar a los ojos, discreción, respeto por turnos.\n- Normas para una conversación efectiva: respetar al que habla, no hablar todos a la vez, saber iniciar, pensar en lo que dicen los demás, etc. (listado pág. 15).\n- Estructura: apertura, cuerpo, conclusión (con ejemplos de Zootopia, pág. 15).",
+          "actividad_numero": "Gramática textual (Págs. 14-15)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copia de las preguntas para los grupos\n• Cuadernos",
+          "descripcion": "1. El docente divide la clase en grupos de 4 o 6 estudiantes (pág. 16).\n2. Explica que conversarán sobre los mensajes de Zootopia y sobre la resolución de conflictos.\n3. Actividades de producción oral (pág. 16):\n- \"Según lo observado en el video, ¿cómo es la relación de Judy con su mamá y su papá? ¿Qué opinas?\" (punto 1)\n- \"¿Por qué es importante mantener una buena comunicación entre los miembros de la familia?\" (punto 2)\n- \"¿Recuerdas alguna situación difícil que el diálogo te haya ayudado a resolver? Escríbela para compartirla.\" (punto 3)\n- \"Cuando has tenido algún problema o conflicto, ¿cómo lo has solucionado?\" (punto 4: Gritando, A puñetazos, Hablando mentiras, Dialogando - Explican su respuesta)\n- \"Cuando trataste de resolver problemas sin dialogar, ¿cuáles fueron los resultados?\" (punto 5)\n- \"Enumera las ventajas del uso del diálogo en la resolución de conflictos.\" (punto 6)\n4. El docente aprovecha para reflexionar sobre los beneficios del diálogo.",
+          "actividad_numero": "Producción oral (Párrafos 1-4, pág. 16) Actividades puntos 1-6 (pág. 16)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Rúbrica de evaluación fotocopiada (pág. 17) para cada estudiante",
+          "descripcion": "1. El docente organiza una actividad final: conversar sobre un tema de interés o sobre una situación del entorno. Se elige un moderador que ceda los turnos (pág. 17).\n2. Autoevaluación (pág. 17): Cada estudiante usa la rúbrica para marcar su desempeño:\n- ¿Utiliza un tono de voz adecuado?\n- ¿Emplea gestos apropiados?\n- ¿Hace pausas adecuadas?\n- ¿Usa la entonación debida?\n- ¿Mira a su interlocutor?\n- ¿Pronuncia bien cada palabra?\n- ¿Escucha con respeto y atención?\n- ¿Demuestra que comprende la temática y la valora críticamente?\n3. Coevaluación (pág. 17): En pequeños grupos, dialogan sobre el desempeño de cada uno usando los mismos criterios.",
+          "actividad_numero": "Autoevaluación y Coevaluación (Pág. 17)"
+        }
+      ],
+      "created_at": "2026-02-15T23:14:22.941176+00:00",
+      "updated_at": "2026-02-24T22:04:58.206+00:00"
+    }
+  ],
+  "content": null,
+  "created_at": "2026-02-15T22:59:20.804554+00:00",
+  "order": 1,
+  "description": "Desarrolla la comprensión y producción oral mediante el análisis de conversaciones cotidianas, trabajando su estructura, el respeto de turnos y el uso adecuado del lenguaje.",
+  "content_data": {
+    "activities": [
+      {
+        "id": "1771196901269",
+        "name": "Comprensión Oral (Introducción y Pre-escucha)",
+        "title": "Actividad 1",
+        "cierre": [
+          {
+            "letras": "",
+            "tiempo": "15",
+            "recursos": "• Participación de los estudiantes",
+            "descripcion": "1. Los grupos designados presentan sus dramatizaciones sobre las mascotas preferidas.\n2. El docente refuerza positivamente el uso de los turnos de palabra y la escucha activa.\n3. Se anuncia que en la próxima clase se trabajará con el fragmento de Zootopia en profundidad.",
+            "actividad_numero": "Comprensión oral (Párrafo 3, pág. 8)"
+          }
+        ],
+        "inicio": [
+          {
+            "letras": "",
+            "tiempo": "15",
+            "recursos": "• Aula con butacas móviles\n• Imágenes de animales\n• Pizarra",
+            "descripcion": "1. El docente prepara el aula colocando las butacas en semicírculo o círculo para favorecer el diálogo.\n2. Ambienta el espacio con imágenes de animales.\n3. Anuncia el objetivo de la actividad: van a conversar (en parejas) sobre la importancia de tener un animal en casa.\n4. Inicia el diálogo con preguntas generadoras (pág. 8):\n- \"¿Por qué es importante tener un animalito en la casa?\"\n- \"¿Cuáles animales son sus preferidos para tenerlos como mascotas? ¿Por qué?\"\n- \"¿Cuál de ustedes tiene una mascota en su casa? ¿Qué tipo de animal es?\"\n5. Orienta a los estudiantes sobre la forma de conversar: escuchar y ser escuchados, pedir la palabra, etc.",
+            "actividad_numero": "Comprensión oral (Párrafos 1 y 2, pág. 8)"
+          }
+        ],
+        "desarrollo": [
+          {
+            "letras": "",
+            "tiempo": "60",
+            "recursos": "• Fragmento de Zootopia (video/audio)\n• Transcripción del fragmento (pág. 9)\n• Cuadernos para tomar notas",
+            "descripcion": "1. El docente divide la clase en grupos de 5 estudiantes.\n2. Consigna: conversar sobre cuáles son las mascotas más comunes entre los niños del grupo (pág. 8).\n3. Indica que al final, dos miembros del grupo dramatizarán una conversación frente a toda la clase sobre las mascotas preferidas.\n4. Mientras conversan, el docente observa actitudes: si escuchan con atención, si respetan turnos, etc.\n5. Introducción al fragmento de Zootopia:\n- El docente presenta el fragmento de la película Zootopia (inicia en 1h 17min). Explica las modalidades: video, audio, o transcripción (pág. 9).\n- Prepara a los estudiantes para la escucha: \"Deben sosegar la mente, concentrar su atención auditiva y visual al máximo porque luego realizarán actividades para demostrar que comprendieron\" (pág. 8).",
+            "actividad_numero": "Comprensión oral (Párrafos 3, 4 y 5, pág. 8)"
+          }
+        ],
+        "estrategia": "Organización del espacio: Disposición del aula en círculo o semicírculo para facilitar el diálogo.\n\nAmbientación temática: Uso de imágenes de animales para generar interés.\n\nDiálogo dirigido: Preguntas generadoras para activar conocimientos previos.\n\nTrabajo en grupos pequeños: Para fomentar la interacción entre pares.\n\nDramatización: Representación de conversaciones frente al grupo.",
+        "order_index": 0,
+        "actividades_cuaderno": "Dibujar su mascota favorita o la que les gustaría tener y escribir una oración sobre por qué les gusta.\n",
+        "intencion_pedagogica": "Activar los conocimientos previos sobre la conversación, crear un ambiente propicio para el diálogo y preparar a los estudiantes para la comprensión oral de una conversación a través del fragmento de Zootopia.\n\n",
+        "aprendizaje_significativo": "Se parte de un tema cercano y de interés para los niños (las mascotas y animales preferidos) para introducir la conversación como una práctica social cotidiana y significativa.\n\n",
+        "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite dibujar su mascota preferida y mostrarla al grupo mientras dicen su nombre.\n\nPara estudiantes tímidos: Se les asigna el rol de \"observador\" del grupo y luego reportan lo que escucharon.\n\nPara estudiantes kinestésicos: Se les anima a moverse y actuar durante la dramatización.\n\nPara estudiantes con discapacidad auditiva: Se les proporcionan imágenes de los animales y se les anima a participar mostrando las imágenes.\n\nPara estudiantes que se distraen fácilmente: Se les asigna la tarea específica de contar cuántas personas hablaron en su grupo."
+      },
+      {
+        "id": "1771196986349",
+        "name": " Comprensión Oral (Durante y Post-escucha - Análisis)",
+        "title": "Actividad 2",
+        "cierre": [
+          {
+            "letras": "E, F",
+            "tiempo": "15",
+            "recursos": "• Participación de los estudiantes\n• Pizarra\n• Mapamundi o globo terráqueo (para punto 9)",
+            "descripcion": "1. Actividad E (pág. 12-13): Responden preguntas sobre recursos no lingüísticos:\n- \"¿Cómo inicia la conversación?\" (punto 1)\n- \"¿Cuáles recursos no lingüísticos identificaste?\" Completan un cuadro con: Gesto, Mirada, Mímica, Postura física, Entonación y su significado (punto 2).\n- \"¿Qué importancia tienen la postura física, los gestos y las miradas?\" (punto 3)\n- \"¿Cómo inician la conversación? ¿Sobre qué dialogan?\" (punto 4)\n- \"¿Cómo termina la conversación?\" (punto 5)\n- \"¿Cuáles sentimientos se reflejan?\" (punto 6)\n- \"Cuando Judy se acerca a Gideon, ¿qué es lo primero que él hace?\" (punto 7)\n- \"¿Se escuchan unos a otros? ¿Se respetan los turnos?\" (punto 8)\n- \"¿De cuál país son originarios?\" (punto 9 - el docente aprovecha para trabajar ubicación geográfica de España)\n- \"¿Cuáles actitudes te han enseñado en casa para conversar?\" (punto 10)\n2. Actividad F (pág. 13): Completan un cuadro con los momentos de la conversación: ¿Cómo inicia? ¿Cuál es el tema? ¿Cómo termina?",
+            "actividad_numero": "Comprensión oral (puntos 1-10, págs. 12-13) (pág. 13)"
+          }
+        ],
+        "inicio": [
+          {
+            "letras": "",
+            "tiempo": "15",
+            "recursos": "• Fragmento de Zootopia\n• Transcripción (pág. 9)\n• Pizarra",
+            "descripcion": "1. El docente proyecta o lee nuevamente el fragmento de Zootopia.\n2. Inicia un diálogo sobre su contenido con preguntas de la página 10:\n- \"¿Podrías decir cuáles personajes participan en el fragmento? ¿Cómo son? ¿Qué hacen? ¿Cuál es su estilo de vida? ¿En qué lugar están? ¿Cuáles son sus sueños? ¿Cómo habla cada uno? ¿La manera de hablar se relaciona con su estado de ánimo?\" (Pregunta 1, pág. 10)\n- \"Por el tono de voz y la forma como actúa Judy al inicio del video, ¿qué podrías decir sobre su estado de ánimo?\" (Pregunta 2, pág. 10)\n- \"¿Cómo se ponen de acuerdo el papá y la mamá de Judy para acercarse a conversar con ella?\" (Pregunta 3, pág. 10)",
+            "actividad_numero": "Comprensión oral (Párrafo 1, pág. 10)"
+          }
+        ],
+        "desarrollo": [
+          {
+            "letras": "B, C, D",
+            "tiempo": "60",
+            "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos\n• Fragmento de Zootopia (para consultar)",
+            "descripcion": "1. Actividad de Verdadero/Falso (pág. 10): Los estudiantes marcan V o F y explican por qué. Enunciados:\n- 1. El papá de Judy se acerca llamándola varias veces porque está preocupado por ella.\n- 2. Cuando Judy responde que está bien, la forma no se corresponde con el significado.\n- 3. Judy está triste porque cree que les hizo daño a muchos animales.\n- 4. El propósito de los padres es recordarle que es valiosa.\n- 5. Los gestos dan información diferente a la oral.\n2. Actividad de actos de habla (pág. 11): Escriben debajo de cada oración el acto de habla realizado:\n- 1. \"¡Hola! ¡Judy, Judy, Judy! ¿Todavía te acuerdas?¿Cómo te sientes?\"\n- 2. \"¡Ese sí es un trabalenguas señor H! Mi familia siempre les ha llamado aulladores.\"\n- 3. \"¿Por qué creí que marcaría una diferencia?\"\n- 4. \"¡Adiós! ¡Gracias! ¡Los quiero!\"\n- 5. \"¡Hola, Judy!, quiero decirte que estoy apenado por el modo en que me porté en mi niñez.\"\n- 6. \"Ahora somos socios. Y no lo habíamos considerado hasta que tú abriste nuestras mentes.\"\n3. Actividad de vocabulario en contexto (pág. 11): Seleccionan la respuesta correcta para palabras destacadas:\n- depredadores (a. Animales que cazan a otros)\n- en tus orejas se ve (c. Que está triste y cabizbaja)\n- ataques de ira y agresión (b. Proceder con ira, enojo y violencia)\n- minicampunjolicitias (a. Flores que protegen pero provocan que los animales se vuelvan salvajes)\n- aulladores (b. Nombre común de las minicampunjolicitias)",
+            "actividad_numero": "Comprensión oral (pág. 10) (pág. 11) (pág. 11)"
+          }
+        ],
+        "estrategia": "Uso de material audiovisual: Proyección del fragmento de Zootopia.\n\nToma de apuntes: Los estudiantes registran información durante la escucha.\n\nPreguntas de comprensión: Literales e inferenciales para verificar la comprensión.\n\nAnálisis de actos de habla: Identificación de saludar, preguntar, disculparse, etc.\n\nAnálisis de recursos no lingüísticos: Gestos, miradas, postura.\n\nTrabajo individual y grupal: Para resolver actividades escritas.",
+        "order_index": 1,
+        "actividades_cuaderno": "Copiar la lista de normas o reglas para una buena conversación que se elaborará en la pizarra a partir de las respuestas de la pregunta 10.\n\n",
+        "intencion_pedagogica": "Analizar a fondo el fragmento de Zootopia para identificar personajes, actos de habla, recursos no lingüísticos y la estructura de la conversación (inicio, desarrollo, cierre).\n\n",
+        "aprendizaje_significativo": "Se analiza una conversación de una película conocida (Zootopia) para identificar elementos de la comunicación que los niños usan a diario sin ser conscientes de ello, como los actos de habla y el lenguaje corporal.\n\n",
+        "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar un solo recurso no lingüístico (ej: solo los gestos).\n\nPara estudiantes con dificultades de comprensión lectora: Se les permite trabajar las actividades en pareja.\n\nPara estudiantes visuales: Se utilizan imágenes que muestren los gestos y posturas de los personajes.\n\nPara estudiantes kinestésicos: Se les invita a representar los gestos y posturas que identificaron.\n\nPara estudiantes avanzados: Se les pide que escriban un breve diálogo similar usando actos de habla y acotaciones de gestos."
+      },
+      {
+        "id": "1771197260467",
+        "name": "Gramática Textual y Producción Oral",
+        "title": "Actividad 3",
+        "cierre": [
+          {
+            "letras": "",
+            "tiempo": "15",
+            "recursos": "• Rúbrica de evaluación fotocopiada (pág. 17) para cada estudiante",
+            "descripcion": "1. El docente organiza una actividad final: conversar sobre un tema de interés o sobre una situación del entorno. Se elige un moderador que ceda los turnos (pág. 17).\n2. Autoevaluación (pág. 17): Cada estudiante usa la rúbrica para marcar su desempeño:\n- ¿Utiliza un tono de voz adecuado?\n- ¿Emplea gestos apropiados?\n- ¿Hace pausas adecuadas?\n- ¿Usa la entonación debida?\n- ¿Mira a su interlocutor?\n- ¿Pronuncia bien cada palabra?\n- ¿Escucha con respeto y atención?\n- ¿Demuestra que comprende la temática y la valora críticamente?\n3. Coevaluación (pág. 17): En pequeños grupos, dialogan sobre el desempeño de cada uno usando los mismos criterios.",
+            "actividad_numero": "Autoevaluación y Coevaluación (Pág. 17)"
+          }
+        ],
+        "inicio": [
+          {
+            "letras": "",
+            "tiempo": "15",
+            "recursos": "• Papelógrafo con el contenido\n• Transcripción de Zootopia (pág. 9)\n• Pizarra",
+            "descripcion": "1. El docente presenta el contenido teórico apoyándose en el fragmento de Zootopia (págs. 14-15):\n- Definición: Herramienta de comunicación para intercambiar información.\n- Interlocutores: Quienes participan.\n- Intención comunicativa y actos de habla: saludar, informar, agradecer, etc.\n- Lenguaje oral y gestual.\n- Características: espontánea, informal, dialogada, respetuosa.\n- Cualidades: tono adecuado, mirar a los ojos, discreción, respeto por turnos.\n- Normas para una conversación efectiva: respetar al que habla, no hablar todos a la vez, saber iniciar, pensar en lo que dicen los demás, etc. (listado pág. 15).\n- Estructura: apertura, cuerpo, conclusión (con ejemplos de Zootopia, pág. 15).",
+            "actividad_numero": "Gramática textual (Págs. 14-15)"
+          }
+        ],
+        "desarrollo": [
+          {
+            "letras": "",
+            "tiempo": "60",
+            "recursos": "• Copia de las preguntas para los grupos\n• Cuadernos",
+            "descripcion": "1. El docente divide la clase en grupos de 4 o 6 estudiantes (pág. 16).\n2. Explica que conversarán sobre los mensajes de Zootopia y sobre la resolución de conflictos.\n3. Actividades de producción oral (pág. 16):\n- \"Según lo observado en el video, ¿cómo es la relación de Judy con su mamá y su papá? ¿Qué opinas?\" (punto 1)\n- \"¿Por qué es importante mantener una buena comunicación entre los miembros de la familia?\" (punto 2)\n- \"¿Recuerdas alguna situación difícil que el diálogo te haya ayudado a resolver? Escríbela para compartirla.\" (punto 3)\n- \"Cuando has tenido algún problema o conflicto, ¿cómo lo has solucionado?\" (punto 4: Gritando, A puñetazos, Hablando mentiras, Dialogando - Explican su respuesta)\n- \"Cuando trataste de resolver problemas sin dialogar, ¿cuáles fueron los resultados?\" (punto 5)\n- \"Enumera las ventajas del uso del diálogo en la resolución de conflictos.\" (punto 6)\n4. El docente aprovecha para reflexionar sobre los beneficios del diálogo.",
+            "actividad_numero": "Producción oral (Párrafos 1-4, pág. 16) Actividades puntos 1-6 (pág. 16)"
+          }
+        ],
+        "estrategia": "Clase expositiva dialogada: Para presentar los conceptos gramaticales sobre la conversación.\n\nAnálisis de texto modelo: Se retoma el fragmento de Zootopia para identificar estructura y características.\n\nTrabajo en grupos cooperativos: Para la producción oral y la reflexión sobre resolución de conflictos.\n\nUso de rúbricas: Para la autoevaluación y coevaluación.\n\nDramatización y juego de roles: Para practicar la conversación en un contexto simulado.",
+        "order_index": 2,
+        "actividades_cuaderno": "Escribir una breve reflexión sobre cómo el diálogo puede ayudar a resolver un conflicto en su familia o con sus amigos, basándose en la actividad de la clase. Pegar la rúbrica de autoevaluación en el cuaderno.\n\n",
+        "intencion_pedagogica": "Sistematizar los conocimientos sobre la conversación (concepto, características, estructura, normas) y producir oralmente una conversación sobre resolución de conflictos, evaluando el desempeño comunicativo.\n\n",
+        "aprendizaje_significativo": "Se reflexiona sobre la importancia del diálogo para resolver conflictos en la vida real (familia, amigos), conectando el contenido académico con situaciones cotidianas de los estudiantes.\n\n",
+        "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite escribir sus respuestas antes de compartirlas en el grupo.\n\nPara estudiantes que se sienten abrumados en grupos grandes: Se les asigna un rol específico (ej: tomar notas de lo que dicen los demás).\n\nPara estudiantes con dificultades de atención: El moderador puede llamarlos específicamente para que opinen.\n\nPara estudiantes kinestésicos: Se les permite moverse y usar gestos exagerados durante la conversación.\n\nPara estudiantes avanzados: Se les pide que sean moderadores y practiquen la habilidad de ceder turnos.\n\nPara estudiantes con discapacidad auditiva: Se les sienta cerca del moderador y se les proporcionan las preguntas por escrito."
+      }
+    ],
+    "planning_data": "",
+    "duration_weeks": 4
+  },
+  "duration_weeks": 4
+}

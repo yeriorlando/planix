@@ -1,0 +1,516 @@
+{
+  "id": "seq-1772545397462",
+  "title": "Geometría (A)",
+  "description": "Estudia conceptos básicos de geometría como punto, recta, segmento, rayo y figuras geométricas.",
+  "order": 5,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772545397453",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Conceptos básicos de geometría",
+      "intencion_pedagogica": "Analizar conceptos básicos de geometría identificados en su entorno comunitario.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre señales de tránsito.\n• Uso de imágenes: Señales de tránsito para introducir conceptos geométricos.\n• Trabajo colaborativo en grupos: Análisis de situaciones problemáticas.\n• Socialización de conceptos: Punto, recta, plano.",
+      "aprendizaje_significativo": "Los estudiantes relacionan los conceptos geométricos básicos con las señales de tránsito que observan en su comunidad, comprendiendo que la geometría está presente en la vida cotidiana y en la infraestructura vial.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan imágenes de señales de tránsito para asociar con los conceptos.\n• Para estudiantes kinestésicos: Pueden dibujar en el piso con tiza puntos y líneas.\n• Para estudiantes con discapacidad visual: Se les proporcionan puntos y líneas en relieve.\n• Para estudiantes avanzados: Se les pide que identifiquen otros ejemplos de puntos y líneas en el aula.",
+      "actividades_cuaderno": "Los estudiantes resuelven las situaciones de la página 141:\n1. \"Los estudiantes de 4to A deciden reunirse en la casa de Alexander el sábado en la tarde para compartir con él. ¿La casa de Alexander representa un punto? Justifica tu respuesta.\"\n2. \"En la comunidad donde vive Rosa Yris la escuela, la iglesia y el hospital están ubicados en una misma calle, si se traza una línea recta y en ella se ubican estos tres lugares. ¿Cómo quedaría esa línea? Representa con letras mayúscula los lugares.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Imágenes de señales de tránsito\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente socializa con los estudiantes varias señales de tránsito (pág. 140).\n2. Pregunta: \"¿Qué imágenes son estas? ¿Dónde las han visto? ¿Para qué sirven? ¿Qué significan cada una? ¿Por qué es importante cumplir con estas señales?\"\n3. Socializa los resultados de forma oral con los estudiantes.",
+          "actividad_numero": "Actividad 1 - A (Pág. 140)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la primera situación (pág. 140): \"Alexander y Alberto deciden ir juntos a la escuela, para esto acuerdan juntarse en una señal de tránsito que dice ceda el paso. ¿Cómo se le llama al punto o lugar donde decidieron juntarse?\"\n2. Los grupos trabajan.\n3. Socializan: se llama punto de reunión. En geometría, a ese lugar se le llama punto.\n\nActividad 2 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 140): \"El padre de Jasmin usando su lápiz deja sobre un papel las siguientes marcas (......) ¿Cómo se llaman estas marcas?\"\n2. Los grupos resuelven.\n3. Socializan: cada marca dejada por el lápiz es un punto.\n4. El docente presenta la cápsula sobre punto (pág. 141).\n\nActividad 3 - Tercera situación problemática (15 min):\n1. El docente plantea (pág. 141): \"Manuel representa con una línea el espacio que observa entre dos señales de tránsito cuando viajaba con sus padres de Santiago a la Capital y marca con las letras A y B los lugares donde queda cada una. ¿Cómo se llama esa imagen trazada? ¿Qué indican los espacios marcados con las letras A y B?\"\n2. Los grupos trabajan.\n3. Socializan: es una línea recta, los puntos A y B son los extremos.",
+          "actividad_numero": "Actividad 1 - B y C (Pág. 140-141)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Qué es un punto? ¿Qué es una línea recta?\" (pág. 142).\n2. Actividad para el cuaderno: Los estudiantes resuelven las situaciones de la página 141: \"Los estudiantes de 4to A deciden reunirse en la casa de Alexander el sábado en la tarde para compartir con él. ¿La casa de Alexander representa un punto? Justifica tu respuesta.\" y \"En la comunidad donde vive Rosa Yris la escuela, la iglesia y el hospital están ubicados en una misma calle, si se traza una línea recta y en ella se ubican estos tres lugares. ¿Cómo quedaría esa línea? Representa con letras mayúscula los lugares.\"\n3. Actividad complementaria: Los estudiantes realizan las actividades de la página 142: dibujar una línea recta con tres puntos A, B, C; construir líneas rectas y no rectas con hilo; escribir al lado de cada imagen si es línea recta o no.\n4. Actividad para el diario del estudiante: Los estudiantes explican a un familiar con ejemplos qué es un punto y qué es una línea recta (pág. 142).",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 141-142)"
+        }
+      ]
+    },
+    {
+      "id": "1772545506422",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Otros conceptos básicos de geometría",
+      "intencion_pedagogica": "Describir situaciones del entorno usando conceptos geométricos.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Conceptos básicos de geometría\".\n• Trabajo en grupos: Resolución de situaciones con segmentos y rayos.\n• Uso de dibujos: Representación de situaciones cotidianas.",
+      "aprendizaje_significativo": "Los estudiantes identifican segmentos de recta (distancia entre dos señales) y rayos (luz del sol) en situaciones cotidianas, comprendiendo que la geometría describe fenómenos naturales y urbanos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan dibujos pre-elaborados de segmentos y rayos.\n• Para estudiantes kinestésicos: Pueden representar con su cuerpo una línea recta, un segmento y un rayo.\n• Para estudiantes con discapacidad visual: Se les proporcionan las figuras en relieve.\n• Para estudiantes avanzados: Se les pide que investiguen otros ejemplos de rayos en la naturaleza.",
+      "actividades_cuaderno": "Los estudiantes resuelven las situaciones de la página 143:\n1. \"Si Alexander enciende una linterna en la oscuridad ¿Qué representa el haz de luz: un segmento de recta o un rayo? Justifica tu respuesta.\"\n2. \"José dibuja con una línea la distancia en que se encuentran dos señales de tránsito. ¿Este dibujo representa un segmento de recta o un rayo? Justifica tu respuesta.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué le dijeron a su familiar sobre lo que es un punto? ¿Qué es una línea recta? ¿Qué ejemplos usaron?\" (pág. 142).\n2. Anuncia que hoy continuarán con otros conceptos geométricos.",
+          "actividad_numero": "Actividad 2 - A (Pág. 142)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Conceptos básicos de geometría\" disponible en: https://youtu.be/D8KPK2Wmz3E (pág. 142).\n2. Después del video, pregunta: \"¿Qué conceptos vieron? ¿Qué es un segmento de recta? ¿Qué es un rayo?\"\n3. En caso de no tener acceso a tecnología, presenta las imágenes de la página 142 y pregunta sus características.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 142): \"Nelly se subió en un carro al lado de una señal de tránsito que dice PARE, se desplazó por una calle en línea recta hasta la escuela, bajándose al frente de una señal que dice ESCUELA. Si se grafica el espacio recorrido colocando un punto A en la primera señal y un punto B en la segunda, ¿qué representa la distancia recorrida por Nelly, una línea recta o un segmento de recta? Justifica tu respuesta dibujando en tu cuaderno el recorrido de Nelly.\"\n2. Los grupos trabajan.\n3. Socializan: es un segmento de recta porque tiene inicio y fin.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 143): \"Antonio observa un rayo de luz que sale del sol cruza por la tierra y continúa por el universo. Si se representa esta luz con una línea este gráfico representa una línea recta, un segmento de recta o un rayo. Justifica tu respuesta.\"\n2. Los grupos resuelven.\n3. Socializan: es un rayo porque tiene inicio (el sol) pero no tiene fin.",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 142-143)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué es un segmento de recta? ¿Qué es un rayo?\" (pág. 143).\n2. Actividad para el cuaderno: Los estudiantes resuelven las situaciones de la página 143: \"Si Alexander enciende una linterna en la oscuridad, ¿qué representa el haz de luz: un segmento de recta o un rayo? Justifica tu respuesta.\" y \"José dibuja con una línea la distancia en que se encuentran dos señales de tránsito. ¿Este dibujo representa un segmento de recta o un rayo? Justifica tu respuesta.\"\n3. Actividad complementaria: Los estudiantes realizan las actividades de la página 144: escribir el nombre de cada imagen e identificar en una imagen línea recta, segmento de recta y rayo; realizar la actividad del libro abierto página 109.\n4. Actividad para el diario del estudiante: Los estudiantes dibujan la distancia entre 4 señales de tránsito de su comunidad, identifican los segmentos de recta y responden: \"¿Es posible que estas distancias puedan representar un rayo?\" (pág. 144).",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 143-144)"
+        }
+      ]
+    },
+    {
+      "id": "1772545597474",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Conceptos básicos de geometría",
+      "intencion_pedagogica": "Analizar situaciones de su contexto relacionadas con los planos.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Hoja de papel para representar plano.\n• Trabajo individual: Identificación de objetos que representan planos.\n• Socialización de conceptos.",
+      "aprendizaje_significativo": "Los estudiantes identifican que una hoja de papel, un libro o una señal de tránsito dan la idea de un plano, comprendiendo que el plano es una superficie que se extiende en dos dimensiones.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan objetos físicos (hojas, libros, cartulinas) para que toquen y comparen.\n• Para estudiantes kinestésicos: Pueden recortar figuras planas de cartulina.\n• Para estudiantes con discapacidad visual: Se les proporcionan superficies planas para palpar.\n• Para estudiantes avanzados: Se les pide que identifiquen planos en objetos tridimensionales.",
+      "actividades_cuaderno": "Los estudiantes resuelven las situaciones de la página 145:\n1. \"Alexander dibujó en su cuaderno el zafacón del curso. ¿Representa el dibujo de Alexander un plano? ¿Por qué? Dibuja en tu cuaderno el zafacón para justificar tu respuesta.\"\n2. \"Elizabeth dibuja en su cuaderno la señal de tránsito cercana a su escuela como se muestra en la imagen de abajo, ¿representa este dibujo un plano? Justifica tu respuesta.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué imagen elaboraron? ¿Qué líneas pudieron identificar? ¿Alguien pudo identificar un rayo?\" (pág. 144).\n2. Presenta la imagen de la página 144 y pide identificar línea recta, segmentos y rayos.",
+          "actividad_numero": "Actividad 3 - A (Pág. 144)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Señal de tránsito (imagen)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Exploración del concepto de plano (20 min):\n1. El docente entrega una hoja en blanco a cada estudiante y pide que pasen sus manos sobre ella.\n2. Pregunta: \"¿Qué características tiene? ¿Es plana?\"\n3. Explica que una hoja da la idea de un plano en geometría: una superficie formada por infinitos puntos que se extiende a lo largo y a lo ancho (pág. 145).\n\nActividad 2 - Identificación de planos (20 min):\n1. El docente presenta una señal de tránsito y pregunta: \"¿Esta señal puede dar la idea de un plano? ¿Por qué?\" (pág. 145).\n2. Explica que si se colocan tres o más puntos que no estén en línea recta, el resultado es un triángulo y su interior es una porción de un plano.\n\nActividad 3 - Situación problemática individual (20 min):\n1. El docente plantea (pág. 145): \"Yasmeiry dibujó en su cuaderno la forma que tiene su libro de Matemática de 4to grado. ¿Ese dibujo representa la idea de un plano? Justifica tu respuesta.\"\n2. Los estudiantes trabajan individualmente.\n3. Socializan: el dibujo del libro da la idea de un plano, porque es una figura plana que se extiende en dos direcciones.",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 144-145)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Qué objetos del aula pueden representar un plano?\" (pág. 145).\n2. Actividad para el cuaderno: Los estudiantes resuelven las situaciones de la página 145: \"Alexander dibujó en su cuaderno el zafacón del curso. ¿Representa el dibujo de Alexander un plano? ¿Por qué? Dibuja en tu cuaderno el zafacón para justificar tu respuesta.\" y \"Elizabeth dibuja en su cuaderno la señal de tránsito cercana a su escuela como se muestra en la imagen de abajo, ¿representa este dibujo un plano? Justifica tu respuesta.\"\n3. Actividad complementaria: Los estudiantes escriben al lado de las imágenes de la página 146 cuáles representan un plano y cuáles no, justificando su respuesta.\n4. Actividad para el diario del estudiante: Los estudiantes explican a sus padres u otro familiar cuáles objetos de la casa, si los dibujan, pueden representar un plano (pág. 146).",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 145-146)"
+        }
+      ]
+    },
+    {
+      "id": "1772545754912",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Los Ángulos ",
+      "intencion_pedagogica": "Identificar ángulos en situaciones de su entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Los ángulos para niños\".\n• Trabajo en grupos: Identificación de ángulos en señales de tránsito.\n• Clasificación de ángulos: Rectos, agudos y obtusos.",
+      "aprendizaje_significativo": "Los estudiantes identifican ángulos en señales de tránsito (flecha direccional, PARE), comprendiendo que los ángulos están presentes en elementos cotidianos y su medición es importante en la construcción y el diseño.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras con los ángulos ya señalados.\n• Para estudiantes kinestésicos: Pueden formar ángulos con sus brazos.\n• Para estudiantes con discapacidad visual: Se les proporcionan ángulos en relieve.\n• Para estudiantes avanzados: Se les pide que midan ángulos con transportador.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 148:\n1. \"Alexander tiene el dibujo de una señal de tránsito como se muestra a continuación. ¿Qué tipos de ángulos se forman en dicha señal?\"\n2. \"Alberto dice que en la señal siguiente solo hay dos ángulos rectos en las esquinas. ¿Tiene Alberto razón en lo que dice? ¿Cuántos ángulos rectos se forma en esa señal? ¿Qué tipo de ángulos se forma en cada esquina de la señal?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿A qué familiar le explicaron? ¿Qué objetos dibujaron?\" (pág. 146).\n2. Anuncia que hoy aprenderán sobre ángulos.",
+          "actividad_numero": "Actividad 4 - A (Pág. 146)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Los ángulos para niños\" disponible en: https://www.youtube.com/watch?v=Dl-qJ-uZCgU (pág. 146).\n2. Después del video, pregunta: \"¿Qué es un ángulo? ¿Cuáles son sus elementos? ¿Qué tipos de ángulos conocen?\"\n3. En caso de no tener acceso a tecnología, explora con preguntas sobre cursos anteriores.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 147): \"Jonathan está dibujando una señal de tránsito, ya ha dibujado dos segmentos de rectas como se muestra en la imagen de abajo. ¿Se formó un ángulo en esa imagen? Identifique sus elementos.\"\n2. Los grupos trabajan.\n3. Socializan: sí se formó un ángulo, los elementos son el vértice y los lados.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 147): \"Alexander dice que en una esquina de la señal de tránsito flecha direccional se forma un ángulo recto. ¿Tiene Alexander la razón en su afirmación? ¿Por qué? ¿Cuánto mide un ángulo recto?\"\n2. Los grupos resuelven.\n3. Socializan: tiene razón, el ángulo recto mide 90 grados.\n4. El docente presenta la clasificación de ángulos (pág. 148).",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 146-148)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué tipo de ángulos se forman en los objetos del aula?\" (pág. 148).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 148: \"Alexander tiene el dibujo de una señal de tránsito como se muestra a continuación. ¿Qué tipos de ángulos se forman en dicha señal?\" y \"Alberto dice que en la señal siguiente solo hay dos ángulos rectos en las esquinas. ¿Tiene Alberto razón en lo que dice? ¿Cuántos ángulos rectos se forma en esa señal? ¿Qué tipo de ángulos se forma en cada esquina de la señal?\"\n3. Actividad complementaria: Los estudiantes escriben debajo de cada imagen el tipo de ángulo representado (pág. 148) y completan la actividad del libro abierto página 111.\n4. Actividad para el diario del estudiante: Los estudiantes revisan en su casa qué tipo de ángulos se forman en una esquina del televisor, la ventana y la puerta, y anotan los resultados (pág. 149).",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 148-149)"
+        }
+      ]
+    },
+    {
+      "id": "1772545882503",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Taller de ángulos",
+      "intencion_pedagogica": "Fortalecer los conocimientos de los estudiantes sobre la clasificación de los ángulos usando manipulativos.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Sorbetes, masilla, palitos, reloj.\n• Trabajo manipulativo: Construcción de ángulos.\n• Identificación de ángulos en objetos cotidianos.",
+      "aprendizaje_significativo": "Los estudiantes construyen ángulos con material concreto y los identifican en objetos del aula y en relojes, comprendiendo que los ángulos son una medida de apertura presente en muchos elementos de su entorno.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan modelos de ángulos ya construidos.\n• Para estudiantes kinestésicos: La actividad manipulativa es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan ángulos en relieve.\n• Para estudiantes avanzados: Se les pide que midan los ángulos construidos con transportador.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, es el registro del taller.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué tipo de ángulos identificaron en el televisor, la ventana y la puerta de su casa?\" (pág. 149).\n2. Anuncia que hoy harán un taller de ángulos.",
+          "actividad_numero": "Actividad 5 - A (Pág. 150)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Sorbetes o palitos\n• Masilla\n• Reloj analógico\n• Imágenes de la página 150\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Construcción de ángulos (20 min):\n1. El docente entrega sorbetes y masilla o palitos de paletas.\n2. Pide que representen una esquina de la pizarra (ángulo recto).\n3. Luego, que tracen otra esquina y traten de cerrarla un poco más (ángulo agudo).\n4. Finalmente, que formen una abertura mayor que la esquina de la pizarra (ángulo obtuso).\n5. Envían estudiantes a representar en la pizarra y explican.\n\nActividad 2 - Identificación en el aula (20 min):\n1. Los estudiantes identifican en el aula ángulos rectos, agudos y obtusos.\n2. El docente entrega un reloj para que, usando las manecillas, formen los diferentes tipos de ángulos.\n\nActividad 3 - Identificación en relojes (20 min):\n1. El docente presenta las imágenes de la página 150 (relojes).\n2. Los estudiantes identifican el ángulo que se forma con las manecillas en cada caso.",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 150)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo hicieron los ángulos? ¿Qué tipo de ángulo es más fácil de construir?\" (pág. 150).\n2. Actividad para el cuaderno: No hay actividad específica, es el registro del taller.\n3. Actividad complementaria: No aplica.\n4. Actividad para el diario del estudiante: No aplica.",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 150)"
+        }
+      ]
+    },
+    {
+      "id": "1772546277491",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Medición de ángulos",
+      "intencion_pedagogica": "Utilizar la regla, el compás y el transportador en la medición de ángulos.",
+      "estrategia": "• Revisión de taller: Socialización de la experiencia del taller anterior.\n• Uso de video: \"Medición de ángulos con transportador\".\n• Trabajo en parejas: Uso de transportador y compás.\n• Práctica guiada: Medición de ángulos.",
+      "aprendizaje_significativo": "Los estudiantes aprenden a medir ángulos con transportador, comprendiendo que esta herramienta permite cuantificar la apertura de un ángulo, lo cual es útil en construcción, diseño y otras áreas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona un transportador con instrucciones paso a paso.\n• Para estudiantes kinestésicos: La práctica con instrumentos es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporciona un transportador táctil.\n• Para estudiantes avanzados: Se les pide que midan ángulos mayores de 180°.",
+      "actividades_cuaderno": "Los estudiantes realizan la actividad de la página 152: \"Con la regla traza dos segmentos de rectas en la posición que quieras, pero que ambos inicien en el mismo punto. Traza el arco del ángulo con el compás. Luego con el transportador determina cuánto mide el ángulo que formaste.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo hicieron los ángulos en el taller? ¿Qué tipo de ángulos formaron?\" (pág. 151).\n2. Pregunta: \"¿Con qué instrumento se pueden medir los ángulos? ¿Se puede medir un ángulo con una regla?\" (pág. 151).",
+          "actividad_numero": "Actividad 6 - A (Pág. 151)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Transportadores\n• Compases\n• Reglas\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Medición de ángulos con transportador\" disponible en: https://www.youtube.com/watch?v=qMclU6-w2Hc (pág. 151).\n2. Después del video, pregunta: \"¿Cómo se usa el transportador? ¿Cómo se coloca?\"\n\nActividad 2 - Práctica con transportador (25 min):\n1. El docente reparte transportadores a los estudiantes.\n2. Explica el procedimiento: colocar el centro del transportador en el vértice, alinear un lado con el cero y leer la medida donde pasa el otro lado.\n3. Los estudiantes trazan varios ángulos en sus cuadernos y los miden.\n\nActividad 3 - Uso del compás (20 min):\n1. El docente presenta el compás y explica su uso (pág. 152).\n2. Los estudiantes trazan dos segmentos con un punto en común y usan el compás para representar el ángulo formado.",
+          "actividad_numero": "Actividad 6 - B y C (Pág. 151-152)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Para qué se usa el compás? ¿Para qué se usa el transportador?\" (pág. 153).\n2. Actividad para el cuaderno: Los estudiantes realizan la actividad de la página 152: \"Con la regla traza dos segmentos de rectas en la posición que quieras, pero que ambos inicien en el mismo punto. Traza el arco del ángulo con el compás. Luego con el transportador determina cuánto mide el ángulo que formaste.\"\n3. Actividad complementaria: Los estudiantes determinan la medida de cada ángulo de la página 153 usando transportador y compás, y escriben al lado de cada imagen la medida del ángulo y qué tipo de ángulo es.\n4. Actividad para el diario del estudiante: Los estudiantes escriben en su cuaderno el nombre de tres ángulos que se formen en objetos de su casa y en cuáles objetos se forman (pág. 153).",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 152-153)"
+        }
+      ]
+    },
+    {
+      "id": "1772546691132",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Relaciones entre rectas",
+      "intencion_pedagogica": "Analizar situaciones del entorno usando diferentes tipos de rectas y sus relaciones.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Rectas paralelas, perpendiculares y secantes\".\n• Trabajo en grupos: Identificación de relaciones entre rectas en señales de tránsito.\n• Clasificación de rectas: Paralelas, perpendiculares, oblicuas.",
+      "aprendizaje_significativo": "Los estudiantes identifican rectas paralelas (borde superior e inferior de una señal), perpendiculares (esquinas de PARE) y oblicuas (lados de un rombo) en señales de tránsito, comprendiendo que estas relaciones están presentes en el diseño vial.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan imágenes con las rectas ya señaladas.\n• Para estudiantes kinestésicos: Pueden representar las relaciones con sus brazos.\n• Para estudiantes con discapacidad visual: Se les proporcionan rectas en relieve.\n• Para estudiantes avanzados: Se les pide que dibujen ejemplos de cada tipo de relación.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 155:\n1. \"Si Alexander traza dos líneas rectas sobre dos lados, seguidos de la siguiente señal de tránsito que se encuentra debajo, ¿qué tipo de relación habrá entre esas dos rectas?\"\n2. \"¿Cómo puedes trazar líneas rectas que sean paralelas o que sean perpendiculares usando la señal de tránsito de abajo?\"\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué ángulos identificaron en su casa? ¿En qué objetos?\" (pág. 153).\n2. Anuncia que hoy estudiarán las relaciones entre rectas.",
+          "actividad_numero": "Actividad 7 - A (Pág. 154)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Rectas paralelas, perpendiculares y secantes\" disponible en: https://www.youtube.com/watch?v=drzHCXmwF3E (pág. 154).\n2. Después del video, pregunta: \"¿Qué tipos de rectas vieron? ¿Qué relación hay entre ellas?\"\n3. En caso de no tener acceso a tecnología, presenta las imágenes de la página 154 y pregunta las diferencias.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 154): \"Yasmeiry ha representado con líneas rectas el borde superior y el inferior de la señal de tránsito de una dirección a la derecha, ella dice que esas rectas son perpendiculares. ¿Tiene razón Yasmeiry? ¿En caso de no tener la razón, qué relación hay entre esas dos rectas?\"\n2. Los grupos trabajan.\n3. Socializan: no tiene razón, son paralelas porque nunca se cruzan.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 154): \"Nelly traza líneas rectas sobre dos lados seguidos de la señal de tránsito de PARE, Nelly afirma que las rectas resultantes son oblicuas. ¿Tiene Nelly razón? Justifica tu respuesta.\"\n2. Los grupos resuelven.\n3. Socializan: tiene razón, son oblicuas porque se cruzan pero no forman ángulo recto.\n4. El docente presenta las imágenes de la página 155 para explicar rectas perpendiculares.",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 154-155)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Funda con imágenes\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Juego de cierre (pág. 156): Llevar en una funda imágenes de rectas paralelas, perpendiculares y oblicuas. Por turno, los estudiantes sacan un papel y dicen qué relación hay entre las rectas.\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 155: \"Si Alexander traza dos líneas rectas sobre dos lados seguidos de la siguiente señal de tránsito, ¿qué tipo de relación habrá entre esas dos rectas?\" y \"¿Cómo puedes trazar líneas rectas que sean paralelas o que sean perpendiculares usando la señal de tránsito de abajo?\"\n3. Actividad complementaria: Los estudiantes escriben debajo de cada imagen de la página 156 su nombre según la relación entre las rectas, acceden al enlace de Wordwall y realizan la actividad del libro abierto página 113.\n4. Actividad para el diario del estudiante: Los estudiantes dibujan en su cuaderno varias calles de su comunidad o barrio e identifican las calles que son paralelas, oblicuas y perpendiculares (pág. 157).",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 155-157)"
+        }
+      ]
+    },
+    {
+      "id": "1772549247052",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Los polígonos",
+      "intencion_pedagogica": "Analizar situaciones del contexto usando polígonos.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Los polígonos para niños\".\n• Trabajo en grupos: Identificación de polígonos en señales de tránsito.\n• Características de los polígonos: Figuras cerradas, lados rectos, planas.",
+      "aprendizaje_significativo": "Los estudiantes identifican que las señales de tránsito (estacionamiento para discapacitados, doble vía) son polígonos, comprendiendo que estas figuras geométricas están presentes en elementos cotidianos y su estudio ayuda a entender el entorno.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras planas para que toquen y verifiquen las características.\n• Para estudiantes kinestésicos: Pueden recortar polígonos de papel.\n• Para estudiantes con discapacidad visual: Se les proporcionan polígonos en relieve.\n• Para estudiantes avanzados: Se les pide que clasifiquen los polígonos por número de lados.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 159:\n1. \"Juan dibuja en su cuaderno el libro de matemática de 4to grado. ¿Ese dibujo será un polígono? ¿Qué características tiene?\"\n2. \"Manuel dibujó en su cuaderno las formas que tienen la pizarra, la puerta y las ventanas. ¿Tendrán esos objetos forma de polígono? ¿Qué características tiene cada imagen?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué líneas dibujaron? ¿Qué tipo de líneas son? ¿Fueron paralelas, oblicuas o perpendiculares?\" (pág. 157).\n2. Anuncia que hoy aprenderán sobre polígonos.",
+          "actividad_numero": "Actividad 8 - A (Pág. 157)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Los polígonos para niños\" disponible en: https://youtu.be/mNVylnL5uMM (pág. 157).\n2. Después del video, pregunta: \"¿Qué es un polígono? ¿Qué objetos del aula tienen forma de polígono?\"\n3. En caso de no tener acceso a tecnología, presenta varias imágenes y pregunta sus características.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 5 estudiantes y plantea la situación (pág. 158): \"Alexander tiene dibujado en su cuaderno la señal de tránsito de estacionamiento para personas discapacitadas, él quiere saber si la superficie de dicha señal es un polígono y se pregunta qué características tiene. ¿Será cerrada? ¿Los bordes o lados son curvos o rectos? ¿Es una figura plana o no?\"\n2. Los grupos trabajan.\n3. Socializan: es un polígono porque es cerrada, sus lados son rectos y es plana.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 158): \"Observa la señal de tránsito de DOBLE VÍA que se muestra debajo. ¿Es un polígono la superficie de la imagen? ¿Qué características debe tener una figura para ser un polígono?\"\n2. Los grupos resuelven.\n3. Socializan: es un polígono porque cumple las tres características.",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 157-158)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué es un polígono? ¿Qué características debe tener?\" (pág. 159).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 159: \"Juan dibuja en su cuaderno el libro de matemática de 4to grado. ¿Ese dibujo será un polígono? ¿Qué características tiene?\" y \"Manuel dibujó en su cuaderno las formas que tienen la pizarra, la puerta y las ventanas. ¿Tendrán esos objetos forma de polígono? ¿Qué características tiene cada imagen?\"\n3. Actividad complementaria: Los estudiantes escriben debajo de cada figura de la página 159 \"Sí\" cuando sea un polígono y \"No\" cuando no cumpla las características, y acceden al enlace de Wordwall.\n4. Actividad para el diario del estudiante: Los estudiantes dibujan en su cuaderno 4 objetos de la casa con forma de polígono (pág. 159).",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 159)"
+        }
+      ]
+    },
+    {
+      "id": "1772549319698",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Taller sobre los polígonos",
+      "intencion_pedagogica": "Construir el concepto de polígono y sus características usando recursos y manipulativos.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Figuras planas, geoplanos.\n• Trabajo manipulativo: Identificación y construcción de polígonos.\n• Clasificación de polígonos por número de lados.",
+      "aprendizaje_significativo": "Los estudiantes construyen polígonos en el geoplano y clasifican figuras según sus características, comprendiendo que los polígonos se diferencian por el número de lados y que esta clasificación es útil en la vida cotidiana.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan geoplanos con polígonos ya formados.\n• Para estudiantes kinestésicos: La actividad con geoplanos es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan figuras en relieve.\n• Para estudiantes avanzados: Se les pide que construyan polígonos de 7, 8 y 9 lados.",
+      "actividades_cuaderno": "Los estudiantes completan la fotocopia de la página 161 con los elementos y el nombre de cada polígono.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué objetos de su casa dibujaron? ¿Qué forma de polígono tienen?\" (pág. 159).\n2. Anuncia que hoy harán un taller con figuras y geoplanos.",
+          "actividad_numero": "Actividad 9 - A (Pág. 160)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Figuras planas (polígonos y no polígonos)\n• Geoplanos\n• Gomitas o ligas\n• Fotocopias de la página 161\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Identificación de polígonos (15 min):\n1. El docente entrega figuras planas que tienen forma de polígonos (pág. 160).\n2. Los estudiantes pasan los dedos por los bordes e identifican las características.\n3. Socializan: son figuras cerradas, lados rectos, planas.\n\nActividad 2 - Identificación de no polígonos (15 min):\n1. El docente entrega figuras que no son polígonos (círculos, figuras abiertas, con lados curvos).\n2. Los estudiantes identifican por qué no son polígonos.\n\nActividad 3 - Construcción en geoplano (30 min):\n1. El docente entrega un geoplano a cada estudiante (pág. 160).\n2. Pide construir diferentes polígonos: de 3 lados, de 4 lados, de 5 lados, etc.\n3. Los estudiantes construyen y socializan con el compañero el nombre y las características.\n4. El docente entrega una copia con varios polígonos para que completen los elementos y el nombre de cada polígono (pág. 161).",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 160-161)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué características tienen los polígonos? ¿Qué polígonos construyeron?\" (pág. 161).\n2. Actividad para el cuaderno: Los estudiantes completan la fotocopia de la página 161 con los elementos y el nombre de cada polígono.\n3. Actividad complementaria: No aplica.\n4. Actividad para el diario del estudiante: No aplica.",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 161)"
+        }
+      ]
+    },
+    {
+      "id": "1772549685691",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Los triángulos",
+      "intencion_pedagogica": "Clasificar triángulos según sus lados y sus ángulos.",
+      "estrategia": "• Revisión de taller: Socialización de la experiencia del taller anterior.\n• Uso de video: \"Clasificación de triángulos\".\n• Trabajo en grupos: Clasificación de triángulos según sus lados y ángulos.\n• Uso de material concreto: Figuras planas.",
+      "aprendizaje_significativo": "Los estudiantes clasifican triángulos de señales de tránsito (triángulo equilátero, isósceles) según sus lados y ángulos, comprendiendo que esta clasificación permite identificar y nombrar correctamente las figuras geométricas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras de triángulos con sus medidas.\n• Para estudiantes kinestésicos: Pueden construir triángulos en el geoplano.\n• Para estudiantes con discapacidad visual: Se les proporcionan triángulos en relieve.\n• Para estudiantes avanzados: Se les pide que dibujen un triángulo de cada tipo.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 163:\n1. \"Alexander tiene un triángulo que tiene un ángulo recto y sus tres lados son de diferentes tamaños, ¿cómo se llama ese triángulo según sus ángulos?, ¿y cómo se llama según sus lados?\"\n2. \"Rosa Yris representó un triángulo en un geoplano, si este tiene un ángulo obtuso y dos de sus lados miden lo mismo, ¿cómo se llama ese triángulo según sus ángulos?, ¿y cómo se llama según sus lados?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué polígonos construyeron en el geoplano? ¿Qué características tienen?\" (pág. 161).\n2. Pregunta: \"¿Qué es un triángulo? ¿Qué tipos de triángulos conocen?\" (pág. 161).",
+          "actividad_numero": "Actividad 10 - A (Pág. 161)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Figuras planas de triángulos\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Clasificación de triángulos\" disponible en: https://www.youtube.com/watch?v=I9S1kBXLkBo (pág. 161).\n2. Después del video, pregunta: \"¿Cómo se clasifican los triángulos según sus lados? ¿Cómo se clasifican según sus ángulos?\"\n3. En caso de no tener acceso a tecnología, presenta las imágenes de la página 162.\n\nActividad 2 - Situación problemática en parejas (25 min):\n1. El docente organiza parejas y plantea la situación (pág. 162): \"Al lado de la escuela donde estudia Alexander han colocado una señal de tránsito la cual se muestra debajo. ¿Qué nombre recibe ese triángulo según sus lados? ¿Qué nombre recibe según sus ángulos?\" (triángulo equilátero y acutángulo).\n2. Las parejas trabajan.\n3. Socializan: según sus lados es equilátero, según sus ángulos es acutángulo.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 162): \"Nelly dibujó en su cuaderno un triángulo, como se muestra en la imagen de abajo. ¿Qué nombre recibe ese triángulo según sus lados? ¿Qué nombre recibe según sus ángulos?\" (triángulo isósceles y rectángulo).\n2. Las parejas resuelven.\n3. Socializan: según sus lados es isósceles, según sus ángulos es rectángulo.\n4. El docente presenta la clasificación de triángulos (pág. 162-163).",
+          "actividad_numero": "Actividad 10 - B y C (Pág. 161-163)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo se llaman los triángulos según sus lados? ¿Y según sus ángulos?\" (pág. 163).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 163: \"Alexander tiene un triángulo que tiene un ángulo recto y sus tres lados son de diferentes tamaños, ¿cómo se llama ese triángulo según sus ángulos?, ¿y cómo se llama según sus lados?\" y \"Rosa Yris representó un triángulo en un geoplano, si este tiene un ángulo obtuso y dos de sus lados miden lo mismo, ¿cómo se llama ese triángulo según sus ángulos?, ¿y cómo se llama según sus lados?\"\n3. Actividad complementaria: Los estudiantes unen con una línea el nombre del triángulo con la figura correspondiente según los lados y según los ángulos (pág. 164), y acceden a los enlaces de Wordwall.\n4. Actividad para el diario del estudiante: Los estudiantes acceden al enlace de Wordwall para practicar la clasificación de triángulos (pág. 164).",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 163-164)"
+        }
+      ]
+    },
+    {
+      "id": "1772549858712",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Los cuadriláteros",
+      "intencion_pedagogica": "Identificar y resolver situaciones de su entorno comunitario usando los cuadriláteros.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de imágenes: Señales de tránsito con forma de cuadriláteros.\n• Trabajo en grupos: Identificación de paralelogramos.\n• Clasificación de cuadriláteros: Paralelogramos y no paralelogramos.",
+      "aprendizaje_significativo": "Los estudiantes identifican que las señales de tránsito cuadradas y rectangulares son paralelogramos, comprendiendo que los cuadriláteros tienen diferentes propiedades según el paralelismo de sus lados.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras recortadas para identificar lados paralelos.\n• Para estudiantes kinestésicos: Pueden usar el geoplano para construir paralelogramos.\n• Para estudiantes con discapacidad visual: Se les proporcionan cuadriláteros en relieve.\n• Para estudiantes avanzados: Se les pide que expliquen la diferencia entre cuadrado y rectángulo.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 166:\n1. \"¿La señal de tránsito de CEDA EL PASO que se muestra en la imagen de abajo es un paralelogramo? Justifica tu respuesta.\"\n2. \"Alexander dibujó en su cuaderno la forma que tiene la puerta y la ventana de su casa, ¿cuál o cuáles de estas figuras son paralelogramos?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imágenes de señales de tránsito\n• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Cómo les fue en el enlace de Wordwall? ¿Qué triángulos clasificaron?\" (pág. 164).\n2. Presenta imágenes de señales de tránsito y pregunta: \"¿Cómo se llaman estos polígonos? ¿Cómo son sus ángulos?\" (pág. 165).",
+          "actividad_numero": "Actividad 11 - A (Pág. 165)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Papelógrafo para cartel",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 5 estudiantes y plantea la situación (pág. 165): \"Jonathan visualizó 2 señales de tránsito de camino a la escuela, él dice que son 2 paralelogramos, estas señales tienen las formas que se muestran en las imágenes de abajo. ¿Serán paralelogramos esas figuras?\" (señal cuadrada y rectangular).\n2. Los grupos trabajan.\n3. Socializan: ambas son paralelogramos porque tienen dos pares de lados paralelos.\n\nActividad 2 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 165): \"Nelly viajaba con su madre para Santiago, en el camino vio una señal de tránsito, como se muestra en la imagen de abajo. ¿Qué forma tiene esa señal? ¿Es un paralelogramo? ¿Por qué?\" (señal de CEDA EL PASO, forma triangular, no es paralelogramo).\n2. Los grupos resuelven.\n3. Socializan: es un triángulo, no es paralelogramo.\n\nActividad 3 - Elaboración de cartel (15 min):\n1. El docente elabora un cartel con las definiciones de paralelogramo, rectángulo y cuadrado (pág. 166).",
+          "actividad_numero": "Actividad 11 - B y C (Pág. 165-166)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué es un paralelogramo? ¿Qué paralelogramos trabajamos hoy?\" (pág. 166).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 166: \"¿La señal de tránsito de CEDA EL PASO que se muestra en la imagen de abajo es un paralelogramo? Justifica tu respuesta.\" y \"Alexander dibujó en su cuaderno la forma que tiene la puerta y la ventana de su casa, ¿cuál o cuáles de estas figuras son paralelogramos?\"\n3. Actividad complementaria: Los estudiantes observan los cuadriláteros de la página 167 y escriben debajo de cada uno si son o no paralelogramos; representan 3 paralelogramos diferentes usando el geoplano; realizan la actividad del libro abierto página 129.\n4. Actividad para el diario del estudiante: Los estudiantes dibujan en su cuaderno 3 objetos de la casa que sus dibujos representen paralelogramos (pág. 167).",
+          "actividad_numero": "Actividad 11 - Cierre (Pág. 166-167)"
+        }
+      ]
+    },
+    {
+      "id": "1772550035935",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Adivinanzas geométricas",
+      "intencion_pedagogica": "Retroalimentar lo trabajado en la secuencia usando las adivinanzas como estrategia.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Juego didáctico: \"Adivinanzas geométricas\".\n• Trabajo en grupo: Resolución de adivinanzas.\n• Registro de desempeño: Observación del nivel de logro de los estudiantes.",
+      "aprendizaje_significativo": "Los estudiantes repasan todos los conceptos geométricos trabajados en la secuencia (punto, recta, ángulos, triángulos, cuadriláteros, paralelogramos) a través de un juego de adivinanzas, comprendiendo que el aprendizaje puede ser divertido y colaborativo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar los carteles de la clase como apoyo.\n• Para estudiantes kinestésicos: El juego es una actividad kinestésica ideal.\n• Para estudiantes con discapacidad visual: Se les proporcionan las adivinanzas en formato ampliado.\n• Para estudiantes avanzados: Se les pide que creen sus propias adivinanzas geométricas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, es el registro del juego.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué objetos de su casa dibujaron? ¿Qué forma de paralelogramo tienen?\" (pág. 167).\n2. Anuncia que hoy jugarán a las adivinanzas geométricas.",
+          "actividad_numero": "Actividad 12 - A (Pág. 167)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Tarjetas con adivinanzas\n• Cuadernos\n• Lápices",
+          "descripcion": "Juego de adivinanzas geométricas:\n1. El docente elabora en tarjetas las adivinanzas de la página 167.\n2. Explica las reglas: un estudiante baraja las tarjetas y las coloca boca abajo. Por turno, los estudiantes toman una tarjeta, leen lo que contiene y sus compañeros tienen que adivinar la respuesta.\n3. Adivinanzas:\n- \"Soy un rectángulo, pero mis cuatro lados son de igual medidas. ¿Quién soy?\" (Cuadrado)\n- \"Somo dos rectas que nunca se cruzan. ¿Quiénes somos?\" (Rectas paralelas)\n- \"Soy un triángulo con un ángulo recto. ¿Quién soy?\" (Triángulo rectángulo)\n- \"Soy un triángulo con dos lados de igual medida. ¿Quién soy?\" (Triángulo isósceles)\n- \"Soy un triángulo con un ángulo obtuso. ¿Quién soy?\" (Triángulo obtusángulo)\n- \"Soy un triángulo con los tres lados de medidas diferentes. ¿Quién soy?\" (Triángulo escaleno)\n- \"Me usan para medir ángulos. ¿Quién soy?\" (Transportador)\n- \"Me usan para trazar ángulos. ¿Quién soy?\" (Compás)\n- \"Soy el punto en común entre dos rayos. ¿Quién soy?\" (Vértice)\n- \"Soy una parte de una recta con un punto de inicio y un punto al final. ¿Quién soy?\" (Segmento)\n- \"Soy la mitad de una recta que tiene inicio, pero no final. ¿Quién soy?\" (Rayo)\n- \"Soy un cuadrilátero con dos pares de lados paralelos. ¿Quién soy?\" (Paralelogramo)\n4. Los estudiantes juegan mientras el docente registra el desempeño según los indicadores de logro.",
+          "actividad_numero": "Actividad 12 - B (Pág. 167)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "• Tarjetas con adivinanzas\n• Cuadernos\n• Lápices",
+          "actividad_numero": "Actividad 12 - Cierre (Pág. 167)"
+        }
+      ]
+    },
+    {
+      "id": "1772550101846",
+      "sequence_id": "seq-1772545397462",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar la secuencia #5, haciendo énfasis en la resolución de problemas.",
+      "estrategia": "• Diálogo dirigido: Recuperación de temas de la secuencia.\n• Explicación de la escala de valoración.\n• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia (punto, recta, plano, ángulos, triángulos, cuadriláteros, paralelogramos) en contextos variados.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden usar reglas para dibujar las figuras.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que, al terminar, ayuden a revisar sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración",
+          "descripcion": "1. El docente pregunta: \"¿Qué trabajaron en esta secuencia?\" (pág. 168).\n2. Lee con los estudiantes la tabla de valoración para que comprendan cómo se evaluarán los resultados (pág. 168).",
+          "actividad_numero": "Actividad 13 - A (Pág. 168)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices\n• Reglas",
+          "descripcion": "Evaluación escrita:\n1. El docente entrega una hoja en blanco a cada estudiante donde colocarán sus datos: nombre del centro, nombre del estudiante, fecha, grado y sección (pág. 168).\n2. Explica la valoración de cada ítem.\n3. Presenta los problemas de evaluación (págs. 169-172):\n\nÍtem 1 (10 pts): Escribir al lado de cada imagen el nombre de esta (punto, recta, segmento, rayo).\nÍtem 2 (10 pts): \"Alexander dibujó una señal de tránsito como se muestra en la imagen, ¿la señal dibujada puede dar la idea de un plano?\"\nÍtem 3 (10 pts): \"La señal de tránsito de ceda el paso. ¿Qué tipo de triángulo es según sus lados? ¿Y según sus ángulos?\"\nÍtem 4 (10 pts): Escribir al lado del instrumento su nombre y para qué se usa en geometría (transportador, compás).\nÍtem 5 (10 pts): Escribir al lado de cada imagen el tipo de recta que son por su relación (paralelas, perpendiculares, oblicuas).\nÍtem 6 (10 pts): Escribir debajo de cada polígono el nombre correspondiente.\nÍtem 7 (10 pts): Escribir debajo de cada figura una P si es un polígono y una N si no lo es.\nÍtem 8 (10 pts): Dibujar en la cuadrícula dos triángulos, un cuadrado y tres rectángulos.\nÍtem 9 (10 pts): \"Manuel estaba de vacaciones para el campo y en el camino observó varias señales de tránsito. ¿Cuáles de ellas tienen forma de polígono? Marca con una X.\"\nÍtem 10 (10 pts): Dibujar tres señales de tránsito que tengan forma de paralelogramos.\n\n4. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad 13 - B (Pág. 168-172)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Anuncia el inicio de la siguiente secuencia.",
+          "actividad_numero": "Actividad 13 - Cierre (Pág. 172)"
+        }
+      ]
+    }
+  ]
+}

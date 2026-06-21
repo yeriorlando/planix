@@ -1,0 +1,243 @@
+{
+  "id": "seq-1772108197501",
+  "title": "La conversación",
+  "description": "Trabaja la comunicación oral entre personas, enseñando cómo escuchar, hablar y respetar turnos en una interacción real.",
+  "order": 1,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772108197493",
+      "sequence_id": "seq-1772108197501",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión oral - Exploración",
+      "intencion_pedagogica": "Activar conocimientos previos sobre la conversación, explorar sus características básicas y realizar una primera aproximación a través de un fragmento de película.",
+      "estrategia": "• Uso de imágenes: Presentación de láminas de personas conversando.\n• Diálogo dirigido: Preguntas exploratorias sobre la conversación.\n• Uso de material audiovisual: Video de la película \"Perfume de mujer\".\n• Preguntas intercaladas: Durante la proyección para guiar la comprensión.",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre las conversaciones que tienen a diario con amigos y familiares, reconociendo que es una acción inherente a su vida social y que puede ser analizada formalmente.",
+      "actividades_complementarias": " Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar un solo aspecto durante el video (ej: los nombres de los personajes o el lugar donde ocurre la escena).\n• Para estudiantes kinestésicos: Se les invita a hacer un dibujo rápido de la escena que más les llamó la atención mientras observan el video.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción del diálogo (anexo, pág. 17-18) para que puedan seguir la conversación por escrito.\n• Para estudiantes avanzados: Se les pide que tomen nota de las frases de cortesía que identifican en la conversación para compartirlas en la próxima clase.",
+      "actividades_cuaderno": "1. Escribe una breve definición de \"conversación\" con tus propias palabras.\n2. Nombra a los tres personajes principales de la escena que vimos hoy y escribe un adjetivo que describa a cada uno (ej: Donna: educada).\n3. ¿Dónde ocurre la conversación y cómo crees que se siente Donna al inicio?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Láminas impresas o digitales de personas conversando\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente muestra a los estudiantes láminas (físicas o virtuales) de personas conversando en diferentes contextos (pág. 8).\n2. Guía un diálogo exploratorio con preguntas:\n- \"¿Qué acción están realizando las personas de las imágenes?\"\n- \"¿Qué significa conversar?\" (Ayuda a construir el concepto).\n- \"¿Cuántas personas pueden participar en una conversación?\" (Dos o más).\n- \"¿Qué nombre reciben las personas que intervienen en una conversación?\" (Interlocutores).\n- \"¿Cómo puede ser la conversación según el contexto?\" (Ayuda a diferenciar entre formal e informal).\n- \"¿Qué se debe tomar en cuenta para tener una buena conversación?\"",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 8)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Video de la película \"Perfume de mujer\"\n• Proyector/TV\n• Computadora/Tablet\n• Parlantes\n• Enlace de YouTube",
+          "descripcion": "1. El docente organiza el espacio para que todos puedan visualizar la pantalla.\n2. Informa que van a ver un video extraído de la película \"Perfume de mujer\". Solicita que observen y escuchen con atención la comunicación (pág. 8).\n3. Reproduce el video disponible en: https://www.youtube.com/watch?v=uhXPC_h2u6Q\n4. Primera pausa (minuto 1:10): Detiene el video y permite hacer comentarios con preguntas:\n- \"¿Crees que se conocen los personajes? Justifica la respuesta.\"\n- \"Por la actitud de la señorita, ¿piensas que ella estaba cómoda de que llegaran esas personas?\"\n- \"¿Cuál crees que será la intención del señor?\" (pág. 9)\n5. Continúa la reproducción del video hasta el final.\n6. Después de ver completo el fragmento, comprueba el nivel de comprensión:\n- \"¿Cómo se llaman los personajes de la escena?\" (Donna, Frank, Charlie)\n- \"¿Qué hacen esas personas?\"\n- \"¿Cuáles son sus características?\"\n- \"¿En qué lugar se desarrolla esa escena?\"\n- \"¿Dónde comienza la conversación?\"\n- \"¿Cuál es el tema de la conversación?\"\n- \"¿Cómo termina la conversación?\" (pág. 9)",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 8-9)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra",
+          "descripcion": "1. El docente recoge las primeras impresiones de los estudiantes sobre la escena observada.\n2. Aprovecha el momento para hacer puntualizaciones y promover comentarios sobre: si conocen esa música (tango), si la vestimenta de los personajes se ajustaba al contexto, entre otros (pág. 9).\n3. Anuncia que en la próxima clase continuarán analizando la conversación con actividades más detalladas.",
+          "actividad_numero": "Comprensión oral (Cierre, pág. 9)"
+        }
+      ]
+    },
+    {
+      "id": "1772112961937",
+      "sequence_id": "seq-1772108197501",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión oral - Actos de habla",
+      "intencion_pedagogica": "Identificar los diferentes actos de habla presentes en la conversación del fragmento de la película \"Perfume de mujer\".",
+      "estrategia": "• Reproducción de video: Revisión del fragmento de \"Perfume de mujer\" para análisis detallado.\n• Análisis de texto: Identificación de actos de habla en la transcripción.\n• Trabajo en parejas: Creación de conversaciones con diferentes actos de habla.",
+      "aprendizaje_significativo": "Los estudiantes toman conciencia de que en sus conversaciones diarias, las palabras tienen intenciones específicas (preguntar, agradecer, etc.), lo que les permite comprender mejor las intenciones de sus interlocutores en la vida real.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Proporcionar una lista de los actos de habla con ejemplos claros antes de la actividad.\n• Para estudiantes kinestésicos: Mientras ven el video por segunda vez, pueden hacer una pequeña señal (levantar la mano) cada vez que identifiquen un acto de habla.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción de la conversación (pág. 17-18) y trabajan directamente con el texto escrito para identificar los actos de habla.\n• Para estudiantes avanzados: Se les pide que identifiquen actos de habla más complejos como \"ironizar\" o \"advertir\" si aparecen en el video.",
+      "actividades_cuaderno": "1. Define con tus propias palabras qué es un \"acto de habla\".\n2. Copia la tabla de la página 11 en tu cuaderno.\n3. Escribe un ejemplo de una frase para cada uno de estos actos de habla (que no estén en el video):\n- Saludar\n- Despedirse\n- Felicitar",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente saluda y pregunta: \"¿Recuerdan la escena de la película 'Perfume de mujer' que vimos la clase pasada? ¿Quiénes eran los personajes?\"\n2. Recuerda que durante la conversación los mensajes se emiten de distintas maneras según la necesidad del hablante. Anuncia que hoy descubrirán las diferentes intenciones de las palabras, llamadas \"actos de habla\".1. El docente saluda y pregunta: \"¿Recuerdan la escena de la película 'Perfume de mujer' que vimos la clase pasada? ¿Quiénes eran los personajes?\"\n2. Recuerda que durante la conversación los mensajes se emiten de distintas maneras según la necesidad del hablante. Anuncia que hoy descubrirán las diferentes intenciones de las palabras, llamadas \"actos de habla\".",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "Expresiones\nActo de habla",
+          "descripcion": "1. El docente coloca nuevamente el fragmento de la película para que los alumnos puedan apreciar en detalle los actos de habla (pág. 11).\n2. Explica que los \"actos de habla\" son las intenciones que tenemos al decir algo: preguntar, responder, pedir permiso, agradecer, etc.\n3. Presenta la tabla de la página 11 en la pizarra o en una diapositiva:",
+          "actividad_numero": "Personajes"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente forma parejas de estudiantes.\n2. Cada pareja inventa una breve conversación de 4 intercambios (2 intervenciones cada uno) donde deben incluir al menos 3 actos de habla diferentes (ej: saludar, preguntar, agradecer).\n3. Dos o tres parejas comparten sus conversaciones con la clase.\n4. El resto de la clase identifica los actos de habla que escucharon.\n5. El docente anuncia que en la próxima clase explorarán los elementos no verbales de la conversación.",
+          "actividad_numero": "Aplicación y cierre"
+        }
+      ]
+    },
+    {
+      "id": "1772113129984",
+      "sequence_id": "seq-1772108197501",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Elementos paralingüísticos",
+      "intencion_pedagogica": "Identificar los elementos paralingüísticos (gestos, tono de voz, miradas) presentes en la conversación y comprender su función en la comunicación.",
+      "estrategia": "• Reproducción de video: Tercera revisión del fragmento para análisis de elementos no verbales.\n• Análisis de tablas: Identificación de mensajes en gestos y tonos.\n• Dramatización: Representación de escenas con énfasis en lo paralingüístico",
+      "aprendizaje_significativo": "Los estudiantes comprenden que en sus interacciones diarias, los gestos, el tono de voz y las miradas comunican tanto como las palabras, permitiéndoles interpretar mejor las emociones e intenciones de los demás en contextos cotidianos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una lista de emociones (alegría, tristeza, sorpresa, miedo, enojo) y durante el video deben identificar qué personaje muestra cada emoción y cómo lo expresa.\n• Para estudiantes kinestésicos: La dramatización es la actividad central para ellos, lo que les permite aprender a través del movimiento y la expresión corporal.\n• Para estudiantes con discapacidad visual: Durante la dramatización, pueden participar activamente y recibir retroalimentación táctil o verbal sobre sus gestos y tono de voz.\n• Para estudiantes avanzados: Se les pide que escriban un breve párrafo analizando cómo cambiaría el mensaje de una frase si se dice con diferente tono de voz (ej: \"Ven aquí\" dicho con enojo, con miedo, con alegría).",
+      "actividades_cuaderno": "1. Define con tus palabras qué son los \"elementos paralingüísticos\".\n2. Copia la tabla de la página 12 en tu cuaderno.\n3. Responde: ¿Por qué es importante prestar atención a los gestos y al tono de voz cuando conversamos con alguien?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan qué son los actos de habla?\" (lo que vimos la clase pasada).\n2. Introduce el nuevo tema: \"Hoy vamos a descubrir que no solo las palabras comunican. También lo hacen nuestros gestos, nuestro tono de voz, nuestras miradas. A esto se le llama elementos paralingüísticos o no verbales.\"",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "Elementos paralingüísticos\nMensaje",
+          "descripcion": "1. El docente recuerda que los gestos, sonidos, tono de voz, entre otros, permiten comprender mejor el mensaje (pág. 12).\n2. Coloca nuevamente el video para que los alumnos aprecien esos elementos no verbales.\n3. Presenta la tabla de la página 12 y guía el análisis:",
+          "actividad_numero": "Personajes"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Transcripción de la conversación (Anexo, pág. 17-18)\n• Participación de los estudiantes",
+          "descripcion": "1. Si no cuenta con recursos para proyectar el video, el docente utiliza la transcripción de la conversación (Anexo, pág. 17-18).\n2. Forma grupos pequeños y asigna a cada grupo un fragmento de la conversación para dramatizar.\n3. Indica que deben exagerar los elementos paralingüísticos (gestos, tono, miradas) para acercarse a la realidad vista en la grabación.\n4. Dos o tres grupos presentan sus dramatizaciones.\n5. El resto de la clase identifica los elementos no verbales utilizados y qué mensaje transmitían.",
+          "actividad_numero": "Comprensión oral (Párrafo final, pág. 12)"
+        }
+      ]
+    },
+    {
+      "id": "1772113297525",
+      "sequence_id": "seq-1772108197501",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Gramática textual",
+      "intencion_pedagogica": "Conocer la estructura formal de la conversación, los elementos paralingüísticos y las normas de cortesía para una comunicación eficaz.",
+      "estrategia": "• Lectura guiada de texto informativo.\n• Toma de apuntes.\n• Trabajo colaborativo: Creación de diálogos ejemplares.",
+      "aprendizaje_significativo": "Los estudiantes entienden que las conversaciones que tienen a diario siguen una estructura natural (inicio, desarrollo, cierre) y que existen normas sociales como la cortesía que facilitan una mejor comunicación con los demás en su vida diaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión lectora: El docente proporciona un organizador gráfico con las tres partes de la conversación y un cuadro con las normas principales para que lo completen durante la lectura.\n• Para estudiantes kinestésicos: Mientras leen las normas, pueden representar con gestos lo que significa cada una (ej: \"mirar a los ojos\" lo representan mirándose entre ellos).\n• Para estudiantes con discapacidad auditiva: Se les proporciona el texto con anticipación o se utiliza un intérprete si está disponible.\n• Para estudiantes avanzados: Se les pide que investiguen y añadan al diálogo grupal alguna frase de cortesía típica de otra cultura o país.",
+      "actividades_cuaderno": "1. Dibuja un esquema con la estructura de la conversación (Inicio o apertura, Desarrollo, Cierre o despedida).\n2. Escribe al menos 5 normas para que una conversación sea eficaz (de las que vimos en clase).\n3. Escribe dos frases de cortesía que usarías con un profesor y dos que usarías con un amigo.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente pregunta: \"¿Cómo empezamos una conversación con un amigo? ¿Y con un adulto que no conocemos?\"\n2. Anota las respuestas en la pizarra (ej: \"Hola\", \"Buenos días\", \"Disculpe...\").\n3. Relaciona estas respuestas con el contenido del día: \"Hoy veremos cuáles son las partes de una conversación y cómo ser educados al conversar.\"",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Libro de texto o copias de las páginas 13 y 14\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente presenta el título \"Gramática textual: La conversación\" (pág. 13).\n2. Lee en voz alta la definición de conversación y la estructura (saludo o apertura, desarrollo, cierre o despedida) (pág. 13).\n3. Invita a los estudiantes a leer en voz alta, de forma voluntaria, los apartados sobre \"Elementos Paralingüísticos\" (repaso) y \"Para tener una conversación eficaz\" (pág. 13-14).\n4. Después de cada lectura, el docente se detiene para preguntar:\n- \"¿Qué significa autorregulación? ¿Pueden dar un ejemplo?\"\n- \"¿Por qué es importante mirar a los ojos cuando hablamos?\"\n- \"¿Qué son las pausas y los silencios? ¿Comunican algo?\"\n5. Lee el apartado \"La cortesía en la conversación\" (pág. 14).\n6. Pregunta: \"¿Qué frases de cortesía usamos en nuestra comunidad?\" (añadiendo a la lista de la pág. 14: Buenos días, Buenas tardes, Disculpe la molestia, Muchas gracias, etc.).\n7. En grupos de 3, los estudiantes escriben un breve diálogo (inicio, desarrollo, cierre) sobre un tema cotidiano (ej: pedir un favor a un vecino, preguntar una tarea a un compañero), aplicando al menos 3 normas de cortesía de las vistas.",
+          "actividad_numero": "Gramática textual (Pág. 13-14)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Dos o tres grupos comparten los diálogos que crearon.\n2. El docente y los compañeros evalúan si el diálogo tuvo las tres partes (inicio, desarrollo, cierre) y si se aplicaron frases de cortesía.\n3. El docente refuerza la importancia de la cortesía en la vida diaria.\n4. Anuncia que en la próxima clase pondrán en práctica una conversación formal en equipos.",
+          "actividad_numero": "Socialización y cierre"
+        }
+      ]
+    },
+    {
+      "id": "1772113433331",
+      "sequence_id": "seq-1772108197501",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Producción oral",
+      "intencion_pedagogica": "Participar en una conversación estructurada sobre el análisis de la película \"Perfume de mujer\", aplicando las normas de cortesía y la estructura de inicio, desarrollo y cierre.",
+      "estrategia": "• Trabajo en equipos.\n• Aprendizaje colaborativo.\n• Diálogo dirigido.\n• Uso de instrumento de evaluación: Lista de cotejo.",
+      "aprendizaje_significativo": "Los estudiantes aplican las normas de conversación para discutir un tema que les interesa (el análisis de la película), dándose cuenta de que estas normas facilitan un intercambio de ideas más rico, ordenado y respetuoso en situaciones reales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de expresión oral: El docente puede darles las preguntas con anticipación o unirse a su grupo para apoyarlos en la formulación de sus ideas.\n• Para estudiantes kinestésicos: Pueden ser los moderadores de su grupo, lo que les exige un nivel de atención y organización superior.\n• Para estudiantes con discapacidad auditiva: Se les proporciona las preguntas por escrito y se asegura de que puedan seguir la conversación a través de la lectura de labios o un compañero que le apoye.\n• Para estudiantes avanzados: Se les pide que tomen nota de los argumentos más interesantes que surjan en la conversación para compartirlos en la plenaria.",
+      "actividades_cuaderno": "1. Copia la lista de cotejo de la página 16 en tu cuaderno.\n2. Al lado de cada criterio, escribe una breve nota sobre cómo crees que lo hiciste hoy (ej: Criterio 1: \"Creo que mi tono de voz fue adecuado, aunque a veces me exalté\").\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Lista de preguntas de la página 15 para cada equipo (impresa o en la pizarra)",
+          "descripcion": "1. El docente forma equipos de acuerdo con la cantidad de estudiantes (pág. 15).\n2. Informa que van a conversar acerca de la escena de la película que observaron.\n3. Recuerda las normas de la conversación: deben estructurarla en inicio, desarrollo y despedida; respetar los turnos; usar un tono de voz adecuado; utilizar frases de cortesía (pág. 15).\n4. Cada equipo elige un moderador para dirigir la actividad.\n5. Proyecta o entrega las preguntas guía (pág. 15):\na. ¿Fue correcta la forma en que se acercaron Frank y Charlie a Donna?\nb. ¿Qué le ayudó a Frank para que Donna no se molestara?\nc. ¿Cuáles acciones ayudan a tener un buen acercamiento con los demás?\nd. ¿Cómo valoras la actitud de Frank cuando Charlie dijo a Donna que no le hiciera caso?\ne. ¿Debemos molestarnos con las personas con quienes nos relacionamos?\nf. ¿Cómo valoras la conversación en la solución de conflictos?\ng. ¿Crees que Frank es infeliz por su dificultad física?\nh. ¿Qué lección nos da Frank sobre la felicidad?\ni. ¿Cuáles momentos de la escena te agradaron más?\nj. Expresa en una frase tu valoración de la escena.",
+          "actividad_numero": "Producción oral (Párrafos 1-2, pág. 15)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias de las preguntas de la página 15 para cada equipo",
+          "descripcion": "1. Los estudiantes inician la conversación en sus equipos, utilizando las preguntas como guía.\n2. El moderador se asegura de que todos participen y de que la conversación tenga las tres partes (inicio, desarrollo, cierre).\n3. El docente pasa por los equipos de trabajo, monitoreando, recordando las normas y animando a usar elementos paralingüísticos (gestos, tono, miradas) (pág. 15).\n4. El docente verifica que los grupos han podido planificar su conversación y que siguen las orientaciones.",
+          "actividad_numero": "Producción oral (Párrafos 3-4, pág. 15)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Lista de cotejo impresa para cada equipo",
+          "descripcion": "1. El docente entrega a cada equipo una copia de la \"Lista de cotejo\" (pág. 16).\n2. Explica los criterios de evaluación: tono de voz adecuado, gestos relacionados con la idea, mira al interlocutor, modula la voz, usa frases de cortesía, expresa con fluidez, solicita turno para hablar, se autorregula, evidencia estructura (inicio, desarrollo, cierre).\n3. Pide que, en sus grupos, se autoevalúen y coevalúen, marcando con honestidad los criterios cumplidos para cada miembro.\n4. El docente recoge las impresiones de la actividad: \"¿Fue difícil seguir las normas? ¿Qué aprendieron de sus compañeros?\"\n5. Destaca la relevancia de la cortesía y el valor de la conversación como herramienta en la resolución de conflictos (pág. 15).\n6. Anuncia que en la próxima clase realizarán la actividad de cierre de la secuencia.",
+          "actividad_numero": "Autoevaluación y coevaluación (Pág. 16)"
+        }
+      ]
+    },
+    {
+      "id": "1772113551610",
+      "sequence_id": "seq-1772108197501",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Cierre y síntesis",
+      "intencion_pedagogica": "Sintetizar los aprendizajes sobre la conversación mediante la creación de carteles motivacionales para promover una cultura comunicativa efectiva en la escuela.",
+      "estrategia": "• Trabajo creativo: Elaboración de carteles.\n• Exposición en galería.\n• Metacognición.",
+      "aprendizaje_significativo": "Los estudiantes se convierten en agentes activos de cambio al crear mensajes que promueven una comunicación respetuosa, aplicando lo aprendido para mejorar el ambiente escolar y social de su entorno inmediato.",
+      "actividades_complementarias": "• Para estudiantes con discapacidad visual: Asegurar que los carteles tengan letras grandes y de alto contraste. Pueden usar texturas para las letras (ej: lija, tela).\n• Para estudiantes con dificultades motoras: Permitir que trabajen en pareja donde uno dibuje y el otro dicta las ideas.\n• Para estudiantes kinestésicos: Pueden encargarse de pegar los carteles en los lugares más estratégicos de la escuela.\n• Para estudiantes avanzados: Pueden investigar y añadir al cartel una frase célebre sobre la comunicación o el diálogo de algún personaje histórico.",
+      "actividades_cuaderno": "Escribe un párrafo respondiendo a la pregunta: ¿En qué situación de mi vida fuera de la escuela me comprometo a aplicar las normas de la buena conversación y por qué?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente inicia una lluvia de ideas: \"Después de todo lo que hemos visto y practicado, ¿cuál es la norma más importante para tener una buena conversación?\" y \"¿Por qué es importante la conversación para resolver problemas en la casa o en la escuela?\"",
+          "actividad_numero": "Reflexión final"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cartulinas\n• Marcadores de colores\n• Reglas\n• Lápices de colores\n• Revistas viejas para recortar imágenes\n• Pegamento",
+          "descripcion": "1. El docente presenta la actividad de cierre: \"Van a escribir carteles o rótulos con ideas que motiven a poner en práctica las acciones que aseguran mantener una buena comunicación\" (pág. 16).\n2. Los estudiantes, de forma individual o en parejas, diseñan un cartel. Pueden incluir frases como:\n- \"Respeta el turno de palabra\"\n- \"Mira a los ojos cuando hablas\"\n- \"Usa siempre frases de cortesía\"\n- \"La conversación: la mejor herramienta para resolver conflictos\"\n- \"Escucha con atención antes de responder\"\n3. El docente provee los materiales (cartulinas, marcadores) y circula por el aula ofreciendo ideas y apoyo.",
+          "actividad_numero": "Actividad de cierre de la secuencia (Párrafo 1, pág. 16)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Los carteles elaborados\n• Cinta adhesiva o blue-tack",
+          "descripcion": "1. Los estudiantes pegan sus carteles en las paredes del aula o en lugares visibles del centro educativo (pág. 16).\n2. Se realiza una galería donde todos pueden ver los trabajos de los demás.\n3. El docente guía una reflexión final:\n- \"¿Cómo se sintieron creando estos mensajes?\"\n- \"¿Cómo se comprometen a usar lo aprendido no solo en la escuela, sino en su casa y comunidad?\"\n4. El docente enfatiza la importancia de tomar en cuenta esta secuencia a lo largo de todo el año, para que los estudiantes evidencien una cultura comunicativa efectiva en todos los ámbitos de su vida personal, social y académica (pág. 16).",
+          "actividad_numero": "Exposición y metacognición (Párrafo 2, pág. 16)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+    "sequenceId": "seq-lengua-5",
+    "subjectId": "lengua",
+    "sequenceTitle": "Canción Infantil",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1 - Introducción a la Canción Infantil",
+            "activities": [
+                {
+                    "title": "Actividad 1",
+                    "pedagogicalIntention": "Comparten conocimientos previos sobre la canción infantil y conocen funciones sociales de este tipo textual.",
+                    "resources": "Papelógrafo de aprendizajes. Papelógrafo con la canción “Ton ton tin tin”.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Cantamos canciones",
+                            "description": "Se propone un espacio de escucha y canto colectivo de canciones infantiles conocidas y apreciadas por los estudiantes. Este momento busca generar un clima de disfrute, participación y conexión emocional con la música y con el tipo textual a trabajar."
+                        },
+                        {
+                            "title": "Momento 2. Conversar sobre las canciones infantiles que conocen",
+                            "description": "El docente abre un diálogo con los estudiantes sobre las canciones infantiles. Entre todos, comentan cuáles conocen y reflexionan sobre su uso (para jugar, divertirse, cantar) y forma de circulación (¿dónde las escuchan?, ¿cómo las conocieron?). Conversan acerca de los juegos con palabras, coplas y canciones que conocen. El docente incentiva esta recuperación de saberes y propone que canten un fragmento de las canciones infantiles que van recordando."
+                        },
+                        {
+                            "title": "Momento 3. Conocer la canción “Ton ton tin tin”. Realizar la primera lectura compartida",
+                            "description": "El docente explica que van a trabajar sobre la canción infantil “Ton ton tin tin”. Coloca la canción para que la escuchen. Luego expone la letra de la canción en un papelógrafo en el aula. El docente propone que canten en eco: dice un verso completo, lo señala en el papelógrafo y los estudiantes lo repiten. Después trata de que recuerden el texto. El docente dice, por ejemplo: “Debajo de un …”, entonces los estudiantes completan diciendo “botón, ton, ton” y así sucesivamente con el resto de los versos. Cada vez que cantan o recitan, el docente señala las palabras en el texto que se encuentra en el papelógrafo. Luego indica que busquen el texto de la canción Tin tin ton ton en el fascículo y lean en silencio. Les da tiempo."
+                        },
+                        {
+                            "title": "Momento 4. Presentación del papelógrafo de aprendizajes",
+                            "description": "El docente y los estudiantes leen y comentan el papelógrafo de aprendizajes.\nEn este tiempo trabajaremos para:\n● Escuchar y aprender canciones.\n● Conocer las partes de la canción.\n● Cantar y disfrutar canciones.\n● Leer canciones.\n● Aprender el vocabulario de las canciones.\n● Escribir canciones o partes de canciones."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "El docente pregunta la fecha del día e invita a los estudiantes a recordar cómo escribirla en formato corto, utilizando solo números. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Luego explica que escribirán en el cuaderno el nombre de la secuencia que comienzan hoy: “Canción infantil”. El docente dicta la palabra. Luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen su escrito. El docente recorre el aula y ayuda a quién requiere más apoyo."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Lee el texto de la canción”."
+                },
+                {
+                    "title": "Actividad 2",
+                    "pedagogicalIntention": "Identifican rimas y palabras en canciones.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente verifica cuánto han podido leer los estudiantes. Pregunta: ¿Dónde dice ton, ton?, ¿dónde dice tin, tin?, ¿dónde estará escrito botón?, ¿y ratón? Indica a algunos estudiantes que pasen a señalar las palabras solicitadas en el papelógrafo del aula."
+                        },
+                        {
+                            "title": "Momento 2. Rimas",
+                            "description": "Vuelven a cantar la canción de forma completa. Al finalizar, el docente invita a los estudiantes a decir palabras que rimen de la canción. Por ejemplo: ratón y botón - Martín y chiquitín. Escribe en la pizarra las palabras que los estudiantes mencionan. Los anima a ver las similitudes de las palabras que riman, orienta con preguntas como ¿qué tienen en común las palabras que riman? El docente colorea los finales de las palabras que son iguales. Anima a los estudiantes a pensar nuevas palabras que rimen, es decir, que tengan la misma terminación. El docente las escribe para ver si efectivamente terminan igual."
+                        },
+                        {
+                            "title": "Momento 3. Lectura de repeticiones",
+                            "description": "Con el papelógrafo, el docente explica que cada línea de la canción se llama “verso”. Luego, los estudiantes trabajan en sus textos de los cuadernos. Les indica que marquen con un color el primer y el último verso de la canción.\nEl docente organiza un juego: Los estudiantes deben encontrar las palabras que dice el docente y que están repetidas en la canción. Deben decir cuántas veces se repite la palabra en la canción. Las palabras para buscar son: ratón, botón y chiquitín. Algunos estudiantes voluntariamente marcan las palabras repetidas en el papelógrafo para que todos verifiquen si contaron la misma cantidad."
+                        },
+                        {
+                            "title": "Momento 4. Escritura en el cuaderno",
+                            "description": "Escriben la fecha. Luego el docente dicta el título de la actividad: Palabras repetidas. Prolonga los sonidos de cada palabra. Luego lo escribe en la pizarra para que comparen y revisen sus escrituras. El docente realiza este cuadro en la pizarra:\nVeces que se repite…\nratón\nbotón\nchiquitín\ntin\nton\nExplica que deben escribir las veces que se repite cada palabra que buscaron. Cada uno copia el cuadro e indica las cantidades. Luego hacen una puesta en común y revisan entre todos. Para ello, el docente señala en el papelógrafo que tiene escrita la canción la palabra ratón, y la encierra todas las veces que aparece. Luego, las cuenta y escribe el número en la pizarra. Finalmente, invita a distintos estudiantes a participar resolviendo las palabras restantes. Todos revisan y corrigen sus cuadros, si es necesario."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Escribe dos palabras que rimen con Martín y dos palabras que rimen con ratón”."
+                },
+                {
+                    "title": "Actividad 3",
+                    "pedagogicalIntention": "Conocen la estructura de la canción. Diferencian sus partes (título, versos, estrofas, estribillo y rima).",
+                    "resources": "Carteles para el aula con los nombres de las partes de la canción.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente comprueba que los estudiantes han escrito las rimas correctas en sus cuadernos. Comparten las palabras que escribieron y comentan si riman o no. Además, revisan su escritura y significado. Aclara las dudas."
+                        },
+                        {
+                            "title": "Momento 2. Estructura",
+                            "description": "Una vez que los estudiantes han revisado el vocabulario y la rima, trabajarán la estructura del texto de la canción en el papelógrafo.\n- El docente pregunta: ¿Cuál es el título de la canción? ¿Cómo lo reconocieron? Identifican el título y le colocan un cartel al lado en el papelógrafo.\n- El docente les indica que observen un renglón de la preparación de la receta o la noticia y una línea del Ton ton. Observan la extensión y la terminación. El docente les informa que cada línea de la canción se llama verso y pone el cartel “verso” en el papelógrafo de la canción. Les hace ver que algunos versos tienen rima. Los identifica y pone el cartel “rima”."
+                        },
+                        {
+                            "title": "Momento 3. Estructura: estrofa y estribillo",
+                            "description": "El docente les hace observar que cada cuatro versos hay un espacio mayor entre los versos. Les informa que cada grupo se llama “estrofa”. Pregunta a los estudiantes: ¿Cuál sería una estrofa en esta canción? Deja que los estudiantes identifiquen las estrofas. Finalmente, ponen el cartel correspondiente en el papelógrafo de la canción.\nEl docente informa que a veces hay una estrofa que se repite en la canción y se llama “estribillo”. Pregunta a los estudiantes: ¿Cuál sería el estribillo en esta canción? Deja que los estudiantes identifiquen el estribillo. Finalmente, ponen el cartel correspondiente en el papelógrafo de la canción."
+                        },
+                        {
+                            "title": "Momento 4. Tema o motivo de la canción",
+                            "description": "Las canciones no tienen argumentos como los cuentos, porque no suelen contar historias. En cambio, puede haber temas o motivos, por ejemplo, el cumpleaños, la Navidad, el juego infantil, algún objeto o suceso extraño. En la canción “Tin tin ton ton” hay un motivo relacionado con el asombro de encontrar un ratón tan pequeñito que puede esconderse debajo de un botón. El docente puede hacer preguntas para que los estudiantes lo descubran: ¿La canción se refiere a algo que le pasó a una persona? ¿Cómo saben? ¿Dónde dice? ¿Qué le pasó? ¿Hay algo raro o poco común en lo que le pasó? ¿Dónde dice? Conversan en clase."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Reflexionan sobre lo trabajado en el día, orienta con preguntas como, por ejemplo: ¿qué aprendimos sobre las partes de la canción?, ¿y sobre el tema o motivo de las canciones? Anima a los estudiantes a escribir una frase o palabra sobre lo aprendido. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Escribir una explicación sobre el tema de la canción “Tin tin Ton ton”, llenando los espacios en blanco: La canción dice que ………………. encontró un ………………. tan ………………………. que estaba debajo de un ……………...”"
+                },
+                {
+                    "title": "Actividad 4",
+                    "pedagogicalIntention": "Juegan para analizar palabras. Identifican cambios de significado cuando se cambian, agregan o quitan letras. Leen entre distractores.",
+                    "resources": "Tarjetas de letras.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente revisa colectivamente el correcto llenado de la explicación, eligiendo uno de los estudiantes para que lea en voz alta su producción, mientras el docente lo copia en la pizarra. Entre todos valoran si coinciden en la respuesta o no. Analiza con el grupo cuál es la respuesta correcta. Finalmente, validar para que corrijan, de ser necesario."
+                        },
+                        {
+                            "title": "Momento 2. Cantidad y orden de las letras de una palabra. Significado",
+                            "description": "El docente les indica que preparen sus tarjetas de letras. Escribe en la pizarra las palabras botón y ratón. El docente pregunta: ¿Cuántas letras tiene cada palabra? ¿Qué letras se repiten? ¿Qué letras no se repiten? ¿Qué sucede si se intercambian las vocales que no se repiten? Los estudiantes intercambian “o” por “a” y producen: “latón” y “rotón”. El docente pregunta: ¿Conocen la palabra latón? Si no la conocen, el docente explica qué es. ¿Conocen la palabra “rotón”? El docente explica que esa palabra no existe. Puede ejemplificar mostrando que en el diccionario no aparece. Explica que esa palabra no existe y que por eso es importante prestar atención al lugar donde se colocan las letras.\nLuego el docente escribe en la pizarra: car on mon mu la . Las hace leer por los estudiantes. Les explica que son partes de palabras llamadas sílabas. Les indica que trabajen en pares. Así, formen todas las palabras que puedan, uniendo esas partes con la sílaba final tón. Después, todos las leen en voz alta y verifican cuáles son palabras y cuáles no. El docente los ayuda, explicando que las palabras tienen un significado, podemos saber qué quieren decir. ¿Qué uniones forman palabras y qué otras uniones no forman palabras? ¿Cuál es la diferencia entre car + tón: cartón y otro grupo formado por on + tón: ontón? ¿Cuál es una palabra y cuál no? ¿Por qué? ¿Cómo nos damos cuenta?\nEsta actividad es especialmente útil y significativa para los estudiantes que tienen dificultades para leer y escribir."
+                        },
+                        {
+                            "title": "Momento 3. Juego: leer palabras entre distractores",
+                            "description": "El docente indica que lean la actividad n.º 4 del fascículo. Lee el mandato y explica que deben encerrar la palabra ratón todas las veces que se repite. Después los estudiantes señalan las palabras repetidas. El docente incentiva la lectura de las otras palabras del recuadro y promueve la comparación de principios y finales iguales."
+                        },
+                        {
+                            "title": "Momento 4. Juego: completa las palabras que faltan",
+                            "description": "Los estudiantes tienen en el fascículo la canción de “Tin tin ton ton” con palabras faltantes. Deben completar el texto. El docente ayuda a quienes más necesitan.\nAl finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron? Verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Reflexionan sobre lo trabajado en el día, orienta con preguntas como, por ejemplo: ¿qué aprendimos hoy?, ¿qué hicimos? Anima a los estudiantes a escribir una frase o palabra sobre lo aprendido. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo. Pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Juega con las letras de las palabras 'RATÓN-MARTÍN '”. Forma nuevas palabras reordenándolas o usando solo algunas de ellas."
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2 - Profundización con Pin Pon",
+            "activities": [
+                {
+                    "title": "Actividad 5",
+                    "pedagogicalIntention": "Leen y cantan una nueva canción.",
+                    "resources": "Papelógrafo con la canción Pin Pon.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente invita a los estudiantes a compartir las palabras formadas con RATÓN y MARTÍN, escribiéndolas en la pizarra. Luego, reflexionan sobre cómo reorganizar letras permite crear nuevas palabras. Verifican si tienen significado y juegan oralmente con más combinaciones. Finalmente, los estudiantes copian algunas en sus cuadernos."
+                        },
+                        {
+                            "title": "Momento 2. Lectura silenciosa y en voz alta de Pin Pon",
+                            "description": "El docente les explica a los estudiantes que van a leer en silencio una canción nueva. Presenta la canción Pin Pon en un papelógrafo, sin leerla. Además, indica a los estudiantes que la lean en silencio en el fascículo de estudiantes (Actividad n.º 5). Les da tiempo para leer. Cuando los estudiantes terminan de leer, les pide que voluntariamente lean la canción en voz alta.\nLuego el docente vuelve a leer en voz alta señalando el texto (papelógrafo con la canción) con el dedo. Todos cantan la canción."
+                        },
+                        {
+                            "title": "Momento 2. Juegos para leer y cantar",
+                            "description": "El docente propone que los estudiantes jueguen a ser docentes. Se forman tres grupos, y cada uno organiza un juego de lectura a partir de la canción trabajada. Las propuestas son las siguientes:\n♦ 1. Lectura guiada palabra por palabra:\nUn grupo organiza la lectura de una estrofa señalando cada palabra en el papelógrafo, mientras los demás leen junto a ellos.\n♦ 2. Lectura por turnos:\nOtro grupo lee un verso en cualquier orden y elige a otros compañeros para que lean el siguiente. Quienes leen pasan al frente y señalan palabra por palabra en el papelógrafo mientras leen.\n♦ 3. Lectura con completamiento:\nEl tercer grupo lee un verso omitiendo intencionalmente una palabra. Los demás deben identificar cuál fue la palabra que no se pronunció y señalarla en el papelógrafo antes de decirla."
+                        },
+                        {
+                            "title": "Momento 3. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Reflexionan sobre lo trabajado en el día, orienta con preguntas como, por ejemplo: ¿qué aprendimos hoy?, ¿qué hicimos? Anima a los estudiantes a escribir una frase o palabra sobre lo aprendido. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Canta a un familiar lo que recuerdas de la canción de ‘Pin Pon’. Luego, cuéntale de qué trata la canción y cómo es el personaje principal”."
+                },
+                {
+                    "title": "Actividad 6",
+                    "pedagogicalIntention": "Conocen y escriben palabras nuevas.",
+                    "resources": "Tarjetas de letras.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente pregunta a los estudiantes si cantaron la canción de Pin Pon a un familiar y cómo les fue. Luego, algunos voluntarios cuentan de qué se trata la canción y cómo describieron a Pin Pon. Finalmente, en grupo cantan juntos grabando la letra y comentan qué partes les resultaron más fáciles o difíciles de recordar."
+                        },
+                        {
+                            "title": "Momento 2. Palabras desconocidas",
+                            "description": "El docente dice que va a volver a leer la canción de Pin Pon en voz alta y que levanten la mano cuando lea una palabra que no conocen o dudan de su significado (ejemplo: figurín, marfil). Primero, el docente intenta explicar el significado por el contexto. Lo pueden hacer con la mayor parte de las palabras. También puede buscar significados en el diccionario. Hay que hacerlo con marfil, figurín y desenreda. El docente puede mostrar cómo se busca en el diccionario. Después confirman la búsqueda leyendo el Vocabulario n.° 5 en el fascículo de estudiantes. Finalmente, el docente les indica que lean el vocabulario (n.°6) en el fascículo de estudiantes."
+                        },
+                        {
+                            "title": "Momento 3. Vocabulario",
+                            "description": "El docente anima a los estudiantes a leer las palabras “clave” de la canción Pin Pon que se encuentran en la actividad N.º 6 del fascículo:\nPin pon mano muñeco apretón\ngrande amigo cartón pelo\ncarita peine agua marfil\njabón figurín calle"
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno. Dictado",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. El docente propone un dictado de palabras aprendidas. Escriben en el cuaderno. El docente dicta las palabras y los estudiantes las escriben. Luego del dictado, el docente escribe esas palabras en la pizarra y organiza una revisión colectiva de la escritura. Preguntas orientadoras para hacer una revisión colectiva: ¿Cuál fue la primera palabra? ¿Cuántas letras tiene la palabra que ustedes escribieron? ¿Cuántas letras tiene la palabra en la pizarra? ¿Tienen la misma cantidad de letras? ¿Hay alguna en distinto orden?\nContinúa con las otras palabras con las mismas preguntas orientadoras. Los estudiantes revisan la correcta escritura y se corrigen en sus cuadernos. El docente observa la actividad, orienta y corrige."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Vuelve a escribir estas palabras ordenándolas de forma alfabética. Puedes usar un abecedario para guiarte. El docente brinda orientaciones sobre cómo hacer la tarea."
+                },
+                {
+                    "title": "Actividad 7",
+                    "pedagogicalIntention": "Leen y escriben palabras de la canción \"Pin Pon\".",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente invita a los estudiantes a compartir las palabras que ordenaron alfabéticamente. Escribe en la pizarra y, entre todos, verifican si el orden es correcto. Si hay errores, utilizan un abecedario para corregirlo. Luego, el docente refuerza la estrategia de ordenamiento: comparar la primera letra de cada palabra y, en caso de coincidencia, observar la segunda letra. Los estudiantes corrigen en sus cuadernos."
+                        },
+                        {
+                            "title": "Momento 3. ¡Encontrar palabras!",
+                            "description": "Los estudiantes deben tener a disposición el vocabulario de la canción Pin Pon. El docente brinda mandatos para encontrar palabras en el texto con determinadas características, por ejemplo:\n● Encontrar palabras con vocales repetidas.\n● Encontrar palabras sin alguna vocal: sin a, sin e y las demás vocales.\n● Encontrar palabras con una sola vocal, con dos, con tres.\n● Encontrar palabras con las mismas vocales en el mismo orden.\n● Encontrar palabras que terminan en consonante.\n● Encontrar palabras que empiecen con la misma consonante.\n● Encontrar palabras que tengan tres, cuatro o cinco consonantes,\n● Encontrar palabras que tengan/no tengan determinada consonante.\nEntre todos, van resolviendo cada juego con la guía del docente. Da tiempo para que todos encuentren las palabras. Los estudiantes pasan a la pizarra a escribir las respuestas."
+                        },
+                        {
+                            "title": "Momento 4. Completar palabras",
+                            "description": "Los estudiantes completan la actividad n.º 7 del fascículo. Deben completar las palabras faltantes en la canción Pin Pon. Al finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron? Verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Reflexionan sobre lo trabajado en el día, orienta con preguntas como, por ejemplo: ¿qué aprendimos hoy?, ¿qué hicimos? Anima a los estudiantes a escribir una frase o palabra sobre lo aprendido. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Lee esta estrofa de la canción Pin Pon:\nPin Pon es un muñeco\nmuy grande de cartón,\nse lava la carita\ncon agua y jabón.\nEncuentra y escribe una palabra que tenga tres vocales distintas: _____________\nEncuentra y escribe dos palabras que rimen: ________ __________\nEncuentra y escribe una palabra con V y otra con B: ________ __________"
+                },
+                {
+                    "title": "Actividad 8",
+                    "pedagogicalIntention": "Identifican las partes de la canción. Conversan sobre el tema o motivo de la canción.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente invita a los estudiantes a leer la estrofa en voz alta y compartir sus respuestas. Escribe en la pizarra las respuestas y verifica con el grupo si cumplen con los criterios de pedido. Para la palabra con tres vocales distintas (muñeco), los estudiantes proponen opciones y analizan juntos las vocales presentes. Luego, revisan las palabras que riman (cartón y jabón) y las pronuncian para comprobar su sonido final. También las escriben y muestran que la terminación de ambas es igual. Finalmente, identifican y escriben correctamente una palabra con V y otra con B (lava y jabón), reflexionando sobre la importancia de observar la escritura para diferenciarlas, porque el sonido de ambas letras es igual."
+                        },
+                        {
+                            "title": "Momento 2. Juegos en el fascículo",
+                            "description": "El docente anticipa que será un día de juegos. Buscan la actividad n.º 8 de fascículo. Explica que deben resolver un crucigrama con palabras de las canciones aprendidas y encontrar las palabras de las partes de la canción en una sopa de letras. Pueden trabajar en parejas.\nPalabras del crucigrama: ratón - botón - jabón - peine\nPalabras en la sopa de letras: título, verso, estrofa, estribillo y rima"
+                        },
+                        {
+                            "title": "Momento 3. Puesta en común y reflexión",
+                            "description": "Una vez que todos han terminado, se realiza una puesta en común, donde el docente resuelve el crucigrama en la pizarra con la participación de los estudiantes. Juntos verifican las respuestas, corrigen si es necesario y refuerzan la ortografía de palabras complejas. Luego resuelven la sopa de letras."
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Reflexionan sobre lo trabajado en el día, orienta con preguntas como, por ejemplo: ¿qué aprendimos hoy?, ¿qué hicimos? Anima a los estudiantes a escribir una frase o palabra sobre lo aprendido. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Escribe una frase utilizando estas palabras: jabón — muñeco - pelo - agua. No te olvides de empezar con mayúscula y terminar con un punto final”."
+                }
+            ]
+        },
+        {
+            "blockNumber": 3,
+            "title": "Bloque 3 - Producción de Canciones",
+            "activities": [
+                {
+                    "title": "Actividad 9",
+                    "pedagogicalIntention": "Planifican la escritura de una parte de una canción.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente invita a los estudiantes a compartir las frases que escribieron utilizando las palabras jabón, muñeco, pelo y agua. Escribe algunas en la pizarra y, entre todos, revisan si cumplen con las reglas básicas: inicio con mayúscula, punto final y sentido claro. Si es necesario, hacen correcciones colectivas y los estudiantes ajustan sus frases en sus cuadernos."
+                        },
+                        {
+                            "title": "Momento 2. Lectura del papelógrafo",
+                            "description": "El docente guía la lectura del papelógrafo de aprendizajes. Releen y comentan lo que aprendieron. Les indica que lean qué falta realizar y les informa que van a escribir una canción."
+                        },
+                        {
+                            "title": "Momento 3. Selección del tipo de producción escrita",
+                            "description": "El docente comparte y explica las opciones para realizar la escritura.\nVan a trabajar en grupos de dos y tienen que elegir de acuerdo con lo que prefieran. Arma los grupos y les indica que conversen y elijan:\nEscribir un verso agregado al Pin Pon o al Ton ton.\nEscribir un estribillo agregado a Pin Pon.\nEscribir una estrofa agregada a una de las dos canciones.\nEscribir una estrofa nueva sobre otro tema o motivo.\nEl docente abre un espacio para que los estudiantes consulten y elijan. Es importante que el docente les aclare que van a trabajar en colaboración. Responde sus preguntas. Al final de la conversación cada grupo copia en sus cuadernos la opción elegida."
+                        },
+                        {
+                            "title": "Momento 4. Escritura en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Título: Voy a escribir ………………….…. (Copia la opción elegida. Verso, estribillo, estrofa agregada a las canciones estudiadas, otra estrofa.)"
+                        },
+                        {
+                            "title": "Momento 5. La selección",
+                            "description": "El docente pide que levanten la mano los que eligieron cada opción. No debe forzar la elección. Registra las opciones y la cantidad de estudiantes por cada una.\nEl docente les recuerda las siguientes características de las canciones que analizaron:\n● Las dos se refieren a un sujeto curioso o notable por algo: un ratón diminuto y un muñeco de cartón muy apuesto y elegante.\n● Las dos canciones tienen rimas con los sujetos: ratón /botón y Pin Pon/ cartón/jabón.\n● El Ton ton se refiere a una característica física del ratón (es chiquitín) pero no explica qué hace.\n● El Pin Pon se refiere a características físicas del muñeco y también explica qué hace (es de cartón /se lava/se peina)."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Escribe una característica de los personajes de las canciones”."
+                },
+                {
+                    "title": "Actividad 10",
+                    "pedagogicalIntention": "Escriben el borrador de una parte de la canción.",
+                    "resources": "Hojas sueltas con líneas.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente escucha a los estudiantes que exponen las ideas que pensaron y escribieron en sus cuadernos. Los ayuda a expresarlas con claridad."
+                        },
+                        {
+                            "title": "Momento 2. Primer borrador e intercambios",
+                            "description": "El docente les indica que intercambien las ideas para escribir un borrador de la opción elegida en el pequeño grupo. Les entrega hojas donde escriben los nombres de los integrantes y les da tiempo para escribir. Les explica que puede ayudarlos si lo piden. El docente siempre responde a las necesidades de cada estudiante; por eso, debe tener en cuenta las distintas posibilidades:\nSi los estudiantes de algún grupo se muestran activos y decididos con su propia propuesta, espera que la completen sin intervenir. Se trata de favorecer su creatividad y espontaneidad sin obstaculizar su entusiasmo.\nSi se muestran dudosos y piden ayuda, puede darles los papeles con rimas posibles, y contribuir con ellos para que piensen si van a describir al ratón (por ejemplo, “es todo de algodón”) o qué hace Pin Pon (por ejemplo, “sale con bastón”). Se trata de darles alguna idea para que empiecen a animarse y alentarlos para que lean las rimas y escriban."
+                        },
+                        {
+                            "title": "Momento 3. Lectura de borradores",
+                            "description": "El docente abre un espacio para que los estudiantes compartan sus primeras producciones alentando su esfuerzo. Retira los borradores para revisarlos."
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Reflexionan sobre lo trabajado en el día, orienta con preguntas como, por ejemplo: ¿qué aprendimos hoy?, ¿qué hicimos? Anima a los estudiantes a escribir una oración o palabras relacionadas a lo realizado en clase. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Relee en tu cuaderno todo lo aprendido sobre la canción infantil.”"
+                },
+                {
+                    "title": "Actividad 11",
+                    "pedagogicalIntention": "Revisan y editan sus escrituras.",
+                    "resources": "Hojas sueltas con líneas.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente verifica que los estudiantes han revisado los conceptos de canción, verso, estrofa, estribillo y rima. Resuelve dudas de los estudiantes."
+                        },
+                        {
+                            "title": "Momento 2. Devolución de borradores",
+                            "description": "El docente devuelve los borradores donde ha indicado los problemas de escritura. Les indica a los estudiantes que revisen lo siguiente: separación de palabras, escritura completa y correcta de palabras, rima, puntuación. Contribuye con los estudiantes aclarando sus dudas."
+                        },
+                        {
+                            "title": "Momento 3. Conversación creativa",
+                            "description": "Es importante que el docente abra un espacio de intercambio sobre el proceso de creación de los estudiantes: ¿Qué problemas se les presentaron para escribir? ¿Quieren cambiar algo? Les da tiempo para revisar nuevamente sus producciones e introducir cambios, si lo creen necesario."
+                        },
+                        {
+                            "title": "Momento 4. Escritura final",
+                            "description": "Escriben la canción en su versión final."
+                        }
+                    ],
+                    "homework": ""
+                },
+                {
+                    "title": "Actividad 12",
+                    "pedagogicalIntention": "Ilustran sus producciones escritas y reflexionan sobre lo aprendido.",
+                    "resources": "Papelógrafo o mural para pegar las producciones. Producciones finales.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Ilustran sus producciones",
+                            "description": "Es importante tener presente que la situación de dibujo en el contexto del aprendizaje de la lengua escrita se realiza siempre después de una lectura completa y minuciosa y no antes, y ha de servir para que los estudiantes piensen detalles y los verbalicen: ¿Cuál es el tamaño del ratón?, ¿tiene bigotes?, ¿colita? ¿Cómo es Pin Pon?, ¿usa sombrero? Si crearon otro personaje, ¿cómo lo dibujan?"
+                        },
+                        {
+                            "title": "Momento 2. Título del mural y elaboración",
+                            "description": "Eligen un título para el mural o cartel grande y pegan sus producciones."
+                        },
+                        {
+                            "title": "Momento 3. Reflexión metacognitiva",
+                            "description": "Los estudiantes revisan todas las tareas que han realizado en el cuaderno. Intercambian ideas acerca de su experiencia al cantar, leer y escribir canciones. Escriben un comentario personal en sus cuadernos."
+                        },
+                        {
+                            "title": "Momento 4. Exposición",
+                            "description": "Se invita al aula a las autoridades y otros docentes, estudiantes de la escuela y a las familias, para que vean la exposición. Los estudiantes leen o cantan sus canciones."
+                        }
+                    ],
+                    "homework": ""
+                }
+            ]
+        }
+    ]
+}

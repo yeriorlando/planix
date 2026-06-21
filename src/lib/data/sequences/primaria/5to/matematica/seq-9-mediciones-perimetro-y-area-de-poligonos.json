@@ -1,0 +1,438 @@
+{
+  "id": "seq-1772026815698",
+  "title": "Mediciones: perímetro y área de polígonos",
+  "description": "Esta unidad desarrolla el cálculo del perímetro y área de diferentes polígonos. Se enfatiza la comprensión de las fórmulas a partir de la descomposición y el razonamiento geométrico.",
+  "order": 9,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772026815691",
+      "sequence_id": "seq-1772026815698",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Repasando los polígonos",
+      "intencion_pedagogica": "Resolver problemas que impliquen el uso de polígonos en su entorno, identificando y clasificando polígonos regulares e irregulares.\n\n",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre polígonos.\n\nUso de imágenes: Análisis de una escuela para identificar formas.\n\nUso de material audiovisual: Video sobre polígonos y sus elementos.\n\nClasificación de polígonos: Regulares e irregulares.\n\nTrabajo individual: Dibujo y clasificación de polígonos.",
+      "aprendizaje_significativo": "Se parte de imágenes de monumentos históricos dominicanos para identificar polígonos en construcciones reales, conectando la geometría con el patrimonio cultural del país.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de memorización: Se les proporciona una tabla con nombres y número de lados.\n\nPara estudiantes kinestésicos: Se les invita a dibujar los polígonos en la pizarra.\n\nPara estudiantes con discapacidad visual: Se utilizan polígonos recortados en cartulina con texturas.\n\nPara estudiantes avanzados: Se les pide que investiguen polígonos de más lados.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 256, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Imagen de escuela\n• Pizarra",
+          "descripcion": "1. El docente presenta una imagen de una escuela.\n2. Pregunta: \"¿Qué forma tienen las ventanas? ¿Qué forma tienen las puertas? ¿Son iguales?\"\n3. Anuncia el tema: repaso de polígonos. Pide que anticipen el tema y anota hipótesis.",
+          "actividad_numero": "Actividad 1 A (pág. 255)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video o pizarra\n• Imagen de polígonos",
+          "descripcion": "1. Proyecta el video \"Los polígonos y sus elementos\" (https://www.youtube.com/watch?v=Q3MwjF7Fww8). Socializa: \"¿Qué es un polígono? ¿Dónde ves polígonos en el aula?\"\n2. Si no hay video, retroalimenta con preguntas.\n3. Presenta la imagen de polígonos (pág. 256): triángulo, cuadrado, pentágono, hexágono, heptágono, octágono, eneágono, decágono.\n4. Pregunta: \"¿Cómo se llama cada uno?\" Los estudiantes responden por turnos.\n5. Explica:\n- Polígono: figura geométrica cerrada y plana formada por segmentos de recta.\n- Lados: segmentos que forman el polígono.\n- Vértice: extremo común a dos lados.",
+          "actividad_numero": "Actividad 1 B y C (págs. 255-256)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Observar las imágenes del Faro a Colón y escribir el nombre de la forma que tienen.\n\nCierre (pág. 256):\nPreguntas: \"¿Qué aprendimos hoy? ¿Qué es un polígono? ¿Cómo se llama un polígono de 6 lados?\" (hexágono).\n\nActividad complementaria (pág. 256):\nMarcar con una X las figuras que tienen 4 lados.\n\nActividad para el diario del estudiante (pág. 256):\nDibujar en tu cuaderno la forma que tienen: la puerta de la nevera, la televisión y el libro de matemática.",
+          "actividad_numero": "Actividad 1 Actividad para el cuaderno (pág. 256) Cierre (pág. 256) Actividad complementaria (pág. 256) Actividad para el diario (pág. 256)"
+        }
+      ]
+    },
+    {
+      "id": "1772027047216",
+      "sequence_id": "seq-1772026815698",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Calculando perímetro",
+      "intencion_pedagogica": "Resolver problemas de perímetro de polígonos en su entorno, aplicando dos estrategias: suma de lados y multiplicación (para polígonos regulares).\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre perímetro de polígonos regulares.\n\nSituaciones problemáticas: Cálculo de perímetro de figuras en monumentos.\n\nDos estrategias: Suma de lados y multiplicación (para polígonos regulares).\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se utilizan monumentos dominicanos (Monumento de Santiago) para calcular perímetros, conectando la geometría con el patrimonio cultural y el turismo.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la multiplicación: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: El juego de tarjetas es ideal.\n\nPara estudiantes con discapacidad visual: Se utilizan polígonos recortados en cartulina.\n\nPara estudiantes avanzados: Se les pide que calculen perímetros en diferentes unidades.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 258, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los dibujos realizados.\n2. Retroalimenta la identificación de polígonos.\n3. Proyecta el video \"Perímetro de un polígono regular\" (https://www.youtube.com/watch?v=FdoJEcRnB2w). Socializa.",
+          "actividad_numero": "Actividad 2 A (pág. 257)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 257): \"Alberto visitó el Monumento de Santiago. El piso de la primera planta tiene forma cuadrada con lado de 900 cm. ¿Cuál es el perímetro?\"\n2. Explica dos estrategias:\n- Estrategia 1 (suma): P = 900 + 900 + 900 + 900 = 3,600 cm.\n- Estrategia 2 (multiplicación): P = 4 × 900 = 3,600 cm.\n3. Plantea otro problema (pág. 258): \"Nelly vio un jardín hexagonal regular en el Museo Dominicano, con lado de 1,550 pulgadas. ¿Cuál es el perímetro?\"\n- Suma: 1,550 × 6 = 9,300 pulgadas.\n- Multiplicación: P = 6 × 1,550 = 9,300 pulgadas.",
+          "actividad_numero": "Actividad 2 B y C (págs. 257-258)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas\n• Cuadernos",
+          "descripcion": "Juego con tarjetas: llevar polígonos en tarjetas. Por turno, dos estudiantes eligen una tarjeta, dan una longitud a un lado y calculan el perímetro.\n\nActividad complementaria (pág. 258):\nUsando el geoplano, trazar un polígono regular y calcular su perímetro.\n\nActividad para el diario del estudiante (pág. 258):\nElegir un espacio en la casa con forma de polígono regular, medir un lado y calcular el perímetro.",
+          "actividad_numero": "Actividad 2 Actividad para el cuaderno (pág. 258) Cierre (pág. 258) Actividad complementaria (pág. 258) Actividad para el diario (pág. 258)"
+        }
+      ]
+    },
+    {
+      "id": "1772027119877",
+      "sequence_id": "seq-1772026815698",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Calculando más perímetros",
+      "intencion_pedagogica": "Resolver problemas de perímetro de polígonos en su entorno, incluyendo rectángulos y polígonos irregulares.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre perímetro de figuras irregulares.\n\nSituaciones problemáticas: Perímetro de rectángulos y polígonos irregulares.\n\nDos estrategias: Suma de lados y fórmula 2 × (largo + ancho).\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se utilizan espacios públicos como la Plaza de la Bandera y el Obelisco para calcular perímetros de figuras irregulares, conectando la geometría con lugares emblemáticos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la suma: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a dibujar las figuras y medir con regla.\n\nPara estudiantes con discapacidad visual: Se utilizan figuras recortadas en cartulina.\n\nPara estudiantes avanzados: Se les pide que calculen perímetros en diferentes unidades.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 260, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por el perímetro del espacio elegido.\n2. Retroalimenta perímetro de polígonos regulares.\n3. Proyecta el video \"¿Qué es el perímetro? Geometría para niños\" (https://www.youtube.com/watch?v=d3rI0ONOMMY). Socializa.",
+          "actividad_numero": "Actividad 3 A (pág. 259)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 259): \"María estaba en la Plaza de la Bandera. Un espacio rectangular mide 1,200 cm de ancho y 3,600 cm de largo. ¿Cuál es el perímetro?\"\n2. Explica dos estrategias:\n- Suma: 1,200 + 3,600 + 1,200 + 3,600 = 9,600 cm.\n- Fórmula: 2 × ancho + 2 × largo = 2,400 + 7,200 = 9,600 cm.\n3. Plantea otro problema (pág. 260): \"Alberto visitó el Obelisco. Un parque al lado tiene forma de pentágono irregular con lados: 40 m, 50 m, 30 m, 60 m, 60 m. ¿Cuál es el perímetro?\"\n- Suma: 40 + 50 + 30 + 60 + 60 = 240 m.\n- También puede hacerse: 40 + 50 + 30 + (2 × 60) = 240 m.",
+          "actividad_numero": "Actividad 3 B y C (págs. 259-260)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"En una excursión a la Zona Colonial, Alberto, Alexander, Jonathan y Nelly midieron los lados de un cuadrilátero: 30 pies, 20 pies, 15 pies, 25 pies. ¿Cuál es el perímetro?\" (90 pies).\n\nCierre (pág. 260):\nPreguntas: \"¿Qué aprendimos hoy? ¿Qué es el perímetro? ¿De qué forma resolvieron el último problema?\"\n\nActividad complementaria (pág. 261):\nUsando el geoplano, trazar un polígono regular y calcular su perímetro.\n\nActividad para el diario del estudiante (pág. 261):\nCalcular el perímetro del piso de tu habitación y del piso de la cocina de tu casa.",
+          "actividad_numero": "Actividad 3 Actividad para el cuaderno (pág. 260) Cierre (pág. 260) Actividad complementaria (pág. 261) Actividad para el diario (pág. 261)"
+        }
+      ]
+    },
+    {
+      "id": "1772027192141",
+      "sequence_id": "seq-1772026815698",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Profundizo mis conocimientos sobre el Área",
+      "intencion_pedagogica": "Resolver problemas de perímetro de polígonos en su entorno y profundizar en el concepto de área, conociendo sus unidades de medida.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre concepto de área.\n\nDiálogo dirigido: Diferenciar perímetro y área.\n\nUso de tabla de unidades: Introducción a unidades de área (km², m², cm², etc.).\n\nTrabajo individual: Selección de unidades adecuadas.",
+      "aprendizaje_significativo": "Se introduce el concepto de área a partir de la necesidad de saber cuánto papel se necesita para forrar un cuaderno, conectando con situaciones cotidianas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en unidades: Se les proporciona la tabla de equivalencias.\n\nPara estudiantes kinestésicos: Se les invita a dibujar cuadrados de diferentes tamaños.\n\nPara estudiantes con discapacidad visual: Se utilizan cuadrados recortados en cartulina.\n\nPara estudiantes avanzados: Se les pide que investiguen áreas de lugares famosos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 262, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los perímetros de la habitación y cocina.\n2. Retroalimenta perímetro.\n3. Pregunta: \"¿Saben lo que es el área de una figura?\" Proyecta el video \"Área y superficie\" (https://www.youtube.com/watch?v=ZL7CPNCS7_U). Socializa.",
+          "actividad_numero": "Actividad 4 A (pág. 261)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Tabla de unidades de área\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea la situación: \"Alexander quiere cubrir su cuaderno con papel. ¿Qué debe calcular, perímetro o área?\" (Área).\n2. Define: Área es la medida del espacio o superficie que ocupa una figura.\n3. Plantea otro problema: \"Nelly y Alexander discuten si es más fácil medir el área de un monumento en m² o km². ¿Quién tiene razón?\" (Alexander, porque 6.12 km² es más fácil que 6,120,000 m²).\n4. Proyecta el video \"Unidades de superficie\" (https://www.youtube.com/watch?v=FjktblQwVvY).\n5. Presenta la tabla de unidades de área (pág. 262):\n- km², hm², dam², m², dm², cm², mm².\n6. Los estudiantes completan la tabla de monumentos con abreviaturas (pág. 262).",
+          "actividad_numero": "Actividad 4 B y C (págs. 261-262)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Escribir al lado de cada monumento la unidad de área más adecuada (km² o m²): Monumento de Santiago, Faro a Colón, Obelisco, Plaza de la Bandera, Panteón de la Patria, Estatua de Enriquillo.\n\nCierre (pág. 263):\nPreguntas: \"¿Qué aprendimos hoy? ¿Qué es el área? ¿Por qué se usa el km² en algunos casos y el m² en otros?\"\n\nActividad complementaria (pág. 263):\nUsando el geoplano, trazar un polígono y calcular su área contando cuadrados.\n\nActividad para el diario del estudiante (pág. 263):\nPreguntar a tus padres el área del solar de tu casa, comprobar midiendo.",
+          "actividad_numero": "Actividad 4 Actividad para el cuaderno (pág. 262) Cierre (pág. 263) Actividad complementaria (pág. 263) Actividad para el diario (pág. 263)"
+        }
+      ]
+    },
+    {
+      "id": "1772027332320",
+      "sequence_id": "seq-1772026815698",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Área de la figura en el entorno",
+      "intencion_pedagogica": "Resolver problemas de área de polígonos en su entorno, específicamente de cuadrados y rectángulos.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre área del cuadrado y rectángulo.\n\nSituaciones problemáticas: Cálculo de área de cuadrados y rectángulos en monumentos.\n\nFórmulas: A = L × L (cuadrado), A = base × altura (rectángulo).\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se utilizan las Pirámides de Valle Nuevo y la Fortaleza Ozama para calcular áreas de cuadrados y rectángulos, conectando la geometría con el patrimonio histórico.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la multiplicación: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a dibujar las figuras en papel cuadriculado.\n\nPara estudiantes con discapacidad visual: Se utilizan figuras recortadas en cartulina.\n\nPara estudiantes avanzados: Se les pide que conviertan las áreas a diferentes unidades.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 264, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por el área del solar de la casa.\n2. Retroalimenta concepto de área y unidades.\n3. Proyecta el video \"Área del cuadrado y rectángulo\" (https://www.youtube.com/watch?v=142jaFsLZlQ). Socializa.",
+          "actividad_numero": "Actividad 5 A (pág. 263)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 263): \"Nelly quiere determinar el área de la base de las Pirámides de Valle Nuevo Constanza. La base es un cuadrado de 2.5 m de lado. ¿Cuál es el área?\"\n2. Explica dos estrategias:\n- A = L × L = 2.5 × 2.5 = 6.25 m².\n- A = L² = (2.5)² = 6.25 m².\n3. Plantea otro problema (pág. 264): \"Alberto quiere saber el área de la Fortaleza Ozama, que mide 1,250 m de ancho y 2,470 m de largo.\"\n- A = ancho × largo = 1,250 × 2,470 = 3,087,500 m².\n4. Explica la multiplicación paso a paso.",
+          "actividad_numero": "Actividad 5 B y C (págs. 263-264)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"Nelly recibió un dibujo de la Catedral Primada de América. El terreno rectangular mide 54 m de largo y 42 m de ancho. ¿Cuál es el área?\" (54 × 42 = 2,268 m²).\n\nCierre (pág. 265):\nPreguntas: \"¿Qué aprendimos hoy? ¿Cómo se calcula el área de un cuadrado? ¿Y de un rectángulo?\"\n\nActividad complementaria (pág. 265):\nDeterminar el área de dos figuras: 1) rectángulo de 9 km × 4 km (36 km²); 2) cuadrado de 27 km (729 km²).\n\nActividad para el diario del estudiante (pág. 265):\nEntrar al enlace: https://la.ixl.com/matematicas/5-grado/area-del-rectangulo-y-el-cuadrado",
+          "actividad_numero": "Actividad 5 Actividad para el cuaderno (pág. 264) Cierre (pág. 265) Actividad complementaria (pág. 265) Actividad para el diario (pág. 265)"
+        }
+      ]
+    },
+    {
+      "id": "1772027409445",
+      "sequence_id": "seq-1772026815698",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Calculando otras áreas (paralelogramo)",
+      "intencion_pedagogica": "Resolver problemas de área de polígonos en su entorno, específicamente de paralelogramos.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre área del paralelogramo.\n\nSituaciones problemáticas: Cálculo de área de paralelogramos en monumentos.\n\nFórmula: A = base × altura.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se utiliza un monumento con forma de romboide en la Zona Colonial para calcular el área de un paralelogramo, conectando la geometría con el patrimonio arquitectónico.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la multiplicación: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a dibujar paralelogramos en papel cuadriculado.\n\nPara estudiantes con discapacidad visual: Se utilizan figuras recortadas en cartulina.\n\nPara estudiantes avanzados: Se les pide que conviertan las áreas a diferentes unidades.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 266, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por la actividad interactiva.\n2. Retroalimenta área de cuadrado y rectángulo.\n3. Pregunta: \"¿Qué es un paralelogramo? ¿Cómo se calcula su área?\"\n4. Proyecta el video \"Área del paralelogramo\" (https://www.youtube.com/watch?v=O1fd1ttwncY). Socializa.",
+          "actividad_numero": "Actividad 6 A (pág. 265)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Explica que todo cuadrilátero con lados opuestos paralelos e iguales dos a dos se llama paralelogramo (incluye rectángulo, cuadrado, romboide).\n2. Plantea el problema (pág. 266): \"El patio de un monumento en la Zona Colonial tiene forma de romboide con base de 156 m y altura de 94 m. ¿Cuál es el área?\"\n- A = base × altura = 156 × 94 = 14,664 m².\n3. Plantea otro problema (pág. 266): \"Alberto jugaba en un jardín rectangular del Monumento de Santiago, de 40 m de largo y 18 m de ancho. ¿Cuál es el área?\"\n- A = 40 × 18 = 720 m².",
+          "actividad_numero": "Actividad 6 B y C (págs. 265-266)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"Nelly calcula el área de un monumento con forma de romboide de 230 m de largo y altura de 120 m. ¿Cuál es el área?\" (230 × 120 = 27,600 m²).\n\nCierre (pág. 267):\nPreguntas: \"¿Cómo se obtiene el área de un paralelogramo? ¿Cuáles paralelogramos conocen?\"\n\nActividad complementaria (pág. 267):\nDeterminar el área de figuras dadas: 1) cuadrado 5 m (25 m²); 2) rectángulo 8 cm × 3 cm (24 cm²); 3) romboide 6 m × 2.5 m (15 m²).\n\nActividad para el diario del estudiante (pág. 267):\nCon ayuda de tus padres, identificar en tu comunidad espacios con forma de paralelogramo y calcular sus áreas.",
+          "actividad_numero": "Actividad 6 Actividad para el cuaderno (pág. 266) Cierre (pág. 267) Actividad complementaria (pág. 267) Actividad para el diario (pág. 267)"
+        }
+      ]
+    },
+    {
+      "id": "1772027485774",
+      "sequence_id": "seq-1772026815698",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "¡Qué divertido es calcular área! (triángulo)",
+      "intencion_pedagogica": "Resolver problemas de área de polígonos en su entorno, específicamente de triángulos.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre área del triángulo.\n\nSituaciones problemáticas: Cálculo de área de triángulos en monumentos.\n\nFórmula: A = (base × altura) / 2.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se utilizan las caras triangulares de las Pirámides de Valle Nuevo para calcular áreas de triángulos, conectando la geometría con monumentos nacionales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la multiplicación: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: El juego de tarjetas es ideal.\n\nPara estudiantes con discapacidad visual: Se utilizan tarjetas con medidas en relieve.\n\nPara estudiantes avanzados: Se les pide que calculen áreas de triángulos con medidas decimales.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 269, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los paralelogramos encontrados.\n2. Retroalimenta área de paralelogramo.\n3. Pregunta: \"¿Cómo se calcula el área de un triángulo?\"\n4. Proyecta el video \"Área de un triángulo súper fácil\" (https://www.youtube.com/watch?v=lmWDi51Siq0). Socializa.",
+          "actividad_numero": "Actividad 7 A (pág. 267)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Calculadoras\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 268): \"La cara de uno de los triángulos de la Pirámide de Valle Nuevo tiene base de 2.5 m y altura de 3 m. ¿Cuál es el área?\"\n- A = (b × h) / 2 = (2.5 × 3) / 2 = 7.5 / 2 = 3.75 m².\n2. Explica la multiplicación de decimales y la división.\n3. Plantea otro problema (pág. 268): \"Nelly quiere el área de una pared triangular de una plazoleta, con base 400 cm y altura 650 cm.\"\n- A = (400 × 650) / 2 = 260,000 / 2 = 130,000 cm².",
+          "actividad_numero": "Actividad 7 B y C (págs. 267-268)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas\n• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"El techo de una edificación del Monumento al Grito de Capotillo tiene forma rectangular de 500 m × 300 m. ¿Cuál es el área?\" (150,000 m²).\n\nCierre (pág. 269):\nJuego con tarjetas: llevar triángulos con medidas en tarjetas. Por turno, los estudiantes sacan una tarjeta y explican cómo calcular el área.\n\nActividad complementaria (pág. 269):\nDeterminar el área de triángulos dados: 1) 8 dm × 12 dm (48 dm²); 2) 4 m × 5 m (10 m²); 3) 9 cm × 4 cm (18 cm²).\n\nActividad para el diario del estudiante (pág. 269):\nEntrar al enlace: https://la.ixl.com/matematicas/5-grado/area-del-triangulo",
+          "actividad_numero": "Actividad 7 Actividad para el cuaderno (pág. 269) Cierre (pág. 269) Actividad complementaria (pág. 269) Actividad para el diario (pág. 269)"
+        }
+      ]
+    },
+    {
+      "id": "1772027591706",
+      "sequence_id": "seq-1772026815698",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Conociendo áreas de otros polígonos (trapecio)",
+      "intencion_pedagogica": "Resolver problemas de su entorno que involucren áreas de trapecios.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre área del trapecio.\n\nSituaciones problemáticas: Cálculo de área de trapecios en monumentos.\n\nFórmula: A = [(Base + base) × altura] / 2.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se utiliza una pared con forma de trapecio en un monumento para calcular su área, conectando la geometría con la arquitectura.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la fórmula: Se les proporciona una plantilla con la fórmula paso a paso.\n\nPara estudiantes kinestésicos: Se les invita a dibujar los trapecios en papel cuadriculado.\n\nPara estudiantes con discapacidad visual: Se utilizan figuras recortadas en cartulina.\n\nPara estudiantes avanzados: Se les pide que calculen áreas de trapecios con medidas decimales.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 270, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por la actividad interactiva.\n2. Retroalimenta área del triángulo.\n3. Pregunta: \"¿Qué es un trapecio? ¿Cómo se puede calcular su área?\"\n4. Proyecta el video \"Área del trapecio Súper fácil\" (https://www.youtube.com/watch?v=P3jLLjDBm6w). Socializa.",
+          "actividad_numero": "Actividad 8 A (pág. 269)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Calculadoras\n• Cuadernos",
+          "descripcion": "1. Plantea el problema (pág. 270): \"Alberto visitó un monumento con una pared en forma de trapecio. Base mayor 80 m, base menor 52 m, altura 65 m. ¿Cuál es el área?\"\n- A = [(B + b) × h] / 2 = [(80 + 52) × 65] / 2 = (132 × 65) / 2 = 8,580 / 2 = 4,290 m².\n2. Explica paso a paso: suma de bases, multiplicación por altura, división entre 2.\n3. Refuerza con otro ejemplo si es necesario.",
+          "actividad_numero": "Actividad 8 B (pág. 270)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"Manuel visitó un monumento en la Zona Colonial. Una pared trapecial mide 60 m de base mayor, 40 m de base menor y 90 m de altura. ¿Cuál es el área?\" ( [(60+40)×90]/2 = 100×90/2 = 9,000/2 = 4,500 m²).\n\nCierre (pág. 271):\nPreguntas: \"¿Cómo se calcula el área de un trapecio? ¿Qué problema se te hizo más fácil?\"\n\nActividad complementaria (pág. 271):\nDeterminar el área de trapecios dados: 1) B=15 cm, b=10 cm, h=8 cm (100 cm²); 2) B=6 m, b=5 m, h=4 m (22 m²); 3) B=16 cm, b=8 cm, h=4 cm (48 cm²).\n\nActividad para el diario del estudiante (pág. 271):\nBuscar en tu comunidad una edificación u objeto con forma de trapecio, conseguir sus medidas y calcular su área, con ayuda de tus padres.",
+          "actividad_numero": "Actividad 8 Actividad para el cuaderno (pág. 270) Cierre (pág. 271) Actividad complementaria (pág. 271) Actividad para el diario (pág. 271)"
+        }
+      ]
+    },
+    {
+      "id": "1772027719487",
+      "sequence_id": "seq-1772026815698",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Juego con los polígonos",
+      "intencion_pedagogica": "Retroalimentar los conocimientos adquiridos sobre área de polígonos a través de un juego de ruleta.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nJuego didáctico: Ruleta de áreas de polígonos.\n\nTrabajo en grupos: Juego colaborativo.\n\nEvaluación formativa: Observación del desempeño de los estudiantes.",
+      "aprendizaje_significativo": "Se utiliza un juego de ruleta para repasar de manera lúdica el cálculo de áreas de diferentes polígonos (cuadrado, rectángulo, triángulo, trapecio, romboide).\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en las fórmulas: Se les permite tener una tarjeta con las fórmulas.\n\nPara estudiantes kinestésicos: El juego es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se utilizan ruletas con texto en braille.\n\nPara estudiantes avanzados: Se les pide que actúen como árbitros verificando cálculos.",
+      "actividades_cuaderno": "Escribir una breve reflexión sobre el juego: ¿cómo se sintieron? ¿Qué aprendieron?\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Ruleta (pág. 276)",
+          "descripcion": "1. El docente explica que hoy jugarán con la ruleta de polígonos.\n2. Presenta la ruleta (anexo pág. 276) con preguntas de área.\n3. Explica las reglas del juego (pág. 271).",
+          "actividad_numero": "Actividad 9 A (pág. 271)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Ruleta (pág. 276)\n• Calculadoras\n• Cuadernos",
+          "descripcion": "1. Organiza grupos de 4 a 6 participantes.\n2. Reglas:\n- Se juega con todos los participantes o en grupo (si hay varias ruletas).\n- Dan vuelta a la ruleta y deben calcular el área de la figura que salga.\n- Si no pueden, los demás tienen oportunidad.\n- Por cada área correcta, ganan un punto.\n- Gana quien tenga más puntos después de 2 turnos.\n3. Los estudiantes juegan. El docente observa y registra el desempeño.",
+          "actividad_numero": "Actividad 9 B (pág. 271) Anexo (pág. 276)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "Preguntas: \"¿Cómo se llamaba el juego? ¿Cómo sabían cómo calcular el área? ¿Qué te resultó más difícil?\"\n\nActividad para el cuaderno:\nNo hay actividad específica para el cuaderno en esta clase.",
+          "actividad_numero": "Actividad 9 Cierre (pág. 272)"
+        }
+      ]
+    },
+    {
+      "id": "1772027798396",
+      "sequence_id": "seq-1772026815698",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Estimando áreas",
+      "intencion_pedagogica": "Resolver problemas de área de polígonos en su entorno, utilizando la estimación de medidas.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del juego.\n\nDiálogo dirigido: Exploración del concepto de estimación.\n\nSituaciones problemáticas: Estimación de áreas redondeando medidas.\n\nComparación de resultados: Cálculo exacto vs. estimación.\n\nTrabajo individual: Resolución de problemas con estimación.",
+      "aprendizaje_significativo": "Se introduce la estimación de áreas como una herramienta útil para obtener resultados aproximados de manera rápida, aplicándola a problemas de monumentos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en el redondeo: Se les proporciona una guía paso a paso.\n\nPara estudiantes kinestésicos: Se les invita a escribir las estimaciones en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que justifiquen por qué eligieron cierta estimación.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 273, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la experiencia del juego.\n2. Retroalimenta cálculo de áreas.\n3. Pregunta: \"¿Qué significa estimar? ¿Qué se hace para estimar cantidades?\"\n4. Anuncia el tema: estimación de áreas.",
+          "actividad_numero": "Actividad 10 A (pág. 272)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Calculadoras\n• Cuadernos",
+          "descripcion": "1. Retoma el problema de la Fortaleza Ozama (1,250 m × 2,470 m).\n2. Calculan el área exacta: 3,087,500 m².\n3. Estiman redondeando a centenas: 1,300 m × 2,500 m = 3,250,000 m².\n4. Comparan: la estimación es cercana y más fácil de calcular.\n5. Plantea otro problema (pág. 273): *\"Luis quiere el área de una pared del Faro a Colón en forma de trapecio: B=6,420 cm, b=4,181 cm, h=5,321 cm. Estimar a la unidad de millar.\"*\n- Exacto: 28,203,960.5 cm².\n- Estimado: B≈6,000, b≈4,000, h≈5,000 → [(6,000+4,000)×5,000]/2 = 10,000×5,000/2 = 50,000,000/2 = 25,000,000 cm².",
+          "actividad_numero": "Actividad 10 B (págs. 272-273)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Resolver: \"Alberto quiere saber el área de la Fortaleza Ozama (1,250 m × 2,470 m) estimando a la unidad de millar.\" (1,000 m × 2,000 m = 2,000,000 m²).\n\nCierre (pág. 273):\nPreguntas: \"¿Cómo se estima una cantidad? ¿En qué nos ayuda la estimación?\"\n\nActividad complementaria (pág. 273):\nDeterminar el área de un trapecio con medidas 6,523 m, 5,241 m y 8,099 m, estimando a centenas.\n\nActividad para el diario del estudiante (pág. 274):\nCalcular el área del solar de tu casa en centímetros y estimar a la unidad de millar más cercana.",
+          "actividad_numero": "Actividad 10 Actividad para el cuaderno (pág. 273) Cierre (pág. 273) Actividad complementaria (pág. 273) Actividad para el diario (pág. 274)"
+        }
+      ]
+    },
+    {
+      "id": "1772027882971",
+      "sequence_id": "seq-1772026815698",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": " Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar los conocimientos adquiridos en la Secuencia 9 (perímetro, área de cuadrados, rectángulos, paralelogramos, triángulos, trapecios, estimación) a través de la resolución de problemas.\n\n",
+      "estrategia": "Retroalimentación inicial: Preguntas orales para recordar los temas de la secuencia.\n\nEvaluación escrita: Resolución individual de un conjunto de problemas.\n\nUso de escala de valoración: Para que los estudiantes comprendan cómo se evaluará su desempeño.",
+      "aprendizaje_significativo": "La evaluación se presenta como una oportunidad para demostrar lo aprendido en contextos significativos (monumentos dominicanos), y se utiliza una escala de valoración para que los estudiantes tomen conciencia de su propio nivel de logro.\n\n",
+      "actividades_complementarias": "Para estudiantes que necesitan más tiempo: Se les puede permitir terminar la evaluación en otra sesión, según la Ordenanza 04-2023.\n\nPara estudiantes con dificultades de lectura: Se les leen los problemas en voz alta si es necesario.\n\nPara estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n\nPara estudiantes que terminan rápido: Se les puede pedir que revisen sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué trabajaron en esta secuencia? ¿Cómo se calcula el perímetro? ¿Cómo se calcula el área de un rectángulo? ¿Y de un triángulo? ¿Y de un trapecio?\"\n2. Da tiempo para responder y retroalimenta los temas.",
+          "actividad_numero": "Actividad 11 (Párrafo 1, pág. 274)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Calculadoras\n• Copia de la evaluación o pizarra con los ítems\n• Escala de valoración",
+          "descripcion": "1. El docente explica que esta actividad evalúa la secuencia y que se hará énfasis en la resolución de problemas.\n2. Explica que cada ítem tiene un valor numérico por procedimiento y respuesta completa.\n3. Lee y explica la escala de valoración (pág. 274).\n4. Entrega una hoja en blanco a cada estudiante para que coloquen sus datos (nombre del centro, nombre del estudiante, fecha, grado y sección).\n5. Aplica la evaluación, ítem por ítem, dando el tiempo necesario. La evaluación consta de 10 puntos (ítems):\n- Ítem 1: Resolver problemas de perímetro: a) sala de museo de 350 cm × 820 cm (P = 2,340 cm); b) jardín triangular equilátero de 140 m (P = 420 m) (10 pts).\n- Ítem 2: Determinar perímetro de figuras dadas: a) triángulo 50,30,40 m (120 m); b) rectángulo 182 × 490 m (1,344 m) (10 pts).\n- Ítem 3: Escribir la unidad de área más factible para monumentos: Monumento de Santiago (m²), Obelisco (m²), Faro a Colón (km²), Puerta del Conde (m²), Pirámides Valle Nuevo (m²) (10 pts).\n- Ítem 4: Parear unidades de área con abreviatura: km², m², cm², dm², mm² (10 pts).\n- Ítem 5: Problemas de área de rectángulos: a) salón 5 m × 8 m (40 m²); b) cuaderno 14 cm × 22 cm (308 cm²) (10 pts).\n- Ítem 6: Área de romboide de 100 m × 135 m (13,500 m²) (10 pts).\n- Ítem 7: Adivinanzas de polígonos: a) cuadrilátero con lados opuestos paralelos (paralelogramo); b) paralelogramo con lados y ángulos iguales (cuadrado); c) cuadrilátero con dos bases (trapecio); d) polígono cuya área es L² (cuadrado); e) polígono de 4 lados y 4 ángulos rectos (rectángulo) (10 pts).\n- Ítem 8: Área de triángulos: a) 135 cm × 96 cm (6,480 cm²); b) 350 m × 240 m (42,000 m²) (10 pts).\n- Ítem 9: Área de trapecio: B=809 cm, b=502 cm, h=605 cm ( [(809+502)×605]/2 = 1,311×605/2 = 793,155/2 = 396,577.5 cm²) (10 pts).\n- Ítem 10: Estimar el área del problema 9 a la centena más cercana (B≈800, b≈500, h≈600 → [(800+500)×600]/2 = 1,300×600/2 = 780,000/2 = 390,000 cm²) (10 pts).",
+          "actividad_numero": "Actividad 11 Evaluación (págs. 274-275)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones de los estudiantes",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Puede hacer un breve comentario sobre la importancia de la evaluación para medir el aprendizaje.\n3. Anuncia que en la próxima clase se darán los resultados y se retroalimentarán los puntos con mayores dificultades.",
+          "actividad_numero": "Actividad 11 (Cierre)"
+        }
+      ]
+    }
+  ]
+}

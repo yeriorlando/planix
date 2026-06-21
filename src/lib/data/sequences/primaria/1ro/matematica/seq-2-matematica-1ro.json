@@ -1,0 +1,387 @@
+{
+    "sequenceId": "seq-mat-2-1ro",
+    "subjectId": "matematica-1ro",
+    "sequenceTitle": "Números y Problemas",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1: Usamos números en situaciones cotidianas",
+            "activities": [
+                {
+                    "title": "Actividad 1",
+                    "pedagogicalIntention": "resuelvan problemas de reunir o juntar y reconocen sumas que dan el mismo resultado.",
+                    "resources": "actividad 1 del fascículo. Papelógrafo de aprendizaje.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nAnita y Hugo jugaron a Gana el mayor con tapitas, y ganó Anita. Anotar sus puntos.\nPUNTOS DE ANITA __________ y __________\nPUNTOS DE HUGO 3 y 4",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizaje.",
+                            "description": "Se conversa con el grupo sobre lo que van a trabajar en las próximas clases, señalando las palabras mientras se lee.\nEN ESTAS SEMANAS TRABAJAREMOS PARA:\n● Leer, escribir, ordenar y comparar números más grandes.\n● Resolver problemas de agregar, juntar y quitar cantidades.\n● Sumar números menores o iguales a 10.\n● Restar números menores o iguales a 20.\n● Reconocer sumas que dan igual."
+                        },
+                        {
+                            "title": "Momento 2. Registrar y reunir cantidades.",
+                            "description": "El docente solicita a algún estudiante que recuerde para todos el juego de las latas, Gana el mayor, que jugaron en la actividad de la secuencia anterior. Luego continúa: unos niños jugaron, pero lo hicieron solos y cada uno tenía 9 tapitas. Se puede volver a jugar con estas nuevas reglas. Se propone ir a la actividad 1 del fascículo y resolverla individualmente. Leer la actividad para asegurarse de que todos han comprendido el desafío.\nJugando al juego de las tapitas gana el mayor, Cecilia, Carlos y Marcos registraron los puntos obtenidos en cada recipiente. Gana el que obtuvo más puntos. ¿Quién ganó?\n\nCECILIA\n●● ●●●●\nCARLOS\n5 2\nMARCOS\n2 3\n\nMientras, en el recorrido docente, se pregunta: ¿cómo registró Cecilia sus puntos? ¿Y Carlos? ¿Y Marcos? ¿Cuántos puntos sacó Cecilia en el primer recipiente?, ¿y en el segundo? ¿Cómo puedes averiguar el total de puntos que obtuvo Cecilia? ¿Cómo puedes registrarlo numéricamente? Si no lo recuerdas, vuelve a mirar en tu cuaderno lo hecho sobre el juego. ¿Qué puntaje sacó Carlos en cada recipiente? ¿Cómo puedes obtener el total? Puedes ayudarte con la banda o con los dedos. ¿Cómo registras lo que acabas de hacer? Se continúa como se hizo con los puntos de Cecilia.\nEn la puesta en común se invita a los estudiantes a explicar cómo obtuvieron sus resultados y a comparar las estrategias utilizadas. Se recomienda retomar en la pizarra la escritura del cálculo, del signo + y del signo = para afianzar su convencionalidad:\nCECILIA 2 + 4 = 6\nCARLOS 5 + 2 = 7\nMARCOS 2 + 3 = 5"
+                        },
+                        {
+                            "title": "Momento 3. Comparar cantidades. Sumas que dan igual.",
+                            "description": "Se les indica el título para escribir en el cuaderno: Jugando con tapitas y se presenta en la pizarra una nueva instrucción, al tiempo que se explica que Rosa y Carlos también jugaron a las tapitas: sabemos el puntaje que sacó Carlos en cada recipiente, pero no sabemos cuánto sacó Rosa. Sólo sabemos que ganó. ¿Qué puntaje sacó Rosa en cada recipiente para haber ganado? Escriban en sus cuadernos la respuesta.\nGanó Rosa, anota sus puntos.\nCARLOS 5 y 2\nROSA __ y __\nEn el recorrido docente es probable que haya que recordar a los estudiantes que cada uno recibe 9 tapitas, por lo tanto, ¿cuál es el máximo puntaje posible para Rosa? Lo central es observar cómo razona cada estudiante frente a este problema que tiene muchas respuestas posibles, pues para ganar Rosa debe haber obtenido un total de 8 o más puntos y esto puede resultar de diferentes sumandos. Pueden aparecer estrategias distintas, como repetir uno de los números de Carlos y aumentarlo en 1 o más al otro (5 y 3, o algún número mayor a este; 6 (o 7) y 2); aumentar ambos puntos de Carlos, o con el total de puntos de Carlos (7), buscar combinaciones de números para Rosa que sumen 8 o más. Para las estrategias que no averiguan o utilizan el total de puntos, el docente propone escribir los cálculos y comparar los totales.\nSi algún estudiante suma el total de puntos de Carlos y propone un número mayor para Rosa, se le pide anotar los puntos que sacó Rosa: escriban sumas que den como resultado 8, 9 o más. Busquen los distintos puntajes posibles de Rosa en cada ronda. Recuerden que no puede sacar más de 9 en cada ronda, porque sólo hay 9 tapitas.\nAl comparar las producciones de los estudiantes en la puesta en común se destacan las diferentes estrategias empleadas para obtener números mayores a los de Carlos. Se pide que pasen y escriban el cálculo correspondiente en la pizarra (sólo cuatro o cinco posibles). Si fuera necesario los escriben con la ayuda de todos. Se alienta a los estudiantes a relatar cómo resolvieron la situación: ¿cómo la pensaron? ¿Por qué ganó Rosa? ¿Cómo saben que sacó más que Carlos? ¿Cuántos puntos debe obtener Rosa para ganar? ¿Qué puntaje en cada lata sacó para sumar 8 en total? ¿Es la única respuesta posible? ¿Alguien puso puntos distintos para Rosa? Si hubiera tiempo se procede igual planteando que 9 es el puntaje total de Rosa."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización.",
+                            "description": "Al conversar sobre las estrategias anteriores, se puede comentar una cuestión que se analizará con mayor profundidad en la actividad 3: hay sumas que dan el mismo resultado, aunque los números que se suman sean distintos."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 2",
+                    "pedagogicalIntention": "resuelvan problemas de reunir cantidades y comparen.",
+                    "resources": "11 tapitas para cada grupo de 5 o 6 estudiantes, una marcada con otro color; cuadro de puntajes de la actividad 2 del fascículo. Un papelógrafo para copiar el cuadro comparativo que será recuperado en la actividad siguiente.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nEscribir el cálculo para encontrar el total de puntos y resolver:\nPRIMER TIRO: 7\nSEGUNDO TIRO: 2\nTOTAL: _________",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente solicita a sus estudiantes compartir las respuestas a la tarea para el hogar: ¿qué puntajes pudo haber obtenido Anita en cada ronda para haber ganado? Destaca las distintas formas de representar los puntos de Anita retomando preguntas del recorrido docente y de la puesta en común de la actividad anterior."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas de reunir y comparar cantidades. Expresar la suma simbólicamente.",
+                            "description": "Se indica el título para el cuaderno: Vuelven a volar tapitas. El docente comenta: volverán a jugar sacando tapitas del círculo del centro como en la actividad 13 de la secuencia anterior. Esta vez también se verá cuál equipo gana. Se hará sólo una ronda. Cada estudiante anotará los puntajes de sus dos tiradas y el cálculo con el total en el cuaderno. En cada equipo se determina quién ganó. Comparando estos valores de los grupos se determinará el equipo ganador.\nEn el recorrido docente, si es necesario, se sugiere usar las tapitas para apoyar el conteo y la banda numérica o el calendario para identificar los símbolos numéricos. Si hay escrituras en espejo se ayuda a rehacerlas cotejando con el modelo de la banda. Se pregunta cómo se expresa el contar todo. Si no recuerdan cómo escribir el cálculo se les hace referencia a tareas anteriores en sus cuadernos (15 de secuencia 1 y la anterior en esta secuencia).\nEn la puesta en común el cuadro se presenta vacío en el papelógrafo y cada grupo lo completa con los puntajes del estudiante que ganó en cada grupo dado que lo representa:\n\n[Cuadro de Ejemplo: Primer tiro | Segundo tiro | Total]\nEjemplo 4 5 4 + 5 = 9\nGrupo 1\nGrupo 2\n...\n\nCon el cuadro terminado, se indica ir al fascículo y anotar los tres grupos con mayores puntajes. Se verifica que cada estudiante haya hecho allí sus registros. Se plantean oralmente algunas preguntas que requieren leer y analizar el cuadro, comparar números y utilizar las ideas de mayor, menor, uno más que, uno menos que: ¿quién ganó? ¿Cómo lo saben? ¿Quién sacó un punto más que…? ¿Quién sacó un punto menos que…? Si es necesario se pide recurrir a la banda numérica personal.\nAl finalizar, se sintetizan las respuestas, marcando sobre la banda las relaciones que se discutieron."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 3",
+                    "pedagogicalIntention": "analicen una situación y encuentren sumas que dan el mismo resultado.",
+                    "resources": "actividad 3 del fascículo. Una hoja de papelógrafo de, aproximadamente, 40 cm x 60 cm para cada grupo de 4 o 5 estudiantes. Papelógrafo con el cuadro de resultados de la actividad 2.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nAgregar a cada una de las dos sumas copiadas en el cuaderno, otra suma con igual resultado.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Se copia la tarea en la pizarra. Se pregunta: ¿cuál era el mandato a atender? Se solicita a un estudiante que pase a resolverlo, mientras se pide al grupo en general que expliquen qué tuvieron en cuenta para resolverlo. Se valida, es decir, se dice si está bien o mal lo escrito en la pizarra y se argumenta lo afirmado."
+                        },
+                        {
+                            "title": "Momento 2. Comparar totales.",
+                            "description": "El docente recuerda el juego de la actividad anterior e informa que se continuará analizando algunos resultados de partidas realizadas. Se presenta oralmente la siguiente situación: Luis sacó 5 tapitas primero y 2 después. Ana dice que empataron porque ella sacó primero 4 y luego 3. Luis dice que no puede ser porque en el primer tiro él sacó más. ¿Alguno tiene razón?\nEn la pizarra anota los puntos:\nLuis 5 2\nAna 4 3\nSe da un tiempo para analizar, en parejas o en pequeños grupos, lo que dicen Ana y Luis. En el recorrido docente se plantean preguntas para verificar que todos comprendieron el problema, por ejemplo: ¿qué significa que empataron? ¿Cómo puedes averiguar cuántas tapitas hizo cada uno en total? ¿Cómo puedes comprobar si las sumas de Luis y Ana son iguales?\nEn la puesta en común se conversa entre todos, convocando a los estudiantes a mostrar y comparar sus registros escritos, dibujos o cálculos."
+                        },
+                        {
+                            "title": "Momento 3. Sumas equivalentes.",
+                            "description": "El docente divide a la clase en grupos, entrega a cada uno una hoja de papel del tamaño indicado. Pega en la pizarra el papelógrafo con el cuadro de resultados elaborado durante la actividad anterior. Indica copiar de la pizarra el título: Sumas que dan igual. Oralmente, da la siguiente instrucción: cada grupo va a buscar dos o más sumas que den el mismo resultado para anotarlas en la hoja. Si no encuentran ninguna, elijan un cálculo con resultado mayor a 5 y escriban otras dos sumas que den el mismo resultado. En el recorrido docente, dependiendo del grupo, se les puede dar la indicación completa o pedirles primero que busquen las sumas que dan igual y a medida que las van encontrando, se les entrega la hoja para que las anoten. Se puede guiar con preguntas como: ¿cómo saben que estas sumas dan el mismo resultado? ¿Pueden encontrar más sumas que den este mismo número? ¿Da lo mismo sumar el número más pequeño al más grande que al revés? ¿Qué es más fácil porque hay que agregar menos? Si hay grupos que avanzan más rápido, se les puede pedir que piensen y escriban en la hoja otra suma que también dé ese resultado.\nCada grupo escribe en su hoja como título: Sumas que dan…, consignando el resultado común a las sumas trabajadas.\nAl hacer la puesta en común se plantea: ¿cuáles cálculos encontraron que tengan el mismo resultado? ¿Cuáles cálculos escribieron que den el mismo resultado? Pasen a escribirlo en la pizarra. ¿Algunos compañeros tienen otro cálculo con el mismo resultado escrito? Si no apareció un caso similar escribe 3 + 4 y 4 + 3 y pregunta: ¿en qué se parecen y en qué se diferencian estas sumas? ¿Conocen otros cálculos en que pase lo mismo? ¿Cuáles? Escriban dos cálculos diferentes a los dados que tengan los mismos números invertidos. Comparen los resultados. ¿Todos dan igual?"
+                        },
+                        {
+                            "title": "Momento 4. Sistematización.",
+                            "description": "El docente pregunta: ¿puede haber sumas que den igual? Lean dos ejemplos. ¿Qué sucede si se suman los mismos números, pero se cambia el orden? Cuando tenemos que sumar dos números, podemos hacerlo en cualquier orden. Cada estudiante registra en su cuaderno dos sumas del papelógrafo de su grupo o el docente elige un papel para que todos copien esas sumas."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 4",
+                    "pedagogicalIntention": "resuelvan problemas de agregar y reconozcan distintos procedimientos para hacerlo.",
+                    "resources": "actividad 4 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno.\nResolver:\nJuan tenía 7 dulces y le regalaron 2. ¿Cuántos dulces tiene ahora Juan?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente solicita compartir las respuestas a la tarea para el hogar recuperando la idea de que en una suma puedo sumar los números en cualquier orden y que hay cálculos distintos que dan el mismo resultado. Se escriben en la pizarra algunas de las sumas planteadas."
+                        },
+                        {
+                            "title": "Momento 2. Agregar y comparar cantidades.",
+                            "description": "Se indica el título para el cuaderno: Los dulces. Oralmente, se presenta al grupo la situación que está en la actividad 4 del fascículo:\nLa abuela de Lucía siempre les trae dulces a sus nietos cuando vuelve de hacer las compras. Lucía tenía 5 dulces y Carlos tenía 2. Hoy, la abuela les trajo 4 dulces a cada uno. ¿Cuántos tiene ahora Lucía? ¿Cuántos tiene Carlos? ¿Alguno tiene más?\nEn la pizarra se anotan los datos:\nLucía tenía 5 dulces. Carlos tenía 2 dulces.\nLa abuela le trajo 4 dulces. La abuela le trajo 4 dulces.\n\nSe puede presentar una pregunta a la vez, dar tiempo para pensar y para que cada estudiante resuelva el problema en su cuaderno o con su compañero. También se puede organizar la clase en grupos, de modo que cada uno trabaje con una pregunta distinta.\nDurante el recorrido docente, para responder a la primera pregunta sobre el total de dulces de Lucía, el docente observa a los estudiantes que podrían usar distintos procedimientos con ayuda de los dedos, tapitas u otros objetos. Para quienes lo requieren se les entregan habichuelas o tapitas para resolver. Otros quizás hagan dibujos. En ambos casos tendrán que contar todo o sobrecontar para escribir el total. Algunos quizás se animen a presentar un cálculo. Estas sumas podrían resolverse de distinto modo. Algunas posibilidades son:\n● Contar con los dedos. Poner primero los 5 y agregarle 4. Contar todo: 1, 2, …9\n● Sobrecontar: usar palitos / y agregar uno cada vez mientras con una mano se va marcando cuántos se agregan. Se enuncia el total acumulado.\n● Apoyarse en un resultado conocido: sé que 5 es 4 + 1. Pienso 5 + 4 como 4 + 4 + 1: cuatro más cuatro son ocho y uno más son nueve.\nPara averiguar cuántos son los dulces de Carlos se pueden usar estrategias similares. Lo importante es identificar la estrategia que usan para convocarlos a explicarla en la puesta en común. También, si no completan la estrategia, hacer preguntas vinculadas con lo que estuvieron proponiendo.\nEn la puesta en común, si la mayoría usa los dedos o dibujos (adecuado y no se debe desestimar), será necesario mostrar algunas resoluciones con sumas, para analizarlas entre todos y señalar que en matemática se anota de ese modo cuando se agrega una cantidad a otra. Si no aparece ningún cálculo, el docente puede proponerlo en la pizarra. Comenta que cuando le dio el mismo problema a otro grupo de estudiantes, algunos anotaron como se indica a continuación y les pregunta a sus estudiantes cómo resolverían ese cálculo:\n● Para saber cuántos dulces tenía Lucía, otros estudiantes escribieron 4 + 5. ¿Están de acuerdo con esa forma? ¿De qué manera podemos resolver esa suma?\n● Una estudiante dijo que como cuatro más cuatro son ocho, cuatro más cinco deber dar uno más, ¿piensan que está bien lo que ella dijo?\nAquí también tuvieron que contar todo, porque a los 5 dulces que tenían le agregararon 4 y querían saber el total que quedó al final. En estos casos que se agrega y se pregunta por lo que queda al final, también se usa la suma.\nAl terminar las sumas se pregunta por la comparación. Si alguien tiene dudas, se les pide ubicar los resultados en la banda numérica. Se revisa quién tenía más dulces antes de agregarles a ambos la misma cantidad y qué pasó después de hacerlo."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 5",
+                    "pedagogicalIntention": "resuelvan problemas de quitar y reconozcan distintos procedimientos para hacerlos incluyendo el cálculo de resta y su escritura simbólica.",
+                    "resources": "actividad 5 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno.\nResolver:\nLucía tenía 9 dulces y se comió 3. ¿Cuántos dulces le quedan?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente invita a cada estudiante a compartir con su compañero más cercano cómo resolvieron el problema de tarea. Se pregunta si hubo coincidencia o no, en qué difieren. Solicita a algunos estudiantes que expliquen cómo lo resolvieron. Si ninguno usó un cálculo, proponer hacerlo todos juntos. Una vez escrito en la pizarra se indica que lo copien a continuación de su resolución."
+                        },
+                        {
+                            "title": "Momento 2. Quitar cantidades.",
+                            "description": "El docente comenta: ¿recuerdan que la abuela de Carlos le regaló unos dulces? Hoy vamos a ver qué hizo Carlos con los dulces que tenía. Se indica el título para el cuaderno: Más dulces. Se lee reiteradas veces del fascículo la situación: Carlos tenía 6 dulces y se comió 3. ¿Cuántos dulces le quedan?\nSe invita a los estudiantes a resolver el problema junto con el compañero más cercano. En el recorrido docente se deja que exploren la situación y se observa cuáles estrategias usan. Se ponen algunas tapitas a disposición de los que no saben cómo iniciar el trabajo y se les dice: supón que estos son los dulces de Carlos. ¿Cuántos tiene él? ¿Puedes mostrarlos? ¿Qué hizo Carlos? ¿De dónde sacó Carlos los dulces? ¿Va a tener más o menos dulces que antes si se comió algunos? ¿Puedes decir cuántos dulces le quedaron a Carlos? Otros resolverán con distintos tipos de dibujos en los que se marcan o se tachan de algún modo los dulces que se comió Carlos y cuentan los que le quedaron. Algunos usarán los dedos para ayudarse:\n- levantan 6 dedos, bajan 3 y finalmente cuentan cuántos le quedaron:\n- hacen desconteo o conteo regresivo. Para que esto suceda es muy importante que se practique siempre el recitado de las series de mayor a menor.\nEn la puesta en común se promueve que los estudiantes compartan sus procedimientos, animándolos a anotarlos y respetando sus escrituras. La corrección docente debe ser cuidadosa para que se pueda seguir el razonamiento que hacen los estudiantes. Cuando ya han expuesto se les explica que hay una operación que se llama resta que permite escribir lo hecho como un cálculo y que se representa con el signo -. En la pizarra se copia el cálculo a medida que se pregunta: ¿cuántos dulces tenía Carlos? y se escribe el 6. ¿Qué pasó con esos dulces? Para indicar que se sacan se agrega el -. ¿Cuántos se comió? Se pone el 3 y, finalmente, el =. Luego se escribe el resultado de la resta: 6 - 3 = 3\nSe reitera: para expresar la resta usamos el signo de menos. Este signo, entre dos números, nos indica que al primer número que escribimos le quitamos el segundo. Lo que queda es el resultado, y lo escribimos después del signo igual. Cuando tenemos una cantidad y hay que averiguar cuánto queda después de quitarle otra, podemos usar la resta."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 6",
+                    "pedagogicalIntention": "encuentren relaciones entre cálculos de suma y resta.",
+                    "resources": "actividad 6 del fascículo, banda numérica del sobre pegado en el cuaderno.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno. Se les indica que están relacionadas con las sumas ya resueltas en el momento 2 y 3.\nResolver los cálculos:\n3 + 3 = 6 - 3 =\n4 + 3 = 7 - 3 =\n5 + 3 = 8 - 3 =",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Invita a los estudiantes a compartir cómo resolvieron la tarea y que pasen a la pizarra a copiar sus estrategias (dibujos, tapitas, conteo con dedos o directamente con números). Luego, refuerza la conexión entre sus estrategias y la representación con la operación de resta: Si Lucía tenía 9 dulces y se comió 3, lo escribimos como 9 - 3 = 6. Destaca la importancia de verificar siempre los resultados, practicando el conteo oral regresivo para consolidar el aprendizaje."
+                        },
+                        {
+                            "title": "Momento 2. Cálculos asociados.",
+                            "description": "Se indica el título para el cuaderno: Cálculos. Se recuerda lo que se trabajó en la actividad anterior sobre los dulces. Se invita a los estudiantes a revisar los procedimientos utilizados para las sumas. Luego se les propone ir a la actividad 6 del fascículo y resolver allí de modo individual:\nResuelve las sumas:\n2 + 2 = 3 + 3 =\n2 + 3 = 3 + 4 =\n2 + 4 = 3 + 5 =\nDurante el recorrido docente es importante dar tiempo a todos para resolver. Por ello, a quienes terminan antes se les puede pedir que vayan pensando cálculos de sumas que, por ejemplo, den 6. Para apoyar a los estudiantes que tienen dificultades en los cálculos, reiterar las sugerencias de la actividad anterior. También se puede sugerir ayudarse con la banda que tienen en el sobre del cuaderno: para resolver una suma, ¿dónde se apoya el dedo para comenzar? ¿Cómo se agrega el otro número? Recordar que hay que apoyar el dedo en el primer número y avanzar tantos lugares como indica el segundo. ¿A cuál número se llega? Ese es el resultado.\nEn la puesta en común, se copian los cálculos en la pizarra, dejando lugar entre los renglones, y se aprovecha para resaltar las relaciones entre las sumas a partir de las preguntas siguientes: ¿se puede aprovechar el resultado de 2 + 2 para encontrar el resultado de las otras dos sumas que tienen el número 2, sin tener que volver a contar? ¿Cómo? ¿Se puede aprovechar el resultado de 3 + 3 para saber cuánto dan las otras dos sumas que tienen el número 3, sin tener que volver a contar? ¿Cómo?\nSe espera que los estudiantes puedan apoyarse en la siguiente idea: como 3 es 1 más que 2, para hacer 2 + 3 puedo hacer 2 + 2 + 1 o, también, en analizar cómo se incrementan los sumandos y qué sucede con el resultado."
+                        },
+                        {
+                            "title": "Momento 3. Relacionar sumas y restas.",
+                            "description": "El docente escribe en la pizarra y propone para resolver en el cuaderno: ¿cuánto es 3 + 2? Una vez que todos están de acuerdo en que es 5, les plantea: ¿cuál es el resultado de 5 – 2 y de 5 – 3? Después de analizar esos resultados, presentarles los cálculos 2 + 2 = y, luego, 4 – 2 =; 2 + 4 = y, luego, 6 – 4 =. El docente escribe los cálculos y resultados en la pizarra y analiza con sus estudiantes la relación que tienen algunas restas con ciertas sumas:\n2 + 2 = 4, entonces 4 – 2 = 2.\n2 + 3 = 5, entonces 5 – 3 = 2 y 5 – 2 = 3.\n2 + 4 = 6, entonces 6 – 4 = 2 y 6 – 2 = 4.\nSe destaca que, si se puede pasar de 2 a 4 sumando 2, para pasar de 4 a 2 se pueden restar 2, y lo mismo para los otros casos. Se les explica lo siguiente: cuando ya resolvimos una suma y sabemos el resultado, podemos usarlo para resolver dos restas sin usar los dedos. Ejemplo: si a 4 le agregamos 2, obtenemos 6. Si a ese 6 le quitamos los 2 que le habíamos agregado, volvemos a tener los 4 iniciales."
+                        },
+                        {
+                            "title": "Momento 4. Repertorio aditivo.",
+                            "description": "Para finalizar, se indica que cada estudiante escriba una o dos sumas cuyo resultado ya sabe sin tener que usar los dedos o contar elementos: escriban en sus cuadernos una o dos sumas que ya se saben y no necesitan averiguar con los dedos. Se comparan los registros para determinar cuáles son las sumas que todo el grupo ya sabe."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 7",
+                    "pedagogicalIntention": "resuelvan situaciones con el calendario reconociendo algunos patrones numéricos.",
+                    "resources": "calendario en el salón, la banda numérica recortable del fascículo guardada en el sobre en el cuaderno, calendario de la actividad 7 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nObservar el calendario y responder:\n● ¿Qué número y día corresponde a tu cumpleaños?\n● ¿Qué número corresponde al día siguiente de tu cumpleaños?\n● Si es martes 16, ¿cuántos días faltan para el próximo domingo?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente copia en la pizarra los cálculos y pide a algunos estudiantes escribir las respuestas a la tarea para el hogar recuperando sucesivamente la idea de que, conocida una suma, también se conocen dos restas asociadas a ella."
+                        },
+                        {
+                            "title": "Momento 2. Identificar números en el calendario.",
+                            "description": "Con el apoyo del calendario del salón, utilizar ejemplos significativos, como fechas de cumpleaños o feriados, y pedir a todo el grupo que identifiquen distintos números, con preguntas como: ¿qué día es hoy? ¿Cuántos días faltan para el cumpleaños de…? El foco está puesto en la recuperación de los conocimientos que tienen de los nombres de los números."
+                        },
+                        {
+                            "title": "Momento 3. Reconocer números menores que el 40.",
+                            "description": "Para tratar de hacer evidente la cantidad de dígitos de cada número se les pregunta: ¿qué números tienen una sola cifra o dígito? ¿Cuáles tienen dos? Asimismo, se puede hacer un juego de adivinanzas usando el calendario que está en el fascículo.\nJuego: Adivinanzas de números\nEl docente elige un número del 1 al 31 y los estudiantes hacen preguntas de Sí/No para descubrirlo (ej: ¿es mayor que 15?, ¿empieza con 2?)."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización.",
+                            "description": "Se recuperan las preguntas de los momentos anteriores destacando: en el calendario hay números de un dígito y de dos dígitos. Los “dieci…”, que empiezan con 1; los “veinti…”, que empiezan con 2, y los “treinta y…”, que empiezan con 3."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 8",
+                    "pedagogicalIntention": "descubran patrones en un cuadro numérico.",
+                    "resources": "actividad 7 del fascículo, banda numérica personal.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nCompletar los números que faltan en la serie:\n22 ____ 24 ____",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente pide a sus estudiantes compartir las respuestas a la tarea para el hogar, todos tienen el calendario del fascículo visible para validar lo que dicen sus compañeros."
+                        },
+                        {
+                            "title": "Momento 2. Descubrir patrones en el cuadro organizado de números al 40.",
+                            "description": "El docente propone reorganizar la banda numérica para que todos los números que comienzan con el mismo dígito queden en una misma fila. Se trabaja con un cuadro numérico hasta el 40 para descubrir patrones en filas y columnas."
+                        },
+                        {
+                            "title": "Momento 3. Completar números faltantes.",
+                            "description": "Se sugiere tomar distintas porciones del cuadro de números y hacer preguntas a todo el grupo para reconocer el anterior o el siguiente de un número y el número que va entre otros dos. Los estudiantes completan porciones del cuadro en su cuaderno."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 9",
+                    "pedagogicalIntention": "exploren, lean y escriban números de un cuadro numérico.",
+                    "resources": "cuadro del fascículo de la actividad 9, un papelógrafo con el cuadro incompleto del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nCompletar los números que faltan:\n40 41 ___ 43 44 45 46 47 48 49",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente solicita a sus estudiantes compartir las respuestas a la tarea para el hogar, explicando las estrategias para completar los números."
+                        },
+                        {
+                            "title": "Momento 2. Registrar, leer y detectar patrones en el cuadro de números hasta 40.",
+                            "description": "El docente indica completar el cuadro incompleto de la actividad 9 del fascículo. Los estudiantes completan los números faltantes hasta el 40, trabajando solos o en parejas."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "Se concluye analizando la fila del 10, 20, 30 y 40: ¿qué tienen en común?, ¿cómo se leen? Se marca que todos los de una fila empiezan con el mismo dígito."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 10. RECAPITULACIÓN",
+                    "pedagogicalIntention": "repasen algunos contenidos trabajados.",
+                    "resources": "actividad 10 del fascículo, papelógrafo de aprendizajes.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "El docente pide a sus estudiantes compartir las respuestas a la tarea para el hogar atendiendo a las estrategias utilizadas."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Se revisa cada una de las actividades trabajadas en este bloque 1 y se registra en el papelógrafo de aprendizajes."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido.",
+                            "description": "Se resuelven dos situaciones de repaso: 1. Problema de galletas (agregar cantidades) y 2. Completar números faltantes en el cuadro."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2: Resolvemos problemas sencillos",
+            "activities": [
+                {
+                    "title": "Actividad 11",
+                    "pedagogicalIntention": "compongan y descompongan números usando 1, 5 y 10, y los comparen.",
+                    "resources": "por cada 4 o 6 estudiantes: una lata o caja y 3 bolitas o bollitos de papel; banda numérica personal de cada estudiante, fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nResolver:\nJosé Manuel obtuvo en una ronda 10, 1 y 1 puntos y María 5, 5 y 1 puntos. ¿Quién ganó?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Registrar y resolver sumas. Comparar números menores que 30.",
+                            "description": "Juego: ¡A meter la bolita!\nSe juega en el patio tirando bolitas a una lata: dentro de la lata = 10 puntos, en el círculo = 5 puntos, fuera = 0 (o 1 en la segunda ronda). Se comparan los puntajes para determinar ganadores."
+                        },
+                        {
+                            "title": "Momento 2. Composiciones y descomposiciones aditivas.",
+                            "description": "En el salón se analizan los puntajes del juego: ¿qué puntos se necesitan para armar 25? (10+10+5). Se ven distintas formas de armar un mismo número (ej: 20 = 10+10 o 10+5+5)."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 12",
+                    "pedagogicalIntention": "compongan y descompongan números usando 1, 5 y 10, y los comparen. Averigüen cuánto le falta a un número para llegar a otro.",
+                    "resources": "banda numérica personal de cada estudiante, fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nResolver:\nRosa también jugó y obtuvo 5, 1 y 1. ¿Le gana a Gladis que obtuvo 10, 5 y 1?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Se comparten las producciones de la tarea, analizando quién ganó entre José Manuel y María."
+                        },
+                        {
+                            "title": "Momento 2. Componer y comparar cantidades.",
+                            "description": "Análisis de los tableros de Gladis y Dolores. Se busca comparar puntajes sin sumar necesariamente el total, viendo qué tiros tienen en común y cuáles son diferentes. Se calcula por cuántos puntos ganó la ganadora."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 13",
+                    "pedagogicalIntention": "descompongan un mismo número de distintas maneras usando las relaciones entre 1, 5 y 10.",
+                    "resources": "papelógrafo con cuadro de puntajes del momento 2, actividad 13 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nResolver y marcar el puntaje mayor:\n10 + 5 + 2 = 10 + 5 + 3 = 20 + 5 =\nDescomponer usando sumas de 10, 5 y 1: 20 = 13 =",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Se socializan las estrategias para comparar los puntajes de Rosa y Gladis."
+                        },
+                        {
+                            "title": "Momento 2. Interpretar el cuadro de puntajes.",
+                            "description": "Se analiza un cuadro con los registros de Celina, Juan y César en el juego “A meter la bolita” con 5 bolitas."
+                        },
+                        {
+                            "title": "Momento 3. Componer y descomponer puntajes.",
+                            "description": "Se calculan los totales (Celina 22, Juan 23, César 26). Se buscan otras formas de obtener el mismo puntaje con diferentes combinaciones de 10, 5 y 1."
+                        },
+                        {
+                            "title": "Momento 4. Descomponer números usando sumas de 10, 5 y 1.",
+                            "description": "Los estudiantes descomponen números (16, 17, 18, 22, 23, 24) en el fascículo usando sumas de 10, 5 y 1. Se comparan las diferentes combinaciones posibles."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 14",
+                    "pedagogicalIntention": "lean, escriban y ordenen los números de 10 en 10 hasta 100.",
+                    "resources": "tarjetas numeradas del 1 al 10 y del 10 al 100 (de 10 en 10), actividad 14 del fascículo.",
+                    "homework": "Leer las series de números aprendidas (de 1 en 1 y de 10 en 10) a alguien en casa.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Se anotan descomposiciones de 20 y 13 en la pizarra y se verifica cuál puntaje de la tarea era el mayor."
+                        },
+                        {
+                            "title": "Momento 2. Ordenar la serie del 1 al 10.",
+                            "description": "Juego: Las cartas del mago. Los estudiantes ordenan cartas del 1 al 10 de menor a mayor y practican el recitado ascendente y descendente."
+                        },
+                        {
+                            "title": "Momento 3. Leer, escribir y ordenar la serie de 10 en 10 al 100.",
+                            "description": "Se ordenan las cartas del 10 al 100 (10, 20, 30...). Se compara esta serie con la del 1 al 10 para ver que siguen el mismo orden en el primer dígito."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 15",
+                    "pedagogicalIntention": "detecten algunos patrones en el cuadro de números a 100.",
+                    "resources": "cuadro de números de la actividad 15 del fascículo. Papelógrafo con el mismo cuadro.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nCompletar los números que faltan en los lugares vacíos.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Lectura de las series de 10 en 10 hacia adelante y hacia atrás."
+                        },
+                        {
+                            "title": "Momento 2. Presentar la serie del 1 al 100.",
+                            "description": "Situación de las butacas de teatro. Los estudiantes completan los números faltantes en un cuadro de 1 a 100, identificando patrones en filas y columnas."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 16",
+                    "pedagogicalIntention": "profundicen en los patrones del cuadro numérico a 100.",
+                    "resources": "papelógrafo con el cuadro de números, lápices de colores, cuadro de números al 100 recortable.",
+                    "homework": "Elegir otra fila del cuadro de números, colorearla y escribirla en el cuaderno.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Corrección de los números completados en la tarea anterior usando el cuadro del salón."
+                        },
+                        {
+                            "title": "Momento 2. Patrones en la formación de los números de dos cifras.",
+                            "description": "Se colorea y analiza la fila que empieza con 30. Se ve que todos empiezan con 3 y se leen como \"treinta y...\"."
+                        },
+                        {
+                            "title": "Momento 3. Más patrones en la formación de los números de dos cifras.",
+                            "description": "Se analiza y colorea la fila de los cincuenta (empiezan con 5)."
+                        },
+                        {
+                            "title": "Momento 4. Detectar el patrón de formación de los números de dos cifras.",
+                            "description": "Se comparan las filas del 30 y 50: ambas terminan con la serie 1, 2, 3... 9. Se generaliza a otras familias (20, 80, etc.)."
+                        },
+                        {
+                            "title": "Momento 5. Sistematización.",
+                            "description": "Conclusión: para leer 45, se piensa en \"cuarenta\" y luego en \"cinco\". Después del número terminado en 0, siempre siguen los dígitos 1 al 9."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 17",
+                    "pedagogicalIntention": "reconozcan qué tienen en común los números que están entre otros dos terminados en 0 en el cuadro de números.",
+                    "resources": "banderines con números del 10 al 100 de 10 en 10, banderines vacíos.",
+                    "homework": "Completar de menor a mayor los números que están entre 40 y 50, 60 y 70, 90 y 100.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Socialización de las filas elegidas por los estudiantes en su tarea."
+                        },
+                        {
+                            "title": "Momento 2. Patrones en la formación de los números.",
+                            "description": "Creación de una guirnalda numérica gigante para el salón. Cada grupo completa los 9 números que hay entre dos decenas (ej: entre 20 y 30) y los pega en orden en la pared."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "Reflexión: solo hay 9 números entre cada decena porque se repiten las terminaciones del 1 al 9. Esto ayuda a leer cualquier familia de números."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 18. RECAPITULACIÓN",
+                    "pedagogicalIntention": "repasen algunos contenidos trabajados.",
+                    "resources": "actividad 18 del fascículo, papelógrafo de aprendizajes.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Corrección de las series completadas entre 40-50, 60-70 y 90-100."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué estudiaron en este bloque?",
+                            "description": "Revisión del fascículo desde la actividad 11 y marcado de logros en el papelógrafo."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido.",
+                            "description": "Resolución de situaciones: 1. Cálculo de puntajes y quién ganó, 2. Descomposición de 21 y 19, 3. Completar banderines borrados."
+                        },
+                        {
+                            "title": "Momento 4. Metacognición.",
+                            "description": "Conversación sobre lo que más les gustó y lo que más les costó de este bloque, usando caras sonrientes y serias en la pizarra."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

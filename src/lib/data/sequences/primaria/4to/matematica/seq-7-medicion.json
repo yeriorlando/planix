@@ -1,0 +1,672 @@
+{
+  "id": "seq-1772551603604",
+  "title": "Medición",
+  "description": "Los estudiantes aplican conversiones y cálculos en problemas contextualizados.",
+  "order": 7,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772551603599",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Medición",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del entorno utilizando diferentes unidades medidas.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre medición y transporte público.\n• Uso de material concreto: Clips, palitos, reglas, cintas métricas.\n• Trabajo colaborativo en grupos: Medición de objetos con unidades arbitrarias y convencionales.\n• Socialización de resultados: Comparación de medidas arbitrarias.",
+      "aprendizaje_significativo": "Los estudiantes miden objetos cotidianos con unidades arbitrarias (lápiz, clip) y convencionales (regla), comprendiendo la necesidad de utilizar unidades estandarizadas para obtener medidas precisas y comparables.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan objetos más grandes para facilitar la medición.\n• Para estudiantes kinestésicos: Las actividades prácticas de medición son ideales.\n• Para estudiantes con discapacidad visual: Se les proporcionan reglas táctiles.\n• Para estudiantes avanzados: Se les pide que expresen las medidas en diferentes unidades.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 213:\n1. \"Usando el lápiz, determina cuántos lápices mide de ancho tu mochila. Luego cuánto mide la mochila de ancho usando la regla.\"\n2. \"Aneudy quiere saber cuánto mide de ancho su libro de matemática. ¿Qué puede usar para medirlo? ¿Con qué instrumento las medidas son iguales para todos? ¿Cuánto mide de ancho tu cuaderno de matemática?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Copia del contexto\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente entrega una copia del contexto sobre transporte público en RD (pág. 209). Los estudiantes leen en voz baja y luego por párrafos, analizando de qué trata cada uno.\n2. Pregunta: \"¿Cuáles objetos del aula se pueden medir? ¿Qué instrumentos podemos usar? ¿Qué significa la palabra longitud?\" (pág. 212).",
+          "actividad_numero": "Actividad 1 - A (Pág. 209-212)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Lápices\n• Clips\n• Palitos de fósforos\n• Hojas en blanco\n• Reglas\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Medición con unidades arbitrarias (20 min):\n1. Los estudiantes, en parejas, miden el largo de su libro de matemática usando el lápiz como unidad de medida.\n2. Socializan los resultados: ¿fueron iguales o diferentes? ¿Por qué?\n3. Dos estudiantes con lápices de diferente tamaño miden el ancho de la pizarra y explican por qué el resultado fue diferente.\n4. El docente explica el concepto de medidas arbitrarias (pág. 212).\n\nActividad 2 - Medición con clips y fósforos (20 min):\n1. El docente entrega clips, palitos de fósforos y una hoja en blanco a cada grupo de 3 estudiantes.\n2. Miden la hoja usando el clip como unidad y luego el fósforo.\n3. Socializan los resultados.\n\nActividad 3 - Medición con regla (20 min):\n1. El docente entrega reglas y pregunta: \"¿Qué significan esos números?\" (pág. 212).\n2. Explica las diferencias entre los números hasta 30 y hasta 12 (centímetros y pulgadas).\n3. Los estudiantes trazan líneas de 5 cm y 10 cm.\n4. Presenta la cápsula sobre medidas arbitrarias y convencionales (pág. 213).\n5. Los estudiantes miden el largo de su libro con lápiz y con regla, anotando ambas medidas.",
+          "actividad_numero": "Actividad 1 - B y C (Pág. 212-213)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Con qué medimos hoy? ¿Cuáles son medidas arbitrarias? ¿Cuáles son convencionales?\" (pág. 213).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 213: \"Usando el lápiz, determina cuántos lápices mide de ancho tu mochila. Luego cuánto mide la mochila de ancho usando la regla.\" y \"Aneudy quiere saber cuánto mide de ancho su libro de matemática. ¿Qué puede usar para medirlo? ¿Con qué instrumento las medidas son iguales para todos? ¿Cuánto mide de ancho tu cuaderno de matemática?\"\n3. Actividad complementaria: Los estudiantes miden con su dedo índice y con centímetros los objetos de la página 214 (lápiz, cuaderno, libro, mochila, butaca).\n4. Actividad para el diario del estudiante: Los estudiantes miden con una regla la altura de la nevera de su casa, con ayuda de un familiar (pág. 214).",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 213-214)"
+        }
+      ]
+    },
+    {
+      "id": "1772551726092",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Unidades del sistema métrico decima",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto usando unidades de medidas del sistema métrico decimal.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Reglas, cintas métricas.\n• Trabajo en grupos: Conversión de metros a centímetros y viceversa.\n• Uso de regla de tres simple.",
+      "aprendizaje_significativo": "Los estudiantes miden objetos cotidianos y realizan conversiones entre metros y centímetros, comprendiendo que estas unidades son necesarias para expresar longitudes en diferentes contextos (altura de una parada de autobús, largo de una pizarra).",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de conversión.\n• Para estudiantes kinestésicos: Las mediciones prácticas son ideales.\n• Para estudiantes con discapacidad visual: Se les proporcionan cintas métricas táctiles.\n• Para estudiantes avanzados: Se les pide que conviertan medidas con decimales.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 215:\n1. \"Alexander compró 35 metros de alambres para colocar alrededor de un solar. ¿Cuántos centímetros de alambre compró Alexander?\"\n2. \"Nelly mide el ancho del aula y el resultado fue de 700 cm. ¿Cuántos metros de ancho mide el aula?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Reglas\n• Cintas métricas\n• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Cómo midieron la nevera? ¿Cuánto midió? ¿Quién les ayudó?\" (pág. 214).\n2. Entrega reglas o cintas métricas y pide explorar las medidas que contienen.",
+          "actividad_numero": "Actividad 2 - A (Pág. 214)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Cintas métricas\n• Reglas\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Exploración de metro y centímetro (15 min):\n1. Los estudiantes comprueban que 100 cm equivalen a 1 metro.\n2. Miden 100 cm en el piso y comparan con 1 metro.\n3. Responden: \"¿Cuántos metros son 200 cm? ¿Cuántos centímetros son 3 m?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 215): \"Una parada de autobús mide 3 metros de altura. ¿Cuántos centímetros de altura medirá esa parada?\"\n2. Los grupos trabajan.\n3. Socializan: 3 x 100 = 300 cm.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 215): \"Alberto midió la pizarra y dice que mide aproximadamente 200 cm de largo. ¿Cuál es el largo de la pizarra en metros?\"\n2. Los grupos resuelven.\n3. Socializan: 200 ÷ 100 = 2 m.\n4. El docente explica las abreviaturas: cm y m, y cómo medir cuando sobra menos de media unidad (pág. 215).",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 214-215)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué trabajamos hoy? ¿Para qué podemos usar el metro y el centímetro?\" (pág. 216).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 215: \"Alexander compró 35 metros de alambres para colocar alrededor de un solar. ¿Cuántos centímetros de alambre compró Alexander?\" y \"Nelly mide el ancho del aula y el resultado fue de 700 cm. ¿Cuántos metros de ancho mide el aula?\"\n3. Actividad complementaria: Los estudiantes responden las preguntas de la página 216 (¿cuántos metros son 300 cm? ¿500 cm? ¿cuántos cm en 4 m? ¿12 m?) y miden la jardinera de la escuela.\n4. Actividad para el diario del estudiante: Los estudiantes miden en centímetros la altura del televisor de su casa (pág. 216).",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 215-216)"
+        }
+      ]
+    },
+    {
+      "id": "1772551853639",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Calculando longitudes",
+      "intencion_pedagogica": "Resolver situaciones problemáticas de tu entorno usando suma y resta con longitudes.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo en grupos: Suma y resta de longitudes.\n• Uso de estrategias: Algoritmo tradicional.\n• Socialización de resultados.",
+      "aprendizaje_significativo": "Los estudiantes suman y restan longitudes en situaciones cotidianas (longitud de un autobús y un carro, altura de dos personas), comprendiendo que estas operaciones son necesarias para comparar y combinar medidas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar la recta numérica para visualizar sumas y restas.\n• Para estudiantes kinestésicos: Pueden usar cintas métricas para representar las longitudes.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que realicen operaciones con tres o más longitudes.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 218:\n1. \"Si la pizarra mide 250 cm de largo y 180 cm de ancho, ¿cuántos centímetros mide la pizarra de largo más el ancho?\"\n2. \"Jonathan tomó las medidas del aula, encontró que mide 7 m de largo y 5 m de ancho. ¿Cuántos metros mide el aula de largo y de ancho? ¿Cuántos metros más de largo que de ancho mide el aula de Jonathan?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Lápices de diferentes tamaños\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuántos centímetros mide el televisor de su casa?\" (pág. 216).\n2. Presenta dos lápices de diferentes tamaños: uno de 12 cm y otro de 8 cm. Pregunta: \"¿Cuántos centímetros medirán entre los dos?\" (pág. 217).",
+          "actividad_numero": "Actividad 3 - A (Pág. 216-217)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 217): \"Un autobús mide 7 metros de largo y un carro mide 3 metros de largo. Si se colocan uno detrás del otro, ¿cuántos metros miden entre los 2?\"\n2. Los grupos trabajan.\n3. Socializan: 7 + 3 = 10 m.\n\nActividad 2 - Segunda situación problemática (25 min):\n1. El docente plantea (pág. 217): \"Alexander mide 180 cm de altura y Yasmeiry mide 94 cm de altura. ¿Cuántos centímetros miden entre los 2? ¿Cuántos centímetros más que Yasmeiry mide Alexander?\"\n2. Los grupos resuelven.\n3. Socializan: suma: 180 + 94 = 274 cm; resta: 180 - 94 = 86 cm (pág. 218).\n\nActividad 3 - Práctica (10 min):\n1. Los estudiantes practican con otros ejemplos.",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 217-218)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué trabajamos hoy? ¿Cuánto es 30 m + 19 m? ¿Cuál es la diferencia entre 30 m y 19 m?\" (pág. 218).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 218: \"Si la pizarra mide 250 cm de largo y 180 cm de ancho, ¿cuántos centímetros mide la pizarra de largo más el ancho?\" y \"Jonathan tomó las medidas del aula, encontró que mide 7 m de largo y 5 m de ancho. ¿Cuántos metros mide el aula de largo y de ancho? ¿Cuántos metros más de largo que de ancho mide el aula de Jonathan?\"\n3. Actividad complementaria: Los estudiantes determinan la suma y resta de las medidas de la página 219.\n4. Actividad para el diario del estudiante: Los estudiantes miden con un centímetro una persiana de su casa y calculan cuántos centímetros más tiene de largo que de ancho (pág. 219).",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 218-219)"
+        }
+      ]
+    },
+    {
+      "id": "1772551949500",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Buscando el perímetro",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del entorno usando el perímetro.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Perímetro\".\n• Trabajo en grupos: Cálculo de perímetros de figuras rectangulares.\n• Uso de fórmula: P = suma de lados.",
+      "aprendizaje_significativo": "Los estudiantes calculan el perímetro de la cancha de la escuela y de la puerta del aula, comprendiendo que el perímetro es la medida del contorno y es útil para saber cuánto material se necesita para bordear una figura.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras con las medidas escritas.\n• Para estudiantes kinestésicos: Pueden dibujar las figuras y medir sus lados.\n• Para estudiantes con discapacidad visual: Se les proporcionan figuras en relieve.\n• Para estudiantes avanzados: Se les pide que calculen el perímetro de figuras con lados expresados en metros y centímetros.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 221:\n1. \"Manuel quiere colocar una cinta alrededor de su cuaderno, si este mide 25 cm de largo y 20 cm de ancho, ¿cuántos centímetros de cinta como mínimo tiene que comprar Manuel para colocársela al cuaderno?\"\n2. \"Una cartulina mide 75 cm de largo y 45 cm de ancho. ¿Cuál es el perímetro de la cartulina?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuánto midió la persiana? ¿Cuántos centímetros más de largo que de ancho tiene?\" (pág. 219).\n2. Pregunta: \"¿Cómo se le llama al borde o contorno de una figura? ¿Cómo se obtiene?\" (pág. 219).",
+          "actividad_numero": "Actividad 4 - A (Pág. 219)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Perímetro\" disponible en: https://www.youtube.com/watch?v=soedLnUpbOY (pág. 219).\n2. Después del video, pregunta: \"¿Qué es el perímetro? ¿Cómo se calcula?\"\n3. En caso de no tener acceso a tecnología, presenta la imagen de la página 219 y pregunta cómo medir el contorno.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 219): \"La cancha de la escuela mide 1500 cm de largo y 1300 cm de ancho. ¿Cuál es el perímetro de la cancha?\"\n2. Los grupos trabajan.\n3. Socializan: P = 1500 + 1300 + 1500 + 1300 = 5600 cm.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 220): \"Nelly quiere colocar una cinta alrededor de la puerta del aula. La puerta mide 200 cm de altura y 90 cm de ancho. ¿Cuántos cm de cinta tiene que comprar?\"\n2. Los grupos resuelven.\n3. Socializan: P = 200 + 90 + 200 + 90 = 580 cm.",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 219-220)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué es el perímetro? ¿Cómo se obtiene el perímetro de un rectángulo?\" (pág. 221).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 221: \"Manuel quiere colocar una cinta alrededor de su cuaderno, si este mide 25 cm de largo y 20 cm de ancho, ¿cuántos centímetros de cinta como mínimo tiene que comprar Manuel para colocársela al cuaderno?\" y \"Una cartulina mide 75 cm de largo y 45 cm de ancho. ¿Cuál es el perímetro de la cartulina?\"\n3. Actividad complementaria: Los estudiantes determinan el perímetro de los cuadrados y rectángulos de la página 221 y acceden al enlace de Wordwall; realizan la actividad del libro abierto página 131.\n4. Actividad para el diario del estudiante: Los estudiantes resuelven el problema de la página 221: \"Alberto quiere colocar una línea de alambre a un solar que mide 20 m de largo y 18 m de ancho. ¿Cuántos metros de alambre necesita Alberto comprar para ponerle una línea al solar?\"",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 221)"
+        }
+      ]
+    },
+    {
+      "id": "1772552057510",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Taller: El contorno de las figuras",
+      "intencion_pedagogica": "Explorar los conocimientos previos sobre el perímetro.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Hojas cuadriculadas, geoplanos, gomitas.\n• Trabajo manipulativo: Dibujo y construcción de figuras para calcular perímetros.\n• Socialización de resultados.",
+      "aprendizaje_significativo": "Los estudiantes construyen figuras en papel cuadriculado y en geoplanos, calculando sus perímetros, comprendiendo que el perímetro es la suma de los lados y que puede medirse en unidades cuadriculadas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras con los lados ya numerados.\n• Para estudiantes kinestésicos: Las actividades con geoplano son ideales.\n• Para estudiantes con discapacidad visual: Se les proporcionan geoplanos táctiles.\n• Para estudiantes avanzados: Se les pide que construyan figuras de perímetro dado.",
+      "actividades_cuaderno": "Los estudiantes determinan el perímetro de las figuras de la página 225.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema del alambre para el solar?\" (pág. 221).\n2. Anuncia que hoy harán un taller para explorar el perímetro.",
+          "actividad_numero": "Actividad 5 - A (Pág. 222)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Hojas cuadriculadas\n• Geoplanos\n• Gomitas o ligas\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Perímetro en hoja cuadriculada (20 min):\n1. El docente entrega hojas cuadriculadas.\n2. Pide trazar un rectángulo de 8 unidades de largo y 5 unidades de ancho (pág. 222).\n3. Pregunta: \"¿Cuántas unidades mide la suma de todos los lados?\"\n4. Socializan: 8 + 5 + 8 + 5 = 26 unidades.\n5. El docente presenta la cápsula con la definición de perímetro (pág. 222).\n\nActividad 2 - Perímetro de un cuadrado (15 min):\n1. Los estudiantes dibujan un cuadrado de 10 unidades de lado.\n2. Calculan el perímetro: 10 + 10 + 10 + 10 = 40 unidades.\n\nActividad 3 - Perímetro en geoplano (25 min):\n1. El docente entrega geoplanos y gomitas.\n2. Pide formar un rectángulo de 4 unidades de largo y 2 de ancho.\n3. Calculan el perímetro: 4 + 2 + 4 + 2 = 12 unidades.\n4. Pide formar un cuadrado de 6 unidades de lado.\n5. Calculan el perímetro: 6 + 6 + 6 + 6 = 24 unidades.",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 222-224)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Funda con figuras\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Juego de cierre (pág. 225): Colocar en una funda papeles con cuadrados y rectángulos dibujados sobre cuadrícula. Los estudiantes sacan un papel y determinan el perímetro.\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 225: determinar el perímetro de las figuras mostradas.\n3. Actividad complementaria: Los estudiantes acceden al enlace de Wordwall para practicar perímetro (pág. 225).\n4. Actividad para el diario del estudiante: Los estudiantes dibujan en su cuaderno un cuadrado de 8 cm de lado y calculan su perímetro (pág. 225).",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 225)"
+        }
+      ]
+    },
+    {
+      "id": "1772552439967",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Jugando me divierto",
+      "intencion_pedagogica": "Fortalecer las competencias de los estudiantes sobre el perímetro.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Juego didáctico: Juego de cartas con perímetros.\n• Trabajo en parejas: Asociación de figuras con sus perímetros.\n• Registro de desempeño.",
+      "aprendizaje_significativo": "Los estudiantes refuerzan el concepto de perímetro a través de un juego de cartas, comprendiendo que el aprendizaje puede ser divertido y colaborativo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar calculadora.\n• Para estudiantes kinestésicos: El juego es ideal.\n• Para estudiantes con discapacidad visual: Se les proporcionan cartas con números en relieve.\n• Para estudiantes avanzados: Se les pide que verifiquen los perímetros mentalmente.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, es el registro del juego.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuánto midió el perímetro del cuadrado de 8 cm?\" (pág. 225).\n2. Anuncia que hoy jugarán con cartas de perímetros.",
+          "actividad_numero": "Actividad 6 - A (Pág. 225)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cartas con figuras y perímetros\n• Cuadernos",
+          "descripcion": "Juego de cartas de perímetros:\n1. El docente elabora 20 cartas: 10 con figuras y sus medidas, 10 con los perímetros (pág. 225).\n2. Explica las reglas (pág. 225-226):\n- Se juega en pareja, de 2 contra 2.\n- Se barajan las cartas y se reparten 4 a cada uno, las otras 4 se colocan boca arriba en la mesa.\n- Por turno, buscan en sus cartas si tienen el perímetro de la figura que está en la mesa o la figura cuyo perímetro está en la mesa. Si es así, se llevan esa pareja.\n- En caso de no tener, colocan una de sus cartas en la mesa y pasan el turno.\n- Gana la pareja con más cartas al final.\n3. Los estudiantes juegan mientras el docente registra el desempeño.",
+          "actividad_numero": "Actividad 6 - B (Pág. 225-226)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Socializa con preguntas: \"¿Cómo jugaron? ¿Qué pareja ganó? ¿Cómo sabían qué cartas tomar?\" (pág. 226).\n2. Actividad para el cuaderno: No hay actividad específica, es el registro del juego.\n3. Actividad complementaria: No aplica.\n4. Actividad para el diario del estudiante: No aplica.",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 226)"
+        }
+      ]
+    },
+    {
+      "id": "1772552526337",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "El porciento",
+      "intencion_pedagogica": "Resolver situaciones problemáticas de su entorno en los que apliquen por cientos.",
+      "estrategia": "• Revisión de juego: Socialización de la experiencia del juego anterior.\n• Uso de video: \"El porcentaje\".\n• Trabajo en grupos: Cálculo de porcentajes en situaciones de compra.\n• Uso de fracciones: Porcentaje como fracción de 100.",
+      "aprendizaje_significativo": "Los estudiantes calculan descuentos en compras (20% de RD$500, 50% de RD$100,000), comprendiendo que el porcentaje es una herramienta cotidiana para calcular ahorros y ofertas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar calculadora.\n• Para estudiantes kinestésicos: Pueden usar billetes ficticios para representar las cantidades.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que calculen el porcentaje de descuento si conocen el precio original y el final.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 228:\n1. \"Jonathan compró una mochila con un 10% de descuento. Si la mochila costaba RD$2,500, ¿cuál fue el descuento aplicado al precio de la mochila? ¿Cuánto pagó Jonathan por la mochila?\"\n2. \"El solar de la escuela tenía un precio de RD$890,000. Si al momento de comprarlo se le aplicó un 15% de descuento, ¿cuál fue el descuento aplicado al precio del solar?, ¿cuánto se pagó por el solar después del descuento?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo jugaron? ¿Quién ganó?\" (pág. 226).\n2. Pregunta: \"¿Qué es el por ciento? ¿Dónde has visto artículos con descuento?\" (pág. 226).\n3. Plantea: \"Si un juguete cuesta RD$100 y tiene 20% de descuento, ¿cuánto se paga?\"",
+          "actividad_numero": "Actividad 7 - A (Pág. 226)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"El porcentaje\" disponible en: https://www.youtube.com/watch?v=pM2zZlSGTWI (pág. 226).\n2. Después del video, pregunta: \"¿Qué es el por ciento? ¿Con qué signo se representa? ¿Cómo se calcula?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 227): \"Rafaelina compró una muñeca de RD$4,500 con 20% de descuento. ¿Qué cantidad le rebajaron? ¿Cuánto pagará?\"\n2. Los grupos trabajan.\n3. Socializan: descuento = 20/100 x 4,500 = 900; paga = 4,500 - 900 = 3,600.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 227): \"La escuela compró 4 impresoras por RD$100,000 con 50% de descuento. ¿Cuál fue el descuento? ¿Cuánto pagaron?\"\n2. Los grupos resuelven.\n3. Socializan: descuento = 50/100 x 100,000 = 50,000; paga = 50,000.\n4. El docente presenta la cápsula sobre por ciento (pág. 227).",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 226-227)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué es el por ciento? ¿Cómo se calcula un descuento?\" (pág. 228).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 228: \"Jonathan compró una mochila con 10% de descuento. Si la mochila costaba RD$2,500, ¿cuál fue el descuento? ¿Cuánto pagó?\" y \"El solar de la escuela tenía un precio de RD$890,000 con 15% de descuento. ¿Cuál fue el descuento? ¿Cuánto se pagó?\"\n3. Actividad complementaria: Los estudiantes determinan los porcentajes de la página 228 (5% de 40, 10% de 60, 25% de 50, etc.).\n4. Actividad para el diario del estudiante: Los estudiantes preguntan a sus padres el precio de la nevera de su casa, aplican un 10% de descuento y calculan el precio final (pág. 228).",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 228)"
+        }
+      ]
+    },
+    {
+      "id": "1772552606845",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Explorando el área",
+      "intencion_pedagogica": "Explorar los conocimientos previos de los estudiantes sobre el concepto de área en su entorno comunitario.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de imágenes: Figuras en cuadrícula para contar unidades cuadradas.\n• Trabajo en grupos: Cálculo de áreas contando cuadritos.\n• Introducción al concepto de centímetro cuadrado.",
+      "aprendizaje_significativo": "Los estudiantes cuentan los cuadritos que ocupan diferentes figuras, comprendiendo que el área es la medida de la superficie y que se expresa en unidades cuadradas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras con los cuadritos ya contados.\n• Para estudiantes kinestésicos: Pueden usar bloques de base diez para formar cuadrados.\n• Para estudiantes con discapacidad visual: Se les proporcionan cuadrículas en relieve.\n• Para estudiantes avanzados: Se les pide que calculen el área de figuras irregulares.",
+      "actividades_cuaderno": "Los estudiantes dibujan un cuadrado cuyos lados midan 10 cm y un cuadrado cuyos lados midan 4 cm, y determinan el área de cada uno.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imagen de la página 228\n• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Cuánto costaría la nevera con 10% de descuento?\" (pág. 228).\n2. Presenta la imagen de la página 228 y pregunta: \"¿Qué observan? ¿Cuántos cuadrados están sombreados? ¿Cómo se llama el espacio que ocupa una figura?\"",
+          "actividad_numero": "Actividad 8 - A (Pág. 228-229)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Hojas cuadriculadas\n• Reglas\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Área contando cuadritos (20 min):\n1. El docente presenta las figuras 1, 2 y 3 de la página 229.\n2. Pregunta: \"¿Cuál es el área de la figura 1? ¿De la figura 2? ¿De la figura 3?\"\n3. Los estudiantes cuentan y responden: figura 1: 6 unidades cuadradas; figura 2: 20; figura 3: 12.\n4. El docente explica que el área se mide en unidades cuadradas.\n\nActividad 2 - El centímetro cuadrado (20 min):\n1. Los estudiantes dibujan un cuadrado de 1 cm de lado.\n2. El docente explica que ese cuadrado tiene un área de 1 centímetro cuadrado.\n\nActividad 3 - Situación problemática en grupos (20 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 230): \"En la parada de carro han dibujado un cartel cuadrado de 6 cm de lado. ¿Cuál es el área?\"\n2. Los grupos trabajan.\n3. Socializan: área = 6 x 6 = 36 cm².",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 229-230)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Cómo se llama la unidad de medida que usamos para el área?\" (pág. 230).\n2. Actividad para el cuaderno: Los estudiantes dibujan un cuadrado de 10 cm de lado y uno de 4 cm de lado, y determinan sus áreas (pág. 230).\n3. Actividad complementaria: Los estudiantes determinan el área de las figuras trazadas en geoplanos de la página 231.\n4. Actividad para el diario del estudiante: Los estudiantes dibujan un cuadrado de área 9 cm² y responden: \"Si el área es 9 cm², ¿cuánto mide cada lado?\" (pág. 231).",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 230-231)"
+        }
+      ]
+    },
+    {
+      "id": "1772552688145",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Áreas",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del entorno relacionadas con el área.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Área de figuras planas\".\n• Trabajo en grupos: Cálculo de áreas de cuadrados y rectángulos usando fórmula.\n• Uso de fórmula: A = lado x lado, A = base x altura.",
+      "aprendizaje_significativo": "Los estudiantes calculan el área de la pantalla de una radio (cuadrado) y de espejos retrovisores (rectángulos), comprendiendo que el área es útil en situaciones cotidianas como el diseño de objetos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona la fórmula escrita.\n• Para estudiantes kinestésicos: Pueden dibujar las figuras y medir.\n• Para estudiantes con discapacidad visual: Se les proporcionan las medidas en formato ampliado.\n• Para estudiantes avanzados: Se les pide que calculen el área en metros cuadrados.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 232:\n1. \"La base de uno de los asientos de un minibús tiene forma cuadrada, si cada lado tiene una longitud de 40 cm, ¿cuál es el área de la base del asiento del minibús?\"\n2. \"Un escalón de una guagua que viaja de Santo Domingo a Montecristi mide 80 cm de largo y 15 cm de ancho. ¿Cuál es el área de ese escalón?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuánto miden los lados del cuadrado de 9 cm²?\" (pág. 231).\n2. Presenta el video o las imágenes de la página 231 y pregunta: \"¿Cómo se calcula el área de un cuadrado? ¿Y de un rectángulo?\"",
+          "actividad_numero": "Actividad 9 - A (Pág. 231)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Área de figuras planas\" disponible en: https://www.youtube.com/watch?v=142jaFsLZlQ (pág. 231).\n2. Después del video, pregunta: \"¿Qué es el área? ¿Cómo se obtiene el área de un cuadrado? ¿De un rectángulo?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 231): \"El padre de Alberto tiene un radio con pantalla cuadrada de 10 cm de lado. ¿Cuál es el área de la pantalla?\"\n2. Los grupos trabajan.\n3. Socializan: A = 10 x 10 = 100 cm².\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 232): \"El padre de Nelly tiene espejos retrovisores rectangulares de 8 cm de largo y 4 cm de alto. ¿Cuál es el área de cada espejo?\"\n2. Los grupos resuelven.\n3. Socializan: A = 8 x 4 = 32 cm². El docente explica que la letra h representa la altura (height).",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 231-232)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Funda con figuras\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Juego de cierre (pág. 232): Colocar en una funda rectángulos y cuadrados con sus medidas. Los estudiantes sacan uno, mencionan la figura, sus medidas y calculan el área.\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 232: \"La base de uno de los asientos de un minibús tiene forma cuadrada, si cada lado tiene una longitud de 40 cm, ¿cuál es el área de la base del asiento del minibús?\" y \"Un escalón de una guagua que viaja de Santo Domingo a Montecristi mide 80 cm de largo y 15 cm de ancho. ¿Cuál es el área de ese escalón?\"\n3. Actividad complementaria: Los estudiantes determinan el área de las figuras de la página 233.\n4. Actividad para el diario del estudiante: Los estudiantes miden el largo y el ancho de su cuaderno y calculan su área (pág. 233).",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 232-233)"
+        }
+      ]
+    },
+    {
+      "id": "1772552800595",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Buscando el espacio que ocupa una figura",
+      "intencion_pedagogica": "Resolver problemas de su entorno usando el área de las figuras.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo en grupos: Resolución de problemas de área en contextos de transporte.\n• Uso de fórmula: A = base x altura.\n• Socialización de resultados.",
+      "aprendizaje_significativo": "Los estudiantes calculan el área de una parada de autobús y del piso de una guagua, comprendiendo que el área es útil para planificar espacios y construcciones.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona la fórmula escrita.\n• Para estudiantes kinestésicos: Pueden dibujar las figuras.\n• Para estudiantes con discapacidad visual: Se les proporcionan las medidas en formato ampliado.\n• Para estudiantes avanzados: Se les pide que calculen el área en diferentes unidades.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 234:\n1. \"Los carteles que colocan las rutas de concho en sus paradas es de forma cuadrada con una longitud en sus lados de 35 cm. ¿Cuál es el área de uno de estos carteles?\"\n2. \"Alexander quiere construir una marquesina para 4 vehículos. Si un vehículo en promedio mide 2 metros de largo y 1 metro de ancho, ¿cuál es el espacio mínimo que debe tener la marquesina?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuánto midió el área de su cuaderno?\" (pág. 233).\n2. Pregunta: \"¿Cómo pueden saber la cantidad de papel para cubrir la puerta del aula si mide 2 m de alto y 1 m de ancho?\" (pág. 233).",
+          "actividad_numero": "Actividad 10 - A (Pág. 233)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (30 min):\n1. El docente organiza grupos de 5 estudiantes y plantea la situación (pág. 233): \"Una ruta de concho va a construir una parada de vehículos. Quieren que la base sea rectangular de 5 m de largo y 3 m de ancho. ¿Qué área tendrá la base?\"\n2. Los grupos trabajan.\n3. Socializan: A = 5 x 3 = 15 m².\n\nActividad 2 - Segunda situación problemática (30 min):\n1. El docente plantea (pág. 233): \"El piso de una guagua de transporte mide 6 m de largo y 2 m de ancho. ¿Qué espacio ocupa el piso de la guagua? ¿Qué forma tiene?\"\n2. Los grupos resuelven.\n3. Socializan: A = 6 x 2 = 12 m², forma rectangular.",
+          "actividad_numero": "Actividad 10 - B y C (Pág. 233-234)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Cómo se obtiene el área de un cuadrado? ¿De un rectángulo?\" (pág. 234).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 234: \"Los carteles que colocan las rutas de concho en sus paradas son de forma cuadrada con una longitud en sus lados de 35 cm. ¿Cuál es el área de uno de estos carteles?\" y \"Alexander quiere construir una marquesina para 4 vehículos. Si un vehículo en promedio mide 2 metros de largo y 1 metro de ancho, ¿cuál es el espacio mínimo que debe tener la marquesina?\"\n3. Actividad complementaria: Los estudiantes determinan el área de las figuras de la página 234 (12 cm x 4 cm, 6 cm x 2 cm, 2 cm x 2 cm) y acceden al enlace de Wordwall.\n4. Actividad para el diario del estudiante: Los estudiantes resuelven el problema de la página 235: \"Pedro sembró en el patio de su casa unos tomates, este espacio tiene forma rectangular y mide 5 m de largo y 2 m de ancho. ¿Qué área ocupa el espacio sembrado?\"",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 234-235)"
+        }
+      ]
+    },
+    {
+      "id": "1772552881807",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Jugando me divierto",
+      "intencion_pedagogica": "Fortalecer las competencias de los estudiantes sobre el área de polígonos regulares.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Juego didáctico: Ruleta de áreas.\n• Trabajo en parejas: Cálculo de áreas con diferentes datos.\n• Registro de desempeño.",
+      "aprendizaje_significativo": "Los estudiantes refuerzan el cálculo de áreas a través de un juego de ruleta, comprendiendo que el aprendizaje puede ser divertido y colaborativo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar calculadora.\n• Para estudiantes kinestésicos: El juego es ideal.\n• Para estudiantes con discapacidad visual: Se les proporcionan las operaciones en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen cómo obtuvieron el área.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, es el registro del juego.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuánto midió el área del espacio sembrado de tomates?\" (pág. 235).\n2. Anuncia que hoy jugarán con una ruleta de áreas.",
+          "actividad_numero": "Actividad 11 - A (Pág. 235)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Ruleta online o física\n• Cuadernos\n• Lápices",
+          "descripcion": "Juego de la ruleta de áreas:\n1. El docente prepara una ruleta con 9 espacios que contienen diferentes figuras con sus medidas (pág. 235). Puede usar el enlace: https://spinthewheel.io/es\n2. Explica las reglas (pág. 235):\n- Se juega en pareja de 2 contra 2.\n- Un estudiante da vuelta a la ruleta y determinan el área con los datos que salieron.\n- Si resuelven el ejercicio, su equipo recibe un punto y pasa el turno.\n- En caso de no poder resolverlo, pueden pedir ayuda a su compañero. Si tampoco lo resuelven, no ganan puntos.\n- Cada jugador dará vuelta a la ruleta 2 veces.\n- Gana la pareja con más puntos al final.\n3. Los estudiantes juegan mientras el docente registra el desempeño.",
+          "actividad_numero": "Actividad 11 - B (Pág. 235)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Socializa con preguntas: \"¿Cómo jugaron? ¿Qué pareja ganó? ¿Qué fue lo más difícil?\" (pág. 235).\n2. Actividad para el cuaderno: No hay actividad específica, es el registro del juego.\n3. Actividad complementaria: No aplica.\n4. Actividad para el diario del estudiante: No aplica.",
+          "actividad_numero": "Actividad 11 - Cierre (Pág. 235)"
+        }
+      ]
+    },
+    {
+      "id": "1772552965029",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "El tiempo en que estamos",
+      "intencion_pedagogica": "Explorar en el entorno las unidades de medidas del tiempo.",
+      "estrategia": "• Revisión de juego: Socialización de la experiencia del juego anterior.\n• Uso de imágenes: Relojes analógicos y digitales.\n• Trabajo en grupos: Conversión de unidades de tiempo.\n• Uso de equivalencias: 1 minuto = 60 segundos, 1 hora = 60 minutos, etc.",
+      "aprendizaje_significativo": "Los estudiantes calculan el tiempo que ha trabajado el padre de Alexander (1 año = 12 meses) y convierten minutos a segundos, comprendiendo que la medición del tiempo es fundamental para organizar actividades diarias.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de equivalencias.\n• Para estudiantes kinestésicos: Pueden usar relojes de juguete.\n• Para estudiantes con discapacidad visual: Se les proporcionan relojes táctiles.\n• Para estudiantes avanzados: Se les pide que calculen edades en meses y días.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 238:\n1. \"Jazmín salió de su casa para la escuela. Si ella tardó 720 segundos en llegar, ¿a cuántos minutos equivalen esos 720 segundos?\"\n2. \"Rosa Iris tiene una cuenta en una cooperativa desde hace 5 años. ¿A cuántos meses equivalen esos 5 años?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo jugaron? ¿Qué pareja ganó?\" (pág. 235).\n2. Pregunta: \"¿A qué hora entran a la escuela? ¿Cuánto dura el recreo? ¿Cuántos días tiene una semana? ¿Cuántos meses tiene un año?\" (pág. 236).",
+          "actividad_numero": "Actividad 12 - A (Pág. 236)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Imágenes de relojes\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Imágenes y preguntas (15 min):\n1. El docente presenta las imágenes de relojes de la página 236.\n2. Pregunta: \"¿Dónde han visto estos objetos? ¿Cómo se llaman? ¿Qué significan a.m. y p.m.? ¿Qué indica la manecilla pequeña? ¿Y la grande?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 236): \"El padre de Alexander ha trabajado en una empresa de transporte durante un año. ¿Cuántos meses tiene el padre de Alexander trabajando?\"\n2. Los grupos trabajan.\n3. Socializan: 1 año = 12 meses.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 236): \"Alberto duró 10 minutos desde su casa a la escuela en un carro de concho. ¿Cuántos segundos son esos 10 minutos?\"\n2. Los grupos resuelven.\n3. Socializan: 10 x 60 = 600 segundos.\n4. El docente presenta la cápsula con equivalencias de tiempo (pág. 237).",
+          "actividad_numero": "Actividad 12 - B y C (Pág. 236-237)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cuántos minutos hay en 3 horas? ¿Cuántas horas tiene un día?\" (pág. 238).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 238: \"Jazmín salió de su casa para la escuela. Si ella tardó 720 segundos en llegar, ¿a cuántos minutos equivalen esos 720 segundos?\" y \"Rosa Iris tiene una cuenta en una cooperativa desde hace 5 años. ¿A cuántos meses equivalen esos 5 años?\"\n3. Actividad complementaria: Los estudiantes determinan las equivalencias de la página 238 (180 minutos = ? horas, 3 días = ? horas, 60 días = ? meses, etc.) y acceden al enlace de IXL; realizan la actividad del libro abierto página 179.\n4. Actividad para el diario del estudiante: Los estudiantes calculan el tiempo en minutos que tardan en llegar de la escuela a su casa y luego escriben a cuántos segundos equivalen (pág. 238).",
+          "actividad_numero": "Actividad 12 - Cierre (Pág. 238)"
+        }
+      ]
+    },
+    {
+      "id": "1772553054084",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": "La hora de salida",
+      "intencion_pedagogica": "Resolver situaciones de su entorno, en los que se apliquen los conocimientos de intervalos de tiempo en diferentes momentos.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo en grupos: Cálculo de intervalos de tiempo.\n• Uso de reloj: Suma y resta de horas y minutos.\n• Socialización de estrategias.",
+      "aprendizaje_significativo": "Los estudiantes calculan la hora de salida de la siguiente guagua (7:20 + 30 min = 7:50) y la hora límite para llegar a la escuela (7:45 - 25 min = 7:20), comprendiendo que el cálculo del tiempo es esencial para la puntualidad y la planificación.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan relojes de juguete para manipular.\n• Para estudiantes kinestésicos: Pueden usar relojes de papel.\n• Para estudiantes con discapacidad visual: Se les proporcionan relojes táctiles.\n• Para estudiantes avanzados: Se les pide que calculen intervalos de tiempo con horas y minutos que requieran conversión.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 240:\n1. \"Una guagua sale de una parada a la 8:00 a. m., y regresa de su viaje a las 2:00 p. m., ¿Qué tiempo tardó la guagua en regresar de su viaje?\"\n2. \"Los carros de concho pasan por una parada cada 5 minutos. Si pasa un primer carro a las 8:00 a. m., y luego de este pasan 20 carros, ¿a qué hora pasó ese último carro?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuántos minutos tardan en llegar a la escuela? ¿Cuántos segundos son?\" (pág. 238).\n2. Pregunta: \"¿A qué hora salen de su casa para llegar a la escuela?\" (pág. 239).",
+          "actividad_numero": "Actividad 13 - A (Pág. 239)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (30 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 239): \"Las guaguas que viajan de Santo Domingo a Santiago salen de la parada cada 30 minutos. Si sale una a las 7:20 a.m., ¿a qué hora sale la siguiente guagua?\"\n2. Los grupos trabajan.\n3. Socializan: 7:20 + 30 min = 7:50 a.m.\n\nActividad 2 - Segunda situación problemática (30 min):\n1. El docente plantea (pág. 239): \"Alexander tiene que llegar a las 7:45 a.m. a la escuela. Si tarda 25 minutos para llegar de su casa a la escuela, ¿qué es lo más tarde que puede salir para llegar a tiempo?\"\n2. Los grupos resuelven.\n3. Socializan: 7:45 - 25 min = 7:20 a.m.",
+          "actividad_numero": "Actividad 13 - B y C (Pág. 239)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿A qué hora entras a la escuela? Si sales a las 3:20 p.m. y regresas a las 6:00 p.m., ¿cuánto tiempo tardaste?\" (pág. 240).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 240: \"Una guagua sale de una parada a las 8:00 a.m. y regresa de su viaje a las 2:00 p.m. ¿Qué tiempo tardó la guagua en regresar de su viaje?\" y \"Los carros de concho pasan por una parada cada 5 minutos. Si pasa un primer carro a las 8:00 a.m. y luego de este pasan 20 carros, ¿a qué hora pasó ese último carro?\"\n3. Actividad complementaria: Los estudiantes escriben la hora que marca cada reloj de la página 240 y describen el tiempo transcurrido en las situaciones de la página 241.\n4. Actividad para el diario del estudiante: Los estudiantes escriben en su cuaderno el tiempo y las actividades que hacen desde que se levantan hasta que llegan a la escuela (pág. 241).",
+          "actividad_numero": "Actividad 13 - Cierre (Pág. 240-241)"
+        }
+      ]
+    },
+    {
+      "id": "1772553128854",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 13,
+      "title": "Actividad 14",
+      "name": "Taller de tiempo",
+      "intencion_pedagogica": "Reforzar con variadas actividades el conocimiento de los estudiantes sobre las medidas de tiempo.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Relojes analógicos y digitales.\n• Trabajo en grupos: Ubicación de horas y lectura de relojes.\n• Asociación de tiempos con actividades cotidianas.",
+      "aprendizaje_significativo": "Los estudiantes practican la lectura de la hora en relojes analógicos y digitales, y asocian tiempos con actividades cotidianas, comprendiendo que la medición del tiempo organiza su vida diaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan relojes con las horas ya marcadas.\n• Para estudiantes kinestésicos: La manipulación de relojes es ideal.\n• Para estudiantes con discapacidad visual: Se les proporcionan relojes táctiles.\n• Para estudiantes avanzados: Se les pide que calculen la duración entre dos actividades.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, es el registro del taller.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuaderno",
+          "descripcion": "1. El docente pregunta: \"¿Qué actividades hacen desde que se levantan hasta que llegan a la escuela?\" (pág. 241).\n2. Anuncia que hoy harán un taller de tiempo.",
+          "actividad_numero": "Actividad 14 - A (Pág. 241)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Relojes analógicos y digitales\n• Imágenes de relojes\n• Pizarra\n• Cuadernos",
+          "descripcion": "Momento 1 - Ubicación de horas (20 min):\n1. El docente entrega relojes analógicos o digitales a los estudiantes.\n2. Pide que coloquen las siguientes horas: 7:45 a.m., 3:20 p.m., 9:54 p.m., 6:00 a.m., 12:00 m. (pág. 241).\n\nMomento 2 - Lectura de hora (20 min):\n1. El docente presenta diferentes imágenes con variadas horas.\n2. Los estudiantes escriben qué hora es en cada caso.\n\nMomento 3 - Actividades en el tiempo (20 min):\n1. El docente presenta la actividad de la página 242: parear el tiempo de la columna izquierda con la actividad de la derecha.\n- 10 minutos → Beber un jugo\n- 1 año → Tener un año más de edad\n- 8 horas → Dormir\n- 20 minutos → Ir de la casa a la escuela\n- 9 meses → Pasar de curso en la escuela\n2. Los estudiantes trabajan en parejas.",
+          "actividad_numero": "Actividad 14 - B (Pág. 241-242)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "B",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Socializa con preguntas: \"¿Cómo colocaron la hora en el reloj? ¿Qué puedes hacer en 20 minutos?\" (pág. 242).\n2. Actividad para el cuaderno: No hay actividad específica, es el registro del taller.\n3. Actividad complementaria: No aplica.\n4. Actividad para el diario del estudiante: No aplica.",
+          "actividad_numero": "Actividad 14 - Cierre (Pág. 242)"
+        }
+      ]
+    },
+    {
+      "id": "1772553286351",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 14,
+      "title": "Actividad 15",
+      "name": "La temperatura ",
+      "intencion_pedagogica": "Aplicar el concepto intuitivo de temperatura a diferentes situaciones del entorno.",
+      "estrategia": "• Revisión de taller: Socialización de la experiencia del taller anterior.\n• Diálogo dirigido: Exploración de conceptos de frío y calor.\n• Uso de imágenes: Situaciones que muestran diferentes temperaturas.\n• Trabajo en grupos: Análisis de situaciones cotidianas sobre temperatura.",
+      "aprendizaje_significativo": "Los estudiantes identifican situaciones de frío y calor en su entorno (fiebre, sudoración, clima), comprendiendo que la temperatura es una medida que afecta su vida diaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan ejemplos concretos con objetos fríos y calientes.\n• Para estudiantes kinestésicos: Pueden tocar agua fría y tibia para sentir la diferencia.\n• Para estudiantes con discapacidad visual: Se les proporcionan descripciones táctiles de temperatura.\n• Para estudiantes avanzados: Se les pide que investiguen la temperatura de ebullición y congelación del agua.",
+      "actividades_cuaderno": "Los estudiantes resuelven las situaciones de la página 244:\n1. \"Si viajas en diciembre a Estados Unidos, ¿tendrás frío o calor? ¿Por qué?\"\n2. \"Yasmeiry está en la playa y sale corriendo, ella dice que la arena le quema. ¿La arena de esa playa esta fría o caliente? ¿por qué?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imágenes de la página 243\n• Vasos con agua fría y temperatura ambiente (opcional)\n• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Cómo les fue en el taller? ¿Qué actividades realizaron?\" (pág. 242).\n2. Pregunta: \"¿Cómo saben si un jugo está caliente o frío? Si una olla está botando humo, ¿está caliente o fría? ¿Cómo lo saben sin tocarla?\" (pág. 243).\n3. Presenta las imágenes de la página 243 y pregunta si en esos lugares hace frío o calor.",
+          "actividad_numero": "Actividad 15 - A (Pág. 243)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (30 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 243): \"Jonathan dice que tiene fiebre porque se puso las manos en su cuerpo y estaba muy frío. ¿Cómo sabe una persona usando las manos si tiene fiebre? ¿Está Jonathan en lo correcto con su afirmación? Justifica tu respuesta.\"\n2. Los grupos trabajan.\n3. Socializan: no está correcto, la fiebre se siente como calor, no frío.\n\nActividad 2 - Segunda situación problemática (30 min):\n1. El docente plantea (pág. 243): \"En un carro de transporte van 4 pasajeros montados, si todos ellos van sudando, ¿cómo está la temperatura de ese carro fría o caliente? Justifica tu respuesta.\"\n2. Los grupos resuelven.\n3. Socializan: está caliente, porque sudar es señal de calor.\n4. El docente presenta la cápsula sobre temperatura (pág. 244).",
+          "actividad_numero": "Actividad 15 - B y C (Pág. 243-244)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué es la temperatura? ¿Cómo podemos medirla con precisión?\" (pág. 244).\n2. Actividad para el cuaderno: Los estudiantes resuelven las situaciones de la página 244: \"Si viajas en diciembre a Estados Unidos, ¿tendrás frío o calor? ¿Por qué?\" y \"Yasmeiry está en la playa y sale corriendo, ella dice que la arena le quema. ¿La arena de esa playa está fría o caliente? ¿por qué?\"\n3. Actividad complementaria: Los estudiantes escriben al lado de cada situación de la página 244 si su temperatura es caliente o fría (cubo de hielo, refresco congelado, agua hirviendo, pastel caliente, bombillo encendido).\n4. Actividad para el diario del estudiante: Los estudiantes dibujan en su cuaderno un objeto que se utilice para calentar y otro que se utilice para enfriar (pág. 244).",
+          "actividad_numero": "Actividad 15 - Cierre (Pág. 244)"
+        }
+      ]
+    },
+    {
+      "id": "1772553366189",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 15,
+      "title": "Actividad 16",
+      "name": "Unidad de medida de la temperatura",
+      "intencion_pedagogica": "Resolver problemas que involucren medidas y estimaciones de la temperatura en contextos de la vida diaria.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"La temperatura\".\n• Uso de imágenes: Termómetros.\n• Trabajo en parejas: Lectura de temperaturas en termómetros y cálculo de diferencias.",
+      "aprendizaje_significativo": "Los estudiantes aprenden que la temperatura se mide en grados Celsius (°C) y que existen puntos de referencia como 0°C (hielo) y 100°C (agua hirviendo), comprendiendo que estos valores son útiles para identificar estados del agua y condiciones ambientales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan termómetros con las temperaturas ya marcadas.\n• Para estudiantes kinestésicos: Pueden usar termómetros de juguete.\n• Para estudiantes con discapacidad visual: Se les proporcionan termómetros táctiles.\n• Para estudiantes avanzados: Se les pide que investiguen la temperatura normal del cuerpo humano.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 247:\n1. \"Una guagua de transporte público salió con una temperatura de 24°C. En la tarde regresó con la temperatura en 18°C. ¿Cuál es la diferencia entre las temperaturas de la guagua entre la mañana y la tarde? ¿En qué horario tiene una temperatura más fría?\"\n2. \"Un carro tiene una temperatura de 24°C. Si su compañero en otro carro dice que tiene una temperatura con 7 grados menos. ¿qué temperatura tiene el otro carro?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué objetos dibujaron para calentar y para enfriar?\" (pág. 244).\n2. Anuncia que hoy aprenderán sobre la unidad de medida de la temperatura.",
+          "actividad_numero": "Actividad 16 - A (Pág. 245)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Imágenes de termómetros\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"La temperatura\" disponible en: https://www.youtube.com/watch?v=dMsx-hf1Wvs (pág. 245).\n2. Después del video, pregunta: \"¿Qué es la temperatura? ¿Qué instrumento se usa para medirla? ¿Cuál es la unidad de medida?\"\n3. En caso de no tener acceso a tecnología, presenta la imagen del termómetro de la página 245.\n\nActividad 2 - Situación problemática en parejas (25 min):\n1. El docente organiza parejas y plantea la situación (pág. 246): \"Aneudy coloca un termómetro en el agua hirviendo, el termómetro sube hasta 100°C. ¿Qué unidad se usa para la temperatura? ¿Cómo se lee esa temperatura?\"\n2. Las parejas trabajan.\n3. Socializan: se mide en grados Celsius o centígrados, se lee \"cien grados Celsius\".\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 246): \"Alberto va en un carro de concho y la temperatura está en 17°C. Alexander está en otro carro con 32°C. ¿Cómo se leen esas temperaturas? ¿Qué carro está más frío? ¿Cuántos grados de diferencia hay?\"\n2. Las parejas resuelven.\n3. Socializan: 17°C (diecisiete grados), 32°C (treinta y dos grados), el carro de Alberto está más frío, diferencia = 32 - 17 = 15°C.\n4. El docente presenta la cápsula (pág. 246).",
+          "actividad_numero": "Actividad 16 - B y C (Pág. 245-247)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué instrumento se usa para medir la temperatura? ¿Cuál es la unidad de medida? ¿Cómo se lee 43°C?\" (pág. 247).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 247: \"Una guagua de transporte público salió con una temperatura de 24°C. En la tarde regresó con 18°C. ¿Cuál es la diferencia? ¿En qué horario tiene una temperatura más fría?\" y \"Un carro tiene 24°C. Si su compañero dice que tiene 7 grados menos, ¿qué temperatura tiene el otro carro?\"\n3. Actividad complementaria: Los estudiantes parean cada situación con la temperatura más cercana (pág. 248) y acceden al enlace de IXL para leer termómetros.\n4. Actividad para el diario del estudiante: Los estudiantes determinan la temperatura en cada termómetro de la página 248.",
+          "actividad_numero": "Actividad 16 - Cierre (Pág. 247-248)"
+        }
+      ]
+    },
+    {
+      "id": "1772553497978",
+      "sequence_id": "seq-1772551603604",
+      "order_index": 16,
+      "title": "Actividad 17",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar la secuencia #7, haciendo énfasis en la resolución de problemas.",
+      "estrategia": "• Diálogo dirigido: Recuperación de temas de la secuencia.\n• Explicación de la escala de valoración.\n• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas.",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia (medición, perímetro, área, porcentaje, tiempo, temperatura) en contextos variados.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden usar reglas para dibujar.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que, al terminar, ayuden a revisar sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración",
+          "descripcion": "1. El docente pregunta: \"¿Qué trabajaron en esta secuencia?\" (pág. 249).\n2. Lee con los estudiantes la tabla de valoración para que comprendan cómo se evaluarán los resultados (pág. 249).",
+          "actividad_numero": "Actividad 17 - A (Pág. 249)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices\n• Reglas",
+          "descripcion": "Evaluación escrita:\n1. El docente entrega una hoja en blanco a cada estudiante donde colocarán sus datos: nombre del centro, nombre del estudiante, fecha, grado y sección (pág. 249).\n2. Explica la valoración de cada ítem.\n3. Presenta los problemas de evaluación (págs. 250-252):\n\nÍtem 1 (5 pts): Usando clips, determinar la longitud del lápiz.\nÍtem 2 (5 pts): \"Nelly tiene una cinta de 300 cm. ¿Cuántos metros tiene la cinta?\"\nÍtem 3 (5 pts): ¿Cuál instrumento permite saber cuánto mide de largo el libro de matemática? (regla, balanza, termómetro, reloj).\nÍtem 4 (10 pts): \"Una persiana del aula mide 200 cm de altura, ¿cuántos metros aproximadamente mide la persiana?\"\nÍtem 5 (5 pts): \"Un solar mide 30 metros de largo y 12 metros de ancho, ¿cuántos metros mide el solar de largo más el ancho?\"\nÍtem 6 (5 pts): \"Un pantalón tiene 20% de descuento. Si costaba RD$1,500, ¿cuál fue el descuento? ¿Cuál es el precio final?\"\nÍtem 7 (5 pts): \"La cafetería tiene 40% de descuento. Si Alberto compra una caja de jugos de RD$300, ¿cuál es el descuento? ¿Cuánto paga?\"\nÍtem 8 (10 pts): \"Una guagua ocupa el mismo espacio que tres carros. Cada carro mide 3 m de largo y 1 m de ancho. ¿Cuántos m² ocupa la guagua?\"\nÍtem 9 (5 pts): Determinar el área de figuras (2 cm x 5 cm, 3 cm x 3 cm).\nÍtem 10 (5 pts): Dibujar un rectángulo de área 12 cm².\nÍtem 11 (5 pts): Dibujar un cuadrado de área 25 cm².\nÍtem 12 (10 pts): Determinar el área de figuras compuestas.\nÍtem 13 (5 pts): \"Alexander tarda 30 minutos y Alberto 1,800 segundos. ¿Quién tarda más?\"\nÍtem 14 (10 pts): \"Los carros de una ruta pasan cada 20 minutos. Si son las 9:45 a.m., ¿a qué hora pasa el siguiente?\"\nÍtem 15 (5 pts): Escribir equivalencias: siglo = ? años, 2 meses = ? días, 5 minutos = ? segundos, 4 años = ? meses, 6 días = ? horas.\nÍtem 16 (5 pts): \"Jasmín tiene 39°C y Nelly 36°C. ¿Ambas tienen temperatura normal? ¿Por qué?\"\n\n4. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad 17 - B (Pág. 249-252)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Anuncia el inicio de la siguiente secuencia.",
+          "actividad_numero": "Actividad 17 - Cierre (Pág. 252)"
+        }
+      ]
+    }
+  ]
+}

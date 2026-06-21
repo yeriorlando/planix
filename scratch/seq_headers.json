@@ -1,0 +1,387 @@
+[
+  {
+    "id": "seq-1771196358436",
+    "title": "La conversación",
+    "grade_id": "primaria-4to",
+    "subject_id": "lengua-espanola-4to",
+    "order": 1
+  },
+  {
+    "id": "seq-1771194880215",
+    "title": "La carta de solicitud de permiso",
+    "grade_id": "primaria-4to",
+    "subject_id": "lengua-espanola-4to",
+    "order": 2
+  },
+  {
+    "id": "seq-1771194917141",
+    "title": "La biografía",
+    "grade_id": "primaria-4to",
+    "subject_id": "lengua-espanola-4to",
+    "order": 3
+  },
+  {
+    "id": "seq-1771196708499",
+    "title": "La receta",
+    "grade_id": "primaria-4to",
+    "subject_id": "lengua-espanola-4to",
+    "order": 4
+  },
+  {
+    "id": "seq-1771196748686",
+    "title": "El artículo expositivo",
+    "grade_id": "primaria-4to",
+    "subject_id": "lengua-espanola-4to",
+    "order": 5
+  },
+  {
+    "id": "seq-1771196781393",
+    "title": "El informe de lectura",
+    "grade_id": "primaria-4to",
+    "subject_id": "lengua-espanola-4to",
+    "order": 6
+  },
+  {
+    "id": "seq-1771196800045",
+    "title": "El comentario",
+    "grade_id": "primaria-4to",
+    "subject_id": "lengua-espanola-4to",
+    "order": 7
+  },
+  {
+    "id": "seq-1771196823102",
+    "title": "El cuento",
+    "grade_id": "primaria-4to",
+    "subject_id": "lengua-espanola-4to",
+    "order": 8
+  },
+  {
+    "id": "seq-1771196845085",
+    "title": "La historieta",
+    "grade_id": "primaria-4to",
+    "subject_id": "lengua-espanola-4to",
+    "order": 9
+  },
+  {
+    "id": "seq-1771196861959",
+    "title": "El acróstico",
+    "grade_id": "primaria-4to",
+    "subject_id": "lengua-espanola-4to",
+    "order": 10
+  },
+  {
+    "id": "seq-1772504134644",
+    "title": "Números Naturales como mínimo hasta el 999,999",
+    "grade_id": "primaria-4to",
+    "subject_id": "matematica-4to",
+    "order": 1
+  },
+  {
+    "id": "seq-1772507216335",
+    "title": "Adición y sustracción de números naturales",
+    "grade_id": "primaria-4to",
+    "subject_id": "matematica-4to",
+    "order": 2
+  },
+  {
+    "id": "seq-1772509600963",
+    "title": "Multiplicación y división de números naturales",
+    "grade_id": "primaria-4to",
+    "subject_id": "matematica-4to",
+    "order": 3
+  },
+  {
+    "id": "seq-1772540270856",
+    "title": "Números fraccionarios y decimales",
+    "grade_id": "primaria-4to",
+    "subject_id": "matematica-4to",
+    "order": 4
+  },
+  {
+    "id": "seq-1772545397462",
+    "title": "Geometría (A)",
+    "grade_id": "primaria-4to",
+    "subject_id": "matematica-4to",
+    "order": 5
+  },
+  {
+    "id": "seq-1772550358546",
+    "title": "Geometría B",
+    "grade_id": "primaria-4to",
+    "subject_id": "matematica-4to",
+    "order": 6
+  },
+  {
+    "id": "seq-1772551603604",
+    "title": "Medición",
+    "grade_id": "primaria-4to",
+    "subject_id": "matematica-4to",
+    "order": 7
+  },
+  {
+    "id": "seq-1772554404409",
+    "title": "Estadística",
+    "grade_id": "primaria-4to",
+    "subject_id": "matematica-4to",
+    "order": 8
+  },
+  {
+    "id": "seq-1771352585737",
+    "title": "La conversación",
+    "grade_id": "primaria-5to",
+    "subject_id": "lengua-espanola-4to",
+    "order": 1
+  },
+  {
+    "id": "seq-1771353514875",
+    "title": "Carta de excusas o disculpas",
+    "grade_id": "primaria-5to",
+    "subject_id": "lengua-espanola-5to",
+    "order": 2
+  },
+  {
+    "id": "seq-1771353625711",
+    "title": "La anécdota",
+    "grade_id": "primaria-5to",
+    "subject_id": "lengua-espanola-5to",
+    "order": 3
+  },
+  {
+    "id": "seq-1771353652945",
+    "title": "La receta",
+    "grade_id": "primaria-5to",
+    "subject_id": "lengua-espanola-5to",
+    "order": 4
+  },
+  {
+    "id": "seq-1771353679112",
+    "title": "Artículo expositivo",
+    "grade_id": "primaria-5to",
+    "subject_id": "lengua-espanola-5to",
+    "order": 5
+  },
+  {
+    "id": "seq-1771353710508",
+    "title": "Informe de lectura",
+    "grade_id": "primaria-5to",
+    "subject_id": "lengua-espanola-5to",
+    "order": 6
+  },
+  {
+    "id": "seq-1771353762612",
+    "title": "El comentario",
+    "grade_id": "primaria-5to",
+    "subject_id": "lengua-espanola-5to",
+    "order": 7
+  },
+  {
+    "id": "seq-1771353827999",
+    "title": "El anuncio",
+    "grade_id": "primaria-5to",
+    "subject_id": "lengua-espanola-5to",
+    "order": 8
+  },
+  {
+    "id": "seq-1771353844763",
+    "title": "El cuento",
+    "grade_id": "primaria-5to",
+    "subject_id": "lengua-espanola-5to",
+    "order": 9
+  },
+  {
+    "id": "seq-1771353859619",
+    "title": "La copla",
+    "grade_id": "primaria-5to",
+    "subject_id": "lengua-espanola-5to",
+    "order": 10
+  },
+  {
+    "id": "seq-1769890836374",
+    "title": "Números naturales mayores que 1,000,000 y adición.",
+    "grade_id": "primaria-5to",
+    "subject_id": "matematica-5to",
+    "order": 1
+  },
+  {
+    "id": "seq-1771694171957",
+    "title": "Sustracción y multiplicación de números naturales",
+    "grade_id": "primaria-5to",
+    "subject_id": "matematica-5to",
+    "order": 2
+  },
+  {
+    "id": "seq-1771696486045",
+    "title": "División, potenciación y radicación de números naturales",
+    "grade_id": "primaria-5to",
+    "subject_id": "matematica-5to",
+    "order": 3
+  },
+  {
+    "id": "seq-1771853765807",
+    "title": "Medidas de longitud",
+    "grade_id": "primaria-5to",
+    "subject_id": "matematica-5to",
+    "order": 4
+  },
+  {
+    "id": "seq-1771958910787",
+    "title": "Números fraccionarios y decimales",
+    "grade_id": "primaria-5to",
+    "subject_id": "matematica-5to",
+    "order": 5
+  },
+  {
+    "id": "seq-1771992184225",
+    "title": "Geometría",
+    "grade_id": "primaria-5to",
+    "subject_id": "matematica-5to",
+    "order": 6
+  },
+  {
+    "id": "seq-1772022744281",
+    "title": "Círculos y circunferencias",
+    "grade_id": "primaria-5to",
+    "subject_id": "matematica-5to",
+    "order": 7
+  },
+  {
+    "id": "seq-1772025603993",
+    "title": "Estadística",
+    "grade_id": "primaria-5to",
+    "subject_id": "matematica-5to",
+    "order": 8
+  },
+  {
+    "id": "seq-1772026815698",
+    "title": "Mediciones: perímetro y área de polígonos",
+    "grade_id": "primaria-5to",
+    "subject_id": "matematica-5to",
+    "order": 9
+  },
+  {
+    "id": "seq-1772028008842",
+    "title": "Unidades de peso, temperatura y tiempo",
+    "grade_id": "primaria-5to",
+    "subject_id": "matematica-5to",
+    "order": 10
+  },
+  {
+    "id": "seq-1772108197501",
+    "title": "La conversación",
+    "grade_id": "primaria-6to",
+    "subject_id": "lengua-espanola-6to",
+    "order": 1
+  },
+  {
+    "id": "seq-1772114092275",
+    "title": "La carta de agradecimiento",
+    "grade_id": "primaria-6to",
+    "subject_id": "lengua-espanola-6to",
+    "order": 2
+  },
+  {
+    "id": "seq-1772114115790",
+    "title": "La anécdota",
+    "grade_id": "primaria-6to",
+    "subject_id": "lengua-espanola-6to",
+    "order": 3
+  },
+  {
+    "id": "seq-1772114316534",
+    "title": "La receta",
+    "grade_id": "primaria-6to",
+    "subject_id": "lengua-espanola-6to",
+    "order": 4
+  },
+  {
+    "id": "seq-1772114357147",
+    "title": "El artículo expositivo",
+    "grade_id": "primaria-6to",
+    "subject_id": "lengua-espanola-6to",
+    "order": 5
+  },
+  {
+    "id": "seq-1772114377382",
+    "title": "El informe de lectura",
+    "grade_id": "primaria-6to",
+    "subject_id": "lengua-espanola-6to",
+    "order": 6
+  },
+  {
+    "id": "seq-1772114511750",
+    "title": "El comentario",
+    "grade_id": "primaria-6to",
+    "subject_id": "lengua-espanola-6to",
+    "order": 7
+  },
+  {
+    "id": "seq-1772114541129",
+    "title": "El anuncio radial",
+    "grade_id": "primaria-6to",
+    "subject_id": "lengua-espanola-6to",
+    "order": 8
+  },
+  {
+    "id": "seq-1772114673194",
+    "title": "El cuento",
+    "grade_id": "primaria-6to",
+    "subject_id": "lengua-espanola-6to",
+    "order": 9
+  },
+  {
+    "id": "seq-1772114716011",
+    "title": "La oda",
+    "grade_id": "primaria-6to",
+    "subject_id": "lengua-espanola-6to",
+    "order": 10
+  },
+  {
+    "id": "seq-1772402589305",
+    "title": "Números naturales y números enteros",
+    "grade_id": "primaria-6to",
+    "subject_id": "matematica-6to",
+    "order": 1
+  },
+  {
+    "id": "seq-1772467646020",
+    "title": "Números decimales",
+    "grade_id": "primaria-6to",
+    "subject_id": "matematica-6to",
+    "order": 2
+  },
+  {
+    "id": "seq-1772478754507",
+    "title": "Fracciones",
+    "grade_id": "primaria-6to",
+    "subject_id": "matematica-6to",
+    "order": 3
+  },
+  {
+    "id": "seq-1772494462131",
+    "title": "Geometría",
+    "grade_id": "primaria-6to",
+    "subject_id": "matematica-6to",
+    "order": 4
+  },
+  {
+    "id": "seq-1772497472429",
+    "title": "Mediciones (1)",
+    "grade_id": "primaria-6to",
+    "subject_id": "matematica-6to",
+    "order": 5
+  },
+  {
+    "id": "seq-1772498703527",
+    "title": "Mediciones (2)",
+    "grade_id": "primaria-6to",
+    "subject_id": "matematica-6to",
+    "order": 6
+  },
+  {
+    "id": "seq-1772499660982",
+    "title": "Estadística",
+    "grade_id": "primaria-6to",
+    "subject_id": "matematica-6to",
+    "order": 7
+  }
+]

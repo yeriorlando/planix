@@ -1,0 +1,321 @@
+{
+  "id": "seq-1772114541129",
+  "title": "El anuncio radial",
+  "description": "Enseña a estructurar mensajes breves, claros y persuasivos considerando audiencia, tono y propósito comunicativo. Integra comprensión auditiva y producción oral.",
+  "order": 8,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772114541124",
+      "sequence_id": "seq-1772114541129",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión y producción oral - Exploración",
+      "intencion_pedagogica": "Activar conocimientos previos sobre situaciones de espera y realizar una primera aproximación al anuncio radial a través de la escucha de un spot publicitario.",
+      "estrategia": "• Uso de imágenes: Presentación de situaciones de espera.\n• Trabajo en grupos: Dramatización de imágenes.\n• Diálogo dirigido: Reflexión sobre sentimientos al esperar.\n• Proyección de video: Anuncio radial de Duracell.",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre situaciones cotidianas de espera que han experimentado (en el médico, en el transporte), conectando así el contenido académico con sus vivencias personales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de expresión oral: En las dramatizaciones, se les permite tener un rol con pocas palabras o solo gestos.\n• Para estudiantes kinestésicos: Las dramatizaciones son ideales para ellos.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción del anuncio.\n• Para estudiantes avanzados: Se les pide que identifiquen la música de fondo y su efecto en el anuncio.",
+      "actividades_cuaderno": "1. ¿Qué anuncio escuchamos hoy?\n2. ¿Qué producto se anunciaba?\n3. ¿Qué relación había entre la situación del anuncio (el médico, los resultados) y el producto?\n4. ¿Qué sentimientos quería despertar el anuncio en los oyentes?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imágenes de situaciones de espera (pág. 126)\n• Espacio para dramatizaciones",
+          "descripcion": "1. El docente presenta las imágenes de la página 126 (personas en situaciones de espera).\n2. Forma 6 grupos y entrega a cada grupo una imagen para que la representen en una dramatización (pág. 126).\n3. Explica: \"Dramatizar es representar una acción con gestos, movimientos y posturas, transmitiendo un mensaje.\"\n4. Da 15 minutos para que preparen la dramatización.\n5. Cada grupo presenta su dramatización (3-4 minutos cada una).\n6. Después de las presentaciones, pregunta: \"¿Qué tienen en común todas estas situaciones?\" (Todas esperan algo).\n7. \"¿Qué sentimientos nos embargan cuando esperamos?\" (angustia, temor, incertidumbre).\n8. \"¿Han vivido situaciones similares?\" Motiva a que relaten sus experiencias.",
+          "actividad_numero": "Comprensión y producción oral (Párrafos 1-3, pág. 126-127)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Video del anuncio Duracell\n• Proyector/TV\n• Computadora\n• Parlantes\n• Enlace de YouTube",
+          "descripcion": "1. El docente anuncia que van a escuchar un anuncio radial. Pide que presten mucha atención y tomen notas (pág. 127).\n2. Reproduce el anuncio de Duracell disponible en: https://youtu.be/Ah4QZTeuCbc (hasta el segundo 0:42).\n3. Detiene el video y pide a los niños que digan cuál es el producto que creen que se anuncia. Anota las ideas en el pizarrón.\n4. Continúa la reproducción hasta el final.\n5. Al terminar, verifican las anticipaciones y dialogan sobre la relación entre la situación del anuncio y el producto anunciado (pág. 127).",
+          "actividad_numero": "Comprensión oral (Párrafos 4-5, pág. 127)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra",
+          "descripcion": "1. El docente guía un diálogo con preguntas (pág. 128):\n- \"¿Consumes este producto? ¿Con qué frecuencia?\"\n- \"¿Qué se dice del producto?\"\n- \"¿A qué público está dirigido? ¿Cómo lo sabes?\"\n- \"¿Qué crees que se busca con este anuncio?\"\n- \"¿Cómo puedes relacionar la situación con el producto?\"\n2. El docente introduce el concepto de \"anuncio radial\": texto auditivo diseñado para transmitirse por radio, con función persuasiva.\n3. Anuncia que en la próxima clase analizarán los elementos del anuncio con más detalle.",
+          "actividad_numero": "Comprensión oral (Conceptualización)"
+        }
+      ]
+    },
+    {
+      "id": "1772122565874",
+      "sequence_id": "seq-1772114541129",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Análisis del anuncio",
+      "intencion_pedagogica": "Analizar los elementos del anuncio radial de Duracell: estructura, recursos persuasivos, actos de habla y relación entre situación y producto.",
+      "estrategia": "• Re-proyección del video.\n• Análisis de transcripción.\n• Identificación de elementos del anuncio: llamada, presentación, argumentación, implicación.\n• Reflexión sobre lo denotativo y connotativo.",
+      "aprendizaje_significativo": "Los estudiantes descubren cómo la publicidad utiliza estrategias emocionales para persuadirlos, desarrollando así una mirada crítica hacia los mensajes publicitarios que consumen a diario.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una copia de la transcripción con las partes del anuncio ya señaladas.\n• Para estudiantes kinestésicos: Mientras escuchan, pueden hacer gestos que representen las emociones del anuncio.\n• Para estudiantes con discapacidad auditiva: Se trabaja directamente con la transcripción escrita.\n• Para estudiantes avanzados: Se les pide que identifiquen otros anuncios que usen el miedo o el suspenso como estrategia.",
+      "actividades_cuaderno": "Título: Analizando un anuncio radial\n1. ¿Cuáles son las cuatro partes de un anuncio radial?\n2. ¿Qué emociones busca despertar el anuncio de Duracell?\n3. Escribe el resumen del anuncio (mínimo 5 líneas).",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarrav",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan el anuncio de Duracell? ¿Qué producto anunciaba?\"\n2. Anuncia que hoy analizarán cómo está construido ese anuncio.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Transcripción del anuncio (pág. 127)\n• Pizarra\n• Marcadores de colores",
+          "descripcion": "1. El docente vuelve a proyectar el anuncio o entrega la transcripción (pág. 127).\n2. Explica las partes del anuncio radial (pág. 128):\n- Llamada: Inicio que capta la atención.\n- Presentación: Información que da a conocer el producto.\n- Argumentación: Ideas que justifican el uso del producto.\n- Implicación: Cierre apelativo para que se adquiera el producto.\n3. En grupos, los estudiantes identifican estas partes en el anuncio de Duracell.\n4. Socializan: ¿Dónde está la llamada? (primeras frases). ¿La presentación? (se infiere). ¿La argumentación? (la situación de tensión). ¿La implicación? (\"Duracell, también recargables\").\n\nActividad 2 - Análisis de recursos persuasivos (30 min):\n1. El docente explica los conceptos de denotativo (lo que se dice explícitamente) y connotativo (lo que se sugiere, las emociones).\n2. Pregunta: \"¿Qué emociones busca despertar este anuncio?\" (suspenso, terror, drama, alivio).\n3. \"¿Qué recursos usa para lograrlo?\" (música, silencio, pausas, tono de voz, palabras como \"suspenso\", \"terror\", \"drama\").\n4. Los estudiantes identifican en la transcripción las palabras y recursos con función persuasiva.\n5. Reflexionan: \"¿Por qué se toma la salud y la vida como punto de referencia en un anuncio de pilas?\" (para asociar el producto con algo vital).",
+          "actividad_numero": "Comprensión oral (Análisis, pág. 128-129)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente presenta las preguntas de la página 129 (actividad 1):\n- \"¿En qué contexto ocurre la situación?\"\n- \"¿A quiénes está dirigido?\"\n- \"¿Con qué sentimientos se relacionan suspenso, terror, drama?\"\n2. Los estudiantes responden oralmente.\n3. Actividad 2 (pág. 129): \"Resume en un párrafo el contenido del anuncio.\" (puede ser tarea).\n4. Anuncia que en la próxima clase leerán un texto sobre la publicidad en la radio.",
+          "actividad_numero": "Comprensión oral (Actividades 1-2, pág. 129)"
+        }
+      ]
+    },
+    {
+      "id": "1772122649420",
+      "sequence_id": "seq-1772114541129",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión escrita",
+      "intencion_pedagogica": "Leer y comprender un texto informativo sobre la publicidad en la radio, estableciendo relaciones con el anuncio de Duracell analizado previamente.",
+      "estrategia": "• Lectura guiada de texto informativo.\n• Preguntas de comprensión.\n• Relación con el anuncio escuchado.\n• Elaboración de resumen.",
+      "aprendizaje_significativo": "Los estudiantes aprenden sobre el funcionamiento de la radio como medio publicitario, conectando así con su experiencia cotidiana de escuchar radio en casa, en el carro o en la calle.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión lectora: Se les asignan preguntas específicas para buscar en el texto.\n• Para estudiantes kinestésicos: Mientras leen, pueden subrayar las ideas principales con colores.\n• Para estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen qué es el rating y cómo se mide.",
+      "actividades_cuaderno": "Título: La publicidad en la radio\n1. Según Teo Veras, ¿por qué es importante anunciarse en la radio?\n2. ¿Cuántos segundos debe tener un buen comercial de radio y cómo se distribuyen?\n3. ¿Qué significa que los comerciales en RD deben ser \"armonizados\"?\n4. Resumen del texto de Teo Veras (mínimo 5 líneas).",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Qué medios de comunicación conocen? ¿Alguno escucha radio? ¿Qué tipo de anuncios han escuchado en la radio?\"\n2. Anuncia que hoy leerán un texto sobre la publicidad en la radio.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del texto \"Publicidad en la radio\" para cada estudiante (págs. 132-133)",
+          "descripcion": "1. El docente entrega una copia del texto \"Publicidad en la radio\" de Teo Veras (pág. 132-133).\n2. Los estudiantes leen en silencio durante 10 minutos.\n3. El docente guía la comprensión con preguntas (pág. 132-133):\n- \"¿Qué papel tiene la radio como emisor de publicidad?\"\n- \"¿Por qué es importante anunciarse en la radio?\"\n- \"¿Cuáles características tienen los anuncios de radio?\"\n- \"¿Cómo deben ser los anuncios radiales, según Teo Veras?\"\n- \"¿Cuáles aspectos se deben tomar en cuenta al hacer un anuncio de radio?\"\n- \"¿Cómo se puede determinar el momento apropiado para colocar un anuncio?\"\n- \"¿Qué quiere decir 'armonizados' en República Dominicana?\"\n- \"¿Quiénes intervienen en la elaboración de un comercial?\"\n- \"¿A qué se refiere con 'publicidad efectiva'?\"\n4. Los estudiantes responden oralmente, apoyándose en el texto.",
+          "actividad_numero": "Comprensión escrita (Lectura, pág. 132-133)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente presenta las preguntas de la página 133-134 (actividades 1-5):\n- \"¿El anuncio de Duracell cumple con los requisitos que dice Teo Veras?\"\n- \"¿Cuáles aspectos sirven para la función persuasiva?\"\n- \"¿Se estimula la imaginación del oyente?\"\n- \"¿Qué características del anuncio de radio no se evidencian en el anuncio de Duracell?\"\n- \"Resume en un párrafo el comentario de Teo Veras.\"\n2. Los estudiantes responden en su cuaderno (puede iniciarse en clase y completarse como tarea).\n3. Anuncia que en la próxima clase trabajarán con un anuncio de interés social sobre la chikungunya.",
+          "actividad_numero": "Comprensión escrita (Actividades 1-5, pág. 133-134)"
+        }
+      ]
+    },
+    {
+      "id": "1772122747385",
+      "sequence_id": "seq-1772114541129",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Anuncio de interés social",
+      "intencion_pedagogica": "Escuchar y analizar un anuncio radial de interés social sobre la prevención de la chikungunya, identificando sus características y propósito.",
+      "estrategia": "• Investigación previa: Tarea sobre mosquitos.\n• Proyección de video: Anuncio sobre chikungunya.\n• Análisis de transcripción.\n• Preguntas de comprensión.",
+      "aprendizaje_significativo": "Los estudiantes investigan sobre un problema de salud real en su comunidad (el dengue, la chikungunya), conectando así el aprendizaje con su entorno y su bienestar.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar un solo aspecto durante el video (ej: los personajes que hablan).\n• Para estudiantes kinestésicos: Mientras escuchan, pueden representar con gestos las acciones de prevención.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción para seguir la lectura.\n• Para estudiantes avanzados: Se les pide que investiguen más sobre la chikungunya y sus síntomas.",
+      "actividades_cuaderno": "Título: Anuncio de interés social\n1. ¿Qué problema de salud aborda el anuncio que escuchamos?\n2. ¿Qué acciones recomienda para prevenir la enfermedad?\n3. ¿A quiénes menciona como más vulnerables?\n4. ¿Por qué crees que este anuncio usa un lenguaje coloquial y ambientación local?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra",
+          "descripcion": "1. El docente retoma la tarea asignada en la clase anterior (pág. 134): \"Vamos a conocer todo sobre los mosquitos\".\n2. Los estudiantes comparten sus respuestas a las preguntas:\n- \"¿De qué se alimentan los mosquitos?\"\n- \"¿Cuáles mosquitos pican a los humanos?\"\n- \"¿Cuánto tiempo viven?\"\n- \"¿Qué enfermedades transmiten?\"\n- \"¿Cómo podemos eliminarlos?\"\n3. El docente complementa la información.",
+          "actividad_numero": "Comprensión oral (Socialización, pág. 134)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Video del anuncio sobre chikungunya\n• Proyector/TV\n• Computadora\n• Parlantes\n• Enlace de YouTube",
+          "descripcion": "1. El docente anuncia que escucharán un anuncio sobre mosquitos y enfermedades.\n2. Reproduce el anuncio disponible en: https://youtu.be/VQIKPOSRN_s (varias veces) (pág. 134).\n3. Después de la escucha, activa una conversación con preguntas (pág. 134-135):\n- \"¿A quiénes está dirigido este anuncio?\"\n- \"¿En qué contexto ocurre?\"\n- \"¿Quiénes intervienen?\"\n- \"¿Dónde crees que se desarrolla?\"\n- \"¿Cuál es el problema que se aborda?\"\n- \"¿Conoces a alguien afectado por chikungunya?\"\n- \"¿Ocurre realmente lo que se describe?\"\n- \"¿A qué invita este anuncio?\"\n- \"¿En tu casa hacen lo que se dice?\"",
+          "actividad_numero": "Comprensión oral (Escucha, pág. 134-135)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Transcripción del anuncio (pág. 135)\n• Participación de los estudiantes",
+          "descripcion": "1. El docente entrega la transcripción del anuncio (pág. 135).\n2. Pregunta: \"¿Qué diferencias notan entre este anuncio y el de Duracell?\" (producto comercial vs. interés social, lenguaje coloquial, contexto local).\n3. Anuncia que en la próxima clase realizarán actividades de comprensión escrita sobre este anuncio.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772122822290",
+      "sequence_id": "seq-1772114541129",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Comprensión escrita - Análisis",
+      "intencion_pedagogica": "Profundizar en la comprensión del anuncio sobre chikungunya mediante ejercicios de vocabulario, análisis de estrategias persuasivas y reflexión sobre el lenguaje coloquial.",
+      "estrategia": "• Ejercicios de vocabulario.\n• Análisis de transcripción.\n• Identificación de estrategias persuasivas.\n• Reflexión sobre el lenguaje coloquial.",
+      "aprendizaje_significativo": "Los estudiantes analizan un anuncio que utiliza el lenguaje y las expresiones de su comunidad (cibaeño), valorando así su propia forma de hablar y su identidad cultural.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de vocabulario: Se les proporciona una lista de definiciones para relacionar con las palabras.\n• Para estudiantes kinestésicos: Pueden representar con gestos las palabras \"gusarapos\", \"salpullido\", \"coyuntura\".\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que escriban un eslogan similar para otra enfermedad (dengue, COVID).",
+      "actividades_cuaderno": "Título: Analizando un anuncio de interés social\n1. Escribe el significado de: gusarapos, coyuntura, salpullido, vulnerable.\n2. ¿Qué expresiones indican que el anuncio ocurre en el Cibao?\n3. ¿Cuál es el propósito de este anuncio?\n4. ¿Qué estrategias usa para convencer a la gente?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan el anuncio sobre la chikungunya? ¿En qué lugar de RD creen que ocurre?\" (Cibao, por el acento).\n2. Anuncia que hoy analizarán el texto del anuncio.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "Los que decida el docente.",
+          "descripcion": "1. El docente presenta la actividad 1 de la página 136: explicar el significado de palabras destacadas.\n- \"gusarapos\"\n- \"enfermedad infecciosa\"\n- \"criadero\"\n- \"coyuntura, salpullido\"\n- \"ten ojo\"\n- \"vulnerables\"\n- \"con ma' vera\"\n2. Los estudiantes trabajan individualmente y socializan.\n\nActividad 2 - Identificación de rasgos regionales (15 min):\n1. Actividad 2 (pág. 136): \"Identifica las expresiones que nos permiten afirmar que la situación ocurre en el Cibao.\"\n2. Los estudiantes buscan en la transcripción: \"ponte otra cosa ahí\", \"to' lo\", \"pa' de una ve'\", \"aló, `ción mamá\", etc.\n\nActividad 3 - Tipo de anuncio y estrategias (15 min):\n1. Actividad 3: \"¿Qué tipo de anuncio es?\" (interés social).\n2. Actividad 4: \"Identifica las estrategias para convencer al radioyente.\" (uso de personajes cotidianos, lenguaje familiar, mención de grupos vulnerables, imperativos).\n\nActividad 4 - Función de las frases entre comillas (10 min):\n1. Actividad 5: \"Explica la función de las frases entre comillas.\" (\"Eliminando los gusarapos eliminas la chikungunya\", \"Haz tu parte, vive bien\", \"Actúa a tiempo, haz tu parte, vive bien\") - son eslóganes, resumen el mensaje.\n2. Actividad 6: \"¿Por qué se usa el imperativo en tercera persona?\" (para dar órdenes o recomendaciones de manera directa). | Comprensión escrita\n(Actividades 1-6, pág. 136) | • Transcripción del anuncio (pág. 135)\n• Copias de los ejercicios o pizarra\n• Cuadernos |",
+          "actividad_numero": ""
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes comparten sus respuestas.\n2. El docente guía una reflexión: \"¿Por qué es importante usar el lenguaje de la comunidad en anuncios de interés social?\" (para que la gente se identifique y preste atención).\n3. Anuncia que en la próxima clase comenzarán a crear su propio anuncio radial.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772122916185",
+      "sequence_id": "seq-1772114541129",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción escrita - Planificación",
+      "intencion_pedagogica": "Iniciar la producción de un anuncio radial de interés social, identificando una problemática comunitaria y planificando los elementos del anuncio.",
+      "estrategia": "• Trabajo en grupos.\n• Diálogo dirigido: Identificación de problemática comunitaria.\n• Planificación guiada: Uso de organizador.\n• Toma de decisiones colectivas.",
+      "aprendizaje_significativo": "Los estudiantes identifican un problema real de su comunidad y crean un anuncio para ayudar a solucionarlo, conectando así el aprendizaje con su rol como ciudadanos activos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades para identificar problemas: El docente sugiere ejemplos de su comunidad.\n• Para estudiantes kinestésicos: Pueden empezar a imaginar los gestos que usarían si grabaran el anuncio.\n• Para estudiantes con discapacidad auditiva: Se asegura que participen en la planificación escrita.\n• Para estudiantes avanzados: Se les pide que investiguen datos concretos sobre la problemática elegida.",
+      "actividades_cuaderno": "Título: Planificando nuestro anuncio radial\n1. ¿Qué problemática de nuestra comunidad elegimos?\n2. ¿A qué público va dirigido?\n3. ¿Qué contexto o situación usaremos?\n4. Anota las ideas para la llamada, presentación, argumentación e implicación de nuestro anuncio.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Grupos formados",
+          "descripcion": "1. El docente forma grupos de 4 estudiantes (pág. 136).\n2. Presenta la consigna (pág. 136-137): \"Van a crear un anuncio radial para convencer al público de realizar una acción social en beneficio de la comunidad. El anuncio se difundirá en la escuela.\"\n3. Explica que deben elegir una problemática social vigente en su comunidad.",
+          "actividad_numero": "Producción escrita (Párrafo 1, pág. 136-137)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lápices\n• Pizarra con guía",
+          "descripcion": "1. En grupos, los estudiantes discuten y eligen una problemática social de su comunidad (basura, limpieza de solares, cuidado del agua, prevención de enfermedades, etc.).\n2. Escriben el problema elegido.\n\nActividad 2 - Definición del público y contexto (15 min):\n1. Los grupos deciden:\n- \"¿A qué público específico dirigirán el anuncio?\" (vecinos, padres, jóvenes, etc.).\n- \"¿Qué situación o contexto usarán como base?\" (una conversación en la calle, en la tienda, etc.).\n\nActividad 3 - Planificación de recursos (15 min):\n1. Los grupos piensan en los recursos estratégicos:\n- \"¿Qué música o efectos especiales usarían?\"\n- \"¿Qué tono de voz?\"\n- \"¿Usarán silencios?\"\n\nActividad 4 - Estructura del anuncio (15 min):\n1. Los grupos deciden las partes de su anuncio (pág. 137):\n- Llamada: ¿cómo captarán la atención?\n- Presentación: ¿qué información darán sobre la acción?\n- Argumentación: ¿qué argumentos usarán?\n- Implicación: ¿cómo cerrarán para motivar la acción?\n2. Anotan sus ideas.",
+          "actividad_numero": "Producción escrita (Pasos 1-9, pág. 137)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Cada grupo comparte brevemente su problemática y la idea general del anuncio.\n2. El docente da retroalimentación.\n3. Anuncia que en la próxima clase redactarán el texto completo del anuncio.",
+          "actividad_numero": "Producción escrita (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1772123064036",
+      "sequence_id": "seq-1772114541129",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Producción escrita - Borrador",
+      "intencion_pedagogica": "Redactar el borrador del anuncio radial de interés social, incorporando los elementos planificados y utilizando recursos persuasivos.",
+      "estrategia": "• Redacción colaborativa: Elaboración del texto del anuncio.\n• Uso de imperativos e interrogativos.\n• Revisión con instrumento.\n• Coevaluación entre grupos.",
+      "aprendizaje_significativo": "Los estudiantes aplican lo aprendido sobre anuncios para crear un mensaje que podría ser escuchado realmente en su comunidad, dándole un propósito auténtico a su escritura.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de escritura: Se les permite que un miembro del grupo sea el secretario mientras los otros dictan.\n• Para estudiantes kinestésicos: Mientras redactan, pueden ir ensayando gestos y tonos.\n• Para estudiantes con discapacidad visual: Se les proporciona el instrumento de revisión en formato ampliado.\n• Para estudiantes avanzados: Se les pide que añadan efectos de sonido sugeridos en el texto.",
+      "actividades_cuaderno": "Título: Borrador de nuestro anuncio\n1. Copia el texto del borrador de tu grupo.\n2. Después de la coevaluación, anota las sugerencias que recibieron de sus compañeros.\n3. ¿Qué cambios creen que deben hacer para mejorar el anuncio?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos con planificación",
+          "descripcion": "1. El docente pide a los grupos que tengan a mano sus notas de planificación.\n2. Recuerda los elementos del anuncio: llamada, presentación, argumentación, implicación.\n3. Recuerda el uso de oraciones imperativas e interrogativas (pág. 131).",
+          "actividad_numero": "Producción escrita (Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Instrumento de revisión (pág. 138) en pizarra o fotocopiado\n• Cuadernos\n• Lápices",
+          "descripcion": "1. Los grupos redactan el texto completo de su anuncio, siguiendo su planificación (pág. 137, paso 10).\n2. El docente circula, apoya y resuelve dudas.\n3. Recuerda incluir:\n- Llamada que capte la atención.\n- Presentación del problema y la acción.\n- Argumentos para convencer.\n- Implicación o cierre.\n- Oraciones imperativas e interrogativas.\n\nActividad 2 - Revisión con instrumento (15 min):\n1. El docente entrega o proyecta el \"Instrumento de revisión de los textos de los anuncios\" (pág. 138).\n2. Los grupos revisan su propio borrador con los criterios:\n- \"¿El contenido se corresponde con la intención comunicativa?\"\n- \"¿El vocabulario es apropiado al público?\"\n- \"¿Se emplearon recursos persuasivos?\"\n- \"¿Puede captar la atención?\"\n- \"¿Usa frases imperativas o interrogativas?\"\n- \"¿Usa segunda persona e informalidad?\"\n- \"¿Hay creatividad e imaginación?\"\n\nActividad 3 - Coevaluación entre grupos (15 min):\n1. Los grupos intercambian sus borradores con otro grupo (pág. 137).\n2. Cada grupo revisa el borrador del otro usando el mismo instrumento y hace comentarios por escrito.\n3. Devuelven los borradores con sugerencias.",
+          "actividad_numero": "Producción escrita (Pasos 10-11, pág. 137-138)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Los grupos reciben la retroalimentación de sus compañeros.\n2. El docente explica que en la próxima clase escribirán la versión final y comenzarán a ensayar la presentación.\n3. Los grupos pueden empezar a pensar en cómo distribuirán los roles para la grabación o presentación.",
+          "actividad_numero": "Producción escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772123139232",
+      "sequence_id": "seq-1772114541129",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Producción final y presentación",
+      "intencion_pedagogica": "Completar la versión final del anuncio radial, ensayarlo y presentarlo ante la clase, simulando una transmisión radial real.",
+      "estrategia": "• Redacción de versión final.\n• Distribución de roles.\n• Ensayo.\n• Presentación oral (detrás de mampara).\n• Evaluación con instrumento.",
+      "aprendizaje_significativo": "Los estudiantes experimentan el proceso completo de creación de un anuncio que podría ser transmitido en su escuela, viendo el resultado tangible de su trabajo y su impacto potencial en la comunidad.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de expresión oral: Se les asigna un rol con pocas palabras o efectos de sonido.\n• Para estudiantes kinestésicos: Pueden encargarse de los efectos de sonido con objetos.\n• Para estudiantes con discapacidad auditiva: Participan en la escritura y en los efectos visuales o de sonido que puedan percibir.\n• Para estudiantes avanzados: Pueden coordinar la dirección del anuncio en su grupo.",
+      "actividades_cuaderno": "Título: Nuestro anuncio radial\n1. Copia la versión final del anuncio de tu grupo.\n2. ¿Cómo te sentiste durante la presentación?\n3. ¿Qué anuncio de otro grupo te gustó más? ¿Por qué?\n4. ¿Qué aprendiste en esta secuencia sobre los anuncios radiales?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Mampara o caja grande",
+          "descripcion": "1. Los grupos reciben sus borradores con las sugerencias.\n2. El docente explica que hoy escribirán la versión final, ensayarán y presentarán.\n3. Recuerda que la presentación será detrás de una mampara o caja, para que solo se escuche, como en la radio (pág. 137).",
+          "actividad_numero": "Producción oral (Organización)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Versiones finales de los anuncios\n• Mampara\n• Organizador gráfico (pág. 131)",
+          "descripcion": "Actividad 1 - Versión final (20 min):\n1. Los grupos escriben la versión final de su anuncio, incorporando las sugerencias de la coevaluación y del docente (pág. 137).\n\nActividad 2 - Distribución de roles y ensayo (20 min):\n1. Los grupos distribuyen las responsabilidades: quién hablará, quién hará efectos de sonido, etc. (pág. 137).\n2. Ensayan el texto, recordando pausas, silencios, matices, entonación.\n\nActividad 3 - Presentaciones (20 min):\n1. Cada grupo pasa detrás de la mampara y presenta su anuncio.\n2. El resto de la clase escucha atentamente y puede tomar notas usando el organizador gráfico (pág. 131).\n3. Si el tiempo lo permite, al final de cada presentación se puede dar una breve retroalimentación.",
+          "actividad_numero": "Producción oral (Pasos finales, pág. 137-138)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente guía una reflexión: \"¿Qué aprendieron sobre la creación de anuncios radiales?\"\n2. \"¿Qué fue lo más difícil?\"\n3. \"¿Cómo se sintieron al escuchar sus anuncios?\"\n4. El docente propone que los anuncios puedan ser compartidos con toda la escuela (pág. 138): a través de un megáfono en el recreo, en actividades comunitarias, etc.\n5. Cierra la secuencia destacando la importancia de la publicidad para el bien social.",
+          "actividad_numero": "Producción oral (Cierre de la secuencia)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+    "sequenceId": "seq-mat-5-1ro",
+    "subjectId": "matematica-1ro",
+    "sequenceTitle": "¡Feliz Cumpleaños!",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1: Ordenamos y contamos el tiempo",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "recolecten, organicen y analicen información y construyan un gráfico para mostrarla.",
+                    "resources": "papelógrafo de aprendizajes. Actividad 1 del fascículo. Pegamento. Para cada estudiante: una silueta recortable de una vejiga (actividad 1 del fascículo). Un papelógrafo con los meses del año organizados de tres en tres.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes.",
+                            "description": "El docente inicia una conversación con sus estudiantes acerca de los cumpleaños. Luego lee el papelógrafo y comenta lo que trabajarán."
+                        },
+                        {
+                            "title": "Momento 2. Recolectar y organizar información sobre los cumpleaños.",
+                            "description": "El docente propone considerar cuatro grupos de tres meses del año. Se repartirá a cada estudiante una silueta de papel para su nombre y se pegará en el mes correspondiente."
+                        },
+                        {
+                            "title": "Momento 3. Analizar el pictograma construido.",
+                            "description": "Análisis colectivo del pictograma: ¿en cuáles meses hay más cumpleaños? ¿En cuáles hay menos?"
+                        }
+                    ],
+                    "homework": "Analizar un gráfico de cumpleaños de otro grado y determinar dónde hay más y menos."
+                },
+                {
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "analicen más gráficos para decidir si algunos dichos son ciertos o no.",
+                    "resources": "actividad 2 del fascículo. Papelógrafo con la misma gráfica del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Compartir la tarea y explicar cómo se dieron cuenta de los resultados."
+                        },
+                        {
+                            "title": "Momento 2. Analizar colectivamente un pictograma.",
+                            "description": "Análisis de un nuevo pictograma de otra sección de primer grado."
+                        },
+                        {
+                            "title": "Momento 3. Analizar afirmaciones sobre el pictograma.",
+                            "description": "Decidir si ciertas afirmaciones sobre el gráfico son verdaderas o falsas."
+                        }
+                    ],
+                    "homework": "Resolver la última afirmación sobre el pictograma del fascículo."
+                },
+                {
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "resuelvan problemas de reunir cantidades con distintos procedimientos.",
+                    "resources": "actividad 3 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Revisión de respuestas y recordatorio de características de pictogramas."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas en grupo.",
+                            "description": "Problema de Erika en la dulcería: reunir 16 fundas y 5 fundas."
+                        },
+                        {
+                            "title": "Momento 3. Socialización y estrategias alternativas.",
+                            "description": "Socialización de procedimientos y planteo de una segunda situación de resta (28 fundas total, 7 caramelos, resto paletas)."
+                        }
+                    ],
+                    "homework": "Problema de Erika: 19 fundas total, 6 caramelos, resto paletas."
+                },
+                {
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "resuelvan problemas que involucran más de dos cantidades con números de dos dígitos.",
+                    "resources": "actividad 4 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Socializar procedimientos de la resta anterior."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas.",
+                            "description": "Problema de Antonio: 25 vejigas rojas, 10 amarillas y 20 verdes. ¿Total?"
+                        },
+                        {
+                            "title": "Momento 3. Comparar resoluciones y relaciones.",
+                            "description": "Problema b: Arcoíris 39 vejigas, Corazón 30 menos. ¿Vejigas corazón?"
+                        }
+                    ],
+                    "homework": "Problema: Ana 43 vejigas, Martín 20 menos. ¿Vejigas Martín?"
+                },
+                {
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "repasen algunos contenidos trabajados.",
+                    "resources": "papelógrafo de aprendizajes. Actividad 5 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Discusión de resultados y procedimientos de la tarea."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Revisión de actividades del bloque 1 y registro de fechas."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido.",
+                            "description": "Resolución de situaciones de suma (37+8) y resta (48-30) en parejas."
+                        }
+                    ],
+                    "homework": ""
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2: Usamos números en celebraciones",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "cuenten oralmente de a uno y por grupos para encontrar patrones en los números.",
+                    "resources": "cuadro personal de números. Cuadro o banda numérica del salón.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. La serie de 5 en 5.",
+                            "description": "Conteo de paquetes de vasitos hasta 50."
+                        },
+                        {
+                            "title": "Momento 2. La serie de 10 en 10.",
+                            "description": "Conteo de paquetes de servilletas hasta 80."
+                        }
+                    ],
+                    "homework": "Escribir la serie de 2 en 2 hasta el 40 para comprar gorritos."
+                },
+                {
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "cuenten colecciones de muchos objetos concretos.",
+                    "resources": "funda con 40 a 50 tapitas.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Escritura colectiva de la escala del 2 en la pizarra."
+                        },
+                        {
+                            "title": "Momento 2. Contar objetos concretos.",
+                            "description": "Contar tapitas en una funda usando diferentes escalas (5 en 5, 10 en 10)."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "Indicaciones para contar bien: separar lo contado, agrupar, usar escalas."
+                        }
+                    ],
+                    "homework": "Contar objetos en casa (tapitas, semillas) y anotar la cantidad."
+                },
+                {
+                    "title": "ACTIVIDAD 8",
+                    "pedagogicalIntention": "agrupen de a 10 para contar muchos objetos.",
+                    "resources": "40 piedrecitas y fundas transparentes.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Compartir estrategias de conteo y repetir escala del 10."
+                        },
+                        {
+                            "title": "Momento 2. Agrupar de a 10 para contar.",
+                            "description": "Armar fundas de 10 bombones y dejar sueltos. Contar sin sacar de la funda."
+                        },
+                        {
+                            "title": "Momento 3. Contar de 10 en 10 y de 1 en 1.",
+                            "description": "Repetición con distintos valores del 10 al 40."
+                        }
+                    ],
+                    "homework": "Dibujar 3 fundas de 10 y 7 bombones sueltos. Indicar total."
+                },
+                {
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "cuenten muchos objetos que están dibujados.",
+                    "resources": "actividad 9 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Dibujo de fundas y bombones en la pizarra."
+                        },
+                        {
+                            "title": "Momento 2. Contar objetos gráficos.",
+                            "description": "Contar ositos de goma en una imagen agrupándolos para no perderse."
+                        },
+                        {
+                            "title": "Momento 3. Agrupar objetos para facilitar el conteo.",
+                            "description": "Contar caramelos de menta usando estrategias del problema anterior."
+                        }
+                    ],
+                    "homework": "Contar paletas en el fascículo."
+                },
+                {
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "cuenten objetos distintos y mezclados que están dibujados.",
+                    "resources": "actividad 10 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Repaso de estrategias de conteo gráfico."
+                        },
+                        {
+                            "title": "Momento 2. Diferenciar y discriminar objetos.",
+                            "description": "Contar porciones de pastel y vasos mezclados en una mesa."
+                        }
+                    ],
+                    "homework": "Contar vejigas y guirnaldas por separado."
+                },
+                {
+                    "title": "ACTIVIDAD 11",
+                    "pedagogicalIntention": "cuenten objetos que están agrupados y sueltos.",
+                    "resources": "actividad 11 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Revisión de conteo de objetos mezclados."
+                        },
+                        {
+                            "title": "Momento 2. Progresar en las estrategias.",
+                            "description": "Contar helados en cajas de 10 y sueltos. Relación con las decenas."
+                        }
+                    ],
+                    "homework": "Indicar cantidad total de helados (3 cajas de 10 y 2 sueltos)."
+                },
+                {
+                    "title": "ACTIVIDAD 12",
+                    "pedagogicalIntention": "comparen números en un juego.",
+                    "resources": "tarjetas recortables, cuadro numérico.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Cantidad total de helados y cómo la encontraron."
+                        },
+                        {
+                            "title": "Momento 2. Comparar números.",
+                            "description": "Confección de tarjetas con números de dos cifras."
+                        },
+                        {
+                            "title": "Momento 3. Mayores, menores o iguales.",
+                            "description": "Juego de comparación respecto a un número dado por el docente."
+                        }
+                    ],
+                    "homework": "Escribir números mayores que 10 y menores que 40."
+                },
+                {
+                    "title": "ACTIVIDAD 13",
+                    "pedagogicalIntention": "comparen números utilizando distintos criterios.",
+                    "resources": "tarjetas numéricas.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Exhibición de números mayores que 10 y menores que 40."
+                        },
+                        {
+                            "title": "Momento 2. ¿Cuál es el mayor?",
+                            "description": "Juego en parejas comparando tarjetas para ganar puntos."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "Criterio de mirar la primera cifra para decidir el mayor."
+                        }
+                    ],
+                    "homework": "Encerrar el número mayor en parejas dadas."
+                },
+                {
+                    "title": "ACTIVIDAD 14",
+                    "pedagogicalIntention": "analicen cálculos de suma.",
+                    "resources": "actividad 14 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Revisión de números mayores."
+                        },
+                        {
+                            "title": "Momento 2. Suma por descomposición.",
+                            "description": "Análisis del método de Maritza para sumar 25+13 (20+10 y 5+3)."
+                        },
+                        {
+                            "title": "Momento 3. Resolver otra suma.",
+                            "description": "Resolver 34+25 usando descomposición."
+                        }
+                    ],
+                    "homework": "Problema: 23 platitos y 26 más. Total por descomposición."
+                },
+                {
+                    "title": "ACTIVIDAD 15",
+                    "pedagogicalIntention": "analicen cálculos de resta.",
+                    "resources": "actividad 15 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Revisión de sumas por descomposición."
+                        },
+                        {
+                            "title": "Momento 2. Resta por descomposición.",
+                            "description": "Análisis del método de Maritza y Mauro para 37-24."
+                        },
+                        {
+                            "title": "Momento 3. Resolver otra resta.",
+                            "description": "Resolver 36-15 usando descomposición."
+                        }
+                    ],
+                    "homework": "Problema: 45 vasos menos 22. Total por descomposición."
+                },
+                {
+                    "title": "ACTIVIDAD 16",
+                    "pedagogicalIntention": "resuelvan cálculos de distintas formas.",
+                    "resources": "actividad 16 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Revisión de restas por descomposición."
+                        },
+                        {
+                            "title": "Momento 2. Problema de quitar.",
+                            "description": "Problema de 58 globos menos 26 pincharon. Uso de descomposición."
+                        },
+                        {
+                            "title": "Momento 3. Comparar resoluciones.",
+                            "description": "Análisis de la estrategia de Santi para 58-20 y luego 38-6."
+                        }
+                    ],
+                    "homework": "Problema: 43 globos menos 12. Total."
+                },
+                {
+                    "title": "ACTIVIDAD 17: PRODUCCIÓN FINAL",
+                    "pedagogicalIntention": "repasen algunos contenidos trabajados.",
+                    "resources": "hojas en blanco, cordón.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Análisis de procedimientos de restas."
+                        },
+                        {
+                            "title": "Momento 2. Revisión de bloque.",
+                            "description": "Repaso de todas las actividades del bloque 2."
+                        },
+                        {
+                            "title": "Momento 3. Problemas finales.",
+                            "description": "Resolución de dos problemas (suma y resta) para entregar."
+                        },
+                        {
+                            "title": "Momento 4. Armar el libro.",
+                            "description": "Confección del 'Libro de sumas y restas' con secciones por decenas."
+                        },
+                        {
+                            "title": "Momento 5. Completar el libro.",
+                            "description": "Registro de cálculos resueltos en las páginas correspondientes."
+                        }
+                    ],
+                    "homework": ""
+                },
+                {
+                    "title": "ACTIVIDAD 18: CIERRE Y METACOGNICIÓN",
+                    "pedagogicalIntention": "reflexionen sobre lo aprendido.",
+                    "resources": "papelógrafo de aprendizajes.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Producciones.",
+                            "description": "Entrega de hojas con retroalimentación."
+                        },
+                        {
+                            "title": "Momento 2. Saberes principales.",
+                            "description": "Consolidación de aprendizajes fundamentales."
+                        },
+                        {
+                            "title": "Momento 3. Metacognición.",
+                            "description": "Reflexión: ¿qué me gustó más/menos? ¿qué me costó más/menos?"
+                        },
+                        {
+                            "title": "Momento 4. Papelógrafo.",
+                            "description": "Cierre final de la secuencia y fechado."
+                        }
+                    ],
+                    "homework": ""
+                }
+            ]
+        }
+    ]
+}

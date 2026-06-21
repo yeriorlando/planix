@@ -1,0 +1,243 @@
+{
+  "id": "seq-1771196823102",
+  "title": "El cuento",
+  "description": "Fortalece la producción narrativa mediante la creación de cuentos con estructura clara (inicio, desarrollo y desenlace), coherencia en los hechos y uso adecuado de conectores.",
+  "order": 8,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771204853519",
+      "sequence_id": "seq-1771196823102",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Pre-escucha y escucha del cuento)",
+      "intencion_pedagogica": "Explorar conocimientos previos sobre animales, formular hipótesis a partir del título \"El caracol Friolero\" y escuchar el cuento para su comprensión global.\n",
+      "estrategia": "Ambientación del aula: Uso de láminas de animales para generar interés.\n\nDiálogo dirigido: Preguntas generadoras para activar conocimientos previos.\n\nFormulación de hipótesis: Predicción del contenido a partir del título.\n\nLectura en voz alta (modelado): El docente lee el cuento con entonación y expresividad.\n\nToma de apuntes: Los estudiantes registran información durante la escucha.",
+      "aprendizaje_significativo": "Se parte de un tema cercano a los niños (animales del entorno) para introducir un cuento literario, conectando sus experiencias con la fantasía y la imaginación propias del género.",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de dibujar al personaje principal mientras escuchan.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona una copia escrita del cuento.\n\nPara estudiantes kinestésicos: Se les invita a representar con gestos a los personajes mientras escuchan.\n\nPara estudiantes visuales: Se utilizan imágenes de los personajes (caracol, hormigas, pajaritos, paloma, lagartija).",
+      "actividades_cuaderno": "Dibujar al personaje principal (el caracol Friolero) y escribir una oración sobre lo que quería lograr en el cuento.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Lámina con diversos animales\n• Pizarra",
+          "descripcion": "1. El docente muestra una lámina con diversos animales (pág. 170).\n2. Formula preguntas de exploración (pág. 170):\n- \"¿Cuáles seres vivos aparecen en la lámina?\" (1)\n- \"¿Dónde viven los animales que aparecen?\" (2)\n- \"¿Cómo es la vida de estos animales? ¿Qué hacen?\" (3)\n- \"¿Cuáles animales te gustan más? ¿Por qué?\" (4)\n- \"¿Cuáles de estos animales hay en tu comunidad?\" (5)\n- \"¿Has tenido alguna vivencia con alguno de estos animales?\" (6)",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 170)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto del cuento (págs. 171-172)\n• Cuadernos para apuntes",
+          "descripcion": "Pre-escucha - Formulación de hipótesis:\n1. El docente escribe en la pizarra el título del cuento: \"El caracol Friolero\" de Joan Pla Villar.\n2. Pide a los estudiantes que digan de qué creen que tratará el cuento.\n3. Anota las hipótesis en la pizarra.\n4. Explica que al final verificarán las hipótesis.\n\nEscucha del cuento:\n1. El docente prepara a los niños para la escucha estratégica (pág. 170): silencio, atención, tomar notas.\n2. Lee el cuento completo \"El caracol Friolero\" (págs. 171-172) con la entonación apropiada y las pausas debidas.",
+          "actividad_numero": "Comprensión oral (Párrafo 2, pág. 170) Escucha (pág. 170)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se retoman las hipótesis anotadas al inicio.\n2. Se identifican cuáles se cumplieron y cuáles no.\n3. Los estudiantes comparten brevemente qué les gustó del cuento.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771204994059",
+      "sequence_id": "seq-1771196823102",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Oral (Post-escucha)",
+      "intencion_pedagogica": "Consolidar la comprensión del cuento \"El caracol Friolero\" a través de actividades de post-escucha, identificando personajes, acciones, vocabulario y la estructura del cuento.\n",
+      "estrategia": "Preguntas de comprensión: Literales e inferenciales.\n\nTrabajo individual: Para resolver actividades escritas.\n\nAnálisis de vocabulario en contexto: Deducir significados sin diccionario.\n\nIdentificación de la estructura: Inicio, nudo y desenlace.\n\nSocialización de respuestas: Para compartir y corregir estrategias.",
+      "aprendizaje_significativo": "A través del cuento, los niños reflexionan sobre valores como la perseverancia (Friolero no se rinde en su búsqueda) y la solidaridad (los animales que lo ayudan), conectando la literatura con su formación personal.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les permite trabajar las actividades en pareja.\n\nPara estudiantes con dificultades de atención: Se les asigna la tarea de identificar solo los personajes y el escenario.\n\nPara estudiantes kinestésicos: Se les invita a representar las acciones de Friolero (trepar, gritar, etc.).\n\nPara estudiantes avanzados: Se les pide que escriban un breve diálogo entre Friolero y la lagartija.",
+      "actividades_cuaderno": "Escribir un breve resumen del cuento \"El caracol Friolero\" identificando inicio, nudo y desenlace.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se recuerda brevemente la historia del caracol Friolero.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "A, B",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos",
+          "descripcion": "Marcan la respuesta correcta:\n- \"El nombre del personaje principal se debe a que:\" (b. Siempre tenía frío)\n- \"A lo largo de la narración, ¿cuál es su preocupación?\" (a. Saber por qué el sol no calentaba mucho)\n- \"El caracol quería comunicarse con el sol para:\" (c. Pedirle que diera más calor)\n- \"¿Cuáles lugares recogen mejor los escenarios del cuento?\" (a. En un jardín, en el aire y en el mar)\n- \"Narra las acciones que realizó Friolero para comunicarse con el sol.\" (5)\n2. Actividad de vocabulario (págs. 173-174): Explican oralmente el significado de palabras destacadas:\n- revoloteaban, se desanimó, ascender, desperezarse, neblina, mudar sus hojas, cobijas, refugiaba, guiña un ojo\n3. Actividad de estructura (pág. 174): Identifican si las oraciones pertenecen a la introducción, nudo o desenlace:\n- \"Mientras trepaba por el tronco, se encontró con unas hormigas...\" (Nudo)\n- \"Desde aquel día, Friolero salía a comer cuando hacía sol...\" (Desenlace)\n- \"Hace mucho tiempo, en víspera de navidad, nació un caracolito...\" (Inicio)\n4. Actividad A (pág. 174): Responden: \"¿Cuáles son los personajes? ¿Qué nombre recibe la persona que cuenta la historia? ¿Quién es el personaje principal?\"\n5. Actividad B (pág. 174): Explican a qué se refieren palabras destacadas en amarillo (verbos en pasado).",
+          "actividad_numero": "Comprensión oral Actividades (págs. 173-174) (pág. 174) (pág. 174)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente lee fragmentos y los estudiantes identifican si los dice el narrador o un personaje:\n- \"El pobre friolero creyó que mamá caracol se lo decía en serio\" (Narrador)\n- \"Esperaré hasta que el sol baje\" (Personaje)\n- \"El sol desde el cielo, le sonríe todas las mañanas\" (Narrador)\n- \"¿Quién me llama a estas horas de la mañana?\" (Personaje)\n2. Se socializan las respuestas.",
+          "actividad_numero": "Comprensión oral Actividad (pág. 175)"
+        }
+      ]
+    },
+    {
+      "id": "1771205412282",
+      "sequence_id": "seq-1771196823102",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Producción Oral",
+      "intencion_pedagogica": "Producir oralmente un cuento sobre valores (colaboración, solidaridad) que tenga lugar en el patio de la escuela, aplicando los elementos del género (personajes, acciones, escenario, diálogos).",
+      "estrategia": "Trabajo individual con preguntas guía: Para planificar la producción oral.\n\nEscritura de borrador: Los estudiantes escriben su cuento antes de contarlo.\n\nExposición oral: Narración del cuento frente a los compañeros.\n\nPreguntas de comprensión: El público responde preguntas sobre el cuento escuchado.",
+      "aprendizaje_significativo": "Los estudiantes se convierten en creadores y narradores de historias, desarrollando su creatividad e imaginación al inventar un cuento sobre valores que será compartido con sus compañeros.\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite leer su cuento escrito en lugar de narrarlo de memoria.\n\nPara estudiantes tímidos: Se les permite narrar en grupos pequeños o con un compañero que haga de narrador secundario.\n\nPara estudiantes kinestésicos: Se les anima a incluir gestos y movimientos en su narración.\n\nPara estudiantes avanzados: Se les pide que incluyan diálogos entre al menos dos personajes.",
+      "actividades_cuaderno": "Completar el borrador del cuento si no se terminó en clase. Escribir los diálogos de los personajes.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con preguntas guía\n• Cuadernos",
+          "descripcion": "1. El docente explica la consigna (pág. 175): \"Produce un cuento oral para deleitar a tus compañeros que tenga lugar en el patio de la escuela y que desarrolle el tema de los valores (colaboración, solidaridad, decisión e identidad).\"\n2. Entrega las preguntas guía (pág. 175):\n- \"¿Cuáles personajes participarán?\" (1)\n- \"¿Cuáles acciones realizarán?\" (2)\n- \"¿Dónde y cuándo ocurrirán esas acciones?\" (3)\n- \"¿Cuál situación se presentará en la historia?\" (4)\n- \"¿Cuáles sucesos conformarán tu cuento?\" (5)\n- \"¿Cómo será el lugar y las situaciones?\" (6)\n- \"¿Cuáles adjetivos usarás para describir a los personajes?\" (7)\n- \"¿Cuáles diálogos incluirás?\" (8)\n- \"¿Cuál será el problema o conflicto?\" (9)\n- \"¿Cómo se resolverá?\" (10)",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 175)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos con borradores\n• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes responden las preguntas en su cuaderno y escriben el primer borrador de su cuento (pág. 175).\n2. El docente acompaña y resuelve dudas.\n\nNarración de los cuentos:\n1. Los estudiantes que están listos narran su cuento frente a la clase.\n2. El resto escucha atentamente porque después responderán preguntas (pág. 176).\n3. Después de cada narración, el docente formula preguntas:\n- \"¿Dónde y cuándo ocurren los sucesos?\" (1)\n- \"¿Cuáles son los personajes?\" (2)\n- \"¿Cuál es el personaje principal?\" (3)\n- \"¿Quién cuenta la historia?\" (4)\n- \"¿Cuáles acciones realizan los personajes?\" (5)\n- \"¿Escuchaste algún diálogo?\" (6)\n- \"¿Puedes expresar alguna descripción escuchada?\" (7)",
+          "actividad_numero": "Producción oral (Párrafo 2, pág. 175) Preguntas (pág. 176)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente felicita a los narradores y destaca aspectos positivos.\n2. Se recuerda que continuarán las narraciones en la próxima clase.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771205532404",
+      "sequence_id": "seq-1771196823102",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión Escrita (Pre-lectura y Durante la lectura)",
+      "intencion_pedagogica": "Realizar la pre-lectura y la lectura compartida del cuento \"Bisa vuela\" de María Elena Walsh, formulando hipótesis y verificándolas durante la lectura.",
+      "estrategia": "Ambientación especial: Disposición del aula en semicírculo para crear ambiente de disfrute.\n\nUso de imágenes: Para activar conocimientos previos y formular hipótesis.\n\nComparación de textos: Diferenciar el cuento de otros géneros.\n\nLectura compartida: Docente y alumnos leen en voz alta, alternándose.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión.",
+      "aprendizaje_significativo": "Se trabaja con un cuento de una autora reconocida (María Elena Walsh) que aborda temas como la vejez, la amistad intergeneracional y la imaginación, conectando con las experiencias de los niños con sus abuelos o bisabuelos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades lectoras: Se les asignan párrafos más cortos durante la lectura compartida.\n\nPara estudiantes visuales: Se utilizan imágenes de los elementos del cuento (avión, mangrullo, hamaca, etc.).\n\nPara estudiantes kinestésicos: Se les invita a pasar al frente y señalar en el papelógrafo mientras se lee.\n\nPara estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.",
+      "actividades_cuaderno": "Dibujar la escena que más les gustó del cuento \"Bisa vuela\" y escribir una oración explicando por qué la eligieron.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Butacas móviles\n• Imágenes de abuelas/bisabuelas\n• Pizarra",
+          "descripcion": "1. El docente coloca las butacas en semicírculo para crear un ambiente especial (pág. 176).\n2. Muestra imágenes relacionadas con abuelas y bisabuelas.\n3. Formula preguntas (pág. 176):\n- \"¿Qué ves? ¿Cómo son las personas que aparecen?\" (a)\n- \"¿Qué tipo de lazo familiar une a las personas de la imagen?\" (b)\n- \"¿Alguno de ustedes conoce o conoció a su bisabuela?\" (c)\n- \"Haz una lista de las actividades que realizan las bisabuelas que conoces.\" (d)\n4. Escribe el título en la pizarra: \"Bisa vuela\" de María Elena Walsh.\n5. Pide a los estudiantes que hipoteticen: de qué tratará, qué personajes aparecerán, en qué lugar se desarrollará. Anota las hipótesis.",
+          "actividad_numero": "Comprensión escrita Pre-lectura (pág. 176)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copia del cuento (págs. 177-179)\n• Papelógrafo (opcional)",
+          "descripcion": "1. Se entrega una copia del cuento \"Bisa vuela\" (págs. 177-179) o se presenta en papelógrafo.\n2. El docente explica que leerán entre todos, en voz alta, con la entonación necesaria.\n3. Distribuye la lectura de los párrafos entre los estudiantes (pág. 177).\n4. Durante la lectura, el docente corrige suavemente problemas de dicción sin interrumpir la comprensión.\n5. Se realizan pausas para verificar comprensión si es necesario.",
+          "actividad_numero": "Comprensión escrita Durante la lectura (pág. 177)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Al finalizar, se retoman las hipótesis anotadas al inicio.\n2. Se identifican cuáles se cumplieron y cuáles no.\n3. El docente anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Párrafo 1, pág. 179)"
+        }
+      ]
+    },
+    {
+      "id": "1771205632910",
+      "sequence_id": "seq-1771196823102",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Comprensión Escrita (Post-lectura)",
+      "intencion_pedagogica": "Consolidar la comprensión del cuento \"Bisa vuela\" a través de actividades de post-lectura, reflexionar sobre los derechos de los adultos mayores y ordenar cronológicamente los sucesos del cuento.",
+      "estrategia": "Trabajo individual con el texto: Para resolver actividades de comprensión.\n\nUso de contexto: Para deducir significados sin diccionario.\n\nInvestigación: Sobre derechos de los adultos mayores.\n\nConexión interdisciplinaria: Con Ciencias Sociales y Formación Humana.\n\nSocialización de respuestas: Para compartir y reflexionar.",
+      "aprendizaje_significativo": "El cuento \"Bisa vuela\" permite reflexionar sobre el valor de los adultos mayores en la sociedad, conectando la literatura con la realidad social y promoviendo valores de respeto y solidaridad intergeneracional.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les permite trabajar las actividades en pareja.\n\nPara estudiantes con dificultades de vocabulario: Se les permite usar el diccionario.\n\nPara estudiantes kinestésicos: Se les invita a representar la escena del aterrizaje de Bisa.\n\nPara estudiantes avanzados: Se les pide que escriban una carta a un adulto mayor de su comunidad.",
+      "actividades_cuaderno": "Investigar los derechos de los adultos mayores y escribir una lista de al menos 3 derechos. Completar los recuadros de inicio, nudo y desenlace.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se recuerda brevemente la historia de Bisa y los niños.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades\n• Cuadernos\n• Diccionarios (opcional)",
+          "descripcion": "- \"¿Quién es el personaje principal?\" (a)\n- \"¿Qué ocurre? ¿Dónde? ¿Con qué inicia? ¿Cuál era su profesión?\" (b)\n- \"¿Dónde vivía?\" (c)\n- \"¿Cómo era? Describe sus rasgos físicos y de personalidad.\" (d)\n- \"¿Por qué los niños decidieron adoptarla como bisabuela?\" (e)\n2. Actividad 2 (pág. 180): Marcan con X las actividades que los personajes realizaban para divertirse (jugar ajedrez, pasear en bicicleta, cultivar calabazas, etc.).\n3. Actividad 3 (pág. 180): Marcan V o F y justifican:\n- Bisa vivía con sus hijos y nietos. (F)\n- Cuando Bisa se puso los anteojos, veía las cosas diferentes. (V)\n- Bisa logró hacer volar el avión cuando se puso las gafas. (V)\n- Mientras volaba, veía a sus bisnietos. (F)\n- Cuando aterrizó, reconoció a sus bisnietos. (F)\n4. Actividad 4 (pág. 180): Explican de qué trata el cuento con sus propias palabras.\n5. Actividad 5 (pág. 180): Explican significado de palabras destacadas: ombú, mangrullo, cachivaches, galpón, herrumbrado, rayuela, jubilada.\n6. Actividad 6 (pág. 181): Responden preguntas de reflexión:\n- \"¿Crees que la bisabuela realiza las mismas actividades que las bisabuelas de tu comunidad?\" (a)\n- \"¿Qué opinión te merece la actitud de la anciana? ¿Y la de los niños?\" (b)\n- \"¿Por qué crees que Bisa no volvió donde sus primeros bisnietos?\" (c)\n- \"¿Conoces algún adulto mayor que viva solo?\" (d)\n- \"¿Los niños de la comunidad lo tratan como en el cuento?\" (e)\n7. Actividad 7 (pág. 181): Investigan los derechos de los adultos mayores (tarea para casa).\n8. Actividad 8 (pág. 181): Ordenan los sucesos del 1 al 5 según ocurrieron en el cuento.",
+          "actividad_numero": "Comprensión escrita Actividades 1-8 (págs. 179-181)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "1. Los estudiantes copian tres recuadros y completan con las partes del cuento: Inicio, Nudo, Desenlace.\n2. Se socializan las respuestas.",
+          "actividad_numero": "Comprensión escrita Actividad final (pág. 181)"
+        }
+      ]
+    },
+    {
+      "id": "1771205785302",
+      "sequence_id": "seq-1771196823102",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "",
+      "intencion_pedagogica": "Sistematizar las características del cuento y guiar a los estudiantes en el proceso de producción escrita de su propio cuento, aplicando todo lo aprendido.\n\n",
+      "estrategia": "Clase expositiva dialogada: Para presentar las características del cuento.\n\nAnálisis de textos modelo: Se retoman los cuentos leídos.\n\nTaller de escritura: Acompañamiento paso a paso en la producción escrita.\n\nUso de organizadores gráficos: Para planificar la escritura.\n\nRevisión con criterios de evaluación: Autoevaluación y coevaluación.",
+      "aprendizaje_significativo": "Los estudiantes escriben su propio cuento para ser leído por niños de primer grado, lo que da un propósito auténtico a su escritura y los motiva a producir un texto de calidad, creativo y entretenido.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite escribir en computadora o dictar a un compañero.\n\nPara estudiantes con dificultades para generar ideas: Se les proporciona un banco de personajes y posibles conflictos.\n\nPara estudiantes visuales: Se les anima a dibujar primero la secuencia del cuento (storyboard).\n\nPara estudiantes kinestésicos: Se les permite actuar la historia antes de escribirla.\n\nPara estudiantes avanzados: Se les pide que incluyan al menos tres diálogos y dos conectores diferentes.",
+      "actividades_cuaderno": "Continuar con la escritura del cuento en casa, teniendo en cuenta los criterios de evaluación. Traer el borrador para la próxima clase.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafos con los cuentos leídos\n• Pizarra",
+          "descripcion": "1. El docente presenta las características del cuento (pág. 182):\n- Narración breve, hechos reales o imaginarios.\n- Elementos: narrador, personajes, acción, ambiente.\n- Características lingüísticas: formas de inicio (Había una vez), nudo (De pronto), cierre (Desde entonces), conectores de orden, causales y de continuidad, verbos en pasado (narrador) y presente (diálogos), adjetivos, uso de raya para diálogos, dos puntos.\n- Estructura: inicio, nudo, desenlace.",
+          "actividad_numero": "Gramática textual (Párrafos 1-2, pág. 182)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Organizador gráfico (cuadro) en la pizarra o fotocopiado",
+          "descripcion": "1. El docente presenta la consigna (pág. 183): \"Escribe un cuento sobre un tema de interés que tenga lugar en un bosque y sea protagonizado por animales, para entretener a los niños de primer grado en la actividad La hora del cuento.\"\n2. Recuerda las etapas de escritura (pre-escritura, textualización, revisión).\n3. Pre-escritura (pág. 184): En pareja, completan el cuadro con:\n- Personajes, características físicas y de personalidad, acciones, lugar y tiempo.\n4. Textualización (pág. 184-185): Escriben el primer borrador, incluyendo:\n- Inicio (presentación de personajes y lugar).\n- Nudo (conflicto, diálogos, descripciones, conectores).\n- Desenlace (resolución del problema).\n5. El docente acompaña y resuelve dudas.",
+          "actividad_numero": "Producción escrita Consigna (pág. 183) Pre-escritura (pág. 184) Textualización (págs. 184-185)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Criterios de evaluación fotocopiados\n• Borradores",
+          "descripcion": "2. Los estudiantes autoevalúan su borrador marcando No logrado, En proceso o Logrado en cada criterio:\n- 1. ¿Tomé en cuenta la intención y al público?\n- 2. ¿Incluyo diálogos?\n- 3. ¿Entretengo y desarrollo la imaginación?\n- 4. ¿Presento y describo a los personajes?\n- 5. ¿Describo el ambiente?\n- 6. ¿Hay relación entre acciones y personajes?\n- 7. ¿Uso conectores de orden, causales y de continuidad?\n- 8. ¿Se distingue la voz del narrador de la de los personajes?\n- 9. ¿Uso tiempos verbales correctamente?\n- 10. ¿Se reconstruye fácilmente el sentido global?\n- 11. ¿Tiene título, inicio, nudo y desenlace?\n- 12. ¿Presento un nudo bien definido?\n- 13. ¿Tiene un desenlace bien resuelto?\n- 14. ¿Uso vocabulario claro y preciso?\n- 15. ¿Uso adecuadamente mayúsculas, coma, punto, dos puntos y tildes?\n3. Se anuncia que continuarán con la revisión y versión final en la próxima clase.",
+          "actividad_numero": "Producción escrita Criterios de evaluación (pág. 186)"
+        }
+      ]
+    }
+  ]
+}

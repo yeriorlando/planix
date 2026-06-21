@@ -1,0 +1,438 @@
+{
+  "id": "seq-1772550358546",
+  "title": "Geometría B",
+  "description": "Profundiza en las propiedades de figuras geométricas, clasificación y análisis de sus características.",
+  "order": 6,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772550358541",
+      "sequence_id": "seq-1772550358546",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Explorando la congruencia",
+      "intencion_pedagogica": "Analizar elementos congruentes en su entorno comunitario.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre viviendas y urbanizaciones.\n• Uso de imágenes: Fotografías de urbanizaciones y edificios.\n• Trabajo colaborativo en grupos: Análisis de figuras congruentes.\n• Socialización de conceptos: Figuras congruentes.",
+      "aprendizaje_significativo": "Los estudiantes observan edificios de una urbanización y comparan sus formas, comprendiendo que las construcciones humanas frecuentemente utilizan figuras congruentes (misma forma y mismo tamaño).",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras recortadas para superponer y verificar congruencia.\n• Para estudiantes kinestésicos: Pueden recortar figuras y superponerlas.\n• Para estudiantes con discapacidad visual: Se les proporcionan figuras en relieve.\n• Para estudiantes avanzados: Se les pide que expliquen por qué dos figuras no congruentes no pueden superponerse.",
+      "actividades_cuaderno": "Los estudiantes resuelven las situaciones de la página 177:\n1. \"Jonathan ha dibujado la forma que tiene dos casas de su calle vista desde Google maps, como se muestra en las siguientes imágenes, él dice que las figuras son congruentes. ¿Tiene Jonathan razón? ¿Cuándo dos figuras son congruentes?\"\n2. \"Las casas de Rosa Yris y Alexander se muestran en la siguiente imagen. ¿Son congruentes las imágenes de sus casas? ¿Qué características tienen que tener dos figuras para que sean congruentes?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Imagen de urbanización\n• Figuras de la página 176\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente muestra la imagen de la página 176 (urbanización).\n2. Pregunta: \"¿Qué observan en la imagen? ¿Han visto urbanizaciones parecidas? ¿Qué forma tienen los edificios? ¿Hay edificios iguales? ¿Por qué?\"\n3. Presenta las figuras de la página 176 y pregunta: \"¿Qué tienen en común? ¿Qué tienen diferente? ¿Saben cuándo dos figuras son llamadas congruentes?\"",
+          "actividad_numero": "Actividad 1 - A (Pág. 176)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 176): \"Alexander vive en el 4° edificio de los que están de frente en la imagen, él dice que el edificio que le queda a la derecha de donde vive es igual al suyo, ¿tiene Alexander razón en su análisis? Justifica la respuesta.\"\n2. Los grupos trabajan.\n3. Socializan: tiene razón, todos los edificios tienen la misma forma y tamaño.\n\nActividad 2 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 176): \"Alberto vive en un apartamento en la segunda planta de uno de esos edificios y Nelly vive en la primera planta del mismo edificio. ¿Los apartamentos donde ellos viven tendrán la misma forma?\"\n2. Los grupos resuelven.\n3. Socializan: sí, tienen la misma forma.\n\nActividad 3 - Cápsula y ejemplos (15 min):\n1. El docente presenta la cápsula: \"Dos figuras que tienen la misma forma y el mismo tamaño se llaman figuras congruentes.\" (pág. 177).\n2. Los estudiantes identifican objetos congruentes en el aula.",
+          "actividad_numero": "Actividad 1 - B y C (Pág. 176-177)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Qué objetos del aula tienen la misma forma y tamaño?\" (pág. 177).\n2. Actividad para el cuaderno: Los estudiantes resuelven las situaciones de la página 177: \"Jonathan ha dibujado la forma que tiene dos casas de su calle vista desde Google maps, como se muestra en las siguientes imágenes, él dice que las figuras son congruentes. ¿Tiene Jonathan razón? ¿Cuándo dos figuras son congruentes?\" y \"Las casas de Rosa Yris y Alexander se muestran en la siguiente imagen. ¿Son congruentes las imágenes de sus casas? ¿Qué características tienen que tener dos figuras para que sean congruentes?\"\n3. Actividad complementaria: Los estudiantes unen con una línea las figuras que sean congruentes (pág. 178).\n4. Actividad para el diario del estudiante: Los estudiantes dibujan en su cuaderno 2 objetos de su casa que tengan la misma forma y el mismo tamaño (pág. 178).",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 177-178)"
+        }
+      ]
+    },
+    {
+      "id": "1772550464976",
+      "sequence_id": "seq-1772550358546",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "La congruencia",
+      "intencion_pedagogica": "Analizar y resolver situaciones del entorno que involucren segmentos congruentes.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de imágenes: Segmentos de recta que representan calles.\n• Trabajo en grupos: Análisis de segmentos congruentes.\n• Elaboración de cartel: Segmentos congruentes.",
+      "aprendizaje_significativo": "Los estudiantes comparan la longitud de calles en un barrio y descubren que dos segmentos son congruentes si tienen la misma longitud, comprendiendo que este concepto es útil para medir distancias iguales en mapas y planos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan segmentos recortados para comparar longitudes.\n• Para estudiantes kinestésicos: Pueden medir segmentos con regla.\n• Para estudiantes con discapacidad visual: Se les proporcionan segmentos en relieve.\n• Para estudiantes avanzados: Se les pide que dibujen figuras con lados congruentes.",
+      "actividades_cuaderno": "Los estudiantes resuelven las situaciones de la página 180:\n1. \"Alexander dibujó la pizarra del aula, los lados opuestos forman segmentos de rectas que tienen la misma forma y el mismo tamaño, ¿cómo son estos segmentos? ¿cuándo dos segmentos de rectas son congruentes?\"\n2. \"Edwin midió un lado de la puerta de entrada al curso y este media 190 cm. Si un lado de la persiana mide 190 cm, ¿serán congruentes el lado de la puerta con el de la persiana? Justifica tu respuesta.\"\n3. \"Alexander dibujó en su cuaderno la nevera que se encuentra en la casa de sus abuelos y la nevera que está en su casa. ¿Son congruentes estas figuras? ¿Por qué? Dibuja las neveras en tu cuaderno para justificar tu respuesta.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué objetos dibujaron? ¿Qué forma tienen? ¿Tenían el mismo tamaño?\" (pág. 178).\n2. Presenta las imágenes de la página 178 (dos segmentos que representan calles). Pregunta: \"¿Estos segmentos tienen la misma longitud o son diferentes? ¿Cómo se les llama a dos figuras con igual forma e igual tamaño?\"",
+          "actividad_numero": "Actividad 2 - A (Pág. 178)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 178): \"Yasmeiry está dibujando dos calles de su comunidad, como se muestra en la imagen de abajo, ¿serán congruentes las calles?, ¿qué característica tienen estas calles dibujadas?\"\n2. Los grupos trabajan.\n3. Socializan: no son congruentes porque no tienen la misma forma ni la misma longitud.\n\nActividad 2 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 179): \"Rafaelina dibujó la forma que tiene su habitación, como se muestra en la imagen de abajo. ¿Qué forma tiene su habitación? ¿Son congruentes los lados opuestos de la figura? Justifica tu respuesta.\" (habitación rectangular).\n2. Los grupos resuelven.\n3. Socializan: tiene forma rectangular, los lados opuestos son congruentes.\n\nActividad 3 - Cápsula (15 min):\n1. El docente presenta la cápsula: \"Dos segmentos de recta son congruentes si tienen la misma longitud y la misma forma.\" (pág. 179).\n2. Presenta la imagen de las casas de la página 180 y analizan si son congruentes.",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 178-180)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Cuándo dos segmentos son congruentes? ¿Dónde podemos visualizar segmentos congruentes en el aula?\" (pág. 181).\n2. Actividad para el cuaderno: Los estudiantes resuelven las situaciones de la página 180: \"Alexander dibujó la pizarra del aula, los lados opuestos forman segmentos de rectas que tienen la misma forma y el mismo tamaño, ¿cómo son estos segmentos? ¿cuándo dos segmentos de rectas son congruentes?\"; \"Edwin midió un lado de la puerta de entrada al curso y este media 190 cm. Si un lado de la persiana mide 190 cm, ¿serán congruentes el lado de la puerta con el de la persiana? Justifica tu respuesta.\"; y \"Alexander dibujó en su cuaderno la nevera que se encuentra en la casa de sus abuelos y la nevera que está en su casa. ¿Son congruentes estas figuras? ¿Por qué? Dibuja las neveras en tu cuaderno para justificar tu respuesta.\"\n3. Actividad complementaria: Los estudiantes dibujan la puerta y las persianas del aula e identifican segmentos congruentes; identifican y colorean dos pares de segmentos congruentes en la imagen de la página 181; unen con una línea las figuras congruentes de la página 182.\n4. Actividad para el diario del estudiante: Los estudiantes dibujan en su cuaderno dos objetos de su casa que representen figuras congruentes y socializan con un familiar lo que son figuras y segmentos congruentes (pág. 182).",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 180-182)"
+        }
+      ]
+    },
+    {
+      "id": "1772550560150",
+      "sequence_id": "seq-1772550358546",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "La congruencia en geometría",
+      "intencion_pedagogica": "Resolver situaciones problemáticas de su entorno usando polígonos congruentes.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Figuras congruentes\".\n• Trabajo en grupos: Identificación de polígonos congruentes.\n• Uso de geoplano: Construcción de polígonos congruentes.",
+      "aprendizaje_significativo": "Los estudiantes identifican que dos puertas rectangulares pueden ser congruentes si tienen las mismas dimensiones, comprendiendo que la congruencia es una propiedad importante en la fabricación de objetos y en la construcción.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras recortadas para superponer.\n• Para estudiantes kinestésicos: La actividad con geoplano es ideal.\n• Para estudiantes con discapacidad visual: Se les proporcionan polígonos en relieve.\n• Para estudiantes avanzados: Se les pide que dibujen polígonos congruentes de diferentes formas.",
+      "actividades_cuaderno": "Los estudiantes resuelven las situaciones de la página 185:\n1. \"Yasmin tiene el dibujo de dos rectángulos, como se muestra más abajo. Si los lados correspondientes tienen las mismas medidas, ¿son congruentes los polígonos? Justifica tu respuesta.\"\n2. \"Yisandra dice que los siguientes polígonos tienen la misma forma y el mismo tamaño. ¿Serán congruentes estos polígonos? ¿Por qué?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿A quién le explicaron la congruencia? ¿Qué objetos usaron?\" (pág. 182).\n2. Anuncia que hoy continuarán con polígonos congruentes.",
+          "actividad_numero": "Actividad 3 - A (Pág. 183)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Geoplanos\n• Gomitas\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Figuras congruentes\" disponible en: https://www.youtube.com/watch?v=Y37rNwZ_aGc (pág. 183).\n2. Después del video, pregunta: \"¿Qué son figuras congruentes? ¿Qué son polígonos? ¿Cómo son los ángulos en polígonos congruentes?\"\n3. En caso de no tener acceso a tecnología, presenta las imágenes de la página 183 y pregunta si son congruentes.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 5 estudiantes y plantea la situación (pág. 183): \"Nelly dibujó dos puertas de su casa, como se muestran en las imágenes, ambas tienen forma de rectángulo. Si los lados izquierdos de ambas puertas miden lo mismo, ¿serán congruentes las puertas? ¿Cuándo dos polígonos son congruentes?\"\n2. Los grupos trabajan.\n3. Socializan: no se puede determinar solo con un lado, deben tener la misma forma y tamaño en todos sus lados.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 184): \"Alberto tiene la imagen de dos edificios de su calle. Si los lados correspondientes entre los dos edificios miden lo mismo, ¿son congruentes los edificios? ¿Por qué?\"\n2. Los grupos resuelven.\n3. Socializan: sí, son congruentes porque tienen la misma forma y tamaño.\n4. El docente presenta la cápsula (pág. 184) y los estudiantes usan el geoplano para representar dos polígonos congruentes.",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 183-184)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cuándo dos polígonos son congruentes?\" (pág. 184).\n2. Actividad para el cuaderno: Los estudiantes resuelven las situaciones de la página 185: \"Yasmin tiene el dibujo de dos rectángulos, como se muestra más abajo. Si los lados correspondientes tienen las mismas medidas, ¿son congruentes los polígonos? Justifica tu respuesta.\" y \"Yisandra dice que los siguientes polígonos tienen la misma forma y el mismo tamaño. ¿Serán congruentes estos polígonos? ¿Por qué?\"\n3. Actividad complementaria: Los estudiantes escriben al lado de cada pareja de figuras de la página 185 si son congruentes o no.\n4. Actividad para el diario del estudiante: Los estudiantes miden los lados de dos puertas de su casa y determinan si las puertas son congruentes, anotando los resultados (pág. 185).",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 185)"
+        }
+      ]
+    },
+    {
+      "id": "1772550646074",
+      "sequence_id": "seq-1772550358546",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Conociendo las coordenadas cartesianas",
+      "intencion_pedagogica": "Fortalecer el sentido espacial de los estudiantes mediante la localización de puntos en un plano y la realización de desplazamiento de objetos en dos dimensiones.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Hojas cuadriculadas.\n• Trabajo en grupos: Ubicación de puntos en el plano.\n• Representación de desplazamientos.",
+      "aprendizaje_significativo": "Los estudiantes aprenden a ubicar puntos en un plano cuadriculado para representar desplazamientos (como llegar a una casa en un residencial), comprendiendo que este sistema es la base de mapas y GPS.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan hojas con los ejes ya dibujados.\n• Para estudiantes kinestésicos: Pueden caminar los desplazamientos en el piso cuadriculado con tiza.\n• Para estudiantes con discapacidad visual: Se les proporcionan cuadrículas en relieve.\n• Para estudiantes avanzados: Se les pide que ubiquen puntos con coordenadas negativas.",
+      "actividades_cuaderno": "Los estudiantes resuelven las situaciones de la página 187:\n1. \"Adrián recorrió 6 cuadras a las derecha de su casa y luego hizo un giro a la izquierda y caminó 4 cuadras más. Si tomamos la casa de Adrián como punto de partida, ¿cómo se representa en un plano el movimiento realizado por Adrián? Justifica tu respuesta.\"\n2. \"Jonathan está jugando en un tablero de ajedrez. Él mueve en una de las jugadas la torre del ajedrez desde una esquina cuatro espacios a la derecha y en la otra jugada 3 espacios hacia arriba. Representa estos movimientos de la torre en un plano.\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Hojas cuadriculadas\n• Reglas\n• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Las puertas de su casa eran congruentes? ¿Qué medidas obtuvieron?\" (pág. 185).\n2. Entrega hojas cuadriculadas y reglas. Pide trazar dos rayos que inicien en un mismo punto, uno horizontal y otro vertical (pág. 186).",
+          "actividad_numero": "Actividad 4 - A (Pág. 186)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Hojas cuadriculadas\n• Reglas\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Construcción del plano (15 min):\n1. Los estudiantes colocan números de uno en uno en cada rayo, tomando en cuenta cada línea o cuadrito.\n2. Colocan un punto desplazándose 4 unidades a la derecha y 3 hacia arriba.\n3. El docente muestra la imagen de la página 186 y compara. Explica que el GPS usa este sistema.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 186): \"Alexander vive en un residencial. Si él recorre desde la entrada del residencial a la derecha 6 edificios y luego gira hacia arriba y recorre 5 edificios más para llegar a su casa. Describa en la hoja cuadriculada los movimientos de Alexander, dibujando un plano en la hoja cuadriculada y partiendo desde cero para realizar los desplazamientos.\"\n2. Los grupos trabajan.\n3. Socializan: el punto queda en (6,5).\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 186): \"Yasmery dice que, para llegar a su casa desde la entrada de la comunidad, solo tiene que caminar 8 calles a la derecha y luego girar a la izquierda y caminar 2 calles en esa dirección. Describa en una hoja cuadriculada su ubicación colocando un punto.\"\n2. Los grupos resuelven.\n3. Socializan: el punto queda en (8,2).",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 186-187)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Cómo se realizaban los desplazamientos? ¿Para qué sirven las ubicaciones?\" (pág. 187).\n2. Actividad para el cuaderno: Los estudiantes resuelven las situaciones de la página 187: \"Adrián recorrió 6 cuadras a la derecha de su casa y luego hizo un giro a la izquierda y caminó 4 cuadras más. Si tomamos la casa de Adrián como punto de partida, ¿cómo se representa en un plano el movimiento realizado por Adrián? Justifica tu respuesta.\" y \"Jonathan está jugando en un tablero de ajedrez. Él mueve en una de las jugadas la torre del ajedrez desde una esquina cuatro espacios a la derecha y en la otra jugada 3 espacios hacia arriba. Representa estos movimientos de la torre en un plano.\"\n3. Actividad complementaria: Los estudiantes ubican los puntos finales de los movimientos de la página 188 (6 derecha y 6 arriba, 2 derecha y 7 arriba, etc.) y realizan la actividad del libro abierto página 111.\n4. Actividad para el diario del estudiante: Los estudiantes aplican los procedimientos para ubicar un punto en una hoja cuadriculada y escriben debajo el desplazamiento que hicieron para llegar a ese punto (pág. 188).",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 187-188)"
+        }
+      ]
+    },
+    {
+      "id": "1772550807059",
+      "sequence_id": "seq-1772550358546",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Localizando figuras en el plano",
+      "intencion_pedagogica": "Resolver situaciones relacionadas con la ubicación y desplazamientos sencillos en el plano cartesiano.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de imágenes: Figura con animales en cuadrícula.\n• Trabajo en parejas: Identificación de coordenadas.\n• Lectura de coordenadas: (x,y).",
+      "aprendizaje_significativo": "Los estudiantes aprenden a leer las coordenadas de objetos en una cuadrícula (elefante, sol, ratón), comprendiendo que este sistema permite localizar elementos en mapas y planos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan hojas con los ejes ya numerados.\n• Para estudiantes kinestésicos: Pueden dibujar las figuras en la cuadrícula.\n• Para estudiantes con discapacidad visual: Se les proporcionan cuadrículas en relieve.\n• Para estudiantes avanzados: Se les pide que ubiquen puntos en coordenadas negativas.",
+      "actividades_cuaderno": "Los estudiantes dibujan un cuadrado y un triángulo pequeños en una hoja cuadriculada, colocan números en los lados y escriben el punto que indica la ubicación de ambas figuras.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué desplazamientos hicieron? ¿Qué punto ubicaron?\" (pág. 188).\n2. Anuncia que hoy aprenderán a localizar figuras en el plano.",
+          "actividad_numero": "Actividad 5 - A (Pág. 188)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Imágenes de las páginas 188 y 189\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Presentación de imagen (15 min):\n1. El docente presenta la imagen de la página 188 (cuadrícula con animales).\n2. Pregunta: \"¿Cuál es la ubicación del elefante? ¿Del sol? ¿Del ratón?\"\n\nActividad 2 - Trabajo en parejas (25 min):\n1. El docente organiza parejas y pide que respondan las preguntas de la página 188: \"¿Cuál es la ubicación del elefante en esa cuadrícula? ¿Cuál es la ubicación del sol en la cuadrícula? ¿Cuál es la ubicación del ratón en la cuadrícula?\"\n2. Las parejas trabajan.\n3. Socializan: elefante (4,6), sol (1,8), ratón (6,1).\n4. El docente explica que la ubicación se expresa como (x,y): primero el desplazamiento horizontal, luego el vertical (pág. 189).\n\nActividad 3 - Más práctica (20 min):\n1. El docente presenta la imagen de la página 189.\n2. Pregunta: \"¿Cuál es el punto que representa la ubicación de la jirafa? ¿Del colibrí? ¿Del helado? ¿Del caballo? ¿De la nube?\"\n3. Las parejas responden y socializan: jirafa (3,9), colibrí (8,7), helado (8,2), caballo (2,2), nube (9,5).",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 188-190)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Hojas cuadriculadas\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Cómo se expresa la ubicación de un punto? ¿Qué número se coloca primero?\" (pág. 190).\n2. Actividad para el cuaderno: Los estudiantes dibujan un cuadrado y un triángulo pequeños en una hoja cuadriculada, colocan números en los lados y escriben el punto que indica la ubicación de ambas figuras (pág. 190).\n3. Actividad complementaria: Los estudiantes realizan la actividad de la página 141 del libro abierto.\n4. Actividad para el diario del estudiante: Los estudiantes redactan un párrafo de cómo se colocan figuras en un plano y qué coordenada se coloca primero (pág. 191).",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 190-191)"
+        }
+      ]
+    },
+    {
+      "id": "1772551041635",
+      "sequence_id": "seq-1772550358546",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Rutas en un mapa",
+      "intencion_pedagogica": "Resolver situaciones del entorno utilizando diferentes recursos para ubicar objetos y elaborar rutas en cuadrículas, croquis y mapas.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de mapa: Mapa de la República Dominicana.\n• Trabajo en grupos: Trazo de rutas en croquis.\n• Representación de desplazamientos.",
+      "aprendizaje_significativo": "Los estudiantes trazan rutas para ir de un lugar a otro en un croquis, comprendiendo que los mapas y las rutas son herramientas fundamentales para la orientación y la planificación de viajes.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona el croquis con las rutas ya marcadas para que las describan.\n• Para estudiantes kinestésicos: Pueden caminar la ruta en el aula o patio.\n• Para estudiantes con discapacidad visual: Se les proporciona un croquis en relieve.\n• Para estudiantes avanzados: Se les pide que encuentren la ruta más corta y la más larga.",
+      "actividades_cuaderno": "Los estudiantes dibujan una ruta para llegar desde el aula hasta la dirección de la escuela y otra desde el aula a la entrada de la escuela.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué escribieron sobre cómo se colocan las figuras en un plano?\" (pág. 191).\n2. Algunos estudiantes describen el recorrido de su casa a la escuela. Los dibujan en la pizarra.",
+          "actividad_numero": "Actividad 6 - A (Pág. 191)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Mapa de República Dominicana\n• Croquis de la página 192\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Mapa de República Dominicana (15 min):\n1. El docente presenta el mapa de la República Dominicana (pág. 192).\n2. Pregunta: \"¿Qué representa la imagen? ¿Para qué sirven los mapas? Si quieres llegar a la capital desde Santiago, ¿qué ruta tienes que tomar? ¿Qué es una ruta?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y entrega el croquis de la página 192.\n2. Plantea la situación (pág. 192): \"Alexander está en la Plaza de la calle Isabel y quiere llegar hasta el Ayuntamiento de la calle Libertad. ¿Cuáles rutas puede tomar? Justifica tu respuesta.\"\n3. Los grupos trabajan.\n4. Socializan dibujando las rutas en la pizarra.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 192): \"Nelly quiere ir desde la estación del tren de la calle Libertad hasta la piscina de la calle Madrid. ¿Qué ruta debe tomar Nelly? Justifica tu respuesta.\"\n2. Los grupos resuelven.\n3. Socializan dibujando las rutas.",
+          "actividad_numero": "Actividad 6 - B y C (Pág. 191-194)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué es una ruta? ¿Para qué nos sirve conocer las rutas?\" (pág. 194).\n2. Actividad para el cuaderno: Los estudiantes dibujan una ruta para llegar desde el aula hasta la dirección de la escuela y otra desde el aula a la entrada de la escuela (pág. 194).\n3. Actividad complementaria: Los estudiantes marcan con lápiz de color la ruta que debe tomar la llama para llegar al cactus (pág. 194).\n4. Actividad para el diario del estudiante: Los estudiantes describen en su cuaderno la ruta que toman para llegar de su casa a la escuela (pág. 194).",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 194)"
+        }
+      ]
+    },
+    {
+      "id": "1772551181139",
+      "sequence_id": "seq-1772550358546",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Puntos cardinales",
+      "intencion_pedagogica": "Resolver situaciones de ubicación de objetos en el contexto en relación con los puntos cardinales.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Puntos cardinales\".\n• Trabajo en grupos: Orientación usando puntos cardinales.\n• Elaboración de cartel: Rosa de los vientos.",
+      "aprendizaje_significativo": "Los estudiantes aprenden a orientarse usando los puntos cardinales (norte, sur, este, oeste), comprendiendo que esta orientación es fundamental para leer mapas y ubicarse en el entorno.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona la rosa de los vientos para consultar.\n• Para estudiantes kinestésicos: Pueden orientarse físicamente en el aula.\n• Para estudiantes con discapacidad visual: Se les proporciona una rosa de los vientos en relieve.\n• Para estudiantes avanzados: Se les pide que ubiquen puntos cardinales en un mapa real.",
+      "actividades_cuaderno": "Los estudiantes resuelven las situaciones de la página 196:\n1. \"¿Qué queda al este de tu escuela? ¿y al sur? Recuerda orientarte colocándote de pie y apuntando tu brazo derecho hacia donde sale el sol para identificar cada punto cardinal.\"\n2. \"Miguel observa la imagen de la derecha y dice que en el aula la pizarra queda hacia el este y el estante hacia el sur, por tanto, la parte de atrás del curso está orientado hacia el norte. ¿Tiene Miguel razón? Justifica tu respuesta.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué ruta describieron de su casa a la escuela?\" (pág. 194).\n2. Explora conocimientos previos: \"¿Qué está a la derecha de la pizarra? ¿Qué está a la izquierda de tu butaca? ¿Qué sirve a los viajeros para orientarse? ¿Qué puntos cardinales conocen?\" (pág. 195).",
+          "actividad_numero": "Actividad 7 - A (Pág. 195)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Rosa de los vientos\n• Pizarra\n• Cuadernos\n• Papelógrafo para cartel",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Puntos cardinales\" disponible en: https://www.youtube.com/watch?v=qxwNRos9J0b (pág. 195).\n2. Después del video, pregunta: \"¿Qué son los puntos cardinales? ¿Cuáles son? ¿Para qué sirven?\"\n3. En caso de no tener acceso a tecnología, presenta la imagen de la rosa de los vientos (pág. 195) y pregunta.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 5 estudiantes y plantea la situación (pág. 195): \"Alexander se ha colocado de pie de tal manera que su brazo derecho queda en dirección a la salida del sol. ¿Qué punto cardinal le queda en la espalda a Alexander en esa posición?\"\n2. Los grupos trabajan.\n3. Socializan: derecha este, espalda sur.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 196): \"Yasmin se para en la misma posición que Alexander, si a ella al frente le queda el norte, ¿qué punto cardinal le queda a su izquierda? Justifica tu respuesta.\"\n2. Los grupos resuelven.\n3. Socializan: izquierda oeste.\n4. El docente elabora un cartel con los puntos cardinales (pág. 196).",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 195-196)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Cuáles son los 4 puntos cardinales? ¿Cómo sé qué me queda al norte?\" (pág. 197).\n2. Actividad para el cuaderno: Los estudiantes resuelven las situaciones de la página 196: \"¿Qué queda al este de tu escuela? ¿y al sur? Recuerda orientarte colocándote de pie y apuntando tu brazo derecho hacia donde sale el sol para identificar cada punto cardinal.\" y \"Miguel observa la imagen de la derecha y dice que en el aula la pizarra queda hacia el este y el estante hacia el sur, por tanto, la parte de atrás del curso está orientado hacia el norte. ¿Tiene Miguel razón? Justifica tu respuesta.\"\n3. Actividad complementaria: Los estudiantes determinan en el croquis de la página 197 dos calles que queden al norte de la piscina y dos que les queden al oeste; realizan la actividad del libro abierto página 147.\n4. Actividad para el diario del estudiante: Los estudiantes determinan hacia qué punto cardinal queda la escuela, tomando como referencia su casa (pág. 197).",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 196-197)"
+        }
+      ]
+    },
+    {
+      "id": "1772551250477",
+      "sequence_id": "seq-1772550358546",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Objetos de tres dimensiones",
+      "intencion_pedagogica": "Identificar en el entorno comunitario objetos con forma de prismas y analizar sus características.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Cajas de diferentes formas (jugo, zapatos, medicinas).\n• Trabajo en parejas: Identificación de prismas rectangulares.\n• Identificación de elementos: Caras, bases, aristas, vértices.",
+      "aprendizaje_significativo": "Los estudiantes observan cajas de diferentes productos y descubren que muchas tienen forma de prisma rectangular, comprendiendo que los objetos tridimensionales tienen volumen y están formados por caras, aristas y vértices.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan objetos físicos para manipular.\n• Para estudiantes kinestésicos: La manipulación de objetos es ideal.\n• Para estudiantes con discapacidad visual: Se les proporcionan objetos en relieve.\n• Para estudiantes avanzados: Se les pide que cuenten el número de caras, aristas y vértices de cada prisma.",
+      "actividades_cuaderno": "Los estudiantes resuelven el problema de la página 199: \"Antonio dice que la caja de jugo que dan en la escuela es un prisma rectangular. ¿Qué características debe tener la caja de jugo para tener forma de prisma rectangular?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Hacia qué punto cardinal queda la escuela desde su casa?\" (pág. 197).\n2. Anuncia que hoy trabajarán con objetos de tres dimensiones.",
+          "actividad_numero": "Actividad 8 - A (Pág. 197)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Objetos con forma de prisma (cajas)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Exploración de objetos (20 min):\n1. El docente entrega a los estudiantes objetos con forma de prismas rectangulares (cajas de jugo, zapatos, leche, fósforos, medicinas) (pág. 197).\n2. Los estudiantes pasan los dedos por los bordes y observan las características.\n3. Socializan: son objetos de tres dimensiones, sus lados opuestos son polígonos congruentes, tienen 2 bases, etc.\n\nActividad 2 - Situación problemática en parejas (20 min):\n1. El docente organiza parejas y plantea la situación (pág. 198): \"Alberto tiene un dibujo del edificio donde él vive, como se muestra al lado derecho. Si el edificio tiene forma de caja, ¿cómo se le llama a ese tipo de cuerpo geométrico?, ¿qué características tienen los prismas?\"\n2. Las parejas trabajan.\n3. Socializan: se llama prisma rectangular, tiene caras y bases rectangulares.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 198): \"Jonathan está moviendo la nevera de su casa junto con Alexander, Alexander le dice que esa nevera tiene forma igual que una caja, porque todas sus caras son rectángulos. ¿Cómo se les llaman a los cuerpos geométricos con esta forma? ¿Por qué?\"\n2. Las parejas resuelven.\n3. Socializan: prisma rectangular.\n4. El docente presenta la cápsula con los elementos del prisma: caras laterales, bases, aristas, vértices, altura (pág. 199).",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 197-199)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué es un prisma rectangular? ¿Qué elementos tiene?\" (pág. 199).\n2. Actividad para el cuaderno: Los estudiantes resuelven el problema de la página 199: \"Antonio dice que la caja de jugo que dan en la escuela es un prisma rectangular. ¿Qué características debe tener la caja de jugo para tener forma de prisma rectangular?\"\n3. Actividad complementaria: Los estudiantes escriben al lado de las imágenes de la página 200 si tienen forma de prisma o no; dibujan una casa de su comunidad que tenga forma de prisma.\n4. Actividad para el diario del estudiante: Los estudiantes identifican 5 objetos de los que hay en su casa que tengan forma de prisma y escriben sus nombres en el cuaderno (pág. 200).",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 199-200)"
+        }
+      ]
+    },
+    {
+      "id": "1772551316981",
+      "sequence_id": "seq-1772550358546",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "El prisma especial",
+      "intencion_pedagogica": "Identificar las similitudes y diferencias entre el cubo y los demás prismas rectangulares y utilizarlos en la solución de situaciones del entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Cubo (bloque de base diez), caja de medicina.\n• Uso de video: \"El cubo\".\n• Trabajo en grupos: Identificación de cubos.",
+      "aprendizaje_significativo": "Los estudiantes comparan un cubo con un prisma rectangular y descubren que el cubo es un prisma especial donde todas las caras son cuadrados congruentes, comprendiendo que el cubo es un caso particular de prisma.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan cubos físicos para manipular.\n• Para estudiantes kinestésicos: La manipulación de cubos es ideal.\n• Para estudiantes con discapacidad visual: Se les proporcionan cubos en relieve.\n• Para estudiantes avanzados: Se les pide que calculen el número de cubos en figuras compuestas.",
+      "actividades_cuaderno": "Los estudiantes resuelven el problema de la página 202: \"Si una casa mide 8 metros de largo y tiene forma de cubo, ¿cuánto mide la casa de altura? ¿Y cuánto mide de profundidad?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Cubo (bloque de base diez)\n• Caja de medicina\n• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Qué objetos con forma de prisma encontraron en su casa?\" (pág. 200).\n2. Presenta un bloque de base diez (unidad de millar) y una caja de medicina. Pregunta: \"¿Qué similitud tienen? ¿Qué los hace diferentes?\" (pág. 201).",
+          "actividad_numero": "Actividad 9 - A (Pág. 201)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Cubo (bloque de base diez)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"El cubo\" disponible en: https://www.youtube.com/watch?v=21-GTS4p-Dg (pág. 201).\n2. Después del video, pregunta: \"¿Qué es un cubo? ¿Cuántas caras tiene? ¿Cuántos vértices? ¿Cuántas aristas?\"\n3. En caso de no tener acceso a tecnología, usa el bloque de base diez para explicar.\n\nActividad 2 - Situación problemática en parejas (25 min):\n1. El docente organiza parejas y plantea la situación (pág. 201): \"La casa de Nelly mide 10 metros de ancho, 10 metros de altura y 10 metros de profundidad. ¿De qué cuerpo geométrico tiene forma la casa de Nelly? Justifique su respuesta.\"\n2. Las parejas trabajan.\n3. Socializan: tiene forma de cubo, porque todas las dimensiones son iguales.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 201): \"Alberto dice que su habitación mide 3 metros de largo, 3 metros de ancho y 3 metros de altura. ¿Qué tipo de cuerpo geométrico es la habitación de Alberto? Justifica tu respuesta.\"\n2. Las parejas resuelven.\n3. Socializan: es un cubo.\n4. El docente presenta la cápsula (pág. 202).",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 201-202)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué es un cubo? ¿Cómo se le llama a un prisma con todos sus lados y bases congruentes?\" (pág. 202).\n2. Actividad para el cuaderno: Los estudiantes resuelven el problema de la página 202: \"Si una casa mide 8 metros de largo y tiene forma de cubo, ¿cuánto mide la casa de altura? ¿Y cuánto mide de profundidad?\"\n3. Actividad complementaria: Los estudiantes escriben al lado de cada imagen de la página 203 la cantidad de cubos que hay en cada figura.\n4. Actividad para el diario del estudiante: Los estudiantes identifican y escriben en su cuaderno el nombre de los objetos de su casa que tienen forma de cubo (pág. 203).",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 202-203)"
+        }
+      ]
+    },
+    {
+      "id": "1772551394547",
+      "sequence_id": "seq-1772550358546",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Taller de construcción de prismas y cubos",
+      "intencion_pedagogica": "Construir prismas rectangulares y cubos.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo manipulativo: Construcción de prismas y cubos con palitos y masilla.\n• Uso de video tutorial: Construcción de cubo.\n• Registro de desempeño: Observación del nivel de logro de los estudiantes.",
+      "aprendizaje_significativo": "Los estudiantes construyen sus propios prismas y cubos con materiales sencillos, comprendiendo que las figuras tridimensionales pueden ser representadas y construidas físicamente.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona un modelo ya construido como guía.\n• Para estudiantes kinestésicos: La actividad manipulativa es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan materiales táctiles.\n• Para estudiantes avanzados: Se les pide que construyan prismas de base triangular o pentagonal.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, es el registro del taller.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué objetos con forma de cubo encontraron en su casa?\" (pág. 203).\n2. Anuncia que hoy construirán sus propios prismas y cubos.",
+          "actividad_numero": "Actividad 10 - A (Pág. 204)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Sorbetes o palitos (12 por estudiante)\n• Masilla\n• Video tutorial (si hay acceso)",
+          "descripcion": "Taller de construcción:\n1. El docente entrega a cada estudiante 12 sorbetes o palitos y masilla (pág. 204).\n2. Explica los pasos:\n- Unir los sorbetes con masilla para formar un cuadrilátero.\n- En cada masilla colocar un sorbete de forma vertical.\n- Encima de estos formar otro cuadrado usando masilla.\n- Para un prisma rectangular, los sorbetes verticales deben ser más largos que los de la base.\n3. Los estudiantes construyen primero un cubo (todos los lados iguales) y luego un prisma rectangular.\n4. El docente puede mostrar el video tutorial disponible en: https://www.youtube.com/watch?v=fyzJQMhwI90 (pág. 204).\n5. Mientras trabajan, el docente registra el desempeño según los indicadores de logro.",
+          "actividad_numero": "Actividad 10 - B (Pág. 204)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Socializa con preguntas: \"¿Cómo hicieron el cubo? ¿En el prisma todos los palitos eran iguales? ¿Qué fue lo más difícil?\" (pág. 204).\n2. Actividad para el cuaderno: No hay actividad específica, es el registro del taller.\n3. Actividad complementaria: No aplica.\n4. Actividad para el diario del estudiante: No aplica.",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 204)"
+        }
+      ]
+    },
+    {
+      "id": "1772551492064",
+      "sequence_id": "seq-1772550358546",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar la secuencia #6, haciendo énfasis en la resolución de problemas.",
+      "estrategia": "• Diálogo dirigido: Recuperación de temas de la secuencia.\n• Explicación de la escala de valoración.\n• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas.",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia (congruencia, coordenadas, rutas, puntos cardinales, prismas) en contextos variados.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden usar reglas para dibujar.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que, al terminar, ayuden a revisar sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración",
+          "descripcion": "1. El docente pregunta: \"¿Qué trabajaron en esta secuencia?\" (pág. 205).\n2. Lee con los estudiantes la tabla de valoración para que comprendan cómo se evaluarán los resultados (pág. 205).",
+          "actividad_numero": "Actividad 11 - A (Pág. 205)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices\n• Reglas",
+          "descripcion": "Evaluación escrita:\n1. El docente entrega una hoja en blanco a cada estudiante donde colocarán sus datos: nombre del centro, nombre del estudiante, fecha, grado y sección (pág. 205).\n2. Explica la valoración de cada ítem.\n3. Presenta los problemas de evaluación (págs. 206-208):\n\nÍtem 1 (10 pts): Determinar si los lados opuestos de los polígonos son segmentos congruentes.\nÍtem 2 (10 pts): \"Una puerta de forma rectangular mide 180 cm de alto y 95 cm de ancho, ¿cuánto tiene que medir de largo y de ancho otra puerta para que sea congruente a la puerta descrita anteriormente?\"\nÍtem 3 (10 pts): Unir con una línea las figuras congruentes en el grupo de figuras.\nÍtem 4 (10 pts): Dibujar al lado de cada polígono un polígono congruente, calcando cada vértice y trazando los segmentos con regla.\nÍtem 5 (10 pts): En un espacio cuadriculado, ubicar la casa que queda en el punto (6,4).\nÍtem 6 (10 pts): Escribir la ubicación de cada figura en el plano (imagen).\nÍtem 7 (10 pts): Determinar la persona A, B o C que tiene la ruta correcta para llegar al auto.\nÍtem 8 (10 pts): \"Rosa está sentada en su casa, se da cuenta que a su derecha le queda el norte y a su izquierda el sur, ¿qué punto cardinal le queda a la espalda de Rosa en esa posición?, ¿y al frente de ella?\"\nÍtem 9 (10 pts): Escribir los elementos del prisma (imagen).\nÍtem 10 (10 pts): Dibujar la ruta más corta para ir del aula al baño de la escuela.\n\n4. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad 11 - B (Pág. 205-208)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Anuncia el inicio de la siguiente secuencia.",
+          "actividad_numero": "Actividad 11 - Cierre (Pág. 208)"
+        }
+      ]
+    }
+  ]
+}

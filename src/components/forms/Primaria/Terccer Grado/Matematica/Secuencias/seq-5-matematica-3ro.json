@@ -1,0 +1,419 @@
+{
+    "id": "secuencia-5-matematica-3ro",
+    "sequenceId": "secuencia-5-matematica-3ro",
+    "title": "LAS MASCOTAS",
+    "subjectId": "matematica-3ro",
+    "gradeId": "primaria-3ro",
+    "blocks": [
+        {
+            "id": "block-mat-3ro-seq5-b1",
+            "title": "Bloque 1",
+            "blockNumber": 1,
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "desarrollen estrategias para resolver cálculos de multiplicación entre dígitos y reconocer la propiedad conmutativa de la multiplicación de manera visual y concreta.",
+                    "resources": "papelógrafo de aprendizajes; un dado y cartas (o tarjetas) del 1 al 10 en un sobre o funda por pareja. Un lápiz de color por estudiante; cuadro personal de multiplicaciones. Actividad 1 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Lisa y Enrique juegan al juego de las mascotas con este tablero. Recordar que por turno: el jugador lanza el dado, saca una carta y multiplica los dos números que obtuvo, pinta en el tablero un rectángulo de esa cantidad de cuadraditos, y anota dentro el cálculo y el resultado. A. Lisa sacó estos números en tres turnos en una partida: 4 y 8; 6 y 3; 3 y 7. Calcular el producto correspondiente a cada par de números y pintar los rectángulos correspondientes en el tablero. B. Observar los rectángulos que pintó Enrique en el tablero. Escribir dentro de cada uno el cálculo y su resultado.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes",
+                            "description": "El docente presenta el papelógrafo y convoca a algunos estudiantes a leer los propósitos de trabajo para todo el grupo: 1. Desarrollar estrategias de cálculo para resolver problemas de multiplicaciones. 2. Resolver problemas de repartos en partes iguales. 3. Obtener los siguientes de números de cuatro dígitos. 4. Resolver problemas con varias operaciones. 5. Comparar la capacidad de algunos envases, estimar y medir 1 litro y ½ litro."
+                        },
+                        {
+                            "title": "Momento 2. Iniciación a problemas multiplicativos de organización rectangular",
+                            "description": "El docente introduce el contexto del cuidado de las mascotas. Se conversa sobre lo que implica tener una mascota. Se indica escribir en el cuaderno el título: Espacio para las mascotas. Se explica el juego 'Las mascotas'. Objetivo: pintar la mayor cantidad de espacio (cuadraditos) en el tablero. Se juega de a dos con dado y cartas del 1 al 6. Por turno, multiplican los números y pintan un rectángulo de esa área en el tablero (20x20). Gestión del juego: el docente recorre el aula, sugiere usar cálculos conocidos o el cuadro de multiplicaciones. Puesta en común: análisis de estrategias y relaciones entre productos."
+                        },
+                        {
+                            "title": "Momento 3. Jugar con otros productos",
+                            "description": "Se juega otra partida utilizando el dado y cartas del 1 al 10 en el fascículo del compañero. En la puesta en común se busca en el segundo cuadro los espacios pintados y se indica el cálculo que lo determinó (proceso inverso: del rectángulo al cálculo). Se visualiza la propiedad conmutativa (mismos factores, distinta orientación, mismo resultado)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "desarrollen estrategias de cálculo mental para multiplicar números de dos dígitos por uno de un dígito apoyándose en relaciones numéricas conocidas, la descomposición aditiva y la representación rectangular, fortaleciendo así la comprensión del significado de la multiplicación y el uso flexible de sus propiedades.",
+                    "resources": "actividad 2 del fascículo; un dado y cartas (o tarjetas) del 10 al 20 y del 20 al 30 (algunas ya estarán recortadas de actividades anteriores y habrá que recortar las que falten) en sobres o fundas separados por pareja. Un lápiz de color por persona; cuadro personal de multiplicaciones.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Matilde y Ramón jugaron a la nueva versión del juego de las mascotas con este tablero. A. Colorear los rectángulos que correspondan en cada caso: a) Matilde saca una tarjeta con el número 21 y un 5 en el dado. b) Ramón saca 18 en la tarjeta y 4 en el dado. B. Anotar dentro de cada uno el cálculo que lo representa y su resultado.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "El docente dibuja el tablero en la pizarra e invita a estudiantes a compartir respuestas. Se reflexiona sobre la propiedad conmutativa a partir del ítem b."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas multiplicativos de organización rectangular",
+                            "description": "Título: Más espacio para las mascotas. Juego: Las mascotas 2. Se juega con dados y cartas del 10 al 20 en un tablero de 30x30. Se sugieren estrategias como usar cálculos conocidos (2x6 para resolver 20x6) o descomposición aditiva (17 = 10+7). Puesta en común: se recuperan relaciones entre productos y el uso de la descomposición aditiva."
+                        },
+                        {
+                            "title": "Momento 3. Jugar con otros productos",
+                            "description": "Se juega otra partida con cartas del 20 al 30, registrando en el fascículo del compañero. Se gestiona igual que el momento anterior."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "consoliden diversas estrategias de resolución de problemas y cálculo multiplicativo al trabajar con números de tres y cuatro dígitos terminados en ceros apoyándose en descomposiciones (aditivas o multiplicativas), patrones y en el uso de la propiedad asociativa de la multiplicación.",
+                    "resources": "calculadora. Actividad 3 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver, escribir lo que se conoce, lo que se quiere averiguar y anotar la respuesta completa: Ramona camina junto a su perro 700 metros cada vez que salen de paseo. Si pasean 3 veces al día, ¿cuántos metros caminan en total cada día?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Revisión entre pares intercambiando cuadernos. El docente guía con preguntas sobre los cálculos y la organización en el tablero."
+                        },
+                        {
+                            "title": "Momento 2. Multiplicar un número de tres dígitos terminado en 00 por un dígito",
+                            "description": "Título: Alimentar a las mascotas. Problema A: Francisco tiene 4 gatos, cada uno come 400g. Calcular total semanal. Se promueve la multiplicación en lugar de suma reiterada. Estrategias: descomponer el número mayor (400 = 4x100 o 400=10x40). Puesta en común analizando diversas formas de resolver 400 x 4."
+                        },
+                        {
+                            "title": "Momento 3. Multiplicar un número de cuatro dígitos terminado en 000 por uno de un dígito",
+                            "description": "Problema B: Fábrica produce 5,000 bolsas por día. Calcular producción en 7 días. Se plantea similar al momento 2 con números de cuatro dígitos. Puesta en común enfatizando estrategias de cálculo (5,000 x 7)."
+                        },
+                        {
+                            "title": "Momento 4. Detectar el patrón de cálculos de las multiplicaciones vistas",
+                            "description": "Se trabaja con todo el grupo dividiendo tareas: un grupo multiplica con calculadora números terminados en 00 por un dígito, otro grupo números terminados en 000. Se escriben resultados en pizarra y se analizan patrones (cómo terminan los números y por qué)."
+                        },
+                        {
+                            "title": "Momento 5. Sistematización",
+                            "description": "Se arma una conclusión colectiva en el cuaderno: Multiplicar 5 x 600 es lo mismo que resolver 5 x 6 = 30 y 30 x 100 = 3,000. Multiplicar 7 x 5,000 es lo mismo que resolver 7 x 5 = 35 y 35 x 1,000 = 35,000."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "analicen y apliquen estrategias para resolver cálculos multiplicativos.",
+                    "resources": "actividad 4 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver con la estrategia de José: 32 x 5 = y 27 x 3 =",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparte la respuesta de la tarea. Se revisa la diferenciación entre lo conocido y lo que se debe averiguar. Se intercambian estrategias para 3 x 700."
+                        },
+                        {
+                            "title": "Momento 2. Analizar una estrategia de resolución de un problema de multiplicación",
+                            "description": "Título: Analizamos un problema de multiplicación. Se analiza la estrategia de José para resolver 5 x 12 (descompone 12 en 10+2, multiplica por 5 cada parte y suma). Se reflexiona sobre la corrección del procedimiento (propiedad distributiva)."
+                        },
+                        {
+                            "title": "Momento 3. Resolver multiplicaciones usando la estrategia de José",
+                            "description": "Se copian y resuelven cálculos (14 x 6 y 16 x 8) usando la estrategia analizada. Se orienta la descomposición (14 en 10+4). Puesta en común."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se solicita un nuevo ejemplo para aplicar la estrategia y se copia en el cuaderno (ej. 12 x 4 = 10x4 + 2x4)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "resuelvan multiplicaciones de un número de dos dígitos por otro de uno.",
+                    "resources": "actividad 5 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo lo que se conoce, lo que se quiere averiguar y la respuesta completa: En la tienda hay 5 pilas con 26 platos cada una para que las mascotas tomen agua. ¿Qué cantidad total de platos tiene la tienda?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se muestran en la pizarra las resoluciones de los cálculos (32x5, 27x3) usando la descomposición."
+                        },
+                        {
+                            "title": "Momento 2. Resolver individualmente un problema de multiplicación",
+                            "description": "Título: En la tienda “Mascota Feliz”. Problema A: 4 estantes con 23 juguetes. Se guía para usar la estrategia anterior. Puesta en común comparando formas de registro (horizontal, ramificada, vertical)."
+                        },
+                        {
+                            "title": "Momento 3. Resolver individualmente otro problema multiplicativo",
+                            "description": "Problema B: 7 cajas con 36 cepillos. Se resuelve individualmente evitando suma reiterada. Puesta en común mostrando diferentes formas de registro de la estrategia distributiva (7 x 30 + 7 x 6)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "resuelvan problemas de reparto equitativo y agrupamiento apoyándose en la multiplicación.",
+                    "resources": "cuadro personal de multiplicaciones.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo qué se conoce, qué se quiere averiguar y la respuesta completa: Un paseador coloca en la plaza 8 tarros de agua para que beban 24 perros. Acomoda la misma cantidad de perros en cada tarrito. ¿Cuántos perros tomarán de cada tarro?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten resoluciones. Se enfatiza la conveniencia de multiplicar en lugar de sumar repetidamente. Se espera uso de descomposición aditiva."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de agrupamiento usando multiplicaciones",
+                            "description": "Título: El paseador de perros. Problema A: 12 animales, grupos de 4. ¿Cuántos paseos? Se resuelve buscando cuántas veces entra 4 en 12. Puesta en común vinculando estrategias aditivas con la búsqueda en el cuadro de multiplicaciones (4 x ? = 12)."
+                        },
+                        {
+                            "title": "Momento 3. Resolver un problema de reparto equitativo con el cuadro multiplicativo",
+                            "description": "Problema B: 36 cuadras, 6 paseos. ¿Cuántas cuadras por paseo? Se usa el cuadro para buscar qué número multiplicado por 6 da 36. Puesta en común comparando estrategias (sumar/restar 6 hasta llegar a 36 vs buscar en el cuadro)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "afiancen estrategias multiplicativas para resolver problemas de reparto equitativo y agrupamiento.",
+                    "resources": "una calculadora por estudiante o cada dos estudiantes. Cuadro personal de multiplicaciones.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo qué se conoce, qué se quiere averiguar y la respuesta completa: Una señora fue a la tienda a comprar golosinas para sus mascotas. Compra 7 golosinas iguales a RD$70. ¿Cuánto le costó cada una?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Socialización de procedimientos. Se enfatiza el uso del cuadro de multiplicaciones para buscar el factor faltante (8 x ? = 24)."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de reparto equitativo buscando el factor faltante en la multiplicación",
+                            "description": "Título: Compras en la tienda de mascotas. Problema A: $300, 3 collares. Se busca el número que multiplicado por 3 da 300. Se puede usar calculadora para verificar. Puesta en común."
+                        },
+                        {
+                            "title": "Momento 3. Resolver un problema de agrupamiento buscando el factor faltante en la multiplicación",
+                            "description": "Problema B: Max tiene $72, lazos a $9. ¿Cuántos compra? Se busca 9 x ? = 72 en el cuadro de multiplicaciones. Se muestra que sumar 9 hasta 72 es lento. Puesta en común."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 8: Recapitulación",
+                    "pedagogicalIntention": "repasen algunos de los contenidos trabajados.",
+                    "resources": "papelógrafo de aprendizajes. Actividad 8 del fascículo. Una hoja en blanco por estudiante. Cuadro personal de multiplicaciones.",
+                    "homework": "El docente recoge las hojas de trabajo y solicita a cada estudiante que traiga un vaso o taza para la clase siguiente.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se escribe resolución en pizarra (búsqueda de factor faltante 7 x ? = 70)."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Revisión de actividades del bloque 1 y registro en papelógrafo."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido",
+                            "description": "Título: Repasamos lo trabajado. Se resuelven problemas en hoja aparte: A. Gato come 5 latas de 300g (multiplicación). B. a) 16 latas x 4 cajas. b) 56 latas en 8 torres (división/factor faltante)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "block-mat-3ro-seq5-b2",
+            "title": "Bloque 2",
+            "blockNumber": 2,
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "estimen y comparen capacidades considerando como referencia el litro.",
+                    "resources": "un vaso o taza por estudiante. Cada dos o tres estudiantes: botellas de 1 litro y dos o tres recipientes transparentes iguales de más de medio litro y menos de 1 litro o 1 ½ litro. Cada tres o cuatro estudiantes: por lo menos 8 envases de distinta forma, tamaño y capacidad que incluyan dos o tres botellas de 1 litro, un embudo, una cubeta y trapos para secar.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Anotar dos objetos que contienen más de un litro y dos que contienen menos de un litro.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Retroalimentación",
+                            "description": "Devolución de hojas de repaso con comentarios sobre aciertos y errores."
+                        },
+                        {
+                            "title": "Momento 2. Comparar capacidades",
+                            "description": "Conversación sobre el agua y las mascotas. Se indaga sobre recipientes y capacidad. Se usan vasos traídos de casa para estimar qué recipiente tiene más capacidad."
+                        },
+                        {
+                            "title": "Momento 3. Comparar con el litro",
+                            "description": "Se introduce el litro como unidad. Se comparan recipientes con una botella de 1 litro mediante trasvasamiento."
+                        },
+                        {
+                            "title": "Momento 4. Estimar un litro",
+                            "description": "Se estima cuánto es un litro usando vasos/tazas y se verifica llenando la botella de 1 litro. Se reflexiona sobre la forma de los envases y su capacidad."
+                        },
+                        {
+                            "title": "Momento 5. Sistematización",
+                            "description": "Conclusiones en el cuaderno: Hay objetos que pueden contener líquido. Para medir cuánto líquido entra se puede utilizar como unidad el litro."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "midan capacidades usando el litro, se inicien en la comprensión de la noción de fracción e internalicen el tamaño del ½ litro.",
+                    "resources": "botellas de 1 litro y dos o tres recipientes transparentes iguales de más de medio litro y menos de 1 litro o 1 ½ litro (por grupitos de dos o tres estudiantes). Una cubeta con agua u otro material para llenar los recipientes y trasvasar (arena, polenta, etc.). Actividad 10 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver registrando lo que se conoce y lo que se quiere averiguar, y escribir la respuesta completa: Celeste llenó el recipiente de agua para sus perros con cinco botellitas de ½ litro de agua. ¿Es cierto que puso más de 2 litros de agua? ¿Cómo sabes?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Recuperar actividad anterior y objetos identificados con más/menos de 1 litro."
+                        },
+                        {
+                            "title": "Momento 2. Del litro a los medios litros",
+                            "description": "Se distribuye el contenido de una botella de 1 litro en dos recipientes iguales hasta que tengan la misma cantidad. Se introduce el concepto y escritura de 'medio litro' (½ litro)."
+                        },
+                        {
+                            "title": "Momento 3. De los medios litros al litro",
+                            "description": "Se hace la operación inversa: completar 1 litro usando recipientes de medio litro. Se concluye que 2 medios litros hacen 1 litro. Título: Litro y medio litro. Se copian conclusiones."
+                        },
+                        {
+                            "title": "Momento 4. Cuánto líquido beben las mascotas",
+                            "description": "Título: Agua para las mascotas. Problemas A y B del fascículo: calcular botellas de ½ litro para perros según tamaño. Se usa la equivalencia 1 litro = 2 botellas de ½ litro."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 11",
+                    "pedagogicalIntention": "analicen qué sucede cuando a un número terminado en 9, 99 o 999 se le suma 1.",
+                    "resources": "actividad 11 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Buscar y escribir el siguiente de estos números: 39 -> __ 29 -> __ 1,339 -> __ 499 -> __ 889 -> __",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa el problema de Celeste (5 botellas de 1/2 litro). Se destaca la relación entre medio litro y litro."
+                        },
+                        {
+                            "title": "Momento 2. Siguientes de números terminados en 9, 99 y 999",
+                            "description": "Título: Siguientes de números terminados en 9, 99 y 999. Problema de precios en tienda de mascotas donde se agrega $1 por empaquetado. Se analizan los cambios en los números (9->10, 99->100, etc.). Puesta en común y registro de cambios posicionales."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Se copian ejemplos en el cuaderno (9+1=10, 99+1=100, 999+1=1000, etc.). Conclusión: Siempre que se suma 1 se obtiene el número siguiente."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 12",
+                    "pedagogicalIntention": "resuelvan multiplicaciones y divisiones empleando el cuadro de multiplicaciones.",
+                    "resources": "actividad 12 del fascículo. Cuadro personal de multiplicaciones.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Ana y José también compran golosinas para los gatos del refugio. Ayudarlos completando la tabla para que sepan qué cantidades comprar: (Tabla con Cajas 1, 2, 3 y Paquetes 5, 20, 25).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se copian los siguientes de los números de la tarea en la pizarra. Se focaliza en los cambios de unidades a decenas, decenas a centenas, etc."
+                        },
+                        {
+                            "title": "Momento 2. Problemas en tablas",
+                            "description": "Título: Compras en gran cantidad. Problema A: Tabla de Cajas vs Paquetes de alimento (1 caja = 3 paquetes). Se completa la tabla usando multiplicación para paquetes y búsqueda inversa (división/factor faltante) para cajas."
+                        },
+                        {
+                            "title": "Momento 3. Más problemas en tablas",
+                            "description": "Problema B: Tabla de Paquetes vs Golosinas. Se completa la tabla de manera similar al momento 2."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se registran en la pizarra los cálculos subyacentes (ej. ... x 8 ... x 8 para encontrar golosinas, o búsqueda del factor para encontrar paquetes)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 13",
+                    "pedagogicalIntention": "reconozcan la división como operación óptima que resuelve problemas de reparto o agrupamiento en partes iguales y el símbolo con el que se la representa.",
+                    "resources": "cuadro personal de multiplicaciones, una calculadora para cada estudiante, actividad 13 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver utilizando la calculadora: En el refugio de Ana y José nacieron unos gatitos más. Ahora tienen que preparar más cantidad de leche en los biberones y el veterinario dijo que usen 455 gramos y los coloquen en partes iguales en 7 biberones. ¿Cuántos gramos de leche colocaron en cada uno?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa la tabla de golosinas. Se destaca cuándo se multiplica y cuándo se busca el factor faltante (divide)."
+                        },
+                        {
+                            "title": "Momento 2. Problema de reparto equitativo",
+                            "description": "Título: En el refugio de mascotas. Problema A: 30 perros en 6 casetas. Se resuelve buscando qué número por 6 da 30 (uso de cuadro)."
+                        },
+                        {
+                            "title": "Momento 3. Otro problema de dividir",
+                            "description": "Problema B: 384 gramos de leche en 4 mamaderas. Se presenta la división como operación óptima y sus símbolos (÷ : /). Se enseña a usar la calculadora para dividir (384 / 4). Se resuelve el problema 1 con calculadora."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Registro en cuaderno: Los problemas en los que hay que distribuir en partes iguales se resuelven haciendo una DIVISIÓN. 384 ÷ 4 = 96."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 14",
+                    "pedagogicalIntention": "resuelvan problemas de reparto equitativo y de agrupamiento utilizando divisiones y la calculadora para hallar sus resultados.",
+                    "resources": "una calculadora por estudiante o cada dos, papelógrafo en blanco para la sistematización. Actividad 14 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver utilizando la calculadora: 365 : 5 = ; 623 : 7 = ; 496 : 4 = ; 528 : 6 =",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa el problema de los gatitos (455 / 7 = 65) enfatizando el uso de la calculadora y la operación de división."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas de reparto y de agrupamiento en partes iguales",
+                            "description": "Título: Las artesanías de Rafael. Problema A (9 sobres por $585 -> Precio por sobre). Problema B (168 stickers en sobres de 8 -> Cantidad de sobres). Se resuelven con división. Se distingue (docente) entre reparto y agrupamiento."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Se marca en los problemas la información conocida (total) y lo que se busca (valor unidad o cantidad grupos). Se registra en papelógrafo y cuaderno: Usamos la división para averiguar..."
+                        },
+                        {
+                            "title": "Momento 4. Resolver divisiones con la calculadora",
+                            "description": "Práctica individual de divisiones con resto 0 usando la calculadora (ej. 340 : 4)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 15",
+                    "pedagogicalIntention": "resuelvan problemas que implican realizar varias operaciones.",
+                    "resources": "actividad 15 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo lo que se conoce, lo que se quiere averiguar y la respuesta completa. Hoy Germán hizo entregas en 4 clínicas veterinarias. En todas entregó el mismo pedido: 75 cajas de medicamentos para perros y 25 cajas de medicamentos para gatos. ¿Cuántos cajas entregó en total en las 4 clínicas?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten resoluciones de las divisiones de la tarea."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema que involucra más de una operación",
+                            "description": "Título: Alimento para perros y gatos. Problema: Germán entregó 230 bolsas (perros) y 170 bolsas (gatos) en 3 tiendas. Se guía la resolución: sumar primero bolsas por tienda, luego multiplicar por 3. O multiplicar cada tipo por 3 y sumar. Puesta en común de estrategias."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 16",
+                    "pedagogicalIntention": "resuelvan más problemas que demandan varias operaciones.",
+                    "resources": "actividades 15 y 16 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo... En una clínica veterinaria... este mes lograron gastar 890 litros menos que el mes pasado en el que habían usado 4,890 litros. a) ¿Cuántos litros de agua usaron este mes...? b) ¿Cuántos litros de agua usarán en total en los próximos 3 meses? Solicitud de traer foto de mascota para próxima clase.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa el problema de Germán (75+25) x 4. Se enfatiza la estrategia."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema que involucra más de una operación",
+                            "description": "Título: Más problemas con mascotas. Problema Clínica veterinaria (agua). A) Restar para saber consumo actual. B) Multiplicar consumo actual por 6 meses. Puesta en común."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 17: Producción final",
+                    "pedagogicalIntention": "repasen algunos contenidos trabajados.",
+                    "resources": "papelógrafo de aprendizajes, una hoja en blanco para cada estudiante. Actividad 17 del fascículo.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten resoluciones del problema de agua (Resta y luego multiplicación)."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué estudiamos en este bloque?",
+                            "description": "Revisión del bloque 2 y registro en papelógrafo de aprendizajes."
+                        },
+                        {
+                            "title": "Momento 3. Armar un catálogo o mural de mascotas",
+                            "description": "Se elabora una ficha de mascota (foto, nombre, descripción). Se agregan datos matemáticos: cantidad de comida semanal (multiplicación) y agua (dibujo de botellas de 1/2 litro)."
+                        },
+                        {
+                            "title": "Momento 4. Presentar a las mascotas",
+                            "description": "Exposición de las fichas en un mural o catálogo."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 18: Cierre y metacognición",
+                    "pedagogicalIntention": "reflexionen sobre lo realizado y aprendido durante la secuencia.",
+                    "resources": "papelógrafo de aprendizajes.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Entregar las producciones con la retroalimentación",
+                            "description": "Devolución de trabajos."
+                        },
+                        {
+                            "title": "Momento 2. Revisar la retroalimentación para consolidar los saberes principales",
+                            "description": "Comentarios generales sobre lo aprendido."
+                        },
+                        {
+                            "title": "Momento 3. Reflexión metacognitiva",
+                            "description": "Título: ¿Cómo lo hago? Se completa cuadro de autoevaluación (Muy bien, Bien, Puedo hacerlo mejor) y preguntas sobre actividades."
+                        },
+                        {
+                            "title": "Momento 4. Revisar el papelógrafo de aprendizajes de la secuencia",
+                            "description": "Cierre del papelógrafo con fecha."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

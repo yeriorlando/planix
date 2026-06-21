@@ -1,0 +1,555 @@
+{
+  "id": "seq-1772497472429",
+  "title": "Mediciones (1)",
+  "description": "Desarrolla el uso de unidades de medida para longitud, masa, capacidad u otras magnitudes, aplicándolas en problemas prácticos.",
+  "order": 5,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772497472424",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "(Sistema Métrico Decimal - Submúltiplos del metro",
+      "intencion_pedagogica": "Introducir a los estudiantes en el Sistema Métrico Decimal, ayudándoles a utilizar el metro y sus submúltiplos (decímetro, centímetro, milímetro) en situaciones de mediciones que se presentan en su entorno comunitario.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre instrumentos de medida.\n• Uso de material concreto: Cintas métricas, reglas.\n• Trabajo colaborativo: Mediciones en el aula.\n• Uso de tabla: Unidades de longitud del sistema métrico decimal.",
+      "aprendizaje_significativo": "Los estudiantes relacionan la medición con actividades cotidianas como medir su estatura, el ancho de un cuaderno o el largo de una mesa, comprendiendo la utilidad de las unidades de medida en la vida diaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una cinta métrica con las marcas de centímetros resaltadas.\n• Para estudiantes kinestésicos: La actividad de medición práctica es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporciona una cinta métrica táctil con marcas en relieve.\n• Para estudiantes avanzados: Se les pide que expresen las medidas también en decímetros y milímetros.",
+      "actividades_cuaderno": "\"Mide en centímetros el ancho y largo de la puerta de tu aula.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Cinta métrica\n• Regla\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente muestra instrumentos de medida (cinta métrica, regla) y pregunta: \"¿Para qué sirven estos instrumentos? ¿Cuáles han usado? ¿Qué saben sobre medición? ¿Cuáles sistemas de medidas recuerdan? ¿Cuáles unidades de longitud pueden mencionar?\" (pág. 166).\n2. Anima a los estudiantes a anticipar el tema de la clase.",
+          "actividad_numero": "Actividad 1 - A (Pág. 166)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Cintas métricas (una por grupo)\n• Reglas (una por estudiante)\n• Fotocopias de las tablas de la página 167\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Presentación de la tabla de unidades (15 min):\n1. El docente muestra la tabla de unidades de longitud del sistema métrico decimal (pág. 166).\n2. Explica cada submúltiplo: decímetro (1 m ÷ 10 = 0.1 m), centímetro (1 m ÷ 100 = 0.01 m), milímetro (1 m ÷ 1000 = 0.001 m).\n3. Los estudiantes observan sus reglas e identifican las unidades.\n\nActividad 2 - Exploración de la cinta métrica (15 min):\n1. El docente muestra una cinta métrica y pide a los estudiantes que identifiquen los dos sistemas (métrico e inglés).\n2. Pregunta: \"¿Qué representan 100 cm? ¿Cuántos decímetros tiene 1 metro? ¿Cuántos milímetros hay en 1 metro?\"\n3. Construyen que 100 cm, 10 dm y 1000 mm son equivalentes a un metro (submúltiplos).\n\nActividad 3 - Mediciones en el aula (30 min):\n1. El docente organiza grupos de 2 a 4 estudiantes.\n2. Presenta las tablas de la página 167 para que completen con mediciones de objetos del aula (cuaderno, libro, tapa de la mesa, calzado) y de la estatura de los integrantes.\n3. Los estudiantes realizan las mediciones con cinta métrica y regla, registrando en centímetros.\n4. El docente circula, observa y orienta.\n5. Al finalizar, un representante de cada grupo completa una fila en la pizarra.",
+          "actividad_numero": "Actividad 1 - B y C (Pág. 166-167)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cuántos decímetros tiene un metro? ¿Cuántos centímetros? ¿Cómo midieron el cuaderno? ¿Cuál estudiante es el más alto?\" (pág. 168).\n2. Asigna la actividad para el cuaderno (pág. 167): \"Mide en centímetros el ancho y largo de la puerta de tu aula.\"\n3. Asigna la actividad complementaria (pág. 168): Completar tablas con objetos del aula y del centro educativo.\n4. Asigna la actividad para el diario del estudiante (pág. 168): \"Mide en cm el ancho y largo de tu habitación.\"",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 167-168)"
+        }
+      ]
+    },
+    {
+      "id": "1772497552008",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Múltiplos del metro",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de utilizar los múltiplos del metro (kilómetro, hectómetro, decámetro) y realizar conversiones entre ellos, resolviendo problemas del entorno relacionados con la manufactura y la industria.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre múltiplos del metro.\n• Uso de tabla: Relación entre múltiplos y submúltiplos.\n• Resolución de problemas: Aplicación de conversiones en situaciones de manufactura.",
+      "aprendizaje_significativo": "Los estudiantes aplican los múltiplos del metro (km, hm, dam) a situaciones cotidianas como distancias entre ciudades o dimensiones de naves industriales, comprendiendo su utilidad para expresar grandes longitudes.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de conversiones con los pasos a seguir.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar las conversiones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué se multiplica o divide al convertir unidades.",
+      "actividades_cuaderno": "\"La longitud de un buque de carga es de 400 m. Si se usan 250 m de longitud de su nivel superior para colocar los furgones de productos textiles y los restantes para productos comestibles. ¿Cuántos decámetros de longitud se usan para productos alimenticios? ¿Cuántos centímetros se usan para productos comestibles?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuánto midió el ancho y largo de tu habitación? ¿Quiénes lo expresaron en metros?\" (retomando actividad de la pág. 168).\n2. Invita a algunos estudiantes a compartir sus mediciones.\n3. Luego, pregunta: \"¿Cuáles son los submúltiplos del metro? ¿Cuántos milímetros tiene un metro? ¿Cuáles múltiplos del metro recuerdan?\" (pág. 168).",
+          "actividad_numero": "Actividad 2 - A (Pág. 168)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Cinta métrica\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Exploración de múltiplos (20 min):\n1. El docente presenta la tabla de múltiplos del metro: kilómetro (km) = 1000 m, hectómetro (hm) = 100 m, decámetro (dam) = 10 m.\n2. Relaciona con la tabla de valor posicional, enfatizando que los múltiplos están a la izquierda de la unidad.\n3. Explica que para convertir de una unidad mayor a menor se multiplica, y de menor a mayor se divide.\n\nActividad 2 - Situación problemática (25 min):\n1. El docente plantea la situación (pág. 170): \"Una nave industrial ubicada en una zona franca de Santo Domingo tiene un ancho de 65 m. Si se usa la mitad del ancho de la nave para la línea de producción de pantalones, ¿cuántos centímetros quedan sin ocupar?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Qué información aporta? ¿Qué les piden encontrar?\"\n4. Da tiempo para resolver en cuadernos.\n5. Socializa el procedimiento apoyándose en el cuadro de la página 170.\n\nActividad 3 - Ejercicios de conversión (15 min):\n1. Plantea los ejercicios de la página 170:\n- Convertir 1,875 m a dam.\n- Convertir 975 m a cm.\n- Convertir 3,875 m a dam.\n2. Los estudiantes resuelven en sus cuadernos con calculadora.\n3. Socializa con la tabla de la página 171.",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 168-171)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n• Video (opcional)\n• Proyector/TV (opcional)\n",
+          "descripcion": "1. Presenta la cápsula sobre medición, medidas convencionales, magnitud y metro (pág. 171).\n2. Asigna la actividad para el cuaderno (pág. 171): \"La longitud de un buque de carga es de 400 m. Si se usan 250 m para colocar furgones y los restantes para productos comestibles, ¿cuántos decámetros se usan para productos alimenticios? ¿Cuántos centímetros?\"\n3. Presenta la tabla de cierre (pág. 171) para completar conversiones.\n4. Si hay acceso a tecnología, presenta el video de la página 172.\n5. Asigna la actividad complementaria (pág. 172).\n6. Asigna la actividad para el diario del estudiante (pág. 172): \"Un estudiante recorre 795 m de su casa a la escuela. ¿Cuántos decámetros recorre ida y vuelta?\"",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 171-172)"
+        }
+      ]
+    },
+    {
+      "id": "1772497635912",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Conversiones en el Sistema Métrico Decimal",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de realizar conversiones entre múltiplos y submúltiplos del metro, aplicando estos conocimientos en mediciones reales del entorno escolar.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo práctico: Mediciones en espacios abiertos de la escuela.\n• Uso de tabla: Registro y conversión de medidas.\n• Resolución de problemas: Aplicación de conversiones en situaciones cotidianas.",
+      "aprendizaje_significativo": "Los estudiantes aplican las conversiones entre múltiplos y submúltiplos del metro a situaciones reales como medir la cancha o el patio de la escuela, comprendiendo la utilidad de las conversiones en la vida diaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para las conversiones.\n• Para estudiantes kinestésicos: La actividad de medición práctica es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporciona una cinta métrica táctil y números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expresen las medidas también en otras unidades (dm, cm).",
+      "actividades_cuaderno": "\"Nelly y Anselma, estudiantes de 6.° grado, conversan en el aula sobre las medidas obtenidas en la cancha, la primera le pregunta a la segunda: ¿Cuántos hectómetros de largo y decímetros de ancho representan nuestras medidas?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuántos decámetros recorre el estudiante de ida y vuelta? ¿Cómo lo resolvieron?\" (retomando actividad de la pág. 172).\n2. Retroalimenta.\n3. Luego, pregunta: \"¿Cuáles múltiplos del metro pueden mencionar? ¿Cuáles submúltiplos recuerdan?\" (pág. 172).",
+          "actividad_numero": "Actividad 3 - A (Pág. 172)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cintas métricas (una por grupo)\n• Fotocopias de la tabla de la página 173\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Mediciones en espacios abiertos (30 min):\n1. El docente forma grupos de 2 a 4 estudiantes.\n2. Indica que saldrán al patio, cancha o área abierta para medir el largo y ancho del espacio seleccionado.\n3. Entrega la tabla de la página 173 para registrar las mediciones en metros.\n4. Los estudiantes realizan las mediciones con cinta métrica.\n5. Al regresar al aula, completan las columnas de conversión a mm y a hm.\n\nActividad 2 - Socialización de conversiones (30 min):\n1. El docente guía la socialización apoyándose en los cuadros de las páginas 173-174.\n2. Explica cómo convertir de metros a milímetros (multiplicar por 1000) y de metros a hectómetros (dividir entre 100).\n3. Plantea la situación de la página 174: \"Nelly y Anselma conversan sobre las medidas obtenidas. ¿Cuántos hectómetros de largo y decímetros de ancho representan sus medidas?\"\n4. Los estudiantes resuelven en sus cuadernos.\n5. Socializa con los cuadros de la página 175.\t\n",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 172-175)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea los ejercicios de la página 175: \"Convertir 1,295 m a hm; convertir 4,895 m a dam.\"\n2. Socializa con la tabla de la página 175.\n3. Presenta la tabla de cierre de la página 176 para completar.\n4. Asigna la actividad complementaria (pág. 176).\n5. Asigna la actividad para el diario del estudiante (pág. 176): \"La habitación de un estudiante mide 3.5 m de largo y 2.65 m de ancho. ¿Cuántos hm de largo y ancho mide la habitación?\"",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 175-176)"
+        }
+      ]
+    },
+    {
+      "id": "1772497706654",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Sistema Inglés - Introducción",
+      "intencion_pedagogica": "Introducir a los estudiantes en el Sistema Inglés de medidas de longitud, ayudándoles a identificar y utilizar la pulgada, el pie y la yarda, y a realizar mediciones con estas unidades.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre el Sistema Inglés.\n• Uso de material concreto: Regla y cinta métrica mostrando pulgadas, pies y yardas.\n• Trabajo práctico: Mediciones en pulgadas, pies y yardas.",
+      "aprendizaje_significativo": "Los estudiantes relacionan las unidades del Sistema Inglés con situaciones cotidianas como comprar tela (yardas), medir televisores (pulgadas) o estaturas (pies), comprendiendo que este sistema se usa en muchos contextos comerciales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla con las equivalencias entre pulgadas, pies y yardas.\n• Para estudiantes kinestésicos: La actividad de medición práctica es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporciona una regla táctil con marcas en relieve.\n• Para estudiantes avanzados: Se les pide que investiguen otras unidades del Sistema Inglés (milla náutica, etc.).",
+      "actividades_cuaderno": "\"El equipo #1 obtuvo las siguientes mediciones de la cancha: largo 93 ft y ancho 8 ft. Si el equipo #2 la midió en yardas y obtuvo: de ancho 17 yd y de largo 32 yd. ¿A cuál equipo le dio mayor medida?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuántos hm mide el largo y ancho de tu habitación?\" (retomando actividad de la pág. 176).\n2. Luego, pregunta: \"¿Qué otro sistema de medidas conocen además del sistema métrico decimal? ¿Cuáles unidades del sistema inglés pueden mencionar? ¿Con cuál unidad se compra la tela?\" (pág. 176-177).",
+          "actividad_numero": "Actividad 4 - A (Pág. 176-177)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Reglas de 12 pulgadas (una por pareja)\n• Cintas métricas con escala en pulgadas\n• Fotocopias de la tabla de la página 177\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Presentación del Sistema Inglés (15 min):\n1. El docente muestra una regla de 12 pulgadas y una cinta métrica.\n2. Presenta la tabla de unidades de la página 177:\n- Milla (mi) = 1,760 yd o 5,280 ft\n- Yarda (yd) = 36 in o 3 ft\n- Pie (ft) = 12 in\n- Pulgada (in)\n\nActividad 2 - Mediciones en el aula (30 min):\n1. Forma parejas y entrega una regla de 12 pulgadas o cinta métrica.\n2. Presenta la tabla de registro de la página 177 para medir la cancha, el portón y la puerta del aula en pulgadas, pies y yardas.\n3. Los estudiantes realizan las mediciones y registran.\n4. Al regresar, completan la tabla y discuten: \"¿Por qué la puerta se midió en in? ¿Por qué la cancha no se midió en in?\"\n\nActividad 3 - Situación problemática (15 min):\n1. Plantea el problema de la página 177: \"Un rollo de tela tiene 2,790 ft de largo. Si cortan pedazos de 2 yd de longitud, ¿cuántos pedazos podrán cortar?\"\n2. Los estudiantes resuelven en sus cuadernos.\n3. Socializa con la tabla de la página 178.",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 177-178)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n• Video (opcional)\n• Proyector/TV (opcional)",
+          "descripcion": "1. Presenta la tabla de cierre de la página 178 para completar conversiones.\n2. Si hay acceso a tecnología, presenta el video de la página 179.\n3. Asigna la actividad para el cuaderno (pág. 178): \"El equipo #1 obtuvo: largo 93 ft y ancho 8 ft. El equipo #2: ancho 17 yd y largo 32 yd. ¿A cuál equipo le dio mayor medida?\"\n4. Asigna la actividad complementaria (pág. 179).\n5. Asigna la actividad para el diario del estudiante (pág. 179): \"Para la fiesta de navidad, una panadería produce teleras de 8 pulgadas de largo. Si se quiere formar una hilera de 10 yardas, ¿cuántas teleras se necesitan?\"",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 178-179)"
+        }
+      ]
+    },
+    {
+      "id": "1772497788952",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Más sobre el Sistema Inglés - La milla",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de realizar conversiones con la milla, aplicando la regla de tres simple y comprendiendo su relación con la yarda y el pie.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre la milla.\n• Resolución de problemas: Aplicación de conversiones con millas, yardas y pies.\n• Uso de regla de tres simple.",
+      "aprendizaje_significativo": "Los estudiantes aplican la milla a situaciones cotidianas como distancias recorridas por distribuidores o longitud de parques industriales, comprendiendo que esta unidad se usa para grandes distancias.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para plantear la regla de tres.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar las conversiones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que resuelvan los problemas de dos formas diferentes.",
+      "actividades_cuaderno": "\"La longitud aproximada de una pista de aterrizaje para aeronaves grandes son 8,000 pies. ¿Cuántas millas tiene de longitud?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuántas teleras se necesitan para la hilera de 10 yardas?\" (retomando actividad de la pág. 179).\n2. Luego, pregunta: \"¿Cuáles unidades del sistema inglés trabajamos? ¿Cuál sería la unidad apropiada para medir la distancia de Santo Domingo a New York? ¿Qué es la milla?\" (pág. 180).",
+          "actividad_numero": "Actividad 5 - A (Pág. 180)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Situaciones problemáticas (40 min):\n1. El docente plantea dos situaciones (pág. 180):\na) \"Un distribuidor de pan recorre 5 millas en promedio cada mañana. ¿Cuántas yardas recorre en 2 mañanas?\"\nb) \"La longitud de un parque de zona franca es de 3,720 yardas. ¿Cuántas millas son?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo lo resolverán?\"\n4. Da tiempo para resolver en cuadernos con calculadora.\n5. Socializa apoyándose en la tabla de la página 180-181.\n6. Explica el uso de la regla de tres simple.\n\nActividad 2 - Actividad para el cuaderno (20 min):\n1. Asigna la actividad de la página 181: \"La longitud de una pista de aterrizaje es 8,000 pies. ¿Cuántas millas tiene de longitud?\"\n2. Los estudiantes resuelven en sus cuadernos.",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 180-181)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n• Video (opcional)\n• Proyector/TV (opcional)\n",
+          "descripcion": "1. Si hay acceso a tecnología, presenta el video de la página 181.\n2. Realiza preguntas de cierre: \"¿Cómo resolvieron los problemas? ¿Cuántas yardas tiene una milla?\"\n3. Asigna la actividad complementaria (pág. 181).\n4. Asigna la actividad para el diario del estudiante (pág. 182): \"Un barco carguero se encuentra a 10,000 pies de la costa. ¿A cuántas millas de la costa se encuentra?\"",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 181-182)"
+        }
+      ]
+    },
+    {
+      "id": "1772497856604",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Taller: relación entre el sistema inglés y el métrico decimal",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de establecer relaciones entre el Sistema Inglés y el Sistema Métrico Decimal, utilizando tablas de equivalencias para realizar conversiones en situaciones prácticas.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de equivalencias entre sistemas.\n• Trabajo práctico: Mediciones en ambos sistemas.\n• Uso de tablas de equivalencias.",
+      "aprendizaje_significativo": "Los estudiantes relacionan ambos sistemas de medida a través de equivalencias (1 m = 3.281 ft, 1 in = 2.54 cm), comprendiendo que en la vida cotidiana y en el comercio internacional es necesario convertir entre sistemas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona la tabla de equivalencias con los pasos para la regla de tres.\n• Para estudiantes kinestésicos: La actividad práctica de medición es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan las tablas en formato ampliado.\n• Para estudiantes avanzados: Se les pide que realicen las conversiones por dos métodos diferentes.",
+      "actividades_cuaderno": "\"Convierte las mediciones realizadas y completa todas las filas de la tabla que usaste, con tu equipo, para registrar los datos de las mediciones.\"",
+      "inicio": [
+        {
+          "letras": "A, B",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿A cuántas millas se encuentra el barco carguero?\" (retomando actividad de la pág. 182).\n2. Luego, pregunta: \"¿Cómo se convierten millas a kilómetros? ¿Cuántos cm tiene 1 ft? ¿Cuántas yd tiene 1 m?\" (pág. 182).",
+          "actividad_numero": "Actividad 6 - A y B (Pág. 182)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "C",
+          "tiempo": "60",
+          "recursos": "• Cintas métricas (una por pareja)\n• Fotocopias de la tabla de registro (pág. 183)\n• Fotocopias de la tabla de equivalencias (pág. 182)\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Presentación de tabla de equivalencias (10 min):\n1. El docente presenta la tabla de equivalencias de la página 182:\n- 1 milla = 1,609 m\n- 1 km = 0.6215 mi\n- 1 yarda = 0.914 m\n- 1 m = 1.093 yd o 3.281 ft\n- 1 pie = 0.305 m\n- 1 cm = 0.394 in\n- 1 pulgada = 2.54 cm\n\nActividad 2 - Mediciones en ambos sistemas (30 min):\n1. El docente forma parejas y numera los equipos (pares miden en sistema métrico, impares en sistema inglés).\n2. Entrega la tabla de registro de la página 183.\n3. Los estudiantes salen a medir la cancha, patio frontal y comedor.\n4. Al regresar, los equipos pares convierten sus medidas al sistema inglés, y los impares al sistema métrico, usando la tabla de equivalencias.\n\nActividad 3 - Socialización de conversiones (20 min):\n1. El docente guía la socialización apoyándose en los cuadros de las páginas 183-185.\n2. Explica el uso de la regla de tres para las conversiones.",
+          "actividad_numero": "Actividad 6 - C (Pág. 182-185)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 185): \"Convierte las mediciones realizadas y completa todas las filas de la tabla que usaste.\"\n2. Realiza preguntas de cierre: \"¿Cómo convirtieron ft a m? ¿Cuántos cm tiene 1 ft? ¿Cuál es mayor, 1 m o 36 in?\" (pág. 185).\n3. Asigna la actividad complementaria (pág. 185): Completar tabla de conversiones.\n4. Asigna la actividad para el diario del estudiante (pág. 185): \"El equipo #4 mide el largo de la cancha y obtiene 75 ft. El equipo #1 obtiene 24.55 m. ¿Cuál equipo obtuvo la menor medida?\"",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 185)"
+        }
+      ]
+    },
+    {
+      "id": "1772497932351",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Conversiones de unidades de longitud",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de resolver problemas del entorno que requieran conversiones de unidades de longitud entre el Sistema Inglés y el Sistema Métrico Decimal.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Resolución de problemas: Conversión de millas a kilómetros en contextos de exportación.\n• Uso de tabla de equivalencias.\n• Trabajo individual y colaborativo.",
+      "aprendizaje_significativo": "Los estudiantes aplican las conversiones entre sistemas a situaciones reales de comercio internacional, como la distancia entre ciudades para exportación de productos, comprendiendo la importancia de las conversiones en la vida económica.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso con la regla de tres.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar las conversiones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que realicen la conversión usando ambas tablas y comparen resultados.",
+      "actividades_cuaderno": "\"Un furgón de mercancía irá de Higüey, situada en la costa este de República Dominicana, hasta Mao, ubicado en la parte noroeste. Si la distancia es de aproximadamente 380.5 km, ¿cuántas millas son?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuál equipo obtuvo la menor medida? ¿Por qué?\" (retomando actividad de la pág. 185).\n2. Luego, plantea el problema de la página 186.",
+          "actividad_numero": "Actividad 7 - A (Pág. 186)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n• Tabla de equivalencias (pág. 182)\n",
+          "descripcion": "Actividad 1 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 186): \"Una fábrica de ropa ubicada en Santo Domingo Este exporta sus productos hacia New York. La distancia en línea recta es de 1,586 millas. ¿Cuántos kilómetros hay? Redondea a la décima más cercana.\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo lo resolverán? ¿Qué tabla de equivalencias pueden usar?\"\n4. Da tiempo para resolver en cuadernos con calculadora.\n5. Socializa apoyándose en los cuadros de la página 186 (dos modos de resolución).\n\nActividad 2 - Actividad para el cuaderno (20 min):\n1. Asigna la actividad de la página 187: \"Un furgón de mercancía irá de Higüey a Mao. La distancia es 380.5 km. ¿Cuántas millas son?\"\n2. Los estudiantes resuelven en sus cuadernos.\n\nActividad 3 - Cápsula (10 min):\n1. Refuerza el uso de las tablas de equivalencias.",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 186-187)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cuántas millas hay en 1 km? ¿Cuál fue el resultado de la distancia a New York?\" (pág. 187).\n2. Asigna la actividad complementaria (pág. 187).\n3. Asigna la actividad para el diario del estudiante (pág. 187): \"En un tour, la guagua recorrerá 875 km visitando destinos turísticos. ¿Cuántas millas se recorrerán?\"",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 187)"
+        }
+      ]
+    },
+    {
+      "id": "1772498030704",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Taller: construcción de unidades cuadradas",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la comprensión de las unidades cuadradas del sistema métrico decimal (cm², dm², m²), mediante la construcción física de estas unidades.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo práctico: Construcción de dm², cm² y m² con hilo y papel.\n• Uso de material concreto: Hilo, cinta adhesiva, regla.\n• Diálogo dirigido: Relación entre unidades lineales y cuadradas.",
+      "aprendizaje_significativo": "Los estudiantes construyen físicamente un decímetro cuadrado y un metro cuadrado, comprendiendo que el área es la medida de una superficie y que se relaciona con las medidas lineales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan plantillas de cuadrados de 1 dm y 1 cm para que las usen como referencia.\n• Para estudiantes kinestésicos: La actividad de construcción física es ideal para ellos.\n• Para estudiantes con discapacidad visual: Se les proporcionan cuadrados en relieve para que palpen las dimensiones.\n• Para estudiantes avanzados: Se les pide que calculen cuántos cm² caben en 1 m².",
+      "actividades_cuaderno": "\"Completa las informaciones de la tabla de registro anterior.\" (Los estudiantes completan la tabla de la página 188 con las medidas de sus construcciones).",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuántas millas se recorrerán en el tour de 875 km?\" (retomando actividad de la pág. 187).\n2. Luego, pregunta: \"¿Qué es el área? ¿Qué es un metro cuadrado? ¿Cómo creen que se obtiene un centímetro cuadrado?\" (pág. 187).",
+          "actividad_numero": "Actividad 8 - A (Pág. 187)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Hilo de lana (5 m por pareja)\n• Cinta adhesiva\n• Reglas\n• Hojas en blanco\n• Estacas (opcional)\n• Fotocopias de la tabla de registro (pág. 188)",
+          "descripcion": "Actividad 1 - Construcción de 1 dm² (20 min):\n1. El docente forma parejas y entrega hilo, cinta adhesiva y regla.\n2. Da instrucciones (pág. 188):\n- Colocar hilo en el piso fijándolo con cinta.\n- Medir 1 dm hacia la derecha y fijar.\n- Girar a la izquierda, medir 1 dm y fijar.\n- Girar nuevamente, medir 1 dm y fijar.\n- Girar y medir 1 dm hasta el punto de partida.\n3. Los estudiantes construyen el decímetro cuadrado.\n4. Pregunta: \"¿Qué observan? ¿Qué han construido?\" (1 dm²).\n\nActividad 2 - Construcción en papel (20 min):\n1. Los estudiantes, en sus asientos, construyen en una hoja en blanco un dm² y un cm², siguiendo las mismas instrucciones.\n\nActividad 3 - Construcción de 1 m² (20 min):\n1. Si es posible, salen al patio y construyen un metro cuadrado con hilo de 5 m y estacas.\n2. Completan la tabla de registro de la página 188.",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 188)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo construyeron el m²? ¿Cuál es mayor, cm o dm? ¿Cuántos cm² tiene 1 m²?\" (pág. 189).\n2. Asigna la actividad complementaria (pág. 189).\n3. Asigna la actividad para el diario del estudiante (pág. 189): \"La madre de Miriam necesita comprar una alfombra de 250 cm de lados. ¿Cuántos metros cuadrados necesita?\"",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 189)"
+        }
+      ]
+    },
+    {
+      "id": "1772498104184",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Longitud de la circunferencia",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular la longitud de la circunferencia, identificando sus elementos (centro, radio, diámetro) y aplicando la fórmula L = 2πr o L = πd.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Círculos, compás, regla.\n• Uso de video: \"Longitud de la circunferencia\".\n• Resolución de problemas: Aplicación de la fórmula de longitud de circunferencia.",
+      "aprendizaje_significativo": "Los estudiantes aplican el cálculo de la longitud de la circunferencia a situaciones cotidianas como decorar una guirnalda circular o cercar un área común, comprendiendo la utilidad del número π.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tarjeta con las fórmulas L = 2πr y L = πd.\n• Para estudiantes kinestésicos: Pueden medir circunferencias de objetos circulares con una cinta métrica.\n• Para estudiantes con discapacidad visual: Se les proporcionan círculos en relieve para que palpen radio y diámetro.\n• Para estudiantes avanzados: Se les pide que investiguen la historia del número π.",
+      "actividades_cuaderno": "\"Un horno de una panadería tiene forma circular con radio 5 m. Si se quiere colocar una resistencia eléctrica a su alrededor, ¿cuál será la longitud de la resistencia?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuántos metros cuadrados necesita la alfombra de 250 cm de lado?\" (retomando actividad de la pág. 189).\n2. Luego, pregunta: \"¿Qué es un círculo? ¿Qué es el radio? ¿Qué es el diámetro? ¿Qué es la circunferencia?\" (pág. 189).",
+          "actividad_numero": "Actividad 9 - A (Pág. 189)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con círculo y rótulos\n• Compás\n• Regla\n• Video (opcional)\n• Proyector/TV (opcional)\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Elementos de la circunferencia (15 min):\n1. El docente presenta un papelógrafo con un círculo y rótulos con los nombres de sus partes (centro, radio, diámetro, circunferencia).\n2. Los estudiantes colocan los rótulos en el lugar correspondiente (pág. 189-190).\n3. Si hay acceso a tecnología, presenta el video hasta el minuto 1:55 (pág. 190).\n\nActividad 2 - Situaciones problemáticas (30 min):\n1. Plantea la primera situación (pág. 190): \"Se fabrica una guirnalda cilíndrica con diámetro de 2 m. ¿Qué cantidad de soga se necesita para una vuelta?\"\n2. Los estudiantes resuelven en sus cuadernos.\n3. Socializa con el cuadro de la página 190.\n4. Plantea la segunda situación (pág. 190): \"Una fábrica tiene un área común circular con radio de 11 m. ¿Cuál será la longitud de la cerca?\"\n5. Resuelven y socializan con el cuadro de la página 191.\n\nActividad 3 - Cápsula (15 min):\n1. Presenta la cápsula sobre circunferencia, diámetro, centro, radio y π (pág. 191).",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 189-191)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 192): \"Un horno de panadería tiene forma circular con radio 5 m. Si se quiere colocar una resistencia a su alrededor, ¿cuál será la longitud de la resistencia?\"\n2. Realiza preguntas de cierre: \"¿Qué es π? ¿Cómo se calcula la longitud de la circunferencia?\" (pág. 192).\n3. Asigna la actividad complementaria (pág. 192).\n4. Asigna la actividad para el diario del estudiante (pág. 192): \"El papá de un estudiante quiere construir una piscina circular de radio 2.25 m. ¿Cuál es la longitud de su circunferencia?\"",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 192)"
+        }
+      ]
+    },
+    {
+      "id": "1772498185149",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Área del círculo",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular el área del círculo, aplicando la fórmula A = πr², y resolver problemas cotidianos que involucren esta medida.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Área del círculo\".\n• Resolución de problemas: Aplicación de la fórmula del área del círculo.\n• Uso de calculadora: Cálculo de potencias y multiplicaciones.",
+      "aprendizaje_significativo": "Los estudiantes aplican el cálculo del área del círculo a situaciones cotidianas como construir la base de un tanque de agua o calcular el área de una mesa circular, comprendiendo la utilidad de esta fórmula en la construcción.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tarjeta con la fórmula A = πr².\n• Para estudiantes kinestésicos: Pueden usar la calculadora para practicar el cálculo de potencias.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que calculen el área si el radio fuera el doble.",
+      "actividades_cuaderno": "\"El tope de una mesa tiene forma circular con 60 cm de radio. ¿Cuál es el área del tope?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuál es la longitud de la circunferencia de la piscina de radio 2.25 m?\" (retomando actividad de la pág. 192).\n2. Luego, presenta el cuadro de la página 193 con un círculo de radio 5 cm y área 78.5 cm².\n3. Pregunta: \"¿Cómo se llama la figura? ¿Cuánto mide su radio? ¿Cuánto es el área?\"",
+          "actividad_numero": "Actividad 10 - A (Pág. 193)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (opcional)\n• Proyector/TV (opcional)\n• Computadora (opcional)\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. Si hay acceso a tecnología, presenta el video \"Área del círculo\" disponible en: https://www.youtube.com/watch?v=ybFRxtTqgA0&t=9s (desde minuto 2:05) (pág. 193).\n2. Después del video, pregunta: \"¿De qué trata? ¿Qué operación realizaron primero? ¿Cómo obtuvieron el área?\"\n\nActividad 2 - Situación problemática (30 min):\n1. Plantea la situación (pág. 194): \"En un barrio de Santo Domingo Oeste se construye la base circular para un tanque de agua. Si el radio de la base mide 4.25 m, ¿cuál es el área de la base del tanque?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo lo resolverán?\"\n4. Da tiempo para resolver en cuadernos con calculadora.\n5. Socializa apoyándose en el cuadro de la página 194.\n\nActividad 3 - Actividad para el cuaderno (15 min):\n1. Asigna la actividad de la página 194: \"El tope de una mesa tiene forma circular con 60 cm de radio. ¿Cuál es el área del tope?\"",
+          "actividad_numero": "Actividad 10 - B y C (Pág. 193-194)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Presenta el cuadro de la página 195 con diferentes formas de calcular el área y pregunta cuál es correcta.\n2. Realiza preguntas de cierre: \"¿Cómo resolvieron el problema del tope de la mesa? ¿Cuánto dio el área?\" (pág. 195).\n3. Asigna la actividad complementaria (pág. 195).\n4. Asigna la actividad para el diario del estudiante (pág. 195): \"Una familia compra una pintura circular de radio 40 cm. ¿Qué área de la pared ocupará?\"",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 195)"
+        }
+      ]
+    },
+    {
+      "id": "1772498262716",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Perímetro y área de polígonos regulares - Hexágono",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular el perímetro y el área del hexágono regular, aplicando las fórmulas correspondientes y comprendiendo el concepto de apotema.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Perímetro y área del hexágono regular\".\n• Resolución de problemas: Aplicación de fórmulas de perímetro y área.\n• Uso de calculadora.",
+      "aprendizaje_significativo": "Los estudiantes aplican el cálculo de perímetro y área del hexágono regular a situaciones cotidianas como el diseño de mesas o tapetes, comprendiendo la utilidad de estas medidas en la vida diaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tarjeta con las fórmulas P = n × l y A = (P × a)/2.\n• Para estudiantes kinestésicos: Pueden dibujar el hexágono y medir sus lados.\n• Para estudiantes con discapacidad visual: Se les proporciona un hexágono en relieve para que palpen lados y apotema.\n• Para estudiantes avanzados: Se les pide que investiguen la fórmula del área de otros polígonos regulares.",
+      "actividades_cuaderno": "\"Un estudiante lee un Libro abierto de matemática en la secuencia de geometría y se detiene a observar un pentágono regular que tiene 65 mm de lados y 45 mm de apotema. ¿Cuál será el área?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué área de la pared ocupará la pintura circular de 40 cm de radio?\" (retomando actividad de la pág. 195).\n2. Luego, pregunta: \"¿Qué es un polígono? ¿Qué es el perímetro? ¿Qué es el área? ¿Qué es la apotema?\" (pág. 196).",
+          "actividad_numero": "Actividad 11 - A (Pág. 196)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con hexágono regular\n• Video (opcional)\n• Proyector/TV (opcional)\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Presentación de conceptos (15 min):\n1. El docente presenta en un papelógrafo un hexágono regular con lado y apotema señalados (pág. 196).\n2. Explica: perímetro es la suma de los lados, área es el espacio interior.\n3. Si hay acceso a tecnología, presenta el video de la página 196.\n\nActividad 2 - Situación problemática (30 min):\n1. Plantea la situación (pág. 198): \"El tope de una mesa es un hexágono regular que tiene 50 cm de lados y su apotema mide 43.3 cm. ¿Cuál es el perímetro y el área del tope?\"\n2. Los estudiantes resuelven en sus cuadernos.\n3. Socializa con los cuadros de la página 198, mostrando dos estrategias para el área.\n\nActividad 3 - Cápsula (15 min):\n1. Presenta la cápsula sobre perímetro, área y apotema (pág. 198).",
+          "actividad_numero": "Actividad 11 - B y C (Pág. 196-198)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 198): \"Un estudiante lee un libro y observa un pentágono regular de 65 mm de lados y 45 mm de apotema. ¿Cuál será el área?\" (Aunque es pentágono, se mantiene la práctica).\n2. Realiza preguntas de cierre: \"¿Qué es la apotema? ¿Qué es el perímetro? ¿Cuál fue el resultado del área?\" (pág. 198).\n3. Asigna la actividad complementaria (pág. 198-199).\n4. Asigna la actividad para el diario del estudiante (pág. 199): \"Una familia compra un cuadro hexagonal de 17 cm de lado y apotema 14.7 cm. ¿Qué área de la pared ocupará?\"",
+          "actividad_numero": "Actividad 11 - Cierre (Pág. 198-199)"
+        }
+      ]
+    },
+    {
+      "id": "1772498329272",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Perímetro y área del pentágono regular",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular el perímetro y el área del pentágono regular, aplicando las fórmulas correspondientes.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de papelógrafo: Presentación de modelo de pentágono.\n• Resolución de problemas: Aplicación de fórmulas de perímetro y área.\n• Uso de calculadora.",
+      "aprendizaje_significativo": "Los estudiantes aplican el cálculo de perímetro y área del pentágono regular a situaciones cotidianas como el diseño de una placa de reconocimiento o un cartel publicitario, comprendiendo la utilidad de estas medidas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tarjeta con las fórmulas para pentágono.\n• Para estudiantes kinestésicos: Pueden dibujar el pentágono y medir sus lados.\n• Para estudiantes con discapacidad visual: Se les proporciona un pentágono en relieve.\n• Para estudiantes avanzados: Se les pide que calculen el área de un pentágono regular de lado 10 cm.",
+      "actividades_cuaderno": "\"Un estudiante recibe una placa de reconocimiento en su escuela con forma pentagonal. Si la longitud de sus lados son 7.25 in y 5 in de apotema, ¿cuál es el área de la placa?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué área ocupará el cuadro hexagonal de 17 cm de lado?\" (retomando actividad de la pág. 199).\n2. Luego, pregunta: \"¿Cómo se clasifican los polígonos? ¿Cómo calcularán el área del pentágono?\" (pág. 199).",
+          "actividad_numero": "Actividad 12 - A (Pág. 199)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con pentágono regular\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Presentación del modelo (15 min):\n1. El docente presenta en un papelógrafo un pentágono regular con lado y apotema señalados (pág. 199).\n2. Explica la relación entre perímetro y área.\n\nActividad 2 - Situación problemática (30 min):\n1. Plantea la situación (pág. 199): \"Un estudiante de 6.º practica béisbol y prepara una tabla en forma pentagonal para el home plate. La tabla mide 18 cm de lados y 12.4 cm de apotema. ¿Cuánto es el valor del área?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo piensan resolverlo?\"\n4. Da tiempo para resolver en cuadernos.\n5. Socializa apoyándose en la tabla de la página 200 (cálculo de perímetro y dos estrategias para el área).\n\nActividad 3 - Actividad para el cuaderno (15 min):\n1. Asigna la actividad de la página 201: \"Un estudiante recibe una placa de reconocimiento pentagonal de 7.25 in de lados y 5 in de apotema. ¿Cuál es el área de la placa?\"",
+          "actividad_numero": "Actividad 12 - B y C (Pág. 199-201)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué es un pentágono regular? ¿Cómo se calcula su perímetro? ¿Qué es la apotema?\" (pág. 201).\n2. Asigna la actividad complementaria (pág. 201).\n3. Asigna la actividad para el diario del estudiante (pág. 201): \"Un cartel publicitario pentagonal tiene lados de 2.8 m y apotema 1.9 m. ¿Cuál es el área que ocupará?\"",
+          "actividad_numero": "Actividad 12 - Cierre (Pág. 201)"
+        }
+      ]
+    },
+    {
+      "id": "1772498433179",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": "Área de otros polígonos",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular el área de diferentes polígonos (triángulo, trapecio, rectángulo, cuadrado, octágono, heptágono, decágono), aplicando las fórmulas correspondientes.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de papelógrafo: Presentación de fórmulas para diferentes polígonos.\n• Resolución de ejercicios: Aplicación de fórmulas para triángulo, trapecio, rectángulo, cuadrado, octágono, heptágono, decágono.\n• Uso de calculadora.",
+      "aprendizaje_significativo": "Los estudiantes aplican las fórmulas de área a diferentes polígonos regulares e irregulares, comprendiendo que cada figura tiene su propia fórmula y que las matemáticas permiten calcular superficies en la vida cotidiana.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una hoja con las fórmulas y ejemplos resueltos.\n• Para estudiantes kinestésicos: Pueden dibujar las figuras y verificar medidas.\n• Para estudiantes con discapacidad visual: Se les proporcionan las figuras en relieve y las fórmulas en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen la fórmula del área del decágono regular.",
+      "actividades_cuaderno": "Los estudiantes resuelven en sus cuadernos los ejercicios de las páginas 202-204.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuál es el área del cartel publicitario pentagonal?\" (retomando actividad de la pág. 201).\n2. Luego, pregunta: \"¿Cómo se llaman los polígonos de 10 lados? ¿De 8 lados? ¿Cómo calcularían el área de un cuadrilátero?\" (pág. 202).",
+          "actividad_numero": "Actividad 13 - A (Pág. 202)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con ejemplos de polígonos y fórmulas\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Presentación de ejemplos (20 min):\n1. El docente presenta en un papelógrafo los ejemplos de la página 202-203:\n- Área del trapecio: A = (B + b) × h / 2\n- Área del rectángulo: A = b × h\n- Área del triángulo: A = b × h / 2\n- Área del hexágono: A = (P × a) / 2\n- Área del cuadrado: A = L²\n2. Explica cada fórmula y el significado de las variables.\n\nActividad 2 - Ejercicios prácticos (40 min):\n1. Los estudiantes resuelven en sus cuadernos los ejercicios de las páginas 202-203, usando calculadora.\n2. El docente circula y apoya.\n3. Socializa con las tablas de las páginas 203-204, explicando cada caso, incluyendo el cálculo de la apotema para el hexágono usando el Teorema de Pitágoras (pág. 204).\n",
+          "actividad_numero": "Actividad 13 - B y C (Pág. 202-204)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre sobre las fórmulas utilizadas.\n2. Prepara a los estudiantes para la recapitulación y evaluación.",
+          "actividad_numero": "Actividad 13 - Cierre"
+        }
+      ]
+    },
+    {
+      "id": "1772498511577",
+      "sequence_id": "seq-1772497472429",
+      "order_index": 13,
+      "title": "Actividad 14",
+      "name": "Recapitulación y evaluación de la secuencia",
+      "intencion_pedagogica": "Evaluar el nivel de logro de los estudiantes en relación con los contenidos y competencias desarrolladas durante la secuencia de mediciones, mediante la resolución de problemas que integran conversiones, longitud de circunferencia y áreas.",
+      "estrategia": "• Diálogo dirigido: Recuperación de contenidos de la secuencia.\n• Resolución de ejercicios: Aplicación integrada de todos los temas.\n• Evaluación escrita: Problemas integradores.\n• Uso de calculadora.",
+      "aprendizaje_significativo": "Los estudiantes repasan y consolidan todos los conceptos trabajados en la secuencia (Sistema Métrico Decimal, Sistema Inglés, conversiones, longitud de circunferencia, área de círculo y polígonos) mediante la resolución de ejercicios variados, demostrando sus aprendizajes en la evaluación.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite el uso de calculadora y tablas de equivalencias. Se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden dibujar las figuras para visualizar mejor los problemas.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que resuelvan problemas adicionales.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué trabajamos en esta secuencia? ¿Qué es el Sistema Métrico Decimal? ¿Qué es el Sistema Inglés? ¿Cómo se calcula la longitud de la circunferencia? ¿Cómo se calcula el área de un círculo? ¿Cómo se calcula el área de un polígono regular?\"\n2. Anota las respuestas en la pizarra y retroalimenta.",
+          "actividad_numero": "Recapitulación"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices\n• Calculadoras\n• Tablas de equivalencias (opcional",
+          "descripcion": "Evaluación escrita:\n1. El docente entrega una hoja en blanco a cada estudiante.\n2. Presenta los problemas de evaluación (pueden seleccionarse de las actividades complementarias y de los diarios del estudiante):\n\nProblema 1: Convertir 5 km a metros, a decámetros y a centímetros.\nProblema 2: Una tela mide 15 yardas. ¿Cuántos pies son? ¿Cuántas pulgadas?\nProblema 3: La distancia entre dos ciudades es 250 km. ¿Cuántas millas son? (1 mi = 1.609 km)\nProblema 4: Una piscina circular tiene radio de 3.5 m. ¿Cuál es la longitud de su circunferencia? ¿Cuál es su área?\nProblema 5: Un hexágono regular tiene lado 8 cm y apotema 6.9 cm. Calcula su perímetro y su área.\nProblema 6: Un rectángulo tiene base 12.5 cm y altura 8.2 cm. Calcula su área.\nProblema 7: Un triángulo tiene base 15 cm y altura 10 cm. Calcula su área.\nProblema 8: Un trapecio tiene base mayor 20 cm, base menor 12 cm y altura 8 cm. Calcula su área.\n3. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Evaluación"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "• Para estudiantes con dificultades de comprensión: Se les permite el uso de calculadora y tablas de equivalencias. Se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden dibujar las figuras para visualizar mejor los problemas.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que resuelvan problemas adicionales.",
+          "actividad_numero": "Cierre"
+        }
+      ]
+    }
+  ]
+}

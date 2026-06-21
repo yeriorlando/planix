@@ -1,0 +1,303 @@
+{
+    "sequenceId": "secuencia-6-matematica-2do-grado",
+    "subjectId": "matematica",
+    "sequenceTitle": "Secuencia 6: Los deportes",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1: Lectura de tablas y gráficas y estrategias de cálculo",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "Recolecten, registren y organicen información.",
+                    "resources": "Papelógrafo de aprendizajes; actividad 1 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: A partir de la gráfica sobre los deportes... a) ¿Cuántos estudiantes eligieron vóleibol o básquetbol? b) Hay más estudiantes que votaron vóleibol que fútbol, ¿cuántos más?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes",
+                            "description": "El docente presenta el texto con los propósitos de trabajo del bloque."
+                        },
+                        {
+                            "title": "Momento 2. Recolectar y organizar información sobre deportes",
+                            "description": "Se realiza una votación de equipos de béisbol favoritos en la pizarra y se organiza la información en una tabla en el cuaderno."
+                        },
+                        {
+                            "title": "Momento 3. Interpretar una gráfica",
+                            "description": "En parejas, interpretan una gráfica de barras sobre deportes en el fascículo y responden preguntas."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "Interpreten gráficas de barras y establezcan relaciones entre distintas representaciones de la información.",
+                    "resources": "Actividad 2 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Determinar qué gráfica y qué tabla muestran la misma información uniéndolas con líneas. A partir de las tablas o las gráficas, ¿cuántos estudiantes votaron en cada club? Completar el total.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisan las respuestas sobre la gráfica de la actividad anterior, analizando cantidades y diferencias."
+                        },
+                        {
+                            "title": "Momento 2. Relacionar tablas y gráficas",
+                            "description": "Los estudiantes deben determinar qué gráfica y qué tabla muestran la misma información (clubs A, B, C) uniéndolas con líneas en el fascículo."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "Resuelvan mentalmente o con alguna estrategia aprendida, algunos cálculos fáciles de sumas.",
+                    "resources": "Tablero de la tela de araña de la actividad 3 del fascículo; un dado blanco y uno coloreado (decenas) para cada grupo; una semilla o ficha por jugador.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Título 'Jugamos en la tela de araña'. Resolver: Estás ubicado en 48, sacas 3 en el dado coloreado y 4 en el otro. ¿Cuánto tienes que avanzar? ¿A qué número llegas?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten las respuestas sobre los votos por club y cómo averiguaron los totales."
+                        },
+                        {
+                            "title": "Momento 2. Sumar utilizando descomposiciones",
+                            "description": "Juego: La tela de la araña. Se avanza sumando valores de dos dados (uno vale 10, el otro 1) para sacar la ficha del centro (llegar a 100)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "Utilicen variadas estrategias para sumar números de dos dígitos.",
+                    "resources": "Tablero de la tela de araña en la actividad 3 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: a. Resolver: 34 + 23 =, 34 + 28 =, etc. b. Completar y escribir el cálculo: 43 + __ = 84, etc.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten resoluciones en la pizarra sobre el avance en la tela de araña (decenas y unidades)."
+                        },
+                        {
+                            "title": "Momento 2. Relaciones basadas en la descomposición",
+                            "description": "El docente plantea preguntas orales sobre movimientos hipotéticos en la tela de araña para afianzar la suma de decenas y unidades."
+                        },
+                        {
+                            "title": "Momento 3. Descomponer en base a números terminados en 0",
+                            "description": "Título: 'Seguimos calculando'. Resuelven en parejas cálculos de completar (ej: 45 + __ = 55) relacionándolo con el juego."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "Analicen y validen una estrategia para restar o sumar 9.",
+                    "resources": "Actividad 5 del fascículo, papelógrafo para escribir las conclusiones. Opcional: cuadro numérico.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: 45 - 9 =, 67 - 9 =, 34 + 9 =, 25 + 9 =, etc.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se completan en la pizarra los cálculos de la tarea anterior y se validan las respuestas."
+                        },
+                        {
+                            "title": "Momento 2. Estrategias para restar 9",
+                            "description": "Título: 'Restar y sumar 9'. Se analiza la estrategia de restar 10 y sumar 1 para restar 9."
+                        },
+                        {
+                            "title": "Momento 3. Estrategias para sumar 9",
+                            "description": "Se plantea el caso de sumar 9 (sumar 10 y restar 1) y se registran conclusiones."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "Resuelvan problemas de varios pasos.",
+                    "resources": "Actividad 6 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: Para los vestuarios compraron 125 toallas rojas y 156 toallas azules. Devolvieron 17 toallas que tenían fallas. ¿Cuántas toallas en total podrán colocar?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten las resoluciones de sumar/restar 9 enfatizando los trucos."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas de varios pasos",
+                            "description": "Título: 'El estadio de béisbol'. Problema: Se compran butacas rojas y azules, pero algunas están rotas. Hay que sumar el total y restar las dañadas."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "Planteen preguntas a partir de información que se conoce.",
+                    "resources": "Papelógrafo, una hoja por grupo para escribir las preguntas. Actividad 7 en el fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: a) Leer situación (librería). b) Formular una pregunta. c) Responder y explicar.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se explica la información conocida y averiguada del problema de las toallas y las estrategias usadas."
+                        },
+                        {
+                            "title": "Momento 2. Obtener información a partir de otra dada",
+                            "description": "Título: 'Preguntar y responder'. Dada una situación con datos sobre niños en actividades del club, los grupos formulan preguntas matemáticas y luego intercambian para resolver."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 8",
+                    "pedagogicalIntention": "Diferencien problemas de suma y multiplicación.",
+                    "resources": "Actividad 8 del fascículo, y un papelógrafo con la actividad 8.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Marcar con un color el cálculo que permite saber el total (4 bates de niños y 3 de adulto; 3 paquetes de 4 guantes).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten las preguntas formuladas por los estudiantes."
+                        },
+                        {
+                            "title": "Momento 2. Diferenciar problemas",
+                            "description": "Título: 'Buscar diferencias'. Se presentan dos problemas (uno aditivo, uno multiplicativo) y se identifican los cálculos correctos para cada uno."
+                        },
+                        {
+                            "title": "Momento 2 (bis). Diferenciar la información necesaria de la innecesaria",
+                            "description": "Se presenta un problema con datos extra (jugadores de distintos deportes) y se debe identificar cuál es la información útil."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "Resuelvan cálculos de multiplicaciones con los números del uno al seis.",
+                    "resources": "Un juego de dominó cada cuatro estudiantes. Actividad 9 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: ¿Cuánto obtienes con estas fichas? Anotar el cálculo y el resultado.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa la elección de cálculos (suma vs multiplicación) y se destaca la diferencia."
+                        },
+                        {
+                            "title": "Momento 2. Dominó multiplicativo",
+                            "description": "Juego: 'Dominó para multiplicar'. Se multiplican los puntos de las fichas de dominó. Gana el mayor producto."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "Resuelvan problemas utilizando las herramientas que se consideren convenientes.",
+                    "resources": "Alrededor de cien piedrecitas (semillas o tapitas). Actividad 10 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: En un torneo de básquetbol participan 8 equipos y cada uno tiene 5 jugadores. ¿Cuántos jugadores?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisan los cálculos del dominó en la pizarra."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de multiplicación",
+                            "description": "Título: 'Cálculos en el torneo'. Problema: 8 equipos de 9 jugadores. Se enfatiza el uso de la multiplicación y el cuadro de multiplicaciones."
+                        },
+                        {
+                            "title": "Momento 3. Un nuevo problema para practicar",
+                            "description": "Problema: Tenían 50 gorras y regalaron 38. Se distingue que es una resta (quitar)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 11: RECAPITULACIÓN",
+                    "pedagogicalIntention": "Repasen algunos de los contenidos trabajados.",
+                    "resources": "Actividad 11 del fascículo, papelógrafo de aprendizajes. Media hoja en blanco por estudiante.",
+                    "homework": "No especificada.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa el problema de los equipos (8 x 5). Se deja un papelógrafo con el cálculo."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Se revisan las actividades del bloque y se marcan en el papelógrafo de aprendizajes."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido",
+                            "description": "Título: 'Repasamos lo trabajado'. Evaluación individual: Interpretar gráfica de medallas, problema de resta (medallas perdidas), problema de multiplicación (vóleibol)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2: Resolución de problemas multiplicativos y distributivos",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 12",
+                    "pedagogicalIntention": "Practiquen multiplicaciones con los números del uno al seis.",
+                    "resources": "Por pareja: dos dados; tablero de la actividad 12 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Mercedes, John y Manuel jugaron a 'Números en línea'. a. ¿Qué números marcaron? b. Preparar carteles.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Retroalimentar las recapitulaciones",
+                            "description": "El docente devuelve la corrección de los problemas anteriores y explica errores."
+                        },
+                        {
+                            "title": "Momento 2. Multiplicar dígitos del 1 al 6 entre sí",
+                            "description": "Juego: 'Números en línea'. Tiran dos dados, multiplican los valores y marcan el resultado en un tablero."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 13",
+                    "pedagogicalIntention": "Resuelvan problemas en los que una cantidad se reitera cierto número de veces.",
+                    "resources": "Actividad 13 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: El papá compra 4 paquetes de 3 dulces cada uno. ¿Cuántos dulces compró?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisan los cálculos de la tarea y el uso del cuadro de multiplicaciones."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de multiplicación entre dígitos",
+                            "description": "Título: 'Resuelvo problemas'. Problema: 3 cajas con 3 sándwiches cada una. Uso del cuadro de multiplicaciones."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 14",
+                    "pedagogicalIntention": "Resuelvan problemas para distribuir en partes iguales con distintas estrategias.",
+                    "resources": "Material concreto (30 piedrecitas approx); actividad 14 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: En el club se compraron 24 pares de medias para entregar 8 a cada equipo. ¿Cuántos equipos reciben las medias?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa el problema de los paquetes de dulces (multiplicación)."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de distribución con agrupamientos",
+                            "description": "Título: 'Distribuir botellas en el club'. Problema: 21 botellas, 7 para cada jugador. ¿Para cuántos alcanza? (División por agrupamiento/resta iterada)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 15",
+                    "pedagogicalIntention": "Resuelvan problemas para distribuir con distintas estrategias.",
+                    "resources": "Material concreto; actividad 15 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver: Se compraron 18 camisetas para repartir en partes iguales entre 3 equipos. ¿Cuántas le tocan a cada equipo?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa el problema de las medias (agrupamiento)."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas de reparto equitativo",
+                            "description": "Título: 'Resolvemos en grupo'. Resolver problemas variados de distribución (reparto equitativo) usando material concreto, dibujos o cálculos (24/6, 16/4, etc.)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 16: PRODUCCIÓN FINAL",
+                    "pedagogicalIntention": "Repasen contenidos trabajados.",
+                    "resources": "Papelógrafo de aprendizajes; actividad 16 del fascículo, una hoja en blanco por estudiante.",
+                    "homework": "No especificada.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se revisa el problema de las camisetas (reparto equitativo)."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué estudiamos en este bloque?",
+                            "description": "Se revisan las actividades del bloque 2 y se registra en el papelógrafo."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido",
+                            "description": "Título: 'Repasamos lo trabajado'. Actividad de evaluación basada en una gráfica sobre una rifa. Responder preguntas sobre totales, diferencias y agrupamientos."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

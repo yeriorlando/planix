@@ -1,0 +1,303 @@
+{
+    "id": "seq-2-lengua-1ro",
+    "title": "El letrero",
+    "gradeId": "primaria-1ro",
+    "subjectId": "lengua",
+    "order": 2,
+    "durationWeeks": 4,
+    "description": "Comprensión y producción de letreros sencillos para identificar espacios, dar indicaciones y comunicar mensajes claros en la escuela y la comunidad.",
+    "blocks": [
+        {
+            "id": "blk-seq-2-lengua-1ro-1",
+            "title": "Bloque 1. Presentación de los textos",
+            "blockNumber": 1,
+            "activities": [
+                {
+                    "id": "act-letrero-1",
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "Conocen la función comunicativa de los letreros.",
+                    "resources": "Varios objetos del aula. Papelógrafo de aprendizajes.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Observa letreros en el camino desde la casa al centro educativo o en los alrededores de la casa. Realiza un dibujo de algún letrero que te haya llamado la atención. Copia el letrero.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Conversación sobre conocimientos previos.",
+                            "description": "El docente abre una conversación con la clase para comenzar a identificar los letreros y su función comunicativa a partir de la experiencia personal en el centro educativo. Por ejemplo: ¿Recuerdan los primeros días en la escuela? ¿Cómo sabían cuál es el aula de 1er grado? ¿Cómo se dieron cuenta dónde están los baños o la biblioteca? ¿Qué vemos alrededor que nos ayuda a saber qué es un lugar o una cosa?"
+                        },
+                        {
+                            "titulo": "Momento 2. El papelógrafo de aprendizajes.",
+                            "description": "El docente presenta a los estudiantes el papelógrafo de aprendizajes. Les explica qué es y para qué sirve. Lo lee en voz alta.\nEN ESTE TIEMPO TRABAJAREMOS PARA:\n● Identificar los letreros que vemos a diario.\n● Conocer para qué sirven los letreros.\n● Contar qué dicen los letreros.\n● Reconocer palabras, letras y sílabas en un letrero.\n● Escribir un letrero para jugar a vender."
+                        },
+                        {
+                            "titulo": "Momento 3. Juego para poner letreros oralmente.",
+                            "description": "El docente tendrá preparados objetos que ya tenga en el aula, por ejemplo, varios lápices, hojas, libros, cuadernos, sacapuntas, gomas de borrar. Deberá tener la cantidad para armar 5 grupos de objetos. Los acomoda todos mezclados a la vista de los estudiantes. Propone un juego: organizados en 5 grupos, van a seleccionar los objetos que son iguales para guardarlos en una caja. Una vez que los grupos tomaron los objetos, el docente pregunta al grupo: ¿cuál cartel le pondrían a la caja donde se guardan esos objetos? ¿Para qué le pondrían ese letrero? A medida que cada grupo dice el objeto, el docente lo escribe en la pizarra."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha y de un letrero.",
+                            "description": "El docente indica que van a escribir la fecha. Invita a los estudiantes a prolongar los sonidos del nombre del día, sonido por sonido (no por sílaba, sino por letra), (por ejemplo: mmm-aaa-rrr-ttt-eee-ss). A medida que va alargando los sonidos, invita a los estudiantes a identificar con qué letra se representa cada uno y a buscarla en su abecedario. El docente las va escribiendo en la pizarra. El mismo procedimiento se repite con el mes. Luego, releen los letreros y copian el que escribieron en su grupo. El docente revisa las escrituras en el momento."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-letrero-2",
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "Conocen la función comunicativa del letrero.",
+                    "resources": "Imagen 1 del fascículo de estudiantes.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Intenta leer en voz alta algún letrero que veas de camino a tu casa o al centro educativo.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que compartan los letreros que observaron en el camino de su casa al centro educativo (pueden hacerlo oralmente o apoyados en el dibujo, si lo hicieron). A medida que van mostrando sus producciones, el docente les va preguntando cómo los identificaron, qué les indicaba, si pudieron leerlos o no, o si se ayudaron de alguna imagen para identificarlos."
+                        },
+                        {
+                            "titulo": "Momento 2. Anticipación de contenidos.",
+                            "description": "El docente indica a los estudiantes que busquen la imagen 1 en el fascículo para estudiantes. Allí observarán una imagen de una calle comercial. Para comenzar, el docente hace una breve contextualización de la imagen: “Es una calle comercial donde se puede ir a hacer las compras”. Conversan espontáneamente sobre lo que ven. ¿Qué indicarán esos letreros? ¿Nos dirán qué se vende? ¿Cómo son las letras? ¿Tienen colores o imágenes?"
+                        },
+                        {
+                            "titulo": "Momento 3. Lectura de los letreros.",
+                            "description": "El docente lee los letreros de la imagen para verificar lo que anticiparon en el momento anterior. Entre todos, comentan si confirman lo que habían anticipado o no."
+                        },
+                        {
+                            "titulo": "Momento 4. Juego Veo, veo.",
+                            "description": "Los estudiantes trabajarán en pares. El docente dirá pistas sobre la imagen 1 del fascículo para estudiantes, y ellos tendrán que adivinar qué parte de la imagen está describiendo el docente. Intentar que, al responder oralmente, los estudiantes logren hacer las mayores descripciones posibles sobre lo que ven. Cuando correspondan, es importante mostrar los letreros que identifican las cosas para mostrar su función comunicativa y su importancia.\nPor ejemplo:\nVeo, veo...\n…una niña comprando un helado. …una panadería.\n…un cajón de zanahorias. … una señal de tránsito.\n… una bandera de nuestro país. … un cajón de mangos.\n… un negocio llamado “Don Julio”. … una escuela.\n… un letrero que indica el nombre de la calle. … un perrito.\n… una iglesia. … un mercadito.\n… alguien con barba. …alguien con una camiseta de béisbol.\n… un pan. … unas salchichas.\n… un pastel. … un huevo."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha y de la palabra “letrero”.",
+                            "description": "El docente indica que van a escribir la fecha. Invita a los estudiantes a prolongar los sonidos del nombre del día, sonido por sonido (no por sílaba, sino por letra), (por ejemplo: jjj-uuu-eee-vvv-eee-ss). A medida que va alargando los sonidos, invita a los estudiantes a identificar con qué letra se representa cada uno y a buscarla en su abecedario. El docente las va escribiendo en la pizarra y los estudiantes en simultáneo en su cuaderno. El mismo procedimiento se repite con el mes.\nLuego, el docente coloca las letras móviles de la palabra “letrero” desordenadas en la pizarra (o de forma alternativa, puede escribir las letras de la palabra letrero de forma desordenada). Les dice que entre todos van a armar la palabra “letrero” que es el texto que están aprendiendo. El docente prolonga cada sonido de la palabra (lll) e invita a un estudiante a que pase a buscar la letra y que la escriba en la pizarra. Continúa con la siguiente (eee), pasa otro estudiante y busca la letra y la coloca al lado de la anterior. El docente va leyendo lo que se va formando, señala las letras ordenadas y dice: “Acá dice llleee”, ¿cómo sigue la palabra? letttt”, y pasa otro estudiante a buscar esa letra. Así hasta completar la palabra “letrero”. El docente revisa las escrituras y hace las correcciones.\nEl letrero. Copian el título."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-letrero-3",
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "Juegan a reconocer sonidos en las palabras.",
+                    "resources": "Imagen 1 del fascículo de estudiantes. Imágenes de letreros",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Juega al Veo, veo en tu hogar con tu familia. Escribe como puedas los objetos que adivinó tu familia.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comentan si pudieron realizar la tarea para el hogar y si intentaron leer los letreros."
+                        },
+                        {
+                            "titulo": "Momento 2. Juego Veo, veo con conciencia fonológica.",
+                            "description": "Continúan con el mismo juego de la actividad anterior, pero ahora buscarán en la imagen cosas según el sonido de las palabras.\nPor ejemplo:\nVeo, veo...\n.. una fruta que empieza con mmmm (mango)\n… algo dulce que rima con “mantel” (pastel)\n… algo que se come y comienza con p y tiene 3 sonidos (pan).\n… un animal que en el medio tiene el sonido rrrrrr (perro).\n… un vegetal que empieza con sssss y termina con aaaaa (zanahoria).\n… algo dulce de 3 sílabas (helado).\n… algo que se rompió y termina con oooooo (huevo).\n… una palabra que tenga 2 sílabas (pastel, flores, perro).\n… algo que rima con “dorado” (colmado).\n… algo que rima con “florería” (panadería).\n… dos cosas que se comen y comienzan con el mismo sonido (pastel y pan).\n… algo que se come que tiene 4 sílabas (zanahoria)."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 3 del fascículo.",
+                            "description": "Completan la actividad del fascículo: Lee los nombres en voz alta y une a cada vendedor con lo que vende. Empiezan con la misma letra.\nAl finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron?\nLos estudiantes exponen sus respuestas. Pasan a la pizarra a mostrar cómo escribieron. Finalmente, el docente observa, escucha y los guía hacia la comprensión de la respuesta correcta. Modeliza la escritura. Todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha y de lo realizado en clase.",
+                            "description": "El docente indica que van a escribir la fecha. Invita a los estudiantes a prolongar los sonidos del nombre del día, sonido por sonido (no por sílaba, sino por letra), (por ejemplo: vvv-iii-eee-rrr-nnn-eee-sss). A medida que va alargando los sonidos, invita a los estudiantes a identificar con qué letra se representa cada uno y a buscarla en su abecedario. El docente las va escribiendo en la pizarra. El mismo procedimiento se repite con el mes. Luego, el docente dice van a escribir en la pizarra y en los cuadernos “Jugamos al Veo, veo de sonidos”, los anima a contar el juego en sus hogares y seguir jugándolo.\nPara ello, el docente escribe en la pizarra las palabras desordenadas de la oración, por ejemplo:\nsonidos. Jugamos de veo al veo\nLes avisa que están las palabras desordenadas y entre todos hay que ordenarlas. Orienta con preguntas: Si queremos escribir “Jugamos al Veo, veo de sonidos”, ¿cuál es la primera palabra? ¿Con qué sonido empieza jjjjugamos? ¿Cómo se escribe ese sonido? ¿Dónde está en el abecedario? ¿Cuál de esas palabras de la pizarra empieza con esa letra?” Continúa con el resto de la frase.\nLuego, los estudiantes copian y el docente revisa las escrituras en el momento."
+                        }
+                    ]
+                }
+            ],
+            "description": "Comprensión y producción de letreros sencillos para identificar espacios, dar indicaciones y comunicar mensajes claros en la escuela y la comunidad."
+        },
+        {
+            "id": "blk-seq-2-lengua-1ro-2",
+            "title": "Bloque 2. Comprensión lectora y gramática",
+            "blockNumber": 2,
+            "activities": [
+                {
+                    "id": "act-letrero-4",
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "Identifican palabras en los letreros y completan letras faltantes.",
+                    "resources": "Imagen 1 del fascículo de estudiantes. Papelógrafo de aprendizajes.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Cuenta cuántas palabras tienen estos letreros:\nColmado Río Grande\nMercadito\nSupermercado La gran oportunidad\nHeladería Bajo cero",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Introducción del bloque. Lectura del papelógrafo de aprendizajes.",
+                            "description": "El docente pide a los estudiantes que compartan la tarea para el hogar. El docente escucha las formas de resolver de los estudiantes y los guía hacia la comprensión de la respuesta correcta. Todos corrigen en sus cuadernos. Luego, el docente y los estudiantes leen el papelógrafo de aprendizajes y marcan todo lo que ya aprendieron."
+                        },
+                        {
+                            "titulo": "Momento 2. Lectura guiada y silenciosa.",
+                            "description": "Buscan la imagen 1 del fascículo y el docente pide a los estudiantes que señalen un letrero. El docente lee cada letrero a medida que los estudiantes lo señalan. Luego de haber leído los letreros en voz alta, el docente les indica que los lean por sí mismos en silencio. Les da tiempo, atiende y responde a sus preguntas."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 4 (A) del fascículo.",
+                            "description": "De a pares, realizan la actividad del fascículo: ¿Cuántas palabras tiene cada letrero? Cuenta las palabras y escribe la cantidad de palabras. Al finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron? Verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 4. Actividad n.º 4 (B) del fascículo.",
+                            "description": "De a pares, completan la actividad del fascículo: Recorta los letreros y pégalos donde corresponda. (Cortos-Largos: Colmado, Mercadito, Pan, Mango, Especiales, Ñame). Al finalizar, en grupo total, verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 5. Actividad n.º 4 (C) del fascículo.",
+                            "description": "De a pares, completan la actividad del fascículo: Se perdieron las letras de los letreros. ¿Puedes completarlos? Al finalizar, en grupo total, verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 6. Escritura de la fecha al dictado.",
+                            "description": "El docente indica que van a escribir la fecha, pero esta vez van a escribir el día y el mes escuchando los sonidos de estas palabras (si está comenzando un mes nuevo, se recomienda no dictarlo, sino escribirlo), y después van a revisar cómo lo hicieron entre todos. El docente dicta el día prolongando o aislando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: mmm-aaa-rrr-ttt-eee-ss). Brinda ayuda apoyándose del abecedario en caso de que no reconozcan el sonido y la letra. Luego el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-letrero-5",
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "Conocen nuevas palabras. Leen palabras. Identifican vocales.",
+                    "resources": "No especificados.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Completa las letras que faltan de estas frutas. m__ngo; p__ña; m__lón; fres__; m__nzana; p__ra. Al terminar, léelas en voz alta para algún familiar.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que compartan la tarea para el hogar. El docente escucha las formas de resolver de los estudiantes y los guía hacia la comprensión de la respuesta correcta. Todos corrigen en sus cuadernos."
+                        },
+                        {
+                            "titulo": "Momento 2. Ampliación del vocabulario.",
+                            "description": "El docente anuncia a los estudiantes que van a conocer un poco más sobre lo que hay en cada negocio:\nViendo el letrero, ¿qué se imaginan que se vende en el mercadito? ¿Qué pueden ver en la imagen? ¿Qué más se imaginan que hay y que no se ve? Vuelven a mirar la imagen 1 del fascículo para estudiantes y conversan. El docente toma nota en la pizarra de las frutas y víveres que van diciendo. Las anota en 2 columnas. Cuando ya dijeron 3 o 4 ejemplos de cada columna, menciona que los que están en la primera columna se les conoce como frutas y los de la segunda, como víveres.\nPor ejemplo:\nFrutas: Mango, Melón, Piña\nVíveres: Papa, Batata, Ñame"
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 5 (A) del fascículo.",
+                            "description": "Completan la actividad del fascículo: Une con una flecha la imagen con la palabra (melón, mango, yuca, papa). Al finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron? Verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 4. Actividad n.º 5 (B) del fascículo.",
+                            "description": "Completan la actividad del fascículo: Lee los letreros y colorea las vocales.\nAl finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron? Verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha al dictado.",
+                            "description": "El docente indica que van a escribir la fecha, pero esta vez van a escribir el día y el mes escuchando los sonidos de estas palabras (si está comenzando un mes nuevo, se recomienda no dictarlo, sino escribirlo), y después van a revisar cómo lo hicieron entre todos. El docente dicta el día prolongando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: mmm-aaa-rrr-ttt-eee-ss). Brinda ayuda apoyándose del abecedario en caso de que no reconozcan el sonido y la letra. Luego el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-letrero-6",
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "Conocen nuevas palabras. Arman palabras con letras móviles.",
+                    "resources": "Imagen 1 del fascículo de estudiantes. Letras móviles para armar 4 palabras seleccionadas.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Lee en voz alta las siguientes palabras. Luego, copia las palabras que comienzan con a: casabe, arroz, café, azúcar, miel.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que voluntariamente cuenten cómo resolvieron la tarea para el hogar y si pueden leer en voz alta la palabra que formaron."
+                        },
+                        {
+                            "titulo": "Momento 2. Ampliación del vocabulario.",
+                            "description": "El docente anuncia a los estudiantes que van a continuar conociendo un poco más sobre lo que hay en otro de los negocios, en este caso, el colmado. Abre una conversación: ¿Fueron alguna vez a un colmado? ¿Cómo es? ¿Qué se puede comprar allí? Inicia una conversación para que compartan sus experiencias y saberes previos. Mientras conversan, anota en la pizarra algunos productos. Se sugiere anotar todos los que digan y, luego, focalizar en la escritura de los más sencillos o habituales, por ejemplo: pan, café, azúcar, fideos, arroz, jugo, etc."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 6 del fascículo.",
+                            "description": "De a pares, completan la actividad del fascículo: Recorta las tarjetas de letras y arma las palabras de los letreros (pan, café, casabe, arroz).\nAl finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron? Verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha al dictado.",
+                            "description": "El docente indica que van a escribir la fecha, pero esta vez van a escribir el día y el mes escuchando los sonidos de estas palabras (si está comenzando un mes nuevo, se recomienda no dictarlo, sino escribirlo), y después van a revisar cómo lo hicieron entre todos. El docente dicta el día prolongando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: mmm-aaa-rrr-ttt-eee-ss). Brinda ayuda apoyándose del abecedario en caso de que no reconozcan el sonido y la letra. Luego el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-letrero-7",
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "Juegan con los sonidos y la escritura de las palabras.",
+                    "resources": "Imagen 1 del fascículo de estudiantes. Letras móviles para armar 4 palabras seleccionadas.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Lee en voz alta las siguientes palabras. ¿Cuál comienza con C? Copia en tu cuaderno sólo las palabras que comienzan con c: mango, calle, colmado, jugo.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que voluntariamente cuenten cómo resolvieron la tarea para el hogar y si pueden leer en voz alta las palabras que escribieron."
+                        },
+                        {
+                            "titulo": "Momento 2. Juego: la palabra misteriosa.",
+                            "description": "El docente divide a la clase en cuatro grupos. El docente dice pistas para adivinar un puesto de venta. El grupo que adivina pasa a la pizarra a intentar escribirla. Todos los integrantes del grupo colaboran para poder escribir la palabra. Por ejemplo:\n● Estoy pensando en una palabra que empieza con /m/ y es un lugar donde venden frutas (mercadito).\n● Estoy pensando en una palabra que empieza con /p/ y es donde venden pan.\n● Es un lugar que rima con “alado” y empieza con el sonido /k/.\n● Es un lugar donde se compra helado."
+                        },
+                        {
+                            "titulo": "Momento 3. Juego para armar palabras.",
+                            "description": "Los estudiantes continúan trabajando en los mismos 4 grupos. El docente prepara 4 palabras con tarjetas de letras. Deben ser palabras que se hayan trabajado en la clase. Por ejemplo: colmado; mercadito; frutas; víveres; útiles. Le entrega a cada grupo una palabra en tarjeta de letras, desarmada. El docente escribe en la pizarra una de esas palabras. Cada grupo tiene que decir si tiene esa palabra o no e intentar armarla. Mientras el grupo arma la palabra, los otros grupos responden:\n● ¿Cuántas sílabas tiene esa palabra?\n● ¿Pueden separarla en sílabas?\n● ¿Cuántas letras tiene esa palabra?\n● ¿Quién puede decir cómo suena la primera letra?\n● ¿Quién puede decir cómo suena la última letra?\n● ¿Quién puede decir otra palabra que inicie igual?\n● ¿Quién puede decir otra palabra que termine igual?"
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha al dictado.",
+                            "description": "El docente indica que van a escribir la fecha, pero esta vez van a escribir el día y el mes escuchando los sonidos de estas palabras (si está comenzando un mes nuevo, se recomienda no dictarlo, sino escribirlo), y después van a revisar cómo lo hicieron entre todos. El docente dicta el día prolongando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: jj-uuu-eee-vvv-eee-ss). Brinda ayuda apoyándose del abecedario en caso de que no reconozcan el sonido y la letra. Luego el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento.\nLuego el docente explica que escribirán la frase “Hoy jugamos con palabras.” para que recuerden lo que hicieron. Para ello, escribe las palabras desordenadas en la pizarra:\npalabras. jugamos Hoy con\nAvisa que están las palabras desordenadas y entre todos tienen que ordenarlas. Orienta con preguntas: Si queremos escribir “Hoy jugamos con palabras”, ¿cuál es la primera palabra de la frase?, ¿con qué sonido empieza la palabra “hoy”? El docente debe explicar que no todas las palabras se escriben tal cual suenan, por ejemplo, “hoy” empieza con el sonido oooo, pero lleva una letra que es la “h” que no tiene sonidos. Da ejemplo de otras palabras que empiezan con H (hola, helado). Además, explica que algunos sonidos tienen dos o más formas de escribirse, por ejemplo: el último sonido de la palabra “hoy” es iiii. Pero no se escribe con i, sino con la y. Orienta con preguntas para armar la frase completa, por ejemplo, ¿cómo empieza la palabra jjjjugamos? La buscan en el abecedario, ¿cuál de las palabras empieza con esa letra? Hace lo mismo con el resto de las palabras. Explica que entre palabra y palabra debemos deja un espacio. Los estudiantes copian y el docente revisa las escrituras en el momento."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "blk-seq-2-lengua-1ro-3",
+            "title": "Bloque 3. Producción escrita",
+            "blockNumber": 3,
+            "activities": [
+                {
+                    "id": "act-letrero-8",
+                    "title": "ACTIVIDAD 8",
+                    "pedagogicalIntention": "Recuerdan lo trabajado y planifican el proyecto final.",
+                    "resources": "No especificados.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Familia: Por favor, envíen materiales para jugar a hacer un puesto de venta, como envases vacíos o recortes de periódicos o revistas. El negocio es: __________________________________",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que cuenten cómo resolvieron la tarea y que lean en voz alta las palabras que copiaron en casa."
+                        },
+                        {
+                            "titulo": "Momento 2. Introducción del bloque. Lectura del papelógrafo de aprendizajes.",
+                            "description": "El docente y los estudiantes leen el papelógrafo de aprendizajes y marcan todo lo que ya aprendieron. Se sugiere que los estudiantes hagan una marca, como un círculo o una cruz, al lado de los aprendizajes completados. Esto ayudará a reforzar la conciencia gráfica y la lectura.\nEl docente menciona lo que falta realizar, como:\n● Escribir un letrero para jugar a vender.\n● Crear un puesto de venta para usar el letrero."
+                        },
+                        {
+                            "titulo": "Momento 3. Organización del proyecto final.",
+                            "description": "El docente organiza los grupos y conversan sobre los negocios que estuvieron trabajando y los carteles que leyeron. Puede volver a mostrar la imagen 1 del fascículo. A medida que nombran negocios, recuerdan cuáles productos pueden conseguir allí. Por ejemplo: ¿Qué se puede comprar en una panadería? ¿Qué se puede conseguir en un colmado? Para cerrar, el docente pregunta a cada grupo cuál negocio les gustaría armar. El docente registra los comercios en la pizarra."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha al dictado y copia del comercio elegido.",
+                            "description": "El docente indica que van a escribir la fecha al dictado, van a escribir el día y el mes escuchando los sonidos de estas palabras (si está comenzando un mes nuevo, se recomienda no dictarlo, sino escribirlo), y después van a revisar cómo lo hicieron entre todos. El docente dicta el día prolongando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: jj-uuu-eee-vvv-eee-ss). Brinda ayuda apoyándose del abecedario en caso de que no reconozcan el sonido y la letra. Luego el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento.\nLuego, cada estudiante escribe el comercio que eligió con su grupo, el docente orienta sobre cómo escribir esas palabras y realiza las revisiones."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-letrero-9",
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "Escriben letreros.",
+                    "resources": "Tarjetas en blanco para hacer carteles. Letreros que trae el docente. Hojas borrador con renglones. Tarjeta en blanco para escribir su letrero.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Cuéntale a tu familia cuál letrero de negocio escribieron tú y tus compañeros en clase.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que muestren los materiales o recortes que trajeron de la casa."
+                        },
+                        {
+                            "titulo": "Momento 2. Planificación de la escritura.",
+                            "description": "El docente menciona que van a escribir los carteles para el puesto de venta. Para eso, retoma la función comunicativa del letrero. Se invita a los estudiantes a observar los letreros de la imagen del fascículo y los que aporte el docente."
+                        },
+                        {
+                            "titulo": "Momento 3. Escritura del borrador.",
+                            "description": "Cada grupo escribe el letrero del negocio elegido en una hoja suelta con líneas."
+                        },
+                        {
+                            "titulo": "Momento 4. Comparación de escrituras.",
+                            "description": "Después de escribir, el docente escribe la versión completa y convencional en la parte superior del borrador de los estudiantes. Los estudiantes comparan ambas versiones, observando cuáles letras o palabras lucen distintas, para ayudar en el reconocimiento de patrones gráficos y en la práctica de la corrección de escritura. Puede dar ejemplos en la pizarra para que todos participen."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura del letrero final.",
+                            "description": "Los estudiantes escriben su letrero final en una tarjeta en blanco y lo decoran. El docente puede pedir que agreguen algún dibujo o símbolo relacionado con el producto."
+                        },
+                        {
+                            "titulo": "Momento 6. Escritura de la fecha al dictado de los estudiantes.",
+                            "description": "El docente indica que van a escribir la fecha al dictado, pero que los estudiantes lo van a orientar. El docente no habla, solo escucha. Ellos deben prolongar o aislar cada sonido e indicar cuando termina la palabra y el docente debe dejar un espacio. Deben decir la fecha prolongando o aislando cada sonido. El docente escribe guiado por los estudiantes. Luego todos escriben en su cuaderno la fecha. El docente revisa las escrituras en el momento."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-letrero-10",
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "Recuerdan lo aprendido en la secuencia. Escriben palabras aprendidas.",
+                    "resources": "No especificados.",
+                    "homework": "No especificada.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Revisión del papelógrafo y reflexión final:",
+                            "description": "El docente propone que se sienten en una ronda y muestra la imagen 1 del fascículo. Entre todos comentan si en esa imagen encuentran los letreros que ellos crearon. Los estudiantes comparten su experiencia y comentan qué fue lo que más les gustó y lo que les resultó más difícil. Comunica que van a guardar todos los materiales del puesto de venta para jugar a comprar y vender otro día, cuando tengan listas de compras."
+                        },
+                        {
+                            "titulo": "Momento 2. Revisión del papelógrafo:",
+                            "description": "Entre todos, comentan los aprendizajes realizados. Guardan los letreros para ser utilizados en la calle comercial que crearán en la siguiente secuencia."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 10 del fascículo: “Palabras aprendidas”",
+                            "description": "Lee las palabras del vocabulario en el fascículo y realiza la actividad:\nOrdena las letras para formar las palabras que aprendiste en esta secuencia. Al finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron? Verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos.\nFascículo: letrero, mercadito, colmado, frutas, víveres, útiles\n¡Se mezclaron las letras! Ordénalas para formar las palabras que aprendiste.\nl e t r e r o __ __ __ __ __ __ __\nc o l m a d o __ __ __ __ __ __ __\nf r u t a s __ __ __ __ __ __ __\nCierre: Agradece a los estudiantes por su esfuerzo y compromiso."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

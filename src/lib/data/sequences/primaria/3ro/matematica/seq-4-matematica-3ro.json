@@ -1,0 +1,112 @@
+{
+    "id": "seq-1769406768879",
+    "subjectId": "matematica-3ro",
+    "title": "¿A QUÉ JUGAMOS?",
+    "blocks": [
+        {
+            "id": "block-mat-3ro-seq4-b1",
+            "title": "Bloque 1",
+            "activities": [
+                {
+                    "id": "block-mat-3ro-seq4-b1-act-1",
+                    "title": "Actividad 1",
+                    "pedagogicalIntention": "analicen gráficos de barras."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b1-act-2",
+                    "title": "Actividad 2",
+                    "pedagogicalIntention": "construyan un gráfico de barras con apoyo de una cuadrícula."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b1-act-3",
+                    "title": "Actividad 3",
+                    "pedagogicalIntention": "encuentren diversas operaciones que permitan obtener un resultado dado."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b1-act-4",
+                    "title": "Actividad 4",
+                    "pedagogicalIntention": "identifiquen la importancia del 0 para guardar posición."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b1-act-5",
+                    "title": "Actividad 5",
+                    "pedagogicalIntention": "lean, escriban y ordenen números de cuatro cifras con un 0 intermedio."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b1-act-6",
+                    "title": "Actividad 6",
+                    "pedagogicalIntention": "resuelvan problemas que requieren equivalencias entre decenas, centenas y unidades de mil."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b1-act-7",
+                    "title": "Actividad 7",
+                    "pedagogicalIntention": "resuelvan cálculos apoyándose en la descomposición aditiva de números según valor posicional."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b1-act-8",
+                    "title": "Actividad 8",
+                    "pedagogicalIntention": "repasen algunos de los contenidos trabajados."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b1-act-9",
+                    "title": "Actividad 9. RECAPITULACIÓN",
+                    "pedagogicalIntention": "repasen algunos de los contenidos trabajados."
+                }
+            ],
+            "blockNumber": 1
+        },
+        {
+            "id": "block-mat-3ro-seq4-b2",
+            "title": "Bloque 2",
+            "activities": [
+                {
+                    "id": "block-mat-3ro-seq4-b2-act-10",
+                    "title": "Actividad 10",
+                    "pedagogicalIntention": "interpreten gráficas de barras para resolver problemas con números de tres dígitos."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b2-act-11",
+                    "title": "Actividad 11",
+                    "pedagogicalIntention": "identifiquen patrones en el cuadro de multiplicaciones hasta el 10 y relacionen cálculos para obtener resultados de otros."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b2-act-12",
+                    "title": "Actividad 12",
+                    "pedagogicalIntention": "reconstruyan resultados multiplicativos por duplicaciones y escalas."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b2-act-13",
+                    "title": "Actividad 13",
+                    "pedagogicalIntention": "resuelvan problemas que involucren más de una operación."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b2-act-14",
+                    "title": "Actividad 14",
+                    "pedagogicalIntention": "afiancen estrategias aditivas para resolver problemas de reparto equitativo con residuo cero."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b2-act-15",
+                    "title": "Actividad 15",
+                    "pedagogicalIntention": "resuelvan problemas de distribución en partes iguales con residuo distinto de cero."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b2-act-16",
+                    "title": "Actividad 16",
+                    "pedagogicalIntention": "analicen el cuadro de multiplicaciones y ubiquen el factor faltante en una multiplicación."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b2-act-17",
+                    "title": "Actividad 17. Producción Final",
+                    "pedagogicalIntention": "repasen algunos contenidos trabajados."
+                },
+                {
+                    "id": "block-mat-3ro-seq4-b2-act-18",
+                    "title": "Actividad 18. Cierre de la secuencia y metacognición",
+                    "pedagogicalIntention": "reflexionen sobre lo realizado y aprendido durante la secuencia."
+                }
+            ],
+            "blockNumber": 2
+        }
+    ],
+    "gradeId": "primaria-3ro"
+}

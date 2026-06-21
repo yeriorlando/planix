@@ -1,0 +1,672 @@
+{
+  "id": "seq-1772402589305",
+  "title": "Números naturales y números enteros",
+  "description": "Trabaja la comprensión y uso de los números naturales y enteros en situaciones de la vida cotidiana.",
+  "order": 1,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772404070377",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Números naturales",
+      "intencion_pedagogica": "Utilizar los números naturales en problemas de la vida cotidiana y expresar su notación desarrollada.",
+      "estrategia": "• Diálogo dirigido: Preguntas exploratorias sobre números naturales.",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre situaciones cotidianas donde utilizan números naturales (contar objetos, operaciones bancarias, cheques), conectando así el contenido matemático con su vida diaria y el contexto financiero.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Durante el juego, se les asigna un compañero tutor que los ayude a identificar la notación desarrollada correcta.\n• Para estudiantes kinestésicos: Pueden manipular físicamente las cartas y el tablero, lo que facilita su aprendizaje.\n• Para estudiantes con discapacidad visual: Se les proporciona el tablero y las cartas en formato ampliado y con alto contraste.\n• Para estudiantes avanzados: Se les pide que creen tres cartas adicionales con números de su invención para intercambiar con otros grupos.",
+      "actividades_cuaderno": "Título: Notación desarrollada\nResuelve la siguiente problemática:\n\"Un banco de la República Dominicana emite un cheque de RD$ 875,709 para pagar su consumo de combustible. ¿Cuál es la notación desarrollada del valor del cheque? ¿Cómo se escribe en palabras?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente conversa con los estudiantes sobre números naturales y su notación desarrollada (pág. 10).\n2. Formula preguntas:\n- \"¿Qué son números naturales? Da ejemplos.\"\n- \"¿Para qué sirven?\"\n- \"¿Cuál es su primer elemento?\"\n- \"¿Qué característica de los números naturales puedes mencionar?\"\n- \"¿Qué es notación desarrollada de un número natural? Da ejemplos.\"\n- \"¿Cuál es la notación desarrollada de 524?\"\n3. Invita a un estudiante a pasar a la pizarra para que escriba su solución.\n4. Construyen entre todos el concepto apoyados en la cápsula (pág. 10).",
+          "actividad_numero": "Actividad 1 - A (Pág. 10)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tablero de notación desarrollada (Anexo, pág. 51)\n• Cartas con números (Anexo, pág. 51)\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente explica que aprenderán jugando sobre la notación desarrollada de números naturales (pág. 10).\n2. Presenta las reglas del juego:\n- Se usa un tablero por equipo de cuatro participantes, con la notación desarrollada y 20 cartas con la forma estándar del número.\n- Cada jugador coloca 5 cartas marcadas con la misma letra en el tablero para identificarlas.\n- Las cartas se colocan boca abajo en la mesa en cuatro grupos (A, B, C, D).\n- Cada integrante toma una carta por ronda, busca la notación desarrollada que corresponde al número en el tablero y la coloca boca arriba.\n- Se repite el proceso hasta terminar. Gana quien coloque primero todas sus cartas sin errores.\n3. Entrega el tablero y las 20 cartas por equipo (Anexos, pág. 51).\n4. Solicita que lleven registro en sus cuadernos de cada carta que coloquen.\n5. Hace una prueba de juego y luego inician estableciendo el tiempo de juego.\n6. Después de jugar, trabaja el error constructivo con los estudiantes que cometieron errores.\n7. Orienta la conversación con preguntas:\n- \"¿Quiénes ganaron?\"\n- \"¿Qué hacían para colocar la carta en el tablero?\"\n- \"¿Qué registraron en sus cuadernos?\"\n8. Explica usando la tabla de valor posicional (pág. 11).",
+          "actividad_numero": "Actividad 1 - B (Pág. 10-11)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Video\n• Proyector/TV\n• Computadora\n• Parlantes",
+          "descripcion": "1. El docente presenta el video \"Notación desarrollada, fácil y divertido\" disponible en: https://www.youtube.com/watch?v=9Wytdpa2v9o (hasta el minuto 1:42) (pág. 11).\n2. Después del video, conduce el diálogo con preguntas:\n- \"¿De qué trata el video?\"\n- \"¿Cómo se descomponen los números de forma aditiva?\"\n- \"¿Cuáles operaciones usa la notación desarrollada?\"\n- \"¿Cuál es la relación de la descomposición aditiva y la notación desarrollada?\"\n3. Escucha las respuestas y guía de forma asertiva.\n4. Asigna la actividad para el cuaderno.",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 11)"
+        }
+      ]
+    },
+    {
+      "id": "1772404659220",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Números enteros - Introducción",
+      "intencion_pedagogica": "Escribir y representar los números enteros en situaciones de la vida diaria.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del cuaderno.\n• Uso de video: \"Qué son los números enteros y para qué sirven\".\t\t\t\t\n• Diálogo dirigido: Construcción del concepto de números enteros.\t\t\t\t\n• Trabajo individual: Resolución de situaciones problemáticas.",
+      "aprendizaje_significativo": "Los estudiantes relacionan los números enteros con situaciones cotidianas como deudas, depósitos bancarios, temperaturas bajo cero y profundidades, conectando así el concepto abstracto con experiencias reales de su entorno.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una lista de palabras clave que representan números enteros (deuda = negativo, depósito = positivo, bajo cero = negativo).\n• Para estudiantes kinestésicos: Pueden representar en una recta numérica dibujada en el piso con tiza los números enteros, caminando hacia la izquierda (negativos) y derecha (positivos).\n• Para estudiantes con discapacidad visual: Se les proporciona una recta numérica táctil con relieve para identificar las posiciones.\n• Para estudiantes avanzados: Se les pide que inventen dos situaciones cotidianas más que se representen con números enteros.",
+      "actividades_cuaderno": "Actividad para el cuaderno:\n1. El Titanic se encuentra sumergido en el océano Atlántico a 3,800 m.\n2. Alexander deposita en sus ahorros RD$ 5,525.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores\n• Cuadernos",
+          "descripcion": "1. El docente pregunta por la actividad del diario del estudiante (pág. 12).\n- \"¿Cómo la realizaron?\"\n- \"¿Cuál fue la notación desarrollada obtenida?\"\n- \"¿Quiénes no pudieron hacer la actividad? ¿Por qué?\"\n2. Envía algunos estudiantes a la pizarra a realizar la actividad y los orienta si es necesario.",
+          "actividad_numero": "Actividad 2 - A (Pág. 12)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video\n• Proyector/TV\n• Computadora\n• Recta numérica en cartulina\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué son números enteros? ¿Cómo está formado el conjunto de los números enteros?\" (pág. 12).\n2. Presenta el video \"Qué son los números enteros y para qué sirven\" disponible en: https://www.youtube.com/watch?v=5HE66809NYI (pág. 12).\n3. Después del video, inicia un diálogo con preguntas:\n- \"¿Cómo surgen los números enteros?\"\n- \"¿Con cuáles números se representan las temperaturas bajo cero?\"\n- \"¿Cómo escribirían 15 m bajo el mar?\"\n- \"¿Cuál número entero representa una deuda de RD$ 500?\"\n- \"¿Cuáles números están a la izquierda del cero en la recta numérica?\"\n4. Presenta la recta numérica en una cartulina o papelógrafo (pág. 12).\n5. Construyen el concepto de números enteros de forma colaborativa con la cápsula (pág. 12).\n\nActividad 2 - Situaciones problemáticas (30 min):\n1. El docente plantea las situaciones de la página 12-13:\n- \"Manuel tiene una deuda con el banco de RD$ 285,275.\"\n- \"Un cliente retira de sus ahorros RD$ 175,250.\"\n- \"El submarino viaja a una profundidad de 285 m.\"\n2. Pide a un estudiante que lea cada situación.\n3. Los estudiantes trabajan en sus cuadernos escribiendo el número entero correspondiente.\n4. El docente recorre el salón observando el trabajo.\n5. Terminado el tiempo, envía a la pizarra a resolverlas de forma colaborativa.",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 12-13)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente asigna la actividad para el cuaderno (pág. 13):\n- \"El Titanic se encuentra sumergido en el océano Atlántico a 3,800 m.\"\n- \"Alexander deposita en sus ahorros RD$ 5,525.\"\n2. Para afianzar lo trabajado, plantea situaciones finales (pág. 13):\n- \"Son números enteros comprendidos entre –3 y 0. ¿Cuáles pueden ser?\"\n- \"Es un número entero comprendido entre –1 y 1. ¿Qué número es?\"\n- \"Es un número entero entre –8 y –10. ¿Cuál es?\"\n- \"Es un número entero que es sucesor de 8. ¿Cuál es?\"\n- \"¿Son los números enteros que están a la izquierda de cero en la recta numérica?\"",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 13)"
+        }
+      ]
+    },
+    {
+      "id": "1772456444398",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Orden y comparación de números enteros",
+      "intencion_pedagogica": "Ordenar y comparar números enteros usando la recta numérica.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del cuaderno.\n• Uso de recta numérica: Representación gráfica para comparación.\t\t\t\t\n• Trabajo colaborativo: Resolución de ejercicios en la pizarra.\t\t\t\t\n• Juego \"Veo veo\" para el cierre.",
+      "aprendizaje_significativo": "Los estudiantes aplican la comparación de números enteros a situaciones de deudas y depósitos bancarios, comprendiendo que tener una deuda mayor significa un número más negativo y, por tanto, menor.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una recta numérica impresa para que marquen los números antes de compararlos.\n• Para estudiantes kinestésicos: Pueden representar los números en una recta numérica dibujada en el piso y ubicarse ellos mismos en las posiciones correspondientes.\n• Para estudiantes con discapacidad visual: Se les proporciona una recta numérica táctil con marcadores en relieve.\n• Para estudiantes avanzados: Se les pide que ordenen de mayor a menor y expliquen la diferencia con el orden ascendente.",
+      "actividades_cuaderno": "\"Las deudas contraídas por cuatro clientes en una Cooperativa de Santo Domingo para la compra de automóviles y depósitos de dos clientes en un día de enero 2024 son: Pedro RD$ 600,000; Roberto RD$ 450,000; Abigail RD$ 300,000; Isaías RD$ 150,000. Y depósitos Julia RD$ 850,000 y Rosa RD$ 700,000. Representa en una recta numérica las deudas y depósitos. Compáralos.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué número entero representa la deuda de la familia Jiménez? ¿Por qué?\" (pág. 14).\n2. \"¿Cuál número entero representa el depósito de Mélida? ¿Por qué?\"\n3. Escucha y orienta la importancia de los números enteros.\n4. Anuncia que hoy aprenderán las reglas para ordenar y comparar números enteros.",
+          "actividad_numero": "Actividad 3 - A (Pág. 14)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Recta numérica en cartulina\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente genera un diálogo con preguntas (pág. 14):\n- \"¿Cuáles son los dos números enteros más cercanos a –10?\"\n- \"¿Cuáles son los dos números enteros más cercanos a 8?\"\n- \"¿Cuál es mayor de esos números enteros?\"\n- \"¿Cómo ordenarían esos números de mayor a menor?\"\n- \"¿Cuáles signos se usan para comparar?\"\n2. Presenta el ejemplo de comparación de 5 y 10 en la recta numérica (pág. 14).\n\nActividad 2 - Ejercicios de orden y comparación (30 min):\n1. El docente plantea los ejercicios de la página 14: \"Ordena de menor a mayor y compara 3 pares de los siguientes números enteros: A(–15), B(4), C(7), D(–1), E(–4), F(14), G(0), H(–20), I(3), J(–9), K(–18) y L(20).\"\n2. Los estudiantes trabajan en sus cuadernos.\n3. El docente monitorea y apoya.\n4. Pide a un estudiante que resuelva en la pizarra.\n5. Socializan usando el cuadro de la página 15.\n\nActividad 3 - Análisis (15 min):\n1. El docente pregunta: \"¿Por qué 0 > –1?\"\n2. \"¿Cuáles números son menores que 0?\"\n3. Construyen la cápsula: \"Dados dos números enteros sobre la recta numérica, es menor el que queda a la izquierda con respecto del otro.\"",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 14-15)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente realiza el juego \"Veo veo\" para afianzar lo trabajado (pág. 15):\n- \"Veo veo, ¿qué ves? Un número entero a la derecha de –100,000, ¿cuál puede ser?\"\n- \"Veo veo, ¿qué ves? La menor deuda de la actividad para el cuaderno, ¿cuál es?\"\n- \"Veo veo, ¿qué ves? La mayor deuda de la actividad para el cuaderno, ¿cuál es?\"\n2. Asigna la actividad para el cuaderno (pág. 15): \"Representa en una recta numérica las deudas y depósitos. Compáralos.\"",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 15)"
+        }
+      ]
+    },
+    {
+      "id": "1772456587208",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Suma y resta de números enteros - Introducción",
+      "intencion_pedagogica": "Sumar y restar números enteros utilizando distintas estrategias (descomposición, forma tradicional, recta numérica).",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del cuaderno.\n• Resolución de ejemplos: Aplicación de reglas de suma y resta.\t\t\t\t\n• Trabajo individual: Resolución de situación problemática.\t\t\t\t\n• Uso de recta numérica: Representación gráfica de operaciones.",
+      "aprendizaje_significativo": "Los estudiantes aplican la suma y resta de números enteros a situaciones bancarias reales (deudas, extracréditos, pagos), comprendiendo cómo estas operaciones afectan su saldo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una recta numérica impresa para que representen gráficamente los movimientos.\n• Para estudiantes kinestésicos: Pueden simular los movimientos en una recta numérica dibujada en el piso, avanzando hacia la izquierda (negativo) o derecha (positivo).\n• Para estudiantes con discapacidad visual: Se les proporciona la recta numérica táctil y fichas con relieve para representar los números.\n• Para estudiantes avanzados: Se les pide que resuelvan el problema también utilizando la descomposición aditiva y comparen los resultados.",
+      "actividades_cuaderno": "\"La familia Quezada tiene una deuda con el banco de RD$ 150,000 y luego, realizan un pago de RD$ 95,000. ¿Qué balance tiene su cuenta después del pago?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué número entero representa el tercer retiro? ¿Por qué?\" (pág. 16).\n2. \"¿Cuál número entero representa el primer depósito? ¿Por qué?\"\n3. \"¿Cuál retiro está más cerca de cero?\"\n4. Escucha y orienta.\n5. Anuncia que hoy aprenderán sobre suma y resta de números enteros.",
+          "actividad_numero": "Actividad 4 - A (Pág. 16)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Recta numérica en cartulina\n",
+          "descripcion": "1. El docente plantea los ejemplos de la página 16:\na. –48 + 28 =\nb. –25 – 15 =\nc. –30 + 80 =\nd. 14 + 28 =\n2. Motiva a voluntarios a pasar a la pizarra.\n3. Construyen entre todos las reglas: signos iguales se suman, signos diferentes se restan y se coloca el signo del mayor.\n\nActividad 2 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 16): \"La señora Linares tiene una deuda con el banco de RD$ 105,000, y gasta también el extracrédito que le ofrece el banco de RD$ 25,000. Días después ella realiza un pago de RD$ 65,000. ¿Qué balance tiene su cuenta después del pago realizado?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo creen que se resuelve? ¿Qué tipo de números enteros son las deudas y los pagos?\"\n4. Da tiempo para resolver en cuadernos.\n5. Pide a un estudiante que resuelva en la pizarra.\n6. Socializa con el cuadro de la página 17, mostrando descomposición, forma tradicional y recta numérica.\n\nActividad 3 - Cápsula (15 min):\n1. Presenta la cápsula sobre valor absoluto y reglas de suma y resta (pág. 17).",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 16-18)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 18): \"La familia Quezada tiene una deuda con el banco de RD$ 150,000 y luego, realizan un pago de RD$ 95,000. ¿Qué balance tiene su cuenta después del pago?\"\n2. Mientras resuelven, recorre las mesas y apoya.\n3. Para cerrar, pregunta: \"¿Cómo resolvieron las deudas? ¿Qué operación se realiza en la recta moviéndose hacia la izquierda o hacia la derecha?\"",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 18)"
+        }
+      ]
+    },
+    {
+      "id": "1772456672657",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "(Suma y resta de números enteros - Juego",
+      "intencion_pedagogica": "Resolver situaciones de la vida cotidiana haciendo uso de sus conocimientos matemáticos sobre la suma y la resta de números enteros mediante un juego interactivo.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del cuaderno.\n• Uso de material didáctico: Juego de cartas con números enteros.\n• Trabajo en equipos: Juego colaborativo de suma y resta.\n• Diálogo dirigido: Reflexión sobre estrategias utilizadas en el juego.\n• Construcción colectiva: Elaboración de tabla de suma y resta de números enteros.\n• Registro escrito: Anotación de cálculos en el cuaderno durante el juego.",
+      "aprendizaje_significativo": "Los estudiantes aprenden jugando a sumar y restar números enteros en un contexto lúdico que simula situaciones de ganancias y pérdidas, comprendiendo de manera práctica las reglas de los signos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de apoyo con ejemplos de suma y resta de números enteros para consultar durante el juego.\n• Para estudiantes kinestésicos: El juego mismo es una actividad kinestésica que facilita su aprendizaje a través de la manipulación de cartas y el registro en la recta numérica.\n• Para estudiantes con discapacidad visual: Se les proporciona la recta numérica en formato ampliado y con relieve, y las cartas en tamaño grande y alto contraste.\n• Para estudiantes avanzados: Se les pide que expliquen a sus compañeros las estrategias que utilizaron para resolver rápidamente las operaciones.",
+      "actividades_cuaderno": "Copia en tu cuaderno el registro de las operaciones que realizaste durante el juego, incluyendo la carta de inicio, las cartas que sacaste y los resultados obtenidos.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente conversa con los estudiantes sobre la actividad del diario del estudiante (pág. 19): \"¿Cómo resolvieron el problema del tanque de leche? ¿Cuál fue el resultado? ¿Qué les resultó interesante?\"\n2. Invita a algunos estudiantes a pasar a la pizarra para que muestren su solución.\n3. Guía el proceso de forma asertiva.\n4. Anuncia que hoy continuarán aprendiendo sobre suma y resta de números enteros a través de un juego.",
+          "actividad_numero": "Actividad 5 - A (Pág. 19)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Recta numérica (Anexo, pág. 52)\n• Cartas del juego (Anexo, pág. 52)\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente pregunta: \"¿A quiénes les gusta jugar para aprender?\" (pág. 19).\n2. Presenta las reglas del juego (pág. 19):\n- Se usa una recta numérica (anexo de la actividad 5) por equipo de cuatro participantes, con los números enteros y 21 cartas por equipo.\n- Cada jugador usa 5 cartas tomadas una por una en las rondas. Se colocan 20 cartas boca abajo y una boca arriba llamada carta de inicio, de un color diferente (ver anexo).\n- El número entero que salga en la carta de inicio se marca en la recta numérica con la letra I.\n- Las cartas son tomadas al mismo tiempo por los participantes.\n- Al iniciar el juego, toman una carta; resuelven la suma o resta con la carta de inicio en su cuaderno, usando procedimientos ya trabajados; marcan el resultado en la recta numérica con la letra inicial de su primer nombre.\n- Cuando un participante termine, puede tomar la siguiente carta.\n- Se repite el paso 5 hasta agotar las 5 cartas de cada participante. Pueden ocurrir empates y los ganadores serán los que no cometan errores y terminen primero. Aunque algunos terminen primero, debe cumplirse el tiempo indicado del juego.\n3. Entrega la recta numérica y las 21 cartas recortadas para cada equipo (Anexos, pág. 52).\n4. Solicita que lleven registro en sus cuadernos de cada carta que sumen o resten a la carta de inicio y el registro en la recta.\n5. Hace una prueba de juego y luego lo inicia estableciendo el tiempo.\n6. Después de jugar, trabaja el error constructivo con los estudiantes que cometieron errores.\n7. Orienta la conversación con preguntas (pág. 19):\n- \"¿Quiénes ganaron? ¿Por qué ganaron?\"\n- \"¿Qué hacían si salía –200?\"\n- \"¿Cómo resolvieron dos números de igual signo?\"\n- \"¿Cómo resolvieron dos números de signos diferentes?\"",
+          "actividad_numero": "Actividad 5 - B (Pág. 19-20)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente construye entre todos la tabla de suma y resta de números enteros (pág. 20).\n2. Asigna la actividad para el cuaderno: \"El registro del juego anterior\" (pág. 20).\n3. Indica la actividad complementaria: \"Se vuelve a jugar el juego anterior cambiando la carta de inicio por –500, usando las mismas reglas\" (pág. 20).\n4. Asigna la actividad para el diario del estudiante: \"Al resolver cálculos de números enteros del juego anterior, Miriam señala que la carta de inicio es –500 y ella saca otra con el –1,750. ¿Cuál será el resultado y qué signo debe colocar?\" (pág. 20).",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 20)"
+        }
+      ]
+    },
+    {
+      "id": "1772456884012",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Estimación de números enteros",
+      "intencion_pedagogica": "Resolver situaciones problemáticas aplicando la estimación de números enteros.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos previos sobre estimación y redondeo.\n• Resolución de problemas: Aplicación de estimación en situaciones bancarias y cotidianas.\n• Trabajo individual: Resolución de ejercicios de estimación.\n• Socialización: Puesta en común de resultados y estrategias.\n• Uso de calculadora: Comprobación de estimaciones.",
+      "aprendizaje_significativo": "Los estudiantes aplican la estimación a situaciones reales como calcular saldos bancarios aproximados, gastos y compras, comprendiendo su utilidad para tomar decisiones rápidas en la vida cotidiana.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para realizar estimaciones, identificando primero la posición a estimar y luego aplicando las reglas de redondeo.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para comprobar sus estimaciones y ver la diferencia entre el valor exacto y el estimado.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y se les ayuda a identificar las posiciones para estimar.\n• Para estudiantes avanzados: Se les pide que expliquen por qué eligieron esa posición para estimar y qué otras posiciones podrían haber elegido.",
+      "actividades_cuaderno": "\"Un estudiante de 6.° abre su alcancía y cuenta RD$ 3,765. Si gasta en dos regalos navideños RD$ 1,167 y RD$ 875, ¿en cuánto estima su gasto?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de Miriam? ¿Cuál fue el resultado? ¿Cuál es el signo resultante? ¿Por qué?\" (pág. 20).\n2. Invita a un estudiante a pasar a la pizarra para que muestre su solución.\n3. Guía el proceso de forma asertiva.\n4. Luego, pregunta para recuperación de saberes previos: \"¿Qué saben sobre estimación de números enteros? ¿Cómo se redondea un número? ¿Cómo estimarían el número -1,058? ¿Por qué? ¿Cuál es la diferencia entre redondeo y estimación?\" (pág. 20).",
+          "actividad_numero": "Actividad 6 - A (Pág. 20)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "1. El docente plantea ejemplos de estimaciones: 2,750 ≈ 3,000; –5,335 ≈ –5,000 (pág. 20).\n2. Pide a los estudiantes que estimen en sus cuadernos.\n3. Socializa los resultados y formula preguntas para retroalimentar.\n\nActividad 2 - Situación problemática (25 min):\n1. El docente plantea la situación (pág. 20): \"Una empresa tiene un balance inicial en su cuenta de banco de RD$ 165,658. Si realiza dos retiros de RD$ 38,456 y RD$ 21,985, ¿en cuánto estimas el balance final?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Qué información aporta el problema? ¿Cómo creen que se resuelve? ¿Cómo piensan estimar los números?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía un voluntario a resolver en la pizarra.\n6. Socializa la solución apoyándose en el cuadro de la página 21.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea la situación (pág. 21): \"Una tienda de venta en línea recibe un pedido de tres celulares, los precios de los celulares son RD$ 25,650, RD$ 47,985 y RD$ 43,700. ¿De cuánto es el monto estimado del pedido?\"\n2. Solicita lectura en voz baja.\n3. Da tiempo para resolver.\n4. Pide a un estudiante pasar a la pizarra.\n5. Socializa con la tabla de la página 21.",
+          "actividad_numero": "Actividad 6 - B y C (Pág. 20-21)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente presenta la cápsula sobre redondeo, estimación, depósito y retiro bancario (pág. 22).\n2. Asigna la actividad para el cuaderno: \"Un estudiante de 6.° abre su alcancía y cuenta RD$ 3,765. Si gasta en dos regalos navideños RD$ 1,167 y RD$ 875, ¿en cuánto estima su gasto?\" (pág. 22).\n3. Para cerrar, realiza preguntas: \"¿Cómo estimarían -32,178? ¿Qué es estimar? ¿Cuál es la diferencia entre redondeo y estimación?\" (pág. 22).\n4. Presenta ejercicios rápidos de estimación en la pizarra.",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 22)"
+        }
+      ]
+    },
+    {
+      "id": "1772457031669",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Multiplicación y división de números enteros - Introducción",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto utilizando la multiplicación y división de números enteros.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos previos sobre multiplicación y división de enteros.\n• Uso de tabla: Presentación de las propiedades de multiplicación y división de enteros.\n• Resolución de problemas: Aplicación a situaciones bancarias (intereses por mora).\n• Trabajo individual y colaborativo: Resolución de problemas en cuadernos y pizarra.\n• Uso de descomposición: Estrategia de cálculo para multiplicación y división.",
+      "aprendizaje_significativo": "Los estudiantes aplican la multiplicación y división de números enteros a situaciones financieras reales como el cálculo de intereses por mora en préstamos bancarios, comprendiendo el impacto de los signos en las operaciones.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla resumen de la ley de los signos para multiplicación y división.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para comprobar los resultados de las multiplicaciones y divisiones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y se les ayuda a seguir los pasos de la descomposición.\n• Para estudiantes avanzados: Se les pide que resuelvan el problema utilizando ambas estrategias (descomposición y forma tradicional) y comparen los resultados.",
+      "actividades_cuaderno": "1. La empresa Lechería Blanquita tiene un saldo negativo de RD$ 36,500 en su línea de crédito con el banco. Si cada día que pasa le cobran RD$ 682 de interés por mora, ¿cuál será el valor de la deuda en 6 días?, ¿cuánto dinero deberán pagar si el último día acuerdan saldarla en 8 cuotas iguales semanales con mora detenida?\n2. La empresa Los Dinámicos tiene un saldo negativo de RD$ 66,500 en su línea de crédito con el banco. Si cada día que pasa le cobran RD$ 805 de interés por mora, ¿cuál será el valor de la deuda el 8 día?, ¿cuánto dinero deberán pagar si acuerdan el último día saldarla en 9 cuotas iguales semanales con mora detenida?",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• CuadernosV",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de la familia Pérez? ¿Cuál fue el resultado? ¿En cuánto estimaron la cantidad de dinero?\" (pág. 23).\n2. Invita a un estudiante a pasar a la pizarra para que muestre su solución.\n3. Guía el proceso de forma asertiva.\n4. Motiva el diálogo preguntando: \"¿Cómo es el resultado de multiplicar dos enteros negativos? ¿Por qué? ¿Cuánto es –10 x (–6)? ¿Cuánto es 100 ÷ (–20)?\" (pág. 23).",
+          "actividad_numero": "Actividad 7 - A (Pág. 23)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con tabla de multiplicación y división\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "1. El docente presenta la tabla de multiplicación y división de números enteros preparada en un papelógrafo (pág. 23).\n2. Construyen entre todos cada multiplicación y división, haciendo notar la ley de los signos: signos iguales dan positivo, signos diferentes dan negativo.\n3. Enfatiza que la multiplicación es la operación opuesta a la división.\n4. Explica los términos: línea de crédito, mora, mora bancaria detenida (pág. 23).\n\nActividad 2 - Situación problemática (40 min):\n1. El docente plantea la situación (pág. 24): \"Marlene tiene un saldo negativo de RD$ 45,500 en su línea de crédito en el banco. Si cada día que pasa le cobran RD$ 775 de interés por mora, ¿cuál será el valor de la deuda el 8.º día?, ¿cuánto dinero deberá pagar si acuerdan el último día saldarla en 5 cuotas iguales quincenales con mora detenida?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo creen que se resuelve? ¿Qué información aporta el problema? ¿Qué les piden resolver?\"\n4. Da tiempo para resolver en cuadernos.\n5. Solicita a un estudiante pasar a la pizarra.\n6. Socializa la solución apoyándose en el cuadro de la página 24 (descomposición y forma tradicional).",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 23-24)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 25):\n- \"La empresa Lechería Blanquita tiene un saldo negativo de RD$ 36,500 en su línea de crédito. Si cada día le cobran RD$ 682 de interés por mora, ¿cuál será el valor de la deuda en 6 días? ¿Cuánto deberán pagar si acuerdan saldarla en 8 cuotas?\"\n2. Para cerrar, pregunta: \"¿Cómo resolvieron el problema de la Lechería Blanquita? ¿Por qué en la división de forma tradicional aparecen signos de + debajo del dividendo?\" (pág. 25).",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 25)"
+        }
+      ]
+    },
+    {
+      "id": "1772457105403",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Multiplicación y división de números enteros - Continuación",
+      "intencion_pedagogica": "Utilizar la multiplicación y división de números enteros para resolver situaciones del contexto.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Retroalimentación de la ley de los signos.\n• Resolución de problemas: Aplicación a situaciones de inversiones y pérdidas en bolsa.\n• Trabajo individual: Resolución de problemas en cuadernos.\n• Socialización: Puesta en común de resultados.\n• Juego \"Adivina adivinador\": Cierre lúdico.",
+      "aprendizaje_significativo": "Los estudiantes aplican la multiplicación y división de números enteros a situaciones de inversiones en la bolsa de valores, comprendiendo cómo las pérdidas diarias afectan el saldo total.",
+      "actividades_complementarias": "\nActividades complementarias para atender a la diversidad\tActividad para el cuaderno\n• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para resolver problemas de varios pasos, identificando primero la operación necesaria en cada pregunta.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los resultados de las multiplicaciones y divisiones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y se les ayuda a seguir los pasos de la división tradicional.\n• Para estudiantes avanzados: Se les pide que inventen un problema similar con otros números y lo intercambien con un compañero.",
+      "actividades_cuaderno": "1. En un juego en línea Milton tiene un acumulado de 79,932 puntos, para comprar vidas canjea 37,752. Si los puntos que le quedaban aumentan 15 veces. ¿Cuántos puntos tiene?\n2. -745,540 ÷ (-5 x -100) =\n3. Un barco lleva una carga de 155,742 libras de arroz, distribuidas en partes iguales en 6 compartimentos. Si dos compartimentos se averían y se daña el arroz en su interior, el cual es desechado. ¿Qué número entero representa el arroz dañado? ¿Qué cantidad de arroz quedó sin dañarse?\n4. -2,525 x (-14) ÷ 10 =\n5. -3,255 ÷ (-15) x (-5) =",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de la empresa Los Dinámicos? ¿Cuál fue el resultado de la mora a pagar? ¿Cuál fue el valor de las cuotas?\" (pág. 25).\n2. Invita a estudiantes a pasar a la pizarra para que muestren su solución.\n3. Retroalimenta la ley de los signos.\n4. Presenta la nueva situación problemática (pág. 26).",
+          "actividad_numero": "Actividad 8 - A (Pág. 25-26)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "1. El docente plantea la situación (pág. 26): \"La familia Guzmán tiene una inversión en la Bolsa de valores por valor de RD$ 514,150. Si cada día que pasa la inversión pierde RD$ 2,825, ¿cuánto dinero perderá en 30 días?, ¿en cuántos días la inversión llegará a cero de seguir el ritmo de pérdida?\"\n2. Un estudiante lee para todos.\n3. Verifica si han comprendido: \"¿Qué les piden resolver? ¿Qué deben hacer para resolverlo?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a algunos a resolver en la pizarra.\n6. Socializa el procedimiento apoyándose en el cuadro de la página 26.\n7. Explica el concepto de Bolsa de valores (pág. 26).\n\nActividad para el cuaderno:\n1. Asigna la actividad (pág. 26): \"La fábrica de hielo Gómez tiene una inversión en la Bolsa de valores por valor de RD$ 417,500. Si cada día que pasa, la inversión pierde RD$ 2,500, ¿cuánto dinero perderá en 30 días?, ¿en cuántos días la inversión llegará a cero, de seguir el ritmo de pérdida?\"\n2. Motiva la comprensión con preguntas: \"¿Qué es la Bolsa de valores? ¿Cómo piensan resolverlo?\"",
+          "actividad_numero": "Actividad 8 - B (Pág. 26)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. El docente presenta el juego \"Adivina adivinador\" (pág. 27):\n- \"El producto de dos números negativos es igual a 108.\"\n- \"La división de dos números negativos es igual a 40.\"\n- \"La multiplicación de dos números enteros es igual a -120.\"\n- \"La división de dos números enteros es igual a -10.\"\n2. Motiva dos o más respuestas por adivinanza.\n3. Asigna la actividad complementaria (pág. 27).\n4. Asigna la actividad para el diario del estudiante (pág. 27): \"El Almacén Jiménez tiene una inversión en la Bolsa de valores por valor de RD$ 360,900. Si cada día que pasa la inversión gana RD$ 2,005, ¿cuánto dinero ganará en 15 días?, ¿en cuántos días la inversión llegará a RD$ 601,500?\"",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 27)"
+        }
+      ]
+    },
+    {
+      "id": "1772465724541",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Potenciación de números enteros",
+      "intencion_pedagogica": "Resolver situaciones problemáticas usando la potenciación de números enteros y sus propiedades.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos previos sobre potenciación.\n• Resolución de problemas: Aplicación de potenciación en situaciones bancarias (cajas fuertes).\n• Trabajo individual y colaborativo: Resolución de ejercicios en cuadernos y pizarra.\n• Socialización: Puesta en común de resultados y estrategias.\n• Uso de papelógrafo: Presentación de elementos de la potenciación.",
+      "aprendizaje_significativo": "Los estudiantes aplican la potenciación a situaciones cotidianas como la organización de cajas fuertes en un banco, comprendiendo que el exponente indica las veces que se repite un factor.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de multiplicación para ayudarles a calcular las potencias.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los resultados de las potencias.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y se les ayuda a seguir los pasos de la multiplicación reiterada.\n• Para estudiantes avanzados: Se les pide que investiguen y expliquen qué sucede cuando la base es negativa y el exponente es par o impar.",
+      "actividades_cuaderno": "Título: Potenciación de números enteros\n\"Una empresa de envíos empaca alimentos en 2 cajas grandes, dentro de cada caja grande hay 2 cajas medianas y dentro de cada caja mediana hay 2 pequeñas. ¿Cuántas cajas son?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema del Almacén Jiménez? ¿Cuál fue el resultado de la ganancia en 15 días? ¿Cuántos días tardará en ganar RD$ 601,500?\" (pág. 28).\n2. Invita a algunos estudiantes a pasar a la pizarra para que muestren su solución.\n3. Luego pregunta: \"¿Qué saben sobre potenciación? ¿Cuáles son sus elementos? ¿Qué es el exponente? ¿Qué es la base? ¿Qué es la potencia?\" (pág. 28).\n4. Plantea ejercicios: 9³ y 7². Resuelven de forma colaborativa.",
+          "actividad_numero": "Actividad 9 - A (Pág. 28)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 28): \"El banco tiene tres cajas fuertes grandes, dentro de cada caja fuerte grande hay tres medianas y dentro de cada mediana hay tres pequeñas con tres lingotes de oro cada una, ¿cuántas cajas medianas son?, ¿cuántas cajas pequeñas son?, ¿cuántos lingotes de oro hay?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo creen que se resuelve? ¿Qué información aporta? ¿Qué les piden resolver?\"\n4. Da tiempo para resolver en cuadernos.\n5. Pide a algunos que pasen a la pizarra.\n6. Socializa el proceso apoyándose en el cuadro de la página 28.\n7. Explica que en la potenciación, el exponente indica las veces que se repetirá la base como producto de factores iguales.\n\nActividad 2 - Ejercicios de potenciación (20 min):\n1. El docente presenta los ejercicios (pág. 29):\na. 10³ =\nb. 10¹ =\nc. 5° =\nd. 8³ =\n2. Da tiempo para resolver en cuadernos.\n3. Envía a la pizarra y apoya con las soluciones.\n4. Presenta las propiedades de la potenciación (pág. 29).\n\nActividad 3 - Actividad para el cuaderno (10 min):\n1. Asigna la actividad (pág. 29): \"Una empresa de envíos empaca alimentos en 2 cajas grandes, dentro de cada caja grande hay 2 cajas medianas y dentro de cada caja mediana hay 2 pequeñas. ¿Cuántas cajas son?\"",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 28-29)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con elementos de potenciación\n• Cuadernos",
+          "descripcion": "1. El docente prepara en un papelógrafo los elementos de la potenciación para completar entre todos y que quede como recurso del aula (pág. 29).\n2. Asigna los ejercicios complementarios (pág. 29): 1,000⁰ = , 100² = , 6³ = , 125¹ = .\n3. Asigna la actividad para el diario del estudiante (pág. 29): \"¿Cuántas bacterias habrá después de 3 horas, en un embace de una cooperativa, si en una hora hay 2 bacterias y cada hora se duplican?\"",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 29)"
+        }
+      ]
+    },
+    {
+      "id": "1772465815906",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Radicación y sus propiedades",
+      "intencion_pedagogica": "Resolver problemas de radicación de números enteros como operación inversa de la potenciación y sus propiedades.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos previos sobre radicación.\n• Resolución de problemas: Aplicación de radicación en situaciones de terrenos cuadrados.\n• Trabajo individual y colaborativo: Resolución de ejercicios en cuadernos y pizarra.\n• Socialización: Puesta en común de resultados.\n• Uso de papelógrafo: Presentación de elementos de la radicación.",
+      "aprendizaje_significativo": "Los estudiantes aplican la radicación a situaciones cotidianas como calcular el lado de un terreno cuadrado a partir de su área, comprendiendo que es la operación inversa de la potenciación.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de cuadrados perfectos y cubos perfectos para ayudarles a encontrar las raíces.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los resultados de las raíces.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y se les ayuda a identificar los factores primos para encontrar la raíz.\n• Para estudiantes avanzados: Se les pide que investiguen qué es una raíz cúbica y den ejemplos de su aplicación en la vida real.",
+      "actividades_cuaderno": "Título: Radicación de números enteros\n\"El piso de un almacén con forma cuadrada tiene una área de 121 m². ¿Cuál será la longitud de un lado del piso?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de las bacterias? ¿Cómo lo plantearon? ¿Cuánto les dio?\" (pág. 30).\n2. Invita a estudiantes a pasar a la pizarra para que muestren su solución.\n3. Luego pregunta: \"¿Qué es la radicación? ¿Cuáles son los elementos de la radicación? ¿A qué se llama raíz? ¿Qué es el índice?\" (pág. 30).\n4. Plantea ejercicios: √49, √25 y ³√8. Motiva a que un estudiante los resuelva en la pizarra.",
+          "actividad_numero": "Actividad 10 - A (Pág. 30)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "1. El docente plantea la situación (pág. 30): \"Un banco en la ciudad de Santiago venderá un terreno cuadrado con una superficie de 625 m², ¿cuántos metros de longitud tiene cada lado del terreno?\"\n2. Un estudiante lee para todos.\n3. Pregunta: \"¿Cómo creen que se resuelve? ¿Qué información aporta? ¿Con cuál operación lo resolverán?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a un voluntario a la pizarra.\n6. Socializa el proceso apoyándose en el cuadro de la página 30.\n7. Explica que la radicación es la operación inversa a la potenciación y que el índice 2 no se marca.\n\nActividad 2 - Ejercicios de radicación (20 min):\n1. El docente presenta los ejercicios (pág. 31):\na. ⁵√0 =\nb. ³√125 =\nc. ⁴√1 =\nd. √81 =\n2. Da tiempo para resolver en cuadernos.\n3. Envía a la pizarra y apoya con las soluciones.\n\nActividad 3 - Actividad para el cuaderno (10 min):\n1. Asigna la actividad (pág. 31): \"El piso de un almacén con forma cuadrada tiene una área de 121 m². ¿Cuál será la longitud de un lado del piso?\"",
+          "actividad_numero": "Actividad 10 - B y C (Pág. 30-31)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con elementos de radicación\n• Cuadernos",
+          "descripcion": "1. El docente prepara en un papelógrafo los elementos de la radicación para completar entre todos y que quede como recurso del aula (pág. 31).\n2. Presenta la cápsula sobre radicación (pág. 31).\n3. Asigna la actividad complementaria (pág. 31):\n- \"Un cubo tiene un volumen de 729 cm³. ¿Cuántos centímetros miden de longitud sus lados?\"\n- \"Un albañil tiene 225 baldosas cuadradas, él quiere colocarlas en un piso con el mismo número de baldosas en cada lado. ¿Cuántas baldosas debe colocar en cada lado?\"\n4. Asigna la actividad para el diario del estudiante (pág. 32): \"Un terreno cuadrado está de venta en una comunidad. Si el terreno tiene una superficie de 1,600 m². ¿Qué cantidad de alambre se necesita para cercar sus lados con una vuelta?\"",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 31-32)"
+        }
+      ]
+    },
+    {
+      "id": "1772465902608",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Criterios de divisibilidad",
+      "intencion_pedagogica": "Utilizar criterios de divisibilidad para resolver situaciones problemáticas del contexto.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Criterios de divisibilidad para niños de primaria\".\n• Diálogo dirigido: Verificación de comprensión del video.\n• Resolución de problemas: Aplicación de criterios de divisibilidad en situaciones de préstamos bancarios.\n• Trabajo individual y colaborativo: Resolución de problemas en cuadernos y pizarra.\n• Socialización: Puesta en común de resultados.",
+      "aprendizaje_significativo": "Los estudiantes aplican los criterios de divisibilidad a situaciones financieras como determinar la cuota mínima para pagar un préstamo en cuotas enteras, comprendiendo su utilidad práctica.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tarjeta resumen con los criterios de divisibilidad para 2, 3, 5, 6, 9 y 10.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar las divisiones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los criterios en formato ampliado y se les ayuda a identificar los patrones en los números.\n• Para estudiantes avanzados: Se les pide que investiguen los criterios de divisibilidad del 4, 7 y 8.",
+      "actividades_cuaderno": "Actividad para el cuaderno:\n\"José compró un microonda por RD$ 7,020. Si este fue concedido para pagar antes de 1 año y con cuotas enteras, ¿cuál será la cuota mínima para saldar dentro del plazo concedido?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema del terreno? ¿Cómo lo plantearon? ¿Cuánto les dio? ¿Qué les resultó más interesante?\" (pág. 32).\n2. Invita a un estudiante a pasar a la pizarra para que muestre su solución.\n3. Luego, explora conocimientos previos: \"¿Qué saben sobre los criterios de divisibilidad? ¿Cuándo un número es divisible entre otro?\" (pág. 32).",
+          "actividad_numero": "Actividad 11 - A (Pág. 32)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video\n• Proyector/TV\n• Computadora\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (20 min):\n1. El docente presenta el video \"Criterios de divisibilidad para niños de primaria\" disponible en: https://www.youtube.com/watch?v=WfbZrrS7bZA (iniciar en el segundo 25) (pág. 32).\n2. Después del video, inicia un diálogo con preguntas:\n- \"¿De qué trata el video?\"\n- \"¿Cuándo un número es divisible entre 2 y entre 3?\"\n- \"¿Cuándo un número es divisible entre 6?\"\n- \"¿Cuándo un número es divisible entre 9?\"\n- \"¿Cuándo un número es divisible entre 5 y entre 10?\"\n3. En caso de no disponer de tecnología, realiza las preguntas de la sección B (pág. 32).\n\nActividad 2 - Situación problemática (40 min):\n1. El docente plantea la situación (pág. 32): \"María tiene un préstamo en un banco por RD$ 9,018. Si este fue concedido para pagar antes de 1 año y con cuotas enteras, ¿cuál será la cuota mínima para saldar dentro del plazo?\"\n2. Un estudiante lee para todos.\n3. Pregunta: \"¿Cómo creen que se resuelve? ¿Qué información aporta?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a algunos a la pizarra.\n6. Socializa el procedimiento apoyándose en el cuadro de la página 33.\n7. Enfatiza que los números que terminan en par son divisibles entre 2, si la suma de sus dígitos es múltiplo de 3 es divisible entre 3, etc.",
+          "actividad_numero": "Actividad 11 - B y C (Pág. 32-33)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Asigna la actividad para el cuaderno (pág. 33): \"José compró un microonda por RD$ 7,020. Si este fue concedido para pagar antes de 1 año y con cuotas enteras, ¿cuál será la cuota mínima para saldar dentro del plazo concedido?\"\n2. Solicita a los estudiantes completar la tabla para sistematizar lo trabajado (pág. 33).\n3. Asigna la actividad complementaria (pág. 33).\n4. Asigna la actividad para el diario del estudiante (pág. 34): \"Wilkin tiene un vivero y desea colocar 720 plantas de rosas rojas, 240 de anturios y 480 de claveles en el menor número posible de cajas que contengan el mismo número de plantas, sin mezclar las mismas. a. ¿Qué cantidad de plantas deben contener las cajas de rosas rojas? b. ¿Qué cantidad de plantas deben contener las cajas de anturios? c. ¿Qué cantidad de plantas deben contener las cajas de claveles? d. Al final ¿cuál sería el total de cajas?\"",
+          "actividad_numero": "Actividad 11 - Cierre (Pág. 33-34)"
+        }
+      ]
+    },
+    {
+      "id": "1772465993182",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Factorización prima",
+      "intencion_pedagogica": "Calcular los factores primos de un número en situaciones problemáticas del contexto.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Descomponer un número en factores primos super fácil\".\n• Diálogo dirigido: Verificación de comprensión del video.\n• Resolución de problemas: Aplicación de factorización prima en situaciones de ahorros bancarios.\n• Trabajo individual y colaborativo: Resolución de problemas en cuadernos y pizarra.\n• Socialización: Puesta en común de resultados.",
+      "aprendizaje_significativo": "Los estudiantes aplican la factorización prima a situaciones de ahorros en cuentas bancarias, comprendiendo cómo descomponer cantidades de dinero en sus factores primos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una lista de números primos menores que 30 para ayudarles en la descomposición.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar las divisiones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y se les ayuda a seguir los pasos de la división.\n• Para estudiantes avanzados: Se les pide que expresen la factorización en forma de potencias (ej: 500 = 2² x 5³).",
+      "actividades_cuaderno": "Actividad para el cuaderno:\n\"Juliana tiene dos alcancías, con ahorros de RD$ 475 y RD$ 120, ¿cuál es la factorización prima de estos números?\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de Wilkin? ¿Cómo lo plantearon? ¿Cuánto les dio? ¿Qué les resultó más interesante?\" (pág. 34).\n2. Invita a algunos estudiantes a pasar a la pizarra para que muestren su solución.\n3. Anuncia que verán un video sobre factorización prima.",
+          "actividad_numero": "Actividad 12 - A (Pág. 34)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video\n• Proyector/TV\n• Computadora\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente presenta el video \"Descomponer un número en factores primos super facil\" disponible en: https://www.youtube.com/watch?v=NPaBFe6QBDQ (hasta el minuto 5:25) (pág. 34).\n2. Después del video, inicia un diálogo con preguntas:\n- \"¿De qué trata el video?\"\n- \"¿Qué es un número primo?\"\n- \"¿Cómo se obtienen los factores primos de un número?\"\n3. En caso de no disponer de tecnología, realiza las preguntas de la sección B (pág. 34).\n\nActividad 2 - Situación problemática (40 min):\n1. El docente plantea la situación (pág. 34): \"Juanny tiene una cuenta de ahorro en un banco por RD$ 500 y en otro RD$ 350, ¿cuál es la factorización prima de cada número?\"\n2. Un estudiante lee para todos.\n3. Pregunta: \"¿Cómo creen que se resuelve? ¿Qué información aporta?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a un voluntario a la pizarra.\n6. Socializa el procedimiento apoyándose en el cuadro de la página 35.\n7. Explica que la factorización prima termina cuando se obtiene el número 1 en el proceso de división.",
+          "actividad_numero": "Actividad 12 - B y C (Pág. 34-35)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 35): \"Juliana tiene dos alcancías, con ahorros de RD$ 475 y RD$ 120, ¿cuál es la factorización prima de estos números?\"\n2. Realiza el ejercicio de cierre (pág. 35):\n- \"2 x 3 x 11 es la factorización prima de cuál número: ___\"\n- \"Son tres números primos entre 40 y 50: ___ , ___ y ___\"\n- \"3 x 5 x 7, es la factorización prima de cuál número: ___\"\n- \"Es la factorización prima de 44: ___\"\n- \"Son tres números primos mayores que 11: ___ , ___ y ___\"\n- \"2 x 7 x 7, es la factorización prima de cuál número: ___\"\n- \"Es la factorización prima de 26: ___\"\n3. Asigna la actividad complementaria (pág. 36).\n4. Asigna la actividad para el diario del estudiante (pág. 36): \"En un vivero siembran 45 plantas de café y 125 de limón. ¿Cuál es la factorización prima de cada número?\"",
+          "actividad_numero": "Actividad 12 - Cierre (Pág. 35-36)"
+        }
+      ]
+    },
+    {
+      "id": "1772466071371",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": "(Máximo común divisor - M.C.D.",
+      "intencion_pedagogica": "Ayudar a los estudiantes a comprender el concepto de máximo común divisor (M.C.D.) y su utilidad para resolver problemas de reparto equitativo, desarrollando la habilidad de calcularlo mediante la factorización prima y la identificación de factores comunes con su menor exponente.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Máximo común divisor ¿cómo se calcula?\"\n• Resolución de problemas: Aplicación del M.C.D. en situaciones de reparto equitativo.\n• Trabajo colaborativo: Resolución de problemas en pizarra y socialización.",
+      "aprendizaje_significativo": "Los estudiantes aplican el máximo común divisor a situaciones cotidianas como repartir billetes y monedas en alcancías con la misma cantidad, comprendiendo que el M.C.D. permite encontrar la mayor cantidad de grupos iguales que se pueden formar.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para calcular el M.C.D. mediante factorización prima.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar las factorizaciones y los productos.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y se les ayuda a identificar los factores comunes.\n• Para estudiantes avanzados: Se les pide que expliquen por qué el M.C.D. se calcula con los factores comunes de menor exponente.",
+      "actividades_cuaderno": "Actividad para el cuaderno:\n\"Se repartirán 310 chocolates y 195 juguetes entre cierta cantidad de estudiantes, de forma que cada uno reciba un número exacto de esos elementos. ¿Cuál es el mayor número de estudiantes que pueden beneficiarse?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema del vivero? ¿Cuáles fueron los factores primos obtenidos para cada número?\" (pág. 36).\n2. Invita a algunos estudiantes a pasar a la pizarra para que muestren su solución.\n3. Luego pregunta: \"¿Qué saben del máximo común divisor de dos números?\" (pág. 36).\n4. Anuncia que verán un video sobre el M.C.D.",
+          "actividad_numero": "Actividad 13 - A (Pág. 36)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video\n• Proyector/TV\n• Computadora\n• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. El docente presenta el video \"Máximo común divisor ¿cómo se calcula el máximo común divisor? Matemáticas para niños\" disponible en: https://www.youtube.com/watch?v=nfy0TC0vjW8 (pág. 36).\n2. Después del video, inicia un diálogo con preguntas:\n- \"¿De qué trata el video?\"\n- \"¿Cuándo un número es primo?\"\n- \"¿Qué es el máximo común divisor?\"\n- \"¿Cuáles pasos se dan para calcular el M.C.D.?\"\n3. En caso de no disponer de tecnología, realiza las preguntas de la sección C (pág. 36).\n\nActividad 2 - Situación problemática (40 min):\n1. El docente plantea la situación (pág. 37): \"Andrea tiene RD$ 1,200 en billetes y RD$ 792 en monedas, ella quiere preparar alcancías con la misma cantidad de billetes y monedas. ¿Cuántas alcancías serán necesarias? ¿Cuánto dinero colocará en cada alcancía? ¿Cuántos billetes y monedas en cada alcancía son?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo creen que se resuelve? ¿Qué información aporta el problema?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a algunos a la pizarra.\n6. Socializa el procedimiento apoyándose en los cuadros de las páginas 37-38.\n7. Explica que para calcular el M.C.D. se toman los factores primos comunes con su menor exponente.",
+          "actividad_numero": "Actividad 13 - B y C (Pág. 36-38)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 38): \"Se repartirán 310 chocolates y 195 juguetes entre cierta cantidad de estudiantes, de forma que cada uno reciba un número exacto de esos elementos. ¿Cuál es el mayor número de estudiantes que pueden beneficiarse?\"\n2. Realiza preguntas de cierre: \"¿Cuáles son los factores comunes a 1,200 y 792? ¿Por qué? ¿Cuál es el M.C.D. de 1,500 y 1,230?\" (pág. 38).\n3. Construyen entre todos la idea: \"El M.C.D. de dos o más números es el mayor de los divisores comunes de dichos números.\"\n4. Asigna la actividad complementaria (pág. 38).\n5. Asigna la actividad para el diario del estudiante (pág. 39): \"Calcule el M.C.D. de: 25, 40 y 60; y de 32, 56 y 12.\"",
+          "actividad_numero": "Actividad 13 - Cierre (Pág. 38-39)"
+        }
+      ]
+    },
+    {
+      "id": "1772466343035",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 13,
+      "title": "Actividad 14",
+      "name": "Mínimo común múltiplo - m.c.m.",
+      "intencion_pedagogica": "Fomentar en los estudiantes la comprensión del concepto de mínimo común múltiplo (m.c.m.) y su utilidad para resolver problemas de coincidencia temporal, desarrollando la habilidad de calcularlo mediante la factorización prima, tomando factores comunes y no comunes con su mayor exponente.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Mínimo común múltiplo ¿cómo se calcula?\"\n• Resolución de problemas: Aplicación del m.c.m. en situaciones de coincidencia temporal.\n• Trabajo colaborativo: Resolución de problemas en pizarra y socialización.",
+      "aprendizaje_significativo": "Los estudiantes aplican el mínimo común múltiplo a situaciones cotidianas como determinar cuándo coinciden dos guaguas en una parada, comprendiendo que el m.c.m. ayuda a encontrar el momento en que eventos que se repiten en el tiempo vuelven a ocurrir simultáneamente.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para calcular el m.c.m. mediante factorización prima.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los productos.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y se les ayuda a identificar los factores comunes y no comunes.\n• Para estudiantes avanzados: Se les pide que expliquen la diferencia entre M.C.D. y m.c.m. y cuándo se usa cada uno.",
+      "actividades_cuaderno": "\"En una tienda venden sacapuntas en cajas de 60 unidades y lápices en cajas de 72 unidades, ¿Cuál es la menor cantidad de cajas que se deben comprar de cada producto para que a cada sacapuntas le corresponda un lápiz?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron los ejercicios? ¿Cuál fue el resultado del M.C.D. de 25, 40 y 60?\" (pág. 39).\n2. Solicita a un estudiante que vaya a la pizarra a realizar el problema.\n3. Formula preguntas al grupo para afianzar procedimientos.\n4. Luego, explora conocimientos previos: \"¿Qué es el mínimo común múltiplo (m.c.m.)? ¿A qué se parece su nombre? ¿Para qué verán el siguiente video?\" (pág. 39).",
+          "actividad_numero": "Actividad 14 - A (Pág. 39)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C ",
+          "tiempo": "60",
+          "recursos": "• Video\n• Proyector/TV\n• Computadora\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (20 min):\n1. El docente presenta el video \"Mínimo común múltiplo ¿cómo se calcula el mínimo común múltiplo? – Matemáticas para niños\" disponible en: https://www.youtube.com/watch?v=SCa4B7VoAs (pág. 39).\n2. Después del video, inicia un diálogo con preguntas:\n- \"¿De qué trata el video?\"\n- \"¿Cuál es la norma del m.c.m. que menciona el video?\"\n- \"¿Cuál fue el m.c.m. entre 50 y 75?\"\n- \"¿Qué es el mínimo común múltiplo?\"\n3. En caso de no disponer de tecnología, realiza las preguntas de la sección B (pág. 39).\n\nActividad 2 - Situación problemática (40 min):\n1. El docente plantea la situación (pág. 39): \"En una parada de guagua pasa una que va al centro de la ciudad y otra que va al aeropuerto. La primera pasa cada 40 minutos y la segunda pasa cada 48, ambas hacen el recorrido a una velocidad constante. ¿Cuántas veces al día coinciden las dos guaguas en la parada?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo creen que se resuelve? ¿Qué información aporta?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a algunos a la pizarra.\n6. Socializa el procedimiento apoyándose en el cuadro de la página 40.\n7. Explica que para el m.c.m. se toman los factores comunes a su máximo exponente y también los no comunes.",
+          "actividad_numero": "Actividad 14 - B y C (Pág. 39-40)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 40): \"En una tienda venden sacapuntas en cajas de 60 unidades y lápices en cajas de 72 unidades, ¿Cuál es la menor cantidad de cajas que se deben comprar de cada producto para que a cada sacapuntas le corresponda un lápiz?\"\n2. Realiza preguntas de cierre: \"¿Cuáles son los factores no comunes de 60 y 72? ¿Por qué? ¿Cuál es el m.c.m. de 48 y 40? ¿Qué es el m.c.m. de dos o más números?\" (pág. 41).\n3. Construyen entre todos la idea: \"El m.c.m. es el menor número que es múltiplo de dos o más números.\"\n4. Asigna la actividad complementaria (pág. 41).\n5. Asigna la actividad para el diario del estudiante (pág. 41): \"Una empresa minera guarda perlas en dos cajas de seguridad. En la caja A, cada cajita tiene 66 perlas y en la B, cada una tiene 44. Si las cajas A y B tienen igual cantidad de perlas, ¿cuántas, como mínimo, hay en cada caja?\"",
+          "actividad_numero": "Actividad 14 - Cierre (Pág. 40-41)"
+        }
+      ]
+    },
+    {
+      "id": "1772466442540",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 14,
+      "title": "Actividad 15",
+      "name": "Patrones numéricos - Números triangulares y cuadrados",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la capacidad de identificar y analizar patrones numéricos en números triangulares y cuadrados, aplicando fórmulas para calcular términos específicos y comprendiendo la relación entre la representación gráfica y la expresión algebraica.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Números triangulares y cuadrados\".\n• Representación gráfica: Análisis de patrones en figuras.\n• Resolución de problemas: Aplicación de fórmulas para números triangulares y cuadrados.",
+      "aprendizaje_significativo": "Los estudiantes descubren patrones numéricos en arreglos de puntos que forman triángulos y cuadrados, relacionando estos patrones con situaciones cotidianas como el acomodo de monedas o baldosas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan plantillas con los primeros números triangulares y cuadrados dibujados para que visualicen el patrón.\n• Para estudiantes kinestésicos: Pueden usar fichas o monedas para construir físicamente los números triangulares y cuadrados.\n• Para estudiantes con discapacidad visual: Se les proporcionan las figuras en relieve para que puedan palpar la formación de los triángulos y cuadrados.\n• Para estudiantes avanzados: Se les pide que investiguen la relación entre dos números triangulares consecutivos y un número cuadrado.",
+      "actividades_cuaderno": "1. Un comerciante quiere saber, cuántas monedas debe usar para formar un número triangular de orden 15.\n2. Si tiene un arreglo cuadrado con 16 monedas de lado, ¿cuántas monedas se usarán?",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de las perlas? ¿Cuántas perlas hay como mínimo en cada caja?\" (pág. 41).\n2. Invita a un estudiante a pasar a la pizarra para que muestre su solución.\n3. Luego, explora conocimientos previos: \"¿Qué es un patrón numérico? ¿Qué es un número triangular? ¿Qué es un número cuadrado?\" (pág. 41).\n4. Anuncia que verán un video sobre números triangulares y cuadrados.",
+          "actividad_numero": "Actividad 15 - A (Pág. 41)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video\n• Proyector/TV\n• Computadora\n• Pizarra\n• Cuadernos\n• Papelógrafo con gráficas\n",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Números triangulares y cuadrados\" disponible en: https://youtu.be/wuj2IzxRHdc (pág. 41).\n2. Después del video, inicia un diálogo con preguntas:\n- \"¿De qué trata el video?\"\n- \"¿Qué son números triangulares?\"\n- \"¿Cómo se obtienen?\"\n- \"¿Qué son números cuadrados?\"\n- \"¿Cómo se obtienen?\"\n3. En caso de no disponer de tecnología, utiliza las gráficas de la página 42.\n\nActividad 2 - Análisis de patrones (20 min):\n1. El docente presenta las gráficas de números triangulares y cuadrados (pág. 42).\n2. Pregunta: \"¿Qué han observado? ¿Qué forma tienen? ¿Por cuántos puntos están formadas?\"\n3. Construyen entre todos el patrón del número triangular apoyándose en la tabla.\n4. Explica la fórmula: P = n(n+1)/2.\n\nActividad 3 - Situación problemática (25 min):\n1. El docente plantea la situación (pág. 42): \"Un cajero bancario ha colocado 10 monedas, en forma de triángulo equilátero, en cuya base colocó 4 monedas, ¿cuántas usará el 8vo triángulo?, ¿cuántas monedas usará hasta la 5ta fila?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo creen que se resuelve?\"\n4. Da tiempo para resolver en cuadernos.\n5. Socializa la solución apoyándose en el cuadro de las páginas 43-44.\n6. Plantea la segunda situación (pág. 43): \"Un cajero bancario organiza monedas en forma de un cuadrado, ¿cuántas monedas usará en un cuadrado de 9 monedas de lado?, ¿cuántas monedas de lados tendrá un cuadrado formado por 400 monedas?\"",
+          "actividad_numero": "Actividad 15 - B y C (Pág. 41-44)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 44):\n- \"Un comerciante quiere saber, cuántas monedas debe usar para formar un número triangular de orden 15.\"\n- \"Si tiene un arreglo cuadrado con 16 monedas de lado, ¿cuántas monedas se usarán?\"\n2. Presenta la tabla de cierre para completar (pág. 44).\n3. Presenta la cápsula sobre números triangulares y cuadrados (pág. 45).\n4. Asigna la actividad complementaria (pág. 45).\n5. Asigna la actividad para el diario del estudiante (pág. 45):\n- \"En un negocio han colocado monedas que forman un triángulo equilátero, en cuya base colocaron 16 monedas, ¿cuántas monedas forman el triángulo?, ¿cuántas monedas usarán hasta la 12° fila?\"\n- \"En un ventorrillo organizan monedas en forma de un cuadrado, ¿cuántas monedas usará en un cuadrado de 18 monedas de lado?, ¿cuántas monedas de lado tendrá un cuadrado formado por 625 monedas?\"",
+          "actividad_numero": "Actividad 15 - Cierre (Pág. 44-45)"
+        }
+      ]
+    },
+    {
+      "id": "1772466527614",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 15,
+      "title": "Actividad 16",
+      "name": "Recapitulación",
+      "intencion_pedagogica": "Guiar a los estudiantes en un proceso de recapitulación y consolidación de los aprendizajes adquiridos durante la secuencia, integrando los diferentes contenidos (números enteros, operaciones, potenciación, radicación, divisibilidad, factorización, M.C.D., m.c.m. y patrones numéricos) a través de la resolución de ejercicios y actividades lúdicas.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Recuperación de contenidos de la secuencia.\n• Resolución de ejercicios: Aplicación integrada de todos los temas.\n• Juego didáctico: Reforzamiento de suma y resta de enteros.",
+      "aprendizaje_significativo": "Los estudiantes repasan y consolidan todos los conceptos trabajados en la secuencia (números enteros, operaciones, potenciación, radicación, divisibilidad, factorización, M.C.D., m.c.m. y patrones) mediante la resolución de ejercicios variados, conectando estos conocimientos con su utilidad en la vida cotidiana.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una hoja resumen con las fórmulas y conceptos clave de la secuencia.\n• Para estudiantes kinestésicos: El juego de repaso les permite reforzar los conceptos de manera activa.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que creen un ejercicio similar a los propuestos para intercambiar con un compañero.",
+      "actividades_cuaderno": "Los estudiantes deben resolver en sus cuadernos todos los ejercicios planteados durante la clase de recapitulación, mostrando los procedimientos completos.\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de las 16 monedas? ¿Cuántas monedas hasta la 12° fila? ¿Cuánto les dio el cuadrado de 15 monedas de lado?\" (pág. 46).\n2. Invita a un estudiante a pasar a la pizarra para que muestre su solución.\n3. Luego, inicia un diálogo sobre lo trabajado en la secuencia: \"¿Qué recuerdan de lo trabajado? ¿Cuáles temas les han gustado?\" (pág. 46).",
+          "actividad_numero": "Actividad 16 - A (Pág. 46)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Juego de cartas (Anexo, pág. 52)\n• Recta numérica",
+          "descripcion": "Actividad 1 - Ejercicios de repaso (30 min):\n1. El docente plantea los ejercicios de la página 46:\n- \"Escribe la notación desarrollada de: 2,078,253\"\n- \"Escribe en palabras el número: 987,079\"\n- \"Escribe en su forma estándar: dos millones ochocientos veinticuatro mil setecientos seis.\"\n- \"Escribe 2 números enteros mayores que –16.\"\n- \"Mencione tres números enteros entre –2 y 2.\"\n2. Da tiempo para resolver en cuadernos.\n3. Solicita a algunos estudiantes pasar a la pizarra.\n4. Retroalimenta los ejercicios.\n\nActividad 2 - Más ejercicios (20 min):\n1. El docente plantea los ejercicios de la página 46:\n- \"Representa en la recta numérica: –15, 5, –2, 8 y –6\"\n- \"Calcula: a) –5–16+35–29; b) –45 ÷ 5x(–8); c) 5⁴; d) ⁴√81\"\n2. Motiva la representación en la recta y las soluciones.\n3. Da tiempo para resolver.\n4. Pide voluntarios pasar a la pizarra.\n\nActividad 3 - Juego de repaso (10 min):\n1. El docente propone jugar nuevamente el juego de la actividad #5 para afianzar suma y resta de números enteros (pág. 46).\n2. Vuelven a leer las reglas y adaptan si es necesario.\n3. Juegan por un tiempo.",
+          "actividad_numero": "Actividad 16 - B y C (Pág. 46)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "D, E, F",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente presenta los ejercicios de las páginas 47-48:\n- \"¿Cuánto es el producto de –32,125 x (–12)?\"\n- \"¿Cuál es el cociente 126,000 ÷ (–12)?\"\n- \"5³ = ?; 3⁴ = ?; ³√27 = ?; √16 = ?; √121 = ?\"\n- Completar tabla de M.C.M., M.C.D. y factorización prima.\n- \"¿Cuántas monedas se usarán para un arreglo triangular de 12° orden?\"\n- \"¿Cuántas monedas de lado tendrá un arreglo cuadrado, donde se usaron 256 monedas?\"\n2. Da tiempo para resolver.\n3. Socializa las soluciones apoyándose en las tablas.",
+          "actividad_numero": "Actividad 16 - D, E y F (Pág. 47-48)"
+        }
+      ]
+    },
+    {
+      "id": "1772466634424",
+      "sequence_id": "seq-1772402589305",
+      "order_index": 16,
+      "title": "Actividad 17",
+      "name": "Evaluación de la secuencia",
+      "intencion_pedagogica": "Evaluar el nivel de logro de los estudiantes en relación con los contenidos y competencias desarrolladas durante la secuencia, mediante la resolución de problemas que integran números enteros, operaciones, potenciación, radicación, divisibilidad, factorización, M.C.D., m.c.m. y patrones numéricos.",
+      "estrategia": "• Diálogo dirigido: Recuperación de temas de la secuencia.\n• Explicación de la escala de valoración.\n• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas.",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia en contextos variados (bancarios, comerciales, cotidianos), evidenciando su capacidad para aplicar las matemáticas en situaciones reales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite el uso de calculadora y se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar sus cálculos.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que, al terminar, ayuden a revisar sus respuestas o que resuelvan los problemas de otra forma.",
+      "actividades_cuaderno": "Actividad para el cuaderno:\nNo hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración",
+          "descripcion": "1. El docente inicia preguntando por los temas trabajados en la secuencia (pág. 48).\n2. A medida que los nombran, formula preguntas para retroalimentar.\n3. Explica que realizarán una actividad para evaluar la secuencia 1.\n4. Lee con ellos la tabla de valoración (escala numérica y nominal) para que comprendan cómo se evaluarán los resultados (pág. 48).",
+          "actividad_numero": "Actividad 17 - A (Pág. 48)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices\n• Calculadoras (si se permite)\n• Copias de los ítems o pizarra\nCierre (15 min)\tRecogida y cierre:\n1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Realiza un breve comentario sobre la importancia de los números enteros en la vida cotidiana y financiera, conectando con el contexto de la secuencia.\n4. Anuncia que en la próxima secuencia trabajarán con números decimales.\tActividad 17 - Cierre\n(Pág. 50)\t• Evaluaciones completadas\n",
+          "descripcion": "Evaluación escrita:\n1. El docente entrega una hoja en blanco a cada estudiante donde colocarán sus datos: nombre del centro, nombre del estudiante, fecha, grado y sección (pág. 49).\n2. Explica la valoración de cada ítem.\n3. Presenta los problemas de evaluación (págs. 49-50):\n\nÍtem 1 (10 pts): a) Notación desarrollada de RD$ 4,852,196; b) Escribir en palabras; c) Valor del dígito 8 en 3,875,962.\nÍtem 2 (10 pts): Representar en recta numérica: -375, -500, 350, 450, -50.\nÍtem 3 (10 pts): Problema de deuda bancaria: Sra. Pérez RD$ 115,000 + extradedito RD$ 35,000 - pago RD$ 55,000. Balance y estimación.\nÍtem 4 (10 pts): Divisibilidad: a) ¿54,350 es divisible entre 5?; b) ¿9,144 es divisible entre 3? (justificar).\nÍtem 5 (10 pts): Problema de potenciación: 3 cajas grandes, 3 medianas, 3 pequeñas, 3 lingotes. ¿Cajas pequeñas? ¿Lingotes?\nÍtem 6 (10 pts): a) -23 x 6; b) Buzo a 9 pies, desciende 6 pies, ¿profundidad?; c) -116 + 85.\nÍtem 7 (10 pts): a) Cuadrado de 25 monedas de lado, ¿monedas?; b) Triángulo de 36 monedas, base 8 monedas, ¿monedas hasta 6° fila?\nÍtem 8 (10 pts): a) Guaguas cada 75 y 120 minutos, coinciden 9:00 am, ¿vuelven a coincidir?; b) Cables de 225 m y 70 m, cortar igual cantidad de pedazos, ¿cuántos? ¿largo?\nÍtem 9 (10 pts): a) Número triangular orden 3; b) Cuadrado con 22 monedas de lado; c) Área 1,096 m², ¿lados?; d) Ahorro RD$ 38,475 - retiro RD$ 15,250 + depósito RD$ 4,975.\nÍtem 10 (10 pts): Deuda RD$ 50,500 entre 5 miembros, ¿cuánto paga cada uno?\n\n4. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad 17 - B (Pág. 49-50)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Realiza un breve comentario sobre la importancia de los números enteros en la vida cotidiana y financiera, conectando con el contexto de la secuencia.\n4. Anuncia que en la próxima secuencia trabajarán con números decimales.",
+          "actividad_numero": "Actividad 17 - Cierre (Pág. 50)"
+        }
+      ]
+    }
+  ]
+}

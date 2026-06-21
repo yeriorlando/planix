@@ -1,0 +1,399 @@
+{
+  "id": "seq-1771196748686",
+  "title": "El artículo expositivo",
+  "description": "Desarrolla la comprensión y producción de textos informativos, organizando ideas principales y secundarias para explicar un tema con claridad.",
+  "order": 5,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771201530529",
+      "sequence_id": "seq-1771196748686",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Pre-escucha y exploración)",
+      "intencion_pedagogica": "Activar conocimientos previos sobre las diferencias entre liebres y conejos, formular hipótesis sobre el texto y preparar a los estudiantes para la escucha activa del artículo expositivo.\n\n",
+      "estrategia": "Ambientación del aula: Uso de imágenes de liebres y conejos.\n\nDiálogo dirigido: Preguntas generadoras para activar conocimientos previos.\n\nFormulación de hipótesis: Los estudiantes predicen el contenido del texto.\n\nOrientación para la escucha activa: Explicación de estrategias para una buena comprensión oral.",
+      "aprendizaje_significativo": "Se parte de un tema cercano y de interés (animales que los niños pueden haber visto o confundido) para introducir el artículo expositivo y desarrollar la capacidad de observar y comparar.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades visuales: Se describen detalladamente las imágenes de liebres y conejos.\n\nPara estudiantes con dificultades de atención: Se les asigna la tarea específica de contar cuántas diferencias mencionan sus compañeros.\n\nPara estudiantes kinestésicos: Se les invita a pasar al frente y señalar las diferencias en las imágenes.\n\nPara estudiantes con discapacidad auditiva: Se les proporcionan las preguntas por escrito y las imágenes con etiquetas.",
+      "actividades_cuaderno": "Anotar el título del texto (\"Diferencias entre conejos y liebres\") y escribir 3 predicciones sobre las diferencias que creen que encontrarán.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imágenes de liebres y conejos\n• Pizarra",
+          "descripcion": "1. El docente ambienta el aula con imágenes de liebres y conejos, mostrándolas en papelógrafos o proyectadas.\n2. Formula preguntas de exploración (pág. 84):\n- \"¿Alguien tiene como mascota un animal igual o parecido a los de la imagen?\" (pregunta 1)\n- \"¿Qué nombre reciben estos animales?\" (pregunta 2)\n- \"¿Se trata del mismo animal? ¿Cómo lo sabes?\" (pregunta 3)\n3. El docente asegura que los estudiantes identifiquen correctamente los nombres: conejo y liebre.",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 84)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente anuncia que leerá un texto titulado \"Diferencias entre conejos y liebres\".\n2. Anima a los estudiantes a hipotetizar sobre qué diferencias creen que se abordarán en el texto.\n3. Anota las hipótesis en la pizarra.\n4. Explica cómo se llevará a cabo la actividad de comprensión oral (pág. 84):\n- Leerá el texto dos veces.\n- Deben escuchar atentamente y anotar las diferencias.\n- Deben ir comprobando o descartando las hipótesis.",
+          "actividad_numero": "Comprensión oral (Párrafos 2-5, pág. 84)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente refuerza las estrategias de escucha activa.\n2. Se asegura de que los estudiantes tengan sus cuadernos listos para tomar apuntes.",
+          "actividad_numero": "Comprensión oral (Párrafo final, pág. 84)"
+        }
+      ]
+    },
+    {
+      "id": "1771201606965",
+      "sequence_id": "seq-1771196748686",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Oral (Escucha y Post-escucha)",
+      "intencion_pedagogica": "Escuchar y comprender el artículo expositivo \"Diferencias entre conejos y liebres\", identificando las diferencias entre ambos animales y respondiendo actividades de comprensión.\n\n",
+      "estrategia": "Lectura en voz alta (modelado): El docente lee el texto con entonación adecuada.\n\nToma de apuntes: Los estudiantes registran información durante la escucha.\n\nPreguntas intercaladas: Durante la segunda lectura para guiar la comprensión.\n\nTrabajo individual y grupal: Para resolver actividades de post-escucha.\n\nSocialización de respuestas: Para compartir y corregir estrategias.",
+      "aprendizaje_significativo": "Se trabaja con un texto de National Geographic que explica las diferencias entre dos animales que los niños suelen confundir, desarrollando su capacidad de observación y análisis.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar solo 3 diferencias durante la escucha.\n\nPara estudiantes con dificultades de comprensión: Se les permite trabajar las actividades en pareja.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona el texto escrito para que sigan la lectura visualmente.\n\nPara estudiantes avanzados: Se les pide que investiguen otra diferencia no mencionada en el texto.",
+      "actividades_cuaderno": "Copiar el cuadro de recursos para establecer semejanzas y diferencias que se elaborará en la pizarra durante la socialización.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Texto del artículo (pág. 85)\n• Cuadernos para apuntes",
+          "descripcion": "1. El docente lee por primera vez el texto \"Diferencias entre conejos y liebres\" (pág. 85) con la entonación, ritmo y pausas adecuadas.\n2. Los estudiantes toman apuntes de las diferencias que escuchan.",
+          "actividad_numero": "Comprensión oral (Párrafo 6, pág. 85)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos",
+          "descripcion": "1. El docente realiza la segunda lectura, haciendo pausas y formulando preguntas sobre aspectos específicos: tamaño, lugar donde viven, cómo son las crías, etc. (pág. 85).\n2. Los estudiantes comparten oralmente cuáles hipótesis se cumplieron o no (pág. 85).\n3. Actividades de post-escucha (pág. 86):\n- Actividad de completación: Completan los enunciados:\n1. Un lebrato es la cría de la _______.\n2. Mucha gente confunde la liebre con el conejo porque _______.\n3. Las crías de las liebres nacen más _______.\n4. Al nacer, estas crías no pueden caminar ni regular su temperatura _______.\n5. Esta especie se refugia debajo de la tierra _______.\n- Actividad de Verdadero/Falso (pág. 86): Marcan V o F y justifican:\n1. Las cabras y las ovejas se parecen mucho, pero no son la misma cosa.\n2. Una liebre corre tan rápido como un conejo.\n3. A diferencia de un conejo, la liebre tiene menos peligro de que otro animal se la coma.\n4. Los conejos son menos solitarios que las liebres.\n5. La gestación de los conejos dura más que la de las liebres.\n- Actividad de preguntas (págs. 86-87): Responden:\n1. ¿Por qué se dice que los lebratos nacen completamente desarrollados?\n2. ¿Por qué sería más fácil tener un conejo de mascota que una liebre?\n3. ¿Qué significa la palabra \"colonia\" cuando se dice \"los conejos viven en colonias\"?\n4. ¿Cuál es el propósito del texto escuchado?\n5. Alistan palabras y expresiones que se emplean para establecer diferencias y semejanzas.\n6. ¿Has escuchado la frase \"que no te den conejo por liebre\"? ¿Qué significa?\n7. ¿Por qué crees que se utilizó esa frase en el texto?\n8. ¿Cómo impedir que alguien confunda estos animales? (Escriben una explicación).\tComprensión oral\nActividades (pág. 86)\n",
+          "actividad_numero": "Comprensión oral Actividades (pág. 86) Actividades (págs. 86-87)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas, especialmente las preguntas 5-8.\n2. El docente refuerza el uso de palabras y expresiones para comparar.",
+          "actividad_numero": "Comprensión oral (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771201677804",
+      "sequence_id": "seq-1771196748686",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión Escrita (Pre-lectura y Durante la lectura)",
+      "intencion_pedagogica": "Realizar la pre-lectura y la lectura compartida del artículo \"Diferencias entre ranas y sapos\", formulando hipótesis y verificándolas durante la lectura.\n\n",
+      "estrategia": "Uso de imágenes: Para activar conocimientos previos sobre ranas y sapos.\n\nLectura compartida: Docente y alumnos leen en voz alta, alternándose.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión.\n\nVerificación de hipótesis: Los estudiantes contrastan sus predicciones con el texto real.",
+      "aprendizaje_significativo": "Se trabaja con un texto sobre ranas y sapos, animales que los niños pueden haber visto en su entorno, desarrollando su capacidad de observar y valorar la biodiversidad local.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades visuales: Se utilizan imágenes grandes de ranas y sapos.\n\nPara estudiantes con dificultades de atención: Se les asigna la tarea de ser \"detectives\" y buscar una diferencia en cada párrafo.\n\nPara estudiantes kinestésicos: Se les invita a representar con movimientos la forma de saltar de una rana y caminar de un sapo.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona el texto escrito con anticipación.",
+      "actividades_cuaderno": "Anotar 3 diferencias nuevas que aprendieron sobre ranas y sapos en la lectura de hoy.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imágenes de ranas y sapos\n• Pizarra",
+          "descripcion": "1. El docente muestra imágenes de ranas y sapos.\n2. Formula preguntas de exploración (pág. 87):\n- \"¿Qué sientes cuando ves uno en persona?\"\n- \"¿Serán importantes los sapos y las ranas? ¿Por qué?\"\n3. Anuncia que leerán el texto \"Diferencias entre ranas y sapos\".\n4. Explica que la lectura será interactiva y compartida.",
+          "actividad_numero": "Comprensión escrita (Párrafo 1, pág. 87)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copia del texto (pág. 88)\n• Mapamundi\n• Pizarra",
+          "descripcion": "1. Se entrega una copia del texto \"Diferencias entre ranas y sapos\" (pág. 88) .\n2. Se realiza la lectura compartida con preguntas intercaladas (págs. 89-90):\n- Párrafo 1: \"¿Por qué es un poco difícil distinguir una rana de un sapo?\"\n- Párrafo 2: \"¿Qué aspecto se presenta aquí para distinguirlos? ¿Cuál es la diferencia entre la piel?\"\n- Párrafo 3: \"¿Qué hace el autor para continuar explicando las diferencias? ¿Cuál es la diferencia entre las patas?\"\n- Párrafo 4: \"En este párrafo se presentan similitudes y diferencias. ¿Cuáles son? ¿Qué palabras se usan para establecer la comparación?\"\n- Párrafo 5: \"¿A qué se refiere el ecuador? ¿Qué se hace en zonas cercanas al ecuador para diferenciarlos?\" (El docente muestra un mapamundi).\n- Párrafo 6: \"Para concluir su exposición, ¿qué hace el autor?\"",
+          "actividad_numero": "Comprensión escrita Durante la lectura (págs. 89-90)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se retoman las ideas exploradas al inicio.\n2. Se identifican cuáles se cumplieron y cuáles no.\n3. El docente anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Párrafo final, pág. 90)"
+        }
+      ]
+    },
+    {
+      "id": "1771201750707",
+      "sequence_id": "seq-1771196748686",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión Escrita (Post-lectura)",
+      "intencion_pedagogica": "Consolidar la comprensión del artículo \"Diferencias entre ranas y sapos\" a través de actividades de post-lectura y producir una explicación escrita para compartir con la familia.\n\n",
+      "estrategia": "Trabajo individual con el texto: Para resolver actividades de comprensión.\n\nUso de diccionario: Para consultar vocabulario desconocido.\n\nSocialización de respuestas: Para compartir y corregir estrategias.\n\nTrabajo en grupos cooperativos: Para actividades de producción escrita.",
+      "aprendizaje_significativo": "Los estudiantes aplican lo aprendido para explicar a sus familiares las diferencias entre ranas y sapos, conectando el contenido escolar con su vida cotidiana y familiar.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite dictar su párrafo a un compañero.\n\nPara estudiantes que necesitan apoyo en vocabulario: Se les permite usar el diccionario para la Actividad 2.\n\nPara estudiantes visuales: Se les anima a incluir un dibujo de una rana y un sapo con sus diferencias señaladas.\n\nPara estudiantes avanzados: Se les pide que investiguen un dato curioso sobre ranas o sapos y lo agreguen a su explicación.",
+      "actividades_cuaderno": "Pasar en limpio el párrafo explicativo sobre las diferencias entre ranas y sapos para compartirlo con la familia.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copia del texto (pág. 88)",
+          "descripcion": "1. Se recuerda brevemente el texto sobre ranas y sapos.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades\n• Cuadernos\n• Diccionarios (opcional)",
+          "descripcion": "1. Actividad 1 (pág. 91): Completan los enunciados con la información apropiada:\n- Cuando veas un sapo lo distinguirás de una rana porque la piel del primero es más _______.\n- Como los sapos viven en la tierra sus patas suelen ser más _______ que las de las ranas.\n- Mientras que las de las ranas son _______ porque viven en el agua.\n- Aunque tienen muchas diferencias, podemos destacar al menos dos semejanzas: _______.\n2. Actividad 2 (pág. 91): Sin consultar el diccionario, escriben el significado de palabras subrayadas:\n- piel áspera que se ve muy llena de baches\n- proviene el mito\n- comienzan como renacuajos\n- permanecen en racimos\n- no requieren pies palmeados\n3. Actividad 3 (pág. 92): Responden preguntas:\n- \"Si alguien te pregunta cómo distinguirías el cuerpo de una rana de un sapo, ¿qué le dirías?\"\n- \"¿Por qué animales grandes no se comen los sapos?\"\n- \"¿Qué te parece si le explicas a tu familia las diferencias y semejanzas?\" (Escriben un párrafo organizando la información sobre forma del cuerpo, patas, huevos, etc.)\n4. Actividad 4 (pág. 92): Comparten con un allegado las diferencias (se hará en casa, pero se prepara el borrador en clase).",
+          "actividad_numero": "Comprensión escrita Actividad 1 (pág. 91) Actividad 2 (pág. 91) Actividad 3 (pág. 92)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas, especialmente el párrafo de la Actividad 3.\n2. El docente verifica que los estudiantes utilicen recursos lingüísticos de comparación.",
+          "actividad_numero": "Comprensión escrita (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771201825490",
+      "sequence_id": "seq-1771196748686",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Gramática Textual",
+      "intencion_pedagogica": "Analizar las características, estructura y recursos lingüísticos del artículo expositivo estructurado en forma comparativa.\n\n",
+      "estrategia": "Clase expositiva dialogada: Para presentar las características del artículo expositivo.\n\nAnálisis de textos modelo: Se retoman los textos de liebres/conejos y ranas/sapos.\n\nTrabajo individual con el texto: Para identificar recursos de comparación.\n\nUso de cuadros resumen: Para organizar la información.",
+      "aprendizaje_significativo": "Se sistematizan los recursos lingüísticos que los estudiantes ya han utilizado implícitamente al comparar, haciéndolos conscientes de cómo funciona la lengua para explicar y exponer.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de abstracción: Se les proporciona el cuadro ya parcialmente completado con ejemplos.\n\nPara estudiantes kinestésicos: Se utilizan tarjetas con los recursos para que las clasifiquen en semejanzas y diferencias.\n\nPara estudiantes visuales: Se utiliza un organizador gráfico con colores para cada tipo de recurso.\n\nPara estudiantes avanzados: Se les pide que creen un cuadro similar con un tema diferente (ej: perros y gatos).",
+      "actividades_cuaderno": "Copiar el cuadro resumen de la página 94 y la definición de introducción, desarrollo y conclusión.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafos con los textos de liebres y ranas\n• Pizarra",
+          "descripcion": "1. El docente explica qué es un artículo expositivo (pág. 93): textos que explican algo para que otros lo comprendan. Se usan en la escuela para aprender.\n2. Explica que en los textos analizados se usó la comparación como forma de organizar la información.\n3. Presenta los recursos para establecer comparación (pág. 93):\n- Verbos en presente del indicativo (ser, estar, parecer, tener)\n- Adjetivos calificativos (indican cualidades: tamaño, color, olor, textura)\n- Conectores de semejanza (igual que, así mismo, tan como, de igual forma, al igual que)\n- Conectores de diferencia (por el contrario, en cambio, pero, sin embargo, mientras que",
+          "actividad_numero": "Gramática textual (Párrafos 1-4, pág. 93)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades\n• Cuadernos\n• Lápices de colores",
+          "descripcion": "1. El docente presenta el cuadro resumen de la página 94:\n- Recursos para establecer semejanzas: \"los sapos son ranas\", \"al igual que las ranas\", \"también\", \"se parecen mucho\"\n- Recursos para establecer diferencias: \"pero son especies distintas\", \"más grandes que\", \"la diferencia está en que\", \"mientras que\", \"más delgados que\"\n2. Actividad 1 (pág. 95): Los estudiantes eligen uno de los dos artículos analizados y completan un cuadro con:\n- 3 oraciones donde se usen adjetivos para comparar.\n- 3 oraciones donde se usen conectores para comparar.\n- 3 oraciones donde se usen verbos para comparar.\n3. Actividad 2 (pág. 95): Encierran en el texto la introducción con color azul, el desarrollo con color rojo y la conclusión con color verde.\n4. El docente refuerza la estructura (pág. 94):\n- Introducción: presenta o adelanta el tema.\n- Desarrollo: explica las semejanzas y diferencias.\n- Conclusión: retoma lo dicho o recomienda algo.",
+          "actividad_numero": "Gramática textual Actividad 1 (pág. 95) Actividad 2 (pág. 95)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan los cuadros de la Actividad 1.\n2. El docente verifica que los estudiantes identifican correctamente los recursos.",
+          "actividad_numero": "Gramática textual (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771201910730",
+      "sequence_id": "seq-1771196748686",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción Oral y Escrita",
+      "intencion_pedagogica": "Presentar el proyecto del congreso, organizar los temas de investigación y guiar a los estudiantes en las primeras fases de preparación de sus exposiciones orales y escritas.\n\n",
+      "estrategia": "Aprendizaje basado en proyectos: Organización de un congreso.\n\nTrabajo en grupos cooperativos: Investigación y preparación de exposiciones.\n\nInvestigación guiada: Los estudiantes buscan información en fuentes diversas.\n\nTaller de escritura: Producción de un artículo escrito para las actas del congreso.\n\nUso de instrumentos de evaluación: Listas de cotejo para autoevaluación y coevaluación.",
+      "aprendizaje_significativo": "Los estudiantes participan en un proyecto real (un congreso) que simula prácticas académicas auténticas, investigando sobre temas de historia y cultura dominicana para exponer oralmente y publicar por escrito.\n\n",
+      "actividades_complementarias": "Para estudiantes que no tienen acceso a internet en casa: Se les proporciona material impreso en el aula.\n\nPara estudiantes con dificultades de organización: Se les entrega un organizador gráfico para su investigación.\n\nPara estudiantes kinestésicos: Se les anima a pensar en elementos visuales o dramatizaciones para su exposición.\n\nPara estudiantes avanzados: Se les pide que investiguen en al menos 3 fuentes diferentes y comparen la información.",
+      "actividades_cuaderno": "Cada grupo debe anotar el tema que le correspondió, los subtemas que investigarán y las fuentes que consultarán. Iniciar la toma de apuntes de la investigación.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Consigna en la pizarra o papelógrafo\n• Lista de temas",
+          "descripcion": "1. El docente presenta la consigna (pág. 96): organizarán el congreso \"Viajemos imaginariamente al pasado de nuestro país para entender nuestro presente\".\n2. Explica que el evento tendrá como público a los niños de 3er grado y se presentará en la última semana de febrero (celebración de la Independencia Nacional).\n3. Presenta los temas del congreso (pág. 96):\n- Comparación entre actividades económicas en los siglos XVI, XVII y XVIII.\n- Rasgos culturales de los grupos humanos antes y después de la colonia.\n- Comparación de corsarios, bucaneros y filibusteros.\n- Comparación de la vida en las colonias francesa y española.\n- Distinción de formas de organización social, política y económica en el periodo colonial.\n- Comparación de aspectos geográficos y socioculturales de países del Caribe.",
+          "actividad_numero": "Producción oral (Párrafos 1-2, pág. 96)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Lista de temas y subtemas\n• Acceso a internet o materiales impresos\n• Libros de texto de Ciencias Sociales\n- Libros de texto de Ciencias Sociales.\n- Enlaces web sugeridos (goo.gl/B4Zb1b, goo.gl/nlyTfv, goo.gl/xmaFncn, etc.).\n- Biblioteca del centro.",
+          "descripcion": "1. El docente divide los temas en tópicos más pequeños para asignar a grupos (págs. 96-97):\n- Ejemplo: para el tema de actividades económicas, un grupo compara las actividades, otro compara los miembros de la sociedad.\n- Para rasgos culturales: diferencias entre ingeris, ostonoides y taínos; diferencias entre africanos, canarios y taínos.\n- Para el Caribe: semejanzas y diferencias en paisaje, gastronomía, lengua, fiestas, religión, etc.\n2. Los estudiantes se organizan en grupos y seleccionan sus temas.\n3. El docente orienta sobre las fuentes de información (págs. 98-100):\n- Libros de texto de Ciencias Sociales.\n- Enlaces web sugeridos (goo.gl/B4Zb1b, goo.gl/nlyTfv, goo.gl/xmaFncn, etc.).\n- Biblioteca del centro.\n4. Explica las estrategias de lectura para investigar (pág. 100):\n- ¿Comprendo esta información?\n- ¿En qué parte del texto aparece lo que busco?\n- ¿Cómo sé que esta información me sirve?\n- Comparo lo que dice cada fuente.\n- Escribo las ideas con mis propias palabras y anoto la fuente.",
+          "actividad_numero": "Producción oral (Párrafos 3-8, págs. 97-100)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Lista de cotejo fotocopiada",
+          "descripcion": "1. Cada grupo comienza a planificar su investigación.\n2. El docente entrega la Lista de cotejo (pág. 102) para que los estudiantes sepan qué se evaluará en su exposición oral.\n3. Se recuerda que también producirán un artículo escrito para las Actas del congreso (pág. 104) .",
+          "actividad_numero": "Producción oral Lista de cotejo (pág. 102)"
+        }
+      ]
+    },
+    {
+      "id": "1771202432133",
+      "sequence_id": "seq-1771196748686",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Investigación y Preparación del Congreso",
+      "intencion_pedagogica": "Investigar en diferentes fuentes bibliográficas sobre el tema asignado, seleccionando información relevante y expresándola con sus propias palabras.\n\n",
+      "estrategia": "Aprendizaje basado en proyectos: Investigación para el congreso.\n\nTrabajo en grupos cooperativos: Los estudiantes investigan juntos.\n\nAcompañamiento docente: El docente guía la búsqueda y comprensión de fuentes.\n\nUso de estrategias de lectura: Leer para aprender y leer para obtener información precisa.\n\nParafraseo: Los estudiantes expresan ideas con sus propias palabras.",
+      "aprendizaje_significativo": "Los estudiantes se convierten en \"especialistas\" en un tema de historia o cultura dominicana, experimentando el proceso real de investigación académica.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectura: Se les asignan textos más breves o con ilustraciones.\n\nPara estudiantes con dificultades de escritura: Se les permite grabar sus ideas en audio.\n\nPara estudiantes kinestésicos: Se les asigna la tarea de organizar físicamente las fuentes en la mesa.\n\nPara estudiantes avanzados: Se les pide que consulten una fuente adicional no proporcionada por el docente.",
+      "actividades_cuaderno": "Continuar registrando información del tema asignado, asegurándose de parafrasear y anotar las fuentes.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con las estrategias",
+          "descripcion": "1. El docente recuerda el proyecto del congreso y los temas asignados a cada grupo.\n2. Explica que en las próximas sesiones trabajarán en la búsqueda, análisis y reelaboración de la información (pág. 100).\n3. Presenta las estrategias de lectura que utilizarán (pág. 100):\n- \"¿Comprendo esta información? ¿No la comprendo? ¿Hay palabras o ideas que no entiendo? Consulto el diccionario, a un compañero o a mi profe.\"\n- \"¿En qué parte del texto que estoy leyendo aparece información de la que ando buscando sobre el tema que me toca exponer?\"\n- \"¿Cómo sé que esta información me sirve? Comparto con mi/s compañero/s lo que pienso.\"\n- \"Comparo lo que se dice en cada fuente sobre el tema que me tocará exponer.\"",
+          "actividad_numero": "Producción oral (Párrafo 8, pág. 100)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fuentes de información (libros, fotocopias, textos impresos)\n• Cuadernos",
+          "descripcion": "1. Los grupos se reúnen con las fuentes bibliográficas proporcionadas (libros de texto, fotocopias, enlaces web impresos).\n2. Aplican las estrategias de lectura para identificar información relevante.\n3. Consigna (pág. 101):\n- Después de comprobar que la información es cierta:\na. Escriben en su cuaderno las ideas con sus propias palabras.\nb. Anotan debajo el título, el autor y otros datos de la fuente.\n4. El docente circula entre los grupos, ayudando a interpretar la información y asegurándose de que parafraseen correctamente.",
+          "actividad_numero": "Producción oral (Párrafo 9, pág. 101)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Cada grupo comparte brevemente un hallazgo interesante.\n2. El docente verifica que están aplicando el parafraseo correctamente.\n3. Se recuerda que continuarán investigando en la próxima clase.",
+          "actividad_numero": "Producción oral (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771202496364",
+      "sequence_id": "seq-1771196748686",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Redacción del Borrador de la Exposición Oral",
+      "intencion_pedagogica": "Redactar el borrador de la exposición oral, organizando la información con introducción, desarrollo (comparación) y conclusión, y utilizando conectores apropiados.\n\n",
+      "estrategia": "Trabajo en grupos cooperativos: Redacción conjunta del borrador.\n\nUso de organizadores textuales: Empleo de conectores y marcadores discursivos.\n\nRevisión entre pares: Uso de lista de cotejo para retroalimentación.\n\nAndamiaje docente: El docente guía la estructuración del texto.",
+      "aprendizaje_significativo": "Los estudiantes construyen su propio texto expositivo a partir de la información investigada, aplicando conscientemente los recursos lingüísticos de comparación aprendidos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite dictar sus ideas al compañero o al docente.\n\nPara estudiantes con dificultades de organización: Se les proporciona un esquema con espacios para completar.\n\nPara estudiantes visuales: Se les anima a incluir dibujos o diagramas que acompañen su exposición.\n\nPara estudiantes avanzados: Se les pide que incluyan conectores más variados y elaborados.",
+      "actividades_cuaderno": "Tener el borrador de la exposición oral listo y corregido para la próxima clase.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos con la investigación",
+          "descripcion": "1. El docente explica que con la información recopilada, ahora redactarán el borrador de su exposición oral.\n2. Presenta las consignas de la página 102:\n- Revisar todas las ideas anotadas.\n- Asegurarse de que se entienden y están dichas con sus propias palabras.\n- Si falta información, buscarla.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 102)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lista de cotejo fotocopiada",
+          "descripcion": "1. Los estudiantes, en grupos, redactan el borrador de su exposición (cada uno en su cuaderno).\n2. El docente recuerda los marcadores y expresiones para comparar (pág. 102):\n- Semejanza: al igual que, asimismo, también, ambos, similar a, tan como, del mismo modo\n- Diferencia: mientras que, a diferencia de, contrario a, pero, sin embargo, por el contrario, por un lado/por otro lado\n3. Deben incluir un párrafo de introducción y uno de conclusión.\n4. Revisión con lista de cotejo (pág. 102):\n- ¿Escribimos una exposición en la que comparamos o distinguimos los dos aspectos?\n- ¿Cada idea está expresada con nuestras propias palabras?\n- ¿Hemos incluido todas las ideas necesarias?\n- ¿Tiene introducción?\n- ¿Tiene conclusión?\n5. Los grupos intercambian sus borradores para retroalimentación mutua.",
+          "actividad_numero": "Producción oral Lista de cotejo (pág. 102)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Borradores de los estudiantes",
+          "descripcion": "1. El docente revisa los borradores de cada grupo y ofrece sugerencias.\n2. Los estudiantes realizan los ajustes necesarios.\n3. Se recuerda que en la próxima clase comenzarán los ensayos.",
+          "actividad_numero": "Producción oral (Párrafo final, pág. 103)"
+        }
+      ]
+    },
+    {
+      "id": "1771202576714",
+      "sequence_id": "seq-1771196748686",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": " Ensayo de la Exposición Oral",
+      "intencion_pedagogica": "Ensayar las exposiciones orales, practicando la fluidez, la entonación, el lenguaje gestual y el manejo del público, y recibiendo retroalimentación para mejorar.\n\nv",
+      "estrategia": "Simulación: Ensayo de la exposición oral.\n\nPráctica deliberada: Repetición con retroalimentación.\n\nCoevaluación: Los compañeros evalúan usando lista de cotejo.\n\nModelado docente: El docente muestra cómo mejorar aspectos no verbales.",
+      "aprendizaje_significativo": "Los estudiantes ensayan en un ambiente seguro y de apoyo, preparándose para el evento real (el congreso) y desarrollando confianza en sus habilidades comunicativas.\n\n",
+      "actividades_complementarias": "Para estudiantes con ansiedad escénica: Se les permite ensayar primero solo con el docente o con un grupo más pequeño.\n\nPara estudiantes con dificultades de expresión oral: Se les permite usar tarjetas con palabras clave.\n\nPara estudiantes kinestésicos: Se les anima a usar gestos y movimientos durante la exposición.\n\nPara estudiantes con discapacidad visual: Se asegura que el espacio esté libre de obstáculos y se les describe el entorno.",
+      "actividades_cuaderno": "Anotar la retroalimentación recibida y los aspectos que deben mejorar para la presentación final.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente explica que hoy comenzarán los ensayos para el congreso.\n2. Asigna la tarea de la página 103:\n- Aprenderse la información (no memorizar palabra por palabra, sino las ideas principales).\n- Practicar frente a un espejo o familiares.\n- No mirar al piso o al techo, sino a todos lados.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 103)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Lista de cotejo (pág. 102)\n• Cronómetro",
+          "descripcion": "1. Los grupos se turnan para presentar su exposición oral frente al docente y sus compañeros.\n2. El docente utiliza la Lista de cotejo (pág. 102) para evaluar y ofrecer retroalimentación:\n- ¿Escribieron una exposición comparativa?\n- ¿Usaron sus propias palabras?\n- ¿Incluyeron introducción y conclusión?\n3. También evalúa aspectos no verbales:\n- Contacto visual\n- Postura\n- Gestos\n- Volumen y entonación\n4. Los compañeros también ofrecen retroalimentación constructiva.",
+          "actividad_numero": "Producción oral (Párrafo 2, pág. 103)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Cada grupo reflexiona sobre la retroalimentación recibida.\n2. Anotan los aspectos que deben mejorar.\n3. El docente recuerda los preparativos para el congreso (vestuario, recursos audiovisuales, orden de presentación).",
+          "actividad_numero": "Producción oral (Párrafo 3, pág. 103)"
+        }
+      ]
+    },
+    {
+      "id": "1771202638192",
+      "sequence_id": "seq-1771196748686",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "",
+      "intencion_pedagogica": "Presentar las exposiciones orales en el congreso ante los niños de 3er grado y comenzar el proceso de adaptación de la exposición a un artículo escrito para las actas del congreso.\n\n",
+      "estrategia": "Evento real: Celebración del congreso con público invitado (3er grado).\n\nEvaluación auténtica: Los estudiantes demuestran sus habilidades en un contexto real.\n\nTaller de escritura: Adaptación de la exposición oral a texto escrito para las actas.\n\nUso de instrumentos de evaluación: Lista de cotejo para el artículo escrito.",
+      "aprendizaje_significativo": "Los estudiantes viven la experiencia real de participar en un congreso académico, compartiendo sus conocimientos con un público real y viendo su trabajo publicado en las actas del evento.\n\n",
+      "actividades_complementarias": "Para estudiantes con ansiedad escénica: Se les asegura que el público es amigable y que todos están ahí para aprender.\n\nPara estudiantes con dificultades de expresión oral: Se les permite tener tarjetas con palabras clave.\n\nPara estudiantes kinestésicos: Se les anima a usar gestos y moverse mientras hablan.\n\nPara estudiantes con discapacidad auditiva: Se les sienta cerca del frente y se asegura que puedan ver los apoyos visuales.",
+      "actividades_cuaderno": "Responder las preguntas de la página 105 para comenzar la adaptación de la exposición oral a artículo escrito.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio preparado (escenario, decoración)\n• Programa del evento",
+          "descripcion": "1. El docente (o conductor designado) da la bienvenida al público (niños de 3er grado).\n2. Explica brevemente el propósito del congreso: \"Viajemos imaginariamente al pasado de nuestro país para entender nuestro presente\".\n3. Anuncia el orden de las presentaciones.",
+          "actividad_numero": "Producción oral (Párrafo 4, pág. 104)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Micrófono (opcional)\n• Recursos audiovisuales preparados por los grupos",
+          "descripcion": "Presentaciones del congreso:\n1. Cada grupo presenta su exposición oral (tiempo asignado previamente).\n2. El público (3er grado) escucha atentamente.\n3. El docente y los compañeros de 4to grado observan y celebran los logros.\n4. Al finalizar, se realiza un breve espacio de preguntas y respuestas.",
+          "actividad_numero": "Producción oral (Párrafo 4, pág. 104)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Borradores de la exposición oral",
+          "descripcion": "1. El docente explica que ahora comenzarán la producción escrita para las Actas del congreso (pág. 104) .\n2. Presenta la consigna (pág. 104-105): adaptar la exposición oral a un texto escrito para que otros estudiantes que no asistieron puedan aprender sobre el tema.\n3. Entrega las preguntas de revisión (pág. 105):\n- \"¿Tiene mi borrador toda la información que quería exponer?\"\n- \"¿Qué cosas quiero arreglar?\"\n- \"¿Me sirve la introducción para un público que leerá?\"\n- \"¿Cómo voy a organizar la información en párrafos?\"\n4. Los estudiantes comienzan a responder estas preguntas en su cuaderno.",
+          "actividad_numero": "Producción escrita (Párrafos 1-3, pág. 104-105)"
+        }
+      ]
+    }
+  ]
+}

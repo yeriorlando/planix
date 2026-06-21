@@ -1,0 +1,355 @@
+{
+    "sequenceId": "seq-mat-4-1ro",
+    "subjectId": "matematica-1ro",
+    "sequenceTitle": "Juegos, sumas y restas",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1: Reunimos y contamos",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "encuentren pares de números que sumados den 10.",
+                    "resources": "actividad 1 del fascículo. Papelógrafo en blanco para escribir las conclusiones, 10 semillas, piedrecitas o botones por cada cuatro estudiantes. Cajita (armada con dos cajitas de fósforos), como la que se muestra, por cada 4 estudiantes.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nCompletar las sumas y expresarlas como restas:\n6 + ___ = 10 1 + ___ = 10\n10 - 6 = ___ 10 - 1 = ___\n4 + ___ = 10 9 + ___ = 10\n10 - 4 = ___ 10 - 9 = ___",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes.",
+                            "description": "Se conversa con los estudiantes sobre lo que van a trabajar en las próximas clases, mostrándoles dónde dice lo que se va leyendo.\nEN ESTAS SEMANAS TRABAJAREMOS PARA:\n● Leer, escribir y comparar números hasta el 100.\n● Sumar dos números cuyo resultado sea 10.\n● Resolver problemas donde se suman y restan cantidades.\n● Sumar y restar cantidades con distintos procedimientos."
+                        },
+                        {
+                            "title": "Momento 2. Complementos a 10. Registrar sumas cuyo resultado es 10.",
+                            "description": "Se indica el título para el cuaderno: Suman 10. El docente organiza grupos de 4 estudiantes, reparte los materiales y explica las reglas.\nJuego: La cajita de los 10\nObjetivo: registrar y analizar sumas de dos dígitos que dan 10.\nInstrucciones: sacudir la caja, contar semillas a la vista y anticipar las ocultas. Gana quien anticipa correctamente.\nPuesta en común: relatar experiencia y resolver problemas orales de complementos a 10."
+                        },
+                        {
+                            "title": "Momento 3. Complemento y sumas a 10.",
+                            "description": "Resolver actividad 1 del fascículo individualmente. Anotar semillas tapadas y resolver sumas a 10. Relacionar con la resta (10 - 5 = 5)."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización.",
+                            "description": "Concluir: si un número se reduce en 1, el resultado también: 4 + 6 = 10 -> 4 + 5 = 9."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "relacionen sumas que dan 10 y averigüen con ellas los resultados de otras sumas.",
+                    "resources": "papelógrafo de la actividad 1 y una hoja en blanco con el cuadro de dos columnas. Actividad 2 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nUsando los cálculos que suman 10, resolver los siguientes:\n5 + 5 = 10 1 + 9 = 10 4 + 6 = 10 3 + 7 = 10\n6 + 5 = 2 + 9 = 5 + 6 = 2 + 7 =",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Compartir respuestas y estrategias para sumar a 10."
+                        },
+                        {
+                            "title": "Momento 2. Relacionar sumas que dan 10.",
+                            "description": "Identificar sumas fáciles y difíciles. Ordenar los cálculos (conmutatividad, variar sumandos)."
+                        },
+                        {
+                            "title": "Momento 3. Obtener resultados de una suma a partir de otra conocida.",
+                            "description": "Resolver sumas (ej. 5+4) usando sumas de 10 (ej. 5+5). Analizar cómo cambia el resultado al cambiar un sumando."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización.",
+                            "description": "Si un número sumado es 'uno menos', el resultado es 'uno menos'."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "identifiquen sumas que tienen el mismo resultado.",
+                    "resources": "actividad 3 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nCompletar para que den el mismo resultado:\n4 + 6 = 4 + ____ + ______ 6 + 3 = _____ + _____ + 3 8 + 2 = ______ + _______ + 2",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Compartir respuestas y explicar cómo usar un resultado conocido."
+                        },
+                        {
+                            "title": "Momento 2. Sumas equivalentes.",
+                            "description": "Colorear tarjetas con el mismo resultado. Analizar descomposiciones (ej. 6+4 es igual a 3+3+3+1)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "resuelvan situaciones problemáticas para reunir cantidades o averiguar una de ellas sabiendo la otra, y la relación entre ellas.",
+                    "resources": "actividad 4 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nResolver:\nEn la fiesta de Lucía había un plato con 4 muffins de cereza y 3 de chocolate. ¿Cuántos muffins había en el plato?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Compartir respuestas destacando las formas de completar sumas equivalentes."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas de reunir y comparar.",
+                            "description": "Interpretar imagen de cumpleaños. Resolver 3 problemas: a) Total de invitados (reunir), b) Edad de Lucía (comparar/sumas), c) Globos pinchados (quitar/resta)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "analicen diferentes procedimientos para realizar sumas.",
+                    "resources": "papelógrafo con sumas que dan 10. Actividad 5 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\n● Resolver como Carlos formando 10:\n8 + 6 = 9 + 7 =\n● Resolver como Juana usando el 5:\n8 + 6 = 9 + 7 =",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Compartir resolución gráfica o matemática del problema de los muffins."
+                        },
+                        {
+                            "title": "Momento 2. Descomponer cantidades para formar 5 y 10.",
+                            "description": "Resolver 8 + 6. Analizar métodos: Carlos (formar 10) y Juana (usar el 5)."
+                        },
+                        {
+                            "title": "Momento 3. Nuevos cálculos descomponiendo para formar 10.",
+                            "description": "Ejercitar métodos de Carlos y Juana con nuevos cálculos (6+7, 9+8)."
+                        },
+                        {
+                            "title": "Momento 4. Registrar cálculos.",
+                            "description": "Anotar sumas que dan 5, 6, 7, 8 y 9 en el fascículo."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "analicen situaciones problemáticas de quitar y de comparar.",
+                    "resources": "actividad 6 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nResolver y expresar el cálculo que lo resuelve:\nEn otra fiesta había 15 sándwiches en un plato y en el otro 5 menos. ¿Cuántos sándwiches hay en el otro plato?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Revisar métodos de Carlos y Juana en la tarea."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas de quitar.",
+                            "description": "Problema: 10 sándwiches, se llevan 4. ¿Cuántos quedan? (Restar: 10-4)."
+                        },
+                        {
+                            "title": "Momento 3. Resolver problemas de comparar o relacionar cantidades.",
+                            "description": "Problema: Un plato con 10 y otro con 6 menos. Comparar para hallar la cantidad menor."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "resuelvan problemas de cantidades que se relacionan para averiguar la diferencia.",
+                    "resources": "actividad 7 del fascículo. Cuadro personal de números.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nCompletar las filas de Petra y Félix.\nPerlitas del collar | Perlitas de la pulsera | Diferencia\nPetra 63 | 60\nFélix 16 | 10",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Corregir tarea y enfatizar formas de resolver restas."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas para averiguar la diferencia entre dos cantidades y restar números terminados en 0.",
+                            "description": "Completar tabla de collares y pulseras (Daisy, Carlos, Teresita, Pascual). Usar el cuadro de números para restar de 10 en 10 hacia atrás."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "Regla: al restar un número terminado en 0 a uno que empieza igual, la última cifra queda igual (ej. 35-30=5)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 8",
+                    "pedagogicalIntention": "afiancen estrategias para resolver problemas y cálculos de suma y resta.",
+                    "resources": "actividad 8 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nResolver:\nLa mamá de Fátima hizo otras pulseras para Ana y María con semillas amarillas y verdes.\nAna: 7 amarillas y 7 verdes.\nMaría: 8 amarillas y 10 verdes.\n¿Cuántas semillas de cada color necesita?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Compartir estrategias de resta y uso de colores para visualizar dígitos que cambian."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de suma de reunir.",
+                            "description": "Problema: semillas para pulseras de Ana (8+8) y María (9+5). Reunir cantidades sin dibujo."
+                        },
+                        {
+                            "title": "Momento 3. Comparar cantidades.",
+                            "description": "Problema: comparar semillas recolectadas (15) con las necesarias. Diferencia (sobrantes y faltantes)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "practiquen estrategias de cálculo para sumar dígitos.",
+                    "resources": "10 latas o cajas, bolitas de papel. Actividad 9 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\na) ¿Quién ganó? Pedro (1,3,4), Rosa (5,1,2), Luis (3,6).\nb) Lucas tumbó 4 y 5. ¿Qué debe tumbar Ana para ganarle?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Compartir respuestas de semillas y métodos de suma."
+                        },
+                        {
+                            "title": "Momento 2. Jugar y sumar.",
+                            "description": "Juego: Tumba latas. Sumar puntos de latas (1-9). Estrategias: sobreconteo, descomposición para formar 10 (ej. 25+8 as 25+5+3)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2: Quitamos y comparamos",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "resuelvan nuevos cálculos sumando números de dos cifras terminados en 0.",
+                    "resources": "3 latas o cajas, bolitas de papel. Actividad 10 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\n¿Quién ganó esta ronda?\nDaniel: 30, 60\nMaría: 10, 20, 50",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Mostrar resoluciones de la tarea anterior (latas de Pedro, Rosa, Luis)."
+                        },
+                        {
+                            "title": "Momento 2. Jugar y sumar con números más grandes.",
+                            "description": "Juego: Tumba latas con números 20, 30, 40. Relacionar con sumas de dígitos (ej. 4+2=6 -> 40+20=60)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 11",
+                    "pedagogicalIntention": "repasen contenidos trabajados.",
+                    "resources": "actividad 11 del fascículo. Una hoja en blanco para cada estudiante.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Revisar latas de Daniel y María, enfatizando sumas de dígitos."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Revisar actividades del bloque 1 y registrar avances en el papelógrafo."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido.",
+                            "description": "Resolver problemas de: a) sumas a 10, b) diferencia de perlitas, c) juego de latas. Evaluar sobreconteo y estrategias de suma."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 12",
+                    "pedagogicalIntention": "ordenen números de menor a mayor.",
+                    "resources": "actividad 12 del fascículo. Cuadro de números del salón.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Seguir la secuencia numérica en orden.",
+                            "description": "Recitado de la serie hasta 100 señalando el cuadro. Unir puntos del 1 al 100 en el fascículo para descubrir la imagen."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 13",
+                    "pedagogicalIntention": "usen las relaciones y patrones del cuadro a 100 para resolver adivinanzas numéricas.",
+                    "resources": "cuadro numérico, fichas. Actividad 13.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\nEncerrar la respuesta correcta:\na. Termino con 3 y soy menor que 50.\nb. Estoy entre 84 y 88.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Leer serie hasta 100 y revisar el dibujo unido por puntos."
+                        },
+                        {
+                            "title": "Momento 2. Ubicar números en el cuadro a 100.",
+                            "description": "Adivinanzas numéricas (ej. 'Entre 19 y 21', 'Fila de los sesenta'). Usar relaciones anterior/siguiente, mayor/menor."
+                        },
+                        {
+                            "title": "Momento 3. Reconocer números hasta el 100.",
+                            "description": "Juego en equipos: inventar y contestar adivinanzas con respuesta única."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 14",
+                    "pedagogicalIntention": "lean, escriban y comparen números.",
+                    "resources": "tarjetas al 100 de 10 en 10, 30 tarjetas con números. Actividad 14 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno:\na) Leer: 48, 29, 63, 81. b) Encerrar el menor.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Corregir adivinanzas en la pizarra analizando errores comunes."
+                        },
+                        {
+                            "title": "Momento 2. Comparar, leer y escribir números.",
+                            "description": "Juego: El mayor y el menor. Dictado de números mayores. Discutir estrategias de comparación (valor posicional del primer dígito)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 15",
+                    "pedagogicalIntention": "comparen y compongan aditivamente números hasta 100.",
+                    "resources": "3 latas, bolitas de papel. Actividad 15.",
+                    "homework": "Escribir el cálculo y puntos totales para Juan (10+30), Guille (10+20+30) y Gaby (20+20+30). Determinar ganador.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Leer números de la tarea e identificar el menor."
+                        },
+                        {
+                            "title": "Momento 2. Componer y comparar números de dos dígitos terminados en 0.",
+                            "description": "Juego: Encestar (latas de 10, 20, 30). Sumar puntos terminados en 0. Comparar puntajes máximos y mínimos (máx: 90)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 16",
+                    "pedagogicalIntention": "comparen y compongan números de uno y dos dígitos.",
+                    "resources": "3 latas, bolitas de papel. Actividad 16.",
+                    "homework": "Calcular puntos totales en tabla para Juan, Guille y Gaby.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Revisar sumas de la tarea de encestar."
+                        },
+                        {
+                            "title": "Momento 2. Componer y comparar números de 2 dígitos.",
+                            "description": "Seguir encestando con nuevos valores. Estrategias: sumar dígitos a números de 10 en 10. Sistematizar: comparar primero la cifra de las decenas."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 17",
+                    "pedagogicalIntention": "practiquen cálculos para resolverlos más fácilmente.",
+                    "resources": "actividad 17 del fascículo.",
+                    "homework": "Resolver: Lucía tiró 4 bolitas y sacó 21 puntos (latas 10, 40, 5, afuera=1). ¿Dónde cayeron?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Revisar tabla de puntajes de la tarea anterior."
+                        },
+                        {
+                            "title": "Momento 2. Componer y descomponer números.",
+                            "description": "Problemas de composición inversa: '¿Es posible sacar 30 con 4 bolitas?', '¿Dónde cayeron si sacó 25?'."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 18: CIERRE DE LA SECUENCIA Y METACOGNICIÓN",
+                    "pedagogicalIntention": "reflexionen sobre lo realizado y aprendido durante la secuencia.",
+                    "resources": "actividad 18 del fascículo.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Explicar dónde cayeron las bolitas de Lucía (ej. 10+5+5+1)."
+                        },
+                        {
+                            "title": "Momento 2. Afianzar conocimientos.",
+                            "description": "Clasificar cálculos en 'Fáciles' y 'Difíciles'. Analizar progresos."
+                        },
+                        {
+                            "title": "Momento 3. Reflexión metacognitiva.",
+                            "description": "Evaluar cómo trabajaron, qué les gustó y qué resultó fácil usando emoticonos o X."
+                        },
+                        {
+                            "title": "Momento 4. Revisar el papelógrafo de aprendizajes.",
+                            "description": "Marcar aprendizajes logrados y fechar cierre de la secuencia."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,477 @@
+{
+  "id": "seq-1772025603993",
+  "title": "Estadística",
+  "description": "Aquí se trabaja la recolección, organización y representación de datos mediante tablas y gráficos. Los estudiantes aprenden a interpretar información estadística y a sacar conclusiones básicas.",
+  "order": 8,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772025603988",
+      "sequence_id": "seq-1772025603993",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "¡Qué fascinante es la estadística!",
+      "intencion_pedagogica": "Recolectar, organizar y clasificar datos a través de una simulación de elecciones, utilizando tablas de conteo para registrar la información.\n\n",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre elecciones y estadística.\n\nUso de material audiovisual: Video sobre gobiernos estudiantiles.\n\nSimulación de elecciones: Actividad práctica de votación.\n\nRegistro de datos: Uso de tabla de conteo con marcas.\n\nTrabajo individual: Resolución de preguntas sobre los resultados.",
+      "aprendizaje_significativo": "Se parte del contexto de las elecciones del gobierno estudiantil para introducir conceptos estadísticos básicos, conectando así el aprendizaje matemático con una experiencia real y significativa para los estudiantes.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectura: Se les leen las preguntas en voz alta.\n\nPara estudiantes kinestésicos: Se les invita a participar en el escrutinio de votos.\n\nPara estudiantes con discapacidad visual: Se les proporciona la tabla en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que calculen porcentajes de votos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 228, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A, B",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué son las elecciones? ¿Para qué y cómo se hacen? ¿Qué elecciones se hacen en la escuela? ¿Cómo se sabe quién gana?\"\n2. Pregunta: \"¿Saben qué es la estadística y qué estudia?\"\n3. Proyecta el video \"¿Qué son los Gobiernos Estudiantiles?\" (https://www.youtube.com/watch?v=woie3Ve1BfA). Socializa: \"¿De qué trata? ¿Cómo se eligen los cargos? ¿Qué es el gobierno estudiantil?\"",
+          "actividad_numero": "Actividad 1 A y B (pág. 227)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Boletas de votación\n• Urna\n• Tabla de conteo",
+          "descripcion": "1. Explica que realizarán una simulación de elecciones para delegados de 5° grado.\n2. Presenta la boleta con candidatos (pág. 227).\n3. Explica las reglas de votación: marcar con una cruz o cotejo dentro del cuadro, voto secreto, votos nulos si marcan más de uno.\n4. Entrega una boleta a cada estudiante y realiza la votación.\n5. Conforma una comisión electoral para contar los votos.\n6. Registra los resultados en una tabla de conteo (pág. 228).\n7. Explica las marcas de conteo (sistema unario, grupos de cinco).",
+          "actividad_numero": "Actividad 1 C (págs. 227-228)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Responder: 1) ¿Quiénes obtuvieron la primera y segunda delegación? 2) ¿Cuántos votos más obtuvo Ámbar que Nelly? 3) ¿Cuántos votos obtuvieron los tres delegados ganadores juntos?\n\nCierre (pág. 228):\nPreguntas: \"¿Cuántos votos se anularon? ¿Quién obtuvo la segunda mejor puntuación? ¿Quién sacó 15 votos?\"\n\nActividad complementaria (pág. 228):\nCompletar la tabla de conteo con las marcas faltantes (ejercicio).\n\nActividad para el diario del estudiante (pág. 229):\nResolver: \"¿De cuáles tres candidatos los votos suman 40 o más?\"",
+          "actividad_numero": "Actividad 1 Actividad para el cuaderno (pág. 228) Cierre (pág. 228) Actividad complementaria (pág. 228) Actividad para el diario (pág. 229)"
+        }
+      ]
+    },
+    {
+      "id": "1772025772363",
+      "sequence_id": "seq-1772025603993",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "¡Me encantan las gráficas de barras!",
+      "intencion_pedagogica": "Representar e interpretar datos en gráficos de barras. \n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre gráficas de barras.\n\nConstrucción de gráficas: Representación de datos en gráfico de barras.\n\nInterpretación de datos: Análisis de la información representada.\n\nTrabajo individual: Elaboración de gráficas.",
+      "aprendizaje_significativo": "Se utilizan los datos reales de las elecciones estudiantiles para construir gráficas de barras, mostrando la utilidad de esta representación para visualizar información.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la construcción: Se les proporciona papel cuadriculado.\n\nPara estudiantes kinestésicos: Se les invita a construir la gráfica en la pizarra.\n\nPara estudiantes con discapacidad visual: Se utilizan gráficas en relieve.\n\nPara estudiantes avanzados: Se les pide que cambien la escala y observen cómo cambia la gráfica.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 230, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A, B",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los tres candidatos cuyos votos suman 40 o más.\n2. Retroalimenta los resultados de las elecciones.\n3. Proyecta el video \"Cómo hacer una gráfica de barras\" (https://www.youtube.com/watch?v=J-lDNbXM2wE). Socializa.",
+          "actividad_numero": "Actividad 2 A y B (pág. 229)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "C",
+          "tiempo": "60",
+          "recursos": "• Tabla de frecuencias\n• Pizarra\n• Reglas",
+          "descripcion": "1. Retoma la tabla de frecuencias de las elecciones (pág. 229).\n2. Explica los elementos de una gráfica de barras:\n- Eje X: nombres de los candidatos.\n- Eje Y: frecuencia (cantidad de votos).\n- Escala adecuada (de 2 en 2, de 5 en 5, etc.).\n- Barras de igual ancho y separación uniforme.\n3. Construye la gráfica en la pizarra con ayuda de los estudiantes.\n4. Pregunta: \"¿Cuál es el delegado más popular? ¿Por qué?\"",
+          "actividad_numero": "Actividad 2 C (págs. 229-230)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Reglas",
+          "descripcion": "Elaborar una gráfica de barras con los datos de la tabla (Nelly Díaz 15, Alberto Zapata 14).\n\nCierre (pág. 230):\nPreguntas: \"¿Qué es frecuencia? ¿Cómo elaboraste la gráfica? ¿Cuál barra es más alta?\"\n\nActividad complementaria (pág. 230):\nElaborar gráfica de barras para la tabla completa (Ámbar 18, Nelly 15, Alberto 14, Julio 13, Alex 12).\n\nActividad para el diario del estudiante (pág. 231):\nAnalizar la gráfica de barras dada (votaciones de tres delegados) y responder: ¿Qué información tiene? ¿Cuál candidato es el más popular?",
+          "actividad_numero": "Actividad 2 Actividad para el cuaderno (pág. 230) Cierre (pág. 230) Actividad complementaria (pág. 230) Actividad para el diario (pág. 231)"
+        }
+      ]
+    },
+    {
+      "id": "1772025948204",
+      "sequence_id": "seq-1772025603993",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Me encantan los pictogramas",
+      "intencion_pedagogica": "Representar e interpretar datos en pictogramas.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre pictogramas.\n\nObservación de pictogramas: Análisis de pictogramas de votaciones.\n\nConstrucción de pictogramas: Representación de datos con imágenes.\n\nInterpretación de datos: Análisis de la información representada.",
+      "aprendizaje_significativo": "Se introducen los pictogramas como otra forma de representar datos, utilizando imágenes para hacer la información más atractiva y comprensible.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan imágenes recortables para pegar.\n\nPara estudiantes kinestésicos: Se les invita a dibujar las imágenes.\n\nPara estudiantes con discapacidad visual: Se utilizan pictogramas en relieve.\n\nPara estudiantes avanzados: Se les pide que usen diferentes valores por imagen.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 232, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A, B",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por la gráfica de barras analizada.\n2. Retroalimenta interpretación de gráficas.\n3. Proyecta el video \"Qué es un pictograma\" (https://www.youtube.com/watch?v=4zGN3sKV8T0). Socializa.",
+          "actividad_numero": "Actividad 3 A y B (pág. 231)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "C",
+          "tiempo": "60",
+          "recursos": "• Pictograma de votaciones\n• Pizarra",
+          "descripcion": "1. Si no hay video, presenta el pictograma de las votaciones (pág. 232) con valor de 2 votos por imagen.\n2. Pregunta: \"¿Cuánto vale cada imagen? ¿Cuántos votos obtuvo Julio? ¿Cómo lo saben?\"\n3. Explica que los pictogramas usan imágenes para representar cantidades.\n4. Pregunta: \"¿Cuál es la diferencia y similitud entre gráfica de barras y pictograma?\"\n5. Realiza preguntas de interpretación: \"¿Cuántos votos obtuvieron Alberto y Ámbar juntos? ¿Cuántos votos más sacó Nelly que Julio?\"",
+          "actividad_numero": "Actividad 3 C (págs. 231-232)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Construir un pictograma con la tabla de frecuencias (Nelly 15, Alberto 14, Julio 13), donde cada imagen tenga valor diferente a 2.\n\nCierre (pág. 232):\nPreguntas: \"Si cada imagen vale 4, ¿cuánto representan 3 imágenes? (12). Si cada imagen vale 10, ¿5 imágenes? (50). Si cada imagen vale 100, ¿2 imágenes? (200).\"\n\nActividad complementaria (pág. 232-233):\nCon los datos de consumo eléctrico de 6 hogares, elaborar un pictograma y responder preguntas.\n\nActividad para el diario del estudiante (pág. 233):\nConstruir un pictograma con los datos: Nelly 75 votos, Alberto 82, Julio 51.",
+          "actividad_numero": "Actividad 3 Actividad para el cuaderno (pág. 232) Cierre (pág. 232) Actividad complementaria (págs. 232-233) Actividad para el diario (pág. 233)"
+        }
+      ]
+    },
+    {
+      "id": "1772026004097",
+      "sequence_id": "seq-1772025603993",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Aprendemos sobre tabla de frecuencias",
+      "intencion_pedagogica": "Organizar informaciones en tablas usando los diferentes tipos de frecuencia.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre tabla de frecuencias.\n\nCompletar tablas: Cálculo de frecuencia relativa, porcentual y acumulada.\n\nUso de calculadora: Para divisiones y multiplicaciones.\n\nInterpretación de datos: Análisis de la tabla completa.",
+      "aprendizaje_significativo": "Se introduce el concepto de tabla de frecuencias completa, incluyendo frecuencia relativa, porcentual y acumulada, aplicándola a los datos de las elecciones.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en divisiones: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a escribir los cálculos en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan las tablas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que interpreten los porcentajes.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 235, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A, B",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por el pictograma construido.\n2. Retroalimenta pictogramas.\n3. Pregunta: \"¿Qué es frecuencia? ¿Qué es frecuencia relativa? ¿Qué es frecuencia acumulada?\"\n4. Proyecta el video \"tabla de frecuencias para principiantes\" (https://youtu.be/JtB2w0QLRZ4). Socializa.",
+          "actividad_numero": "Actividad 4 A y B (pág. 233)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "C",
+          "tiempo": "60",
+          "recursos": "• Tabla de frecuencias\n• Calculadoras\n• Pizarra",
+          "descripcion": "1. Presenta la tabla de las elecciones solo con las dos primeras columnas (candidatos y frecuencia absoluta f).\n2. Explica cómo calcular:\n- Frecuencia relativa (Fr): f / total (72).\n- Porcentaje de frecuencia (%Fr): Fr × 100.\n- Frecuencia acumulada (Fa): sumar frecuencias absolutas sucesivamente.\n3. Calcula con los estudiantes cada columna (pág. 234).\n4. Enfatiza que la suma de Fr debe ser 1 y la de %Fr debe ser 100.",
+          "actividad_numero": "Actividad 4 C (págs. 234-235)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Completar la tabla de frecuencias para tres candidatos (Nelly 75, Alberto 82, Alex 91).\n\nCierre (pág. 235):\nPreguntas: \"¿Quién obtuvo el mayor porcentaje? ¿Cuál es el total de votos? ¿A qué es igual la última frecuencia acumulada?\"\n\nActividad complementaria (pág. 235):\nOrganizar datos de consumo de pollo (45, 64, 53, 72, 38 lb) en tabla de frecuencias, calcular Fr, %Fr, Fa, y responder preguntas.\n\nActividad para el diario del estudiante (pág. 235):\nCompletar tabla de frecuencias del consumo de agua (Alex 1,255; Ámbar 2,158; Sebastián 985) y responder preguntas.",
+          "actividad_numero": "Actividad 4 Actividad para el cuaderno (pág. 235) Cierre (pág. 235) Actividad complementaria (pág. 235) Actividad para el diario (pág. 235)"
+        }
+      ]
+    },
+    {
+      "id": "1772026097871",
+      "sequence_id": "seq-1772025603993",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Aprendiendo sobre medidas de tendencia central",
+      "intencion_pedagogica": "Determinar media aritmética, mediana y moda para datos no agrupados en\ndiferentes contextos.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre media, mediana y moda.\n\nCálculo de medidas: Media aritmética, mediana y moda.\n\nOrdenamiento de datos: Para calcular la mediana.\n\nInterpretación de resultados: Análisis de las medidas obtenidas.",
+      "aprendizaje_significativo": "Se introducen las medidas de tendencia central (media, mediana, moda) a partir de las edades de los estudiantes que participaron en elecciones, conectando la estadística con datos reales del grupo.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en sumas: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a ordenar tarjetas con los datos para encontrar la mediana.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los datos en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen qué significa cada medida.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 237, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A, B",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por la tabla de consumo de agua completada.\n2. Retroalimenta tabla de frecuencias.\n3. Pregunta: \"¿Cómo se calcula el promedio? ¿Qué es la mediana? ¿Qué es la moda?\"\n4. Proyecta el video \"media, moda y mediana: medidas de tendencia central\" (https://www.youtube.com/watch?v=0DA7Wtz1ddg). Socializa.",
+          "actividad_numero": "Actividad 5 A y B (pág. 236)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta los datos: edades de estudiantes de 5° B (25 edades).\n2. Media aritmética: Sumar todas las edades (284) y dividir entre 25 → 11.36 años.\n3. Mediana: Ordenar las edades, como hay 25 datos (impar), la mediana es el dato 13 (11 años).\n4. Moda: Contar frecuencias: 10 años (7), 11 años (6), 12 años (8), 13 años (4) → moda = 12 años.\n5. Explica que la media, mediana y moda son medidas de tendencia central.",
+          "actividad_numero": "Actividad 5 C (págs. 236-237)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Determinar media, mediana y moda de las edades: 12,11,12,13,11,10,10,12,10,10,12,10,11.\n\nCierre (pág. 237):\nProyecta el video \"Cómo calcular la Media, Mediana y Moda para datos no agrupados\" (https://www.youtube.com/watch?v=SVEKCa3ecqU). Socializa.\n\nActividad complementaria (pág. 238):\nCalcular media, mediana y moda de las edades de 5° A (datos dados).\n\nActividad para el diario del estudiante (pág. 238):\nDeterminar media, mediana y moda de las edades de la familia Díaz (padre 42, madre 41, hijo 14, hija 9, hija 12).",
+          "actividad_numero": "Actividad 5 Actividad para el cuaderno (pág. 237) Cierre (pág. 237) Actividad complementaria (pág. 238) Actividad para el diario (pág. 238)"
+        }
+      ]
+    },
+    {
+      "id": "1772026158405",
+      "sequence_id": "seq-1772025603993",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Aprendiendo más sobre medidas de tendencia central",
+      "intencion_pedagogica": "Calcular media aritmética, mediana y moda para datos sueltos.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nCálculo de medidas: Media aritmética, mediana y moda con nuevos datos.\n\nOrdenamiento de datos: Para calcular la mediana con número par de datos.\n\nInterpretación de resultados: Análisis de las medidas obtenidas.",
+      "aprendizaje_significativo": "Se refuerza el cálculo de medidas de tendencia central con nuevos conjuntos de datos, incluyendo el caso de mediana con número par de elementos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan los datos ordenados.\n\nPara estudiantes kinestésicos: Se les invita a ordenar tarjetas con los datos.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los datos en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que comparen resultados de diferentes conjuntos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 239, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A, B",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por las medidas de la familia Díaz.\n2. Retroalimenta media, mediana y moda.\n3. Pregunta: \"¿Qué son datos no agrupados? ¿Qué medidas de tendencia central conocen?\"\n4. Anuncia que hoy practicarán con más datos.",
+          "actividad_numero": "Actividad 6 A y B (pág. 238)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta los datos: edades de estudiantes de 5° A (30 edades).\n2. Media aritmética: Sumar (349) y dividir entre 30 → 11.6 años.\n3. Mediana: Ordenar, como hay 30 datos (par), la mediana es el promedio de los dos datos centrales (12 y 12) → 12 años.\n4. Moda: Contar frecuencias: 10 años (6), 11 años (6), 12 años (11), 13 años (7) → moda = 12 años.\n5. Enfatiza el procedimiento para mediana con datos pares.",
+          "actividad_numero": "Actividad 6 C (págs. 238-239)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Preguntas: \"Cuando el número de datos es par, ¿cómo se calcula la mediana?\"\n\nActividad complementaria (pág. 240):\nCalcular media, mediana y moda de varios conjuntos de datos: consumo de combustible, edades de 6° B, edades de 6° C, compra de leche, ventas de empanadas.\n\nActividad para el diario del estudiante (pág. 240):\nDeterminar la mediana de las edades: 12,13,12,11,11,12,12,13,10,11,12,13,13,12,12,11,12,11.",
+          "actividad_numero": "Actividad 6 Actividad para el cuaderno (pág. 239) Cierre (pág. 239) Actividad complementaria (pág. 240) Actividad para el diario (pág. 240)"
+        }
+      ]
+    },
+    {
+      "id": "1772026223305",
+      "sequence_id": "seq-1772025603993",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Me divierto aprendiendo sobre tabla de frecuencias",
+      "intencion_pedagogica": "Fortalecer los conocimientos sobre tabla de frecuencias,",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nCompletar tablas: Cálculo de frecuencia relativa y porcentual con nuevos datos.\n\nUso de calculadora: Para divisiones y multiplicaciones.\n\nInterpretación de datos: Análisis de la tabla completa.",
+      "aprendizaje_significativo": "Se refuerza el manejo de tablas de frecuencias con datos de elecciones de planchas estudiantiles, mostrando la utilidad de estas herramientas en contextos reales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en divisiones: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a escribir los cálculos en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan las tablas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que interpreten los porcentajes obtenidos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 241, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A, B",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la mediana calculada.\n2. Retroalimenta medidas de tendencia central.\n3. Pregunta: \"¿Qué recuerdan sobre tabla de frecuencias? ¿Para qué se usan?\"",
+          "actividad_numero": "Actividad 7 A y B (pág. 240)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "C",
+          "tiempo": "60",
+          "recursos": "• Tabla de datos\n• Calculadoras\n• Pizarra",
+          "descripcion": "1. Presenta los datos: planchas con votos: Compromiso Estudiantil 154, La Innovación 116, Libertad y Desarrollo 115, Renovación 97.\n2. Pregunta: \"¿Cuántos estudiantes votaron?\" (482).\n3. Completan la tabla calculando Fr y %Fr (pág. 241).\n4. Explica cada cálculo:\n- Fr = f ÷ total\n- %Fr = Fr × 100\n5. Enfatiza que la suma de Fr debe ser 1 y la de %Fr debe ser 100.",
+          "actividad_numero": "Actividad 7 C (págs. 240-241)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Preguntas: \"¿Cuántos estudiantes votaron? ¿Cuántos votos más tuvo Compromiso Estudiantil que La Innovación?\"\n\nActividad complementaria (pág. 242):\nCompletar tabla de frecuencias de ventas de productos (arroz 1,125, espagueti 225, yuca 1,200, papa 620, cebolla 362).\n\nActividad para el diario del estudiante (pág. 242):\nCompletar tabla de frecuencias para dos planchas (Compromiso 115, La Innovación 116).",
+          "actividad_numero": "Actividad 7 Actividad para el cuaderno (pág. 241) Cierre (pág. 242) Actividad complementaria (pág. 242) Actividad para el diario (pág. 242)"
+        }
+      ]
+    },
+    {
+      "id": "1772026295882",
+      "sequence_id": "seq-1772025603993",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Me gustan las gráficas estadísticas",
+      "intencion_pedagogica": "Interpretar y analizar gráficas de barras.",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nConstrucción de gráficas: Representación de datos en gráfico de barras.\n\nSelección de escala: Elección de escala adecuada para el eje Y.\n\nInterpretación de gráficas: Análisis de la información representada.",
+      "aprendizaje_significativo": "Se refuerza la construcción de gráficas de barras con los datos de las planchas estudiantiles, permitiendo visualizar comparaciones entre ellas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la escala: Se les proporciona papel cuadriculado con ejes marcados.\n\nPara estudiantes kinestésicos: Se les invita a construir la gráfica en la pizarra.\n\nPara estudiantes con discapacidad visual: Se utilizan gráficas en relieve.\n\nPara estudiantes avanzados: Se les pide que usen diferentes escalas y comparen.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 243, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A, B",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la tabla de dos planchas completada.\n2. Retroalimenta tabla de frecuencias.\n3. Pregunta: \"¿Qué recuerdan sobre las gráficas de barras? ¿Para qué se usan?\"",
+          "actividad_numero": "Actividad 8 A y B (pág. 242)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "C",
+          "tiempo": "60",
+          "recursos": "• Tabla de frecuencias\n• Pizarra\n• Reglas",
+          "descripcion": "1. Presenta la tabla completa de las planchas (pág. 243).\n2. Pregunta: \"¿Dónde colocarán las frecuencias? ¿Cuál sería una escala adecuada?\" (de 20 en 20, hasta 160).\n3. Construye la gráfica en la pizarra con ayuda de los estudiantes.\n4. Explica que la altura de cada barra representa la frecuencia.\n5. Pregunta: \"¿Qué significa una barra alta? ¿Y baja?\"",
+          "actividad_numero": "Actividad 8 C (págs. 242-243)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Reglas",
+          "descripcion": "Hacer la gráfica de barras para la tabla de votos (Compromiso 110, La Innovación 114, Libertad 151, Renovación 97).\n\nCierre (pág. 244):\nPreguntas: \"¿Cuáles planchas obtuvieron los porcentajes más altos? ¿Qué significa el 20%? ¿Qué plancha quedó en último lugar?\"\n\nActividad complementaria (pág. 244):\nInterpretar la gráfica de barras dada y responder: 1) ¿Cuántos estudiantes votaron? 2) ¿Cuántos votos más obtuvo Unión que Dignidad? 3) ¿Cuál plancha ganó? 4) ¿Cuántos votos obtuvieron La Solución y Duartiana juntas? 5) ¿Cuántos votos obtuvo Dignidad?\n\nActividad para el diario del estudiante (pág. 244):\nRealizar una gráfica de barras con las frecuencias 114 y 151.",
+          "actividad_numero": "Actividad 8 Actividad para el cuaderno (pág. 243) Cierre (pág. 244) Actividad complementaria (pág. 244) Actividad para el diario (pág. 244)"
+        }
+      ]
+    },
+    {
+      "id": "1772026392877",
+      "sequence_id": "seq-1772025603993",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Retroalimentación (juego Metence)",
+      "intencion_pedagogica": "Hallar media aritmética, mediana y moda para datos no agrupados.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nJuego didáctico: \"Metence\" para repasar medidas de tendencia central.\n\nTrabajo en equipos: Juego colaborativo.\n\nUso de calculadora: Para cálculos rápidos.\n\nEvaluación formativa: Observación del desempeño de los estudiantes.",
+      "aprendizaje_significativo": "Se utiliza un juego llamado \"Metence\" (Medidas de Tendencia Central) para practicar de manera lúdica el cálculo de media, mediana y moda.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les permite trabajar en parejas dentro del equipo.\n\nPara estudiantes kinestésicos: El juego es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se les proporcionan tarjetas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que actúen como árbitros verificando cálculos.",
+      "actividades_cuaderno": "Completar la Actividad complementaria y la Actividad para el diario del estudiante de la página 245.\n\n",
+      "inicio": [
+        {
+          "letras": "A, B",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por la gráfica de barras con frecuencias 114 y 151.\n2. Retroalimenta construcción de gráficas.\n3. Explica el juego \"Metence\" (Medidas de Tendencia Central).",
+          "actividad_numero": "Actividad 9 A y B (pág. 245)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "C",
+          "tiempo": "60",
+          "recursos": "• Tarjetas numeradas\n• Calculadoras\n• Fundas",
+          "descripcion": "1. Organiza equipos de 4 a 6 participantes.\n2. Cada equipo tiene 10 tarjetas numeradas de 700 a 750 (de 5 en 5) en una funda.\n3. Reglas:\n- Los participantes sacan una tarjeta para definir el orden de inicio (mayor número inicia).\n- El primer participante extrae tres tarjetas y todos anotan los números.\n- Luego determinan individualmente la media, mediana y moda.\n- Comparan resultados en equipo.\n- Gana el equipo que presente sin errores las tres medidas (100 puntos).\n- Se pueden realizar varias rondas.\n4. Los estudiantes juegan. El docente observa y apoya.",
+          "actividad_numero": "Actividad 9 C (pág. 245)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Calculadoras\n• Cuadernos",
+          "descripcion": "Preguntas: \"¿Cuáles equipos ganaron 100 puntos? ¿Cómo hallaron la media? ¿Y la mediana? ¿Cómo hallaron la moda?\"\n\nActividad complementaria (pág. 245):\nJugar nuevamente Metence con tarjetas de 1,000 a 2,000 (de 50 en 50).\n\nActividad para el diario del estudiante (pág. 245):\nDeterminar media, mediana y moda de los números: 745, 725, 700, 735, 740, 735, 750, 705, 740, 750, 735, 715.",
+          "actividad_numero": "Actividad 9 Cierre (pág. 245) Actividad complementaria (pág. 245) Actividad para el diario (pág. 245)"
+        }
+      ]
+    },
+    {
+      "id": "1772026460041",
+      "sequence_id": "seq-1772025603993",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Retroalimentación (pictogramas)",
+      "intencion_pedagogica": "Representar información de forma pictórica.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nConstrucción de pictogramas: Representación de datos con imágenes.\n\nSelección de valor de imagen: Decidir cuántos votos representa cada imagen.\n\nInterpretación de pictogramas: Análisis de la información representada.",
+      "aprendizaje_significativo": "Se refuerza la construcción de pictogramas con datos de las planchas estudiantiles, permitiendo visualizar comparaciones de manera atractiva.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en el dibujo: Se les proporcionan imágenes recortables.\n\nPara estudiantes kinestésicos: Se les invita a dibujar las imágenes.\n\nPara estudiantes con discapacidad visual: Se utilizan pictogramas en relieve.\n\nPara estudiantes avanzados: Se les pide que usen diferentes valores por imagen y justifiquen su elección.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 247, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A, B",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por las medidas calculadas.\n2. Retroalimenta media, mediana y moda.\n3. Pregunta: \"¿Qué es un pictograma? ¿Para qué sirve?\"",
+          "actividad_numero": "Actividad 10 A y B (pág. 246)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "C",
+          "tiempo": "60",
+          "recursos": "• Tabla de frecuencias\n• Cuadernos",
+          "descripcion": "1. Presenta la tabla de frecuencias de planchas: Compromiso 80, La Innovación 130, Libertad 110, Renovación 100.\n2. Pregunta: \"¿Cómo harán el pictograma? ¿Qué imágenes usarán? ¿Qué valor darán a cada imagen?\"\n3. Guía la construcción: elegir una imagen (por ejemplo, una carita), asignar un valor (10 votos por imagen).\n4. Construyen el pictograma en sus cuadernos.\n5. Pregunta: \"¿Cuántas imágenes tiene Compromiso? (8). ¿Cuántos votos representan? (80).\"",
+          "actividad_numero": "Actividad 10 C (pág. 246)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Realizar un pictograma con datos de consumo de helados (Gómez 85, Grateraux 105, Peña 70), con cada imagen valor 10.\n\nCierre (pág. 247):\nPreguntas: *\"¿Cuántas imágenes más tiene Compromiso que Renovación? (8-10? verificar datos). ¿Cuántas imágenes menos tiene La Innovación que Libertad?\"*\n\nActividad complementaria (pág. 247):\nRealizar pictograma con datos de medicamentos (semana 1:21, semana 2:18, semana 3:24, semana 4:30, semana 5:24) con valor 3 o 6 por imagen, y responder preguntas.\n\nActividad para el diario del estudiante (pág. 247):\nRealizar pictograma con datos de sabores (vainilla 23, chocolate 31, bizcocho 22) con valor 4 o 7 por imagen.",
+          "actividad_numero": "Actividad 10 Actividad para el cuaderno (pág. 247) Cierre (pág. 247) Actividad complementaria (pág. 247) Actividad para el diario (pág. 247)"
+        }
+      ]
+    },
+    {
+      "id": "1772026565072",
+      "sequence_id": "seq-1772025603993",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Conociendo sobre probabilidades",
+      "intencion_pedagogica": "9tilizar las probabilidades en contexto escolar y comunitario\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre probabilidad.\n\nSituaciones problemáticas: Cálculo de probabilidades con ruletas.\n\nConceptualización: Definición de probabilidad, evento o suceso estadístico.\n\nCálculo de porcentajes: Expresar la probabilidad como fracción, decimal y porcentaje.",
+      "aprendizaje_significativo": "Se introduce el concepto de probabilidad a partir de situaciones de juegos (ruletas), conectando la estadística con experiencias cotidianas de azar.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en fracciones: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a girar la ruleta físicamente.\n\nPara estudiantes con discapacidad visual: Se utilizan ruletas con texturas.\n\nPara estudiantes avanzados: Se les pide que calculen probabilidades compuestas.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 249, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por el pictograma de sabores.\n2. Retroalimenta pictogramas.\n3. Pregunta: \"¿Qué entienden por probabilidad?\"\n4. Proyecta el video \"Probabilidad súper fácil\" (https://www.youtube.com/watch?v=WeeEE8o1aqM). Socializa.",
+          "actividad_numero": "Actividad 11 A (pág. 248)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Ruleta de candidatos\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta la ruleta con candidatos (pág. 248).\n2. Pregunta: \"¿Cuál es la probabilidad de que salga Nelly? ¿Y Alberto?\"\n3. Explica el procedimiento:\n- Número total de divisiones: 10.\n- Veces que aparece Nelly: 2.\n- Probabilidad = 2/10 = 0.20 = 20%.\n- Igual para Alberto.\n4. Concluye: ambos tienen igual probabilidad (20%).\n5. Define:\n- Probabilidad: cálculo matemático que evalúa las posibilidades de que un evento suceda.\n- Evento o suceso estadístico: resultado posible de un experimento.",
+          "actividad_numero": "Actividad 11 B (págs. 248-249)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Determinar probabilidad con ruleta: 1) ¿Probabilidad de que salga el 7? 2) ¿Probabilidad de que salga un número par?\n\nCierre (pág. 249):\nPreguntas: *\"En un envase con 3 pelotas (azul, roja, amarilla), ¿cuál es la probabilidad de sacar cada una? (1/3 ≈ 33.3%). En una caja con 4 manzanas verdes y 4 rojas, ¿probabilidad de roja? (4/8 = 1/2 = 50%).\"*\n\nActividad complementaria (pág. 249):\nCalcular probabilidad a favor y en contra para imágenes dadas.\n\nActividad para el diario del estudiante (pág. 250):\nEn un tanque con 4 pelotas rojas, 3 blancas y 5 azules: 1) Probabilidad de blanca (3/12 = 1/4 = 25%). 2) Probabilidad de roja (4/12 = 1/3 ≈ 33.3%).",
+          "actividad_numero": "Actividad 11 Actividad para el cuaderno (pág. 249) Cierre (pág. 249) Actividad complementaria (pág. 249) Actividad para el diario (pág. 250)"
+        }
+      ]
+    },
+    {
+      "id": "1772026689643",
+      "sequence_id": "seq-1772025603993",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar los conocimientos adquiridos en la Secuencia 8 (tablas de conteo, gráficas de barras, pictogramas, medidas de tendencia central, tablas de frecuencias, probabilidad) a través de la resolución de problemas.\n\n",
+      "estrategia": "Retroalimentación inicial: Preguntas orales para recordar los temas de la secuencia.\n\nEvaluación escrita: Resolución individual de un conjunto de problemas.\n\nUso de escala de valoración: Para que los estudiantes comprendan cómo se evaluará su desempeño.",
+      "aprendizaje_significativo": "La evaluación se presenta como una oportunidad para demostrar lo aprendido en contextos significativos (elecciones estudiantiles), y se utiliza una escala de valoración para que los estudiantes tomen conciencia de su propio nivel de logro.\n\n",
+      "actividades_complementarias": "Para estudiantes que necesitan más tiempo: Se les puede permitir terminar la evaluación en otra sesión, según la Ordenanza 04-2023.\n\nPara estudiantes con dificultades de lectura: Se les leen los problemas en voz alta si es necesario.\n\nPara estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n\nPara estudiantes que terminan rápido: Se les puede pedir que revisen sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué trabajaron en esta secuencia? ¿Qué es una tabla de conteo? ¿Cómo se hace una gráfica de barras? ¿Qué son la media, mediana y moda? ¿Qué es la probabilidad?\"\n2. Da tiempo para responder y retroalimenta los temas.",
+          "actividad_numero": "Actividad 12 (Párrafo 1, pág. 250)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Hojas cuadriculadas\n• Copia de la evaluación o pizarra con los ítems\n• Escala de valoración",
+          "descripcion": "1. El docente explica que esta actividad evalúa la secuencia y que se hará énfasis en la resolución de problemas.\n2. Explica que cada ítem tiene un valor numérico por procedimiento y respuesta completa.\n3. Lee y explica la escala de valoración (pág. 250).\n4. Entrega una hoja en blanco y una hoja cuadriculada a cada estudiante para que coloquen sus datos (nombre del centro, nombre del estudiante, fecha, grado y sección).\n5. Aplica la evaluación, ítem por ítem, dando el tiempo necesario. La evaluación consta de 7 puntos (ítems):\n- Ítem 1: Completar la tabla de conteo de las elecciones (marcas y cantidades) (10 pts).\n- Ítem 2: Construir la gráfica de barras con los valores de la tabla anterior (10 pts).\n- Ítem 3: Determinar media, mediana y moda de las edades de 5° B (datos dados) (20 pts).\n- Ítem 4: Construir un pictograma con los datos de votos (Ámbar 18, Nelly 15, Alberto 14, Julio 13, Alex 12), con cada imagen valor 2 (15 pts).\n- Ítem 5: Completar tabla de frecuencias de planchas (115, 116, 154, 97) calculando Fr y %Fr (20 pts).\n- Ítem 6: Interpretar gráfica de barras y responder: ¿Cuántos votos tienen Nelly y Alex juntos? ¿Quién es el más popular? (10 pts).\n- Ítem 7: Completar correctamente: a) ________________ son medidas estadísticas que resumen en un solo valor un conjunto de datos (medidas de tendencia central). b) ________________ sirve para determinar la ocurrencia o no de un suceso que depende del azar (probabilidad). c) ________________ es el conjunto de todos los posibles resultados en un experimento aleatorio (espacio muestral) (15 pts).",
+          "actividad_numero": "Actividad 12 Evaluación (págs. 250-252)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones de los estudiantes",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Puede hacer un breve comentario sobre la importancia de la evaluación para medir el aprendizaje.\n3. Anuncia que en la próxima clase se darán los resultados y se retroalimentarán los puntos con mayores dificultades.",
+          "actividad_numero": "Actividad 12 (Cierre)"
+        }
+      ]
+    }
+  ]
+}

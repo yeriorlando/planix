@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/geist";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-base: #FBF9F6;       /* Warm organic sand background */
+  --bg-panel: #F4ECE3;      /* Darker sand sidebar/panel background */
+  --text-main: #1B1B1B;     /* Original text color */
+  --text-muted: #7E7E7E;    /* Original muted text */
+
+  --card-pink: #FACDD1;
+  --card-yellow: #FBE6C2;
+  --card-purple: #DCDDFF;
+  --card-green: #B2F0D1;
+
+  /* Premium Planix Brand Accents - Deep Cobalt Blue & Amber Gold */
+  --brand-primary: #1E40AF;          /* Deep Cobalt Blue */
+  --brand-hover: #1D4ED8;            /* Blue hover */
+  --brand-light: #EFF6FF;            /* Soft Blue */
+  --brand-secondary: #F0A026;        /* Burning Trail (Warm Golden Orange) */
+  --brand-secondary-hover: #D98A16;
+  --brand-secondary-light: #FEF6E9;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+  --bg-base: #0B0B0E;      /* professional premium deep dark background */
+  --bg-panel: #13131A;     /* premium sidebar panel */
+  --text-main: #F3F4F6;    /* white text */
+  --text-muted: #9CA3AF;   /* muted text */
+
+  --card-pink: #3F1D22;    /* dark rose */
+  --card-yellow: #3A2A15;  /* dark amber */
+  --card-purple: #1D1D3A;  /* dark purple */
+  --card-green: #113627;   /* dark emerald */
+
+  /* Dark mode brand variations */
+  --brand-primary: #3B82F6;
+  --brand-hover: #60A5FA;
+  --brand-light: #172554;
+  --brand-secondary: #38BDF8;
+  --brand-secondary-hover: #7DD3FC;
+  --brand-secondary-light: #075985;
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.279 0.041 260.031);
+  --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@theme {
+  --color-bg-base: var(--bg-base);
+  --color-bg-panel: var(--bg-panel);
+  --color-card-pink: var(--card-pink);
+  --color-card-yellow: var(--card-yellow);
+  --color-card-purple: var(--card-purple);
+  --color-card-green: var(--card-green);
+  --color-text-main: var(--text-main);
+  --color-text-muted: var(--text-muted);
+
+  /* Map theme variables to CSS variables for dynamic runtime support */
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-light: var(--brand-light);
+  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-secondary-hover: var(--brand-secondary-hover);
+  --color-brand-secondary-light: var(--brand-secondary-light);
+
+  --color-purple-650: #8b5cf6;
+  --color-purple-655: #7c3aed;
+  --color-purple-750: #6d28d9;
+
+  --color-indigo-650: #4f46e5;
+  --color-indigo-655: #4338ca;
+
+  --font-sans: 'Outfit', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+}
+
+html {
+  background-color: var(--color-bg-base);
+}
+
+body {
+  background-color: var(--color-bg-base);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+:root {
+  --radius: 12px;
+}
+
+/* Consistent premium border-radius for cards and table containers */
+.bg-white.border.border-black\/5,
+.bg-white.border.border-black\/10,
+.bg-white.border.border-neutral-200,
+.rounded-\[32px\],
+.rounded-\[36px\],
+.rounded-\[28px\],
+.rounded-\[24px\],
+.rounded-3xl {
+  border-radius: calc(var(--radius) + 4px) !important;
+}
+
+/* Custom dynamic width for Sonner toasts to prevent blank spaces */
+[data-sonner-toast] {
+  width: fit-content !important;
+  min-width: 200px !important;
+  max-width: 90vw !important;
+}
+[data-sonner-toast] [data-content] {
+  width: auto !important;
+  flex: 0 1 auto !important;
+}
+
+/* Force perfect centering for top-center toasts */
+[data-sonner-toaster][data-x-position="center"] {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+[data-sonner-toaster][data-x-position="center"] [data-sonner-toast] {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@theme inline {
+  --font-heading: var(--font-sans);
+  --font-sans: 'Outfit', sans-serif;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+/* Circular Reveal Theme Switch Transition */
+::view-transition-old(root),
+::view-transition-new(root) {
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  animation: none;
+  z-index: 1;
+}
+
+::view-transition-new(root) {
+  animation: 300ms cubic-bezier(0.16, 1, 0.3, 1) both reveal-theme;
+  z-index: 9999;
+}
+
+@keyframes reveal-theme {
+  from {
+    clip-path: circle(0px at var(--x) var(--y));
+  }
+  to {
+    clip-path: circle(var(--r) at var(--x) var(--y));
+  }
+}
+
+/* Disable transitions temporarily during theme change */
+.no-transitions *,
+.no-transitions *::before,
+.no-transitions *::after {
+  transition: none !important;
+  animation-duration: 0s !important;
+  animation-delay: 0s !important;
+}

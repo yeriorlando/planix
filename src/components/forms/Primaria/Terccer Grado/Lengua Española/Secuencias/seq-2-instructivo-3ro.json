@@ -1,0 +1,457 @@
+{
+    "sequenceId": "secuencia-2-lengua-3ro-instructivo",
+    "subjectId": "lengua",
+    "sequenceTitle": "Instructivo",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1 - Introducción al Instructivo",
+            "activities": [
+                {
+                    "title": "Actividad 1: Uso social de los instructivos",
+                    "pedagogicalIntention": "Conocen la función y uso de los textos instructivos en la vida cotidiana.",
+                    "recursos_actividad": "Papelógrafo de aprendizajes, ejemplos de instructivos reales (recetas, manual de un electrodoméstico, reglas de un juego).",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Reflexionamos sobre el uso social de los instructivos",
+                            "descripcion": "El docente plantea estas preguntas como anticipación del tipo de texto:\n● Si quiero armar un mueble, ¿cómo puedo saber cómo hacerlo?\n● ¿Cómo descubro cómo funciona un electrodoméstico nuevo?\n● Si quiero aprender a jugar un juego de mesa, ¿dónde encuentro las reglas?\n● ¿Y si quiero preparar una comida, ¿dónde puedo leer como hacerlo?\nSi es posible, el docente lleva a la clase algunos instructivos que sirvan de ejemplo (como una receta, el manual de algún electrodoméstico o las reglas de un juego), los muestra y exploran los textos. Dialoga con los estudiantes construyendo los conocimientos sobre los textos instructivos: ¿Qué tienen en común estos textos? ¿Cómo están organizados? ¿Se parecen? ¿Conocen alguna palabra? ¿Qué se explica en cada uno? ¿Para qué los usarían?\nConcluye sistematizando la información y explicando que estos textos son instructivos, y su función principal es enseñarnos a hacer algo paso a paso. Además, resalta su importancia en la vida diaria para resolver problemas y aprender cosas nuevas. Se señala el tipo textual en el papelógrafo de aprendizajes."
+                        },
+                        {
+                            "titulo": "Momento 2: Papelógrafo de aprendizajes",
+                            "descripcion": "El docente lee en voz alta el papelógrafo.\nEn este tiempo trabajaremos para…\n● Conocer cómo son los instructivos.\n● Leer y comprender instructivos.\n● Escribir instructivos."
+                        },
+                        {
+                            "titulo": "Momento 3: Definición",
+                            "descripcion": "El docente anima al grupo a escribir juntos una definición de texto instructivo. ¿Cómo podemos explicar que es un texto instructivo? ¿Para qué sirven? Entre todos construyen una definición como por ejemplo:\nUn texto instructivo es un texto que explica, paso a paso, cómo hacer algo. Por ejemplo, cómo cocinar, jugar un juego o armar algo.\nEl docente escribe la definición en la pizarra."
+                        },
+                        {
+                            "titulo": "Momento 4: Escriben en el cuaderno",
+                            "descripcion": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Luego invita a los estudiantes a escribir la definición de instructivo.\n\nRecorrido docente: Ayuda a los estudiantes con el trazado de las letras: cómo toman el lápiz, dónde escriben, la direccionalidad de la escritura, los sonidos de la letra que están escribiendo. Verifica que todos realicen una copia correcta, respetando la linealidad, direccionalidad, trazado de las letras, separación de palabras y uso de signos de puntuación."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe dos palabras que conozcas que comienzan como “instructivo”."
+                },
+                {
+                    "title": "Actividad 2: Estructura de los instructivos",
+                    "pedagogicalIntention": "Conocen la función y estructura básica de los textos instructivos.",
+                    "recursos_actividad": "Fascículo de actividades.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "El docente pregunta si pudieron hacer la tarea para el hogar y qué palabras escribieron. Algunos estudiantes pasan a la pizarra a escribir las palabras que eligieron. Entre todos revisan que comiencen como “Instructivo” y que estén escritas de forma completa."
+                        },
+                        {
+                            "titulo": "Momento 2: Exploración de instructivos del fascículo (Actividad Nº 2)",
+                            "descripcion": "En grupos de tres, con un lector fluido en cada equipo, observan los instructivos del fascículo. Es una lectura exploratoria: leen los títulos, observan los formatos y conversan sobre sus similitudes y diferencias."
+                        },
+                        {
+                            "titulo": "Momento 3: Puesta en común",
+                            "descripcion": "El docente recoge lo que los estudiantes exploraron en sus grupos y realiza preguntas de anticipación de la lectura, como, por ejemplo:\n1. ¿Qué dicen los títulos de los instructivos? ¿De qué creen que trata cada uno?\n2. ¿Qué elementos similares y diferentes encontraron entre los instructivos?\n3. ¿Qué tienen en común los instructivos que observaron?\nEl docente escucha los aportes de los estudiantes y concluye explicando que los tres textos indican cómo hacer algo: lavarse las manos, jugar al trúcamelo y preparar una receta. Destaca que todos incluyen un título, una lista de materiales o ingredientes (en el caso de la receta) y pasos o procedimientos claros. Escribe estas características en la pizarra para reforzar.\nEntre todos identifican y señalan el título, los materiales y los pasos en cada uno de los tres instructivos del fascículo."
+                        },
+                        {
+                            "titulo": "Momento 4: Actividad Nº 2 del fascículo",
+                            "descripcion": "Los estudiantes completan las palabras que faltan de las características y partes de los instructivos.\n\nRecorrido docente: Ayuda especialmente a quienes más lo necesitan, acompaña la escritura de las palabras que faltan prolongando los sonidos y si es necesario, usa el abecedario para relacionar el sonido con la letra. Los estudiantes que terminen con rapidez pueden leer los instructivos."
+                        },
+                        {
+                            "titulo": "Momento 5: Puesta en común",
+                            "descripcion": "Al finalizar, el docente pregunta: ¿Cómo lo hicieron? Los estudiantes exponen sus respuestas y pasan a la pizarra a mostrar cómo escribieron. Finalmente, el docente observa, escucha y los guía hacia la comprensión de la respuesta correcta, modeliza la escritura y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 6: Escritura en el cuaderno",
+                            "descripcion": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? ¿Por qué creen que es importante seguir las instrucciones de manera clara y ordenada en la vida diaria? ¿Pueden dar un ejemplo de cuándo han necesitado usar un instructivo y cómo les ayudó? Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase prolongando los sonidos de cada letra (no por sílavos) y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Busca ejemplos de textos instructivos en tu hogar. Anótalos en el cuaderno."
+                },
+                {
+                    "title": "Actividad 3: Conciencia Fonológica",
+                    "pedagogicalIntention": "Identifican y discriminan los sonidos de las palabras.",
+                    "recursos_actividad": "Fascículo de actividades.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "Los estudiantes comparten cuáles son los textos instructivos que identificaron en su hogar."
+                        },
+                        {
+                            "titulo": "Momento 2: Juego de “Simón dice con sonidos”",
+                            "descripcion": "El docente explica a los estudiantes que jugarán a \"Simón dice\", pero de forma especial: tendrán que identificar palabras según los sonidos de las instrucciones. Por ejemplo: Simón dice: toquen algo que empieza con el sonido “mmm” (Pueden tocar la mesa, mano, mochila).\nDa las instrucciones mezclando acciones físicas con conciencia fonológica. Algunas ideas:\n● Simón dice: salten si escuchan una palabra que termina con el sonido ooo (lápiz no, pero perro sí).\n● Simón dice: den un paso si escuchan una palabra que comienza con el sonido ppp (pelota, pan).\n● Simón dice: aplaudan si escuchan una palabra que termina con el sonido aaa (silla, casa).\n● Simón dice: levanten la mano si escuchan una palabra con tres sílabas (manzana, pelota).\n● Simón dice: giren sobre sí mismos si escuchan una palabra con cuatro sílabas (mariposa, helicóptero)."
+                        },
+                        {
+                            "titulo": "Momento 3: Juego del “Stop”",
+                            "descripcion": "El docente forma grupos de cuatro estudiantes. A cada grupo les da una hoja con la plantilla del juego Stop y explica el juego. El docente indica una letra y cada grupo debe completar cada categoría con una palabra que inicie con esa letra."
+                        },
+                        {
+                            "titulo": "Momento 4: Escritura en el cuaderno",
+                            "descripcion": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Les gustaron los juegos? ¿Qué aprendimos? Después invita a los estudiantes a escribir el nombre del juego que más les gustó. Luego, los invita a escribir el nombre de los juegos: Simón dice y Stop. Para guiar la escritura, dicta los nombres prolongando los sonidos de cada letra (no por sílabas) y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Ordena las palabras de más corta a más larga. Escríbelas en tu cuaderno. Luego, léelas en voz alta para tu familia.\nTítulo Materiales Pasos Instructivo"
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2 - Comprensión y Uso de Verbos",
+            "activities": [
+                {
+                    "title": "Actividad 4: Buen lavado de manos",
+                    "pedagogicalIntention": "Desarrollan la comprensión lectora de instructivos.",
+                    "recursos_actividad": "Instructivo \"Buen lavado de manos\" del fascículo.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "El docente pregunta a los estudiantes cómo ordenaron las palabras y estos responden oralmente. Luego los motiva a escribir en sus cuadernos esas palabras a medida que las dicta alargando y aislando los sonidos de cada una. A medida que escriben, recorre el aula para guiarlos en la escritura."
+                        },
+                        {
+                            "titulo": "Momento 2: Lectura de anticipación",
+                            "descripcion": "El docente pide a los estudiantes que observen en el fascículo el instructivo de “Buen lavado de manos”. Luego pregunta: ¿Qué información creen que nos da este texto? ¿Para qué sirve este instructivo? ¿Cómo lo sabemos? ¿Dónde encontramos los materiales? ¿Dónde encontramos los pasos o procedimientos?\nEl docente escucha los aportes de los estudiantes y luego brinda conclusiones y respuestas claras: indica la importancia del título y la imagen para anticipar el tema. El instructivo nos enseña a lavarnos correctamente las manos. Los materiales se encuentran a la izquierda y los pasos a la derecha, nos damos cuenta por los números."
+                        },
+                        {
+                            "titulo": "Momento 3: Lectura en voz alta",
+                            "descripcion": "El docente pide a estudiantes que ya leen fluidamente que, por turnos, lean el instructivo en voz alta. Luego vuelve a leerlo y pregunta: ¿Qué materiales necesitamos? ¿Qué acciones se realizan en cada paso? ¿Por qué es importante seguirlos en orden? ¿Hay alguna palabra que no conozcan? Si volvemos a leer, ¿podemos darnos cuenta qué significa?"
+                        },
+                        {
+                            "titulo": "Momento 4: Actividad Nº 4 del fascículo",
+                            "descripcion": "El docente arma grupos cooperativos de tres estudiantes (con un lector fluido en cada uno). Luego, lee y explica los mandatos. Deben identificar y escribir los materiales necesarios, ordenar los pasos del lavado de manos y reflexionar sobre la importancia de enjuagar bien.\n\nRecorrido docente: Apoya a quienes necesitan más ayuda y realiza las correcciones en el momento."
+                        },
+                        {
+                            "titulo": "Momento 5: Puesta en común",
+                            "descripcion": "Al finalizar, el docente pregunta: ¿Cómo lo hicieron? Verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas y pasan a la pizarra a mostrar cómo escribieron. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 6: Escritura en el cuaderno",
+                            "descripcion": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? ¿Cómo nos ayuda este instructivo en nuestra vida diaria? Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase prolongando los sonidos de cada letra (no por sílabas) y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: ¡Se borraron algunas letras! Completa las letras que faltan. Luego, léelas en voz alta a tu familia y explica cómo hacer un buen lavado de manos.\nag__a ja__ón toa__a ma__os"
+                },
+                {
+                    "title": "Actividad 5: Verbos en Imperativo",
+                    "pedagogicalIntention": "Identifican y comprenden el uso de los verbos en imperativo en el contexto del instructivo.",
+                    "recursos_actividad": "Fascículo de actividades.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "El docente pregunta si pudieron explicarle a sus familias cómo hacer el lavado de manos. Luego los motiva a escribir en sus cuadernos las palabras que armaron, pero escuchando cómo las dicta: alargando y aislando los sonidos de cada palabra. A medida que escriben, el docente recorre el aula para guiarlos en la escritura."
+                        },
+                        {
+                            "titulo": "Momento 2: Reflexión sobre los verbos",
+                            "descripcion": "Pide a los estudiantes que recuerden cuáles son las acciones a realizar para lograr un buen lavado de manos. A medida que mencionan cada paso, escribe en la pizarra el verbo específico de cada uno: Moja - Pon - Frota - Enjuaga - Seca. Pregunta: ¿Qué significa cada una de estas acciones? ¿A quién está dirigida la indicación? ¿Cómo sería la frase “Moja tus manos” si queremos dar esta indicación a un grupo?\n\nOrientación específica para el docente: Explica que estas palabras se llaman “verbos”, ya que nos muestran acciones o lo que alguien está haciendo, como correr, limpiar o pegar. En las instrucciones, los verbos están dirigidos directamente a una persona para indicarle qué debe hacer (modo imperativo). Los verbos en imperativo se usan para dar órdenes, instrucciones o sugerencias de manera clara y directa."
+                        },
+                        {
+                            "titulo": "Momento 3: Jugamos con verbos en imperativo",
+                            "descripcion": "El docente propone jugar a “Simón dice” usando verbos en imperativo. Por ejemplo: “Simón dice: salta” o “Simón dice: frota tus manos”. Luego los estudiantes deben realizar esa acción. Al final, pregunta: ¿Qué notaron sobre los verbos que usamos? Refuerza que se usan para dar órdenes o instrucciones."
+                        },
+                        {
+                            "titulo": "Momento 4: Actividad Nº 5 del fascículo",
+                            "descripcion": "El docente lee y explica los mandatos: deben identificar y escribir verbos del instructivo del “Buen lavado de las manos”; escribir los verbos en imperativo de las imágenes (canta, llora, corre, pinta) y escribir una instrucción con alguno de ellos.\n\nRecorrido docente: Apoya a quienes necesitan más ayuda, realiza las correcciones en el momento y verifica que la escritura de los verbos esté en imperativo. El estudiante que termine puede ayudar a quienes necesiten ayuda."
+                        },
+                        {
+                            "titulo": "Momento 5: Puesta en común",
+                            "descripcion": "Al finalizar, el docente pregunta: ¿Cómo lo hicieron? Los estudiantes exponen sus respuestas y pasan a la pizarra a mostrar cómo escribieron. Finalmente, observa, escucha y los guía hacia la comprensión de la respuesta correcta, modeliza la escritura y todos corrigen en sus fascículos.\nEl docente refuerza el uso de los verbos para dar órdenes o indicaciones (modo imperativo)."
+                        },
+                        {
+                            "titulo": "Momento 6: Escritura en el cuaderno",
+                            "descripcion": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Finaliza felicitándolos y preguntando: ¿Por qué se usan los verbos como órdenes (modo imperativo)? El docente orienta: de ese modo podemos dar órdenes, instrucciones o sugerencias de manera clara y directa, ayudándonos a comunicar lo que queremos que alguien haga. Entre todos escriben una frase breve que resuma lo realizado o aprendido. Para guiar la escritura, dicta la frase prolongando los sonidos de cada letra (no por sílabas) y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escucha las órdenes o indicaciones que te dé un familiar en casa. Identifica y escribe tres acciones (verbos) que sean órdenes que hayas escuchado. Escríbelos como puedas en tu cuaderno."
+                },
+                {
+                    "title": "Actividad 6: Instrucciones del trúcamelo",
+                    "pedagogicalIntention": "Desarrollan la comprensión lectora de instructivos.",
+                    "recursos_actividad": "Instructivo \"Instrucciones del trúcamelo\" del fascículo.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "Los estudiantes comentan los verbos que escribieron en sus hogares, el docente los escribe en la pizarra a medida que los leen para revisar y corregir las escrituras."
+                        },
+                        {
+                            "titulo": "Momento 2: Lectura de anticipación",
+                            "descripcion": "El docente pide a los estudiantes que observen el instructivo \"Instrucciones del trúcamelo\". Realiza preguntas para anticipar el contenido: ¿Qué creen que nos enseña este texto? ¿Para qué sirve este instructivo? ¿Cómo lo sabemos? ¿Qué palabras nos dan pistas para comprender? ¿Dónde están los materiales? ¿Dónde están los pasos?\nEl docente escucha las ideas de los estudiantes y concluye: El instructivo nos enseña cómo jugar al trúcamelo. Los materiales están enumerados arriba y los pasos están organizados con números para seguir un orden lógico."
+                        },
+                        {
+                            "titulo": "Momento 3: Lectura en voz alta y comprensión lectora",
+                            "descripcion": "El docente pide a los estudiantes que ya leen fluidamente que, por turnos, lean en voz alta el instructivo. Cada estudiante lee un paso, luego lee el docente para reforzar la comprensión y pregunta: ¿Qué materiales necesitamos para jugar? ¿Dónde los leemos? ¿Qué debemos hacer en el paso 1? ¿Y en el paso 3? ¿Dónde los leemos? ¿Por qué es importante seguir los pasos en el orden correcto?"
+                        },
+                        {
+                            "titulo": "Momento 4: Actividad Nº 6 del fascículo",
+                            "descripcion": "El docente forma grupos de tres estudiantes (con un lector fluido en cada grupo), lee y explica los mandatos. Los estudiantes deben identificar y escribir los materiales y ordenar los pasos.\n\nRecorrido docente: Apoya a quienes necesitan más ayuda y realiza las correcciones en el momento."
+                        },
+                        {
+                            "titulo": "Momento 5: Puesta en común",
+                            "descripcion": "El docente pregunta qué respondió cada grupo. ¿Cómo lo hicieron? Luego, algunos estudiantes pasan a la pizarra a mostrar los materiales. Corrigen oralmente los pasos correctos. Otros estudiantes escriben en la pizarra las palabras clave de cada paso (vocabulario), por ejemplo: dibuja el tablero, piedra, lanza la piedra, salta, gana. Todos corrigen sus escrituras y verifican si hicieron bien el orden de los pasos."
+                        },
+                        {
+                            "titulo": "Momento 6: Escritura en el cuaderno",
+                            "descripcion": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? ¿Qué aprendimos al leer el instructivo? ¿Cómo nos ayuda a organizarnos para jugar? Concluye que un instructivo nos guía paso a paso para lograr algo, como en este caso, jugar correctamente. Entre todos escriben una frase breve que resuma lo realizado o aprendido. Para guiar la escritura, dicta la frase prolongando los sonidos de cada letra (no por sílabas) y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Encuentra la palabra oculta en el trúcamelo. Escríbela en tu cuaderno y léela en voz alta para tu familia. ¿Te animas a encontrar más palabras “saltando” por el juego en el orden que desees?\n[Imagen con letras para formar palabras]"
+                },
+                {
+                    "title": "Actividad 7: Más sobre verbos en imperativo",
+                    "pedagogicalIntention": "Reconocen y usan los verbos en modo imperativo en instructivos.",
+                    "recursos_actividad": "Fascículo de actividades.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "Los estudiantes dicen la palabra que encontraron en el juego y alguno pasa a la pizarra a escribirla. Si los estudiantes encontraron más palabras, las escriben en la pizarra."
+                        },
+                        {
+                            "titulo": "Momento 2: Identificación de los verbos en imperativo",
+                            "descripcion": "El docente pide a los estudiantes que lean en silencio los pasos del instructivo del trúcamelo. Luego pide a un estudiante que lea los pasos en voz alta y pregunta: ¿Cuáles son las palabras que nos dicen qué hacer en cada paso? ¿Qué verbos podemos encontrar que nos indiquen órdenes? Lee en voz alta paso por paso y escribe en la pizarra los verbos que encuentra: dibuja, consigue, lanza, salta, recoge, gana. Indica que busquen en el instructivo estas palabras y las coloreen."
+                        },
+                        {
+                            "titulo": "Momento 3: Actividad Nº 7 del fascículo",
+                            "descripcion": "El docente lee y explica los mandatos. Muestra los ejemplos en la pizarra. Los estudiantes deben reescribir los pasos cambiando verbos por otros sinónimos y luego transformar frases de modo imperativo.\n\nRecorrido docente: Acompaña a los estudiantes mientras trabajan, brindando apoyo a quienes lo necesiten y corrigiendo en el momento. Verifica que los verbos estén escritos correctamente en modo imperativo. Los estudiantes que terminen pueden colaborar con sus compañeros."
+                        },
+                        {
+                            "titulo": "Momento 4: Puesta en común",
+                            "descripcion": "Al finalizar, el docente pregunta: ¿Cómo lo hicieron? Los estudiantes exponen sus respuestas y pasan a la pizarra a mostrar cómo escribieron. Finalmente, el docente observa, escucha y los guía hacia la comprensión de la respuesta correcta, modeliza la escritura y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 5: Escritura en el cuaderno",
+                            "descripcion": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase prolongando los sonidos de cada letra (no por sílabas) y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Convierte los verbos como órdenes (modo imperativo). Vuelve a escribir cada oración.\nAyudar a los demás → _____________________________\nRespetar las diferencias → __________________________________"
+                },
+                {
+                    "title": "Actividad 8: Dulce de guineo, avena y miel",
+                    "pedagogicalIntention": "Desarrollan la comprensión lectora de instructivos.",
+                    "recursos_actividad": "Receta \"Dulce de guineo, avena y miel\" del fascículo.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "El docente escribe la tarea para el hogar en la pizarra, pide a un estudiante que pase a resolverla y luego de ver que esté correcta cada estudiante revisa, compara y corrige en su cuaderno. Luego, el docente borra la tarea y les pide a los estudiantes que escriban lo que les dicta: “ayudar a los demás”. A continuación recorre el aula ayudando a quienes tienen dificultades y dando orientaciones para mejorar la escritura."
+                        },
+                        {
+                            "titulo": "Momento 2: Lectura de anticipación",
+                            "descripcion": "El docente pide a los estudiantes que observen la receta \"Dulce de guineo, avena y miel\" y realiza preguntas para anticipar el contenido: ¿Qué creen que nos enseña este texto? ¿Para qué sirve esta receta? ¿Cómo sabemos qué ingredientes necesitamos? ¿Dónde lo leemos? ¿Dónde están los pasos de preparación? ¿Dónde lo leemos? Escucha las ideas de los estudiantes y concluye:\n● Este instructivo nos enseña cómo preparar un dulce de guineo, avena y miel.\n● Los ingredientes están enumerados en la parte superior y los pasos de preparación están organizados con números para seguir un orden lógico."
+                        },
+                        {
+                            "titulo": "Momento 3: Lectura en voz alta",
+                            "descripcion": "El docente pide a los estudiantes que ya leen fluidamente que lean en voz alta (por turnos) cada parte de la receta, desde los ingredientes hasta los pasos. Puede indicarle a los que aún no leen fluidamente que lean los títulos.\nLuego lee en voz alta para reforzar la comprensión y realiza preguntas: ¿Cuál es el título de este instructivo? ¿Dónde lo dice? ¿Hay alguna palabra que no conocen? ¿Cuál? Según lo que leyeron, ¿que podrá significar? (También, se puede buscar en el diccionario) ¿Cómo se llama a los “materiales” en el caso de las recetas? ¿Qué ingredientes necesitamos? ¿Dónde lo dice? ¿Qué hacemos primero según la receta? ¿Qué hacemos después de mezclar los guineos con avena o galletas? ¿Por qué es importante seguir los pasos en el orden correcto?"
+                        },
+                        {
+                            "titulo": "Momento 4: Actividad Nº 8 del fascículo",
+                            "descripcion": "El docente forma grupos de tres estudiantes, asegurándose de incluir a un lector fluido en cada grupo; luego lee, explica los mandatos y ejemplifica en la pizarra. Los estudiantes deben: 1. Identificar y escribir los ingredientes que faltan. 2. Ordenar los pasos de preparación. 3. Reflexionar y responder: ¿Por qué es importante dejar enfriar las bolitas antes de servirlas?\n\nRecorrido docente: Apoya a quienes necesitan más ayuda y realiza las correcciones en el momento."
+                        },
+                        {
+                            "titulo": "Momento 5: Puesta en común",
+                            "descripcion": "Al finalizar, el docente pregunta: ¿Cómo lo hicieron? Los estudiantes exponen sus respuestas y pasan a la pizarra a mostrar cómo escribieron. El docente observa, escucha y los guía hacia la comprensión de la respuesta correcta, modeliza la escritura y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 6: Escritura en el cuaderno",
+                            "descripcion": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos al leer esta receta? Finaliza reflexionando sobre la utilidad de los instructivos en la vida diaria y entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase prolongando los sonidos de cada letra (no por sílabas) y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Explica a un familiar cómo hacer “Dulce de guineo, avena y miel”. Escribe los ingredientes que recuerdes de la receta."
+                },
+                {
+                    "title": "Actividad 9: Signos de Puntuación",
+                    "pedagogicalIntention": "Reconocen el uso de signos de puntuación: la coma, el punto y los dos puntos en un texto instructivo.",
+                    "recursos_actividad": "Pizarra, tizas/marcadores.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "El docente pregunta qué ingredientes recordaron y escribieron en sus cuadernos. A medida que los nombran, algún estudiante voluntario los escribe en la pizarra. Al terminar la lista, todos comparan, completan y corrigen las escrituras en sus cuadernos."
+                        },
+                        {
+                            "titulo": "Momento 2: Identificación del uso de los signos de puntuación",
+                            "descripcion": "El docente escribe ejemplos en la pizarra sin puntuación y pregunta a los estudiantes cómo entenderlos. Explica que en la escritura se usan signos para evitar confusiones. Traza la coma (,), punto (.) y dos puntos (:). Explica sus funciones: coma para listas, punto para terminar ideas, dos puntos para iniciar listas. Pide voluntarios para puntuar los ejemplos en la pizarra."
+                        },
+                        {
+                            "titulo": "Momento 3: Búsqueda de los signos en la receta",
+                            "descripcion": "Pide a los estudiantes que lean el texto de la receta \"Dulce de guineo, avena y miel\" y busquen los signos mencionados. Indica que encierren en un círculo las comas, los puntos y los dos puntos que encuentren en el texto."
+                        },
+                        {
+                            "titulo": "Momento 4: Puesta en común",
+                            "descripcion": "La actividad del fascículo se revisan entre todos. Los estudiantes comentan cuáles son los signos de puntuación que encontraron y el docente orienta identificando comas, dos puntos y puntos en el texto, explicando su función en cada caso."
+                        },
+                        {
+                            "titulo": "Momento 5: Actividad en la pizarra",
+                            "descripcion": "El docente escribe un texto sin puntuación en la pizarra, lo lee de corrido y pregunta qué falta. Los estudiantes completan los signos y reflexionan sobre cómo ayudan a leer con claridad."
+                        },
+                        {
+                            "titulo": "Momento 6: Escritura en el cuaderno",
+                            "descripcion": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Entre todos escriben una frase de lo realizado. Para guiar la escritura, dicta la frase prolongando los sonidos de cada letra (no por sílabas) y luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen sus producciones."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Busca un texto (puede ser una receta, una noticia, una etiqueta, un folleto) y encierra en un círculo todos los signos de puntuación que encuentres. Pégalo en el cuaderno."
+                },
+                {
+                    "title": "Actividad 10: Juegos de Palabras Aprendidas",
+                    "pedagogicalIntention": "Desarrollan la conciencia fonográfica mediante juegos y palabras significativas.",
+                    "recursos_actividad": "Fascículo de actividades, letras móviles.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "Los estudiantes comparten los textos encontrados en el hogar, comentan qué tipo de texto es y qué signos de puntuación identificaron."
+                        },
+                        {
+                            "titulo": "Momento 2: Juegos en el fascículo",
+                            "descripcion": "Los estudiantes completan crucigramas y sopas de letras con el vocabulario aprendido (piedra, trúcamelo, coco, agua, manos, toalla, avena) y verbos en imperativo (moja, frota, seca, dibuja, lanza, pela, mezcla)."
+                        },
+                        {
+                            "titulo": "Momento 3: Puesta en común",
+                            "descripcion": "Al finalizar, el docente pregunta: ¿Cómo lo hicieron? Los estudiantes exponen sus respuestas y pasan a la pizarra a mostrar cómo escribieron. El docente modeliza la escritura correcta."
+                        },
+                        {
+                            "titulo": "Momento 4: Dictado del vocabulario",
+                            "descripcion": "En grupos, los estudiantes se dictan unos a otros palabras del vocabulario. Revisan las escrituras comparando con tarjetas."
+                        },
+                        {
+                            "titulo": "Momento 5: Escritura en el cuaderno",
+                            "descripcion": "Conversan sobre lo trabajado y escriben una frase de lo realizado mediante el dictado prolongado del docente."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe tres palabras nuevas usando únicamente letras de las palabras avena - coco - miel (por ejemplo: avión)."
+                }
+            ]
+        },
+        {
+            "blockNumber": 3,
+            "title": "Bloque 3 - Producción del Instructivo",
+            "activities": [
+                {
+                    "title": "Actividad 11: Dibujo con figuras geométricas",
+                    "pedagogicalIntention": "Desarrollan habilidades para describir procedimientos de forma clara.",
+                    "recursos_actividad": "Figuras geométricas planas de cartulina de colores.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "El docente coloca las letras móviles de avena - coco - miel y pide a los estudiantes que pasen a formar las palabras que escribieron en el cuaderno."
+                        },
+                        {
+                            "titulo": "Momento 2: Figuras geométricas",
+                            "descripcion": "El docente explica que trabajarán en parejas para crear un dibujo usando figuras geométricas de cartulina de colores. Muestra ejemplos. Forma las parejas combinando niveles de alfabetización."
+                        },
+                        {
+                            "titulo": "Momento 3: Creación del dibujo",
+                            "descripcion": "Las parejas organizan y pegan las figuras geométricas sobre una hoja para formar el dibujo imaginado."
+                        },
+                        {
+                            "titulo": "Momento 4: Presentación de los dibujos",
+                            "descripcion": "Cada pareja explica al resto de la clase qué figuras usaron y qué pasos siguieron para formar el dibujo."
+                        },
+                        {
+                            "titulo": "Momento 5: Elección del título",
+                            "descripcion": "Cada pareja decide un título para su dibujo y lo escribe en la parte superior de su hoja."
+                        },
+                        {
+                            "titulo": "Momento 6: Escritura en el cuaderno",
+                            "descripcion": "Conversan sobre lo aprendido y escriben conjuntamente una frase en el cuaderno."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Ordena las palabras para poder leer instrucciones: un Corta círculo Pega triángulo el debajo del círculo"
+                },
+                {
+                    "title": "Actividad 12: Planificación del Instructivo",
+                    "pedagogicalIntention": "Inician la escritura autónoma del instructivo (título y materiales).",
+                    "recursos_actividad": "Cuadernos, lápices.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "El docente indaga sobre si pudieron narrar la tarea a sus familiares y si estos comprendieron."
+                        },
+                        {
+                            "titulo": "Momento 2: Presentación del proyecto",
+                            "descripcion": "El docente explica que crearán un mural con imágenes de figuras geométricas y sus correspondientes instructivos."
+                        },
+                        {
+                            "titulo": "Momento 3: Escritura del título",
+                            "descripcion": "Los estudiantes piensan y escriben un título creativo para su instructivo."
+                        },
+                        {
+                            "titulo": "Momento 4: Lista de materiales",
+                            "descripcion": "Los estudiantes escriben la lista de materiales necesaria para su collage, indicando cantidad, forma y color. El docente modeliza el uso de los dos puntos."
+                        },
+                        {
+                            "titulo": "Momento 5: Puesta en común",
+                            "descripcion": "Leen las listas en voz alta y reflexionan sobre la importancia de planificar materiales."
+                        },
+                        {
+                            "titulo": "Momento 6: Escritura en el cuaderno",
+                            "descripcion": "Escriben una frase sobre lo realizado siguiendo el dictado del docente."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Colorea la palabra instructivo: entrada intruso instructivo enojo"
+                },
+                {
+                    "title": "Actividad 13: Escritura de los pasos",
+                    "pedagogicalIntention": "Avanzan en la escritura autónoma del instructivo (procedimientos).",
+                    "recursos_actividad": "Cuadernos, lápices.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "Comparten si pudieron jugar con figuras geométricas en sus hogares."
+                        },
+                        {
+                            "titulo": "Momento 2: Recordamos cómo escribir los pasos",
+                            "descripcion": "Explica claves: dos puntos después de 'pasos', números, verbos en imperativo, punto final. Muestra un ejemplo en la pizarra."
+                        },
+                        {
+                            "titulo": "Momento 3: Escritura de los pasos",
+                            "descripcion": "Los estudiantes escriben los pasos o procedimientos en su cuaderno, numerándolos y usando verbos en imperativo."
+                        },
+                        {
+                            "titulo": "Momento 4: Puesta en común",
+                            "descripcion": "Leen los pasos en voz alta. El docente anuncia que revisará los textos para la versión final."
+                        },
+                        {
+                            "titulo": "Momento 6: Escritura en el cuaderno",
+                            "descripcion": "Reflexión final y escritura de una frase sobre el avance en el proyecto."
+                        }
+                    ],
+                    "tarea_hogar": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Lee con tu familia todo lo que has escrito sobre tu instructivo."
+                },
+                {
+                    "title": "Actividad 14: Versión Final",
+                    "pedagogicalIntention": "Revisan y perfeccionan un texto, escribiendo una versión final clara y ordenada que será publicada junto a su collage en el mural.",
+                    "recursos_actividad": "Hojas sueltas con líneas.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Recuperación de la tarea para el hogar",
+                            "descripcion": "Lectura de lo escrito hasta el momento."
+                        },
+                        {
+                            "titulo": "Momento 2: Preparación para la versión final",
+                            "descripcion": "Devolución de cuadernos con correcciones y explicación de cómo incorporarlas."
+                        },
+                        {
+                            "titulo": "Momento 3: Escritura de la versión final",
+                            "descripcion": "Los estudiantes escriben la versión final en hojas sueltas, incorporando título, materiales y procedimiento con las correcciones."
+                        },
+                        {
+                            "titulo": "Momento 4: Reflexión",
+                            "descripcion": "Lectura voluntaria de versiones finales y recolección para el mural."
+                        }
+                    ],
+                    "tarea_hogar": ""
+                },
+                {
+                    "title": "Actividad 15: Mural de Instructivos",
+                    "pedagogicalIntention": "Arman el mural con los instructivos editados.",
+                    "recursos_actividad": "Mural, pegamento, dibujos e instructivos finales.",
+                    "momentos": [
+                        {
+                            "titulo": "Momento 1: Montaje del mural",
+                            "descripcion": "Organización del espacio y colocación de dibujos e instructivos por grupos."
+                        },
+                        {
+                            "titulo": "Momento 2: Presentación del mural",
+                            "descripcion": "Exposición a la comunidad escolar (otros grados, docentes, familias)."
+                        },
+                        {
+                            "titulo": "Momento 3: Reflexión grupal",
+                            "descripcion": "Cierre del proyecto: reflexión sobre partes del instructivo, importancia de la revisión y utilidad social del texto."
+                        }
+                    ],
+                    "tarea_hogar": ""
+                }
+            ]
+        }
+    ]
+}

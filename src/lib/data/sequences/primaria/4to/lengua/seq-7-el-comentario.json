@@ -1,0 +1,243 @@
+{
+  "id": "seq-1771196800045",
+  "title": "El comentario",
+  "description": "Promueve la expresión de opiniones fundamentadas sobre temas o textos leídos, utilizando argumentos sencillos y lenguaje respetuoso.",
+  "order": 7,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771203890851",
+      "sequence_id": "seq-1771196800045",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Pre-escucha y exploración)",
+      "intencion_pedagogica": "Explorar conocimientos previos sobre los videojuegos, introducir el concepto de comentario y argumentación, y diferenciar entre hecho y opinión.\n\n",
+      "estrategia": "Ambientación del aula: Uso de imágenes relacionadas con videojuegos.\n\nDiálogo dirigido: Preguntas generadoras para activar conocimientos previos y opiniones.\n\nTrabajo individual y grupal: Para definir conceptos y compartir ideas.\n\nPlenaria: Socialización de definiciones construidas en grupo.",
+      "aprendizaje_significativo": "Se parte de un tema de gran interés para los niños (los videojuegos) para introducir el concepto de comentario y argumentación, conectando con sus experiencias y opiniones personales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite dibujar su videojuego favorito y explicarlo brevemente.\n\nPara estudiantes kinestésicos: Se les invita a representar con gestos la acción de un videojuego.\n\nPara estudiantes con dificultades de abstracción: Se les proporcionan ejemplos concretos de hechos y opiniones en tarjetas para clasificar.\n\nPara estudiantes avanzados: Se les pide que den un ejemplo adicional de hecho y opinión sobre otro tema.",
+      "actividades_cuaderno": "Copiar la definición de comentario, tesis, argumento, hecho y opinión. Escribir un hecho y una opinión sobre su comida favorita.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imágenes de videojuegos\n• Pizarra",
+          "descripcion": "1. El docente ambienta el aula con imágenes de videojuegos (pág. 148).\n2. Formula preguntas de exploración (pág. 148):\n- \"¿Qué (o a quiénes) nos muestran estas imágenes?\" (pregunta 1)\n- \"¿Tienes alguno de estos videojuegos u otros?\" (pregunta 2)\n- \"¿Te gustan los videojuegos? Dame por lo menos dos razones.\" (pregunta 3)\n- \"¿Están de acuerdo tus padres o tutores con que te diviertas con videojuegos? ¿Por qué?\" (pregunta 4)\n3. El docente registra las opiniones (a favor y en contra) en la pizarra.",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 148)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Pizarra",
+          "descripcion": "Construcción del concepto de comentario:\n1. El docente propone la consigna (pág. 148): \"En una de las preguntas, algunos niños dieron por lo menos dos razones por las que les gustaban o no los videojuegos. Sin saberlo, estaban realizando un comentario. ¿Cómo podrías definir un comentario?\"\n2. Los estudiantes escriben su definición en el cuaderno (5 minutos).\n3. Se dividen en pequeños grupos para compartir definiciones y elaborar una sola definición grupal (10 minutos).\n4. Plenaria: cada grupo comparte su definición.\n5. El docente sintetiza (pág. 148-149):\n- La argumentación es la defensa de una opinión para convencer.\n- La opinión se llama tesis.\n- Para convencer, se dan razones o argumentos.\n- El comentario es un texto argumentativo.\n- Sus partes son: tesis y argumentos.\n- Las ideas se dividen en hechos (verdaderos) y opiniones (creencias personales).",
+          "actividad_numero": "Comprensión oral (Párrafos 2-3, pág. 148-149)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente presenta la actividad de la página 149:\n- \"El videojuego es cualquier juego digital interactivo.\" (Hecho)\n- \"A los niños que juegan videojuegos les va mejor en matemática.\" (Opinión)\n- \"Los niños que juegan videojuegos tienen mala comunicación con sus padres.\" (Opinión)\n- \"El primer videojuego se llamó Guerra Espacial en 1962.\" (Hecho)\n- \"Si un niño abusa de los videojuegos puede sentir cansancio.\" (Opinión)\n2. Los estudiantes identifican cuáles son hechos y cuáles opiniones.\n3. Se socializan las respuestas.",
+          "actividad_numero": "Comprensión oral Actividad (pág. 149)"
+        }
+      ]
+    },
+    {
+      "id": "1771204019513",
+      "sequence_id": "seq-1771196800045",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Oral (Escucha del Comentario)",
+      "intencion_pedagogica": "Escuchar y comprender el comentario \"Ten cuidado con los videojuegos\", identificando la tesis, los argumentos y diferenciando entre hecho y opinión en el texto.\n\n",
+      "estrategia": "Formulación de hipótesis: Predecir el contenido del texto a partir del título.\n\nLectura en voz alta (modelado): El docente lee el comentario con entonación adecuada.\n\nToma de apuntes: Los estudiantes registran la tesis y los argumentos.\n\nComparación de textos: Diferenciar cuento de comentario.\n\nPreguntas de comprensión: Literales e inferenciales.",
+      "aprendizaje_significativo": "Se analiza un comentario sobre un tema actual y relevante (el impacto de los videojuegos), permitiendo a los estudiantes reflexionar sobre sus propios hábitos y los mensajes que reciben de los adultos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar solo la tesis durante la primera lectura.\n\nPara estudiantes con dificultades de comprensión: Se les permite trabajar las actividades en pareja.\n\nPara estudiantes kinestésicos: Se les invita a representar con gestos las consecuencias de abusar de los videojuegos (ej: usar gafas, estar gordo).\n\nPara estudiantes avanzados: Se les pide que preparen un contraargumento a alguna de las razones del autor.",
+      "actividades_cuaderno": "Escribir la tesis del comentario \"Ten cuidado con los videojuegos\" y los tres argumentos principales que da el autor.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente escribe en la pizarra el título del comentario: \"Ten cuidado con los videojuegos\" (pág. 149).\n2. Formula preguntas de exploración:\n- \"¿Qué crees que se va a tratar en el texto?\"\n- \"Según el título, ¿con qué cosas sobre los videojuegos deberíamos tener cuidado?\"\n3. Anota las predicciones en la pizarra.",
+          "actividad_numero": "Comprensión oral (Párrafo final, pág. 149)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "A, B",
+          "tiempo": "60",
+          "recursos": "• Texto del comentario (pág. 150)\n• Cuadernos\n• Fotocopia de actividades",
+          "descripcion": "1. El docente anuncia que leerá dos textos (un cuento y un comentario) para que los estudiantes los identifiquen (pág. 150).\n2. Lee el comentario \"Ten cuidado con los videojuegos\" (pág. 150) .\n3. Los estudiantes identifican qué texto es el comentario y justifican.\n4. El docente relee el comentario y pide que respondan (pág. 150):\n- \"¿Qué tesis quiere demostrar el autor?\" (a)\n- \"¿Qué razones ofrece para demostrar esa tesis?\" (b)\n- \"¿Qué ideas no sabías?\" (c)\n- \"De las predicciones, ¿cuáles van apareciendo?\" (d)\n5. Los estudiantes toman apuntes de la tesis y los argumentos.\n6. Actividades de post-escucha (págs. 151-152):\n- Actividad A (pág. 151): Explican significado de palabras subrayadas: predilectos, abusar, gafas, sueles, adquieras libras de más, lo ideal.\n- Actividad B (pág. 152): Responden preguntas:\n1. \"¿Por qué no es bueno mantener los ojos fijos por mucho tiempo frente a una pantalla?\"\n2. \"¿Qué comestibles nos hacen engordar mientras jugamos videojuegos?\"\n3. \"¿Cuáles son los beneficios del juego?\"\n4. \"¿Cuál es la tesis que defiende el autor?\"\n5. \"¿Por qué razones hay que tener cuidado con los videojuegos?\"\n6. \"¿Estás de acuerdo con la postura del autor? Da dos razones.\"",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 150) (pág. 151) (pág. 152)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas a la pregunta 6 de la Actividad B.\n2. Los estudiantes comparten si están de acuerdo o no con el autor y sus razones.\n3. El docente refuerza la importancia de dar argumentos válidos.",
+          "actividad_numero": "Comprensión oral (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771204195929",
+      "sequence_id": "seq-1771196800045",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": " Comprensión Oral (Segundo Comentario)",
+      "intencion_pedagogica": "Escuchar y comprender el comentario \"¿Qué tiene Peppa Pig?\", identificando la tesis y los argumentos que explican el éxito del programa.\n\n",
+      "estrategia": "Formulación de hipótesis: Predecir el contenido a partir del título.\n\nLectura en voz alta (modelado): El docente lee el comentario.\n\nToma de apuntes: Los estudiantes registran tesis y argumentos.\n\nTrabajo individual: Para resolver actividades de comprensión.\n\nSocialización de respuestas: Para compartir estrategias.",
+      "aprendizaje_significativo": "Se trabaja con un tema de la cultura popular infantil (Peppa Pig), permitiendo a los estudiantes analizar críticamente un programa que muchos de ellos o sus hermanos menores ven, desarrollando su capacidad de análisis mediático.\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar solo los argumentos durante la escucha.\n\nPara estudiantes visuales: Se les muestran imágenes de los personajes de Peppa Pig mientras escuchan.\n\nPara estudiantes kinestésicos: Se les invita a representar alguna característica de los personajes.\n\nPara estudiantes avanzados: Se les pide que comparen a Peppa Pig con otro programa infantil que conozcan.",
+      "actividades_cuaderno": "Escribir la tesis del comentario sobre Peppa Pig y los cuatro argumentos que da la autora para explicar su éxito.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente anuncia que escucharán un comentario titulado \"¿Qué tiene Peppa Pig?\" de Federica Cash (pág. 153).\n2. Pide a los estudiantes que anoten en su cuaderno qué cosas creen que se van a opinar sobre Peppa Pig.\n3. Comparten sus predicciones brevemente.",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 153)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto del comentario (pág. 154)\n• Cuadernos\n• Fotocopia de actividades",
+          "descripcion": "1. El docente prepara a los estudiantes para la escucha: deben tomar apuntes sobre la tesis y los argumentos (pág. 153).\n2. Lee en voz alta el comentario \"¿Qué tiene Peppa Pig?\" (pág. 154) .\n3. Actividades de post-escucha (págs. 155-156):\n- Actividad 1 (pág. 155): Encierran la tesis que se defiende:\na. Hay personas que no están de acuerdo con el programa.\nb. Los personajes son gente normal, con virtudes y defectos.\nc. Peppa gusta mucho a los niños (entre dos y cinco años).\nd. Los episodios son cortos y abordan la vida cotidiana.\n- Actividad 2 (pág. 155): Explican por qué Peppa ha tenido tanto éxito (argumentos).\n- Actividad de vocabulario (págs. 155-156): Explican palabras subrayadas:\nescapan a los hechizos, episodio, irrealidad y fantasía, afrontan, modos, impertinencia, multiculturalidad.\n4. Se socializan las respuestas.",
+          "actividad_numero": "Comprensión oral Actividades 1-2 (pág. 155) Actividad de vocabulario (págs. 155-156)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta: \"¿Están de acuerdo con la autora? ¿Por qué?\"\n2. Los estudiantes expresan su opinión, dando al menos una razón.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771204331368",
+      "sequence_id": "seq-1771196800045",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión Escrita",
+      "intencion_pedagogica": "Leer y comprender el comentario \"Los videojuegos no son tan malos\", identificando su tesis (contraria al texto anterior) y los argumentos que la sostienen.",
+      "estrategia": "Exploración de conocimientos previos: Los estudiantes recuerdan el comentario anterior y predicen el nuevo.\n\nLectura compartida: Docente y alumnos leen en voz alta, alternándose.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión.\n\nTrabajo individual: Para resolver actividades de post-lectura.",
+      "aprendizaje_significativo": "Se presenta un comentario con una postura opuesta a la del primer texto sobre videojuegos, mostrando a los estudiantes que sobre un mismo tema pueden existir diferentes opiniones y que todas deben ser respetadas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectura: Se les asignan párrafos más cortos durante la lectura compartida.\n\nPara estudiantes con dificultades de vocabulario: Se les permite usar el diccionario.\n\nPara estudiantes visuales: Se utiliza un organizador gráfico con dos columnas (tesis/argumentos).\n\nPara estudiantes avanzados: Se les pide que escriban un argumento adicional que podrían añadir al texto.",
+      "actividades_cuaderno": "Copiar la tesis del comentario \"Los videojuegos no son tan malos\" y los argumentos que da el autor.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente recuerda el comentario anterior sobre videojuegos (postura negativa).\n2. Pregunta: \"¿Son los videojuegos enteramente malos? ¿Conoces algún aspecto positivo?\" (pág. 157).\n3. Los estudiantes anotan sus ideas en el cuaderno (3 minutos).\n4. Comparten sus respuestas.\n5. El docente presenta el título: \"Los videojuegos no son tan malos\" y pide que predigan la tesis y posibles argumentos.",
+          "actividad_numero": "Comprensión escrita Pre-lectura (pág. 157)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copia del texto (pág. 158)\n• Fotocopia de actividades\n• Cuadernos",
+          "descripcion": "1. Se entrega una copia del texto \"Los videojuegos no son tan malos\" (pág. 158) .\n2. Se realiza la lectura compartida con preguntas intercaladas (pág. 159):\n- Párrafo 1: \"¿Hay información de las que dijeron? ¿Cuál es la función de este párrafo?\"\n- Párrafo 2: \"¿Qué información nueva se presenta?\"\n- Párrafo 3: \"¿Qué idea se plantea que no se había dicho antes?\"\n- Párrafo 4: \"¿De qué se habla en este párrafo?\"\n- Párrafo 5: \"¿Cuál es el punto de vista que se defiende aquí?\"\n- Párrafo 6: \"¿Qué información nueva se presenta?\"\n- Párrafo 7: \"¿Para qué sirve este párrafo?\"\n\nPost-lectura - Actividades (págs. 160-161):\n1. Actividad 1 (pág. 160): Completan significados: obeso, antisocial.\n2. Actividad 2 (pág. 160): Reescriben oraciones sustituyendo palabras subrayadas por sinónimos: localizar, suelen entretenerse, semejantes, dañan.\n3. Actividad 3 (pág. 160): Encierran la tesis correcta:\na. Los videojuegos son malos para la salud.\nb. Contribuyen a aumentar la capacidad de atención.\nc. Dañan la vista y ponen nerviosos.\nd. Tienen muchas cosas buenas.\n4. Actividad 4 (pág. 160): Justifican su respuesta.\n5. Actividad 5 (pág. 161): Escriben todas las razones por las que los videojuegos no son tan malos.\n6. Actividad 6 (pág. 161): Marcan hecho u opinión en enunciados dados.",
+          "actividad_numero": "Comprensión escrita Durante la lectura (pág. 159) Actividades 1-6 (págs. 160-161)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas, especialmente la justificación de la tesis y la actividad de hecho/opinión.\n2. El docente refuerza el carácter polémico de la argumentación.",
+          "actividad_numero": "Comprensión escrita (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771204461925",
+      "sequence_id": "seq-1771196800045",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": " Gramática Textual",
+      "intencion_pedagogica": "Analizar las características, estructura y recursos lingüísticos del comentario, incluyendo la diferencia entre hecho y opinión, y los conectores de causa y consecuencia.\n\n",
+      "estrategia": "Clase expositiva dialogada: Para presentar las características del comentario.\n\nAnálisis de textos modelo: Se retoman los comentarios leídos.\n\nTrabajo individual y grupal: Para identificar recursos lingüísticos.\n\nUso de cuadros resumen: Para organizar la información.",
+      "aprendizaje_significativo": "Se sistematizan los recursos lingüísticos que los estudiantes ya han utilizado implícitamente al dar su opinión, haciéndolos conscientes de cómo funciona la lengua para argumentar.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de abstracción: Se les proporcionan tarjetas con ejemplos para clasificar en hecho/opinión.\n\nPara estudiantes visuales: Se utiliza un organizador gráfico con la estructura del comentario.\n\nPara estudiantes kinestésicos: Se les entregan tiras de papel con las partes del comentario para que las ordenen físicamente.\n\nPara estudiantes avanzados: Se les pide que escriban un breve comentario sobre un tema de su interés.",
+      "actividades_cuaderno": "Copiar el esquema de la estructura del comentario (punto de partida, tesis, argumentos, conclusión) y los ejemplos de conectores de causa y consecuencia.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente presenta el concepto (pág. 163):\n- \"El comentario consiste en dar un juicio u opinión personal sobre un tema o persona.\"\n- \"Puede estar a favor o en contra.\"\n- \"Implica una discusión con quienes tienen opinión diferente.\"\n- \"Las razones se llaman argumentos.\"\n2. Explica la diferencia entre hechos (comprobables) y opiniones (creencias personales), con ejemplos de los textos leídos.",
+          "actividad_numero": "Gramática textual (Párrafos 1-3, pág. 163)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Papelógrafos con los comentarios leídos\n• Cuadernos",
+          "descripcion": "1. Presenta la estructura del comentario (pág. 163):\n- Punto de partida: tema que se va a tratar.\n- Tesis: idea u opinión que se va a defender.\n- Argumentos: razones para defender la tesis.\n- Conclusión: retoma la tesis, da recomendación o resumen.\n2. Explica los recursos lingüísticos (pág. 163):\n- Verbos de opinión en primera persona: creo, pienso, opino, considero.\n- Adjetivos para expresar opiniones.\n- Conectores de causa o consecuencia: porque, ya que, debido a que, por esto, en consecuencia.\n3. Actividad de identificación: Los estudiantes, en parejas, identifican en los comentarios leídos:\n- Ejemplos de hechos y opiniones.\n- Verbos de opinión en primera persona.\n- Conectores de causa o consecuencia.\n4. Se socializan los hallazgos.",
+          "actividad_numero": "Gramática textual (Párrafos 4-5, pág. 163)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Fotocopia del texto (pág. 162)\n• Cuadernos",
+          "descripcion": "1. El docente entrega una fotocopia del comentario \"¿Seguirás viendo Peppa la cerdita?\" (pág. 162) .\n2. Los estudiantes realizan las actividades de comprensión (pág. 162):\n- \"Escribe con tus propias palabras la tesis que se defiende.\" (1)\n- \"¿Qué razones emplea el autor para defender esa tesis?\" (2)\n- \"Escribe dos hechos y dos opiniones del texto.\" (3)\n3. Se socializan las respuestas.",
+          "actividad_numero": "Gramática textual Actividades (pág. 162)"
+        }
+      ]
+    },
+    {
+      "id": "1771204572850",
+      "sequence_id": "seq-1771196800045",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": " Producción Oral y Escrita",
+      "intencion_pedagogica": "Producir oralmente y por escrito un comentario sobre un tema de interés, aplicando todo lo aprendido sobre estructura, argumentos y recursos lingüísticos.\n\n",
+      "estrategia": "Taller de escritura: Acompañamiento paso a paso en el proceso de producción.\n\nUso de preguntas guía: Para la fase de planificación.\n\nRevisión en pares: Coevaluación de borradores.\n\nUso de instrumentos de evaluación: Preguntas de autoevaluación.\n\nPublicación: Colocación de los comentarios en el mural del curso.",
+      "aprendizaje_significativo": "Los estudiantes producen un comentario sobre un tema de su interés que será publicado en el mural del curso, dando autenticidad a su trabajo y permitiendo que sus opiniones sean leídas y comentadas por sus compañeros.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite escribir en computadora o dictar a un compañero.\n\nPara estudiantes con dificultades para generar argumentos: Se les proporciona un banco de posibles argumentos para cada tema.\n\nPara estudiantes kinestésicos: Se les anima a preparar gestos que acompañarán su presentación oral.\n\nPara estudiantes con ansiedad escénica: Se les permite presentar su comentario oral en grupos pequeños primero.\n\nPara estudiantes avanzados: Se les pide que incluyan un conector de causa o consecuencia en cada argumento.",
+      "actividades_cuaderno": "Pasar en limpio la versión final del comentario para su publicación en el mural. Preparar la exposición oral para la próxima clase.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con las preguntas",
+          "descripcion": "1. El docente presenta las preguntas para elegir (pág. 164):\n- \"¿Debe un niño llevar su celular a la escuela?\"\n- \"¿Debe usarse uniforme para ir a la escuela?\"\n- \"Si te invitan a comer y preparan algo que no te gusta, ¿qué harías?\"\n- \"¿Debe un niño tener un televisor en su cuarto?\"\n- \"¿Está bien tener un perro en casa?\"\n2. Cada estudiante elige una pregunta.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 164)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Pizarra con el cuadro de organización\nCierre y evaluación\nTiempo (15 min)\tProducción escrita final:\n1. Los estudiantes corrigen su borrador con las sugerencias recibidas.\n2. Escriben la versión final en limpio.\n3. El docente anuncia que los comentarios se publicarán en el mural del curso (pág. 168).\tProducción escrita\n(Párrafos 1-7, pág. 166-168)\t• Hojas para la versión final\n• Mural del curso\n",
+          "descripcion": "- Responden la pregunta en una oración (tesis).\n- Identifican dos argumentos fuertes.\n- Construyen los argumentos con sus propias palabras.\n- Completan el cuadro de organización: introducción, desarrollo (argumento 1 y 2), conclusión.\n2. Redacción del borrador (pág. 165): Escriben el primer borrador del comentario.\n3. Revisión individual (pág. 165): Se responden preguntas:\n- \"¿He escrito un comentario sobre la pregunta elegida?\"\n- \"¿Tiene mi comentario la tesis?\"\n- \"¿Defiendo mi tesis con dos argumentos?\"\n- \"¿Son esos argumentos fuertes?\"\n- \"¿Tiene introducción, desarrollo y conclusión?\"\n4. Revisión en pares: Intercambian borradores y se retroalimentan.\n5. Revisión docente: El docente revisa y sugiere mejoras.\n6. Preparación oral (pág. 165): Memorizan las ideas, ensayan en casa, practican la mirada y la naturalidad.",
+          "actividad_numero": "Producción oral y escrita Actividades 1-15 (págs. 164-165)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Hojas para la versión final\n• Mural del curso",
+          "descripcion": "1. Los estudiantes corrigen su borrador con las sugerencias recibidas.\n2. Escriben la versión final en limpio.\n3. El docente anuncia que los comentarios se publicarán en el mural del curso (pág. 168).",
+          "actividad_numero": "Producción escrita (Párrafos 1-7, pág. 166-168)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "id": "seq-1772504134644",
+  "title": "Números Naturales como mínimo hasta el 999,999",
+  "description": "Trabaja la lectura, escritura, comparación y representación de números naturales hasta seis cifras.",
+  "order": 1,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772504134636",
+      "sequence_id": "seq-1772504134644",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Los números en mi país",
+      "intencion_pedagogica": "Leer, escribir y representar números naturales como mínimo hasta el 100,000 en\nsituaciones problemáticas del entorno",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre la utilidad de los números.\n• Uso de video: \"Aprende a leer y escribir cantidades\".\n• Trabajo colaborativo en grupos: Resolución de situaciones problemáticas del contexto agrícola.\n• Socialización en pizarra: Escritura de números en palabras y forma estándar.",
+      "aprendizaje_significativo": "Los estudiantes relacionan los números con situaciones reales de la agricultura dominicana (cosechas de plátanos, tomates, piñas), comprendiendo que los números son fundamentales para contar, medir y registrar cantidades en la vida cotidiana y en la economía del país.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de valor posicional para apoyar la lectura y escritura de números.\n• Para estudiantes kinestésicos: Pueden usar los bloques de base 10 para representar las cantidades antes de escribirlas.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y material táctil (bloques con relieve).\n• Para estudiantes avanzados: Se les pide que escriban los números también en forma desarrollada.",
+      "actividades_cuaderno": "Los estudiantes completan el cuadro de la página 10, escribiendo en palabras o en números las cantidades indicadas.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente inicia un diálogo con los estudiantes sobre los números, su utilidad y su importancia en la vida (pág. 9).\n2. Propone una \"lluvia de números\": cada estudiante menciona un número y lo escribe en la pizarra.\n3. Motiva a los estudiantes a anticipar el tema de la clase y anota las hipótesis en la pizarra.\n4. Anuncia que repasarán el tema de los números naturales.",
+          "actividad_numero": "Actividad 1 - A (Pág. 9)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Bloques de base 10\n• Pizarra\n• Cuadernos\n• Lápices",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Aprende a leer y escribir cantidades\" disponible en: https://www.youtube.com/watch?v=86pKpy2JLk8 (pág. 9).\n2. Después del video, realiza preguntas: \"¿Cuáles números viste en el video? ¿En qué usamos números como estos? ¿Qué debemos hacer para leer cantidades numéricas?\"\n3. En caso de no tener acceso a tecnología, explora el tema con preguntas como: \"¿Qué número es tu casa? ¿Escribe el número más grande que conozcas? ¿Cómo se lee 43,580?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 9): \"El padre de Yasmeiry tiene una finca de plátanos en Santiago. Este mes han cosechado 600 racimos con 55,000 plátanos. ¿Cómo se escribe en palabras 55,000?\"\n2. Da tiempo para que los grupos discutan y encuentren la solución.\n3. Pide a un voluntario que escriba la respuesta en la pizarra (55,000 = Cincuenta y cinco mil).\n4. Guía el proceso con preguntas para fortalecer el aprendizaje.\n\nActividad 3 - Actividad para el cuaderno (20 min):\n1. El docente plantea las siguientes situaciones para que los grupos resuelvan una a la vez (pág. 9-10):\n- \"En una finca hay 500 racimos de plátanos con 43,245 plátanos. ¿Cómo se escribe esta cantidad en palabras?\"\n- \"Rosa Iris visitó la finca de tomates de su abuela y recolectaron dieciocho mil cuatrocientos noventa y cinco tomates. ¿Cómo se escribe esa cantidad en números?\"\n- \"Representa con bloques de base 10: 804; trescientos cuarenta y siete; 1,569; dos mil seiscientos ochenta y nueve.\"\n2. Los estudiantes trabajan en grupos mientras el docente circula y apoya.\n3. Socializan las respuestas en la pizarra.",
+          "actividad_numero": "Actividad 1 - B y C (Pág. 9-10)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Cómo se lee el número 24,890? ¿Cómo se escribe el número veinticuatro mil setecientos ochenta y dos?\" (pág. 10).\n2. Asigna la actividad complementaria (pág. 10): Completar el cuadro escribiendo en palabras o en números las cantidades.\n3. Asigna la actividad para el diario del estudiante (pág. 10): \"Con la ayuda de tus padres u otro adulto escribe 5 números diferentes, en forma estándar y en palabras.\"",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 10)"
+        }
+      ]
+    },
+    {
+      "id": "1772505958148",
+      "sequence_id": "seq-1772504134644",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Explorando el valor de posición",
+      "intencion_pedagogica": " Determinar el valor posicional y el valor de un dígito utilizando la tabla de valor posicional.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Valor posicional de un número súper fácil\".\n• Uso de tabla de valor posicional: Identificación del valor de cada dígito.\n• Resolución de problemas: Aplicación en situaciones de producción agrícola.",
+      "aprendizaje_significativo": "Los estudiantes determinan el valor de los dígitos en cantidades relacionadas con la producción agrícola (86,945 racimos de guineo), comprendiendo que un mismo dígito puede tener diferente valor según la posición que ocupa, lo que es esencial para interpretar datos reales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de valor posicional impresa para que ubiquen los dígitos.\n• Para estudiantes kinestésicos: Pueden usar los bloques de base 10 para representar las cantidades y ver el valor de cada dígito.\n• Para estudiantes con discapacidad visual: Se les proporciona la tabla de valor posicional en formato ampliado y con relieve.\n• Para estudiantes avanzados: Se les pide que escriban las equivalencias entre unidades, decenas y centenas de millar.",
+      "actividades_cuaderno": "Los estudiantes resuelven el problema de la página 11 sobre la producción de pitahaya (87,475), determinando el valor posicional del dígito 8.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué números escribieron con ayuda de sus padres? ¿En cuántas formas pudieron escribirlos? ¿Tuvieron alguna dificultad?\" (pág. 10).\n2. Luego, pregunta: \"¿Cuál creen será el tema de hoy?\" Anota las hipótesis.\n3. Anuncia que continuarán resolviendo problemas de valor posicional.",
+          "actividad_numero": "Actividad 2 - A (Pág. 10)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Tabla de valor posicional (papelógrafo)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Valor posicional de un número súper fácil para principiantes\" disponible en: https://www.youtube.com/watch?v=eNodAB9v6YM (pág. 10).\n2. Después del video, pregunta: \"¿De qué trata? ¿Qué es el valor posicional? ¿Cuánto vale el 5 en 25,640?\"\n3. En caso de no tener acceso a tecnología, explora con preguntas: \"¿Recuerdan el valor posicional? ¿Cuánto vale el 5 en 26,540?\"\n\nActividad 2 - Situación problemática (25 min):\n1. El docente plantea la situación (pág. 10): \"La provincia de Montecristi es productora de guineo. Este mes han vendido 86,945 racimos. ¿Cuál es el valor posicional del dígito 9? ¿Y del dígito 6?\"\n2. Los estudiantes trabajan en grupos.\n3. Un voluntario escribe el número en la pizarra y explica el valor de los dígitos.\n4. El docente guía con preguntas y presenta la tabla de valor posicional (pág. 11).\n\nActividad 3 - Equivalencias (20 min):\n1. El docente explora saberes previos sobre equivalencias: 1 decena = 10 unidades, 1 centena = 100 unidades, etc. (pág. 11).\n2. Los estudiantes escriben estas equivalencias en la pizarra o en un cartel.\n3. Se discute el uso de la coma para separar periodos y facilitar la lectura.",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 10-11)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven el problema de la página 11 sobre la producción de pitahaya (87,475), determinando el valor posicional del dígito 8.\n2. Realiza preguntas de cierre: \"¿Cuál es el valor posicional del dígito 5 en 54,236? ¿Cuántas centenas hay en 4 unidades de millar?\" (pág. 11).\n3. Actividad complementaria: Los estudiantes completan la tabla de la página 11, colocando cada dígito de acuerdo a su valor posicional.\n4. Actividad para el diario del estudiante: Los estudiantes escriben tres números diferentes con el dígito 4, con valores específicos (4,000; 40,000; 400) según se indica en la página 11.",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 11)"
+        }
+      ]
+    },
+    {
+      "id": "1772506092484",
+      "sequence_id": "seq-1772504134644",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Uso del valor posicional",
+      "intencion_pedagogica": "Escribir cantidades en palabras utilizando la tabla de valor posicional.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Bloques de base 10 para representar cantidades.\n• Trabajo en parejas: Resolución de problemas de escritura de números en palabras.\n• Uso de tabla de valor posicional.",
+      "aprendizaje_significativo": "Los estudiantes escriben en palabras cantidades de producción agrícola (863,392 tomates, 793,205 pepinos), aplicando el valor posicional para leer correctamente números grandes, lo que es útil para interpretar noticias y datos de su entorno.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de valor posicional para apoyar la escritura en palabras.\n• Para estudiantes kinestésicos: Pueden usar los bloques de base 10 para representar las cantidades antes de escribirlas.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que también escriban los números en forma desarrollada.",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 12-13: el de las 583,291 mazorcas de maíz y el de las 243,735 naranjas, escribiendo las cantidades en palabras y determinando el valor posicional indicado.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Bloques de base 10\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron la actividad? ¿Cuál fue el número con el dígito 4 de valor 4,000? ¿Y de 40,000?\" (pág. 12).\n2. Entrega bloques de base 10 y pide representar: 4,200; 1,865; 1,050.",
+          "actividad_numero": "Actividad 3 - A (Pág. 12)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Lápices",
+          "descripcion": "Actividad 1 - Situación problemática en parejas (30 min):\n1. El docente plantea la situación (pág. 12): \"La provincia Espaillat es productora de tomates. En la segunda semana de mayo se cosecharon 863,392 tomates. ¿Cómo se lee esta cantidad? ¿Cómo se escribe en palabras? ¿Cuál es el valor posicional del dígito 8?\"\n2. Las parejas trabajan en la solución.\n3. Un voluntario escribe en la pizarra: 863,392 = ochocientos sesenta y tres mil trescientos noventa y dos. El valor del 8 es 800,000.\n\nActividad 2 - Segunda situación problemática (30 min):\n1. El docente plantea (pág. 12): \"El padre de Rosa Iris recolecta pepinos. En agosto han recolectado 793,205 pepinos. ¿Cómo se escribe en palabras? ¿Qué valor posicional tiene el dígito 9? ¿Y el dígito 5?\"\n2. Las parejas resuelven.\n3. Socializan: 793,205 = setecientos noventa y tres mil doscientos cinco. El 9 vale 90,000, el 5 vale 5.",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 12-13)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 12-13: el de las 583,291 mazorcas de maíz y el de las 243,735 naranjas, escribiendo las cantidades en palabras y determinando el valor posicional indicado.\n2. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Qué es el valor posicional? ¿Cuánto vale el dígito 4 en 204,850?\" (pág. 13).\n3. Actividad complementaria: Los estudiantes escriben el valor posicional del dígito en negrita en cada número, según la actividad de la página 13.\n4. Actividad para el diario del estudiante: Los estudiantes realizan las dos actividades de la página 13: escribir 2 números mayores que 10,000 identificando decenas de millar y centenas, y acceder al enlace interactivo de Wordwall para practicar valor posicional.",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 13)"
+        }
+      ]
+    },
+    {
+      "id": "1772506175773",
+      "sequence_id": "seq-1772504134644",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Forma desarrollada de un número",
+      "intencion_pedagogica": "Escribir números naturales en forma desarrollada y forma estándar.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Bloques de base 10 para representación de cantidades.\n• Uso de video: \"Notación Desarrollada y Valor Posicional\".\n• Trabajo en grupos: Expresión de números en forma desarrollada.",
+      "aprendizaje_significativo": "Los estudiantes expresan cantidades de producción agrícola (9,564 libras de yuca, 375,890 libras de yuca) en forma desarrollada, comprendiendo que un número puede descomponerse como la suma del valor de cada uno de sus dígitos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de valor posicional para identificar el valor de cada dígito antes de sumar.\n• Para estudiantes kinestésicos: Pueden usar los bloques de base 10 para representar las cantidades y luego escribir la suma.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que también expresen los números en forma desarrollada como multiplicaciones (ej: 9,000 = 9 x 1,000).",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 14: el de los 175,843 tomates y el de las 8,453 naranjas, expresando ambas cantidades en forma desarrollada.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Bloques de base 10\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuáles lograron practicar en el enlace? ¿Cómo resolvieron las actividades?\" (pág. 13).\n2. Presenta la expresión 135 = 100 + 30 + 5 y pregunta: \"¿Dónde han visto números de esta forma? ¿Cómo se llaman?\"\n3. Entrega bloques de base 10 para representar 135 y relacionar con la forma desarrollada.",
+          "actividad_numero": "Actividad 4 - A (Pág. 13)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Notación Desarrollada y Valor Posicional\" disponible en: https://www.youtube.com/watch?v=aBFrOt_1d24 (pág. 13).\n2. Después del video, pregunta: \"¿Qué es la forma desarrollada de un número? ¿Cómo se expresa 255 en forma desarrollada? ¿Y 10,682?\"\n3. En caso de no tener acceso a tecnología, retroalimenta con preguntas similares.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 14): \"El padre de Elizabeth cosechó 9,564 libras de yuca. ¿Cuál es el valor de cada dígito? Expresa como suma el valor de cada dígito.\"\n2. Los grupos trabajan.\n3. Un voluntario escribe en la pizarra: 9,564 = 9,000 + 500 + 60 + 4.\n4. El docente explica que la forma desarrollada es la suma del valor de cada dígito.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 14): \"La provincia Espaillat vende aproximadamente 375,890 libras de yuca por semana. ¿Cómo se expresa 375,890 en forma desarrollada?\"\n2. Los grupos resuelven.\n3. Socializan: 375,890 = 300,000 + 70,000 + 5,000 + 800 + 90.",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 13-14)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papeles con números > 100,000\n• Funda o caja\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 14: el de los 175,843 tomates y el de las 8,453 naranjas, expresando ambas cantidades en forma desarrollada.\n2. Juego de cierre (pág. 14): Escribir en papeles números mayores que 100,000, colocarlos en una funda. Los estudiantes sacan un papel y escriben ese número en forma desarrollada en la pizarra.\n3. Actividad complementaria: Los estudiantes escriben en forma desarrollada las cantidades de la página 15 y completan el cuadro de forma estándar/desarrollada.\n4. Actividad para el diario del estudiante: Los estudiantes escriben 5 números mayores que 10,000 y los expresan en forma desarrollada, con ayuda de sus padres (pág. 15).",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 14-15)"
+        }
+      ]
+    },
+    {
+      "id": "1772506246312",
+      "sequence_id": "seq-1772504134644",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Comparación de números naturales",
+      "intencion_pedagogica": "Comparar números naturales en su contexto.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Comparar números naturales, mayor que, menor que e igual\".\n• Trabajo en grupos: Resolución de problemas de comparación en el contexto agrícola.\n• Uso de tabla de valor posicional y símbolos >, <, =.",
+      "aprendizaje_significativo": "Los estudiantes comparan cantidades de producción agrícola (ventas de limones por año) utilizando los símbolos >, <, =, comprendiendo que la comparación permite analizar datos y tomar decisiones, como determinar el año de mayor o menor producción.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una recta numérica para visualizar la comparación.\n• Para estudiantes kinestésicos: Pueden usar los bloques de base 10 para representar las cantidades y compararlas físicamente.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que ordenen todas las ventas de menor a mayor.",
+      "actividades_cuaderno": "Los estudiantes resuelven en grupos el problema de la página 17, sobre las ventas de limones por año, determinando el año con más ventas y el de menos ventas.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué números escribieron? ¿Cuál es la forma desarrollada de esos números?\" (pág. 15).\n2. Luego, pregunta: \"¿Quién sabe la edad de sus padres? ¿Cuál de ellos es mayor? ¿Cómo lo saben?\" para introducir el tema de comparación.",
+          "actividad_numero": "Actividad 5 - A (Pág. 15)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Tabla de valor posicional\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Comparar números naturales, mayor que, menor que e igual\" disponible en: https://www.youtube.com/watch?v=ruw-ZxE1vaM (pág. 15).\n2. Después del video, pregunta: \"¿Qué observaron? ¿Qué símbolos se usan para comparar números? ¿Qué se hace para saber si un número es menor o mayor que otro?\"\n3. En caso de no tener acceso a tecnología, explora con preguntas: \"¿Cómo se comparan los números? ¿Qué número es mayor, 545 ó 560? ¿Por qué?\"\n\nActividad 2 - Situación problemática en grupos (30 min):\n1. El docente organiza grupos de 5 estudiantes y presenta la situación (pág. 16): \"En una finca hay 5,876 limones y en otra 9,543. ¿Qué finca tiene más limones?\"\n2. Los grupos discuten y usan la tabla de valor posicional (pág. 16).\n3. Socializan: 9,543 > 5,876 porque tiene más unidades de millar.\n\nActividad 3 - Resolución de problema en grupos (15 min):\n1. El docente indica a los grupos que resuelvan el problema de la página 17, sobre las ventas de limones por año, determinando el año con más ventas y el de menos ventas.",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 16-17)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué se trabajó hoy? ¿Qué se hace para comparar dos cantidades? ¿Para qué sirve la comparación?\" (pág. 17).\n2. Actividad complementaria: Los estudiantes realizan las actividades de la página 17: comparar cantidades usando los símbolos y acceder al enlace interactivo de Liveworksheets para practicar.\n3. Actividad para el diario del estudiante: Los estudiantes preguntan a sus padres las edades de abuelos, tíos y primos, y comparan las edades entre sí, según se indica en la página 17.",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 17)"
+        }
+      ]
+    },
+    {
+      "id": "1772506347308",
+      "sequence_id": "seq-1772504134644",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "¡Qué divertido es redondear!",
+      "intencion_pedagogica": "Resolver situaciones problemáticas utilizando el redondeo de números en su contexto.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Matemática Divertida: 4.º Grado - Redondea Números Naturales\".\n• Trabajo en grupos: Resolución de problemas de redondeo en el contexto agrícola.\n• Uso de tabla de valor posicional para identificar la posición a redondear.",
+      "aprendizaje_significativo": "Los estudiantes redondean cantidades de producción agrícola (356,802 pitahayas, 182,504 piñas) a diferentes valores posicionales, comprendiendo que el redondeo permite estimar cantidades de manera más sencilla para facilitar la lectura y el cálculo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso con los pasos para redondear.\n• Para estudiantes kinestésicos: Pueden usar la tabla de valor posicional y marcar con colores la posición a redondear.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué el número redondeado es razonable comparado con el original.",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 19: el de los 256,321 limones redondeados a la unidad de millar, y el de los 425,275 plátanos redondeados a la decena de millar.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valor posicional\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron la actividad de comparar las edades de sus familiares? ¿Quién era mayor?\" (pág. 17).\n2. Luego, pregunta: \"¿Han trabajado antes el redondeo de números? ¿Qué es redondear un número? ¿Cómo se hace?\" (pág. 18).\n3. Retroalimenta el valor posicional usando la tabla de valor posicional.",
+          "actividad_numero": "Actividad 6 - A (Pág. 18)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Tabla de valor posicional\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Matemática Divertida: 4.º Grado - Redondea Números Naturales\" disponible en: https://www.youtube.com/watch?v=g8sVin3H0U (pág. 18).\n2. Después del video, pregunta: \"¿Qué vieron en el video? ¿Cuáles son los pasos para redondear una cantidad?\"\n3. En caso de no tener acceso a tecnología, explora con preguntas: \"¿Qué es redondear? ¿Cómo se redondea?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 18): \"En Santiago se vendieron 356,802 pitahayas en el 2023. ¿Qué cantidad sería si se redondea 356,802 a la unidad de millar más cercana?\"\n2. Los grupos trabajan en la solución.\n3. Socializan siguiendo los pasos explicados en la página 19: identificar la posición, mirar el dígito de la derecha y aplicar la regla. Respuesta: 357,000.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 19): \"En La Canela se vendieron 182,504 piñas en una semana. ¿Cómo se lee esta cantidad redondeada a la decena de millar más cercana?\"\n2. Los grupos resuelven aplicando el mismo procedimiento.\n3. Socializan: 182,504 redondeado a la decena de millar es 180,000.",
+          "actividad_numero": "Actividad 6 - B y C (Pág. 18-19)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 19: el de los 256,321 limones redondeados a la unidad de millar, y el de los 425,275 plátanos redondeados a la decena de millar.\n2. Realiza preguntas de cierre: \"¿Qué entiendes por redondear? ¿Para qué redondeamos una cantidad? ¿Cómo quedaría 775,034 redondeado a la centena de millar?\" (pág. 19).\n3. Actividad complementaria: Los estudiantes completan la tabla de la página 19, redondeando cada cantidad a la centena, unidad de millar y decena de millar.\n4. Actividad para el diario del estudiante: Los estudiantes redondean a la decena de millar la venta de sandía en La Vega (142,782), con ayuda de sus padres (pág. 19).",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 19)"
+        }
+      ]
+    },
+    {
+      "id": "1772506417609",
+      "sequence_id": "seq-1772504134644",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Me divierto jugando",
+      "intencion_pedagogica": " Retroalimentar algunos de los temas desarrollados en la secuencia.\nEn la clase de hoy vamos a jugar, formados en grupos de 4 a 6 estudiantes, usando tarjetas enumeradas del 0 al 9.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Juego didáctico: \"Me divierto jugando\" con tarjetas numeradas.\n• Trabajo en grupos: Formación de números y comparación.\n• Registro de desempeño: Observación del nivel de logro de los estudiantes.",
+      "aprendizaje_significativo": "Los estudiantes refuerzan los conceptos de valor posicional y comparación de números a través de un juego lúdico con tarjetas, comprendiendo que el aprendizaje matemático puede ser divertido y colaborativo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar menos tarjetas (4 o 5) para facilitar la formación de números.\n• Para estudiantes kinestésicos: El juego mismo es una actividad kinestésica que facilita su aprendizaje.\n• Para estudiantes con discapacidad visual: Se les proporcionan tarjetas con números en relieve y alto contraste.\n• Para estudiantes avanzados: Se les pide que formen el número más pequeño posible y expliquen su estrategia",
+      "actividades_cuaderno": "Los estudiantes forman 2 números distintos con las tarjetas 2, 6, 7, 3, 8 y 4, y los comparan usando los signos >, <, = (pág. 20).",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el redondeo de la venta de sandía? ¿Qué resultado obtuvieron?\" (pág. 19).\n2. Anuncia que hoy realizarán un juego para repasar lo aprendido.",
+          "actividad_numero": "Actividad 7 - A (Pág. 20)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tarjetas enumeradas del 0 al 9 (2 juegos por grupo)\n• Anexos (pág. 20)",
+          "descripcion": "Juego \"Me divierto jugando\":\n1. El docente organiza grupos de 4 a 6 estudiantes y entrega a cada grupo 2 juegos de tarjetas enumeradas del 0 al 9 (disponibles en el anexo).\n2. Explica las reglas del juego (pág. 20):\n- Cada grupo coloca las 10 tarjetas boca abajo y las baraja.\n- Eligen 6 tarjetas al azar.\n- Con esas 6 tarjetas deben formar el número más grande posible.\n- Gana la pareja o grupo que forme el número mayor.\n3. Los estudiantes juegan mientras el docente circula, observa el desempeño y registra en una hoja los niveles de logro de cada estudiante.\n4. Se pueden hacer variantes: usar 5, 4 o 3 tarjetas según el nivel del grupo.",
+          "actividad_numero": "Actividad 7 - B (Pág. 20)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Les gustó el juego? ¿Qué pareja o grupo ganó? ¿Usaron alguna estrategia para poder ganar?\" (pág. 20).\n2. Pregunta: \"¿Cuál es el número más grande que pueden formar con las tarjetas 2, 5, 7, 8, 1 y 0?\"\n3. Actividad para el cuaderno: Los estudiantes forman 2 números distintos con las tarjetas 2, 6, 7, 3, 8 y 4, y los comparan usando los signos >, <, = (pág. 20).",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 20)"
+        }
+      ]
+    },
+    {
+      "id": "1772506485032",
+      "sequence_id": "seq-1772504134644",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Clasifico números en pares e impares",
+      "intencion_pedagogica": "Identificar en situaciones de la vida cotidiana los números pares e impares.\n",
+      "estrategia": "• Revisión de juego: Socialización de la experiencia del juego anterior.\n• Uso de video: \"Números pares y números impares - Matemáticas para niños\".\n• Trabajo en grupos: Clasificación de números en pares e impares en el contexto agrícola.\n• Elaboración de cartel: Estrategia para identificar números pares e impares.",
+      "aprendizaje_significativo": "Los estudiantes identifican si las cantidades de producción agrícola (268,901 cocos, 283,000 pepinos) son pares o impares, comprendiendo que esta clasificación es útil para determinar si una cantidad puede dividirse en grupos iguales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona el cartel con la estrategia (última cifra) para consultar.\n• Para estudiantes kinestésicos: Pueden usar fichas para agrupar de 2 en 2 y verificar si sobra alguna.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué un número que termina en 5 no puede ser par.",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 22: el de las 334,777 mazorcas de maíz y el de las 718,432 mazorcas de cacao, determinando si son pares o impares y justificando.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo les fue en el juego? ¿Qué pareja ganó? ¿Qué estrategias usaron?\" (pág. 21).\n2. Anuncia que hoy aprenderán a diferenciar números pares e impares.",
+          "actividad_numero": "Actividad 8 - A (Pág. 21)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Números pares y números impares - Matemáticas para niños\" disponible en: https://www.youtube.com/watch?v=M4ew1mz2UV8 (pág. 21).\n2. Después del video, pregunta: \"¿Qué observaron? ¿Cómo saber si un número es par o impar?\"\n3. En caso de no tener acceso a tecnología, explora con preguntas como: \"¿Qué números al dividirlos entre 2 no tienen residuo? ¿Cómo se llaman esos números?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 5 estudiantes y plantea la situación (pág. 21): \"En Samaná se vendieron 268,901 cocos. ¿Este número es par o impar?\"\n2. Los grupos discuten y aplican la estrategia: observar la última cifra.\n3. Socializan: 268,901 termina en 1, por lo tanto es impar.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 21): \"En Cienfuegos se vendieron 283,000 pepinos. Alexander dice que es par, Jazmín dice que es impar. ¿Quién tiene razón?\"\n2. Los grupos resuelven.\n3. Socializan: 283,000 termina en 0, por lo tanto es par. Alexander tiene la razón.\n4. El docente elabora junto a los estudiantes un cartel con la estrategia (pág. 21).",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 21-22)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 22: el de las 334,777 mazorcas de maíz y el de las 718,432 mazorcas de cacao, determinando si son pares o impares y justificando.\n2. Realiza preguntas de cierre: \"¿Cómo sabemos si un número es par? ¿Cómo sabemos si es impar? ¿El número 93 es par? ¿El 86,000 es par?\" (pág. 22).\n3. Actividad complementaria: Los estudiantes completan la tabla de la página 22, colocando al lado de cada número si es par o impar y justificando. También pueden acceder al enlace de Wordwall para practicar.\n4. Actividad para el diario del estudiante: Los estudiantes escriben 5 números distintos mayores que 10,000 y comparten con sus padres cuáles son pares e impares y por qué (pág. 22).",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 22)"
+        }
+      ]
+    },
+    {
+      "id": "1772506551381",
+      "sequence_id": "seq-1772504134644",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Orden de llegada - Números ordinales",
+      "intencion_pedagogica": "Determinar el número ordinal correspondiente a grupos ordenados de personas, animales o cosas.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Escritura de números ordinales del primero al centésimo\".\n• Trabajo en grupos: Resolución de problemas con números ordinales.\n• Elaboración de cartel: Tabla de números ordinales del 1° al 100°.",
+      "aprendizaje_significativo": "Los estudiantes determinan el lugar que ocupan provincias productoras (Azua en tercer lugar, San Francisco en noveno) y escriben números ordinales (83°), comprendiendo que los ordinales indican posición u orden en una lista.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona el cartel de números ordinales para consultar.\n• Para estudiantes kinestésicos: Pueden formar una fila y decir en qué lugar quedó cada uno.\n• Para estudiantes con discapacidad visual: Se les proporciona el cartel en formato ampliado.\n• Para estudiantes avanzados: Se les pide que escriban los ordinales del 101° al 110°.",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 24: el de los 42 productos agrícolas y el de los 95 días, escribiendo los ordinales correspondientes.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué números escribieron? ¿Cuáles son pares? ¿Cuáles son impares? ¿Cómo lo saben?\" (pág. 23).\n2. Luego, pregunta: \"¿En qué grado están este año? ¿Cómo se escribe cuarto? ¿Y tercero? ¿Cómo se llaman estos números?\" para introducir los ordinales.",
+          "actividad_numero": "Actividad 9 - A (Pág. 23)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Escritura de números ordinales del primero al centésimo\" disponible en: https://youtu.be/jZ-IwVoaEM0?si=WTk2DxauNXsJa3H (pág. 23).\n2. Después del video, pregunta: \"¿De qué trata? ¿Qué son los números ordinales? ¿Cómo se escribe el 20 en ordinal? ¿Y el 32?\"\n3. En caso de no tener acceso a tecnología, retroalimenta con ejemplos como: \"Si llegas 4° en una carrera, ¿qué lugar ocupaste?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 23): \"En 2024, Azua ocupó el tercer lugar como productora de plátanos. San Francisco está 6 lugares por debajo. ¿Qué lugar ocupa San Francisco?\"\n2. Los grupos trabajan.\n3. Socializan: 3 + 6 = 9, San Francisco ocupa el noveno lugar.\n4. El docente elabora junto a los estudiantes un cartel con los números ordinales del 1° al 100° (pág. 24).\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 24): \"República Dominicana exportó quesos, convirtiéndose en el exportador número 83 del mundo. ¿Cómo se escribe y se lee el ordinal de 83?\"\n2. Los grupos resuelven usando el cartel.\n3. Socializan: 83° = octogésimo tercero.",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 23-24)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papeles con números ordinales\n• Funda o caja\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 24: el de los 42 productos agrícolas y el de los 95 días, escribiendo los ordinales correspondientes.\n2. Juego de cierre (pág. 24): Colocar en una funda números ordinales del 1 al 100. Los estudiantes sacan un número, lo leen y lo escriben en la pizarra.\n3. Actividad complementaria: Los estudiantes escriben en palabras los números ordinales de la página 24 (24°, 35°, 67°, etc.).\n4. Actividad para el diario del estudiante: Los estudiantes acceden al enlace de Wordwall para reforzar números ordinales (pág. 24).",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 24)"
+        }
+      ]
+    },
+    {
+      "id": "1772506624566",
+      "sequence_id": "seq-1772504134644",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Me divierto con los patrones",
+      "intencion_pedagogica": "Resolver situaciones problemáticas de su entorno utilizando patrones numéricos.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Patrón y secuencia - Matemática 4° Básico\".\n• Trabajo en grupos: Descubrimiento de patrones en secuencias numéricas.\n• Resolución de problemas: Aplicación de patrones en situaciones agrícolas.",
+      "aprendizaje_significativo": "Los estudiantes descubren patrones en situaciones como la siembra de maíz (1 lata = 12 m, 2 latas = 24 m), comprendiendo que los patrones permiten predecir resultados y facilitan el cálculo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan secuencias con patrones más simples.\n• Para estudiantes kinestésicos: Pueden representar los patrones con objetos (fichas, tapitas).\n• Para estudiantes con discapacidad visual: Se les proporcionan las secuencias en formato ampliado.\n• Para estudiantes avanzados: Se les pide que creen su propia secuencia y la intercambien con un compañero.",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 26: el de las vainas de habichuela y el de los ahorros de Nelly.\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con secuencias\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo les fue en el juego de ordinales? ¿Cuántos aciertos tuvieron?\" (pág. 25).\n2. Muestra las secuencias de la página 25: 2,4,6,8,10...; 5,10,15,20...; 60,50,40,30...\n3. Pregunta: \"¿Qué notan en cada grupo? ¿Qué números continúan? ¿Cómo lo saben?\"",
+          "actividad_numero": "Actividad 10 - A (Pág. 25)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Patrón y secuencia - Matemática 4° Básico\" disponible en: https://www.youtube.com/watch?v=iJdZRmghWlw (pág. 25).\n2. Después del video, pregunta: \"¿Qué observaron? ¿Qué es un patrón? ¿Qué operaciones matemáticas están relacionadas con las secuencias?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 25): \"Alexander sembraba maíz. Con 1 lata cubría 12 m, con 2 latas 24 m, con 3 latas 36 m. ¿Cuántos metros cubrirá con 9 latas? Escribe una secuencia.\"\n2. Los grupos trabajan.\n3. Socializan las dos estrategias de la página 25: suma repetida y multiplicación. Respuesta: 108 metros.\n\nActividad 3 - Segunda y tercera situación (20 min):\n1. El docente plantea las situaciones de la página 26:\n- \"Por cada grano de habichuela se cosechan 10 vainas. Adrián sembró 20 granos. ¿Cuántas vainas cosechará? Elabora una secuencia.\"\n- \"Nelly ahorra 5 pesos la primera semana, el doble la segunda, y así sucesivamente. ¿Cuánto ahorrará en la sexta semana?\"\n2. Los grupos resuelven y socializan.",
+          "actividad_numero": "Actividad 10 - B y C (Pág. 25-26)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 26 (los enunciados completos están en la página).\n2. Juego de cierre (pág. 26): Un estudiante dice un número del 1 al 10 y los demás crean un patrón con ese número.\n3. Actividad complementaria: Los estudiantes descubren el patrón en las secuencias de la página 26 y escriben los 3 números faltantes. También pueden acceder al enlace de Wordwall.\n4. Actividad para el diario del estudiante: Los estudiantes elaboran secuencias de 6 números empezando con los indicados en la página 26 (13,17,21...; 80,72,64...; 2,000,2,500,3,000...).",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 26)"
+        }
+      ]
+    },
+    {
+      "id": "1772506691461",
+      "sequence_id": "seq-1772504134644",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Otra forma de escribir los números",
+      "intencion_pedagogica": "Resolver situaciones problemáticas utilizando números romanos.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de material concreto: Reloj con números romanos.\n• Uso de video: \"Las reglas de los números romanos\".\n• Trabajo en grupos: Conversión de números romanos a arábigos y viceversa.",
+      "aprendizaje_significativo": "Los estudiantes interpretan números romanos en contextos cotidianos como relojes y capítulos de libros (XXXVII = 37, LXXXIV = 84), comprendiendo que existen diferentes sistemas de numeración.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona el cartel de números romanos para consultar.\n• Para estudiantes kinestésicos: Pueden formar los números romanos con palitos de fósforo.\n• Para estudiantes con discapacidad visual: Se les proporciona el cartel en formato ampliado.\n• Para estudiantes avanzados: Se les pide que escriban números mayores que 100 en romanos (CI, CII, etc.).",
+      "actividades_cuaderno": "Los estudiantes resuelven los dos problemas de la página 28: el de las naranjas (XLVII) y el de los limones (93).",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Reloj con números romanos\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo les fue con las secuencias? ¿Qué patrones descubrieron?\" (pág. 27).\n2. Presenta un reloj con números romanos y pregunta: \"¿Han visto un reloj como este? ¿Qué hora es? ¿Cómo se llaman esos números?\"",
+          "actividad_numero": "Actividad 11 - A (Pág. 27)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Cartel de números romanos (pág. 28)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Las reglas de los números romanos\" disponible en: https://www.youtube.com/watch?v=8KKaL63puKo (pág. 27).\n2. Después del video, pregunta: \"¿De qué trata? ¿Cómo se escribe 32 en romano? ¿Y 50? ¿Y 90?\"\n3. En caso de no tener acceso a tecnología, escribe números en la pizarra y pregunta cómo se leen (III, X, VII, XII, XV, IV, V).\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 27): \"Alexander usó números romanos para escribir la cantidad de plátanos en un racimo: XXXVII. ¿Cuántos plátanos tiene el racimo?\"\n2. Los grupos trabajan.\n3. Socializan apoyándose en el cartel de la página 28: XXXVII = 37.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 28): \"Alexander escribió en otro racimo LXXXIV. ¿Cuántos plátanos tiene?\"\n2. Los grupos resuelven.\n3. Socializan: LXXXIV = 84.",
+          "actividad_numero": "Actividad 11 - B y C (Pág. 27-28)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papeles con números del 1 al 100\n• Funda o caja\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad para el cuaderno: Los estudiantes resuelven los dos problemas de la página 28: el de las naranjas (XLVII) y el de los limones (93).\n2. Juego de cierre (pág. 29): Colocar en una funda números del 1 al 100. Los estudiantes sacan un número y lo escriben en la pizarra en números romanos.\n3. Actividad complementaria: Los estudiantes completan el cuadro de la página 29, escribiendo en números romanos las cantidades indicadas (35, 61, 48, 83, 100).\n4. Actividad para el diario del estudiante: Los estudiantes piden a sus padres 3 números del 1 al 100 y los escriben en romanos (pág. 29).",
+          "actividad_numero": "Actividad 11 - Cierre (Pág. 28-29)"
+        }
+      ]
+    },
+    {
+      "id": "1772506965793",
+      "sequence_id": "seq-1772504134644",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar el nivel de logro de los estudiantes en relación con los contenidos y competencias desarrolladas durante la secuencia de números naturales.",
+      "estrategia": "• Diálogo dirigido: Recuperación de temas de la secuencia.\n• Explicación de la escala de valoración.\n• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas.",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia (lectura, escritura, valor posicional, redondeo, pares e impares, ordinales, patrones y números romanos) en contextos variados.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden usar la tabla de valor posicional si lo necesitan.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que, al terminar, ayuden a revisar sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración",
+          "descripcion": "1. El docente inicia preguntando por los temas trabajados en la secuencia (pág. 30).\n2. Lee con los estudiantes la tabla de valoración (escala numérica y nominal) para que comprendan cómo se evaluarán los resultados (pág. 30).",
+          "actividad_numero": "Actividad 12 - A (Pág. 30)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices",
+          "descripcion": "Evaluación escrita:\n1. El docente entrega una hoja en blanco a cada estudiante donde colocarán sus datos: nombre del centro, nombre del estudiante, fecha, grado y sección (pág. 30).\n2. Explica la valoración de cada ítem.\n3. Presenta los problemas de evaluación (págs. 30-32):\n\nÍtem 1 (10 pts): Escribir en número: doscientos cuarenta y cinco mil trescientos noventa y cuatro.\nÍtem 2 (10 pts): Escribir en palabras: 143,242.\nÍtem 3 (10 pts): Valor posicional de los dígitos en 867,432 (8, 4, 2, 6, 3).\nÍtem 4 (10 pts): Valor del dígito en negrita: 354,435; 734,201; 906,452; 902,311.\nÍtem 5 (10 pts): Forma desarrollada de 243,678; determinar si es par o impar.\nÍtem 6 (10 pts): Comparar producción de plátanos (77,099) y consumo (45,175).\nÍtem 7 (10 pts): Redondear 615,553 a la decena de millar.\nÍtem 8 (10 pts): Escribir en palabras ordinales: 38°, 25°, 44°, 86°, 56°, 93°, 100°, 51°, 17°, 74°.\nÍtem 9 (10 pts): Problema de patrón: cada mano de guineo tiene 10, ¿cuántos guineos en 8 manos?\nÍtem 10 (10 pts): Escribir en romanos: 21, 56, 93, 78, 125.\n\n4. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad 12 - B (Pág. 30-32)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Anuncia el inicio de la siguiente secuencia.",
+          "actividad_numero": "Actividad 12 - Cierre (Pág. 32)"
+        }
+      ]
+    }
+  ]
+}

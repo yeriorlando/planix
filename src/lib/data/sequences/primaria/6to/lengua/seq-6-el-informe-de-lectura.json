@@ -1,0 +1,399 @@
+{
+  "id": "seq-1772114377382",
+  "title": "El informe de lectura",
+  "description": "Enseña a identificar elementos importantes, reflexionar sobre la lectura y comunicar ideas de forma organizada. Desarrolla pensamiento crítico y análisis textual.",
+  "order": 6,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772114377378",
+      "sequence_id": "seq-1772114377382",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión oral - Pre-escucha",
+      "intencion_pedagogica": "Activar conocimientos previos sobre el informe de lectura y la fábula, y realizar una primera aproximación al género a través de la escucha de un informe sobre \"El león y el pastor\".",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre informe y fábula.\n• Formulación de hipótesis: Anticipación del contenido a partir del título.\n• Lectura en voz alta: Informe de lectura sobre \"El león y el pastor\".\n• Toma de apuntes durante la escucha.",
+      "aprendizaje_significativo": "Los estudiantes recuerdan fábulas que han escuchado en su infancia, conectando así el contenido académico con sus experiencias previas de lectura y tradición oral.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar un solo aspecto durante la lectura (ej: los personajes que aparecen).\n• Para estudiantes kinestésicos: Mientras escuchan, pueden dibujar la escena que imaginan.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción del informe para seguir la lectura.\n• Para estudiantes avanzados: Se les pide que investiguen quién fue Esopo.",
+      "actividades_cuaderno": "1. ¿Qué es una fábula? Escribe una breve definición.\n2. ¿De qué fábula escuchamos el informe hoy?\n3. ¿Quiénes son los personajes principales de esta fábula?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente anuncia que trabajarán con el informe de lectura.\n2. Pregunta: \"¿Alguien se acuerda de qué es un informe? ¿Cuáles son sus partes?\" (pág. 86).\n3. Anuncia que escucharán un informe sobre una fábula titulada \"El león y el pastor\".\n4. Pregunta: \"¿Quién me puede decir qué es una fábula? ¿En qué se parece y se distingue de un cuento?\"\n5. Motiva a los estudiantes a hipotetizar sobre el título:\n- \"¿Qué es un pastor?\"\n- \"¿Qué crees que va a pasar en la historia?\"\n- \"¿Cómo crees que va a terminar?\"\n- \"¿Dónde crees que ocurre la historia? ¿Cómo es ese ambiente?\"\n6. Anota las hipótesis en la pizarra.1. El docente anuncia que trabajarán con el informe de lectura.\n2. Pregunta: \"¿Alguien se acuerda de qué es un informe? ¿Cuáles son sus partes?\" (pág. 86).\n3. Anuncia que escucharán un informe sobre una fábula titulada \"El león y el pastor\".\n4. Pregunta: \"¿Quién me puede decir qué es una fábula? ¿En qué se parece y se distingue de un cuento?\"\n5. Motiva a los estudiantes a hipotetizar sobre el título:\n- \"¿Qué es un pastor?\"\n- \"¿Qué crees que va a pasar en la historia?\"\n- \"¿Cómo crees que va a terminar?\"\n- \"¿Dónde crees que ocurre la historia? ¿Cómo es ese ambiente?\"\n6. Anota las hipótesis en la pizarra.",
+          "actividad_numero": "Comprensión oral (Pre-escucha, pág. 86)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto del informe (pág. 87)\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente prepara a los estudiantes para la escucha estratégica (pág. 86):\n- \"Todo el mundo debe tener su cuaderno abierto.\"\n- \"Tomen apuntes sobre: ¿De qué se habla en esta parte? ¿Cómo se relacionan las ideas? ¿Cuál ha sido la intención del autor?\"\n2. Lee pausadamente el texto \"Informe de lectura de El león y el pastor\" (pág. 87).\n3. Los estudiantes toman apuntes.1. El docente prepara a los estudiantes para la escucha estratégica (pág. 86):\n- \"Todo el mundo debe tener su cuaderno abierto.\"\n- \"Tomen apuntes sobre: ¿De qué se habla en esta parte? ¿Cómo se relacionan las ideas? ¿Cuál ha sido la intención del autor?\"\n2. Lee pausadamente el texto \"Informe de lectura de El león y el pastor\" (pág. 87).\n3. Los estudiantes toman apuntes.",
+          "actividad_numero": "Comprensión oral (Durante la escucha, pág. 86-87)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis\n• Participación de los estudiantes\n",
+          "descripcion": "1. El docente retoma las hipótesis anotadas en la pizarra.\n2. Pregunta: \"¿Qué hipótesis se confirmaron? ¿Cuáles no?\" (pág. 88).\n3. Anuncia que en la próxima clase realizarán actividades de comprensión más detalladas.",
+          "actividad_numero": "Comprensión oral (Cierre, pág. 88)"
+        }
+      ]
+    },
+    {
+      "id": "1772120616170",
+      "sequence_id": "seq-1772114377382",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión oral - Actividades",
+      "intencion_pedagogica": "Profundizar en la comprensión del informe de lectura sobre \"El león y el pastor\" mediante ejercicios de vocabulario y la elaboración de un resumen escrito.",
+      "estrategia": "• Ejercicios de vocabulario: Sinónimos contextuales.\n• Elaboración de resumen: Aplicación de reglas de reducción de información.\n• Trabajo individual y socialización.\n• Corrección guiada.",
+      "aprendizaje_significativo": "Los estudiantes aprenden a resumir un texto, una habilidad que usarán en su vida académica para estudiar y comprender mejor lo que leen.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de vocabulario: Se les proporciona una lista de posibles sinónimos para la actividad 1.\n• Para estudiantes kinestésicos: Mientras escriben el resumen, pueden hacer gestos que representen las ideas principales.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que compartan su resumen con un familiar y traigan su comentario.",
+      "actividades_cuaderno": "Título: Resumen del informe de lectura\n1. Escribe el resumen que preparaste en clase.\n2. ¿Qué fue lo más difícil al hacer el resumen?\n3. Comparte tu resumen con alguien en casa y escribe qué opinó.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan el informe que escuchamos la clase pasada? ¿De qué fábula trataba?\"\n2. Anuncia que hoy harán actividades de comprensión.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias de los ejercicios o pizarra\n• Cuadernos\n• Lápices",
+          "descripcion": "Actividad 1 - Vocabulario (20 min):\n1. El docente presenta el ejercicio de la página 88 (actividad 1): explicar el significado de palabras subrayadas sin usar diccionario.\n- \"solidaridad mutua\"\n- \"felino\"\n- \"parcero\"\n- \"remite al campo\"\n- \"en lo atinente\"\n- \"extirpa\"\n- \"aflora, altruismo\"\n- \"enternecimiento\"\n2. Los estudiantes trabajan individualmente y socializan.\n\nActividad 2 - Preparación del resumen (20 min):\n1. El docente presenta la consigna de la página 88 (actividad 2): \"Resume en un párrafo de no más de seis líneas el contenido central del informe leído.\"\n2. Explica los pasos de prescritura (pág. 88):\n- \"¿Cuáles son los aspectos más importantes?\"\n- \"¿Qué debo decir con mis propias palabras?\"\n- \"¿Qué información no debo incluir?\"\n- \"¿Cómo escribo para que mi familia lo entienda?\"\n3. Los estudiantes responden mentalmente estas preguntas.\n\nActividad 3 - Redacción del resumen (20 min):\n1. Los estudiantes escriben su resumen en el cuaderno (pág. 89).\n2. El docente circula y apoya.",
+          "actividad_numero": "Comprensión oral (Actividades 1-2, pág. 88-89)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente presenta las preguntas de revisión (pág. 89):\n- \"¿Escribí un resumen de seis líneas?\"\n- \"¿Presenté las ideas de manera breve?\"\n- \"¿Se me quedó alguna idea relevante?\"\n- \"¿Lo entendería mi público?\"\n- \"¿Están relacionadas las ideas?\"\n2. Los estudiantes revisan su resumen y hacen ajustes.\n3. El docente anuncia que en la próxima clase compartirán sus resúmenes.",
+          "actividad_numero": "Comprensión oral (Revisión, pág. 89)"
+        }
+      ]
+    },
+    {
+      "id": "1772120691111",
+      "sequence_id": "seq-1772114377382",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Análisis comparativo",
+      "intencion_pedagogica": "Comparar la fábula original \"El león y el pastor\" con el informe de lectura, identificando cómo se resumió la historia y qué estrategias se utilizaron.",
+      "estrategia": "• Trabajo en grupos: Análisis de la fábula original y el informe.\n• Lectura comparativa.\n• Identificación de estrategias de resumen.\n• Plenaria y socialización.",
+      "aprendizaje_significativo": "Los estudiantes comprenden cómo se construye un informe a partir de un texto original, una habilidad que usarán en todas las áreas académicas para presentar trabajos escolares.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una copia del informe con el resumen ya señalado.\n• Para estudiantes kinestésicos: Pueden representar con gestos las diferencias entre la fábula y el informe.\n• Para estudiantes con discapacidad visual: Se les proporcionan los textos en formato ampliado.\n• Para estudiantes avanzados: Se les pide que escriban una breve reflexión sobre por qué es útil saber resumir.",
+      "actividades_cuaderno": "Título: Cómo se hace un resumen\n1. Explica con tus palabras las cuatro estrategias para hacer un resumen: omisión, selección, generalización y construcción-integración.\n2. ¿Qué ideas de la fábula \"El león y el pastor\" se eliminaron en el resumen del informe? ¿Por qué crees que se eliminaron?\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan la fábula 'El león y el pastor'? ¿De qué trataba?\"\n2. Anuncia que hoy compararán la fábula original con el informe.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias de la fábula original \"El león y el pastor\" (pág. 91)\n• Copias del informe (pág. 87)\n• Cuadernos",
+          "descripcion": "1. El docente proyecta o entrega copias de la fábula original \"El león y el pastor\" (pág. 91).\n2. Los estudiantes leen en silencio.\n\nActividad 2 - Trabajo en grupos (30 min):\n1. El docente forma grupos de 3-4 estudiantes.\n2. Presenta las consignas (pág. 91-92):\n- \"Identifiquen en el informe el párrafo o los párrafos que contienen el resumen de la fábula.\"\n- \"Relean la fábula. Discutan cómo hizo el autor del informe el resumen: ¿qué ideas incluyó? ¿cuáles eliminó? ¿cuáles integró en una sola? ¿qué ideas incluyó que no están dichas explícitamente en la fábula?\"\n3. Los grupos discuten y anotan sus conclusiones.\n\nActividad 3 - Plenaria (15 min):\n1. Cada grupo comparte sus conclusiones.\n2. El docente enfatiza las estrategias de resumen:\n- Omisión: suprimir ideas que amplían o repiten.\n- Selección: discriminar entre lo importante y lo accesorio.\n- Generalización: formular una idea que recoja varias.\n- Construcción-integración: construir una nueva proposición que dé cuenta del contenido global.",
+          "actividad_numero": "Comprensión oral (Actividades finales, pág. 91-92)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente recoge las ideas principales de la plenaria.\n2. Refuerza que el resumen debe ser fiel al texto original, sin tergiversar ni incluir opiniones propias.\n3. Anuncia que en la próxima clase trabajarán con la comprensión escrita de otro informe de lectura.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772120808678",
+      "sequence_id": "seq-1772114377382",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión escrita - Prelectura",
+      "intencion_pedagogica": "Activar conocimientos previos sobre leyendas y realizar la lectura de la leyenda dominicana \"La reina de las Américas\" como preparación para el análisis del informe de lectura.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos sobre leyendas.\n• Formulación de hipótesis a partir del título.\n• Lectura en voz alta de la leyenda \"La reina de las Américas\".\n• Preguntas de comprensión.",
+      "aprendizaje_significativo": "Los estudiantes conectan el aprendizaje con leyendas urbanas que han escuchado en su comunidad, valorando así su cultura y tradición oral dominicana.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía con preguntas específicas para responder durante la lectura.\n• Para estudiantes kinestésicos: Pueden dibujar la escena que más les impactó de la leyenda.\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción de la leyenda.\n• Para estudiantes avanzados: Se les pide que investiguen otra leyenda dominicana para compartir.",
+      "actividades_cuaderno": "Título: La reina de las Américas\n1. ¿De qué trata la leyenda \"La reina de las Américas\"?\n2. ¿Quiénes son los personajes principales?\n3. ¿En qué lugar de República Dominicana ocurre la historia?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente copia en la pizarra el título de la leyenda: \"La reina de las Américas\" (pág. 92).\n2. Explora conocimientos previos:\n- \"El texto que vamos a leer es una leyenda. ¿Alguien sabe qué es una leyenda?\"\n- \"¿Qué pistas nos da el título sobre el contenido?\"\n- \"¿En qué ambiente físico y psicológico creen que se desarrolla?\"\n3. Anota todas las hipótesis en la pizarra.",
+          "actividad_numero": "Comprensión escrita (Prelectura, pág. 92)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias de la leyenda \"La reina de las Américas\" para cada estudiante (pág. 93)\n• Pizarra",
+          "descripcion": "1. El docente anuncia que leerá en voz alta la leyenda, mientras los estudiantes leen con la vista (pág. 92).\n2. Lee el texto \"La reina de las Américas\" (pág. 93).\n3. Al terminar, asegura la comprensión con preguntas (pág. 93-94):\n- \"¿De qué trata 'La reina de las Américas'?\"\n- \"¿En qué ambiente físico y psicológico se desarrolla?\"\n- \"¿Qué impresiones les provoca la historia?\"\n- \"¿Han escuchado alguna similar?\"\n4. Pregunta por palabras de vocabulario: \"exreina\", \"contraer nupcias\", \"autopista\", \"camposanto\", \"fatídica\". Ayuda a definir por contexto.",
+          "actividad_numero": "Comprensión escrita (Lectura, pág. 93-94)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis",
+          "descripcion": "1. El docente retoma las hipótesis anotadas en la pizarra.\n2. Pregunta: \"¿Cuáles hipótesis se confirmaron?\"\n3. Anuncia que en la próxima clase leerán el informe de lectura sobre esta leyenda.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772120883776",
+      "sequence_id": "seq-1772114377382",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Comprensión escrita - Durante la lectura",
+      "intencion_pedagogica": "Realizar la lectura compartida del informe de lectura sobre \"La reina de las Américas\", formulando y respondiendo preguntas para garantizar la comprensión.",
+      "estrategia": "• Lectura compartida: Estudiantes leen en voz alta por párrafos.\n• Preguntas intercaladas para guiar la comprensión.\n• Verificación de hipótesis.",
+      "aprendizaje_significativo": "Los estudiantes aplican estrategias de lectura compartida para comprender un texto más complejo, una habilidad que usarán en todas las áreas académicas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de lectura en voz alta: Se les permite leer un párrafo corto o se les asigna como lectura en silencio mientras otro lee.\n• Para estudiantes kinestésicos: Mientras leen, pueden señalar en el texto las partes que responden a las preguntas.\n• Para estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.\n• Para estudiantes avanzados: Se les pide que identifiquen las marcas textuales que indican el ambiente psicológico.",
+      "actividades_cuaderno": "Título: Informe de lectura sobre \"La reina de las Américas\"\n1. ¿Cuál es el propósito de este informe de lectura?\n2. ¿Qué se dice en el informe sobre el ambiente físico de la leyenda?\n3. ¿Qué se dice sobre el ambiente psicológico?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan la leyenda 'La reina de las Américas'? ¿De qué trataba?\"\n2. Anuncia que hoy leerán el informe de lectura sobre esta leyenda.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del informe de lectura sobre \"La reina de las Américas\" para cada estudiante (pág. 95)",
+          "descripcion": "1. El docente entrega una copia del informe de lectura a cada estudiante (pág. 95).\n2. Explica que la lectura será compartida: un estudiante diferente leerá cada párrafo en voz alta.\n3. Párrafo 1: Un estudiante lee. Pregunta: \"¿En qué se parece el concepto de leyenda que construyeron al que se presenta aquí?\" (pág. 94).\n4. Párrafo 2: Otro estudiante lee. Pregunta: \"¿Cuáles son los temas que comúnmente se abordan en una leyenda?\" (pág. 94).\n5. Párrafo 3: Otro estudiante lee. Pregunta: \"¿Cuál es la función de este párrafo?\" (Presentar el resumen de la obra) (pág. 94).\n6. Párrafo 4: Otro estudiante lee. Pregunta: \"¿Qué se hace en este párrafo? ¿Coincide con lo que pensaban sobre el ambiente físico?\" (pág. 94).\n7. Párrafo 5: Otro estudiante lee. Pregunta: \"¿Qué se expone aquí?\" (Ambiente psicológico) (pág. 94).\n8. Párrafo 6: Otro estudiante lee. (pág. 94).",
+          "actividad_numero": "Comprensión escrita (Durante la lectura, pág. 94-95)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis",
+          "descripcion": "1. El docente retoma las hipótesis sobre ambiente físico y psicológico anotadas en la clase anterior.\n2. Pregunta: \"¿Coincidían con lo que dice el informe?\"\n3. Anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772120948584",
+      "sequence_id": "seq-1772114377382",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Comprensión escrita - Post-lectura",
+      "intencion_pedagogica": "Profundizar en la comprensión del informe de lectura sobre \"La reina de las Américas\" mediante ejercicios de vocabulario, análisis del resumen y reflexión sobre la leyenda.",
+      "estrategia": "• Ejercicios de vocabulario: Sinónimos contextuales.\n• Preguntas de comprensión.\n• Análisis del resumen dentro del informe.\n• Trabajo en grupos.",
+      "aprendizaje_significativo": "Los estudiantes profundizan en la comprensión de un texto literario dominicano, conectando así el aprendizaje con su identidad cultural.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona el cuadro de la actividad 5 parcialmente completado.\n• Para estudiantes kinestésicos: Pueden recortar y pegar las partes del resumen junto a las partes de la leyenda.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que escriban un breve párrafo opinando sobre el final de la leyenda.",
+      "actividades_cuaderno": "Título: Analizando el informe de lectura\n1. ¿Cuál es la diferencia entre ambiente físico y ambiente psicológico?\n2. Escribe la definición de \"leyenda\" que construiste.\n3. ¿Qué estrategias de resumen identificaste en el informe?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan el informe que leímos la clase pasada? ¿Qué aspectos analizaba?\" (argumento, ambiente físico, ambiente psicológico).",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del informe y la leyenda\n• Cuadernos\n• Pizarra",
+          "descripcion": "1. El docente presenta la actividad 1 de la página 96: \"Construye por escrito una definición de leyenda, apoyándote en el texto.\"\n2. Los estudiantes escriben su definición.\n3. Actividad 2: \"¿Qué significa 'trama'?\"\n4. Actividad 3: \"¿Qué significa 'flamante'?\"\n5. Socializan las respuestas.\n\nActividad 2 - Diferencias entre ambientes (15 min):\n1. Actividad 4 (pág. 96): \"Establece las diferencias entre ambiente físico y psicológico.\"\n2. Los estudiantes escriben y socializan.\n\nActividad 3 - Análisis del resumen (25 min):\n1. El docente forma grupos y presenta la actividad 5 (pág. 96-97).\n2. Entrega el cuadro para completar: \"Cómo y dónde se plantea cada idea del resumen en la leyenda original.\"\n3. Los grupos discuten y completan.\n4. Socializan las respuestas.\n5. El docente enfatiza nuevamente las estrategias de resumen: omisión, selección, generalización, construcción.",
+          "actividad_numero": "Comprensión escrita (Actividades 1-5, pág. 96-98)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente guía una reflexión: \"¿Por qué es importante aprender a hacer resúmenes?\"\n2. \"¿En qué otras materias de la escuela les será útil esta habilidad?\"\n3. Anuncia que en la próxima clase comenzarán con la producción oral de un informe de lectura.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772121062063",
+      "sequence_id": "seq-1772114377382",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Producción oral - Preparación",
+      "intencion_pedagogica": "Seleccionar un cuento, fábula o leyenda para elaborar un informe de lectura oral, y comenzar el proceso de lectura comprensiva y resumen.",
+      "estrategia": "• Visita a la biblioteca (o selección de textos en el aula).\n• Trabajo individual: Selección de un cuento, fábula o leyenda.\n• Lectura comprensiva.\n• Elaboración de resumen.",
+      "aprendizaje_significativo": "Los estudiantes eligen libremente un texto de su interés para trabajar, conectando así la producción académica con sus gustos personales de lectura.",
+      "actividades_complementarias": "• Para estudiantes con dificultades para elegir texto: El docente sugiere opciones adecuadas a su nivel de lectura.\n• Para estudiantes kinestésicos: Pueden hacer un dibujo de la escena principal mientras leen.\n• Para estudiantes con discapacidad visual: Se les proporcionan textos en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen datos sobre el autor del texto elegido.",
+      "actividades_cuaderno": "Título: Preparando mi informe de lectura\n1. ¿Qué texto elegiste para tu informe? (Título y autor).\n2. Escribe el resumen del argumento que preparaste.\n3. ¿De qué crees que trata el ambiente físico y psicológico de tu texto? (Puedes anotar ideas).",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Organización para visita a biblioteca o selección de textos",
+          "descripcion": "1. El docente explica que prepararán un informe de lectura oral para presentar en un \"Congreso de Cuentos\" (pág. 99-100).\n2. Organiza una visita a la biblioteca del centro (si es posible) (pág. 99).\n3. Si no hay biblioteca, el docente lleva una selección de narraciones cortas (cuentos, fábulas, leyendas) al aula.",
+          "actividad_numero": "Producción oral (Párrafos 1-2, pág. 99)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Libros o fotocopias de los textos seleccionados\n• Cuadernos\n• Lápices",
+          "descripcion": "Actividad 1 - Selección y lectura (30 min):\n1. Los estudiantes eligen el texto que desean trabajar.\n2. El docente registra el título y autor de la obra que cada quien eligió (pág. 99).\n3. Los estudiantes comienzan a leer su texto en silencio.\n\nActividad 2 - Primera lectura comprensiva (30 min):\n1. Los estudiantes releen su texto con más conciencia (pág. 100).\n2. Aplican estrategias de comprensión:\n- Construir significado de palabras desconocidas por contexto.\n- Preguntarse: \"¿De qué se habla en este párrafo?\"\n- Construir el resumen del argumento en no más de ocho líneas.\n3. El docente circula y apoya.",
+          "actividad_numero": "Producción oral (Pasos 1-2, pág. 100)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes leen su resumen y lo revisan con las preguntas (pág. 100):\n- \"¿Coloqué la idea principal al principio?\"\n- \"¿Incluí las ideas de apoyo de manera integrada?\"\n- \"¿Lo entenderían mis compañeros?\"\n2. El docente recuerda que en la próxima clase deben traer su texto y el resumen.",
+          "actividad_numero": "Producción oral (Paso 2 - final, pág. 100)"
+        }
+      ]
+    },
+    {
+      "id": "1772121132428",
+      "sequence_id": "seq-1772114377382",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Producción oral - Planificación",
+      "intencion_pedagogica": "Completar el análisis del texto seleccionado (ambiente físico y psicológico) y planificar la estructura del informe de lectura oral.",
+      "estrategia": "• Análisis de texto: Identificación de ambiente físico y psicológico.\n• Uso de organizador gráfico: Planificación del informe.\n• Redacción de borrador.\n• Corrección docente.",
+      "aprendizaje_significativo": "Los estudiantes aplican lo aprendido sobre informes de lectura para analizar un texto de su elección, preparándose para compartir sus lecturas favoritas con sus compañeros.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de análisis: El docente se sienta con ellos y los guía para identificar los ambientes en su texto.\n• Para estudiantes kinestésicos: Mientras planifican, pueden hacer gestos que representen las emociones del ambiente psicológico.\n• Para estudiantes con discapacidad visual: Se les proporciona el organizador gráfico en formato ampliado.\n• Para estudiantes avanzados: Se les pide que añadan una valoración personal al final de su informe.",
+      "actividades_cuaderno": "Título: Planificación de mi informe de lectura\n1. Copia el organizador gráfico que completaste (Introducción, Desarrollo, Conclusión).\n2. ¿Cuál es el ambiente físico de tu texto?\n3. ¿Cuál es el ambiente psicológico?\n4. Recuerda ensayar tu presentación para el congreso.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Qué aspectos debe tener un informe de lectura?\" (argumento, ambiente físico, ambiente psicológico).\n2. Anuncia que hoy completarán el análisis de su texto.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "Conclusión\nDesarrollo",
+          "descripcion": "1. Los estudiantes retoman su texto y analizan (pág. 100-101):\n- \"¿Cuál es el ambiente físico de mi texto? ¿Qué pistas me da el autor?\"\n- \"¿Cuál es el ambiente psicológico? ¿Qué emociones o atmósfera se percibe?\"\n2. Escriben sus respuestas en el cuaderno, apoyándose en el texto.\n3. El docente circula y apoya.\n\nActividad 2 - Planificación del informe (20 min):\n1. El docente presenta el organizador gráfico para la planificación (pág. 100-101):",
+          "actividad_numero": "Introducción"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente presenta las preguntas de revisión (pág. 101):\n- \"¿He escrito un informe de lectura?\"\n- \"¿Tiene introducción, desarrollo y conclusión?\"\n- \"¿Incluye argumento, ambiente físico y psicológico?\"\n2. Los estudiantes revisan su borrador.\n3. El docente explica los pasos finales (pág. 101): ensayar la presentación oral, prepararse para el congreso que comenzará en la próxima clase.",
+          "actividad_numero": "Producción oral (Pasos 6-8, pág. 101)"
+        }
+      ]
+    },
+    {
+      "id": "1772121270664",
+      "sequence_id": "seq-1772114377382",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Congreso de cuentos - Día 1",
+      "intencion_pedagogica": "Iniciar el \"Congreso de Cuentos\" con las primeras exposiciones orales de informes de lectura, demostrando capacidad expresiva y análisis de ambientes.",
+      "estrategia": "• Exposiciones orales: Estudiantes presentan sus informes.\n• Escucha activa: Compañeros toman nota y responden preguntas.\n• Preguntas de comprensión oral.",
+      "aprendizaje_significativo": "Los estudiantes comparten sus lecturas favoritas con sus compañeros, convirtiendo el aula en una comunidad de lectores que recomiendan y discuten textos.",
+      "actividades_complementarias": "• Para estudiantes con ansiedad escénica: Se les permite tener tarjetas con palabras clave para consultar.\n• Para estudiantes kinestésicos: Pueden usar gestos y movimientos durante su exposición.\n• Para estudiantes con discapacidad auditiva: Se asegura que puedan ver los labios del expositor o se les proporciona un resumen escrito.\n• Para estudiantes avanzados: Pueden preparar una pregunta interesante para hacer al expositor.",
+      "actividades_cuaderno": "Título: Congreso de cuentos - Día 1\n1. ¿Qué informe de lectura te gustó más hoy? ¿Por qué?\n2. ¿Qué texto (cuento, fábula o leyenda) te gustaría leer a partir de lo que escuchaste?\n3. Escribe un dato nuevo que hayas aprendido sobre algún texto.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio organizado\n• Lista de expositores",
+          "descripcion": "1. El docente organiza el espacio para las exposiciones.\n2. Recuerda las pautas: máximo 8-10 minutos por exposición, mirar al público, no leer, hablar con claridad (pág. 100).\n3. Recuerda al público que debe escuchar atentamente, pues se harán preguntas al final de cada exposición (pág. 101).\n4. Presenta brevemente al primer expositor.",
+          "actividad_numero": "Producción oral (Organización)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes\n• Cuaderno de notas del docente",
+          "descripcion": "1. El docente invita a los primeros 5-6 estudiantes a pasar al frente (aproximadamente 8-10 minutos cada uno, más preguntas).\n2. Cada estudiante presenta su informe de lectura:\n- Presenta el título y autor del texto.\n- Expone el argumento (resumen).\n- Describe el ambiente físico.\n- Describe el ambiente psicológico.\n3. Al final de cada exposición, el docente formula preguntas al público (pág. 101):\n- \"¿De qué trata el cuento que escucharon?\"\n- \"¿Qué fue lo que más les gustó?\"\n- \"¿Se animarían a leerlo? ¿Por qué?\"\n4. El docente toma nota de los aspectos a destacar y áreas de mejora.",
+          "actividad_numero": "Producción oral (Exposiciones, pág. 101)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente ofrece retroalimentación general sobre las exposiciones del día: aspectos positivos (claridad, organización, uso del lenguaje) y aspectos a mejorar.\n2. Anuncia que en la próxima clase continuarán con las exposiciones restantes.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772121383370",
+      "sequence_id": "seq-1772114377382",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Congreso de cuentos - Día 2 y cierre",
+      "intencion_pedagogica": "Completar las exposiciones orales del \"Congreso de Cuentos\" y realizar una reflexión final sobre el proceso de producción de informes de lectura.",
+      "estrategia": "• Exposiciones orales: Continuación de presentaciones.\n• Preguntas de comprensión.\n• Reflexión final.\n• Evaluación formativa.",
+      "aprendizaje_significativo": "Los estudiantes completan el ciclo de exposiciones y reflexionan sobre cómo los informes de lectura pueden despertar el interés por otros textos, fomentando así una comunidad lectora.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de expresión oral: Se les permitió apoyarse en sus notas durante la exposición.\n• Para estudiantes kinestésicos: Se valoró su expresividad gestual durante las presentaciones.\n• Para estudiantes con discapacidad visual: Se les permitió tener su texto en formato ampliado para consulta.\n• Para estudiantes avanzados: Se reconoció su capacidad para incluir análisis más profundos o datos adicionales.",
+      "actividades_cuaderno": "Título: Reflexión sobre mi aprendizaje\n1. ¿Cómo te sentiste durante tu exposición en el congreso?\n2. ¿Qué fue lo más importante que aprendiste en esta secuencia sobre los informes de lectura?\n3. ¿Qué texto de los que presentaron tus compañeros te gustaría leer? ¿Por qué?\n4. Escribe un párrafo evaluando tu propio desempeño (qué hiciste bien y qué podrías mejorar).",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio organizado",
+          "descripcion": "1. El docente organiza el espacio para las exposiciones restantes.\n2. Recuerda las pautas y anuncia que hoy se completarán todas las exposiciones.",
+          "actividad_numero": "Producción oral (Organización)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes restantes (5-6) pasan al frente a presentar sus informes.\n2. Cada exposición dura aproximadamente 8-10 minutos, más preguntas.\n3. Al final de cada exposición, el docente formula preguntas al público para verificar comprensión y fomentar el interés por la lectura.\n4. El docente completa sus notas de evaluación formativa.",
+          "actividad_numero": "Producción oral (Exposiciones, pág. 101)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente felicita a todos los estudiantes por su participación en el congreso.\n2. Guía una reflexión final:\n- \"¿Qué aprendieron sobre cómo hacer un informe de lectura?\"\n- \"¿Qué fue lo más difícil de preparar su exposición?\"\n- \"¿Cuántos de ustedes se interesaron por leer algún texto que presentó un compañero?\"\n3. El docente anuncia que los informes escritos pueden ser publicados en el mural del aula o compilados en un libro de la clase.\n4. Cierra la secuencia recordando la importancia de compartir lecturas para enriquecer nuestra experiencia como lectores.",
+          "actividad_numero": "Producción oral (Cierre de la secuencia)"
+        }
+      ]
+    }
+  ]
+}

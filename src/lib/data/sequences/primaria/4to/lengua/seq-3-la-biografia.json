@@ -1,0 +1,243 @@
+{
+  "id": "seq-1771194917141",
+  "title": "La biografía",
+  "description": "Promueve la lectura y escritura de biografías, organizando información cronológicamente sobre la vida y aportes de personajes relevantes.",
+  "order": 3,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771200119496",
+      "sequence_id": "seq-1771194917141",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Pre-escucha y exploración)",
+      "intencion_pedagogica": "Explorar conocimientos previos sobre la biografía a través de la investigación familiar y preparar la escucha de la biografía de Marcos Díaz mediante actividades de pre-escucha y ambientación.\n\n",
+      "estrategia": "Investigación previa: Los estudiantes investigan sobre un familiar.\n\nSocialización oral: Comparten sus hallazgos con los compañeros.\n\nDiálogo dirigido: Para explorar conocimientos previos sobre personas destacadas.\n\nAmbientación del aula: Uso de accesorios y fotos para generar expectativa.",
+      "aprendizaje_significativo": "Se parte de la historia de vida de un familiar del estudiante para conectar con el concepto de biografía, mostrando que todos tenemos una historia digna de ser contada.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite mostrar una foto de su familiar y señalar aspectos en lugar de explicarlos extensamente.\n\nPara estudiantes kinestésicos: Se les invita a tocar y explorar los accesorios de natación durante la ambientación.\n\nPara estudiantes con discapacidad visual: Se describen detalladamente los accesorios y se les permite manipularlos.\n\nPara estudiantes tímidos: Se les da la opción de que un compañero les ayude a compartir la información de su familiar.",
+      "actividades_cuaderno": "Anotar el título de la biografía que escucharán (\"Marcos Díaz: Un dominicano de grandes méritos\") y escribir 2 predicciones sobre lo que creen que dirá el texto.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos con la investigación\n• Pizarra",
+          "descripcion": "1. El docente inicia la sesión pidiendo a los estudiantes que compartan oralmente los resultados de la investigación que realizaron sobre un familiar (asignada en la clase anterior).\n2. Formula preguntas guía (pág. 44):\n- \"¿Para qué son útiles los datos obtenidos en la investigación de la vida de una persona?\" (pregunta 1)\n- \"¿Cuál fue la información que más te impresionó sobre su pariente?\" (pregunta 2)\n- \"¿Cuál fue la información que más te llamó la atención?\" (pregunta 3)\n- \"¿Cuáles son las personas que más admiras? ¿Por qué?\" (pregunta 4)\n- \"¿Han oído sobre la historia de vida de personas destacadas en el país y en otros países?\" (pregunta 5)",
+          "actividad_numero": "Comprensión oral (Párrafo 1 y preguntas 1-5, pág. 44)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Accesorios de natación (gorro, gafas)\n• Foto de un nadador\n• Pizarra",
+          "descripcion": "1. El docente ha ambientado un espacio del aula con accesorios de natación (gorro, gafas, etc.) y la foto de un nadador.\n2. Invita a los estudiantes a observar los accesorios y formula preguntas (pág. 45):\n- \"¿Algunos de ustedes ha visto o conoce estos accesorios?\"\n- \"¿En cuál deporte son necesarios estos accesorios?\"\n- \"¿Podrían decir algunos nombres de nadadores famosos?\"\n- \"¿Les gustaría conocer la vida de algún nadador?\"\n- \"¿Cómo se llama el texto donde se narra la vida de una persona?\"\n3. El docente escribe el título en la pizarra: \"Marcos Díaz: Un dominicano de grandes méritos\" y pide a los estudiantes que hipoteticen sobre su contenido.",
+          "actividad_numero": "Comprensión oral (Párrafos 1-3, pág. 45)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente explica que un \"invitado especial\" llegará al aula (un niño representando a Marcos Díaz).\n2. Se generan preguntas de suspenso: \"¿Quién será…? ¿Cuál de todos esos personajes habrá venido a visitarnos?\"\n3. Se recuerdan las estrategias de escucha atenta y toma de apuntes.",
+          "actividad_numero": "Comprensión oral (Párrafo 4, pág. 45)"
+        }
+      ]
+    },
+    {
+      "id": "1771200201825",
+      "sequence_id": "seq-1771194917141",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Oral (Escucha y Post-escucha)",
+      "intencion_pedagogica": "Escuchar y comprender la biografía de Marcos Díaz, identificando su estructura (inicio, desarrollo, cierre), datos y acciones, y reconociendo las diferencias entre biografía y autobiografía.\n\n",
+      "estrategia": "Lectura en voz alta (modelado): El docente lee la biografía con la entonación adecuada.\n\nToma de apuntes: Los estudiantes registran información clave durante la escucha.\n\nDiálogo y preguntas guía: Para verificar la comprensión.\n\nTrabajo individual y grupal: Para resolver actividades de post-escucha.",
+      "aprendizaje_significativo": "Se trabaja con la biografía de un dominicano destacado (Marcos Díaz), lo que permite a los estudiantes conocer modelos de perseverancia y éxito en su propio país.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades auditivas: Se les proporciona una copia escrita de la biografía para que sigan visualmente mientras el docente lee.\n\nPara estudiantes con dificultades de atención: Se les asigna la tarea específica de contar cuántas veces aparece la palabra \"Marcos\" o \"nadó\".\n\nPara estudiantes que necesitan apoyo en vocabulario: Se les permite usar el diccionario durante la Actividad B.\n\nPara estudiantes avanzados: Se les pide que escriban un breve párrafo comparando la vida de Marcos Díaz con la de su familiar investigado.",
+      "actividades_cuaderno": "Copiar la definición de biografía y autobiografía. Escribir 2 ejemplos de verbos en pasado y 2 en presente de la biografía de Marcos Díaz.\n\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Texto de la biografía (pág. 46)\n• Cuadernos para apuntes",
+          "descripcion": "1. El docente presenta al \"invitado especial\" (un niño caracterizado como Marcos Díaz).\n2. Lee en voz alta el texto \"Marcos Díaz: Un dominicano de grandes méritos\" (pág. 46) con la entonación adecuada.\n3. Los estudiantes toman apuntes de las informaciones principales.",
+          "actividad_numero": "Comprensión oral (Párrafo \"Escucha\", pág. 45)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "A, B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Copia de las actividades",
+          "descripcion": "1. Se verifican las hipótesis formuladas en la clase anterior.\n2. El docente dialoga sobre el tipo de texto y pregunta: \"¿Cómo inicia? ¿Qué información se presenta? ¿Cómo termina?\" (pág. 47).\n3. Se muestran otros textos (carta, autobiografía) para comparar y se introduce el concepto de biografía (tercera persona) vs. autobiografía (primera persona).\n4. Actividad A (pág. 47): Explican la información de cada parte del texto (inicio, desarrollo, conclusión).\n5. Actividad de la pág. 48 (punto 2): Identifican colocando una d (dato) o una a (acción) en enunciados sobre Marcos Díaz.\n6. Actividad B (pág. 48): Explican el significado de palabras destacadas (perseverancia, méritos, hazañas, desafíos, travesía) marcando la opción correcta.",
+          "actividad_numero": "Comprensión oral (Párrafos 1-3, pág. 47) (pág. 47) Actividad punto 2 (pág. 48) (pág. 48)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "c",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra",
+          "descripcion": "1. Actividad C (pág. 48-49): Responden preguntas:\n- \"Explica las razones por las que Marcos Díaz se convirtió en un gran nadador.\" (punto 1)\n- \"¿Cuáles aspectos de la vida de Marcos Díaz te parecen dignos de imitar?\" (punto 4)\n- \"¿Crees que es posible que una persona con discapacidad pueda vivir plenamente?\" (punto 5)\n2. Identifican verbos en pasado y presente en el texto (punto 6, pág. 49).\n3. Actividad de adjetivos (pág. 49): Identifican palabras que usa el autor para describir (único, respiratoria).",
+          "actividad_numero": "Comprensión oral (puntos 1,4,5,6, pág. 48-49) Actividad de adjetivos (pág. 49)"
+        }
+      ]
+    },
+    {
+      "id": "1771200329020",
+      "sequence_id": "seq-1771194917141",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": " Producción Oral (Preparación)",
+      "intencion_pedagogica": "Seleccionar un personaje destacado para producir una biografía oral, investigar en fuentes confiables y planificar la estructura del texto.\n\n",
+      "estrategia": "Trabajo en grupos colaborativos: Para compartir ideas y planificar.\n\nInvestigación guiada: Los estudiantes buscan información sobre un personaje destacado.\n\nUso de organizadores gráficos: Para estructurar la información.\n\nAcompañamiento docente: El docente guía la selección de personajes y fuentes.",
+      "aprendizaje_significativo": "Los estudiantes eligen un personaje que admiran (deporte, música, historia, etc.) para investigar su vida, conectando sus intereses personales con el aprendizaje académico.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectura: Se les proporcionan fuentes con textos más breves y adaptados.\n\nPara estudiantes que no tienen acceso a internet en casa: Se les proporciona material impreso en el aula.\n\nPara estudiantes con dificultades de organización: Se les entrega un esquema o plantilla con espacios para completar (nombre, fecha, infancia, etc.).\n\nPara estudiantes avanzados: Se les pide que investiguen en al menos 3 fuentes diferentes y comparen la información.",
+      "actividades_cuaderno": "Completar el borrador de la biografía del personaje elegido siguiendo el esquema de la Actividad 4.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imágenes de personajes destacados (pág. 50)\n• Pizarra",
+          "descripcion": "1. El docente presenta las imágenes de personajes destacados (pág. 50): Malala, Madre Teresa, Lionel Messi, Juan Luis Guerra, Marie Curie, Juan Pablo Duarte, etc.\n2. Pregunta: \"¿Reconocen a las personas que aparecen en las fotos? ¿Hay otras personas a las que admiran?\" (pág. 51).\n3. Los estudiantes eligen libremente el personaje sobre el cual producirán su biografía oral.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 51)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fuentes de información (libros, revistas, acceso a internet)\n• Cuadernos",
+          "descripcion": "1. Actividades de producción oral (pág. 51-52):\n- Actividad 1: Conversan en grupo sobre las informaciones que debe contener la biografía.\n- Actividad 2: Investigan en diferentes fuentes (libros, internet, revistas) los datos del personaje: fecha y lugar de nacimiento, infancia, estudios, hechos importantes, éxitos, labor social, muerte o situación actual.\n- Actividad 3: Escriben un borrador de la biografía usando la información investigada.\n2. El docente acompaña y orienta la búsqueda de información.",
+          "actividad_numero": "Producción oral Actividades 1, 2 y 3 (págs. 51-52)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Borradores de los estudiantes",
+          "descripcion": "1. Actividad 4 (pág. 52): Los estudiantes revisan su borrador respondiendo las preguntas:\n- \"¿Tiene la biografía un inicio, desarrollo y conclusión?\" (a)\n- \"¿Organicé las acciones de forma cronológica?\" (b)\n- \"¿Describí los rasgos físicos y morales del personaje?\" (c)\n2. Realizan los cambios necesarios y se les indica que practicarán en casa.",
+          "actividad_numero": "Producción oral Actividad 4 (pág. 52)"
+        }
+      ]
+    },
+    {
+      "id": "1771200424895",
+      "sequence_id": "seq-1771194917141",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión Escrita (Pre-lectura y Durante la lectura)",
+      "intencion_pedagogica": "Realizar la pre-lectura y la lectura compartida de la biografía de Idelisa Bonnelly de Calventi, formulando hipótesis y verificándolas durante la lectura.\n\n",
+      "estrategia": "Uso de imágenes y preguntas generadoras: Para activar conocimientos previos.\n\nLectura compartida: Docente y alumnos leen en voz alta, alternándose.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión.\n\nTrabajo individual con el texto: Los estudiantes vuelven al texto para justificar sus respuestas.",
+      "aprendizaje_significativo": "Se trabaja con la biografía de Idelisa Bonnelly de Calventi, una científica dominicana dedicada a la conservación marina, mostrando a los estudiantes modelos locales de excelencia y compromiso social.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades visuales: Se utilizan imágenes grandes y textos en formato ampliado.\n\nPara estudiantes con dificultades de atención: Se les asigna la tarea de ser \"detectives\" y buscar palabras clave en cada párrafo.\n\nPara estudiantes kinestésicos: Se les permite pasar al frente a señalar en el papelógrafo la parte del texto que se está leyendo.\n\nPara estudiantes con dificultades lectoras: Se les asigna la lectura de párrafos más cortos.",
+      "actividades_cuaderno": "Anotar 3 datos nuevos que aprendieron sobre Idelisa Bonnelly en la lectura de hoy.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Imágenes alusivas a Idelisa Bonnelly\n• Cuadernos",
+          "descripcion": "1. El docente escribe el título en la pizarra: \"Idelisa Bonnelly de Calventi: madre de la conservación marina en el Caribe\".\n2. Coloca imágenes alusivas a la vida de Idelisa (vida marina, investigaciones).\n3. Formula preguntas de exploración (pág. 53):\n- \"¿En cuál ambiente desarrolló la protagonista su labor profesional?\"\n- \"¿Habrá realizado algunas investigaciones?\"\n- \"¿Cuáles reconocimientos habrá recibido?\"\n- \"¿Se casó doña Idelisa? ¿Cómo te diste cuenta?\"\n4. Los estudiantes anotan sus predicciones en el cuaderno.",
+          "actividad_numero": "Comprensión escrita (Párrafos a-e, pág. 53)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copia de la biografía (págs. 55-56)\n• Pizarra",
+          "descripcion": "1. Se entrega una copia del texto \"Idelisa Bonnelly de Calventi: madre de la conservación marina en el Caribe\" (págs. 55-56) .\n2. Se realiza la lectura compartida (pág. 54):\n- Un niño lee el párrafo 1. El docente pregunta: \"¿Cuáles informaciones aparecen?\"\n- Otro niño lee el párrafo 2. Pregunta: \"¿Por qué Idelisa tuvo que ir a estudiar a los Estados Unidos?\"\n- Se continúa con los párrafos 3-8, realizando las preguntas guía de la página 54 (significado de \"pionera\", recursos marinos, reconocimientos, etc.).",
+          "actividad_numero": "Comprensión escrita (Párrafos 1-8, pág. 54)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se retoman las predicciones anotadas al inicio.\n2. Se identifican cuáles se cumplieron y cuáles no.\n3. El docente anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Párrafo final, pág. 54)"
+        }
+      ]
+    },
+    {
+      "id": "1771200499020",
+      "sequence_id": "seq-1771194917141",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Comprensión Escrita (Post-lectura) y Gramática Textual",
+      "intencion_pedagogica": "Consolidar la comprensión de la biografía de Idelisa Bonnelly a través de actividades de post-lectura y analizar las características, estructura y recursos lingüísticos de la biografía.\n\n",
+      "estrategia": "Trabajo individual con el texto: Para resolver actividades de comprensión.\n\nSocialización de respuestas: Para compartir y corregir estrategias.\n\nTrabajo en grupos cooperativos: Para resolver actividades de análisis gramatical.\n\nClase expositiva dialogada: Para presentar las características y estructura de la biografía.",
+      "aprendizaje_significativo": "La biografía se analiza como un género que organiza la vida de una persona en orden cronológico, destacando sus logros y aportes, lo que permite a los estudiantes valorar el esfuerzo y la dedicación.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les permite trabajar la Actividad A en pareja.\n\nPara estudiantes que necesitan apoyo en vocabulario: Se les permite usar el diccionario para la Actividad B.\n\nPara estudiantes visuales: Se utiliza un organizador gráfico en la pizarra para mostrar la estructura de la biografía.\n\nPara estudiantes avanzados: Se les pide que escriban un breve párrafo comparando la biografía de Marcos Díaz con la de Idelisa Bonnelly.",
+      "actividades_cuaderno": "Copiar el esquema de la estructura de la biografía (inicio, desarrollo, conclusión) y las características principales.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copia de la biografía (págs. 55-56)",
+          "descripcion": "1. Se recuerda brevemente la vida y obra de Idelisa Bonnelly.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "A, B, C, D",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades\n• Cuadernos\n• Pizarra",
+          "descripcion": "Post-lectura - Actividades de comprensión:\n1. Actividad A (págs. 57-58): Responden preguntas de opción múltiple (1-8) sobre el tipo de texto, propósito, vocabulario, etc.\n2. Actividad B (pág. 58): Sustituyen palabras destacadas por sinónimos (retirada, enigmático, trayectoria, etc.).\n3. Actividad C (pág. 59): Completan una línea de tiempo con los acontecimientos de la vida de Idelisa.\n4. Actividad D (págs. 59-60): Responden preguntas inferenciales (vínculo con Marcos Díaz, razones para estudiar Biología Marina, sentimientos que despierta, valoración del autor).\n\nGramática textual - La biografía:\n1. El docente presenta las características y estructura de la biografía (págs. 61-62): inicio, desarrollo, conclusión; uso de tercera persona, adjetivos, verbos en pasado, conectores.\n2. Actividad (pág. 62): En el último párrafo del texto, encierran los adjetivos y subrayan los verbos.",
+          "actividad_numero": "Comprensión escrita (págs. 57-58) (pág. 58) (pág. 59) (págs. 59-60) Gramática textual (Págs. 61-62) Actividad (pág. 62)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas de las actividades.\n2. El docente refuerza los conceptos clave sobre la biografía.",
+          "actividad_numero": "Gramática textual (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771200669462",
+      "sequence_id": "seq-1771194917141",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción Escrita",
+      "intencion_pedagogica": "Guiar a los estudiantes en el proceso de producción escrita de una biografía, aplicando todo lo aprendido, a través de las fases de preescritura, textualización y revisión.\n\n",
+      "estrategia": "Taller de escritura: Acompañamiento paso a paso en el proceso de producción.\n\nUso de organizadores gráficos: Para estructurar la información.\n\nRevisión en pares: Coevaluación de borradores.\n\nAndamiaje docente: El docente guía a través de preguntas y entrevistas individuales.\n\nUso de instrumentos de evaluación: Lista de cotejo para la autoevaluación.",
+      "aprendizaje_significativo": "La producción de la biografía se enmarca en un proyecto real: la creación de un \"Libro de grandes personalidades del mundo\" que será compartido con la comunidad educativa, dando autenticidad y propósito a la tarea.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite escribir en computadora o dictarle al docente.\n\nPara estudiantes con dificultades para organizar ideas: Se les proporciona el organizador gráfico ya parcialmente completado con ejemplos.\n\nPara estudiantes que necesitan apoyo en la estructura: Se les entrega una plantilla con frases de inicio para cada parte (ej: \"Nació en...\", \"Uno de sus logros más importantes fue...\").\n\nPara estudiantes avanzados: Se les pide que investiguen e incluyan una anécdota interesante o poco conocida del personaje.\n\nPara estudiantes con discapacidad motriz: Se adaptan los materiales (hojas con renglones más separados, uso de computadora).",
+      "actividades_cuaderno": "Pasar en limpio la versión final de la biografía, asegurándose de cumplir con todos los criterios de la lista de cotejo. Incluir un dibujo o foto del personaje.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Consigna en la pizarra\n• Organizador gráfico fotocopiado\n• Cuadernos",
+          "descripcion": "1. El docente presenta la consigna de producción (pág. 64): Proyecto \"Libro de grandes personalidades del mundo\".\n2. Recuerda la estructura de la biografía: introducción, desarrollo, conclusión.\n3. Los estudiantes retoman la investigación de su personaje (de la Clase 3).\n4. Completán el organizador gráfico (pág. 64) con la información de su personaje.",
+          "actividad_numero": "Producción escrita (Párrafos 1-3, pág. 63-64) Organizador gráfico (pág. 64)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Borradores de los estudiantes\n• Criterios de evaluación fotocopiados",
+          "descripcion": "1. Textualización: Los estudiantes escriben el primer borrador de su biografía usando el organizador gráfico.\n2. Revisión en pares (pág. 64): Se organizan en parejas. Se revisan mutuamente el borrador, verificando si faltan datos, si hay ideas que no se entienden, o si sobran informaciones.\n3. Revisión con instrumento: El docente entrega los Criterios de evaluación de la biografía (pág. 65) . Los estudiantes autoevalúan su borrador respondiendo Sí/No a cada criterio.",
+          "actividad_numero": "Producción escrita (Párrafo 4, pág. 64) Criterios de evaluación (pág. 65)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Borradores corregidos",
+          "descripcion": "1. Los estudiantes, tomando en cuenta la revisión de su compañero y la autoevaluación, corrigen su borrador.\n2. El docente anuncia que en la próxima clase pasarán en limpio la versión final para incluirla en el \"Libro de grandes personalidades\".\n3. Se recuerda que pueden agregar imágenes o fotografías del personaje (criterio 11, pág. 65).",
+          "actividad_numero": "Producción escrita (Párrafo final, pág. 65)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+    "sequenceId": "seq-mat-6-1ro",
+    "subjectId": "matematica-1ro",
+    "sequenceTitle": "¡Cosas Sabrosas!",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1: Contamos y agrupamos alimentos",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "comparen longitudes.",
+                    "resources": "papelógrafo de aprendizajes; por lo menos, 30 cm de hilo, cordón o lana por estudiante. Actividad 1 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes.",
+                            "description": "El docente lee el papelógrafo y explica los propósitos de trabajo con el grupo."
+                        },
+                        {
+                            "title": "Momento 2. Comparar longitudes.",
+                            "description": "Conversación sobre 'cosas ricas'. Uso de hilos para determinar qué cinta es más larga o corta en el fascículo."
+                        }
+                    ],
+                    "homework": "Dibujar una cinta más larga que la verde y verificar con un hilo."
+                },
+                {
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "midan longitudes usando unidades arbitrarias.",
+                    "resources": "un trozo de hilo, cordón o lana de 4 cm y otro de 15 cm por cada estudiante. Actividad 2 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Compartir respuestas y cómo se aseguraron una longitud mayor."
+                        },
+                        {
+                            "title": "Momento 2. Medir longitudes.",
+                            "description": "Determinar cuántas veces cabe un trozo de hilo de 4 cm en las cintas de la imagen."
+                        },
+                        {
+                            "title": "Momento 3. Medir con los dedos.",
+                            "description": "Usar el ancho del pulgar para medir un hilo de 15 cm. Discutir por qué los resultados varían."
+                        },
+                        {
+                            "title": "Momento 4. Cortar a medida.",
+                            "description": "Cortar un hilo de seis anchos de pulgar y comparar."
+                        }
+                    ],
+                    "homework": "Dibujar dos cintas: una de menos de 3 anchos de pulgar y otra de más de 7."
+                },
+                {
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "analicen algunos patrones en los números del cuadro de números.",
+                    "resources": "cuadro personal de números. Cuadro numérico del salón. Actividad 3 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Conversar sobre cómo dibujaron las cintas usando dedos."
+                        },
+                        {
+                            "title": "Momento 2. Identificar anteriores y siguientes.",
+                            "description": "Situación de Eddy y el boleto perdido terminado en 3. Escribir anteriores y siguientes de números terminados en 3."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización.",
+                            "description": "Concluir que -1 halla el anterior y +1 el siguiente."
+                        }
+                    ],
+                    "homework": "Escribir el anterior y el siguiente de: 56, 91, 17, 82, 45."
+                },
+                {
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "analicen qué sucede con los siguientes de los números terminados en 9.",
+                    "resources": "cuadro numérico personal. Cuadro de números del salón. Actividad 4 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Revisión colectiva de anteriores y siguientes."
+                        },
+                        {
+                            "title": "Momento 2. Siguientes de los números terminados en 9.",
+                            "description": "Adivinanza de Eddy: premios para números siguientes a los terminados en 9. Analizar cómo cambian ambos dígitos."
+                        }
+                    ],
+                    "homework": "Escribir el anterior y el siguiente de: 49, 19, 89, 69, 29."
+                },
+                {
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "analicen qué sucede con los anteriores de los números terminados en 0.",
+                    "resources": "cuadro personal de números. Cuadro numérico del salón. Actividad 5 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Revisión de la regla: al sumar 1 a un terminado en 9, el de adelante aumenta y el de atrás es 0."
+                        },
+                        {
+                            "title": "Momento 2. Anteriores de los números terminados en 0.",
+                            "description": "Nuevo cartel de Eddy: premio para anteriores a números terminados en 0 (hasta 90). Identificar la relación con los terminados en 9."
+                        },
+                        {
+                            "title": "Momento 3: Sistematización.",
+                            "description": "Registro: 39 es anterior a 40, 40 es siguiente de 39."
+                        }
+                    ],
+                    "homework": "Encontrar errores en series de tres números (ej: 19 - 21 - 22)."
+                },
+                {
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "cuenten elementos sueltos y en grupos relacionando esas cantidades con las cifras de un número.",
+                    "resources": "actividad 6 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Marcar errores en las series y explicar por qué."
+                        },
+                        {
+                            "title": "Momento 2. Agrupar de a 10 para contar.",
+                            "description": "Contar cacaítos en cajas de 10 y sueltos. Relacionar con decenas y unidades."
+                        },
+                        {
+                            "title": "Momento 3. Contar de 10 en 10 y de 1 en 1.",
+                            "description": "Practicar con valores del 10 al 40."
+                        }
+                    ],
+                    "homework": "Contar cacaítos en una nueva imagen y registrar el total."
+                },
+                {
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "cuenten elementos organizados en grupos y otros sueltos, y anoten con cálculos el total.",
+                    "resources": "papelógrafo con primer cuadro de la actividad 7 del fascículo. Cuadro personal de números.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Socializar resultados y procedimientos del conteo anterior."
+                        },
+                        {
+                            "title": "Momento 2. Serie de 10 en 10 y descomposición.",
+                            "description": "Análisis de la estrategia del primo Juan: 10, 20, 30... + sueltos. Relación 50+3=53."
+                        },
+                        {
+                            "title": "Momento 3. Del conteo a la descomposición.",
+                            "description": "Completar filas del cuadro usando sumas (ej: 30 + 4 = 34)."
+                        },
+                        {
+                            "title": "Momento 4. De la descomposición al conteo.",
+                            "description": "Dibujar cajas y sueltos a partir de una suma dada."
+                        },
+                        {
+                            "title": "Momento 5. Completar el libro de sumas y restas.",
+                            "description": "Registrar las sumas en el libro de la secuencia anterior."
+                        }
+                    ],
+                    "homework": "Completar cuadro y dibujos para una nueva cantidad (40+2)."
+                },
+                {
+                    "title": "ACTIVIDAD 8",
+                    "pedagogicalIntention": "escriban y lean números de dos dígitos.",
+                    "resources": "cuadro numérico personal. Actividad 8 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Enfatizar que 40+9 es cuarenta y nueve."
+                        },
+                        {
+                            "title": "Momento 2. Escribir números de dos dígitos.",
+                            "description": "Dictado de números (47, 75, 93, 89, 68) simbolizando paquetes de galletas."
+                        },
+                        {
+                            "title": "Momento 3. Comparar escrituras numéricas.",
+                            "description": "Revisión en parejas y colectiva usando el cuadro de números."
+                        }
+                    ],
+                    "homework": "Leer y escribir: Cuarenta y nueve, Sesenta y siete. Escribir nombres de: 54, 83."
+                },
+                {
+                    "title": "ACTIVIDAD 9: RECAPITULACIÓN",
+                    "pedagogicalIntention": "repasen algunos contenidos trabajados.",
+                    "resources": "papelógrafo de aprendizajes. Actividad 9 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar.",
+                            "description": "Lectura y corrección de nombres de números."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Revisión de actividades 1-8 y registro de fechas."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido.",
+                            "description": "Completar tabla de anteriores/siguientes y total de galletas en bandejas."
+                        }
+                    ],
+                    "homework": ""
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2: Resolvemos problemas con alimentos",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "resuelvan distintos problemas a partir de interpretar una imagen.",
+                    "resources": "actividad 10 del fascículo. Cuadro de números del salón.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Interpretar imagen.",
+                            "description": "Análisis de mesa de evento: galletas, alfajores, bombones, vasos. Resolver problemas de suma y resta."
+                        },
+                        {
+                            "title": "Momento 2. Completar libro.",
+                            "description": "Registrar cálculos en el libro de sumas y restas."
+                        }
+                    ],
+                    "homework": "Problema: total de galletas en bandeja y lata."
+                },
+                {
+                    "title": "ACTIVIDAD 11",
+                    "pedagogicalIntention": "descompongan aditivamente números de muchas formas.",
+                    "resources": "actividad 11 del fascículo. Papelógrafo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Relación entre suma de dígitos y conteo real."
+                        },
+                        {
+                            "title": "Momento 2. Descomponer 10.",
+                            "description": "Identificar formas de sumar 10 galletas (vainilla/chocolate)."
+                        },
+                        {
+                            "title": "Momento 3. Descomponer otros números.",
+                            "description": "Hallar sumas que den 25 y 32 galletas en total."
+                        },
+                        {
+                            "title": "Momento 4. Completar libro.",
+                            "description": "Registrar descomposiciones."
+                        }
+                    ],
+                    "homework": "Completar maneras de juntar 17 galletas."
+                },
+                {
+                    "title": "ACTIVIDAD 12",
+                    "pedagogicalIntention": "resuelvan problemas de reunir y agregar con distintas estrategias.",
+                    "resources": "actividad 12 del fascículo. Cuadro personal.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Socializar descomposiciones de 17."
+                        },
+                        {
+                            "title": "Momento 2. Problemas de suma.",
+                            "description": "Resolver 38+23 y 29+15 usando descomposición y cuadro numérico."
+                        },
+                        {
+                            "title": "Momento 3. Completar libro.",
+                            "description": "Registrar sumas de galletas."
+                        }
+                    ],
+                    "homework": "Problema: 26 vainilla + 17 chocolate. ¿Total?"
+                },
+                {
+                    "title": "ACTIVIDAD 13",
+                    "pedagogicalIntention": "resuelvan problemas de averiguar una parte de un total y de quitar.",
+                    "resources": "actividad 13 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Análisis de descomposiciones para la suma anterior."
+                        },
+                        {
+                            "title": "Momento 2. Problemas de resta.",
+                            "description": "Resolver 35-12 (chocolate/vainilla) y 29-15 (tostones) usando valor posicional."
+                        },
+                        {
+                            "title": "Momento 3. Completar libro.",
+                            "description": "Registrar restas."
+                        }
+                    ],
+                    "homework": "Problema: 74 galletas total, 52 vainilla. ¿Chocolate?"
+                },
+                {
+                    "title": "ACTIVIDAD 14",
+                    "pedagogicalIntention": "interpreten una tabla para poder resolver problemas.",
+                    "resources": "papelógrafo con cuadro de Mabel. Actividad 14 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Corrección de resta 74-52."
+                        },
+                        {
+                            "title": "Momento 2. Resolver problemas.",
+                            "description": "Extraer datos de tabla (galletas, tostones, pastelitos) para resolver a, b y c."
+                        },
+                        {
+                            "title": "Momento 3. Completar libro.",
+                            "description": "Registrar cálculos de la tabla."
+                        }
+                    ],
+                    "homework": "Bombones: 44 coco, 35 fresa. ¿Total? ¿Sobran tras vender 40?"
+                },
+                {
+                    "title": "ACTIVIDAD 15",
+                    "pedagogicalIntention": "analicen distintas estrategias para sumar y restar resueltas por otros niños.",
+                    "resources": "actividad 15 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Revisión de problemas de bombones."
+                        },
+                        {
+                            "title": "Momento 2. Analizar sumas.",
+                            "description": "Validar estrategias de Clara, Juan y Carlos para 54+25. Identificar el error de Juan."
+                        },
+                        {
+                            "title": "Momento 3. Analizar restas.",
+                            "description": "Validar estrategias para 88-42. Identificar error de Clara."
+                        },
+                        {
+                            "title": "Momento 4. Completar libro.",
+                            "description": "Registrar estrategias analizadas."
+                        }
+                    ],
+                    "homework": "Validar estrategia de María para 67-35."
+                },
+                {
+                    "title": "ACTIVIDAD 16",
+                    "pedagogicalIntention": "resuelvan problemas de varios pasos.",
+                    "resources": "actividad 16 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Explicar por qué la estrategia de María es correcta o no."
+                        },
+                        {
+                            "title": "Momento 2. Problema de suma.",
+                            "description": "Junior: 23 carne + 15 pollo. ¿Total? Descomponer para resolver."
+                        },
+                        {
+                            "title": "Momento 3. Problema de resta.",
+                            "description": "Del total de 38, comieron 26. ¿Cuántos sobraron?"
+                        },
+                        {
+                            "title": "Momento 4. Completar libro.",
+                            "description": "Registrar problemas de dos pasos."
+                        }
+                    ],
+                    "homework": "Problema Junior: 24 chocolate + 34 coco. Comieron 35. ¿Cuántos sobraron?"
+                },
+                {
+                    "title": "ACTIVIDAD 17: PRODUCCIÓN FINAL",
+                    "pedagogicalIntention": "repasen contenidos trabajados.",
+                    "resources": "papelógrafo, medias hojas, cinta.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar tarea.",
+                            "description": "Revisión de problema de caramelos."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué estudiamos ?",
+                            "description": "Revisión de actividades bloque 2 y registro de fechas."
+                        },
+                        {
+                            "title": "Momento 3. Mercado de cosas ricas.",
+                            "description": "Dibujar producto, asignar cantidad de dos dígitos y pegar en pizarra."
+                        },
+                        {
+                            "title": "Momento 4. Resolver problemas.",
+                            "description": "Plantear y resolver 3 problemas basados en el mercado del salón."
+                        }
+                    ],
+                    "homework": ""
+                },
+                {
+                    "title": "ACTIVIDAD 18: CIERRE Y METACOGNICIÓN",
+                    "pedagogicalIntention": "reflexionen sobre lo realizado y aprendido.",
+                    "resources": "papelógrafo de aprendizajes, actividad 18 del fascículo.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Entregar producciones.",
+                            "description": "Colocar cálculos finales en el libro de sumas y restas."
+                        },
+                        {
+                            "title": "Momento 2. Consolidar saberes.",
+                            "description": "Escalera de metacognición: Anterior/Siguiente, Suma/Resta, Agrupamiento, Longitudes."
+                        },
+                        {
+                            "title": "Momento 3. Revisar papelógrafo.",
+                            "description": "Cierre formal de la secuencia con fecha."
+                        }
+                    ],
+                    "homework": ""
+                }
+            ]
+        }
+    ]
+}

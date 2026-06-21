@@ -1,0 +1,477 @@
+{
+  "id": "seq-1769890836374",
+  "title": "Números naturales mayores que 1,000,000 y adición.",
+  "description": "Esta secuencia profundiza en la lectura, escritura y descomposición de números naturales mayores que un millón, fortaleciendo la comprensión del valor posicional en grandes cantidades.",
+  "order": 1,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1770584689986",
+      "sequence_id": "seq-1769890836374",
+      "order_index": 0,
+      "title": "Actividad 1 ",
+      "name": " La importancia de los números",
+      "intencion_pedagogica": "Utilizar números naturales menores que 1,000,000 para representar ventas, precios y otras cantidades, comprendiendo el valor posicional de los dígitos.\n\n",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre los números.\n\nLluvia de ideas: Los estudiantes mencionan números y los escriben en la pizarra.\n\nUso de material audiovisual: Proyección de video sobre lectura de números.\n\nTrabajo individual y grupal: Resolución de ejercicios de valor posicional.\n\nSocialización de respuestas: Puesta en común para retroalimentación.",
+      "aprendizaje_significativo": "Se parte de la experiencia cotidiana de los estudiantes con los números (precios, cantidades, etc.) para introducir el concepto de números mayores que 1,000,000, conectando así el contenido matemático con situaciones reales de su vida.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectura: Se les proporcionan las cantidades escritas en palabras para que las asocien con los números.\n\nPara estudiantes kinestésicos: Se les invita a representar con tarjetas las diferentes posiciones (unidades, decenas, etc.).\n\nPara estudiantes con discapacidad visual: Se les proporciona el material en formato ampliado y se describen las cantidades verbalmente.\n\nPara estudiantes avanzados: Se les pide que inventen otras cantidades y las escriban en palabras.",
+      "actividades_cuaderno": "Completar la Actividad complementaria de la página 11: completar los espacios en blanco escribiendo el valor posicional de cada dígito o el número correspondiente en la tabla dada. Resolver la Actividad para el diario del estudiante de la página 11: determinar el valor de los dígitos 3, 9 y 6 en RD$ 956,321.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia la clase dialogando con los estudiantes sobre los números, su utilidad y su importancia en la vida (pág. 10).\n2. Propone realizar una lluvia de números: cada estudiante menciona algunos y los escribe en la pizarra.",
+          "actividad_numero": "Actividad 1 (Párrafo 1, pág. 10)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "A, B",
+          "tiempo": "60",
+          "recursos": "• Video o pizarra con cantidades\n• Pizarra\n• Cuadernos\n• Video: https://youtu.be/NA98939e9KI)",
+          "descripcion": "1. El docente anuncia que verán un video sobre lectura de números (disponible en: https://youtu.be/NA98939e9KI).\n2. Después de ver el video, realiza preguntas: \"¿Cuáles números viste en el video? ¿En cuáles situaciones usamos números como estos? ¿En tu casa, para qué usan los números?\"\n3. Alternativa sin video (pág. 10-B): Presenta la situación problemática de ventas en una plaza comercial.\n- Lunes RD$ 356,789; Martes RD$ 700,000; Miércoles RD$ 706,935; Jueves RD$ 100,045; Viernes RD$ 990,542; Sábado RD$ 546,003.\n- Los estudiantes leen las cantidades.\n- Pregunta por el valor de los dígitos 3, 6, 9 y 7 en 706,935.\n4. Retroalimenta las equivalencias entre posiciones (pág. 10):\n- 1 decena = 10 unidades\n- 1 centena = 10 decenas = 100 unidades\n- 1 unidad de millar = 10 centenas = 100 decenas = 1,000 unidades\n- 1 decena de millar = 10 unidades de millar = 100 centenas = 1,000 decenas = 10,000 unidades\n- 1 centena de millar = 10 decenas de millar = 100 unidades de millar = 1,000 centenas = 10,000 decenas = 100,000 unidades\n5. Explora conocimientos previos con preguntas (pág. 10, a-e):\na. \"¿Cuántas unidades hay en 7 decenas?\"\nb. \"¿Cuántas decenas hay en 8 centenas?\"\nc. \"¿Cuántas unidades hay en 4 decenas de millar?\"\nd. \"¿Cuántas centenas hay en 200 unidades?\"\ne. \"¿Cuántas unidades de millar hay en 4,000 unidades?\"",
+          "actividad_numero": "Actividad 1 (pág. 10)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Pizarra",
+          "descripcion": "1. Los estudiantes resuelven en su cuaderno:\n- Escribir en palabras: RD$ 425,200; RD$ 747,007; RD$ 844,404; RD$ 909,090; RD$ 300,765.\n- Comparar visitas de enero (409,730) y febrero (410,000).\n2. Se socializan las respuestas, reforzando con preguntas claves y aprovechando los errores para construir aprendizaje.",
+          "actividad_numero": "Actividad 1 Actividad para el cuaderno (pág. 11)"
+        }
+      ]
+    },
+    {
+      "id": "1771693196698",
+      "sequence_id": "seq-1769890836374",
+      "order_index": 1,
+      "title": "Actividad 2 ",
+      "name": "Números mayores que 1,000,000",
+      "intencion_pedagogica": "Resolver situaciones problemáticas con cantidades mayores que 1,000,000.\n",
+      "estrategia": "Socialización de tarea: Revisión de la actividad del diario del estudiante.\n\nUso de tabla de valor posicional: Para facilitar la lectura de números mayores al millón.\n\nTrabajo individual y grupal: Resolución de situaciones problemáticas.\n\nPreguntas guía: Para orientar el razonamiento.",
+      "aprendizaje_significativo": "Se amplía el concepto de valor posicional a números mayores que un millón, utilizando el contexto de visitas a plazas comerciales, lo que permite a los estudiantes ver la utilidad de los números grandes en situaciones reales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de valor posicional impresa para que la usen como apoyo.\n\nPara estudiantes kinestésicos: Se les invita a pasar al frente a escribir los números en la tabla de la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporciona la tabla en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que escriban números con 7, 8 y 9 cifras y los lean.",
+      "actividades_cuaderno": "Completar la Actividad complementaria de la página 13 y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia la clase preguntando: \"¿Cómo resolvieron el ejercicio del diario? ¿Cuál era el valor posicional del dígito 6? ¿Y del dígito 9?\" (pág. 12).\n2. Motiva la participación y socialización de los resultados.",
+          "actividad_numero": "Actividad 2 (Párrafo 1, pág. 12)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Tabla de valor posicional\n• Cuadernos",
+          "descripcion": "1. Plantea la situación: \"En el año 2019 en una plaza de Santiago fue visitado por 7,514,892 personas. ¿Cuál es el valor del dígito 1 en esa cantidad? Escribe los tres números siguientes a 7,514,892.\"\n2. Los estudiantes resuelven el problema.\n3. Socializa y refuerza utilizando una tabla de valor posicional (pág. 12).\n4. Pide a los estudiantes que lean las cantidades escritas en las tablas de valor posicional de la página 12.\n5. Ayuda a concluir que la tabla facilita la lectura de cantidades.\n6. Pide que escriban y lean, usando la tabla, 5 números que tengan unidades de millón.\n\nActividad para el cuaderno (pág. 13):\n1. Presenta la situación: \"En una plaza se vendieron RD$ 5,747,007 el lunes, RD$ 8,844,404 el martes y RD$ 16,375,003 el miércoles. ¿Cómo se escriben estas cantidades en palabras?\"\n2. Los estudiantes resuelven y se socializa en la pizarra.\n3. Explora equivalencias de unidades y decenas de millón, escribiéndolas en la pizarra (pág. 13):\n- 1 unidad de millón = 1,000,000 unidades\n- 1 decena de millón = 10,000,000 unidades, etc.",
+          "actividad_numero": "Actividad 2 Situación (pág. 12) Actividad para el cuaderno (pág. 13)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "1. \"¿Cuál es el valor posicional del dígito 5 en 25,374,236?\"\n2. \"Si contamos de uno en uno, ¿cuál número es el siguiente después del 1,400,999?\"\n3. \"¿Cuántas centenas hay en 4 unidades de millón?\"\n\nActividad complementaria (pág. 13):\nLos estudiantes escriben los dígitos de cada número debajo de su valor posicional en la tabla dada.\n\nActividad para el diario del estudiante (pág. 13):\n\"El domingo pasado, una plaza vendió RD$ 24,956,371 en el área de cosméticos. ¿Cuál es el valor del dígito 4 en esa cantidad? ¿Y del dígito 9? ¿Y del dígito 2?\"",
+          "actividad_numero": "Actividad 2 Cierre (pág. 13) Actividad complementaria (pág. 13) Actividad para el diario (pág. 13)"
+        }
+      ]
+    },
+    {
+      "id": "1771693265570",
+      "sequence_id": "seq-1769890836374",
+      "order_index": 2,
+      "title": "Actividad 3 ",
+      "name": "Números en su forma desarrollada",
+      "intencion_pedagogica": "Expresar cantidades en su forma desarrollada y viceversa.\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nSituación problemática exploratoria: Cambio de un billete para introducir el tema.\n\nUso de tabla de valor posicional: Para visualizar la forma desarrollada.\n\nClase expositiva dialogada: Presentación de las tres formas de escribir números (estándar, desarrollada, en palabras).",
+      "aprendizaje_significativo": "Se parte de una situación cotidiana (cambiar un billete) para introducir el concepto de forma desarrollada, conectando así el aprendizaje matemático con experiencias prácticas de la vida diaria.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les proporciona una plantilla con la estructura de la forma desarrollada.\n\nPara estudiantes kinestésicos: Se les invita a representar las cantidades con tarjetas de valores posicionales.\n\nPara estudiantes con discapacidad visual: Se les proporciona el material en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que escriban números con 8 cifras en las tres formas.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de las páginas 14-15, la Actividad complementaria de la página 15 y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia corrigiendo el ejercicio del diario (pág. 14).\n2. Pregunta: \"¿Cómo lo resolvieron? ¿Cuál era el valor posicional del dígito 4? ¿Y del dígito 2?\" Motiva la socialización.",
+          "actividad_numero": "Actividad 3 (Párrafo 1, pág. 14)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Tabla de valor posicional",
+          "descripcion": "1. Plantea: \"Alexander y su padre fueron a una plaza. El padre tenía un billete de RD$ 2,000. Si se lo cambian en una boletería que tiene billetes de RD$ 500, RD$ 200, RD$ 100 y RD$ 50, escribe 5 formas diferentes en las que le pueden cambiar el billete.\"\n2. Orienta y guía el proceso para que los estudiantes socialicen formas posibles.\n\nIntroducción a la forma desarrollada:\n1. Ilustra con el ejemplo: \"En una plaza se registró una ganancia de RD$ 46,513,872.\"\n2. Pregunta cómo se lee usando la tabla de valor posicional.\n3. Explica que el número se puede escribir en forma estándar (46,513,872).\n4. Explica que también se puede escribir tomando el valor de cada dígito: forma desarrollada (40,000,000 + 6,000,000 + 500,000 + 10,000 + 3,000 + 800 + 70 + 2).\n5. Pregunta cómo se llama esa forma; si no lo dicen, lo introduce.\n6. Pregunta si conocen otra forma (en palabras) y la escribe: \"cuarenta y seis millones, quinientos trece mil, ochocientos setenta y dos.\"\n7. Recapitula las tres formas de escribir números.",
+          "actividad_numero": "Actividad 3 Situación (pág. 14) Explicación (págs. 14-15)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos\n• Pizarra",
+          "descripcion": "1. Los estudiantes completan la tabla con las cantidades vendidas: RD$ 21,425,200; RD$ 53,747,987; RD$ 18,745,401; RD$ 36,395,663, escribiendo la forma desarrollada y en palabras.\n2. Resuelven la situación de la página 15, donde deben escribir cada cantidad de forma diferente a como está escrita.\n\nCierre (pág. 15):\nVarios estudiantes pasan a la pizarra a escribir ejemplos de números en forma estándar, en palabras y en forma desarrollada.\n\nActividad complementaria (pág. 15):\nCompletan una tabla con forma estándar, forma desarrollada y en palabras.\n\nActividad para el diario del estudiante (pág. 15):\nEscribir 4 cantidades mayores que un millón y luego escribirlas en forma desarrollada y en palabras.",
+          "actividad_numero": "Actividad 3 Actividad para el cuaderno (págs. 14-15) Cierre (pág. 15) Actividad complementaria (pág. 15) Actividad para el diario (pág. 15)"
+        }
+      ]
+    },
+    {
+      "id": "1771693338651",
+      "sequence_id": "seq-1769890836374",
+      "order_index": 3,
+      "title": "Actividad 4 ",
+      "name": "Me divierto ordenando números",
+      "intencion_pedagogica": " Resolver problemas ordenando números naturales en su contexto",
+      "estrategia": "Diálogo dirigido: Preguntas para explorar el concepto de orden.\n\nUso de recta numérica: Visualización de la posición de los números.\n\nUso de material audiovisual: Video sobre comparación de números grandes.\n\nTrabajo individual y grupal: Resolución de ejercicios de ordenamiento y comparación.\n\nJuego didáctico: Comparación de números con tarjetas.",
+      "aprendizaje_significativo": "Se utiliza el contexto de visitantes a una plaza comercial para ordenar y comparar cantidades, mostrando la utilidad de estas habilidades en el análisis de datos reales.\n\n",
+      "actividades_complementarias": "ara estudiantes con dificultades de comparación: Se les proporciona una recta numérica grande para que ubiquen físicamente los números.\n\nPara estudiantes kinestésicos: Se les invita a ser ellos mismos los \"números\" en una recta numérica humana.\n\nPara estudiantes con discapacidad visual: Se les proporcionan tarjetas con números en relieve o braille.\n\nPara estudiantes avanzados: Se les pide que inventen más datos para la tabla y los ordenen.",
+      "actividades_cuaderno": "Completar la Actividad complementaria y la Actividad para el diario del estudiante de la página 17.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Recta numérica en la pizarra\n• Pizarra",
+          "descripcion": "1. El docente formula preguntas: \"¿Qué es ordenar? ¿Qué cosas ordenas en tu casa? ¿Cómo sabes si un número es mayor que otro? ¿Cómo quedan ordenados los números en su forma desarrollada?\"\n2. Presenta una recta numérica y pregunta: \"¿Qué número irá en la primera marca? ¿Cuál número va después del 4,000,802?\"",
+          "actividad_numero": "Actividad 4 (Párrafo 1, pág. 15)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "A, B",
+          "tiempo": "60",
+          "recursos": "• Video o pizarra\n• Recta numérica\n• Cuadernos",
+          "descripcion": "1. A (pág. 16): Si es posible, proyecta el video \"¿Cómo ordenar números grandes?\" (https://youtu.be/A90z732Y_xo). Luego, genera un diálogo con preguntas: \"¿De qué trata el video? ¿Qué observaron en la escritura de los números? ¿Por qué un punto y no una coma? ¿Cómo comparan los números en el video? ¿Cuál será el posterior a 1,000,000? ¿Y el anterior?\"\n2. B (pág. 16): Si no hay video, continúa con la actividad: Dados dos números en la recta numérica, ¿por qué el de la izquierda es menor? Ayuda a concluir que los números a la izquierda siempre son menores.\n3. Pregunta si recuerdan los símbolos para ordenar y comparar (=, >, <). Envía estudiantes a escribirlos en la pizarra.\n\nActividad para el cuaderno (pág. 16):\n1. Ordenan de menor a mayor las cantidades de visitantes de una tabla (2019-2023).\n2. Comparan las cantidades usando > o <.\n3. Ordenan cantidades en una recta numérica (6,000,000; 6,500,000; 5,500,000; etc.).\n4. Socializan los resultados.",
+          "actividad_numero": "Actividad 4 (pág. 16) Actividad para el cuaderno (pág. 16)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas con números\n• Caja\n• Cuadernos",
+          "descripcion": "1. El docente escribe en tarjetas números mayores que el millón, las coloca en una caja y pide por turno a dos estudiantes que elijan una tarjeta cada uno para comparar qué cantidad es mayor. Repite con varias parejas.\n\nActividad complementaria (pág. 17):\nOrdenan de mayor a menor los ingresos de plazas comerciales en un cartel.\n\nActividad para el diario del estudiante (pág. 17):\n1. Ordenan en una recta numérica las ventas de las plazas.\n2. Responden preguntas sobre la tabla de visitantes (¿en cuáles años hubo más visitantes que en 2020? ¿En qué año fueron más visitantes? ¿En qué año menos?).",
+          "actividad_numero": "Actividad 4 Juego (pág. 17) Actividad complementaria (pág. 17) Actividad para el diario (pág. 17)"
+        }
+      ]
+    },
+    {
+      "id": "1771693504862",
+      "sequence_id": "seq-1769890836374",
+      "order_index": 4,
+      "title": "Actividad 5 ",
+      "name": "¡Qué divertido es redondear números!",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto utilizando números naturales.",
+      "estrategia": "Diálogo dirigido: Exploración del concepto de redondeo.\n\nSituación problemática: Redondeo de cantidades de visitantes.\n\nUso de tabla: Para visualizar el redondeo a diferentes posiciones.\n\nUso de recta numérica: Para comprender el redondeo visualmente.\n\nTrabajo individual: Resolución de ejercicios de redondeo.",
+      "aprendizaje_significativo": "Se utiliza el contexto de visitantes a una plaza comercial para practicar el redondeo, mostrando su utilidad para simplificar cantidades y facilitar cálculos en situaciones reales.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les proporciona una recta numérica impresa para visualizar el redondeo.\n\nPara estudiantes kinestésicos: Se les invita a representar el redondeo con tarjetas de números y flechas.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que redondeen a posiciones más específicas (decenas de millar, etc.).",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de las páginas 18-19, la Actividad complementaria y la Actividad para el diario del estudiante de la página 19.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia conversando sobre lo realizado en el diario.\n2. Pregunta: \"¿Cómo lo resolvieron? ¿Cuál era el número mayor? ¿Por qué?\"\n3. Luego, pregunta: \"¿Saben qué significa redondear números?\" Envía estudiantes a la pizarra a escribir un número y redondearlo a un lugar dado.",
+          "actividad_numero": "Actividad 5 (Párrafo 1, pág. 17)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Tabla de visitantes\n• Recta numérica",
+          "descripcion": "1. Presenta la situación: \"Una plaza fue visitada por una gran cantidad de personas en los últimos 5 años. Redondea las cantidades a la unidad de millar y a la centena de millar más cercana.\" (Tabla pág. 18).\n2. Los estudiantes completan la tabla.\n3. Genera un diálogo: \"¿Qué notan en los números a la derecha del número redondeado?\"\n4. Retroalimenta y explica los pasos para redondear (pág. 18):\na. Escoge el dígito al que vas a redondear.\nb. Observa el dígito a la derecha.\nc. Si es menor que 5, el dígito se queda igual y los de la derecha se vuelven cero.\nd. Si es igual o mayor que 5, el dígito aumenta en 1 y los de la derecha se vuelven cero.\n5. Explica que también se puede usar una recta numérica (ejemplo con 685,000,000).\n6. Piden aplicar: redondear 24,785,970 usando la recta numérica.",
+          "actividad_numero": "Actividad 5 Situación (págs. 17-18) Explicación (pág. 18)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "1. Redondear RD$ 26,792,581 a: decena más cercana, unidad de millar más cercana, centena de millar más cercana, unidad de millón más cercana.\n2. Resolver: a) 8,847,943 a la decena de millar; b) 11,942,584 a la unidad de millón.\n\nCierre (pág. 19):\nPreguntas: \"¿Qué entiendes por redondear? ¿Existe una sola posición a la cual se puede redondear? ¿Para qué redondeamos una cantidad? ¿Qué se debe tomar en cuenta para redondear?\"\n\nActividad complementaria (pág. 19):\nRedondear números a la decena de millar, centena de millar y decena de millón.\n\nActividad para el diario del estudiante (pág. 19):\nRedondear a la centena de millar las ganancias de dos meses.",
+          "actividad_numero": "Actividad 5 Actividad para el cuaderno (págs. 18-19) Cierre (pág. 19) Actividad complementaria (pág. 19) Actividad para el diario (pág. 19)"
+        }
+      ]
+    },
+    {
+      "id": "1772514709682",
+      "sequence_id": "seq-1769890836374",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Me divierto y aprendo sumando",
+      "intencion_pedagogica": "Resolver situaciones problemáticas de la vida cotidiana usando la suma.",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos previos sobre la suma.\n\nSituación problemática: Resolución de un problema de suma con datos de visitantes.\n\nDemostración de términos: Presentación de sumandos y suma o total.\n\nTrabajo individual: Resolución de ejercicios de suma.",
+      "aprendizaje_significativo": "Se utilizan datos reales de visitantes a plazas comerciales para practicar la suma, mostrando su aplicación en el análisis de información y en la resolución de problemas cotidianos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la suma: Se les permite usar la calculadora para verificar sus resultados.\n\nPara estudiantes kinestésicos: Se les invita a representar las cantidades con billetes ficticios.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que inventen un problema de suma con tres sumandos.Para estudiantes kinestésicos: • Pueden usar tarjetas con números para formar las cantidades y luego sumarlas físicamente. \n\n• Para estudiantes kinestésicos: Pueden usar tarjetas con números para formar las cantidades y luego sumarlas físicamente, agrupando unidades, decenas, centenas, etc. \n\n• Para estudiantes con discapacidad visual: Se les proporciona el material en formato ampliado y con relieve para identificar los números. \n\n• Para estudiantes avanzados: Se les pide que creen un problema similar y lo resuelvan usando ambas estrategias. Se les desafía a sumar tres cantidades usando la forma desarrollada.",
+      "actividades_cuaderno": "Resolver el problema de marzo y abril y la actividad del diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra \n• Marcadores \n• Cuadernos\n• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué recuerdan sobre la suma? ¿Qué significa sumar? ¿Qué podemos sumar? ¿Qué signo se utiliza? ¿Cuáles son los elementos de una suma?\"\n2. Anuncia que hoy van a sumar cantidades.",
+          "actividad_numero": "ActiActividad 6 A (págs. 19-20)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra \n• Marcadores \n• Cuadernos",
+          "descripcion": "1. Presenta el problema: \"Una plaza fue visitada en enero por 256,715 personas y en febrero por 309,681 personas. ¿Cuántas personas visitaron en esos 2 meses?\"\n2. Los estudiantes resuelven. El docente monitorea.\n3. Socializa la solución y muestra los términos de la suma:\n256,715 → sumando\n+ 309,681 → sumando\n566,396 → suma o total\n4. Explica que los números que se suman se llaman sumandos y el resultado es la suma o total.",
+          "actividad_numero": "Actividad 6 - B, C y Actividad para el cuaderno (Pág. 20-21)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra \n• Cuadernos",
+          "descripcion": "Actividades finales: 1. Realiza preguntas de cierre: \"¿Qué resultados obtuvieron al resolver el problema? ¿Cuál estrategia usaron para realizar las sumas? ¿De qué otra forma se podría hacer?\" (pág. 23). 2. Actividad complementaria: Los estudiantes resuelven: \"Usa la forma desarrollada para obtener la suma de: 23,854,823 + 21,112,849\" y \"Usa la forma tradicional para obtener la suma de: 23,854,823 + 21,112,849\" (pág. 23). 3. Actividad para el diario del estudiante: \"Una plaza comercial de la República Dominicana vendió RD$ 994,232 en una semana y en la siguiente semana RD$ 2,495,354. ¿Cuánto dinero vendió en esas 2 semanas?\" (pág. 23).",
+          "actividad_numero": "Actividad 6 Actividad para el cuaderno (pág. 20) Actividad para el diario (pág. 23)"
+        }
+      ]
+    },
+    {
+      "id": "1772515158238",
+      "sequence_id": "seq-1769890836374",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Aprender a sumar es divertido ",
+      "intencion_pedagogica": "Resolver situaciones de la vida cotidiana haciendo uso de sus conocimientos\nmatemáticos sobre la suma",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nPresentación de nueva estrategia: Suma en forma desarrollada.\n\nSituaciones problemáticas: Resolución de problemas con dos estrategias.\n\nTrabajo en grupos: Resolución colaborativa.\n\nTrabajo individual: Resolución de ejercicios.",
+      "aprendizaje_significativo": "Se introduce una nueva estrategia (forma desarrollada) para sumar cantidades, mostrando que existen diferentes caminos para llegar al mismo resultado.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la descomposición: Se les proporciona una tabla de valor posicional como apoyo.\n\nPara estudiantes kinestésicos: Se les invita a escribir los números descompuestos en tarjetas.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen por qué la forma desarrollada funciona.",
+      "actividades_cuaderno": "Completar la actividad complementaria y la actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por el resultado de la actividad del diario (3,489,586).\n2. Retroalimenta la suma tradicional.\n3. Pregunta: \"¿Conocen otro procedimiento para obtener la suma?\" Anuncia la forma desarrollada.",
+          "actividad_numero": "Actividad 7 A (pág. 20)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Explica que un número puede escribirse como la suma de sus valores posicionales.\n2. Retoma el problema de enero y febrero (256,715 + 309,681).\n3. Muestra cómo resolver en forma desarrollada:\n256,715 = 200,000 + 50,000 + 6,000 + 700 + 10 + 5\n309,681 = 300,000 + 0 + 9,000 + 600 + 80 + 1\nSuma parcial: 500,000 + 50,000 + 15,000 + 1,300 + 90 + 6\nReagrupando: 500,000 + 60,000 + 6,000 + 300 + 90 + 6 = 566,396\n4. Actividad para el cuaderno (pág. 20-21): En grupos de 4, resolver con ambas formas: \"En marzo y abril, visitaron 475,890 y 899,643 personas respectivamente. ¿Cuántas personas visitaron en esos dos meses?\"\n- Forma tradicional y forma desarrollada.",
+          "actividad_numero": "Actividad 6 C (pág. 20) Actividad para el cuaderno (págs. 20-21)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "1. Los grupos comparten sus resultados.\n2. Pregunta: \"¿Cuál estrategia les pareció más fácil? ¿Por qué?\"\n\nActividad complementaria (pág. 23):\nResolver usando forma desarrollada: 23,854,823 + 21,112,849.\n\nActividad para el diario del estudiante (pág. 21):\nResolver usando la tabla de visitantes: ¿Cuántas personas visitaron en los años 2020 y 2022? (8,847,943 + 8,901,301 = 17,749,244).",
+          "actividad_numero": "Actividad 7 Actividad complementaria (pág. 23) Actividad para el diario (pág. 21)"
+        }
+      ]
+    },
+    {
+      "id": "1772516085170",
+      "sequence_id": "seq-1769890836374",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Jugando a las sumas ",
+      "intencion_pedagogica": "Calcular sumas usando diferentes estrategias.",
+      "estrategia": "Diálogo dirigido: Exploración de conocimientos sobre el juego de dominó.\n\nJuego didáctico: Dominó de adición.\n\nTrabajo en grupos: Juego colaborativo.\n\nEvaluación formativa: Observación del desempeño de los estudiantes.",
+      "aprendizaje_significativo": "Se utiliza un juego de mesa (dominó) para reforzar de manera lúdica el aprendizaje de la suma, haciendo el proceso más motivador y participativo.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en las operaciones: Se les permite usar papel y lápiz para resolver las sumas.\n\nPara estudiantes kinestésicos: El juego es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se les proporcionan fichas con números en relieve.\n\nPara estudiantes avanzados: Se les pide que actúen como árbitros verificando las sumas.",
+      "actividades_cuaderno": "Escribir una breve reflexión sobre el juego: ¿cómo se sintieron? ¿Qué aprendieron?\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente promueve un diálogo sobre la importancia del juego.\n2. Pregunta: \"¿Conocen el juego de dominó? ¿Cuántas fichas tiene? ¿Quiénes lo han jugado?\"\n3. Anuncia que hoy aprenderán sobre la suma a través del juego de dominó.",
+          "actividad_numero": "Actividad 8 A (pág. 23)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Fichas de dominó (anexo)\n• Tabla de registro",
+          "descripcion": "1. El docente ha preparado previamente las 28 fichas de dominó (anexo).\n2. Organiza grupos de 4 estudiantes.\n3. Explica las reglas del juego (pág. 23):\n- Las fichas se barajan y se reparten 7 a cada estudiante, colocadas hacia arriba.\n- Deciden quién colocará la primera ficha.\n- El jugador a la derecha revisa si tiene entre sus fichas los sumandos que dan el total de la ficha en mesa, o si tiene el total de los sumandos de la ficha en mesa.\n- Si tiene, la juega. Si no, pasa el turno.\n- Gana el primero en usar todas sus fichas.\n4. Los estudiantes juegan. El docente observa y registra el desempeño.",
+          "actividad_numero": "Actividad 8 B (págs. 23-24) Anexo (págs. 32-33)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "Preguntas: \"¿Cómo se llamaba el juego? ¿Cómo sabían qué ficha jugar? ¿Cuáles eran las reglas? ¿Quién ganó?\"\n\nActividad para el cuaderno:\nNo hay actividad específica para el cuaderno en esta clase, pero se puede pedir una breve reflexión sobre el juego.",
+          "actividad_numero": "Actividad 8 Cierre (pág. 24)"
+        }
+      ]
+    },
+    {
+      "id": "1772516164535",
+      "sequence_id": "seq-1769890836374",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Explorando las propiedades",
+      "intencion_pedagogica": "Resolver problemas usando las propiedades de la suma en su contexto.",
+      "estrategia": "Corrección de tarea: Socialización del juego.\n\nSituación problemática: Descubrimiento de la propiedad conmutativa.\n\nDiálogo dirigido: Para formular hipótesis y llegar a conclusiones.\n\nUso de carteles: Para fijar las definiciones de las propiedades.",
+      "aprendizaje_significativo": "Se utiliza una situación de ahorro (dinero en alcancías) para descubrir la propiedad conmutativa de la suma, mostrando que las matemáticas tienen reglas que facilitan los cálculos y que se aplican en contextos cotidianos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de abstracción: Se utilizan ejemplos concretos con objetos.\n\nPara estudiantes kinestésicos: Se les invita a representar la propiedad con objetos.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que expliquen por qué funciona la propiedad conmutativa.",
+      "actividades_cuaderno": "Completar la actividad para el cuaderno, la actividad complementaria y la actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta sobre la experiencia del juego de dominó.\n2. Retroalimenta la suma.\n3. Anuncia que hoy aprenderán propiedades de la suma.",
+          "actividad_numero": "Actividad 9 A (pág. 24)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cartel de propiedad\n• Cuadernos",
+          "descripcion": "1. Plantea la situación: \"Alberto estaba ahorrando dinero para ir a una plaza a comprar una laptop. Si tiene ahorrado RD$ 10,000 en una alcancía y RD$ 15,000 en otra. ¿Qué cantidad de dinero tiene en las dos alcancías juntas?\"\n2. Los estudiantes resuelven. Pregunta: \"¿El orden de los sumandos altera el resultado?\"\n3. Muestra dos formas: 10,000 + 15,000 = 25,000; 15,000 + 10,000 = 25,000.\n4. Concluye: el orden no altera la suma.\n5. Presenta un cartel con la definición: Propiedad conmutativa: puedes sumar dos sumandos en el orden que quieras y la suma o total no cambia.\n6. Refuerza con otro problema (pág. 25): \"Una plaza obtuvo ganancia de RD$ 23,560,960 en 2020 y RD$ 18,726,194 en 2021. ¿Qué cantidad obtuvo en esos dos años?\" Resuelven cambiando el orden.",
+          "actividad_numero": "Actividad 9 B (págs. 24-25)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Actividad para el cuaderno (pág. 25):\nResolver: \"Los padres de Nelly ahorraron RD$ 35,600 en 2019 y RD$ 0 en 2020. ¿Cuánto ahorraron en total?\" (35,600). Reflexionar sobre el elemento neutro.\n\nCierre (pág. 25):\nPreguntas: \"¿En qué consiste la propiedad conmutativa? Dar ejemplo.\"\n\nActividad complementaria (pág. 25):\nIdentificar la propiedad usada: 2,000 + 6,000 = 6,000 + 2,000 (conmutativa).\n\nActividad para el diario del estudiante (pág. 25):\nElaborar 2 problemas de suma donde se use la propiedad conmutativa.",
+          "actividad_numero": "Actividad 9 Actividad para el cuaderno (pág. 25) Cierre (pág. 25) Actividad complementaria (pág. 25) Actividad para el diario (pág. 25)"
+        }
+      ]
+    },
+    {
+      "id": "1772516249370",
+      "sequence_id": "seq-1769890836374",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Explorando otras propiedades",
+      "intencion_pedagogica": "Resolver problemas usando las propiedades de la suma en su contexto.",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nRetroalimentación: Repaso de la propiedad conmutativa.\n\nSituación problemática: Descubrimiento de la propiedad asociativa.\n\nTrabajo individual y grupal: Resolución de problemas con diferentes agrupaciones.\n\nUso de carteles: Para fijar la definición de la propiedad asociativa.",
+      "aprendizaje_significativo": "Se utiliza una situación de visitas a una plaza comercial en tres meses consecutivos para descubrir que la forma de agrupar los sumandos no altera el resultado, mostrando la utilidad de esta propiedad para simplificar cálculos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de abstracción: Se utilizan ejemplos concretos con objetos para mostrar la asociación.\n\nPara estudiantes kinestésicos: Se les invita a representar las agrupaciones con fichas.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que creen sus propios ejemplos de la propiedad asociativa.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 27, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por los problemas que elaboraron usando la propiedad conmutativa.\n2. Retroalimenta la propiedad conmutativa con ejercicios: 23,200 + 25,800 = 25,800 + 23,200; 34,000 + 0 = 34,000.\n3. Pregunta: \"¿Conocen otras propiedades de la suma?\" Anuncia la propiedad asociativa.",
+          "actividad_numero": "Actividad 10 A (pág. 26)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cartel de propiedad\n• Cuadernos",
+          "descripcion": "1. Plantea el problema: \"En el 2021 una plaza comercial fue visitada en junio, julio y agosto por 250,000, 325,000 y 420,000 personas respectivamente. ¿Cuál fue la cantidad total de visitantes en esos 3 meses?\"\n2. Los estudiantes resuelven. Monitorea el proceso.\n3. Pregunta: \"¿Cómo la resolvieron? ¿Todos hicieron la misma agrupación?\"\n4. Muestra diferentes formas de agrupar:\n- Opción A: (250,000 + 325,000) + 420,000 = 575,000 + 420,000 = 995,000.\n- Opción B: 250,000 + (325,000 + 420,000) = 250,000 + 745,000 = 995,000.\n5. Concluye: aunque los sumandos se asociaron de forma diferente, la suma total fue la misma.\n6. Presenta un cartel con la definición: Propiedad asociativa: no importa la manera en que se agrupen los sumandos, la suma total da el mismo resultado.",
+          "actividad_numero": "Actividad 10 B (págs. 26-27)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas con propiedades\n• Cuadernos",
+          "descripcion": "Resolver usando la propiedad asociativa:\n1) Una plaza visitada en 2020 por 745,000, en 2021 por 832,600 y en 2022 por 1,813,400. ¿Cuántas personas en total? (3,391,000).\n2) Un banco obtuvo ganancias de RD$ 654,000 en junio, RD$ 356,970 en julio y RD$ 635,380 en agosto. ¿Ganancia total? (1,646,350).\n\nCierre (pág. 27):\nJuego con tarjetas: llevar propiedades escritas en tarjetas. Los estudiantes sacan una tarjeta y explican en qué consiste esa propiedad.\n\nActividad complementaria (pág. 27):\nCompletar espacios en blanco aplicando propiedades:\na) 30,000 + ___ = 20,000 + 30,000 (20,000)\nb) 60,000 + (80,000 + 25,000) = (60,000 + 80,000) + ___ (25,000)\nc) 0 + 97,400 = ___ + 0 (97,400)\nd) 36,580 + ___ = 36,580 (0)\n\nActividad para el diario del estudiante (pág. 27):\nEscribir el nombre de la propiedad aplicada en cada caso:\na) 32,400 + 61,025 = 61,025 + 32,400 (conmutativa)\nb) 93,400 + 90,780 + 82,560 = 93,400 + (90,780 + 82,560) (asociativa)\nc) 93,400 + 90,780 + 82,560 = (93,400 + 90,780) + 82,560 (asociativa)\nd) 20,943 + 6,000 = 6,000 + 20,943 (conmutativa)",
+          "actividad_numero": "Actividad 10 Actividad para el cuaderno (pág. 27) Cierre (pág. 27) Actividad complementaria (pág. 27) Actividad para el diario (pág. 27)"
+        }
+      ]
+    },
+    {
+      "id": "1772516369246",
+      "sequence_id": "seq-1769890836374",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Realizando sumas con más facilidad",
+      "intencion_pedagogica": "Resolver situaciones problemáticas de suma usando la estimación.",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nDiálogo dirigido: Exploración de conocimientos sobre redondeo y estimación.\n\nSituaciones problemáticas: Estimación de sumas redondeando sumandos.\n\nComparación de resultados: Cálculo exacto vs. estimación.\n\nTrabajo individual: Resolución de problemas con estimación.",
+      "aprendizaje_significativo": "Se introduce la estimación como una herramienta para obtener resultados aproximados de manera rápida, mostrando su utilidad en situaciones cotidianas donde no se necesita un cálculo exacto.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en el redondeo: Se les proporciona una guía con los pasos para redondear.\n\nPara estudiantes kinestésicos: Se les invita a redondear números en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que comparen diferentes estimaciones y justifiquen cuál es mejor.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 28, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por las propiedades identificadas.\n2. Retroalimenta las propiedades de la suma.\n3. Pregunta: \"¿Qué es redondear? ¿Qué es estimar? ¿Cuál es la diferencia entre redondear y estimar?\"\n4. Anuncia que hoy realizarán sumas utilizando estimación.",
+          "actividad_numero": "Actividad 11 A (pág. 27)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Plantea el problema: \"Una plaza vendió RD$ 654,356 un sábado y RD$ 824,563 el domingo. ¿Cuánto vendió en esos dos días?\"\n2. Pide estimar la suma redondeando los sumandos.\n3. Explica que una forma de estimar es redondear los sumandos.\n4. Muestra diferentes estimaciones:\n- Redondeando a la centena de millar: 700,000 + 800,000 = 1,500,000 (aproximado).\n- Cálculo exacto: 1,478,919 (cercano a 1,500,000).\n- Redondeando a la decena de millar: 650,000 + 820,000 = 1,470,000.\n- Redondeando a la unidad de millar: 654,000 + 825,000 = 1,479,000.\n5. Pregunta: \"¿Qué observan? ¿Eran razonables los resultados?\" Concluye que todas las estimaciones son válidas.",
+          "actividad_numero": "Actividad 11 B (pág. 28)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Si en una plaza se vendieron RD$ 1,345,740 en una semana y RD$ 2,645,890 en la siguiente. ¿Qué cantidad se vendió en las dos semanas? Estima a la centena de millar más cercana.\" (1,300,000 + 2,600,000 = 3,900,000).\n\nCierre (pág. 28):\nPreguntas: \"¿Qué entiende por redondear? ¿Las palabras redondear y estimar significan lo mismo? ¿En qué ayuda el redondeo?\"\n\nActividad complementaria (pág. 29):\nRealizar adiciones estimando a la decena de millar más cercana:\n- 3,893,742 + 1,437,923 ≈ 3,890,000 + 1,440,000 = 5,330,000\n- 5,982,401 + 9,675,102 ≈ 5,980,000 + 9,680,000 = 15,660,000\n- 1,008,400 + 983,730 ≈ 1,010,000 + 980,000 = 1,990,000\n- 24,843,641 + 42,971,000 ≈ 24,840,000 + 42,970,000 = 67,810,000\n\nActividad para el diario del estudiante (pág. 29):\nElaborar un problema de suma de cantidades mayores que un millón y resolverlo estimando los sumandos a la posición que consideres.",
+          "actividad_numero": "Actividad 11 Actividad para el cuaderno (pág. 28) Cierre (pág. 28) Actividad complementaria (pág. 29) Actividad para el diario (pág. 29)"
+        }
+      ]
+    },
+    {
+      "id": "1772516480134",
+      "sequence_id": "seq-1769890836374",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar los conocimientos adquiridos en la Secuencia 1 (números mayores que 1,000,000, valor posicional, orden, redondeo, suma, propiedades y estimación) a través de la resolución de problemas.\n\n",
+      "estrategia": "Retroalimentación inicial: Preguntas orales para recordar los temas de la secuencia.\n\nEvaluación escrita: Resolución individual de un conjunto de problemas.\n\nUso de escala de valoración: Para que los estudiantes comprendan cómo se evaluará su desempeño.",
+      "aprendizaje_significativo": "La evaluación se presenta como una oportunidad para demostrar lo aprendido en contextos significativos (plazas comerciales), y se utiliza una escala de valoración para que los estudiantes tomen conciencia de su propio nivel de logro.\n\n",
+      "actividades_complementarias": "Para estudiantes que necesitan más tiempo: Se les puede permitir terminar la evaluación en otra sesión, según la Ordenanza 04-2023.\n\nPara estudiantes con dificultades de lectura: Se les leen los problemas en voz alta si es necesario.\n\nPara estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n\nPara estudiantes que terminan rápido: Se les puede pedir que revisen sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué trabajaron en esta secuencia? ¿Cuáles operaciones usaron? ¿Cuáles propiedades recuerdan?\"\n2. Da tiempo para responder y retroalimenta los temas.",
+          "actividad_numero": "Actividad 12 (Párrafo 1, pág. 29)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Copia de la evaluación o pizarra con los ítems\n• Escala de valoración",
+          "descripcion": "Evaluación escrita (págs. 29-31):\n1. El docente explica que esta actividad evalúa la secuencia y que se hará énfasis en la resolución de problemas.\n2. Explica que cada ítem tiene un valor numérico por procedimiento y respuesta completa.\n3. Lee y explica la escala de valoración (pág. 29).\n4. Entrega una hoja en blanco a cada estudiante para que coloquen sus datos.\n5. Aplica la evaluación, ítem por ítem, dando el tiempo necesario. La evaluación consta de 7 puntos:\n- Ítem 1: Escribir el número anterior y posterior a las cantidades dadas (23,789; 123,700; 1,723,799; 24,947,231; 845,999,999; 12,709; 745,000; 1,813,400) (16 pts).\n- Ítem 2: Usar tabla de visitantes para: a) ordenar de mayor a menor (24,846; 24,109; 20,200; 20,195; 18,790); b) total jueves + viernes (38,985); c) total sábado + domingo (48,955); d) total miércoles + jueves + viernes (59,185); e) representar en recta numérica (18 pts).\n- Ítem 3: Escribir en forma desarrollada las cantidades de visitantes: 2,683,802 = 2,000,000 + 600,000 + 80,000 + 3,000 + 800 + 2; 56,371,400 = 50,000,000 + 6,000,000 + 300,000 + 70,000 + 1,000 + 400; etc. (15 pts).\n- Ítem 4: Redondear 674,523 a: decenas (674,520); centenas de millar (700,000); unidades de millar (675,000); centenas (674,500) (12 pts).\n- Ítem 5: Resolver en forma desarrollada: a) 32,503 + 25,892 = 58,395; b) 75,820 + 92,403 = 168,223; c) 13,002,303 + 11,724,200 = 24,726,503 (15 pts).\n- Ítem 6: Problemas: a) padre ahorró RD$ 234,800 y RD$ 453,509, estimar suma a unidad de millar (235,000 + 454,000 = 689,000); b) tío prestó RD$ 439,000 y RD$ 649,800, total = 1,088,800 (12 pts).\n- Ítem 7: Completar espacios aplicando propiedades: a) 330,040 + 200,500 = 200,500 + 330,040 (conmutativa); b) 160,000 + (180,000 + 325,000) = (160,000 + 180,000) + 325,000 (asociativa); c) 0 + 190,420 = 190,420 + 0 (neutro) (12 pts).",
+          "actividad_numero": "Actividad 12 Evaluación (págs. 29-31)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones de los estudiantes",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Puede hacer un breve comentario sobre la importancia de la evaluación para medir el aprendizaje.\n3. Anuncia que en la próxima clase se darán los resultados y se retroalimentarán los puntos con mayores dificultades.",
+          "actividad_numero": "Actividad 12 (Cierre)"
+        }
+      ]
+    }
+  ]
+}

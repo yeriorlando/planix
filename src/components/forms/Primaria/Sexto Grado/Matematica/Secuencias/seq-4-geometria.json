@@ -1,0 +1,555 @@
+{
+  "id": "seq-1772494462131",
+  "title": "Geometría",
+  "description": "Analiza las figuras geométricas y sus propiedades, especialmente la identificación y comparación de formas, congruencia de figuras y relaciones geométricas presentes en el entorno.",
+  "order": 4,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772494462124",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Ideas básicas de geometría",
+      "intencion_pedagogica": "Introducir a los estudiantes en las ideas básicas de geometría, ayudándoles a diferenciar entre punto, recta, rayo, segmento y plano, identificando estos elementos en su entorno y comprendiendo sus características fundamentales.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre señalizaciones y geometría.\n• Uso de imágenes: Representaciones de punto, recta, rayo, segmento y plano.\n• Uso de video: \"Conceptos básicos de geometría\".\n• Trabajo colaborativo: Identificación de elementos geométricos en el entorno.",
+      "aprendizaje_significativo": "Los estudiantes relacionan los conceptos geométricos básicos con las señalizaciones de calles y carreteras que observan en su comunidad, comprendiendo que la geometría está presente en la vida cotidiana y en la infraestructura vial.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan tarjetas con los nombres de las figuras para que las asocien con las imágenes.\n• Para estudiantes kinestésicos: Pueden dibujar en el piso con tiza una recta, un rayo y un segmento.\n• Para estudiantes con discapacidad visual: Se les proporcionan las figuras en relieve para que puedan palpar las diferencias.\n• Para estudiantes avanzados: Se les pide que investiguen otros conceptos geométricos básicos (ángulo, vértice).",
+      "actividades_cuaderno": "Actividad para el cuaderno:;\nAdivinanzas\n¿Quién es?\tDibújelo",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente pregunta: \"¿Quiénes han observado alguna señal de tránsito en su comunidad? ¿Qué forma geométrica tienen esas señales? ¿Qué es un punto? ¿Qué es un rayo? ¿Qué es un segmento? ¿Qué es una recta? ¿Qué es un plano?\" (pág. 114).\n2. Escucha las respuestas y genera otras preguntas para explorar conocimientos previos.\n3. Pide a los estudiantes que infieran el título de la clase.",
+          "actividad_numero": "Actividad 1 - A (Pág. 114)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C ",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con imágenes de punto, recta, rayo, segmento, plano (pág. 114)\n• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Presentación de imágenes (20 min):\n1. El docente muestra las imágenes de la página 114 (punto, recta, rayo, segmento, plano) preparadas en un papelógrafo.\n2. Pregunta: \"¿Cómo se llama la imagen marcada con T? ¿Y la marcada con AB? ¿Cómo se llama la imagen marcada con q? ¿Y la marcada con CD? ¿Y la marcada con P?\"\n3. Ayuda a identificar las imágenes.\n\nActividad 2 - Video y diálogo (20 min):\n1. Si tiene acceso a tecnología, presenta el video \"Conceptos básicos de geometría\" disponible en: https://www.youtube.com/watch?v=PjQIWTKAy6o&t=198s (hasta minuto 5:12) (pág. 114).\n2. Después del video, pregunta: \"¿Qué aprendieron? ¿Qué es un punto? ¿Qué es una semirrecta o rayo? ¿Qué es una recta? ¿Cómo definen el plano? ¿Qué es un segmento?\"\n3. En caso de no tener tecnología, utiliza las imágenes del papelógrafo para explicar los conceptos.\n\nActividad 3 - Identificación en el entorno (20 min):\n1. El docente pide a los estudiantes que observen el aula y todo lo que hay en ella para identificar los elementos geométricos representados.\n2. Construyen entre todos las conceptualizaciones de punto (localización), recta (dirección) y plano (superficie).\n3. Presenta la cápsula de la página 114-115.",
+          "actividad_numero": "Actividad 1 - B y C (Pág. 114-115)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 115): Identificar la figura geométrica que resuelve cada adivinanza.\n2. Realiza preguntas de cierre: \"¿Qué es un punto en geometría? ¿Qué es un plano? ¿En qué se diferencia un segmento de recta y un rayo?\" (pág. 115).\n3. Asigna la actividad complementaria (pág. 115): Observar la imagen y nombrar 2 puntos, 2 rectas, 2 segmentos de recta y 2 rayos.",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 115)"
+        }
+      ]
+    },
+    {
+      "id": "1772494726626",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Figuras semejantes",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la capacidad de identificar figuras geométricas semejantes, comprendiendo que tienen la misma forma pero diferente tamaño, y determinando la razón de semejanza entre ellas.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre figuras geométricas.\n• Uso de video: \"Figuras semejantes\".\n• Trabajo colaborativo: Identificación de figuras semejantes.\n• Resolución de ejercicios: Determinación de la razón de semejanza.",
+      "aprendizaje_significativo": "Los estudiantes identifican figuras semejantes en su entorno, como fotografías ampliadas o reducidas, planos arquitectónicos o mapas, comprendiendo que la semejanza conserva la forma pero no el tamaño.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras con las medidas de los lados para que calculen la razón directamente.\n• Para estudiantes kinestésicos: Pueden dibujar las figuras y medir los lados con regla.\n• Para estudiantes con discapacidad visual: Se les proporcionan figuras en relieve para que palpen las proporciones.\n• Para estudiantes avanzados: Se les pide que dibujen una figura semejante con razón de semejanza 2:1.",
+      "actividades_cuaderno": "Actividad para el cuaderno:\n\"Los siguientes pares de figuras son semejantes. Determina la razón de semejanza.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué recuerdan de figuras geométricas? ¿Qué figuras observan en puertas y ventanas? ¿Qué forma tiene la pizarra?\" (pág. 116).\n2. Escucha las respuestas.\n3. Anuncia que observarán un video sobre figuras semejantes.",
+          "actividad_numero": "Actividad 2 - A (Pág. 116)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Fotocopias de las figuras de la página 119\n• Pizarra\n• Cuadernos\n• Reglas",
+          "descripcion": "Actividad 1 - Video y diálogo (20 min):\n1. El docente presenta el video \"Figuras semejantes\" disponible en: https://www.youtube.com/watch?v=4MxChkgm370&t=83s (pág. 116).\n2. Después del video, pregunta: \"¿Qué son figuras semejantes? ¿Cuáles características tienen? ¿Cómo son los lados de las figuras semejantes? ¿Cómo encontraron la razón de proporcionalidad?\" (pág. 116).\n3. En caso de no tener tecnología, utiliza la cápsula de la página 116.\n\nActividad 2 - Cápsula y ejemplos (20 min):\n1. Presenta la cápsula sobre figuras semejantes (pág. 116).\n2. Muestra ejemplos en la pizarra de pares de figuras semejantes y no semejantes.\n3. Explica que la razón de semejanza se obtiene dividiendo las longitudes correspondientes.\n\nActividad 3 - Actividad para el cuaderno (20 min):\n1. Asigna la actividad de la página 119: \"Los siguientes pares de figuras son semejantes. Determina la razón de semejanza.\"\n2. Los estudiantes trabajan en sus cuadernos mientras el docente circula y apoya.",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 116-119)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Cuándo dos figuras geométricas son semejantes? ¿Cuál es el caso especial de semejanza? ¿Cómo se determina la razón de semejanzas?\" (pág. 119).\n2. Asigna la actividad complementaria (pág. 119): a) Realizar actividades del Libro abierto de Matemática 6° grado, páginas 77, 78, 80 y 81; b) Determinar si las figuras son semejantes y colocar la razón.\n3. Asigna la actividad para el diario del estudiante (pág. 119): \"Dibuja dos figuras semejantes, utilizando regla y transportador.\"",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 119)"
+        }
+      ]
+    },
+    {
+      "id": "1772494789229",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Figras congruentes",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la capacidad de identificar figuras geométricas congruentes, comprendiendo que tienen igual forma y tamaño, y que al superponerse coinciden perfectamente.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos sobre figuras congruentes.\n• Uso de video: \"Figuras congruentes\".\n• Trabajo colaborativo: Identificación de figuras congruentes.\n• Uso de material concreto: Recorte y superposición de figuras.",
+      "aprendizaje_significativo": "Los estudiantes identifican figuras congruentes en su entorno, como baldosas, ventanas o piezas de un mismo molde, comprendiendo que la congruencia implica igual forma y tamaño.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras recortadas para que las superpongan y verifiquen congruencia.\n• Para estudiantes kinestésicos: Pueden recortar las figuras y superponerlas físicamente.\n• Para estudiantes con discapacidad visual: Se les proporcionan figuras en relieve para que palpen la igualdad de formas y tamaños.\n• Para estudiantes avanzados: Se les pide que expliquen la diferencia entre semejanza y congruencia.",
+      "actividades_cuaderno": "\"Identifica las figuras geométricas congruentes colocando una C.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n• Dibujos de los estudiantes",
+          "descripcion": "1. El docente pregunta: \"¿Cómo dibujaron las figuras semejantes? ¿Qué instrumentos usaron?\" (pág. 119).\n2. Invita a algunos estudiantes a mostrar sus dibujos.\n3. Luego, pregunta: \"¿Dónde observan figuras geométricas en el aula? ¿Cuáles tienen igual forma y tamaño?\" (pág. 120).",
+          "actividad_numero": "Actividad 3 - A (Pág. 120)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Papelógrafo con figuras de la página 121\n• Fotocopias de la página 122 para la actividad del cuaderno\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (20 min):\n1. El docente presenta el video \"Figuras congruentes\" disponible en: https://www.youtube.com/watch?v=2GltetHfqk4 (pág. 120).\n2. Después del video, pregunta: \"¿Qué son figuras congruentes? ¿Cuáles características tienen? ¿Cómo son los lados y ángulos?\"\n3. En caso de no tener tecnología, utiliza la cápsula de la página 120.\n\nActividad 2 - Identificación de figuras (25 min):\n1. El docente presenta en un papelógrafo las figuras de la página 121.\n2. Pregunta: \"¿Cómo son las figuras de la columna 1? ¿Por qué? ¿En cuál columna las figuras no son congruentes? ¿Por qué?\"\n3. Los estudiantes trabajan en sus cuadernos identificando las figuras congruentes.\n4. Socializa apoyándose en la tabla de la página 121, explicando que se cuentan los cuadritos o lados para verificar congruencia.\n\nActividad 3 - Actividad para el cuaderno (15 min):\n1. Asigna la actividad de la página 122: \"Identifica las figuras geométricas congruentes colocando una C.\"",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 120-122)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cuándo dos figuras geométricas son congruentes?\" (pág. 122).\n2. Presenta figuras en la pizarra y pregunta si son congruentes y por qué.\n3. Asigna la actividad complementaria (pág. 122): a) Actividades del Libro abierto de Matemática 6°, páginas 77, 78, 80 y 81; b) Identificar figuras congruentes.\n4. Asigna la actividad para el diario del estudiante (pág. 122): \"Dibuja dos figuras congruentes, utilizando regla.\"",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 122)"
+        }
+      ]
+    },
+    {
+      "id": "1772495280387",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Los polígonos",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la capacidad de identificar y clasificar polígonos en regulares e irregulares, analizando las características de sus lados y ángulos, y aplicando estos conocimientos en situaciones del entorno.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre polígonos y circunferencias.\n• Uso de imágenes: Presentación de rotondas y diseños de plazas públicas.\n• Trabajo colaborativo: Identificación de polígonos inscritos y circunscritos en imágenes.\n• Uso de cápsulas informativas: Definición y ejemplos de polígonos inscritos y circunscritos.",
+      "aprendizaje_significativo": "Los estudiantes observan polígonos inscritos y circunscritos en diseños de rotondas y plazas públicas de su comunidad, comprendiendo que la geometría está presente en la arquitectura y el urbanismo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla con ejemplos de polígonos regulares e irregulares.\n• Para estudiantes kinestésicos: Pueden dibujar los polígonos y medir sus lados con regla.\n• Para estudiantes con discapacidad visual: Se les proporcionan las figuras en relieve para que palpen lados y ángulos.\n• Para estudiantes avanzados: Se les pide que investiguen las propiedades de los polígonos regulares.",
+      "actividades_cuaderno": "\"Identifique en otras imágenes observadas por el hijo mayor de Luis los polígonos regulares colocando R y a los irregulares PI.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores\n• Dibujos de los estudiantes",
+          "descripcion": "1. El docente pregunta: \"¿Cómo dibujaron las señales de tránsito? ¿Qué instrumentos usaron?\" (retomando actividad de la pág. 127).\n2. Invita a algunos estudiantes a mostrar sus dibujos en la pizarra.\n3. Luego, establece diálogo: \"¿Qué es un polígono? ¿Qué es una circunferencia? ¿Qué es un vértice?\" (pág. 128).",
+          "actividad_numero": "Actividad 4 - A (Pág. 123)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con imágenes de la página 128 (polígonos inscritos y circunscritos)\n• Papelógrafo con imágenes de la página 129 (rotondas)\n• Fotocopias de la página 130 para la actividad del cuaderno\n• Pizarra\n• Cuadernos\n• Lápices",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Polígonos regulares e irregulares\" disponible en: https://www.youtube.com/watch?v=VoTJ0FEVt2Y&t=77s (pág. 123).\n2. Después del video, pregunta: \"¿Qué aprendieron? ¿Cuáles polígonos son regulares? ¿Cuáles son irregulares? ¿Qué tienen igual los regulares?\"\n3. En caso de no tener tecnología, utiliza la tabla de la página 123.\n\nActividad 2 - Situación problemática (25 min):\n1. El docente plantea la situación (pág. 124): \"Luis y sus hijos viajan de Santiago a Santo Domingo y observan señalizaciones en el pavimento. Él quiere saber cuáles polígonos son regulares o irregulares.\"\n2. Presenta la tabla de señales de la página 124.\n3. Los estudiantes trabajan en sus cuadernos colocando PR para regulares y PI para irregulares.\n4. Socializa apoyándose en la tabla de la página 125, explicando las características de cada señal.\n\nActividad 3 - Cápsula y actividad para el cuaderno (20 min):\n1. Presenta la cápsula sobre polígonos regulares e irregulares (pág. 126).\n2. Asigna la actividad de la página 125: \"Identifique en otras imágenes observadas por el hijo mayor de Luis los polígonos regulares colocando R y a los irregulares PI.\"",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 123-126)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "Actividad 4 - Cierre (Pág. 126-127)",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n• Compás\n• Reglas\n• Transportadores",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué es un polígono? ¿Cuándo es regular? ¿Cuándo es irregular?\" (pág. 126).\n2. Presenta la cápsula de características (pág. 126).\n3. Asigna la actividad complementaria (pág. 127): a) Actividad del Libro abierto página 60; b) Problemas sobre polígonos; c) Identificar polígonos en imágenes.\n4. Asigna la actividad para el diario del estudiante (pág. 127): \"Dibuje dos señales de tránsito que sean polígonos regulares y dos irregulares usando instrumentos geométricos.\"",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 126-127)"
+        }
+      ]
+    },
+    {
+      "id": "1772495455398",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Polígonos inscritos y circunscritos",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la capacidad de identificar polígonos inscritos y circunscritos, comprendiendo la relación entre el polígono y la circunferencia que lo contiene o lo rodea.",
+      "estrategia": "• Revisión de tarea: Socialización de los dibujos de señales.\n• Diálogo dirigido: Exploración de conocimientos sobre polígonos inscritos y circunscritos.\n• Uso de video: \"Polígonos inscritos y circunscritos\".\n• Trabajo colaborativo: Identificación de polígonos en imágenes de rotondas.",
+      "aprendizaje_significativo": "Los estudiantes observan polígonos inscritos y circunscritos en diseños de rotondas y plazas públicas de su comunidad, comprendiendo que la geometría está presente en la arquitectura y el urbanismo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan imágenes con los polígonos y circunferencias ya señalados.\n• Para estudiantes kinestésicos: Pueden dibujar sus propios polígonos inscritos y circunscritos con compás y regla.\n• Para estudiantes con discapacidad visual: Se les proporcionan las figuras en relieve para que palpen la relación polígono-circunferencia.\n• Para estudiantes avanzados: Se les pide que expliquen la diferencia entre inscrito y circunscrito con sus propias palabras.",
+      "actividades_cuaderno": "\"Identifica en las siguientes imágenes los polígonos regulares inscritos con una PI y los circunscritos con una PC.\"\n\nConsultar guia.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Con cuáles instrumentos dibujaron las señales? ¿Cómo son las longitudes de los lados en los polígonos regulares? ¿Y en los irregulares?\" (pág. 128).\n2. Invita a algunos estudiantes a representar sus polígonos en la pizarra.\n3. Luego, pregunta: \"¿Qué es un polígono inscrito? ¿Qué es un polígono circunscrito?\" (pág. 128).",
+          "actividad_numero": "Actividad 5 - A (Pág. 128)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video\n• Proyector/TV\n• Computadora\n• Papelógrafo con imágenes\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente presenta el video \"Polígonos inscritos y circunscritos\" disponible en: https://www.youtube.com/watch?v=7CTOWwWW (pág. 128).\n2. Después del video, pregunta: \"¿Qué aprendieron? ¿Qué es un polígono inscrito? ¿Qué parte del polígono toca la circunferencia? ¿Qué es un polígono circunscrito?\"\n3. En caso de no tener tecnología, utiliza las imágenes de la página 128-129.\n\nActividad 2 - Cápsula y ejemplos (15 min):\n1. Presenta la cápsula sobre polígonos inscritos y circunscritos (pág. 128).\n2. Muestra ejemplos en la pizarra.\n\nActividad 3 - Situación problemática (25 min):\n1. El docente plantea la situación (pág. 129): \"Un estudiante visita la ciudad capital y observa diseños de rotondas. ¿Cómo se llamarán esos polígonos?\"\n2. Presenta las imágenes de la página 129.\n3. Los estudiantes trabajan en sus cuadernos identificando los polígonos.\n4. Socializa apoyándose en la tabla de la página 129, explicando que los vértices tocan la circunferencia (inscrito) o los lados son tangentes (circunscrito).",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 128-129)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 130): \"Identifica en las siguientes imágenes los polígonos regulares inscritos con una PI y los circunscritos con una PC.\"\n2. Realiza preguntas de cierre: \"¿Qué es un polígono regular inscrito? ¿Qué es un polígono circunscrito?\" (pág. 130).\n3. Asigna la actividad complementaria (pág. 130-131): a) Actividades del Libro abierto páginas 66 y 67; b) Problemas sobre plazas y rotondas; c) Dibujar polígonos inscritos y circunscritos.\n4. Asigna la actividad para el diario del estudiante (pág. 131): \"Dibuja un triángulo inscrito de 3 cm de lados utilizando instrumentos de medidas.\"",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 130-131)"
+        }
+      ]
+    },
+    {
+      "id": "1772495619322",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Número de diagonales de un polígono",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular el número de diagonales desde un vértice y el total de diagonales en un polígono, aplicando las fórmulas correspondientes y comprendiendo su deducción.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre diagonales.\n• Uso de video: \"Número de diagonales de un polígono\".\n• Resolución de problemas: Aplicación de fórmulas para calcular diagonales desde un vértice y totales.",
+      "aprendizaje_significativo": "Los estudiantes aplican el cálculo de diagonales a situaciones cotidianas como observar señales de tránsito (octágono de PARE, cuadrilátero de zona escolar), comprendiendo que las fórmulas matemáticas tienen aplicaciones prácticas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla con las fórmulas y ejemplos resueltos.\n• Para estudiantes kinestésicos: Pueden dibujar los polígonos y trazar las diagonales para contarlas.\n• Para estudiantes con discapacidad visual: Se les proporcionan polígonos en relieve para que palpen y cuenten las diagonales.\n• Para estudiantes avanzados: Se les pide que deduzcan la fórmula para el número total de diagonales.",
+      "actividades_cuaderno": "\"Durante un recorrido a pie por las calles de su comunidad, un estudiante observa una señal de tránsito de forma hexagonal. ¿Cuántas diagonales en total pueden trazarse en este polígono y desde un vértice?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo dibujaron el triángulo inscrito? ¿Qué polígono regular inscribieron en la circunferencia?\" (pág. 131).\n2. Invita a un estudiante a mostrar su dibujo en la pizarra.\n3. Luego, pregunta: \"¿Saben qué es una diagonal? ¿Cómo se trazan? ¿Cuántas diagonales tiene un triángulo? ¿Y un cuadrilátero?\" (pág. 131).",
+          "actividad_numero": "Actividad 6 - A (Pág. 131)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Número de diagonales de un polígono\" disponible en: https://www.youtube.com/watch?v=t9VDM5sYo0k (pág. 131).\n2. Después del video, pregunta: \"¿De qué trató? ¿Cuántas diagonales tiene un cuadrilátero? ¿Y un pentágono? ¿Qué regularidad notaron? ¿Cuál letra representa el número de lados?\" (pág. 132).\n3. En caso de no tener tecnología, explica directamente las fórmulas.\n\nActividad 2 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 132): \"De camino a la escuela un estudiante observa dos señales de tránsito, una de Pare (octágono) y otra de Zona escolar (cuadrilátero). ¿Cuántas diagonales pueden trazarse desde un vértice y en total en cada polígono?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo lo resolverán?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía voluntarios a la pizarra.\n6. Socializa apoyándose en los cuadros de la página 132-133, explicando las fórmulas: dv = n - 3 y D = n(n-3)/2.\n\nActividad 3 - Cápsula y actividad para el cuaderno (15 min):\n1. Presenta la cápsula sobre diagonales (pág. 134).\n2. Asigna la actividad de la página 134: \"Durante un recorrido a pie por las calles de su comunidad, un estudiante observa una señal de tránsito de forma hexagonal. ¿Cuántas diagonales en total pueden trazarse en este polígono y desde un vértice?\"",
+          "actividad_numero": "Actividad 6 - B y C (Pág. 131-134)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Presenta la tabla de la página 134 para que los estudiantes completen el número de diagonales desde un vértice y totales para cada polígono.\n2. Realiza preguntas de cierre: \"¿Cuántos vértices tiene el polígono? ¿Cuántas diagonales por vértice? ¿Cuántas diagonales en total?\" (pág. 134).\n3. Asigna la actividad complementaria (pág. 134-135): a) Actividades del Libro abierto página 2; b) Problemas sobre señalizaciones y glorietas; c) Calcular diagonales de diferentes polígonos.\n4. Asigna la actividad para el diario del estudiante (pág. 135): \"July le pregunta a Antonia que si el número de diagonales trazadas desde un vértice son 7, ¿cómo puede saber el número de lados del polígono para dibujarlo?\"",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 134-135)"
+        }
+      ]
+    },
+    {
+      "id": "1772495762231",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Los cuadriláteros",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la capacidad de identificar y clasificar cuadriláteros en paralelogramos, trapecios y trapezoides, analizando el paralelismo de sus lados.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Clasificación de cuadriláteros\".\n• Trabajo colaborativo: Identificación de cuadriláteros en mapas de la comunidad.\n• Clasificación: Diferenciación entre paralelogramos, trapecios y trapezoides.",
+      "aprendizaje_significativo": "Los estudiantes identifican diferentes tipos de cuadriláteros en el trazado de calles de su comunidad, comprendiendo que las formas geométricas están presentes en el diseño urbano.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla con ejemplos de cada tipo de cuadrilátero.\n• Para estudiantes kinestésicos: Pueden dibujar los cuadriláteros y marcar los lados paralelos con colores.\n• Para estudiantes con discapacidad visual: Se les proporcionan figuras en relieve para que palpen los lados paralelos.\n• Para estudiantes avanzados: Se les pide que investiguen las propiedades de cada tipo de cuadrilátero.",
+      "actividades_cuaderno": "\"En una intersección de la ciudad, un estudiante observa unas señales. Escribe los nombres de los cuadriláteros que observa.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de July? ¿Cuántos lados tiene el polígono de 7 diagonales desde un vértice?\" (pág. 135).\n2. Invita a un estudiante a mostrar su solución en la pizarra.\n3. Luego, pregunta: \"¿Qué es un cuadrilátero? ¿Cuántos lados tiene? Menciona algunos cuadriláteros. ¿Qué son paralelogramos?\" (pág. 135).",
+          "actividad_numero": "Actividad 7 - A (Pág. 135)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Papelógrafo con el mapa de la comunidad (pág. 136)\n• Fotocopias de la página 137 para la actividad del cuaderno\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Clasificación de cuadriláteros\" disponible en: https://www.youtube.com/watch?v=GBl62iBnQzg (pág. 135).\n2. Después del video, pregunta: \"¿Qué son los cuadriláteros? ¿Cómo se clasifican? ¿Cuáles son paralelogramos? ¿Qué son líneas paralelas? ¿Cuáles tienen solo un par de paralelas? ¿Cuáles no tienen paralelas?\" (pág. 135).\n3. En caso de no tener tecnología, utiliza la cápsula de la página 137.\n\nActividad 2 - Situación problemática (25 min):\n1. El docente plantea la situación (pág. 136): \"Un estudiante busca en Internet el mapa de su comunidad y observa que las calles forman distintos cuadriláteros. ¿Cuáles tipos de cuadriláteros identificas?\"\n2. Presenta el mapa de la comunidad (pág. 136).\n3. Los estudiantes trabajan en sus cuadernos dibujando algunos cuadriláteros y clasificándolos.\n4. Socializa apoyándose en el cuadro de la página 136 (paralelogramos, trapecios, trapezoides).\n\nActividad 3 - Cápsula y actividad para el cuaderno (20 min):\n1. Presenta la cápsula sobre cuadriláteros (pág. 137).\n2. Asigna la actividad de la página 137: \"En una intersección de la ciudad, un estudiante observa unas señales. Escribe los nombres de los cuadriláteros que observa.\"",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 135-137)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre sobre la clasificación de cuadriláteros.\n2. Asigna la actividad complementaria (pág. 137-138): a) Actividades del Libro abierto páginas 63 y 64; b) Sopa de letras de cuadriláteros.\n3. Asigna la actividad para el diario del estudiante (pág. 138): \"Dibuja dos cuadriláteros paralelogramos y un trapezoide, luego coloca sus nombres.\"",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 137-138)"
+        }
+      ]
+    },
+    {
+      "id": "1772495950223",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Los cuadriláteros y sus ángulos",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de calcular ángulos internos y externos en cuadriláteros, aplicando propiedades como la suma de ángulos internos (360°) y la relación entre ángulos consecutivos y opuestos.",
+      "estrategia": "• Revisión de tarea: Socialización de los dibujos de cuadriláteros.\n• Diálogo dirigido: Exploración de conocimientos sobre ángulos.\n• Resolución de problemas: Cálculo de ángulos internos y externos en rombos.\n• Uso de transportador: Medición y verificación de ángulos.",
+      "aprendizaje_significativo": "Los estudiantes aplican el cálculo de ángulos a situaciones cotidianas como señales de tránsito (rombo) o diseños arquitectónicos, comprendiendo que los ángulos son fundamentales en la construcción.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona un rombo con las medidas de los ángulos ya marcadas.\n• Para estudiantes kinestésicos: Pueden medir los ángulos con transportador en un rombo dibujado.\n• Para estudiantes con discapacidad visual: Se les proporciona un rombo en relieve con los ángulos señalados.\n• Para estudiantes avanzados: Se les pide que calculen los ángulos externos en cada vértice.",
+      "actividades_cuaderno": "\"Un estudiante ve la señal de zona escolar y quiere averiguar a partir de la medida de un ángulo interior de 75°, cuál es el valor de los ángulos externos en ese vértice.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n• Transportadores",
+          "descripcion": "1. El docente pregunta: \"¿Qué cuadriláteros dibujaron? ¿Cómo realizaron el trapezoide?\" (pág. 138).\n2. Invita a un estudiante a dibujar un cuadrilátero en la pizarra y escribir su nombre.\n3. Luego, muestra imágenes de cuadriláteros y pregunta: \"¿Cuántos ángulos internos tiene? ¿Cuánto suman? ¿Con qué instrumento se miden los ángulos?\" (pág. 138).",
+          "actividad_numero": "Actividad 8 - A (Pág. 138)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con imagen del rombo (pág. 139)\n• Pizarra\n• Transportadores\n• Cuadernos",
+          "descripcion": "Actividad 1 - Exploración de ángulos (10 min):\n1. El docente muestra la imagen de un rombo con ángulos (pág. 139).\n2. Pregunta: \"¿Dónde están ubicados esos ángulos?\"\n\nActividad 2 - Situación problemática (35 min):\n1. El docente plantea la situación (pág. 139): \"Un papá y su hijo observan una señal en el pavimento en forma de rombo. Ellos quieren saber ¿cuánto miden los ángulos internos y externos en cada vértice?\"\n2. Presenta la imagen del rombo con un ángulo de 115°.\n3. Los estudiantes trabajan en sus cuadernos dibujando el rombo.\n4. Socializa apoyándose en los cuadros de la página 140.\n5. Explica que en un rombo los ángulos opuestos son congruentes y los consecutivos son suplementarios (suman 180°).\n\nActividad 3 - Actividad para el cuaderno (15 min):\n1. Asigna la actividad (pág. 140): \"Un estudiante ve la señal de zona escolar y quiere averiguar a partir de la medida de un ángulo interior de 75°, cuál es el valor de los ángulos externos en ese vértice.\"",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 138-140)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Presenta la cápsula sobre ángulos interiores y exteriores (pág. 141).\n2. Asigna la actividad complementaria (pág. 141).\n3. Asigna la actividad para el diario del estudiante (pág. 141): \"Una señal de tránsito tiene forma de rombo regular, si uno de sus ángulos internos mide 70°, ¿cuánto mide cada ángulo faltante?\"",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 141)"
+        }
+      ]
+    },
+    {
+      "id": "1772496055429",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Triángulo rectángulo",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la capacidad de identificar triángulos rectángulos, diferenciando catetos e hipotenusa, y reconociendo el ángulo recto.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Triángulo rectángulo, catetos e hipotenusa\".\n• Resolución de problemas: Identificación de catetos e hipotenusa en situaciones cotidianas.\n• Uso de material concreto: Dibujo de triángulos rectángulos con regla y escuadra.",
+      "aprendizaje_significativo": "Los estudiantes identifican triángulos rectángulos en situaciones cotidianas como cortar lozas en diagonal o construir rampas, comprendiendo la utilidad de este tipo de triángulo en la construcción.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan triángulos rectángulos ya dibujados con los lados etiquetados.\n• Para estudiantes kinestésicos: Pueden construir triángulos rectángulos con palitos de madera.\n• Para estudiantes con discapacidad visual: Se les proporcionan triángulos en relieve para palpar el ángulo recto.\n• Para estudiantes avanzados: Se les pide que expliquen por qué la hipotenusa es el lado mayor.",
+      "actividades_cuaderno": "\"La casa de un estudiante está en construcción y le están colocando lozas rectangulares en su marquesina. Si para completar un espacio se corta una loza en diagonal formando dos triángulos rectángulos congruentes. ¿Qué harías para identificar los catetos e hipotenusa?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de la señal de tránsito? ¿Cuánto miden los ángulos faltantes?\" (pág. 141).\n2. Invita a un estudiante a resolver en la pizarra.\n3. Luego, pregunta: \"¿Qué es un triángulo rectángulo? ¿Por qué se llama así? ¿Cómo se llaman sus lados?\" (pág. 142).",
+          "actividad_numero": "Actividad 9 - A (Pág. 142)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos\n• Reglas y escuadras",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Triángulo rectángulo\" disponible en: https://www.youtube.com/watch?v=eTEBvBIz80K&t=139s (hasta minuto 5:02) (pág. 142).\n2. Después del video, pregunta: \"¿De qué trató? ¿Qué características tiene? ¿Qué ángulo se forma en la unión de los catetos? ¿Qué es la hipotenusa?\"\n3. En caso de no tener tecnología, utiliza la cápsula de la página 142.\n\nActividad 2 - Cápsula y ejemplos (20 min):\n1. Presenta la cápsula sobre triángulo rectángulo, Teorema de Pitágoras, hipotenusa y catetos (pág. 142).\n2. Muestra triángulos rectángulos y pide identificar hipotenusa (c) y catetos (a y b).\n\nActividad 3 - Situación problemática (25 min):\n1. El docente plantea la situación (pág. 143): \"Se construye una acera usando lozas cuadradas. Si en una esquina se necesita cortar una loza en diagonal formando dos triángulos, ¿cuál será la ubicación de los catetos y la hipotenusa?\"\n2. Los estudiantes dibujan el triángulo en sus cuadernos.\n3. Socializa apoyándose en el cuadro de la página 143.",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 142-143)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 143): a) Actividad del Libro abierto página 68; b) Problema sobre lozas rectangulares.\n2. Asigna la actividad complementaria (pág. 144): Identificar catetos, hipotenusa y ángulos rectos en una imagen.\n3. Asigna la actividad para el diario del estudiante (pág. 144): \"Identifica en tu casa o comunidad triángulos rectángulos dibujándolos.\"",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 143-144)"
+        }
+      ]
+    },
+    {
+      "id": "1772496126215",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "El Teorema de Pitágoras",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de aplicar el Teorema de Pitágoras para calcular lados desconocidos en triángulos rectángulos, resolviendo problemas del entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Teorema de Pitágoras\".\n• Resolución de problemas: Aplicación del teorema en situaciones cotidianas (escaleras, postes).\n• Uso de calculadora: Cálculo de raíces cuadradas.",
+      "aprendizaje_significativo": "Los estudiantes aplican el Teorema de Pitágoras a situaciones cotidianas como calcular la longitud de una escalera apoyada en un poste, comprendiendo su utilidad en la vida real y en la construcción.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para aplicar el teorema.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para practicar raíces cuadradas.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que resuelvan problemas donde falte un cateto.",
+      "actividades_cuaderno": "\"Una comunidad se comunica con la carretera principal a través de unos escalones construidos aplicando el teorema de Pitágoras, si la altura de estos son 8 ft y la distancia de la base a los escalones son 6 ft ¿Cuántos pies de longitud tienen los escalones?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Dónde identificaron triángulos rectángulos? ¿Qué usaron para dibujarlos?\" (pág. 144).\n2. Luego, pregunta: \"¿Qué saben del Teorema de Pitágoras? ¿Cuál es su importancia?\" (pág. 144).",
+          "actividad_numero": "Actividad 10 - A (Pág. 144)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Papelógrafo con ejemplo resuelto (pág. 145)\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Teorema de Pitágoras\" disponible en: https://www.youtube.com/watch?v=EtpBriFADEs (desde 2:07 hasta 7:22) (pág. 144).\n2. Después del video, pregunta: \"¿En qué situaciones se puede usar? ¿En qué triángulo se aplica? ¿Qué significa c² = a² + b²? ¿Qué es una terna pitagórica?\" (pág. 144).\n3. En caso de no tener tecnología, utiliza el ejemplo de la página 145.\n\nActividad 2 - Ejemplo y cápsula (15 min):\n1. Presenta el ejemplo resuelto de la página 145.\n2. Explica la fórmula y cómo despejar la hipotenusa.\n3. Presenta la cápsula sobre Pitágoras (pág. 145).\n\nActividad 3 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 145): \"Una brigada del servicio eléctrico cambia bombillas usando una escalera. La altura del poste es 14 ft y la distancia de la escalera a la base del poste es 8 ft. ¿Cuál es la longitud de la escalera?\"\n2. Los estudiantes trabajan en sus cuadernos.\n3. Socializa apoyándose en la tabla de la página 146.\n4. Explica cómo sustituir en la fórmula y cómo usar la calculadora para raíces cuadradas.",
+          "actividad_numero": "Actividad 10 - B y C (Pág. 144-146)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Asigna la actividad para el cuaderno (pág. 146): \"Una comunidad se comunica con la carretera principal a través de escalones. La altura es 8 ft y la distancia de la base a los escalones es 6 ft. ¿Cuántos pies de longitud tienen los escalones?\"\n2. Realiza preguntas de cierre: \"¿Qué es el teorema de Pitágoras? ¿Por qué se extrae raíz cuadrada?\" (pág. 146).\n3. Asigna la actividad complementaria (pág. 147).\n4. Asigna la actividad para el diario del estudiante (pág. 147): \"Juan quiere elevar una cometa hasta 100 m y la distancia donde se coloca a un punto debajo del cometa es 130 m. ¿Qué cantidad de hilo necesita?\"",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 146-147)"
+        }
+      ]
+    },
+    {
+      "id": "1772496229806",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Más sobre el Teorema de Pitágoras",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de aplicar el Teorema de Pitágoras para calcular catetos desconocidos, utilizando las fórmulas derivadas (a² = c² - b²), y resolver problemas del entorno donde se requiera encontrar un lado faltante.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: Continuación del video sobre Teorema de Pitágoras.\n• Resolución de problemas: Cálculo de catetos desconocidos.\n• Uso de calculadora: Cálculo de raíces cuadradas y potencias.",
+      "aprendizaje_significativo": "Los estudiantes aplican el Teorema de Pitágoras para calcular catetos desconocidos en situaciones cotidianas como la altura de un poste o la distancia de una escalera, comprendiendo que el teorema permite encontrar cualquier lado del triángulo rectángulo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía con los pasos para despejar el cateto.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los cálculos de potencias y raíces.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que resuelvan problemas donde ambos catetos sean desconocidos.",
+      "actividades_cuaderno": "\"La compañía de electricidad cambia las bombillas de iluminación en la Avenida 27 de febrero, la escalera usada para cambiarlas tiene una longitud de 10 m y está colocada a una distancia de 6 m de la base del poste de luz. ¿A qué altura están las bombillas?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de la cometa? ¿Qué cantidad de hilo necesita Juan? ¿Qué longitud representa el hilo?\" (pág. 147).\n2. Invita a un estudiante a pasar a la pizarra.\n3. Retroalimenta.\n4. Luego, pregunta: \"¿Qué han aprendido sobre el Teorema de Pitágoras? ¿Cómo se halla un cateto?\" (pág. 148).",
+          "actividad_numero": "Actividad 11 - A (Pág. 148)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Papelógrafo con ejemplos de la página 148\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta la continuación del video \"Teorema de Pitágoras\" disponible en: https://www.youtube.com/watch?v=EtpBriFADEs (desde 7:23 hasta 10:56) (pág. 148).\n2. Después del video, pregunta: \"¿De qué trata esta parte? ¿Cómo determinaron la altura del muro? ¿Qué cateto se determina con a² = c² - b²? ¿Cómo se determina el cateto b?\" (pág. 148).\n3. En caso de no tener tecnología, utiliza los ejemplos de la página 148.\n\nActividad 2 - Ejemplos (15 min):\n1. El docente presenta los ejemplos de la página 148 (cálculo de cateto faltante y de hipotenusa).\n2. Explica que cuando falta un cateto, se usa a² = c² - b² o b² = c² - a².\n\nActividad 3 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 149): \"La compañía de electricidad cambia las bombillas de iluminación en la Avenida 27 de febrero, la escalera usada para cambiarlas tiene una longitud de 10 m y está colocada a una distancia de 6 m de la base del poste de luz. ¿A qué altura están las bombillas?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Qué información aporta? ¿Qué les piden encontrar?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a un estudiante a la pizarra.\n6. Socializa el procedimiento apoyándose en el cuadro de la página 149, usando a² = c² - b².",
+          "actividad_numero": "Actividad 11 - B y C (Pág. 148-149)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Quién es el autor del teorema? ¿Qué es un teorema? ¿Cuánto dio la altura de las bombillas? ¿Qué fórmula usamos?\" (pág. 149).\n2. Presenta la cápsula sobre teorema, hipotenusa y cateto (pág. 149).\n3. Asigna la actividad complementaria (pág. 150).\n4. Asigna la actividad para el diario del estudiante (pág. 150): \"En una comunidad han construido un parque y el terreno tiene forma de triángulo rectángulo, la longitud del lado más largo es 90 m y otro de sus lados mide 70 m. ¿Cuál es la medida del lado que falta?\"",
+          "actividad_numero": "Actividad 11 - Cierre (Pág. 149-150)"
+        }
+      ]
+    },
+    {
+      "id": "1772497098878",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Transformaciones geométricas",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la capacidad de identificar y aplicar transformaciones geométricas (rotación, reflexión y traslación) en figuras planas, comprendiendo que estas transformaciones conservan la forma y el tamaño (isometrías).",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre transformaciones geométricas.\n• Uso de imágenes y ejemplos: Rotación, reflexión y traslación.\n• Trabajo práctico: Aplicación de transformaciones en papel cuadriculado.",
+      "aprendizaje_significativo": "Los estudiantes observan transformaciones geométricas en su entorno, como el movimiento de puertas (rotación), imágenes en espejos (reflexión) y el desplazamiento de objetos (traslación), comprendiendo que las matemáticas describen movimientos cotidianos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras recortadas para que las muevan físicamente y comprendan las transformaciones.\n• Para estudiantes kinestésicos: Pueden realizar los movimientos en el piso con tiza.\n• Para estudiantes con discapacidad visual: Se les proporcionan figuras en relieve y se les guía táctilmente en los movimientos.\n• Para estudiantes avanzados: Se les pide que apliquen dos transformaciones sucesivas a una misma figura.",
+      "actividades_cuaderno": "\"El plano de una estación de peaje que se construirá en una carretera tiene forma cuadrada como muestra la siguiente imagen. Si se aplica una traslación de 2 unidades a la derecha y 4 hacia abajo ¿Cómo quedará el plano?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuánto midió el lado faltante del terreno? ¿A quiénes les dio igual?\" (retomando actividad de la pág. 150).\n2. Invita a un estudiante a resolver en la pizarra.\n3. Luego, pregunta: \"¿Qué es una transformación geométrica? ¿Qué es rotación? ¿Qué es reflexión? ¿Qué es traslación?\" (pág. 150).",
+          "actividad_numero": "Actividad 12 - A (Pág. 150)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con tabla de transformaciones (pág. 151)\n• Papelógrafo con imagen del rectángulo ABCD (pág. 151)\n• Papel cuadriculado\n• Reglas\n• Transportadores\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Conceptualización (15 min):\n1. El docente presenta la tabla de transformaciones geométricas de la página 151.\n2. Explica:\n- Rotación: movimiento alrededor de un punto fijo (centro de rotación).\n- Reflexión: imagen reflejada como en un espejo (simetría axial).\n- Traslación: desplazamiento en línea recta sin girar.\n3. Muestra ejemplos en la pizarra.\n\nActividad 2 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 151): \"Un arquitecto diseña un parque con forma rectangular. a) ¿Cómo realizan una rotación de 90° sobre el punto C? b) ¿Cómo encontrarán la imagen refleja hacia abajo? c) ¿Cómo trasladarán la imagen 2 unidades a la izquierda y 3 hacia arriba?\"\n2. Presenta la imagen del rectángulo ABCD (pág. 151).\n3. Los estudiantes trabajan en sus cuadernos (puede usar papel cuadriculado).\n4. Socializa apoyándose en la tabla de la página 152, explicando paso a paso cada transformación.\n5. Enfatiza el uso del transportador para la rotación y el conteo de unidades para la traslación.\n\nActividad 3 - Actividad para el cuaderno (15 min):\n1. Asigna la actividad de la página 153: \"El plano de una estación de peaje tiene forma cuadrada. Si se aplica una traslación de 2 unidades a la derecha y 4 hacia abajo, ¿cómo quedará el plano?\"",
+          "actividad_numero": "Actividad 12 - B y C (Pág. 150-153)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo se realiza la rotación? ¿Cómo se realiza la reflexión? ¿Cómo se obtienen los puntos al aplicar una traslación?\" (pág. 153).\n2. Asigna la actividad complementaria (pág. 153-154): a) Actividades del Libro abierto páginas 84 y 85; b) Problemas sobre rotación y traslación de un estacionamiento.\n3. Asigna la actividad para el diario del estudiante (pág. 154): \"Aplica una traslación de 3 hacia la derecha y 2 hacia abajo a la siguiente figura usando papel cuadriculado.\"",
+          "actividad_numero": "Actividad 12 - Cierre (Pág. 153-154)"
+        }
+      ]
+    },
+    {
+      "id": "1772497182694",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": "Recapitulación de la secuencia",
+      "intencion_pedagogica": "Guiar a los estudiantes en un proceso de recapitulación y consolidación de los aprendizajes adquiridos durante la secuencia de geometría, integrando los diferentes contenidos (conceptos básicos, polígonos, cuadriláteros, triángulo rectángulo, Teorema de Pitágoras y transformaciones) a través de la resolución de ejercicios y problemas.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Recuperación de contenidos de la secuencia.\n• Resolución de ejercicios: Aplicación integrada de todos los temas.\n• Trabajo colaborativo: Clasificación, cálculo y aplicación de conceptos geométricos.",
+      "aprendizaje_significativo": "Los estudiantes repasan y consolidan todos los conceptos trabajados en la secuencia (punto, recta, plano, figuras semejantes y congruentes, polígonos, diagonales, cuadriláteros, triángulo rectángulo, Teorema de Pitágoras y transformaciones geométricas) mediante la resolución de ejercicios variados, conectando estos conocimientos con su utilidad en la vida cotidiana y en la construcción.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una hoja resumen con fórmulas y conceptos clave.\n• Para estudiantes kinestésicos: Pueden usar reglas y transportadores para verificar las construcciones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen los procedimientos utilizados en cada ejercicio.",
+      "actividades_cuaderno": "Los estudiantes deben resolver en sus cuadernos todos los ejercicios planteados durante la clase de recapitulación, mostrando los procedimientos completos.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n• Dibujos de los estudiantes",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron la traslación? ¿Quiénes dibujaron la figura trasladada?\" (retomando actividad de la pág. 154).\n2. Invita a un estudiante a mostrar su solución en la pizarra.\n3. Luego, inicia diálogo: \"¿Qué recuerdan de lo trabajado? ¿Qué es un punto? ¿Qué es una recta? ¿Qué es un plano? ¿Qué son figuras semejantes? ¿Qué son figuras congruentes? ¿Qué es un polígono inscrito? ¿Qué es un polígono circunscrito? ¿Qué transformaciones geométricas recuerdan?\" (pág. 154).",
+          "actividad_numero": "Actividad 13 - A (Pág. 154)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C, D",
+          "tiempo": "60",
+          "recursos": "• Fotocopias de las figuras de las páginas 154-155\n• Fotocopias de las imágenes de la página 156\n• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Figuras congruentes y semejantes (15 min):\n1. El docente presenta las figuras de la página 154-155.\n2. Pregunta: \"¿Cuáles son congruentes? ¿Cuáles son semejantes?\"\n3. Los estudiantes trabajan en sus cuadernos.\n4. Socializa apoyándose en la tabla de la página 155.\n\nActividad 2 - Polígonos regulares e irregulares (10 min):\n1. Plantea el problema de la página 155: \"Un estudiante dibuja tres cuadriláteros, un triángulo y dos pentágonos. ¿Cuáles son regulares o irregulares?\"\n2. Los estudiantes clasifican.\n3. Socializa con la tabla de la página 155-156 y la cápsula.\n\nActividad 3 - Polígonos inscritos y circunscritos (10 min):\n1. Presenta las imágenes de la página 156.\n2. Los estudiantes identifican escribiendo PI o PC.\n3. Socializa con la cápsula de la página 156.\n\nActividad 4 - Diagonales (10 min):\n1. Plantea el problema de la página 157: \"Señales de hexágono y octágono, ¿cuántas diagonales desde un vértice y totales?\"\n2. Los estudiantes calculan.\n3. Socializa con la tabla de la página 157-158.\n\nActividad 5 - Teorema de Pitágoras (15 min):\n1. Plantea el problema de la página 158: \"Trabajador con escalera de 25 ft de altura, distancia 12 ft, ¿longitud de la escalera?\"\n2. Los estudiantes resuelven.\n3. Socializa con la tabla de la página 158.",
+          "actividad_numero": "Actividad 13 - B, C y D (Pág. 154-158)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n• Fotocopias de las páginas 160-162 (opcional)",
+          "descripcion": "1. Presenta las transformaciones geométricas de la página 158-159 para que los estudiantes identifiquen cada una.\n2. Asigna la actividad complementaria (pág. 160-162): Problemas de evaluación de la secuencia (estos problemas pueden usarse como preparación para la evaluación o como evaluación misma, según criterio del docente).\n3. Prepara a los estudiantes para la evaluación formal de la secuencia (si se realizará en otra clase).",
+          "actividad_numero": "Actividad 13 - Cierre (Pág. 158-162)"
+        }
+      ]
+    },
+    {
+      "id": "1772497330905",
+      "sequence_id": "seq-1772494462131",
+      "order_index": 13,
+      "title": "Actividad 14",
+      "name": "Evaluación de la secuencia",
+      "intencion_pedagogica": "Evaluar el nivel de logro de los estudiantes en relación con los contenidos y competencias desarrolladas durante la secuencia de geometría, mediante la resolución de problemas que integran conceptos básicos, polígonos, cuadriláteros, triángulo rectángulo, Teorema de Pitágoras y transformaciones geométricas.",
+      "estrategia": "• Diálogo dirigido: Recuperación de temas de la secuencia.\n• Explicación de la escala de valoración.\n• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas.",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia de geometría (conceptos básicos, polígonos, cuadriláteros, triángulo rectángulo, Teorema de Pitágoras, transformaciones) en contextos variados (construcción, señalizaciones, diseño urbano), evidenciando su capacidad para aplicar las matemáticas en situaciones reales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite el uso de reglas y calculadora. Se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden usar la regla para medir las figuras y verificar congruencia y semejanza.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado y figuras en relieve para identificar las transformaciones y clasificaciones.\n• Para estudiantes avanzados: Se les puede pedir que, al terminar, verifiquen sus respuestas o expliquen sus procedimientos.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración\nDesarrollo (60 min)\tEvaluación escrita:\n1. El docente entrega una hoja en blanco a cada estudiante donde colocarán sus datos: nombre del centro, nombre del estudiante, fecha, grado y sección.\n2. Explica la valoración de cada ítem.\n3. Presenta los problemas de evaluación (págs. 160-162):\n\nÍtem 1 (10 pts): a) ¿Son congruentes las parejas de figuras? Escribe sí o no. Puedes calcarlas o medirlas con una regla para determinarlo. (Figuras de la pág. 160).\n\nÍtem 2 (10 pts): Elige en cada caso la figura que no sea semejante. (Figuras de la pág. 160).\n\nÍtem 3 (10 pts): Resuelve las siguientes situaciones problemáticas:\na) Un trabajador de la construcción pinta un edificio y coloca una escalera de 20 m. Si la distancia de la base del edificio a la escalera son 6 m. ¿Cuál es la altura del edificio?\nb) Un estudiante vuela una chichigua con un rollo de hilo consumiéndolo completamente. Si la altura de la chichigua son 45 m y la distancia del estudiante a la base de esa altura son 19 m. ¿Qué cantidad de hilo usó?\n\nÍtem 4 (10 pts): Coloca una PC al polígono circunscrito y PI al inscrito. (Figuras de la pág. 161).\n\nÍtem 5 (10 pts): Observe la imagen y nombre lo siguiente: un punto, una recta, segmentos de recta, un rayo. (Imagen de la pág. 161).\n\nÍtem 6 (10 pts): Coloca el nombre a cada transformación geométrica. (Imágenes de la pág. 161).\n\nÍtem 7 (10 pts): Resuelve el siguiente problema: Una señal de tránsito tiene forma de rombo regular, si uno de sus ángulos internos mide 75°. ¿Cuánto mide cada ángulo faltante?\n\nÍtem 8 (10 pts): Resuelve la siguiente problemática: La calzada de una plazoleta pública de la ciudad de Santo Domingo tiene forma de un decágono regular. a) ¿Cuántas diagonales pueden trazarse en este polígono? (pág. 161).\n\nÍtem 9 (10 pts): Contesta de forma correcta:\na) El ______ es una superficie bidimensional que se representa por un paralelogramo de lados oblicuos.\nb) Es una transformación geométrica donde la figura obtenida es imagen de la figura original. (pág. 162).\n\nÍtem 10 (10 pts): Parea el contenido de la izquierda con las informaciones o conceptos de la derecha, según corresponda:\na) Polígono ( ) Sus lados son tangentes de la circunferencia\nb) Polígono circunscrito ( ) Une los lados no consecutivos de un políg\t\t\n",
+          "descripcion": "1. El docente inicia preguntando por los temas trabajados en la secuencia (pág. 160).\n2. A medida que los nombran, formula preguntas para retroalimentar:\n- \"¿Qué es un punto? ¿Qué es una recta? ¿Qué es un plano?\"\n- \"¿Cuándo dos figuras son semejantes? ¿Cuándo son congruentes?\"\n- \"¿Qué es un polígono regular? ¿Qué es un polígono irregular?\"\n- \"¿Qué es un polígono inscrito? ¿Qué es un polígono circunscrito?\"\n- \"¿Cómo se calculan las diagonales de un polígono?\"\n- \"¿Qué tipos de cuadriláteros conocen?\"\n- \"¿Qué es el Teorema de Pitágoras? ¿Para qué sirve?\"\n- \"¿Qué transformaciones geométricas estudiamos?\"\n3. Explica que realizarán una actividad para evaluar la secuencia 4.\n4. Lee con ellos la tabla de valoración (escala numérica y nominal) para que comprendan cómo se evaluarán los resultados (pág. 160).",
+          "actividad_numero": "Actividad de inicio (Pág. 160)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices\n• Reglas\n• Calculadoras (si se permite)\n• Fotocopias de las figuras de las páginas 160-162 (o las imágenes proyectadas.",
+          "descripcion": "1. El docente entrega una hoja en blanco a cada estudiante donde colocarán sus datos: nombre del centro, nombre del estudiante, fecha, grado y sección.\n2. Explica la valoración de cada ítem.\n3. Presenta los problemas de evaluación (págs. 160-162):\n\nÍtem 1 (10 pts): a) ¿Son congruentes las parejas de figuras? Escribe sí o no. Puedes calcarlas o medirlas con una regla para determinarlo. (Figuras de la pág. 160).\n\nÍtem 2 (10 pts): Elige en cada caso la figura que no sea semejante. (Figuras de la pág. 160).\n\nÍtem 3 (10 pts): Resuelve las siguientes situaciones problemáticas:\na) Un trabajador de la construcción pinta un edificio y coloca una escalera de 20 m. Si la distancia de la base del edificio a la escalera son 6 m. ¿Cuál es la altura del edificio?\nb) Un estudiante vuela una chichigua con un rollo de hilo consumiéndolo completamente. Si la altura de la chichigua son 45 m y la distancia del estudiante a la base de esa altura son 19 m. ¿Qué cantidad de hilo usó?\n\nÍtem 4 (10 pts): Coloca una PC al polígono circunscrito y PI al inscrito. (Figuras de la pág. 161).\n\nÍtem 5 (10 pts): Observe la imagen y nombre lo siguiente: un punto, una recta, segmentos de recta, un rayo. (Imagen de la pág. 161).\n\nÍtem 6 (10 pts): Coloca el nombre a cada transformación geométrica. (Imágenes de la pág. 161).\n\nÍtem 7 (10 pts): Resuelve el siguiente problema: Una señal de tránsito tiene forma de rombo regular, si uno de sus ángulos internos mide 75°. ¿Cuánto mide cada ángulo faltante?\n\nÍtem 8 (10 pts): Resuelve la siguiente problemática: La calzada de una plazoleta pública de la ciudad de Santo Domingo tiene forma de un decágono regular. a) ¿Cuántas diagonales pueden trazarse en este polígono? (pág. 161).\n\nÍtem 9 (10 pts): Contesta de forma correcta:\na) El ______ es una superficie bidimensional que se representa por un paralelogramo de lados oblicuos.\nb) Es una transformación geométrica donde la figura obtenida es imagen de la figura original. (pág. 162).\n\nÍtem 10 (10 pts): Parea el contenido de la izquierda con las informaciones o conceptos de la derecha, según corresponda:\na) Polígono ( ) Sus lados son tangentes de la circunferencia\nb) Polígono circunscrito ( ) Une los lados no consecutivos de un polígono\nc) Diagonal ( ) Es una figura plana, cerrada y de bordes rectos\nd) Polígono inscrito ( ) La medida de sus lados y ángulos son iguales\ne) Polígono regular ( ) Sus vértices están sobre la circunferencia\n\nÍtem 11 (10 pts): Clasifica los siguientes cuadriláteros en: paralelogramos, trapecios y trapezoides. (Figuras de la pág. 162).\n\n4. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad de evaluación (Pág. 160-162)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "Recogida y cierre:\n1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Realiza un breve comentario sobre la importancia de la geometría en la vida cotidiana (construcción, señalizaciones, diseño urbano).\n4. Anuncia que en la próxima secuencia trabajarán con mediciones (Sistema Métrico Decimal y Sistema Inglés).",
+          "actividad_numero": "Cierre de la secuencia"
+        }
+      ]
+    }
+  ]
+}

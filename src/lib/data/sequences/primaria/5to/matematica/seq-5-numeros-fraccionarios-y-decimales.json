@@ -1,0 +1,516 @@
+{
+  "id": "seq-1771958910787",
+  "title": "Números fraccionarios y decimales",
+  "description": "Esta unidad aborda el significado de los números fraccionarios y su relación con los números decimales. ",
+  "order": 5,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771958910777",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Conociendo las fracciones",
+      "intencion_pedagogica": "Resolver situaciones problemáticas de su entorno que impliquen números fraccionarios.\n",
+      "estrategia": "Observación guiada: Análisis de figuras geométricas divididas en partes iguales.\n\nDiálogo dirigido: Preguntas para introducir el concepto de fracción.\n\nUso de material audiovisual: Video sobre fracciones.\n\nTrabajo individual y grupal: Resolución de problemas.\n\nIdentificación de términos: Numerador y denominador.",
+      "aprendizaje_significativo": "Se parte de situaciones cotidianas relacionadas con farmacias (jarabes, pastillas) para introducir el concepto de fracción, conectando así el aprendizaje matemático con experiencias de la vida real.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades visuales: Se utilizan figuras con divisiones marcadas y colores contrastantes.\n\nPara estudiantes kinestésicos: Se les invita a doblar papel para representar fracciones.\n\nPara estudiantes con discapacidad visual: Se describen las figuras verbalmente y se usan fracciones con material concreto.\n\nPara estudiantes avanzados: Se les pide que representen fracciones con dibujos propios.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 141, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Figura geométrica (cuadrado dividido)\n• Pizarra",
+          "descripcion": "1. El docente presenta un cuadrado dividido en 10 partes iguales, con una parte sombreada.\n2. Formula preguntas: \"¿En cuántas partes está dividido? ¿Todas son iguales? ¿Cuántas partes están sombreadas? ¿Cómo se escribe esa cantidad? ¿Cómo se lee?\"\n3. Guía el diálogo para que los estudiantes infieran que la parte sombreada es una fracción (1/10, un décimo).\n4. Introduce los términos: numerador (partes sombreadas) y denominador (total de partes iguales).",
+          "actividad_numero": "Actividad 1 A (pág. 140)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video o pizarra\n• Cuadernos",
+          "descripcion": "1. Proyecta el video \"¿Qué es una fracción para niños?\" (https://youtu.be/21r6R-CzuS8). Socializa: *\"¿De qué trata? ¿Cómo se lee 1/6? ¿Y 3/4?\"*\n2. Si no hay video, plantea la situación (pág. 140): \"Alberto compró un jarabe para tomarlo en 5 días en partes iguales. Ya tomó 2 porciones. ¿Qué cantidad se ha tomado? ¿Qué cantidad le falta?\"\n3. Los estudiantes resuelven. Concluyen: ha tomado 2/5, le faltan 3/5.\n4. Plantea otra situación (pág. 141): \"Orlando tiene un botiquín con 6 espacios. Ya llenó 2 espacios. ¿Qué fracción representan?\" (2/6). Pregunta por numerador y denominador.",
+          "actividad_numero": "Actividad 1 B y C (págs. 140-141)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: 1) Alexander tiene un gotero con 3 gotas usadas y 5 por usar, ¿cuántas gotas caben? (8). ¿Qué fracción ha usado? (3/8). ¿Qué fracción le falta? (5/8). 2) Nelly compró un enjuague bucal para repartir entre 5 personas, ¿qué fracción le toca a cada una? (1/5).\n\nCierre (pág. 141):\nPreguntas: \"¿Qué aprendimos hoy? ¿Cómo resolvieron los problemas? ¿En qué momento usan fracciones en su casa?\"\n\nActividad complementaria (pág. 141):\nEscribir al lado de cada imagen la fracción que representan las partes sombreadas (figuras geométricas).\n\nActividad para el diario del estudiante (pág. 141):\nRedactar un problema de una situación en la que se usen fracciones y escribir la solución.",
+          "actividad_numero": "Actividad 1 Actividad para el cuaderno (pág. 141) Cierre (pág. 141) Actividad complementaria (pág. 141) Actividad para el diario (pág. 141)"
+        }
+      ]
+    },
+    {
+      "id": "1771963528237",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Me encantan las fracciones",
+      "intencion_pedagogica": "Resolver situaciones problemáticas de su entorno que impliquen números fraccionarios.\n",
+      "estrategia": "Corrección de tarea: Socialización de los problemas redactados por los estudiantes.\n\nTrabajo en grupos: Resolución de problemas con fracciones como parte de una colección.\n\nUso de imágenes: Para visualizar colecciones de objetos.\n\nRepresentación en recta numérica: Ubicación de fracciones.",
+      "aprendizaje_significativo": "Se amplía el concepto de fracción a colecciones de objetos (cajas de medicamentos), mostrando que las fracciones también pueden representar partes de un conjunto.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan colecciones concretas (fichas de colores) para manipular.\n\nPara estudiantes kinestésicos: Se les invita a representar las colecciones con objetos reales.\n\nPara estudiantes con discapacidad visual: Se describen las colecciones y se usan fracciones con material concreto.\n\nPara estudiantes avanzados: Se les pide que simplifiquen las fracciones obtenidas.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 143, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por los problemas que redactaron.\n2. Algunos estudiantes leen sus problemas y los resuelven en la pizarra.\n3. Retroalimenta. Anuncia que hoy trabajarán fracciones con colecciones.",
+          "actividad_numero": "Actividad 2 A (pág. 142)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C, C",
+          "tiempo": "60",
+          "recursos": "• Imágenes de colecciones\n• Recta numérica\n• Cuadernos",
+          "descripcion": "1. Forma grupos de 5 estudiantes.\n2. Presenta la imagen de cajas de medicamentos (triángulos, cuadrados, círculos). Pregunta: \"¿Qué fracción representan las cajas triangulares? ¿Las cuadradas? ¿Las circulares?\" (total 12: triángulos 4/12, cuadrados 5/12, círculos 3/12).\n3. Plantea otro problema (pág. 142): *\"Alberto tiene 20 pastillas: 5 diclofenaco, 8 acetaminofén, 6 vitamina A, 1 vitamina C. ¿Qué fracción representan el acetaminofén? (8/20). ¿Las vitaminas A?\"* (6/20).\n4. Fracciones en la recta numérica (pág. 142-143):\n- Presenta una recta dividida en 4 partes iguales, con 2 sombreadas. Pregunta: \"¿Qué fracción representa?\" (2/4).\n- Plantea: \"Nelly divide la unidad en 6 partes y colorea 5. Escribe la fracción.\" (5/6).\n5. Los estudiantes resuelven en grupos. Socializan.",
+          "actividad_numero": "Actividad 2 B, C y D (págs. 142-143)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: 1) Alexander tiene cajas de vitaminas: 5 rojas, 15 amarillas, 20 azules, 10 verdes. ¿Qué fracción representan las azules? (20/50). ¿Las amarillas? (15/50). 2) Alberto divide una unidad en 10 partes y colorea 8. Escribe la fracción. (8/10).\n\nCierre (pág. 143):\nPreguntas: \"¿Les gustó la clase? ¿Cómo resolvieron los problemas?\"\n\nActividad complementaria (pág. 143):\nRepresentar en la recta numérica las fracciones indicadas (2/3, 4/6, 5/8, etc.).\n\nActividad para el diario del estudiante (pág. 143):\nJunto a tus padres, busquen los medicamentos que tengan en casa. Selecciona uno y escribe la fracción que representa del total.",
+          "actividad_numero": "Actividad 2 Actividad para el cuaderno (pág. 143) Cierre (pág. 143) Actividad complementaria (pág. 143) Actividad para el diario (pág. 143)"
+        }
+      ]
+    },
+    {
+      "id": "1771963681045",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Lo que representan las fracciones",
+      "intencion_pedagogica": "Resolver situaciones problemáticas usando la representación de los números\nfraccionarios\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nTrabajo práctico: Doblar hojas y colorear para representar fracciones.\n\nDiálogo dirigido: Clasificación de fracciones en propias e impropias.\n\nConversión: De fracción impropia a número mixto.",
+      "aprendizaje_significativo": "Se utiliza material concreto (hojas de papel) para representar fracciones mayores que la unidad, introduciendo el concepto de fracciones impropias y números mixtos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan fracciones con denominadores pequeños.\n\nPara estudiantes kinestésicos: La actividad con hojas de papel es ideal.\n\nPara estudiantes con discapacidad visual: Se utilizan hojas con textura para diferenciar las partes.\n\nPara estudiantes avanzados: Se les pide que conviertan números mixtos a fracciones impropias.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 145, la Actividad complementaria y la Actividad para el diario del estudiante de la página 146.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta por los medicamentos en casa y la fracción que representan.\n2. Retroalimenta.\n3. Anuncia que hoy trabajarán con fracciones mayores que la unidad.",
+          "actividad_numero": "Actividad 3 A (pág. 144)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Hojas de papel\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Entrega 2 hojas en blanco a cada estudiante. Pide que doblen cada hoja en 4 partes iguales.\n2. Pide que coloreen los 4 espacios de una hoja y 2 espacios de la otra.\n3. Pregunta: \"¿Qué cantidad representan las partes coloreadas?\" (4/4 + 2/4 = 6/4).\n4. Escribe otras fracciones (1/10, 9/4, 6/3, 13/5, etc.) y pide observar diferencias.\n5. Concluye:\n- Fracción propia: numerador < denominador (menor que la unidad).\n- Fracción impropia: numerador > denominador (mayor que la unidad).\n6. Plantea el problema (pág. 144): \"La madre de Nelly compró 2 paquetes de vitamina C de 8 pastillas cada uno. Se tomaron casi todas y dejaron 4. ¿Cuántas se tomaron? Escribe la fracción.\" (16-4=12; 12/8, impropia).\n7. Explica cómo convertir fracción impropia a número mixto: 12 ÷ 8 = 1 y sobran 4 → 1 4/8.",
+          "actividad_numero": "Actividad 3 B y C (págs. 144-145)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: 1) Nelly gastó 3/7 de un jarabe. Representar gráficamente. ¿Qué cantidad le queda? (4/7). 2) Alexander tiene 2 barras nutritivas divididas en 6 partes cada una. Ha comido 9 partes. ¿Qué fracción ha consumido? (9/12, impropia).\n\nCierre (pág. 145):\nPreguntas: \"¿Cuándo una fracción es propia? ¿Cuándo es impropia? ¿Qué representa el numerador?\"\n\nActividad complementaria (pág. 145):\n1) Escribir en palabras las fracciones: 3/8, 18/7, 4/9, 13/10. 2) Clasificar como propias o impropias. 3) Convertir fracciones impropias a números mixtos: 18/7, 13/4, 13/10, 10/3.\n\nActividad para el diario del estudiante (pág. 146):\n1) Una caja de vitamina D trae 12 pastillas. Alexander consumió 18. ¿Cómo se representa? (18/12, impropia). 2) Nelly toma 1/10 de jarabe cada día. Lleva 8 días. ¿Qué fracción ha tomado? (8/10).",
+          "actividad_numero": "Actividad 3 Actividad para el cuaderno (pág. 145) Cierre (pág. 145) Actividad complementaria (pág. 145) Actividad para el diario (pág. 146)"
+        }
+      ]
+    },
+    {
+      "id": "1771988635376",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Fracciones y su equivalencia",
+      "intencion_pedagogica": "Resolver situaciones problemáticas de su entorno usando fracciones equivalentes\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre fracciones equivalentes.\n\nSituaciones problemáticas: Aplicación de fracciones equivalentes en contextos reales.\n\nRepresentación gráfica: Uso de hojas cuadriculadas para visualizar equivalencias.\n\nComparación de fracciones: Identificación de fracciones equivalentes.",
+      "aprendizaje_significativo": "Se utilizan situaciones de medicamentos con diferentes presentaciones (cucharas grandes y pequeñas) para introducir el concepto de fracciones equivalentes, mostrando su utilidad práctica.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan hojas cuadriculadas con los rectángulos ya dibujados.\n\nPara estudiantes kinestésicos: Se les invita a representar las fracciones con papel doblado.\n\nPara estudiantes con discapacidad visual: Se utilizan materiales táctiles (regletas de fracciones).\n\nPara estudiantes avanzados: Se les pide que encuentren fracciones equivalentes por ampliación y simplificación.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de las páginas 147-148, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los problemas del diario.\n2. Retroalimenta fracciones propias e impropias.\n3. Pregunta: \"¿Conocen otro tipo de fracciones? ¿Qué significa la palabra equivalente?\"\n4. Proyecta el video sobre fracciones equivalentes (https://youtu.be/JcoPY1qfR1Q). Socializa.",
+          "actividad_numero": "Actividad 4 A (pág. 146)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Hojas cuadriculadas (anexo pág. 169)\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, plantea la situación (pág. 146): *\"Alberto debe tomar 1 cucharada cada 12 horas de un jarabe de 10 cucharadas grandes. En la farmacia hay el mismo jarabe en frasco de 20 cucharadas pequeñas (1 grande = 2 pequeñas). ¿Cuántas pequeñas debe tomar?\"* (2 pequeñas, porque 1/10 = 2/20).\n2. Concluye: 1/10 y 2/20 son equivalentes.\n3. Entrega hojas cuadriculadas. Plantea otro problema (pág. 147): *\"Alexander y Alberto toman pastillas. Alexander tiene 20/80 de paracetamol, Alberto 4/16. ¿Toman la misma cantidad?\"*\n4. Los estudiantes resuelven gráficamente (dibujando rectángulos) y por división (20÷4=5, 80÷16=5, son equivalentes).\n5. Concluye: dos fracciones son equivalentes si representan la misma cantidad.",
+          "actividad_numero": "Actividad 4 B y C (págs. 146-147)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: 1) Nelly tomó 40/60 de guaifenesina, Alberto 15/40. ¿Son equivalentes? (No). 2) Juan recorre 3/4 km, José 6/8 km. ¿Han recorrido la misma distancia? (Sí, son equivalentes).\n\nCierre (pág. 148):\nPreguntas: \"¿Qué aprendimos hoy? ¿Cómo se determina si dos fracciones son equivalentes?\"\n\nActividad complementaria (pág. 148):\nParea las fracciones de la columna derecha con otra equivalente en la izquierda (ejercicio gráfico).\n\nActividad para el diario del estudiante (pág. 148):\nElaborar dos problemas para resolverlos donde se usen fracciones equivalentes.",
+          "actividad_numero": "Actividad 4 Actividad para el cuaderno (págs. 147-148) Cierre (pág. 148) Actividad complementaria (pág. 148) Actividad para el diario (pág. 148)"
+        }
+      ]
+    },
+    {
+      "id": "1771988715283",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "¿Quién tiene más?",
+      "intencion_pedagogica": "Resolver situaciones problemáticas utilizando la comparación de fracciones \n\n",
+      "estrategia": "Corrección de tarea: Socialización de los problemas elaborados por los estudiantes.\n\nUso de material audiovisual: Video sobre comparación de fracciones.\n\nMétodo de multiplicación cruzada: Para comparar fracciones.\n\nTrabajo individual: Resolución de problemas de comparación.",
+      "aprendizaje_significativo": "Se utilizan situaciones de concentración de medicamentos para comparar fracciones, mostrando la utilidad de este conocimiento en contextos de salud.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en multiplicación: Se les permite usar calculadora.\n\nPara estudiantes kinestésicos: Se les invita a representar las fracciones con tiras de papel.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que comparen fracciones con diferentes métodos (decimal, gráfico).",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 149, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los problemas que elaboraron.\n2. Algunos estudiantes los escriben y resuelven en la pizarra.\n3. Anuncia el tema: comparación de fracciones. Proyecta el video \"¿Cuál fracción es mayor?\" (https://youtu.be/ZqnHbXCCSlc). Socializa.",
+          "actividad_numero": "Actividad 5 A (pág. 148)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\nCierre y evaluación\nTiempo (15 min)\tActividad para el cuaderno (pág. 149):\nResolver: *\"Nelly compró dos medicamentos. Uno tiene 12/22 de ácido acetilsalicílico, otro 32/60. ¿Cuál tiene mayor concentración?\"* (12/22 ≈ 0.545, 32/60 ≈ 0.533 → 12/22 > 32/60).\n\nCierre (pág. 150):\nPreguntas: \"¿Cómo se puede determinar si una fracción es mayor que otra? ¿Qué te resultó más difícil?\"\n\nActividad complementaria (pág. 150):\nComparar fracciones usando los símbolos >, < o = según corresponda (ejercicios).\n\nActividad para el diario del estudiante (pág. 150):\nBuscar la etiqueta de un medicamento que contenga varias sustancias. Con ayuda de un adulto, leer la cantidad de cada una y escribir la fracción o el decimal correspondiente.\tActividad 5\nActividad para el cuaderno (pág. 149)\nCierre (pág. 150)\nActividad complementaria (pág. 150)\nActividad para el diario (pág. 150)\t• Cuadernos\n",
+          "descripcion": "1. Si no hay video, plantea el problema (pág. 148): *\"Alberto tiene jarabe con 3/7 de bismuto, Alexander con 9/20. ¿Cuál tiene más?\"*\n2. Explica el método de multiplicación cruzada:\n3/7 y 9/20 → 3x20 = 60; 7x9 = 63. Como 60 < 63, entonces 3/7 < 9/20.\n3. Plantea otro problema (pág. 149): *\"Un medicamento tiene 3/30 de Zinc, otro 6/70. ¿Cuál tiene más?\"*\n3/30 y 6/70 → 3x70 = 210; 30x6 = 180. Como 210 > 180, entonces 3/30 < 6/70.\n4. Plantea un tercer problema (pág. 149): *\"Ordenar de menor a mayor: 2/5, 9/30 y 60/60.\"*\n2/5 = 0.4, 9/30 = 0.3, 60/60 = 1 → orden: 9/30 < 2/5 < 60/60.",
+          "actividad_numero": "Actividad 5 B (págs. 148-149)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: *\"Nelly compró dos medicamentos. Uno tiene 12/22 de ácido acetilsalicílico, otro 32/60. ¿Cuál tiene mayor concentración?\"* (12/22 ≈ 0.545, 32/60 ≈ 0.533 → 12/22 > 32/60).\n\nCierre (pág. 150):\nPreguntas: \"¿Cómo se puede determinar si una fracción es mayor que otra? ¿Qué te resultó más difícil?\"\n\nActividad complementaria (pág. 150):\nComparar fracciones usando los símbolos >, < o = según corresponda (ejercicios).\n\nActividad para el diario del estudiante (pág. 150):\nBuscar la etiqueta de un medicamento que contenga varias sustancias. Con ayuda de un adulto, leer la cantidad de cada una y escribir la fracción o el decimal correspondiente.",
+          "actividad_numero": "Actividad 5 Actividad para el cuaderno (pág. 149) Cierre (pág. 150) Actividad complementaria (pág. 150) Actividad para el diario (pág. 150)"
+        }
+      ]
+    },
+    {
+      "id": "1771988809178",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Operaciones con fracciones",
+      "intencion_pedagogica": "Resolver problemas del entorno usando suma y resta de fracciones. \n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre suma y resta de fracciones.\n\nSituaciones problemáticas: Suma y resta de fracciones con igual y diferente denominador.\n\nMétodo de fracciones equivalentes: Para buscar denominador común.\n\nMétodo del MCM: Para buscar denominador común.",
+      "aprendizaje_significativo": "Se utilizan situaciones de combinación de medicamentos para practicar la suma y resta de fracciones, mostrando la utilidad de estas operaciones en contextos de salud.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les permite usar fracciones con el mismo denominador inicialmente.\n\nPara estudiantes kinestésicos: El juego de tarjetas es ideal.\n\nPara estudiantes con discapacidad visual: Se les proporcionan las fracciones en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que simplifiquen las fracciones resultantes.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 152, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por las etiquetas de medicamentos y las fracciones encontradas.\n2. Retroalimenta.\n3. Proyecta el video \"Suma y resta de fracciones con mínimo común múltiplo\" (https://www.youtube.com/watch?v=1J64OmIxJWM). Socializa.",
+          "actividad_numero": "Actividad 6 A (pág. 150)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, plantea el problema (pág. 150): *\"Alexander compró un medicamento con 20/100 mg de ibuprofeno y 30/100 mg de Tylenol. ¿Qué cantidad total tiene? ¿Cuánto más Tylenol que ibuprofeno?\"*\n- Suma: 20/100 + 30/100 = 50/100 = 1/2.\n- Resta: 30/100 - 20/100 = 10/100 = 1/10.\n2. Plantea otro problema (pág. 150): *\"Alberto tiene jarabe con 1/4 de bismuto y 2/5 de zinc. ¿Qué cantidad total?\"*\n3. Explica dos estrategias (pág. 151):\n- Fracciones equivalentes: 1/4 = 5/20, 2/5 = 8/20 → 5/20 + 8/20 = 13/20.\n- MCM: MCM(4,5)=20 → 1/4 + 2/5 = 5/20 + 8/20 = 13/20.\n4. Plantea un tercer problema (pág. 151): *\"Dos medicamentos: 5/10 y 2/5 de hierro. ¿Cuál es la diferencia?\"*\n5/10 = 5/10, 2/5 = 4/10 → 5/10 - 4/10 = 1/10.",
+          "actividad_numero": "Actividad 6 B y C (págs. 150-151)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas con fracciones\n• Cuadernos",
+          "descripcion": "Resolver: *\"Nelly toma dos medicamentos: 3/12 de vitamina D y 5/8. ¿Qué concentración total toma por día? (3/12 + 5/8 = 6/24 + 15/24 = 21/24 = 7/8). ¿Cuánto más tiene el segundo? (5/8 - 3/12 = 15/24 - 6/24 = 9/24 = 3/8).\"*\n\nCierre (pág. 152):\nJuego con tarjetas: escribir fracciones en tarjetas, los estudiantes sacan dos y realizan suma o resta.\n\nActividad complementaria (pág. 152):\nRealizar sumas y restas de fracciones usando fracciones equivalentes o MCM (ejercicios).\n\nActividad para el diario del estudiante (pág. 152):\nRedactar y resolver: 1) Dos problemas donde se use suma de fracciones. 2) Un problema donde se use resta de fracciones.",
+          "actividad_numero": "Actividad 6 Actividad para el cuaderno (pág. 152) Cierre (pág. 152) Actividad complementaria (pág. 152) Actividad para el diario (pág. 152)"
+        }
+      ]
+    },
+    {
+      "id": "1771988907062",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Más operaciones con fracciones",
+      "intencion_pedagogica": "Resolver problemas en su contexto usando la multiplicación y la división de\nfracciones. \n",
+      "estrategia": "Corrección de tarea: Socialización de los problemas redactados por los estudiantes.\n\nUso de material audiovisual: Videos sobre multiplicación y división de fracciones.\n\nSituaciones problemáticas: Multiplicación y división de fracciones.\n\nMétodo de multiplicación directa: Numerador por numerador, denominador por denominador.\n\nMétodo de fracción recíproca: Para la división.",
+      "aprendizaje_significativo": "Se utilizan situaciones de concentración de medicamentos y reparto para introducir la multiplicación y división de fracciones, mostrando su aplicación práctica.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les permite usar fracciones con números pequeños.\n\nPara estudiantes kinestésicos: Se les invita a representar las fracciones con material concreto.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que resuelvan operaciones combinadas.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 155, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los problemas de suma y resta que redactaron.\n2. Retroalimenta.\n3. Proyecta el video \"División de fracciones por fracción inversa\" (https://www.youtube.com/watch?v=CHDQn94OP5E) y el de multiplicación. Socializa.",
+          "actividad_numero": "Actividad 7 A (pág. 153)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C, D",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, plantea el problema (pág. 153): *\"Un frasco de 60 ml tiene 3/10 de fósforo. ¿Qué cantidad representa?\"*\n2. Explica: 3/10 de 60 = 3/10 × 60/1 = 180/10 = 18 ml.\n3. Plantea otro problema (pág. 154): *\"Un medicamento tiene 3/4 de hierro. Se diluye en 1/2 de agua. ¿Qué concentración queda?\"* (1/2 × 3/4 = 3/8).\n\nDivisión de fracciones (pág. 154-155):\n1. Introduce el concepto de fracción recíproca (invertir numerador y denominador).\n2. Plantea el problema (pág. 154): *\"Se quieren repartir 8 ml de vitaminas a razón de 3/9 para varios medicamentos. ¿Cuántos medicamentos se pueden hacer?\"* (8 ÷ 3/9 = 8 × 9/3 = 72/3 = 24).\n3. Plantea otro problema (pág. 155): *\"Alberto tiene 4/10 de vitamina y quiere repartir 1/10 en cada medicamento. ¿A cuántos puede repartir?\"* (4/10 ÷ 1/10 = 4/10 × 10/1 = 40/10 = 4).",
+          "actividad_numero": "Actividad 7 B, C, D (págs. 153-155)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: 1) Nelly tomó 2/12 de vitamina A por semana durante 4 semanas. ¿Qué cantidad total? (2/12 × 4 = 8/12 = 2/3). 2) Alberto tiene 6/8 de calcio y quiere poner 1/8 en cada jugo. ¿Cuántos jugos? (6/8 ÷ 1/8 = 6).\n\nCierre (pág. 155):\nPreguntas: \"¿Cómo se multiplican las fracciones? ¿Cómo se dividen?\"\n\nActividad complementaria (pág. 155):\nRealizar operaciones con fracciones (multiplicación y división).\n\nActividad para el diario del estudiante (pág. 155):\nEscribir 2 multiplicaciones y 2 divisiones de fracciones diferentes a las trabajadas y resolverlas.",
+          "actividad_numero": "Actividad 7 Actividad para el cuaderno (pág. 155) Cierre (pág. 155) Actividad complementaria (pág. 155) Actividad para el diario (pág. 155)"
+        }
+      ]
+    },
+    {
+      "id": "1771989002824",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": " Dominó de fracciones",
+      "intencion_pedagogica": "Calcular suma, resta, multiplicación y división de fracciones usando diferentes estrategias a través del juego de dominó.\n\n",
+      "estrategia": "Juego didáctico: Dominó de fracciones.\n\nTrabajo en grupos: Juego colaborativo.\n\nEvaluación formativa: Observación del desempeño de los estudiantes.",
+      "aprendizaje_significativo": "Se utiliza un juego de dominó adaptado para practicar las operaciones con fracciones de manera lúdica y motivadora.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les permite usar papel y lápiz para resolver las operaciones.\n\nPara estudiantes kinestésicos: El juego es ideal para ellos.\n\nPara estudiantes con discapacidad visual: Se les proporcionan fichas con texturas o números en relieve.\n\nPara estudiantes avanzados: Se les pide que actúen como árbitros verificando las operaciones.",
+      "actividades_cuaderno": "Escribir una breve reflexión sobre el juego: ¿cómo se sintieron? ¿Qué aprendieron?\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente promueve un diálogo sobre la importancia del juego y recuerda la actividad del juego de dominó de la secuencia #3.\n2. Explica que hoy jugarán dominó, pero con fracciones.\n3. Presenta las reglas del juego (pág. 156).",
+          "actividad_numero": "Actividad 8 A (pág. 156)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Fichas de dominó (anexos)\n• Tabla de registro",
+          "descripcion": "1. El docente ha preparado previamente las 28 fichas de dominó con fracciones (anexos).\n2. Organiza grupos de 4 estudiantes.\n3. Reparte 7 fichas a cada estudiante, colocadas hacia arriba.\n4. Explica las reglas (pág. 156):\n- Deciden quién coloca la primera ficha.\n- El jugador a la derecha revisa si tiene la operación que da el resultado de la ficha en mesa, o el resultado de la operación de la ficha en mesa.\n- Si tiene, la juega. Si no, pasa el turno.\n- Gana el primero en usar todas sus fichas.\n5. Los estudiantes juegan. El docente observa y registra el desempeño de cada estudiante.",
+          "actividad_numero": "Actividad 8 B (pág. 156) Anexos (págs. 170-171)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "Preguntas: \"¿Qué aprendimos hoy? ¿Cómo sabían qué ficha jugar? ¿Qué te resultó más difícil?\"\n\nActividad para el cuaderno:\nNo hay actividad específica para el cuaderno en esta clase.",
+          "actividad_numero": "Actividad 8 Cierre (pág. 156)"
+        }
+      ]
+    },
+    {
+      "id": "1771989082334",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": " Conociendo los decimales",
+      "intencion_pedagogica": "Resolver problemas en su contexto usando números decimales.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del juego.\n\nDiálogo dirigido: Exploración de conocimientos sobre números decimales.\n\nUso de material audiovisual: Video sobre valor posicional con decimales.\n\nIdentificación de posición: Décimas, centésimas, milésimas.\n\nLectura de decimales: Reglas para leer números decimales.",
+      "aprendizaje_significativo": "Se utilizan situaciones de compras en farmacias para introducir los números decimales, conectando con la vida cotidiana.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporciona una tabla de valor posicional.\n\nPara estudiantes kinestésicos: Se les invita a escribir decimales en la pizarra y señalar posiciones.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que escriban decimales con 4 cifras decimales.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 158, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por la experiencia del juego: \"¿Qué fue lo que más les gustó? ¿Quién ganó? ¿Cómo se jugaba?\"\n2. Pregunta: \"¿Qué tipos de números han trabajado? ¿Conocen otros números además de esos?\" (deben mencionar decimales).\n3. Proyecta el video \"Valor posicional con decimales\" (https://youtu.be/gGbuKZQ8ES4). Socializa.",
+          "actividad_numero": "Actividad 9 A (pág. 157)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, plantea la situación (pág. 157): \"Jazmín compró un medicamento por RD$ 185.90. ¿Qué posición tiene el 9? (centésimas). ¿Cómo se lee?\" (ciento ochenta y cinco enteros noventa centésimas).\n2. Explica las posiciones: décimas (primer lugar después del punto), centésimas (segundo), milésimas (tercero).\n3. Ejemplos: 24.87 (veinticuatro enteros ochenta y siete centésimas); 8.982 (ocho enteros novecientos ochenta y dos milésimas).\n4. Plantea otro problema (pág. 158): *\"El padre de Yasmeyir gastó RD$ 1,375.68. ¿Qué posición tiene el 8? (centésimas). ¿El 7? (decenas). ¿Cuánto vale el 6? (6/10 = 0.6). ¿El 8? (8/100 = 0.08).\"*",
+          "actividad_numero": "Actividad 9 B (págs. 157-158)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: \"Rafaelina compró un jarabe por RD$ 288.975. ¿Qué posición tiene el 7? (centésimas). ¿El 9? (decenas). ¿Cuánto vale el 7? (0.07). ¿El 9?\" (90).\n\nCierre (pág. 158):\nPreguntas: \"¿Qué es un número decimal? ¿Dónde has usado números decimales?\"\n\nActividad complementaria (pág. 158):\n1) Escribir en palabras: 3.93, 543.763, 10.234, 0.45, 4567.106. 2) Escribir la posición del dígito en negrita.\n\nActividad para el diario del estudiante (pág. 158):\nInvestigar con un adulto los precios de algunos artículos del supermercado que estén expresados en números decimales y escribir 5 de estos en tu cuaderno.",
+          "actividad_numero": "Actividad 9 Actividad para el cuaderno (pág. 158) Cierre (pág. 158) Actividad complementaria (pág. 158) Actividad para el diario (pág. 158)"
+        }
+      ]
+    },
+    {
+      "id": "1771989164468",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Operaciones con números decimales",
+      "intencion_pedagogica": "Resolver problemas del entorno usando números decimales.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre suma de decimales.\n\nSituaciones problemáticas: Suma y resta de números decimales.\n\nAlineación de puntos decimales: Procedimiento clave para sumar y restar decimales.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se utilizan situaciones de compras en farmacias para practicar la suma y resta de decimales, mostrando su aplicación en contextos cotidianos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades en la alineación: Se les proporciona papel cuadriculado.\n\nPara estudiantes kinestésicos: Se les invita a escribir las operaciones en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que resuelvan problemas con más de dos sumandos.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 160, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por los precios investigados.\n2. Retroalimenta lectura de decimales.\n3. Proyecta el video \"Sumas con punto decimal\" (https://www.youtube.com/watch?v=WuT-KaO3i2k). Socializa.",
+          "actividad_numero": "Actividad 10 A (pág. 159)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, plantea el problema (pág. 159): \"Alberto compró dos medicamentos: RD$ 25.89 y RD$ 76.95. ¿Cuánto gastó? Si pagó con RD$ 200, ¿cuánto le sobró?\"\n2. Explica el procedimiento para sumar decimales: alinear puntos decimales y sumar como naturales.\n- Suma: 25.89 + 76.95 = 102.84.\n- Resta: 200.00 - 102.84 = 97.16.\n3. Explica la resta con descomposición si es necesario.\n4. Plantea otro problema (pág. 160): \"La madre de Nelly pagó RD$ 875.95, con descuento de RD$ 87.59. ¿Cuánto pagó?\" (875.98 - 87.59 = 788.39, corregir: 875.95 - 87.59 = 788.36).\n5. Explica paso a paso la resta con descomposición.",
+          "actividad_numero": "Actividad 10 B y C (págs. 159-160)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: 1) Padre de Alexander compró medicamentos por RD$ 245.999 y RD$ 682.999. ¿Cuánto pagó? (928.998). 2) Alberto compró jabón por RD$ 235.99 y pagó con RD$ 500. ¿Cuánto le devolvieron? (264.01).\n\nCierre (pág. 160):\nDos estudiantes escriben un número decimal cada uno, los demás deciden si suman o restan. Repetir.\n\nActividad complementaria (pág. 161):\nResolver: a) 434.98 + 276.87 (711.85); b) 434.98 - 276.87 (158.11); c) 1084.76 - 846.59 (238.17).\n\nActividad para el diario del estudiante (pág. 161):\nEntrar al enlace: https://www.superprof.es/apuntes/escolar/matematicas/aritmetica/Decimales/ejercicios-interactivos-de-suma-y-resta-de-numeros-decimales.html",
+          "actividad_numero": "Actividad 10 Actividad para el cuaderno (pág. 160) Cierre (pág. 160) Actividad complementaria (pág. 161) Actividad para el diario (pág. 161)"
+        }
+      ]
+    },
+    {
+      "id": "1771989265082",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Profundizando en los decimales",
+      "intencion_pedagogica": "Resolver situaciones problemáticas usando números decimales.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Video sobre multiplicación con decimales.\n\nSituaciones problemáticas: Multiplicación y división de decimales por números naturales.\n\nColocación del punto decimal: Contar cifras decimales.\n\nTrabajo individual: Resolución de problemas.",
+      "aprendizaje_significativo": "Se utilizan situaciones de compras en farmacias para practicar la multiplicación y división de decimales, mostrando su aplicación en contextos cotidianos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les permite usar calculadora para verificar resultados.\n\nPara estudiantes kinestésicos: Se les invita a escribir las operaciones en la pizarra.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que resuelvan problemas con decimales de más cifras.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 162, la Actividad complementaria y la Actividad para el diario del estudiante.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Video o pizarra",
+          "descripcion": "1. El docente pregunta por la actividad interactiva.\n2. Retroalimenta suma y resta de decimales.\n3. Proyecta el video \"Multiplicación con decimales\" (https://www.youtube.com/watch?v=byeF94vE1Qo). Socializa.",
+          "actividad_numero": "Actividad 11 A (pág. 161)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, plantea el problema (pág. 161): \"Alexander compró 4 jarabes a RD$ 823.89 cada uno. ¿Cuánto pagó?\"\n2. Explica: multiplicar como naturales (823.89 × 4 = 3,295.56) y luego colocar el punto decimal (2 cifras decimales).\n3. Plantea otro problema (pág. 162): \"Alberto y sus dos hermanos pagaron RD$ 475.86 por vitaminas. ¿Cuánto debe pagar cada uno?\"\n4. Explica la división de decimales: 475.86 ÷ 3 = 158.62. Para bajar el número después del punto, se coloca punto en el cociente.\n5. Realiza la división paso a paso.",
+          "actividad_numero": "Actividad 11 B y C (págs. 161-162)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: 1) Padre de Alexander compró medicamento por RD$ 245.99, luego pidió 5 más. ¿Cuánto pagó? (245.99 × 6 = 1,475.94). 2) Nelly, Alberto y Alexander compraron jarabe por RD$ 2,435.99. ¿Cuánto paga cada uno? (2,435.99 ÷ 3 = 811.996... aproximadamente 812).\n\nCierre (pág. 162):\nDos estudiantes escriben un número decimal cada uno, los demás deciden qué operación hacer.\n\nActividad complementaria (pág. 163):\nResolver: a) 2434.98 × 12 (29,219.76); b) 434.98 ÷ 20 (21.749); c) 1284.76 × 53 (68,092.28).\n\nActividad para el diario del estudiante (pág. 163):\nEntrar al enlace: https://www.liveworksheets.com/w/es/matematicas/786977",
+          "actividad_numero": "Actividad 11 Actividad para el cuaderno (pág. 162) Cierre (pág. 162) Actividad complementaria (pág. 163) Actividad para el diario (pág. 163)"
+        }
+      ]
+    },
+    {
+      "id": "1771989356981",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Razones y proporciones",
+      "intencion_pedagogica": "Resolver problemas de la vida diaria que impliquen razones, proporciones y sus propiedades.\n\n",
+      "estrategia": "Corrección de tarea: Socialización del diario del estudiante.\n\nUso de material audiovisual: Videos sobre razones y proporciones.\n\nDiálogo dirigido: Exploración de conocimientos previos sobre razones y proporciones.\n\nSituaciones problemáticas: Aplicación de razones en contextos de farmacia.\n\nIdentificación de proporciones: Verificación de si dos razones forman una proporción.",
+      "aprendizaje_significativo": "Se introducen razones y proporciones a partir de situaciones con medicamentos (jarabes con diferentes concentraciones), mostrando su utilidad para comparar cantidades en contextos de salud.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades: Se les proporcionan razones con números pequeños.\n\nPara estudiantes kinestésicos: Se les invita a representar las razones con fichas de colores.\n\nPara estudiantes con discapacidad visual: Se les proporcionan los problemas en formato ampliado.\n\nPara estudiantes avanzados: Se les pide que creen sus propias proporciones.",
+      "actividades_cuaderno": "Completar la Actividad para el cuaderno de la página 165, la Actividad complementaria y la Actividad para el diario del estudiante de la página 166.\n\n",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Videos o pizarra",
+          "descripcion": "1. El docente pregunta por la actividad interactiva del enlace.\n2. Retroalimenta multiplicación y división de decimales.\n3. Pregunta: \"¿Qué saben sobre razones y proporciones? ¿Han escuchado esos términos?\"\n4. Proyecta los videos:\n- \"Razones súper fácil para principiantes\" (https://www.youtube.com/watch?v=Xcc6HtZBFkO)\n- \"Razones y proporciones ejercicio 1\" (https://www.youtube.com/watch?v=3eYwW4sD1xM)\n5. Socializa: \"¿De qué tratan los videos? ¿Qué es una razón? ¿Qué es una proporción?\"",
+          "actividad_numero": "Actividad 12 A (pág. 163)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Si no hay video, plantea el problema (pág. 164): \"Alexander compró un jarabe que contiene 8 ml de acetaminofén por cada 10 ml de Tylenol. El pote tiene 80 ml.\"\n2. Pregunta:\n- \"¿Cómo se escribe la razón entre acetaminofén y Tylenol?\" (8:10 o 8/10)\n- \"¿Razón entre Tylenol y acetaminofén?\" (10:8)\n- \"¿Razón entre acetaminofén y el total?\" (8:80)\n- \"¿Razón entre Tylenol y el total?\" (10:80)\n3. Explica que una razón es una comparación entre dos cantidades y se puede expresar como fracción.\n4. Plantea otro problema (pág. 164-165): \"Alberto compró dos jarabes. El primero: 6 ml de ibuprofeno por cada 8 ml de vitamina A. El segundo: 24 ml de ibuprofeno por cada 32 ml de vitamina A. ¿Cómo se expresa la razón en cada jarabe? ¿Tendrán una proporción entre los dos jarabes?\"\n5. Explica que dos razones forman una proporción si son iguales. Para verificarlo, se multiplica cruzado:\n6/8 y 24/32 → 6 × 32 = 192; 8 × 24 = 192 → son iguales, sí hay proporción.",
+          "actividad_numero": "Actividad 12 B y C (págs. 164-165)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos",
+          "descripcion": "Resolver: 1) Nelly compró un medicamento con 10 ml de vitamina B por cada 13 ml de vitamina D. Escribe la razón entre vitamina B y D (10:13) y entre D y B (13:10). 2) Alexander consumió un medicamento con razón 5:9 (vitamina E: B3). Alberto consumió otro con razón 15:27. ¿Son proporcionales? (5×27=135, 9×15=135 → sí).\n\nCierre (pág. 165):\nPreguntas: \"¿Qué es una razón? ¿Qué es una proporción? ¿Cómo verificar si dos razones forman una proporción?\"\n\nActividad complementaria (pág. 165-166):\n1) Escribir cómo se leen las razones: 5/8, 9/13, 13/25, 1/8. 2) Determinar si las razones son una proporción: 2/5 y 10/25 (sí); 3/6 y 30/60 (sí); 24/48 y 4/8 (sí); 9/5 y 36/25 (no).\n\nActividad para el diario del estudiante (pág. 166):\nEntrar al enlace: https://wordwall.net/es/resource/14048429/razones-y-proporciones",
+          "actividad_numero": "Actividad 12 Actividad para el cuaderno (pág. 165) Cierre (pág. 165) Actividad complementaria (págs. 165-166) Actividad para el diario (pág. 166)"
+        }
+      ]
+    },
+    {
+      "id": "1771991379352",
+      "sequence_id": "seq-1771958910787",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": " Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar los conocimientos adquiridos en la Secuencia 5 (fracciones, decimales, operaciones con fracciones y decimales, razones y proporciones) a través de la resolución de problemas.\n\n",
+      "estrategia": "Retroalimentación inicial: Preguntas orales para recordar los temas de la secuencia.\n\nEvaluación escrita: Resolución individual de un conjunto de problemas.\n\nUso de escala de valoración: Para que los estudiantes comprendan cómo se evaluará su desempeño.",
+      "aprendizaje_significativo": "La evaluación se presenta como una oportunidad para demostrar lo aprendido en contextos significativos (farmacias, medicamentos), y se utiliza una escala de valoración para que los estudiantes tomen conciencia de su propio nivel de logro.\n\n",
+      "actividades_complementarias": "Para estudiantes que necesitan más tiempo: Se les puede permitir terminar la evaluación en otra sesión, según la Ordenanza 04-2023.\n\nPara estudiantes con dificultades de lectura: Se les leen los problemas en voz alta si es necesario.\n\nPara estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n\nPara estudiantes que terminan rápido: Se les puede pedir que revisen sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué trabajaron en esta secuencia? ¿Qué tipos de números estudiamos? ¿Qué operaciones aprendieron con fracciones? ¿Con decimales? ¿Qué son las razones y proporciones?\"\n2. Da tiempo para responder y retroalimenta los temas.",
+          "actividad_numero": "Actividad 13 (Párrafo 1, pág. 166)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Copia de la evaluación o pizarra con los ítems\n• Escala de valoración",
+          "descripcion": "1. El docente explica que esta actividad evalúa la secuencia y que se hará énfasis en la resolución de problemas.\n2. Explica que cada ítem tiene un valor numérico por procedimiento y respuesta completa.\n3. Lee y explica la escala de valoración (pág. 166).\n4. Entrega una hoja en blanco a cada estudiante para que coloquen sus datos (nombre del centro, nombre del estudiante, fecha, grado y sección).\n5. Aplica la evaluación, ítem por ítem, dando el tiempo necesario. La evaluación consta de 10 puntos (ítems):\n- Ítem 1: Escribir al lado de cada gráfica la fracción que representa (figuras sombreadas) (10 pts).\n- Ítem 2: Determinar la fracción que representa cada figura en una colección (triángulos, círculos, cuadrados, pentágonos) (10 pts).\n- Ítem 3: Comparar fracciones usando los signos > y < (10 pts).\n- Ítem 4: Analizar y resolver: Alberto tiene pastillas con 3/5 de hierro, Nelly con 6/9. ¿Quién toma más hierro por día? (3/5 vs 6/9 → 3/5 = 27/45, 6/9 = 30/45 → Nelly toma más) (10 pts).\n- Ítem 5: Resolver: a) Alexander toma dos jarabes: 2/8 y 5/12 de vitamina A. ¿Qué cantidad total? (2/8 + 5/12 = 6/24 + 10/24 = 16/24 = 2/3). b) Alberto tiene 5/8 de medicamento, Nelly usa 3/12. ¿Qué cantidad queda? (5/8 - 3/12 = 15/24 - 6/24 = 9/24 = 3/8) (10 pts).\n- Ítem 6: Analizar y resolver: La madre de Alberto tiene jarabe de 80 ml con 3/12 de acetaminofén. ¿Qué cantidad representa? (3/12 de 80 = 3/12 × 80 = 240/12 = 20 ml) (10 pts).\n- Ítem 7: Resolver: Una empresa quiere repartir 12 ml de vitamina B a razón de 2/10 en cada medicamento. ¿A cuántos medicamentos puede repartir? (12 ÷ 2/10 = 12 × 10/2 = 120/2 = 60) (10 pts).\n- Ítem 8: Resolver problemas con decimales: a) Nelly compró medicamentos por RD$ 145.80 y RD$ 582.99. ¿Cuánto pagó? (728.79). b) Si pagó con RD$ 1,000, ¿cuánto le sobra? (271.21) (10 pts).\n- Ítem 9: Resolver problemas de multiplicación y división de decimales: a) Alexander compró 4 jarabes a RD$ 1,045.82 cada uno. ¿Cuánto pagó? (4,183.28). b) Alberto, Nelly y Alexander tienen ahorrado RD$ 24,742.93. Si lo reparten en partes iguales, ¿cuánto le toca a cada uno? (24,742.93 ÷ 3 = 8,247.64) (10 pts).\n- Ítem 10: Determinar la solución: Nelly tiene dos jarabes. Uno: 10 ml de Zinc por cada 12 ml de vitamina D. Otro: 20 ml de Zinc por cada 32 ml de vitamina D. ¿Cómo se expresa la razón en cada jarabe? (10:12 y 20:32). ¿Tendrán una proporción? (10×32=320, 12×20=240 → no son proporcionales) (10 pts).",
+          "actividad_numero": "Actividad 13 Evaluación (págs. 166-168)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones de los estudiantes",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Puede hacer un breve comentario sobre la importancia de la evaluación para medir el aprendizaje.\n3. Anuncia que en la próxima clase se darán los resultados y se retroalimentarán los puntos con mayores dificultades.",
+          "actividad_numero": "Actividad 13 (Cierre)"
+        }
+      ]
+    }
+  ]
+}

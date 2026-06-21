@@ -1,0 +1,399 @@
+{
+  "id": "seq-1772467646020",
+  "title": "Números decimales",
+  "description": "Trabaja la lectura, escritura y representación de números decimales, operaciones con ellos en contextos como dinero, medidas y cálculos diarios.",
+  "order": 2,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772467839244",
+      "sequence_id": "seq-1772467646020",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Números decimales - El fascinante mundo de los números decimales",
+      "intencion_pedagogica": "Introducir a los estudiantes en el fascinante mundo de los números decimales, ayudándoles a leer y escribir números decimales hasta las cienmilésimas, utilizando la tabla de valor posicional y la forma desarrollada para comprender su estructura y significado.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre números decimales.\n• Uso de video: \"Lectura y escritura de los números decimales\".\n• Uso de tabla de valor posicional: Identificación de décimas, centésimas, milésimas, diezmilésimas y cienmilésimas.\n• Trabajo individual y colaborativo: Representación de números decimales en tabla y forma desarrollada.",
+      "aprendizaje_significativo": "Los estudiantes relacionan los números decimales con situaciones cotidianas de medición (longitudes, temperaturas, pesos) que encuentran en su entorno, comprendiendo su utilidad para expresar cantidades no enteras.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de valor posicional impresa para que coloquen los números.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para realizar las divisiones que generan las posiciones decimales.\n• Para estudiantes con discapacidad visual: Se les proporciona la tabla y los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen cómo se llaman las siguientes posiciones decimales (millonésimas, diezmillonésimas, etc.).",
+      "actividades_cuaderno": "Completa la siguiente tabla: Números decimales en su forma estándar, números decimales en palabras y forma desarrollada. 2.027; Ciento veinticinco diezmilésimas; 0.01 + 0.002 + 0.0007 + 0.00006; 0.09568; 0.7 + 0.08.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Periódicos (opcional)",
+          "descripcion": "1. El docente conversa con los estudiantes: \"¿Qué recuerdan de los números decimales? ¿Cómo se leen estos números? ¿Cuáles posiciones recuerdan?\" (pág. 55).\n2. Invita a algunos estudiantes a pasar a la pizarra para que escriban ejemplos.\n3. Puede llevar periódicos con titulares que contengan números decimales para generar diálogo.\n4. Anuncia que observarán un video sobre números decimales.",
+          "actividad_numero": "Actividad 1 - A (Pág. 55)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video\n• Proyector/TV\n• Computadora\n• Papelógrafo con tabla de valor posicional\n• Rótulos con nombres de posiciones\n• Calculadoras\n• Cuadernos",
+          "descripcion": "1. El docente presenta el video \"Lectura y escritura de los números decimales\" disponible en: https://www.youtube.com/watch?v=PwBKGSJa-UE (pág. 55).\n2. Después del video, guía la conversación con preguntas:\n- \"¿De qué trata el video?\"\n- \"¿Cómo están formados los números decimales?\"\n- \"¿Cuáles posiciones decimales se mostraron?\"\n- \"¿Cómo se lee 1.2538?\"\n- \"¿Cómo se llama la tercera posición decimal? ¿Y la quinta?\"\n\nActividad 2 - Tabla de valor posicional (20 min):\n1. El docente muestra el tablero de valor posicional en un papelógrafo (pág. 55).\n2. Lleva rótulos con los nombres de los lugares de posición para que los estudiantes los coloquen.\n3. Ayuda a relacionar cada lugar con las partes iguales en que se ha dividido el entero.\n4. Explica: Décimas = 1÷10 = 0.1; Centésimas = 1÷100 = 0.01; Milésimas = 1÷1,000 = 0.001; Diezmilésimas = 1÷10,000 = 0.0001; Cienmilésimas = 1÷100,000 = 0.00001.\n5. Sugiere uso de calculadora para realizar estas divisiones.\n\nActividad 3 - Ejercicios prácticos (20 min):\n1. El docente plantea los ejercicios de la página 56:\na. La longitud de un pedazo de madera es de 1.975 m.\nb. La temperatura de una sustancia es 0.19758 °F.\nc. 5.0575\nd. 2.58\ne. 0.8\n2. Los estudiantes trabajan en sus cuadernos colocando los números en una tabla de valor posicional y escribiendo su forma desarrollada.\n3. El docente circula y apoya.\n4. Envía a algunos a la pizarra para mostrar sus soluciones.",
+          "actividad_numero": "Actividad 1 - B y C (Pág. 55-56)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n• Crucigrama (pág. 57)",
+          "descripcion": "1. El docente presenta las respuestas de forma desarrollada (pág. 56) y la escritura en palabras.\n2. Presenta la nota sobre números decimales y forma desarrollada (pág. 56).\n3. Asigna la actividad para el cuaderno (pág. 57): Completar la tabla con números decimales en forma estándar, en palabras y forma desarrollada.\n4. Para cerrar, presenta el crucigrama de la página 57 para que los estudiantes encierren los nombres de las posiciones decimales.",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 56-57)"
+        }
+      ]
+    },
+    {
+      "id": "1772468739942",
+      "sequence_id": "seq-1772467646020",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comparación de números decimales",
+      "intencion_pedagogica": "Ayudar a los estudiantes a desarrollar la habilidad de comparar números decimales a partir de su valor posicional, utilizando los signos >, < y =, y aplicando esta destreza en situaciones problemáticas del entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del cuaderno.\n• Diálogo dirigido: Exploración de conocimientos sobre comparación y signos.\n• Uso de tabla: Comparación de pesos de productos del supermercado.\n• Trabajo individual y colaborativo: Resolución de ejercicios de comparación.",
+      "aprendizaje_significativo": "Los estudiantes aplican la comparación de números decimales a situaciones cotidianas como determinar qué producto pesa más en el supermercado, conectando así el aprendizaje con experiencias reales de compra.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una recta numérica impresa para que ubiquen los números antes de compararlos.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar las comparaciones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y se les ayuda a identificar las posiciones.\n• Para estudiantes avanzados: Se les pide que ordenen los números de mayor a menor y expliquen la diferencia.",
+      "actividades_cuaderno": "\"Ordena los siguientes pesos de menor a mayor, utiliza la recta numérica y justifica tu comparación: chocolate en polvo 0.75 kg, aceite 0.865 kg y leche 0.450 kg.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta por la actividad del diario del estudiante (pág. 58): \"¿Cómo la realizaron? ¿Cuál fue el nombre que colocaron en la 4.a casilla? ¿Cómo se llama la 5.a casilla?\"\n2. Envía algunos estudiantes a la pizarra a realizar la actividad.\n3. Luego, explora conocimientos: \"¿Cómo comparan dos o más números decimales? ¿Cuáles signos se usan? ¿Qué se debe tomar en cuenta?\" (pág. 58).",
+          "actividad_numero": "Actividad 2 - A (Pág. 58)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Tabla de productos (papelógrafo)\n• Cuadernos",
+          "descripcion": "Actividad 1 - Signos de comparación (10 min):\n1. El docente pregunta: \"¿Cuáles signos de comparación recuerdan?\"\n2. Solicita a algunos estudiantes que escriban los signos en la pizarra.\n3. Construyen entre todos: > (mayor que), < (menor que), = (igual que) (pág. 58).\n\nActividad 2 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 58-59): Manuel está de compras en el supermercado y observa el peso en las etiquetas: Bacalao 0.425 kg, Atún 0.175 kg, Café 0.223 kg, Queso importado 0.852 kg, Camarones 0.225 kg, Pescado 1.225 kg, Habichuelas 0.435 kg.\n2. Presenta la tabla de comparación (pág. 59).\n3. Pregunta: \"¿Cuál es el peso mayor? ¿Cuál producto tiene el peso menor?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a estudiantes a la pizarra.\n6. Socializa las comparaciones apoyándose en la tabla de la página 59, explicando que se comparan de izquierda a derecha, de la posición mayor a la menor.\n\nActividad 3 - Actividad para el cuaderno (20 min):\n1. Asigna la actividad (pág. 59): \"Ordena los siguientes pesos de menor a mayor, utiliza la recta numérica y justifica tu comparación: chocolate en polvo 0.75 kg, aceite 0.865 kg y leche 0.450 kg.\"",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 58-59)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos de los estudiantes.",
+          "descripcion": "Actividades finales:\n1. El docente presenta el ejercicio de cierre (pág. 60): Completar la tabla colocando <, > o =.",
+          "actividad_numero": "Cierre"
+        }
+      ]
+    },
+    {
+      "id": "1772468857378",
+      "sequence_id": "seq-1772467646020",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Orden de números decimales",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la capacidad de ordenar números decimales en la recta numérica, comprendiendo que los números aumentan de izquierda a derecha y que la posición relativa indica su valor.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de recta numérica: Representación gráfica para ordenar decimales.\n• Trabajo colaborativo: Resolución de ejercicios en la pizarra.\n• Diálogo dirigido: Análisis de la posición de los números en la recta.",
+      "aprendizaje_significativo": "Los estudiantes aplican el orden de números decimales a situaciones cotidianas como ordenar tiempos de atletas o temperaturas, comprendiendo que la recta numérica les ayuda a visualizar la magnitud de los números.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una recta numérica impresa con divisiones marcadas para que ubiquen los números.\n• Para estudiantes kinestésicos: Pueden dibujar la recta en el piso con tiza y ubicarse ellos mismos en las posiciones correspondientes.\n• Para estudiantes con discapacidad visual: Se les proporciona una recta numérica táctil con relieve.\n• Para estudiantes avanzados: Se les pide que expliquen por qué 0.85 es mayor que 0.650 si 85 parece menor que 650.",
+      "actividades_cuaderno": "Actividad para el cuaderno:\n\"Un grupo de cinco estudiantes miden la masa de una sustancia: 0.650 mg; 0.456 mg; 0.724 mg; 0.651 mg y 0.85 mg. Ordena estas mediciones utilizando una recta numérica.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuál número decimal colocaron de primero en las carreras de Miriam? ¿Por qué? ¿Qué número decimal quedó en el extremo izquierdo?\" (pág. 60).\n2. Retroalimenta lo aprendido.\n3. Anuncia que hoy aprenderán a ordenar números decimales en la recta numérica.",
+          "actividad_numero": "Actividad 3 - A (Pág. 60)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Recta numérica en cartulina\n• Cuadernos",
+          "descripcion": "Actividad 1 - Activación de conocimientos (15 min):\n1. El docente genera diálogo: \"¿Qué posición decimal está entre la milésima y la cienmilésima? ¿Qué es una recta numérica? ¿Cómo se ordenan los números en una recta?\" (pág. 60).\n2. Anota hipótesis de los estudiantes.\n\nActividad 2 - Orden en la recta numérica (30 min):\n1. El docente presenta los números decimales (pág. 61): 0.758, 0.258, 0.457, 0.92, 0.945, 0.45, 0.105, 0.78, 0.287.\n2. Pregunta: \"¿Entre cuáles números enteros estarían ubicados? ¿Cuál intervalo sería apropiado para dividir la recta?\"\n3. Los estudiantes trabajan en sus cuadernos ordenando los números en una recta numérica.\n4. El docente guía la ubicación en la pizarra.\n5. Construyen el orden ascendente: 0.105 < 0.258 < 0.287 < 0.45 < 0.457 < 0.758 < 0.78 < 0.92 < 0.945.\n6. Explica que cuando tienen igual dígito en las décimas, se verifican las centésimas, y así sucesivamente.\n\nActividad 3 - Actividad para el cuaderno (15 min):\n1. Asigna la actividad (pág. 61): \"Un grupo de cinco estudiantes miden la masa de una sustancia: 0.650 mg; 0.456 mg; 0.724 mg; 0.651 mg y 0.85 mg. Ordena estas mediciones utilizando una recta numérica.\"",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 60-61)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente presenta el ejercicio de cierre (pág. 62): Encierra en un círculo el número decimal mayor de cada pareja:\n- 1.57 y 1.53\n- 7.05 y 7.50\n- 0.752 y 0.675\n- 0.08 y 0.83\n2. Asigna la actividad complementaria (pág. 62).\n3. Asigna la actividad para el diario del estudiante (pág. 62): \"Los tiempos de llegada de 8 atletas a la meta, en los 200 m planos, son: Isaac 23.257 s, Pedro 24.268 s, Rafy 22.981 s, Alejandro 24.1 s, Josué 23.97 s, Ernesto 24.252 s, Starlyn 25.253 s, Ángel 23.256 s. ¿Cuál es el orden de llegada, iniciando por el menor tiempo?\"",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 62)"
+        }
+      ]
+    },
+    {
+      "id": "1772468946390",
+      "sequence_id": "seq-1772467646020",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Suma de números decimales",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de sumar números decimales utilizando diferentes estrategias (descomposición aditiva y forma tradicional), aplicando estos conocimientos en situaciones problemáticas del entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre suma de decimales.\n• Resolución de problemas: Aplicación de suma de decimales en situaciones cotidianas.\n• Uso de estrategias: Descomposición aditiva y forma tradicional.",
+      "aprendizaje_significativo": "Los estudiantes aplican la suma de números decimales a situaciones cotidianas como calcular distancias recorridas o total de compras, comprendiendo la importancia de alinear correctamente los puntos decimales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una plantilla con columnas alineadas para unidades, décimas, centésimas, etc.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los resultados.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y se les ayuda a alinear los puntos decimales.\n• Para estudiantes avanzados: Se les pide que resuelvan el problema también utilizando la descomposición aditiva.",
+      "actividades_cuaderno": "\"Una familia compra un solar de 256.75 m² y luego le compran a un vecino una porción de terreno para ampliarlo de 45.65 m². ¿Qué tamaño tiene el solar?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuál fue el orden de llegada de los atletas? ¿Quién llegó primero?\" (pág. 62).\n2. Retroalimenta lo aprendido.\n3. Luego, motiva el diálogo: \"¿Cómo se leen 4.5 y 0.625? ¿Cómo se suman? ¿Cómo se colocan los puntos decimales?\" (pág. 62).",
+          "actividad_numero": "Actividad 4 - A (Pág. 62)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 62): \"La señora González camina alrededor del parque de su comunidad cada mañana. El lunes caminó 545.25 m y el martes 981.255 m. ¿Cuántos metros caminó en los dos días?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Qué información aporta? ¿Cómo lo resolverán?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a un estudiante a la pizarra.\n6. Socializa el procedimiento apoyándose en el cuadro de la página 63 (descomposición y forma tradicional).\n7. Explica que en la forma tradicional se debe colocar punto debajo de punto y que agregar ceros a la derecha no altera la cantidad.\n\nActividad 2 - Actividad para el cuaderno (20 min):\n1. Asigna la actividad (pág. 63): \"Una familia compra un solar de 256.75 m² y luego le compran a un vecino una porción de terreno para ampliarlo de 45.65 m². ¿Qué tamaño tiene el solar?\"\n2. Mientras resuelven, el docente recorre las mesas y apoya.\n\nActividad 3 - Cápsula (10 min):\n1. El docente refuerza: \"Para sumar decimales, se alinean los puntos decimales y se suma como si fueran números naturales, colocando el punto en el resultado en la misma posición.\"",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 62-63)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué descomposiciones realizaron? ¿En cuáles posiciones reagruparon?\" (pág. 63).\n2. Asigna la actividad complementaria (pág. 63).\n3. Asigna la actividad para el diario del estudiante (pág. 64): \"Guillermo recorre un día en guagua 103.8 km, un segundo día 98.25 km y un tercer día 116.57 km. ¿Cuántos kilómetros recorrió en total? ¿Qué operación aritmética realizaste para hallar el resultado? ¿Por qué?\"",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 63-64)"
+        }
+      ]
+    },
+    {
+      "id": "1772469231200",
+      "sequence_id": "seq-1772467646020",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Sustracción de números decimales",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de restar números decimales utilizando diferentes estrategias (descomposición aditiva y forma tradicional), aplicando estos conocimientos en situaciones problemáticas del entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre resta de decimales.\n• Resolución de problemas: Aplicación de resta de decimales en situaciones cotidianas.\n• Uso de estrategias: Descomposición aditiva y forma tradicional.",
+      "aprendizaje_significativo": "Los estudiantes aplican la resta de números decimales a situaciones cotidianas como calcular diferencias de áreas o longitudes, comprendiendo que deben alinear correctamente los puntos decimales y completar con ceros cuando sea necesario.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una plantilla con columnas alineadas para unidades, décimas, centésimas, etc.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los resultados.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado y se les ayuda a alinear los puntos decimales.\n• Para estudiantes avanzados: Se les pide que resuelvan el problema también utilizando la descomposición aditiva.",
+      "actividades_cuaderno": "\"La lluvia caída un martes de julio en Santo Domingo fue de 22.25 mm y el miércoles fue de 18.672 mm. ¿Cuántos milímetros más de lluvia cayó el martes que el miércoles?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de Guillermo? ¿Cuántos kilómetros recorrió en total?\" (pág. 64).\n2. Invita a un estudiante a realizar el problema en la pizarra.\n3. Guía el proceso y verifica resultados.\n4. Luego, explora saberes: \"¿Qué saben sobre la resta de números decimales? ¿Cómo restarían 1.5 – 0.98? ¿Es necesario completar con cero?\" (pág. 64).",
+          "actividad_numero": "Actividad 5 - A (Pág. 64)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 64): \"La casa de la familia Pérez ocupa un área de 108.55 m² y la casa de su vecino, un área de 99.44 m². ¿Cuántos metros cuadrados más tiene la casa de la familia Pérez?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Qué información aporta? ¿Cómo lo resolverán?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a un estudiante a la pizarra.\n6. Socializa el procedimiento apoyándose en el cuadro de la página 64 (descomposición y forma tradicional).\n7. Explica que en la descomposición se pueden cancelar números iguales y que en la forma tradicional se completa con ceros si es necesario.\n\nActividad 2 - Actividad para el cuaderno (20 min):\n1. Asigna la actividad (pág. 65): \"La lluvia caída un martes de julio en Santo Domingo fue de 22.25 mm y el miércoles fue de 18.672 mm. ¿Cuántos milímetros más de lluvia cayó el martes que el miércoles?\"\n2. Mientras resuelven, el docente recorre las mesas y apoya.\n\nActividad 3 - Cápsula (10 min):\n1. El docente refuerza: \"Para restar decimales, se alinean los puntos decimales, se completan con ceros si es necesario y se resta como números naturales, colocando el punto en el resultado.\"",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 64-65)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Presenta el ejercicio de cierre (pág. 65): Parea la columna izquierda con la derecha:\n- 1. Es una descomposición de 1.875 → d. 1 + 0.7 + 0.05 + 0.008? (verificar)\n- 2. Es una descomposición de 1.758 → c. 1 + 0.8 + 0.07 + 0.005? (verificar)\n- 3. Resultado de restar 2 - 1.75 → b. 0.25\n- 4. Diferencia de 1.5 - 1.257 → a. 0.243\n2. Asigna la actividad complementaria (pág. 65).\n3. Asigna la actividad para el diario del estudiante (pág. 65): \"La familia Araujo tiene un tinaco con 250.25 galones de agua y durante la actividad de la mañana, consumieron 84.475. ¿Cuántos galones quedan disponibles en el tinaco?\"",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 65)"
+        }
+      ]
+    },
+    {
+      "id": "1772469386092",
+      "sequence_id": "seq-1772467646020",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Multiplicación de números decimales",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de multiplicar números decimales, aplicando la regla de conteo de posiciones decimales para colocar el punto en el producto, y redondear resultados según sea necesario en situaciones problemáticas del entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre multiplicación de decimales y redondeo.\n• Resolución de problemas: Aplicación de multiplicación de decimales en situaciones cotidianas.\n• Uso de estrategias: Forma tradicional y descomposición.",
+      "aprendizaje_significativo": "Los estudiantes aplican la multiplicación de números decimales a situaciones cotidianas como calcular salarios por horas trabajadas o consumo de combustible, comprendiendo la importancia de contar las posiciones decimales para colocar correctamente el punto en el producto.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de multiplicar y una guía para contar posiciones decimales.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los productos.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué el producto tiene esa cantidad de posiciones decimales.",
+      "actividades_cuaderno": "\"El pago por hora de un trabajador es de RD$ 92.75. Si la última semana trabajó 49.75 horas, ¿cuánto fue su salario en esa semana redondeado a las centésimas?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cuántos galones quedaron en el tinaco de la familia Araujo?\" (pág. 65).\n2. Invita a un estudiante a pasar a la pizarra para solucionar el problema.\n3. Formula preguntas para que todos participen.\n4. Luego, orienta el diálogo: \"¿Cuáles son los elementos de la multiplicación? ¿Es necesario colocar punto debajo de punto? ¿Cómo se lee 2.54 x 0.8? ¿Cómo se coloca el punto decimal al producto?\" (pág. 66).",
+          "actividad_numero": "Actividad 6 - A (Pág. 66)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras",
+          "descripcion": "Actividad 1 - Repaso de redondeo (10 min):\n1. El docente plantea ejercicios de redondeo (pág. 66): Redondear a la milésima más próxima: a) 21.2586; b) 0.1584.\n2. Un estudiante resuelve en la pizarra.\n3. Socializa y retroalimenta con la cápsula.\n\nActividad 2 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 66): \"Un tanque de combustible tiene 2.25 galones y se aumentará su contenido en 6.75 veces. ¿Cuántos galones tendrá luego de aumentar su contenido, redondeado a las centésimas?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Qué información aporta? ¿Cómo lo resolverán?\"\n4. Da tiempo para resolver en cuadernos (permitir calculadora).\n5. Envía a un voluntario a la pizarra.\n6. Socializa el procedimiento apoyándose en el cuadro de la página 67 (forma tradicional y descomposición).\n7. Explica que se cuentan todas las posiciones decimales de los factores para colocar el punto en el producto.\n\nActividad 3 - Actividad para el cuaderno (20 min):\n1. Asigna la actividad (pág. 67): \"El pago por hora de un trabajador es de RD$ 92.75. Si la última semana trabajó 49.75 horas, ¿cuánto fue su salario en esa semana redondeado a las centésimas?\"",
+          "actividad_numero": "Actividad 6 - B y C (Pág. 66-67)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo descompusieron los números? ¿Cómo redondearon el producto? ¿Cuál posición se pondera para el redondeo?\" (pág. 67).\n2. Asigna la actividad complementaria (pág. 67).\n3. Asigna la actividad para el diario del estudiante (pág. 67): \"El consumo de gas de una familia es de 0.569 galón por día, aproximadamente. ¿Cuántos galones consumirán en 15 días, redondeando el resultado a las centésimas?\"",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 67)"
+        }
+      ]
+    },
+    {
+      "id": "1772469474504",
+      "sequence_id": "seq-1772467646020",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "División de números decimales",
+      "intencion_pedagogica": "Desarrollar en los estudiantes la habilidad de dividir números decimales, aplicando las reglas para mover el punto decimal en el dividendo y el divisor, y redondeando los resultados cuando sea necesario en situaciones problemáticas del entorno.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Exploración de conocimientos sobre división de decimales.\n• Resolución de problemas: Aplicación de división de decimales en situaciones cotidianas.\n• Uso de estrategias: Algoritmo tradicional y redondeo.",
+      "aprendizaje_significativo": "Los estudiantes aplican la división de números decimales a situaciones cotidianas como repartir longitudes en partes iguales o calcular cuántas partes se obtienen, comprendiendo cómo manejar el punto decimal en el dividendo y el divisor.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para mover el punto decimal en división.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los resultados.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen por qué se mueve el punto decimal en el dividendo y el divisor.",
+      "actividades_cuaderno": "\"Se desea dividir un cable eléctrico con una longitud de 148.65 pies, en pedazos iguales que midan 8.75 pies cada uno. ¿Cuántos pedazos iguales se obtienen? Redondea el cociente a las centésimas.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema del consumo de gas? ¿Cuál fue el resultado? ¿Qué lugar de posición observaron para redondear?\" (pág. 68).\n2. Invita a un estudiante a pasar a la pizarra.\n3. Retroalimenta.\n4. Luego, establece diálogo: \"¿Qué recuerdan de la división? ¿Cómo se divide 4.5 ÷ 0.2? ¿Cómo se lee el número decimal obtenido?\" (pág. 68).",
+          "actividad_numero": "Actividad 7 - A (Pág. 68)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Situaciones problemáticas (40 min):\n1. El docente plantea dos situaciones (pág. 68):\n- \"Luis tiene un trozo de madera de 102.45 pulg., si necesita cortarlo en 15 partes iguales. ¿Cuánto debe medir cada parte?\"\n- \"Un terreno tiene un área de 96.98 m² para repartir entre sus herederos en partes iguales, de 7.42 m². ¿Cuántas partes iguales se obtendrán redondeadas a las décimas?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Qué información aporta? ¿Cómo lo resolverán?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía voluntarios a la pizarra.\n6. Socializa los procedimientos apoyándose en los cuadros de las páginas 68-69.\n7. Explica que cuando el divisor es decimal, se debe multiplicar dividendo y divisor por la unidad seguida de tantos ceros como cifras decimales tenga el divisor.\n\nActividad 2 - Actividad para el cuaderno (20 min):\n1. Asigna la actividad (pág. 69): \"Se desea dividir un cable eléctrico con una longitud de 148.65 pies, en pedazos iguales que midan 8.75 pies cada uno. ¿Cuántos pedazos iguales se obtienen? Redondea el cociente a las centésimas.\"",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 68-69)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo descompusieron los números? ¿Cómo redondearon el cociente?\" (pág. 69).\n2. Asigna la actividad complementaria (pág. 69).\n3. Asigna la actividad para el diario del estudiante (pág. 70): \"Una guagua consume 9.925 galones de combustible por cada día, operando su ruta. ¿Cuántos días operará con 42.45 galones de combustible? Redondea el resultado a las centésimas.\"",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 69-70)"
+        }
+      ]
+    },
+    {
+      "id": "1772469627433",
+      "sequence_id": "seq-1772467646020",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Profundizando en la división de números decimales",
+      "intencion_pedagogica": "Ayudar a los estudiantes a profundizar en la división de números decimales, abordando casos donde el dividendo es entero y el divisor decimal, y viceversa, e introduciendo los conceptos de decimal periódico puro y mixto.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Recuperación de saberes sobre división.\n• Resolución de problemas: Aplicación de división de decimales con diferentes casos.\n• Uso de calculadora: Verificación de resultados y exploración de decimales periódicos.",
+      "aprendizaje_significativo": "Los estudiantes aplican la división de números decimales a situaciones cotidianas como empacar dulces o calcular cuántos productos se pueden obtener, comprendiendo la diferencia entre decimales exactos, periódicos puros y periódicos mixtos.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para cada tipo de división.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para explorar los decimales periódicos.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen por qué algunos decimales son periódicos y otros no.",
+      "actividades_cuaderno": "\"Una fábrica compra 45.596 metros de cadena de acero para fabricar 17 columpios de igual longitud. ¿Qué cantidad de cadena usarán en cada columpio, redondeando a las décimas?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de la guagua? ¿Cuántos días operará?\" (pág. 70).\n2. Invita a un estudiante a pasar a la pizarra.\n3. Retroalimenta.\n4. Luego, pregunta: \"¿Cómo dividirían 45 ÷ 1.456? ¿Qué harían primero?\" (pág. 70).",
+          "actividad_numero": "Actividad 8 - A (Pág. 70)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Situación problemática (30 min):\n1. El docente plantea la situación (pág. 70): \"Una fábrica produce 75 libras de dulce de leche para empacar en tabletas iguales de 2.25 libras. También produce 55.75 libras de dulce de coco para empacar en tabletas iguales de 3 libras. ¿Cuántas tabletas de dulce de leche y de coco empacarán, redondeando el resultado hasta las centésimas?\"\n2. Un estudiante lee en voz alta.\n3. Pregunta: \"¿Cómo lo resolverán?\"\n4. Da tiempo para resolver en cuadernos.\n5. Envía a un estudiante a la pizarra.\n6. Socializa el procedimiento apoyándose en los cuadros de las páginas 70-71.\n7. Explica que para 75 ÷ 2.25, se multiplica dividendo y divisor por 100; para 55.75 ÷ 3, se coloca el punto decimal cuando termina la parte entera.\n8. Introduce los conceptos de decimal periódico puro (3.333...) y periódico mixto (18.5833...).\n\nActividad 2 - Actividad para el cuaderno (20 min):\n1. Asigna la actividad (pág. 71): \"Una fábrica compra 45.596 metros de cadena de acero para fabricar 17 columpios de igual longitud. ¿Qué cantidad de cadena usarán en cada columpio, redondeando a las décimas?\"\n\nActividad 3 - Ejercicio de cierre (10 min):\n1. Plantea la situación (pág. 71): \"En un recipiente hay 40.37 litros de agua y María quiere envasarlos en botellas de 1.5 litros. a) ¿Cuántas botellas necesita? b) ¿Cuánta agua le sobra?\"",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 70-71)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre sobre decimales periódicos.\n2. Asigna la actividad complementaria (pág. 71).\n3. Asigna la actividad para el diario del estudiante (pág. 72): \"Mirta tiene RD$ 182 para comprar sacapuntas para donarlos a niños de su comunidad. Si cada sacapuntas cuesta RD$ 8.65, ¿cuántos sacapuntas puede comprar Mirta?\"",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 71-72)"
+        }
+      ]
+    },
+    {
+      "id": "1772469699779",
+      "sequence_id": "seq-1772467646020",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Repaso de la secuencia",
+      "intencion_pedagogica": "Guiar a los estudiantes en un proceso de recapitulación y consolidación de los aprendizajes adquiridos durante la secuencia sobre números decimales, integrando los diferentes contenidos (valor posicional, operaciones, conversiones) a través de la resolución de ejercicios y problemas.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Diálogo dirigido: Recuperación de contenidos de la secuencia.\n• Resolución de ejercicios: Aplicación integrada de todos los temas.\n• Uso de tabla de valor posicional y recta numérica.",
+      "aprendizaje_significativo": "Los estudiantes repasan y consolidan todos los conceptos trabajados en la secuencia (lectura y escritura de decimales, comparación, orden, suma, resta, multiplicación, división y conversiones) mediante la resolución de ejercicios variados, conectando estos conocimientos con su utilidad en la vida cotidiana.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una hoja resumen con los conceptos clave de la secuencia.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar los resultados.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que creen un problema similar para intercambiar con un compañero.",
+      "actividades_cuaderno": "Los estudiantes deben resolver en sus cuadernos todos los ejercicios planteados durante la clase de repaso, mostrando los procedimientos completos.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema de Mirta? ¿Cuántos sacapuntas puede comprar?\" (pág. 72).\n2. Invita a un estudiante a pasar a la pizarra.\n3. Retroalimenta.\n4. Luego, inicia diálogo: \"¿Qué han trabajado en esta secuencia? ¿Qué es la forma desarrollada? ¿Qué son las milésimas? ¿Cómo se suman o restan decimales?\" (pág. 72).",
+          "actividad_numero": "Actividad 9 - A (Pág. 72)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Calculadoras\n",
+          "descripcion": "Actividad 1 - Situación problemática integradora (30 min):\n1. El docente plantea la situación (pág. 72): \"Un técnico en electrónica mide con multímetro el voltaje de un circuito de computadora en cinco puntos diferentes y obtiene las siguientes lecturas: 9.5785 V; 5.932 V; 3.15783 V; 7.95 V y 4.7 V: a) ¿Cómo se representan las mediciones en una tabla de valor posicional? b) ¿Cuál es la forma desarrollada de las mediciones? c) ¿Cómo se escriben en palabras esas mediciones?\"\n2. Un estudiante lee en voz alta.\n3. Da tiempo para resolver en cuadernos.\n4. Socializa apoyándose en la tabla de la página 72-73.\n\nActividad 2 - Problemas de operaciones (20 min):\n1. El docente plantea (pág. 73): \"Un cocinero tiene 1.78 lb queso amarillo, de jamón 3.755 lb, de vegetales 2.28 lb y de queso blanco 3.9 lb: a) ¿Cuántas libras tiene de alimentos, redondeadas a las centésimas? b) ¿Cuántas libras más hay de jamón que de queso amarillo?\"\n2. Da tiempo para resolver.\n3. Socializa con los cuadros de la página 74.\n\nActividad 3 - Ejercicios varios (10 min):\n1. Plantea ejercicios de la página 74: a) 1.295 lb x 12 bizcochos; b) 13.9 litros ÷ 0.75 litros; c) Ubicar en recta numérica: 1.8, 0.584, 0.581, 0.548, 2.45.",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 72-74)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos\n",
+          "descripcion": "1. Asigna la actividad complementaria (pág. 75).\n2. Prepara a los estudiantes para la evaluación de la próxima clase.",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 75)"
+        }
+      ]
+    },
+    {
+      "id": "1772469799420",
+      "sequence_id": "seq-1772467646020",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Evaluando lo aprendido",
+      "intencion_pedagogica": "Evaluar el nivel de logro de los estudiantes en relación con los contenidos y competencias desarrolladas durante la secuencia de números decimales, mediante la resolución de problemas que integran lectura, escritura, comparación, orden, suma, resta, multiplicación y división de números decimales.",
+      "estrategia": "• Diálogo dirigido: Recuperación de temas de la secuencia.\n• Explicación de la escala de valoración.\n• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas.",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia (lectura, escritura, comparación, orden, suma, resta, multiplicación y división de números decimales) en contextos variados (mediciones, compras, cotidianos), evidenciando su capacidad para aplicar las matemáticas en situaciones reales",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite el uso de calculadora y se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden usar la calculadora para verificar sus cálculos.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que, al terminar, ayuden a revisar sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración",
+          "descripcion": "1. El docente inicia preguntando: \"¿Qué trabajaron en esta secuencia?\" (pág. 76).\n2. Retroalimenta los temas.\n3. Explica que realizarán una actividad para evaluar la secuencia 2.\n4. Lee con ellos la tabla de valoración (escala numérica y nominal) para que comprendan cómo se evaluarán los resultados (pág. 76).",
+          "actividad_numero": "Actividad 10 - A (Pág. 76)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices\n• Calculadoras (si se permite)\n",
+          "descripcion": "1. El docente entrega una hoja en blanco a cada estudiante donde colocarán sus datos (pág. 76).\n2. Explica la valoración de cada ítem.\n3. Presenta los problemas de evaluación (págs. 76-77):\n\nÍtem 1 (10 pts): a) Atleta recorre 47.375 s, ¿cómo se escribe en palabras? b) En 0.98475, ¿cómo se llama la posición del 5?\nÍtem 2 (10 pts): Plomero: tubería 15.785 pies, usa 3.85 pies, ¿cuántos pies le quedaron? Redondear a milésimas.\nÍtem 3 (10 pts): Cocinero: 5.55 lb jamón, empanadas de 0.05 lb, ¿cuántas empanadas?\nÍtem 4 (10 pts): Cafetería: 16.75 litros leche para 45 batidas iguales, ¿qué porción por batida? Redondear a milésimas.\nÍtem 5 (10 pts): Comparar usando > o <: a) 2.055 __ 2.55; b) 0.985 __ 1; c) 5.75 __ 5.075; d) 0.5 __ 0.055; e) 0.09758 __ 0.1.\nÍtem 6 (10 pts): Ordenar de menor a mayor: 0.125, 0.089, 2.8795, 0.6875, 0.11908.\nÍtem 7 (10 pts): a) Tinaco 658.75 litros, 5 miembros, 2 días, ¿consumo por miembro? b) Motoconcho: 1.875 galones en 12.5 horas, ¿combustible por hora?\nÍtem 8 (10 pts): a) 5.085 + 2.9856; b) 0.46 x 1.05.\nÍtem 9 (10 pts): a) Consumo gas 0.475 gal/día, ¿días para 12 galones? b) Fábrica: 195 lb chocolates, chocolatitos de 0.025 lb, ¿cuántos chocolatitos?\nÍtem 10 (10 pts): a) Guagua consume 12.68 gal/día en 9.25 vueltas, ¿consumo promedio por vuelta? b) Mary: queso 0.85 lb, jamón 0.256 lb, ¿cuánto más de queso?\n\n4. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad 10 - B (Pág. 76-77)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Realiza un breve comentario sobre la importancia de los números decimales en la vida cotidiana (mediciones, compras, etc.).\n4. Anuncia que en la próxima secuencia trabajarán con fracciones.",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 77)"
+        }
+      ]
+    }
+  ]
+}

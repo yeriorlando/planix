@@ -1,0 +1,431 @@
+{
+    "id": "secuencia-3-matematica-3ro",
+    "sequenceId": "secuencia-3-matematica-3ro",
+    "title": "Festejos de cumpleaños",
+    "subjectId": "matematica-3ro",
+    "gradeId": "primaria-3ro",
+    "blocks": [
+        {
+            "id": "block-mat-3ro-seq3-b1",
+            "title": "Bloque 1",
+            "blockNumber": 1,
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "Resuelvan problemas que requieren más de una operación.",
+                    "resources": "Papelógrafo de aprendizajes, actividad 1 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo lo que se conoce, lo que se quiere averiguar y la respuesta completa: Justin y Elvira cumplen años el mismo día. Sus mamás decidieron que juntos compartan algunos caramelos con sus compañeros y docentes. Justin llevó una funda con 22 caramelos y Elvira dos fundas, una con 20 y otra con 16. De camino a la escuela se comieron 12. ¿Cuántos les quedaron para compartir?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Presentar el papelógrafo de aprendizajes",
+                            "description": "El docente presenta el texto, leyendo y explicando los propósitos de trabajo con el grupo. EN ESTAS SEMANAS TRABAJAREMOS PARA: 1. Leer, escribir, ordenar y relacionar unidades, decenas, centenas y unidades de mil. 2. Calcular sumas con distintas estrategias. 3. Recordar y construir resultados de multiplicaciones. 4. Resolver problemas de suma, resta, multiplicación y reparto equitativo."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema con dos operaciones",
+                            "description": "El docente inicia una conversación sobre cómo festejan los cumpleaños. Explica que para la fiesta de Pedro prepararon sándwiches. Se lee y copia el problema: 'Pusieron en la mesa un plato con 15 sándwiches, otro con 13 y un tercero con otros 10. Mientras esperaban a los invitados, Pedro y su prima comieron 4. ¿Cuántos sándwiches quedaron para la fiesta?'. Se resuelve individualmente identificando información y operaciones (suma y resta)."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Se pide explicar a un compañero cómo resolver. Se puntualiza: Se suma para averiguar el total de sándwiches que pusieron. Se resta para averiguar lo que queda luego de que los primos se comieran 4. Se menciona la alternativa: averiguar lo que se comió de una bandeja y sumar el resto."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "Resuelvan problemas que requieren equivalencia entre unidades, decenas, centenas y unidades de mil en situaciones vinculadas al dinero.",
+                    "resources": "Monedas y billetes simulados RD$1, RD$10, RD$100, RD$1,000 recortados anteriormente. Actividad 2 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver, escribir lo que se conoce, lo que se quiere averiguar y la respuesta completa: Si tengo 34 billetes de RD$100 y 12 monedas de RD$10, ¿cuánto dinero tengo?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "El docente invita a algunos estudiantes a pasar al frente a explicar y escribir en la pizarra cómo resolvieron el problema de los caramelos (22 + 20 + 16 = 58; 58 – 12 = 46)."
+                        },
+                        {
+                            "title": "Momento 2. Reagrupar y componer un número",
+                            "description": "Título: Festejo en el club. Se resuelve el problema A de la actividad 4: averiguar el valor de un trampolín pagado con 2 billetes de $1,000, 52 de $100, 4 monedas de $10 y 15 de $1. Se identifican estrategias y equivalencias (10 o más monedas/billetes se pueden cambiar)."
+                        },
+                        {
+                            "title": "Momento 3. Reagrupar y componer otro número",
+                            "description": "Se lee la segunda situación B (inflable) y se resuelve individualmente averiguando su valor con los billetes y monedas dados."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se recuperan las equivalencias y se copian en el cuaderno: 10 monedas de $1 -> 1 moneda de $10; 10 monedas de $10 -> 1 billete de $100; 10 billetes de $100 -> 1 billete de $1,000."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "Resuelvan problemas para relacionar posiciones “seguidas” de un número.",
+                    "resources": "Tarjetas del 0 al 9 ya recortadas en secuencia 1 del fascículo. El tablero de lugares de posición de la actividad 3 del fascículo.",
+                    "homework": "Se indica el título para el cuaderno: ¿Qué número se forma? Recortar del fascículo y pegar en el cuaderno: Completar el cuadro con Unidades de mil, Centenas, Decenas, Unidades y Número final.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "El docente lee nuevamente el problema, indaga conocimientos y pide explicar cómo calcularon el valor total, promoviendo reflexión sobre equivalencias (ej. qué pasa si tenemos más de 10 billetes de RD$100)."
+                        },
+                        {
+                            "title": "Momento 2. Leer números de cuatro dígitos",
+                            "description": "Se usa el tablero del fascículo. Estudiantes eligen cuatro tarjetas al azar, las ubican en los casilleros (Unidad de Mil, Centena, Decena, Unidad) y dicen el número formado."
+                        },
+                        {
+                            "title": "Momento 3. Reagrupar 10 unidades en 1 decena",
+                            "description": "Se repite el momento anterior pero se agrega una tarjeta extra en el casillero de UNIDADES. Se analiza qué sucede si la suma es 9 o menos, y qué sucede si es 10 o más (se forma una decena y cambia el número en el lugar de las decenas)."
+                        },
+                        {
+                            "title": "Momento 4. Reagrupar 10 decenas en 1 centena",
+                            "description": "Se repite el proceso colocando la quinta tarjeta en el lugar de las DECENAS. Se analiza el reagrupamiento hacia las centenas."
+                        },
+                        {
+                            "title": "Momento 5. Sistematización",
+                            "description": "Se procede igual colocando la tarjeta extra en las CENTENAS. Se recuperan equivalencias y se anotan: 10 unidades -> 1 decena; 10 decenas -> 1 centena; 10 centenas -> 1 unidad de mil."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "Trabajen el aspecto decimal del sistema de numeración, considerando la relación entre las unidades y decenas, decenas y centenas y centenas y unidades de mil.",
+                    "resources": "Tarjetas del 0 al 9 ya recortadas del fascículo en la secuencia 1. El cuadro de la actividad 3 del fascículo.",
+                    "homework": "Se indica el título para el cuaderno: ¿Qué número se forma? Recortar del fascículo y pegar en el cuaderno: Completar el cuadro (similar a la actividad anterior pero con sumas de tarjetas en distintos lugares).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se retoma la tarea anterior, pidiendo a estudiantes que digan qué números formaron y aclarando dificultades con las equivalencias."
+                        },
+                        {
+                            "title": "Momento 2. Reagrupar unidades y decenas",
+                            "description": "En parejas, eligen 4 tarjetas para el tablero. Luego toman dos tarjetas más y colocan una en UNIDADES y otra en DECENAS. Deben sumar y decir qué número se forma, analizando los reagrupamientos necesarios."
+                        },
+                        {
+                            "title": "Momento 3. Reagrupar dos veces",
+                            "description": "De forma similar, se solicitan dos tarjetas extras que se colocarán en la posición de las DECENAS y las CENTENAS para realizar los reagrupamientos correspondientes."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "Analicen estrategias para sumar.",
+                    "resources": "Actividad 5 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Completar los números que faltan para resolver como Carmen y José: 253 + 294 (siguiendo los esquemas de descomposición).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se realiza la puesta en común verbalizando y escribiendo los cálculos ocultos y equivalencias."
+                        },
+                        {
+                            "title": "Momento 2. Sumar con reagrupamiento",
+                            "description": "Se analiza la estrategia de Carmen para sumar 184 + 155 (descomposición aditiva y agrupación). Se discute en grupos si el resultado 339 es correcto y se explica el procedimiento."
+                        },
+                        {
+                            "title": "Momento 3. Sumar reagrupando",
+                            "description": "Se analiza la estrategia de José para el mismo cálculo (184 + 155), observando que es similar pero con otra representación gráfica/numérica. Se comparan ambos métodos."
+                        },
+                        {
+                            "title": "Momento 4. Elegir cómo escribir los cálculos",
+                            "description": "Título: El viaje de Carmen. Se resuelve el problema B (198 km + 371 km) eligiendo la forma de Carmen o de José. Se pide descomponer los números y sumar centenas, decenas y unidades."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "Resuelvan cálculos y detecten errores en resoluciones dadas.",
+                    "resources": "Actividad 6 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo qué se conoce y qué se quiere averiguar. No olvidar la respuesta completa. En el club se hacen actividades... De la mañana vendrán 271 niños y niñas y de la tarde 275. ¿Cuántas sillas deberán tener ese día...?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se completa en la pizarra el esquema de la tarea anterior, remarcando los valores de los dígitos y la estrategia de sumar dichos valores."
+                        },
+                        {
+                            "title": "Momento 2. Sumar utilizando reagrupamientos",
+                            "description": "Título: Cumpleaños en el club. Se resuelve el problema A (1,325 globos rojos y 712 azules). Se guía la resolución usando la estrategia de sumar por partes (unidades, decenas, centenas, miles)."
+                        },
+                        {
+                            "title": "Momento 3. Errores comunes en el cálculo vertical",
+                            "description": "Se analizan tres resoluciones incorrectas (Alan, José, Romi) del mismo cálculo. Se discuten los errores (olvidar agregar la unidad de mil, mal encolumnado, escribir 10 en lugar de 0 y llevar 1). Se corrige en la pizarra."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "Resuelvan problemas de varios pasos.",
+                    "resources": "Actividad 7 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver escribiendo qué se conoce y qué se quiere averiguar. Incluir la respuesta completa: Se compran para el festejo del barrio 265 paletas de fresa y 155 de menta. ¿Cuántas paletas se compraron? Se usaron 310 paletas, ¿cuántas no se usaron?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se lee la situación de la tarea, se invita a estudiantes a escribir cómo resolvieron 271 + 275. Se analizan procedimientos y posibles errores."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema con dos operaciones",
+                            "description": "Título: Armar funditas para el festejo. Se resuelve el problema de bombones (185 piña, 195 guineo, se usan 140). Se identifican los pasos: 1) Averiguar total (suma), 2) Averiguar lo que queda (resta). Se puede resolver sumando y luego restando, o restando a uno y sumando el resto."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 8: Recapitulación",
+                    "pedagogicalIntention": "Repasen algunos de los contenidos trabajados.",
+                    "resources": "Papelógrafo de aprendizajes, cuadro de la actividad 8 del fascículo.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se convoca a estudiantes a escribir la resolución del problema de las paletas. Se guía el análisis sobre cómo encontraron el total y cómo calcularon el sobrante."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué trabajamos en este bloque?",
+                            "description": "Se revisan las actividades del bloque 1 y se registran las fechas en el afiche de aprendizajes."
+                        },
+                        {
+                            "title": "Momento 3. Repasar lo aprendido",
+                            "description": "Título: Repasamos lo trabajado. Se resuelve la actividad 8 del fascículo: A. ¿Qué número se forma? (con cuadro de unidades, decenas, etc.). B. Problema de bizcochitos (370 vainilla + 140 coco)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "block-mat-3ro-seq3-b2",
+            "title": "Bloque 2",
+            "blockNumber": 2,
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "Calculen dobles de distintos números.",
+                    "resources": "Actividad 9 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Para la fiesta de cumpleaños Luisa quiere colocar 2 flores en cada mesa. Completar la tabla indicando cuántas flores se necesitan según la cantidad de mesas que se van a preparar.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Calcular dobles",
+                            "description": "Título: Preparando la fiesta de cumpleaños. Se trabaja la noción de doble como sumar dos veces o multiplicar por 2. Se completa un cuadro en la pizarra con dobles del 1 al 10."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de dobles",
+                            "description": "Se resuelve el problema de Luisa (2 caramelos por invitado) completando una tabla. Se promueve el uso de dedos o conteo de 2 en 2."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Se sintetiza cómo obtener el doble (Doble de 5: 5+5=10 o 5x2=10). Se copia en el cuaderno."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "Exploren el cuadro de multiplicaciones hasta el 10 para memorizar o reconstruir algunos resultados.",
+                    "resources": "El cuadro de multiplicaciones completo del sobre del cuaderno. Papelógrafo elaborado en la secuencia 2. Actividad 10 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Escribir en el cuaderno cinco multiplicaciones con sus resultados que te resulten fáciles de recordar. ¿Por qué las elegiste?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se completa la tabla de las flores en la pizarra y se analizan estrategias (sumar el mismo número dos veces o multiplicar por 2)."
+                        },
+                        {
+                            "title": "Momento 2. Patrones y escalas en el cuadro de multiplicaciones",
+                            "description": "Título: Exploramos el cuadro de multiplicaciones. Se analizan patrones en el cuadro (x0, x1, x2). Se vinculan los resultados de la tabla del 2 con la escala del 2 (ascendente y descendente)."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Se analizan patrones del 5 y del 10. Se completan conclusiones en el papelógrafo: Los resultados de multiplicar por 5 terminan en 0 y en 5. Los de por 10 terminan en 0. Se copian ejemplos en el cuaderno."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 11",
+                    "pedagogicalIntention": "Encuentren estrategias para calcular fácilmente multiplicaciones de un número por otro terminado en 0.",
+                    "resources": "Lápices de colores, calculadora, cuadro de multiplicaciones personal. Actividad 11 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver los siguientes cálculos y colorear aquellos que dan el mismo resultado: 7 x 30 =, 7 x 3 x 10 =, 2 x 60 =, 2 x 6 x 10 =, 8 x 20 =, 8 x 2 x 10 =.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se presentan las multiplicaciones elegidas como fáciles de recordar y se explica por qué."
+                        },
+                        {
+                            "title": "Momento 2. Encontrar cálculos con el mismo resultado",
+                            "description": "Título: Cálculos con el mismo resultado. Se resuelven cálculos y se colorean los que dan igual (ej. 4x30 y 4x3x10). Se habilita calculadora y cuadro. Se reflexiona sobre la relación (x30 es lo mismo que x3x10)."
+                        },
+                        {
+                            "title": "Momento 3. Sistematización",
+                            "description": "Se explica cómo multiplicar por un número terminado en cero descomponiéndolo (4x30 = 4x3x10 = 12x10 = 120)."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 12",
+                    "pedagogicalIntention": "Resuelvan multiplicaciones de un número por otro terminado en 0.",
+                    "resources": "Actividad 12 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver registrando qué se conoce, qué se quiere averiguar y escribiendo la respuesta completa: Ricardo quiere decorar un papelógrafo de cumpleaños para su mamá. Tiene 3 tiras y dibujó 20 corazones en cada una. Los quiere cortar y pegar. ¿Cuántos corazones tendrá que recortar si quiere usar todos los que dibujó?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten respuestas sobre cálculos con mismo resultado y cómo los identificaron."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema multiplicativo",
+                            "description": "Título: Decoramos el papelógrafo de cumpleaños. Problema A: Isabella recorta 30 figuras de cada tipo (4 tipos). Se calcula 30 x 4. Se promueve la multiplicación en lugar de suma reiterada."
+                        },
+                        {
+                            "title": "Momento 3. Resolver otro problema multiplicativo",
+                            "description": "Problema B: Luisa y Mario, 50 tiras de 3 colores. Se calcula 50 x 3. Se registran estrategias."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se escribe conclusión: Multiplicar 4 x 30 es lo mismo que resolver 4 x 3 = 12 y 12 x 10 = 120."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 13",
+                    "pedagogicalIntention": "Analicen diferentes resoluciones de un mismo problema.",
+                    "resources": "Actividad 13 del fascículo. 50 piedrecitas, tapitas o similares que lleva el docente.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver, escribir qué se conoce, qué se quiere averiguar y la respuesta completa. Para armar las bolsitas de cumpleaños, Luciana tiene 28 dulces. Coloca 4 en cada una. ¿Cuántas bolsitas puede completar?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten resoluciones de la tarea (20 corazones x 3 tiras). Se pide explicar por qué multiplicar."
+                        },
+                        {
+                            "title": "Momento 2. Analizar una estrategia para resolver un problema",
+                            "description": "Se lee el problema de Max (20 chocolates, 4 por bolsita). Se analizan tres estrategias: Yael (escala del 4), Antonella (suma reiterada), Samuel (resta reiterada). Se concluye que todas buscan cuántas veces entra el 4 en 20."
+                        },
+                        {
+                            "title": "Momento 3. Resolver una situación similar",
+                            "description": "Se modifica el problema: Max pone 6 chocolates. Se resuelve usando estrategias elegidas. Puesta en común."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 14",
+                    "pedagogicalIntention": "Resuelvan problemas de distribución en partes iguales.",
+                    "resources": "Cincuenta piedrecitas, tapitas o similares que lleva el docente. Actividad 14 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: Resolver registrando qué se conoce y qué se quiere averiguar. Anotar la respuesta completa: Un paseador coloca en la plaza 8 tarros de agua para que beban 24 perros. Acomoda la misma cantidad de perros en cada tarrito. ¿Cuántos perros tomarán de cada tarro?",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Puesta en común de estrategias para el problema de Luciana."
+                        },
+                        {
+                            "title": "Momento 2. Resolver un problema de agrupamiento",
+                            "description": "Título: El cumpleaños de Jorge. Problema A: 50 sillas, 10 por mesa. ¿Cuántas mesas? Se resuelve con sumas/restas reiteradas o escalas. Se vincula con la pregunta '¿cuántas veces?'."
+                        },
+                        {
+                            "title": "Momento 3. Resolver otro problema de agrupamiento",
+                            "description": "Problema B: 60 almendras, 20 por postre. ¿Cuántos postres? Se resuelve similar al momento anterior."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 15",
+                    "pedagogicalIntention": "Trabajen con cuerpos geométricos para conocer algunas de sus características.",
+                    "resources": "Caja de cuerpos geométricos y envases de distintos productos u objetos con las formas de los cuerpos citados; una hoja en blanco o borrador por estudiante. Actividad 15 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: A. Tomar un objeto o envase de tu casa y anotar el nombre del cuerpo. B. Contornear todas las huellas que dejan sus caras. C. Luego indicar los nombres de las figuras que se formaron con esas huellas. Dar mandato de traer palillos y plastilina.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se copia el enunciado de la tarea en pizarra. Se invitan estudiantes a explicar sus estrategias (reparto de 24 entre 8)."
+                        },
+                        {
+                            "title": "Momento 2. Diferenciar cuerpos de figuras planas",
+                            "description": "Se observan cuerpos geométricos en una mesa. Se diferencian de las figuras planas (volumen). Se nombran (cubo, cono, prisma, etc.)."
+                        },
+                        {
+                            "title": "Momento 3. Elementos de los cuerpos geométricos",
+                            "description": "Juego: Adivinar. Se adivina un cuerpo haciendo preguntas de sí/no. Se introducen términos: caras, aristas, vértices. Título: Jugamos con cuerpos geométricos."
+                        },
+                        {
+                            "title": "Momento 4. Relacionar cuerpos y figuras",
+                            "description": "Estudiantes contornean las caras de un cuerpo en una hoja (huellas). Se analiza qué figuras planas corresponden a qué cuerpo."
+                        },
+                        {
+                            "title": "Momento 5. Sistematización",
+                            "description": "Conclusiones: Las caras de los cuerpos son figuras. Un cuerpo puede dejar distintas huellas. El cubo deja huellas cuadradas."
+                        },
+                        {
+                            "title": "Momento 6. Diseñar patrones",
+                            "description": "Se crean guardas o patrones usando las figuras de las caras de los cuerpos."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 16",
+                    "pedagogicalIntention": "Construyan “esqueletos” de cuerpos geométricos a partir de sus vértices y aristas.",
+                    "resources": "Palillos y plastilina solicitados en la actividad anterior, cuerpos geométricos que llevará el docente; actividad 16 del fascículo.",
+                    "homework": "Recortar del fascículo y pegar en el cuaderno: A. Armar un esqueleto de un prisma de base rectangular (usar caja como ejemplo). B. Completar: Para construir el esqueleto usé ___ palillos y ___ bolitas.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se comparten los objetos elegidos en casa y sus huellas (caras)."
+                        },
+                        {
+                            "title": "Momento 2. Construir un cubo",
+                            "description": "Título: Armar esqueletos de cuerpos geométricos. Se arma un cubo con palillos y plastilina. Se completa lista de materiales. Se introducen términos: palillos=aristas, bolitas=vértices."
+                        },
+                        {
+                            "title": "Momento 3. Construir una pirámide",
+                            "description": "Se arma una pirámide de base cuadrada. Se completa lista de materiales."
+                        },
+                        {
+                            "title": "Momento 4. Sistematización",
+                            "description": "Se anotan cantidades de vértices y aristas del cubo y pirámide en el fascículo."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 17: Producción final",
+                    "pedagogicalIntention": "Repasen algunos contenidos trabajados.",
+                    "resources": "Una caja de zapatos o similar por estudiante solicitada previamente; papel blanco y restos de papeles de colores; marcadores, tijera y pegamento. Actividad 17 del fascículo.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisar la tarea para el hogar",
+                            "description": "Se exponen los esqueletos de prisma construidos en casa. Se comparan cantidades de palillos y bolitas."
+                        },
+                        {
+                            "title": "Momento 2. ¿Qué estudiamos en este bloque?",
+                            "description": "Se revisan actividades del bloque 2 y se registran fechas en el papelógrafo."
+                        },
+                        {
+                            "title": "Momento 3. Diseñar el juego",
+                            "description": "Título: Construimos un juego. Se anticipan figuras para forrar la caja (caras). Se muestran las cajas."
+                        },
+                        {
+                            "title": "Momento 4. Preparar la caja",
+                            "description": "Se forra la caja contorneando las caras. Se cortan 4 puertas con valores 1, 10, 100, 1,000."
+                        },
+                        {
+                            "title": "Momento 5. Decorar la caja",
+                            "description": "Se decora la caja con patrones geométricos contorneando cuerpos."
+                        },
+                        {
+                            "title": "Momento 6. ¡A jugar!",
+                            "description": "Se prueba el juego de puntería."
+                        }
+                    ]
+                },
+                {
+                    "title": "ACTIVIDAD 18: Cierre y metacognición",
+                    "pedagogicalIntention": "Reflexionen sobre lo realizado y aprendido durante la secuencia.",
+                    "resources": "Papelógrafo de aprendizajes, actividad 18 del fascículo.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Entregar las producciones con la retroalimentación",
+                            "description": "El docente devuelve las producciones finales (juegos) o realiza comentarios."
+                        },
+                        {
+                            "title": "Momento 2. Revisar la retroalimentación para consolidar los saberes principales",
+                            "description": "Se comentan aspectos generales de los trabajos."
+                        },
+                        {
+                            "title": "Momento 3. Reflexión metacognitiva",
+                            "description": "Título: ¿Cómo lo hago? Se completa el cuadro de autoevaluación en el fascículo (Leer/escribir números, sumar/restar, multiplicar, dividir, interpretar gráficas)."
+                        },
+                        {
+                            "title": "Momento 4. Revisar el afiche de aprendizajes de la secuencia",
+                            "description": "Se revisan los aprendizajes y se cierra el papelógrafo con la fecha de finalización."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

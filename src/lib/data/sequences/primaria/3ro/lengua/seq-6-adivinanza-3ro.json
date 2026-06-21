@@ -1,0 +1,337 @@
+{
+    "sequenceId": "secuencia-6-lengua-3ro-adivinanza",
+    "subjectId": "lengua",
+    "sequenceTitle": "Adivinanza",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1 - Presentación de los textos",
+            "activities": [
+                {
+                    "title": "Actividad 1: Presentación del papelógrafo.",
+                    "pedagogicalIntention": "Comparten sus saberes previos sobre las adivinanzas. Identifican sus características y funciones.",
+                    "resources": "Papelógrafo de aprendizajes.",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Pregunta a tus familiares si conocen adivinanzas. Escríbelas en el cuaderno.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Presentación del papelógrafo.",
+                            "description": "El docente les dice a sus estudiantes que presten atención a lo que va a decir, para averiguar qué textos van a leer. Lee enfatizando las palabras en negritas. Puede repetir su lectura.\nSi quieres saber el nombre de los textos que leerás,\npensarás y pensarás y verás que no te cansa.\nEl nombre empieza con a,\nen la mitad lees divina\ny el final rima con panza.\nCuando los estudiantes descubren la palabra (adivinanza), les pregunta qué tuvieron que hacer para encontrarla. La idea es que reconozcan que pensaron y siguieron las pistas que les daba el texto. El docente presenta los propósitos que se trabajarán en la secuencia y lee el papelógrafo de aprendizajes junto con sus estudiantes:\nEn este tiempo trabajaremos para…\n● Leer y descubrir adivinanzas.\n● Identificar distintos tipos de adivinanzas.\n● Inventar y escribir nuevas adivinanzas."
+                        },
+                        {
+                            "title": "Momento 2: Conversación sobre las adivinanzas.",
+                            "description": "El docente invita a los estudiantes a compartir lo que saben sobre las adivinanzas. Les pregunta si conocen alguna y, si es así, las resuelven colectivamente. Luego, guía una reflexión: ¿Qué hacemos cuando alguien nos dice una adivinanza? Esto permite explorar el intercambio comunicativo que implica resolverlas y compartir un momento agradable.\nEl docente ayuda a identificar las características de las adivinanzas, comparándolas con otros textos como acertijos o juegos de preguntas y respuestas. Formula preguntas como: ¿Cuándo se usan? ¿Dónde se encuentran? ¿Qué las hace especiales? Además, explica que las adivinanzas no tienen autor y suelen conocerse de familia en familia."
+                        },
+                        {
+                            "title": "Momento 3: Escritura en el cuaderno.",
+                            "description": "Se indica el título para el cuaderno: Las adivinanzas. El docente conversa con los estudiantes para acordar una definición de las adivinanzas. Se sugiere un texto como:\nLas adivinanzas proponen juegos para encontrar el nombre de algo a partir de las pistas que nos dan."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 2: Estructura de la adivinanza",
+                    "pedagogicalIntention": "Conocen la estructura y función de las adivinanzas.",
+                    "resources": "",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión:\nLee y descubre con tu familia la siguiente adivinanza:\nAdivina, adivinador…\nA la hora que brilla el sol\nlucimos entre las flores.\nVolamos aquí y allá\nregalando mil colores.\n¿Quién soy? __________________________",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente pregunta qué adivinanzas aprendieron en sus hogares. Intercambian adivinanzas."
+                        },
+                        {
+                            "title": "Momento 2: Lectura dirigida.",
+                            "description": "El docente escribe en la pizarra la adivinanza que está en la actividad Nº 2 del fascículo: Adivina, adivinador…Tengo un hermoso plumaje, /grande y afilado pico. / Y todo lo que otros dicen, / me lo aprendo y lo repito. / ¿Quién soy? La lee en voz alta, mientras los estudiantes siguen la lectura en silencio en sus propios fascículos; luego, la leen en voz alta por turnos e intercambian sus ideas sobre el resultado de la adivinanza."
+                        },
+                        {
+                            "title": "Momento 3: La forma de la adivinanza. Introducción.",
+                            "description": "El docente pregunta: ¿Cómo empieza? La frase inicial, ¿a quién se dirige? ¿Cómo lo llama? ¿Para qué? Se trata de que los estudiantes observen que la frase inicial puede ponerse en todas las adivinanzas, porque es una introducción que tiene la función comunicativa de invitar al que escucha o lee a que la adivine; es decir, para que participe del juego y trate de adivinar; por eso lo llama adivinador. Es similar a la frase de inicio de los cuentos “Había una vez”, cuando la escuchamos, sabemos el tipo de texto de que se trata."
+                        },
+                        {
+                            "title": "Momento 4: La forma de la adivinanza. El objeto.",
+                            "description": "El docente continúa la conversación poniendo especial atención en el cuerpo de la adivinanza. ¿Cuál es la información importante que da? Les pide a los estudiantes que lean las palabras que les dan información: plumaje y pico. Pregunta si conocen el significado y resuelven dudas. ¿Quién o qué tiene plumaje y pico? Seguramente, los estudiantes dirán que aves o pájaros. Ahora hay que averiguar qué ave. Siguen leyendo: todo lo que otros dicen / me lo aprendo y lo repito. El docente pregunta: ¿Conocen algún ave que repite lo que otros dicen? Este tipo de preguntas ayuda a determinar un campo de conocimiento y facilita la búsqueda. Además, son preguntas que promueven procesos de inferencia, porque dan pistas para realizar inferencias correctas."
+                        },
+                        {
+                            "title": "Momento 5: La forma de la adivinanza. La conclusión.",
+                            "description": "Los estudiantes observan que al final de la adivinanza hay una pregunta. El docente les pide que expliquen para qué sirve. Pueden considerar que indica que se diga o anote la resolución de la adivinanza. Es una conclusión."
+                        },
+                        {
+                            "title": "Momento 6: Actividad Nº 2 del fascículo.",
+                            "description": "En parejas, completan la actividad. Deben identificar los nombres de las partes de la adivinanza y completar los espacios con las palabras faltantes."
+                        },
+                        {
+                            "title": "Momento 7: Puesta en común.",
+                            "description": "El docente pide a los grupos que compartan sus respuestas. Él mismo o un estudiante las escribe en la pizarra. Las tres partes de la adivinanza son: introducción, cuerpo y conclusión.\nUna adivinanza es un juego de palabras que da pistas para descubrir algo."
+                        },
+                        {
+                            "title": "Momento 8: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Cada uno escribe una frase que resuma lo realizado, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 3: Lenguaje figurado",
+                    "pedagogicalIntention": "Desarrollan el lenguaje figurado. Conocen la estructura y significado de las adivinanzas.",
+                    "resources": "",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: ¡Se borraron partes de la adivinanza! Complétala. Luego, léela a tu familia en voz alta.\nEn lo alto viv__,\nen lo al__o mora,\n__n lo a__to teje la te__edora.\n¿Quién es? _________________",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente pregunta cómo les fue en la lectura de la adivinanza. ¿Descubrieron la respuesta? ¿Cuál era? ¿Había alguna palabra que no conocían? ¿Cuál? ¿Qué significa “lucir”? Luego la escribe en la pizarra, la vuelven a leer en voz alta y hacen aclaraciones entre todos. Reflexionan: ¿Qué palabras les orientaron más en la búsqueda? ¿Hay alguna palabra que les ayudó a resolver la adivinanza? ¿Qué seres vuelan entre las flores? ¿Cuáles tienen muchos colores? Atención: la adivinanza parece favorecer la referencia a las mariposas, pero también es posible pensar en colibríes. Luego, aclara que la adivinanza indica que las mariposas vuelan de día, pero no menciona la palabra día. ¿Qué pista nos da la adivinanza para pensar que es un animal que vuela de día?\nEl docente debe aclarar que en las adivinanzas se utilizan expresiones poéticas para que las definiciones no sean tan obvias y que al adivinador le cueste un poco más descubrir la respuesta. En este caso, la adivinanza dice “la hora que brilla el sol” para dar una pista de que estamos hablando del día porque es cuando los insectos como las mariposas están activos y visibles, volando y mostrando sus colores brillantes. La hora que brilla el sol es una forma poética de decir día. Luego pregunta: en caso de querer hacer más difícil esta adivinanza, ¿cómo podemos decir “volamos” de otra forma que sea más poética y necesite de la interpretación del adivinador? Vuelve a leer la adivinanza y da un ejemplo: A la hora que brilla el sol / lucimos entre las flores / Volamos aquí y allá / regalando mil colores. ¿Si en lugar de “volamos” lo cambiamos por “flotamos” o “movemos las alas”? Los estudiantes participan y comparten sus ideas."
+                        },
+                        {
+                            "title": "Momento 2: Actividad Nº 3 del fascículo.",
+                            "description": "Los estudiantes, organizados en parejas, leen la Actividad N° 3 y resuelven. El docente lee los mandatos y verifica la comprensión. Recorrido docente: Asiste especialmente a los estudiantes que requieren más ayuda."
+                        },
+                        {
+                            "title": "Momento 3: Puesta en común.",
+                            "description": "El docente escribe la adivinanza en la pizarra. Pide a los grupos que lean sus respuestas de la adivinanza y de las preguntas para analizar la adivinanza. Conversan sobre qué significan en la adivinanza estas frases: “llevo mi casa encima”, “hilito de plata” y “camino sin patas”. Luego, escribe las respuestas completas en la pizarra, corrigen entre todos y revisan sus escrituras."
+                        },
+                        {
+                            "title": "Momento 4: Jugamos a las adivinanzas.",
+                            "description": "El docente lee en voz alta adivinanzas de animales y los estudiantes deben levantar la mano para decir la respuesta. Él mismo o un estudiante las escribe en la pizarra. Los estudiantes leen cada una de las respuestas. El docente puede utilizar las siguientes adivinanzas y agregar más, si lo desea:\n• Adivina, adivinador… Vuelo de noche, duermo en el día y nunca verás plumas en ala mía ¿Quién soy? (Murciélago).\n• Adivina, adivinador… Canto en la orilla, vivo en el agua y no soy pescado ni chicharra. Entonces ¿Quién soy? (Rana).\n• Adivina, adivinador… En lo alto vive, en lo alto mora, en lo alto teje la tejedora. ¿Quién es? (Araña).\n• Adivina, adivinador… Roer es mi labor, comer queso es mi aperitivo y el gato mi mayor enemigo. ¿Quién soy? (Ratón).\n• Adivina, adivinador… Soy una estrella mojada y sin luz. ¿Quién soy? (Estrella de mar).\n• Adivina, adivinador… No soy grande y voy despacio. No tengo piernas, pero cada vez que puedo me escapo al monte. ¿Quién soy? (Caracol).\n• Adivina, adivinador… Mi madre me hizo una casa, que no tiene puertas ni ventana, pero si quiero salir tengo que romper la muralla. (Pollito)."
+                        },
+                        {
+                            "title": "Momento 5: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Cada uno escribe una frase que resuma lo realizado, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 4: Crucigrama de animales",
+                    "pedagogicalIntention": "Desarrollan habilidades de lectura, inferencia y escritura colaborativa mediante juegos de adivinanzas de animales.",
+                    "resources": "",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Inventa en familia una adivinanza de un animal. Escríbela en el cuaderno.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que compartan la tarea para el hogar, escucha las formas de resolver de los estudiantes y los guía hacia la comprensión de la respuesta correcta. Escriben en la pizarra la adivinanza completa, todos corrigen en sus cuadernos y la leen en voz alta."
+                        },
+                        {
+                            "title": "Momento 2: Actividad Nº 4 del fascículo: juego de crucigrama (Vocabulario).",
+                            "description": "El docente explica que jugarán al crucigrama con adivinanzas de animales. Pueden resolverlo en grupos de tres estudiantes (en cada grupo debe haber un lector fluido). Recorrido docente: Asiste especialmente a quienes más lo necesitan, ayuda a leer las adivinanzas y a reflexionar sobre las posibles respuestas."
+                        },
+                        {
+                            "title": "Momento 3: Puesta en común.",
+                            "description": "El docente dibuja el crucigrama en la pizarra. Cada grupo lee una adivinanza en voz alta, pasa a escribir la respuesta en la pizarra e indican cómo se dieron cuenta de la respuesta, señalando las pistas que los orientaron. Corrigen entre todos y revisan sus escrituras. Respuestas del crucigrama: abeja – jirafa – hormiga – ballena – zorro."
+                        },
+                        {
+                            "title": "Momento 4: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Cada uno escribe una frase que resuma lo realizado, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2 - Comprensión lectora y gramática",
+            "activities": [
+                {
+                    "title": "Actividad 5: La rima",
+                    "pedagogicalIntention": "Identifican y usan la rima en las adivinanzas.",
+                    "resources": "",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Resuelve esta adivinanza y completa con una palabra que rime: Adivina, adivinador, soy la letra del amor. Estoy en luna y también en sol, pero no me busques en ______. ¿Quién soy? _____________.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes leen en voz alta las adivinanzas de animales que inventaron en sus hogares, el resto adivina."
+                        },
+                        {
+                            "title": "Momento 2: Adivinanza de letras.",
+                            "description": "El docente les indica que lean las adivinanzas de la Actividad Nº 5 (parte A) del fascículo y escriban la respuesta. Lo hacen en grupos de tres estudiantes.\n● Adivina, adivinador… Una letra alta y delgada es. / La luna y el sol la llevan, / pero en el aire no la ves. / ¿Qué es?\n● Soy una letra redondita, me encuentras en flor y voy, pero nunca en casita. ¿Quién soy?"
+                        },
+                        {
+                            "title": "Momento 3: Puesta en común.",
+                            "description": "El docente recupera las respuestas de los grupos, pide a un estudiante que lea las adivinanzas en voz alta y luego lo hace él. Pregunta: ¿Sobre qué son estas adivinanzas? ¿Qué debemos buscar? ¿Cómo nos orienta? Espera que sus estudiantes contesten. Les da tiempo para conversar entre ellos. Entre todos buscan elementos orientadores. Observan que indica buscar una letra. En un caso no dice que la letra tiene dos adjetivos: “alta” y “delgada”. En otro caso usa el adjetivo “redondita”. El docente pregunta: ¿Qué letras altas y delgadas conocemos? ¿y cuáles redonditas? ¿Por qué se menciona a la luna y al sol en una adivinanza y a flor y voy en otra? Orienta, diciendo que esas palabras llevan la letra por descubrir."
+                        },
+                        {
+                            "title": "Momento 4: La rima.",
+                            "description": "El docente introduce la importancia de la rima en las adivinanzas para crear ritmo y musicalidad. Pide a los estudiantes que identifiquen y subrayen las palabras que riman en cada adivinanza: ves - es - voy - soy - redondita y casita. El docente escribe las rimas en la pizarra. Un estudiante pasa y subraya las palabras que riman. El docente hace notar que la rima es cuando las palabras terminan con sonidos iguales o parecidos, puntualiza que las palabras que riman en la adivinanza tienen igual terminación."
+                        },
+                        {
+                            "title": "Momento 5: Actividad Nº 5 del fascículo (parte B).",
+                            "description": "El docente anima a completar la parte B de la actividad del fascículo. Deben leer la adivinanza y completar con una palabra que rime con enero y sombrero, por ejemplo: carnicero, limonero, marinero. Ponen en común las respuestas. El docente escribe las respuestas en la pizarra y entre todos verifican que esté bien escrita y que la rima sea correcta."
+                        },
+                        {
+                            "title": "Momento 6: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy?¿Qué aprendimos? Cada uno escribe una frase que resuma lo realizado, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 6: Descripción y vocabulario metafórico",
+                    "pedagogicalIntention": "Desarrollan la comprensión de las adivinanzas.",
+                    "resources": "",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Resuelve esta adivinanza. Subraya con un color las palabras que describen el objeto.\nTengo patas pero no corro,\nsi comes siempre me adorno.\nMis brazos son planos,\nme usan a diario los humanos.\n¿Quién soy? _____________",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comparten sus respuestas (La respuesta es la letra L, la palabra que rima puede ser: motor, caracol, sabor, entre otras). Comparan, revisan si la escritura y la rima son correctas."
+                        },
+                        {
+                            "title": "Momento 2: Descripción y vocabulario simbólico o metafórico.",
+                            "description": "El docente escribe en la pizarra la siguiente adivinanza:\nAdivina, adivinador…\nTengo dientes y no muerdo,\nículo. Deben leer la adivinanza y completar con una palabra que rime con enero y sombrero, por ejemplo: carnicero, limonero, marinero. Ponen en común las respuestas. El docente escribe las respuestas en la pizarra y entre todos verifican que esté bien escrita y que la rima sea correcta."
+                        },
+                        {
+                            "title": "Momento 3: Actividad Nº 6 de fascículo.",
+                            "description": "El docente arma grupos cooperativos de tres estudiantes (con un lector fluido en cada uno). Resuelven las cuatro adivinanzas de objetos cotidianos. Identifican palabras que lo describen y palabras o expresiones que ayudan a imaginarlo (vocabulario metafórico)."
+                        },
+                        {
+                            "title": "Momento 4: Puesta en común.",
+                            "description": "El docente pide a los grupos que lean sus respuestas. Respuestas correctas: Lápiz - Espejo - Reloj - Silla. Luego pide a un estudiante que lea la primera adivinanza en voz alta. El docente orienta para identificar las palabras que describen al objeto y las expresiones que ayudan a imaginarlo (vocabulario metafórico):\n● Adivinanza 1 (lápiz): Palabras que describen: alargado, punta. Palabras que ayudan a imaginar: Se desgasta, dibujar, formar letras.\n● Adivinanza 2 (espejo): Palabras que describen: Reflejo. Palabras que ayudan a imaginar: Te devuelvo lo que quieras mostrar, no tengo voz ni corazón, reflejo tu expresión.\n● Adivinanza 3 (reloj): Palabras que describen: Giro, agujas. Palabras que ayudan a imaginar: Marcó el tiempo, tic-tac es hermoso.\n● Adivinanza 4 (silla): Palabras que describen: Patas, asiento. Palabras que ayudan a imaginar: Te sostengo, ven a descansar."
+                        },
+                        {
+                            "title": "Momento 5. Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy?¿Qué aprendimos? Cada uno escribe una frase que resuma lo realizado mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 7: Juego con adivinanzas",
+                    "pedagogicalIntention": "Juegan con adivinanzas.",
+                    "resources": "",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Elige un objeto de tu hogar. Escribe dos palabras que rimen con el objeto; dos palabras que lo describan y una expresión que permita imaginar cómo es el objeto.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Pide a un estudiante que lea en voz alta la tarea para el hogar y la adivinanza. Los estudiantes exponen sus respuestas de la adivinanza (mesa) y las palabras que describen al objeto (patas, plana). El docente pide que identifiquen cuáles palabras o expresiones ayudan a imaginar el objeto: No corro - Me adorno - Me usan a diario los humanos"
+                        },
+                        {
+                            "title": "Momento 2: Actividad Nº 7 del fascículo.",
+                            "description": "Leer los mandatos y verificar la comprensión. Resolver de forma individual.\nParte A: Juego con rimas. Deben crear rimas con: corazón, luna, sol, cama.\nParte B: Juego con descripciones. Deben escribir descripciones sobre corazón, luna, sol, cama.\nParte C: Juego con expresiones que nos permitan imaginar el objeto. Deben escribir expresiones que permitan imaginar los objetos: corazón, luna, sol, cama.\nRecorrido docente: Apoya a quienes necesitan más ayuda, para escribir las expresiones que le permitan imaginar objetos cotidianos."
+                        },
+                        {
+                            "title": "Momento 3: Puesta en común.",
+                            "description": "El docente organiza la puesta en común para que los estudiantes lean sus respuestas: primero exponen las respuestas del apartado A (rimas); luego las del B (descripciones) y luego las del C (vocabulario metafórico). El docente o algunos estudiantes escriben las respuestas en la pizarra para que los demás verifiquen la correcta escritura. Si se presentan errores (palabras que no riman, no describen o no permiten imaginar el objeto), reflexionan sobre por qué la respuesta es incorrecta y entre todos buscan una alternativa."
+                        },
+                        {
+                            "title": "Momento 4: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Cada uno escribe una frase que resume lo realizado, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNumber": 3,
+            "title": "Bloque 3 - Producción escrita",
+            "activities": [
+                {
+                    "title": "Actividad 8: Planificando mi adivinanza",
+                    "pedagogicalIntention": "Planifican y crean adivinanzas.",
+                    "resources": "",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Juega con tus familiares a inventar y descubrir adivinanzas de animales. Explícales todos los elementos que debe tener una adivinanza.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes leen sus rimas, descripciones y expresiones para imaginar el objeto, sin decir previamente cuál objeto eligieron. Los demás compañeros tienen que adivinar."
+                        },
+                        {
+                            "title": "Momento 2: Revisión de papelógrafo de aprendizajes.",
+                            "description": "Leen el papelógrafo de aprendizajes, marcan con una cruz los objetivos cumplidos y observan que aún tienen pendiente la escritura de adivinanzas. El docente anticipa que empezarán a crear sus propias adivinanzas de animales. Primero lo harán de forma oral y luego de forma escrita."
+                        },
+                        {
+                            "title": "Momento 3: Elementos fundamentales de las adivinanzas.",
+                            "description": "El docente propone crear adivinanzas basadas en los animales de la enciclopedia que trabajaron en la secuencia anterior, una letra o un objeto del aula. Explica que una buena adivinanza debe incluir información que ayude a descubrir el animal (elementos orientadores) y también datos que hagan el desafío más interesante (elementos desorientadores), para que no sea demasiado fácil.\nRepasan juntos la estructura de una adivinanza: ¿Cómo debería comenzar? ¿Debe tener información que oriente y que desoriente? ¿Cómo debería terminar? El docente escribe en la pizarra los elementos que no deben olvidar para inventar y escribir una adivinanza:\n● Elegir un animal, letra u objeto.\n● Iniciar con la frase: Adivina, adivinador…\n● Describir el animal, letra u objeto del aula.\n● Usar una expresión para imaginar ese objeto.\n● Incorporar alguna rima.\n● Terminar con la pregunta: ¿Quién/qué soy?\nEscriben en el cuaderno las orientaciones de la pizarra: Título: ¿Cómo hacer una adivinanza?"
+                        },
+                        {
+                            "title": "Momento 4: Inventamos adivinanzas de forma oral.",
+                            "description": "El docente comparte un ejemplo de adivinanza: Adivina, adivinador… Tiene un gran peso, en el agua siempre está. Se parece a un elefante de mar. Nunca vacía y sabe bien nadar. ¿Quién es? (La ballena). Analizan si tiene todos los elementos de las orientaciones. Luego, invita a los estudiantes a pensar en sus propias adivinanzas sobre animales. Les da tiempo para crearlas mientras toma nota de las más originales para compartirlas más adelante."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 9: Escritura del borrador",
+                    "pedagogicalIntention": "Escriben adivinanzas de animales.",
+                    "resources": "",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Comparte con un familiar la adivinanza que has inventado hoy.",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comentan la experiencia de inventar adivinanzas de animales con sus familiares."
+                        },
+                        {
+                            "title": "Momento 2: Escritura del borrador de la adivinanza de animales",
+                            "description": "El docente organiza a los estudiantes de a dos. Las parejas deben elegir un animal (pueden usar de referencia la enciclopedia de animales que elaboraron en la secuencia anterior). Escriben el borrador en el cuaderno. Recorrido docente: Recuérdales que deben incluir la fórmula de inicio (Adivina, adivinador…) y la fórmula de conclusión (¿Quién es? ¿Quién soy?). Además, anima a los estudiantes a que los versos de la adivinanza contengan alguna rima. Pasa por los grupos y los ayuda a pensar las terminaciones de las palabras para producir rimas."
+                        },
+                        {
+                            "title": "Momento 3: Respuesta escrita y dibujo.",
+                            "description": "El docente reparte dos hojas sueltas con líneas a cada pareja. En una de ellas, deben realizar un dibujo del animal a descubrir en su adivinanza y en la otra la respuesta a su adivinanza (el nombre del animal). Por ejemplo: [Imagen de Oso polar]. Mientras tanto, el docente corrige los cuadernos con los borradores de la adivinanza del animal. recoge y guarda los dibujos y las respuestas con el nombre escrito del animal. Orientación específica para el docente: Revisa y corrige las escrituras de los cuadernos, subraya las palabras que necesiten revisión y escríbelas correctamente (sin tachar la escritura original), agrega los signos de puntuación faltantes o signos de interrogación, señala el uso de mayúsculas, la correcta separación de palabras, el correcto trazado de las letras y la correcta ortografía. Además, verifica si las adivinanzas tienen la fórmula de introducción y de cierre, si tienen rima y elementos orientadores. Completa las palabras que falten."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 10: Revisión final",
+                    "pedagogicalIntention": "Revisan y editan la escritura final de adivinanzas.",
+                    "resources": "",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Lee en voz alta esta adivinanza. Escribe la respuesta.\nCon dos palitos estoy\nen el texto y en el boxeo\ncuando suena un saxofón\nen un taxi yo me voy.\n¿Qué letra es? _________________",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comparten con sus compañeros las adivinanzas que han inventado en la actividad anterior. Las leen en voz alta."
+                        },
+                        {
+                            "title": "Momento 2: Escritura final de la adivinanza del animal.",
+                            "description": "El docente entrega una hoja suelta con líneas y solicita a los estudiantes que escriban la versión final de la adivinanza que inventaron, teniendo en cuenta las correcciones realizadas en el cuaderno. Por ejemplo:\nAdivina, adivinador...\nSoy blanco como la nieve,\nen el frío suelo andar,\nsi me ves en los hielos,\nseguro voy a cazar.\n¿Quién soy?\nRecorrido docente: Verifica que todos incorporen las correcciones, brinda explicaciones sobre las correcciones de forma individual, anima a los estudiantes a realizar una escritura final correcta, limpia y ordenada; da el tiempo necesario para realizarla. El docente guarda en una carpeta las adivinanzas de animales y en otra, las respuestas y los dibujos. Quedarán reservados para la Actividad N° 12, en la que jugarán con todas las adivinanzas."
+                        },
+                        {
+                            "title": "Momento 3: Escritura del borrador de la adivinanza de letras.",
+                            "description": "De forma individual, los estudiantes eligen una letra del abecedario para crear una adivinanza. El docente escribe en la pizarra la adivinanza: Adivina, adivinador… Una letra alta y delgada es. La luna y el sol la llevan / pero en el aire no la ves ¿Cuál es? Entre todos observan las características para tener en cuenta:\n- Empezar con la frase: Adivina, adivinador…\n- Describir la grafía de esa letra, en el ejemplo: es alta y delgada.\n- Elegir dos palabras que lleven esa letra, en el ejemplo: luna y sol\n- Elegir una palabra que no tenga esa letra, en el ejemplo: aire.\n- Usar alguna rima, en el ejemplo: es y ves.\n- Terminar con la pregunta final, en el ejemplo: ¿Cuál es?\nCada estudiante piensa su adivinanza y luego la escribe en su cuaderno, siguiendo las orientaciones dadas previamente. Recorrido docente: Recuérdales que deben incluir la fórmula de inicio (Adivina, adivinador…) y la fórmula de conclusión (¿Quién es? ¿Quién soy?). Además, anímalos a que los versos de la adivinanza contengan alguna rima y ayúdalos a pensar las terminaciones de las palabras para producir rimas."
+                        },
+                        {
+                            "title": "Momento 4: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Cada uno escribe una frase que resuma lo realizado, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 11: Publicación de adivinanzas",
+                    "pedagogicalIntention": "Publican la versión final de las adivinanzas de letras.",
+                    "resources": "",
+                    "homework": "Recortar del fascículo la tarea para el hogar y pegarla en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: ¿Cuál texto estás leyendo y escribiendo en clase? Colorea la respuesta.\nadivina adivinador adivinanza adivinar",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comparten con sus compañeros la respuesta de la adivinanza. La leen en voz alta."
+                        },
+                        {
+                            "title": "Momento 2: Escritura final de la adivinanza de la letra.",
+                            "description": "El docente entrega una hoja suelta con líneas y solicita a los estudiantes que escriban la versión final de la adivinanza que inventaron, teniendo en cuenta las correcciones realizadas en el cuaderno. Por ejemplo:\nAdivina, adivinador...\nUna letra alta y delgada es.\nLa luna y el sol la llevan\npero en el aire no la ves\n¿Cuál es?\nRecorrido docente: Verifica que todos incorporen las correcciones y brinda explicaciones sobre ellas de forma individual. Anima a los estudiantes a realizar una escritura final correcta, limpia y ordenada, y da tiempo necesario para realizarla."
+                        },
+                        {
+                            "title": "Momento 3: Respuesta de la adivinanza de las letras.",
+                            "description": "El docente reparte una hoja suelta con líneas a cada estudiante. Deben escribir la respuesta a su adivinanza. Por ejemplo: La letra L"
+                        },
+                        {
+                            "title": "Momento 4: Escritura en el cuaderno.",
+                            "description": "El docente propone conversar sobre lo trabajado en clase: ¿Qué hicimos hoy? ¿Qué aprendimos? Cada uno escribe una frase que resuma lo realizado, mientras el docente ayuda a quien más lo necesita."
+                        }
+                    ]
+                },
+                {
+                    "title": "Actividad 12: Fiesta de adivinanzas",
+                    "pedagogicalIntention": "Juegan a las adivinanzas. Reflexionan sobre lo aprendido.",
+                    "resources": "",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1: Preparación para el juego.",
+                            "description": "El docente organiza a los estudiantes en un círculo. Reparte las adivinanzas escritas en hojas sueltas, mezcladas y sin nombre. Explica que cada estudiante tomará una adivinanza que no sea la suya y la leerá en voz alta. Las hojas con las respuestas se encuentran en el centro del círculo en una mesa."
+                        },
+                        {
+                            "title": "Momento 2: Juego de adivinanzas.",
+                            "description": "Un estudiante comienza leyendo la adivinanza en voz alta: \"Adivina, adivinador…\". Los demás intentan adivinar la respuesta levantando la mano. El autor de la adivinanza confirma si alguien acierta. El estudiante que haya acertado debe buscar la hoja con la respuesta y el dibujo (en caso de los animales)."
+                        },
+                        {
+                            "title": "Momento 3: Elaboración del libro “Mis adivinanzas”",
+                            "description": "El docente propone elaborar un libro con sus adivinanzas para mostrar a toda la comunidad educativa en el mural de la escuela. Una alternativa adicional, si se cuenta con los recursos, es grabar audios con las adivinanzas para compartirlas de forma oral."
+                        },
+                        {
+                            "title": "Momento 4: Reflexión final.",
+                            "description": "El docente realiza una breve reflexión sobre lo aprendido: ¿Qué características hicieron que algunas adivinanzas fueran más fáciles o más difíciles? ¿Les gustó leer y escribir adivinanzas? ¿Qué les resultó más fácil y más difícil? El docente refuerza la importancia del esfuerzo, la creatividad y el trabajo colaborativo, destacando los logros alcanzados."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "id": "seq-3-lengua-1ro",
+    "title": "Lista de compras",
+    "gradeId": "primaria-1ro",
+    "subjectId": "lengua",
+    "order": 3,
+    "durationWeeks": 4,
+    "description": "Lectura y escritura de listas sencillas para organizar productos y necesidades de la vida cotidiana.",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1. Presentación de los textos",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "Conocen la función comunicativa de las listas.",
+                    "resources": "Varios objetos del aula.\nPapelógrafo de aprendizajes.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Actividad n.º 1 del fascículo.",
+                            "description": "Entre todos, con la guía del docente, realizan la actividad del fascículo: Marca cuál es una lista.\n\nOrientación específica para el docente: El docente guía la observación de cada tipo de texto para identificar lo que los estudiantes ya conocen, aunque no puedan leer los textos. Comienza haciendo observar el cuento o la noticia y por último aborda la lista de compras. Se apoya en los conocimientos previos de los estudiantes para identificar cada tipo de texto. Por ejemplo: ¿Qué vemos en las imágenes? ¿Alguna es de verdad y otra no? ¿Por qué creen que son distintas? ¿Por qué en este texto [la lista] no hay imágenes? Tiene líneas muy cortas, ¿por qué creen que es así?\n\nA medida que responde el grupo total, el docente los guía hacia la comprensión de la respuesta correcta."
+                        },
+                        {
+                            "titulo": "Momento 2. Juego de búsqueda de información.",
+                            "description": "El docente propone un juego a los estudiantes: “Observen la lámina de la calle comercial que está en su fascículo y busquen objetos de color amarillo. ¿Qué cosas de ese color pueden encontrar?” El docente escribe en la pizarra Objetos amarillos y escribe lo que dictan los estudiantes formando una lista (un ítem debajo del otro). El objetivo es producir oralmente una lista de objetos encontrados.\n\nPara que todos participen, otras opciones de temáticas de búsqueda pueden ser: nombrar cosas para comer; nombrar cosas que se pueden usar en la cabeza; nombrar cosas de color naranja/verde."
+                        },
+                        {
+                            "titulo": "Momento 3. Reflexión sobre las características y la silueta de las listas.",
+                            "description": "El docente les pregunta: ¿Cómo agrupamos los elementos que fueron nombrando? ¿Qué instrucciones seguimos? Luego, comenta: Agrupamos los elementos buscando algo en común y los escribimos de una manera especial. Espera respuesta. Sigue guiando la comprensión con preguntas como: ¿Cómo ven que están escritos los objetos?, ¿desordenados?, ¿uno al lado del otro o uno debajo del otro? Escucha sus propuestas. El docente explica que la estructura típica de las listas, que se reconoce con sólo mirarlas, es un elemento debajo del otro."
+                        },
+                        {
+                            "titulo": "Momento 4. Definición de lista.",
+                            "description": "A partir de esas reflexiones, el docente toma nota de las ideas en la pizarra para, finalmente, con ayuda de los estudiantes, escribir en la pizarra una definición de lista, por ejemplo: “Una lista es un conjunto de elementos u objetos con algo en común, escritos uno debajo del otro”."
+                        },
+                        {
+                            "titulo": "Momento 5. Presentación del papelógrafo.",
+                            "description": "El docente presenta el papelógrafo de aprendizajes y explica que contiene las metas que trabajarán durante este tiempo.\n\nEN ESTE TIEMPO TRABAJAREMOS PARA:\n● Leer y escribir listas de compras.\n● Pensar en qué tiendas comprar los productos.\n● Conocer más palabras.\n● Jugar a comprar y vender.\n\nOrientación específica para el docente: Antes de leer cada objetivo, el docente fomenta la reflexión y motiva a los estudiantes con preguntas relacionadas: \"¿Alguien ha visto o hecho una lista de compras en su casa? ¿Qué creen que vamos a aprender aquí?\" \"¿En qué lugares compran ustedes cosas como pan o frutas? ¿Cómo sabemos qué debemos comprar?\" Y así sucesivamente. El objetivo es activar los conocimientos previos de los estudiantes."
+                        },
+                        {
+                            "titulo": "Momento 6. Escritura de la fecha y del nombre de la secuencia que se comienza.",
+                            "description": "El docente indica que van a escribir la fecha al dictado, van a escribir el día y el mes escuchando los sonidos de estas palabras (si está comenzando un mes nuevo, se recomienda no dictarlo, sino escribirlo), y después van a revisar cómo lo hicieron entre todos. El docente dicta el día prolongando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: jj-uuu-eee-vvv-eee-ss). Brinda ayuda apoyándose del abecedario en caso de que no reconozcan el sonido y la letra. Luego, el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento. Luego el docente le avisa a los estudiantes que van a escribir el nombre de la secuencia didáctica que comienzan en el día de hoy: Lista de compras. Lo hace dictando cada palabra. Prolonga o aísla los sonidos de cada palabra. Buscan la letra de ese sonido en el abecedario y el docente la escribe en la pizarra. Los estudiantes escriben. El docente revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Colorea las vocales: Escribimos listas de compras."
+                },
+                {
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "Crean listas de forma oral y escrita. Leen palabras de listas.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comentan si pudieron realizar la tarea para el hogar y cómo la resolvieron. Leen en voz alta la oración. El docente escribe en la pizarra la oración y algún estudiante voluntario la realiza en la pizarra."
+                        },
+                        {
+                            "titulo": "Momento 2. Juegos con listas.",
+                            "description": "El docente propone un juego para hacer listas. Organiza a los estudiantes en grupos. El objetivo es armar listas oralmente con cinco elementos (como máximo) con el título que dice el docente. El docente va diciendo de a uno los “títulos” de listas a armar. Por ejemplo:\n● frutas\n● útiles escolares\n● víveres\n● alimentos para el almuerzo\nCuando dicen los cinco elementos de la lista, los vuelven a decir separándolos en sílabas y palmeando en cada sílaba."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 2 (A) del fascículo.",
+                            "description": "Completan la actividad del fascículo: Une las imágenes con las palabras de los productos.\n\nRecorrido docente: El docente ayuda a leer y comprender las palabras. Si ve que hay errores puede preguntar: ¿Qué ves en la imagen? ¿Con qué sonido comienza? ¿Puedes encontrar una palabra que empiece con una letra que suena así?\n\nAl finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 4. Actividad n.º 2 (B) del fascículo.",
+                            "description": "Completan la actividad del fascículo: Cada lista con su comercio. Une los productos con cada negocio. Al finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos.\n\nRecorrido docente: El docente ayuda a leer y comprender las palabras. Apoya con preguntas como: ¿Dónde podemos comprar los elementos que escribimos en nuestra lista? ¿Qué tipo de comercio o negocio vende esos productos? Para leer las palabras puede guiar con preguntas como: ¿Qué sonido escuchan al inicio de la palabra \"colmado\"? o ¿Cuál es el último sonido en la palabra \"panadería\"?"
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha por parte de un estudiante.",
+                            "description": "El docente invita a un estudiante a escribir la fecha en la pizarra. Entre todos lo ayudan. Primero deciden qué información van a escribir. Luego cuentan entre todos cuántas palabras van a escribir. Prolongan el sonido de cada letra de cada palabra. Si es necesario buscan esa letra en el abecedario. El docente guía esa escritura: orienta sobre las letras que suben y bajan, revisa el trazado de las letras, la linealidad, la direccionalidad y la separación de palabras. Todos escriben la fecha en su cuaderno. El docente revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Lee en voz alta las siguientes palabras. Colorea la letra o en estos negocios: colmado, mercadito, supermercado, comercio."
+                },
+                {
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "Dicen listas de forma oral. Juegan con listas de compras.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comentan si pudieron realizar la tarea para el hogar y cómo la resolvieron. Leen en voz alta la oración. El docente escribe en la pizarra la oración y algún estudiante voluntario la realiza en la pizarra."
+                        },
+                        {
+                            "titulo": "Momento 2. Uno más en la lista.",
+                            "description": "El docente propone un juego. Dice una frase inicial y los estudiantes deben repetirla y agregar un elemento al final. Por ejemplo: La mamá fue al colmado y compró jugo. Comienza un estudiante y repite la frase y agrega un elemento, por ejemplo: La mamá fue al colmado y compró jugo y leche. Y así continúan los estudiantes repitiendo toda la lista, agregando cada vez más elementos en el orden correcto.\nPor ejemplo:\nDocente: - La mamá fue al colmado y compró jugo.\nEstudiante 1: - La mamá fue al colmado y compró jugo y leche.\nEstudiante 2: - La mamá fue al colmado y compró jugo, leche y galletas."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 3 (A) del fascículo.",
+                            "description": "Completan la actividad del fascículo: Listas con números. Marca los números en estas listas de compras. Al finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron? Verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos.\n\nRecorrido docente: El docente guía y acompaña a los estudiantes mientras resuelven la actividad."
+                        },
+                        {
+                            "titulo": "Momento 4. Actividad n.º 3 (B) del fascículo.",
+                            "description": "Completan la actividad del fascículo: Encuentra el intruso en estas listas de compras.\n\nRecorrido docente: El docente lee las listas una vez. Luego, intenta que los estudiantes hagan una lectura más autónoma. En ese momento, guía y acompaña a los estudiantes en estrategias de lectura: ¿Cómo suena esta letra? ¿y la que sigue? Apoya tu dedo en cada letra para no perderte. Ahora que dijiste todos los sonidos, ¿qué palabra es?\n\nAl finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron? Los estudiantes exponen sus respuestas. Pasan a la pizarra a mostrar cómo escribieron. Finalmente, el docente observa, escucha y los guía hacia la comprensión de la respuesta correcta. Modeliza la escritura. Todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha y del nombre de la secuencia que se comienza.",
+                            "description": "El docente indica que van a escribir la fecha al dictado, van a escribir el día y el mes escuchando los sonidos de estas palabras (si está comenzando un mes nuevo, se recomienda no dictarlo, sino escribirlo), y después van a revisar cómo lo hicieron entre todos. El docente dicta el día prolongando los sonidos de forma pausada (la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: jj-uuu-eee-vvv-eee-ss). Brinda ayuda apoyándose del abecedario en caso de que no reconozcan el sonido y la letra. Luego, el docente lo escribe en la pizarra y todos deben controlar si lo hicieron de forma correcta. El docente revisa las escrituras en el momento. Luego, el docente le avisa a los estudiantes que van a escribir el nombre de la secuencia didáctica que comienzan en el día de hoy: Lista de compras. Lo hace dictando cada palabra. Prolonga o aísla los sonidos de cada palabra. Buscan la letra de ese sonido en el abecedario y el docente la escribe en la pizarra. Los estudiantes escriben. El docente revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Colorea la letra u en estos productos de listas: aguacate, uvas, yuca, huevos, frutas."
+                },
+                {
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "Juegan con el sonido de las palabras.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comentan si pudieron realizar la tarea para el hogar y cómo la resolvieron."
+                        },
+                        {
+                            "titulo": "Momento 2. Juegos de conciencia fonológica.",
+                            "description": "El docente propone los siguientes juegos. Los extiende para que todos participen. Puede organizar a los estudiantes en pequeños grupos.\na) Descubrir rimas: El docente dice dos palabras y los estudiantes deben decir si riman o no y agregar una rima. Intercalar opciones que no rimen. Por ejemplo:\ncamión-pantalón\naguacate-melón\nfresa-presa\ncasabe-manteca\nsalami-pantalón\nbanana-manzana\npuré-café\nb) Descubrir la palabra. El docente dice una palabra separando los sonidos de cada letra. Los estudiantes deben decir qué palabra es. Por ejemplo: b-a-n-a-n-a.\nc) Descubrir la palabra entre grupos: Los estudiantes forman grupos de 3. Cada integrante del grupo elige una palabra y, por turnos, debe decirla separando los sonidos para que otro grupo descubra qué palabra es. En total cada grupo dice 3 palabras para que participe cada miembro del grupo.\nd) Descubrir la palabra a partir de la primera sílaba: En grupo de 3, eligen una palabra cada uno. Cuando la dicen, sólo dicen en voz alta la primera sílaba y siguen palmeando la cantidad de sílabas que corresponden a esa palabra. Por ejemplo, si eligen “manzana”, dicen palmeando “man-” y palmean dos veces más. Los otros grupos deben adivinar cuál palabra es."
+                        },
+                        {
+                            "titulo": "Momento 3. Escritura de la fecha y de una rima del juego.",
+                            "description": "El docente indica que van a escribir la fecha y una de las rimas que les haya gustado del juego. El docente invita a un estudiante a pasar a la pizarra. Le va a dictar la fecha. Lo hace prolongando los sonidos, indica cuando debe escribir con mayúscula y cuándo debe dejar un espacio. Orienta en las letras que suben y bajan.\nRecuerda: la prolongación de sonidos es letra por letra, no por sílaba. Por ejemplo: jj-uuu-eee-vvv-eee-ss.\nSi es necesario, el docente vuelve a escribir la fecha para que el modelo sea más claro.\nLuego, indica que van a escribir entre todos dos palabras que rimen que les haya gustado del juego. Deciden cuáles son esas palabras. El docente las escribe relacionando el sonido con la letra. Todos escriben al mismo tiempo. Señala que las palabras que riman terminan igual y señala las letras iguales de ambas palabras. El docente corrige las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Colorea las palabras que comienzan como papa: papel batata pastel plátano carne sal. Luego, léelas en voz alta con tu familia."
+                }
+            ],
+            "description": "Lectura y escritura de listas sencillas para organizar productos y necesidades de la vida cotidiana."
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2. Comprensión lectora y gramática",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "Leen y escriben palabras de una lista de compras.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente invita a los estudiantes a leer las palabras que colorearon en la tarea. El docente escucha las formas de resolver de los estudiantes y los guía hacia la comprensión de la respuesta correcta. Todos corrigen en sus cuadernos."
+                        },
+                        {
+                            "titulo": "Momento 2. Introducción del bloque. Lectura del papelógrafo de aprendizajes.",
+                            "description": "El docente y los estudiantes leen el papelógrafo de aprendizajes y marcan todo lo que ya aprendieron."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 5 (A) del fascículo.",
+                            "description": "Completan la actividad del fascículo: Encuentra en la lista una palabra que… (… tenga la vocal u; tenga la letra P; tenga la letra C; ¿Cuál es la palabra más larga? ¿Cuál es la palabra más corta?\n\nRecorrido docente: El docente lee las listas una vez. Luego, intenta que los estudiantes hagan una lectura más autónoma. En ese momento, guía y acompaña a los estudiantes en estrategias de lectura: Busca en el abecedario la letra que tienen que buscar. Busca detenidamente en la lista.\n\nAl finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron? Los estudiantes exponen sus respuestas. Pasan a la pizarra a mostrar cómo escribieron. Finalmente, el docente observa, escucha y los guía hacia la comprensión de la respuesta correcta. Modeliza la escritura. Durante esta revisión, guía a los estudiantes para que:\n● Observen la cantidad de letras de cada palabra y comparen con lo escrito.\n● Revisen el orden correcto de las letras en cada palabra.\n● Identifiquen y corrijan errores en sus escritos."
+                        },
+                        {
+                            "titulo": "Momento 4. Actividad n.º 5 (B) del fascículo.",
+                            "description": "Completan la actividad del fascículo: Escribe la lista de compras para que Ana ayude a su mamá a preparar un pastel.\n\nOrientación específica para el docente: El docente lee el texto del fascículo en voz alta mientras los estudiantes lo siguen en sus copias. Conversar para verificar su comprensión: ¿Qué desea hacer Ana? ¿Qué deben escribir ustedes? ¿Deben escribir todos los ingredientes? ¿Por qué?\n\nAl finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron? Los estudiantes exponen sus respuestas. Pasan a la pizarra a mostrar cómo escribieron. Finalmente, el docente observa, escucha y los guía hacia la comprensión de la respuesta correcta. Modeliza la escritura. Durante esta revisión, guía a los estudiantes para que:\n● Observen la cantidad de letras de cada palabra y comparen con lo escrito.\n● Revisen el orden correcto de las letras en cada palabra.\n● Identifiquen y corrijan errores en sus escritos."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha por parte de un estudiante.",
+                            "description": "El docente invita a un estudiante a escribir la fecha en la pizarra. Entre todos lo ayudan. Primero deciden qué información van a escribir. Luego cuentan entre todos cuántas palabras van a escribir. Prolongan el sonido de cada letra de cada palabra. Si es necesario buscan esa letra en el abecedario. El docente guía esa escritura: orienta sobre las letras que suben y bajan, revisa el trazado de las letras, la linealidad, la direccionalidad y la separación de palabras. Todos escriben la fecha en su cuaderno. El docente revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Copia estas palabras en tu cuaderno: coco, salami, plátano, cereza. Cuenta cuántas letras tiene cada una y ponle el número al lado."
+                },
+                {
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "Escriben y leen palabras de la lista de compras.",
+                    "resources": "Letras móviles.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que compartan la tarea para el hogar. El docente escribe las palabras en la pizarra, pide a los estudiantes que pasen a contar las letras y escribir el número de letras. Todos corrigen en sus cuadernos."
+                        },
+                        {
+                            "titulo": "Momento 2. Dictado de elementos para las listas.",
+                            "description": "El docente reparte tarjetas de letras móviles a grupos de cuatro estudiantes (o puede formar los grupos según su realidad). Dicta dos palabras de listas de compras ya trabajadas antes, sin decirles el nombre de la clase de elementos de cada lista (alimentos, ropa, utensilios de cocina, otros). El docente revisa las palabras hasta que estén correctamente escritas. Una vez armadas las palabras, el docente indica que le pongan título a esa lista. Escriben el título de la lista en una hoja suelta.\n\nOrientación específica para el docente: Entregar la cantidad de tarjetas de letras necesarias para formar las palabras. Para hacerlo más desafiante, puede agregar alguna letra más como distractor. Esto evita que los niños se pierdan en la búsqueda de las letras que necesitan y se concentran en el foco que es el armado de las palabras."
+                        },
+                        {
+                            "titulo": "Momento 3. Armado de listas.",
+                            "description": "El docente le indica a cada grupo que desarme las palabras y mezclen las letras. Luego, a cada grupo le dice un título de lista: alimentos, ropa, víveres, frutas, útiles, etc. Los equipos arman dos palabras de esa lista. Seguramente le falten letras. Deberán pedir las letras que faltan a otro grupo.\n\nRecorrido docente: El docente observa y ayuda a cada grupo oralmente con preguntas guía como: ¿Qué cosas se podrían comprar? Observen las letras que tienen, ¿pueden armar esa palabra con esas letras? ¿Cuál les falta? ¿Cuál les sobra? Digan la palabra en voz alta. Luego, lean la palabra que formaron ¿qué sonido/letra les falta/sobra para que suene como la conocen? Fomentar que los estudiantes llamen a las letras por su sonido y no por su nombre.\n\nAl finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. A continuación, el docente escribe las respuestas correctas en la pizarra para que todos las analicen. Durante esta revisión, guía a los estudiantes para que:\n● Observen la cantidad de letras de cada palabra y comparen con lo escrito.\n● Revisen el orden correcto de las letras en cada palabra.\n● Identifiquen y corrijan errores en sus escritos."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha por parte de un estudiante y escritura de dos palabras.",
+                            "description": "El docente invita a un estudiante a escribir la fecha en la pizarra. Entre todos lo ayudan. Primero deciden qué información van a escribir. Luego cuentan entre todos cuántas palabras van a escribir. Prolongan el sonido de cada letra de cada palabra. Si es necesario buscan esa letra en el abecedario. El docente guía esa escritura: orienta sobre las letras que suben y bajan, revisa el trazado de las letras, la linealidad, la direccionalidad y la separación de palabras. Todos escriben la fecha en su cuaderno.\nEl docente indica que escriban dos de las palabras que escribieron con las tarjetas de letras. El docente revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe como puedas dos palabras que empiecen como tu nombre."
+                },
+                {
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "Buscan palabras que inicien con el mismo sonido. Escriben palabras que faltan.",
+                    "resources": "Imagen 1 del fascículo de estudiantes. Letras móviles para armar 4 palabras seleccionadas.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comentan si pudieron realizar la tarea para el hogar y cómo la resolvieron. El docente pide a tres estudiantes que pasen a la pizarra a escribir las palabras que escribieron en su cuaderno y abajo el nombre del estudiante que dictó. Pregunta a los estudiantes: Observen la letra inicial. ¿Es la misma?, ¿suenan igual?"
+                        },
+                        {
+                            "titulo": "Momento 2. Actividad n.º 7 (A) del fascículo.",
+                            "description": "Completan la actividad del fascículo: Marca las cosas que comienzan como la palabra “miel”.\n\nRecorrido docente: En cada actividad del fascículo, el docente observa y ayuda a cada grupo oralmente con preguntas guía como: Dí la palabra en voz alta y piensa ¿con qué sonido comienza?\n\nAl finalizar, en grupo total, verifican las respuestas. El docente muestra cómo se exageran o aíslan los sonidos."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 7 (B) del fascículo.",
+                            "description": "Completan la actividad del fascículo: Se borraron partes de la lista de compras. Complétalas.\nAl finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron?\nLos estudiantes exponen sus respuestas. Pasan a la pizarra a mostrar cómo escribieron. Finalmente, el docente observa, escucha y los guía hacia la comprensión de la respuesta correcta. Modeliza la escritura. Todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 4. Actividad n.º 7 (C) del fascículo.",
+                            "description": "Completan la actividad del fascículo: Agrega un elemento más a cada lista.\nAl finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron?\nLos estudiantes exponen sus respuestas. Pasan a la pizarra a mostrar cómo escribieron. Finalmente, el docente observa, escucha y los guía hacia la comprensión de la respuesta correcta. Modeliza la escritura. Todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha por parte de un estudiante.",
+                            "description": "El docente invita a un estudiante a escribir la fecha en la pizarra. Entre todos lo ayudan. Primero deciden qué información van a escribir. Luego cuentan entre todos cuántas palabras van a escribir. Prolongan el sonido de cada letra de cada palabra. Si es necesario buscan esa letra en el abecedario. El docente guía esa escritura: orienta sobre las letras que suben y bajan, revisa el trazado de las letras, la linealidad, la direccionalidad y la separación de palabras. Todos escriben la fecha en su cuaderno. El docente revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe como puedas dos palabras nuevas que empiezan como la palabra “miel”."
+                }
+            ]
+        },
+        {
+            "blockNumber": 3,
+            "title": "Bloque 3. Producción escrita",
+            "activities": [
+                {
+                    "title": "ACTIVIDAD 8",
+                    "pedagogicalIntention": "Ensayan la escritura de una lista de compras.",
+                    "resources": "Papelógrafo de aprendizajes. Hojas borrador con renglones.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Introducción del bloque. Lectura del papelógrafo de aprendizajes.",
+                            "description": "El docente revisa la tarea para el hogar y entre todos comentan las palabras que escribieron. El docente y los estudiantes leen el papelógrafo de aprendizajes y marcan todo lo que ya aprendieron. Menciona que comenzarán a armar el juego a comprar y vender. Les recuerda los letreros que armaron y guardaron."
+                        },
+                        {
+                            "titulo": "Momento 2. Planificación de la escritura.",
+                            "description": "El docente propone que relean el fascículo y que se detengan en todas las listas de compras que hicieron y completaron. Ahora, deberán escribir una propia en una hoja borrador para poder sumar al juego. Por eso, pueden leer las que ya hicieron para elegir la que más les guste o divierta. Les da tiempo para la relectura."
+                        },
+                        {
+                            "titulo": "Momento 3. Escritura de la lista.",
+                            "description": "El docente les da una hoja borrador para que escriban la lista de compras que más les gusta. Pueden ser listas de, al menos, dos elementos.\n\nRecorrido docente: El docente va haciendo correcciones en el momento en que los estudiantes escriben: ¿Con qué sonido comienza? ¿Y con cuál sigue? ¿Esas letras representan esos sonidos?. Puede pedirles que comparen la escritura con la palabra escrita en el fascículo o puede escribirla en la pizarra para que la comparen."
+                        },
+                        {
+                            "titulo": "Momento 4. Revisión de la lista.",
+                            "description": "Una vez que han concluido la escritura, el docente propone algunas mejoras y les dice que revisen si la letra es clara porque las van a usar para jugar. Guardan las listas para la siguiente actividad."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha por parte de un estudiante.",
+                            "description": "El docente invita a un estudiante a escribir la fecha en la pizarra. Entre todos lo ayudan. Primero deciden qué información van a escribir. Luego cuentan entre todos cuántas palabras van a escribir. Prolongan el sonido de cada letra de cada palabra. Si es necesario buscan esa letra en el abecedario. El docente guía esa escritura: orienta sobre las letras que suben y bajan, revisa el trazado de las letras, la linealidad, la direccionalidad y la separación de palabras. Todos escriben la fecha en su cuaderno. El docente revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Este mandato se envió en la actividad 8 de la secuencia El Letrero. Si es necesario, se vuelve a repetir: Familia: Por favor, envíen materiales para jugar a hacer un puesto de venta, como envases vacíos o recortes de periódicos o revistas. El negocio es: __________________________________"
+                },
+                {
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "Juegan al puesto de ventas.",
+                    "resources": "Materiales para el armado del puesto de ventas.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente invita a los estudiantes a mostrar los materiales que trajeron de la casa."
+                        },
+                        {
+                            "titulo": "Momento 2. Preparación del juego.",
+                            "description": "El docente propone que cada estudiante decida si quiere ser vendedor o comprador. Igualmente, podrán cambiar de rol cuando lo deseen. Deciden los roles. A los vendedores se les entrega una lista de compras aleatoriamente. Los compradores decidirán qué puestos quieren según los letreros que ya habían armado."
+                        },
+                        {
+                            "titulo": "Momento 3. Armado del puesto de venta.",
+                            "description": "Organización del espacio: El docente organiza las mesas y sillas para armar los puestos de venta. Aquí, se puede pedir a los estudiantes que coloquen letreros y materiales visuales que contengan palabras clave de sus puestos, reforzando la asociación entre la imagen y la palabra escrita."
+                        },
+                        {
+                            "titulo": "Momento 4. Juego de roles.",
+                            "description": "Simulación de roles de clientes y vendedores: El docente y los estudiantes que actúan de compradores (se puede convocar a otros miembros del centro educativo) recorren los puestos, pidiendo productos con las listas de compras y haciendo preguntas que los estudiantes responderán como vendedores."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha por parte de un estudiante.",
+                            "description": "El docente invita a un estudiante a escribir la fecha en la pizarra. Entre todos lo ayudan. Primero deciden qué información van a escribir. Luego cuentan entre todos cuántas palabras van a escribir. Prolongan el sonido de cada letra de cada palabra. Si es necesario buscan esa letra en el abecedario. El docente guía esa escritura: orienta sobre las letras que suben y bajan, revisa el trazado de las letras, la linealidad, la direccionalidad y la separación de palabras. Todos escriben la fecha en su cuaderno. El docente revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Cuéntale a tu familia lo que hiciste durante el juego del puesto de ventas."
+                },
+                {
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "Escriben las palabras aprendidas. Reflexionan sobre lo trabajado en la secuencia.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente invita a los estudiantes a mostrar lo que conversaron en casa con sus familiares."
+                        },
+                        {
+                            "titulo": "Momento 2. Actividad n.º 10 del fascículo.",
+                            "description": "Completan la actividad del fascículo: Palabras aprendidas y resuelven el crucigrama. Palabras en la caja: lista de compras, batata, yuca, casabe, miel, leche, pan.\nAl finalizar, en grupo total, el docente pregunta: ¿Cómo lo hicieron?\nLos estudiantes exponen sus respuestas. Pasan a la pizarra a mostrar cómo escribieron. Finalmente, el docente observa, escucha y los guía hacia la comprensión de la respuesta correcta. Modeliza la escritura. Todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 3. Reflexión final:",
+                            "description": "El docente organiza una conversación para que los estudiantes compartan su experiencia y comenten qué fue lo que más les gustó y lo que les resultó más difícil."
+                        },
+                        {
+                            "title": "Cierre:",
+                            "description": "El docente hace una síntesis de lo aprendido y agradece a los estudiantes por su esfuerzo y compromiso."
+                        }
+                    ],
+                    "homework": ""
+                }
+            ]
+        }
+    ]
+}

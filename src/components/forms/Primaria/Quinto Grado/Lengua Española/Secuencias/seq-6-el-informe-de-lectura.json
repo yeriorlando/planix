@@ -1,0 +1,399 @@
+{
+  "id": "seq-1771196781393",
+  "title": "El informe de lectura",
+  "description": "Desarrolla la capacidad de analizar y sintetizar textos leídos, organizando información relevante en un informe claro que incluya ideas principales, opinión personal y datos básicos de la obra.",
+  "order": 6,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771202823538",
+      "sequence_id": "seq-1771196781393",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Pre-escucha y exploración del cuento)",
+      "intencion_pedagogica": "Explorar conocimientos previos sobre el cuento \"El armario de Carla\", formular hipótesis a partir del título y escuchar el cuento para su comprensión global.\n\n",
+      "estrategia": "Formulación de hipótesis: Los estudiantes predicen el contenido del cuento a partir del título.\n\nLectura en voz alta (modelado): El docente lee el cuento con entonación adecuada.\n\nDiálogo dirigido: Preguntas de exploración sobre vocabulario y contenido.\n\nUso de imágenes: Para explicar vocabulario desconocido (prendas de vestir).",
+      "aprendizaje_significativo": "Se parte de un cuento con el que los niños pueden identificarse (objetos personales en un armario) para introducir el concepto de informe de lectura, conectando la literatura con su vida cotidiana.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de dibujar a Camiseta Rosa mientras escuchan el cuento.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona una copia escrita del cuento.\n\nPara estudiantes kinestésicos: Se les invita a representar con gestos las actitudes de Camiseta Rosa.\n\nPara estudiantes con dificultades de comprensión: Se les permite trabajar las preguntas en pareja.",
+      "actividades_cuaderno": "Escribir la moraleja o enseñanza del cuento \"El armario de Carla\" con sus propias palabras.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Imágenes de prendas de vestir",
+          "descripcion": "1. El docente informa que la secuencia iniciará con el cuento \"El armario de Carla\" de Azucena Zarzuela (pág. 120).\n2. Pide a los estudiantes que formulen hipótesis sobre lo que les sugiere el título.\n3. Anota las hipótesis en la pizarra.\n4. Formula preguntas de exploración (pág. 120):\n- \"¿Qué cosas encontramos o guardamos en un armario?\" (a)\n- \"¿Cuáles prendas de vestir suelen aparecer en un armario?\" (b)\n- \"¿De qué crees que podría tratar un cuento que hable sobre un armario?\" (c)\n5. Muestra imágenes de prendas como \"chándal\" y \"jersey\" para familiarizar a los estudiantes con el vocabulario.",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 120)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto del cuento o video\n• Pizarra",
+          "descripcion": "1. El docente lee en voz alta el cuento \"El armario de Carla\" (disponible en video o transcripción, según recursos).\n2. Los estudiantes escuchan atentamente, recordando las estrategias de escucha activa.\n\nPost-escucha - Verificación de hipótesis y comprensión:\n1. Formula preguntas (pág. 120-121):\n- \"¿Pudiste comprobar las hipótesis que formulaste? ¿Cuáles?\" (1)\n- \"¿Cómo era Camiseta Rosa? ¿Por qué era así?\" (2)\n- \"¿Cómo trataba a sus compañeros de armario?\" (3)\n- \"En el cuento ocurre un hecho que provoca que Camiseta Rosa se ponga muy triste. ¿Cuál fue?\" (4)\n- \"¿Por qué los compañeros de armario de Camiseta Rosa eran diferentes a ella?\" (5)\n- \"¿Qué enseñanza o moraleja te deja este cuento? ¿Por qué?\" (6)",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 120-121)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas.\n2. El docente refuerza positivamente las estrategias de comprensión adecuadas y corrige las desviaciones mediante preguntas.",
+          "actividad_numero": "Comprensión oral (Párrafo 3, pág. 121)"
+        }
+      ]
+    },
+    {
+      "id": "1771202900586",
+      "sequence_id": "seq-1771196781393",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Oral (Escucha del Informe de Lectura)",
+      "intencion_pedagogica": "Introducir el concepto de informe de lectura, escuchar el informe sobre \"El armario de Carla\" e identificar los aspectos que se abordan en él.\n\n",
+      "estrategia": "Introducción conceptual: Explicación de qué es un informe de lectura.\n\nLectura en voz alta (modelado): El docente lee el informe de lectura.\n\nToma de apuntes: Los estudiantes registran los aspectos tratados en el informe.\n\nPreguntas de comprensión: Para identificar estructura y contenido del informe.",
+      "aprendizaje_significativo": "Los estudiantes descubren que un informe de lectura es un texto que habla sobre otro texto, y que se utiliza en la escuela para demostrar lo que se ha comprendido.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de contar cuántos aspectos diferentes menciona el informe.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona una copia escrita del informe.\n\nPara estudiantes con dificultades de comprensión: Se les permite trabajar las preguntas en pareja.\n\nPara estudiantes avanzados: Se les pide que comparen el informe con el cuento original y digan si falta algún aspecto importante.",
+      "actividades_cuaderno": "Copiar la síntesis de los aspectos que debe contener un informe de lectura (argumento, hecho principal, características de personajes, moraleja).\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente introduce la actividad (pág. 121): \"En clases anteriores analizamos el cuento El armario de Carla. Hoy escucharemos un informe de lectura sobre dicho cuento.\"\n2. Pregunta: \"¿Alguien sabe qué es un informe de lectura?\"\n3. Presenta la definición (pág. 121):\n- \"El informe de lectura es un texto en el que una persona presenta el contenido sobre un escrito que ha leído o escuchado. En la escuela se utiliza para demostrar lo que se ha comprendido.\"\n4. Pide a los estudiantes que anoten la definición en sus cuadernos.",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 121)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto del informe (pág. 122)\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"Sobre el cuento El armario de Carla, ¿qué aspectos crees que se tratarán en el informe de lectura?\" (pág. 122). Anota las respuestas en la pizarra.\n2. Lee dos veces el Informe de lectura del cuento El armario de Carla (pág. 122) . Los estudiantes toman apuntes de las ideas o aspectos que se tratan.\n\nPost-escucha - Análisis del informe:\n1. Preguntas de la pág. 124:\n- \"El informe empieza diferenciando la humildad de la soberbia. ¿Para qué crees que el autor establece estas diferencias?\" (pregunta 1)\n- \"¿Qué aspectos del cuento leído se tratan en el informe?\" (pregunta 2)\n- \"¿Qué se dice de cada uno de esos aspectos?\" (pregunta 3)\n- \"¿Cómo concluye o termina el informe de lectura?\" (pregunta 4)\n2. El docente relee el informe y pide a los estudiantes que identifiquen introducción, desarrollo y conclusión.",
+          "actividad_numero": "Comprensión oral (Párrafos 2-3, pág. 122) Preguntas 1-4 (pág. 124)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas.\n2. El docente sintetiza los aspectos del informe: definición de humildad/soberbia, argumento, hecho principal, características de personajes, moraleja.",
+          "actividad_numero": "Comprensión oral (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771202976759",
+      "sequence_id": "seq-1771196781393",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión Escrita (Pre-lectura y Durante la lectura)",
+      "intencion_pedagogica": "Realizar la pre-lectura y la lectura compartida del informe de lectura sobre el cuento \"Robo en la biblioteca\", formulando hipótesis y verificándolas durante la lectura.\n\n",
+      "estrategia": "Comparación de textos: Diferenciar el informe de lectura de otros géneros.\n\nFormulación de hipótesis: Predecir la trama del cuento a partir del título.\n\nLectura compartida: Docente y alumnos leen en voz alta, alternándose.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión.",
+      "aprendizaje_significativo": "Se trabaja con un cuento de misterio (\"Robo en la biblioteca\") que conecta con el interés de los niños por las historias de detectives y aventuras, manteniendo su motivación.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades lectoras: Se les asigna la lectura de párrafos más cortos.\n\nPara estudiantes visuales: Se utiliza un papelógrafo grande con el texto para que todos puedan seguir.\n\nPara estudiantes kinestésicos: Se les invita a pasar al frente y señalar los párrafos mientras se leen.\n\nPara estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.",
+      "actividades_cuaderno": "Anotar las hipótesis que se cumplieron y las que no, con una breve explicación.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Otros textos (carta, biografía, receta)\n• Pizarra",
+          "descripcion": "1. El docente fija el propósito de lectura (pág. 125): \"Vamos a leer un informe de lectura sobre un cuento que probablemente no hemos leído.\"\n2. Pregunta: \"¿Alguien me puede recordar qué es un informe de lectura?\"\n3. Muestra otros textos (carta, biografía, receta) y el informe para que los estudiantes establezcan diferencias.\n4. Comparte el título del cuento: \"Robo en la biblioteca\" de Eva María Rodríguez.\n5. Anima a especular sobre la trama (pág. 125):\n- \"¿Qué tipo de cuento es este? ¿fantástico, policial, de aventuras?\"\n- \"¿Qué crees que se robó?\"\n- \"¿Cómo piensas que empieza y termina?\"\n- \"¿Qué asuntos crees que presentará el informe?\"\n6. Registra las predicciones en la pizarra.",
+          "actividad_numero": "Comprensión escrita (Párrafos 1-3, pág. 125)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copia del informe (pág. 126)\n• Pizarra",
+          "descripcion": "1. Se entrega una copia del Informe de lectura del cuento Robo en la biblioteca (págs. 126) .\n2. Se realiza la lectura compartida con preguntas intercaladas (págs. 127-128):\n- Párrafo 1: \"¿Qué hace el autor en este párrafo? ¿Cuáles son las informaciones que presenta?\"\n- Párrafo 2: \"¿Qué información presenta el autor en este párrafo? ¿Alguien puede decirme con sus propias palabras de qué trata el cuento?\"\n- Párrafo 3: \"¿Por qué el robo de los libros es un hecho importante en el cuento?\"\n- Párrafo 4: \"¿Qué aspecto del cuento se desarrolla aquí? (características morales/psicológicas)\"\n- Párrafo 5: \"¿Se presenta una información diferente? (características de Jasón)\"\n- Párrafo 6: \"¿Qué parte del texto es este párrafo? (conclusión)\"",
+          "actividad_numero": "Comprensión escrita Durante la lectura (págs. 127-128)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se retoman las hipótesis anotadas al inicio.\n2. Se identifican cuáles se cumplieron y cuáles no.\n3. El docente anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Párrafo final, pág. 128)"
+        }
+      ]
+    },
+    {
+      "id": "1771203050619",
+      "sequence_id": "seq-1771196781393",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Comprensión Escrita (Post-lectura)",
+      "intencion_pedagogica": "Consolidar la comprensión del informe de lectura sobre \"Robo en la biblioteca\" a través de actividades de post-lectura y practicar la elaboración de resúmenes.\n\n",
+      "estrategia": "Trabajo individual con el texto: Para resolver actividades de comprensión.\n\nUso de contexto: Para deducir significado de palabras sin diccionario.\n\nResumen: Aplicación de estrategias de reducción de información.\n\nSocialización de respuestas: Para compartir y corregir estrategias.",
+      "aprendizaje_significativo": "Los estudiantes aplican estrategias de comprensión lectora para extraer información clave de un texto y luego la reorganizan en un resumen, habilidad fundamental para toda su vida académica.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de vocabulario: Se les permite usar el diccionario para la Actividad 1.\n\nPara estudiantes con dificultades de escritura: Se les permite dictar su resumen a un compañero.\n\nPara estudiantes visuales: Se les anima a hacer un dibujo de la escena principal del cuento.\n\nPara estudiantes avanzados: Se les pide que incluyan en su resumen algún conector causal o de orden.",
+      "actividades_cuaderno": "Pasar en limpio el resumen del informe de lectura, asegurándose de que tenga coherencia y brevedad.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copia del informe (pág. 126)",
+          "descripcion": "1. Se recuerda brevemente el informe de lectura sobre \"Robo en la biblioteca\".",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades\n• Cuadernos\n• Pizarra con ayudas retóricas\nCierre y evaluación\nTiempo (20 min)\tSocialización:\n1. Se socializan las respuestas, especialmente los resúmenes.\n2. El docente refuerza la importancia de la brevedad y la coherencia en el resumen.\tComprensión escrita\n(Socialización)\t• Participación de los estudiantes\n",
+          "descripcion": "1. Actividad 1 (pág. 129): Sin usar diccionario, escriben el significado de palabras subrayadas:\n- \"Esto es lo que aborda Eva María Rodríguez\"\n- \"se preparaban para concursar en unas olimpiadas\"\n- \"Esta sospecha se esfumó\"\n- \"resolvieron el enigma que tenían como reto descifrar\"\n- \"el jurado declaró desierto el premio\"\n2. Actividad 2 (pág. 129): Completan enunciados con la información apropiada:\n- \"Los grupos de Álex y Jasón llegaron a ser grandes amigos gracias a que _______\"\n- \"El jurado declaró desierto el premio en vista de que _______\"\n- \"El cuento leído deja varias enseñanzas. Por ejemplo: _______\"\n3. Actividad 3 (pág. 130): Responden preguntas:\n- \"¿Por qué el robo en las bibliotecas ayuda a describirlos?\" (1)\n- \"¿Por qué Jasón no era un tramposo?\" (2)\n4. Actividad de resumen (pág. 130-131):\n- Responden preguntas guía: nombre del autor, de qué trata, hecho principal, características de personajes.\n- Escriben un primer borrador de resumen en un párrafo, usando conectores.\n- El docente provee ayudas retóricas (pág. 131): \"Este cuento, cuyo autor es..., trata de...\"",
+          "actividad_numero": "Comprensión escrita Actividad 1 (pág. 129) Actividad 2 (pág. 129) Actividad 3 (pág. 130) Actividad de resumen (págs. 130-131)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas, especialmente los resúmenes.\n2. El docente refuerza la importancia de la brevedad y la coherencia en el resumen.",
+          "actividad_numero": "Comprensión escrita (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771203139398",
+      "sequence_id": "seq-1771196781393",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": " Gramática Textual",
+      "intencion_pedagogica": "Analizar las características, estructura y recursos lingüísticos del informe de lectura, y conocer los pasos para su elaboración.\n\n",
+      "estrategia": "Clase expositiva dialogada: Para presentar las características del informe de lectura.\n\nAnálisis de textos modelo: Se retoman los informes de \"El armario de Carla\" y \"Robo en la biblioteca\".\n\nTrabajo individual: Para identificar recursos lingüísticos.\n\nEsquematización: Los estudiantes completan organizadores gráficos.",
+      "aprendizaje_significativo": "Se sistematizan las características del informe de lectura como un género académico que los estudiantes utilizarán a lo largo de su vida escolar, comprendiendo su estructura y función.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de abstracción: Se les proporciona un esquema con espacios para completar.\n\nPara estudiantes visuales: Se utiliza un organizador gráfico con colores para cada parte de la estructura.\n\nPara estudiantes kinestésicos: Se les entregan tiras de papel con las partes del informe para que las ordenen físicamente.\n\nPara estudiantes avanzados: Se les pide que expliquen por qué es importante cada parte del informe.",
+      "actividades_cuaderno": "Copiar el esquema de la estructura del informe de lectura (introducción, desarrollo, conclusión) y los pasos para elaborarlo.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente presenta el concepto (pág. 132):\n- \"El informe de lectura es un texto en el que informas sobre uno o más puntos de otro texto.\"\n- \"Se produce en la escuela a solicitud del profesor para evaluar la comprensión.\"\n- \"Debe entenderse por sí solo, como si el lector no conociera el texto original.\"\n2. Explica los aspectos que puede tratar: temas principales, ambiente, actitudes de personajes, etc.",
+          "actividad_numero": "Gramática textual (Párrafos 1-3, pág. 132)v"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Papelógrafos con los informes leídos\n• Cuadernos",
+          "descripcion": "1. Presenta las características lingüísticas (pág. 132):\n- Verbos en presente y pasado del modo indicativo.\n- Adjetivos calificativos para describir personajes y sucesos.\n- Conectores de orden (en primer lugar, después, finalmente, en conclusión).\n2. Explica la estructura (págs. 132-133):\n- Introducción: presenta el tema, obra, autor y lo que se hará en el informe.\n- Desarrollo: analiza los puntos adelantados.\n- Conclusión: resume, presenta moraleja u opinión personal.\n3. Actividad: Los estudiantes identifican en los informes leídos ejemplos de cada recurso.\n4. Presenta los pasos para hacer un informe (pág. 133):\n- Leer la consigna.\n- Hacer varias lecturas del texto.\n- Subrayar palabras desconocidas y buscar significado.\n- Anotar ideas que desarrollen los puntos solicitados.\n- Hacer un resumen del texto.\n- Elaborar un esquema con introducción, desarrollo y conclusión.",
+          "actividad_numero": "Gramática textual (Págs. 132-133)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Los estudiantes, en parejas, identifican en uno de los informes leídos:\n- La introducción, desarrollo y conclusión.\n- Un ejemplo de verbo en pasado, uno en presente, un adjetivo y un conector.\n2. Se socializan los hallazgos.",
+          "actividad_numero": "Gramática textual (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771203247138",
+      "sequence_id": "seq-1771196781393",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción Oral y Escrita (Proyecto)",
+      "intencion_pedagogica": "Presentar el proyecto de la tertulia literaria, guiar la elección de lecturas y comenzar el proceso de producción del informe de lectura oral y escrito.\n\n",
+      "estrategia": "Aprendizaje basado en proyectos: Organización de una tertulia literaria.\n\nElección autónoma de lecturas: Los estudiantes eligen su propio cuento o fábula.\n\nProceso de escritura guiado: Preescritura, textualización, revisión, edición.\n\nUso de instrumentos de evaluación: Listas de cotejo para autoevaluación y coevaluación.\n\nPublicación: Creación de un libro colectivo con los informes.",
+      "aprendizaje_significativo": "Los estudiantes participan en un proyecto real (tertulia literaria y publicación de un libro) que da autenticidad a su trabajo y los motiva a producir textos de calidad para una audiencia real.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectura: Se les recomiendan textos más breves o con más ilustraciones.\n\nPara estudiantes con discapacidad visual: Se les proporcionan textos en formato ampliado o audiolibros.\n\nPara estudiantes kinestésicos: Se les anima a elegir textos que puedan representar físicamente.\n\nPara estudiantes avanzados: Se les pide que elijan un texto más complejo o que investiguen sobre el autor.",
+      "actividades_cuaderno": "Completar las consignas de lectura (resumen, hecho principal, características de personajes) para la próxima clase.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Consigna en la pizarra",
+          "descripcion": "1. El docente presenta la consigna (pág. 134): \"Tertulia literaria para divertirnos y aprender a ser mejores personas\".\n2. Explica que cada estudiante compartirá oralmente un informe de lectura sobre un cuento o fábula elegido.\n3. Describe lo que debe incluir el informe (pág. 134):\n- Introducción: presentar el cuento y adelantar lo que se tratará.\n- Desarrollo: resumen, hecho principal, características de personajes.\n- Conclusión: opinión personal, mensaje o resumen.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 134)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Selección de libros de la biblioteca\n• Cuadernos",
+          "descripcion": "1. El docente lleva a los estudiantes a la biblioteca del centro o presenta una selección de cuentos, fábulas y leyendas (pág. 134-135).\n2. Orienta la elección (pág. 135):\n- Observar portada y contraportada.\n- Leer el índice (si es antología).\n- Leer el título y decir qué sugiere.\n- Analizar las imágenes.\n3. Cada estudiante elige su narración (deben ser diferentes).\n4. Comienzan la primera lectura de su texto elegido.\n5. Consignas para la casa (pág. 135-136):\n- Leer la narración tantas veces como sea necesario.\n- Consultar el diccionario si es necesario.\n- En el cuaderno:\na. Resumir de qué trata la narración (respondiendo: personaje principal, meta, acciones importantes).\nb. Identificar el hecho principal y explicar por qué lo es.\nc. Identificar las actitudes de los personajes y qué partes del texto lo demuestran.",
+          "actividad_numero": "Producción oral (Párrafos 2-3, pág. 135-136)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Lista de cotejo fotocopiada (Anexo 1, pág. 143)",
+          "descripcion": "1. Los estudiantes comparten brevemente qué libro eligieron y por qué.\n2. El docente entrega la Lista de cotejo para la elaboración del resumen (Anexo 1, pág. 143) para que los estudiantes sepan qué se evaluará.\n3. Recuerda que en la próxima clase trabajarán con el borrador.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771203358043",
+      "sequence_id": "seq-1771196781393",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Preparación de la Exposición Oral (Borrador y Ensayo)",
+      "intencion_pedagogica": "Elaborar el borrador completo del informe de lectura (introducción, desarrollo con resumen, hecho principal y características de personajes, y conclusión) y preparar la exposición oral.\n\n",
+      "estrategia": "Taller de escritura: Elaboración del borrador del informe.\n\nTrabajo individual con acompañamiento: Cada estudiante desarrolla su texto.\n\nUso de preguntas guía: Para estructurar las partes del informe.\n\nRevisión entre pares: Coevaluación con lista de cotejo.",
+      "aprendizaje_significativo": "Los estudiantes construyen su propio informe de lectura sobre un texto que ellos mismos eligieron, lo que aumenta su motivación y compromiso con la tarea.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite grabar su informe en audio en lugar de escribirlo.\n\nPara estudiantes con dificultades de organización: Se les proporciona un esquema con espacios para completar cada parte.\n\nPara estudiantes kinestésicos: Se les anima a pensar en gestos y movimientos que acompañarán su exposición.\n\nPara estudiantes con ansiedad escénica: Se les permite ensayar primero solo con el docente.",
+      "actividades_cuaderno": "Tener el borrador del informe listo y corregido. Ensayar la exposición oral en casa.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuadernos con las notas",
+          "descripcion": "1. El docente recuerda el proyecto de la tertulia literaria.\n2. Los estudiantes revisan las notas que tomaron en casa (resumen, hecho principal, características de personajes).\n3. El docente explica que hoy elaborarán el borrador completo del informe.",
+          "actividad_numero": "Producción oral (Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lista de cotejo en la pizarra o fotocopiada.",
+          "descripcion": "1. El docente guía la redacción de cada parte (pág. 137):\n- Introducción: Responden preguntas: \"¿Cómo empezaré a introducir la narración? ¿Cómo adelantaré los aspectos que trataré?\"\n- Desarrollo: Utilizan el resumen, la caracterización del hecho principal y de los personajes que ya tienen.\n- Conclusión: Responden: \"¿Qué diré en la conclusión? ¿Cómo lo diré?\"\n2. Los estudiantes escriben el borrador completo en su cuaderno.\n3. Revisión con lista de cotejo (pág. 137):\n- \"¿Ayuda mi introducción a motivar a los compañeros?\"\n- \"¿Presenta el nombre de la narración y su autor?\"\n- \"¿Están en mi resumen solo los hechos principales?\"\n- \"¿Caractericé el hecho principal?\"\n- \"¿Caractericé los personajes?\"\n- \"¿Concluí mi informe?\"\n4. Revisión en pares: Intercambian borradores y se retroalimentan usando las mismas preguntas.",
+          "actividad_numero": "Producción oral (Punto 5, pág. 137) Lista de cotejo (pág. 137)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente explica las actividades para preparar la exposición oral (pág. 138):\n- Aprenderse el informe (las ideas, no palabra por palabra).\n- Practicar frente a un espejo o familiares.\n- Ensayar la mirada (no mirar al suelo, sino a todos lados).\n2. Se asigna el ensayo en casa para la próxima clase.",
+          "actividad_numero": "Producción oral (Punto 6, pág. 138)"
+        }
+      ]
+    },
+    {
+      "id": "1771203433811",
+      "sequence_id": "seq-1771196781393",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": " Ensayo General y Preparación para la Tertulia",
+      "intencion_pedagogica": "Realizar el ensayo general de las exposiciones orales, practicando la fluidez, la entonación, el lenguaje gestual y el manejo del público, y recibiendo retroalimentación para mejorar.\n\n",
+      "estrategia": "Simulación: Ensayo de las exposiciones orales.\n\nPráctica deliberada: Repetición con retroalimentación.\n\nCoevaluación: Los compañeros evalúan usando criterios establecidos.\n\nModelado docente: El docente muestra cómo mejorar aspectos no verbales.",
+      "aprendizaje_significativo": "Los estudiantes ensayan en un ambiente seguro y de apoyo, preparándose para la tertulia real y desarrollando confianza en sus habilidades comunicativas.\n\n",
+      "actividades_complementarias": "Para estudiantes con ansiedad escénica: Se les permite exponer en grupos más pequeños o solo frente al docente.\n\nPara estudiantes con dificultades de expresión oral: Se les permite usar tarjetas con palabras clave.\n\nPara estudiantes kinestésicos: Se les anima a usar gestos y moverse mientras hablan.\n\nPara estudiantes con discapacidad visual: Se asegura que el espacio esté libre de obstáculos.",
+      "actividades_cuaderno": "Anotar la retroalimentación recibida y los aspectos que deben mejorar para la presentación final.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con criterios",
+          "descripcion": "1. El docente explica que hoy harán el ensayo general.\n2. Recuerda los criterios de evaluación (pág. 138):\n- Caracterizar sucesos y personajes usando presente/pasado del indicativo, adjetivación y conectores.\n- Emplear entonación y vocabulario adecuados.\n- Resumir el texto presentando solo hechos importantes.\n- Mostrar interés y entusiasmo a través de la expresión gestual y corporal.",
+          "actividad_numero": "Producción oral (Párrafo final, pág. 138)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cronómetro\n• Cuadernos para tomar notas",
+          "descripcion": "1. Los estudiantes se turnan para presentar su informe de lectura frente al grupo.\n2. El docente asigna un tiempo máximo de 8 minutos por presentación (pág. 138).\n3. Mientras uno expone, los demás estudiantes:\n- Escuchan atentamente.\n- Toman notas para formular preguntas después.\n- Observan aspectos no verbales (contacto visual, postura, gestos).\n4. Después de cada exposición, se abre un breve espacio para:\n- Preguntas del público.\n- Retroalimentación del docente y compañeros (fortalezas y aspectos a mejorar).",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 138)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente destaca los logros del grupo.\n2. Recuerda los preparativos finales para la tertulia (vestuario, orden de presentación, etc.).\n3. Motiva a los estudiantes para el gran día.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771203499496",
+      "sequence_id": "seq-1771196781393",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Tertulia Literaria",
+      "intencion_pedagogica": "Celebrar la tertulia literaria donde los estudiantes presentan oralmente sus informes de lectura, demostrando sus habilidades comunicativas y su comprensión de los textos leídos.\n\n",
+      "estrategia": "Evento real: Celebración de la tertulia literaria.\n\nEvaluación auténtica: Los estudiantes demuestran sus habilidades en un contexto real.\n\nParticipación activa: El público (compañeros) formula preguntas.\n\nClima de disfrute: Se fomenta un ambiente de respeto y celebración.",
+      "aprendizaje_significativo": "Los estudiantes viven la experiencia real de compartir sus lecturas en un evento social (tertulia), desarrollando habilidades comunicativas y de interacción social en un contexto auténtico.\n\n",
+      "actividades_complementarias": "Para estudiantes con ansiedad escénica: Se les asegura que todos están ahí para aprender y disfrutar.\n\nPara estudiantes con dificultades de expresión oral: Se les permite tener tarjetas con palabras clave.\n\nPara estudiantes con discapacidad auditiva: Se les sienta cerca del frente y se les proporcionan las preguntas por escrito.\n\nPara estudiantes kinestésicos: Se les anima a usar gestos y moverse mientras hablan.",
+      "actividades_cuaderno": "Escribir una breve reflexión sobre cómo se sintieron al participar en la tertulia y qué aprendieron de las presentaciones de sus compañeros.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Espacio preparado (sillas en círculo o semicírculo)",
+          "descripcion": "1. El docente (o un estudiante designado) da la bienvenida y explica el propósito de la tertulia.\n2. Recuerda las normas de respeto: escuchar atentamente, no interrumpir, aplaudir al final.\n3. Anuncia el orden de las presentaciones.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 134)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cronómetro\n• Lista de cotejo para evaluación docente",
+          "descripcion": "1. Cada estudiante (en el orden establecido) presenta su informe de lectura.\n2. El docente controla el tiempo (máximo 8 minutos por presentación).\n3. Después de cada presentación, se abre un espacio para preguntas del público (compañeros).\n4. El docente observa y toma notas para la evaluación, utilizando los criterios de la página 138.\n5. Se mantiene un clima de respeto y apoyo mutuo.",
+          "actividad_numero": "Producción oral (Párrafo 1, pág. 134)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente felicita a todos los participantes por su esfuerzo y dedicación.\n2. Destaca algunos aspectos positivos observados (buena entonación, gestos, contenido interesante, etc.).\n3. Anuncia que ahora comenzarán la fase de producción escrita para publicar el libro con todos los informes.",
+          "actividad_numero": "Producción oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771203681650",
+      "sequence_id": "seq-1771196781393",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Producción Escrita y Edición del Libro",
+      "intencion_pedagogica": "Adaptar el informe de lectura oral a un texto escrito para su publicación en el libro colectivo, aplicar procesos de revisión y tomar decisiones sobre la edición del libro.",
+      "estrategia": "Taller de escritura: Adaptación del informe oral a texto escrito.\n\nProceso de revisión: Múltiples borradores con retroalimentación.\n\nTrabajo colaborativo: Decisiones grupales sobre la edición del libro.\n\nUso de instrumentos de evaluación: Listas de cotejo para autoevaluación y coevaluación.\n\nPublicación: Creación de un libro colectivo.",
+      "aprendizaje_significativo": "Los estudiantes ven su trabajo publicado en un libro real que estará disponible en la biblioteca de la escuela, lo que da un propósito auténtico a su escritura y genera orgullo por su trabajo.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite escribir en computadora o dictar a un compañero.\n\nPara estudiantes con dificultades de organización: Se les proporciona una plantilla con la estructura del informe.\n\nPara estudiantes visuales: Se les anima a crear ilustraciones detalladas para acompañar su texto.\n\nPara estudiantes avanzados: Se les pide que escriban una breve biografía del autor del cuento que leyeron para incluir en el libro.\n\nPara estudiantes con discapacidad motriz: Se adaptan los materiales (hojas con renglones más separados, uso de computadora).",
+      "actividades_cuaderno": "Pasar en limpio la versión final del informe de lectura, incluyendo las ilustraciones, para su publicación en el libro colectivo.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Consigna en la pizarra\n• Preguntas de revisión (pág. 105)",
+          "descripcion": "1. El docente presenta la consigna (pág. 139): publicarán un libro con todos los informes de lectura para niños de tercer grado.\n2. Explica que deben adaptar su exposición oral a un texto escrito (pág. 104-105).\n3. Entrega las preguntas de revisión (pág. 105):\n- \"¿Tiene mi borrador toda la información que quería exponer?\"\n- \"¿Qué cosas quiero arreglar?\"\n- \"¿Me sirve la introducción para un público que leerá?\"\n- \"¿Cómo voy a organizar la información en párrafos?\"",
+          "actividad_numero": "Producción escrita (Párrafo 1, pág. 139)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Lista de cotejo fotocopiada (Anexo 2)",
+          "descripcion": "1. Los estudiantes escriben el primer borrador de su informe escrito, basándose en su exposición oral y las notas que tienen.\n2. El docente recuerda los criterios de la Lista de cotejo para valorar el informe de lectura (Anexo 2, pág. 144) :\n- 1. ¿En el resumen incluí solo hechos principales?\n- 2. ¿Los hechos están relacionados entre sí?\n- 3. ¿Usé adecuadamente los tiempos en pasado?\n- 4. ¿Usé marcadores de orden?\n- 5. ¿Caractericé el hecho principal y dije por qué lo era?\n- 6. ¿Caractericé a los personajes?\n- 7. ¿Usé presente y adjetivos para caracterizar?\n- 8. ¿Tiene introducción que presenta la narración y su autor?\n- 9. ¿Tiene conclusión?\n- 10. ¿Usé conectores causales, de finalidad y de orden?\n3. Revisión en grupos (pág. 141): En grupos de 5-6 estudiantes, revisan los borradores usando la lista de cotejo.\n4. El docente acompaña y resuelve dudas.",
+          "actividad_numero": "Producción escrita Anexo 2 (pág. 144) Revisión en grupos (pág. 141)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papel para dibujar\n• Lápices de colores",
+          "descripcion": "1. El docente guía a los estudiantes para decidir sobre la edición del libro (pág. 141-142):\n- Portada y contraportada: ¿qué imágenes, dibujos o ilustraciones tendrán?\n- Tipo de letra.\n- Propósito del libro y público (niños de 3er grado).\n- ¿Qué les gusta a los niños de 3er grado?\n2. Se toman decisiones por votación.\n3. Los estudiantes comienzan a dibujar las ilustraciones para acompañar su informe.\n4. El docente anuncia que en las próximas clases terminarán la edición y harán la entrega oficial a la biblioteca.",
+          "actividad_numero": "Producción escrita (Párrafos 1-3, pág. 141-142)"
+        }
+      ]
+    }
+  ]
+}

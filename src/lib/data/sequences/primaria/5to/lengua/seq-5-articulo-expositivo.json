@@ -1,0 +1,243 @@
+{
+  "id": "seq-1771353679112",
+  "title": "Artículo expositivo",
+  "description": "Lectura y escritura para explicar información de manera organizada y objetiva.",
+  "order": 5,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771356058475",
+      "sequence_id": "seq-1771353679112",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión Oral (Texto \"Respirar para vivir\")",
+      "intencion_pedagogica": "Desarrollar la comprensión oral de un artículo expositivo estructurado en forma de secuencia, identificando el proceso de respiración y el vocabulario específico.\n\n",
+      "estrategia": "Uso de material visual: Imagen del aparato respiratorio.\n\nLectura en voz alta (modelado): El docente lee con entonación adecuada.\n\nToma de apuntes: Los estudiantes registran información clave.\n\nSeñalamiento visual: El docente señala partes del diagrama mientras lee.\n\nPreguntas de comprensión: Literales e inferenciales.",
+      "aprendizaje_significativo": "Se trabaja con un texto sobre el sistema respiratorio, conectando el área de Lengua Española con Ciencias de la Naturaleza, lo que permite a los estudiantes comprender la utilidad del artículo expositivo para aprender sobre temas científicos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de seguir el diagrama mientras el docente lee.\n\nPara estudiantes kinestésicos: Se les invita a señalar en su propio cuerpo las partes del sistema respiratorio.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona el texto por escrito y el diagrama.\n\nPara estudiantes avanzados: Se les pide que investiguen una curiosidad sobre el sistema respiratorio.",
+      "actividades_cuaderno": "Dibujar un diagrama simple del aparato respiratorio y escribir los nombres de sus partes. Escribir un párrafo explicando el proceso de respiración.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imagen del aparato respiratorio\n• Cuadernos",
+          "descripcion": "1. El docente tiene en el aula la imagen del aparato respiratorio (pág. 44).\n2. Anuncia que los estudiantes escucharán el texto \"Respirar para vivir\" y deben prestar suma atención.\n3. Pide que tengan su cuaderno abierto para tomar apuntes.",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 44)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto \"Respirar para vivir\" (pág. 44)\n• Diagrama del aparato respiratorio\n• Pizarra",
+          "descripcion": "1. El docente lee en voz alta el texto \"Respirar para vivir\" (pág. 44) .\n2. Mientras lee, señala con el dedo o un puntero cada parte en el diagrama del aparato respiratorio.\n3. Los estudiantes toman apuntes.\n4. Después de la lectura, los estudiantes responden las preguntas (pág. 45):\n- \"¿Cuál es el significado contextual de las palabras: incorporar, inhalar, vellosidades, ramificaciones, desechando, exhalación, intercambio gaseoso, imprescindible?\" (1) (sin diccionario, usando el contexto)\n- \"¿Cuál es el propósito del texto que acabas de escuchar?\" (2)\n- \"Cuando el aire entra a nuestro cuerpo está compuesto por dos elementos, ¿cuáles son?\" (3)\n- \"Explica la importancia de cada uno de estos elementos en el proceso de respiración: los pulmones, la sangre, el diafragma, los vellos de la nariz.\" (4)\n- \"Según el texto, ¿cómo se lleva a cabo el proceso de respiración?\" (5)",
+          "actividad_numero": "Comprensión oral Preguntas 1-5 (pág. 45)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas.\n2. El docente aprovecha los aciertos y desaciertos para que los estudiantes aprendan.",
+          "actividad_numero": "Comprensión oral (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771356138989",
+      "sequence_id": "seq-1771353679112",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Gramática del Texto (Análisis estructural)",
+      "intencion_pedagogica": "Analizar la estructura del artículo expositivo (introducción, desarrollo, conclusión) y las marcas lingüísticas que organizan la información en forma de secuencia.\n\n",
+      "estrategia": "Uso de papelógrafo: Transcripción del texto para análisis colectivo.\n\nTrabajo individual y grupal: Para resolver consignas de análisis.\n\nPlenaria: Socialización de respuestas y construcción colectiva.\n\nIdentificación de marcas textuales: Introducción, desarrollo, conclusión, conectores.",
+      "aprendizaje_significativo": "Se analiza la estructura del artículo expositivo, identificando cómo se organiza la información para explicar un proceso, lo que será útil para comprender textos de otras áreas del currículo.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de abstracción: Se les proporcionan tarjetas con las partes del texto para que las ordenen físicamente.\n\nPara estudiantes visuales: Se utilizan colores diferentes para marcar introducción, desarrollo y conclusión en el papelógrafo.\n\nPara estudiantes kinestésicos: Se les invita a representar el proceso de respiración mientras se señalan las partes.\n\nPara estudiantes avanzados: Se les pide que busquen otro ejemplo de artículo expositivo en un libro de texto.",
+      "actividades_cuaderno": "Copiar el cuadro de características del artículo expositivo y los aspectos gramaticales. Identificar en el texto \"Respirar para vivir\" un ejemplo de cada tipo de conector mencionado.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con el texto",
+          "descripcion": "1. El docente coloca en un papelógrafo el texto \"Respirar para vivir\" (pág. 44).",
+          "actividad_numero": "Gramática del texto (Párrafo 1, pág. 45)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Papelógrafo con el texto\n• Cuadernos\n• Pizarra",
+          "descripcion": "1. Consigna 1: Identifican la introducción, desarrollo y conclusión, y hacen una lista de las marcas que les permitieron identificar cada parte.\n2. Consigna 2: Hacen una lista de las expresiones que permiten dar cuenta de la organización secuencial o procesual.\n3. Consigna 3: Identifican el tiempo verbal predominante y explican por qué se usa ese tiempo.\n4. Consigna 4: Identifican las descripciones que emplea el autor y explican por qué son necesarias.\n5. Los estudiantes trabajan individualmente o en parejas.\n6. Se socializan las respuestas con las consideraciones de la guía (págs. 46-47):\n- Introducción: preguntas para motivar y anunciar el tema, verbo \"veamos\".\n- Conclusión: último párrafo.\n- Marcas de secuencia: verbos de actividad, construcciones \"al + infinitivo\", gerundios.\n- Tiempo verbal: presente (por el carácter cíclico del proceso).\n- Descripciones: ubicación de las partes, características y funciones.",
+          "actividad_numero": "Gramática del texto Consignas 1-4 (pág. 45)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente presenta las características del artículo expositivo (pág. 47):\n- Maneras de organización: descripción, comparación, causa-consecuencia, problema-solución, secuencia.\n- En \"Respirar para vivir\": organización en forma de secuencia.\n- Aspectos gramaticales: predominio de presente y futuro de indicativo, conectores lógicos (orden, temporales, explicación), uso de adjetivos.",
+          "actividad_numero": "Gramática del texto Síntesis (pág. 47)"
+        }
+      ]
+    },
+    {
+      "id": "1771356207353",
+      "sequence_id": "seq-1771353679112",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión Escrita (Pre-lectura y Durante la lectura)",
+      "intencion_pedagogica": "Realizar la pre-lectura y la lectura compartida del texto \"Metamorfosis de la rana\", formulando hipótesis y verificándolas durante la lectura.\n\n",
+      "estrategia": "Uso de imágenes: Foto de una rana para activar conocimientos previos.\n\nDiálogo dirigido: Preguntas de exploración sobre las ranas.\n\nLectura compartida: Estudiantes leen en voz alta alternándose.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión.",
+      "aprendizaje_significativo": "Se trabaja con un texto sobre la metamorfosis de la rana, conectando nuevamente con Ciencias de la Naturaleza y mostrando cómo los artículos expositivos explican procesos biológicos fascinantes.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades lectoras: Se les asignan párrafos más cortos.\n\nPara estudiantes visuales: Se muestran imágenes de las etapas de la metamorfosis.\n\nPara estudiantes kinestésicos: Se les invita a representar las etapas con movimientos.\n\nPara estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.",
+      "actividades_cuaderno": "Dibujar las etapas de la metamorfosis de la rana (huevos, renacuajo, renacuajo con patas, rana adulta) y escribir una breve descripción de cada una.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Imagen de una rana\n• Pizarra",
+          "descripcion": "1. El docente lleva la imagen de una rana (pág. 48).\n2. Formula preguntas:\n- \"¿Qué sientes cuando ves una rana? ¿Por qué?\"\n- \"¿Qué sabemos de la rana?\"\n- \"¿Dónde vive? ¿De qué se alimenta? ¿Cómo se reproduce?\"\n3. Introduce el texto: van a leer un artículo para informarse sobre un aspecto puntual de las ranas.\n4. Explica que la lectura será en voz alta y compartida.",
+          "actividad_numero": "Comprensión escrita Pre-lectura (pág. 48)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del texto \"Metamorfosis de la rana\" (pág. 48)\n• Pizarra",
+          "descripcion": "1. Se entrega una copia del texto \"Metamorfosis de la rana\" (pág. 48) a cada estudiante.\n2. Se eligen voluntarios para leer cada párrafo.\n3. Párrafo 1: Después de leer, preguntas: \"¿Qué es la metamorfosis? ¿Qué es un renacuajo? ¿Un sinónimo de fase? ¿Por qué este párrafo es introductorio?\"\n4. Párrafo 2: Después de leer, preguntas: \"¿Cuál de las fases se presenta en este párrafo? ¿Qué significa 'fecundados'?\"\n5. Párrafo 3: Después de leer, preguntas: \"¿Qué idea nueva se presenta? ¿Cómo se relaciona con el anterior?\"\n6. Párrafo 4: Después de leer, preguntas: \"¿Qué proceso se explica aquí? Enumeren las etapas del desarrollo vistas hasta ahora.\"\n7. Párrafo 5: Después de leer, preguntas: \"¿Qué información nueva se presenta?\"\n8. Párrafo 6: Después de leer, preguntas: \"¿Cuál es la función de este párrafo? ¿Cómo se relaciona con los anteriores?\"",
+          "actividad_numero": "Comprensión escrita Durante la lectura (págs. 48-49)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se retoman las ideas exploradas al inicio.\n2. Se identifican cuáles se relacionan con el texto leído.\n3. El docente anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771356294324",
+      "sequence_id": "seq-1771353679112",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Post-lectura",
+      "intencion_pedagogica": "Consolidar la comprensión del texto \"Metamorfosis de la rana\" a través de actividades de post-lectura que incluyen vocabulario, ordenamiento secuencial y resumen.\n\n",
+      "estrategia": "Trabajo individual con el texto: Para resolver actividades de comprensión.\n\nUso de contexto: Para deducir significados.\n\nOrdenamiento secuencial: Numeración de etapas del proceso.\n\nResumen: Aplicación de estrategias de síntesis.",
+      "aprendizaje_significativo": "Se consolida la comprensión del proceso de metamorfosis, permitiendo a los estudiantes apreciar la complejidad y belleza de los procesos naturales y la utilidad de los textos expositivos para explicarlos.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les permite trabajar las actividades en pareja.\n\nPara estudiantes con dificultades de escritura: Se les permite dictar su resumen.\n\nPara estudiantes kinestésicos: Se les invita a crear una secuencia de imágenes de las etapas.\n\nPara estudiantes avanzados: Se les pide que investiguen otro animal que sufra metamorfosis.",
+      "actividades_cuaderno": "Completar las actividades que no se terminaron en clase. Pasar en limpio el resumen del texto.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Copia del texto (pág. 48)",
+          "descripcion": "1. Se recuerda brevemente el texto sobre la metamorfosis de la rana.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos",
+          "descripcion": "1. Actividad 1: Explican el significado de \"anfibio\" según el contexto.\n2. Actividad 2: Explican el significado de \"eclosionar\".\n3. Actividad 3: Describen las diferencias entre un renacuajo y una rana adulta.\n4. Actividad 4: Colocan números 1, 2 o 3 según el orden en que ocurren los procesos.\n5. Actividad 5: Completan un cuadro poniendo un título de tres palabras a cada etapa.\n6. Actividad 6: Resumen el texto en no más de seis líneas (pág. 51).\n7. Actividad 7: Encierran en un óvalo la introducción, entre corchetes el desarrollo y ponen una X al lado de la conclusión.\n8. Actividad 8: Anotan las marcas que les permitieron identificar introducción y conclusión.",
+          "actividad_numero": "Comprensión escrita Actividades 1-8 (págs. 50-51)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas, especialmente la actividad 8 (marcas de introducción y conclusión).\n2. El docente ayuda a identificar las pistas lingüístico-discursivas (definición, tesis, invitación al lector).",
+          "actividad_numero": "Comprensión escrita (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771356368343",
+      "sequence_id": "seq-1771353679112",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": " Identificación de Marcas de Secuencia",
+      "intencion_pedagogica": "Identificar las marcas lingüísticas que organizan la información en forma de secuencia en el texto \"Metamorfosis de la rana\" y en otros textos de libros escolares.\n\n",
+      "estrategia": "Trabajo individual con el texto: Para identificar marcas lingüísticas.\n\nUso de cuadros: Organización de la información.\n\nSocialización: Puesta en común de hallazgos.\n\nConexión con otras áreas: Búsqueda de artículos expositivos en libros de texto.",
+      "aprendizaje_significativo": "Se profundiza en las marcas lingüísticas que organizan la información secuencial, lo que permitirá a los estudiantes reconocer esta estructura en textos de matemáticas, ciencias sociales y naturales, facilitando su comprensión lectora en todas las áreas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de identificar marcas en un solo párrafo.\n\nPara estudiantes visuales: Se utiliza un organizador gráfico con colores para cada tipo de marca.\n\nPara estudiantes kinestésicos: Se les invita a crear tarjetas con las marcas y ordenarlas.\n\nPara estudiantes avanzados: Se les pide que expliquen por qué cada marca es importante para la comprensión.",
+      "actividades_cuaderno": "Copiar el cuadro de marcas lingüísticas del texto \"Metamorfosis de la rana\". Buscar un ejemplo en un libro de texto y copiar las marcas de secuencia que encuentre.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente explica que en el modo secuencia la información se explica en orden temporal (pág. 51).\n2. Presenta los marcadores de orden o tiempo, verbos de actividad y construcción \"al + infinitivo\".\n3. Muestra ejemplos del texto \"Respirar para vivir\".",
+          "actividad_numero": "Gramática del texto (Párrafo 1, pág. 51)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Texto \"Metamorfosis de la rana\"\n• Libros de texto de matemática, sociales, naturales\n• Cuadernos\n• Pizarra",
+          "descripcion": "1. Los estudiantes, con el texto \"Metamorfosis de la rana\" a la vista, completan un cuadro (pág. 51) con las marcas lingüísticas de cada párrafo.\n2. Se socializan las respuestas, asegurando que identifiquen marcas como:\n- Párrafo 1: \"a través de varias fases\", \"sigue leyendo\"\n- Párrafo 2: \"al llegar a\", \"luego\"\n- Párrafo 3: \"al eclosionar\", \"al alcanzar\"\n- Párrafo 4: \"empieza con\", \"seguido de\"\n- Párrafo 5: \"al final\"\n- Párrafo 6: \"como ves\", \"como se dijo anteriormente\"\n3. Actividad complementaria (pág. 52):\n- Buscan ejemplos de artículos expositivos en libros de texto de matemática, sociales o naturales.\n- Identifican las marcas verbales o lingüísticas que organizan la información de manera secuencial.\n- Copian en la pizarra estas marcas.",
+          "actividad_numero": "Gramática del texto Cuadro (pág. 51) Actividad complementaria (pág. 52)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente realiza una síntesis de las características del artículo expositivo.\n2. Los estudiantes anotan en su cuaderno las marcas de secuencia identificadas.",
+          "actividad_numero": "Gramática del texto Síntesis (pág. 52)"
+        }
+      ]
+    },
+    {
+      "id": "1771356453321",
+      "sequence_id": "seq-1771353679112",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción Oral y Escrita",
+      "intencion_pedagogica": "Preparar y presentar oralmente un artículo expositivo estructurado en forma de secuencia, e iniciar el proceso de producción escrita para publicar en el mural de 4to grado.\n\n",
+      "estrategia": "Aprendizaje basado en proyectos: Preparación de una exposición oral.\n\nTrabajo individual y grupal: Planificación, investigación y práctica.\n\nUso de esquemas: Organizador gráfico para la exposición.\n\nTaller de escritura: Producción de un artículo escrito.\n\nRevisión con lista de cotejo: Autoevaluación y coevaluación.",
+      "aprendizaje_significativo": "Los estudiantes se convierten en \"expertos\" que explican un proceso a sus compañeros, aplicando lo aprendido en un contexto real de comunicación y ayudando a otros a aprender.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de investigación: Se les proporcionan materiales impresos con información.\n\nPara estudiantes con dificultades de expresión oral: Se les permite usar tarjetas con palabras clave durante la exposición.\n\nPara estudiantes kinestésicos: Se les anima a incluir gestos y movimientos en su exposición.\n\nPara estudiantes avanzados: Se les pide que incluyan más de tres conectores diferentes en su exposición.",
+      "actividades_cuaderno": "Completar el esquema de planificación para la exposición oral. Escribir el primer borrador del artículo expositivo.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con temas",
+          "descripcion": "1. El docente explica que los estudiantes expondrán oralmente un artículo expositivo en forma de secuencia (pág. 53).\n2. Temas sugeridos: pasos para resolver un problema matemático, proceso de un experimento, proceso vital de un ser vivo, etapas de un hecho histórico.\n3. Los estudiantes eligen su tema.",
+          "actividad_numero": "Producción oral Consigna (pág. 53)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Esquema en la pizarra",
+          "descripcion": "1. Los estudiantes piensan en su tema y lo anotan en el cuaderno (5-10 minutos).\n2. Se dividen en grupos para compartir sus ideas (10-15 minutos).\n3. Plenaria para asegurar que la orientación es secuencial.\n4. El docente asigna tarea (pág. 53-54):\n- Investigar sobre el tema.\n- Hacer una lista de ideas.\n- Llenar el esquema: Introducción, Desarrollo (con marcadores de orden), Conclusión.\n- Redactar un borrador.\n- Revisar con preguntas guía.\n- Ensayar.\n5. El docente explica que la exposición se hará en sesiones posteriores.\n\nProducción escrita (pág. 55-56):\n1. El docente presenta la consigna de producción escrita: escribir un artículo para estudiantes de 4to grado, que se publicará en su mural.\n2. Los estudiantes seguirán un proceso similar: investigación, lista de ideas, esquema, borrador, revisión.\n3. Se entrega el esquema de planificación (pág. 55): Introducción, Desarrollo (con marcadores), Conclusión.",
+          "actividad_numero": "Producción oral (Págs. 53-54) Producción escrita Consigna (pág. 55)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente recuerda los pasos a seguir para la exposición oral y la producción escrita.\n2. Se resuelven dudas.\n3. Se anuncia que en las próximas clases se realizarán las exposiciones y se revisarán los borradores.",
+          "actividad_numero": "Producción oral y escrita (Cierre)"
+        }
+      ]
+    }
+  ]
+}

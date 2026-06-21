@@ -1,0 +1,165 @@
+{
+  "id": "seq-1771352585737",
+  "title": "La conversación",
+  "description": "Desarrolla habilidades de comunicación oral, escucha activa y normas básicas para conversar correctamente.",
+  "order": 1,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771352585727",
+      "sequence_id": "seq-1771352585737",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Exploración y Pre-escucha",
+      "intencion_pedagogica": "Activar conocimientos previos sobre la conversación a través de la lectura libre y preparar a los estudiantes para la comprensión oral de una conversación formal mediante un video.\n\n",
+      "estrategia": "Organización del espacio: Disposición del aula o visita a la biblioteca para crear ambiente de lectura.\n\nLectura libre: Los estudiantes eligen materiales de su interés.\n\nDiálogo dirigido: Preguntas generadoras para activar conocimientos previos sobre la conversación.\n\nUso de material audiovisual: Proyección de video sobre una conversación formal.",
+      "aprendizaje_significativo": "Se parte de la experiencia de lectura libre de los estudiantes para generar una conversación espontánea, conectando así el contenido académico con sus intereses personales y su vida cotidiana.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de lectura: Se les permite hojear materiales con muchas imágenes y leer fragmentos cortos.\n\nPara estudiantes con dificultades de expresión oral: Se les permite dibujar lo que leyeron y mostrarlo al grupo mientras explican brevemente.\n\nPara estudiantes kinestésicos: Se les anima a moverse y elegir libremente sus materiales de lectura.\n\nPara estudiantes con discapacidad auditiva: Se les proporciona la transcripción del video o se les sienta cerca del frente.\n\nPara estudiantes avanzados: Se les pide que identifiquen otros elementos de la conversación no mencionados en las preguntas.",
+      "actividades_cuaderno": "Anotar las respuestas a las preguntas a-d de la página 8-9. Escribir una breve reflexión sobre cómo fue su experiencia de lectura libre.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Materiales variados de lectura (cuentos, revistas, periódicos, libros)\n• Pizarra",
+          "descripcion": "1. El docente lleva a los estudiantes a la biblioteca de la escuela o, si no hay, lleva al aula variados materiales de lectura: cuentos, revistas, periódicos, libros acordes a su edad (pág. 8).\n2. Solicita que lean lo que deseen durante 15 minutos.\n3. Pasado ese tiempo, promueve una conversación con la pregunta: \"¿Quién desea conversar sobre lo que ha leído?\"\n4. Después de 10 minutos de intercambio, pregunta: \"¿Qué acción estábamos haciendo?\" (para que surja \"conversando\").\n5. Luego cuestiona: \"¿Saben quiénes eran los interlocutores? ¿Quién inició la conversación? ¿De qué hablábamos? ¿Cómo terminó? ¿Cómo creen que se desarrolló nuestra conversación? ¿Bien, mal? ¿Por qué?\"",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 8)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• https://www.youtube.com/watch?v=oNZknDaULf0).\n• Video de la conversación\n• Proyector o dispositivo para video",
+          "descripcion": "1. El docente prepara el escenario para que los estudiantes se sientan cómodos (pág. 8).\n2. Invita a los estudiantes a ver un video (disponible en: https://www.youtube.com/watch?v=oNZknDaULf0).\n3. Informa que deben prestar atención porque luego participarán en actividades.\n4. Sugiere comenzar en 0:9 segundos para hacerlo más interesante.\n5. Si lo desea, hace algunas pausas durante la proyección para formular preguntas de comprensión.",
+          "actividad_numero": "Comprensión oral (Párrafo 3, pág. 8)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra",
+          "descripcion": "1. El docente incentiva una conversación espontánea sobre lo observado en el video.\n2. Formula preguntas iniciales de exploración (pág. 8-9):\n- \"Por lo que se puede ver en el video, ¿dónde se desarrolla?\" (a. En una oficina)\n- \"¿Quiénes participaron en la conversación?\" (b. El señor Tyson y Javier. Si dicen Walter, aclarar que no tuvo participación directa)\n- \"¿La conversación fue formal o informal? Explique.\" (c. Fue formal)\n- \"De acuerdo con lo que notaste, ¿cómo crees que era la relación entre los interlocutores? Justifica.\" (d. Relación con distancia, de jefe y empleado)",
+          "actividad_numero": "Comprensión oral Preguntas a-d (págs. 8-9)"
+        }
+      ]
+    },
+    {
+      "id": "1771354091659",
+      "sequence_id": "seq-1771352585737",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Análisis de la Conversación (Post-escucha)",
+      "intencion_pedagogica": "Analizar en profundidad la conversación del video, identificando los actos de habla y los elementos paralingüísticos (no verbales) que facilitan la comprensión del mensaje.\n\n",
+      "estrategia": "Reproducción de video (segunda vez): Para profundizar en el análisis.\n\nPreguntas de comprensión: Literales e inferenciales para guiar el análisis.\n\nIdentificación de actos de habla: Los estudiantes reconocen acciones como preguntar, responder, saludar, etc.\n\nAnálisis de elementos no verbales: Identificación de gestos, miradas, posturas y su significado.",
+      "aprendizaje_significativo": "Se analiza una conversación real de la vida laboral, permitiendo a los estudiantes comprender que la comunicación va más allá de las palabras y que los gestos y el tono de voz transmiten mensajes importantes.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de observar y anotar solo los gestos de un personaje específico.\n\nPara estudiantes kinestésicos: Se les invita a representar los gestos y posturas identificados en el análisis.\n\nPara estudiantes con discapacidad visual: Se les proporciona la transcripción y se describen detalladamente los gestos y tonos de voz.\n\nPara estudiantes avanzados: Se les pide que investiguen otros elementos paralingüísticos (pausas, silencios, etc.).",
+      "actividades_cuaderno": "Copiar la lista de elementos no verbales identificados y su significado. Escribir un ejemplo de una situación cotidiana donde hayan comprendido un mensaje sin palabras.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Video de la conversación",
+          "descripcion": "1. El docente vuelve a colocar el video de la conversación (pág. 9).\n2. Pide a los estudiantes que presten especial atención a los detalles.",
+          "actividad_numero": "Comprensión oral (Párrafo 1, pág. 9)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Video de la conversación\n• Cuadernos\n• Pizarra",
+          "descripcion": "1. Actividad 1 (pág. 9): Identifican los actos de habla en cada parte de la segunda conversación.\n2. Actividad 2 (pág. 10): Explican qué acciones no verbales les ayudaron a comprender el mensaje:\n- \"La sonrisa de Javier cuando el señor Tyson le dijo que él había hecho muy buen trabajo, dio a entender que:\" (a. estaba contento)\n- \"Cuando el señor Tyson le hizo la propuesta en la primera conversación, le miró a la cara en señal de que:\" (b. esperaba una respuesta)\n- \"El señor Walter, que estaba parado en la puerta de salida, lanzó una mirada a Javier en la primera conversación como indicando:\" (c. es un gran reto o compromiso)\n- \"Cuando Javier le pregunta al señor Tyson: ¿Hay 17 cajas y quiere que reporte 16? El tono de voz que utilizó indicaba:\" (d. sorpresa, decepción)\n- \"El silencio de Javier, cuando el señor Tyson le hizo la propuesta de que reportara solo 16 cajas indica que:\" (e. no estaba de acuerdo)\n- \"Cuando el señor Tyson dice a Javier: ¿Entiende lo que puede pasar con su trabajo? Javier miró hacia abajo en un tono de:\" (f. tristeza, preocupación)\n- \"Al estrechar la mano de Javier, el señor Tyson lo hizo en señal de:\" (g. satisfacción y para sellar un compromiso)\n- \"El toque en la espalda que dio Walter a Javier en la primera conversación, lo hizo para:\" (h. dar ánimo)\n- \"La sonrisa que manifestó Javier al salir de la oficina, en la segunda conversación, indicaba:\" (i. alegría)\n3. El docente promueve la reflexión sobre situaciones cotidianas donde se comprende mensajes sin palabras (alguien llorando, alguien enojado, etc.) para desarrollar el pensamiento crítico (pág. 11).",
+          "actividad_numero": "Comprensión oral Actividad 1 (pág. 9) Actividad 2 (pág. 10)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Transcripción de la conversación (pág. 15-16)\n• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas.\n2. El docente refuerza la importancia de los elementos no verbales en la comunicación.\n3. Si el centro no tiene recursos tecnológicos, el docente puede usar la transcripción del anexo (pág. 15-16) y preparar una dramatización con estudiantes seleccionados (pág. 11).",
+          "actividad_numero": "Comprensión oral (Párrafo final, pág. 11)"
+        }
+      ]
+    },
+    {
+      "id": "1771354178998",
+      "sequence_id": "seq-1771352585737",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Gramática Textual",
+      "intencion_pedagogica": "Sistematizar los conocimientos sobre la estructura de la conversación (saludo, desarrollo, cierre) y los elementos paralingüísticos (tono, gestos, pausas, silencios) que la caracterizan.\n\n",
+      "estrategia": "Clase expositiva dialogada: Para presentar los conceptos gramaticales sobre la conversación.\n\nUso de recursos digitales: Consulta en línea para profundizar (opcional).\n\nAnálisis de texto modelo: Se retoma la transcripción de la conversación del video.\n\nIdentificación de elementos: Los estudiantes identifican estructura y elementos paralingüísticos en el texto.",
+      "aprendizaje_significativo": "Se sistematizan los conocimientos sobre la conversación como una práctica social regida por normas y compuesta por elementos verbales y no verbales que los estudiantes utilizan a diario sin ser plenamente conscientes.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de abstracción: Se utilizan ejemplos concretos y dramatizaciones breves.\n\nPara estudiantes kinestésicos: Se les invita a representar diferentes tonos de voz y gestos.\n\nPara estudiantes visuales: Se crea un organizador gráfico con la estructura y los elementos paralingüísticos.\n\nPara estudiantes avanzados: Se les pide que investiguen más sobre elementos paralingüísticos y compartan sus hallazgos.",
+      "actividades_cuaderno": "Copiar el esquema de la estructura de la conversación (saludo/apertura, desarrollo, cierre) y la lista de elementos paralingüísticos con un ejemplo de cada uno.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Transcripción de la conversación (pág. 15-16)\n• Pizarra",
+          "descripcion": "1. El docente presenta el concepto de conversación (pág. 11): comunicación entre dos o más personas en un periodo de tiempo determinado.\n2. Explica la estructura (pág. 11):\n- Saludo o apertura: Inicio de la conversación e introducción del tema (saludo, comentario, llamada de atención).\n- Desarrollo: Intercambio de información u opiniones. Los temas pueden variar si los hablantes están de acuerdo.\n- Cierre o despedida: Parte donde se cierra el tema y se da por finalizada la conversación.\n3. Invita a los estudiantes a identificar estas partes en la transcripción de la conversación del video (pág. 15-16).",
+          "actividad_numero": "Gramática textual (Párrafos 1-3, pág. 11)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Transcripción de la conversación\n• Video de la conversación\n• Pizarra",
+          "descripcion": "1. El docente introduce el concepto de elementos paralingüísticos (pág. 12): elementos vocales no lingüísticos que matizan el sentido de los enunciados verbales.\n2. Explica los tipos:\n- Cualidades y modificadores fónicos: tono, timbre, cantidad, intensidad (indican sexo, edad, estado físico o anímico).\n- Indicadores sonoros de reacciones fisiológicas y emocionales: llanto, risa, suspiro, grito, carraspeo, bostezo.\n- Elementos cuasi-léxicos: interjecciones, onomatopeyas, sonidos como \"Hm\" de asentimiento.\n- Pausas y silencios: la ausencia de sonido también comunica.\n3. Los estudiantes identifican ejemplos de estos elementos en la transcripción y en el video.\n4. El docente presenta las normas para una conversación eficaz (pág. 12):\n- Tono de voz adecuado.\n- Mirar a los ojos.\n- Autorregulación (cuidar qué se dice, cómo, cuándo y a quién).\n- Respeto por los turnos.\n- Lenguaje decente y respetuoso, uso de frases de cortesía.",
+          "actividad_numero": "Gramática textual (Párrafos 1-5, pág. 12)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• http://www.icarito.cl/2010/03/50-8920-9-la-conversacion.shtml\n• https://cvc.cervantes.es/ensenanza/biblioteca_ele/diccio_ele/diccionario/paralinguistico.html",
+          "descripcion": "1. Los estudiantes, en parejas, analizan un fragmento de la transcripción e identifican:\n- La estructura (saludo, desarrollo, cierre).\n- Al menos un elemento paralingüístico.\n2. Se socializan los hallazgos.\n3. El docente sugiere profundizar visitando: http://www.icarito.cl/2010/03/50-8920-9-la-conversacion.shtml y https://cvc.cervantes.es/ensenanza/biblioteca_ele/diccio_ele/diccionario/paralinguistico.htm (pág. 11-12).",
+          "actividad_numero": "Gramática textual (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771354294171",
+      "sequence_id": "seq-1771352585737",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Producción Oral y Evaluación",
+      "intencion_pedagogica": "Producir oralmente una conversación sobre temas propuestos, aplicando la estructura, las normas y los elementos paralingüísticos estudiados, y evaluar el desempeño propio y de los compañeros.\n\n",
+      "estrategia": "Trabajo en equipos cooperativos: Organización y planificación de la conversación.\n\nDesignación de roles: Moderador para ceder turnos.\n\nSimulación: Los estudiantes representan conversaciones sobre temas dados.\n\nUso de instrumentos de evaluación: Lista de cotejo para autoevaluación y coevaluación.\n\nCreación de material visual: Elaboración de rótulos con normas para la conversación.",
+      "aprendizaje_significativo": "Los estudiantes aplican todo lo aprendido en una situación comunicativa real, preparándose para interactuar de manera efectiva en su vida personal, social y académica, y contribuyen a crear un ambiente de respeto en el aula.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les asignan roles con intervenciones más breves.\n\nPara estudiantes tímidos: Se les permite presentar en grupos más pequeños o con apoyo del moderador.\n\nPara estudiantes kinestésicos: Se les anima a usar gestos expresivos durante la conversación.\n\nPara estudiantes con discapacidad auditiva: Se les sienta cerca del frente y se asegura que puedan ver los gestos y labios de sus compañeros.\n\nPara estudiantes avanzados: Se les pide que actúen como moderadores y practiquen la habilidad de ceder turnos.",
+      "actividades_cuaderno": "Pegar la lista de cotejo evaluada (si se les proporcionó una copia) o escribir una reflexión sobre su participación en la conversación y los aspectos que pueden mejorar. Elegir uno de los mensajes de los rótulos y copiarlo.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Lista de temas en la pizarra",
+          "descripcion": "1. El docente forma equipos de trabajo según la cantidad de estudiantes (pág. 13).\n2. Explica que en cada equipo debe haber un moderador para ceder turnos.\n3. Orienta para que estructuren la conversación siguiendo su estructura: alguien introduce, los demás desarrollan, otro concluye.\n4. Propone los temas (pág. 13):\n- Qué hacer cuando alguien nos propone hacer algo incorrecto.\n- Beneficios del valor de la honestidad.\n- El respeto como elemento que permite el buen desarrollo de una conversación.\n- Cómo ayudan los elementos no verbales a la comprensión del mensaje.\n- Además de la honestidad y el respeto, cuáles otros valores se muestran en el video.\n5. Los equipos eligen el tema que deseen.",
+          "actividad_numero": "Producción oral (Párrafos 1-2, pág. 13)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Lista de cotejo fotocopiada para el docente (y opcional para estudiantes)\n• Cronómetro",
+          "descripcion": "1. Los equipos trabajan en la planificación de su conversación (15-20 minutos).\n2. El docente visita los equipos para observar cómo conversan para ponerse de acuerdo y evalúa sus conversaciones.\n3. Pasado el tiempo, cada equipo presenta su conversación frente a todo el grupo.\n4. Durante las presentaciones, el docente utiliza la Lista de cotejo (pág. 14) para evaluar:\n- Tono de voz adecuado a la audiencia.\n- Gestos relacionados con la idea expresada.\n- Contacto visual con el interlocutor.\n- Modulación de la voz según la idea.\n- Fluidez y claridad.\n- Solicitud de turno y no interrupción.\n- Autorregulación (saber qué decir, cuándo y cómo).\n- Evidencia de inicio, desarrollo y cierre.\n5. Los estudiantes también pueden evaluar el trabajo de sus compañeros.",
+          "actividad_numero": "Producción oral (Párrafos 3-4, pág. 13) Lista de cotejo (pág. 14)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cartulinas o papel para rótulos\n• Marcadores, colores",
+          "descripcion": "1. El docente cierra la unidad solicitando a los estudiantes que cada grupo elabore un rótulo promoviendo estrategias para lograr una conversación efectiva (pág. 14).\n2. Ejemplos de mensajes:\n- \"Ser honestos nos ayuda a tener una buena comunicación.\"\n- \"Cuando hablamos con alguien debemos mirarle a la cara.\"\n- \"Para que la comunicación se dé de manera adecuada, debemos escoger las palabras con cuidado.\"\n- \"Nunca se debe herir a las personas mientras conversamos.\"\n- \"Debemos respetar las ideas de nuestro interlocutor, aunque no estemos de acuerdo.\"\n- \"Respetar el turno muestra nuestra educación.\"\n3. Los rótulos se colocan en el salón de clase para recordar las normas de la conversación.",
+          "actividad_numero": "Producción oral (Párrafos 1-2, pág. 14)"
+        }
+      ]
+    }
+  ]
+}

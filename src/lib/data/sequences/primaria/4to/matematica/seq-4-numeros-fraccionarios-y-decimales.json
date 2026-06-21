@@ -1,0 +1,555 @@
+{
+  "id": "seq-1772540270856",
+  "title": "Números fraccionarios y decimales",
+  "description": "Los estudiantes aprenden a comparar y resolver situaciones sencillas utilizando fracciones y decimales.",
+  "order": 4,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772540270851",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Recordando los números fraccionarios",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del entorno usando números fraccionarios.",
+      "estrategia": "• Diálogo dirigido: Exploración de conocimientos previos sobre fracciones.\n• Uso de imágenes: Identificación de partes iguales en figuras.\n• Trabajo colaborativo en grupos: Resolución de situaciones problemáticas con fracciones en contextos de cumpleaños.\n• Uso de material concreto: Recortes de hojas para representar fracciones.",
+      "aprendizaje_significativo": "Los estudiantes relacionan las fracciones con situaciones cotidianas como repartir un bizcocho de cumpleaños, comprendiendo que las fracciones representan partes de un todo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras pre-divididas para que coloreen las partes indicadas.\n• Para estudiantes kinestésicos: Pueden usar recortes de papel para representar las fracciones.\n• Para estudiantes con discapacidad visual: Se les proporcionan figuras en relieve para palpar las divisiones.\n• Para estudiantes avanzados: Se les pide que escriban la fracción también en forma desarrollada.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 97:\n1. \"Rafaelina tiene un paquete de galletas que contiene 4 galletas, si ella se come una, ¿cómo se escribe en forma de fracción la cantidad de galletas que se comió Rafaelina?\"\n2. \"Isidoro compró una pizza de 8 pedazos, si de estos él se come 5, ¿cómo se escribe en forma de fracción la cantidad de pizza que se comió Isidoro?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores\n• Imágenes de la página 95",
+          "descripcion": "1. El docente inicia un diálogo sobre las fracciones, su utilidad y su importancia en la vida (pág. 95).\n2. Pregunta: \"¿Qué recuerdan sobre las fracciones? ¿Cómo se representan? ¿Cómo se llaman los elementos que forman una fracción? ¿Qué es una fracción propia? ¿Qué es una fracción impropia?\"\n3. Los estudiantes mencionan fracciones y las escriben en la pizarra.\n4. Muestra las imágenes de la página 95 y pregunta: \"¿Cuáles de estas figuras están divididas en partes iguales?\"\n5. Socializa con los estudiantes cada una de estas imágenes y pídales que justifiquen cuando están divididas en partes iguales y cuando no lo están.",
+          "actividad_numero": "Actividad 1 - A (Pág. 95)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Hojas en blanco\n• Lápices de colores",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 95): \"María está celebrado su cumpleaños y tiene un bizcocho dividido en partes iguales, como se muestra en las siguientes imágenes. María se come del bizcocho las partes sombreadas en la imagen circular que lo representa, ¿en cuántas partes iguales está dividido el bizcocho de María? ¿Cuántas partes se comió María? ¿Cómo se escribe en forma de fracción la parte que se comió María del bizcocho?\"\n2. Los grupos trabajan.\n3. Socializan: 8 partes, se comió 2 pedazos, fracción 2/8.\n4. El docente explica los términos: numerador (partes tomadas) y denominador (partes totales).\n5. Presenta la nota: \"Fracción son cada una de las partes iguales en que se divide un entero o la unidad. Es el cociente no efectuado de dos números naturales cualesquiera, pero el denominador debe ser distinto de cero.\"\n\nActividad 2 - Segunda situación problemática (25 min):\n1. El docente plantea (pág. 96): \"Nelly recibió de una compañera un chocolate de regalo de cumpleaños. El chocolate está dividido en 6 partes iguales y Nelly se come 3 de estas. Si se representa la parte que se comió Nelly como una fracción: - ¿Cuál sería el numerador de la fracción? - ¿Cuál sería el denominador? - ¿Cómo se escribe la cantidad que Nelly se comió en forma de fracción? - ¿Cómo se lee esta fracción representada?\"\n2. Los grupos resuelven.\n3. Socializan: numerador 3, denominador 6, fracción 3/6, se lee tres sextos.\n4. Los estudiantes reciben hojas en blanco para dividirlas en 6 partes iguales y colorear 3 de su color preferido.\n\nActividad 3 - Actividades complementarias (10 min):\n1. El docente entrega recortes de hojas para que los estudiantes practiquen dividiendo en partes iguales y representando fracciones.",
+          "actividad_numero": "Actividad 1 - B y C (Pág. 95-96)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Qué es una fracción? ¿Qué te resultó más fácil de hacer? ¿Qué representa el numerador en una fracción? ¿Y el denominador? ¿En qué momento usan las fracciones en la casa?\" (pág. 97).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 97: \"Rafaelina tiene un paquete de galletas que contiene 4 galletas, si ella se come una, ¿cómo se escribe en forma de fracción la cantidad de galletas que se comió Rafaelina?\" y \"Isidoro compró una pizza de 8 pedazos, si de estos él se come 5, ¿cómo se escribe en forma de fracción la cantidad de pizza que se comió Isidoro?\"\n3. Actividad complementaria: Los estudiantes escriben al lado de cada imagen la fracción que representa las partes sombreadas en cada caso y escriben cómo se lee cada fracción (pág. 98).\n4. Actividad para el diario del estudiante: Los estudiantes escriben 3 fracciones diferentes y al lado escriba cómo se lee cada una (pág. 98).",
+          "actividad_numero": "Actividad 1 - Cierre (Pág. 97-98)"
+        }
+      ]
+    },
+    {
+      "id": "1772540404437",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Números fraccionarios en el entorno",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del entorno usando números fraccionarios.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo en grupos: Resolución de problemas con fracciones en contextos de cumpleaños.\n• Uso de imágenes: Representación gráfica de fracciones.\n• Socialización de lecturas de fracciones.",
+      "aprendizaje_significativo": "Los estudiantes continúan trabajando con fracciones en contextos de fiestas de cumpleaños (torta, refresco), comprendiendo que las fracciones sirven para expresar partes de un todo en situaciones cotidianas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras para colorear las partes indicadas.\n• Para estudiantes kinestésicos: Pueden usar recortes de papel para representar las fracciones.\n• Para estudiantes con discapacidad visual: Se les proporcionan las fracciones en formato ampliado.\n• Para estudiantes avanzados: Se les pide que escriban la fracción de lo que queda sin necesidad de restar.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 99:\n1. \"De un pastel que estaba dividido en 15 partes iguales se han comido 6 pedazos, ¿qué fracción representa la cantidad de pastel que queda sin comer?\"\n2. \"Si con un doble litro de refresco se llenan 8 vasos con la misma cantidad, si se beben 2 vasos de estos, ¿cómo se escribe en forma de fracción la cantidad de refresco que se han tomado? ¿Cómo se escribe en forma de fracción la cantidad que queda sin tomar?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué fracciones escribieron? ¿Cómo se leen estas fracciones?\" (pág. 98).\n2. Anuncia que hoy continuarán resolviendo problemas usando números fraccionarios.",
+          "actividad_numero": "Actividad 2 - A (Pág. 98)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Imágenes de la página 99\n",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 98): \"Para el cumpleaños de Alexander se compró una torta de forma rectangular, como se muestra en la imagen de abajo, si se divide esta torta en 10 pedazos iguales y se comen 4, ¿cómo se escribe en número fraccionario la cantidad de pedazos que se comieron de la torta? ¿Cómo se lee esa fracción?\"\n2. Los grupos trabajan.\n3. Socializan: 4/10, se lee cuatro décimas.\n4. El docente presenta la imagen de la página 99 para reforzar la lectura de fracciones.\n\nActividad 2 - Segunda situación problemática (25 min):\n1. El docente plantea (pág. 98): \"Nelly compró un refresco y de este se tomó dos sextos del total del refresco. ¿Cómo se escribe en forma de fracción la cantidad de refresco que se tomó Nelly? ¿Cómo se escribe en forma de fracción la cantidad que queda del refresco?\"\n2. Los grupos resuelven.\n3. Socializan: tomó 2/6, queda 4/6. Para saber la cantidad que queda se resta 6 - 2 = 4.\n\nActividad 3 - Lectura de fracciones (10 min):\n1. El docente presenta las imágenes de la página 99 con diferentes fracciones y sus lecturas, relacionándolas con los problemas trabajados.",
+          "actividad_numero": "Actividad 2 - B y C (Pág. 98-99)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Funda con fracciones\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Juego de cierre (pág. 100): Llevar en una funda varias fracciones. Por turno, los estudiantes sacan una y escriben en la pizarra cómo se lee la fracción que les tocó.\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 99: \"De un pastel que estaba dividido en 15 partes iguales se han comido 6 pedazos, ¿qué fracción representa la cantidad de pastel que queda sin comer?\" y \"Si con un doble litro de refresco se llenan 8 vasos con la misma cantidad, si se beben 2 vasos de estos, ¿cómo se escribe en forma de fracción la cantidad de refresco que se han tomado? ¿Cómo se escribe en forma de fracción la cantidad que queda sin tomar?\"\n3. Actividad complementaria: Los estudiantes completan los cuadros en blanco de la página 100 con la fracción o la lectura de esta, según corresponda.\n4. Actividad para el diario del estudiante: Los estudiantes resuelven el problema de la página 100: \"De una torta que estaba dividida en 5 partes iguales se han comido 2 pedazos, ¿qué fracción representa la cantidad de torta que queda sin comer?\"",
+          "actividad_numero": "Actividad 2 - Cierre (Pág. 99-100)"
+        }
+      ]
+    },
+    {
+      "id": "1772542397819",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Mis colecciones",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto usando los números fraccionarios.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Trabajo en parejas: Resolución de problemas con fracciones como parte de una colección.\n• Uso de material concreto: Objetos para representar colecciones.\n• Socialización de estrategias.",
+      "aprendizaje_significativo": "Los estudiantes calculan fracciones a partir de colecciones de objetos (globos de colores, carritos de juguete), comprendiendo que las fracciones también pueden representar partes de un conjunto.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan objetos concretos para contar y formar las fracciones.\n• Para estudiantes kinestésicos: Pueden usar fichas de colores para representar las colecciones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que simplifiquen las fracciones cuando sea posible.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 102:\n1. \"Yazmin tiene 18 juguetes en total: 4 muñecas, 5 carritos y 9 pelotas. ¿Cómo se escribe en forma de fracción la cantidad de muñecas que tiene Jazmin con relación al total de juguetes? ¿Cómo se lee esta fracción?\"\n2. \"Yasmeiry está coleccionando gorros de cumpleaños de diferentes colores, si ya tiene 16 gorros, 6 rojos, 3 azules, 2 amarillos y 5 verdes, ¿Cómo se escribe en forma de fracción la cantidad de gorros verdes que tiene Yasmeiry en relación con el total? Justifica tu respuesta.\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo resolvieron el problema del diario del estudiante? ¿Cuál fue el resultado?\" (pág. 101).\n2. Anuncia que hoy trabajarán con fracciones en colecciones.",
+          "actividad_numero": "Actividad 3 - A (Pág. 101)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Objetos para contar (opcional)",
+          "descripcion": "Actividad 1 - Situación problemática en parejas (25 min):\n1. El docente organiza parejas y plantea la situación (pág. 101): \"La madre de Rosa Iris compró 20 globos para celebrar su cumpleaños, de estos globos 4 eran rojos, 6 amarillos, 5 rosados y 5 azules. ¿Cómo se escribe en forma de fracción la cantidad de globos de color rojo con relación al total de globos? ¿Qué fracción representan los globos azules con relación al total de globos?\"\n2. Las parejas trabajan.\n3. Socializan: rojos 4/20, azules 5/20.\n4. El docente guía para que socialicen la diferencia entre una fracción como parte de una unidad y una fracción como parte de una colección.\n\nActividad 2 - Segunda situación problemática (25 min):\n1. El docente plantea (pág. 101): \"Alexander tiene una colección de 16 carritos de juguetes, de estos 8 son azules, 5 rojos y 3 amarillos. ¿Qué fracción representa la cantidad de carros azules que tiene Alexander con relación al total de carros? ¿Cómo se escribe en forma de fracción la cantidad de carros amarillos que tiene Alexander en relación al total de carros? Justifica tu respuesta.\"\n2. Las parejas resuelven.\n3. Socializan: azules 8/16, amarillos 3/16.\n\nActividad 3 - Reflexión (10 min):\n1. El docente guía una reflexión sobre la diferencia entre fracciones de unidad y de colección.",
+          "actividad_numero": "Actividad 3 - B y C (Pág. 101-102)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Tuviste alguna dificultad para resolver algún problema? ¿De qué forma resolvieron el último problema? ¿Cómo se escribe en forma de fracción 3 partes iguales de 10?\" (pág. 102).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 102: \"Yazmin tiene 18 juguetes en total: 4 muñecas, 5 carritos y 9 pelotas. ¿Cómo se escribe en forma de fracción la cantidad de muñecas que tiene Jazmin con relación al total de juguetes? ¿Cómo se lee esta fracción?\" y \"Yasmeiry está coleccionando gorros de cumpleaños de diferentes colores, si ya tiene 16 gorros, 6 rojos, 3 azules, 2 amarillos y 5 verdes, ¿Cómo se escribe en forma de fracción la cantidad de gorros verdes que tiene Yasmeiry en relación con el total? Justifica tu respuesta.\"\n3. Actividad complementaria: Los estudiantes escriben la fracción que representa cada tipo de juguete del total de juguetes de la imagen de la página 103.\n4. Actividad para el diario del estudiante: Los estudiantes juntan todos los juguetes que tienen en su casa y escriben en su cuaderno la fracción que representan cada tipo de juguetes con relación al total de juguetes (pág. 103).",
+          "actividad_numero": "Actividad 3 - Cierre (Pág. 102-103)"
+        }
+      ]
+    },
+    {
+      "id": "1772542719394",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Usando la recta numérica",
+      "intencion_pedagogica": "Resolver situaciones del contexto con números fraccionarios usando la recta numérica.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de recta numérica: Representación de fracciones.\n• Trabajo en grupos: Resolución de problemas de representación de fracciones en la recta.\n• Uso de material concreto: Hojas cuadriculadas.",
+      "aprendizaje_significativo": "Los estudiantes representan fracciones como 3/5 y 8/12 en la recta numérica, comprendiendo que las fracciones ocupan posiciones específicas entre los números enteros.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan rectas numéricas pre-dibujadas con las divisiones marcadas.\n• Para estudiantes kinestésicos: Pueden dibujar la recta en el piso con tiza y ubicarse ellos mismos.\n• Para estudiantes con discapacidad visual: Se les proporcionan rectas numéricas en relieve.\n• Para estudiantes avanzados: Se les pide que representen fracciones impropias en la recta numérica.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 105:\n1. \"José tiene una colección de 8 carritos de diferentes colores, 2 azules, 2 verdes, 3 rojos y 1 amarillo. ¿Cómo se escribe en forma de fracción la cantidad de carritos rojos en relación con el total? ¿Cómo se representa en una recta numérica esta fracción?\"\n2. \"Carlos tiene una cinta de color rojo. Si divide esta cinta en 10 partes iguales y usa 6 partes de estas en un regalo. Representa con una fracción la cantidad de cintas que usó Carlos, representa esta fracción en una recta numérica.\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Recta numérica en cartulina\n• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Cuáles lograron hacer el ejercicio del diario del estudiante? ¿Cuántos juguetes tenían? ¿Cuántos juguetes tenían de cada tipo? ¿Qué fracción representan cada tipo de juguetes con relación al total de juguetes?\" (pág. 103).\n2. Presenta una recta numérica y pregunta: \"¿Saben qué es una recta numérica? ¿Qué tiene una recta numérica? ¿Dónde han trabajado usando la recta numérica?\" (pág. 103).",
+          "actividad_numero": "Actividad 4 - A (Pág. 103)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Reglas",
+          "descripcion": "Actividad 1 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 5 estudiantes y plantea la situación (pág. 103): \"Alberto corta tres quintos de una soga, él desea saber si puede representar esa fracción en una recta numérica ¿Cómo puede hacerlo?\"\n2. Los grupos trabajan.\n3. Socializan el procedimiento: dividir la unidad en 5 partes iguales y sombrear 3 (pág. 104).\n\nActividad 2 - Segunda situación problemática (25 min):\n1. El docente plantea (pág. 104): \"Enmanuel dividió una torta en 12 pedazos iguales, de estos compartió 8 con sus hermanos. ¿Qué fracción representa la cantidad de torta que repartió Enmanuel? ¿Cómo se representa esta fracción en una recta numérica?\"\n2. Los grupos resuelven.\n3. Socializan: 8/12, se divide la unidad en 12 partes y se sombrean 8.\n\nActividad 3 - Práctica (10 min):\n1. Los estudiantes practican en sus cuadernos con otras fracciones.",
+          "actividad_numero": "Actividad 4 - B y C (Pág. 103-104)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papeles con fracciones\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Juego de cierre (pág. 105): Llevar varios números fraccionarios escritos en pedazos de papel. Por turno, los estudiantes eligen un papel y utilizando una recta numérica representan la fracción que les tocó.\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 105: \"José tiene una colección de 8 carritos de diferentes colores, 2 azules, 2 verdes, 3 rojos y 1 amarillo. ¿Cómo se escribe en forma de fracción la cantidad de carritos rojos en relación con el total? ¿Cómo se representa en una recta numérica esta fracción?\" y \"Carlos tiene una cinta de color rojo. Si divide esta cinta en 10 partes iguales y usa 6 partes de estas en un regalo. Representa con una fracción la cantidad de cintas que usó Carlos, representa esta fracción en una recta numérica.\"\n3. Actividad complementaria: Los estudiantes colocan los siguientes números fraccionarios en una recta numérica (pág. 105).\n4. Actividad para el diario del estudiante: Los estudiantes representan la fracción seis octavos en una recta numérica (pág. 105).",
+          "actividad_numero": "Actividad 4 - Cierre (Pág. 105)"
+        }
+      ]
+    },
+    {
+      "id": "1772542801275",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Fracciones propias e impropias",
+      "intencion_pedagogica": "Determinar la diferencia entre fracciones propias e impropias.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Fracciones propias e impropias\".\n• Trabajo en grupos: Clasificación de fracciones en propias e impropias.\n• Elaboración de cartel: Definición de fracciones propias e impropias.",
+      "aprendizaje_significativo": "Los estudiantes identifican si las fracciones como 3/12 y 12/8 son propias o impropias, comprendiendo que las fracciones impropias representan cantidades mayores que la unidad.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona el cartel con las definiciones para consultar.\n• Para estudiantes kinestésicos: Pueden usar recortes de papel para representar fracciones propias e impropias.\n• Para estudiantes con discapacidad visual: Se les proporciona el cartel en formato ampliado.\n• Para estudiantes avanzados: Se les pide que conviertan fracciones impropias a números mixtos.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 107:\n1. \"José tiene 4 pedazos de un chocolate que estaba dividido en 6 partes iguales, él dice que la cantidad que tiene de chocolate representa una fracción. ¿Tiene José razón? ¿Por qué?\"\n2. \"Alexander repartió 15 pedazos de pizza a sus compañeros de la escuela. Si cada pizza estaba dividida en 12 pedazos, ¿qué fracción representa la cantidad de pizza repartida por Alexander? ¿Es la fracción propia o impropia? ¿Por qué?\"",
+      "inicio": [
+        {
+          "letras": "V",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo representaron seis octavos en la recta numérica?\" (pág. 105).\n2. Luego pregunta: \"¿Qué son fracciones propias? Dar ejemplo ¿Qué son fracciones impropias? ¿Cuál es la diferencia entre la fracción propia y la impropia?\" (pág. 106).",
+          "actividad_numero": "Actividad 5 - A (Pág. 106)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos\n• Papelógrafo para cartel",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Fracciones propias e impropias\" disponible en: https://www.youtube.com/watch?v=1hfMRT5Ai-4&t=120s (pág. 106).\n2. Después del video, pregunta: \"¿De qué trata el video? ¿Qué son fracciones propias? ¿Qué son fracciones impropias? ¿Cuál es la diferencia entre la fracción propia y la impropia?\"\n3. En caso de no tener acceso a tecnología, presenta las fracciones 4/8 y 6/4 y pregunta sus diferencias.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 106): \"Alexander estaba celebrando su cumpleaños y se comió tres doceavos del bizcocho ¿Cómo se escribe esa cantidad en forma de fracción? ¿Esta fracción es propia o impropia? Justifica.\"\n2. Los grupos trabajan.\n3. Socializan: 3/12 es propia porque el numerador es menor que el denominador.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 106): \"Nelly estaba compartiendo con su familia, y se comieron doce octavos de pizza. ¿Cómo se escribe la cantidad que se comieron en forma de fracción? ¿Esta fracción es propia o impropia? Justifica.\"\n2. Los grupos resuelven.\n3. Socializan: 12/8 es impropia porque el numerador es mayor que el denominador.\n4. El docente elabora un cartel con las definiciones (pág. 107).",
+          "actividad_numero": "Actividad 5 - B y C (Pág. 106-107)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Qué se trabajó en la clase de hoy? ¿Cuándo una fracción es propia? ¿Cuándo una fracción es impropia? ¿Cuál es la diferencia entre una fracción propia y una impropia?\" (pág. 107).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 107: \"José tiene 4 pedazos de un chocolate que estaba dividido en 6 partes iguales, él dice que la cantidad que tiene de chocolate representa una fracción. ¿Tiene José razón? ¿Por qué?\" y \"Alexander repartió 15 pedazos de pizza a sus compañeros de la escuela. Si cada pizza estaba dividida en 12 pedazos, ¿qué fracción representa la cantidad de pizza repartida por Alexander? ¿Es la fracción propia o impropia? ¿Por qué?\"\n3. Actividad complementaria: Los estudiantes colorean la fracción que se indica en cada caso y escriben si esta es propia o impropia (pág. 108).\n4. Actividad para el diario del estudiante: Los estudiantes explican a su padre, madre, tutor o hermano, qué es una fracción propia y una fracción impropia, con varios ejemplos. Pueden usar los problemas trabajados en la clase (pág. 108).",
+          "actividad_numero": "Actividad 5 - Cierre (Pág. 107-108)"
+        }
+      ]
+    },
+    {
+      "id": "1772542898296",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Los números mixtos",
+      "intencion_pedagogica": "Resolver situaciones problemáticas usando números mixtos.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de imágenes: Representación gráfica de fracciones impropias como números mixtos.\n• Trabajo en grupos: Conversión de fracciones impropias a números mixtos.\n• Uso de material concreto: Recortes de papel.",
+      "aprendizaje_significativo": "Los estudiantes representan cantidades como 12/8 y 35/8 como números mixtos (1 4/8 y 4 3/8), comprendiendo que las fracciones impropias pueden expresarse como un entero más una fracción.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras recortadas para representar los números mixtos.\n• Para estudiantes kinestésicos: Pueden usar recortes de papel para formar los enteros y las partes.\n• Para estudiantes con discapacidad visual: Se les proporcionan las figuras en relieve.\n• Para estudiantes avanzados: Se les pide que conviertan números mixtos a fracciones impropias.",
+      "actividades_cuaderno": "Los estudiantes resuelven el problema de la página 110: \"Pedro compró 3 cintas de colores para hacer moños de cumpleaños. Si cada cinta la dividió en 4 pedazos y usó 9 para hacer los moños, ¿qué número mixto representa la cantidad de cinta usada?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo le explicaron a sus padres las fracciones propias e impropias?\" (pág. 108).\n2. Recuerda la fracción 12/8 de la clase anterior y pregunta si conocen otra forma de escribirla.",
+          "actividad_numero": "Actividad 6 - A (Pág. 108"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Pizarra\n• Cuadernos\n• Imágenes de la página 109\n",
+          "descripcion": "Actividad 1 - Presentación de números mixtos (15 min):\n1. El docente presenta la imagen de las pizzas de Nelly (pág. 109) y pregunta: \"¿Cómo se escribe 12/8 como un número mixto?\"\n2. Explica: 12/8 = 1 4/8 (un entero cuatro octavos).\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos y plantea (pág. 109): \"En el cumpleaños de Andrea se compraron 3 bizcochos de forma rectangular, si estos los dividieron en 10 partes iguales cada uno y se comieron 26 pedazos, ¿qué fracción representa la cantidad de bizcocho que se comieron en el cumpleaños? ¿Cómo se escribe la cantidad que se comieron como un número mixto?\"\n2. Los grupos trabajan.\n3. Socializan: 26/10 = 2 6/10.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 109): \"Alexander y Alberto dividieron 5 chocolates en 8 partes iguales y lograron repartir 35 pedazos para todos sus compañeros de clase ¿Cómo se escribe la cantidad que repartieron como un número mixto?\"\n2. Los grupos resuelven.\n3. Socializan: 35/8 = 4 3/8.",
+          "actividad_numero": "Actividad 6 - B y C (Pág. 109)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué aprendimos hoy? ¿Qué es un número mixto? ¿Cómo se escribe 8/5 como número mixto?\" (pág. 110).\n2. Actividad para el cuaderno: Los estudiantes resuelven el problema de la página 110: \"Pedro compró 3 cintas de colores para hacer moños de cumpleaños. Si cada cinta la dividió en 4 pedazos y usó 9 para hacer los moños, ¿qué número mixto representa la cantidad de cinta usada?\"\n3. Actividad complementaria: Los estudiantes representan gráficamente los números mixtos de la página 110 (2 3/5 y 1 5/8).\n4. Actividad para el diario del estudiante: Los estudiantes escriben 5 números mixtos diferentes a los trabajados en clase (pág. 110).",
+          "actividad_numero": "Actividad 6 - Cierre (Pág. 110)"
+        }
+      ]
+    },
+    {
+      "id": "1772543788956",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 6,
+      "title": "Actividad 7",
+      "name": "Fracciones equivalentes",
+      "intencion_pedagogica": "Resolver situaciones problemáticas de la comunidad usando fracciones equivalentes.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Fracciones equivalentes\".\n• Trabajo en parejas: Identificación de fracciones equivalentes.\n• Uso de material concreto: Hojas cuadriculadas para representación gráfica.",
+      "aprendizaje_significativo": "Los estudiantes descubren que 4/6 y 8/12 representan la misma cantidad de bizcocho, comprendiendo que las fracciones equivalentes son diferentes formas de expresar una misma parte.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras pre-divididas para colorear y comparar.\n• Para estudiantes kinestésicos: Pueden usar recortes de papel para representar las fracciones.\n• Para estudiantes con discapacidad visual: Se les proporcionan las figuras en relieve.\n• Para estudiantes avanzados: Se les pide que encuentren tres fracciones equivalentes a una dada.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 113:\n1. \"Alexander escribió 2 fracciones en su cuaderno, 2/3 y 4/6, él dice que estas fracciones son equivalentes. ¿Tiene razón Alexander? Justifica.\"\n2. \"Rafaelina compró 2 papeles de regalo, uno lo dividió en 6 pedazos iguales y el otro en 10 pedazos iguales, si del papel dividido en 6 partes ella usa 3 pedazos y del otro usa 5 pedazos, ¿cómo se escriben las fracciones que representan la cantidad usada de cada papel? ¿Son equivalentes estas fracciones? Justifica.\"",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué números mixtos escribieron?\" (pág. 110).\n2. Pregunta: \"¿Qué significa la palabra equivalente?\" (pág. 111).",
+          "actividad_numero": "Actividad 7 - A (Pág. 111)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Hojas cuadriculadas\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Fracciones equivalentes\" disponible en: https://www.youtube.com/watch?v=B712E78lxsl (pág. 111).\n2. Después del video, pregunta: \"¿Qué son fracciones equivalentes? ¿Cómo se obtienen?\"\n3. En caso de no tener acceso a tecnología, presenta las imágenes de las barras de chocolate de la página 111 y pregunta de cuál se comieron más.\n\nActividad 2 - Situación problemática en parejas (25 min):\n1. El docente organiza parejas y plantea la situación (pág. 111): \"Nelly y Rosa Yris compraron cada una un bizcocho del mismo tamaño, Nelly dividió el de ella en 6 partes iguales y Rosa Yris en 12 partes iguales. Si Nelly regaló 4 pedazos de su bizcocho y Rosa Yris, 8 pedazos, ¿qué fracción representan la cantidad que regaló Nelly? y ¿qué fracción representa la cantidad que regaló Rosa Yris? ¿Las fracciones son equivalentes? ¿Por qué?\"\n2. Las parejas trabajan con hojas cuadriculadas.\n3. Socializan: Nelly 4/6, Rosa Yris 8/12. Son equivalentes porque representan la misma cantidad.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 111): \"La madre de Emmanuel le hizo dos tartas diferentes, una de chocolate y otra de fresa. Ella cortó la tarta de chocolate en 5 pedazos y la de fresa en 8. Si regaló 3 pedazos de la tarta de chocolate, y 6 de la de fresa, ¿cómo se escribe en forma de fracciones las cantidades que regaló de chocolate y de fresa? ¿Son fracciones equivalentes las cantidades de ambas tartas?\"\n2. Las parejas resuelven.\n3. Socializan: chocolate 3/5, fresa 6/8, no son equivalentes.\n4. El docente presenta la cápsula sobre cómo obtener fracciones equivalentes (pág. 112-113).",
+          "actividad_numero": "Actividad 7 - B y C (Pág. 111-113)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Tarjetas con fracciones\n• Pizarra\n• Cuadernos",
+          "descripcion": "1. Juego de cierre (pág. 113): Llevar tarjetas con distintas fracciones. Los estudiantes buscan entre ellas 2 fracciones que sean equivalentes y explican la razón.\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 113: \"Alexander escribió 2 fracciones en su cuaderno, 2/3 y 4/6, él dice que estas fracciones son equivalentes. ¿Tiene razón Alexander? Justifica.\" y \"Rafaelina compró 2 papeles de regalo, uno lo dividió en 6 pedazos iguales y el otro en 10 pedazos iguales, si del papel dividido en 6 partes ella usa 3 pedazos y del otro usa 5 pedazos, ¿cómo se escriben las fracciones que representan la cantidad usada de cada papel? ¿Son equivalentes estas fracciones? Justifica.\"\n3. Actividad complementaria: Los estudiantes representan gráficamente los pares de fracciones de la página 113 y escriben si son equivalentes o no.\n4. Actividad para el diario del estudiante: Los estudiantes escriben 2 pares de fracciones equivalentes, multiplicando o dividiendo, y las representan gráficamente (pág. 113).",
+          "actividad_numero": "Actividad 7 - Cierre (Pág. 113)"
+        }
+      ]
+    },
+    {
+      "id": "1772544138498",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 7,
+      "title": "Actividad 8",
+      "name": "Adición y sustracción de números fraccionarios",
+      "intencion_pedagogica": "Identificar situaciones problemáticas en su entorno y resolverlas utilizando la adición y la sustracción de fracciones.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Suma y resta de fracciones\".\n• Trabajo en grupos: Resolución de problemas de suma y resta de fracciones.\n• Uso de estrategias: Denominadores iguales.",
+      "aprendizaje_significativo": "Los estudiantes suman las fracciones de pizza que comieron Alexander (1/8) y Rosa Iris (3/8), comprendiendo que para sumar fracciones con igual denominador solo se suman los numeradores.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporcionan figuras para colorear las fracciones y visualizar las operaciones.\n• Para estudiantes kinestésicos: Pueden usar recortes de papel para representar las fracciones y sumarlas/restarlas físicamente.\n• Para estudiantes con discapacidad visual: Se les proporcionan las fracciones en formato ampliado.\n• Para estudiantes avanzados: Se les pide que simplifiquen los resultados cuando sea posible.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 115:\n1. \"En un cumpleaños las 3/10 de los globos son de color rojo y 4/10 son de color blanco. ¿Qué fracción de globos hay entre rojos y blanco del total de globos?\"\n2. \"Una canasta de mentas contenía 7/8 de su capacidad, después de compartir en familia la canasta quedó con 4/8 de su capacidad. ¿Qué fracción de mentas tomaron los familiares de la canasta?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué pares de fracciones equivalentes escribieron? ¿Cómo las representaron?\" (pág. 113).\n2. Anuncia que hoy aprenderán a sumar y restar fracciones.",
+          "actividad_numero": "Actividad 8 - A (Pág. 114)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Suma y resta de fracciones\" disponible en: https://www.youtube.com/watch?v=Wv6ulCAS1eQ&t=138s (pág. 114).\n2. Después del video, pregunta: \"¿De qué trata? ¿Cómo se suman y restan fracciones con igual denominador?\"\n3. En caso de no tener acceso a tecnología, presenta las imágenes de la página 114 y pregunta por la cantidad sombreada total.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 114): \"Alexander se comió 1/8 de una pizza y Rosa Iris 3/8 de la misma pizza. ¿Qué cantidad de pizza en total se comieron entre Alexander y Rosa Iris?\"\n2. Los grupos trabajan.\n3. Socializan: 1/8 + 3/8 = 4/8.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 114): \"Para hacer un pastel de cumpleaños, Nelly usó 2/6 de un polvo para hornear de un frasco. Si el frasco contenía 3/6 de este polvo. ¿Qué cantidad de polvo para hornear le queda al frasco?\"\n2. Los grupos resuelven.\n3. Socializan: 3/6 - 2/6 = 1/6.",
+          "actividad_numero": "Actividad 8 - B y C (Pág. 114-115)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué se trabajó en la clase de hoy? ¿Para qué sirve aprender a resolver problemas de adición y sustracción de fracciones?\" (pág. 115).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 115: \"En un cumpleaños las 3/10 de los globos son de color rojo y 4/10 son de color blanco. ¿Qué fracción de globos hay entre rojos y blanco del total de globos?\" y \"Una canasta de mentas contenía 7/8 de su capacidad, después de compartir en familia la canasta quedó con 4/8 de su capacidad. ¿Qué fracción de mentas tomaron los familiares de la canasta?\"\n3. Actividad complementaria: Los estudiantes resuelven las operaciones de la página 116 (5/7 + 2/7, 5/7 - 2/7, 8/10 + 5/10, 8/10 - 5/10) y acceden a los enlaces de IXL.\n4. Actividad para el diario del estudiante: Los estudiantes explican a un familiar cómo resolvieron uno de los problemas trabajados en clase (pág. 116).",
+          "actividad_numero": "Actividad 8 - Cierre (Pág. 115-116)"
+        }
+      ]
+    },
+    {
+      "id": "1772544219396",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 8,
+      "title": "Actividad 9",
+      "name": "Adición y sustracción con números fraccionarios",
+      "intencion_pedagogica": "Resolver problemas del contexto utilizando adición y sustracción con números fraccionarios.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Suma y resta de fracciones con diferente denominador\".\n• Trabajo en grupos: Resolución de problemas de suma y resta de fracciones con diferente denominador.\n• Uso de estrategias: Fracciones equivalentes y MCM.",
+      "aprendizaje_significativo": "Los estudiantes suman fracciones de torta (3/10 + 2/5) y restan cantidades de cinta (5/6 - 2/4), comprendiendo que para operar con fracciones de diferente denominador es necesario encontrar un denominador común.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso para encontrar el MCM.\n• Para estudiantes kinestésicos: Pueden usar recortes de papel para representar las fracciones y encontrar equivalentes.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que simplifiquen los resultados a su mínima expresión.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 120:\n1. \"Una pizza de jamón y queso es dividida en 12 pedazos y de estos se comen 3/12 partes. Otra pizza de peperoni es dividida en 8 y se comen 5/8 parte de esta ¿Qué fracción de pizza se comieron? ¿Cuánto más se comieron de la segunda pizza que de la primera?\"\n2. \"Si en 2 envases de refresco tienes 1/3 y 4/6 respectivamente, ¿qué cantidad de refresco tienes en los 2 envases? ¿Cuánto refresco más tienes en el segundo envase que en el primero?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo le explicaron a su familiar el problema de fracciones? ¿Cuál problema le explicaron?\" (pág. 116).\n2. Retroalimenta el tema de suma y resta con igual denominador. Anuncia que hoy trabajarán con denominadores diferentes.",
+          "actividad_numero": "Actividad 9 - A (Pág. 116)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Suma y resta de fracciones con diferente denominador\" disponible en: https://www.youtube.com/watch?v=Ab5g5psN87c (pág. 116).\n2. Después del video, pregunta: \"¿Cuáles pasos hay que dar para sumar o restar fracciones con distintos denominadores?\"\n3. En caso de no tener acceso a tecnología, explora con preguntas sobre cómo obtener fracciones equivalentes.\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 4 estudiantes y plantea la situación (pág. 117): \"En una fiesta de cumpleaños se repartieron 2 tortas, de la primera quedó 3/10 y de la segunda torta quedó 2/5 ¿Qué cantidad de torta quedó en total?\"\n2. Los grupos trabajan.\n3. Socializan usando dos estrategias: fracciones equivalentes (3/10 + 4/10 = 7/10) y MCM (pág. 117-118).\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 117): \"Alexander compró 2/4 yardas de una cinta de color rojo y 5/6 yardas de cinta de color verde. ¿Qué cantidad de cinta compró Alexander de ambos colores? ¿Cuánta cinta más de color verde que de rojo compró Alexander?\"\n2. Los grupos resuelven.\n3. Socializan suma: 2/4 + 5/6 = 6/12 + 10/12 = 16/12; resta: 5/6 - 2/4 = 10/12 - 6/12 = 4/12 = 1/3 (pág. 118-120).",
+          "actividad_numero": "Actividad 9 - B y C (Pág. 116-120)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Cómo se suman fracciones con diferente denominador? ¿Cómo se restan?\" (pág. 120).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 120: \"Una pizza de jamón y queso es dividida en 12 pedazos y de estos se comen 3/12 partes. Otra pizza de peperoni es dividida en 8 y se comen 5/8 parte de esta ¿Qué fracción de pizza se comieron? ¿Cuánto más se comieron de la segunda pizza que de la primera?\" y \"Si en 2 envases de refresco tienes 1/3 y 4/6 respectivamente, ¿qué cantidad de refresco tienes en los 2 envases? ¿Cuánto refresco más tienes en el segundo envase que en el primero?\"\n3. Actividad complementaria: Los estudiantes realizan las operaciones con fracciones de la página 121 (a, b, c, d, e, f).\n4. Actividad para el diario del estudiante: Los estudiantes escriben 4 multiplicaciones y cuatro divisiones de fracciones diferentes a las trabajadas en el aula y las resuelven (pág. 123).",
+          "actividad_numero": "Actividad 9 - Cierre (Pág. 120-121)"
+        }
+      ]
+    },
+    {
+      "id": "1772544731029",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 9,
+      "title": "Actividad 10",
+      "name": "Multiplicación y división de fracciones",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del contexto utilizando la multiplicación y división de fracciones.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Multiplicación y división de fracciones\".\n• Trabajo en grupos: Resolución de problemas de multiplicación y división de fracciones.\n• Uso de estrategias: Inverso multiplicativo.",
+      "aprendizaje_significativo": "Los estudiantes calculan la cantidad de harina para varios bizcochos (3/4 x 3) y los días que dura la harina (15 ÷ 2/3), comprendiendo que la multiplicación y división de fracciones tienen aplicaciones en la cocina y la vida diaria.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una guía paso a paso con el inverso multiplicativo.\n• Para estudiantes kinestésicos: Pueden usar recortes de papel para representar las fracciones.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que conviertan los resultados a números mixtos.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 123:\n1. \"Un pastel de 3/4 de kilo, se divide en porciones de 1/8 de kilo. ¿Cuántas porciones salen?\"\n2. \"Para hacer un pastel se requieren 2/3 de taza de harina. Si queremos hacer 5/6 de pastel, ¿cuántas tazas de harina se necesitan?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué multiplicaciones y divisiones de fracciones escribieron?\" (pág. 123).\n2. Anuncia que hoy aprenderán a multiplicar y dividir fracciones en contextos de cumpleaños.",
+          "actividad_numero": "Actividad 10 - A (Pág. 121)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Multiplicación y división de fracciones\" disponible en: https://www.youtube.com/watch?v=LrqMLLMVmnM (pág. 121).\n2. Después del video, pregunta: \"¿Cómo se multiplican fracciones? ¿Cómo se dividen?\"\n\nActividad 2 - Situación problemática en grupos (25 min):\n1. El docente organiza grupos de 3 estudiantes y plantea la situación (pág. 121): \"Para hacer un bizcocho de 3 pisos se requieren 3/4 de taza de azúcar por cada piso. ¿Cuánta azúcar se necesita en total?\"\n2. Los grupos trabajan.\n3. Socializan: 3/4 x 3 = 3/4 x 3/1 = 9/4 = 2 1/4 tazas.\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 121): \"Nelly tiene 15 libras de harina y gasta 2/3 de libra cada día para hacer bizcochos. ¿Para cuántos días le alcanza la harina?\"\n2. Los grupos resuelven.\n3. Socializan: 15 ÷ 2/3 = 15/1 x 3/2 = 45/2 = 22 1/2 días.\n4. El docente explica el concepto de inverso multiplicativo (pág. 122).",
+          "actividad_numero": "Actividad 10 - B y C (Pág. 121-122)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Realiza preguntas de cierre: \"¿Cómo se multiplican las fracciones? ¿Cómo se dividen?\" (pág. 123).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 123: \"Un pastel de 3/4 de kilo, se divide en porciones de 1/8 de kilo. ¿Cuántas porciones salen?\" y \"Para hacer un pastel se requieren 2/3 de taza de harina. Si queremos hacer 5/6 de pastel, ¿cuántas tazas de harina se necesitan?\"\n3. Actividad complementaria: Los estudiantes realizan las operaciones de la página 123 (a, b, c, d, e, f).\n4. Actividad para el diario del estudiante: Los estudiantes escriben 4 multiplicaciones y cuatro divisiones de fracciones diferentes a las trabajadas en el aula y las resuelven (pág. 123).",
+          "actividad_numero": "Actividad 10 - Cierre (Pág. 123)"
+        }
+      ]
+    },
+    {
+      "id": "1772544813666",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 10,
+      "title": "Actividad 11",
+      "name": "Aprendo jugando",
+      "intencion_pedagogica": "Retroalimentar las operaciones con números fraccionarios utilizando la estrategia del juego.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Juego didáctico: \"Jugando con tarjetas de fracciones\".\n• Trabajo en parejas: Resolución de operaciones con fracciones.\n• Registro de desempeño: Observación del nivel de logro de los estudiantes.",
+      "aprendizaje_significativo": "Los estudiantes refuerzan las operaciones con fracciones (suma, resta, multiplicación y división) a través de un juego interactivo con tarjetas, comprendiendo que el aprendizaje matemático puede ser divertido y colaborativo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les permite usar calculadora para verificar resultados.\n• Para estudiantes kinestésicos: El juego mismo es una actividad kinestésica ideal.\n• Para estudiantes con discapacidad visual: Se les proporcionan las tarjetas en formato ampliado.\n• Para estudiantes avanzados: Se les pide que expliquen las estrategias que usaron para resolver las operaciones.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, es el registro del juego.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Qué multiplicaciones y divisiones de fracciones escribieron? ¿Cómo las resolvieron?\" (pág. 123).\n2. Anuncia que hoy jugarán para practicar lo aprendido.",
+          "actividad_numero": "Actividad 11 - A (Pág. 124)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B",
+          "tiempo": "60",
+          "recursos": "• Tarjetas con operaciones de fracciones\n• Tarjetas con resultados\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente prepara 10 tarjetas con sumas, restas, multiplicaciones y divisiones de fracciones y 10 tarjetas con los resultados de estas operaciones (pág. 124).\n2. Explica las reglas del juego (pág. 124):\n- Se juega en pareja, un 2 contra 2.\n- Las tarjetas se barajan y se colocan los 10 resultados boca arriba en el centro de la mesa, las 10 tarjetas con las operaciones también boca arriba.\n- Cada pareja toma una tarjeta con la operación de fracciones y la resuelve, busca en las tarjetas ese resultado que están en el centro de la mesa y se lleva para su lado ambas tarjetas.\n- Toma la siguiente tarjeta y realiza el mismo proceso.\n- La pareja no puede tomar otra tarjeta hasta que obtenga el resultado de la que tomó anteriormente.\n- Gana la pareja que al final tenga más tarjetas acumuladas.\n3. Los estudiantes juegan mientras el docente registra el desempeño según los indicadores de logro.",
+          "actividad_numero": "Actividad 11 - B (Pág. 124)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Socializa con preguntas: \"¿Cómo jugaron? ¿Qué pareja ganó? ¿Qué fue lo más difícil? ¿Cómo resolvieron las operaciones?\" (pág. 124).\n2. Actividad para el cuaderno: No hay actividad específica, es el registro del juego.\n3. Actividad complementaria: No aplica.\n4. Actividad para el diario del estudiante: No aplica.",
+          "actividad_numero": "Actividad 11 - Cierre (Pág. 124)"
+        }
+      ]
+    },
+    {
+      "id": "1772544986517",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 11,
+      "title": "Actividad 12",
+      "name": "Números decimales",
+      "intencion_pedagogica": "Resolver problemas en su contexto usando números decimales.",
+      "estrategia": "• Revisión de juego: Socialización de la experiencia del juego anterior.\n• Uso de tabla de valor posicional: Identificación de parte entera y decimal.\n• Trabajo en parejas: Lectura y escritura de números decimales.\n• Uso de material concreto: Representación gráfica de decimales.",
+      "aprendizaje_significativo": "Los estudiantes identifican que 3.5 representa 3 enteros y 5 décimas, y que 0.95 representa 95 centésimas, comprendiendo que los números decimales son una forma de expresar cantidades no enteras.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una tabla de valor posicional impresa.\n• Para estudiantes kinestésicos: Pueden usar cuadrículas para representar décimas y centésimas.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que escriban los números en forma desarrollada.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 127:\n1. \"El padre de Alexander estaba en una repostería y compró un bizcocho por RD$1,245.90. ¿Cómo se lee esa cantidad? ¿Cuál es la posición del dígito 9 en RD$1,245.90?\"\n2. \"Alberto compró 5 paquetes de globos en una tienda, en total gastó en los 5 paquetes RD$245.67. ¿Cómo se lee esa cantidad? ¿Cuál es la posición del dígito 7 en RD$245.67? ¿Y del dígito 6?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Periódicos o afiches con precios\n• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Qué fue lo que más les gustó del juego? ¿Quién ganó?\" (pág. 125).\n2. Presenta periódicos o afiches con precios de productos. Pregunta: \"¿Cómo están formados estos números? ¿Qué significa la cantidad antes y después del punto?\" (pág. 125).",
+          "actividad_numero": "Actividad 12 - A (Pág. 125)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Tabla de valor posicional\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Tabla de valor posicional (15 min):\n1. El docente presenta la tabla de valor posicional de la página 125 (parte entera y parte decimal).\n2. Explica: \"3.5 se lee tres enteros cinco décimas; 14.36 se lee catorce enteros treinta y seis centésimas; 8.25 se lee ocho enteros veinticinco centésimas\" (pág. 126).\n\nActividad 2 - Situación problemática en parejas (25 min):\n1. El docente organiza parejas y plantea la situación (pág. 126): \"Alberto compró un bizcocho de 3.5 libras. ¿Cómo se lee esa cantidad? ¿Qué posición ocupa el 5 en 3.5?\"\n2. Las parejas trabajan.\n3. Socializan: se lee tres enteros cinco décimas, el 5 está en las décimas.\n4. El docente presenta la representación gráfica de 3.5 (pág. 126).\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 126): \"Alexander le compró una camisa a Alberto que costó RD$684.95. ¿Cómo se lee esa cantidad? ¿Cuál es la posición de los dígitos 9 y 5? ¿Cuánto valen?\"\n2. Las parejas resuelven.\n3. Socializan: seiscientos ochenta y cuatro pesos con noventa y cinco centésimas. El 9 está en las décimas (vale 0.9), el 5 en las centésimas (vale 0.05).\n4. El docente presenta la representación gráfica de 0.95 (pág. 127).",
+          "actividad_numero": "Actividad 12 - B y C (Pág. 125-127)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. Realiza preguntas de cierre: \"¿Qué es un número decimal? ¿A cuánto equivale una décima? ¿Y una centésima?\" (pág. 127).\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 127: \"El padre de Alexander compró un bizcocho por RD$1,245.90. ¿Cómo se lee esa cantidad? ¿Cuál es la posición del dígito 9?\" y \"Alberto compró 5 paquetes de globos por RD$245.67. ¿Cómo se lee esa cantidad? ¿Cuál es la posición del dígito 7? ¿Y del dígito 6?\"\n3. Actividad complementaria: Los estudiantes escriben en la línea cómo se leen los decimales de la página 128 (434.98, 276.87, 846.59, 0.36, 2.91).\n4. Actividad para el diario del estudiante: Los estudiantes unen con una línea cada número decimal con su lectura correspondiente y escriben al lado de la gráfica cómo se escribe como número decimal la parte sombreada y cómo se lee (pág. 128).",
+          "actividad_numero": "Actividad 12 - Cierre (Pág. 127-128)"
+        }
+      ]
+    },
+    {
+      "id": "1772545123988",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 12,
+      "title": "Actividad 13",
+      "name": "Los números decimales",
+      "intencion_pedagogica": "Resolver situaciones problemáticas del entorno utilizando números decimales.",
+      "estrategia": "• Revisión de tarea: Socialización de la actividad del diario del estudiante.\n• Uso de video: \"Suma y resta de números decimales\".\n• Trabajo en parejas: Resolución de problemas de suma y resta de decimales.\n• Uso de estrategias: Algoritmo tradicional con alineación de puntos decimales.",
+      "aprendizaje_significativo": "Los estudiantes suman y restan precios de artículos de cumpleaños (globos RD$43.4, carritos RD$65.5), comprendiendo que los decimales son útiles para manejar dinero y medidas en la vida cotidiana.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les proporciona una plantilla con columnas alineadas para unidades, décimas y centésimas.\n• Para estudiantes kinestésicos: Pueden usar billetes ficticios para representar las cantidades.\n• Para estudiantes con discapacidad visual: Se les proporcionan los números en formato ampliado.\n• Para estudiantes avanzados: Se les pide que resuelvan los problemas con cantidades de tres decimales.",
+      "actividades_cuaderno": "Los estudiantes resuelven los problemas de la página 132:\n1. \"Adrián tiene en una funda 2 objetos que cuestan RD$156.82 y RD$245.92. ¿Cuánto dinero cuestan cambiar los 2 objetos? Justifica tu respuesta.\"\n2. \"Alberto compró tres artículos que le costaron RD$436.90. Si Alberto pagó con un billete de 500 pesos, ¿cuánto le devolvieron a Alberto?\"",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "1. El docente pregunta: \"¿Cómo unieron las cantidades? ¿Qué resultados obtuvieron?\" (pág. 129).\n2. Anuncia que hoy aprenderán a sumar y restar números decimales.",
+          "actividad_numero": "Actividad 13 - A (Pág. 129)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "B, C",
+          "tiempo": "60",
+          "recursos": "• Video (si hay acceso)\n• Proyector/TV (si hay acceso)\n• Computadora (si hay acceso)\n• Pizarra\n• Cuadernos",
+          "descripcion": "Actividad 1 - Video y diálogo (15 min):\n1. El docente presenta el video \"Suma y resta de números decimales\" disponible en: https://www.youtube.com/watch?v=eED7s-UIL6g&t=180s (primeros 3 minutos) (pág. 129).\n2. Después del video, pregunta: \"¿Cómo se suman decimales? ¿Cómo se restan?\"\n3. En caso de no tener acceso a tecnología, explica con ejemplos en la pizarra.\n\nActividad 2 - Situación problemática en parejas (25 min):\n1. El docente organiza parejas y plantea la situación (pág. 129): \"Rafaelina compró una funda de globos por RD$43.4 y un paquete de carritos por RD$65.5. ¿Qué cantidad de dinero gastó en los 2 artículos?\"\n2. Las parejas trabajan.\n3. Socializan: 43.4 + 65.5 = 108.9. Explican el proceso alineando los puntos decimales (pág. 130).\n\nActividad 3 - Segunda situación problemática (20 min):\n1. El docente plantea (pág. 129): \"La madre de Emmanuel compró un paquete de galletas por RD$134.95 y una caja de chocolate por RD$265.50. ¿Cuánto gastó en total? ¿Cuánto más cuestan los chocolates que las galletas?\"\n2. Las parejas resuelven.\n3. Socializan suma: 134.95 + 265.50 = 400.45; resta: 265.50 - 134.95 = 130.65 (pág. 131-132).",
+          "actividad_numero": "Actividad 13 - B y C (Pág. 129-132)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Cuadernos",
+          "descripcion": "Actividades finales:\n1. Juego de cierre (pág. 133): Formados en parejas, cada estudiante escribe un número decimal, luego deciden si suman o restan las 2 cantidades. Repetir con varias parejas.\n2. Actividad para el cuaderno: Los estudiantes resuelven los problemas de la página 132: \"Adrián tiene en una funda 2 objetos que cuestan RD$156.82 y RD$245.92. ¿Cuánto dinero cuestan entre los 2 objetos?\" y \"Alberto compró tres artículos que le costaron RD$436.90. Si Alberto pagó con un billete de 500 pesos, ¿cuánto le devolvieron?\"\n3. Actividad complementaria: Los estudiantes resuelven las operaciones de la página 133 (4.90+26.27, 44.90-26.27, 34.5+3.65, 34.5-3.65) y escriben cómo se leen esos decimales.\n4. Actividad para el diario del estudiante: Los estudiantes preguntan a un familiar por 2 artículos cuyo precio sea número decimal y suman esos precios para determinar el total (pág. 133).",
+          "actividad_numero": "Actividad 13 - Cierre (Pág. 132-133)"
+        }
+      ]
+    },
+    {
+      "id": "1772545217207",
+      "sequence_id": "seq-1772540270856",
+      "order_index": 13,
+      "title": "Actividad 14",
+      "name": "Evaluación de la Secuencia",
+      "intencion_pedagogica": "Evaluar la secuencia #4, haciendo énfasis en la resolución de problemas.",
+      "estrategia": "• Diálogo dirigido: Recuperación de temas de la secuencia.\n• Explicación de la escala de valoración.\n• Evaluación escrita: Resolución de problemas integradores.\n• Aplicación de conocimientos: Demostración de competencias adquiridas.",
+      "aprendizaje_significativo": "Los estudiantes demuestran sus aprendizajes resolviendo problemas que integran todos los contenidos de la secuencia (fracciones, números mixtos, fracciones equivalentes, operaciones con fracciones y decimales) en contextos variados.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión: Se les leen los problemas en voz alta si es necesario.\n• Para estudiantes kinestésicos: Pueden usar la tabla de valor posicional si lo necesitan.\n• Para estudiantes con discapacidad visual: Se les proporciona la evaluación en formato ampliado.\n• Para estudiantes avanzados: Se les puede pedir que, al terminar, ayuden a revisar sus respuestas.",
+      "actividades_cuaderno": "No hay actividad para el cuaderno en esta clase, ya que es la evaluación de la secuencia.",
+      "inicio": [
+        {
+          "letras": "A",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Tabla de valoración",
+          "descripcion": "1. El docente pregunta: \"¿Qué trabajaron en esta secuencia?\" (pág. 134).\n2. Lee con los estudiantes la tabla de valoración para que comprendan cómo se evaluarán los resultados (pág. 134).",
+          "actividad_numero": "Actividad 14 - A (Pág. 134)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Hojas en blanco\n• Lápices\n• Reglas",
+          "descripcion": "Evaluación escrita:\n1. El docente entrega una hoja en blanco a cada estudiante donde colocarán sus datos: nombre del centro, nombre del estudiante, fecha, grado y sección (pág. 134).\n2. Explica la valoración de cada ítem.\n3. Presenta los problemas de evaluación (págs. 135-136):\n\nÍtem 1 (10 pts): Representar gráficamente las fracciones: 2/5, 3/6, 4/3, 9/15.\nÍtem 2-3 (10 pts): (No especificado en el PDF)\nÍtem 4 (10 pts): Escribir al lado de cada fracción si es propia o impropia: 2/5, 7/6, 2/5.\nÍtem 5 (10 pts): \"Alexander tiene 4 cajas de regalos llenas de paletas y otra caja que tiene solo la mitad. Expresa como un número mixto la cantidad de paletas que tiene Alexander.\"\nÍtem 6 (10 pts): Escribir al lado de los pares de fracciones si son equivalentes o no, representar gráficamente: 2/5 y 6/12, 1/4 y 3/12.\nÍtem 7 (10 pts): \"Rosa tiene una colección de 12 muñecas, de estas 5 son Barbie, 3 son Minene y 4 son Minnie Mouse. ¿Qué fracción representa la cantidad de muñecas Barbie que tiene Rosa con relación al total de muñecas? ¿Cómo se escribe en forma de fracción la cantidad de muñecas Minene que tiene Rosa en relación al total de muñecas?\"\nÍtem 8 (10 pts): \"En la casa de Alexander queda 2/8 de una pizza y 1/10 de otra pizza, ¿qué cantidad de pizza en total, tiene Alexander?\" y \"José compra en el supermercado 3/4 libra de jamón y 1/5 libra de queso. ¿Qué cantidad de libra de jamón compró más en relación a la cantidad de queso?\"\nÍtem 9 (10 pts): \"Juana tiene 40 libras de harina pastelera, ella usa por cada galleta 5/6 de libras de harina. ¿Cuántas galletas puede hacer Juana con esas 40 libras de harina?\"\nÍtem 10 (10 pts): Escribir al lado los elementos del número decimal (imagen).\nÍtem 11 (10 pts): Escribir cómo se leen y el valor posicional de cada dígito: 43.82, 391.75, 245.90, 4.2, 1.65, 10.4.\nÍtem 12 (10 pts): \"El padre de Félix le compró para su cumpleaños dos paquetes de juguetes, si costaban RD$465.35 y RD$184.90 respectivamente. ¿Cuánto pagó el padre de Félix en total? ¿Si pagó con RD$1,000 cuánto le devolvieron?\"\n\n4. Los estudiantes trabajan individualmente durante el tiempo asignado.",
+          "actividad_numero": "Actividad 14 - B (Pág. 134-136)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Evaluaciones completadas",
+          "descripcion": "1. El docente recoge las evaluaciones.\n2. Agradece a los estudiantes por su esfuerzo durante la secuencia.\n3. Anuncia el inicio de la siguiente secuencia.",
+          "actividad_numero": "Actividad 14 - Cierre (Pág. 136)"
+        }
+      ]
+    }
+  ]
+}

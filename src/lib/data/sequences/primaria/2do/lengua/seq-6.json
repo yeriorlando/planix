@@ -1,0 +1,445 @@
+{
+    "sequenceId": "seq-lengua-6",
+    "subjectId": "lengua",
+    "sequenceTitle": "El Cuento",
+    "blocks": [
+        {
+            "blockNumber": 1,
+            "title": "Bloque 1 - Introducción al Cuento",
+            "activities": [
+                {
+                    "title": "Actividad 1",
+                    "pedagogicalIntention": "Comparten conocimientos previos sobre los cuentos y conocen características de este tipo textual.",
+                    "resources": "Papelógrafo de aprendizajes.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Conversación para indagar conocimientos previos",
+                            "description": "La secuencia comienza con una conversación acerca de lo que saben los estudiantes sobre los cuentos.\nPara activar y recuperar sus saberes previos, el docente puede hacer preguntas como: ¿Qué cuentos conocen? ¿Cuál es su cuento favorito? ¿Recuerdan algún cuento que les haya gustado? ¿Qué les gustó de ese cuento? ¿Hay algún cuento que no les haya gustado? ¿Por qué no les gustó?"
+                        },
+                        {
+                            "title": "Momento 2. Diferencia entre hecho real y narración de ficción",
+                            "description": "El docente pide a los estudiantes que escuchen muy atentamente dos textos y entre todos tienen que decidir cuál sería un buen comienzo para un cuento. Puede leer los ejemplos más de una vez.\nTexto 1: Un pollito camina. Le cae encima una ciruela. Pía y sigue caminando.\nTexto 2:\nUn día, Pollito Pito fue al bosque y ¡pum! le cayó una ciruela en la cabeza.\nDijo muy asustado: — ¡El cielo se va a caer y el Rey lo debe saber! Voy de prisa a darle la noticia.\nEl docente abre una conversación en clase. Les puede preguntar: ¿Cuál eligen para comenzar un cuento? ¿Por qué? Los escucha atentamente. Los anima a pensar la diferencia entre exponer un hecho común o iniciar un relato imaginario. Se trata de saber si los estudiantes perciben la diferencia entre un hecho cotidiano y una creación donde los animales hablan y piensan en ir a contarle algo a un rey. El docente les comunica que van a leer un cuento donde a un pollito le sucede que le cae una ciruela en la cabeza y ya se van a enterar qué le pasa. Les dice que el cuento es popular, que no tiene autor conocido y que se llama “Pollito Pito”.\nEl docente les pide que piensen en otros cuentos que conocen y que comenten sus características y los conflictos que enfrentan los personajes."
+                        },
+                        {
+                            "title": "Momento 3. Las partes del cuento",
+                            "description": "El docente propone un juego con el objetivo de que los estudiantes repasen o conozcan oralmente las partes de un cuento. Escribe en la pizarra: inicio, nudo y desenlace.\nLuego, seleccionan un cuento que conozca todo el grupo completo, por ejemplo: Caperucita roja, Los tres cerditos (el docente propone un cuento que todos conocen, no tienen que ser estos).\nEl docente ayuda a los estudiantes a inferir qué significa cada palabra. Pregunta: ¿Cuál es el inicio? ¿Cuál es el nudo o problema que se presenta? ¿Cómo termina, es decir, cuál es el desenlace? Cada parte, ¿puede ir en cualquier orden? ¿Cómo será el orden de las partes?\nCuando quedó claro el orden de las partes, los estudiantes cuentan el inicio del cuento que eligieron. Luego, cuentan el nudo y el desenlace. El docente va guiando para que la información esté completa y clara en cada parte."
+                        },
+                        {
+                            "title": "Momento 4. Actividad en el fascículo",
+                            "description": "Los estudiantes tienen que escribir la palabra que falta (inicio - nudo - desenlace), en las definiciones de las partes del cuento. El docente lee las frases en voz alta. Luego encuentran entre todas las respuestas correctas:\nInicio: significa comienzo, que empieza.\nNudo: significa problema, algo que sucede en el cuento que los personajes deben resolver.\nDesenlace: significa “final”, donde se resuelve el problema."
+                        },
+                        {
+                            "title": "Momento 5. Presentación del papelógrafo de aprendizajes",
+                            "description": "El docente les presenta el papelógrafo de aprendizajes y lo leen entre todos. Los anima para que hagan preguntas acerca de lo que van a aprender.\nEN ESTAS SEMANAS TRABAJAREMOS PARA:\n● Escuchar y volver a narrar cuentos.\n● Conocer la forma o estructura del cuento: inicio, nudo y desenlace.\n● Conocer nuevas palabras a partir de la lectura de cuentos.\n● Escribir un cuento con ayuda."
+                        },
+                        {
+                            "title": "Momento 6. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Luego explica que dejarán registrado en el cuaderno que hoy empiezan una nueva secuencia. El docente dicta: “Hoy empezamos la secuencia de cuento”. El docente dicta la oración. Luego la escribe en la pizarra. Los estudiantes comparan, revisan y corrigen su escrito. El docente recorre el aula y ayuda a quién requiere más apoyo."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Explica a un familiar cuál es la diferencia entre un hecho y un cuento y cuáles son las partes del cuento.”"
+                },
+                {
+                    "title": "Actividad 2",
+                    "pedagogicalIntention": "Exploran el paratexto del cuento. Escuchan un cuento. Vuelven a narrar un cuento. Identifican los personajes.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente pregunta qué recuerdan sobre la definición de las partes del cuento. Motiva a la participación y escucha las ideas de los estudiantes."
+                        },
+                        {
+                            "title": "Momento 2. Explorar el paratexto de un cuento",
+                            "description": "El docente guía a los estudiantes en la observación del cuento Pollito Pito en el fascículo. A través de preguntas, los invita a identificar los elementos del paratexto, como el título, su ubicación y el tipo de letra utilizada (tamaño y grosor). También les pregunta si aparece el nombre del autor y les recuerda que los cuentos populares son anónimos, es decir, no tienen un autor conocido."
+                        },
+                        {
+                            "title": "Momento 3. Lectura del cuento y narración",
+                            "description": "El docente lee el cuento haciendo una lectura modélica para posibilitar la escucha atenta y el disfrute de los estudiantes. Luego de la lectura, propone a los estudiantes que lo vuelvan a narrar, a contar con sus palabras, y los guía para que lean en voz alta algún fragmento. Les da tiempo y los motiva para que se animen. Luego abre un diálogo en clase. Formula preguntas para guiarlos hacia la comprensión de la trama y de las relaciones entre los personajes y el conflicto que viven.\nLa comprensión de un cuento no es una tarea automática. Los cuentos, por sencillos que parezcan, proponen el análisis e inferencias de acciones y conductas, para el planteo de hipótesis. Son una magnífica oportunidad para pensar, dialogar y cambiar ideas.\nUna narración completa basada fundamentalmente en la escucha atenta, es una forma de verificar la comprensión de los estudiantes sobre el cuento y su reconocimiento y uso de estrategias de interpretación literaria para la narración.\nLas primeras preguntas procuran la identificación del hecho que da origen a la acción. ¿Qué le pasó a Pollito Pito? (Le cayó una ciruela en la cabeza). El docente pregunta: Cuando escuchamos o leemos el cuento sabemos que al pollito le pasó algo. ¿Qué se nos dice en el cuento que le pasó realmente? Les da tiempo para pensar y contestar (Al pollito le cayó una ciruela en la cabeza). Después pregunta: ¿Qué cree Pollito que pasó? ¿Cómo sabemos lo que cree Pollito?\nLa intención del diálogo anterior es que los estudiantes identifiquen la diferencia entre el hecho que sucedió y que los lectores conocemos y la interpretación que hace el personaje sobre lo que sucedió. (Cree que el cielo se va a caer).\nDespués de cada pregunta el docente puede releer o hacer releer el fragmento correspondiente a la respuesta, si los estudiantes no lo recuerdan. Da tiempo para que los estudiantes comenten y los anima a dar su parecer sobre las acciones de los personajes. Las preguntas que va haciendo el docente apuntan a la lectura comprensiva del cuento en todas sus dimensiones, por eso se desarrollan en distintos momentos de la actividad.\nLuego identifican los personajes amigos del pollito, sus acciones y sus propósitos. El docente sigue preguntando para que los estudiantes reconozcan la acción que se inicia y el objetivo que tiene el personaje: ¿Qué decide hacer el pollito? (Decide que el Rey tiene que saber que el cielo se va a caer y corre para avisarle).\nSigue preguntando para que los estudiantes identifiquen las demás acciones que se van encadenando a partir de la acción principal y que suceden en el camino: ¿Qué le pasa en el camino? ¿Va solo a avisarle al Rey? (No. Se encuentra con amigos que van con él).\nLas siguientes preguntas del docente tienen como finalidad profundizar la comprensión, no sólo literal, sino inferencial, respecto de la forma de actuar y pensar de los personajes que se va encontrando el pollito en el camino. El docente puede pedir que relean las partes donde se van encontrando los distintos personajes y después de cada relectura pregunta: ¿Cómo se llama este personaje? ¿Qué le pregunta este personaje al pollito? ¿Qué contesta el pollito? ¿Qué hace el nuevo personaje? ¿Cree lo que le cuenta el pollito o no cree? ¿Cómo nos damos cuenta?"
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Luego explica que dejarán registrado en el cuaderno lo realizado en el día. Orienta con preguntas: ¿Qué hicimos hoy? El docente menciona la frase que escribirán, por ejemplo: “Hoy leímos el cuento del Pollito Pito”. Escribe las palabras desordenadas en la pizarra y anima a pasar por turno a los estudiantes a la pizarra. Deben leer y ordenar las palabras para conformar la oración. Se recomienda priorizar la participación de los estudiantes que necesitan más apoyo para aprender a leer y escribir. El docente orienta con preguntas: ¿Con qué palabra empieza? ¿Dónde dice “hoy”? ¿con qué letra empieza la palabra “leímos”? ¿Por qué “Pito” empieza con mayúscula? El docente va leyendo la frase que se está conformando. Cuando la completan, los estudiantes la copian. El docente recorre el aula y revisa las escrituras."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Cuenta a un familiar el cuento Pollito Pito. Luego, escribe en tu cuaderno el nombre de uno de los personajes que recuerdas”."
+                },
+                {
+                    "title": "Actividad 3",
+                    "pedagogicalIntention": "Identifican el conflicto o nudo del cuento. Identifican el desenlace.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente inicia preguntando a los estudiantes si contaron el cuento \"Pollito Pito\" a un familiar y cómo reaccionaron. Luego, los invita a decir en voz alta los nombres de los personajes que recuerdan y los escribe en la pizarra. Los estudiantes comparan con lo que escribieron en sus cuadernos y corrigen la escritura."
+                        },
+                        {
+                            "title": "Momento 2. Identificación del conflicto o nudo del cuento",
+                            "description": "El docente pregunta: ¿Todos los personajes hacen lo mismo? ¿Hay algún personaje que hace o dice algo diferente? Les da tiempo para que encuentren a la zorra.\nEl docente trata de que identifiquen con claridad la conducta de la zorra. ¿Qué quiere hacer la zorra? ¿Quiere ayudar a los animalitos? ¿Qué les dice? ¿Podemos darnos cuenta de qué quiere hacer realmente la zorra? Les da tiempo para que relean la parte de la zorra y comenten. ¿Ese personaje trae algún cambio en lo que venía sucediendo? ¿Es un personaje bueno o peligroso para los animalitos? ¿Cómo sabemos? ¿Qué hacen los personajes frente al problema? Se trata de que los estudiantes identifiquen el nudo del cuento; es decir el momento en que el proyecto del personaje y sus amigos encuentra un conflicto, obstáculo o problema que deben resolver."
+                        },
+                        {
+                            "title": "Momento 3. Identificación del desenlace del cuento",
+                            "description": "El docente concentra la lectura en la última parte del cuento.\n- Pregunta: ¿Cómo resuelven Pollito y sus amigos el problema de la zorra?\n- El desenlace termina cuando se encuentran con el Rey y le transmiten su mensaje. ¿Qué hace el Rey? ¿Cree lo mismo que el pollito y sus amigos? ¿Cómo saben?"
+                        },
+                        {
+                            "title": "Momento 4. Lectura crítica",
+                            "description": "Una vez identificados los personajes que acompañan al pollito y sus conductas, el docente propone un nivel de lectura crítica:\n- ¿Ustedes hubieran hecho lo mismo que Gallina Fina, Pato Zapato y los demás amigos de Pollito? ¿Hubieran seguido al pollito? ¿Hubieran preguntado algo más? ¿Alguna vez les pasó algo así? ¿Alguna vez creyeron que había pasado algo, pero en realidad había pasado otra cosa? ¿Cómo se dieron cuenta? ¿Por qué creen que ustedes le hubieran preguntado algo más? Se trata de incentivar una lectura activa, interpretativa y crítica."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Luego explica que dejarán registrado en el cuaderno lo aprendido en el día. Orienta con preguntas: ¿Qué hicimos hoy? ¿Cuáles son las tres partes de un cuento? ¿Puede haber un cuento sin nudo? Anima a los estudiantes a escribir una frase o palabra sobre lo aprendido. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Practica la lectura de esta síntesis del cuento del Pollito Pito:\nA Pollito Pito le cae una ciruela en la cabeza. Cree que el cielo se va a caer. El pollito corre a avisarle al Rey. Encuentra amigos que van con él. Encuentran a una zorra que los quiere comer. Se liberan de la zorra. Ven al Rey. El Rey les agradece y les da un regalo”."
+                },
+                {
+                    "title": "Actividad 4",
+                    "pedagogicalIntention": "Escriben los nombres de los personajes.",
+                    "resources": "Tarjetas de letras. Tarjetas de partes del cuento (inicio, nudo y desenlace).",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "El docente propone a algunos estudiantes que lean la síntesis en voz alta. Conviene que indique la lectura de oraciones en diferente orden: leer la tercera oración, leer de abajo hacia arriba, leer una oración que empiece con S."
+                        },
+                        {
+                            "title": "Momento 2. Los personajes. Nombres",
+                            "description": "El docente pregunta: ¿Cómo le explicamos a alguien qué es un personaje de un cuento? (El docente los guía para que piensen que los personajes son los que viven las acciones que suceden en los cuentos) ¿Quién es el personaje principal en este cuento? ¿Hay otros personajes? El docente les indica que busquen los nombres de los personajes del cuento y los lean."
+                        },
+                        {
+                            "title": "Momento 3. Armar los nombres de los personajes con tarjetas de letras",
+                            "description": "El docente los organiza en grupos y con sus tarjetas de letras, arman el nombre de un personaje del cuento. Según las posibilidades del grupo, puede indicar más nombres a cada grupo. El docente revisa que los armen correctamente.\nLos nombres son: Pollito Pito - Gallina Fina - Gallo Malayo - Pato Zapato - Ganso Garbanzo - Pavo Centavo - Zorra Cachorra - Rey"
+                        },
+                        {
+                            "title": "Momento 4. Nombres completos de los personajes",
+                            "description": "En el fascículo para estudiantes realizan la actividad n.º 4: unen con flechas las dos palabras del nombre de los personajes. Luego, entre todos revisan las respuestas. Para esto, el docente debe copiar el ejercicio en la pizarra e ir uniendo conforme a la respuesta de los estudiantes y entre todos validar si es la respuesta correcta."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Conversan sobre lo aprendido y realizado en el día: ¿Qué hicimos hoy? ¿Qué aprendimos? El docente explica que va a dictar el nombre de un personaje del cuento. Luego el docente escribe el nombre del personaje en la pizarra y los estudiantes comparan y revisan. A continuación, deben encerrar todas las veces que aparece el nombre del personaje en el texto del cuento."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Completa las oraciones con las palabras que faltan: Las partes del cuento son: _____________, ______________ y _________________. Quienes realizan las acciones de los cuentos son los __________________________”"
+                }
+            ]
+        },
+        {
+            "blockNumber": 2,
+            "title": "Bloque 2 - Análisis y Gramática",
+            "activities": [
+                {
+                    "title": "Actividad 5",
+                    "pedagogicalIntention": "Identifican el uso de la rima en el cuento. Profundizan el reconocimiento y uso de número singular y plural.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Revisan el correcto llenado de blancos en la tarea para el hogar."
+                        },
+                        {
+                            "title": "Momento 2. Revisión del papelógrafo de aprendizajes",
+                            "description": "El docente retoma el papelógrafo de aprendizajes. Entre todos, marcan con una cruz las actividades que realizaron y leen las que realizarán a lo largo de toda la secuencia."
+                        },
+                        {
+                            "title": "Momento 3. La rima",
+                            "description": "Este cuento usa muchas rimas como recurso. El docente escribe en la pizarra los nombres de tres personajes: Pollito Pito, Gallina Fina, Pavo Centavo. Indica a los estudiantes que lean los nombres completos de los personajes y marquen los finales que se repiten en las dos palabras. Por ejemplo: Pollito Pito Gallina Fina, Pavo Centavo.\nEl docente comenta que esa coincidencia de terminaciones se llama rima. Les hace ver que coinciden varios sonidos a partir de la vocal que recibe el acento de la palabra, que se puede pronunciar con más fuerza o énfasis, aunque no tenga tilde o acento ortográfico escrito. A veces coinciden todos los sonidos y a veces coinciden alguna consonante y las vocales. Por ejemplo, Gallina Fina. Lobos solos."
+                        },
+                        {
+                            "title": "Momento 4. Completan la actividad n.º 5 del fascículo",
+                            "description": "Deben unir el nombre de cada animal con la palabra que rime.\nPonen en común los resultados. Se corrigen entre todos. Al corregir la identificación de rimas, el docente puede usar la pizarra o las tarjetas de letras para mostrar la rima correcta."
+                        },
+                        {
+                            "title": "Momento 3. Singular y plural",
+                            "description": "El docente escribe en la pizarra “Pato” (sin leerla en voz alta) y pide a un estudiante que dibuje lo que dice la palabra. Luego, escribe “Patos” (sin leerla en voz alta) y pide a un estudiante que dibuje lo que dice la palabra. Ante los dibujos distintos, pregunta: ¿qué parte de la palabra nos hizo pensar en que eran muchos los patos? Los estudiantes marcan en la pizarra la letra “s”. El docente explica que a veces los finales de las palabras dan informaciones sobre cantidad.\nPara cerrar la actividad y reforzar el contenido, el docente presenta imágenes de otros animales. Invita a los estudiantes a pronunciar en voz alta el nombre del animal en singular y en plural, destacando cómo cambia la palabra al referirse a uno o varios."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Conversan sobre lo aprendido y realizado en el día: ¿Qué hicimos hoy? ¿Qué aprendimos? El docente explica que va a escribir una rima con un animal en singular y otra rima con un animal en plural, la eligen entre todos. Por ejemplo: vaca ataca y pájaros raros. Escriben al dictado las rimas creadas, al hacerlo el docente prolonga o aísla cada sonido de cada letra (no por sílabas). Luego el docente las escribe en la pizarra y los estudiantes comparan y revisan. El docente recorre el aula y ayuda a quienes necesitan."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Completa el cuadro con la palabra que indica uno o más”. El docente los hace leer el mandato y las palabras del cuadro y les da un ejemplo: si decimos gallina nos referimos a una; si decimos gallinas nos referimos a más de una.\nUNO – SINGULAR MUCHOS – PLURAL\nPollito\nGansos\nGallo\nZorras\nPato"
+                },
+                {
+                    "title": "Actividad 6",
+                    "pedagogicalIntention": "Comprenden el uso del número verbal.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Recuperación de la tarea para el hogar",
+                            "description": "Revisan el correcto llenado del cuadro en la tarea para el hogar. El docente lo completa en la pizarra y todos corrigen."
+                        },
+                        {
+                            "title": "Momento 2. Otra palabra que indica uno o más: el número en el verbo",
+                            "description": "El docente les indica que observen estas oraciones que escribe en la pizarra y digan cuáles se refieren a dos o más personajes del cuento y cuáles se refieren a un personaje del cuento. Les pregunta: ¿Cómo se dan cuenta? ¿Hay algún cambio en las palabras que los ayuda a darse cuenta si se habla de uno o de más de uno?\n1. ¿Dónde vas tan tempranito?\n2. ¿Dónde van tan tempranito?\n3. Yo voy también.\n4. Allá fueron los dos.\nLos estudiantes dan sus opiniones. Es importante que el docente tome nota de sus observaciones y juntos vean que también hay otras palabras que cambian para indicar singular y plural.\nEl docente explica que esas palabras son los verbos. Los verbos son palabras que indican acciones y cambian para indicar si la acción la realiza una persona o más de una. El docente puede escribir en la pizarra:\na) ¿Dónde vas tú?\nb) ¿Dónde van ustedes?\nPara que los estudiantes observen que, en a) la pregunta se dirige a uno; en cambio en b), la pregunta se dirige a más de uno. Esa diferencia la indica el verbo: vas en un caso y van en el otro.\nEl docente usa las tarjetas de letras del aula para mostrar las terminaciones y los cambios de palabras que indican singular y plural."
+                        },
+                        {
+                            "title": "Momento 3. Resolver la actividad n.°5 del fascículo",
+                            "description": "El docente explica la actividad 5 del fascículo: marca si la acción la hace un personaje (singular) o si la hace más de un personaje (plural).\nPonen en común los resultados. Corrigen los errores."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Conversan sobre lo aprendido y realizado en el día: ¿Qué hicimos hoy? ¿Qué aprendimos? Anima a los estudiantes a escribir una frase o palabra sobre lo aprendido. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe dos frases utilizando estas palabras: PATOS - GALLINA - DUERME - COMEN"
+                },
+                {
+                    "title": "Actividad 7",
+                    "pedagogicalIntention": "Desarrollan la comprensión del uso y función de la raya de diálogo en textos narrativos.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisión de la tarea para el hogar",
+                            "description": "El docente propone a algunos estudiantes que lean en voz alta sus oraciones. Revisan la coherencia y la escritura. Se concluye que el verbo debe concordar con el número del sujeto para construir frases correctamente (La gallina duerme. Los patos comen)."
+                        },
+                        {
+                            "title": "Momento 2. Cuento con diálogo. La forma del diálogo",
+                            "description": "El docente indica a los estudiantes que observen en el cuento las “rayas” (-) que encuentran. Una vez que las observan, pregunta: ¿Por qué creen que están esas rayas? ¿Indican algo? Escucha las respuestas de los estudiantes y, finalmente, sistematiza las ideas explicando que se trata de las líneas de diálogo que en un texto indican la conversación entre personajes. Les hace leer el primer diálogo.\nHace observar cómo se escribe un diálogo. Les explica qué significa la raya de diálogo. Les pregunta quién dice cada oración.\nCamina que camina encontró a Gallina Fina.\n- Buen día, Pollito Pito, ¿adónde vas tan tempranito?\n- ¡El cielo se va a caer y el Rey lo debe saber! Voy de prisa a darle la noticia.\n- Pues yo voy también a decírselo al Rey.\nEscribe en la pizarra: La raya de diálogo es un signo que indica cuándo habla cada personaje."
+                        },
+                        {
+                            "title": "Momento 2. Diálogos",
+                            "description": "Resuelve la actividad n.°7 del fascículo. Deben colorear las rayas de diálogo en el siguiente texto. Escribe quién dice cada oración.\nCamina que camina encontró a Gallina Fina. ¿Quién lo dice?\n- Buen día, Pollito Pito, ¿adónde vas tan tempranito?\n- ¡El cielo se va a caer y el Rey lo debe saber! Voy de prisa a darle la noticia.\n- Pues yo voy también a decírselo al Rey.\nPonen en común las respuestas. Corrigen entre todos."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Conversan sobre lo aprendido y realizado en el día: ¿Qué hicimos hoy? ¿Qué aprendimos? Anima a los estudiantes a escribir una frase o palabra sobre lo aprendido. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Completa la siguiente oración: La _________ de ____________ es un signo que indica cuándo habla cada __________.”"
+                },
+                {
+                    "title": "Actividad 8",
+                    "pedagogicalIntention": "Amplían el vocabulario. Practican la lectura.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisión de la tarea para el hogar",
+                            "description": "Revisan la tarea para el hogar y corrigen entre todos. El docente completa la frase en la pizarra: La raya de diálogo es un signo que indica cuándo habla cada personaje."
+                        },
+                        {
+                            "title": "Momento 2. Lectura silenciosa",
+                            "description": "El docente indica a los estudiantes que lean en silencio el cuento y subrayen las palabras que no entienden. Les da tiempo para hacerlo."
+                        },
+                        {
+                            "title": "Momento 3. Vocabulario",
+                            "description": "El docente muestra a los estudiantes cómo busca en el diccionario las palabras que subrayaron. Les lee el significado. Escribe las palabras y los significados en la pizarra."
+                        },
+                        {
+                            "title": "Momento 4. Lectura rápida de palabras repetidas",
+                            "description": "El docente propone un juego a la clase: van a contar cuántas veces está escrita en el cuento la palabra que les dice. El docente dice una palabra; por ejemplo “Pollito”, y espera que los estudiantes contesten. Puede asignar un párrafo por estudiante para realizar la búsqueda o dividir el cuento en tantas partes como equipos haya en la clase. Luego de la búsqueda, entre todos controlan el número de veces que aparece.\nEscribe la palabra y el número de veces que aparece en la pizarra y después se pasa a la siguiente palabra. Una vez que ejemplificó el juego, dirigen los estudiantes:\n¿Cómo hacen?\n- Cada equipo busca una palabra distinta en el cuento y la copia en el fascículo de estudiantes. Al lado anota cuántas veces aparece. Ejemplo de palabras que pueden buscar: Gallina, Rey, Gallo, Zapato, Fina, Centavo, día, cielo, caer, saber, noticia, tempranito, camina, atajo, cueva.\n- Cuando están listos, se lo comunican al docente.\n- El docente hace pasar a un equipo.\n- Pasan al frente y dicen la palabra que eligieron buscar.\n- Los demás equipos buscan esa palabra en el cuento y dicen cuántas veces aparece.\n- El equipo que dirige el juego controla la cantidad y escribe en la pizarra la palabra y el número.\n- Todos controlan la escritura y el número.\n- Se repite el juego con otros equipos."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Conversan sobre lo aprendido y realizado en el día: ¿Qué hicimos hoy? ¿Les gustó el juego? ¿Qué aprendimos con el juego? ¿Les resultó difícil? El docente indica que escriban las tres palabras que más se repiten en el cuento y luego revisa las escrituras para acompañar y corregir, si es necesario."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Ordena las letras para armar palabras del cuento: í d a ________ i c o l e ________ o t n a i c i ________ u e q s b o ________ v a c u e __________ i n m a a c __________"
+                },
+                {
+                    "title": "Actividad 9",
+                    "pedagogicalIntention": "Escriben al dictado. Practican la lectura.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisión de la tarea para el hogar",
+                            "description": "Revisan la tarea para el hogar y corrigen entre todos. Las palabras que debían formar son: día, cielo, bosque, noticia, camina, cueva."
+                        },
+                        {
+                            "title": "Momento 2",
+                            "description": "El docente reparte hojas sueltas con líneas y dicta las palabras que habían escrito. En total dicta 15 palabras. Las palabras deben ser aquellas que se trabajaron en las actividades anteriores. Se deja a decisión del docente para que adapte esta actividad a lo que efectivamente dio en clase. Se deja una lista de opciones como orientación: los nombres de los personajes, los adjetivos que acompañan a los nombres de los personajes (en singular y plural), rey, día, cielo, bosque, noticia, camina, cueva."
+                        },
+                        {
+                            "title": "Momento 3. Revisión colaborativa",
+                            "description": "En grupos, los estudiantes revisan los dictados, con la guía del docente. El docente propone una revisión colectiva. Para esto, escribe la palabra a corregir en la pizarra y guía la corrección con preguntas como: ¿cuántas letras tiene? La que ustedes escribieron, ¿tiene la misma cantidad de letras? ¿Cuál falta? ¿Cuál sobra? ¿Están todas en el mismo orden que las que están en la pizarra? Esta palabra, ¿debía comenzar con mayúscula? (Ver “Cómo se enseña a revisar escrituras” en la secuencia 1 “Yo soy”, actividad 6, momento 1).\nCada estudiante hace sus correcciones en su hoja. Finalmente, pegan la hoja en el cuaderno."
+                        },
+                        {
+                            "title": "Momento 4. Juego con lectura rápida de frases repetidas",
+                            "description": "Se repite el juego que hicieron con las palabras en la actividad 7, pero con frases que se repiten. Por ejemplo: ¡El cielo se va a caer y el Rey lo debe saber! ¿Dónde van tan tempranito? Vamos de prisa a darle la noticia.\n¿Cómo hacen?\n- Cada equipo busca una frase distinta en el cuento y la copia en el fascículo de estudiantes. Al lado anota cuántas veces aparece.\n- Cuando están listos, se lo comunican al docente.\n- El docente hace pasar a un equipo.\n- Pasan al frente y dicen la frase que eligieron buscar.\n- Los demás equipos buscan esa frase en el cuento y dicen cuántas veces aparece.\n- El equipo que dirige el juego controla la cantidad y escribe en la pizarra la frase y el número.\n- Todos controlan la escritura y el número.\n- Se repite el juego con otros equipos."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Conversan sobre lo aprendido y realizado en el día: ¿Qué hicimos hoy? ¿Les gustó el juego? ¿Qué aprendimos con el juego? ¿Les resultó difícil? El docente indica que escriban la frase que más se repite en el cuento y luego revisa las escrituras para acompañar y corregir si es necesario."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: “Completa las palabras que faltan en el siguiente fragmento del cuento:\nY allí fueron los _______: Gallina Fina y Pollito Pito. _______________ que camina encontraron a Gallo Malayo.\n- Buen día, Gallina _____________ y Pollito Pito. ¿Adónde van tan tempranito?\n- ¡El __________ se va a caer y el Rey lo debe saber! Vamos de prisa a darle la noticia.\n- Pues yo voy también a decírselo al ___________________”."
+                }
+            ]
+        },
+        {
+            "blockNumber": 3,
+            "title": "Bloque 3 - Producción de Cuentos",
+            "activities": [
+                {
+                    "title": "Actividad 10",
+                    "pedagogicalIntention": "Planifican la escritura de un cuento.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisión de la tarea para el hogar",
+                            "description": "Revisan la tarea para el hogar y corrigen entre todos."
+                        },
+                        {
+                            "title": "Momento 2. Papelógrafo. Revisión de los aprendizajes realizados",
+                            "description": "Los estudiantes releen el papelógrafo y revisan cuadernos y fascículos para conversar sobre lo que aprendieron. Observan que les falta escribir un cuento. El docente les explica que van a escribir un cuento en pequeños grupos. Les explica que en el fascículo hay tarjetas con imágenes que se llaman “Tarjetas cuentacuentos” y que ayudan a imaginar muchos cuentos para luego escribirlos. Les dice que van a ir aprendiendo a usar las tarjetas en las actividades que siguen."
+                        },
+                        {
+                            "title": "Momento 3. El personaje principal",
+                            "description": "El docente les propone empezar por la elección del personaje principal. Indica que todo cuento tiene un personaje protagonista. Da ejemplos con cuentos tradicionales o conocidos por los estudiantes: el Pollito Pito, Caperucita Roja, La Cenicienta; entre otros.\nLes indica que observen las tarjetas cuentacuentos con Personajes en el fascículo. Los estudiantes leen en voz alta los personajes. El docente invita a los estudiantes a que describan cómo se los imaginan, cómo son, qué les gusta hacer, dónde viven."
+                        },
+                        {
+                            "title": "Momento 4. Actividad en el fascículo n.º 10",
+                            "description": "El docente organiza a los estudiantes en grupos, cada uno debe decidir cuál será el personaje principal de su cuento. Además, deben ponerle nombre. Si desean, pueden inventar un nombre con rima como en el caso de Pollito Pito, en el que todos los personajes tienen nombres rimados (Gallina Fina; Pato Zapato; etc.). Contrastan y comparten ideas en el grupo. Luego escriben el nombre del personaje principal en el fascículo."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Conversan sobre lo aprendido y realizado en el día: ¿Qué hicimos hoy? Anima a los estudiantes a escribir una frase que resuma lo realizado en clase. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión\n“Describe el personaje elegido: cómo es, dónde vive, qué le gusta, qué come”."
+                },
+                {
+                    "title": "Actividad 11",
+                    "pedagogicalIntention": "Planifican la escritura del inicio del cuento.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisión de la tarea para el hogar",
+                            "description": "Revisan la tarea para el hogar en el pequeño grupo. Allí cada uno lee su descripción del personaje y entre todos deciden cómo es."
+                        },
+                        {
+                            "title": "Momento 2. El objetivo del personaje",
+                            "description": "El docente explica que van a seguir pensando ideas para su cuento. Anticipa que esta actividad es para pensar el objetivo de su personaje principal. ¿Qué quiere lograr ese personaje? Orientar en las opciones de posibles objetivos de los protagonistas de los cuentos: Por ejemplo, ¿qué quería lograr el Pollito Pito? ¿Qué quería lograr Caperucita Roja? ¿Qué querían lograr los tres cerditos? Luego pide que busquen en el fascículo las tarjetas cuentacuentos con los objetivos de personajes. Los estudiantes leen en voz alta los objetivos de las tarjetas. Comentan entre todos."
+                        },
+                        {
+                            "title": "Momento 3. Grupos por grado. Actividad en el fascículo",
+                            "description": "El docente indica a los grupos que recuerden cuál es su personaje principal o protagonista. Después, pide a cada grupo que decidan cuál será el objetivo de su personaje principal. Para ello, observan y leen las tarjetas cuentacuentos de la actividad n.º11 del fascículo.\nSeleccionan uno de los objetivos. ¿Cuál les gustaría que sea el objetivo de su personaje principal? Si desean pueden pensar y escribir un objetivo que no esté entre las opciones."
+                        },
+                        {
+                            "title": "Momento 4. Lugares",
+                            "description": "El docente indica que piensen en qué lugar va a suceder el cuento. Les indica que busquen en las tarjetas cuentacuentos que se llaman Lugares en el fascículo. Observan las tarjetas en grupo. Comentan cómo son los lugares, cuál les gusta y por qué. Cada grupo selecciona uno de los lugares para su cuento."
+                        },
+                        {
+                            "title": "Momento 5. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Conversan sobre lo aprendido y realizado en el día: ¿Qué hicimos hoy? Anima a los estudiantes a escribir una frase que resuma lo realizado en clase. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión\n“Completa la siguiente información”:\nINICIO: Ideas para mi cuento\nMi personaje principal es: _______________________________________\nQuiere: _________________________________________\nSucede en: _________________________________________"
+                },
+                {
+                    "title": "Actividad 12",
+                    "pedagogicalIntention": "Planifican la escritura del nudo del cuento.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisión de la tarea para el hogar",
+                            "description": "Revisan la tarea para el hogar. Cada uno lee en voz alta lo que escribió. La corrigen entre todos."
+                        },
+                        {
+                            "title": "Momento 2. El nudo y funciones de los personajes",
+                            "description": "El docente recupera lo trabajado hasta el momento: indica que ya han decidido cuál es su personaje principal, cuál es el objetivo del personaje, y cuál es el lugar en el que sucede la historia. Anticipa que ahora es momento de inventar el “nudo” del cuento; es decir, un obstáculo que hace que el protagonista tenga dificultad para alcanzar su objetivo. El docente orienta ejemplificando con los nudos de cuentos tradicionales: Caperucita Roja, Los tres cerditos; incluso puede recuperar el nudo del Pollito Pito. Aclara que generalmente en ese momento es cuando aparece el personaje que se opone a su deseo (la zorra en el Pollito Pito; el lobo en Caperucita Roja) y también pueden aparecer personajes que lo ayudan."
+                        },
+                        {
+                            "title": "Momento 3. Actividad en el fascículo",
+                            "description": "El docente indica que vuelvan a las tarjetas cuentacuentos con personajes y seleccionen un personaje que se oponga al objetivo del protagonista. ¿Cómo es ese personaje que eligieron? Deben ponerle nombre. Si desean, pueden inventar un nombre con rima como en el caso de Pollito Pito, en el que todos los personajes tienen nombres rimados (Gallina Fina, Pato Zapato, etc.). Comparten ideas.\nA continuación, deben decidir qué hace este personaje para oponerse u obstaculizar al personaje principal. Puede brindar ideas ¿Le miente? ¿esconde algo? ¿Lo ataca? ¿Lo engaña? ¿Lo asusta? ¿Lo hace perderse? ¿Lo lastima?\nCompletan en el fascículo la siguiente información referida al nudo de su cuento. El docente ayuda a los grupos.\nNUDO: Ideas para mi cuento\nPersonaje que se opone: _______________________________________\nQué hace este personaje para que el protagonista no logre su objetivo:\n__________________________________________"
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Conversan sobre lo aprendido y realizado en el día: ¿Qué hicimos hoy? Anima a los estudiantes a escribir una frase que resuma lo realizado en clase. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": "Recortar la tarea para el hogar del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión\n“Releer todo lo que escribimos en el grupo para nuestro cuento. Revisa la escritura de las palabras”."
+                },
+                {
+                    "title": "Actividad 13",
+                    "pedagogicalIntention": "Planifican la escritura del desenlace.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisión de la tarea para el hogar",
+                            "description": "Revisan la tarea para el hogar. La corrigen entre todos. Especialmente el docente pregunta si corrigieron errores de escritura."
+                        },
+                        {
+                            "title": "Momento 2. Ayuda y desenlace",
+                            "description": "El docente recuerda que en la actividad anterior pensaron el nudo del cuento y decidieron cuál es el personaje enemigo que se opone al objetivo del protagonista. Ahora es momento de resolver la situación, señala que empiezan a pensar el “desenlace” del cuento, es decir, el final. Indica que vuelvan a observar las tarjetas de los personajes y seleccionen una (si desean pueden ser dos o tres) que ayude al protagonista. ¿Cómo es ese personaje que eligieron? Deben ponerle nombre al personaje elegido. Si desean, pueden inventar un nombre con rima como en el caso de Pollito Pito, en el que todos los personajes tienen nombres rimados (Gallina Fina, Pato Zapato, etc.). Comparten ideas.\nA continuación, deben decidir cómo hace este personaje para ayudar al personaje principal. El docente orienta con preguntas: ¿Lucha junto al protagonista? ¿Lo aconseja? ¿Encuentra algo? ¿Lo acompaña? ¿Le regala algo? ¿Se deshace del enemigo? Comparten ideas.\nEl docente orienta con preguntas para terminar de cerrar la historia del cuento, ¿cómo termina? ¿qué es lo que consigue el personaje principal con la ayuda del otro personaje? ¿Encuentran algo? ¿Ganan? ¿Alcanzan el objetivo? ¿llegan a algún lado? ¿Consiguen lo que querían?"
+                        },
+                        {
+                            "title": "Momento 3. Actividad en el fascículo",
+                            "description": "Escriben las ideas y completan la actividad del fascículo. El docente ayuda a los grupos.\nDESENLACE: Ideas para mi cuento\nPersonaje/s que lo ayudan: _______________________________________\nCómo lo ayuda: ______________________________________________________\nCómo termina el cuento: _____________________________________________"
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Conversan sobre lo aprendido y realizado en el día: ¿Qué hicimos hoy? Anima a los estudiantes a escribir una frase que resuma lo realizado en clase. El docente revisa esa escritura."
+                        }
+                    ],
+                    "homework": ""
+                },
+                {
+                    "title": "Actividad 14",
+                    "pedagogicalIntention": "Escriben una primera versión del cuento completo.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Revisión de la tarea para el hogar",
+                            "description": "Revisan la tarea para el hogar. La corrigen entre todos. Especialmente el docente pregunta si corrigieron errores de escritura."
+                        },
+                        {
+                            "title": "Momento 2. Primer borrador",
+                            "description": "El docente indica que revisen y relean en sus fascículos las ideas sobre el inicio, nudo y desenlace que escribieron en las actividades 11, 12 y 13. Luego deben escribir el cuento. Si bien lo piensan de forma conjunta (en los grupos de dos o tres integrantes), cada uno escribe su propio borrador. El docente ayuda a quienes presenten mayor dificultad para escribir. Los estudiantes que terminen y tengan más facilidad para escribir pueden ayudar a quienes necesiten. El docente da tiempo para esta escritura."
+                        },
+                        {
+                            "title": "Momento 2. Lectura de borradores",
+                            "description": "Un representante por grupo lee su cuento al resto de la clase. Quienes escuchan el cuento deben verificar si están todos los elementos: personaje principal, lugar, objetivo del protagonista, nudo, enemigo, personaje que ayuda y desenlace. Comparten ideas y sugerencias. Si es necesario, el grupo que leyó hace las correcciones necesarias en función de las sugerencias de sus compañeros.\nLuego el docente retira los borradores para revisar."
+                        }
+                    ],
+                    "homework": ""
+                },
+                {
+                    "title": "Actividad 15",
+                    "pedagogicalIntention": "Editan y revisan el cuento.",
+                    "resources": "borradores corregidos por el docente.",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Devolución de borradores",
+                            "description": "Todos los estudiantes han elaborado procesualmente el cuento en actividades por grupos. Han leído y controlado lecturas y escrituras. Luego, ellos escribieron el cuento en sus borradores. Puede pensarse que no hace falta que el docente corrija los borradores; pero hace mucha falta. La copia atenta no es una actividad mecánica, porque requiere gran esfuerzo de atención, control motriz y revisión. De manera que seguramente en los borradores se encontrarán palabras incompletas, poco legibles o incorrectamente separadas.\nSin embargo, se sugiere que se valore muy positivamente el esfuerzo realizado. Crear una nueva versión de una narración es una exigente tarea, aun para los adultos. Los estudiantes han hecho un gran esfuerzo, guiados por su docente. La devolución debería reconocer ese esfuerzo con comentarios elogiosos sobre los logros obtenidos. Especialmente, se trata de que los estudiantes observen que su docente valora los borradores como fruto de un fuerte trabajo.\nSe sugiere que las correcciones incluyan la palabra bien escrita arriba de la escritura del estudiante, cuando ha escrito de manera ilegible o incompleta, para que pueda compararla y corregirla.\nEl docente les da tiempo para que lean las correcciones y hagan preguntas. Es muy importante que se compartan las preguntas. Los estudiantes deben comprender que todos tienen que revisar sus escritos y mejorarlos."
+                        },
+                        {
+                            "title": "Momento 2. Escritura final",
+                            "description": "Los estudiantes leen atentamente sus borradores prestando atención a las palabras y los signos de puntuación que fueron marcados y escritos de forma correcta arriba. El docente les indica que escriban la versión final en el cuaderno."
+                        },
+                        {
+                            "title": "Momento 3. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Título: Mi cuento. Copian el cuento y lo ilustran."
+                        }
+                    ],
+                    "homework": ""
+                },
+                {
+                    "title": "Actividad 16",
+                    "pedagogicalIntention": "Reflexionan sobre lo aprendido.",
+                    "resources": "",
+                    "moments": [
+                        {
+                            "title": "Momento 1. Ronda de narraciones",
+                            "description": "Los estudiantes que lo deseen pueden leer el nuevo cuento que crearon. Pueden invitar a miembros de la comunidad educativa para que disfruten de la lectura en voz alta de los cuentos de los estudiantes. También se pueden grabar audios o videos con las lecturas en voz alta de los cuentos creados para ser socializados con las familias."
+                        },
+                        {
+                            "title": "Momento 2. Reflexión sobre lo aprendido (reflexión metacognitiva)",
+                            "description": "El docente abre una ronda de reflexión sobre lo aprendido del cuento y sus experiencias escribiendo, leyendo y escuchando el cuento. Por ejemplo: ¿Les gustó escuchar cuentos? ¿Les gustó leer? ¿Les gustó crear un nuevo cuento? ¿Fue difícil o fácil? ¿Qué parte les costó mucho escribir?"
+                        },
+                        {
+                            "title": "Momento 3. Reflexión sobre el vocabulario escrito",
+                            "description": "El docente les propone un juego para hacer en pares:\n- Cuenten cuántos renglones escritos tiene el cuento en el fascículo y anoten en borrador.\n- Cuenten cuántas palabras escritas tiene un renglón largo y anotan en borrador.\nEl docente escucha sus resultados. Ven que:\n- El cuento tiene más de 50 renglones.\n- Un renglón puede tener 14 palabras.\nEl docente les informa que en esta secuencia de actividades con el cuento leyeron 700 palabras. Escribe el número grande en la pizarra."
+                        },
+                        {
+                            "title": "Momento 4. Escriben en el cuaderno",
+                            "description": "Escriben la fecha en formato corto. Si el docente considera oportuno, pueden escribir también el nombre del día o del mes. Título: Leí 700 palabras. Dibujan una cara que exprese su emoción al respecto y también se los anima para que escriban cómo se sienten."
+                        },
+                        {
+                            "title": "Momento 5. Cierre y papelógrafo de aprendizajes",
+                            "description": "A modo de cierre de la secuencia, el grupo realiza una reflexión metacognitiva revisando el papelógrafo de aprendizajes. Verifican si lograron cumplir con los objetivos propuestos y anotarán la fecha de finalización de la secuencia. Opcionalmente, pueden agregar una reflexión final en el papelógrafo.\nLuego, cada estudiante elabora su propio libro de cuento: crean una portada con cartulina, utilizan hojas en blanco para transcribir la versión final de su cuento y lo acompañan con ilustraciones. Finalmente, integran sus producciones a la biblioteca del aula para que todos los compañeros puedan leerlas y disfrutarlas. Esta propuesta permite valorar lo aprendido, compartirlo con otros y darle un cierre significativo al trabajo realizado."
+                        }
+                    ],
+                    "homework": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+  "id": "seq-1771353625711",
+  "title": "La anécdota",
+  "description": "Narración de experiencias personales organizadas de forma clara y coherente.",
+  "order": 3,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1771355057546",
+      "sequence_id": "seq-1771353625711",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Producción Oral (Preparación y narración)",
+      "intencion_pedagogica": "Activar conocimientos previos sobre la anécdota a través de la narración oral de experiencias personales, formulando hipótesis a partir de los títulos y tomando conciencia de los elementos que componen este tipo de texto.\n\n",
+      "estrategia": "Asignación previa de tarea: Los estudiantes preparan una anécdota en casa.\n\nUso de preguntas guía: Para estructurar la narración oral.\n\nExposición oral: Narración de anécdotas frente a los compañeros.\n\nFormulación de hipótesis: Los compañeros predicen el contenido a partir del título.\n\nToma de apuntes: El docente registra aspectos relevantes de cada narración.",
+      "aprendizaje_significativo": "Se parte de las experiencias personales de los estudiantes (viajes, nacimientos, fiestas, etc.) para introducir el género de la anécdota, conectando así el contenido académico con sus vivencias más significativas.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de expresión oral: Se les permite leer su anécdota escrita en lugar de narrarla de memoria.\n\nPara estudiantes tímidos: Se les da la opción de narrar en grupos más pequeños o con apoyo del docente.\n\nPara estudiantes kinestésicos: Se les anima a incluir gestos y movimientos en su narración.\n\nPara estudiantes con discapacidad auditiva: Se les sienta cerca del frente y se les proporcionan las preguntas por escrito.",
+      "actividades_cuaderno": "Escribir el título de su anécdota y un breve resumen de lo que contaron. Anotar las palabras que usaron para describir (adjetivos) y para situar en tiempo y lugar (adverbios).\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente recuerda la consigna asignada en la clase anterior (pág. 26): \"Piensa en un hecho significativo o interesante que te haya pasado (un viaje, una excursión, el nacimiento de un hermanito, una fiesta de cumpleaños, etc.) el cual narrarás oralmente a tus compañeros. Debes ponerle un título impactante.\"\n2. Explica el proceso de socialización: cada estudiante dirá su título, los compañeros predecirán el contenido, luego se narrará la anécdota.",
+          "actividad_numero": "Producción oral Consigna (pág. 26)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes\n• Cuaderno del docente para apuntes",
+          "descripcion": "1. Los estudiantes que van a exponer dicen el título de su anécdota.\n2. Los demás alumnos, a partir del título, dicen de qué creen que va a tratar (formulación de hipótesis).\n3. Se inicia la narración de la anécdota.\n4. Mientras se narra, los demás confirman o descartan sus hipótesis.\n5. El docente toma notas de los aspectos relevantes: tiempo, lugar, personajes, descripciones.\n6. Si faltan detalles, al final el docente pregunta: \"¿Cuándo te ocurrió eso?\", \"¿Puedes decirnos en qué lugar estabas?\", \"¿Puedes describir a esa persona/lugar/objeto?\"\n7. Al final de cada narración, se pregunta quiénes acertaron en sus predicciones.",
+          "actividad_numero": "Producción oral (Párrafos 2-3, pág. 26)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra",
+          "descripcion": "1. El docente aprovecha para llamar la atención sobre la estructura de la anécdota con preguntas (pág. 27):\n- \"¿Con qué palabras inició el compañero su anécdota?\"\n- \"¿Cómo y cuándo se complica o se hace más interesante la historia?\"\n- \"¿Cómo pasa el narrador al desenlace? ¿Hay alguna moraleja?\"\n2. Pregunta qué palabras usaron para describir personas, animales u objetos (adjetivos).\n3. Pregunta qué palabras usaron para explicar el tiempo y el lugar (adverbios).",
+          "actividad_numero": "Producción oral Preguntas (pág. 27)"
+        }
+      ]
+    },
+    {
+      "id": "1771355133636",
+      "sequence_id": "seq-1771353625711",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión Oral",
+      "intencion_pedagogica": "Desarrollar la comprensión oral a través del análisis de las anécdotas narradas por los compañeros, identificando hechos principales, personajes, escenarios, títulos y vocabulario.\n\n",
+      "estrategia": "Preguntas de comprensión oral: Para profundizar en las anécdotas socializadas.\n\nDiálogo dirigido: El docente guía la reflexión sobre los elementos de la anécdota.\n\nRegistro en pizarra: Anotación de ideas clave para la construcción colectiva del concepto.",
+      "aprendizaje_significativo": "Se utiliza el material genuino producido por los estudiantes (sus propias anécdotas) como objeto de análisis, lo que aumenta su motivación y les permite comprender la estructura del género desde su propia práctica.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de atención: Se les asigna la tarea de escuchar atentamente una anécdota específica.\n\nPara estudiantes con dificultades de comprensión: Se repiten las preguntas y se dan ejemplos concretos.\n\nPara estudiantes kinestésicos: Se les invita a representar brevemente alguna escena de las anécdotas mencionadas.",
+      "actividades_cuaderno": "Elegir una de las anécdotas escuchadas (que no sea la propia) y escribir un breve párrafo sobre ella, respondiendo a las preguntas: ¿qué pasó? ¿dónde? ¿quiénes participaron?\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente recuerda algunas de las anécdotas narradas en la clase anterior.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Participación de los estudiantes\n• Pizarra",
+          "descripcion": "1. El docente formula preguntas para algunas de las anécdotas socializadas:\n- \"¿Cuál es el hecho principal de la historia tal?\" (1)\n- \"¿Dónde se desarrolla la historia tal?\" (2)\n- \"¿De qué trata la historia contada por...?\" (3)\n- \"¿Cómo termina o comienza la historia...?\" (4)\n- \"¿Qué le ocurrió a...?\" (5)\n- \"¿Qué tienen en común las historias de... y...?\" (6)\n- \"¿Por qué crees que ocurrió tal hecho?\" (7)\n- \"En la historia referida por... escuchamos la palabra... ¿saben qué significa?\" (8)\n- \"Si tuvieras que resumir con una sola palabra el texto de... ¿cuál sería esa palabra?\" (9)\n- \"¿Recuerdan el título de la historia de...? ¿Tiene alguna relación con los hechos narrados? ¿Cómo se relacionan?\" (10)",
+          "actividad_numero": "Comprensión oral Preguntas 1-10 (pág. 27)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente anota en la pizarra las ideas clave que van surgiendo.\n2. Se refuerza la idea de que la anécdota tiene una estructura y elementos característicos.",
+          "actividad_numero": "Comprensión oral (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771355218089",
+      "sequence_id": "seq-1771353625711",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Comprensión Escrita",
+      "intencion_pedagogica": "Realizar la pre-lectura y la lectura compartida de la anécdota \"Las palabras viajeras\", formulando hipótesis sobre el contenido y verificándolas durante la lectura.\n\n",
+      "estrategia": "Formulación de hipótesis: Predicción del contenido a partir del título.\n\nLectura compartida: Estudiantes leen en voz alta alternándose.\n\nPreguntas intercaladas: Durante la lectura para guiar la comprensión.\n\nVerificación de hipótesis: Contraste de predicciones con el texto real.",
+      "aprendizaje_significativo": "Se trabaja con una anécdota real y conmovedora de una escritora dominicana (Alfonsina Rodríguez) que perdió y recuperó sus poemas gracias a la honestidad de una persona desconocida, conectando con valores como la honestidad y la gratitud.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades lectoras: Se les asignan párrafos más cortos.\n\nPara estudiantes visuales: Se utiliza un papelógrafo grande con el texto.\n\nPara estudiantes kinestésicos: Se les invita a pasar al frente y señalar mientras se lee.\n\nPara estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado.",
+      "actividades_cuaderno": "Anotar las hipótesis que más se acercaron al texto real. Escribir una oración sobre lo que más les llamó la atención de la anécdota.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente explica que leerán para conocer hechos que le han sucedido a otras personas y para saber cómo se escriben estos textos (pág. 28).\n2. Copia en la pizarra el título: \"Las palabras viajeras\".\n3. Pide a los alumnos que lean el título y digan de qué piensan que tratará el texto.\n4. Anota las hipótesis en la pizarra.",
+          "actividad_numero": "Comprensión escrita Pre-lectura (pág. 28)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias del texto \"Las palabras viajeras\" (pág. 28) o papelógrafo\n• Pizarra",
+          "descripcion": "1. Se distribuyen copias del texto o se presenta en papelógrafo.\n2. Se realiza la lectura compartida: un niño diferente leerá en voz alta cada párrafo, mientras el resto lee con la vista (pág. 28).\n3. Párrafo 1: Después de leer, pregunta: \"¿Qué información se ofrece en este párrafo?\"\n4. Párrafo 2: Después de leer, pregunta: \"¿A qué se refieren los pronombres 'los' (primera línea) y 'les' (tercera línea)? ¿Por qué Alfonsina tenía que dejar sus poemas?\"\n5. Párrafo 3: Después de leer, pregunta: \"¿Qué elemento nuevo de la historia se cuenta en este párrafo?\"\n6. Párrafo 4: Después de leer, pregunta: \"¿Qué característica de la personalidad de Alfonsina se refleja en este último párrafo?\"",
+          "actividad_numero": "Comprensión escrita Durante la lectura (págs. 28-29)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se retoman las hipótesis anotadas al inicio.\n2. Se identifican cuáles se acercaron más al contenido real de la anécdota.\n3. El docente anuncia que en la próxima clase realizarán actividades de post-lectura.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1771355334918",
+      "sequence_id": "seq-1771353625711",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Post-lectura y Vocabulario",
+      "intencion_pedagogica": "Consolidar la comprensión de la anécdota \"Las palabras viajeras\" a través de actividades de post-lectura, trabajando el vocabulario en contexto y la reflexión sobre el contenido.\n\n",
+      "estrategia": "Trabajo individual con el texto: Para resolver actividades de comprensión.\n\nUso de contexto: Para deducir significados de palabras sin diccionario.\n\nUso de diccionario: Cuando las estrategias de contexto no sean suficientes.\n\nSocialización de respuestas: Para compartir y corregir estrategias.",
+      "aprendizaje_significativo": "Se profundiza en la comprensión de la anécdota \"Las palabras viajeras\", conectando el contenido con valores como la honestidad y la gratitud, y reflexionando sobre la importancia de devolver lo que no es nuestro.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de comprensión: Se les permite trabajar las actividades en pareja.\n\nPara estudiantes con dificultades de vocabulario: Se les permite usar el diccionario desde el inicio.\n\nPara estudiantes kinestésicos: Se les invita a representar la escena del hallazgo de los poemas.\n\nPara estudiantes avanzados: Se les pide que escriban un breve final alternativo para la anécdota.",
+      "actividades_cuaderno": "Completar las actividades que no se terminaron en clase. Escribir una breve reflexión sobre la importancia de devolver lo que no es nuestro.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se recuerda brevemente la historia de Alfonsina y sus palabras viajeras.",
+          "actividad_numero": "(Recordatorio)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Fotocopia de las actividades o pizarra\n• Cuadernos\n• Diccionarios",
+          "descripcion": "1. Actividad 1 (preguntas 1-7): Responden preguntas sobre el contenido:\n- \"¿Quién escribe este texto?\" (1)\n- \"¿Dónde había dejado Alfonsina los borradores? ¿Por qué se dice que eran borradores?\" (2)\n- \"¿Por qué los poemas llegaron a casa de sus tíos?\" (3)\n- \"¿Cómo crees que era la persona que encontró los borradores y los devolvió?\" (4)\n- \"¿Por qué la historia se titula 'Las palabras viajeras'?\" (5)\n- \"Cuando encuentras algo que se le ha extraviado a otra persona, ¿qué debes hacer?\" (6)\n- \"A ti, ¿qué tipo de texto te gusta escribir? Justifica.\" (7)\n\nActividad 2 - Vocabulario (pág. 29):\n1. El docente guía la inferencia de significados por contexto.\n2. Ejemplo: \"Sucedía que a veces los dejaba un par de semanas sin trabajar...\" ¿Qué significa \"par\"? (Relacionar con \"par de medias\", \"par de zapatos\").\n3. Explican el significado de otras palabras destacadas: recién, empeño, originales, poemario, anónimo.\n4. Si es necesario, consultan el diccionario del aula.",
+          "actividad_numero": "Comprensión escrita Actividad 1 (pág. 29) Actividad 2 (pág. 29)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. Se socializan las respuestas, especialmente las preguntas 4, 5 y 6 que invitan a la reflexión ética.\n2. El docente refuerza la importancia de la honestidad.",
+          "actividad_numero": "Comprensión escrita (Socialización)"
+        }
+      ]
+    },
+    {
+      "id": "1771355406904",
+      "sequence_id": "seq-1771353625711",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Gramática Textual y Producción Escrita",
+      "intencion_pedagogica": "Sistematizar las características y estructura de la anécdota y guiar a los estudiantes en el proceso de producción escrita de su propia anécdota.\n\n",
+      "estrategia": "Clase expositiva dialogada: Para presentar las características de la anécdota.\n\nUso de organizador gráfico: Para sistematizar las partes de la anécdota.\n\nTaller de escritura: Acompañamiento paso a paso en la producción escrita.\n\nUso de preguntas guía: Para planificar la anécdota.\n\nRevisión con lista de cotejo: Autoevaluación y coevaluación.",
+      "aprendizaje_significativo": "Los estudiantes escriben su propia anécdota sobre un hecho personal o familiar, aplicando todo lo aprendido y creando un texto que podrán compartir con sus compañeros y familiares, valorando sus propias experiencias.\n\n",
+      "actividades_complementarias": "Para estudiantes con dificultades de escritura: Se les permite dictar su anécdota a un compañero o al docente.\n\nPara estudiantes con dificultades para generar ideas: Se les proporciona un banco de posibles temas (una mascota, un viaje, un susto, una alegría).\n\nPara estudiantes visuales: Se les anima a dibujar la escena principal antes de escribir.\n\nPara estudiantes kinestésicos: Se les permite actuar la anécdota antes de escribirla.\n\nPara estudiantes avanzados: Se les pide que incluyan diálogos o una breve evaluación al final.",
+      "actividades_cuaderno": "Completar la revisión del borrador y reescribirlo si es necesario. Traerlo listo para la próxima clase para la revisión en pares y la versión final.\n\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Papelógrafo con organizador gráfico\n• Texto \"Las palabras viajeras\"\n• Pizarra",
+          "descripcion": "1. El docente retoma elementos de las anécdotas contadas por los alumnos para construir el concepto (pág. 30).\n2. Presenta el organizador gráfico con las partes de la anécdota:\n- Inicio: Presentación de la persona, lugar y tiempo.\n- Desarrollo: Relato de los hechos sucedidos.\n- Desenlace: Resolución del hecho.\n- Evaluación: Comentario sobre lo sucedido (opcional).\n3. Analiza con el texto \"Las palabras viajeras\" los verbos (tiempo pasado), adverbios (lugar y tiempo) y adjetivos.\n4. Explica la función de los conectores temporales (un día, luego de cierto tiempo, después).\n5. Presenta las pautas para contar y escribir anécdotas (pág. 31): expresiones temporales, uso de 1ª o 3ª persona, referencias al espacio.",
+          "actividad_numero": "Gramática textual (Págs. 30-31)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos\n• Pizarra con preguntas",
+          "descripcion": "1. El docente presenta la consigna (pág. 32): \"Narra en tu cuaderno una anécdota sobre un hecho que te haya ocurrido a ti o a uno de tus familiares. Debe tener inicio, desarrollo y desenlace.\"\n2. Pre-escritura (pág. 32): Los estudiantes responden preguntas guía en su cuaderno:\n- \"¿Qué ocurrió?\" (a)\n- \"¿A quién/es le/s ocurrió?\" (b)\n- \"¿Cuándo sucedió?\" (c)\n- \"¿Dónde pasó? ¿Cómo era el lugar?\" (d)\n- \"¿Qué más pasó?\" (e)\n- \"¿Qué otras personas estaban involucradas?\" (f)\n- \"¿Qué sentimientos tenían y cómo los expresaron?\" (g)\n- \"¿Qué pasó finalmente?\" (h)\n3. Completan el esquema de inicio, desarrollo y desenlace (pág. 32).\n4. Textualización: Escriben el primer borrador de su anécdota (pág. 33).\n5. El docente acompaña, se pasea por el aula y anota conductas estratégicas.",
+          "actividad_numero": "Producción escrita Consigna (pág. 32) Preguntas a-h (pág. 32) Esquema (pág. 32) Textualización (pág. 33)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Lista de cotejo en la pizarra o fotocopiada\n• Borradores",
+          "descripcion": "1. El docente entrega las preguntas para revisar el borrador (pág. 33):\n- \"¿Seleccionaste el hecho sobre el cual producirías la anécdota?\" (1)\n- \"¿Queda clara la intención de la anécdota?\" (2)\n- \"¿Se distinguen las partes de la anécdota?\" (3)\n- \"¿El título se relaciona con los hechos?\" (4)\n- \"¿Presentaste los personajes, el lugar y el tiempo?\" (5)\n- \"¿El desarrollo presenta el relato de los hechos?\" (6)\n- \"¿La anécdota posee un desenlace?\" (7)\n- \"¿Utilizaste un vocabulario claro y preciso?\" (8)\n- \"¿Utilizaste verbos en pasado?\" (9)\n- \"¿Empleaste marcadores de orden, temporales y causales?\" (10)\n- \"¿Utilizaste adjetivos para calificar?\" (11)\n- \"¿Hay errores de ortografía?\" (12)\n2. Los estudiantes revisan su borrador. Si hay respuestas negativas, deben reescribir.\n3. Se anuncia que en la próxima clase intercambiarán con un compañero para revisión en pares y pasarán en limpio para publicar en el mural.",
+          "actividad_numero": "Producción escrita Revisión (pág. 33)"
+        }
+      ]
+    }
+  ]
+}

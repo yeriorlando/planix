@@ -1,0 +1,243 @@
+{
+  "id": "seq-1772114092275",
+  "title": "La carta de agradecimiento",
+  "description": "Enseña la estructura, intención comunicativa y valores asociados al agradecimiento. Incluye comprensión oral, lectura y producción escrita del género epistolar.",
+  "order": 2,
+  "durationWeeks": 4,
+  "activities": [
+    {
+      "id": "1772114884996",
+      "sequence_id": "seq-1772114092275",
+      "order_index": 0,
+      "title": "Actividad 1",
+      "name": "Comprensión oral",
+      "intencion_pedagogica": "Activar conocimientos previos sobre el agradecimiento a través de un cuento y realizar una primera aproximación a la carta de agradecimiento mediante la escucha atenta.",
+      "estrategia": "• Lectura en voz alta: Cuento \"La tortuga blanca\".\n• Trabajo en grupos pequeños: Reflexión sobre valores.\n• Diálogo dirigido: Socialización de reflexiones.\n• Lectura modelada: Carta de agradecimiento.",
+      "aprendizaje_significativo": "Los estudiantes reflexionan sobre situaciones de gratitud que han vivido con familiares o amigos, conectando así el valor del agradecimiento con sus experiencias personales.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de atención: Se les proporciona una guía con preguntas específicas para responder durante la lectura del cuento y la carta.\n• Para estudiantes kinestésicos: Se les invita a dibujar la escena que más les gustó del cuento \"La tortuga blanca\".\n• Para estudiantes con discapacidad auditiva: Se les proporciona la transcripción del cuento y la carta para seguir la lectura.\n• Para estudiantes avanzados: Se les pide que escriban una breve reflexión sobre una ocasión en la que ellos hayan sido agradecidos con alguien",
+      "actividades_cuaderno": "1. Escribe una breve definición de \"gratitud\" con tus propias palabras.\n2. ¿Qué enseñanza te dejó el cuento \"La tortuga blanca\"?\n3. ¿A quién crees que está dirigida la carta \"Gracias por todo\" y por qué?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Cuento \"La tortuga blanca\" (texto)\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente anuncia que trabajarán con la carta de agradecimiento.\n2. Lee en voz alta el cuento \"La tortuga blanca\" (pág. 20-21).\n3. Divide la clase en pequeños grupos para la reflexión (pág. 21).\n4. Formula preguntas para la reflexión:\n- \"Describe psicológicamente a Mao, a la tortuga y al pescador.\"\n- \"¿Qué te enseñan Mao y la tortuga? ¿Has tenido alguna experiencia parecida?\"\n- \"¿Por qué ser agradecidos con los demás?\"\n5. Socializa la reflexión haciendo hincapié en los valores del agradecimiento, la solidaridad y el amor al prójimo.\n6. Anota en la pizarra los nombres de dichos valores.",
+          "actividad_numero": "Comprensión oral (Párrafos 1-2, pág. 20-21)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Carta \"Gracias por todo\" (texto)\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente anuncia la actividad de comprensión oral. Insiste en las estrategias de una escucha efectiva: atención, silencio, toma de apuntes (pág. 21).\n2. Lee de manera pausada la carta \"Gracias por todo\" (pág. 22).\n3. Durante la lectura, los estudiantes toman apuntes sobre:\n- ¿De qué se habla en esta parte?\n- ¿Cómo se relacionan las ideas?\n- ¿Cuál ha sido la intención del autor?",
+          "actividad_numero": "Comprensión oral (Párrafos 3-4, pág. 21-22)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes\n• Pizarra",
+          "descripcion": "1. El docente propone a los estudiantes las consignas de comprensión (pág. 23):\n- \"De los valores que afloraron en el cuento, ¿cuáles se aprecian en la carta? Justifica.\"\n- \"¿A quién está dirigido el texto? ¿Cómo lo sabes?\"\n- \"Haz una lista de las razones por las que el autor sintió el deseo de agradecer.\"\n2. Los estudiantes responden oralmente, compartiendo sus impresiones.\n3. El docente anuncia que en la próxima clase profundizarán en el análisis de la carta.",
+          "actividad_numero": "Comprensión oral (Actividades 1-3, pág. 23)"
+        }
+      ]
+    },
+    {
+      "id": "1772115022457",
+      "sequence_id": "seq-1772114092275",
+      "order_index": 1,
+      "title": "Actividad 2",
+      "name": "Comprensión escrita",
+      "intencion_pedagogica": "Explorar la estructura de la carta de agradecimiento a través de la lectura compartida de un ejemplo real, formulando y verificando hipótesis sobre su contenido.",
+      "estrategia": "• Uso de imágenes: Silueta de la carta para exploración.\n• Formulación de hipótesis: Anticipación del contenido.\n• Lectura compartida: Lectura en voz alta por párrafos con preguntas intercaladas.",
+      "aprendizaje_significativo": "Los estudiantes reconocen que las cartas de agradecimiento son un medio real para expresar gratitud en situaciones cotidianas, como agradecer un favor, un regalo o una atención recibida.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de comprensión lectora: Se les asigna la tarea de leer un solo párrafo y responder preguntas específicas sobre él.\n• Para estudiantes kinestésicos: Se les invita a señalar en la silueta de la carta cada parte mientras se lee (fecha, destinatario, saludo, cuerpo, despedida).\n• Para estudiantes con discapacidad visual: Se les proporciona el texto en formato ampliado o en braille si está disponible.\n• Para estudiantes avanzados: Se les pide que investiguen qué es un infarto y cómo se realiza la reanimación cardiopulmonar.",
+      "actividades_cuaderno": "1. Copia en tu cuaderno el nombre de las partes de una carta: fecha, destinatario, saludo, cuerpo, despedida y firma.\n2. ¿Quién escribió la carta que leímos hoy y a quién se la dirigió?\n3. ¿Cuál fue el motivo principal de la carta?\n",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Silueta de la carta (en papelógrafo o diapositiva)\n• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente muestra la silueta del texto de la carta de agradecimiento (pág. 23).\n2. Pregunta: \"¿Reconocen este tipo de texto?\" (Ayuda a identificar que es una carta).\n3. Formula preguntas para generar hipótesis:\n- \"¿A quién estará dirigida esta carta?\"\n- \"¿Cuál será su propósito?\"\n- \"¿Quién habrá escrito la carta?\"\n- \"¿Qué dirá la carta?\"\n4. Anota las hipótesis en la pizarra para verificarlas durante la lectura.",
+          "actividad_numero": "Comprensión escrita (Pre-lectura, pág. 23)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias de la carta para cada estudiante (pág. 24)\n• Ilustración de un desfibrilador",
+          "descripcion": "1. El docente entrega una copia de la carta (adaptación de Mikel Zalba Alsúa) a cada estudiante (pág. 24).\n2. Explica la dinámica: un estudiante diferente leerá un párrafo en voz alta mientras los demás leen con la vista. Tras cada párrafo, se harán preguntas.\n3. Primer párrafo: Estudiante lee. Preguntas: \"¿Pudiste confirmar alguna hipótesis? ¿Qué hecho se describe? ¿Qué es el 9.1.1?\"\n4. Segundo párrafo: Otro estudiante lee. Preguntas: \"¿Qué se cuenta aquí? ¿Qué relación tiene con el primero? ¿Qué es un desfibrilador?\" (Mostrar ilustración).\n5. Tercer párrafo: Otro estudiante lee. Preguntas: \"¿Cuál es el objetivo de este párrafo? ¿A quién está dirigido?\"\n6. Cuarto y quinto párrafo: Otro estudiante lee. Preguntas: \"¿Cuál es la finalidad del párrafo cuatro? ¿Por qué este texto es una carta?\"",
+          "actividad_numero": "Comprensión escrita (Durante la lectura, pág. 24-25)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con hipótesis\n• Participación de los estudiantes",
+          "descripcion": "1. El docente retoma las hipótesis anotadas en la pizarra.\n2. Pregunta: \"¿Cuáles hipótesis se confirmaron? ¿Cuáles no?\"\n3. Los estudiantes justifican sus respuestas basándose en el texto.\n4. El docente anuncia que en la próxima clase realizarán ejercicios de comprensión más detallados.",
+          "actividad_numero": "Comprensión escrita (Cierre)"
+        }
+      ]
+    },
+    {
+      "id": "1772115275045",
+      "sequence_id": "seq-1772114092275",
+      "order_index": 2,
+      "title": "Actividad 3",
+      "name": "Análisis y vocabulario",
+      "intencion_pedagogica": "Profundizar en la comprensión de la carta a través de ejercicios de vocabulario en contexto y análisis de afirmaciones verdaderas y falsas.",
+      "estrategia": "• Ejercicios de vocabulario: Sinónimos contextuales.\n• Ejercicios de comprensión: Verdadero y falso con justificación.\n• Trabajo en grupos: Análisis de referentes textuales.",
+      "aprendizaje_significativo": "Los estudiantes amplían su vocabulario y comprensión lectora a través de un texto con contenido relevante sobre salud y primeros auxilios, conectando así el aprendizaje del lenguaje con situaciones de la vida real.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de vocabulario: Se les proporciona una lista de posibles sinónimos para que elijan el más adecuado.\n• Para estudiantes kinestésicos: En el ejercicio de referentes, pueden señalar en el texto original la palabra a la que se refiere cada expresión.\n• Para estudiantes con discapacidad visual: Se les proporcionan los ejercicios en formato ampliado.\n• Para estudiantes avanzados: Se les pide que creen dos afirmaciones falsas adicionales sobre el texto para que sus compañeros las corrijan.",
+      "actividades_cuaderno": "1. Copia tres palabras de la carta que hayan sido nuevas para ti y escribe su significado.\n2. Elige una de las afirmaciones de la actividad 3 (verdadero/falso) y copia la justificación correcta en tu cuaderno.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente pregunta: \"¿Recuerdan la carta que leímos la clase pasada? ¿Quién la escribió y qué le había sucedido?\"\n2. Anuncia que hoy realizarán actividades para comprender mejor el texto.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Copias de los ejercicios o pizarra\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente copia en la pizarra o entrega fotocopiado el ejercicio de sinónimos (pág. 26, actividad 1).\n2. Los estudiantes trabajan individualmente para escribir un sinónimo o expresión que signifique lo mismo que cada palabra subrayada.\n3. Socializan las respuestas, discutiendo por qué cada sinónimo es adecuado en ese contexto.\n4. El docente presenta el siguiente ejercicio (pág. 26, actividad 2): tabla con expresiones subrayadas.\n5. En parejas, los estudiantes completan la columna derecha explicando a qué hacen referencia esas expresiones.\n6. Socializan las respuestas, asegurándose de que comprenden los referentes (este, dicho, su, etc.).\n7. El docente presenta el ejercicio de verdadero y falso (pág. 27-28, actividad 3).\n8. Los estudiantes, en grupos pequeños, discuten y encierran V o F, justificando cada respuesta.\n9. Socializan las respuestas, con énfasis en la justificación.",
+          "actividad_numero": "Comprensión escrita (Actividades 1, 2 y 3, pág. 26-28)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente pregunta: \"¿Qué aprendieron hoy sobre la carta de agradecimiento?\"\n2. Destaca la importancia de comprender bien un texto para poder producir uno similar.\n3. Anuncia que en la próxima clase analizarán la estructura y las partes de la carta.",
+          "actividad_numero": "Cierre y reflexión"
+        }
+      ]
+    },
+    {
+      "id": "1772115549086",
+      "sequence_id": "seq-1772114092275",
+      "order_index": 3,
+      "title": "Actividad 4",
+      "name": "Gramática textual",
+      "intencion_pedagogica": "Analizar la estructura, el propósito y los recursos lingüísticos de las cartas de agradecimiento para construir colectivamente sus características.",
+      "estrategia": "• Exposición a textos múltiples: Comparación de las dos cartas analizadas.\n• Trabajo en grupos: Análisis de partes, propósito y recursos lingüísticos.\n• Socialización y construcción colectiva.",
+      "aprendizaje_significativo": "Los estudiantes descubren que las cartas de agradecimiento tienen una estructura y un propósito claros (expresar gratitud), y que este tipo de texto puede usarse en situaciones reales de su vida, como agradecer un favor o un regalo.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de organización: Se les proporciona un esquema guía con las preguntas para que puedan responder una por una.\n• Para estudiantes kinestésicos: Pueden recortar y pegar en su cuaderno las partes de una carta (fecha, saludo, etc.) como actividad manipulativa.\n• Para estudiantes con discapacidad visual: Se les proporciona el esquema en formato ampliado.\n• Para estudiantes avanzados: Se les pide que investiguen otros tipos de cartas (formales, informales, comerciales) y sus características.",
+      "actividades_cuaderno": "Título: Partes de la carta de agradecimiento\n1. Copia en tu cuaderno las seis partes de una carta de agradecimiento: lugar y fecha, destinatario, saludo, cuerpo, despedida y firma.\n2. ¿Cuál es el propósito principal de una carta de agradecimiento?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra",
+          "descripcion": "1. El docente pregunta: \"¿Cuántas cartas de agradecimiento hemos analizado hasta ahora?\" (Dos: la oral y la escrita).\n2. Anuncia que hoy compararán ambas cartas para descubrir sus características.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Las dos cartas de agradecimiento (en papelógrafo, cartulina o fotocopias)\n• Cuadernos\n• Lápices",
+          "descripcion": "1. El docente expone nuevamente a los estudiantes las dos cartas de agradecimiento (copiadas en cartulina, papelógrafo o fotocopias) (pág. 28).\n2. Forma grupos de 3 o 4 estudiantes.\n3. Propone las siguientes consignas para resolver en grupo (pág. 28-29):\n- \"¿Por qué estos textos son cartas de agradecimiento?\"\n- \"¿Qué partes componen cada carta?\"\n- \"¿Por qué creen que en una carta se prescinde de algunos elementos?\"\n- \"¿Cómo, dónde y por qué se agradece en ambas cartas?\"\n- \"Además de agradecer, ¿qué otros actos de lenguaje realizan los autores?\"\n- \"Identifica el tiempo de los verbos. ¿Por qué se usan esos tiempos?\"\n- \"Identifica los adjetivos que aparecen. ¿Por qué aparecen?\"\n4. El docente circula por los grupos, apoyando y monitoreando.\n5. Pasados 20 minutos, inicia la socialización de las respuestas.\n6. Asegura que los estudiantes identifiquen: estilo epistolar, partes de la carta, propósito de agradecer, otros actos (narrar, saludar, despedirse), uso de presente y pasado, y función de los adjetivos.",
+          "actividad_numero": "Gramática textual (Actividades 1-7, pág. 28-32)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente cierra la actividad recogiendo las construcciones realizadas por los estudiantes.\n2. Anota en la pizarra las partes clásicas de la carta:\n- Lugar y fecha\n- Destinatario\n- Saludo\n- Cuerpo de la carta\n- Despedida\n- Firma\n3. Explica que estas partes deberán aparecer en la carta que producirán.",
+          "actividad_numero": "Gramática textual (Cierre, pág. 32)"
+        }
+      ]
+    },
+    {
+      "id": "1772116367792",
+      "sequence_id": "seq-1772114092275",
+      "order_index": 4,
+      "title": "Actividad 5",
+      "name": "Producción escrita - Planificación",
+      "intencion_pedagogica": "Planificar la escritura de una carta de agradecimiento real, eligiendo destinatario, razones para agradecer y organizando las ideas en un esquema.",
+      "estrategia": "• Diálogo dirigido: Identificación de personas especiales.\n• Toma de decisiones: Elección del destinatario.\n• Planificación guiada: Uso de organizador gráfico.\n• Redacción de borrador: Primeras ideas.",
+      "aprendizaje_significativo": "Los estudiantes identifican a personas reales en su vida (mamá, papá, abuelos, maestros) que han hecho algo importante por ellos, conectando así la producción escrita con sus experiencias personales y afectivas.",
+      "actividades_complementarias": "• Para estudiantes con dificultades para elegir destinatario: El docente sugiere opciones concretas (mamá, papá, abuelo, maestro) y ayuda a identificar una situación específica.\n• Para estudiantes kinestésicos: Pueden hacer un pequeño dibujo de la persona a quien escribirán mientras piensan en las razones.\n• Para estudiantes con discapacidad visual: El cuadro organizador se les proporciona en formato ampliado o en braille.\n• Para estudiantes avanzados: Se les pide que piensen también en cómo harán llegar la carta a su destinatario.",
+      "actividades_cuaderno": "Título: Planificación de mi carta de agradecimiento\n1. Escribe el nombre de la persona a quien le escribirás tu carta.\n2. Escribe tres razones por las que quieres agradecerle.\n3. Copia el cuadro organizador que llenaste en clase.",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra\n• Marcadores",
+          "descripcion": "1. El docente presenta la consigna de producción (pág. 34): \"En tu vida hay personas especiales que han hecho algo importante por ti. Vas a escribir una carta de agradecimiento a esa persona.\"\n2. Guía un diálogo: \"¿Quiénes son esas personas especiales para ustedes? ¿Qué han hecho por ustedes?\"\n3. Anota en la pizarra ejemplos: mamá, papá, abuelos, tíos, profesores, vecinos.",
+          "actividad_numero": "Producción escrita (Párrafo 1, pág. 34)"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "¿Cómo pasaré de la introducción al desarrollo?\n¿Cómo voy a empezar mi carta? ¿Por qué?",
+          "descripcion": "1. El docente guía el proceso paso a paso (pág. 34):\n- Paso 1: Elige la persona a la que vas a dirigir tu carta.\n- Paso 2: Anota la/s razón/es por las que quieres agradecer.\n- Paso 3: Anota cuándo, dónde y cómo ocurrió lo que motiva tu agradecimiento (escribe cada detalle).\n- Paso 4: Preocúpate de argumentar los motivos de tu agradecimiento.\n2. El docente entrega o dibuja en la pizarra el cuadro organizador (pág. 34, punto 5):",
+          "actividad_numero": "¿Cómo voy a empezar mi carta? ¿Por qué?"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. De forma voluntaria, algunos estudiantes comparten a quién escribirán y por qué.\n2. El docente valora positivamente las ideas y ofrece sugerencias.\n3. Anuncia que en la próxima clase redactarán el primer borrador de la carta.",
+          "actividad_numero": "Socialización"
+        }
+      ]
+    },
+    {
+      "id": "1772116512515",
+      "sequence_id": "seq-1772114092275",
+      "order_index": 5,
+      "title": "Actividad 6",
+      "name": "Producción escrita - Borrador y revisión",
+      "intencion_pedagogica": "Redactar el primer borrador de la carta de agradecimiento, revisarlo de manera individual y con ayuda de compañeros, y preparar la versión final.",
+      "estrategia": "• Redacción de borrador: Textualización de ideas.\n• Autoevaluación: Revisión con preguntas guía.\n• Coevaluación: Revisión entre pares.\n• Corrección docente.",
+      "aprendizaje_significativo": "Los estudiantes experimentan el proceso real de escritura (planificar, escribir, revisar, corregir) para producir un texto con un propósito comunicativo real: expresar gratitud a una persona importante en su vida.",
+      "actividades_complementarias": "• Para estudiantes con dificultades de escritura: Se les permite dictar su carta a un compañero o al docente mientras ellos la copian después.\n• Para estudiantes kinestésicos: Pueden escribir su carta en una hoja decorada especialmente para la persona destinataria.\n• Para estudiantes con discapacidad visual: Se les proporciona una plantilla con espacios para cada parte de la carta.\n• Para estudiantes avanzados: Se les pide que añadan una posdata (P.D.) con un detalle adicional.",
+      "actividades_cuaderno": "Título: Mi carta de agradecimiento - Reflexión\n1. ¿Cómo te sentiste escribiendo tu carta de agradecimiento?\n2. ¿Qué fue lo más difícil de escribir?\n3. ¿Cómo planeas entregar tu carta a [nombre del destinatario]?",
+      "inicio": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Pizarra con las partes de la carta",
+          "descripcion": "1. El docente recuerda las partes de la carta (lugar y fecha, destinatario, saludo, cuerpo, despedida, firma).\n2. Pide a los estudiantes que tengan a mano el cuadro organizador que completaron la clase pasada.",
+          "actividad_numero": "Activación de saberes previos"
+        }
+      ],
+      "desarrollo": [
+        {
+          "letras": "",
+          "tiempo": "60",
+          "recursos": "• Cuadernos con la planificación\n• Lápices\n• Lista de preguntas de revisión en la pizarra",
+          "descripcion": "1. Paso 6: Los estudiantes empiezan a redactar en su cuaderno el primer borrador de su carta de agradecimiento (pág. 35).\n2. El docente circula, ofrece apoyo y resuelve dudas.\n3. Paso 7: Cuando terminan, los estudiantes leen su borrador y verifican si falta alguna información (pág. 35).\n4. Paso 8: El docente presenta las preguntas de revisión (pág. 35):\n- ¿He escrito una carta de agradecimiento?\n- ¿Contiene toda la información? ¿Están las razones? ¿Narro los hechos?\n- ¿Tiene inicio, desarrollo y final?\n- ¿Incluye todas las partes (fecha, destinatario, saludo, cuerpo, despedida, firma)?\n- ¿La entendería el destinatario como deseo?\n5. Paso 9: Los estudiantes intercambian su borrador con un compañero y se retroalimentan mutuamente usando las preguntas.\n6. Paso 10: El docente recoge los borradores para una revisión final (pág. 35).",
+          "actividad_numero": "Producción escrita (Pasos 6-10, pág. 35)"
+        }
+      ],
+      "cierre": [
+        {
+          "letras": "",
+          "tiempo": "15",
+          "recursos": "• Participación de los estudiantes",
+          "descripcion": "1. El docente explica que en la próxima clase (o como tarea) recibirán sus borradores corregidos y escribirán la versión final.\n2. Pregunta: \"¿Cómo piensan hacer llegar la carta a su destinatario?\" (entregarla personalmente, enviarla con alguien, por correo, dejarla en su cuarto).\n3. Alienta a los estudiantes a compartir la respuesta cuando la reciban.",
+          "actividad_numero": "Producción escrita (Paso 11, pág. 35)"
+        }
+      ]
+    }
+  ]
+}

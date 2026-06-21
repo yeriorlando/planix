@@ -1,0 +1,295 @@
+{
+    "id": "seq-4-lengua-1ro",
+    "title": "El mensaje corto",
+    "gradeId": "primaria-1ro",
+    "subjectId": "lengua",
+    "order": 4,
+    "durationWeeks": 4,
+    "description": "Comprensión y producción de mensajes breves para comunicar ideas sencillas a otras personas.",
+    "blocks": [
+        {
+            "id": "blk-seq-4-lengua-1ro-1",
+            "title": "Bloque 1. Presentación de los textos",
+            "blockNumber": 1,
+            "activities": [
+                {
+                    "id": "act-mensaje-1",
+                    "title": "ACTIVIDAD 1",
+                    "pedagogicalIntention": "Conocen la función comunicativa de los mensajes cortos.",
+                    "resources": "Papelógrafo de aprendizajes. Tablet, celular o pantalla. Mensaje digital usado como ejemplo.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Averigua en tu familia cómo envían mensajes a alguien que está lejos. ¿Cómo saben quién envía el mensaje? ¿Cómo saben a quién se le manda el mensaje? ¿Saben qué día mandan el mensaje?",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Introducción al tema. Juegos con mímica.",
+                            "description": "El docente propone jugar a transmitir mensajes cortos sin hablar, solamente con gestos. A modo de ejemplo, empieza el juego. Hace el gesto de saludar y pregunta: ¿qué quiero decir con este gesto? Luego, invita a algún estudiante que continúe: tiene que hacer un gesto y los demás deben decir qué quiere decir. Por ejemplo, se pueden transmitir con gestos:\n● Adiós\n● Ven\n● Detenerse\n● Quiero comer\n● Quiero beber\n● Quiero dormir\n● Escucha\n● Silencio"
+                        },
+                        {
+                            "titulo": "Momento 2. Mensajes escritos digitales.",
+                            "description": "El docente se dirige a alguna parte del salón que no sea tan cercana a los estudiantes y hace un gesto y les pregunta: si estoy lejos, ¿pueden ver bien mi mensaje? Si alguno de ustedes no me vio, ¿pueden volver a ver mi mensaje?\nOrientación específica para el docente: Guía la conversación para reflexionar sobre que los mensajes con gestos no duran mucho tiempo y sólo se pueden ver en el momento.\nLuego, les pregunta cómo hacen en la familia cuando tienen que mandar un mensaje a un familiar que está lejos. Concluirán que deben enviar mensajes escritos porque quedan por más tiempo y se pueden enviar lejos.\nSeguramente las familias recurren a mensajes digitales (de chat, por ejemplo). El docente puede mostrar mensajes en las tablet, celular o pantalla para que los estudiantes observen. Pregunta: ¿Cómo sabemos quién nos envía el mensaje? ¿Cómo hacemos para estar seguros de que la persona a quien mandamos el mensaje sabe quiénes somos? ¿Sabemos qué día nos mandan el mensaje? A medida que formula las preguntas los guía en la observación de la pantalla y escucha sus respuestas.\nOrientación específica para el docente: El juego de mímica y la conversación sobre los mensajes a familiares que viven lejos, sirve para que los estudiantes conozcan que los mensajes con gestos no perduran en el tiempo, en cambio, los escritos perduran y pueden ser enviados desde distintos lugares sin necesidad de estar cerca."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 1 del fascículo.",
+                            "description": "De a pares, realizan la actividad del fascículo: ¿Cuál es un mensaje corto? Al finalizar, en grupo total, verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas. Al finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 4. El papelógrafo de aprendizajes.",
+                            "description": "El docente presenta a los estudiantes el papelógrafo de aprendizajes. Lo lee en voz alta.\nOrientación específica para el docente: Al leer el papelógrafo, el docente puede resaltar las letras iniciales de palabras comunes (como “trabajaremos”, \"mensaje\") y hacer que los estudiantes identifiquen el sonido inicial de cada palabra. Por ejemplo: ¿Qué sonido escuchamos al principio de \"mensaje\"? ¿Y en \"corto\"?\nEN ESTE TIEMPO TRABAJAREMOS PARA:\n● Conocer para qué se usan los mensajes cortos.\n● Conocer cuáles son las partes de los mensajes cortos: fecha, destinatario, cuerpo del mensaje, firma\n● Escribir mensajes cortos para el “buzón de la amistad”.\n● Leer mensajes del “buzón de la amistad”.\n● Descubrir quién envió el mensaje."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha y del nombre de la secuencia que se comienza.",
+                            "description": "El docente indica que van a escribir la fecha al dictado, comenzando por el día y el mes. Invita a los estudiantes a escuchar con atención los sonidos de cada palabra para identificar cuáles letras deben usar. Una vez que todos hayan escrito, se realiza una revisión colectiva: el docente escribe la fecha en la pizarra y los estudiantes comparan su escritura con la del modelo, corrigiendo si es necesario. Luego, el docente anuncia que escribirán el nombre de la secuencia didáctica que comienzan ese día: Mensaje corto. Dicta las palabras, prolongando o aislando los sonidos para facilitar su identificación, y los estudiantes las escriben. Durante la escritura, al llegar al sonido jjj de mensaje, el docente detiene la actividad para explicar que ese sonido puede representarse con la letra “j” o con la “g”. Para ilustrarlo, escribe en la pizarra las palabras jirafa, gimnasia y gato, y conversa con los estudiantes sobre la relación entre las letras y los sonidos. Durante toda la actividad, el docente recorre el aula, observa las escrituras y ofrece apoyo en el momento."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-mensaje-2",
+                    "title": "ACTIVIDAD 2",
+                    "pedagogicalIntention": "Conocen las partes del mensaje corto.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe como puedas a quién te gustaría mandarle un mensaje: ____________________________________________________",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que compartan lo que averiguaron en sus hogares sobre los mensajes cortos. A medida que comentan, retoma las preguntas: ¿Cómo saben quién envía el mensaje? ¿Cómo saben a quién se le manda el mensaje? ¿Saben qué día mandan el mensaje?\nOrientación específica para el docente: Si los estudiantes no traen la información, el docente debe retomar el mensaje digital que observaron en la actividad anterior para mostrar dónde encuentran esos datos: destinatario, emisor y fecha."
+                        },
+                        {
+                            "titulo": "Momento 2. Lectura del mensaje corto. Actividad n.º 2 (A) del fascículo.",
+                            "description": "El docente lee en voz alta el mensaje corto del fascículo. Luego, guía con preguntas para que los estudiantes reconozcan qué dice cada parte y, así, identifiquen cada parte del mensaje corto a partir de la función comunicativa.\nOrientación específica para el docente: Puede guiar con preguntas como: ¿Cuándo se envió el mensaje? ¿A quién se le envía este mensaje? ¿Quién lo envía? ¿Qué le quiere decir Altagracia a su tía en el mensaje? Finalmente, el docente concluye: A quién se le envía el mensaje, se lo llama “destinatario”. ¿Dónde encuentran en el fascículo que dice “destinatario”? Orienta para reconocer las palabras que nombran las partes del mensaje corto. Así continúa hasta que identifiquen cada parte del mensaje."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 2 (B) del fascículo.",
+                            "description": "De a pares, realizan la actividad del fascículo: Completa las letras que se volaron. Une las partes del mensaje corto. Al finalizar, en grupo total, verifican las respuestas de los grupos. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos.\nRecorrido docente: El docente guía la resolución de la actividad con preguntas que orienten a completar las palabras: Dí la palabra en voz alta, ¿qué sonido escuchas después de ffff? (exagere la separación de los sonidos de la palabra).\nPara guíar la ubicación de cada parte, lea en voz alta el mensaje corto las veces que sea necesario para que lo comprendan y ubiquen cada parte."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha por parte de un estudiante.",
+                            "description": "El docente invita a un estudiante a escribir la fecha en la pizarra, con el apoyo del grupo. Juntos deciden qué información escribirán, cuántas palabras son y, al avanzar, prolongan los sonidos para identificar las letras, que pueden buscar en el abecedario si lo necesitan. El docente guía la escritura atendiendo al trazo, la direccionalidad, la linealidad y la separación de palabras. Si es necesario, vuelve a escribir la fecha para modelizar el trazado correcto. Luego, todos copian la fecha en sus cuadernos y el docente revisa las producciones."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-mensaje-3",
+                    "title": "ACTIVIDAD 3",
+                    "pedagogicalIntention": "Juegan con los sonidos de las palabras.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Escribe como puedas dos palabras que comiencen con el mismo sonido: ____________________________________________________",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes comentan si pudieron realizar la tarea para el hogar y si intentaron escribir a quién le enviarían un mensaje."
+                        },
+                        {
+                            "titulo": "Momento 2. Juego Veo, veo con conciencia fonológica.",
+                            "description": "El docente lee el mensaje de la actividad 2 del fascículo y propone un juego para que los estudiantes reconozcan palabras por los sonidos.\nOrientación específica para el docente: Es fundamental referirse a las letras por los sonidos y no por el nombre para el desarrollo de la conciencia fonológica. El docente debe estirar y exagerar los sonidos para que los estudiantes los identifiquen. Por ejemplo: sssss-aaaaaa-nnnnn-tttttt-aaaaaa\nA continuación, se proponen ejemplos, pero el docente puede agregar otras palabras a este juego.\n… una palabra que empieza con ssssss\n… una palabra de 2 sílabas\n… una palabra que rime con “polo”\n… una palabra con 4 sílabas\nVeo, veo...\n… una palabra que tenga 3 sonidos (año, leer, día) ¿qué palabra digo? ssss-oooo-yyyyyyy (soy)\n… una palabra que rime con “Santa”\n… una palabra que tiene el sonido rrrrrrrr (correo) ¿qué palabra digo? ddddd-iiiiiii-aaaaa (día)\n… una palabra de 3 sílabas ¿qué palabra digo? ccccc-aaaaa-ddddd-aaaaa (cada)\n… una palabra que rime con “amor”"
+                        },
+                        {
+                            "titulo": "Momento 3. Juego “El tren de los sonidos”.",
+                            "description": "El docente propone un juego: Voy a decir una palabra y, uno por uno, deberán decir otra palabra que empiece con el último sonido de la palabra que dije. Por ejemplo:\n● Docente: Mensaje\n● Estudiante 1: Elefante\n● Estudiante 2: Helado (es válido porque la H no tiene sonido y aquí se está trabajando la conciencia fonológica y no la ortografía).\n● Estudiante 3: Oso… y así sucesivamente.\nOrientación específica para el docente: Para este juego es necesario estirar y exagerar los últimos sonidos para que los estudiantes los identifiquen. Al continuar, los estudiantes también deben estirar el primer y el último sonido."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha y de lo realizado.",
+                            "description": "El docente indica que van a escribir la fecha al dictado. El docente dicta la fecha. Los estudiantes intentan escribir de forma autónoma. Luego el docente escribe la fecha y todos controlan y corrigen sus escrituras.\nLuego el docente explica que escribirán la frase “Hoy jugamos al tren de palabras.” para que recuerden lo que hicieron. Para ello, escribe las palabras desordenadas en la pizarra:\nsonidos. jugamos al Hoy de tren\nAvisa que están las palabras desordenadas y entre todos hay que ordenarlas. Orienta con preguntas, como, por ejemplo: ¿Cuál es la palabra inicial? ¿Cómo se escribía la palabra “hoy”, con qué letra empieza? ¿Esa letra tiene sonido? ¿Donde dirá la palabra “tren”, con qué letra empieza y con qué letra termina esa palabra?\nEl docente ordena la frase. Los estudiantes copian y el docente revisa las escrituras en el momento."
+                        }
+                    ]
+                }
+            ],
+            "description": "Comprensión y producción de mensajes breves para comunicar ideas sencillas a otras personas."
+        },
+        {
+            "id": "blk-seq-4-lengua-1ro-2",
+            "title": "Bloque 2. Comprensión lectora y gramática",
+            "blockNumber": 2,
+            "activities": [
+                {
+                    "id": "act-mensaje-4",
+                    "title": "ACTIVIDAD 4",
+                    "pedagogicalIntention": "Leen mensajes cortos.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Encierra las cosas que terminan con el mismo sonido.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Introducción del bloque. Lectura del papelógrafo de aprendizajes.",
+                            "description": "El docente y los estudiantes leen el papelógrafo de aprendizajes y marcan todo lo que ya aprendieron. Revisan la tarea para el hogar."
+                        },
+                        {
+                            "titulo": "Momento 2. Lectura de mensajes cortos.",
+                            "description": "Se indica a los estudiantes que busquen la actividad 4 del fascículo. El docente comenta que leerán distintos mensajes cortos para pensar qué mensaje transmiten. Lee el docente en voz alta, marcando con el dedo cada palabra que va leyendo. Al terminar el primer mensaje, pregunta: ¿Quién envía el mensaje? ¿A quién se lo envía? ¿Qué intención tiene con ese mensaje?"
+                        },
+                        {
+                            "titulo": "Momento 3. Lectura de las partes del mensaje corto.",
+                            "description": "El docente indica que lean en voz alta preguntándoles en distinto orden: ¿Puedes leer o marcar con el dedo el contenido? ¿Puedes leer o marcar con el dedo el destinatario? ¿Puedes leer la fecha? ¿Puedes leer o marcar con el dedo quién envía el mensaje? Esa misma lectura detallada se repite con los tres mensajes.\nRecorrido docente: El docente guía la lectura en voz alta. Indica a los estudiantes que marquen con el dedo lo que van a leer y luego la lectura, aunque sea lenta orientarlos a encontrar el sonido de la letra, por ejemplo: Esa suena como tu nombre, esa la escuchas en “fideos”. Se sugiere estirar y exagerar los sonidos modelando la lectura en voz alta."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha y de lo realizado en clase.",
+                            "description": "El docente indica que van a escribir la fecha al dictado, comenzando por el día y el mes. Invita a los estudiantes a escuchar con atención los sonidos para identificar cuáles letras deben usar. Luego, se realiza una revisión colectiva: el docente escribe la fecha en la pizarra y los estudiantes comparan su escritura con el modelo, corrigiendo si es necesario. A continuación, anuncia que escribirán lo que hicieron durante el día: Hoy leímos mensajes. Dicta las palabras prolongando o aislando los sonidos para facilitar su identificación, mientras las escribe en la pizarra para que los estudiantes lo hagan en simultáneo. Detiene la escritura para reflexionar sobre diferencias entre sonido y grafía, como en hoy (la “h” y el sonido “i”). Durante toda la actividad, el docente recorre el aula, observa las producciones y ofrece apoyo en el momento."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-mensaje-5",
+                    "title": "ACTIVIDAD 5",
+                    "pedagogicalIntention": "Leen mensajes cortos. Conocen signos de exclamación e interrogación.",
+                    "resources": "Tarjeta o cartel con los signos de interrogación, exclamación y un punto final.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Completa las letras y los signos que faltan de este mensaje:\nQuer_da María:\n¡Te d_seo _elices va_aciones\nTu _miga, R_sita",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que compartan la tarea para el hogar. El docente escucha las respuestas y modela la respuesta correcta."
+                        },
+                        {
+                            "titulo": "Momento 2. Afirmaciones, negaciones, preguntas y respuestas.",
+                            "description": "El docente indica que vuelvan a leer los mensajes cortos de la actividad 5 del fascículo. El docente relee en voz alta los mensajes enfatizando la entonación de cada uno. Pregunta: En el contenido de cada mensaje, ¿qué observan, además de letras? ¿Qué les parece que indican esos signos? Los escucha. Para sistematizar la información, el docente escribe en la pizarra:\nPregunto ¿?\nExclamo ¡!\nAfirmo o niego.\nEscribe los signos de manera que se observen bien. Lee lo que escribió. Explica que esos se llaman signos de puntuación y entonación y que son indicaciones escritas para que la persona que lee sepa cómo tiene que entonar la oración que está leyendo. Ayuda a los estudiantes para que lean. Todos observan que en Lengua Española los signos de pregunta y exclamación se ponen al principio y al final, no se ponen solamente al final."
+                        },
+                        {
+                            "titulo": "Momento 3. El juego de las entonaciones.",
+                            "description": "Para este juego, el docente prepara anteriormente una tarjeta o cartel con los signos de interrogación, exclamación y un punto final.\nEl docente propone un juego:\n● Escribe una oración en la pizarra, sin signos. La leen y comprenden con la guía del docente.\n● El docente levanta un cartel con un signo y un estudiante debe decir la misma oración cambiando la entonación, según el signo que levantó: de pregunta, de exclamación o de afirmación.\n● El estudiante que dice la nueva entonación explica en qué situación puede usarse esa frase.\nLas oraciones pueden ser:\n● Hace frío\n● Perdiste la llave\n● Esto es sabroso\n● Tengo hambre\n● Hace calor\n● Mañana es feriado\n● Mañana empiezan las vacaciones\nRecorrido docente: El docente guía y propone estrategias para resolver la actividad: pueden decir en voz alta la imagen que ven y pensar: ¿con qué sonido comienza?, ¿qué letra representa ese sonido?, ¿con qué letra empieza la palabra?"
+                        },
+                        {
+                            "titulo": "Momento 4. Actividad n.º 5 del fascículo.",
+                            "description": "En parejas, completan la actividad del fascículo: Completa los mensajes cortos para que los amigos puedan entenderse.\nAl finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos.\nRecorrido docente: El docente guía y asiste a cada grupo. Fomenta que piensen en la situación comunicativa y que la digan en voz alta para poder darse cuenta la entonación y, así, identificar qué signo deben poner. Les hace observar la necesidad del punto al final de las oraciones que no tienen signos de exclamación o interrogación."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha por parte de un estudiante.",
+                            "description": "El docente invita a un estudiante a escribir la fecha en la pizarra, con el apoyo del grupo. Juntos deciden qué información escribirán, cuántas palabras son y, al avanzar, prolongan los sonidos para identificar las letras, que pueden buscar en el abecedario si lo necesitan. El docente guía la escritura atendiendo al trazo, la direccionalidad, la linealidad y la separación de palabras. Si es necesario, vuelve a escribir la fecha para modelizar el trazado correcto. Luego, todos copian la fecha en sus cuadernos y el docente revisa las producciones."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-mensaje-6",
+                    "title": "ACTIVIDAD 6",
+                    "pedagogicalIntention": "Completan la escritura de mensajes cortos.",
+                    "resources": "",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Marca las palabras que comienzan como “pan”: mensaje, papel, digital, pantalla.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente pide a los estudiantes que voluntariamente cuenten cómo resolvieron la tarea para el hogar y si pueden leer en voz alta las palabras que completaron. Corrigen entre todos. El docente modela las respuestas correctas."
+                        },
+                        {
+                            "titulo": "Momento 2. Actividad n.º 6 del fascículo.",
+                            "description": "De a pares, completan la actividad del fascículo: Primero tienen que encontrar las diferencias entre dos mensajes y luego completar partes de mensajes que se borraron.\nRecorrido docente: El docente puede pedir que identifiquen el sonido de las letras que completan y cómo estas cambian la pronunciación de la palabra. Por ejemplo, si completan \"tedro\" en lugar de “Pedro”, pueden preguntar: ¿qué significa “tedro”?, ¿qué palabra quieres escribir? Entonces, escucha bien el sonido (el docente exagera el sonido a reconocer: pppppp-edro). ¿Cómo se escribe el sonido pppp?, ¿y con qué letra comienza? Comienza con la de pan, ¿cuál letra es? Además, tendrá que hacerles observar el uso de mayúsculas en nombres propios.\nOrientación específica para el docente: En esta actividad los sonidos que faltan son todas consonantes. Es posible que les cueste más a los estudiantes aislarlos. Se sugiere exagerar la pronunciación y separarla bien de las vocales para que los estudiantes puedan reconocerlos separado de la vocal.\nAdemás, se trabaja el uso y la escritura de las consonantes en mayúscula y minúscula.\nAl finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 3. Escritura de la fecha por parte de un estudiante.",
+                            "description": "El docente invita a un estudiante a escribir la fecha en la pizarra, con el apoyo del grupo. Juntos deciden qué información escribirán, cuántas palabras son y, al avanzar, prolongan los sonidos para identificar las letras, que pueden buscar en el abecedario si lo necesitan. El docente guía la escritura atendiendo al trazo, la direccionalidad, la linealidad y la separación de palabras. Si es necesario, vuelve a escribir la fecha para modelizar el trazado correcto. Luego, todos copian la fecha en sus cuadernos y el docente revisa las producciones."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "blk-seq-4-lengua-1ro-3",
+            "title": "Bloque 3. Producción escrita",
+            "blockNumber": 3,
+            "activities": [
+                {
+                    "id": "act-mensaje-7",
+                    "title": "ACTIVIDAD 7",
+                    "pedagogicalIntention": "Planifican la escritura de un mensaje corto.",
+                    "resources": "Papelógrafo de aprendizajes. Material para el juego: pistas sobre el nombre de los estudiantes.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Escribe tu nombre y dos palabras que terminen igual. ______________________________________________________________",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Introducción del bloque. Lectura del papelógrafo de aprendizajes.",
+                            "description": "El docente y los estudiantes leen el papelógrafo de aprendizajes y marcan todo lo que ya aprendieron. Se sugiere que los estudiantes hagan una marca, como un círculo o una cruz, al lado de los aprendizajes completados. El docente menciona lo que falta realizar, como:\n● Escribir mensajes cortos para el “buzón de la amistad”.\n● Leer mensajes del “buzón de la amistad”.\n● Descubrir quién envió el mensaje."
+                        },
+                        {
+                            "titulo": "Momento 2. Organización del proyecto final.",
+                            "description": "El docente explica de qué se trata el juego: Cada estudiante va a escribir un mensaje corto sin su firma. En el “cuerpo del mensaje” deberá poner una pista sobre su nombre para que un compañero adivine quién es. Cuando adivine, podrá agregarle la firma al mensaje. El día que envíen el mensaje, sortearán a quién se lo deben enviar. Antes de escribir el mensaje que enviarán, harán actividades para pensar los mensajes cortos.\nOrientación específica para el docente: Si bien para la lectura trabajaron varias pistas, para la escritura de los mensajes se decide mantener solo las pistas de las letras que componen el nombre propio del estudiante. De esta forma pueden reforzar estos conocimientos."
+                        },
+                        {
+                            "titulo": "Momento 3. Juego para pensar una descripción oral.",
+                            "description": "El docente explica de qué se trata el juego: Cada estudiante debe decir su nombre, con qué sonido comienza su nombre y algo característico propio. Por ejemplo: soy Juan, mi nombre empieza con JJJJ (el sonido) y termina con NNNN (el sonido) y me encanta bailar; soy Altagracia, mi nombre empieza con AAAA y termina con AAAA y me gusta jugar en el recreo; soy Patria, mi nombre empieza con PPPPP y termina con AAAA y soy muy alegre."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha y del nombre.",
+                            "description": "El docente indica que van a escribir la fecha al dictado, comenzando por el día y el mes. Invita a los estudiantes a escuchar con atención los sonidos para identificar qué letras deben usar. Luego, se realiza una revisión colectiva: el docente escribe la fecha en la pizarra y los estudiantes comparan su escritura con el modelo, corrigiendo si es necesario.\nEl docente explica que cada uno debe escribir el nombre propio y colorear la primera y última letra. Refuerza la importancia del uso de la mayúscula en la escritura de nombres propios."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-mensaje-8",
+                    "title": "ACTIVIDAD 8",
+                    "pedagogicalIntention": "Escriben mensajes cortos para jugar al “buzón de la amistad”.",
+                    "resources": "Material adicional para el juego: Pistas sobre los personajes para que los estudiantes completen los mensajes.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Completa el tren de palabras: buzón, amistad.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar:",
+                            "description": "Los estudiantes mencionan las palabras que escribieron. El docente verifica que terminen igual que el nombre propio del estudiante. El docente escucha las formas de resolver de los estudiantes y los guía hacia la comprensión de la respuesta correcta. Modeliza la escritura."
+                        },
+                        {
+                            "titulo": "Momento 2. Planificación de la escritura.",
+                            "description": "El docente menciona que van a pensar qué mensajes cortos pueden escribir para el juego. Antes de hacer los definitivos, van a practicar algunos."
+                        },
+                        {
+                            "titulo": "Momento 3. Actividad n.º 8 (A) del fascículo.",
+                            "description": "En pares, completan la actividad del fascículo: Completa los mensajes de otros niños que van a jugar al “buzón de la amistad”.\nOrientación específica para el docente: Para esta actividad es importante que cada estudiante identifique que deben completar estos mensajes con la información del personaje que está representado en el fascículo. No con su propia información. Luego, utilizarán estos mensajes como modelo para escribir el propio.\nRecorrido docente: Animar a los estudiantes a que utilicen las palabras que tienen en el fascículo para orientarse para escribir. No deben escribir la firma porque ese es el misterio a resolver.\nAl finalizar, en grupo total, los estudiantes exponen sus respuestas. Finalmente, el docente escucha las formas de resolver de los estudiantes y los guía hacia la comprensión de la respuesta correcta. Modeliza la escritura. Todos corrigen en sus fascículos."
+                        },
+                        {
+                            "titulo": "Momento 4. Escritura de la fecha y de la actividad realizada.",
+                            "description": "El docente indica que van a escribir la fecha al dictado, comenzando por el día y el mes. Invita a los estudiantes a escuchar con atención los sonidos para identificar cuáles letras deben usar. Luego, se realiza una revisión colectiva: el docente escribe la fecha en la pizarra y los estudiantes comparan su escritura con el modelo, corrigiendo si es necesario.\nLuego el docente explica que van a escribir “Buzón de la amistad” con letras móviles en la pizarra. El docente selecciona las letras móviles de estas palabras (o escribe las letras mezcladas en la pizarra). Los anima a armar la frase entre todos. Orienta, ¿cuántas palabras tiene la frase “Buzón de la amistad”? ¿Cómo empieza la palabra bbbuzón? ¿Qué sonido es? El docente se detiene para explicar que el sonido bbb se escribe con la letra B o la letra V, depende de cada palabra. Escribe dos ejemplos en la pizarra: Burro y Vaca. Las lee y alarga el sonido inicial de cada una para demostrar que suenan igual. Explica que cada vez que escuchen una palabra con ese sonido tienen que preguntar con qué letra (B o V) se escribe. Explica que la palabra “buzón” se escribe con la B. Luego se detiene también en el sonido de la letra “z” de la palabra “buzón”. Explica que el sonido sss, en la mayoría de los casos se escribe con la letra S (da ejemplos: sol, sueño, sandía), pero que en ocasiones también se escribe con la letra Z. Da ejemplos (zanahoria, zorro) y otras veces el mismo sonido se escribe con la letra C (como en el caso de cielo, cierre, cine). A medida que da ejemplos los dice y los escribe en la pizarra así los estudiantes escuchan el sonido y ven la diferencia de las letras. Una vez que quedó armada la frase, todos la copian. El docente revisa las escrituras."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-mensaje-9",
+                    "title": "ACTIVIDAD 9",
+                    "pedagogicalIntention": "Escriben y envían la versión final del mensaje corto.",
+                    "resources": "Para el sorteo de destinatarios: Nombres de todos los estudiantes en un papel. Guardados en una caja o saco para que saquen por sorteo.",
+                    "homework": "Recortar la tarea del fascículo y pegar en el cuaderno. Leer el mandato en voz alta para asegurar la comprensión: Marca cuáles son las partes del mensaje corto: fecha, inicio, destinatario, final, cuerpo del mensaje, firma.",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "Los estudiantes conversan sobre las palabras que escribieron en el tren de palabras. El docente escucha las formas de resolver de los estudiantes y los guía hacia la comprensión de la respuesta correcta. Modeliza la escritura. Todos comparan sus tareas con lo escrito por el docente."
+                        },
+                        {
+                            "titulo": "Momento 2. Escritura de la versión final de los mensajes.",
+                            "description": "Los estudiantes recortan el mensaje corto de la actividad n.° 9 del fascículo. Escriben la versión final de su mensaje en ese recortable. El destinatario lo completarán luego de escribir, así que deben dejar el espacio en blanco. Tampoco deben completar la firma. Ese espacio lo completarán al final del juego.\nPor ejemplo:\nSanto Domingo, 22 de noviembre de 2025\n____________:\nMi nombre inicia con N y termina con A\n¿Quién soy?"
+                        },
+                        {
+                            "titulo": "Momento 3. Sorteo de destinatarios.",
+                            "description": "El docente preparará con anticipación los nombres de todos los estudiantes en papelitos. El docente pasa por cada mesa para que cada estudiante saque un destinatario. Sin decir quién es, cada estudiante completa el mensaje con el destinatario."
+                        },
+                        {
+                            "titulo": "Momento 4. Envío del mensaje al buzón.",
+                            "description": "Cada estudiante dobla la hoja donde escribió el mensaje corto y del lado de afuera escribe el nombre del destinatario. Luego, colocan cada mensaje en el buzón de la amistad. Abrirán los mensajes en la siguiente clase."
+                        },
+                        {
+                            "titulo": "Momento 5. Escritura de la fecha y dictado de palabras.",
+                            "description": "El docente indica que van a escribir la fecha al dictado, comenzando por el día y el mes. Invita a los estudiantes a escuchar con atención los sonidos para identificar cuáles letras deben usar. Luego, se realiza una revisión colectiva: el docente escribe la fecha en la pizarra y los estudiantes comparan su escritura con el modelo, corrigiendo si es necesario.\nEl docente explica que van a practicar escribir dos palabras que aprendieron ayer: buzón y amistad. Las dicta. Luego el docente las escribe en la pizarra y todos revisan sus escrituras."
+                        }
+                    ]
+                },
+                {
+                    "id": "act-mensaje-10",
+                    "title": "ACTIVIDAD 10",
+                    "pedagogicalIntention": "Leen en voz alta mensajes cortos. Firman mensajes.",
+                    "resources": "Papelógrafo de aprendizajes. Buzón de la amistad con los mensajes que dejaron los estudiantes.",
+                    "homework": "",
+                    "moments": [
+                        {
+                            "titulo": "Momento 1. Recuperación de la tarea para el hogar.",
+                            "description": "El docente revisa cómo resolvieron la tarea para el hogar. Aprovecha la oportunidad para repasar las partes del mensaje corto."
+                        },
+                        {
+                            "titulo": "Momento 2. Apertura del “buzón de la amistad”.",
+                            "description": "El docente propone que se sienten en una ronda y abre el buzón de la amistad. A medida que saca un mensaje, lee el destinatario y se lo entrega. El destinatario lo lee en voz alta y adivina quién lo envió. Cuando acierta, el emisor escribe su nombre como firma del mensaje. Continúan con todos los estudiantes."
+                        },
+                        {
+                            "titulo": "Momento 3. Revisión del papelógrafo.",
+                            "description": "Entre todos, comentan los aprendizajes realizados."
+                        },
+                        {
+                            "titulo": "Momento 4. Actividad n.º 10 del fascículo: “Palabras aprendidas”.",
+                            "description": "Lee las palabras del vocabulario en el fascículo y realizan la actividad: Ordena las letras para formar las palabras que aprendiste en esta secuencia. Al finalizar, en grupo total, verifican las respuestas. Los estudiantes exponen sus respuestas. Finalmente, el docente modela las respuestas correctas y todos corrigen en sus fascículos."
+                        },
+                        {
+                            "title": "Cierre:",
+                            "description": "Agradece a los estudiantes por su esfuerzo y compromiso."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
