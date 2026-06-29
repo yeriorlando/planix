@@ -19,7 +19,7 @@ export default function PublicPageLayout({ title, subtitle, children }: PublicPa
       <header className="relative w-full z-20 pt-6 px-6">
         <div className="max-w-6xl mx-auto flex justify-between items-center bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md px-6 py-4 rounded-3xl border border-neutral-150 dark:border-zinc-800 shadow-sm">
           <Link to="/" className="flex items-center gap-3 shrink-0">
-            <img src="/logo planix.webp" alt="Planix" className="h-7 w-auto object-contain dark:brightness-125" />
+            <img src="/Logo-login-y-landing.webp" alt="Planix" className="h-7 w-auto object-contain dark:brightness-125" />
           </Link>
 
           <div className="flex items-center gap-4">

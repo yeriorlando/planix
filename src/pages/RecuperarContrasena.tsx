@@ -95,7 +95,7 @@ export default function RecuperarContrasena() {
           {/* Logo */}
           <div className="flex justify-center">
             <img 
-              src="/logo planix.webp" 
+              src="/Logo-login-y-landing.webp" 
               alt="Planix" 
               className="h-24 w-auto object-contain dark:brightness-125 select-none pointer-events-none"
             />

@@ -1200,7 +1200,88 @@ export async function generateAudit(planData: any): Promise<any> {
   }
 }
 
-// 5. Evaluation and Metacognition Generator
+// 5. Coordinator Assistant Services
+export async function generateCoordinatorChecklist(planData: any): Promise<string[]> {
+  const systemPrompt = `Actúa como un Asistente de Supervisión Pedagógica del MINERD (República Dominicana).
+  Analiza la planificación entregada y genera una lista de exactamente 10 criterios de evaluación específicos, lógicos y altamente usables para revisar esta planificación.
+  Deben ser criterios directos que se puedan marcar como cumplidos o no.
+  Devuelve ÚNICAMENTE un array JSON de strings con los 10 criterios. Ejemplo:
+  [
+    "Criterio 1",
+    "Criterio 2"
+  ]`;
+
+  const userPrompt = `
+  Analiza esta planificación:
+  - Asignatura: ${planData.area || planData.asignatura || 'N/A'}
+  - Secuencia: ${planData.secuencia || planData.actividad_titulo || 'N/A'}
+  - Intención Pedagógica: ${planData.intencion_pedagogica || 'No especificada'}
+  - Momentos de la Clase: ${JSON.stringify(planData.momentos || [])}
+  `;
+
+  try {
+    const list = await runAICall(systemPrompt, userPrompt, 0.7, "json");
+    if (Array.isArray(list)) return list;
+    if (list && Array.isArray(list.criterios)) return list.criterios;
+    if (list && Array.isArray(list.checklist)) return list.checklist;
+    throw new Error("Formato no soportado");
+  } catch (error) {
+    console.warn("[AI Service] Fallback a criterios predefinidos por error:", error);
+    return [
+      "Objetivos alineados al currículo dominicano",
+      "Estrategias diferenciadas presentes",
+      "Evaluación coherente con los objetivos",
+      "Recursos disponibles en la institución",
+      "Tiempos por actividad explícitos",
+      "Contenidos e Indicadores articulados",
+      "Competencias Específicas bien seleccionadas",
+      "Secuencia metodológica clara (Inicio, Desarrollo, Cierre)",
+      "Inclusión de atención a la diversidad",
+      "Evidencias de aprendizaje definidas"
+    ];
+  }
+}
+
+export async function generateCoordinatorFeedback(planData: any, selectedCriteria: { label: string, checked: boolean }[], decision: string): Promise<string> {
+  const systemPrompt = `Actúa como un Coordinador Pedagógico experimentado de República Dominicana.
+  Escribe una retroalimentación/notas de mejora constructiva y profesional para el docente basada en la decisión tomada y los criterios evaluados.
+  El texto debe ser conciso, directo, muy profesional (máximo 3-4 líneas, unas 60-80 palabras). No uses asteriscos ni markdown, solo texto plano en un único párrafo.`;
+
+  const checkedList = selectedCriteria.filter(c => c.checked).map(c => c.label);
+  const uncheckedList = selectedCriteria.filter(c => !c.checked).map(c => c.label);
+
+  const userPrompt = `
+  Planificación: "${planData.secuencia || planData.actividad_titulo || 'N/A'}"
+  Asignatura: "${planData.area || planData.asignatura || 'N/A'}"
+  Decisión del Coordinador: **${decision}**
+  
+  Criterios CUMPLIDOS:
+  ${checkedList.length > 0 ? checkedList.map(c => `- ${c}`).join('\n') : 'Ninguno'}
+  
+  Criterios NO CUMPLIDOS (Puntos de mejora):
+  ${uncheckedList.length > 0 ? uncheckedList.map(c => `- ${c}`).join('\n') : 'Ninguno'}
+  `;
+
+  try {
+    const text = await runAICall(systemPrompt, userPrompt, 0.7, "text");
+    if (typeof text === 'string') {
+      return text.replace(/```json\n?|```/g, "").replace(/"/g, "").trim();
+    }
+    if (text && text.feedback) return text.feedback;
+    return String(text);
+  } catch (error) {
+    console.warn("[AI Service] Fallback a feedback local por error:", error);
+    if (decision === 'Aprobar') {
+      return `Excelente planificación, alineada correctamente con los indicadores curriculares y los momentos de la clase. Sigue adelante con esta metodología de secuencias.`;
+    } else if (decision === 'Devolver') {
+      return `Se sugiere revisar la coherencia de los momentos de clase y ajustar las estrategias de atención a la diversidad para asegurar que todos los estudiantes logren los indicadores.`;
+    } else {
+      return `Favor coordinar una reunión presencial en la oficina pedagógica para revisar los detalles del plan diario de clase y mejorar el diseño de la evaluación.`;
+    }
+  }
+}
+
+// 6. Evaluation and Metacognition Generator
 export async function generateEvaluationAndMeta(planData: any): Promise<any> {
   const systemPrompt = "Eres un experto en pedagogía dominicana del MINERD. Responde ÚNICAMENTE con el objeto JSON solicitado.";
   
@@ -2046,5 +2127,315 @@ Ejemplo de formato de respuesta:
     throw err;
   }
 }
+
+export interface WordSearchGenerationRequest {
+  topic?: string;
+  customText?: string;
+  numWords: number;
+  difficulty: string;
+}
+
+export async function generateWordSearchWords(request: WordSearchGenerationRequest): Promise<string[]> {
+  const { topic, customText, numWords, difficulty } = request;
+
+  const contextPrompt = customText
+      ? `Extrae las palabras clave más importantes del siguiente texto para un estudiante.\n\nTexto: "${customText}"`
+      : `Genera palabras relevantes sobre el tema: "${topic}".`;
+
+  let difficultyConstraints = '';
+  if (difficulty === 'Fácil') {
+      difficultyConstraints = 'Las palabras deben ser cortas, comunes y fáciles de entender para niños pequeños. Evita palabras compuestas.';
+  } else if (difficulty === 'Medio') {
+      difficultyConstraints = 'Las palabras deben ser de longitud y dificultad moderada, adecuadas para estudiantes de primaria.';
+  } else if (difficulty === 'Difícil') {
+      difficultyConstraints = 'Incluye términos más técnicos, específicos o largos relacionados con el tema, adecuados para estudiantes de secundaria.';
+  }
+
+  const systemPrompt = `Eres un asistente experto en crear material educativo interactivo.`;
+  const userPrompt = `
+Tu tarea es generar exactamente ${numWords} palabras para rellenar un juego escolar de Sopa de Letras.
+
+${contextPrompt}
+
+RESTRICCIONES IMPORTANTES:
+- ${difficultyConstraints}
+- Todas las palabras DEBEN estar en español.
+- SIN espacios, SIN tildes, SIN caracteres especiales, SIN números (letras A-Z exclusivamente).
+- Si una palabra lleva tilde (ej: corazón), devuélvela sin tilde (corazon).
+- Si alguna palabra tiene un espacio, escoge otra o úsala de corrido solo si es un nombre común (ej: "buenos aires" -> "buenosaires").
+- No repitas palabras.
+- Responde ÚNICA Y EXCLUSIVAMENTE con un arreglo JSON lineal que contenga las ${numWords} palabras como strings. No incluyas backticks, markdown ni explicaciones.
+
+Ejemplo de respuesta válida:
+["PERRO", "GATO", "RATON", "VACA", "CABALLO"]
+  `.trim();
+
+  try {
+    const wordsList = await runAICall(systemPrompt, userPrompt, 0.7, "json");
+    if (!Array.isArray(wordsList)) {
+        throw new Error("La respuesta no fue un arreglo válido.");
+    }
+
+    const cleanedWords = wordsList
+        .map((word: string) => word.toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^A-Z]/g, ''))
+        .filter((word: string) => word.length >= 3)
+        .slice(0, numWords);
+
+    if (cleanedWords.length < 3) {
+        throw new Error("La IA no pudo generar suficientes palabras válidas.");
+    }
+
+    return cleanedWords;
+  } catch (error: any) {
+    console.error('Error generando sopa de letras:', error);
+    throw new Error(error.message || 'Error al generar las palabras. Verifica tu conexión e inténtalo de nuevo.');
+  }
+}
+
+export interface CrosswordGenerationRequest {
+  topic?: string;
+  customText?: string;
+  numWords: number;
+  difficulty: string;
+}
+
+export async function generateCrosswordItems(request: CrosswordGenerationRequest): Promise<{ word: string; clue: string }[]> {
+  const { topic, customText, numWords, difficulty } = request;
+
+  const contextPrompt = customText
+      ? `Extrae palabras importantes y elabora pistas basándote EXCLUSIVAMENTE en este texto:\n"${customText}"\n`
+      : `El tema generador es: "${topic}"`;
+
+  let difficultyConstraints = '';
+  if (difficulty === 'Fácil') {
+      difficultyConstraints = 'Pistas muy directas, literales o descripciones obvias.';
+  } else if (difficulty === 'Medio') {
+      difficultyConstraints = 'Una mezcla equitativa, definiciones estándar de diccionario escolar.';
+  } else if (difficulty === 'Difícil') {
+      difficultyConstraints = 'Cierta complejidad, metáforas, descripciones que requieran pensar un poco o deducción escolar avanzada.';
+  }
+
+  const systemPrompt = `Eres un asistente experto en crear material educativo interactivo.`;
+  const userPrompt = `
+Actúa como un profesor creador de crucigramas educativos divertidos.
+Tu objetivo es extraer del texto base o del tema proporcionado, exactamente ${numWords} palabras clave.
+
+Para cada palabra, debes proveer una "pista" (clue) según este nivel de dificultad: "${difficulty}".
+- Dificultad: ${difficultyConstraints}
+
+Reglas ESTRICTAS:
+1. Las "palabras" (word) deben ser una sola palabra, preferiblemente sustantivos singulares o adjetivos muy conocidos.
+2. NO debe haber espacios en la "word".
+3. NO debe haber caracteres especiales (comillas, guiones) ni acentos/tildes en la clave "word". Solo letras del alfabeto de la A a la Z. Por favor devuelve "word" en MAYUSCULAS SIN TILDES (ej: ARBOL, CANCION).
+4. Las pistas "clue" deben ser oraciones completas legibles con correcta ortografía y signos de puntuación (ej: "Astro luminoso que nos da calor y energía durante el día.").
+
+${contextPrompt}
+
+DEBES devolver el resultado ÚNICAMENTE en este formato JSON válido, sin ningún otro texto alrededor (sin saltos de línea markdown, solo el arreglo):
+[
+  { "word": "PALABRA", "clue": "Pista descriptiva de la palabra." },
+  { "word": "OTRA", "clue": "Es otra pista relacionada al concepto." }
+]
+  `.trim();
+
+  try {
+    const crosswordItems = await runAICall(systemPrompt, userPrompt, 0.7, "json");
+    if (!Array.isArray(crosswordItems)) {
+        throw new Error("La respuesta no fue un arreglo válido.");
+    }
+
+    const finalItems = crosswordItems.map((item: any) => ({
+        word: (item.word || '')
+            .toUpperCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // remove tildes
+            .replace(/[^A-Z]/g, ''), // Keep only letters
+        clue: item.clue || 'Sin pista generada.'
+    })).filter(item => item.word.length >= 2); // Filter out 1 letter trash
+
+    if (finalItems.length === 0) {
+        throw new Error("La IA no pudo generar suficientes palabras válidas.");
+    }
+
+    return finalItems.slice(0, numWords);
+  } catch (error: any) {
+    console.error('Error generando crucigrama:', error);
+    throw new Error(error.message || 'Error al generar el crucigrama. Verifica tu conexión e inténtalo de nuevo.');
+  }
+}
+
+export interface JeopardyQuestion {
+  points: number;
+  question: string;
+  options: string[];
+  correctAnswer: string;
+  explanation: string;
+}
+
+export interface JeopardyCategory {
+  name: string;
+  questions: JeopardyQuestion[];
+}
+
+export interface JeopardyGenerationRequest {
+  topic: string;
+  difficulty: string;
+  numTeams?: number;
+}
+
+export async function generateJeopardyBoard(request: JeopardyGenerationRequest): Promise<{ categories: JeopardyCategory[]; teamNames: string[] }> {
+  const { topic, difficulty, numTeams = 3 } = request;
+
+  const systemPrompt = `Eres un asistente experto en crear material educativo interactivo y dinámicas de gamificación en el aula.`;
+  const userPrompt = `
+Actúa como un profesor experto en diseñar trivias escolares competitivas.
+Tu objetivo es generar un tablero de Jeopardy basado en el tema: "${topic}" y nivel de dificultad: "${difficulty}".
+
+El tablero debe constar de EXACTAMENTE 4 categorías temáticas distintas relacionadas con el tema principal.
+Para cada categoría, debes generar exactamente 5 preguntas con valores de puntos crecientes: 100, 200, 300, 400 y 500.
+
+Para cada pregunta:
+- Proporciona el enunciado de la pregunta ("question").
+- Proporciona un arreglo de exactamente 4 opciones múltiples ("options").
+- Indica la respuesta correcta exacta ("correctAnswer"), que debe coincidir exactamente con una de las 4 opciones.
+- Agrega una breve explicación ("explanation") de por qué esa opción es correcta.
+
+También debes sugerir exactamente ${numTeams} nombres de equipos temáticos, divertidos y educativos inspirados en el tema principal ("${topic}") y la dificultad ("${difficulty}").
+
+Reglas de dificultad:
+- Fácil: Preguntas directas, obvias y conceptos básicos.
+- Medio: Mezcla de conceptos intermedios, aplicación práctica directa.
+- Difícil: Preguntas técnicas, análisis conceptual, razonamiento de nivel superior.
+
+DEBES devolver el resultado ÚNICAMENTE en este formato JSON válido, sin textos introductorios ni bloques de código markdown:
+{
+  "categories": [
+    {
+      "name": "Nombre de Categoría 1",
+      "questions": [
+        {
+          "points": 100,
+          "question": "¿Pregunta de 100 puntos?",
+          "options": ["Opción A", "Opción B", "Opción C", "Opción D"],
+          "correctAnswer": "Opción A",
+          "explanation": "Breve explicación..."
+        },
+        ... (hasta la pregunta de 500 puntos)
+      ]
+    },
+    ... (total de 4 categorías)
+  ],
+  "teamNames": [
+    "Nombre de Equipo 1",
+    ... (total de ${numTeams} nombres de equipos)
+  ]
+}
+  `.trim();
+
+  try {
+    const data = await runAICall(systemPrompt, userPrompt, 0.75, "json");
+    if (!data || !Array.isArray(data.categories)) {
+      throw new Error("La respuesta no contiene categorías válidas.");
+    }
+    const categories = data.categories;
+    const teamNames = Array.isArray(data.teamNames) ? data.teamNames.slice(0, numTeams) : Array.from({ length: numTeams }, (_, i) => `Grupo ${i + 1}`);
+    return { categories, teamNames };
+  } catch (error: any) {
+    console.error('Error generando tablero Jeopardy:', error);
+    const categories = getMockJeopardyBoard(topic, difficulty);
+    const teamNames = Array.from({ length: numTeams }, (_, i) => `Grupo ${i + 1}`);
+    return { categories, teamNames };
+  }
+}
+
+function getMockJeopardyBoard(topic: string, difficulty: string): JeopardyCategory[] {
+  return [
+    {
+      name: "Conceptos Básicos",
+      questions: [
+        { points: 100, question: `¿Cuál es el concepto principal al hablar de "${topic}"?`, options: ["Definición Básica", "Idea Equivocada", "Concepto Alterno", "Dato Irrelevante"], correctAnswer: "Definición Básica", explanation: "Representa el cimiento elemental del tema." },
+        { points: 200, question: `¿Cuál de las siguientes afirmaciones sobre "${topic}" es correcta?`, options: ["Afirmación Verdadera", "Mito Común", "Error de Concepto", "Dato Desactualizado"], correctAnswer: "Afirmación Verdadera", explanation: "Es un hecho comprobado y aceptado sobre el tema." },
+        { points: 300, question: `¿Cuál es un elemento fundamental para el desarrollo de "${topic}"?`, options: ["Elemento Clave", "Accesorio Opcional", "Detalle Menor", "Factor Externo"], correctAnswer: "Elemento Clave", explanation: "Es indispensable para comprender el funcionamiento general." },
+        { points: 400, question: `Si analizamos "${topic}" en la vida cotidiana, ¿dónde lo observamos más claramente?`, options: ["Ejemplo Práctico", "Caso Imposible", "Teoría Abstracta", "Contexto Ficticio"], correctAnswer: "Ejemplo Práctico", explanation: "Demuestra la aplicabilidad real del tema." },
+        { points: 500, question: `¿Qué importancia tiene el estudio de "${topic}" hoy en día?`, options: ["Fomenta el pensamiento crítico y la comprensión científica", "Es una materia obsoleta sin aplicaciones", "Solo sirve para aprobar exámenes de memoria", "Carece de relevancia en el mundo moderno"], correctAnswer: "Fomenta el pensamiento crítico y la comprensión científica", explanation: "Ayuda a estructurar el entendimiento del entorno." }
+      ]
+    },
+    {
+      name: "Aplicaciones",
+      questions: [
+        { points: 100, question: `¿Cómo se aplica principalmente "${topic}" en el aula?`, options: ["A través de dinámicas interactivas", "Mediante la copia mecánica de textos", "Ignorándolo por completo", "Solo con exámenes sorpresa"], correctAnswer: "A través de dinámicas interactivas", explanation: "Facilita la asimilación activa de contenidos." },
+        { points: 205, question: `¿Qué recurso es ideal para ilustrar "${topic}"?`, options: ["Modelos visuales y material concreto", "Lectura repetitiva sin dibujos", "Pizarra en blanco", "Ninguno en absoluto"], correctAnswer: "Modelos visuales y material concreto", explanation: "Brinda un soporte cognitivo al alumno." },
+        { points: 300, question: `¿Qué sucede si aplicamos mal los principios de "${topic}"?`, options: ["Se generan lagunas de aprendizaje", "Todo funciona exactamente igual", "El aprendizaje se acelera mágicamente", "Se obtiene una calificación perfecta"], correctAnswer: "Se generan lagunas de aprendizaje", explanation: "El desorden curricular desorienta al estudiante." },
+        { points: 400, question: `¿Cuál es un caso de éxito real al usar "${topic}"?`, options: ["Alumnos motivados que explican el tema con sus palabras", "Aulas en silencio temerosas de participar", "Copiar un libro de texto completo", "Memorizar definiciones sin entenderlas"], correctAnswer: "Alumnos motivados que explican el tema con sus palabras", explanation: "Indica un nivel de comprensión autónomo." },
+        { points: 500, question: `¿Qué método promueve una mejor retención al aplicar "${topic}"?`, options: ["El aprendizaje basado en proyectos y la gamificación", "La repetición memorística constante", "Ver videos sin realizar actividades", "Estudiar solo la noche anterior del examen"], correctAnswer: "El aprendizaje basado en proyectos y la gamificación", explanation: "Involucra al alumno de manera multisensorial y motivacional." }
+      ]
+    },
+    {
+      name: "Desafíos",
+      questions: [
+        { points: 100, question: `¿Cuál es el obstáculo inicial al estudiar "${topic}"?`, options: ["La falta de interés o conceptos previos erróneos", "Que es demasiado simple", "El exceso de materiales divertidos", "Que no requiere esfuerzo"], correctAnswer: "La falta de interés o conceptos previos erróneos", explanation: "Superar el desinterés inicial es clave." },
+        { points: 200, question: `¿Cómo puede un docente superar la resistencia al tema "${topic}"?`, options: ["Relacionándolo con el entorno real del alumno", "Aumentando la cantidad de tareas escritas", "Castigando a quienes no presten atención", "Evitando hablar del tema en clase"], correctAnswer: "Relacionándolo con el entorno real del alumno", explanation: "La relevancia personal despierta la curiosidad." },
+        { points: 300, question: `¿Qué error común cometen los estudiantes con "${topic}"?`, options: ["Confundir conceptos similares debido a falta de práctica", "Entenderlo todo a la primera sin dudar", "Investigar de forma autónoma en la biblioteca", "Hacer demasiadas preguntas de calidad"], correctAnswer: "Confundir conceptos similares debido a falta de práctica", explanation: "Se soluciona con retroalimentación oportuna." },
+        { points: 400, question: `¿Qué estrategia es ineficaz ante un bloqueo sobre "${topic}"?`, options: ["Explicar de la misma forma una y otra vez", "Utilizar analogías sencillas", "Realizar una pausa activa", "Cambiar de canal sensorial"], correctAnswer: "Explicar de la misma forma una y otra vez", explanation: "Si un método no funciona, repetir la misma explicación no ayuda." },
+        { points: 500, question: `¿Cuál es el mayor reto a largo plazo con respecto a "${topic}"?`, options: ["Lograr que el alumno transfiera lo aprendido a situaciones nuevas", "Recordar el concepto para el examen del día siguiente", "Mantener los cuadernos limpios y ordenados", "Aprenderse el glosario de memoria"], correctAnswer: "Lograr que el alumno transfiera lo aprendido a situaciones nuevas", explanation: "La transferencia del aprendizaje es la meta final de la educación." }
+      ]
+    },
+    {
+      name: "Curiosidades",
+      questions: [
+        { points: 100, question: `¿Qué hecho curioso destaca de "${topic}"?`, options: ["Tiene conexiones inesperadas con la vida diaria", "Es un tema aburrido y sin misterios", "Fue descubierto hace solo dos días", "Carece de historia o antecedentes"], correctAnswer: "Tiene conexiones inesperadas con la vida diaria", explanation: "La curiosidad conecta con la memoria afectiva." },
+        { points: 200, question: `¿Quiénes fueron los pioneros en estudiar aspectos de "${topic}"?`, options: ["Científicos y filósofos curiosos a lo largo de la historia", "Personajes ficticios de cuentos", "Nadie, surgió de la nada", "Computadoras del futuro"], correctAnswer: "Científicos y filósofos curiosos a lo largo de la historia", explanation: "La ciencia es una construcción colectiva histórica." },
+        { points: 300, question: `¿Qué dato sorprendente sobre "${topic}" suele asombrar a los alumnos?`, options: ["Que pequeños cambios pueden producir grandes diferencias", "Que las respuestas son siempre las mismas en todos lados", "Que no se puede usar matemáticas para explicarlo", "Que está prohibido dibujarlo"], correctAnswer: "Que pequeños cambios pueden producir grandes diferencias", explanation: "Despierta el asombro y la indagación científica." },
+        { points: 400, question: `¿Cómo influye la tecnología moderna en el avance de "${topic}"?`, options: ["Permite simular, medir y visualizar phenomena complejos en segundos", "Hace que el tema sea completamente inútil", "Reemplaza al cerebro humano por completo", "Impedir que los alumnos piensen por sí mismos"], correctAnswer: "Permite simular, medir y visualizar phenomena complejos en segundos", explanation: "La tecnología amplifica nuestras capacidades cognitivas." },
+        { points: 500, question: `Si "${topic}" fuera un superpoder, ¿en qué consistiría principalmente?`, options: ["En la habilidad de comprender y transformar el entorno de forma lógica", "En volar o volverse invisible", "En adivinar las preguntas de los exámenes", "En hacer que las tareas se escriban solas"], correctAnswer: "En la habilidad de comprender y transformar el entorno de forma lógica", explanation: "El verdadero superpoder del saber es la resolución de problemas." }
+      ]
+    }
+  ];
+}
+
+export async function generateEphemerisDescription(title: string, month: string): Promise<string> {
+  await syncAIConfigWithSupabase();
+  const config = loadAIConfig();
+  const provider = config.activeProvider;
+  const provConf = config.providers[provider];
+
+  const apiKey = (provConf.useCustomServer ? provConf.customApiKey : provConf.apiKey) || (provConf.useCustomServer ? "no-key-needed" : "");
+  const baseURL = provConf.useCustomServer ? provConf.customBaseURL : "";
+  const model = provConf.defaultModel;
+
+  if (!apiKey) {
+    console.warn(`[AI Service] No hay API Key configurada para ${provider}. Usando fallback local.`);
+    return `Efeméride conmemorativa sobre ${title} que se celebra en el mes de ${month}.`;
+  }
+
+  const systemPrompt = `Eres un experto en historia y cultura, con especial enfoque en efemérides dominicanas e internacionales relevantes para el ámbito educativo.`;
+  const userPrompt = `Genera una descripción concisa, educativa y atractiva (máximo 300 caracteres aprox, o 2 frases bien construidas) sobre la efeméride: "${title}" del mes de "${month}".
+  
+  Requisitos:
+  1. Enfócate en el origen o el propósito de la celebración.
+  2. Mantén un tono formal pero accesible para docentes y estudiantes.
+  3. Si la efeméride es específica de República Dominicana, resalta su importancia nacional.
+  
+  Responde DIRECTAMENTE con el texto de la descripción, sin preámbulos ni comillas.`;
+
+  try {
+    let result = "";
+    if (provider === "openai") {
+      result = await callOpenAI(apiKey, baseURL, model, systemPrompt, userPrompt);
+    } else if (provider === "gemini") {
+      result = await callGemini(apiKey, baseURL, model, systemPrompt, userPrompt);
+    } else if (provider === "groq") {
+      result = await callGroq(apiKey, baseURL, model, systemPrompt, userPrompt);
+    } else if (provider === "deepseek") {
+      result = await callDeepSeek(apiKey, baseURL, model, systemPrompt, userPrompt);
+    }
+    
+    const cleaned = result.replace(/```[a-z]*\n?|```/gi, "").trim();
+    return cleaned;
+  } catch (error) {
+    console.error("[AI Service] Error generating description:", error);
+    return `Efeméride conmemorativa sobre ${title} que se celebra en el mes de ${month}.`;
+  }
+}
+
 
 

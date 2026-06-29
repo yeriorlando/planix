@@ -40,6 +40,7 @@ import { es } from "date-fns/locale";
 import { toast, Toaster } from "sonner";
 import { Card } from "../components/ui/card";
 import { Button } from "../components/ui/button";
+import { CalendarView, parseIsoString, HeroUIStyles } from "../components/ui/heroui-date-picker";
 
 interface ErrorBoundaryProps {
   children: React.ReactNode;
@@ -211,6 +212,7 @@ function Asistencia() {
   const [attendanceDate, setAttendanceDate] = useState(() => {
     return new Date().toISOString().split("T")[0];
   });
+  const [showDatePicker, setShowDatePicker] = useState(false);
 
   // Current month (Monthly View)
   const [currentMonth, setCurrentMonth] = useState(() => startOfMonth(new Date()));
@@ -232,7 +234,7 @@ function Asistencia() {
   // Load classrooms
   useEffect(() => {
     if (!user) return;
-    const data = user.rol === "admin" ? getAllClassroomsAdmin() : getClassrooms(user.id);
+    const data = getClassrooms(user.id);
     setClassrooms(data);
   }, [user]);
 
@@ -1306,6 +1308,18 @@ function Asistencia() {
           { id: "anual", label: "Resumen Acumulado Anual", icon: <TrendingUp size={16} /> },
         ].map((tab) => {
           const isActive = activeView === tab.id;
+          const tabColors = {
+            diaria: isActive 
+              ? "bg-[#1B1B1B] text-white border-black/15 shadow-md dark:bg-white dark:text-[#1B1B1B] dark:border-transparent" 
+              : "bg-white text-text-muted hover:bg-black/5 border-black/10 dark:bg-zinc-900 dark:text-zinc-400 dark:border-zinc-800 dark:hover:bg-zinc-800",
+            mensual: isActive 
+              ? "bg-amber-600 text-white border-transparent shadow-md dark:bg-amber-500" 
+              : "bg-amber-50 text-amber-700 border-amber-200/50 hover:bg-amber-100 dark:bg-amber-950/20 dark:border-amber-900/30 dark:text-amber-400 dark:hover:bg-amber-900/50",
+            anual: isActive 
+              ? "bg-blue-600 text-white border-transparent shadow-md dark:bg-blue-500" 
+              : "bg-blue-50 text-blue-700 border-blue-200/50 hover:bg-blue-100 dark:bg-blue-950/20 dark:border-blue-900/30 dark:text-blue-400 dark:hover:bg-blue-900/50"
+          };
+          const currentTabClass = tabColors[tab.id as keyof typeof tabColors];
           return (
             <button
               key={tab.id}
@@ -1321,11 +1335,7 @@ function Asistencia() {
                 }
                 setActiveView(tab.id as any);
               }}
-              className={`flex items-center gap-2 px-4 py-2 rounded-full font-bold text-[13px] transition-all cursor-pointer whitespace-nowrap active:scale-95 select-none border shadow-sm ${
-                isActive 
-                  ? "bg-[#1B1B1B] text-white border-black/15 shadow-md dark:bg-white dark:text-[#1B1B1B] dark:border-transparent" 
-                  : "bg-white text-text-muted hover:bg-black/5 border-black/10 dark:bg-zinc-900 dark:text-zinc-400 dark:border-zinc-800 dark:hover:bg-zinc-800"
-              }`}
+              className={`flex items-center gap-2 px-4 py-2 rounded-full font-bold text-[13px] transition-all cursor-pointer whitespace-nowrap active:scale-95 select-none border shadow-sm ${currentTabClass}`}
             >
               {tab.icon}
               {tab.label}
@@ -1353,23 +1363,33 @@ function Asistencia() {
                   >
                     <ChevronLeft size={24} />
                   </button>
-                  <div 
-                    onClick={() => dateInputRef.current?.showPicker()}
-                    className="relative flex items-center gap-2.5 font-black text-neutral-850 dark:text-zinc-200 text-lg md:text-xl cursor-pointer hover:opacity-80 select-none"
-                  >
-                    <span>{formattedDate}</span>
-                    {isToday && (
-                      <span className="bg-brand-primary text-white text-[11px] font-black px-2.5 py-0.5 rounded-md">
-                        Hoy
-                      </span>
+                  <div className="relative">
+                    <div 
+                      onClick={() => setShowDatePicker(!showDatePicker)}
+                      className="flex items-center gap-2.5 font-black text-neutral-850 dark:text-zinc-200 text-lg md:text-xl cursor-pointer hover:opacity-80 select-none"
+                    >
+                      <span>{formattedDate}</span>
+                      {isToday && (
+                        <span className="bg-brand-primary text-white text-[11px] font-black px-2.5 py-0.5 rounded-md">
+                          Hoy
+                        </span>
+                      )}
+                    </div>
+                    {showDatePicker && (
+                      <>
+                        <div className="fixed inset-0 z-40" onClick={() => setShowDatePicker(false)} />
+                        <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-800 shadow-xl rounded-2xl p-4 z-50">
+                          <CalendarView
+                            selectedDate={parseIsoString(attendanceDate)}
+                            onSelect={(day, month, year) => {
+                              const dateStr = `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+                              setAttendanceDate(dateStr);
+                              setShowDatePicker(false);
+                            }}
+                          />
+                        </div>
+                      </>
                     )}
-                    <input
-                      ref={dateInputRef}
-                      type="date"
-                      value={attendanceDate}
-                      onChange={(e) => setAttendanceDate(e.target.value)}
-                      className="absolute inset-0 w-full h-full opacity-0 cursor-pointer pointer-events-none"
-                    />
                   </div>
                   <button
                     onClick={() => shiftDateByAmount(1)}
@@ -1509,7 +1529,7 @@ function Asistencia() {
               <button
                 onClick={handleMarkAllPresent}
                 disabled={dayType !== "regular" || students.length === 0}
-                className="bg-white border border-black/10 dark:bg-zinc-950 dark:border-zinc-800 text-neutral-800 dark:text-zinc-200 text-[13px] font-bold px-4 py-2 rounded-full transition-all disabled:opacity-40 flex items-center gap-1.5 cursor-pointer shadow-xs active:scale-95 select-none"
+                className="bg-emerald-50 border border-emerald-200 hover:bg-emerald-100 dark:bg-emerald-950/20 dark:border-emerald-900/30 dark:hover:bg-emerald-900/50 dark:text-emerald-400 text-emerald-700 text-[13px] font-bold px-4 py-2 rounded-full transition-all disabled:opacity-40 flex items-center gap-1.5 cursor-pointer shadow-xs active:scale-95 select-none"
               >
                 <UserCheck size={14} />
                 Todos Presentes

@@ -109,7 +109,7 @@ export function SelectContent({
     <div
       ref={contentRef}
       className={`
-        absolute z-50 mt-1 max-h-[320px] min-w-[8rem] overflow-y-auto overflow-x-hidden rounded-md border bg-white dark:bg-zinc-900 border-neutral-200 dark:border-zinc-800 text-popover-foreground shadow-md p-1 animate-in fade-in slide-in-from-top-1 duration-150 right-0 left-0
+        absolute z-50 mt-1 max-h-[320px] min-w-[8rem] overflow-y-auto overflow-x-hidden rounded-md border bg-white dark:bg-zinc-900 border-neutral-200 dark:border-zinc-800 text-popover-foreground shadow-md p-1 animate-in fade-in slide-in-from-top-1 duration-50 right-0 left-0
         ${className || ''}
       `}
       {...props}

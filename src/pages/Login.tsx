@@ -24,7 +24,7 @@ export default function Login() {
       if (curr.estado_suscripcion === "SUSPENDIDO") {
         setShowSuspendedModal(true);
       } else {
-        navigate("/dashboard");
+        navigate(curr.rol === "coordinator" ? "/coordinador/dashboard" : "/dashboard");
       }
       return;
     }
@@ -65,7 +65,7 @@ export default function Login() {
 
       setLoading(false);
       showSuccessToast(`👋 ¡Bienvenido ${profile.nombre}!`);
-      navigate("/dashboard");
+      navigate(profile.rol === "coordinator" ? "/coordinador/dashboard" : "/dashboard");
     } catch (err: any) {
       setLoading(false);
       setError(err.message === "Invalid login credentials" ? "Credenciales incorrectas." : err.message || "Ocurrió un error inesperado.");
@@ -157,7 +157,7 @@ export default function Login() {
         <div className="bg-white rounded-[32px] p-6 md:p-7 shadow-sm border border-black/5 flex flex-col gap-4">
           <div className="w-56 h-20 flex items-center justify-center mx-auto">
             <img
-              src="/logo planix.webp"
+              src="/Logo-login-y-landing.webp"
               alt="Planix"
               className="h-20 w-auto object-contain dark:brightness-125 select-none pointer-events-none"
             />

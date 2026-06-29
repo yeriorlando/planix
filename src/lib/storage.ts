@@ -58,6 +58,7 @@ export interface Usuario {
   referred_by?: string;
   year_escolar_activo?: string;
   preferences?: any;
+  is_ambassador?: boolean;
 }
 
 export interface Classroom {
@@ -407,6 +408,10 @@ export function saveUsuario(u: Usuario) {
   if (isBrowser()) {
     const session = getSession();
     if (session && session.user_id === u.id) {
+      const currentUser = getCurrentUser();
+      if (currentUser && currentUser.suscripcion === 'free' && u.suscripcion === 'pro') {
+        localStorage.setItem(`planix_just_promoted_${u.id}`, 'true');
+      }
       localStorage.setItem("plx:user", JSON.stringify(u));
     }
     window.dispatchEvent(new Event("plx:user_changed"));

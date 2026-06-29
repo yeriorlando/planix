@@ -19,7 +19,8 @@ interface GradeAssignment {
 
 export default function Registro() {
   const navigate = useNavigate();
-  const [step, setStep] = useState(1); // 1: Perfil, 2: Aula, 3: Acceso, 4: Success
+  const [step, setStep] = useState(0); // 0: Selección de Rol, 1: Perfil, 2: Aula, 3: Acceso, 4: Success
+  const [selectedRole, setSelectedRole] = useState<"teacher" | "coordinator">("teacher");
 
   // Capture ref from URL and store in sessionStorage
   useEffect(() => {
@@ -201,13 +202,21 @@ export default function Registro() {
 
   const nextStep = () => {
     if (validateStep()) {
-      setStep(prev => prev + 1);
+      if (step === 1 && selectedRole === "coordinator") {
+        setStep(3); // skip step 2 (subjects)
+      } else {
+        setStep(prev => prev + 1);
+      }
     }
   };
 
   const prevStep = () => {
     setError("");
-    setStep(prev => prev - 1);
+    if (step === 3 && selectedRole === "coordinator") {
+      setStep(1); // skip step 2
+    } else {
+      setStep(prev => prev - 1);
+    }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -233,14 +242,14 @@ export default function Registro() {
       const { user, profile } = await signUp(
         nombre,
         email,
-        "teacher",
+        selectedRole, // Use selectedRole!
         "free", // Register with free tier
         colegio,
         password,
-        mainNivel,
-        mainCiclo,
-        selectedGradeId,
-        allowed_subjects,
+        selectedRole === "coordinator" ? undefined : mainNivel,
+        selectedRole === "coordinator" ? undefined : mainCiclo,
+        selectedRole === "coordinator" ? undefined : selectedGradeId,
+        selectedRole === "coordinator" ? {} : allowed_subjects,
         regional,
         distrito,
         municipio,
@@ -325,20 +334,26 @@ export default function Registro() {
       <div className="w-full max-w-[850px] bg-bg-panel/40 border border-black/5 rounded-[40px] p-8 md:p-12 shadow-sm backdrop-blur-md relative z-10">
         
         {/* Step Indicator */}
-        {step < 4 && (
+        {step > 0 && step < 4 && (
           <div className="flex justify-between items-center bg-white border border-black/5 rounded-full px-5 py-2.5 shadow-sm max-w-md mx-auto w-full mb-8">
-            <span className="text-[12px] font-bold text-text-muted">Paso {step} de 3</span>
+            <span className="text-[12px] font-bold text-text-muted">
+              Paso {step === 3 && selectedRole === "coordinator" ? 2 : step} de {selectedRole === "coordinator" ? 2 : 3}
+            </span>
             <div className="flex items-center gap-2">
               <span className={`text-[10px] font-bold uppercase tracking-wider py-1 px-3 rounded-full ${step === 1 ? 'bg-[#1B1B1B] text-white shadow-sm' : 'bg-bg-base text-text-muted'}`}>
                 1. Perfil
               </span>
-              <span className="text-[10px] text-text-muted">/</span>
-              <span className={`text-[10px] font-bold uppercase tracking-wider py-1 px-3 rounded-full ${step === 2 ? 'bg-[#1B1B1B] text-white shadow-sm' : 'bg-bg-base text-text-muted'}`}>
-                2. Materias
-              </span>
+              {selectedRole !== "coordinator" && (
+                <>
+                  <span className="text-[10px] text-text-muted">/</span>
+                  <span className={`text-[10px] font-bold uppercase tracking-wider py-1 px-3 rounded-full ${step === 2 ? 'bg-[#1B1B1B] text-white shadow-sm' : 'bg-bg-base text-text-muted'}`}>
+                    2. Materias
+                  </span>
+                </>
+              )}
               <span className="text-[10px] text-text-muted">/</span>
               <span className={`text-[10px] font-bold uppercase tracking-wider py-1 px-3 rounded-full ${step === 3 ? 'bg-[#1B1B1B] text-white shadow-sm' : 'bg-bg-base text-text-muted'}`}>
-                3. Acceso
+                {selectedRole === "coordinator" ? "2. Acceso" : "3. Acceso"}
               </span>
             </div>
           </div>
@@ -353,12 +368,64 @@ export default function Registro() {
             transition={{ duration: 0.22, ease: "easeInOut" }}
           >
 
+        {/* Step 0: Role Selection */}
+        {step === 0 && (
+          <div className="flex flex-col gap-6 max-w-xl mx-auto bg-white rounded-[32px] p-8 border border-black/5 shadow-sm select-none text-left">
+            <div className="text-center mb-2">
+              <h2 className="text-2xl font-bold tracking-tight text-[#1B1B1B]">Regístrate en Planix</h2>
+              <p className="text-[13.5px] text-text-muted mt-1">Selecciona cómo deseas utilizar la plataforma para comenzar</p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {/* Card 1: Docente */}
+              <div 
+                onClick={() => {
+                  setSelectedRole("teacher");
+                  setStep(1);
+                }}
+                className="group cursor-pointer transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] select-none"
+              >
+                <img 
+                  src="/Registro/Docente.webp" 
+                  alt="Soy Docente" 
+                  className="w-full h-auto object-contain" 
+                />
+              </div>
+
+              {/* Card 2: Coordinador */}
+              <div 
+                onClick={() => {
+                  setSelectedRole("coordinator");
+                  setStep(1);
+                }}
+                className="group cursor-pointer transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] select-none"
+              >
+                <img 
+                  src="/Registro/Coordinador.webp" 
+                  alt="Soy Coordinador Pedagógico" 
+                  className="w-full h-auto object-contain" 
+                />
+              </div>
+            </div>
+
+            <div className="flex justify-center mt-2 pt-4 border-t border-black/5">
+              <Link to="/login" className="text-[13px] text-text-muted hover:underline font-semibold">
+                ¿Ya tienes cuenta? Iniciar Sesión
+              </Link>
+            </div>
+          </div>
+        )}
+
         {/* Step 1: Profile */}
         {step === 1 && (
           <div className="flex flex-col gap-6 max-w-lg mx-auto bg-white rounded-[32px] p-8 border border-black/5 shadow-sm">
             <div>
-              <h2 className="text-2xl font-bold tracking-tight text-text-main">Registro Docente</h2>
-              <p className="text-[13px] text-text-muted mt-1">Dinos quién eres y dónde enseñas.</p>
+              <h2 className="text-2xl font-bold tracking-tight text-text-main">
+                {selectedRole === "coordinator" ? "Registro Coordinador" : "Registro Docente"}
+              </h2>
+              <p className="text-[13px] text-text-muted mt-1">
+                {selectedRole === "coordinator" ? "Dinos quién eres y dónde gestionas." : "Dinos quién eres y dónde enseñas."}
+              </p>
             </div>
 
             <div className="flex flex-col gap-4">
@@ -401,9 +468,13 @@ export default function Registro() {
             )}
 
             <div className="flex justify-between items-center mt-4">
-              <Link to="/login" className="text-[13px] text-text-muted hover:underline">
-                ¿Ya tienes cuenta? Iniciar Sesión
-              </Link>
+              <button
+                type="button"
+                onClick={() => setStep(0)}
+                className="h-10 bg-neutral-50 hover:bg-neutral-100 border border-neutral-200 text-[#1B1B1B] px-4 rounded-xl text-xs font-bold shadow-xs transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+              >
+                <ArrowLeft size={13} /> Cambiar Rol
+              </button>
               <button
                 type="button"
                 onClick={nextStep}
@@ -860,13 +931,15 @@ export default function Registro() {
             <div>
               <h2 className="text-2xl font-bold tracking-tight text-text-main">¡Registro Completado!</h2>
               <p className="text-[14px] text-text-muted mt-2">
-                Tu cuenta docente ha sido creada con éxito. Ya puedes acceder a todas las herramientas educativas.
+                {selectedRole === "coordinator"
+                  ? "Tu cuenta de coordinación pedagógica ha sido creada con éxito. Ya puedes acceder a las herramientas de supervisión."
+                  : "Tu cuenta docente ha sido creada con éxito. Ya puedes acceder a todas las herramientas educativas."}
               </p>
             </div>
 
             <button
               type="button"
-              onClick={() => navigate("/dashboard")}
+              onClick={() => navigate(selectedRole === "coordinator" ? "/coordinador/dashboard" : "/dashboard")}
               className="w-full bg-[#1B1B1B] text-white py-4 rounded-full text-[14px] font-bold shadow-md hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer mt-4"
             >
               Comenzar ahora

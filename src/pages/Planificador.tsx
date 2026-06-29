@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { 
   BookOpen, 
   Award, 
@@ -51,6 +51,7 @@ import confetti from 'canvas-confetti';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useRequireAuth } from '../lib/useRequireAuth';
 import { saveLessonPlan as storageSaveLessonPlan, LessonPlan, uid } from '../lib/storage';
+import { fetchPlanningById } from '../lib/services/plannings';
 import { EDUCATION_STRUCTURE, getAllLevels, getCyclesByLevel, getCycleById, getGradesByCycle, getGradeById } from '../lib/data/educationStructure';
 import { OFFICIAL_DEFAULT_SUBJECTS } from '../lib/data/defaultSubjects';
 import { getCompetenciesBySubject } from '../lib/data/scienceCurriculum';
@@ -711,6 +712,8 @@ const SUBJECT_EMOJIS: Record<string, Record<string, string>> = {
 export default function Planificador() {
   const user = useRequireAuth();
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const editId = searchParams.get('edit');
   const [loaderIconIndex, setLoaderIconIndex] = useState(0);
 
   // Wizard state persistence
@@ -775,7 +778,11 @@ export default function Planificador() {
   const [showCreditsExhausted, setShowCreditsExhausted] = useState(false);
 
   const saveLessonPlan = (plan: LessonPlan, skipCredits: boolean = false) => {
-    if (!skipCredits) {
+    const isEditing = !!editId;
+    const finalPlan = isEditing ? { ...plan, id: editId } : plan;
+    const finalSkipCredits = isEditing ? true : skipCredits;
+
+    if (!finalSkipCredits) {
       if (!hasEnoughCredits('save_planning')) {
         setShowCreditsExhausted(true);
         throw new Error('Créditos insuficientes');
@@ -786,7 +793,7 @@ export default function Planificador() {
         throw new Error('Créditos insuficientes');
       }
     }
-    storageSaveLessonPlan(plan);
+    storageSaveLessonPlan(finalPlan);
   };
 
   // Loading state when opening the final step (Form loading)
@@ -817,6 +824,317 @@ export default function Planificador() {
   const [aiPrompt, setAiPrompt] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
   const [aiSuggestions, setAiSuggestions] = useState<{ name: string, subthemes: string[] }[]>([]);
+
+  useEffect(() => {
+    if (!editId) return;
+    async function loadPlanForEditing() {
+      setIsLoadingForm(true);
+      try {
+        const plan = await fetchPlanningById(editId);
+        if (plan) {
+          setSelectedLevel(plan.nivel.toUpperCase() as any);
+          setSelectedGrade(plan.grado);
+          
+          const foundSubject = OFFICIAL_DEFAULT_SUBJECTS.find(s => s.id === plan.asignatura || s.name === plan.asignatura);
+          setSelectedSubject(foundSubject || { id: plan.asignatura, name: plan.asignatura });
+          
+          const pPlanningType = plan.customFields?.planningType || (plan.tipo === 'CON_BASE' ? 'DIARIA' : 'UNIDAD');
+          setSelectedPlanningType(pPlanningType);
+          setSelectedSequenceType(plan.tipo);
+
+          // Find the full unit object to populate themes/subthemes
+          const normalizedGradeForSearch = plan.grado.replace(/^(primaria|secundaria|inicial)-/, '').trim();
+          let cleanGradeForSearch = normalizedGradeForSearch;
+          if (cleanGradeForSearch.toLowerCase().includes('1ro')) cleanGradeForSearch = '1ro';
+          else if (cleanGradeForSearch.toLowerCase().includes('2do')) cleanGradeForSearch = '2do';
+          else if (cleanGradeForSearch.toLowerCase().includes('3ro')) cleanGradeForSearch = '3ro';
+          else if (cleanGradeForSearch.toLowerCase().includes('4to')) cleanGradeForSearch = '4to';
+          else if (cleanGradeForSearch.toLowerCase().includes('5to')) cleanGradeForSearch = '5to';
+          else if (cleanGradeForSearch.toLowerCase().includes('6to')) cleanGradeForSearch = '6to';
+
+          const staticUnits = getUnitsBySubjectAndGrade(foundSubject?.id || plan.asignatura || '', cleanGradeForSearch);
+          
+          let fullUnit = staticUnits.find(u => u.id === plan.secuencia_id);
+          
+          if (!fullUnit) {
+            // Check custom units
+            try {
+              const apiBase = import.meta.env.VITE_API_URL || 
+                (typeof window !== "undefined" && window.location.hostname !== "localhost" 
+                  ? "https://planix-api.yeriorlando00.workers.dev" 
+                  : "http://localhost:8787");
+              const res = await fetch(`${apiBase}/api/custom-units`);
+              const customData = await res.json();
+              if (Array.isArray(customData)) {
+                const foundCu = customData.find(cu => cu.id === plan.secuencia_id);
+                if (foundCu) {
+                  fullUnit = foundCu.content;
+                }
+              }
+            } catch (err) {
+              console.error("Error fetching custom units for edit:", err);
+            }
+          }
+
+          let matchedTheme = null;
+          let matchedSubtheme = null;
+          
+          if (fullUnit) {
+            setSelectedSequence(fullUnit);
+            
+            if (fullUnit.themes) {
+              let themeName = plan.customFields?.tema || plan.customFields?.theme || plan.customFields?.themeName || '';
+              let subthemeName = plan.customFields?.subtema || plan.customFields?.subtheme || plan.customFields?.subthemeName || '';
+              
+              if (!themeName && plan.titulo && plan.titulo.includes(' - ')) {
+                const parts = plan.titulo.split(' - ');
+                themeName = parts[0]?.trim() || '';
+                subthemeName = parts[1]?.trim() || '';
+              }
+              
+              const themeId = plan.customFields?.themeId;
+              matchedTheme = fullUnit.themes.find(t => t.id === themeId || t.name.toLowerCase() === themeName.toLowerCase());
+              
+              if (matchedTheme) {
+                setSelectedTheme(matchedTheme);
+                if (matchedTheme.subthemes) {
+                  const subthemeId = plan.customFields?.subthemeId;
+                  matchedSubtheme = matchedTheme.subthemes.find(st => st.id === subthemeId || st.name.toLowerCase() === subthemeName.toLowerCase());
+                  if (matchedSubtheme) {
+                    setSelectedSubtheme(matchedSubtheme);
+                  }
+                }
+              }
+
+              // Fallback 1: Match by conceptual text in subthemes
+              if (!matchedTheme) {
+                const targetConcept = (plan.conceptual || plan.customFields?.conceptual || '').trim().toLowerCase();
+                if (targetConcept) {
+                  for (const t of fullUnit.themes) {
+                    if (t.subthemes) {
+                      for (const st of t.subthemes) {
+                        const stConcept = (st.conceptual || '').trim().toLowerCase();
+                        if (stConcept && (stConcept === targetConcept || targetConcept.includes(stConcept) || stConcept.includes(targetConcept))) {
+                          matchedTheme = t;
+                          matchedSubtheme = st;
+                          break;
+                        }
+                      }
+                    }
+                    if (matchedTheme) break;
+                  }
+                }
+              }
+
+              // Fallback 2: Match by subtheme name found inside title or conceptual text
+              if (!matchedTheme) {
+                for (const t of fullUnit.themes) {
+                  if (t.subthemes) {
+                    for (const st of t.subthemes) {
+                      const stName = st.name.toLowerCase();
+                      const conceptualText = (plan.conceptual || plan.customFields?.conceptual || '').toLowerCase();
+                      const titleText = (plan.titulo || '').toLowerCase();
+                      if (stName && (conceptualText.includes(stName) || titleText.includes(stName))) {
+                        matchedTheme = t;
+                        matchedSubtheme = st;
+                        break;
+                      }
+                    }
+                  }
+                  if (matchedTheme) break;
+                }
+              }
+
+              // Apply fallback matches if found
+              if (matchedTheme) {
+                setSelectedTheme(matchedTheme);
+                if (matchedSubtheme) {
+                  setSelectedSubtheme(matchedSubtheme);
+                }
+              }
+            }
+          } else if (plan.secuencia_id) {
+            setSelectedSequence({ id: plan.secuencia_id, name: plan.customFields?.secuencia || plan.titulo, title: plan.customFields?.secuencia || plan.titulo });
+          }
+          
+          // Populate editor states
+          setEditorTitle(plan.titulo);
+          setEditorIntent(plan.intencion_pedagogica);
+          setEditorConceptual(plan.conceptual || '');
+          setEditorProcedimental(plan.procedimental || '');
+          setEditorActitudinal(plan.actitudinal || '');
+          setEditorEvaluation(plan.evaluacion || '');
+          setEditorHomework(plan.tarea || '');
+          setEditorMomentos({
+            inicio: plan.momentos?.inicio || '',
+            desarrollo: plan.momentos?.desarrollo || '',
+            cierre: plan.momentos?.cierre || ''
+          });
+          setEditorResources(plan.recursos || []);
+          if (plan.customFields) {
+            setCustomFieldsData(plan.customFields);
+          }
+          if (plan.customFormSchema) {
+            setCustomFormSchema(plan.customFormSchema);
+          }
+
+          // Local index states
+          const planSeqIdx = plan.customFields?.seqIdx ?? 0;
+          const planBlkIdx = plan.customFields?.blkIdx ?? 0;
+          const planActIdx = plan.customFields?.actIdx ?? 0;
+          
+          setLengSequenceIdx(planSeqIdx);
+          setLengBlockIdx(planBlkIdx);
+          setLengActivityIdx(planActIdx);
+          setMatSequenceIdx(planSeqIdx);
+          setMatBlockIdx(planBlkIdx);
+          setMatActivityIdx(planActIdx);
+
+          // Write wizard state to sessionStorage for persistence and refresh-safety
+          const wizardState = {
+            currentStep: 4,
+            selectedLevel: plan.nivel.toUpperCase(),
+            selectedGrade: plan.grado,
+            selectedSubject: foundSubject || { id: plan.asignatura, name: plan.asignatura },
+            selectedPlanningType: pPlanningType,
+            selectedSequenceType: plan.tipo,
+            selectedSequence: fullUnit || (plan.secuencia_id ? { id: plan.secuencia_id, name: plan.customFields?.secuencia || plan.titulo, title: plan.customFields?.secuencia || plan.titulo } : null),
+            selectedTheme: matchedTheme,
+            selectedSubtheme: matchedSubtheme,
+            editorTitle: plan.titulo,
+            editorIntent: plan.intencion_pedagogica,
+            editorConceptual: plan.conceptual || '',
+            editorProcedimental: plan.procedimental || '',
+            editorActitudinal: plan.actitudinal || '',
+            editorEvaluation: plan.evaluacion || '',
+            editorHomework: plan.tarea || '',
+            editorMomentos: {
+              inicio: plan.momentos?.inicio || '',
+              desarrollo: plan.momentos?.desarrollo || '',
+              cierre: plan.momentos?.cierre || ''
+            },
+            editorResources: plan.recursos || [],
+            customFieldsData: plan.customFields || {},
+            lengSequenceIdx: planSeqIdx,
+            lengBlockIdx: planBlkIdx,
+            lengActivityIdx: planActIdx,
+            matSequenceIdx: planSeqIdx,
+            matBlockIdx: planBlkIdx,
+            matActivityIdx: planActIdx
+          };
+          sessionStorage.setItem('plx:planificador_wizard_state', JSON.stringify(wizardState));
+
+          // If there is a custom form, save its fields to the corresponding sessionStorage key
+          const isDiaria = pPlanningType === 'DIARIA';
+          const cleanGrade = plan.grado.toLowerCase();
+          const subId = foundSubject?.id || plan.asignatura;
+          
+          let draftKey = null;
+          if (subId === 'lengua-espanola') {
+            if (cleanGrade.includes('1ro')) draftKey = 'plx:lengua1ro_draft';
+            else if (cleanGrade.includes('2do')) draftKey = 'plx:lengua2do_draft';
+            else if (cleanGrade.includes('3ro')) draftKey = 'plx:lengua3ro_draft';
+          } else if (subId === 'matematica') {
+            if (cleanGrade.includes('1ro')) draftKey = 'plx:matematica1ro_draft';
+            else if (cleanGrade.includes('2do')) draftKey = 'plx:matematica2do_draft';
+            else if (cleanGrade.includes('3ro')) draftKey = 'plx:matematica3ro_draft';
+          } else if (subId === 'sociales') {
+            if (isDiaria) {
+              if (cleanGrade.includes('1ro')) draftKey = 'plx:sociales1ro_draft';
+              else if (cleanGrade.includes('2do')) draftKey = 'plx:sociales2do_draft';
+              else if (cleanGrade.includes('3ro')) draftKey = 'plx:sociales3ro_draft';
+            } else {
+              if (cleanGrade.includes('1ro')) draftKey = 'plx:sociales1ro_draft';
+              else if (cleanGrade.includes('2do')) draftKey = 'plx:sociales2do_draft';
+              else if (cleanGrade.includes('3ro')) draftKey = 'plx:sociales3ro_unidad_draft';
+            }
+          } else if (subId === 'naturales') {
+            if (isDiaria) {
+              if (cleanGrade.includes('1ro')) draftKey = 'plx:naturales1ro_draft';
+              else if (cleanGrade.includes('2do')) draftKey = 'plx:naturales2do_draft';
+              else if (cleanGrade.includes('3ro')) draftKey = 'plx:naturales3ro_draft';
+            } else {
+              if (cleanGrade.includes('1ro')) draftKey = 'plx:naturales1ro_draft';
+              else if (cleanGrade.includes('2do')) draftKey = 'plx:naturales2do_draft';
+              else if (cleanGrade.includes('3ro')) draftKey = 'plx:naturales3ro_unidad_draft';
+            }
+          } else if (subId === 'educacion-artistica') {
+            if (isDiaria) {
+              if (cleanGrade.includes('1ro')) draftKey = 'plx:artistica1ro_draft';
+              else if (cleanGrade.includes('2do')) draftKey = 'plx:artistica2do_draft';
+              else if (cleanGrade.includes('3ro')) draftKey = 'plx:artistica3ro_draft';
+            } else {
+              if (cleanGrade.includes('1ro')) draftKey = 'plx:artistica1ro_draft';
+              else if (cleanGrade.includes('2do')) draftKey = 'plx:artistica2do_draft';
+              else if (cleanGrade.includes('3ro')) draftKey = 'plx:artistica3ro_unidad_draft';
+            }
+          } else if (subId === 'educacion-fisica') {
+            if (cleanGrade.includes('1ro')) draftKey = isDiaria ? 'plx:educacionfisica1ro_diaria_draft' : 'plx:educacionfisica1ro_unidad_draft';
+            else if (cleanGrade.includes('2do')) draftKey = isDiaria ? 'plx:educacionfisica2do_diaria_draft' : 'plx:educacionfisica2do_unidad_draft';
+            else if (cleanGrade.includes('3ro')) draftKey = isDiaria ? 'plx:educacionfisica3ro_diaria_draft' : 'plx:educacionfisica3ro_unidad_draft';
+          } else if (subId === 'formacion-humana') {
+            if (cleanGrade.includes('1ro')) draftKey = 'plx:formacion1ro_draft';
+            else if (cleanGrade.includes('2do')) draftKey = isDiaria ? 'plx:formacion2do_diaria_draft' : 'plx:formacion2do_unidad_draft';
+            else if (cleanGrade.includes('3ro')) draftKey = isDiaria ? 'plx:formacion3ro_draft' : 'plx:formacion3ro_unidad_draft';
+          }
+
+          if (draftKey) {
+            const customFields = plan.customFields || {};
+            const cfMomentos = Array.isArray(customFields.momentos) 
+              ? customFields.momentos 
+              : [
+                  { id: 'mom-1', titulo: 'Inicio', descripcion: plan.momentos?.inicio || '', tiempo: '15', recursos: plan.recursos?.join(', ') || '' },
+                  { id: 'mom-2', titulo: 'Desarrollo', descripcion: plan.momentos?.desarrollo || '', tiempo: '45', recursos: plan.recursos?.join(', ') || '' },
+                  { id: 'mom-3', titulo: 'Cierre', descripcion: plan.momentos?.cierre || '', tiempo: '15', recursos: plan.recursos?.join(', ') || '' }
+                ];
+
+            const draftData = {
+              ...customFields,
+              unitId: plan.secuencia_id || customFields.unitId || '',
+              seqIdx: planSeqIdx,
+              blkIdx: planBlkIdx,
+              actIdx: planActIdx,
+              centroEducativo: customFields.centro_educativo || customFields.centroEducativo || '',
+              seccion: customFields.seccion || 'A',
+              fecha: customFields.fecha || new Date(plan.creado_en).toISOString().split('T')[0],
+              intencionPedagogica: plan.intencion_pedagogica || customFields.intencionPedagogica || '',
+              competenciasFundamentales: customFields.competenciasFundamentales || customFields.competencias || [],
+              hideSpecificCompetencies: customFields.hideSpecificCompetencies ?? false,
+              compDescs: customFields.compDescs || {},
+              momentos: cfMomentos,
+              metacognicion: customFields.metacognicion || '',
+              metacognicionTiempo: customFields.metacognicionTiempo || customFields.metacognicion_tiempo || '15',
+              evaluacion: plan.evaluacion || customFields.evaluacion || '',
+              evaluacionTiempo: customFields.evaluacionTiempo || customFields.evaluacion_tiempo || '15',
+              tareaHogar: plan.tarea || customFields.tareaHogar || customFields.tarea_hogar || '',
+              actividadComplementaria: customFields.actividadComplementaria || customFields.actividad_complementaria || '',
+              saberesPrevios: customFields.saberesPrevios || customFields.saberes_previos || '',
+              useSaberesPrevios: !!(customFields.saberesPrevios || customFields.saberes_previos),
+              retroalimentacion: customFields.retroalimentacion || customFields.retroalimentacion || '',
+              useRetroalimentacion: !!(customFields.retroalimentacion || customFields.retroalimentacion),
+              conceptual: plan.conceptual || customFields.conceptual || '',
+              procedural: plan.procedimental || customFields.procedural || customFields.procedimental || '',
+              attitudinal: plan.actitudinal || customFields.attitudinal || customFields.actitudinal || '',
+              estrategia: customFields.estrategia || plan.procedimental || '',
+              indicadoresLogro: customFields.indicadoresLogro || customFields.indicadores_logro || (plan.evaluacion ? [plan.evaluacion] : []),
+              ejesTransversales: customFields.ejesTransversales || customFields.ejes_transversales || [],
+              _ts: Date.now()
+            };
+            sessionStorage.setItem(draftKey, JSON.stringify(draftData));
+          }
+          
+          // Jump directly to step 4 (the actual editor form step!)
+          setCurrentStep(4);
+        }
+      } catch (err) {
+        console.error("Error loading plan for editing:", err);
+        toast.error("No se pudo cargar la planificación para editar.");
+      } finally {
+        setIsLoadingForm(false);
+      }
+    }
+    loadPlanForEditing();
+  }, [editId]);
 
   const [dbSequences, setDbSequences] = useState<Record<string, any>>({});
 
@@ -1502,15 +1820,18 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
       return;
     }
 
-    // Gating check for save_planning credits
-    if (!hasEnoughCredits('save_planning')) {
-      setShowCreditsExhausted(true);
-      return;
-    }
+    const isEditing = !!editId;
+    if (!isEditing) {
+      // Gating check for save_planning credits
+      if (!hasEnoughCredits('save_planning')) {
+        setShowCreditsExhausted(true);
+        return;
+      }
 
-    // Consume the credit
-    const consumed = consumeCredits('save_planning');
-    if (!consumed) return;
+      // Consume the credit
+      const consumed = consumeCredits('save_planning');
+      if (!consumed) return;
+    }
 
     // Determine custom fields or fallbacks
     const resolvedTitle = customFormSchema 
@@ -1538,7 +1859,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
       : editorEvaluation;
 
     const planData: LessonPlan = {
-      id: uid('plan'),
+      id: isEditing ? editId : uid('plan'),
       docente_id: user.id,
       titulo: resolvedTitle,
       tipo: selectedSequenceType,
@@ -1566,17 +1887,20 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
   };
 
   const handleSaveNative = (customFieldsData: any) => {
-    // Gating check for save_planning credits
-    if (!hasEnoughCredits('save_planning')) {
-      setShowCreditsExhausted(true);
-      return;
+    const isEditing = !!editId;
+    if (!isEditing) {
+      // Gating check for save_planning credits
+      if (!hasEnoughCredits('save_planning')) {
+        setShowCreditsExhausted(true);
+        return;
+      }
+
+      // Consume the credit
+      const consumed = consumeCredits('save_planning');
+      if (!consumed) return;
     }
 
-    // Consume the credit
-    const consumed = consumeCredits('save_planning');
-    if (!consumed) return;
-
-    const resolvedTitle = customFieldsData.actividad_titulo || `Plan Diario: ${customFieldsData.secuencia}`;
+    const resolvedTitle = customFieldsData.actividad_titulo || customFieldsData.titulo || `Plan Diario: ${customFieldsData.secuencia}`;
     const resolvedIntent = customFieldsData.intencion_pedagogica;
     const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
     const resolvedMomentos = {
@@ -1587,8 +1911,17 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
     const resolvedTarea = customFieldsData.tarea_hogar;
     const resolvedEvaluation = customFieldsData.evaluacion;
 
+    if (selectedTheme) {
+      customFieldsData.tema = selectedTheme.name;
+      customFieldsData.themeId = selectedTheme.id;
+    }
+    if (selectedSubtheme) {
+      customFieldsData.subtema = selectedSubtheme.name;
+      customFieldsData.subthemeId = selectedSubtheme.id;
+    }
+
     const planData: LessonPlan = {
-      id: uid('plan'),
+      id: isEditing ? editId : uid('plan'),
       docente_id: user.id,
       titulo: resolvedTitle,
       tipo: selectedSequenceType,
@@ -1897,7 +2230,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           {selectedGrade === 'primaria-1ro' ? (
             <LenguaEspañola
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -1916,7 +2249,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           ) : selectedGrade === 'primaria-2do' ? (
             <LenguaEspañola2do
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -1935,7 +2268,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           ) : selectedGrade === 'primaria-3ro' ? (
             <LenguaEspañola3ro
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -1954,7 +2287,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           ) : selectedGrade === 'primaria-4to' ? (
             <LenguaEspañola4to
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -1973,7 +2306,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           ) : selectedGrade === 'primaria-5to' ? (
             <LenguaEspañola5to
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -1992,7 +2325,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           ) : (
             <LenguaEspañola6to
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -2079,7 +2412,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           {selectedGrade === 'primaria-1ro' ? (
             <Matematica
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -2098,7 +2431,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           ) : selectedGrade === 'primaria-2do' ? (
             <Matematica2do
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -2117,7 +2450,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           ) : selectedGrade === 'primaria-3ro' ? (
             <Matematica3ro
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -2136,7 +2469,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           ) : selectedGrade === 'primaria-4to' ? (
             <Matematica4to
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -2155,7 +2488,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           ) : selectedGrade === 'primaria-5to' ? (
             <Matematica5to
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -2174,7 +2507,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           ) : (
             <Matematica6to
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -10194,7 +10527,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
             selectedSubject?.id === 'lengua-espanola' && selectedGrade === 'primaria-1ro' && selectedPlanningType === 'DIARIA' ? (
             <LenguaEspañola
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -10252,7 +10585,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           ) : selectedSubject?.id === 'matematica' && selectedGrade === 'primaria-1ro' && selectedPlanningType === 'DIARIA' ? (
             <Matematica
               user={user}
-              selectedSequence={selectedSequence}
+              selectedSequence={selectedSequence} selectedTheme={selectedTheme} selectedSubtheme={selectedSubtheme}
               selectedSequenceType={selectedSequenceType}
               selectedLevel={selectedLevel}
               selectedGrade={selectedGrade}
@@ -10873,3 +11206,4 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
     </main>
   );
 }
+

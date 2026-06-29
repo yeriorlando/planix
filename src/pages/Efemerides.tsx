@@ -28,6 +28,7 @@ import {
   Ephemeris
 } from '../lib/storage';
 import { toast } from 'sonner';
+import { requestD1 } from '../lib/services/d1Client';
 
 // Helper to determine category styling (matching Planix aesthetic)
 function getCategoryColor(category: string) {
@@ -152,6 +153,7 @@ export default function Efemerides() {
   const [selectedMonth, setSelectedMonth] = useState<number>(new Date().getMonth() + 1);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string>('Todos');
+  const [customMonthlyValue, setCustomMonthlyValue] = useState<string>('');
 
   // Modals and suggestions state
   const [viewingFicha, setViewingFicha] = useState<Ephemeris | null>(null);
@@ -168,9 +170,62 @@ export default function Efemerides() {
     loadEphemerides();
   }, []);
 
-  function loadEphemerides() {
-    const list = getEphemerides();
-    setEphemerides(list);
+  useEffect(() => {
+    async function fetchMonthlyValue() {
+      try {
+        const valData = await requestD1<any>(`/api/monthly-values?month=${selectedMonth}`);
+        if (valData && valData.value_name) {
+          setCustomMonthlyValue(valData.value_name);
+        } else {
+          setCustomMonthlyValue(MONTHLY_VALUES[selectedMonth] || '');
+        }
+      } catch (err) {
+        console.error("Error fetching monthly value from Supabase:", err);
+        setCustomMonthlyValue(MONTHLY_VALUES[selectedMonth] || '');
+      }
+    }
+    fetchMonthlyValue();
+  }, [selectedMonth]);
+
+  async function loadEphemerides() {
+    try {
+      const data = await requestD1<any[]>('/api/ephemerides');
+      if (data && Array.isArray(data) && data.length > 0) {
+        const mapped = data.map(e => {
+          let category = e.category || 'Educativa';
+          // Normalize to Title Case to match front-end buttons and prevent duplicates
+          const catUpper = category.toUpperCase();
+          if (catUpper === 'EDUCATIVA') category = 'Educativa';
+          else if (catUpper === 'PATRIA') category = 'Patria';
+          else if (catUpper === 'SALUD') category = 'Salud';
+          else if (catUpper === 'AMBIENTE' || catUpper === 'MEDIO AMBIENTE') category = 'Ambiente';
+          else if (catUpper === 'CULTURAL') category = 'Cultural';
+          else if (catUpper === 'SOCIAL') category = 'Social';
+          else if (catUpper === 'HISTORIA') category = 'Historia';
+          else if (catUpper === 'DERECHOS' || catUpper === 'HUMANOS' || catUpper === 'DERECHOS HUMANOS') category = 'Derechos Humanos';
+          else {
+            category = category.charAt(0).toUpperCase() + category.slice(1).toLowerCase();
+          }
+
+          return {
+            id: e.id,
+            titulo: e.title,
+            fecha: `${String(e.month).padStart(2, '0')}-${String(e.day).padStart(2, '0')}`,
+            descripcion: e.description,
+            category: category,
+            is_holiday: e.is_holiday
+          };
+        });
+        setEphemerides(mapped);
+      } else {
+        const list = getEphemerides();
+        setEphemerides(list);
+      }
+    } catch (err) {
+      console.error("Error loading ephemerides from Supabase:", err);
+      const list = getEphemerides();
+      setEphemerides(list);
+    }
   }
 
   // Filter Logic
@@ -188,12 +243,18 @@ export default function Efemerides() {
   const categories = ['Todos', ...Array.from(new Set(ephemerides.map(e => e.category || 'Educativa')))];
 
   // Delete ephemeris handler
-  function handleDeleteConfirm() {
+  async function handleDeleteConfirm() {
     if (ephToDelete) {
-      deleteEphemeris(ephToDelete);
+      try {
+        await requestD1(`/api/ephemerides/${ephToDelete}`, 'DELETE');
+        toast.success("Efeméride eliminada correctamente.");
+      } catch (err) {
+        console.error("Error deleting ephemeris from Supabase:", err);
+        deleteEphemeris(ephToDelete);
+        toast.success("Efeméride eliminada correctamente.");
+      }
       loadEphemerides();
       setEphToDelete(null);
-      toast.success("Efeméride eliminada correctamente.");
     }
   }
 
@@ -321,23 +382,6 @@ export default function Efemerides() {
         </p>
       </div>
 
-      {/* Monthly Value Banner */}
-      <div className="mb-6 max-w-2xl w-full mx-auto bg-gradient-to-r from-blue-50 to-indigo-50/50 dark:from-zinc-900/40 dark:to-zinc-850/20 rounded-[24px] border border-blue-500/10 p-4 flex flex-col md:flex-row md:items-center justify-between gap-4 relative z-10 animate-in fade-in slide-in-from-top-4 duration-300">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-white dark:bg-zinc-800 flex items-center justify-center text-blue-600 shadow-xs border border-blue-500/10 shrink-0">
-            <Sparkles className="w-4.5 h-4.5 text-blue-600" />
-          </div>
-          <div>
-            <span className="text-[9px] font-black text-blue-400 uppercase tracking-widest leading-none">Valor curricular del mes</span>
-            <h3 className="text-sm font-black text-neutral-800 dark:text-neutral-100 leading-tight mt-0.5">
-              {MONTHLY_VALUES[selectedMonth]}
-            </h3>
-          </div>
-        </div>
-        <div className="px-3 py-1 bg-white dark:bg-zinc-800 border border-blue-500/10 rounded-full text-[10px] font-extrabold text-blue-700 dark:text-blue-400 shrink-0">
-          Mes de {MONTH_NAMES[selectedMonth - 1]}
-        </div>
-      </div>
 
       {/* Left/Right Month Switcher (Arrow Navigation) */}
       <div className="flex items-center justify-center gap-6 mb-8 relative z-10 select-none">
@@ -530,11 +574,15 @@ export default function Efemerides() {
       <AnimatePresence>
         {activeSuggestions && (
           <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
+            <div 
+              className="absolute inset-0 cursor-default" 
+              onClick={() => setActiveSuggestions(null)}
+            />
             <motion.div
               initial={{ scale: 0.95, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.95, opacity: 0 }}
-              className="bg-white dark:bg-zinc-900 rounded-[28px] border border-neutral-200 dark:border-zinc-850 shadow-2xl w-full max-w-2xl overflow-hidden flex flex-col max-h-[85vh]"
+              className="bg-white dark:bg-zinc-900 rounded-[28px] border border-neutral-200 dark:border-zinc-850 shadow-2xl w-full max-w-2xl overflow-hidden flex flex-col max-h-[85vh] relative z-10"
             >
               {/* Header */}
               <div className={`p-6 text-white relative shrink-0 ${
@@ -645,18 +693,22 @@ export default function Efemerides() {
           const dayVal = parseInt(viewingFicha.fecha.split('-')[1]) || 1;
           return (
             <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200">
+              <div 
+                className="absolute inset-0 cursor-default" 
+                onClick={() => setViewingFicha(null)}
+              />
               <motion.div
                 initial={{ scale: 0.95, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 exit={{ scale: 0.95, opacity: 0 }}
-                className="bg-white dark:bg-zinc-900 rounded-[28px] border border-neutral-200 dark:border-zinc-800 shadow-2xl w-full max-w-lg overflow-hidden flex flex-col relative"
+                className="bg-white dark:bg-zinc-900 rounded-[28px] border border-neutral-200 dark:border-zinc-800 shadow-2xl w-full max-w-lg overflow-hidden flex flex-col relative z-10"
               >
                 {/* Header Close button */}
                 <button
                   onClick={() => setViewingFicha(null)}
-                  className="absolute top-4 right-4 p-2 bg-neutral-100 hover:bg-neutral-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 rounded-full text-neutral-500 dark:text-neutral-350 transition-colors cursor-pointer z-10"
+                  className="absolute top-4 right-4 p-2 bg-red-500 hover:bg-red-650 rounded-full text-white transition-colors cursor-pointer z-10 shadow-2xs border-none"
                 >
-                  <X className="w-4 h-4" />
+                  <X className="w-4 h-4 text-white" strokeWidth={3} />
                 </button>
 
                 {/* Centered Premium Title / Icon Area */}
@@ -703,10 +755,10 @@ export default function Efemerides() {
                       setViewingFicha(null);
                       handleGetAISuggestions(eph, 'resources');
                     }}
-                    className="flex-1 py-2.5 px-4 bg-blue-600 hover:bg-blue-750 text-white rounded-xl text-xs font-black uppercase tracking-wider transition-colors shadow-sm select-none cursor-pointer flex items-center justify-center gap-1.5"
+                    className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 hover:bg-emerald-100/80 dark:hover:bg-emerald-950/60 text-emerald-700 dark:text-emerald-350 font-black text-[10px] uppercase tracking-wider transition-all border border-emerald-200/60 dark:border-emerald-900/30 cursor-pointer shadow-3xs select-none active:scale-[0.98]"
                   >
-                    <Monitor size={14} />
-                    <span>Sugerir Recursos</span>
+                    <Monitor size={12.5} className="text-emerald-600 dark:text-emerald-450 fill-emerald-500/10" />
+                    <span>Recursos</span>
                   </button>
                   <button
                     onClick={() => {
@@ -714,16 +766,17 @@ export default function Efemerides() {
                       setViewingFicha(null);
                       handleGetAISuggestions(eph, 'activities');
                     }}
-                    className="flex-1 py-2.5 px-4 bg-purple-650 hover:bg-purple-750 text-white rounded-xl text-xs font-black uppercase tracking-wider transition-colors shadow-sm select-none cursor-pointer flex items-center justify-center gap-1.5"
+                    className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-purple-50 dark:bg-purple-950/40 hover:bg-purple-100/80 dark:hover:bg-purple-950/60 text-purple-700 dark:text-purple-350 font-black text-[10px] uppercase tracking-wider transition-all border border-purple-200/60 dark:border-purple-900/30 cursor-pointer shadow-3xs select-none active:scale-[0.98]"
                   >
-                    <BookOpen size={14} />
-                    <span>Sugerir Actividades</span>
+                    <BookOpen size={12.5} className="text-purple-600 dark:text-purple-450 fill-purple-500/10" />
+                    <span>Actividades</span>
                   </button>
                   <button
                     onClick={() => setViewingFicha(null)}
-                    className="py-2.5 px-4 border border-zinc-200 dark:border-zinc-700 text-xs font-bold text-neutral-600 dark:text-neutral-350 hover:bg-neutral-50 dark:hover:bg-zinc-800 rounded-xl transition-colors cursor-pointer select-none"
+                    className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-red-50 dark:bg-red-950/40 hover:bg-red-100/80 dark:hover:bg-red-950/60 text-red-700 dark:text-red-350 font-black text-[10px] uppercase tracking-wider transition-all border border-red-200/60 dark:border-red-900/30 cursor-pointer shadow-3xs select-none active:scale-[0.98]"
                   >
-                    Cerrar
+                    <X size={12.5} className="text-red-600 dark:text-red-450" />
+                    <span>Cerrar</span>
                   </button>
                 </div>
               </motion.div>
@@ -736,11 +789,15 @@ export default function Efemerides() {
       <AnimatePresence>
         {ephToDelete && (
           <div className="fixed inset-0 z-[150] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200">
+            <div 
+              className="absolute inset-0 cursor-default" 
+              onClick={() => setEphToDelete(null)}
+            />
             <motion.div
               initial={{ scale: 0.95, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.95, opacity: 0 }}
-              className="max-w-md w-full p-6 space-y-4 bg-white dark:bg-zinc-900 border border-neutral-200 dark:border-zinc-800 rounded-[28px] shadow-2xl"
+              className="max-w-md w-full p-6 space-y-4 bg-white dark:bg-zinc-900 border border-neutral-200 dark:border-zinc-800 rounded-[28px] shadow-2xl relative z-10"
             >
               <div className="flex items-start gap-3 border-b border-neutral-100 dark:border-zinc-850 pb-3">
                 <div className="p-2 bg-red-100 dark:bg-red-950/30 text-red-650 rounded-xl shrink-0">

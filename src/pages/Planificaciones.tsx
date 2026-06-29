@@ -32,6 +32,7 @@ import { getLessonPlans, deleteLessonPlan, LessonPlan } from '../lib/storage';
 import { fetchPlannings, deletePlanning } from '../lib/services/plannings';
 import { toast, Toaster } from 'sonner';
 import LoaderProgressiveBar from '../components/ui/loader-progressive-bar';
+import { DatePicker } from '../components/ui/heroui-date-picker';
 
 const SUBJECT_ICON_MAP: Record<string, React.ReactNode> = {
   'lengua': <BookText className="h-4 w-4 text-blue-500" />,
@@ -208,7 +209,7 @@ export default function Planificaciones() {
   };
 
   // Get unique subjects
-  const uniqueSubjects = Array.from(new Set(plans.map(p => p.asignatura).filter(Boolean)));
+  const uniqueSubjects = Array.from(new Set(plans.map(p => p.asignatura).filter(Boolean))) as string[];
 
   // Get unique schools
   const uniqueSchools = Array.from(
@@ -285,7 +286,7 @@ export default function Planificaciones() {
               placeholder="Buscar por asignatura, secuencia o sección..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full h-10 px-3.5 bg-white dark:bg-zinc-900 border border-neutral-200 dark:border-zinc-800 rounded-lg text-sm text-[#1B1B1B] dark:text-neutral-100 placeholder:text-neutral-400 focus:border-[#1B1B1B] outline-none transition-all shadow-xs"
+              className="w-full h-10 px-3.5 bg-neutral-50 dark:bg-zinc-900/50 border border-neutral-200 dark:border-zinc-800 rounded-lg text-sm text-[#1B1B1B] dark:text-neutral-100 placeholder:text-neutral-400 focus:border-[#1B1B1B] outline-none transition-all shadow-xs"
             />
           </div>
           {/* Asignatura */}
@@ -298,7 +299,7 @@ export default function Planificaciones() {
                 setShowCurriculumDropdown(false);
                 setShowSchoolDropdown(false);
               }}
-              className="w-full h-10 px-3.5 bg-white dark:bg-zinc-900 border border-neutral-200 dark:border-zinc-800 rounded-lg text-sm text-[#1B1B1B] dark:text-neutral-100 flex items-center justify-between cursor-pointer hover:bg-slate-50 dark:hover:bg-zinc-800 focus:border-[#1B1B1B] outline-none transition-all shadow-xs"
+              className="w-full h-10 px-3.5 bg-neutral-50 dark:bg-zinc-900/50 border border-neutral-200 dark:border-zinc-800 rounded-lg text-sm text-[#1B1B1B] dark:text-neutral-100 flex items-center justify-between cursor-pointer hover:bg-slate-50 dark:hover:bg-zinc-800 focus:border-[#1B1B1B] outline-none transition-all shadow-xs"
             >
               <span className="truncate flex items-center gap-1.5">
                 {subjectFilter !== 'Todas' && getSubjectIcon(subjectFilter)}
@@ -309,7 +310,7 @@ export default function Planificaciones() {
             {showSubjectDropdown && (
               <>
                 <div className="fixed inset-0 z-45" onClick={() => setShowSubjectDropdown(false)} />
-                <div className="absolute left-0 right-0 mt-1 bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-800 shadow-lg p-1 z-50 animate-in fade-in slide-in-from-top-1 duration-150 text-left rounded-lg">
+                <div className="absolute left-0 right-0 mt-1 bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-800 shadow-lg p-1 z-50 animate-in fade-in slide-in-from-top-1 duration-50 text-left rounded-lg">
                   <div className="space-y-0.5 max-h-60 overflow-y-auto">
                     <button
                       type="button"
@@ -362,7 +363,7 @@ export default function Planificaciones() {
                 setShowCurriculumDropdown(false);
                 setShowSchoolDropdown(false);
               }}
-              className="w-full h-10 px-3.5 bg-white dark:bg-zinc-900 border border-neutral-205 dark:border-zinc-800 rounded-lg text-sm text-[#1B1B1B] dark:text-neutral-100 flex items-center justify-between cursor-pointer hover:bg-slate-50 dark:hover:bg-zinc-800 focus:border-[#1B1B1B] outline-none transition-all shadow-xs"
+              className="w-full h-10 px-3.5 bg-neutral-50 dark:bg-zinc-900/50 border border-neutral-200 dark:border-zinc-800 rounded-lg text-sm text-[#1B1B1B] dark:text-neutral-100 flex items-center justify-between cursor-pointer hover:bg-slate-50 dark:hover:bg-zinc-800 focus:border-[#1B1B1B] outline-none transition-all shadow-xs"
             >
               <span className="truncate">{getStatusLabel(statusFilter)}</span>
               <ChevronDown className={`w-3.5 h-3.5 text-slate-400 shrink-0 transition-transform duration-200 ${showStatusDropdown ? 'rotate-180' : ''}`} />
@@ -370,7 +371,7 @@ export default function Planificaciones() {
             {showStatusDropdown && (
               <>
                 <div className="fixed inset-0 z-45" onClick={() => setShowStatusDropdown(false)} />
-                <div className="absolute left-0 right-0 mt-1 bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-800 shadow-lg p-1 z-50 animate-in fade-in slide-in-from-top-1 duration-150 text-left rounded-lg">
+                <div className="absolute left-0 right-0 mt-1 bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-800 shadow-lg p-1 z-50 animate-in fade-in slide-in-from-top-1 duration-50 text-left rounded-lg">
                   <div className="space-y-0.5">
                     {[
                       { value: 'Todos', label: 'Todos los estados' },
@@ -406,21 +407,19 @@ export default function Planificaciones() {
           {/* Desde */}
           <div className="space-y-1">
             <label className="block text-[10.5px] font-black text-slate-700 dark:text-zinc-350 uppercase tracking-wider">Desde</label>
-            <input 
-              type="date"
+            <DatePicker 
               value={dateDesde}
-              onChange={(e) => setDateDesde(e.target.value)}
-              className="w-full h-10 px-3.5 bg-white dark:bg-zinc-900 border border-neutral-205 dark:border-zinc-800 rounded-lg text-sm text-[#1B1B1B] dark:text-neutral-100 focus:border-[#1B1B1B] outline-none transition-all shadow-xs"
+              onChange={setDateDesde}
+              direction="down"
             />
           </div>
           {/* Hasta */}
           <div className="space-y-1">
             <label className="block text-[10.5px] font-black text-slate-700 dark:text-zinc-350 uppercase tracking-wider">Hasta</label>
-            <input 
-              type="date"
+            <DatePicker 
               value={dateHasta}
-              onChange={(e) => setDateHasta(e.target.value)}
-              className="w-full h-10 px-3.5 bg-white dark:bg-zinc-900 border border-neutral-205 dark:border-zinc-800 rounded-lg text-sm text-[#1B1B1B] dark:text-neutral-100 focus:border-[#1B1B1B] outline-none transition-all shadow-xs"
+              onChange={setDateHasta}
+              direction="down"
             />
           </div>
           {/* Tipo de Currículo */}
@@ -433,7 +432,7 @@ export default function Planificaciones() {
                 setShowStatusDropdown(false);
                 setShowSchoolDropdown(false);
               }}
-              className="w-full h-10 px-3.5 bg-white dark:bg-zinc-900 border border-neutral-205 dark:border-zinc-800 rounded-lg text-sm text-[#1B1B1B] dark:text-neutral-100 flex items-center justify-between cursor-pointer hover:bg-slate-50 dark:hover:bg-zinc-800 focus:border-[#1B1B1B] outline-none transition-all shadow-xs"
+              className="w-full h-10 px-3.5 bg-neutral-50 dark:bg-zinc-900/50 border border-neutral-200 dark:border-zinc-800 rounded-lg text-sm text-[#1B1B1B] dark:text-neutral-100 flex items-center justify-between cursor-pointer hover:bg-slate-50 dark:hover:bg-zinc-800 focus:border-[#1B1B1B] outline-none transition-all shadow-xs"
             >
               <span className="truncate">
                 {curriculumFilter === 'Todos' && 'Todos'}
@@ -447,7 +446,7 @@ export default function Planificaciones() {
             {showCurriculumDropdown && (
               <>
                 <div className="fixed inset-0 z-45" onClick={() => setShowCurriculumDropdown(false)} />
-                <div className="absolute left-0 right-0 mt-1 bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-800 shadow-lg p-1 z-50 animate-in fade-in slide-in-from-top-1 duration-150 text-left rounded-lg">
+                <div className="absolute left-0 right-0 mt-1 bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-800 shadow-lg p-1 z-50 animate-in fade-in slide-in-from-top-1 duration-50 text-left rounded-lg">
                   <div className="space-y-0.5">
                     {[
                       { value: 'Todos', label: 'Todos' },
@@ -488,7 +487,7 @@ export default function Planificaciones() {
                 setShowStatusDropdown(false);
                 setShowCurriculumDropdown(false);
               }}
-              className="w-full h-10 px-3.5 bg-white dark:bg-zinc-900 border border-neutral-205 dark:border-zinc-800 rounded-lg text-sm text-[#1B1B1B] dark:text-neutral-100 flex items-center justify-between cursor-pointer hover:bg-slate-50 dark:hover:bg-zinc-800 focus:border-[#1B1B1B] outline-none transition-all shadow-xs"
+              className="w-full h-10 px-3.5 bg-neutral-50 dark:bg-zinc-900/50 border border-neutral-200 dark:border-zinc-800 rounded-lg text-sm text-[#1B1B1B] dark:text-neutral-100 flex items-center justify-between cursor-pointer hover:bg-slate-50 dark:hover:bg-zinc-800 focus:border-[#1B1B1B] outline-none transition-all shadow-xs"
             >
               <span className="truncate flex items-center gap-1.5">
                 <School className="w-4 h-4 text-slate-500 dark:text-zinc-400 shrink-0" />
@@ -499,7 +498,7 @@ export default function Planificaciones() {
             {showSchoolDropdown && (
               <>
                 <div className="fixed inset-0 z-45" onClick={() => setShowSchoolDropdown(false)} />
-                <div className="absolute left-0 right-0 mt-1 bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-800 shadow-lg p-1 z-50 animate-in fade-in slide-in-from-top-1 duration-150 text-left rounded-lg">
+                <div className="absolute left-0 right-0 mt-1 bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-800 shadow-lg p-1 z-50 animate-in fade-in slide-in-from-top-1 duration-50 text-left rounded-lg">
                   <div className="space-y-0.5 max-h-60 overflow-y-auto">
                     <button
                       type="button"
@@ -704,6 +703,18 @@ export default function Planificaciones() {
                   className="p-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-blue-600 dark:text-blue-400 transition cursor-pointer border-none shadow-xs"
                 >
                   <Eye className="h-4 w-4" />
+                </button>
+
+                {/* Editar */}
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    navigate(`/planificaciones/nueva?edit=${plan.id}`);
+                  }}
+                  title="Editar Planificación"
+                  className="p-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-blue-600 dark:text-blue-400 transition cursor-pointer border-none shadow-xs"
+                >
+                  <Pencil className="h-4 w-4" />
                 </button>
 
                 {/* Imprimir */}

@@ -19,7 +19,12 @@ import {
   MessageSquare,
   FileText,
   Calendar,
-  RotateCcw
+  RotateCcw,
+  Grid3X3,
+  Hash,
+  Trophy,
+  CloudRain,
+  Gamepad2
 } from 'lucide-react';
 import { 
   getCreditCosts, 
@@ -37,6 +42,7 @@ interface ToolMetadata {
   name: string;
   description: string;
   category: string;
+  type: 'herramienta' | 'dinamica';
   icon: React.ComponentType<any>;
   bg: string;
   iconBg: string;
@@ -48,6 +54,7 @@ const TOOLS_METADATA: ToolMetadata[] = [
     name: 'Generación con IA (Planificaciones)',
     description: 'Créditos consumidos por cada generación automática de una planificación utilizando IA.',
     category: 'Planificación',
+    type: 'herramienta',
     icon: Sparkles,
     bg: 'bg-gradient-to-br from-[#F5E6FF] to-[#EBE0FF] dark:from-purple-950/20 dark:to-slate-900 hover:border-purple-500/10',
     iconBg: 'bg-purple-100 dark:bg-purple-950/30 text-purple-650 dark:text-purple-450'
@@ -57,6 +64,7 @@ const TOOLS_METADATA: ToolMetadata[] = [
     name: 'Generar Rúbrica y Lista de Cotejo',
     description: 'Costo para crear rúbricas y listas de cotejo de evaluación de forma interactiva.',
     category: 'Evaluación',
+    type: 'herramienta',
     icon: ClipboardList,
     bg: 'bg-gradient-to-br from-[#E6F4EA] to-[#F1F9F5] dark:from-emerald-950/20 dark:to-slate-900 hover:border-emerald-500/10',
     iconBg: 'bg-emerald-100 dark:bg-emerald-950/30 text-emerald-650 dark:text-emerald-450'
@@ -66,6 +74,7 @@ const TOOLS_METADATA: ToolMetadata[] = [
     name: 'Planix Chat (Por mensaje)',
     description: 'Costo por cada mensaje o consulta enviada al chat inteligente de asistencia.',
     category: 'Chat',
+    type: 'herramienta',
     icon: MessageSquare,
     bg: 'bg-gradient-to-br from-[#E0E7FF] to-[#EDE9FE] dark:from-indigo-950/20 dark:to-slate-900 hover:border-indigo-500/10',
     iconBg: 'bg-indigo-100 dark:bg-indigo-950/30 text-indigo-650 dark:text-indigo-400'
@@ -75,6 +84,7 @@ const TOOLS_METADATA: ToolMetadata[] = [
     name: 'Reporte de Evaluación (Calificaciones)',
     description: 'Costo por acceder y generar el informe oficial de registro de calificaciones.',
     category: 'Calificaciones',
+    type: 'herramienta',
     icon: FileText,
     bg: 'bg-gradient-to-br from-[#FFF4E0] to-[#FFE4E1] dark:from-amber-950/20 dark:to-slate-900 hover:border-orange-500/10',
     iconBg: 'bg-orange-100 dark:bg-orange-950/30 text-orange-650 dark:text-orange-400'
@@ -84,6 +94,7 @@ const TOOLS_METADATA: ToolMetadata[] = [
     name: 'Resumen Anual (Asistencia)',
     description: 'Costo por visualizar y exportar reportes del registro acumulado de asistencia.',
     category: 'Asistencia',
+    type: 'herramienta',
     icon: Calendar,
     bg: 'bg-gradient-to-br from-[#FEF3C7] to-[#FDE68A]/40 dark:from-amber-950/20 dark:to-slate-900 hover:border-amber-500/10',
     iconBg: 'bg-amber-100 dark:bg-amber-950/30 text-amber-655 dark:text-amber-455'
@@ -93,6 +104,7 @@ const TOOLS_METADATA: ToolMetadata[] = [
     name: 'Guardar Planificación',
     description: 'Créditos cobrados al guardar un borrador o versión final de la planificación en la cuenta.',
     category: 'Planificación',
+    type: 'herramienta',
     icon: Save,
     bg: 'bg-gradient-to-br from-[#F5E6FF] to-[#E0E7FF] dark:from-indigo-950/10 dark:to-slate-900 hover:border-indigo-500/10',
     iconBg: 'bg-indigo-50 dark:bg-indigo-950/20 text-indigo-600 dark:text-indigo-400'
@@ -102,9 +114,50 @@ const TOOLS_METADATA: ToolMetadata[] = [
     name: 'Generador de Exámenes',
     description: 'Créditos consumidos por cada generación automática de un examen utilizando IA.',
     category: 'Evaluación',
+    type: 'herramienta',
     icon: GraduationCap,
     bg: 'bg-gradient-to-br from-[#E6F4EA] to-[#F1F9F5] dark:from-emerald-950/20 dark:to-slate-900 hover:border-emerald-500/10',
     iconBg: 'bg-emerald-100 dark:bg-emerald-950/30 text-emerald-650 dark:text-emerald-450'
+  },
+  {
+    key: 'wordsearch_generator',
+    name: 'Sopa de Letras',
+    description: 'Créditos consumidos por cada generación de una sopa de letras con IA.',
+    category: 'Herramientas',
+    type: 'herramienta',
+    icon: Grid3X3,
+    bg: 'bg-gradient-to-br from-[#DBEAFE] to-[#E0E7FF] dark:from-blue-950/20 dark:to-slate-900 hover:border-blue-500/10',
+    iconBg: 'bg-blue-100 dark:bg-blue-950/30 text-blue-650 dark:text-blue-400'
+  },
+  {
+    key: 'crossword_generator',
+    name: 'Crucigrama',
+    description: 'Créditos consumidos por cada generación de un crucigrama con IA.',
+    category: 'Herramientas',
+    type: 'herramienta',
+    icon: Hash,
+    bg: 'bg-gradient-to-br from-[#FCE7F3] to-[#FDF2F8] dark:from-pink-950/20 dark:to-slate-900 hover:border-pink-500/10',
+    iconBg: 'bg-pink-100 dark:bg-pink-950/30 text-pink-650 dark:text-pink-400'
+  },
+  {
+    key: 'jeopardy_generator',
+    name: 'Jeopardy',
+    description: 'Créditos consumidos por cada generación de un tablero Jeopardy escolar con IA.',
+    category: 'Jeopardy',
+    type: 'dinamica',
+    icon: Trophy,
+    bg: 'bg-gradient-to-br from-[#DBEAFE] to-[#BFDBFE] dark:from-blue-950/20 dark:to-slate-900 hover:border-blue-500/10',
+    iconBg: 'bg-blue-100 dark:bg-blue-950/30 text-blue-650 dark:text-blue-400'
+  },
+  {
+    key: 'bajo_la_lluvia',
+    name: 'Bajo la Lluvia',
+    description: 'Créditos consumidos por cada generación de la dinámica Bajo la Lluvia con IA.',
+    category: 'Bajo la Lluvia',
+    type: 'dinamica',
+    icon: CloudRain,
+    bg: 'bg-gradient-to-br from-[#E0F2FE] to-[#BAE6FD] dark:from-sky-950/20 dark:to-slate-900 hover:border-sky-500/10',
+    iconBg: 'bg-sky-100 dark:bg-sky-950/30 text-sky-600 dark:text-sky-400'
   }
 ];
 
@@ -239,7 +292,6 @@ export default function AdminCreditos() {
     return null;
   }
 
-  // Sub-tabs rendering helpers
   const renderCostsTab = () => {
     const filteredTools = TOOLS_METADATA.filter(tool => 
       tool.name.toLowerCase().includes(toolSearchQuery.toLowerCase()) ||
@@ -247,16 +299,81 @@ export default function AdminCreditos() {
       tool.description.toLowerCase().includes(toolSearchQuery.toLowerCase())
     );
 
+    const herramientas = filteredTools.filter(t => t.type === 'herramienta');
+    const dinamicas = filteredTools.filter(t => t.type === 'dinamica');
+
+    const renderToolCard = (tool: ToolMetadata) => {
+      const ToolIcon = tool.icon;
+      const currentVal = costs[tool.key] ?? 0;
+      return (
+        <div 
+          key={tool.key} 
+          className={`rounded-[28px] p-5 relative overflow-hidden group border border-transparent shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 min-h-[190px] flex flex-col justify-between select-none text-left ${tool.bg}`}
+        >
+          {/* Top Row */}
+          <div className="flex justify-between items-start relative z-10 w-full">
+            <div className="flex items-center gap-1.5 text-slate-700 dark:text-zinc-300">
+              <ToolIcon size={14} className="opacity-80 text-inherit" />
+              <span className="text-[10px] font-black uppercase tracking-wider text-inherit">
+                {tool.category}
+              </span>
+            </div>
+            <div className={`w-8 h-8 rounded-full flex items-center justify-center backdrop-blur-md shadow-3xs ${tool.iconBg}`}>
+              <ToolIcon size={14} />
+            </div>
+          </div>
+
+          {/* Middle Row */}
+          <div className="relative z-10 my-3 flex flex-col items-start w-full text-left">
+            <span className="text-[13px] font-extrabold text-[#1B1B1B] dark:text-white leading-tight tracking-tight">
+              {tool.name}
+            </span>
+            <span className="text-[10px] font-bold text-slate-500/90 dark:text-zinc-400 mt-1 leading-snug">
+              {tool.description}
+            </span>
+          </div>
+
+          {/* Bottom Row */}
+          <div className="relative z-10 mt-auto pt-3 border-t border-black/5 dark:border-white/5 w-full">
+            <div className="flex items-center gap-1.5 bg-white dark:bg-slate-900 border border-black/5 dark:border-white/10 rounded-xl px-3 py-1.5 w-full justify-between shadow-3xs">
+              <button
+                type="button"
+                onClick={() => handleUpdateCostValue(tool.key, Math.max(0, currentVal - 1))}
+                className="p-1 hover:bg-black/5 dark:hover:bg-white/5 text-slate-500 rounded-lg cursor-pointer transition-colors"
+              >
+                <Minus size={12} />
+              </button>
+              <input
+                type="number"
+                min="0"
+                value={currentVal}
+                onChange={e => handleUpdateCostValue(tool.key, Math.max(0, parseInt(e.target.value) || 0))}
+                className="w-14 text-center font-black text-xs bg-transparent outline-none focus:ring-0 border-0 p-0"
+              />
+              <button
+                type="button"
+                onClick={() => handleUpdateCostValue(tool.key, currentVal + 1)}
+                className="p-1 hover:bg-black/5 dark:hover:bg-white/5 text-slate-505 rounded-lg cursor-pointer transition-colors"
+              >
+                <Plus size={12} />
+              </button>
+              <Coins size={12} className="text-amber-500 shrink-0" />
+            </div>
+          </div>
+        </div>
+      );
+    };
+
     return (
-      <div className="space-y-6">
+      <div className="space-y-8">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-5 border-b border-black/5 dark:border-white/5">
           <div className="text-left">
             <h2 className="text-lg font-black text-slate-800 dark:text-white tracking-tight flex items-center gap-2">
               <Settings size={20} className="text-[#0046ab] dark:text-blue-400" />
-              Costo de Herramientas
+              Costo de Herramientas y Dinámicas
             </h2>
             <p className="text-xs text-slate-400 dark:text-slate-500 font-bold mt-0.5">
-              Define el valor en créditos cobrado a los docentes por cada uso de las herramientas.
+              Define el valor en créditos cobrado a los docentes por cada uso de las herramientas y dinámicas.
             </p>
           </div>
 
@@ -265,7 +382,7 @@ export default function AdminCreditos() {
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
             <input
               type="text"
-              placeholder="Buscar herramienta..."
+              placeholder="Buscar herramienta o dinámica..."
               value={toolSearchQuery}
               onChange={e => setToolSearchQuery(e.target.value)}
               className="w-full pl-9 pr-4 py-2 text-xs font-bold bg-slate-50 dark:bg-slate-850 border border-black/5 dark:border-white/10 rounded-xl focus:outline-none focus:border-[#0046ab] transition-colors placeholder:text-slate-400"
@@ -273,76 +390,49 @@ export default function AdminCreditos() {
           </div>
         </div>
 
-        {/* Tools Grid - 3 columns on desktop */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {filteredTools.length === 0 ? (
-            <div className="col-span-full text-center py-12 text-slate-450 dark:text-slate-550 font-bold text-xs">
-              No se encontraron herramientas con ese nombre.
+        {/* HERRAMIENTAS Section */}
+        {herramientas.length > 0 && (
+          <div className="space-y-4">
+            <div className="flex items-center gap-2.5 select-none">
+              <div className="w-7 h-7 rounded-full bg-[#0046ab]/10 dark:bg-blue-950/30 flex items-center justify-center shrink-0">
+                <Settings size={13} className="text-[#0046ab] dark:text-blue-400" />
+              </div>
+              <div>
+                <h3 className="text-sm font-black text-slate-800 dark:text-white tracking-tight">Herramientas</h3>
+                <p className="text-[10px] font-bold text-slate-400 dark:text-slate-500">Funcionalidades y generadores de contenido educativo</p>
+              </div>
+              <span className="ml-auto text-[9px] font-black bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 px-2 py-0.5 rounded-full">{herramientas.length}</span>
             </div>
-          ) : (
-            filteredTools.map(tool => {
-              const ToolIcon = tool.icon;
-              const currentVal = costs[tool.key] ?? 0;
-              return (
-                <div 
-                  key={tool.key} 
-                  className={`rounded-[28px] p-5 relative overflow-hidden group border border-transparent shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 min-h-[190px] flex flex-col justify-between select-none text-left ${tool.bg}`}
-                >
-                  {/* Top Row */}
-                  <div className="flex justify-between items-start relative z-10 w-full">
-                    <div className="flex items-center gap-1.5 text-slate-700 dark:text-zinc-300">
-                      <ToolIcon size={14} className="opacity-80 text-inherit" />
-                      <span className="text-[10px] font-black uppercase tracking-wider text-inherit">
-                        {tool.category}
-                      </span>
-                    </div>
-                    <div className={`w-8 h-8 rounded-full flex items-center justify-center backdrop-blur-md shadow-3xs ${tool.iconBg}`}>
-                      <ToolIcon size={14} />
-                    </div>
-                  </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {herramientas.map(renderToolCard)}
+            </div>
+          </div>
+        )}
 
-                  {/* Middle Row */}
-                  <div className="relative z-10 my-3 flex flex-col items-start w-full text-left">
-                    <span className="text-[13px] font-extrabold text-[#1B1B1B] dark:text-white leading-tight tracking-tight">
-                      {tool.name}
-                    </span>
-                    <span className="text-[10px] font-bold text-slate-500/90 dark:text-zinc-400 mt-1 leading-snug">
-                      {tool.description}
-                    </span>
-                  </div>
+        {/* DINÁMICAS Section */}
+        {dinamicas.length > 0 && (
+          <div className="space-y-4">
+            <div className="flex items-center gap-2.5 select-none">
+              <div className="w-7 h-7 rounded-full bg-emerald-500/10 dark:bg-emerald-950/30 flex items-center justify-center shrink-0">
+                <Gamepad2 size={13} className="text-emerald-600 dark:text-emerald-400" />
+              </div>
+              <div>
+                <h3 className="text-sm font-black text-slate-800 dark:text-white tracking-tight">Dinámicas</h3>
+                <p className="text-[10px] font-bold text-slate-400 dark:text-slate-500">Actividades interactivas y juegos educativos para el aula</p>
+              </div>
+              <span className="ml-auto text-[9px] font-black bg-emerald-50 dark:bg-emerald-950/20 text-emerald-600 dark:text-emerald-400 px-2 py-0.5 rounded-full">{dinamicas.length}</span>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {dinamicas.map(renderToolCard)}
+            </div>
+          </div>
+        )}
 
-                  {/* Bottom Row */}
-                  <div className="relative z-10 mt-auto pt-3 border-t border-black/5 dark:border-white/5 w-full">
-                    <div className="flex items-center gap-1.5 bg-white dark:bg-slate-900 border border-black/5 dark:border-white/10 rounded-xl px-3 py-1.5 w-full justify-between shadow-3xs">
-                      <button
-                        type="button"
-                        onClick={() => handleUpdateCostValue(tool.key, Math.max(0, currentVal - 1))}
-                        className="p-1 hover:bg-black/5 dark:hover:bg-white/5 text-slate-500 rounded-lg cursor-pointer transition-colors"
-                      >
-                        <Minus size={12} />
-                      </button>
-                      <input
-                        type="number"
-                        min="0"
-                        value={currentVal}
-                        onChange={e => handleUpdateCostValue(tool.key, Math.max(0, parseInt(e.target.value) || 0))}
-                        className="w-14 text-center font-black text-xs bg-transparent outline-none focus:ring-0 border-0 p-0"
-                      />
-                      <button
-                        type="button"
-                        onClick={() => handleUpdateCostValue(tool.key, currentVal + 1)}
-                        className="p-1 hover:bg-black/5 dark:hover:bg-white/5 text-slate-505 rounded-lg cursor-pointer transition-colors"
-                      >
-                        <Plus size={12} />
-                      </button>
-                      <Coins size={12} className="text-amber-500 shrink-0" />
-                    </div>
-                  </div>
-                </div>
-              );
-            })
-          )}
-        </div>
+        {herramientas.length === 0 && dinamicas.length === 0 && (
+          <div className="text-center py-12 text-slate-450 dark:text-slate-550 font-bold text-xs">
+            No se encontraron herramientas o dinámicas con ese nombre.
+          </div>
+        )}
 
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 pt-6 border-t border-black/5 dark:border-white/5 mt-6 justify-end">
@@ -366,7 +456,6 @@ export default function AdminCreditos() {
       </div>
     );
   };
-
   const renderUsersTab = () => {
     return (
       <div className="space-y-6">
@@ -802,8 +891,8 @@ export default function AdminCreditos() {
               }`}
             >
               <Settings size={16} />
-              <span>Costo de Herramientas</span>
-              <span className={`ml-auto text-[9.5px] px-2 py-0.5 rounded-full font-black ${
+              <span className="truncate">Herramientas y Dinámicas</span>
+              <span className={`ml-auto text-[9.5px] px-2 py-0.5 rounded-full font-black shrink-0 ${
                 activeTab === 'costs'
                   ? 'bg-white/20 text-white'
                   : 'bg-slate-100 dark:bg-slate-850 text-slate-500'

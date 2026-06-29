@@ -75,7 +75,7 @@ export async function signUp(
     id: data.user.id,
     full_name: nombre,
     email,
-    role: rol === "admin" ? "ADMINISTRADOR" : "teacher",
+    role: rol === "admin" ? "ADMINISTRADOR" : rol,
     subscription_tier: plan,
     subscription_status: "ACTIVO",
     subscription_expiry: plan === "pro" ? new Date(Date.now() + 30 * 86400000).toISOString() : null,

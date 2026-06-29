@@ -296,6 +296,34 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
           finalCredits = Number(finalCredits) + extraCredits;
         }
 
+        let regionalVal = body.regional !== undefined ? body.regional : (oldProfile?.regional || null);
+        let distritoVal = body.distrito !== undefined ? body.distrito : (oldProfile?.distrito || null);
+        let municipioVal = body.municipio !== undefined ? body.municipio : (oldProfile?.municipio || null);
+        const schoolNameVal = body.school_name !== undefined ? body.school_name : (body.colegio !== undefined ? body.colegio : (oldProfile?.school_name || null));
+
+        const isMissingRegional = !regionalVal || (typeof regionalVal === 'string' && (regionalVal === 'N/A' || regionalVal === 'NA' || regionalVal.trim() === ''));
+        const isMissingDistrito = !distritoVal || (typeof distritoVal === 'string' && (distritoVal === 'N/A' || distritoVal === 'NA' || distritoVal.trim() === ''));
+        const isMissingMunicipio = !municipioVal || (typeof municipioVal === 'string' && (municipioVal === 'N/A' || municipioVal === 'NA' || municipioVal.trim() === ''));
+
+        if (schoolNameVal && (isMissingRegional || isMissingDistrito || isMissingMunicipio)) {
+          try {
+            const { data: matchedSchool } = await supabase
+              .from("schools")
+              .select("regional, district, municipality")
+              .ilike("name", schoolNameVal.trim())
+              .limit(1)
+              .maybeSingle();
+
+            if (matchedSchool) {
+              if (isMissingRegional) regionalVal = matchedSchool.regional || 'N/A';
+              if (isMissingDistrito) distritoVal = matchedSchool.district || 'N/A';
+              if (isMissingMunicipio) municipioVal = matchedSchool.municipality || 'N/A';
+            }
+          } catch (schoolErr) {
+            console.error("Error looking up school metadata in local profiles router:", schoolErr);
+          }
+        }
+
         const profileData = {
           id: body.id,
           full_name: body.full_name !== undefined ? body.full_name : (body.nombre !== undefined ? body.nombre : (oldProfile?.full_name || "")),
@@ -304,16 +332,16 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
           subscription_tier: body.subscription_tier !== undefined ? body.subscription_tier : (body.suscripcion !== undefined ? body.suscripcion : (oldProfile?.subscription_tier || "free")),
           subscription_status: body.subscription_status !== undefined ? body.subscription_status : (body.estado_suscripcion !== undefined ? body.estado_suscripcion : (oldProfile?.subscription_status || "ACTIVO")),
           subscription_expiry: body.subscription_expiry !== undefined ? body.subscription_expiry : (body.suscripcion_hasta !== undefined ? body.suscripcion_hasta : (oldProfile?.subscription_expiry || null)),
-          school_name: body.school_name !== undefined ? body.school_name : (body.colegio !== undefined ? body.colegio : (oldProfile?.school_name || null)),
+          school_name: schoolNameVal,
           nivel_principal: body.nivel_principal !== undefined ? body.nivel_principal : (body.nivel !== undefined ? body.nivel : (oldProfile?.nivel_principal || null)),
           ciclo_principal: body.ciclo_principal !== undefined ? body.ciclo_principal : (body.ciclo !== undefined ? body.ciclo : (oldProfile?.ciclo_principal || null)),
           grado_principal: body.grado_principal !== undefined ? body.grado_principal : (body.grado !== undefined ? body.grado : (oldProfile?.grado_principal || null)),
           allowed_subjects: body.allowed_subjects !== undefined ? body.allowed_subjects : (oldProfile?.allowed_subjects || null),
           last_login: body.last_login !== undefined ? body.last_login : (oldProfile?.last_login || new Date().toISOString()),
           is_active: body.is_active !== undefined ? (body.is_active ? true : false) : (oldProfile?.is_active !== undefined ? oldProfile.is_active : true),
-          regional: body.regional !== undefined ? body.regional : (oldProfile?.regional || null),
-          distrito: body.distrito !== undefined ? body.distrito : (oldProfile?.distrito || null),
-          municipio: body.municipio !== undefined ? body.municipio : (oldProfile?.municipio || null),
+          regional: regionalVal,
+          distrito: distritoVal,
+          municipio: municipioVal,
           avatar_url: body.avatar_url !== undefined ? body.avatar_url : (oldProfile?.avatar_url || null),
           credits: finalCredits,
           referral_code: referralCode,
@@ -614,8 +642,11 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
 
       if (method === "GET") {
         const userId = query.user_id;
+        const planId = query.id;
         let q = supabase.from("plannings").select("*");
-        if (userId) {
+        if (planId) {
+          q = q.eq("id", planId);
+        } else if (userId) {
           q = q.eq("user_id", userId);
         }
         const { data, error } = await q.order("created_at", { ascending: false });
@@ -1874,6 +1905,427 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
 
         if (error) throw error;
         return jsonResponse(data || []);
+      }
+    }
+
+    // ==========================================
+    // 16. EPHEMERIDES ENDPOINTS
+    // ==========================================
+    if (path.startsWith("/api/ephemerides")) {
+      const ephemerisId = parts[2];
+
+      if (method === "GET") {
+        const month = query.month;
+        const day = query.day;
+        
+        let q = supabase.from("ephemerides").select("*");
+        
+        if (day && month) {
+          q = q.eq("day", Number(day)).eq("month", Number(month));
+        } else if (month) {
+          q = q.eq("month", Number(month));
+        }
+        
+        const { data, error } = await q.order("day", { ascending: true });
+        if (error) throw error;
+        return jsonResponse(data || []);
+      }
+
+      if (method === "POST") {
+        if (!body || !body.id) {
+          return jsonResponse({ error: "Missing ephemeris ID or body" }, 400);
+        }
+
+        const { error } = await supabase
+          .from("ephemerides")
+          .upsert({
+            id: body.id,
+            day: Number(body.day),
+            month: Number(body.month),
+            title: body.title || "",
+            description: body.description || "",
+            is_holiday: body.is_holiday ? true : false,
+            category: body.category || "EDUCATIVA"
+          });
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+
+      if (method === "DELETE" && ephemerisId) {
+        const { error } = await supabase
+          .from("ephemerides")
+          .delete()
+          .eq("id", ephemerisId);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+    }
+
+    // ==========================================
+    // 17. MONTHLY VALUES ENDPOINTS
+    // ==========================================
+    if (path.startsWith("/api/monthly-values")) {
+      if (method === "GET") {
+        const month = query.month;
+        if (!month) {
+          const { data, error } = await supabase.from("monthly_values").select("*");
+          if (error) throw error;
+          return jsonResponse(data || []);
+        }
+
+        const { data, error } = await supabase
+          .from("monthly_values")
+          .select("*")
+          .eq("month", Number(month))
+          .maybeSingle();
+
+        if (error) throw error;
+        return jsonResponse(data || null);
+      }
+
+      if (method === "POST") {
+        if (!body || body.month === undefined) {
+          return jsonResponse({ error: "Missing month or body" }, 400);
+        }
+
+        const { error } = await supabase
+          .from("monthly_values")
+          .upsert({
+            month: Number(body.month),
+            value_name: body.value_name || "",
+            updated_at: new Date().toISOString()
+          }, { onConflict: "month" });
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+    }
+
+    // ==========================================
+    // 18. COORDINATOR ENDPOINTS
+    // ==========================================
+    if (path.startsWith("/api/coordinator/logs")) {
+      const logId = parts[3];
+
+      if (method === "GET") {
+        const coordinatorId = query.coordinator_id;
+        if (!coordinatorId) {
+          return jsonResponse({ error: "coordinator_id is required" }, 400);
+        }
+        const { data, error } = await supabase
+          .from("coordinator_logs")
+          .select("*")
+          .eq("coordinator_id", coordinatorId)
+          .order("date", { ascending: false })
+          .order("time", { ascending: false });
+
+        if (error) throw error;
+        return jsonResponse(data || []);
+      }
+
+      if (method === "POST") {
+        if (!body || !body.id) {
+          return jsonResponse({ error: "Missing log ID" }, 400);
+        }
+        const logRow = {
+          id: body.id,
+          coordinator_id: body.coordinator_id,
+          date: body.date,
+          time: body.time,
+          category: body.category,
+          description: body.description,
+          involved_people: body.involved_people || null,
+          status: body.status || "Pendiente",
+          evidence_url: body.evidence_url || null,
+          created_at: body.created_at || new Date().toISOString()
+        };
+        const { error } = await supabase
+          .from("coordinator_logs")
+          .upsert(logRow);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+
+      if (method === "DELETE" && logId) {
+        const { error } = await supabase
+          .from("coordinator_logs")
+          .delete()
+          .eq("id", logId);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+    }
+
+    if (path.startsWith("/api/coordinator/observations")) {
+      const obsId = parts[3];
+
+      if (method === "GET") {
+        const coordinatorId = query.coordinator_id;
+        const teacherId = query.teacher_id;
+        let q = supabase.from("coordinator_observations").select("*");
+        if (coordinatorId) {
+          q = q.eq("coordinator_id", coordinatorId);
+        } else if (teacherId) {
+          q = q.eq("teacher_id", teacherId);
+        } else {
+          return jsonResponse({ error: "coordinator_id or teacher_id is required" }, 400);
+        }
+        const { data, error } = await q.order("observation_date", { ascending: false });
+        if (error) throw error;
+        return jsonResponse(data || []);
+      }
+
+      if (method === "POST") {
+        if (!body || !body.id) {
+          return jsonResponse({ error: "Missing observation ID" }, 400);
+        }
+        const obsRow = {
+          id: body.id,
+          coordinator_id: body.coordinator_id,
+          teacher_id: body.teacher_id,
+          observation_date: body.observation_date,
+          next_observation_date: body.next_observation_date || null,
+          score: body.score || 0,
+          status: body.status || "Pendiente",
+          observations: body.observations || null,
+          positive_feedback: body.positive_feedback || null,
+          areas_of_improvement: body.areas_of_improvement || null,
+          created_at: body.created_at || new Date().toISOString()
+        };
+        const { error } = await supabase
+          .from("coordinator_observations")
+          .upsert(obsRow);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+
+      if (method === "DELETE" && obsId) {
+        const { error } = await supabase
+          .from("coordinator_observations")
+          .delete()
+          .eq("id", obsId);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+    }
+
+    if (path.startsWith("/api/coordinator/agreements")) {
+      if (method === "GET") {
+        const coordinatorId = query.coordinator_id;
+        const teacherId = query.teacher_id;
+        let q = supabase.from("coordinator_agreements").select("*");
+        if (coordinatorId) {
+          q = q.eq("coordinator_id", coordinatorId);
+        } else if (teacherId) {
+          q = q.eq("teacher_id", teacherId);
+        } else {
+          return jsonResponse({ error: "coordinator_id or teacher_id is required" }, 400);
+        }
+        const { data, error } = await q;
+        if (error) throw error;
+        return jsonResponse(data || []);
+      }
+
+      if (method === "POST") {
+        if (!body || !body.id) {
+          return jsonResponse({ error: "Missing agreement ID" }, 400);
+        }
+        const agreementRow = {
+          id: body.id,
+          observation_id: body.observation_id || null,
+          teacher_id: body.teacher_id,
+          coordinator_id: body.coordinator_id,
+          agreement_text: body.agreement_text,
+          status: body.status || "Pendiente",
+          due_date: body.due_date || null,
+          created_at: body.created_at || new Date().toISOString()
+        };
+        const { error } = await supabase
+          .from("coordinator_agreements")
+          .upsert(agreementRow);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+    }
+
+    if (path.startsWith("/api/coordinator/meetings")) {
+      if (method === "GET") {
+        const coordinatorId = query.coordinator_id;
+        if (!coordinatorId) {
+          return jsonResponse({ error: "coordinator_id is required" }, 400);
+        }
+        const { data, error } = await supabase
+          .from("coordinator_meetings")
+          .select("*")
+          .eq("coordinator_id", coordinatorId)
+          .order("meeting_date", { ascending: false });
+
+        if (error) throw error;
+        return jsonResponse(data || []);
+      }
+
+      if (method === "POST") {
+        if (!body || !body.id) {
+          return jsonResponse({ error: "Missing meeting ID" }, 400);
+        }
+        const meetingRow = {
+          id: body.id,
+          coordinator_id: body.coordinator_id,
+          title: body.title,
+          meeting_date: body.meeting_date,
+          meeting_time: body.meeting_time,
+          location: body.location || null,
+          invited_count: body.invited_count || 0,
+          notes: body.notes || null,
+          created_at: body.created_at || new Date().toISOString()
+        };
+        const { error } = await supabase
+          .from("coordinator_meetings")
+          .upsert(meetingRow);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+    }
+
+    if (path.startsWith("/api/coordinator/minutes")) {
+      if (method === "GET") {
+        const coordinatorId = query.coordinator_id;
+        if (!coordinatorId) {
+          return jsonResponse({ error: "coordinator_id is required" }, 400);
+        }
+        const { data, error } = await supabase
+          .from("coordinator_meeting_minutes")
+          .select("id, meeting_id, title, content, participants, pending_signatures, created_at, coordinator_meetings!inner(coordinator_id)")
+          .eq("coordinator_meetings.coordinator_id", coordinatorId);
+
+        if (error) throw error;
+
+        const mapped = (data || []).map((row: any) => {
+          const { coordinator_meetings, ...rest } = row;
+          return rest;
+        });
+
+        return jsonResponse(mapped);
+      }
+
+      if (method === "POST") {
+        if (!body || !body.id) {
+          return jsonResponse({ error: "Missing minutes ID" }, 400);
+        }
+        const minutesRow = {
+          id: body.id,
+          meeting_id: body.meeting_id,
+          title: body.title,
+          content: body.content || null,
+          participants: body.participants || null,
+          pending_signatures: body.pending_signatures || 0,
+          created_at: body.created_at || new Date().toISOString()
+        };
+        const { error } = await supabase
+          .from("coordinator_meeting_minutes")
+          .upsert(minutesRow);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+    }
+
+    if (path.startsWith("/api/coordinator/followups")) {
+      if (method === "GET") {
+        const coordinatorId = query.coordinator_id;
+        if (!coordinatorId) {
+          return jsonResponse({ error: "coordinator_id is required" }, 400);
+        }
+        const { data, error } = await supabase
+          .from("coordinator_student_followups")
+          .select("*")
+          .eq("coordinator_id", coordinatorId);
+
+        if (error) throw error;
+        return jsonResponse(data || []);
+      }
+
+      if (method === "POST") {
+        if (!body || !body.id) {
+          return jsonResponse({ error: "Missing followup ID" }, 400);
+        }
+        const followupRow = {
+          id: body.id,
+          coordinator_id: body.coordinator_id,
+          student_id: body.student_id,
+          reason: body.reason,
+          responsible_id: body.responsible_id || null,
+          last_intervention_date: body.last_intervention_date || null,
+          status: body.status || "Pendiente",
+          notes: body.notes || null,
+          created_at: body.created_at || new Date().toISOString()
+        };
+        const { error } = await supabase
+          .from("coordinator_student_followups")
+          .upsert(followupRow);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+    }
+
+    if (path.startsWith("/api/coordinator/evidences")) {
+      if (method === "GET") {
+        const coordinatorId = query.coordinator_id;
+        if (!coordinatorId) {
+          return jsonResponse({ error: "coordinator_id is required" }, 400);
+        }
+        const { data, error } = await supabase
+          .from("coordinator_evidences")
+          .select("*")
+          .eq("coordinator_id", coordinatorId);
+
+        if (error) throw error;
+        return jsonResponse(data || []);
+      }
+
+      if (method === "POST") {
+        if (!body || !body.id) {
+          return jsonResponse({ error: "Missing evidence ID" }, 400);
+        }
+        const evidenceRow = {
+          id: body.id,
+          coordinator_id: body.coordinator_id,
+          teacher_id: body.teacher_id || null,
+          name: body.name,
+          file_url: body.file_url,
+          category: body.category,
+          file_tag: body.file_tag || null,
+          created_at: body.created_at || new Date().toISOString()
+        };
+        const { error } = await supabase
+          .from("coordinator_evidences")
+          .upsert(evidenceRow);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+
+      if (method === "DELETE") {
+        const evidenceId = parts[3];
+        if (!evidenceId) {
+          return jsonResponse({ error: "Missing evidence ID" }, 400);
+        }
+        const { error } = await supabase
+          .from("coordinator_evidences")
+          .delete()
+          .eq("id", evidenceId);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
       }
     }
 

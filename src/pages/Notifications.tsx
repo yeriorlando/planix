@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { Bell, Clock, CheckCircle2, AlertCircle, ArrowRight, Sparkles, Gift, CheckCheck, Trash2, ChevronDown } from 'lucide-react';
 import { getCurrentUser } from '../lib/storage';
 import { toast } from 'sonner';
@@ -12,31 +12,91 @@ interface AppNotification {
   read: boolean;
 }
 
-const renderBodyWithLinks = (body: string, isExpanded: boolean, isRead: boolean) => {
+const renderNotificationBody = (body: string, isExpanded: boolean, isRead: boolean) => {
   if (!body) return null;
-  const urlRegex = /(https?:\/\/[^\s]+)/g;
-  const parts = body.split(urlRegex);
-  
-  return (
-    <p className={`text-[13px] leading-relaxed max-w-[620px] ${isExpanded ? 'mb-3.5' : 'truncate mb-0'} ${!isRead ? 'text-slate-650 dark:text-slate-350 font-medium' : 'text-slate-450 dark:text-slate-500'}`}>
-      {parts.map((part, i) => {
-        if (part.match(urlRegex)) {
+
+  if (!isExpanded) {
+    const cleanText = body
+      .replace(/\*\*/g, '')
+      .replace(/\n+/g, ' ');
+    return (
+      <p className={`text-[13px] leading-relaxed max-w-[620px] truncate ${!isRead ? 'text-slate-650 dark:text-slate-350 font-medium' : 'text-slate-450 dark:text-slate-500'}`}>
+        {cleanText}
+      </p>
+    );
+  }
+
+  const lines = body.split('\n');
+
+  const parseLineText = (text: string) => {
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    const boldParts = text.split(/(\*\*[^*]+\*\*)/g);
+
+    return boldParts.map((part, index) => {
+      const isBold = part.startsWith('**') && part.endsWith('**');
+      const cleanPart = isBold ? part.slice(2, -2) : part;
+      const urlParts = cleanPart.split(urlRegex);
+
+      const parsedElements = urlParts.map((urlPart, uIdx) => {
+        if (urlPart.match(urlRegex)) {
           return (
             <a
-              key={i}
-              href={part}
+              key={`url-${index}-${uIdx}`}
+              href={urlPart}
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
-              className="text-[#5D5FEF] dark:text-indigo-400 hover:underline break-all font-semibold"
+              className="text-indigo-600 dark:text-indigo-400 hover:underline break-all font-semibold"
             >
-              {part}
+              {urlPart}
             </a>
           );
         }
-        return part;
+        return urlPart;
+      });
+
+      if (isBold) {
+        return (
+          <strong key={`bold-${index}`} className="font-extrabold text-[#1B1B1B] dark:text-white">
+            {parsedElements}
+          </strong>
+        );
+      }
+      return <span key={`text-${index}`}>{parsedElements}</span>;
+    });
+  };
+
+  return (
+    <div className={`space-y-2 max-w-[660px] text-[13px] font-medium leading-relaxed ${!isRead ? 'text-slate-700 dark:text-slate-300' : 'text-slate-500 dark:text-slate-400'}`}>
+      {lines.map((line, lineIdx) => {
+        const trimmed = line.trim();
+        
+        if (trimmed.startsWith('✅') || trimmed.startsWith('❌')) {
+          const isOk = trimmed.startsWith('✅');
+          const cleanText = trimmed.slice(1).trim();
+          return (
+            <div key={lineIdx} className="flex items-center gap-2.5 pl-2 my-1">
+              <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold shrink-0 ${isOk ? 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-600' : 'bg-rose-50 dark:bg-rose-955/20 text-rose-500'}`}>
+                {isOk ? '✓' : '✗'}
+              </span>
+              <span className="text-slate-650 dark:text-slate-350">
+                {parseLineText(cleanText)}
+              </span>
+            </div>
+          );
+        }
+
+        if (trimmed === '') {
+          return <div key={lineIdx} className="h-1.5" />;
+        }
+
+        return (
+          <p key={lineIdx} className="mb-1">
+            {parseLineText(line)}
+          </p>
+        );
       })}
-    </p>
+    </div>
   );
 };
 
@@ -55,7 +115,20 @@ export default function Notifications() {
     return [];
   });
 
-  const [expandedIds, setExpandedIds] = useState<string[]>([]);
+  const [searchParams] = useSearchParams();
+  const expandedParam = searchParams.get('expanded');
+
+  const [expandedIds, setExpandedIds] = useState<string[]>(() => {
+    return expandedParam ? [expandedParam] : [];
+  });
+
+  useEffect(() => {
+    if (expandedParam) {
+      setExpandedIds(prev => prev.includes(expandedParam) ? prev : [...prev, expandedParam]);
+      // Also automatically mark it as read when expanding
+      setNotifications(prev => prev.map(n => n.id === expandedParam ? { ...n, read: true } : n));
+    }
+  }, [expandedParam]);
 
   const toggleExpand = (id: string) => {
     setExpandedIds(prev => 
@@ -280,7 +353,7 @@ export default function Notifications() {
                               </div>
                             </div>
                                                       <div className={`transition-all duration-300 overflow-hidden ${isExpanded ? 'max-h-[500px] opacity-100' : 'max-h-[22px] opacity-80'}`}>
-                              {renderBodyWithLinks(notif.body, isExpanded, notif.read)}
+                              {renderNotificationBody(notif.body, isExpanded, notif.read)}
                             </div>
                             
                             {isExpanded && (

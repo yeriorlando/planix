@@ -11,7 +11,11 @@ import { getCurrentUser, getClassrooms, getStudents, saveUsuario, logout, Usuari
 import { toast, Toaster } from 'sonner';
 import { showSuccessToast } from '../lib/utils/toastHelper';
 import ProCelebrationModal from '../components/modals/ProCelebrationModal';
+import AmbassadorCelebrationModal from '../components/modals/AmbassadorCelebrationModal';
+import OnboardingModal from '../components/modals/OnboardingModal';
+import MedalStar from '../components/ui/MedalStar';
 import { getUserCredits } from '../lib/credits';
+import { requestD1 } from '../lib/services/d1Client';
 
 // Dominican Ephemeris list
 const DOMINICAN_EPHEMERIS = [
@@ -72,6 +76,12 @@ export default function Dashboard() {
   const [user, setUser] = useState<Usuario | null>(() => getCurrentUser());
 
   useEffect(() => {
+    if (user && user.rol === "coordinator") {
+      navigate("/coordinador/dashboard");
+    }
+  }, [user, navigate]);
+
+  useEffect(() => {
     const handleUserChanged = () => {
       setUser(getCurrentUser());
     };
@@ -104,6 +114,8 @@ export default function Dashboard() {
   const [classrooms, setClassrooms] = useState<any[]>([]);
   const [studentsList, setStudentsList] = useState<any[]>([]);
   const [timeStr, setTimeStr] = useState("");
+  const [dbEphemerides, setDbEphemerides] = useState<any[]>([]);
+  const [customMonthlyValue, setCustomMonthlyValue] = useState<string>("");
 
   // Planix states
   const [selectedDynamicCat, setSelectedDynamicCat] = useState<"integracion" | "atencion" | "pausa">("integracion");
@@ -113,6 +125,8 @@ export default function Dashboard() {
   const [showPremiumModal, setShowPremiumModal] = useState(false);
   const [selectedPremiumTool, setSelectedPremiumTool] = useState<any | null>(null);
   const [showProCelebration, setShowProCelebration] = useState(false);
+  const [showAmbassadorCelebration, setShowAmbassadorCelebration] = useState(false);
+  const [showOnboarding, setShowOnboarding] = useState(false);
   
   // Header state
   const [showProfileDropdown, setShowProfileDropdown] = useState(false);
@@ -219,12 +233,95 @@ export default function Dashboard() {
     }
   }, [user]);
 
+  // Fetch latest profile from server on mount to sync roles/subscription/ambassador status
+  useEffect(() => {
+    async function syncProfile() {
+      if (!user?.id) return;
+      try {
+        const response = await requestD1<any>(`/api/profiles/${user.id}`);
+        if (response) {
+          const updatedUser: Usuario = {
+            ...user,
+            nombre: response.full_name || response.nombre || user.nombre,
+            email: response.email || user.email,
+            rol: (() => {
+              const r = (response.role || response.rol || 'teacher').toLowerCase();
+              if (r === 'admin' || r === 'administrador') return 'admin';
+              if (r === 'coordinator' || r === 'coordinador') return 'coordinator';
+              if (r === 'director') return 'director';
+              return 'teacher';
+            })() as any,
+            suscripcion: ((response.subscription_tier || response.suscripcion || 'free').toLowerCase()) as any,
+            estado_suscripcion: (() => {
+              const status = (response.subscription_status || response.estado_suscripcion || 'ACTIVO').toUpperCase();
+              if (status === 'ACTIVE' || status === 'ACTIVO') return 'ACTIVO';
+              if (status === 'SUSPENDIDO' || status === 'SUSPENDED') return 'SUSPENDIDO';
+              if (status === 'EXPIRADO' || status === 'EXPIRED') return 'EXPIRADO';
+              return 'ACTIVO';
+            })() as any,
+            suscripcion_hasta: response.subscription_expiry || response.suscripcion_hasta,
+            is_ambassador: response.is_ambassador === 1 || response.is_ambassador === true,
+            preferences: typeof response.preferences === "string" ? (() => {
+              try { return JSON.parse(response.preferences); } catch (_) { return {}; }
+            })() : (response.preferences || {}),
+          };
+          
+          if (updatedUser.is_ambassador && !updatedUser.preferences?.has_seen_ambassador_celebration) {
+            localStorage.removeItem(`planix_ambassador_celebration_${updatedUser.id}`);
+          }
+
+          if (
+            updatedUser.is_ambassador !== user.is_ambassador ||
+            updatedUser.suscripcion !== user.suscripcion ||
+            updatedUser.rol !== user.rol ||
+            JSON.stringify(updatedUser.preferences) !== JSON.stringify(user.preferences)
+          ) {
+            saveUsuario(updatedUser);
+            setUser(updatedUser);
+            window.dispatchEvent(new Event("plx:user_changed"));
+          }
+        }
+      } catch (err) {
+        console.error("Error syncing profile on dashboard mount:", err);
+      }
+    }
+    syncProfile();
+  }, []);
+
+  useEffect(() => {
+    async function loadDashboardData() {
+      try {
+        const currentMonth = new Date().getMonth() + 1;
+        const data = await requestD1<any[]>(`/api/ephemerides?month=${currentMonth}`);
+        if (data && Array.isArray(data) && data.length > 0) {
+          setDbEphemerides(data);
+        }
+      } catch (err) {
+        console.error("Error loading dashboard ephemerides:", err);
+      }
+
+      try {
+        const currentMonth = new Date().getMonth() + 1;
+        const valData = await requestD1<any>(`/api/monthly-values?month=${currentMonth}`);
+        if (valData && valData.value_name) {
+          setCustomMonthlyValue(valData.value_name);
+        }
+      } catch (err) {
+        console.error("Error loading dashboard monthly value:", err);
+      }
+    }
+    loadDashboardData();
+  }, []);
+
   // Trigger Pro Celebration Modal
   useEffect(() => {
     if (user && user.suscripcion === 'pro') {
       const hasSeenProCelebration = localStorage.getItem(`planix_pro_celebration_${user.id}`);
-      if (!hasSeenProCelebration) {
+      const justPromoted = localStorage.getItem(`planix_just_promoted_${user.id}`);
+      
+      if (!hasSeenProCelebration || justPromoted === 'true') {
         localStorage.setItem(`planix_pro_celebration_${user.id}`, 'true');
+        localStorage.removeItem(`planix_just_promoted_${user.id}`);
         const timer = setTimeout(() => {
           setShowProCelebration(true);
         }, 1500);
@@ -232,6 +329,66 @@ export default function Dashboard() {
       }
     }
   }, [user]);
+
+  // Trigger Ambassador Celebration Modal
+  useEffect(() => {
+    if (user && user.is_ambassador) {
+      const hasSeenAmbassadorCelebration = !!user.preferences?.has_seen_ambassador_celebration;
+      
+      if (!hasSeenAmbassadorCelebration) {
+        const timer = setTimeout(() => {
+          setShowAmbassadorCelebration(true);
+          
+          const updatedUser = {
+            ...user,
+            preferences: {
+              ...(user.preferences || {}),
+              has_seen_ambassador_celebration: true
+            }
+          };
+          saveUsuario(updatedUser);
+        }, 1500);
+        return () => clearTimeout(timer);
+      }
+    }
+  }, [user]);
+
+  // Trigger Onboarding Modal
+  useEffect(() => {
+    if (user) {
+      const hasSeenOnboarding = !!user.preferences?.has_seen_onboarding;
+      if (!hasSeenOnboarding) {
+        const timer = setTimeout(() => {
+          setShowOnboarding(true);
+        }, 800);
+        return () => clearTimeout(timer);
+      }
+    }
+  }, [user]);
+
+  const handleCloseOnboarding = async () => {
+    setShowOnboarding(false);
+    if (user) {
+      const updatedUser = {
+        ...user,
+        preferences: {
+          ...(user.preferences || {}),
+          has_seen_onboarding: true
+        }
+      };
+      saveUsuario(updatedUser);
+      setUser(updatedUser);
+      
+      try {
+        await requestD1("/api/profiles", "POST", {
+          id: user.id,
+          preferences: JSON.stringify(updatedUser.preferences)
+        });
+      } catch (err) {
+        console.warn("Could not sync onboarding preferences to server:", err);
+      }
+    }
+  };
 
   // Valor del Mes based on current month
   const monthlyValue = useMemo(() => {
@@ -271,13 +428,61 @@ export default function Dashboard() {
   // Dominican Ephemeris for today or upcoming
   const todayEphemeris = useMemo(() => {
     const today = new Date();
-    const month = today.getMonth();
+    const currentMonth1 = today.getMonth() + 1;
+    const currentMonth0 = today.getMonth();
     const date = today.getDate();
 
-    const exact = DOMINICAN_EPHEMERIS.find(e => e.month === month && e.day === date);
+    // 1. Try to find in database ephemerides first
+    if (dbEphemerides.length > 0) {
+      // Find exact today
+      const exact = dbEphemerides.find(e => Number(e.month) === currentMonth1 && Number(e.day) === date);
+      if (exact) {
+        return {
+          day: exact.day,
+          month: exact.month - 1, // convert to 0-indexed for display matching other calculations
+          title: exact.title,
+          category: exact.category || "EDUCATIVA",
+          description: exact.description,
+          is_holiday: exact.is_holiday === 1 || exact.is_holiday === true
+        };
+      }
+      
+      // Find next upcoming in current month
+      const upcoming = [...dbEphemerides]
+        .filter(e => Number(e.month) === currentMonth1)
+        .sort((a, b) => Number(a.day) - Number(b.day));
+      
+      const next = upcoming.find(e => Number(e.day) >= date);
+      if (next) {
+        return {
+          day: next.day,
+          month: next.month - 1,
+          title: next.title,
+          category: next.category || "EDUCATIVA",
+          description: next.description,
+          is_holiday: next.is_holiday === 1 || next.is_holiday === true
+        };
+      }
+      
+      // Fallback to first of the month
+      if (upcoming.length > 0) {
+        const first = upcoming[0];
+        return {
+          day: first.day,
+          month: first.month - 1,
+          title: first.title,
+          category: first.category || "EDUCATIVA",
+          description: first.description,
+          is_holiday: first.is_holiday === 1 || first.is_holiday === true
+        };
+      }
+    }
+
+    // 2. Fall back to static DOMINICAN_EPHEMERIS if database is empty or loading
+    const exact = DOMINICAN_EPHEMERIS.find(e => e.month === currentMonth0 && e.day === date);
     if (exact) return exact;
 
-    const monthEvents = DOMINICAN_EPHEMERIS.filter(e => e.month === month);
+    const monthEvents = DOMINICAN_EPHEMERIS.filter(e => e.month === currentMonth0);
     if (monthEvents.length > 0) {
       const sorted = [...monthEvents].sort((a, b) => a.day - b.day);
       const next = sorted.find(e => e.day >= date);
@@ -293,7 +498,7 @@ export default function Dashboard() {
       description: "Revisa tus secuencias didácticas y prepara las competencias fundamentales del día.",
       is_holiday: false
     };
-  }, []);
+  }, [dbEphemerides]);
 
   // Next scheduled class mockup
   const nextClassMock = useMemo(() => {
@@ -455,7 +660,11 @@ export default function Dashboard() {
                       {notifications.map((notif) => (
                         <div
                           key={notif.id}
-                          onClick={() => markAsRead(notif.id)}
+                          onClick={() => {
+                            markAsRead(notif.id);
+                            setShowNotificationDropdown(false);
+                            navigate(`/notificaciones?expanded=${notif.id}`);
+                          }}
                           className={`flex gap-2.5 p-2 rounded-xl transition-colors cursor-pointer relative group/notif ${
                             notif.read ? 'hover:bg-slate-50 dark:hover:bg-slate-800/50' : 'bg-indigo-50/50 dark:bg-indigo-950/20 hover:bg-indigo-50 dark:hover:bg-indigo-950/30'
                           }`}
@@ -535,7 +744,9 @@ export default function Dashboard() {
               className="flex items-center gap-3 p-1.5 bg-white dark:bg-zinc-900 hover:bg-slate-50 dark:hover:bg-zinc-800 rounded-full border border-black/5 dark:border-white/10 shadow-xs cursor-pointer select-none transition-colors pr-4"
             >
               <div className={`w-10 h-10 rounded-full flex-shrink-0 bg-slate-100 relative ${
-                user?.suscripcion === "pro"
+                user?.is_ambassador
+                  ? "p-[1.5px] bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 shadow-[0_0_8px_rgba(245,158,11,0.35)]"
+                  : user?.suscripcion === "pro"
                   ? "p-[1.5px] bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 shadow-[0_0_8px_rgba(245,158,11,0.35)]"
                   : "border border-black/5"
               }`}>
@@ -544,16 +755,25 @@ export default function Dashboard() {
                   alt="Profile" 
                   className="w-full h-full object-cover rounded-full" 
                 />
-                {user?.suscripcion === "pro" && (
+                {user?.is_ambassador ? (
+                  <div className="absolute -bottom-0.5 -right-0.5 bg-gradient-to-tr from-amber-400 to-amber-600 text-white p-0.5 rounded-full border border-white dark:border-slate-900 shadow-xs scale-85 flex items-center justify-center">
+                    <MedalStar size={8} className="text-white" />
+                  </div>
+                ) : user?.suscripcion === "pro" ? (
                   <div className="absolute -bottom-0.5 -right-0.5 bg-gradient-to-tr from-amber-400 to-amber-600 text-white p-0.5 rounded-full border border-white dark:border-slate-900 shadow-xs scale-85">
                     <Crown className="h-2 w-2 fill-white text-white" />
                   </div>
-                )}
+                ) : null}
               </div>
               <div className="hidden md:flex flex-col text-left">
-                <span className="text-xs md:text-[13px] font-black text-slate-800 dark:text-zinc-100 leading-tight">{user?.nombre || "Docente"}</span>
+                <span className="text-xs md:text-[13px] font-black text-slate-800 dark:text-zinc-100 leading-tight flex items-center gap-1">
+                  {user?.nombre || "Docente"}
+                  {user?.is_ambassador && <MedalStar size={10} className="text-amber-500 shrink-0" />}
+                </span>
                 <span className="text-[9px] font-black text-indigo-650 uppercase tracking-widest leading-none mt-0.5">
-                  {user?.rol === "admin" 
+                  {user?.is_ambassador
+                    ? "Embajador"
+                    : user?.rol === "admin" 
                     ? "Administrador" 
                     : user?.rol === "coordinator" 
                     ? "Coordinador" 
@@ -675,7 +895,7 @@ export default function Dashboard() {
                 Valor del Mes
               </span>
               <span className="text-xs font-black text-[#1B1B1B] dark:text-white flex items-center gap-1">
-                {monthlyValue} <Sparkles className="w-3 h-3 text-amber-500 fill-amber-500/10" />
+                {customMonthlyValue || monthlyValue} <Sparkles className="w-3 h-3 text-amber-500 fill-amber-500/10" />
               </span>
             </div>
 
@@ -767,11 +987,7 @@ export default function Dashboard() {
 
             {/* Action 3: Dinamicas */}
             <div 
-              onClick={() => {
-                const el = document.getElementById("dinamicas-section");
-                if (el) el.scrollIntoView({ behavior: "smooth" });
-                toast.info("Desplazando al generador de dinámicas...");
-              }}
+              onClick={() => navigate("/dinamicas")}
               className="bg-gradient-to-br from-[#E6F4EA] to-[#F1F9F5] dark:from-emerald-950/20 dark:to-slate-900 rounded-[28px] p-6 relative overflow-hidden group cursor-pointer shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 active:scale-[0.97] min-h-[190px] flex flex-col justify-between border border-transparent hover:border-emerald-500/10 select-none text-left"
             >
               <div className="flex justify-between items-start relative z-10 w-full">
@@ -1232,6 +1448,18 @@ export default function Dashboard() {
       <ProCelebrationModal 
         isOpen={showProCelebration}
         onClose={() => setShowProCelebration(false)}
+        user={user}
+      />
+
+      <AmbassadorCelebrationModal 
+        isOpen={showAmbassadorCelebration}
+        onClose={() => setShowAmbassadorCelebration(false)}
+        user={user}
+      />
+
+      <OnboardingModal
+        isOpen={showOnboarding}
+        onClose={handleCloseOnboarding}
         user={user}
       />
 

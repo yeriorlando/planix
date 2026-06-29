@@ -154,6 +154,14 @@ export async function fetchPlannings(userId: string): Promise<LessonPlan[]> {
   return data.map(mapPlanningFromDb);
 }
 
+export async function fetchPlanningById(id: string): Promise<LessonPlan> {
+  const data = await requestD1<any[]>(`/api/plannings?id=${id}`);
+  if (!data || data.length === 0) {
+    throw new Error("Planificación no encontrada");
+  }
+  return mapPlanningFromDb(data[0]);
+}
+
 export async function savePlanning(p: LessonPlan): Promise<LessonPlan> {
   const dbRow = mapPlanningToDb(p);
   await requestD1<any>("/api/plannings", "POST", dbRow);

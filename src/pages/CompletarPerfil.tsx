@@ -238,9 +238,9 @@ export default function CompleteProfilePage() {
 
       // School metadata extraction
       const schoolMetadata = selectedSchoolData;
-      const regionalRaw = schoolMetadata?.regional || 'N/A';
-      const distritoRaw = schoolMetadata?.district || schoolMetadata?.distrito || 'N/A';
-      const municipioRaw = schoolMetadata?.municipality || schoolMetadata?.municipio || 'N/A';
+      const regionalRaw = schoolMetadata?.regional || (currentUser?.regional && currentUser.regional !== 'N/A' && currentUser.regional !== 'NA' ? currentUser.regional : 'N/A');
+      const distritoRaw = schoolMetadata?.district || schoolMetadata?.distrito || (currentUser?.distrito && currentUser.distrito !== 'N/A' && currentUser.distrito !== 'NA' ? currentUser.distrito : 'N/A');
+      const municipioRaw = schoolMetadata?.municipality || schoolMetadata?.municipio || (currentUser?.municipio && currentUser.municipio !== 'N/A' && currentUser.municipio !== 'NA' ? currentUser.municipio : 'N/A');
 
       const existingRole = currentUser?.rol || 'teacher';
       const subscriptionTier = currentUser?.suscripcion || 'free';

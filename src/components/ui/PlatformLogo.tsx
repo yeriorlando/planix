@@ -9,7 +9,7 @@ export default function PlatformLogo({ variant = 'normal', className = '' }: Pla
   const sizeClass = className ? '' : (variant === 'large' ? 'h-16' : 'h-12');
   return (
     <img 
-      src="/logo planix.webp" 
+      src="/Logo-login-y-landing.webp" 
       alt="Planix" 
       className={`${sizeClass} ${className} w-auto object-contain dark:brightness-125`} 
     />

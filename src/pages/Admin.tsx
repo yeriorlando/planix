@@ -199,12 +199,62 @@ export function usePlatformSettings() {
     });
   };
 
+  const hydrateAllSettings = (globalConfig: {
+    providers?: Record<string, any>;
+    activeProvider?: string;
+    generationParams?: any;
+    isChatAssistantEnabled?: boolean;
+  }) => {
+    setSettings(prev => {
+      const updatedProviders = { ...prev.aiProviders } as typeof prev.aiProviders;
+      if (globalConfig.providers) {
+        Object.entries(globalConfig.providers).forEach(([provider, config]: [string, any]) => {
+          if (updatedProviders[provider as keyof typeof prev.aiProviders]) {
+            updatedProviders[provider as keyof typeof prev.aiProviders] = {
+              ...updatedProviders[provider as keyof typeof prev.aiProviders],
+              ...config
+            };
+          }
+        });
+      }
+
+      const updatedParams = (globalConfig.generationParams
+        ? { ...prev.generationParams, ...globalConfig.generationParams }
+        : prev.generationParams) as typeof prev.generationParams;
+
+      const updatedActiveProvider = (globalConfig.activeProvider || prev.activeProvider) as "openai" | "gemini" | "groq" | "deepseek";
+      
+      const updatedChat = globalConfig.isChatAssistantEnabled !== undefined
+        ? globalConfig.isChatAssistantEnabled
+        : prev.isChatAssistantEnabled;
+
+      const rawLocal = localStorage.getItem("plx:ai_config");
+      const currentLocal = rawLocal ? JSON.parse(rawLocal) : {};
+      const newLocal = {
+        ...currentLocal,
+        activeProvider: updatedActiveProvider,
+        providers: updatedProviders,
+        generationParams: updatedParams,
+        chatAssistantEnabled: updatedChat
+      };
+      localStorage.setItem("plx:ai_config", JSON.stringify(newLocal));
+
+      return {
+        aiProviders: updatedProviders,
+        activeProvider: updatedActiveProvider,
+        generationParams: updatedParams,
+        isChatAssistantEnabled: updatedChat
+      };
+    });
+  };
+
   return {
     settings,
     updateProviderConfig,
     updateGenerationParams,
     setActiveProvider,
     updateChatAssistantEnabled,
+    hydrateAllSettings,
     hasHydrated
   };
 }
@@ -378,7 +428,7 @@ const CustomSwitch = ({
 // AISettingsPanel Component
 // ==========================================
 function AISettingsPanel() {
-    const { settings, updateProviderConfig, updateGenerationParams, setActiveProvider, updateChatAssistantEnabled, hasHydrated } = usePlatformSettings();
+    const { settings, updateProviderConfig, updateGenerationParams, setActiveProvider, updateChatAssistantEnabled, hydrateAllSettings, hasHydrated } = usePlatformSettings();
     const [showApiKey, setShowApiKey] = useState(false);
     const [showCustomApiKey, setShowCustomApiKey] = useState(false);
 
@@ -433,14 +483,7 @@ function AISettingsPanel() {
         const loadGlobalConfig = async () => {
             const globalConfig = await getSiteConfig<any>('ai_config');
             if (globalConfig) {
-                if (globalConfig.providers) {
-                    Object.entries(globalConfig.providers).forEach(([provider, config]: [string, any]) => {
-                        updateProviderConfig(provider as any, config);
-                    });
-                }
-                if (globalConfig.activeProvider) setActiveProvider(globalConfig.activeProvider as any);
-                if (globalConfig.generationParams) updateGenerationParams(globalConfig.generationParams);
-                if (globalConfig.isChatAssistantEnabled !== undefined) updateChatAssistantEnabled(globalConfig.isChatAssistantEnabled);
+                hydrateAllSettings(globalConfig);
             }
         };
 
@@ -466,7 +509,7 @@ function AISettingsPanel() {
             if (JSON.stringify(currentProvider.availableModels) !== JSON.stringify(validModels)) {
                 updateProviderConfig('gemini', { availableModels: validModels });
             }
-            if (currentProvider.defaultModel && !validModels.includes(currentProvider.defaultModel)) {
+            if (!currentProvider.useCustomServer && currentProvider.defaultModel && !validModels.includes(currentProvider.defaultModel)) {
                 updateProviderConfig('gemini', { defaultModel: 'gemini-3.5-flash' });
             }
         }
@@ -476,11 +519,11 @@ function AISettingsPanel() {
             if (JSON.stringify(currentProvider.availableModels) !== JSON.stringify(validModels)) {
                 updateProviderConfig('deepseek', { availableModels: validModels });
             }
-            if (currentProvider.defaultModel && !validModels.includes(currentProvider.defaultModel)) {
+            if (!currentProvider.useCustomServer && currentProvider.defaultModel && !validModels.includes(currentProvider.defaultModel)) {
                 updateProviderConfig('deepseek', { defaultModel: 'deepseek-v4-flash' });
             }
         }
-    }, [activeTab, currentProvider.defaultModel, currentProvider.availableModels]);
+    }, [activeTab, currentProvider.defaultModel, currentProvider.availableModels, currentProvider.useCustomServer]);
 
     const handleTestConnection = async () => {
         const isCustom = currentProvider.useCustomServer;

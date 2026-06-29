@@ -102,7 +102,7 @@ export default function GestionMatricula() {
   // Load classroom and students
   useEffect(() => {
     if (!user || !classId) return;
-    const classes = user.rol === "admin" ? getAllClassroomsAdmin() : getClassrooms(user.id);
+    const classes = getClassrooms(user.id);
     setClassrooms(classes);
     const current = classes.find(c => c.id === classId) || null;
     setActiveClassroom(current);

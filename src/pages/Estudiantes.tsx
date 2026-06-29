@@ -373,7 +373,7 @@ export default function Estudiantes() {
     saveClassroom(newClass);
     
     // Reload classrooms list
-    const data = user.rol === "admin" ? getAllClassroomsAdmin() : getClassrooms(user.id);
+    const data = getClassrooms(user.id);
     setClassrooms(data);
     setActiveClassId(newClass.id);
     
@@ -414,7 +414,7 @@ export default function Estudiantes() {
   // Load classrooms
   useEffect(() => {
     if (!user) return;
-    const data = user.rol === "admin" ? getAllClassroomsAdmin() : getClassrooms(user.id);
+    const data = getClassrooms(user.id);
     setClassrooms(data);
     // Maintain activeClassId if it is still valid in the new data list
     setActiveClassId(prev => {
@@ -490,7 +490,7 @@ export default function Estudiantes() {
     const gradeId = `${activeClassroom.nivel}-${activeClassroom.grado}`;
     
     let list = OFFICIAL_DEFAULT_SUBJECTS.filter((s) => s.level === levelUpper);
-    if (user && user.rol !== "admin" && user.allowed_subjects && user.allowed_subjects[gradeId]) {
+    if (user && user.allowed_subjects && user.allowed_subjects[gradeId]) {
       const allowed = user.allowed_subjects[gradeId];
       list = list.filter(s => allowed.includes(s.id));
     }
@@ -2606,7 +2606,7 @@ export default function Estudiantes() {
                     }
                     
                     // Actualizar la lista de aulas inmediatamente en el estado local
-                    const data = user.rol === "admin" ? getAllClassroomsAdmin() : getClassrooms(user.id);
+                    const data = getClassrooms(user.id);
                     setClassrooms(data);
 
                     toast.success(`"${classroomToDelete.nombre}" eliminada correctamente.`);
@@ -2654,7 +2654,7 @@ export default function Estudiantes() {
                 seccion: editClassSection.trim() || editingClassroom.seccion,
                 periodo: editClassPeriodo.trim() || editingClassroom.periodo,
               });
-              const data = user.rol === "admin" ? getAllClassroomsAdmin() : getClassrooms(user.id);
+              const data = getClassrooms(user.id);
               setClassrooms(data);
               toast.success("Aula actualizada correctamente.");
               setEditingClassroom(null);

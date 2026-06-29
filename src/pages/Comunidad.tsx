@@ -40,9 +40,12 @@ import {
 } from '../lib/storage';
 import { toast } from 'sonner';
 import { requestD1 } from '../lib/services/d1Client';
+import AmbassadorBadge from '../components/ui/AmbassadorBadge';
+import MedalStar from '../components/ui/MedalStar';
 
 // Helper to generate a unique gradient for the user avatar based on their name
 function getAvatarGradient(name: string) {
+  const safeName = name || 'Usuario';
   const gradients = [
     'from-blue-400 to-indigo-500',
     'from-emerald-400 to-teal-500',
@@ -52,8 +55,8 @@ function getAvatarGradient(name: string) {
     'from-cyan-400 to-blue-500'
   ];
   let hash = 0;
-  for (let i = 0; i < name.length; i++) {
-    hash = name.charCodeAt(i) + ((hash << 5) - hash);
+  for (let i = 0; i < safeName.length; i++) {
+    hash = safeName.charCodeAt(i) + ((hash << 5) - hash);
   }
   const index = Math.abs(hash) % gradients.length;
   return gradients[index];
@@ -271,8 +274,24 @@ export default function Comunidad() {
     try {
       const existing = getCommunityPosts();
 
+      // Clean up duplicates and empty posts from localStorage
+      let cleaned = Array.isArray(existing) ? existing : [];
+      cleaned = cleaned.filter(p => p && (p.id?.startsWith('mock_') || (p.contenido && p.contenido.trim() !== '')));
+
+      const seenIds = new Set<string>();
+      cleaned = cleaned.filter(p => {
+        if (!p || !p.id) return false;
+        if (seenIds.has(p.id)) return false;
+        seenIds.add(p.id);
+        return true;
+      });
+
+      if (Array.isArray(existing) && cleaned.length !== existing.length) {
+        localStorage.setItem("plx:community", JSON.stringify(cleaned));
+      }
+
       // If no community posts are saved yet, seed initial ones
-      if (!Array.isArray(existing) || existing.length === 0) {
+      if (cleaned.length === 0) {
         const defaultPosts: CommunityPost[] = [
           {
             id: 'mock_post_1',
@@ -338,7 +357,7 @@ export default function Comunidad() {
       }
 
       // Sanitize community posts to prevent any runtime rendering crashes due to database schema updates
-      const sanitized = existing.map(p => ({
+      const sanitized = cleaned.map(p => ({
         ...p,
         likes_count: p.likes_count ?? 0,
         comments_count: p.comments_count ?? 0,
@@ -391,8 +410,11 @@ export default function Comunidad() {
       try {
         const d1Posts = await requestD1<CommunityPost[]>("/api/community-posts");
         if (Array.isArray(d1Posts)) {
+          // Filter out empty posts from API sync
+          const validD1Posts = d1Posts.filter(p => p && (p.id?.startsWith('mock_') || (p.contenido && p.contenido.trim() !== '')));
+          
           // Sync with local cache
-          d1Posts.forEach(saveCommunityPost);
+          validD1Posts.forEach(saveCommunityPost);
           refreshPosts();
         }
       } catch (err) {
@@ -532,7 +554,24 @@ export default function Comunidad() {
   function refreshPosts() {
     try {
       const all = getCommunityPosts();
-      const sanitized = all.map(p => ({
+
+      // Clean up duplicates and empty posts from localStorage
+      let cleaned = Array.isArray(all) ? all : [];
+      cleaned = cleaned.filter(p => p && (p.id?.startsWith('mock_') || (p.contenido && p.contenido.trim() !== '')));
+
+      const seenIds = new Set<string>();
+      cleaned = cleaned.filter(p => {
+        if (!p || !p.id) return false;
+        if (seenIds.has(p.id)) return false;
+        seenIds.add(p.id);
+        return true;
+      });
+
+      if (Array.isArray(all) && cleaned.length !== all.length) {
+        localStorage.setItem("plx:community", JSON.stringify(cleaned));
+      }
+
+      const sanitized = cleaned.map(p => ({
         ...p,
         likes_count: p.likes_count ?? 0,
         comments_count: p.comments_count ?? 0,
@@ -565,9 +604,11 @@ export default function Comunidad() {
       docente_nombre: user.nombre,
       docente_rol: user.rol === "admin" 
         ? "Administrador" 
-        : user.nivel 
-          ? user.nivel.charAt(0).toUpperCase() + user.nivel.slice(1)
-          : "Docente",
+        : user.rol === "coordinator"
+          ? "Coordinador"
+          : user.nivel 
+            ? user.nivel.charAt(0).toUpperCase() + user.nivel.slice(1)
+            : "Docente",
       contenido: newPostText,
       likes_count: 0,
       comments_count: 0,
@@ -808,7 +849,7 @@ export default function Comunidad() {
             <div className="bg-white/70 dark:bg-zinc-900/40 rounded-[28px] border border-black/5 dark:border-white/5 p-5 shadow-xs">
               <div className="flex gap-3.5">
                 {/* Left Column: Avatar */}
-                {user.suscripcion === "pro" ? (
+                {user.is_ambassador ? (
                   <div className="relative p-[1.5px] rounded-full bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 shadow-[0_0_8px_rgba(245,158,11,0.3)] shrink-0 h-fit self-start">
                     {user.avatar_url ? (
                       <img
@@ -821,7 +862,24 @@ export default function Comunidad() {
                         {user.nombre.substring(0, 2)}
                       </div>
                     )}
-                    <div className="absolute -bottom-0.5 -right-0.5 bg-gradient-to-tr from-amber-400 to-amber-600 text-white p-0.5 rounded-full border border-white dark:border-slate-900 shadow-xs scale-85">
+                    <div title="Embajador Planix" className="absolute -bottom-0.5 -right-0.5 bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 text-white p-0.5 rounded-full border border-white dark:border-slate-900 shadow-xs scale-85 flex items-center justify-center cursor-pointer">
+                      <MedalStar size={8} className="text-white fill-white" />
+                    </div>
+                  </div>
+                ) : user.suscripcion === "pro" ? (
+                  <div className="relative p-[1.5px] rounded-full bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 shadow-[0_0_8px_rgba(245,158,11,0.3)] shrink-0 h-fit self-start">
+                    {user.avatar_url ? (
+                      <img
+                        src={user.avatar_url}
+                        alt={user.nombre}
+                        className="h-9 w-9 rounded-full object-cover"
+                      />
+                    ) : (
+                      <div className={`h-9 w-9 rounded-full bg-gradient-to-br ${getAvatarGradient(user.nombre)} flex items-center justify-center text-xs font-black text-white uppercase`}>
+                        {user.nombre.substring(0, 2)}
+                      </div>
+                    )}
+                    <div title="Planix Pro" className="absolute -bottom-0.5 -right-0.5 bg-gradient-to-tr from-amber-400 to-amber-600 text-white p-0.5 rounded-full border border-white dark:border-slate-900 shadow-xs scale-85 cursor-pointer">
                       <Crown className="h-2 w-2 fill-white text-white" />
                     </div>
                   </div>
@@ -1159,9 +1217,20 @@ export default function Comunidad() {
 
                 const postAuthor = allUsers.find((u) => u.id === post.docente_id || u.nombre === post.docente_nombre);
                 const postAuthorAvatar = postAuthor?.avatar_url;
+                const isAuthorAmbassador = postAuthor ? !!postAuthor.is_ambassador : false;
                 const isAuthorPro = postAuthor 
                   ? (postAuthor.suscripcion === 'pro' || postAuthor.rol === 'admin')
-                  : (post.docente_rol.includes('Admin') || post.docente_rol.includes('Super') || post.docente_rol.includes('Director') || post.docente_id === 'system');
+                  : ((post.docente_rol || '').includes('Admin') || (post.docente_rol || '').includes('Super') || (post.docente_rol || '').includes('Director') || post.docente_id === 'system');
+
+                const displayRol = postAuthor 
+                  ? (postAuthor.rol === 'admin' 
+                      ? 'Administrador' 
+                      : postAuthor.rol === 'coordinator' 
+                        ? 'Coordinador' 
+                        : postAuthor.nivel 
+                          ? postAuthor.nivel.charAt(0).toUpperCase() + postAuthor.nivel.slice(1)
+                          : 'Docente')
+                  : (post.docente_rol || 'Docente');
 
                 return (
                   <motion.div
@@ -1173,32 +1242,49 @@ export default function Comunidad() {
                   >
                     {/* Left Column: Avatar */}
                     <div className="flex flex-col items-center shrink-0">
-                      {isAuthorPro ? (
+                      {isAuthorAmbassador ? (
                         <div className="relative p-[1.5px] rounded-full bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 shadow-[0_0_8px_rgba(245,158,11,0.35)] shrink-0 h-fit">
                           {postAuthorAvatar ? (
                             <img
                               src={postAuthorAvatar}
-                              alt={post.docente_nombre}
+                              alt={post.docente_nombre || 'Docente'}
                               className="h-9 w-9 rounded-full object-cover"
                             />
                           ) : (
-                            <div className={`h-9 w-9 rounded-full bg-gradient-to-br ${getAvatarGradient(post.docente_nombre)} flex items-center justify-center text-xs font-black text-white uppercase`}>
-                              {post.docente_nombre.substring(0, 2)}
+                            <div className={`h-9 w-9 rounded-full bg-gradient-to-br ${getAvatarGradient(post.docente_nombre || 'Docente')} flex items-center justify-center text-xs font-black text-white uppercase`}>
+                              {(post.docente_nombre || 'Docente').substring(0, 2)}
                             </div>
                           )}
-                          <div className="absolute -bottom-0.5 -right-0.5 bg-gradient-to-tr from-amber-400 to-amber-600 text-white p-0.5 rounded-full border border-white dark:border-slate-900 shadow-xs scale-85">
+                          <div title="Embajador Planix" className="absolute -bottom-0.5 -right-0.5 bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 text-white p-0.5 rounded-full border border-white dark:border-slate-900 shadow-xs scale-85 flex items-center justify-center cursor-pointer">
+                            <MedalStar size={8} className="text-white fill-white" />
+                          </div>
+                        </div>
+                      ) : isAuthorPro ? (
+                        <div className="relative p-[1.5px] rounded-full bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 shadow-[0_0_8px_rgba(245,158,11,0.35)] shrink-0 h-fit">
+                          {postAuthorAvatar ? (
+                            <img
+                              src={postAuthorAvatar}
+                              alt={post.docente_nombre || 'Docente'}
+                              className="h-9 w-9 rounded-full object-cover"
+                            />
+                          ) : (
+                            <div className={`h-9 w-9 rounded-full bg-gradient-to-br ${getAvatarGradient(post.docente_nombre || 'Docente')} flex items-center justify-center text-xs font-black text-white uppercase`}>
+                              {(post.docente_nombre || 'Docente').substring(0, 2)}
+                            </div>
+                          )}
+                          <div title="Planix Pro" className="absolute -bottom-0.5 -right-0.5 bg-gradient-to-tr from-amber-400 to-amber-600 text-white p-0.5 rounded-full border border-white dark:border-slate-900 shadow-xs scale-85 cursor-pointer">
                             <Crown className="h-2.5 w-2.5 fill-white text-white" />
                           </div>
                         </div>
                       ) : postAuthorAvatar ? (
                         <img
                           src={postAuthorAvatar}
-                          alt={post.docente_nombre}
+                          alt={post.docente_nombre || 'Docente'}
                           className="h-9 w-9 rounded-full object-cover shadow-sm border border-zinc-100 dark:border-zinc-805"
                         />
                       ) : (
-                        <div className={`h-9 w-9 rounded-full bg-gradient-to-br ${getAvatarGradient(post.docente_nombre)} flex items-center justify-center text-xs font-black text-white uppercase shadow-sm`}>
-                          {post.docente_nombre.substring(0, 2)}
+                        <div className={`h-9 w-9 rounded-full bg-gradient-to-br ${getAvatarGradient(post.docente_nombre || 'Docente')} flex items-center justify-center text-xs font-black text-white uppercase shadow-sm`}>
+                          {(post.docente_nombre || 'Docente').substring(0, 2)}
                         </div>
                       )}
 
@@ -1215,24 +1301,28 @@ export default function Comunidad() {
                       <div className="flex items-center justify-between mb-1">
                         <div className="flex items-center gap-1.5 flex-wrap min-w-0">
                           <span className="font-extrabold text-[13.5px] text-zinc-900 dark:text-zinc-100 truncate flex items-center gap-1">
-                            {post.docente_nombre}
-                            {isAuthorPro && (
-                              <span className="relative group/tooltip inline-flex items-center cursor-help">
-                                <Crown className="h-3.5 w-3.5 fill-amber-500 text-amber-500 hover:scale-110 transition-transform" />
-                                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1.5 px-2 py-1 bg-amber-500 text-white text-[9px] font-black tracking-wide uppercase rounded-md shadow-md opacity-0 pointer-events-none group-hover/tooltip:opacity-100 transition-opacity duration-150 whitespace-nowrap z-50">
-                                  Planix Pro
-                                </span>
+                            {post.docente_nombre || 'Docente'}
+                            {isAuthorAmbassador ? (
+                              <span title="Embajador Planix" className="inline-flex items-center cursor-pointer shrink-0">
+                                <MedalStar size={14} className="text-amber-500 fill-amber-500 hover:scale-110 transition-transform shrink-0" />
                               </span>
-                            )}
+                            ) : isAuthorPro ? (
+                              <span title="Planix Pro" className="inline-flex items-center cursor-pointer shrink-0">
+                                <Crown className="h-3.5 w-3.5 fill-amber-500 text-amber-500 hover:scale-110 transition-transform" />
+                              </span>
+                            ) : null}
                           </span>
                           <span className={`inline-flex items-center px-1.5 py-0.2 rounded text-[7.5px] font-black uppercase tracking-wider ${
-                            post.docente_rol.includes('Admin') || post.docente_rol.includes('Super') || post.docente_rol.includes('Director')
+                            displayRol.includes('Admin') || 
+                            displayRol.includes('Super') || 
+                            displayRol.includes('Director') || 
+                            displayRol.includes('Coord')
                               ? 'bg-indigo-50 dark:bg-indigo-950/30 text-indigo-600 dark:text-indigo-400'
                               : 'bg-blue-50 dark:bg-blue-950/30 text-[#1e88e5] dark:text-blue-400'
                             }`}>
-                            {post.docente_rol}
+                            {displayRol}
                           </span>
-                          {post.comments_disabled && (
+                          {!!post.comments_disabled && (
                             <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[7.5px] font-black uppercase tracking-wider bg-rose-50 dark:bg-rose-950/30 text-rose-500 dark:text-rose-450 border border-rose-100/50 dark:border-rose-900/30">
                               <Lock className="w-2 h-2 shrink-0" />
                               Solo Lectura
@@ -1356,18 +1446,18 @@ export default function Comunidad() {
                                     {cmtAuthorAvatar ? (
                                       <img
                                         src={cmtAuthorAvatar}
-                                        alt={cmt.docente_nombre}
+                                        alt={cmt.docente_nombre || 'Docente'}
                                         className="h-7 w-7 shrink-0 rounded-full object-cover shadow-sm border border-zinc-100 dark:border-zinc-800"
                                       />
                                     ) : (
-                                      <div className={`h-7 w-7 shrink-0 rounded-full bg-gradient-to-br ${getAvatarGradient(cmt.docente_nombre)} flex items-center justify-center text-[10px] font-black text-white uppercase shadow-sm`}>
-                                        {cmt.docente_nombre.substring(0, 2)}
+                                      <div className={`h-7 w-7 shrink-0 rounded-full bg-gradient-to-br ${getAvatarGradient(cmt.docente_nombre || 'Docente')} flex items-center justify-center text-[10px] font-black text-white uppercase shadow-sm`}>
+                                        {(cmt.docente_nombre || 'Docente').substring(0, 2)}
                                       </div>
                                     )}
-                                    <div className="flex-1 min-w-0 bg-zinc-50/70 dark:bg-zinc-900/40 p-3.5 rounded-2xl border border-zinc-100 dark:border-zinc-800/80">
+                                    <div className="flex-1 min-w-0 bg-[#FAFAF8] dark:bg-zinc-900 p-3.5 rounded-2xl border border-zinc-200/70 dark:border-zinc-800/80 shadow-xs">
                                       <div className="flex justify-between items-center mb-1 flex-wrap">
-                                        <span className="font-extrabold text-[12px] text-zinc-900 dark:text-zinc-100">{cmt.docente_nombre}</span>
-                                        <span className="text-[9.5px] text-zinc-400 font-bold">
+                                        <span className="font-extrabold text-[12px] text-zinc-900 dark:text-zinc-100">{cmt.docente_nombre || 'Docente'}</span>
+                                        <span className="text-[9.5px] text-zinc-450 font-bold">
                                           {cmt.creado_en ? new Date(cmt.creado_en).toLocaleDateString("es-DO", { hour: '2-digit', minute: '2-digit' }) : ''}
                                         </span>
                                       </div>
@@ -1379,7 +1469,7 @@ export default function Comunidad() {
                                         <button
                                           onClick={() => setReplyTarget(prev => ({
                                             ...prev,
-                                            [post.id]: { commentId: cmt.id, authorName: cmt.docente_nombre }
+                                            [post.id]: { commentId: cmt.id, authorName: cmt.docente_nombre || 'Docente' }
                                           }))}
                                           className="text-[10px] font-bold text-[#1e88e5] hover:text-[#1565c0] transition-colors flex items-center gap-0.5"
                                         >
@@ -1401,18 +1491,18 @@ export default function Comunidad() {
                                         {replyAuthorAvatar ? (
                                           <img
                                             src={replyAuthorAvatar}
-                                            alt={reply.docente_nombre}
+                                            alt={reply.docente_nombre || 'Docente'}
                                             className="h-6.5 w-6.5 shrink-0 rounded-full object-cover mt-1 shadow-sm border border-zinc-100 dark:border-zinc-800"
                                           />
                                         ) : (
-                                          <div className={`h-6.5 w-6.5 shrink-0 rounded-full bg-gradient-to-br ${getAvatarGradient(reply.docente_nombre)} flex items-center justify-center text-[8.5px] font-black text-white uppercase mt-1 shadow-sm`}>
-                                            {reply.docente_nombre.substring(0, 2)}
+                                          <div className={`h-6.5 w-6.5 shrink-0 rounded-full bg-gradient-to-br ${getAvatarGradient(reply.docente_nombre || 'Docente')} flex items-center justify-center text-[8.5px] font-black text-white uppercase mt-1 shadow-sm`}>
+                                            {(reply.docente_nombre || 'Docente').substring(0, 2)}
                                           </div>
                                         )}
-                                        <div className="flex-1 bg-zinc-50/40 dark:bg-zinc-900/20 p-3 rounded-2xl border border-zinc-100/70 dark:border-zinc-800/50">
+                                        <div className="flex-1 bg-[#FAFAF8] dark:bg-zinc-900/50 p-3.5 rounded-2xl border border-zinc-200/70 dark:border-zinc-800/50 shadow-3xs">
                                           <div className="flex justify-between items-center mb-1">
-                                            <span className="font-extrabold text-[11.5px] text-zinc-900 dark:text-zinc-200 flex items-center gap-1.5">
-                                              {reply.docente_nombre}
+                                            <span className="font-extrabold text-[11.5px] text-zinc-900 dark:text-zinc-205 flex items-center gap-1.5">
+                                              {reply.docente_nombre || 'Docente'}
                                               <span className="text-[7.5px] font-black uppercase bg-indigo-50 dark:bg-indigo-950/40 text-indigo-650 dark:text-indigo-400 px-1.5 py-0.5 rounded">Respuesta</span>
                                             </span>
                                             <span className="text-[9px] text-zinc-450 font-bold">
@@ -1539,9 +1629,8 @@ export default function Comunidad() {
                   <Trophy size={18} className="text-indigo-500 fill-indigo-500/10" />
                   <span className="text-[13px] font-bold text-indigo-600 uppercase tracking-wider">Reconocimiento</span>
                 </div>
-                <h4 className="text-[20px] font-extrabold text-[#1B1B1B] dark:text-white leading-none tracking-tight flex items-center gap-1.5">
+                <h4 className="text-[20px] font-extrabold text-[#1B1B1B] dark:text-white leading-none tracking-tight">
                   Líder Pedagógico
-                  <Sparkles className="h-4 w-4 text-amber-500 animate-pulse" />
                 </h4>
               </div>
               <div className="w-10 h-10 bg-white/60 dark:bg-zinc-800/60 rounded-full flex items-center justify-center backdrop-blur-md shadow-sm shrink-0">

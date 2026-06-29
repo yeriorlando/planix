@@ -17,13 +17,13 @@
   --card-purple: #DCDDFF;
   --card-green: #B2F0D1;
 
-  /* Premium Planix Brand Accents - Deep Cobalt Blue & Amber Gold */
-  --brand-primary: #1E40AF;          /* Deep Cobalt Blue */
-  --brand-hover: #1D4ED8;            /* Blue hover */
-  --brand-light: #EFF6FF;            /* Soft Blue */
-  --brand-secondary: #F0A026;        /* Burning Trail (Warm Golden Orange) */
-  --brand-secondary-hover: #D98A16;
-  --brand-secondary-light: #FEF6E9;
+  /* Premium Planix Brand Accents - Deep Navy Blue & Mint Green */
+  --brand-primary: #02327e;          /* Deep Navy Blue */
+  --brand-hover: #022a6b;            /* Slightly darker blue for hover */
+  --brand-light: #e6ebf5;            /* Very light blue tint */
+  --brand-secondary: #02b36d;        /* Mint Green */
+  --brand-secondary-hover: #029b5e;  /* Slightly darker green for hover */
+  --brand-secondary-light: #e6f7f0;  /* Soft green tint */
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -73,9 +73,9 @@
   --brand-primary: #3B82F6;
   --brand-hover: #60A5FA;
   --brand-light: #172554;
-  --brand-secondary: #38BDF8;
-  --brand-secondary-hover: #7DD3FC;
-  --brand-secondary-light: #075985;
+  --brand-secondary: #02b36d;
+  --brand-secondary-hover: #02c77a;
+  --brand-secondary-light: #04442a;
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
@@ -288,4 +288,31 @@ body {
   transition: none !important;
   animation-duration: 0s !important;
   animation-delay: 0s !important;
+}
+
+/* Ensure all placeholders are not bold */
+input::placeholder,
+textarea::placeholder {
+  font-weight: 400 !important;
+}
+
+/* Sidebar scrollbar styles */
+.sidebar-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.sidebar-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.sidebar-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(2, 50, 126, 0.25);
+  border-radius: 9999px;
+}
+.sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(2, 50, 126, 0.45);
+}
+.dark .sidebar-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.25);
+}
+.dark .sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.45);
 }

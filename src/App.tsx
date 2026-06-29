@@ -7,7 +7,7 @@ import WhatsAppSupportBubble from './components/planix/WhatsAppSupportBubble';
 import Dashboard from './pages/Dashboard';
 import Planificaciones from './pages/Planificaciones';
 import Calendar from './pages/Calendar';
-import Explore from './pages/Explore';
+import Herramientas from './pages/Herramientas';
 import Recursos from './pages/Recursos';
 import Comunidad from './pages/Comunidad';
 import Perfil from './pages/Perfil';
@@ -18,6 +18,7 @@ import AdminUsuarios from './pages/AdminUsuarios';
 import AdminCurriculum from './pages/AdminCurriculum';
 import AdminCreditos from './pages/AdminCreditos';
 import AdminOnline from './pages/AdminOnline';
+import AdminEfemerides from './pages/AdminEfemerides';
 import Efemerides from './pages/Efemerides';
 import Notifications from './pages/Notifications';
 import DetallePlanificacion from './pages/DetallePlanificacion';
@@ -44,9 +45,19 @@ import CompletarPerfil from './pages/CompletarPerfil';
 import CorreoVerificado from './pages/CorreoVerificado';
 import CuentaSuspendida from './pages/CuentaSuspendida';
 import AuthCallback from './pages/AuthCallback';
+import CoordinatorDashboard from './pages/CoordinatorDashboard';
 
 import VistaPreviaPlanificacion from './pages/VistaPreviaPlanificacion';
+import VistaPreviaCoordinador from './pages/VistaPreviaCoordinador';
 import GeneradorExamenes from './pages/GeneradorExamenes';
+import SopaDeLetras from './pages/SopaDeLetras';
+import Crucigrama from './pages/Crucigrama';
+import Dinamicas from './pages/Dinamicas';
+import BajoLaLluvia from './pages/BajoLaLluvia';
+import Ruleta from './pages/Ruleta';
+import Jeopardy from './pages/Jeopardy';
+import GeneradorDiplomas from './pages/GeneradorDiplomas';
+import GeneradorGrupos from './pages/GeneradorGrupos';
 
 // Modular Student Sub-Pages
 import GestionMatricula from './pages/estudiantes/GestionMatricula';
@@ -180,8 +191,8 @@ function Layout() {
   }
 
   return (
-    <div className="min-h-screen bg-bg-base flex font-sans text-text-main w-full relative selection:bg-black/10 items-start pt-4 pb-[90px] xl:pb-4 xl:py-4 px-4 xl:pr-4">
-      <div className="max-w-[1600px] w-full mx-auto flex flex-col xl:flex-row xl:items-start gap-6 xl:gap-0">
+    <div className="min-h-screen bg-bg-base flex font-sans text-text-main w-full relative selection:bg-black/10 items-start pt-4 pb-[90px] xl:pb-4 xl:py-4 px-4 xl:pr-4 print:p-0 print:bg-white">
+      <div className="max-w-[1600px] w-full mx-auto flex flex-col xl:flex-row xl:items-start gap-6 xl:gap-0 print:block">
         <Sidebar className="" isPinned={isSidebarPinned} togglePin={toggleSidebarPin} onHoverChange={setIsSidebarHovered} />
         <Outlet context={{ isSidebarPinned: isSidebarExpanded, toggleSidebarPin, theme, toggleTheme }} />
       </div>
@@ -224,13 +235,16 @@ export default function App() {
         <Route path="/admin/curriculum" element={<AdminCurriculum />} />
         <Route path="/admin/creditos" element={<AdminCreditos />} />
         <Route path="/admin/online" element={<AdminOnline />} />
+        <Route path="/admin/efemerides" element={<AdminEfemerides />} />
         <Route path="/planificacion/preview" element={<VistaPreviaPlanificacion />} />
+        <Route path="/coordinador/planificacion/preview" element={<VistaPreviaCoordinador />} />
         <Route path="/planificaciones/nueva" element={<Planificador />} />
         <Route path="/planificaciones/nuevo" element={<Planificador />} />
 
         {/* Guarded application routes */}
         <Route element={<Layout />}>
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/coordinador/dashboard" element={<CoordinatorDashboard />} />
           <Route path="/aula-virtual" element={<Estudiantes />} />
           <Route path="/aula-virtual/matricula/:classId" element={<GestionMatricula />} />
           <Route path="/aula-virtual/anecdotario/:classId" element={<Anecdotario />} />
@@ -246,8 +260,16 @@ export default function App() {
           {/* Main existing system pages */}
           <Route path="/planificaciones" element={<Planificaciones />} />
           <Route path="/calendario" element={<Calendar />} />
-          <Route path="/herramientas" element={<Explore />} />
+          <Route path="/herramientas" element={<Herramientas />} />
           <Route path="/herramientas/generador-examenes" element={<GeneradorExamenes />} />
+          <Route path="/herramientas/sopa-de-letras" element={<SopaDeLetras />} />
+          <Route path="/herramientas/crucigrama" element={<Crucigrama />} />
+          <Route path="/herramientas/ruleta" element={<Ruleta />} />
+          <Route path="/herramientas/generador-diplomas" element={<GeneradorDiplomas />} />
+          <Route path="/herramientas/generador-grupos" element={<GeneradorGrupos />} />
+          <Route path="/dinamicas" element={<Dinamicas />} />
+          <Route path="/dinamicas/bajo-la-lluvia" element={<BajoLaLluvia />} />
+          <Route path="/dinamicas/jeopardy" element={<Jeopardy />} />
           <Route path="/recursos" element={<Recursos />} />
           <Route path="/comunidad" element={<Comunidad />} />
           <Route path="/chat" element={<PlanixChat />} />

@@ -93,7 +93,7 @@ export default function PerfilEstudiante() {
     if (!studentId || !user) return;
 
     // Find student in all classrooms
-    const classroomsList = user.rol === "admin" ? getAllClassroomsAdmin() : getClassrooms(user.id);
+    const classroomsList = getClassrooms(user.id);
     let foundStudent: Student | null = null;
     let foundClassroom: Classroom | null = null;
 

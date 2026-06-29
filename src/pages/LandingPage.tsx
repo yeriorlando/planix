@@ -24,7 +24,35 @@ import {
   Menu,
   X,
   Check,
-  Mail
+  Mail,
+  FileText,
+  PenTool,
+  Users,
+  Gamepad2,
+  Heart,
+  Search,
+  HelpCircle,
+  Brain,
+  Smile,
+  Cpu,
+  Layout,
+  Rocket,
+  Grid,
+  Puzzle,
+  Map,
+  FolderOpen,
+  Printer,
+  Clock,
+  Files,
+  ShieldAlert,
+  FolderX,
+  Frown,
+  TrendingUp,
+  Zap,
+  Bot,
+  MapPin,
+  Activity,
+  Target
 } from 'lucide-react';
 import { getCurrentUser } from '../lib/storage';
 import DRMap from '../components/planix/DRMap';
@@ -38,117 +66,117 @@ import PlatformLogo from '../components/ui/PlatformLogo';
 
 const ALL_FEATURES = [
   {
-    emoji: "⚡",
+    icon: Sparkles,
     title: "Planificación IA",
     description: "Diseña planes pedagógicos de alto impacto, adaptados a tus necesidades y con integración de IA en segundos."
   },
   {
-    emoji: "📑",
+    icon: FileText,
     title: "Generador de Exámenes",
     description: "Crea evaluaciones profesionales con hojas de respuestas docentes listas para imprimir."
   },
   {
-    emoji: "✏️",
+    icon: PenTool,
     title: "Pizarra Inteligente",
     description: "Organiza tus ideas con mapas conceptuales y esquemas dinámicos generados por IA."
   },
   {
-    emoji: "👤",
+    icon: Users,
     title: "Planix Dinámicas",
     description: "Colección de dinámicas interactivas: selección al azar, generador de grupos, retos de 60s y juegos de ingenio."
   },
   {
-    emoji: "🎮",
+    icon: Gamepad2,
     title: "Planix Juegos",
     description: "Transforma tus clases en una aventura épica con retos lúdicos y aprendizaje gamificado."
   },
   {
-    emoji: "❤️",
+    icon: Heart,
     title: "Planix Bienestar",
     description: "Estrategias de gestión de aula y apoyo emocional basadas en psicología pedagógica."
   },
   {
-    emoji: "🎯",
+    icon: Search,
     title: "Asistente de Investigación",
     description: "Encuentra información educativa relevante y genera resúmenes para tus preparaciones."
   },
   {
-    emoji: "💡",
+    icon: HelpCircle,
     title: "Generador de Preguntas",
     description: "Crea cuestionarios y preguntas de reflexión automáticamente a partir de cualquier texto."
   },
   {
-    emoji: "🧠",
+    icon: Brain,
     title: "Planix Simplifica",
     description: "Técnica de Feynman para explicar temas complejos de forma sencilla y con analogías."
   },
   {
-    emoji: "🧸",
+    icon: Smile,
     title: "Planix Inicial",
     description: "Herramientas especializadas con radar de habilidades para el Nivel Inicial."
   },
   {
-    emoji: "✨",
+    icon: Cpu,
     title: "Sintetizador de IA",
     description: "Transforma cualquier texto en resúmenes, materiales didácticos o actividades creativas."
   },
   {
-    emoji: "📐",
+    icon: Layout,
     title: "Lienzo Curricular",
     description: "La forma definitiva de planificar: Elige entre diseño libre total o clonación inteligente por IA en Canvas."
   },
   {
-    emoji: "🚀",
+    icon: Rocket,
     title: "Planix STEAM",
     description: "Generador de proyectos integrales ciencia-tecnología-arte, 100% gamificados y contextualizados."
   },
   {
-    emoji: "💬",
+    icon: MessageSquare,
     title: "Planix Chat con PDF",
     description: "Conversa con tus documentos para extraer información, resumir o hacer preguntas con ayuda de la IA."
   },
   {
-    emoji: "📜",
+    icon: Award,
     title: "Generador de Diplomas",
     description: "Crea reconocimientos de 'Logro Específico' con diseño premium para incentivar el comportamiento positivo."
   },
   {
-    emoji: "🔎",
+    icon: Grid,
     title: "Sopas de Letras",
     description: "Genera divertidas sopas de letras listas para imprimir a partir de cualquier tema o texto."
   },
   {
-    emoji: "🎲",
+    icon: Puzzle,
     title: "Creador de Crucigramas",
     description: "Construye crucigramas educativos rápidamente a partir de un tema o texto base."
   },
   {
-    emoji: "🗺️",
+    icon: Map,
     title: "Recorridos Docentes",
     description: "Guiones de intervención y preguntas clave para andamiaje y profundización en el desarrollo de la clase."
   },
   {
-    emoji: "🤝",
+    icon: Users,
     title: "Apoyo Adicional",
     description: "Estrategias DUA y ajustes razonables para estudiantes con necesidades específicas de apoyo."
   },
   {
-    emoji: "🌍",
+    icon: Globe,
     title: "Situaciones de Aprendizaje",
     description: "Genera narrativas pedagógicas realistas y motivadoras vinculadas al contexto y competencias."
   },
   {
-    emoji: "📊",
+    icon: TrendingUp,
     title: "Evaluación Continua",
     description: "Registro fácil de evidencias y seguimiento detallado de indicadores de logro."
   },
   {
-    emoji: "🗃️",
+    icon: FolderOpen,
     title: "Biblioteca Personal",
     description: "Organiza, clasifica y recupera todas tus planificaciones y recursos en un solo lugar."
   },
   {
-    emoji: "🖨️",
+    icon: Printer,
     title: "Impresión Un-Clic",
     description: "Genera documentos con formato institucional listos para entregar a tu centro."
   }
@@ -175,16 +203,18 @@ function SectionTitle({ title, subtitle, center = true }: { title: string; subti
   );
 }
 
-const LandingCard: React.FC<{ emoji?: string; title: string; description: string; colorClass?: string }> = ({ emoji, title, description, colorClass = 'bg-white dark:bg-zinc-900' }) => {
+const LandingCard: React.FC<{ icon?: React.ReactNode; title: string; description: string; colorClass?: string }> = ({ icon, title, description, colorClass = 'bg-white dark:bg-zinc-900' }) => {
   return (
     <div className={`
       relative p-8 rounded-[2rem] border-2 border-neutral-900 dark:border-zinc-700 shadow-[4px_4px_0px_0px_#1B1B1B] dark:shadow-[4px_4px_0px_0px_rgba(255,255,255,0.08)]
       transition-all duration-200 hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[3px_3px_0px_0px_#1B1B1B] h-full flex flex-col items-start gap-4 group overflow-hidden z-10
       ${colorClass}
     `}>
-      <div className="mb-2 transition-transform group-hover:scale-110 duration-300">
-        <span className="text-5xl leading-none filter drop-shadow-sm" role="img" aria-label={title}>{emoji}</span>
-      </div>
+      {icon && (
+        <div className="mb-2 p-3 bg-neutral-900/5 dark:bg-white/10 rounded-2xl border border-neutral-900/10 dark:border-white/10 transition-transform group-hover:scale-110 duration-300 flex items-center justify-center">
+          {icon}
+        </div>
+      )}
 
       <h3 className="text-xl font-black tracking-tight text-neutral-900 dark:text-neutral-100">
         {title}
@@ -462,8 +492,8 @@ export default function LandingPage() {
               
               {/* DR Badge */}
               <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#B2F0D1] rounded-full text-neutral-900 border-2 border-neutral-900 font-black text-[10px] uppercase tracking-wider shadow-[3px_3px_0px_0px_#1B1B1B]">
-                <span className="w-2.5 h-2.5 rounded-full bg-emerald-600 animate-pulse border border-neutral-950"></span>
-                República Dominicana 🇩🇴
+                <MapPin className="w-3.5 h-3.5 text-neutral-900" />
+                República Dominicana
               </div>
 
               {/* Headline */}
@@ -559,7 +589,9 @@ export default function LandingPage() {
                   <span className="text-[9px] font-black uppercase tracking-wider text-neutral-900">Examen por IA</span>
                 </div>
                 <h4 className="text-xs font-black text-neutral-900 leading-tight">Sociales 4to de Primaria</h4>
-                <span className="text-[9px] font-bold text-neutral-850 bg-white/80 border border-neutral-900/20 px-2 py-0.5 rounded-full mt-1.5 inline-block">10 Preguntas listas 🖨️</span>
+                <span className="text-[9px] font-bold text-neutral-850 bg-white/80 border border-neutral-900/20 px-2.5 py-0.5 rounded-full mt-1.5 inline-flex items-center gap-1">
+                  <Printer size={10} /> 10 Preguntas listas
+                </span>
               </motion.div>
 
               <motion.div 
@@ -579,7 +611,7 @@ export default function LandingPage() {
                 transition={{ repeat: Infinity, duration: 6.5, ease: "easeInOut" }}
               >
                 <div className="flex items-center gap-2 mb-1">
-                  <span className="text-[15px]">🇩🇴</span>
+                  <Award size={12} className="text-neutral-900" />
                   <span className="text-[9px] font-black text-neutral-900/60 uppercase tracking-wider">Adecuación 2026</span>
                 </div>
                 <h5 className="text-xs font-black text-neutral-900">Competencias</h5>
@@ -663,43 +695,43 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {[
               {
-                emoji: "⏰",
+                icon: <Clock className="w-8 h-8 text-neutral-900" />,
                 title: "Falta de Tiempo",
                 description: "La planificación educativa consume horas de tu fin de semana que podrías dedicar a descansar.",
                 colorClass: "bg-[#FACDD1] text-neutral-900"
               },
               {
-                emoji: "📚",
+                icon: <Files className="w-8 h-8 text-neutral-900" />,
                 title: "Papeleo del MINERD",
                 description: "Excesivos formatos curriculares y requisitos burocráticos que consumen tu energía creativa.",
                 colorClass: "bg-[#FBE6C2] text-neutral-900"
               },
               {
-                emoji: "❓",
+                icon: <ShieldAlert className="w-8 h-8 text-neutral-900" />,
                 title: "Alineación Curricular",
                 description: "Dudas constantes sobre si estás cumpliendo exactamente con las últimas adecuaciones vigentes.",
                 colorClass: "bg-[#DCDDFF] text-neutral-900"
               },
               {
-                emoji: "🗂️",
+                icon: <FolderX className="w-8 h-8 text-neutral-900" />,
                 title: "Desorganización",
                 description: "Documentos de planificación dispersos en cuadernos, archivos de Word y carpetas difíciles de buscar.",
                 colorClass: "bg-[#B2F0D1] text-neutral-900"
               },
               {
-                emoji: "😰",
+                icon: <Frown className="w-8 h-8 text-neutral-900" />,
                 title: "Estrés y Agotamiento",
                 description: "La presión por cumplir con toda la carga burocrática reduce tu motivación para la enseñanza.",
                 colorClass: "bg-[#EFF6FF] text-neutral-900"
               },
               {
-                emoji: "📊",
+                icon: <TrendingUp className="w-8 h-8 text-neutral-900" />,
                 title: "Seguimiento Manual",
                 description: "Llevar el control de indicadores de logro estudiante por estudiante en registros físicos es lento.",
                 colorClass: "bg-[#FACDD1] text-neutral-900"
               }
             ].map((pain, index) => (
-              <LandingCard key={index} emoji={pain.emoji} title={pain.title} description={pain.description} colorClass={pain.colorClass} />
+              <LandingCard key={index} icon={pain.icon} title={pain.title} description={pain.description} colorClass={pain.colorClass} />
             ))}
           </div>
         </div>
@@ -719,9 +751,9 @@ export default function LandingPage() {
               <div className="relative bg-white dark:bg-zinc-900 border-2 border-neutral-900 dark:border-zinc-700 p-6 sm:p-8 rounded-[2rem] shadow-[6px_6px_0px_0px_#1B1B1B] dark:shadow-[6px_6px_0px_0px_rgba(255,255,255,0.08)] select-none">
                 {/* Mockup Header */}
                 <div className="flex items-center justify-between pb-4 border-b-2 border-neutral-900/10 mb-6">
-                  <div className="flex items-center gap-2">
-                    <span className="text-xl">📐</span>
-                    <span className="font-black text-xs uppercase tracking-wider text-neutral-900 dark:text-neutral-100">
+                  <div className="flex items-center gap-2 text-neutral-900 dark:text-neutral-100">
+                    <Layout className="w-5 h-5" />
+                    <span className="font-black text-xs uppercase tracking-wider">
                       Lienzo Curricular
                     </span>
                   </div>
@@ -747,9 +779,9 @@ export default function LandingPage() {
                 <div className="space-y-4">
                   {/* Competencia Específica */}
                   <div className="p-4 bg-neutral-50 dark:bg-zinc-950 border-2 border-neutral-900/10 dark:border-zinc-800 rounded-2xl">
-                    <div className="flex items-center gap-2 mb-1.5">
-                      <span className="text-xs">🎯</span>
-                      <h5 className="text-xs font-black text-neutral-900 dark:text-neutral-100">Competencia Específica</h5>
+                    <div className="flex items-center gap-2 mb-1.5 text-neutral-900 dark:text-neutral-100">
+                      <Target className="w-4 h-4 text-[#FACDD1] fill-[#FACDD1]/20" />
+                      <h5 className="text-xs font-black">Competencia Específica</h5>
                     </div>
                     <p className="text-[11px] font-bold text-neutral-700 dark:text-neutral-300 leading-normal">
                       Comprensión oral: Comprende la información de recetas sencillas que escucha para la preparación de platos dominicanos.
@@ -758,9 +790,9 @@ export default function LandingPage() {
 
                   {/* Indicador de Logro */}
                   <div className="p-4 bg-neutral-50 dark:bg-zinc-950 border-2 border-neutral-900/10 dark:border-zinc-800 rounded-2xl">
-                    <div className="flex items-center gap-2 mb-1.5">
-                      <span className="text-xs">✅</span>
-                      <h5 className="text-xs font-black text-neutral-900 dark:text-neutral-100">Indicador de Logro</h5>
+                    <div className="flex items-center gap-2 mb-1.5 text-neutral-900 dark:text-neutral-100">
+                      <CheckCircle2 className="w-4 h-4 text-[#B2F0D1]" />
+                      <h5 className="text-xs font-black">Indicador de Logro</h5>
                     </div>
                     <p className="text-[11px] font-bold text-neutral-700 dark:text-neutral-300 leading-normal">
                       Distingue la estructura y función de la receta (título, ingredientes y preparación) como una guía estructurada.
@@ -769,9 +801,9 @@ export default function LandingPage() {
 
                   {/* Secuencia Didáctica */}
                   <div className="p-4 bg-neutral-50 dark:bg-zinc-950 border-2 border-neutral-900/10 dark:border-zinc-800 rounded-2xl">
-                    <div className="flex items-center gap-2 mb-2">
-                      <span className="text-xs">🤖</span>
-                      <h5 className="text-xs font-black text-neutral-900 dark:text-neutral-100">Actividades DUA Sugeridas</h5>
+                    <div className="flex items-center gap-2 mb-2 text-neutral-900 dark:text-neutral-100">
+                      <Bot className="w-4 h-4 text-[#DCDDFF]" />
+                      <h5 className="text-xs font-black">Actividades DUA Sugeridas</h5>
                     </div>
                     <div className="space-y-1.5 text-[10px] font-bold text-neutral-600 dark:text-neutral-450">
                       <div className="flex gap-1.5"><span className="text-emerald-500 font-black">1.</span> Glosario visual de utensilios.</div>
@@ -816,10 +848,10 @@ export default function LandingPage() {
 
               <div className="pt-4 flex flex-col sm:flex-row gap-4">
                 <Link to="/registro" className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#58A0E9] hover:bg-[#4890D9] text-neutral-900 border-2 border-neutral-900 rounded-full font-black text-xs uppercase tracking-wider shadow-[3px_3px_0px_0px_#1B1B1B] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_#1B1B1B] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none transition-all cursor-pointer">
-                  Planificar Gratis ⚡
+                  Planificar Gratis
                 </Link>
                 <div className="inline-flex items-center px-6 py-4 bg-white dark:bg-zinc-900 rounded-full border-2 border-neutral-900 dark:border-zinc-700 max-w-sm text-xs font-black uppercase text-neutral-700 dark:text-neutral-300">
-                  Tecnología de Punta 🇩🇴
+                  Tecnología de Punta
                 </div>
               </div>
             </div>
@@ -839,43 +871,43 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                emoji: "⚡",
+                icon: <Zap className="w-8 h-8 text-neutral-900" />,
                 title: "Ahorra Tiempo Real",
                 description: "Reduce el trabajo administrativo drásticamente. Planifica en minutos lo que antes tomaba días.",
                 colorClass: "bg-[#B2F0D1] text-neutral-900"
               },
               {
-                emoji: "🗂️",
+                icon: <FolderOpen className="w-8 h-8 text-neutral-900 dark:text-neutral-100" />,
                 title: "Todo en un solo Lugar",
                 description: "Tus recursos, planificaciones, exámenes y expedientes seguros y accesibles en la nube.",
                 colorClass: "bg-white dark:bg-zinc-900 text-neutral-900"
               },
               {
-                emoji: "✅",
+                icon: <CheckCircle2 className="w-8 h-8 text-neutral-900 dark:text-neutral-100" />,
                 title: "Alineación Curricular",
                 description: "Confianza total al estar 100% alineado a los estándares curriculares vigentes del MINERD.",
                 colorClass: "bg-white dark:bg-zinc-900 text-neutral-900"
               },
               {
-                emoji: "🧘",
+                icon: <Heart className="w-8 h-8 text-neutral-900 dark:text-neutral-100" />,
                 title: "Paz y Tranquilidad",
                 description: "Estructuras pedagógicas completas que te dan seguridad ante cualquier supervisión escolar.",
                 colorClass: "bg-white dark:bg-zinc-900 text-neutral-900"
               },
               {
-                emoji: "🎯",
+                icon: <Target className="w-8 h-8 text-neutral-900 dark:text-neutral-100" />,
                 title: "Calidad Didáctica",
                 description: "Mejora el aprendizaje en el aula con actividades creativas, lúdicas y adaptadas (DUA).",
                 colorClass: "bg-white dark:bg-zinc-900 text-neutral-900"
               },
               {
-                emoji: "📈",
+                icon: <TrendingUp className="w-8 h-8 text-neutral-900 dark:text-neutral-100" />,
                 title: "Potencialización Docente",
                 description: "Utiliza la inteligencia artificial como un asistente pedagógico de primer nivel.",
                 colorClass: "bg-white dark:bg-zinc-900 text-neutral-900"
               }
             ].map((benefit, index) => (
-              <LandingCard key={index} emoji={benefit.emoji} title={benefit.title} description={benefit.description} colorClass={benefit.colorClass} />
+              <LandingCard key={index} icon={benefit.icon} title={benefit.title} description={benefit.description} colorClass={benefit.colorClass} />
             ))}
           </div>
         </div>
@@ -903,8 +935,8 @@ export default function LandingPage() {
                 key={index}
                 className="group bg-white dark:bg-zinc-900 p-8 rounded-[2.5rem] border-2 border-neutral-900 dark:border-zinc-700 shadow-[4px_4px_0px_0px_#1B1B1B] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[3px_3px_0px_0px_#1B1B1B] transition-all duration-200 flex flex-col items-start gap-4"
               >
-                <div className="w-16 h-16 bg-neutral-50 dark:bg-zinc-800 rounded-2xl flex items-center justify-center text-4xl group-hover:scale-110 transition-transform border-2 border-neutral-900/10">
-                  <span role="img" aria-label={feature.title}>{feature.emoji}</span>
+                <div className="w-16 h-16 bg-neutral-50 dark:bg-zinc-800 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform border-2 border-neutral-900/10 dark:border-zinc-700">
+                  <feature.icon className="w-8 h-8 text-neutral-900 dark:text-neutral-100" />
                 </div>
                 <h3 className="text-xl font-black text-neutral-900 dark:text-neutral-100 tracking-tight">
                   {feature.title}
@@ -992,7 +1024,7 @@ export default function LandingPage() {
             {/* Pro Plan Card */}
             <div className="bg-[#FBE6C2] border-2 border-neutral-900 p-8 rounded-[2.5rem] shadow-[6px_6px_0px_0px_#1B1B1B] flex flex-col justify-between h-full relative overflow-hidden">
               <div className="absolute top-0 right-0 bg-[#FACDD1] border-b-2 border-l-2 border-neutral-900 px-6 py-2 text-[10px] font-black uppercase tracking-wider rounded-bl-3xl">
-                Favorito ⚡
+                Favorito
               </div>
 
               <div>
@@ -1076,7 +1108,7 @@ export default function LandingPage() {
               to={user ? "/dashboard" : "/registro"}
               className="w-full sm:w-auto px-10 py-5 bg-[#58A0E9] hover:bg-[#4890D9] text-neutral-900 border-2 border-neutral-900 rounded-full font-black text-xs uppercase tracking-wider shadow-[4px_4px_0px_0px_#1B1B1B] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[3px_3px_0px_0px_#1B1B1B] active:translate-x-[4px] active:translate-y-[4px] active:shadow-none transition-all text-center"
             >
-              Comenzar Gratis ⚡
+              Comenzar Gratis
             </Link>
             <Link 
               to="/login" 

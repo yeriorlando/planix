@@ -24,7 +24,8 @@ import {
   AlertCircle,
   BookOpen,
   Coins,
-  FileText
+  FileText,
+  Calendar
 } from 'lucide-react';
 import { 
   AreaChart, 
@@ -357,7 +358,7 @@ export default function AdminDashboard() {
           <h2 className="text-sm font-black text-slate-400 dark:text-zinc-550 uppercase tracking-widest pl-1">
             Acciones Rápidas
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-5">
             {[
               {
                 title: 'Gestionar Usuarios',
@@ -408,6 +409,16 @@ export default function AdminDashboard() {
                 icon: <FileText size={16} className="text-emerald-600 dark:text-emerald-400" />,
                 filledIcon: <FileText size={18} className="fill-emerald-500/20 text-emerald-600 dark:text-emerald-455" />,
                 bg: 'bg-gradient-to-br from-[#E6F4EA] to-[#F1F9F5] dark:from-emerald-950/20 dark:to-slate-900 hover:border-emerald-500/10'
+              },
+              {
+                title: 'Gestionar Efemérides',
+                desc: 'Calendario',
+                badge: 'FECHAS',
+                path: '/admin/efemerides',
+                category: 'EFEMÉRIDES',
+                icon: <Calendar size={16} className="text-blue-600 dark:text-blue-405" />,
+                filledIcon: <Calendar size={18} className="fill-blue-500/20 text-blue-650 dark:text-blue-405" />,
+                bg: 'bg-gradient-to-br from-[#E0F2FE] to-[#DDBEFE]/45 dark:from-blue-950/20 dark:to-slate-900 hover:border-blue-500/10'
               }
             ].map((card, idx) => (
               <div

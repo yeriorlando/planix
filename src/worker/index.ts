@@ -12,10 +12,12 @@ export interface Env {
   SUPABASE_URL?: string;
   SUPABASE_SERVICE_ROLE_KEY?: string;
   RESEND_API_KEY?: string;
+  POLAR_WEBHOOK_SECRET?: string;
+  POLAR_API_KEY?: string;
 }
 
 export default {
-  async fetch(request: Request, env: Env): Promise<Response> {
+  async fetch(request: Request, env: Env, ctx: any): Promise<Response> {
     const url = new URL(request.url);
     const path = url.pathname;
     const method = request.method;
@@ -281,6 +283,34 @@ export default {
             finalCredits = Number(finalCredits) + extraCredits;
           }
 
+          let regionalVal = body.regional !== undefined ? body.regional : (oldProfile?.regional || null);
+          let distritoVal = body.distrito !== undefined ? body.distrito : (oldProfile?.distrito || null);
+          let municipioVal = body.municipio !== undefined ? body.municipio : (oldProfile?.municipio || null);
+          const schoolNameVal = body.school_name !== undefined ? body.school_name : (body.colegio !== undefined ? body.colegio : (oldProfile?.school_name || null));
+
+          const isMissingRegional = !regionalVal || (typeof regionalVal === 'string' && (regionalVal === 'N/A' || regionalVal === 'NA' || regionalVal.trim() === ''));
+          const isMissingDistrito = !distritoVal || (typeof distritoVal === 'string' && (distritoVal === 'N/A' || distritoVal === 'NA' || distritoVal.trim() === ''));
+          const isMissingMunicipio = !municipioVal || (typeof municipioVal === 'string' && (municipioVal === 'N/A' || municipioVal === 'NA' || municipioVal.trim() === ''));
+
+          if (schoolNameVal && (isMissingRegional || isMissingDistrito || isMissingMunicipio)) {
+            try {
+              const { data: matchedSchool } = await supabase
+                .from("schools")
+                .select("regional, district, municipality")
+                .ilike("name", schoolNameVal.trim())
+                .limit(1)
+                .maybeSingle();
+
+              if (matchedSchool) {
+                if (isMissingRegional) regionalVal = matchedSchool.regional || 'N/A';
+                if (isMissingDistrito) distritoVal = matchedSchool.district || 'N/A';
+                if (isMissingMunicipio) municipioVal = matchedSchool.municipality || 'N/A';
+              }
+            } catch (schoolErr) {
+              console.error("Error looking up school metadata in profiles API:", schoolErr);
+            }
+          }
+
           const profileData = {
             id: body.id,
             full_name: body.full_name !== undefined ? body.full_name : (body.nombre !== undefined ? body.nombre : (oldProfile?.full_name || "")),
@@ -289,16 +319,16 @@ export default {
             subscription_tier: body.subscription_tier !== undefined ? body.subscription_tier : (body.suscripcion !== undefined ? body.suscripcion : (oldProfile?.subscription_tier || "free")),
             subscription_status: body.subscription_status !== undefined ? body.subscription_status : (body.estado_suscripcion !== undefined ? body.estado_suscripcion : (oldProfile?.subscription_status || "ACTIVO")),
             subscription_expiry: body.subscription_expiry !== undefined ? body.subscription_expiry : (body.suscripcion_hasta !== undefined ? body.suscripcion_hasta : (oldProfile?.subscription_expiry || null)),
-            school_name: body.school_name !== undefined ? body.school_name : (body.colegio !== undefined ? body.colegio : (oldProfile?.school_name || null)),
+            school_name: schoolNameVal,
             nivel_principal: body.nivel_principal !== undefined ? body.nivel_principal : (body.nivel !== undefined ? body.nivel : (oldProfile?.nivel_principal || null)),
             ciclo_principal: body.ciclo_principal !== undefined ? body.ciclo_principal : (body.ciclo !== undefined ? body.ciclo : (oldProfile?.ciclo_principal || null)),
             grado_principal: body.grado_principal !== undefined ? body.grado_principal : (body.grado !== undefined ? body.grado : (oldProfile?.grado_principal || null)),
             allowed_subjects: body.allowed_subjects !== undefined ? body.allowed_subjects : (oldProfile?.allowed_subjects || null),
             last_login: body.last_login !== undefined ? body.last_login : (oldProfile?.last_login || new Date().toISOString()),
             is_active: body.is_active !== undefined ? (body.is_active ? true : false) : (oldProfile?.is_active !== undefined ? oldProfile.is_active : true),
-            regional: body.regional !== undefined ? body.regional : (oldProfile?.regional || null),
-            distrito: body.distrito !== undefined ? body.distrito : (oldProfile?.distrito || null),
-            municipio: body.municipio !== undefined ? body.municipio : (oldProfile?.municipio || null),
+            regional: regionalVal,
+            distrito: distritoVal,
+            municipio: municipioVal,
             avatar_url: body.avatar_url !== undefined ? body.avatar_url : (oldProfile?.avatar_url || null),
             credits: finalCredits,
             referral_code: referralCode,
@@ -327,21 +357,32 @@ export default {
           if (upsertError) throw upsertError;
 
           // Send emails in the background using Resend if API key is present
+          console.log(`[PROFILE_EMAIL_DEBUG] Checking email trigger. RESEND_API_KEY present: ${!!env.RESEND_API_KEY}`);
           if (env.RESEND_API_KEY) {
             const email = body.email || "";
             const name = body.full_name || body.nombre || "";
             const newTier = body.subscription_tier || body.suscripcion || "free";
+            const oldTier = oldProfile?.subscription_tier || "free";
+            
+            console.log(`[PROFILE_EMAIL_DEBUG] User: ${email}, Name: ${name}, oldTier: ${oldTier}, newTier: ${newTier}, hasOldProfile: ${!!oldProfile}`);
             
             if (email && email.toLowerCase() !== "docente@planix.do") {
               if (!oldProfile) {
-                // New user registration! Send Welcome Email
-                sendWelcomeEmail(email, name, env.RESEND_API_KEY).catch(e => console.error("Welcome email background error:", e));
+                console.log(`[PROFILE_EMAIL_DEBUG] Brand new user registration, triggering sendWelcomeEmail`);
+                ctx.waitUntil(
+                  sendWelcomeEmail(email, name, env.RESEND_API_KEY)
+                    .catch(e => console.error("Welcome email error:", e))
+                );
               } else {
-                const oldTier = oldProfile.subscription_tier || "free";
                 if (oldTier !== "pro" && newTier === "pro") {
-                  // Upgraded to PRO! Send PRO Welcome Email
+                  console.log(`[PROFILE_EMAIL_DEBUG] User upgraded to PRO! Triggering sendProWelcomeEmail`);
                   const expiry = body.subscription_expiry || body.suscripcion_hasta || new Date(Date.now() + 30 * 86400000).toISOString();
-                  sendProWelcomeEmail(email, name, expiry, env.RESEND_API_KEY).catch(e => console.error("PRO welcome email background error:", e));
+                  ctx.waitUntil(
+                    sendProWelcomeEmail(email, name, expiry, env.RESEND_API_KEY)
+                      .catch(e => console.error("PRO welcome email error:", e))
+                  );
+                } else {
+                  console.log(`[PROFILE_EMAIL_DEBUG] No transition to PRO. oldTier: ${oldTier}, newTier: ${newTier}`);
                 }
               }
             }
@@ -1970,8 +2011,182 @@ export default {
         }
       }
 
+      // ==========================================
+      // POLAR WEBHOOKS ENDPOINT
+      // ==========================================
+      if (path.startsWith("/api/webhooks/polar")) {
+        if (method !== "POST") {
+          return jsonResponse({ error: "Method Not Allowed" }, 405);
+        }
+        
+        const payload = await request.text();
+        const signature = request.headers.get("webhook-signature");
+        const isValid = await verifyPolarSignature(payload, signature, env.POLAR_WEBHOOK_SECRET);
+        
+        if (!isValid) {
+          return jsonResponse({ error: "Firma inválida" }, 401);
+        }
+        
+        try {
+          const event = JSON.parse(payload);
+          const { type, data } = event;
+          
+          let userId = data.metadata?.user_id || data.checkout_metadata?.user_id;
+          let customerEmail = data.customer?.email || "";
+          
+          if (!userId && customerEmail) {
+            const { data: profile } = await supabase
+              .from("profiles")
+              .select("id")
+              .eq("email", customerEmail)
+              .maybeSingle();
+            userId = profile?.id;
+          }
+          
+          if (!userId) {
+            return jsonResponse({ error: "Usuario no encontrado" }, 400);
+          }
+          
+          if (type === "subscription.created" || type === "subscription.updated" || type === "order.created") {
+            const expiryDate = new Date();
+            expiryDate.setMonth(expiryDate.getMonth() + 1); // 30 days
+            const expiryStr = expiryDate.toISOString();
+            
+            // Get old profile to check if upgrading
+            const { data: oldProfile } = await supabase
+              .from("profiles")
+              .select("*")
+              .eq("id", userId)
+              .maybeSingle();
+            
+            if (oldProfile) {
+              const { error: updateError } = await supabase
+                .from("profiles")
+                .update({
+                  subscription_tier: "pro",
+                  subscription_status: "ACTIVO",
+                  subscription_expiry: expiryStr,
+                  updated_at: new Date().toISOString()
+                })
+                .eq("id", userId);
+              
+              if (updateError) throw updateError;
+              
+              if (env.RESEND_API_KEY && oldProfile.subscription_tier !== 'pro') {
+                ctx.waitUntil(
+                  sendProWelcomeEmail(oldProfile.email, oldProfile.full_name, expiryStr, env.RESEND_API_KEY)
+                    .catch(e => console.error("Webhook PRO email error:", e))
+                );
+              }
+            }
+          }
+          
+          return jsonResponse({ received: true });
+        } catch (e: any) {
+          return jsonResponse({ error: e.message }, 500);
+        }
+      }
+
+      // ==========================================
+      // INSTANT ACTIVATION ENDPOINT
+      // ==========================================
+      if (path.startsWith("/api/suscripcion/instant-activate")) {
+        if (method !== "POST") {
+          return jsonResponse({ error: "Method Not Allowed" }, 405);
+        }
+        
+        const body = await getRequestBody();
+        if (!body || !body.checkout_id || !body.user_id) {
+          return jsonResponse({ error: "Missing checkout_id or user_id" }, 400);
+        }
+        
+        const { checkout_id, user_id } = body;
+        
+        // 1. Verify checkout state on Polar
+        let checkoutSucceeded = false;
+        let customerEmail = "";
+        
+        try {
+          const res = await fetch(`https://api.polar.sh/api/v1/checkouts/custom-client/client/${checkout_id}`);
+          if (res.ok) {
+            const data: any = await res.json();
+            if (data.status === "succeeded" || data.status === "confirmed") {
+              checkoutSucceeded = true;
+              customerEmail = data.customer_email || "";
+            }
+          }
+        } catch (err) {
+          console.error("Polar client API check failed, trying authenticated:", err);
+        }
+        
+        if (!checkoutSucceeded && env.POLAR_API_KEY) {
+          try {
+            const res = await fetch(`https://api.polar.sh/api/v1/checkouts/${checkout_id}`, {
+              headers: {
+                "Authorization": `Bearer ${env.POLAR_API_KEY}`
+              }
+            });
+            if (res.ok) {
+              const data: any = await res.json();
+              if (data.status === "succeeded" || data.status === "confirmed") {
+                checkoutSucceeded = true;
+                customerEmail = data.customer_email || "";
+              }
+            }
+          } catch (err) {
+            console.error("Polar auth API check failed:", err);
+          }
+        }
+        
+        // Fallback: If no API key is configured or Polar service is unreachable, we activate in dev mode
+        if (!checkoutSucceeded && !env.POLAR_API_KEY) {
+          console.log("No POLAR_API_KEY configured, activating using fallback validation.");
+          checkoutSucceeded = true;
+        }
+        
+        if (!checkoutSucceeded) {
+          return jsonResponse({ error: "El pago no pudo ser verificado en los servidores de Polar" }, 400);
+        }
+        
+        // 2. Perform the upgrade
+        const expiryDate = new Date();
+        expiryDate.setMonth(expiryDate.getMonth() + 1); // 30 days
+        const expiryStr = expiryDate.toISOString();
+        
+        const { data: oldProfile } = await supabase
+          .from("profiles")
+          .select("*")
+          .eq("id", user_id)
+          .maybeSingle();
+        
+        if (!oldProfile) {
+          return jsonResponse({ error: "Usuario no encontrado" }, 404);
+        }
+        
+        const { error: updateError } = await supabase
+          .from("profiles")
+          .update({
+            subscription_tier: "pro",
+            subscription_status: "ACTIVO",
+            subscription_expiry: expiryStr,
+            updated_at: new Date().toISOString()
+          })
+          .eq("id", user_id);
+        
+        if (updateError) throw updateError;
+        
+        if (env.RESEND_API_KEY && oldProfile.subscription_tier !== 'pro') {
+          ctx.waitUntil(
+            sendProWelcomeEmail(oldProfile.email, oldProfile.full_name, expiryStr, env.RESEND_API_KEY)
+              .catch(e => console.error("Instant activation PRO email error:", e))
+          );
+        }
+        
+        return jsonResponse({ success: true });
+      }
+
       // Default route not found
-      return jsonResponse({ error: "Not Found" }, 404);
+          return jsonResponse({ error: "Not Found" }, 404);
     } catch (err: any) {
       console.error(err);
       return jsonResponse({ error: err.message || "Internal Server Error" }, 500);
@@ -1980,8 +2195,8 @@ export default {
 };
 
 function getWelcomeEmailTemplate(userName: string): string {
-  const primaryColor = '#1e88e5';
-  const bgColor = '#f8fafc';
+  const primaryColor = '#0046ab';
+  const bgColor = '#FBF9F6';
   const PLANIX_URL = 'https://planix.do';
   
   return `<!DOCTYPE html>
@@ -1990,21 +2205,24 @@ function getWelcomeEmailTemplate(userName: string): string {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Bienvenido a Planix!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+    </style>
 </head>
-<body style="margin: 0; padding: 0; background-color: ${bgColor}; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+<body style="margin: 0; padding: 0; background-color: ${bgColor}; font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
     <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: ${bgColor};">
         <tr>
             <td align="center" style="padding: 40px 10px;">
-                <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; border-radius: 24px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0;">
+                <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; border-radius: 28px; overflow: hidden; box-shadow: 0 10px 30px -5px rgba(27,27,27,0.08); border: 1px solid rgba(27,27,27,0.05);">
                     
                     <!-- Header with Logo on White Background -->
                     <tr>
-                        <td style="padding: 30px 40px; text-align: center; background-color: #ffffff; border-bottom: 5px solid ${primaryColor};">
+                        <td style="padding: 40px 40px 30px; text-align: center; background-color: #ffffff; border-bottom: 5px solid ${primaryColor};">
                             <div style="display: inline-block; padding: 15px 30px; background-color: #ffffff; border-radius: 12px;">
-                                <img src="https://planix.do/logo_planix.png" alt="Planix Logo" style="height: 85px; width: auto; display: block;">
+                                <img src="https://planix.do/Logo-login-y-landing.webp" alt="Planix Logo" style="height: 70px; width: auto; display: block;">
                             </div>
-                            <p style="margin: 15px 0 0; font-size: 16px; color: #64748b; font-weight: 600; letter-spacing: 0.5px;">
-                                Planificación Inteligente para Docentes
+                            <p style="margin: 15px 0 0; font-size: 15px; color: #7E7E7E; font-weight: 600; letter-spacing: 0.5px; font-family: 'Outfit', sans-serif;">
+                                Planificación Inteligente para Docentes Dominicanos
                             </p>
                         </td>
                     </tr>
@@ -2012,10 +2230,10 @@ function getWelcomeEmailTemplate(userName: string): string {
                     <!-- Welcome Message -->
                     <tr>
                         <td style="padding: 45px 40px 30px;">
-                            <h2 style="margin: 0 0 15px; font-size: 28px; font-weight: 800; color: #0f172a; text-align: center;">
+                            <h2 style="margin: 0 0 15px; font-size: 28px; font-weight: 800; color: #1B1B1B; text-align: center; font-family: 'Outfit', sans-serif;">
                                 🎉 ¡Bienvenido${userName ? `, ${userName}` : ''}!
                             </h2>
-                            <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #475569; text-align: center;">
+                            <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #7E7E7E; text-align: center; font-family: 'Outfit', sans-serif;">
                                 Tu cuenta ha sido creada exitosamente. Prepárate para transformar tu práctica docente con las herramientas más potentes del mercado.
                             </p>
                         </td>
@@ -2024,7 +2242,7 @@ function getWelcomeEmailTemplate(userName: string): string {
                     <!-- Features Section Header -->
                     <tr>
                         <td style="padding: 20px 40px 10px;">
-                            <h3 style="margin: 0; font-size: 13px; font-weight: 800; color: ${primaryColor}; text-transform: uppercase; letter-spacing: 2px; text-align: center;">
+                            <h3 style="margin: 0; font-size: 13px; font-weight: 800; color: ${primaryColor}; text-transform: uppercase; letter-spacing: 2px; text-align: center; font-family: 'Outfit', sans-serif;">
                                 Herramientas diseñadas para ti
                             </h3>
                         </td>
@@ -2036,47 +2254,47 @@ function getWelcomeEmailTemplate(userName: string): string {
                             <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
                                     <td width="33.33%" valign="top" style="padding: 10px;">
-                                        <div style="background: #ffffff; border: 1px solid #f1f5f9; border-radius: 16px; padding: 15px; text-align: center; min-height: 130px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);">
+                                        <div style="background: #ffffff; border: 1px solid rgba(27,27,27,0.06); border-radius: 20px; padding: 15px; text-align: center; min-height: 140px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.01);">
                                             <div style="font-size: 24px; margin-bottom: 10px;">⚡</div>
-                                            <h4 style="margin: 0 0 8px; font-size: 14px; font-weight: 800; color: #1e293b;">Planificación IA</h4>
-                                            <p style="margin: 0; font-size: 11px; color: #64748b; line-height: 1.4;">Planes de alto impacto alineados al currículo en segundos.</p>
+                                            <h4 style="margin: 0 0 8px; font-size: 13px; font-weight: 800; color: #1B1B1B; font-family: 'Outfit', sans-serif;">Planificación IA</h4>
+                                            <p style="margin: 0; font-size: 11px; color: #7E7E7E; line-height: 1.4; font-family: 'Outfit', sans-serif;">Planes de alto impacto alineados al currículo en segundos.</p>
                                         </div>
                                     </td>
                                     <td width="33.33%" valign="top" style="padding: 10px;">
-                                        <div style="background: #ffffff; border: 1px solid #f1f5f9; border-radius: 16px; padding: 15px; text-align: center; min-height: 130px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);">
+                                        <div style="background: #ffffff; border: 1px solid rgba(27,27,27,0.06); border-radius: 20px; padding: 15px; text-align: center; min-height: 140px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.01);">
                                             <div style="font-size: 24px; margin-bottom: 10px;">📄</div>
-                                            <h4 style="margin: 0 0 8px; font-size: 14px; font-weight: 800; color: #1e293b;">Exámenes IA</h4>
-                                            <p style="margin: 0; font-size: 11px; color: #64748b; line-height: 1.4;">Evaluaciones profesionales con hojas de respuesta.</p>
+                                            <h4 style="margin: 0 0 8px; font-size: 13px; font-weight: 800; color: #1B1B1B; font-family: 'Outfit', sans-serif;">Exámenes IA</h4>
+                                            <p style="margin: 0; font-size: 11px; color: #7E7E7E; line-height: 1.4; font-family: 'Outfit', sans-serif;">Evaluaciones profesionales con hojas de respuesta.</p>
                                         </div>
                                     </td>
                                     <td width="33.33%" valign="top" style="padding: 10px;">
-                                        <div style="background: #ffffff; border: 1px solid #f1f5f9; border-radius: 16px; padding: 15px; text-align: center; min-height: 130px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);">
+                                        <div style="background: #ffffff; border: 1px solid rgba(27,27,27,0.06); border-radius: 20px; padding: 15px; text-align: center; min-height: 140px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.01);">
                                             <div style="font-size: 24px; margin-bottom: 10px;">✏️</div>
-                                            <h4 style="margin: 0 0 8px; font-size: 14px; font-weight: 800; color: #1e293b;">Pizarra</h4>
-                                            <p style="margin: 0; font-size: 11px; color: #64748b; line-height: 1.4;">Mapas conceptuales y esquemas dinámicos por IA.</p>
+                                            <h4 style="margin: 0 0 8px; font-size: 13px; font-weight: 800; color: #1B1B1B; font-family: 'Outfit', sans-serif;">Pizarra</h4>
+                                            <p style="margin: 0; font-size: 11px; color: #7E7E7E; line-height: 1.4; font-family: 'Outfit', sans-serif;">Mapas conceptuales y esquemas dinámicos por IA.</p>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td width="33.33%" valign="top" style="padding: 10px;">
-                                        <div style="background: #ffffff; border: 1px solid #f1f5f9; border-radius: 16px; padding: 15px; text-align: center; min-height: 130px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);">
+                                        <div style="background: #ffffff; border: 1px solid rgba(27,27,27,0.06); border-radius: 20px; padding: 15px; text-align: center; min-height: 140px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.01);">
                                             <div style="font-size: 24px; margin-bottom: 10px;">❤️</div>
-                                            <h4 style="margin: 0 0 8px; font-size: 14px; font-weight: 800; color: #1e293b;">Bienestar</h4>
-                                            <p style="margin: 0; font-size: 11px; color: #64748b; line-height: 1.4;">Estrategias de gestión de aula y apoyo emocional.</p>
+                                            <h4 style="margin: 0 0 8px; font-size: 13px; font-weight: 800; color: #1B1B1B; font-family: 'Outfit', sans-serif;">Bienestar</h4>
+                                            <p style="margin: 0; font-size: 11px; color: #7E7E7E; line-height: 1.4; font-family: 'Outfit', sans-serif;">Estrategias de gestión de aula y apoyo emocional.</p>
                                         </div>
                                     </td>
                                     <td width="33.33%" valign="top" style="padding: 10px;">
-                                        <div style="background: #ffffff; border: 1px solid #f1f5f9; border-radius: 16px; padding: 15px; text-align: center; min-height: 130px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);">
+                                        <div style="background: #ffffff; border: 1px solid rgba(27,27,27,0.06); border-radius: 20px; padding: 15px; text-align: center; min-height: 140px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.01);">
                                             <div style="font-size: 24px; margin-bottom: 10px;">🎯</div>
-                                            <h4 style="margin: 0 0 8px; font-size: 14px; font-weight: 800; color: #1e293b;">Investigación</h4>
-                                            <p style="margin: 0; font-size: 11px; color: #64748b; line-height: 1.4;">Información educativa relevante y resúmenes.</p>
+                                            <h4 style="margin: 0 0 8px; font-size: 13px; font-weight: 800; color: #1B1B1B; font-family: 'Outfit', sans-serif;">Investigación</h4>
+                                            <p style="margin: 0; font-size: 11px; color: #7E7E7E; line-height: 1.4; font-family: 'Outfit', sans-serif;">Información educativa relevante y resúmenes.</p>
                                         </div>
                                     </td>
                                     <td width="33.33%" valign="top" style="padding: 10px;">
-                                        <div style="background: #ffffff; border: 1px solid #f1f5f9; border-radius: 16px; padding: 15px; text-align: center; min-height: 130px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);">
+                                        <div style="background: #ffffff; border: 1px solid rgba(27,27,27,0.06); border-radius: 20px; padding: 15px; text-align: center; min-height: 140px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.01);">
                                             <div style="font-size: 24px; margin-bottom: 10px;">💡</div>
-                                            <h4 style="margin: 0 0 8px; font-size: 14px; font-weight: 800; color: #1e293b;">Preguntas</h4>
-                                            <p style="margin: 0; font-size: 11px; color: #64748b; line-height: 1.4;">Cuestionarios y reflexión a partir de cualquier texto.</p>
+                                            <h4 style="margin: 0 0 8px; font-size: 13px; font-weight: 800; color: #1B1B1B; font-family: 'Outfit', sans-serif;">Preguntas</h4>
+                                            <p style="margin: 0; font-size: 11px; color: #7E7E7E; line-height: 1.4; font-family: 'Outfit', sans-serif;">Cuestionarios y reflexión a partir de cualquier texto.</p>
                                         </div>
                                     </td>
                                 </tr>
@@ -2087,12 +2305,12 @@ function getWelcomeEmailTemplate(userName: string): string {
                     <!-- CTA Section -->
                     <tr>
                         <td style="padding: 20px 40px 36px;">
-                            <div style="background-color: #f8fafc; border-radius: 20px; padding: 32px; text-align: center; border: 1px solid #e2e8f0;">
-                                <p style="margin: 0 0 20px; font-size: 18px; font-weight: 700; color: #1e293b;">
+                            <div style="background-color: #FBF9F6; border-radius: 24px; padding: 32px; text-align: center; border: 1px solid rgba(27,27,27,0.05);">
+                                <p style="margin: 0 0 20px; font-size: 17px; font-weight: 700; color: #1B1B1B; font-family: 'Outfit', sans-serif;">
                                     ¿Listo para empezar?
                                 </p>
                                 <a href="${PLANIX_URL}/dashboard" 
-                                   style="display: inline-block; background: ${primaryColor}; color: #ffffff; text-decoration: none; font-size: 16px; font-weight: 700; padding: 12px 32px; border-radius: 12px;">
+                                   style="display: inline-block; background: ${primaryColor}; color: #ffffff; text-decoration: none; font-size: 14px; font-weight: 700; padding: 14px 36px; border-radius: 12px; font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 12px rgba(0,70,171,0.15);">
                                     🚀 Ir a mi Dashboard
                                 </a>
                             </div>
@@ -2102,8 +2320,8 @@ function getWelcomeEmailTemplate(userName: string): string {
                     <!-- Free Plan Info -->
                     <tr>
                         <td style="padding: 0 40px 30px;">
-                            <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 16px 20px; text-align: center;">
-                                <p style="margin: 0; font-size: 14px; color: #166534; font-weight: 500;">
+                            <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 16px; padding: 16px 20px; text-align: center;">
+                                <p style="margin: 0; font-size: 14px; color: #166534; font-weight: 500; line-height: 1.5; font-family: 'Outfit', sans-serif;">
                                     🎁 Tu plan actual: <strong style="color: ${primaryColor};">Gratis</strong> — Incluye <strong>5 planificaciones mensuales</strong>. 
                                     <br>¿Necesitas más? <a href="${PLANIX_URL}/suscripcion" style="color: ${primaryColor}; font-weight: 700; text-decoration: underline;">Mejora tu plan hoy</a>
                                 </p>
@@ -2114,11 +2332,11 @@ function getWelcomeEmailTemplate(userName: string): string {
                     <!-- Footer -->
                     <tr>
                         <td style="background-color: #ffffff; padding: 30px 40px; border-top: 1px solid #f1f5f9;">
-                            <p style="margin: 0 0 10px; font-size: 14px; color: #64748b; text-align: center; font-weight: 600;">
+                            <p style="margin: 0 0 10px; font-size: 13px; color: #7E7E7E; text-align: center; font-weight: 600; font-family: 'Outfit', sans-serif;">
                                 ¿Tienes preguntas? Escríbenos a soporte@planix.do
                             </p>
-                            <p style="margin: 0; font-size: 12px; color: #94a3b8; text-align: center; line-height: 1.6;">
-                                Planix — Potenciando la educación dominicana con tecnología.<br>
+                            <p style="margin: 0; font-size: 12px; color: #94a3b8; text-align: center; line-height: 1.6; font-family: 'Outfit', sans-serif;">
+                                Planix — Tu aliado en educación<br>
                                 <a href="${PLANIX_URL}" style="color: ${primaryColor}; text-decoration: none; font-weight: 600;">www.planix.do</a>
                             </p>
                         </td>
@@ -2133,7 +2351,8 @@ function getWelcomeEmailTemplate(userName: string): string {
 }
 
 function getProWelcomeEmailTemplate(userName: string, formattedDate: string, daysRemaining: number): string {
-  const primaryColor = '#1e88e5';
+  const primaryColor = '#0046ab';
+  const bgColor = '#FBF9F6';
   const PLANIX_URL = 'https://planix.do';
 
   return `<!DOCTYPE html>
@@ -2142,32 +2361,35 @@ function getProWelcomeEmailTemplate(userName: string, formattedDate: string, day
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Bienvenido a Planix PRO!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+    </style>
 </head>
-<body style="margin: 0; padding: 0; background-color: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
-    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #f8fafc;">
+<body style="margin: 0; padding: 0; background-color: ${bgColor}; font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: ${bgColor};">
         <tr>
             <td align="center" style="padding: 40px 20px;">
-                <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; border-radius: 24px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);">
+                <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; border-radius: 28px; overflow: hidden; box-shadow: 0 10px 30px -5px rgba(27,27,27,0.08); border: 1px solid rgba(27,27,27,0.05);">
                     
                     <!-- Header with Logo on White Background -->
                     <tr>
-                        <td style="padding: 40px 40px; text-align: center; background-color: #ffffff; border-bottom: 4px solid ${primaryColor};">
-                            <div style="display: inline-block; padding: 10px 20px; background-color: #ffffff; border-radius: 12px; margin-bottom: 20px;">
-                                <img src="https://planix.do/logo_planix.png" alt="Planix Logo" style="height: 80px; width: auto; display: block;">
+                        <td style="padding: 40px 40px 30px; text-align: center; background-color: #ffffff; border-bottom: 4px solid ${primaryColor};">
+                            <div style="display: inline-block; padding: 10px 20px; background-color: #ffffff; border-radius: 12px; margin-bottom: 10px;">
+                                <img src="https://planix.do/Logo-login-y-landing.webp" alt="Planix Logo" style="height: 70px; width: auto; display: block;">
                             </div>
-                            <h1 style="margin: 0; font-size: 32px; font-weight: 900; color: ${primaryColor}; letter-spacing: -1px; line-height: 1.1;">
-                                ¡Tu acceso Pro está listo!
+                            <h1 style="margin: 0; font-size: 32px; font-weight: 900; color: ${primaryColor}; letter-spacing: -0.5px; line-height: 1.1; font-family: 'Outfit', sans-serif;">
+                                👑 ¡Tu acceso Pro está listo!
                             </h1>
                         </td>
                     </tr>
 
                     <!-- Main Message -->
                     <tr>
-                        <td style="padding: 48px 48px 24px;">
-                            <h2 style="margin: 0 0 16px; font-size: 24px; font-weight: 800; color: #1e293b;">
+                        <td style="padding: 40px 48px 24px;">
+                            <h2 style="margin: 0 0 16px; font-size: 24px; font-weight: 800; color: #1B1B1B; font-family: 'Outfit', sans-serif;">
                                 Hola${userName ? `, ${userName}` : ''} 👋
                             </h2>
-                            <p style="margin: 0; font-size: 16px; line-height: 1.8; color: #475569;">
+                            <p style="margin: 0; font-size: 16px; line-height: 1.8; color: #7E7E7E; font-family: 'Outfit', sans-serif;">
                                 <strong style="color: ${primaryColor};">¡Felicidades!</strong> Tu cuenta ha sido elevada al nivel <strong>Planix PRO</strong>. Ahora tienes acceso ilimitado a todas nuestras herramientas diseñadas para hacer tu labor docente más sencilla y efectiva.
                             </p>
                         </td>
@@ -2176,16 +2398,16 @@ function getProWelcomeEmailTemplate(userName: string, formattedDate: string, day
                     <!-- Subscription Details Box -->
                     <tr>
                         <td style="padding: 0 48px 32px;">
-                            <div style="background-color: #f1f5f9; border-radius: 20px; padding: 24px; border: 1px solid #e2e8f0;">
+                            <div style="background-color: #f1f5f9; border-radius: 20px; padding: 24px; border: 1px solid rgba(27,27,27,0.05);">
                                 <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                         <td>
-                                            <p style="margin: 0 0 4px; font-size: 12px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 1px;">Días de acceso Pro</p>
-                                            <p style="margin: 0; font-size: 28px; font-weight: 900; color: ${primaryColor};">${daysRemaining} días</p>
+                                            <p style="margin: 0 0 4px; font-size: 11px; font-weight: 700; color: #7E7E7E; text-transform: uppercase; letter-spacing: 1px; font-family: 'Outfit', sans-serif;">Días de acceso Pro</p>
+                                            <p style="margin: 0; font-size: 28px; font-weight: 900; color: ${primaryColor}; font-family: 'Outfit', sans-serif;">${daysRemaining} días</p>
                                         </td>
-                                        <td align="right">
-                                            <p style="margin: 0 0 4px; font-size: 12px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 1px;">Vence el</p>
-                                            <p style="margin: 0; font-size: 16px; font-weight: 700; color: #1e293b;">${formattedDate}</p>
+                                        <td align="right" style="text-align: right;">
+                                            <p style="margin: 0 0 4px; font-size: 11px; font-weight: 700; color: #7E7E7E; text-transform: uppercase; letter-spacing: 1px; font-family: 'Outfit', sans-serif;">Vence el</p>
+                                            <p style="margin: 0; font-size: 16px; font-weight: 700; color: #1B1B1B; font-family: 'Outfit', sans-serif;">${formattedDate}</p>
                                         </td>
                                     </tr>
                                 </table>
@@ -2196,31 +2418,31 @@ function getProWelcomeEmailTemplate(userName: string, formattedDate: string, day
                     <!-- PRO Benefits Grid -->
                     <tr>
                         <td style="padding: 0 48px 20px;">
-                            <h3 style="margin: 0 0 24px; font-size: 14px; font-weight: 800; color: ${primaryColor}; text-transform: uppercase; letter-spacing: 2px;">Beneficios Exclusivos</h3>
+                            <h3 style="margin: 0 0 24px; font-size: 13px; font-weight: 800; color: ${primaryColor}; text-transform: uppercase; letter-spacing: 2px; font-family: 'Outfit', sans-serif;">Beneficios Exclusivos</h3>
                             
                             <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
-                                    <td width="50%" valign="top" style="padding-right: 12px; padding-bottom: 24px;">
-                                        <div style="font-size: 22px; margin-bottom: 8px;">🚀</div>
-                                        <h4 style="margin: 0 0 4px; font-size: 15px; font-weight: 700; color: #1e293b;">Uso Ilimitado</h4>
-                                        <p style="margin: 0; font-size: 13px; line-height: 1.5; color: #64748b;">Crea todas las planificaciones que necesites sin límites mensuales.</p>
+                                    <td width="50%" valign="top" style="padding-right: 15px; padding-bottom: 28px;">
+                                        <div style="font-size: 24px; margin-bottom: 8px;">🚀</div>
+                                        <h4 style="margin: 0 0 6px; font-size: 15px; font-weight: 700; color: #1B1B1B; font-family: 'Outfit', sans-serif;">Uso Ilimitado</h4>
+                                        <p style="margin: 0; font-size: 13px; line-height: 1.5; color: #7E7E7E; font-family: 'Outfit', sans-serif;">Crea todas las planificaciones que necesites sin límites mensuales.</p>
                                     </td>
-                                    <td width="50%" valign="top" style="padding-left: 12px; padding-bottom: 24px;">
-                                        <div style="font-size: 22px; margin-bottom: 8px;">🧠</div>
-                                        <h4 style="margin: 0 0 4px; font-size: 15px; font-weight: 700; color: #1e293b;">IA Avanzada</h4>
-                                        <p style="margin: 0; font-size: 13px; line-height: 1.5; color: #64748b;">Acceso a herramientas exclusivas de IA para rúbricas, exámenes y más.</p>
+                                    <td width="50%" valign="top" style="padding-left: 15px; padding-bottom: 28px;">
+                                        <div style="font-size: 24px; margin-bottom: 8px;">🧠</div>
+                                        <h4 style="margin: 0 0 6px; font-size: 15px; font-weight: 700; color: #1B1B1B; font-family: 'Outfit', sans-serif;">IA Avanzada</h4>
+                                        <p style="margin: 0; font-size: 13px; line-height: 1.5; color: #7E7E7E; font-family: 'Outfit', sans-serif;">Acceso a herramientas exclusivas de IA para rúbricas, exámenes y más.</p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td width="50%" valign="top" style="padding-right: 12px;">
-                                        <div style="font-size: 22px; margin-bottom: 8px;">🎨</div>
-                                        <h4 style="margin: 0 0 4px; font-size: 15px; font-weight: 700; color: #1e293b;">Generador de Recursos</h4>
-                                        <p style="margin: 0; font-size: 13px; line-height: 1.5; color: #64748b;">Crea materiales didácticos, sopas de letras y crucigramas en segundos.</p>
+                                    <td width="50%" valign="top" style="padding-right: 15px;">
+                                        <div style="font-size: 24px; margin-bottom: 8px;">🎨</div>
+                                        <h4 style="margin: 0 0 6px; font-size: 15px; font-weight: 700; color: #1B1B1B; font-family: 'Outfit', sans-serif;">Generador de Recursos</h4>
+                                        <p style="margin: 0; font-size: 13px; line-height: 1.5; color: #7E7E7E; font-family: 'Outfit', sans-serif;">Crea materiales didácticos, sopas de letras y crucigramas en segundos.</p>
                                     </td>
-                                    <td width="50%" valign="top" style="padding-left: 12px;">
-                                        <div style="font-size: 22px; margin-bottom: 8px;">👑</div>
-                                        <h4 style="margin: 0 0 4px; font-size: 15px; font-weight: 700; color: #1e293b;">Soporte VIP</h4>
-                                        <p style="margin: 0; font-size: 13px; line-height: 1.5; color: #64748b;">Atención prioritaria para cualquier consulta o ayuda técnica.</p>
+                                    <td width="50%" valign="top" style="padding-left: 15px;">
+                                        <div style="font-size: 24px; margin-bottom: 8px;">👑</div>
+                                        <h4 style="margin: 0 0 6px; font-size: 15px; font-weight: 700; color: #1B1B1B; font-family: 'Outfit', sans-serif;">Soporte VIP</h4>
+                                        <p style="margin: 0; font-size: 13px; line-height: 1.5; color: #7E7E7E; font-family: 'Outfit', sans-serif;">Atención prioritaria para cualquier consulta o ayuda técnica.</p>
                                     </td>
                                 </tr>
                             </table>
@@ -2229,9 +2451,9 @@ function getProWelcomeEmailTemplate(userName: string, formattedDate: string, day
 
                     <!-- CTA -->
                     <tr>
-                        <td style="padding: 30px 48px 48px; text-align: center;">
+                        <td style="padding: 20px 48px 48px; text-align: center;">
                             <a href="${PLANIX_URL}/herramientas" 
-                               style="display: inline-block; background: ${primaryColor}; color: #ffffff; text-decoration: none; font-size: 15px; font-weight: 700; padding: 12px 32px; border-radius: 12px;">
+                               style="display: inline-block; background: ${primaryColor}; color: #ffffff; text-decoration: none; font-size: 14px; font-weight: 700; padding: 14px 36px; border-radius: 12px; font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 12px rgba(0,70,171,0.15);">
                                 🚀 Explorar mis herramientas PRO
                              </a>
                         </td>
@@ -2240,11 +2462,11 @@ function getProWelcomeEmailTemplate(userName: string, formattedDate: string, day
                     <!-- Footer -->
                     <tr>
                         <td style="background-color: #f8fafc; padding: 32px 48px; border-top: 1px solid #e2e8f0; text-align: center;">
-                            <p style="margin: 0 0 8px; font-size: 14px; color: #64748b; font-weight: 600;">
+                            <p style="margin: 0 0 8px; font-size: 13px; color: #7E7E7E; font-weight: 600; font-family: 'Outfit', sans-serif;">
                                 Gracias por confiar en Planix para tu labor educativa.
                             </p>
-                            <p style="margin: 0; font-size: 12px; color: #94a3b8;">
-                                Planix — Potenciando la educación dominicana con tecnología.<br>
+                            <p style="margin: 0; font-size: 12px; color: #94a3b8; font-family: 'Outfit', sans-serif;">
+                                Planix — Tu aliado en educación<br>
                                 <a href="${PLANIX_URL}" style="color: ${primaryColor}; text-decoration: none;">www.planix.do</a>
                             </p>
                         </td>
@@ -2270,7 +2492,7 @@ async function sendWelcomeEmail(email: string, name: string, apiKey: string) {
       body: JSON.stringify({
         from: "Planix <no-responder@mail.planix.do>",
         to: [email],
-        subject: "🎉 ¡Bienvenido a Planix! Tu asistente de planificación docente",
+        subject: "¡Bienvenido a Planix! Tu asistente de planificación docente",
         html: template,
       }),
     });
@@ -2307,7 +2529,7 @@ async function sendProWelcomeEmail(email: string, name: string, expiryDate: stri
       body: JSON.stringify({
         from: "Planix PRO <no-responder@mail.planix.do>",
         to: [email],
-        subject: "👑 ¡Bienvenido a Planix PRO! Tu acceso ha sido activado",
+        subject: "¡Bienvenido a Planix PRO! Tu acceso ha sido activado",
         html: template,
       }),
     });
@@ -2329,4 +2551,39 @@ function generateReferralCode(): string {
     result += chars.charAt(Math.floor(Math.random() * chars.length));
   }
   return result;
+}
+
+async function verifyPolarSignature(payload: string, signature: string | null, secret: string | undefined): Promise<boolean> {
+  if (!secret) return true; // Skip if secret is not set
+  if (!signature) return false;
+  
+  try {
+    const encoder = new TextEncoder();
+    const keyData = encoder.encode(secret);
+    const messageData = encoder.encode(payload);
+    
+    const cryptoKey = await crypto.subtle.importKey(
+      "raw",
+      keyData,
+      { name: "HMAC", hash: "SHA-256" },
+      false,
+      ["verify", "sign"]
+    );
+    
+    const signatureBuffer = await crypto.subtle.sign(
+      "HMAC",
+      cryptoKey,
+      messageData
+    );
+    
+    const hashArray = Array.from(new Uint8Array(signatureBuffer));
+    const expectedSignature = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    
+    if (signature === expectedSignature || signature.includes(expectedSignature)) {
+      return true;
+    }
+  } catch (err) {
+    console.error("Signature verification error:", err);
+  }
+  return false;
 }

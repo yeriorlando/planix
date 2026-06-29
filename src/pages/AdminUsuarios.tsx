@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getCurrentUser, saveUsuario, saveUsuariosBatch, deleteUsuario, Usuario, RolUsuario, PlanId } from '../lib/storage';
+import AmbassadorBadge from '../components/ui/AmbassadorBadge';
+import AmbassadorCelebrationModal from '../components/modals/AmbassadorCelebrationModal';
 import { supabase } from '../lib/supabase';
 import { Card } from '../components/ui/card';
 import { DatePicker } from '../components/ui/heroui-date-picker';
@@ -101,10 +103,9 @@ const getAuthMethod = (user: Usuario): 'google' | 'email' => {
   if (user.metodo_acceso === 'google') return 'google';
   if (user.metodo_acceso === 'correo') return 'email';
   
-  const email = (user.email || '').toLowerCase();
   const avatar = (user.avatar_url || '').toLowerCase();
   
-  if (email.endsWith('@gmail.com') || email.includes('test') || avatar.includes('googleusercontent.com')) {
+  if (avatar.includes('googleusercontent.com') || avatar.includes('lh3.googleusercontent') || avatar.includes('lh3.google')) {
     return 'google';
   }
   return 'email';
@@ -151,7 +152,7 @@ const UserCard = React.memo(({ user, onSelect, isDuplicateFingerprint }: UserCar
         {/* Avatar y Datos Principales */}
         <div className="flex items-center gap-3">
           <div className={`w-12 h-12 rounded-full overflow-hidden border bg-slate-50 shrink-0 relative ${
-            isPro 
+            user.is_ambassador || isPro 
               ? 'border-amber-400 dark:border-amber-500 shadow-[0_0_8px_rgba(245,158,11,0.25)]' 
               : 'border-black/5'
           }`}>
@@ -166,8 +167,9 @@ const UserCard = React.memo(({ user, onSelect, isDuplicateFingerprint }: UserCar
           </div>
           <div className="min-w-0 flex-1 pr-6">
             <div className="flex items-center gap-1.5">
-              <h4 className="font-extrabold text-sm text-slate-800 dark:text-zinc-100 truncate group-hover:text-[#0046ab] dark:group-hover:text-blue-400 transition-colors">
+              <h4 className="font-extrabold text-sm text-slate-800 dark:text-zinc-100 truncate group-hover:text-[#0046ab] dark:group-hover:text-blue-400 transition-colors flex items-center gap-1">
                 {user.nombre}
+                {user.is_ambassador && <Star size={12} className="text-amber-500 fill-amber-500 shrink-0" />}
               </h4>
             </div>
             <span className="text-[10px] text-slate-400 dark:text-zinc-550 font-bold block truncate leading-none mt-0.5">
@@ -190,6 +192,9 @@ const UserCard = React.memo(({ user, onSelect, isDuplicateFingerprint }: UserCar
 
         {/* Badges de suscripción y estado */}
         <div className="flex flex-wrap items-center gap-2 pt-1">
+          {user.is_ambassador && (
+            <AmbassadorBadge size="sm" showPlanixText={true} />
+          )}
           {/* Suscripcion Tier Badge */}
           <span className={`px-2 py-0.5 rounded-lg text-[9px] font-black uppercase tracking-wider ${
             isPro 
@@ -319,6 +324,7 @@ export default function AdminUsuarios() {
   const [editCiclo, setEditCiclo] = useState<string>('');
   const [editGrado, setEditGrado] = useState<string>('');
   const [editRegional, setEditRegional] = useState<string>('');
+  const [editIsAmbassador, setEditIsAmbassador] = useState<boolean>(false);
   const [editDistrito, setEditDistrito] = useState<string>('');
   const [editYearEscolarActivo, setEditYearEscolarActivo] = useState<string>('');
   const [editSuscripcionHasta, setEditSuscripcionHasta] = useState<string>('');
@@ -397,6 +403,10 @@ export default function AdminUsuarios() {
           metodo_acceso: p.metodo_acceso || p.auth_provider || undefined,
           referred_by: p.referred_by || undefined,
           referral_code: p.referral_code || undefined,
+          is_ambassador: p.is_ambassador === 1 || p.is_ambassador === true,
+          preferences: typeof p.preferences === "string" ? (() => {
+            try { return JSON.parse(p.preferences); } catch (_) { return {}; }
+          })() : (p.preferences || {}),
         }));
 
         setUsers(mappedUsers);
@@ -470,6 +480,7 @@ export default function AdminUsuarios() {
     setEditDistrito(user.distrito || '');
     setEditYearEscolarActivo(user.year_escolar_activo || '');
     setEditAllowedSubjects(parseAllowedSubjects(user.allowed_subjects));
+    setEditIsAmbassador(!!user.is_ambassador);
     const parsedAllowed = parseAllowedSubjects(user.allowed_subjects);
     setLimitSubjects(!!user.allowed_subjects && Object.keys(parsedAllowed).length > 0);
     setEditSuscripcionHasta(user.suscripcion_hasta || new Date(Date.now() + 30 * 86400000).toISOString());
@@ -541,6 +552,13 @@ export default function AdminUsuarios() {
       return;
     }
 
+    const updatedPreferences = {
+      ...(selectedUser.preferences || {}),
+    };
+    if (editIsAmbassador && !selectedUser.is_ambassador) {
+      updatedPreferences.has_seen_ambassador_celebration = false;
+    }
+
     const updatedUser: Usuario = {
       ...selectedUser,
       nombre: editNombre.trim(),
@@ -554,7 +572,9 @@ export default function AdminUsuarios() {
       distrito: editDistrito.trim() || undefined,
       year_escolar_activo: editYearEscolarActivo.trim() || undefined,
       allowed_subjects: editAllowedSubjects || {},
-      suscripcion_hasta: editSuscripcionHasta
+      suscripcion_hasta: editSuscripcionHasta,
+      is_ambassador: editIsAmbassador,
+      preferences: updatedPreferences
     };
 
     await saveAndSyncUser(updatedUser, 'Detalles del usuario actualizados correctamente.');
@@ -637,7 +657,9 @@ export default function AdminUsuarios() {
         referral_code: updatedUser.referral_code || null,
         year_escolar_activo: updatedUser.year_escolar_activo || null,
         regional: updatedUser.regional || null,
-        distrito: updatedUser.distrito || null
+        distrito: updatedUser.distrito || null,
+        is_ambassador: updatedUser.is_ambassador ? 1 : 0,
+        preferences: updatedUser.preferences ? JSON.stringify(updatedUser.preferences) : null
       };
 
       // API call to cloud database
@@ -1356,9 +1378,132 @@ export default function AdminUsuarios() {
                 </div>
               </div>
 
+              {/* Suscripción y Nivel de Acceso */}
+              <div className="pt-4.5 border-t border-slate-100 dark:border-zinc-800">
+                <div className="flex items-center gap-1.5 mb-3 pl-0.5">
+                  <Crown size={12} className="text-slate-400 shrink-0" />
+                  <h4 className="text-[10px] font-black text-slate-700 dark:text-zinc-400 uppercase tracking-widest">
+                    Suscripción y Nivel de Acceso
+                  </h4>
+                </div>
+                
+                <div className="p-4 rounded-2xl border border-slate-150 dark:border-zinc-800 bg-slate-50/50 dark:bg-zinc-955/20 space-y-4">
+                  {/* Info del plan actual */}
+                  <div>
+                    <span className="text-xs font-black text-slate-800 dark:text-zinc-200 flex items-center gap-1.5">
+                      <Crown size={14} className={selectedUser.suscripcion === 'pro' ? 'text-amber-500 fill-amber-500' : 'text-slate-400'} />
+                      <span className="font-bold">
+                        {selectedUser.suscripcion === 'pro' 
+                          ? 'Plan Premium (Planix Pro)' 
+                          : 'Plan de Acceso Gratuito (Planix Gratuito)'}
+                      </span>
+                    </span>
+                    <p className="text-[11px] text-slate-500 dark:text-zinc-400 font-bold mt-1 leading-normal">
+                      {selectedUser.suscripcion === 'pro'
+                        ? 'El docente cuenta con acceso ilimitado a todas las herramientas de planificación, rúbricas, asistencia, exámenes con IA y almacenamiento en la nube.'
+                        : 'El docente se encuentra en el plan de inicio limitado. Cuenta con las herramientas base del aula y hasta 2 aulas virtuales activas.'}
+                    </p>
+                  </div>
+
+                  {/* Establecer duración */}
+                  <div className="space-y-3 pt-3 border-t border-slate-200/60 dark:border-zinc-800">
+                    <div className="flex justify-between items-center">
+                      <span className="text-[9.5px] font-black text-slate-500 dark:text-zinc-400 uppercase tracking-wider">
+                        Establecer Duración para Planix Pro
+                      </span>
+                      <span className={`px-2 py-0.5 rounded-lg text-[9px] font-black uppercase tracking-wider ${
+                        selectedUser.suscripcion === 'pro' 
+                          ? 'bg-amber-105 text-amber-700 dark:bg-amber-955/40 dark:text-amber-400 border border-amber-200/50 dark:border-amber-900/30' 
+                          : 'bg-emerald-100 text-emerald-700 dark:bg-emerald-955/40 dark:text-emerald-400 border border-emerald-200/50 dark:border-emerald-900/30'
+                      }`}>
+                        {selectedUser.suscripcion === 'pro' 
+                          ? `Vence: ${selectedUser.suscripcion_hasta ? new Date(selectedUser.suscripcion_hasta).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' }) : 'Sin fecha'}`
+                          : 'Plan Gratuito: Sin vencimiento'}
+                      </span>
+                    </div>
+
+                    <div className="flex flex-wrap items-center justify-between gap-3">
+                      {/* Presets */}
+                      <div className="flex flex-wrap gap-1.5">
+                        {[
+                          { label: '7D', days: 7 },
+                          { label: '15D', days: 15 },
+                          { label: '30D', days: 30 },
+                          { label: '90D', days: 90 },
+                          { label: '1A', days: 365 }
+                        ].map((preset) => {
+                          const targetDate = new Date();
+                          targetDate.setDate(targetDate.getDate() + preset.days);
+                          const isSameDay = editSuscripcionHasta && 
+                            new Date(editSuscripcionHasta).toDateString() === targetDate.toDateString();
+
+                          return (
+                            <button
+                              key={preset.label}
+                              type="button"
+                              onClick={() => handleSetProDuration(preset.days)}
+                              className={`h-7 px-3 rounded-lg text-[10px] font-black transition-all border outline-none select-none cursor-pointer ${
+                                isSameDay
+                                  ? 'bg-[#0046ab] border-[#0046ab] text-white dark:bg-blue-600 dark:border-blue-600'
+                                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 dark:bg-zinc-900 dark:border-zinc-800 dark:text-zinc-400 dark:hover:bg-zinc-800/80'
+                              }`}
+                            >
+                              {preset.label}
+                            </button>
+                          );
+                        })}
+                      </div>
+
+                      {/* Custom Date Input */}
+                      <div className="relative flex-1 max-w-[160px]">
+                        <input
+                          type="date"
+                          value={editSuscripcionHasta ? new Date(editSuscripcionHasta).toISOString().split('T')[0] : ''}
+                          onChange={(e) => handleSetCustomExpiryDate(e.target.value)}
+                          className="w-full h-8 px-2.5 bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-800 rounded-lg text-xs font-bold text-slate-800 dark:text-zinc-200 outline-none cursor-pointer focus:border-[#0046ab]"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Acciones de la Suscripción */}
+                  <div className="flex gap-2 pt-3 border-t border-slate-200/60 dark:border-zinc-800">
+                    <button
+                      type="button"
+                      onClick={() => handleTogglePro(selectedUser)}
+                      className={`flex-1 h-9 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-all select-none cursor-pointer outline-none border ${
+                        selectedUser.suscripcion === 'pro'
+                          ? 'bg-[#FFF5F5] border-[#FEE2E2] text-[#E53E3E] hover:bg-[#FED7D7] dark:bg-rose-955/10 dark:border-rose-800/30 dark:text-rose-455 dark:hover:bg-rose-900/20'
+                          : 'bg-[#0046ab] border-[#0046ab] text-white hover:bg-[#003d96] dark:bg-blue-600 dark:border-blue-600 dark:hover:bg-blue-700 shadow-xs'
+                      }`}
+                    >
+                      <Zap size={13} className="shrink-0" />
+                      <span className="font-bold">
+                        {selectedUser.suscripcion === 'pro' ? 'Quitar Planix Pro' : 'Habilitar Planix Pro'}
+                      </span>
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => handleToggleSuspension(selectedUser)}
+                      className={`flex-1 h-9 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-all select-none cursor-pointer outline-none border ${
+                        selectedUser.estado_suscripcion === 'SUSPENDIDO'
+                          ? 'bg-[#ECFDF5] border-[#A7F3D0] text-[#059669] hover:bg-[#D1FAE5] dark:bg-emerald-955/10 dark:border-emerald-800/30 dark:text-emerald-400 dark:hover:bg-emerald-900/20'
+                          : 'bg-[#FFFBEB] border-[#FDE68A] text-[#D97706] hover:bg-[#FEF3C7] dark:bg-amber-955/10 dark:border-amber-800/30 dark:text-amber-500 dark:hover:bg-amber-900/20'
+                      }`}
+                    >
+                      <UserX size={13} className="shrink-0" />
+                      <span className="font-bold">
+                        {selectedUser.estado_suscripcion === 'SUSPENDIDO' ? 'Activar Cuenta' : 'Suspender Acceso'}
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
               {/* Estadísticas de Uso */}
               <div>
-                <h4 className="text-[10px] font-black text-slate-700 dark:text-zinc-400 uppercase tracking-widest mb-3 pl-0.5">Estadísticas de Uso</h4>
+                <h4 className="text-[10px] font-black text-slate-750 dark:text-zinc-400 uppercase tracking-widest mb-3 pl-0.5">Estadísticas de Uso</h4>
                 {statsLoading ? (
                   <div className="flex items-center justify-center p-6 bg-slate-50/50 dark:bg-zinc-955/20 border border-slate-100/50 dark:border-zinc-855 rounded-2xl">
                     <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-[#0046ab] mr-2"></div>
@@ -1700,6 +1845,21 @@ export default function AdminUsuarios() {
                       <option value="coordinator">Coordinador</option>
                       <option value="director">Director</option>
                     </select>
+                  </div>
+
+                  {/* Embajador Checkbox */}
+                  <div className="space-y-1 col-span-2 flex items-center gap-2 pt-2">
+                    <input
+                      type="checkbox"
+                      id="editIsAmbassador"
+                      checked={editIsAmbassador}
+                      onChange={(e) => setEditIsAmbassador(e.target.checked)}
+                      className="w-4 h-4 text-[#0046ab] focus:ring-[#0046ab]/20 border-slate-300 rounded cursor-pointer"
+                    />
+                    <label htmlFor="editIsAmbassador" className="text-[10px] font-extrabold text-slate-600 dark:text-zinc-300 uppercase tracking-wide cursor-pointer flex items-center gap-1 select-none">
+                      ¿Es Embajador Planix?
+                      <Star size={10} className="text-amber-500 fill-amber-500" />
+                    </label>
                   </div>
                 </div>
               </div>

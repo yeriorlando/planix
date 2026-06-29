@@ -88,7 +88,7 @@ export default function AuthCallback() {
           toast.info("Por favor completa tu perfil escolar para comenzar.");
           navigate("/completar-perfil");
         } else {
-          navigate("/dashboard");
+          navigate(userObj.rol === "coordinator" ? "/coordinador/dashboard" : "/dashboard");
         }
       } catch (err: any) {
         console.error("OAuth Callback Error:", err);

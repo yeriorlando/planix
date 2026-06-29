@@ -9,6 +9,10 @@ export interface CreditCosts {
   planix_chat: number;        // Mensaje en Planix Chat
   save_planning: number;      // Guardar planificación
   exam_generator: number;     // Generar examen con IA
+  wordsearch_generator: number; // Generar sopa de letras con IA
+  crossword_generator: number;  // Generar crucigrama con IA
+  jeopardy_generator: number;   // Generar tablero Jeopardy con IA
+  bajo_la_lluvia: number;       // Generar dinámica Bajo la Lluvia con IA
 }
 
 export const DEFAULT_CREDIT_COSTS: CreditCosts = {
@@ -19,6 +23,10 @@ export const DEFAULT_CREDIT_COSTS: CreditCosts = {
   planix_chat: 2,
   save_planning: 15,
   exam_generator: 20,
+  wordsearch_generator: 15,
+  crossword_generator: 15,
+  jeopardy_generator: 15,
+  bajo_la_lluvia: 15,
 };
 
 const COSTS_KEY = "plx:credit_costs";

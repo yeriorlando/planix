@@ -189,7 +189,7 @@ function RegistroCalificaciones() {
   // Load classrooms
   useEffect(() => {
     if (!user) return;
-    const data = user.rol === "admin" ? getAllClassroomsAdmin() : getClassrooms(user.id);
+    const data = getClassrooms(user.id);
     setClassrooms(data);
   }, [user]);
 
@@ -227,7 +227,7 @@ function RegistroCalificaciones() {
     const gradeId = `${activeClassroom.nivel}-${activeClassroom.grado}`;
     
     let list = OFFICIAL_DEFAULT_SUBJECTS.filter((s) => s.level === levelUpper);
-    if (user && user.rol !== "admin" && user.allowed_subjects && user.allowed_subjects[gradeId]) {
+    if (user && user.allowed_subjects && user.allowed_subjects[gradeId]) {
       const allowed = user.allowed_subjects[gradeId];
       list = list.filter(s => allowed.includes(s.id));
     }

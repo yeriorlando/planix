@@ -12,6 +12,8 @@ import {
   Pencil
 } from "lucide-react";
 import { toast, Toaster } from "sonner";
+import AmbassadorBadge from "../components/ui/AmbassadorBadge";
+import MedalStar from "../components/ui/MedalStar";
 import TeacherAvatarEditor from "../components/planix/TeacherAvatarEditor";
 import { useNavigate } from "react-router-dom";
 import { supabase } from "../lib/supabase";
@@ -540,7 +542,7 @@ export default function Perfil() {
               <div className="flex flex-col items-center justify-center pt-8 pb-2">
                 {/* Circular Frame */}
                 <div className="relative group mb-4">
-                  <div className={`w-28 h-28 rounded-full p-[3px] relative z-10 ${user.suscripcion === "pro"
+                  <div className={`w-28 h-28 rounded-full p-[3px] relative z-10 ${user.is_ambassador || user.suscripcion === "pro"
                       ? "bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 shadow-[0_0_15px_rgba(245,158,11,0.45)]"
                       : "bg-gradient-to-tr from-[#0046ab] via-purple-500 to-indigo-600"
                     }`}>
@@ -567,12 +569,16 @@ export default function Perfil() {
                       </div>
                     </div>
 
-                    {/* Premium/Crown badge inside avatar ring */}
-                    {user.suscripcion === "pro" && (
+                    {/* Premium/Crown/Ambassador badge inside avatar ring */}
+                    {user.is_ambassador ? (
+                      <div className="absolute -bottom-1 -right-1 bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 text-white p-1.5 rounded-full border-2 border-white dark:border-slate-900 transition-transform flex items-center justify-center shadow-md">
+                        <MedalStar size={14} className="text-white" />
+                      </div>
+                    ) : user.suscripcion === "pro" ? (
                       <div className="absolute -bottom-1 -right-1 bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 text-white p-1.5 rounded-full border-2 border-white dark:border-slate-900 transition-transform">
                         <Crown className="h-3.5 w-3.5 fill-white text-white" />
                       </div>
-                    )}
+                    ) : null}
 
                     {/* Create Avatar Badge symmetrically on the bottom-left */}
                     <button
@@ -597,22 +603,27 @@ export default function Perfil() {
                 {/* Role and Subscription Badges */}
                 <div className="text-center space-y-2 mt-2">
                   <h4 className="text-base font-extrabold text-[#1B1B1B] dark:text-white tracking-tight">{nombre}</h4>
-                  <div className="flex items-center justify-center gap-2">
-                    <span className="px-2.5 py-1 bg-blue-500/10 text-[#0046ab] dark:text-blue-400 border border-blue-500/20 rounded-lg text-[10px] font-black uppercase tracking-wider">
-                      {user.rol === "admin"
-                        ? "Administrador"
-                        : user.rol === "coordinator"
-                          ? "Coordinador"
-                          : user.rol === "director"
-                            ? "Director"
-                            : "Docente"}
-                    </span>
-                    <span className={`px-2.5 py-1 rounded-lg border text-[10px] font-black uppercase tracking-wider ${user.suscripcion === "pro"
-                        ? "bg-gradient-to-tr from-amber-400/15 via-orange-500/10 to-amber-500/15 text-amber-700 dark:text-amber-400 border-amber-500/30"
-                        : "bg-neutral-100 text-neutral-500 border-neutral-200 dark:bg-slate-800 dark:text-slate-400 dark:border-slate-700"
-                      }`}>
-                      {user.suscripcion === "pro" ? "Planix Pro ✨" : "Plan Gratuito"}
-                    </span>
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-2">
+                    {user.is_ambassador && (
+                      <AmbassadorBadge size="sm" showPlanixText={true} />
+                    )}
+                    <div className="flex items-center gap-2">
+                      <span className="px-2.5 py-1 bg-blue-500/10 text-[#0046ab] dark:text-blue-400 border border-blue-500/20 rounded-lg text-[10px] font-black uppercase tracking-wider">
+                        {user.rol === "admin"
+                          ? "Administrador"
+                          : user.rol === "coordinator"
+                            ? "Coordinador"
+                            : user.rol === "director"
+                              ? "Director"
+                              : "Docente"}
+                      </span>
+                      <span className={`px-2.5 py-1 rounded-lg border text-[10px] font-black uppercase tracking-wider ${user.suscripcion === "pro"
+                          ? "bg-gradient-to-tr from-amber-400/15 via-orange-500/10 to-amber-500/15 text-amber-700 dark:text-amber-400 border-amber-500/30"
+                          : "bg-neutral-100 text-neutral-500 border-neutral-200 dark:bg-slate-800 dark:text-slate-400 dark:border-slate-700"
+                        }`}>
+                        {user.suscripcion === "pro" ? "Planix Pro ✨" : "Plan Gratuito"}
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -781,102 +792,104 @@ export default function Perfil() {
           </Card>
 
           {/* Academic Information */}
-          <Card className="p-5 border border-neutral-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 relative overflow-hidden transition-all duration-300 rounded-[28px] group shadow-none">
-            {/* Subtle background decoration */}
-            <div className="absolute right-[-10px] top-[-10px] text-[#0046ab]/5 opacity-[0.02] pointer-events-none group-hover:scale-105 transition-transform duration-500">
-              <GraduationCap className="w-36 h-36" />
-            </div>
-
-            <div className="flex items-center justify-between gap-3 mb-4 flex-wrap sm:flex-nowrap w-full">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-blue-500/10 dark:bg-blue-950/40 text-[#0046ab] dark:text-blue-400 rounded-full flex items-center justify-center shrink-0">
-                  <GraduationCap className="h-5 w-5 fill-blue-500/20 text-[#0046ab] dark:text-blue-400" />
-                </div>
-                <div>
-                  <span className="text-[9px] font-bold text-[#0046ab] dark:text-blue-455 uppercase tracking-wider block">
-                    INFORMACIÓN ACADÉMICA
-                  </span>
-                  <h3 className="font-display font-bold text-base text-[#1B1B1B] dark:text-white mt-0.5 tracking-tight">
-                    Configuración de Enseñanza Principal
-                  </h3>
-                </div>
+          {user.rol !== "coordinator" && (
+            <Card className="p-5 border border-neutral-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 relative overflow-hidden transition-all duration-300 rounded-[28px] group shadow-none">
+              {/* Subtle background decoration */}
+              <div className="absolute right-[-10px] top-[-10px] text-[#0046ab]/5 opacity-[0.02] pointer-events-none group-hover:scale-105 transition-transform duration-500">
+                <GraduationCap className="w-36 h-36" />
               </div>
-            </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-              {/* Nivel Educativo Card */}
-              <div className="bg-gradient-to-br from-[#E0F2FE] to-[#F0F9FF] dark:from-sky-950/20 dark:to-slate-900 rounded-[20px] p-4 relative overflow-hidden group shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 min-h-[115px] flex flex-col justify-between border border-transparent hover:border-sky-500/10 select-none text-left">
-                <div className="flex justify-between items-start relative z-10 w-full">
-                  <div className="flex items-center gap-1.5 text-sky-600 dark:text-sky-400">
-                    <BookOpen className="h-4 w-4" />
-                    <span className="text-[11px] font-bold uppercase tracking-wider">NIVEL EDUCATIVO</span>
+              <div className="flex items-center justify-between gap-3 mb-4 flex-wrap sm:flex-nowrap w-full">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 bg-blue-500/10 dark:bg-blue-950/40 text-[#0046ab] dark:text-blue-400 rounded-full flex items-center justify-center shrink-0">
+                    <GraduationCap className="h-5 w-5 fill-blue-500/20 text-[#0046ab] dark:text-blue-400" />
                   </div>
-                  <div className="w-8 h-8 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-sky-600 dark:text-sky-400 group-hover:scale-110 transition-transform duration-300">
-                    <BookOpen className="h-3.5 w-3.5" />
+                  <div>
+                    <span className="text-[9px] font-bold text-[#0046ab] dark:text-blue-455 uppercase tracking-wider block">
+                      INFORMACIÓN ACADÉMICA
+                    </span>
+                    <h3 className="font-display font-bold text-base text-[#1B1B1B] dark:text-white mt-0.5 tracking-tight">
+                      Configuración de Enseñanza Principal
+                    </h3>
                   </div>
-                </div>
-                <div className="relative z-10 my-2 flex flex-col items-start w-full">
-                  <span className="text-[16px] font-extrabold text-[#1B1B1B] dark:text-white leading-tight truncate capitalize w-full">
-                    {user.nivel || "No definido"}
-                  </span>
-                </div>
-                <div className="relative z-10 mt-auto flex items-center justify-between pt-2 border-t border-sky-500/10 w-full">
-                  <span className="text-[9.5px] font-bold text-[#1B1B1B]/40 dark:text-slate-400 uppercase tracking-wider">Nivel</span>
-                  <span className="text-[9.5px] font-black uppercase text-sky-655 dark:text-sky-400 bg-white/70 dark:bg-black/30 px-1.5 py-0.5 rounded-md border border-sky-200/50">
-                    ACADÉMICO
-                  </span>
                 </div>
               </div>
 
-              {/* Ciclo Card */}
-              <div className="bg-gradient-to-br from-[#F3E8FF] to-[#FAEDFF] dark:from-purple-950/20 dark:to-slate-900 rounded-[20px] p-4 relative overflow-hidden group shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 min-h-[115px] flex flex-col justify-between border border-transparent hover:border-purple-500/10 select-none text-left">
-                <div className="flex justify-between items-start relative z-10 w-full">
-                  <div className="flex items-center gap-1.5 text-purple-600 dark:text-purple-400">
-                    <Layers className="h-4 w-4" />
-                    <span className="text-[13px] font-bold uppercase tracking-wider">CICLO</span>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                {/* Nivel Educativo Card */}
+                <div className="bg-gradient-to-br from-[#E0F2FE] to-[#F0F9FF] dark:from-sky-950/20 dark:to-slate-900 rounded-[20px] p-4 relative overflow-hidden group shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 min-h-[115px] flex flex-col justify-between border border-transparent hover:border-sky-500/10 select-none text-left">
+                  <div className="flex justify-between items-start relative z-10 w-full">
+                    <div className="flex items-center gap-1.5 text-sky-600 dark:text-sky-400">
+                      <BookOpen className="h-4 w-4" />
+                      <span className="text-[11px] font-bold uppercase tracking-wider">NIVEL EDUCATIVO</span>
+                    </div>
+                    <div className="w-8 h-8 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-sky-600 dark:text-sky-400 group-hover:scale-110 transition-transform duration-300">
+                      <BookOpen className="h-3.5 w-3.5" />
+                    </div>
                   </div>
-                  <div className="w-8 h-8 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-purple-600 dark:text-purple-400 group-hover:scale-110 transition-transform duration-300">
-                    <Layers className="h-3.5 w-3.5" />
+                  <div className="relative z-10 my-2 flex flex-col items-start w-full">
+                    <span className="text-[16px] font-extrabold text-[#1B1B1B] dark:text-white leading-tight truncate capitalize w-full">
+                      {user.nivel || "No definido"}
+                    </span>
+                  </div>
+                  <div className="relative z-10 mt-auto flex items-center justify-between pt-2 border-t border-sky-500/10 w-full">
+                    <span className="text-[9.5px] font-bold text-[#1B1B1B]/40 dark:text-slate-400 uppercase tracking-wider">Nivel</span>
+                    <span className="text-[9.5px] font-black uppercase text-sky-655 dark:text-sky-400 bg-white/70 dark:bg-black/30 px-1.5 py-0.5 rounded-md border border-sky-200/50">
+                      ACADÉMICO
+                    </span>
                   </div>
                 </div>
-                <div className="relative z-10 my-2 flex flex-col items-start w-full">
-                  <span className="text-[16px] font-extrabold text-[#1B1B1B] dark:text-white leading-tight truncate w-full">
-                    {formatAcademicValue(user.ciclo)}
-                  </span>
-                </div>
-                <div className="relative z-10 mt-auto flex items-center justify-between pt-2 border-t border-purple-500/10 w-full">
-                  <span className="text-[9.5px] font-bold text-[#1B1B1B]/40 dark:text-slate-400 uppercase tracking-wider">Etapa</span>
-                  <span className="text-[9.5px] font-black uppercase text-purple-600 dark:text-purple-400 bg-white/70 dark:bg-black/30 px-1.5 py-0.5 rounded-md border border-purple-200/50">
-                    PEDAGÓGICO
-                  </span>
-                </div>
-              </div>
 
-              {/* Grado Asignado Card */}
-              <div className="bg-gradient-to-br from-[#FCE8E6] to-[#FEF3F2] dark:from-rose-950/20 dark:to-slate-900 rounded-[20px] p-4 relative overflow-hidden group shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 min-h-[115px] flex flex-col justify-between border border-transparent hover:border-rose-500/10 select-none text-left">
-                <div className="flex justify-between items-start relative z-10 w-full">
-                  <div className="flex items-center gap-1.5 text-rose-600 dark:text-rose-455">
-                    <Award className="h-4 w-4" />
-                    <span className="text-[11px] font-bold uppercase tracking-wider">GRADO ASIGNADO</span>
+                {/* Ciclo Card */}
+                <div className="bg-gradient-to-br from-[#F3E8FF] to-[#FAEDFF] dark:from-purple-950/20 dark:to-slate-900 rounded-[20px] p-4 relative overflow-hidden group shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 min-h-[115px] flex flex-col justify-between border border-transparent hover:border-purple-500/10 select-none text-left">
+                  <div className="flex justify-between items-start relative z-10 w-full">
+                    <div className="flex items-center gap-1.5 text-purple-600 dark:text-purple-400">
+                      <Layers className="h-4 w-4" />
+                      <span className="text-[13px] font-bold uppercase tracking-wider">CICLO</span>
+                    </div>
+                    <div className="w-8 h-8 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-purple-600 dark:text-purple-400 group-hover:scale-110 transition-transform duration-300">
+                      <Layers className="h-3.5 w-3.5" />
+                    </div>
                   </div>
-                  <div className="w-8 h-8 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-rose-600 dark:text-rose-455 group-hover:scale-110 transition-transform duration-300">
-                    <Award className="h-3.5 w-3.5" />
+                  <div className="relative z-10 my-2 flex flex-col items-start w-full">
+                    <span className="text-[16px] font-extrabold text-[#1B1B1B] dark:text-white leading-tight truncate w-full">
+                      {formatAcademicValue(user.ciclo)}
+                    </span>
+                  </div>
+                  <div className="relative z-10 mt-auto flex items-center justify-between pt-2 border-t border-purple-500/10 w-full">
+                    <span className="text-[9.5px] font-bold text-[#1B1B1B]/40 dark:text-slate-400 uppercase tracking-wider">Etapa</span>
+                    <span className="text-[9.5px] font-black uppercase text-purple-600 dark:text-purple-400 bg-white/70 dark:bg-black/30 px-1.5 py-0.5 rounded-md border border-purple-200/50">
+                      PEDAGÓGICO
+                    </span>
                   </div>
                 </div>
-                <div className="relative z-10 my-2 flex flex-col items-start w-full">
-                  <span className="text-[16px] font-extrabold text-[#1B1B1B] dark:text-white leading-tight truncate w-full">
-                    {formatAcademicValue(user.grado)}
-                  </span>
-                </div>
-                <div className="relative z-10 mt-auto flex items-center justify-between pt-2 border-t border-rose-500/10 w-full">
-                  <span className="text-[9.5px] font-bold text-[#1B1B1B]/40 dark:text-slate-400 uppercase tracking-wider">Aula</span>
-                  <span className="text-[9.5px] font-black uppercase text-rose-600 dark:text-rose-400 bg-white/70 dark:bg-black/30 px-1.5 py-0.5 rounded-md border border-rose-200/50">
-                    DOCENTE
-                  </span>
+
+                {/* Grado Asignado Card */}
+                <div className="bg-gradient-to-br from-[#FCE8E6] to-[#FEF3F2] dark:from-rose-950/20 dark:to-slate-900 rounded-[20px] p-4 relative overflow-hidden group shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 min-h-[115px] flex flex-col justify-between border border-transparent hover:border-rose-500/10 select-none text-left">
+                  <div className="flex justify-between items-start relative z-10 w-full">
+                    <div className="flex items-center gap-1.5 text-rose-600 dark:text-rose-455">
+                      <Award className="h-4 w-4" />
+                      <span className="text-[11px] font-bold uppercase tracking-wider">GRADO ASIGNADO</span>
+                    </div>
+                    <div className="w-8 h-8 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-rose-600 dark:text-rose-455 group-hover:scale-110 transition-transform duration-300">
+                      <Award className="h-3.5 w-3.5" />
+                    </div>
+                  </div>
+                  <div className="relative z-10 my-2 flex flex-col items-start w-full">
+                    <span className="text-[16px] font-extrabold text-[#1B1B1B] dark:text-white leading-tight truncate w-full">
+                      {formatAcademicValue(user.grado)}
+                    </span>
+                  </div>
+                  <div className="relative z-10 mt-auto flex items-center justify-between pt-2 border-t border-rose-500/10 w-full">
+                    <span className="text-[9.5px] font-bold text-[#1B1B1B]/40 dark:text-slate-400 uppercase tracking-wider">Aula</span>
+                    <span className="text-[9.5px] font-black uppercase text-rose-600 dark:text-rose-400 bg-white/70 dark:bg-black/30 px-1.5 py-0.5 rounded-md border border-rose-200/50">
+                      DOCENTE
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </Card>
+            </Card>
+          )}
 
           {/* Security & Password */}
           <Card className="p-5 space-y-4 bg-white dark:bg-zinc-900 border border-neutral-200 dark:border-zinc-800 rounded-[28px] shadow-none">

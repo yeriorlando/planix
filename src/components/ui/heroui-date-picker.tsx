@@ -3,7 +3,7 @@
 import * as React from "react";
 import { Calendar, ChevronDown } from "lucide-react";
 
-type DateValue = {
+export type DateValue = {
   month: string;
   day: string;
   year: string;
@@ -25,6 +25,8 @@ type DatePickerProps = {
   showTime?: boolean;
   international?: boolean;
   onChange?: (value: string) => void;
+  direction?: "up" | "down";
+  align?: "left" | "right";
 };
 
 const MONTH_NAMES = [
@@ -34,7 +36,7 @@ const MONTH_NAMES = [
 
 const WEEK_DAYS = ["Dom", "Lun", "Mar", "Mie", "Jue", "Vie", "Sab"];
 
-function parseIsoString(iso: string | null | undefined): DateValue | null {
+export function parseIsoString(iso: string | null | undefined): DateValue | null {
   if (!iso) return null;
   const parts = iso.split("-");
   if (parts.length !== 3) return null;
@@ -72,6 +74,8 @@ export function DatePicker({
   showTime = false,
   international = false,
   onChange,
+  direction = "up",
+  align = "left",
 }: DatePickerProps) {
   const containerRef = React.useRef<HTMLDivElement>(null);
   const parsedValue = React.useMemo(() => parseIsoString(value), [value]);
@@ -236,7 +240,7 @@ export function DatePicker({
       </div>
       {description ? <span className="description" data-slot="description" slot="description">{description}</span> : null}
       {open ? (
-        <div data-slot="date-picker-popover" className="date-picker__popover" role="dialog" aria-label={`${label}`}>
+        <div data-slot="date-picker-popover" className={`date-picker__popover date-picker__popover--${direction} date-picker__popover--align-${align}`} role="dialog" aria-label={`${label}`}>
           <CalendarView 
             selectedDate={currentValue} 
             onSelect={selectDay} 
@@ -247,7 +251,7 @@ export function DatePicker({
   );
 }
 
-function CalendarView({ 
+export function CalendarView({ 
   selectedDate, 
   onSelect 
 }: { 
@@ -497,12 +501,9 @@ export function HeroUIStyles() {
       .date-picker__trigger:hover{background:rgba(0,0,0,0.05);color:#1b1b1b}
       .date-picker__trigger:active{transform:scale(.96)}
       
-      /* Open UPWARDS and OPAQUE background */
       .date-picker__popover{
         position:absolute;
         z-index:100;
-        bottom:calc(100% + .5rem);
-        left:0;
         width:var(--trigger-width,16.5rem);
         max-width:var(--trigger-width,16.5rem);
         overflow-x:hidden;
@@ -513,8 +514,24 @@ export function HeroUIStyles() {
         background:#ffffff !important;
         box-shadow:0 16px 40px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.06);
         padding:.85rem;
+      }
+      .date-picker__popover--align-left{
+        left:0;
+        right:auto;
+      }
+      .date-picker__popover--align-right{
+        right:0;
+        left:auto;
+      }
+      .date-picker__popover--up{
+        bottom:calc(100% + .5rem);
         transform-origin:bottom;
-        animation:datePickerPopover .16s ease-out;
+        animation:datePickerPopoverUp .16s ease-out;
+      }
+      .date-picker__popover--down{
+        top:calc(100% + .5rem);
+        transform-origin:top;
+        animation:datePickerPopoverDown .16s ease-out;
       }
       
       .calendar{display:flex;flex-direction:column;gap:.5rem;min-width:0}
@@ -539,7 +556,8 @@ export function HeroUIStyles() {
       .calendar-year-picker__year-cell{height:2rem;border:0;border-radius:.5rem;background:transparent;color:inherit;font-size:.8125rem;cursor:pointer}
       .calendar-year-picker__year-cell[data-selected=true]{background:#1b1b1b !important;color:white !important}
       
-      @keyframes datePickerPopover{from{opacity:0;transform:translateY(4px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+      @keyframes datePickerPopoverUp{from{opacity:0;transform:translateY(4px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+      @keyframes datePickerPopoverDown{from{opacity:0;transform:translateY(-4px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
       
       /* Dark mode overrides */
       .dark .date-input-group{
