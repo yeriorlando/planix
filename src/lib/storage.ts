@@ -401,17 +401,39 @@ export function getUsers(): Usuario[] {
 export function saveUsuario(u: Usuario) {
   const all = getUsers();
   const i = all.findIndex((x) => x.id === u.id);
+  
+  let justPromoted = false;
+  let justMadeAmbassador = false;
+  if (isBrowser()) {
+    const prevUser = all.find((x) => x.id === u.id);
+    console.log("[saveUsuario debug] prevUser:", prevUser, "incoming u:", u);
+    if (prevUser) {
+      if (prevUser.suscripcion === 'free' && u.suscripcion === 'pro') {
+        justPromoted = true;
+      }
+      if (!prevUser.is_ambassador && u.is_ambassador) {
+        justMadeAmbassador = true;
+      }
+    }
+    console.log("[saveUsuario debug] flags -> justPromoted:", justPromoted, "justMadeAmbassador:", justMadeAmbassador);
+  }
+
   if (i >= 0) all[i] = u;
   else all.push(u);
   write(KEY.users, cleanUserList(all));
   
   if (isBrowser()) {
+    if (justPromoted) {
+      localStorage.setItem(`planix_just_promoted_${u.id}`, 'true');
+      console.log("[saveUsuario debug] Set planix_just_promoted in localStorage for user", u.id);
+    }
+    if (justMadeAmbassador) {
+      localStorage.setItem(`planix_just_made_ambassador_${u.id}`, 'true');
+      console.log("[saveUsuario debug] Set planix_just_made_ambassador in localStorage for user", u.id);
+    }
+    
     const session = getSession();
     if (session && session.user_id === u.id) {
-      const currentUser = getCurrentUser();
-      if (currentUser && currentUser.suscripcion === 'free' && u.suscripcion === 'pro') {
-        localStorage.setItem(`planix_just_promoted_${u.id}`, 'true');
-      }
       localStorage.setItem("plx:user", JSON.stringify(u));
     }
     window.dispatchEvent(new Event("plx:user_changed"));

@@ -115,7 +115,7 @@ export default function AmbassadorCelebrationModal({ user, isOpen, onClose }: Am
                   
                   {/* Floating Star Badge (Bottom-Right) */}
                   <div className="absolute -bottom-1 -right-1 w-5.5 h-5.5 sm:w-7 sm:h-7 bg-gradient-to-tr from-amber-400 via-yellow-400 to-amber-600 text-white rounded-full border-2 border-white dark:border-zinc-900 shadow-sm flex items-center justify-center">
-                    <MedalStar size={9} className="text-white" />
+                    <MedalStar size={14} className="text-white" />
                   </div>
                 </motion.div>
 

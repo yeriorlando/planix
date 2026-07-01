@@ -169,5 +169,6 @@ export function mapProfile(profile: any): MappedProfile {
     referred_by: profile.referred_by || undefined,
     year_escolar_activo: profile.year_escolar_activo || undefined,
     preferences: profile.preferences || undefined,
+    is_ambassador: profile.is_ambassador === 1 || profile.is_ambassador === true,
   };
 }

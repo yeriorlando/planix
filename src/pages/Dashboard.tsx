@@ -240,46 +240,71 @@ export default function Dashboard() {
       try {
         const response = await requestD1<any>(`/api/profiles/${user.id}`);
         if (response) {
-          const updatedUser: Usuario = {
-            ...user,
-            nombre: response.full_name || response.nombre || user.nombre,
-            email: response.email || user.email,
-            rol: (() => {
-              const r = (response.role || response.rol || 'teacher').toLowerCase();
-              if (r === 'admin' || r === 'administrador') return 'admin';
-              if (r === 'coordinator' || r === 'coordinador') return 'coordinator';
-              if (r === 'director') return 'director';
-              return 'teacher';
-            })() as any,
-            suscripcion: ((response.subscription_tier || response.suscripcion || 'free').toLowerCase()) as any,
-            estado_suscripcion: (() => {
-              const status = (response.subscription_status || response.estado_suscripcion || 'ACTIVO').toUpperCase();
-              if (status === 'ACTIVE' || status === 'ACTIVO') return 'ACTIVO';
-              if (status === 'SUSPENDIDO' || status === 'SUSPENDED') return 'SUSPENDIDO';
-              if (status === 'EXPIRADO' || status === 'EXPIRED') return 'EXPIRADO';
-              return 'ACTIVO';
-            })() as any,
-            suscripcion_hasta: response.subscription_expiry || response.suscripcion_hasta,
-            is_ambassador: response.is_ambassador === 1 || response.is_ambassador === true,
-            preferences: typeof response.preferences === "string" ? (() => {
-              try { return JSON.parse(response.preferences); } catch (_) { return {}; }
-            })() : (response.preferences || {}),
-          };
-          
-          if (updatedUser.is_ambassador && !updatedUser.preferences?.has_seen_ambassador_celebration) {
-            localStorage.removeItem(`planix_ambassador_celebration_${updatedUser.id}`);
-          }
+          setUser(currentUser => {
+            if (!currentUser) return null;
 
-          if (
-            updatedUser.is_ambassador !== user.is_ambassador ||
-            updatedUser.suscripcion !== user.suscripcion ||
-            updatedUser.rol !== user.rol ||
-            JSON.stringify(updatedUser.preferences) !== JSON.stringify(user.preferences)
-          ) {
-            saveUsuario(updatedUser);
-            setUser(updatedUser);
-            window.dispatchEvent(new Event("plx:user_changed"));
-          }
+            const responsePref = typeof response.preferences === "string" ? (() => {
+              try { return JSON.parse(response.preferences); } catch (_) { return {}; }
+            })() : (response.preferences || {});
+
+            const updatedUser: Usuario = {
+              ...currentUser,
+              nombre: response.full_name || response.nombre || currentUser.nombre,
+              email: response.email || currentUser.email,
+              rol: (() => {
+                const r = (response.role || response.rol || 'teacher').toLowerCase();
+                if (r === 'admin' || r === 'administrador') return 'admin';
+                if (r === 'coordinator' || r === 'coordinador') return 'coordinator';
+                if (r === 'director') return 'director';
+                return 'teacher';
+              })() as any,
+              suscripcion: ((response.subscription_tier || response.suscripcion || 'free').toLowerCase()) as any,
+              estado_suscripcion: (() => {
+                const status = (response.subscription_status || response.estado_suscripcion || 'ACTIVO').toUpperCase();
+                if (status === 'ACTIVE' || status === 'ACTIVO') return 'ACTIVO';
+                if (status === 'SUSPENDIDO' || status === 'SUSPENDED') return 'SUSPENDIDO';
+                if (status === 'EXPIRADO' || status === 'EXPIRED') return 'EXPIRADO';
+                return 'ACTIVO';
+              })() as any,
+              suscripcion_hasta: response.subscription_expiry || response.suscripcion_hasta,
+              is_ambassador: response.is_ambassador === 1 || response.is_ambassador === true,
+              preferences: {
+                ...(currentUser.preferences || {}),
+                ...responsePref
+              },
+            };
+
+            const isRoleChanged = updatedUser.rol !== currentUser.rol;
+            const isSubChanged = updatedUser.suscripcion !== currentUser.suscripcion;
+            const isAmbassadorChanged = updatedUser.is_ambassador !== currentUser.is_ambassador;
+            const arePrefChanged = JSON.stringify(updatedUser.preferences) !== JSON.stringify(currentUser.preferences);
+
+            if (isAmbassadorChanged || isSubChanged || isRoleChanged || arePrefChanged) {
+              if (currentUser.suscripcion === 'free' && updatedUser.suscripcion === 'pro') {
+                console.log("[Dashboard debug] syncProfile detected free->pro promotion! Setting planix_just_promoted flag.");
+                localStorage.setItem(`planix_just_promoted_${currentUser.id}`, 'true');
+              }
+              if (!currentUser.is_ambassador && updatedUser.is_ambassador) {
+                console.log("[Dashboard debug] syncProfile detected free->ambassador promotion! Setting planix_just_made_ambassador flag.");
+                localStorage.setItem(`planix_just_made_ambassador_${currentUser.id}`, 'true');
+              }
+
+              if (updatedUser.is_ambassador && !updatedUser.preferences?.has_seen_ambassador_celebration) {
+                const hasSeenLocal = localStorage.getItem(`planix_ambassador_celebration_${updatedUser.id}`) === 'true';
+                if (!hasSeenLocal) {
+                  localStorage.removeItem(`planix_ambassador_celebration_${updatedUser.id}`);
+                }
+              }
+
+              saveUsuario(updatedUser);
+              setTimeout(() => {
+                window.dispatchEvent(new Event("plx:user_changed"));
+              }, 0);
+              return updatedUser;
+            }
+
+            return currentUser;
+          });
         }
       } catch (err) {
         console.error("Error syncing profile on dashboard mount:", err);
@@ -315,30 +340,46 @@ export default function Dashboard() {
 
   // Trigger Pro Celebration Modal
   useEffect(() => {
+    console.log("[Dashboard debug] Pro Trigger Effect: user =", user);
     if (user && user.suscripcion === 'pro') {
       const hasSeenProCelebration = localStorage.getItem(`planix_pro_celebration_${user.id}`);
       const justPromoted = localStorage.getItem(`planix_just_promoted_${user.id}`);
+      console.log("[Dashboard debug] Pro celebration check -> hasSeenProCelebration:", hasSeenProCelebration, "justPromoted:", justPromoted);
       
       if (!hasSeenProCelebration || justPromoted === 'true') {
-        localStorage.setItem(`planix_pro_celebration_${user.id}`, 'true');
-        localStorage.removeItem(`planix_just_promoted_${user.id}`);
+        console.log("[Dashboard debug] Conditions met! Launching Pro timer...");
         const timer = setTimeout(() => {
+          console.log("[Dashboard debug] Setting showProCelebration to true and removing flag");
+          localStorage.removeItem(`planix_just_promoted_${user.id}`);
           setShowProCelebration(true);
         }, 1500);
         return () => clearTimeout(timer);
       }
+    } else if (user && user.suscripcion === 'free') {
+      // Auto-clean the seen celebration state if reverted to free so they can test it again easily!
+      localStorage.removeItem(`planix_pro_celebration_${user.id}`);
+      console.log("[Dashboard debug] Cleared planix_pro_celebration key because user is free");
     }
   }, [user]);
 
   // Trigger Ambassador Celebration Modal
   useEffect(() => {
+    console.log("[Dashboard debug] Ambassador Trigger Effect: user =", user);
     if (user && user.is_ambassador) {
-      const hasSeenAmbassadorCelebration = !!user.preferences?.has_seen_ambassador_celebration;
-      
-      if (!hasSeenAmbassadorCelebration) {
+      const hasSeenAmbassadorCelebration = 
+        !!user.preferences?.has_seen_ambassador_celebration || 
+        localStorage.getItem(`planix_ambassador_celebration_${user.id}`) === 'true';
+      const justMadeAmbassador = localStorage.getItem(`planix_just_made_ambassador_${user.id}`) === 'true';
+      console.log("[Dashboard debug] Ambassador celebration check -> hasSeenAmbassadorCelebration:", hasSeenAmbassadorCelebration, "justMadeAmbassador:", justMadeAmbassador);
+
+      if (!hasSeenAmbassadorCelebration || justMadeAmbassador) {
+        console.log("[Dashboard debug] Conditions met! Launching Ambassador timer...");
         const timer = setTimeout(() => {
+          console.log("[Dashboard debug] Setting showAmbassadorCelebration to true and removing flag");
+          localStorage.removeItem(`planix_just_made_ambassador_${user.id}`);
+          localStorage.setItem(`planix_ambassador_celebration_${user.id}`, 'true');
           setShowAmbassadorCelebration(true);
-          
+
           const updatedUser = {
             ...user,
             preferences: {
@@ -347,6 +388,12 @@ export default function Dashboard() {
             }
           };
           saveUsuario(updatedUser);
+          setUser(updatedUser);
+
+          requestD1("/api/profiles", "POST", {
+            id: user.id,
+            preferences: JSON.stringify(updatedUser.preferences)
+          }).catch(err => console.warn("Could not sync ambassador preferences to D1:", err));
         }, 1500);
         return () => clearTimeout(timer);
       }
@@ -712,7 +759,14 @@ export default function Dashboard() {
           {/* Credits indicator */}
           <div className="flex items-center select-none mr-2">
             {user?.suscripcion === "pro" || user?.rol === "admin" ? (
-              <div className="flex items-center gap-1.5 px-3 py-1 bg-gradient-to-r from-amber-500/10 via-yellow-500/5 to-amber-600/12 dark:from-amber-500/20 dark:to-amber-600/20 border border-amber-500/25 dark:border-amber-500/40 rounded-full shadow-[0_2px_12px_rgba(245,158,11,0.08)]">
+              <div 
+                onClick={() => {
+                  console.log("[Dashboard debug] Clicked Planix Pro header badge. Launching Pro modal manually.");
+                  setShowProCelebration(true);
+                }}
+                className="flex items-center gap-1.5 px-3 py-1 bg-gradient-to-r from-amber-500/10 via-yellow-500/5 to-amber-600/12 dark:from-amber-500/20 dark:to-amber-600/20 border border-amber-500/25 dark:border-amber-500/40 rounded-full shadow-[0_2px_12px_rgba(245,158,11,0.08)] cursor-pointer hover:scale-105 active:scale-95 transition-all select-none"
+                title="Ver celebración Planix Pro"
+              >
                 <Crown className="h-3.5 w-3.5 text-amber-600 dark:text-amber-450 fill-amber-500/20 stroke-[2.5]" />
                 <span className="text-xs md:text-[13px] font-black text-amber-850 dark:text-amber-400 tracking-tight">
                   Planix Pro
@@ -1445,15 +1499,38 @@ export default function Dashboard() {
         </div>
       )}
 
-      <ProCelebrationModal 
+       <ProCelebrationModal 
         isOpen={showProCelebration}
-        onClose={() => setShowProCelebration(false)}
+        onClose={() => {
+          setShowProCelebration(false);
+          if (user) {
+            localStorage.setItem(`planix_pro_celebration_${user.id}`, 'true');
+          }
+        }}
         user={user}
       />
 
       <AmbassadorCelebrationModal 
         isOpen={showAmbassadorCelebration}
-        onClose={() => setShowAmbassadorCelebration(false)}
+        onClose={() => {
+          setShowAmbassadorCelebration(false);
+          if (user) {
+            localStorage.setItem(`planix_ambassador_celebration_${user.id}`, 'true');
+            const updatedUser = {
+              ...user,
+              preferences: {
+                ...(user.preferences || {}),
+                has_seen_ambassador_celebration: true
+              }
+            };
+            saveUsuario(updatedUser);
+            setUser(updatedUser);
+            requestD1("/api/profiles", "POST", {
+              id: user.id,
+              preferences: JSON.stringify(updatedUser.preferences)
+            }).catch(err => console.warn("Could not sync ambassador preferences to D1:", err));
+          }
+        }}
         user={user}
       />
 

@@ -350,7 +350,12 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
 
           // Preserving other database columns to avoid overwriting them to null during upsert
           year_escolar_activo: body.year_escolar_activo !== undefined ? body.year_escolar_activo : (oldProfile?.year_escolar_activo || null),
-          preferences: body.preferences !== undefined ? body.preferences : (oldProfile?.preferences || null),
+          preferences: body.preferences !== undefined ? (() => {
+              if (typeof body.preferences === "string") {
+                try { return JSON.parse(body.preferences); } catch (_) { return body.preferences; }
+              }
+              return body.preferences;
+            })() : (oldProfile?.preferences || null),
           phone: body.phone !== undefined ? body.phone : (oldProfile?.phone || null),
           provincia: body.provincia !== undefined ? body.provincia : (oldProfile?.provincia || null),
           codigo_centro: body.codigo_centro !== undefined ? body.codigo_centro : (oldProfile?.codigo_centro || null),

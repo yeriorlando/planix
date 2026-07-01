@@ -149,16 +149,22 @@ export default {
               }
             }
 
-            // Parse JSON fields (Supabase stores jsonb natively, so no string parsing needed if it comes parsed, but handle fallback)
-            if (row.allowed_subjects && typeof row.allowed_subjects === "string") {
-              try {
-                row.allowed_subjects = JSON.parse(row.allowed_subjects);
-              } catch (_) {}
+            // Parse JSON fields (with double-encoded fallback parsing for safety)
+            if (row.allowed_subjects) {
+              if (typeof row.allowed_subjects === "string") {
+                try { row.allowed_subjects = JSON.parse(row.allowed_subjects); } catch (_) {}
+              }
+              if (typeof row.allowed_subjects === "string") {
+                try { row.allowed_subjects = JSON.parse(row.allowed_subjects); } catch (_) {}
+              }
             }
-            if (row.preferences && typeof row.preferences === "string") {
-              try {
-                row.preferences = JSON.parse(row.preferences);
-              } catch (_) {}
+            if (row.preferences) {
+              if (typeof row.preferences === "string") {
+                try { row.preferences = JSON.parse(row.preferences); } catch (_) {}
+              }
+              if (typeof row.preferences === "string") {
+                try { row.preferences = JSON.parse(row.preferences); } catch (_) {}
+              }
             }
 
             return jsonResponse(row);
@@ -172,18 +178,20 @@ export default {
             if (error) throw error;
 
             results?.forEach((row: any) => {
-              if (row.allowed_subjects && typeof row.allowed_subjects === "string") {
-                try {
-                  row.allowed_subjects = JSON.parse(row.allowed_subjects);
-                } catch (_) {
-                  row.allowed_subjects = {};
+              if (row.allowed_subjects) {
+                if (typeof row.allowed_subjects === "string") {
+                  try { row.allowed_subjects = JSON.parse(row.allowed_subjects); } catch (_) {}
+                }
+                if (typeof row.allowed_subjects === "string") {
+                  try { row.allowed_subjects = JSON.parse(row.allowed_subjects); } catch (_) {}
                 }
               }
-              if (row.preferences && typeof row.preferences === "string") {
-                try {
-                  row.preferences = JSON.parse(row.preferences);
-                } catch (_) {
-                  row.preferences = {};
+              if (row.preferences) {
+                if (typeof row.preferences === "string") {
+                  try { row.preferences = JSON.parse(row.preferences); } catch (_) {}
+                }
+                if (typeof row.preferences === "string") {
+                  try { row.preferences = JSON.parse(row.preferences); } catch (_) {}
                 }
               }
             });
@@ -337,7 +345,12 @@ export default {
 
             // Preserving other database columns to avoid overwriting them to null during upsert
             year_escolar_activo: body.year_escolar_activo !== undefined ? body.year_escolar_activo : (oldProfile?.year_escolar_activo || null),
-            preferences: body.preferences !== undefined ? body.preferences : (oldProfile?.preferences || null),
+            preferences: body.preferences !== undefined ? (() => {
+              if (typeof body.preferences === "string") {
+                try { return JSON.parse(body.preferences); } catch (_) { return body.preferences; }
+              }
+              return body.preferences;
+            })() : (oldProfile?.preferences || null),
             phone: body.phone !== undefined ? body.phone : (oldProfile?.phone || null),
             provincia: body.provincia !== undefined ? body.provincia : (oldProfile?.provincia || null),
             codigo_centro: body.codigo_centro !== undefined ? body.codigo_centro : (oldProfile?.codigo_centro || null),
