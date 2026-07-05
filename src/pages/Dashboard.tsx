@@ -168,7 +168,7 @@ export default function Dashboard() {
   // Seed default notifications + welcome message on first visit
   useEffect(() => {
     if (user) {
-      const seeded = localStorage.getItem(`planix_notifications_seeded_${user.id}`);
+      const seeded = localStorage.getItem(`planix_notifications_seeded_${user.id}`) === 'true' || !!user.preferences?.has_seen_welcome_notification;
       if (!seeded) {
         const defaultNotifs: AppNotification[] = [
           {
@@ -181,6 +181,22 @@ export default function Dashboard() {
         ];
         setNotifications(defaultNotifs);
         localStorage.setItem(`planix_notifications_seeded_${user.id}`, 'true');
+
+        // Save flag in database preferences
+        const preferences = {
+          ...(user.preferences || {}),
+          has_seen_welcome_notification: true,
+        };
+        const updatedUser = {
+          ...user,
+          preferences,
+        };
+        saveUsuario(updatedUser);
+
+        requestD1("/api/profiles", "POST", {
+          id: user.id,
+          preferences: JSON.stringify(preferences),
+        }).catch(e => console.error("Error saving welcome notification preference:", e));
       }
     }
   }, [user]);
@@ -342,11 +358,11 @@ export default function Dashboard() {
   useEffect(() => {
     console.log("[Dashboard debug] Pro Trigger Effect: user =", user);
     if (user && user.suscripcion === 'pro') {
-      const hasSeenProCelebration = localStorage.getItem(`planix_pro_celebration_${user.id}`);
-      const justPromoted = localStorage.getItem(`planix_just_promoted_${user.id}`);
+      const hasSeenProCelebration = localStorage.getItem(`planix_pro_celebration_${user.id}`) === 'true' || !!user.preferences?.has_seen_pro_celebration;
+      const justPromoted = localStorage.getItem(`planix_just_promoted_${user.id}`) === 'true';
       console.log("[Dashboard debug] Pro celebration check -> hasSeenProCelebration:", hasSeenProCelebration, "justPromoted:", justPromoted);
       
-      if (!hasSeenProCelebration || justPromoted === 'true') {
+      if (!hasSeenProCelebration || justPromoted) {
         console.log("[Dashboard debug] Conditions met! Launching Pro timer...");
         const timer = setTimeout(() => {
           console.log("[Dashboard debug] Setting showProCelebration to true and removing flag");
@@ -355,12 +371,58 @@ export default function Dashboard() {
         }, 1500);
         return () => clearTimeout(timer);
       }
-    } else if (user && user.suscripcion === 'free') {
-      // Auto-clean the seen celebration state if reverted to free so they can test it again easily!
-      localStorage.removeItem(`planix_pro_celebration_${user.id}`);
-      console.log("[Dashboard debug] Cleared planix_pro_celebration key because user is free");
     }
   }, [user]);
+
+  const handleCloseProCelebration = async () => {
+    setShowProCelebration(false);
+    if (user) {
+      localStorage.setItem(`planix_pro_celebration_${user.id}`, 'true');
+      const updatedUser = {
+        ...user,
+        preferences: {
+          ...(user.preferences || {}),
+          has_seen_pro_celebration: true
+        }
+      };
+      saveUsuario(updatedUser);
+      setUser(updatedUser);
+
+      try {
+        await requestD1("/api/profiles", "POST", {
+          id: user.id,
+          preferences: JSON.stringify(updatedUser.preferences)
+        });
+      } catch (err) {
+        console.warn("Could not sync pro celebration preferences to D1:", err);
+      }
+    }
+  };
+
+  const handleCloseAmbassadorCelebration = async () => {
+    setShowAmbassadorCelebration(false);
+    if (user) {
+      localStorage.setItem(`planix_ambassador_celebration_${user.id}`, 'true');
+      const updatedUser = {
+        ...user,
+        preferences: {
+          ...(user.preferences || {}),
+          has_seen_ambassador_celebration: true
+        }
+      };
+      saveUsuario(updatedUser);
+      setUser(updatedUser);
+
+      try {
+        await requestD1("/api/profiles", "POST", {
+          id: user.id,
+          preferences: JSON.stringify(updatedUser.preferences)
+        });
+      } catch (err) {
+        console.warn("Could not sync ambassador preferences to D1:", err);
+      }
+    }
+  };
 
   // Trigger Ambassador Celebration Modal
   useEffect(() => {
@@ -403,7 +465,7 @@ export default function Dashboard() {
   // Trigger Onboarding Modal
   useEffect(() => {
     if (user) {
-      const hasSeenOnboarding = !!user.preferences?.has_seen_onboarding;
+      const hasSeenOnboarding = localStorage.getItem(`planix_onboarding_seen_${user.id}`) === 'true' || !!user.preferences?.has_seen_onboarding;
       if (!hasSeenOnboarding) {
         const timer = setTimeout(() => {
           setShowOnboarding(true);
@@ -416,6 +478,7 @@ export default function Dashboard() {
   const handleCloseOnboarding = async () => {
     setShowOnboarding(false);
     if (user) {
+      localStorage.setItem(`planix_onboarding_seen_${user.id}`, 'true');
       const updatedUser = {
         ...user,
         preferences: {
@@ -1501,36 +1564,13 @@ export default function Dashboard() {
 
        <ProCelebrationModal 
         isOpen={showProCelebration}
-        onClose={() => {
-          setShowProCelebration(false);
-          if (user) {
-            localStorage.setItem(`planix_pro_celebration_${user.id}`, 'true');
-          }
-        }}
+        onClose={handleCloseProCelebration}
         user={user}
       />
 
       <AmbassadorCelebrationModal 
         isOpen={showAmbassadorCelebration}
-        onClose={() => {
-          setShowAmbassadorCelebration(false);
-          if (user) {
-            localStorage.setItem(`planix_ambassador_celebration_${user.id}`, 'true');
-            const updatedUser = {
-              ...user,
-              preferences: {
-                ...(user.preferences || {}),
-                has_seen_ambassador_celebration: true
-              }
-            };
-            saveUsuario(updatedUser);
-            setUser(updatedUser);
-            requestD1("/api/profiles", "POST", {
-              id: user.id,
-              preferences: JSON.stringify(updatedUser.preferences)
-            }).catch(err => console.warn("Could not sync ambassador preferences to D1:", err));
-          }
-        }}
+        onClose={handleCloseAmbassadorCelebration}
         user={user}
       />
 

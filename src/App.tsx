@@ -56,6 +56,8 @@ import Dinamicas from './pages/Dinamicas';
 import BajoLaLluvia from './pages/BajoLaLluvia';
 import Ruleta from './pages/Ruleta';
 import Jeopardy from './pages/Jeopardy';
+import Mentira from './pages/Mentira';
+import RimandoAndo from './pages/RimandoAndo';
 import GeneradorDiplomas from './pages/GeneradorDiplomas';
 import GeneradorGrupos from './pages/GeneradorGrupos';
 
@@ -270,6 +272,8 @@ export default function App() {
           <Route path="/dinamicas" element={<Dinamicas />} />
           <Route path="/dinamicas/bajo-la-lluvia" element={<BajoLaLluvia />} />
           <Route path="/dinamicas/jeopardy" element={<Jeopardy />} />
+          <Route path="/dinamicas/mentira" element={<Mentira />} />
+          <Route path="/dinamicas/rimando-ando" element={<RimandoAndo />} />
           <Route path="/recursos" element={<Recursos />} />
           <Route path="/comunidad" element={<Comunidad />} />
           <Route path="/chat" element={<PlanixChat />} />

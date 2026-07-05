@@ -1,3 +1,4 @@
+import DifferentiatedActivitiesSection from "../../../DifferentiatedActivitiesSection";
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import {
@@ -334,6 +335,8 @@ export default function EducacionFisicaDiaria({
 
   // Momentos array
   const [momentos, setMomentos] = useState<any[]>(draft?.momentos ?? []);
+  const [showDiferenciadas, setShowDiferenciadas] = useState<Record<string, boolean>>({});
+
 
   // Additional text fields
   const [metacognicion, setMetacognicion] = useState(draft?.metacognicion ?? "");
@@ -1599,6 +1602,20 @@ export default function EducacionFisicaDiaria({
                           Gamificar
                         </Pill>
                       </button>
+                      <button
+                      type="button"
+                      onClick={() => {
+                        const shown = !!showDiferenciadas[m.id];
+                        setShowDiferenciadas(prev => ({ ...prev, [m.id]: !shown }));
+                      }}
+                      className="inline-flex items-center gap-1 bg-transparent border-none p-0 cursor-pointer"
+                    >
+                      <Pill icon={<Sparkles className="h-3 w-3 text-brand-primary dark:text-blue-400" />} tone="primary">
+                        Actividad diferenciada
+                      </Pill>
+                    </button>
+                      
+                      
                     </div>
                   </div>
                   <button
@@ -1705,8 +1722,12 @@ export default function EducacionFisicaDiaria({
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+                 <DifferentiatedActivitiesSection
+                   moment={m}
+                   show={!!showDiferenciadas[m.id]}
+                   onUpdate={(activities) => updateMomento(m.id, "actividadesDiferenciadas", activities)}
+                 />
+</div>))}
           </div>
         </div>
 

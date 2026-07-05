@@ -1,3 +1,4 @@
+import DifferentiatedActivitiesSection from "../../../DifferentiatedActivitiesSection";
 import React, { useState, useEffect } from "react";
 import {
   Sparkles,
@@ -407,6 +408,8 @@ export default function Matematica6to({
   const [editingSeqComp, setEditingSeqComp] = useState<string | null>(null);
 
   const [momentos, setMomentos] = useState<any[]>(draft?.momentos ?? []);
+  const [showDiferenciadas, setShowDiferenciadas] = useState<Record<string, boolean>>({});
+
 
   // Additional text fields
   const [metacognicion, setMetacognicion] = useState(draft?.metacognicion ?? "");
@@ -1892,6 +1895,18 @@ export default function Matematica6to({
                               Ampliar
                             </button>
                             <button
+                            type="button"
+                            onClick={() => {
+                              const shown = !!showDiferenciadas[m.id];
+                              setShowDiferenciadas(prev => ({ ...prev, [m.id]: !shown }));
+                            }}
+                            className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-600 hover:text-blue-700 hover:underline border-none bg-transparent cursor-pointer"
+                          >
+                            <Sparkles className="h-3.5 w-3.5 text-brand-primary" />
+                            Actividad diferenciada
+                          </button>
+                            
+                            <button
                               type="button"
                               onClick={() => handleRemoveMomento(m.id)}
                               className="inline-flex items-center gap-1.5 text-xs font-bold text-red-500 hover:text-red-650 hover:underline border-none bg-transparent cursor-pointer"
@@ -1982,8 +1997,12 @@ export default function Matematica6to({
                         />
                       </div>
                     </div>
-                  </div>
-                ))}
+                 <DifferentiatedActivitiesSection
+                   moment={m}
+                   show={!!showDiferenciadas[m.id]}
+                   onUpdate={(activities) => updateMomento(m.id, "actividadesDiferenciadas", activities)}
+                 />
+</div>))}
               </div>
             </div>
 
@@ -2058,6 +2077,18 @@ export default function Matematica6to({
                               <Maximize2 className="h-3.5 w-3.5" />
                               Ampliar
                             </button>
+                            <button
+                            type="button"
+                            onClick={() => {
+                              const shown = !!showDiferenciadas[m.id];
+                              setShowDiferenciadas(prev => ({ ...prev, [m.id]: !shown }));
+                            }}
+                            className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-600 hover:text-blue-700 hover:underline border-none bg-transparent cursor-pointer"
+                          >
+                            <Sparkles className="h-3.5 w-3.5 text-brand-primary" />
+                            Actividad diferenciada
+                          </button>
+                            
                             <button
                               type="button"
                               onClick={() => handleRemoveMomento(m.id)}
@@ -2149,8 +2180,12 @@ export default function Matematica6to({
                         />
                       </div>
                     </div>
-                  </div>
-                ))}
+                 <DifferentiatedActivitiesSection
+                   moment={m}
+                   show={!!showDiferenciadas[m.id]}
+                   onUpdate={(activities) => updateMomento(m.id, "actividadesDiferenciadas", activities)}
+                 />
+</div>))}
               </div>
             </div>
 
@@ -2225,6 +2260,18 @@ export default function Matematica6to({
                               <Maximize2 className="h-3.5 w-3.5" />
                               Ampliar
                             </button>
+                            <button
+                            type="button"
+                            onClick={() => {
+                              const shown = !!showDiferenciadas[m.id];
+                              setShowDiferenciadas(prev => ({ ...prev, [m.id]: !shown }));
+                            }}
+                            className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-600 hover:text-blue-700 hover:underline border-none bg-transparent cursor-pointer"
+                          >
+                            <Sparkles className="h-3.5 w-3.5 text-brand-primary" />
+                            Actividad diferenciada
+                          </button>
+                            
                             <button
                               type="button"
                               onClick={() => handleRemoveMomento(m.id)}
@@ -2316,8 +2363,12 @@ export default function Matematica6to({
                         />
                       </div>
                     </div>
-                  </div>
-                ))}
+                 <DifferentiatedActivitiesSection
+                   moment={m}
+                   show={!!showDiferenciadas[m.id]}
+                   onUpdate={(activities) => updateMomento(m.id, "actividadesDiferenciadas", activities)}
+                 />
+</div>))}
               </div>
             </div>
           </div>

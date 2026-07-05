@@ -2437,5 +2437,283 @@ export async function generateEphemerisDescription(title: string, month: string)
   }
 }
 
+export async function generateDifferentiatedActivity(
+  originalActivity: string,
+  adaptationLevel: 'E' | 'A' | 'S',
+  style: 'simple' | 'intermedio' | 'extenso' = 'simple',
+  language: string = "es"
+): Promise<any> {
+  const levelGuidelines = {
+    E: `
+Nivel de Adaptación: Elemental (E)
+Pautas específicas:
+- Simplifica la tarea y reduce la cantidad de acciones requeridas.
+- Utiliza ejemplos concretos y cercanos.
+- Incluye apoyo directo del docente o de compañeros.
+- Favorece la observación, identificación, reconocimiento, selección o repetición.
+- Utiliza preguntas guiadas.
+- Evita actividades complejas, análisis profundos o tareas con múltiples pasos.`,
+    A: `
+Nivel de Adaptación: Aceptable (A)
+Pautas específicas:
+- Mantén el mismo objetivo de la actividad principal.
+- Reduce ligeramente la complejidad o la cantidad de elementos solicitados.
+- Incluye apoyo moderado mediante preguntas orientadoras.
+- Solicita entre dos y tres ejemplos, respuestas o evidencias cuando sea pertinente.
+- Promueve la participación activa y la explicación sencilla de ideas.
+- Permite que el estudiante practique y consolide el aprendizaje.
+- Evita desafíos avanzados o actividades de ampliación.`,
+    S: `
+Nivel de Adaptación: Satisfactorio (S)
+Pautas específicas:
+- Amplía o profundiza la actividad principal.
+- Incorpora análisis, argumentación, creación o aplicación en nuevos contextos.
+- Incluye retos adicionales relacionados con el contenido.
+- Promueve la autonomía y el pensamiento crítico.
+- Permite explicar, justificar, comparar, crear o resolver situaciones más complejas.
+- Mantén relación directa con el objetivo de aprendizaje.`
+  };
+
+  const styleGuidelines = {
+    simple: `
+Estilo de Generación: Simple
+Reglas de Formato obligatorias:
+1. La actividad diferenciada DEBE escribirse en un único párrafo (sin saltos de línea \\n).
+2. Debe comenzar DIRECTAMENTE con la acción del estudiante (por ejemplo: "Los estudiantes realizan...").
+3. JAMÁS uses asteriscos (**), cursivas, ni formato markdown para negritas o títulos.
+4. JAMÁS generes un título, encabezado, introducción ni intención pedagógica.
+5. NO utilices listas ordenadas, numeraciones (1., 2.), guiones, viñetas ni listas.
+6. NO menciones explícitamente las palabras "Nivel Elemental", "Nivel Aceptable", "Nivel Satisfactorio" ni las letras "(E)", "(A)", o "(S)" en el texto generado.
+7. Extensión recomendada: entre 40 y 80 palabras.`,
+    intermedio: `
+Estilo de Generación: Intermedio (Párrafo detallado)
+Reglas de Formato obligatorias:
+1. Escribe la actividad en un único párrafo detallado (sin saltos de línea \\n).
+2. Comienza con la acción del estudiante o una breve guía de andamiaje.
+3. JAMÁS uses asteriscos (**) ni formato markdown para negritas o títulos.
+4. JAMÁS generes un título, encabezado, introducción ni intención pedagógica.
+5. NO utilices listas ordenadas, numeraciones (1., 2.), guiones, viñetas ni listas.
+6. NO menciones explícitamente "Nivel Elemental", "Nivel Aceptable", "Nivel Satisfactorio".
+7. Extensión recomendada: entre 80 y 120 palabras.`,
+    extenso: `
+Estilo de Generación: Extenso (Con viñetas y pasos detallados)
+Reglas de Formato obligatorias:
+1. Escribe la actividad de forma detallada, describiendo paso a paso el proceso.
+2. Puedes usar saltos de línea (\\n) y listas numeradas o con viñetas para separar los pasos.
+3. JAMÁS uses asteriscos (**) ni formato markdown para negritas o títulos. (No utilices asteriscos en ninguna parte del texto).
+4. JAMÁS generes un título principal, encabezado introductorio ni intención pedagógica.
+5. Comienza directamente con los pasos de la actividad.
+6. NO menciones explícitamente "Nivel Elemental", "Nivel Aceptable", "Nivel Satisfactorio".
+7. Extensión recomendada: entre 150 y 250 palabras.`
+  };
+
+  const systemPrompt = "Eres un Especialista en Educación Especial, Inclusión y Diseño DUA de República Dominicana.";
+  const userPrompt = `
+    Actúa como un Especialista en Educación Especial e Inclusión. Diseña una actividad diferenciada basada en la siguiente actividad original de nivel primario y el nivel de adaptación seleccionado.
+
+    ACTIVIDAD ORIGINAL:
+    "${originalActivity}"
+
+    ${levelGuidelines[adaptationLevel]}
+    ${styleGuidelines[style]}
+
+    RESPUESTA JSON OBLIGATORIA (Devuelve únicamente un JSON válido, sin textos introductorios ni bloques Markdown):
+    {
+      "adapted_activity": string // El texto de la actividad adaptada según el formato y reglas indicados.
+    }
+  `;
+
+  try {
+    return await runAICall(systemPrompt, userPrompt, 0.7);
+  } catch (error) {
+    console.warn("[AI Service] Fallback a simulación Actividad Diferenciada local por error:", error);
+    const mockContent = {
+      E: "Los estudiantes identifican y señalan en un cartel visual dos personas clave del centro educativo y comentan con ayuda del docente sus funciones principales.",
+      A: "Los estudiantes mencionan dos objetos de su aula que comiencen con la primera letra de su nombre, y con preguntas guía del docente explican de forma sencilla su uso diario.",
+      S: "Los estudiantes crean de forma autónoma un dibujo detallado de un lugar importante del centro educativo y explican a sus compañeros su relevancia y la función que cumple."
+    };
+    return {
+      adapted_activity: mockContent[adaptationLevel]
+    };
+  }
+}
+
+export interface TwoTruthsAndLieChallenge {
+  statements: string[];
+  lieIndex: number;
+  explanation: string;
+  category: string;
+}
+
+export async function generateTwoTruthsAndLie(request: { subject?: string; topic?: string; difficulty: string }): Promise<TwoTruthsAndLieChallenge> {
+  const { subject, topic, difficulty } = request;
+
+  const SUBJECT_CREATIVE_SEEDS: Record<string, string[]> = {
+    'Lengua Española': [
+      "Curiosidades etimológicas de palabras cotidianas o frases hechas",
+      "Origen de expresiones populares del idioma español",
+      "Reglas ortográficas divertidas, excepciones lingüísticas y letras mudas",
+      "Significados curiosos de prefijos, sufijos o palabras compuestas",
+      "Datos curiosos de autores de la literatura clásica en español",
+      "Palabras extrañas aceptadas por la RAE y sus graciosas definiciones",
+      "Fonética, trabalenguas y peculiaridades sonoras del español",
+      "Diferencias gramaticales divertidas o evolución de palabras desde el latín"
+    ],
+    'Matemáticas': [
+      "Curiosidades sobre números famosos (Pi, Fibonacci, el cero, números perfectos)",
+      "Presencia de las matemáticas en la naturaleza, animales o arte",
+      "Acertijos lógicos, retos numéricos o ilusiones visuales matemáticas",
+      "Origen histórico del sistema decimal, el ábaco o símbolos matemáticos",
+      "Geometría sorprendente en objetos de la vida diaria",
+      "Trucos matemáticos sencillos pero asombrosos para cálculo rápido",
+      "Anécdotas curiosas de grandes matemáticos e inventos geométricos"
+    ],
+    'Ciencias Sociales': [
+      "Inventos y vida diaria de civilizaciones antiguas (egipcios, griegos, mayas)",
+      "Geografía curiosa, fronteras extrañas o accidentes geográficos insólitos",
+      "Hechos y personajes históricos con anécdotas sorprendentes",
+      "Cultura, tradiciones y festivales asombrosos de países diversos",
+      "Historia del Caribe, taínos o República Dominicana poco conocida",
+      "Monumentos históricos y misterios de su construcción",
+      "Evolución del comercio, la navegación o los mapas a lo largo de los siglos"
+    ],
+    'Ciencias de la Naturaleza': [
+      "Comportamientos y adaptaciones insólitas de animales exóticos o comunes",
+      "Fenómenos atmosféricos, volcanes, terremotos o el espacio exterior",
+      "Funcionamiento curioso y órganos del cuerpo humano",
+      "Plantas carnívoras, plantas venenosas o defensas vegetales extrañas",
+      "Química de la vida cotidiana y curiosidades de los elementos",
+      "Adaptación biológica extrema en desiertos, profundidades marinas o polos",
+      "Física de juguetes, deportes y cosas cotidianas"
+    ],
+    'Educación Artística': [
+      "Técnicas de pintura creativa e ilusiones ópticas en el arte visual",
+      "Anécdotas divertidas y excentricidades de pintores o escultores célebres",
+      "Origen e historia de instrumentos musicales antiguos u objetos sonoros raros",
+      "Teoría del color, cómo se mezclan y cómo engañan a la vista",
+      "Arquitectura insólita, museos creativos y esculturas gigantes del mundo",
+      "El arte rupestre y la evolución de los materiales artísticos"
+    ],
+    'Educación Física': [
+      "Origen de deportes populares o juegos tradicionales de la infancia",
+      "Funcionamiento del corazón y músculos bajo el esfuerzo físico",
+      "Reglas deportivas curiosas y deportes insólitos del mundo",
+      "Importancia de la coordinación, balance, flexibilidad y postura",
+      "Alimentos energéticos naturales y datos divertidos sobre hidratación",
+      "Récords mundiales divertidos de destreza motriz o resistencia"
+    ],
+    'Formación H. Integral R.': [
+      "El valor de la empatía, altruismo y ayuda mutua en diferentes culturas",
+      "Inteligencia emocional, auto-concepto y resolución pacífica de diferencias",
+      "La importancia y origen del respeto mutuo en el ámbito social",
+      "Historias inspiradoras de líderes históricos que lucharon por los derechos humanos",
+      "Valores familiares y el papel de las normas comunitarias positivas"
+    ],
+    'Lenguas Extranjeras (Inglés)': [
+      "Idioms (modismos) en inglés con traducciones graciosas o raras",
+      "False friends (falsos amigos) confusos entre inglés y español",
+      "Origen lingüístico curioso de palabras cotidianas en inglés",
+      "Peculiaridades de ortografía y pronunciación en el idioma inglés",
+      "Curiosidades culturales e historia de países de habla inglesa"
+    ]
+  };
+
+  const GENERAL_CREATIVE_SEEDS = [
+    "Curiosidades y datos poco conocidos",
+    "Datos científicos, históricos o culturales sorprendentes",
+    "Aplicaciones y presencia del tema en la vida cotidiana",
+    "Mitos comunes que resultan ser falsos",
+    "Detalles divertidos y anécdotas insólitas"
+  ];
+
+  let creativeSeed = "";
+  if (subject && SUBJECT_CREATIVE_SEEDS[subject]) {
+    const list = SUBJECT_CREATIVE_SEEDS[subject];
+    creativeSeed = list[Math.floor(Math.random() * list.length)];
+  } else if (topic) {
+    creativeSeed = GENERAL_CREATIVE_SEEDS[Math.floor(Math.random() * GENERAL_CREATIVE_SEEDS.length)];
+  } else {
+    creativeSeed = GENERAL_CREATIVE_SEEDS[Math.floor(Math.random() * GENERAL_CREATIVE_SEEDS.length)];
+  }
+
+  const systemPrompt = `Eres un docente creativo, didáctico y divertido. Generas retos educativos de "Dos Verdades y una Mentira" atractivos para estudiantes escolares.`;
+  
+  let targetDetail = "";
+  if (topic) {
+    targetDetail = `Tema específico: "${topic}"`;
+  } else if (subject) {
+    targetDetail = `Asignatura: "${subject}"`;
+  } else {
+    targetDetail = `Cualquier tema escolar educativo de cultura general`;
+  }
+
+  const userPrompt = `
+Actúa como un profesor que desea motivar a sus alumnos con un juego interactivo de "Dos Verdades y una Mentira".
+Tu misión es generar un reto único de 2 verdades y 1 mentira basado en el siguiente contexto:
+${targetDetail}
+
+ENFOQUE O ÁNGULO CREATIVO PARA ESTA GENERACIÓN (¡Obligatorio para evitar repeticiones!):
+Enfoca la generación del reto principalmente en: "${creativeSeed}".
+
+DIFICULTAD CURRICULAR Y TONO EXIGIDO:
+Nivel: "${difficulty}"
+
+PAUTAS DE DIFICULTAD Y PÚBLICO (¡CRÍTICO!):
+- El juego es para ESTUDIANTES de nivel escolar (Primaria o Secundaria). NO es para científicos ni investigadores universitarios.
+- Evita usar terminología académica extremadamente densa, fórmulas complejas o jerga incomprensible.
+- Si la dificultad es "Básico": Redacta afirmaciones sumamente sencillas, claras y directas, adecuadas para niños de primaria (6-11 años). La mentira debe ser evidente o deducible mediante la lógica cotidiana infantil.
+- Si es "Intermedio": Redacta curiosidades interesantes, con lenguaje claro y accesible, adecuadas para adolescentes de 12-14 años.
+- Si es "Avanzado": Redacta datos más profundos, específicos o históricos, adecuados para estudiantes de 15-18 años, pero presentados de manera interesante y comprensible. Evita tecnicismos innecesarios.
+
+REGLAS DE CONTENIDO PARA EVITAR REPETICIONES:
+1. No utilices ejemplos comunes o sobreexplotados (por ejemplo, en Lengua Española evita repetir siempre los palíndromos como "reconocer", "somos", "aristocráticos", o el verbo "menstruar" / "roer", o la palabra "esternocleidomastoideo"). Genera algo fresco, original y diferente cada vez.
+2. La mentira (dato falso) debe ser sutil y bien pensada, pero verosímil, de modo que parezca una verdad a primera vista. No uses mentiras ridículas o fuera de contexto, sino datos que parezcan plausibles pero contengan una falsedad exacta.
+3. Todo el texto debe estar en ESPAÑOL con excelente ortografía y redacción motivadora.
+
+REGLAS DE FORMATO:
+1. Genera 3 afirmaciones breves (1 o 2 líneas cada una) en el arreglo "statements". Exactamente 2 deben ser verdaderas y 1 falsa (la mentira).
+2. "lieIndex" debe ser el índice de la afirmación falsa (0, 1 o 2).
+3. "explanation" debe ser una explicación clara, didáctica y estimulante para los alumnos, aclarando cuál era la mentira y cuál es el dato real de forma sencilla.
+4. "category" debe ser la categoría o tema específico (máximo 3 palabras, ej. "Ortografía", "Los Volcanes", "Álgebra").
+
+Devuelve ÚNICAMENTE un objeto JSON válido, sin preámbulos, explicaciones fuera del JSON, ni bloques de código markdown (\`\`\`json).
+{
+  "statements": ["Afirmación A", "Afirmación B", "Afirmación C"],
+  "lieIndex": 0,
+  "explanation": "Explicación didáctica para los estudiantes...",
+  "category": "Tema corto"
+}
+  `.trim();
+
+  try {
+    const data = await runAICall(systemPrompt, userPrompt, 0.9, "json");
+    if (!data || !Array.isArray(data.statements) || data.statements.length !== 3 || typeof data.lieIndex !== 'number') {
+      throw new Error("Respuesta de IA no tiene el formato de 2 verdades y 1 mentira.");
+    }
+    return {
+      statements: data.statements,
+      lieIndex: data.lieIndex,
+      explanation: data.explanation || "Explicación del reto.",
+      category: data.category || (topic || subject || "General")
+    };
+  } catch (error) {
+    console.error("Error generando 2 verdades y 1 mentira:", error);
+    return getMockTwoTruthsAndLie(subject, topic, difficulty);
+  }
+}
+
+function getMockTwoTruthsAndLie(subject?: string, topic?: string, difficulty?: string): TwoTruthsAndLieChallenge {
+  return {
+    statements: [
+      "El agua hierve a 100 grados Celsius a nivel del mar.",
+      "Los pulpos tienen tres corazones y sangre azul.",
+      "El sonido viaja más rápido en el aire que en el agua."
+    ],
+    lieIndex: 2,
+    explanation: "El sonido viaja unas 4 veces más rápido en el agua que en el aire porque las partículas del agua están mucho más juntas.",
+    category: topic || subject || "Ciencias"
+  };
+}
+
 
 

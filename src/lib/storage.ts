@@ -399,6 +399,13 @@ export function getUsers(): Usuario[] {
   return cleaned;
 }
 export function saveUsuario(u: Usuario) {
+  if (u.email && u.email.toLowerCase() === "admin@planix.do") {
+    u.rol = "admin";
+  }
+  if (u.rol === "admin") {
+    u.suscripcion = "pro";
+  }
+
   const all = getUsers();
   const i = all.findIndex((x) => x.id === u.id);
   

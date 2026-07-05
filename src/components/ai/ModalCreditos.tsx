@@ -16,7 +16,7 @@ export default function ModalCreditos({
   onClose,
   requiredCredits = 15,
   currentCredits = 0,
-  actionName = "guardar esta planificación"
+  actionName = "usar esta función"
 }: ModalCreditosProps) {
   const navigate = useNavigate();
 

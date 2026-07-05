@@ -11,7 +11,7 @@ import confetti from 'canvas-confetti';
 import { toast, Toaster } from 'sonner';
 import { getCurrentUser, getClassrooms, Classroom, getStudents, Student } from '../lib/storage';
 import { generateJeopardyBoard, JeopardyCategory, JeopardyQuestion } from '../lib/services/aiService';
-import { consumeCredits, hasEnoughCredits, getUserCredits } from '../lib/credits';
+import { consumeCredits, hasEnoughCredits, getUserCredits, getCreditCosts } from '../lib/credits';
 import ModalCreditos from '../components/ai/ModalCreditos';
 
 const teamStyles = [
@@ -439,7 +439,13 @@ export default function Jeopardy() {
       } text-left`}>
         
         <Toaster position="top-center" richColors />
-        <ModalCreditos isOpen={showLimitModal} onClose={() => setShowLimitModal(false)} />
+        <ModalCreditos 
+          isOpen={showLimitModal} 
+          onClose={() => setShowLimitModal(false)} 
+          requiredCredits={getCreditCosts().jeopardy_generator}
+          currentCredits={getUserCredits(user)}
+          actionName="generar esta dinámica"
+        />
 
         {/* Header Controls */}
         <header className="flex items-center justify-between px-6 py-4 w-full max-w-4xl mx-auto bg-white/60 dark:bg-zinc-900/60 backdrop-blur-md rounded-2xl border border-slate-100 dark:border-zinc-800 shadow-2xs mb-6 mt-4 select-none gap-4">

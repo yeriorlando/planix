@@ -158,6 +158,26 @@ const TOOLS_METADATA: ToolMetadata[] = [
     icon: CloudRain,
     bg: 'bg-gradient-to-br from-[#E0F2FE] to-[#BAE6FD] dark:from-sky-950/20 dark:to-slate-900 hover:border-sky-500/10',
     iconBg: 'bg-sky-100 dark:bg-sky-950/30 text-sky-600 dark:text-sky-400'
+  },
+  {
+    key: 'mentira_generator',
+    name: 'Dos Verdades y una Mentira',
+    description: 'Créditos consumidos por cada generación de la dinámica Dos Verdades y una Mentira con IA.',
+    category: 'Mentira',
+    type: 'dinamica',
+    icon: Sparkles,
+    bg: 'bg-gradient-to-br from-[#FDF2F8] to-[#FBCFE8] dark:from-pink-950/20 dark:to-slate-900 hover:border-pink-500/10',
+    iconBg: 'bg-pink-100 dark:bg-pink-950/30 text-pink-650 dark:text-pink-400'
+  },
+  {
+    key: 'rimando_ando',
+    name: 'Rimando Ando',
+    description: 'Créditos consumidos por cada generación de la dinámica Rimando Ando con IA.',
+    category: 'Rimando Ando',
+    type: 'dinamica',
+    icon: Gamepad2,
+    bg: 'bg-gradient-to-br from-[#F0FDF4] to-[#DCFCE7] dark:from-green-950/20 dark:to-slate-900 hover:border-green-500/10',
+    iconBg: 'bg-green-100 dark:bg-green-950/30 text-green-600 dark:text-green-400'
   }
 ];
 

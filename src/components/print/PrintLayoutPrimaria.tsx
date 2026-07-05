@@ -327,6 +327,79 @@ const formatActivityText = (text: string) => {
   return cleanText;
 };
 
+const renderFormattedActivityText = (text: string) => {
+  if (!text) return null;
+  
+  // Normalize literal '\n' sequences (e.g. string "\\n" or "\n") to actual newlines
+  let processed = text.replace(/\\n/g, '\n');
+  
+  const lines = processed.split('\n');
+  
+  const parseInlineFormatting = (str: string) => {
+    if (!str) return '';
+    const parts = str.split(/(\*\*.*?\*\*)/g);
+    return parts.map((part, i) => {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        return <strong key={i} className="font-extrabold text-neutral-955">{part.slice(2, -2)}</strong>;
+      }
+      return part;
+    });
+  };
+
+  return (
+    <div className="space-y-1 text-neutral-850 mt-1">
+      {lines.map((line, idx) => {
+        const trimmed = line.trim();
+        if (!trimmed) return <div key={idx} className="h-1.5" />;
+        
+        // Check for list item pattern, e.g. "1. Preparación: Description"
+        const listItemMatch = trimmed.match(/^(\d+\.\s*)([^:]+:)?(.*)$/);
+        if (listItemMatch) {
+          const [, num, header, body] = listItemMatch;
+          return (
+            <div key={idx} className="pl-4 -indent-4 leading-relaxed">
+              <strong className="font-extrabold text-neutral-955">{num}</strong>
+              {header && <strong className="font-extrabold text-neutral-955">{header}</strong>}
+              <span>{parseInlineFormatting(body)}</span>
+            </div>
+          );
+        }
+        
+        // Check for sub-bullets pattern, e.g. "- Paso 1: Description"
+        const bulletMatch = trimmed.match(/^([-\*•]\s*)([^:]+:)?(.*)$/);
+        if (bulletMatch) {
+          const [, bullet, header, body] = bulletMatch;
+          return (
+            <div key={idx} className="pl-6 -indent-4 leading-relaxed">
+              <span className="font-bold text-neutral-955 mr-1">•</span>
+              {header && <strong className="font-extrabold text-neutral-955">{header}</strong>}
+              <span>{parseInlineFormatting(body)}</span>
+            </div>
+          );
+        }
+
+        // Check for general label pattern, e.g. "Actividad Adaptada: Description" or "Nota: Description"
+        const labelMatch = trimmed.match(/^([^:]+:)(.*)$/);
+        if (labelMatch) {
+          const [, label, body] = labelMatch;
+          return (
+            <p key={idx} className="leading-relaxed">
+              <strong className="font-extrabold text-neutral-955">{label}</strong>
+              <span>{parseInlineFormatting(body)}</span>
+            </p>
+          );
+        }
+
+        return (
+          <p key={idx} className="leading-relaxed">
+            {parseInlineFormatting(trimmed)}
+          </p>
+        );
+      })}
+    </div>
+  );
+};
+
 const cleanMomentTitle = (title: string) => {
   if (!title) return '';
   return title.replace(/^(momento\s+\d+[\.:\s]*)/i, '').trim();
@@ -704,6 +777,30 @@ export default function PrintLayoutPrimaria({
                 </div>
                 <div className={`col-span-6 p-3 text-xs leading-relaxed ${m.hideDescription ? 'flex items-center justify-center text-center' : ''}`}>
                   <p className="whitespace-pre-wrap">{renderMomentDescription(m)}</p>
+                  {m.actividadesDiferenciadas && m.actividadesDiferenciadas.length > 0 && (
+                    <div className="mt-3 pt-2.5 border-t border-dashed border-neutral-300">
+                      <h5 className="font-bold text-[11px] text-neutral-900 uppercase tracking-wide mb-1.5">ACTIVIDADES DIFERENCIADAS:</h5>
+                      <div className="space-y-3">
+                        {m.actividadesDiferenciadas.map((ad: any, adIdx: number) => (
+                          <div key={ad.id || adIdx} className="text-xs">
+                            <div className="flex items-center gap-1.5 mb-1.5 flex-wrap font-bold">
+                              <span className="uppercase text-neutral-955 font-black">
+                                {ad.nivel === 'E' ? 'ELEMENTAL (E)' : ad.nivel === 'A' ? 'ACEPTABLE (A)' : 'SATISFACTORIO (S)'}
+                              </span>
+                              {ad.estudiantesNames && ad.estudiantesNames.length > 0 && (
+                                <span className="text-neutral-700 normal-case font-medium">
+                                  - <strong className="font-extrabold text-neutral-900">Alumnos:</strong> {ad.estudiantesNames.join(', ')}
+                                </span>
+                              )}
+                            </div>
+                            <div className="text-neutral-900 leading-relaxed">
+                              {renderFormattedActivityText(ad.descripcion)}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
                 <div className="col-span-2 p-3 flex flex-col items-center justify-center gap-1.5 bg-neutral-50/20">
                   {!m.orden_actividad && !m.numero_actividad && (
@@ -909,6 +1006,30 @@ export default function PrintLayoutPrimaria({
               </div>
               <div className={`col-span-5 p-3 text-xs leading-relaxed ${m.hideDescription ? 'flex items-center justify-center text-center' : ''}`}>
                 <p className="whitespace-pre-wrap">{renderMomentDescription(m)}</p>
+                {m.actividadesDiferenciadas && m.actividadesDiferenciadas.length > 0 && (
+                  <div className="mt-3 pt-2.5 border-t border-dashed border-neutral-300">
+                    <h5 className="font-bold text-[11px] text-neutral-900 uppercase tracking-wide mb-1.5">ACTIVIDADES DIFERENCIADAS:</h5>
+                    <div className="space-y-3">
+                      {m.actividadesDiferenciadas.map((ad: any, adIdx: number) => (
+                        <div key={ad.id || adIdx} className="text-xs">
+                          <div className="flex items-center gap-1.5 mb-1.5 flex-wrap font-bold">
+                            <span className="uppercase text-neutral-955 font-black">
+                              {ad.nivel === 'E' ? 'ELEMENTAL (E)' : ad.nivel === 'A' ? 'ACEPTABLE (A)' : 'SATISFACTORIO (S)'}
+                            </span>
+                            {ad.estudiantesNames && ad.estudiantesNames.length > 0 && (
+                              <span className="text-neutral-700 normal-case font-medium">
+                                - <strong className="font-extrabold text-neutral-900">Alumnos:</strong> {ad.estudiantesNames.join(', ')}
+                              </span>
+                            )}
+                          </div>
+                          <div className="text-neutral-900 leading-relaxed">
+                            {renderFormattedActivityText(ad.descripcion)}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
               <div className="col-span-2 p-2.5 text-center flex items-center justify-center font-bold text-neutral-750">
                 {/^\d+\s*$/.test(m.tiempo || '') ? `${m.tiempo} minutos` : m.tiempo}

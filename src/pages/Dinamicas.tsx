@@ -24,6 +24,26 @@ const DINAMICAS_LIST = [
     isReady: true,
   },
   {
+    id: "mentira",
+    title: "Dos Verdades y una Mentira",
+    description: "Reto grupal con IA. Descubre cuál de las 3 afirmaciones sobre tu clase es el dato falso.",
+    category: "Juegos",
+    rating: "5.0",
+    color: "bg-[#FDF2F8] dark:bg-[#9D174D]/10",
+    tag: "Nuevo",
+    isReady: true,
+  },
+  {
+    id: "rimando-ando",
+    title: "Rimando Ando",
+    description: "Reto grupal de rimas competitivas por tiempo. Escribe palabras que rimen con la palabra de origen y gana puntos.",
+    category: "Grupal",
+    rating: "5.0",
+    color: "bg-[#F5F3FF] dark:bg-[#6D28D9]/10",
+    tag: "Nuevo",
+    isReady: true,
+  },
+  {
     id: "proximamente",
     title: "Trivia en Aula (Próximamente)",
     description: "Cuestionarios competitivos de opción múltiple generados por IA para proyectar y resolver en grupo.",
@@ -98,6 +118,26 @@ export default function Dinamicas() {
                 </svg>
               </div>
             )}
+ 
+            {/* Background design for Mentira */}
+            {dinamica.id === 'mentira' && (
+              <div className="absolute -right-6 -bottom-6 w-36 h-36 text-pink-700/8 dark:text-pink-400/8 pointer-events-none transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                  <polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+              </div>
+            )}
+
+            {/* Background design for Rimando Ando */}
+            {dinamica.id === 'rimando-ando' && (
+              <div className="absolute -right-6 -bottom-6 w-36 h-36 text-purple-700/8 dark:text-purple-400/8 pointer-events-none transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                  <path d="M12 7l1 2.5L15.5 10l-2.5 1-1 2.5-1-2.5-2.5-1 2.5-1z" />
+                </svg>
+              </div>
+            )}
 
             <div className="flex items-center justify-between mb-6">
               <span className="text-[11px] font-black uppercase tracking-wider bg-white/60 dark:bg-black/20 text-[#1B1B1B] dark:text-white px-3 py-1 rounded-full shadow-2xs">
@@ -116,6 +156,10 @@ export default function Dinamicas() {
                   <CloudRain className="w-6 h-6 text-blue-600" />
                 ) : dinamica.id === 'jeopardy' ? (
                   <Trophy className="w-6 h-6 text-sky-600" />
+                ) : dinamica.id === 'mentira' ? (
+                  <Sparkles className="w-6 h-6 text-pink-500" />
+                ) : dinamica.id === 'rimando-ando' ? (
+                  <Sparkles className="w-6 h-6 text-purple-650 dark:text-purple-400" />
                 ) : dinamica.isReady ? (
                   <Sparkles className="w-5 h-5 text-purple-600" />
                 ) : null}

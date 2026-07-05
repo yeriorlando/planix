@@ -13,6 +13,8 @@ export interface CreditCosts {
   crossword_generator: number;  // Generar crucigrama con IA
   jeopardy_generator: number;   // Generar tablero Jeopardy con IA
   bajo_la_lluvia: number;       // Generar dinámica Bajo la Lluvia con IA
+  mentira_generator: number;    // Generar dinámica Dos Verdades y una Mentira con IA
+  rimando_ando: number;         // Generar dinámica Rimando Ando con IA
 }
 
 export const DEFAULT_CREDIT_COSTS: CreditCosts = {
@@ -27,6 +29,8 @@ export const DEFAULT_CREDIT_COSTS: CreditCosts = {
   crossword_generator: 15,
   jeopardy_generator: 15,
   bajo_la_lluvia: 15,
+  mentira_generator: 15,
+  rimando_ando: 15,
 };
 
 const COSTS_KEY = "plx:credit_costs";
@@ -35,7 +39,12 @@ export function getCreditCosts(): CreditCosts {
   if (typeof window === "undefined") return DEFAULT_CREDIT_COSTS;
   try {
     const stored = localStorage.getItem(COSTS_KEY);
-    return stored ? JSON.parse(stored) : DEFAULT_CREDIT_COSTS;
+    if (!stored) return DEFAULT_CREDIT_COSTS;
+    const parsed = JSON.parse(stored);
+    return {
+      ...DEFAULT_CREDIT_COSTS,
+      ...parsed
+    };
   } catch {
     return DEFAULT_CREDIT_COSTS;
   }

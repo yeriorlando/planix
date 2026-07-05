@@ -1178,6 +1178,31 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
               value: defaultSettings,
               updated_at: new Date().toISOString()
             });
+          } else if (configKey === "credit_costs") {
+            const defaultCreditCosts = {
+              grades_report: 10,
+              attendance_summary: 5,
+              ai_planning: 15,
+              rubric_generation: 20,
+              planix_chat: 2,
+              save_planning: 15,
+              exam_generator: 20,
+              wordsearch_generator: 15,
+              crossword_generator: 15,
+              jeopardy_generator: 15,
+              bajo_la_lluvia: 15,
+              mentira_generator: 15,
+              rimando_ando: 15,
+            };
+            await supabase
+              .from("site_configs")
+              .upsert({ key: "credit_costs", value: defaultCreditCosts, updated_at: new Date().toISOString() });
+
+            return jsonResponse({
+              key: "credit_costs",
+              value: defaultCreditCosts,
+              updated_at: new Date().toISOString()
+            });
           } else {
             return jsonResponse({ error: "Config not found" }, 404);
           }

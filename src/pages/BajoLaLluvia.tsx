@@ -190,7 +190,7 @@ export default function BajoLaLluvia() {
         // Check credits (Only needed for AI topic generation)
         const isPremium = user?.rol === 'admin' || user?.suscripcion === 'pro';
         const needsAI = mode === 'topic';
-        if (needsAI && !isPremium && !hasEnoughCredits('wordsearch_generator')) {
+        if (needsAI && !isPremium && !hasEnoughCredits('bajo_la_lluvia')) {
             setShowLimitModal(true);
             return;
         }
@@ -228,7 +228,7 @@ export default function BajoLaLluvia() {
 
             // Consumir créditos si no es pro (silenciosamente)
             if (needsAI && !isPremium) {
-                const consumed = consumeCredits('wordsearch_generator');
+                const consumed = consumeCredits('bajo_la_lluvia');
                 if (!consumed) {
                     throw new Error('No posees suficientes Planix Coins para completar la generación.');
                 }
@@ -1320,9 +1320,9 @@ export default function BajoLaLluvia() {
             <ModalCreditos
                 isOpen={showLimitModal}
                 onClose={() => setShowLimitModal(false)}
-                requiredCredits={getCreditCosts().wordsearch_generator ?? 15}
+                requiredCredits={getCreditCosts().bajo_la_lluvia}
                 currentCredits={getUserCredits(user)}
-                actionName="generar dinámicas interactivas con Inteligencia Artificial"
+                actionName="generar esta dinámica"
             />
 
             {showExitConfirm && (
