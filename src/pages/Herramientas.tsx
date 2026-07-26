@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useOutletContext } from 'react-router-dom';
-import { Wrench, FileText, Gamepad2, Grid, Award, Users } from 'lucide-react';
+import { Wrench, FileText, Gamepad2, Grid, Award, Users, Map, HeartHandshake, Globe } from 'lucide-react';
 import Tarjeta from '../components/Tarjeta';
 
 const INITIAL_COURSES = [
@@ -12,6 +12,39 @@ const INITIAL_COURSES = [
     rating: "5.0", 
     color: "bg-card-purple", 
     avatars: ['https://randomuser.me/api/portraits/women/12.jpg'], 
+    students: "Nuevo", 
+    isTool: true 
+  },
+  { 
+    id: "recorridos-docentes", 
+    title: "Recorridos Docentes", 
+    category: "Planificación", 
+    categoryIcon: <Map size={14} strokeWidth={2.5} />, 
+    rating: "5.0", 
+    color: "bg-card-green", 
+    avatars: ['https://randomuser.me/api/portraits/women/12.jpg'], 
+    students: "Nuevo", 
+    isTool: true 
+  },
+  { 
+    id: "apoyo-adicional", 
+    title: "Apoyo Adicional", 
+    category: "Planificación", 
+    categoryIcon: <HeartHandshake size={14} strokeWidth={2.5} />, 
+    rating: "5.0", 
+    color: "bg-card-pink", 
+    avatars: ['https://randomuser.me/api/portraits/women/48.jpg'], 
+    students: "Nuevo", 
+    isTool: true 
+  },
+  { 
+    id: "situaciones-aprendizaje", 
+    title: "Situaciones de Aprendizaje", 
+    category: "Planificación", 
+    categoryIcon: <Globe size={14} strokeWidth={2.5} />, 
+    rating: "5.0", 
+    color: "bg-card-purple", 
+    avatars: ['https://randomuser.me/api/portraits/men/32.jpg'], 
     students: "Nuevo", 
     isTool: true 
   },
@@ -103,6 +136,7 @@ export default function Herramientas() {
       <div className="flex flex-nowrap flex-shrink-0 items-center gap-4 md:gap-[22px] mt-8 mb-[45px] overflow-x-auto py-[10px] min-h-[90px] scrollbar-hide w-auto -mx-6 px-6 md:-mx-[60px] md:px-[60px] xl:-mx-16 xl:px-16">
          <FilterPill icon={<Grid size={22} />} label="Todas" active={filter === 'Todas'} onClick={() => setFilter('Todas')} />
          <FilterPill icon={<FileText size={22} strokeWidth={2} />} label="Evaluación" active={filter === 'Evaluación'} onClick={() => setFilter('Evaluación')} />
+         <FilterPill icon={<Map size={22} strokeWidth={2} />} label="Planificación" active={filter === 'Planificación'} onClick={() => setFilter('Planificación')} />
          <FilterPill icon={<Gamepad2 size={22} strokeWidth={2} />} label="Juegos" active={filter === 'Juegos'} onClick={() => setFilter('Juegos')} />
       </div>
 

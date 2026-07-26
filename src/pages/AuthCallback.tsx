@@ -41,13 +41,14 @@ export default function AuthCallback() {
 
         if (!userObj) {
           const referredByCode = sessionStorage.getItem("plx:referred_by_code") || null;
+          const pendingRole = sessionStorage.getItem("plx:pending_role") || "teacher";
 
           // Create default profile in D1
           const profileData = {
             id: userId,
             full_name: user.user_metadata?.full_name || user.email?.split("@")[0] || "Docente",
             email: user.email || "",
-            role: "teacher",
+            role: pendingRole === "coordinator" ? "COORDINADOR" : "DOCENTE",
             subscription_tier: "free",
             subscription_status: "ACTIVO",
             subscription_expiry: new Date(Date.now() + 30 * 86400000).toISOString(),
@@ -70,8 +71,10 @@ export default function AuthCallback() {
             if (referredByCode) {
               sessionStorage.removeItem("plx:referred_by_code");
             }
+            sessionStorage.removeItem("plx:pending_role");
           } catch (insertError) {
             console.error("Error creating Google profile in D1:", insertError);
+            sessionStorage.removeItem("plx:pending_role");
           }
 
           userObj = mapProfile(profileData);

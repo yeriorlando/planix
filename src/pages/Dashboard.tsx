@@ -16,6 +16,7 @@ import OnboardingModal from '../components/modals/OnboardingModal';
 import MedalStar from '../components/ui/MedalStar';
 import { getUserCredits } from '../lib/credits';
 import { requestD1 } from '../lib/services/d1Client';
+import { fetchEvents, TeacherEvent } from '../lib/services/events';
 
 // Dominican Ephemeris list
 const DOMINICAN_EPHEMERIS = [
@@ -74,6 +75,15 @@ export default function Dashboard() {
   const theme = context?.theme ?? 'light';
   const toggleTheme = context?.toggleTheme ?? (() => {});
   const [user, setUser] = useState<Usuario | null>(() => getCurrentUser());
+  const [events, setEvents] = useState<TeacherEvent[]>([]);
+
+  useEffect(() => {
+    if (user?.id) {
+      fetchEvents(user.id)
+        .then(setEvents)
+        .catch(err => console.error("Error fetching teacher events for dashboard:", err));
+    }
+  }, [user?.id]);
 
   useEffect(() => {
     if (user && user.rol === "coordinator") {
@@ -610,20 +620,104 @@ export default function Dashboard() {
     };
   }, [dbEphemerides]);
 
-  // Next scheduled class mockup
+  const todayStr = useMemo(() => {
+    const today = new Date();
+    const y = today.getFullYear();
+    const m = String(today.getMonth() + 1).padStart(2, '0');
+    const d = String(today.getDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
+  }, []);
+
+  const upcomingEventsCount = useMemo(() => {
+    return events.filter(evt => evt.date >= todayStr).length;
+  }, [events, todayStr]);
+
+  // Next scheduled class from calendar events database
   const nextClassMock = useMemo(() => {
-    if (classrooms.length === 0) return null;
-    const subjectsList = ["Lengua Española", "Matemáticas", "Ciencias de la Naturaleza", "Ciencias Sociales"];
-    const firstClass = classrooms[0];
-    return {
-      subject: firstClass.nivel === "secundaria" ? "Ciencias Sociales" : "Lengua Española",
-      start_time: "08:00 AM",
-      end_time: "08:45 AM",
-      grade: firstClass.nombre,
-      section: firstClass.seccion,
-      day_of_week: "Todos los días"
+    if (events.length === 0) return null;
+    
+    // Parse event dates and times
+    const parsedEvents = events.map(evt => {
+      const dateParts = evt.date.split('-');
+      const timeParts = (evt.time || '08:00').split(':');
+      
+      const evtDate = new Date(
+        parseInt(dateParts[0]),
+        parseInt(dateParts[1]) - 1,
+        parseInt(dateParts[2]),
+        parseInt(timeParts[0]),
+        parseInt(timeParts[1] || '00')
+      );
+      
+      return {
+        ...evt,
+        dateTime: evtDate
+      };
+    });
+    
+    // Filter to events of today or in the future
+    const filtered = parsedEvents.filter(evt => evt.date >= todayStr);
+    
+    if (filtered.length === 0) return null;
+    
+    // Sort all by date, then by time
+    filtered.sort((a, b) => a.date.localeCompare(b.date) || (a.time || '').localeCompare(b.time || ''));
+    
+    // Find the first event that is in the future (today or later)
+    const now = new Date();
+    const nextFuture = filtered.find(evt => evt.dateTime >= now);
+    
+    // If we have an event in the future, use it. Otherwise, use the last event of today.
+    const nextEvt = nextFuture || filtered[filtered.length - 1];
+      
+    // Format start_time as 12-hour format with AM/PM
+    const timeParts = (nextEvt.time || '08:00').split(':');
+    let hh = parseInt(timeParts[0]);
+    const mm = timeParts[1] || '00';
+    const ampm = hh >= 12 ? 'PM' : 'AM';
+    hh = hh % 12;
+    hh = hh ? hh : 12; // the hour '0' should be '12'
+    const formattedTime = `${String(hh).padStart(2, '0')}:${mm} ${ampm}`;
+    
+    const monthsSpan = [
+      'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
+      'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
+    ];
+    
+    const getFormattedDateStr = (dateStr: string) => {
+      try {
+        const parts = dateStr.split('-');
+        const d = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
+        const dayName = d.toLocaleDateString('es-ES', { weekday: 'long' });
+        const capitalizedDay = dayName.charAt(0).toUpperCase() + dayName.slice(1);
+        const monthName = monthsSpan[d.getMonth()];
+        return `${capitalizedDay} ${d.getDate()} de ${monthName}`;
+      } catch (e) {
+        return dateStr;
+      }
     };
-  }, [classrooms]);
+
+    const getEventEmoji = (type?: string) => {
+      const t = (type || '').toLowerCase();
+      if (t.includes('planificaci')) return '📝';
+      if (t.includes('reuni') || t.includes('padre')) return '👥';
+      if (t.includes('evaluaci') || t.includes('examen')) return '✍️';
+      if (t.includes('actividad') || t.includes('evento')) return '🎉';
+      return '📅';
+    };
+
+    return {
+      id: nextEvt.id,
+      subject: nextEvt.title,
+      start_time: formattedTime,
+      grade: nextEvt.type || 'General',
+      section: '',
+      day_of_week: getFormattedDateStr(nextEvt.date),
+      emoji: getEventEmoji(nextEvt.type)
+    };
+  }, [events, todayStr]);
+
+  const EventIcon = Bell;
 
   // Handle dynamic generation
   const handleGenerateDynamic = () => {
@@ -1020,18 +1114,17 @@ export default function Dashboard() {
             <div className="bg-slate-50 dark:bg-black/20 border border-slate-200 dark:border-white/5 px-4 py-2.5 rounded-2xl inline-flex items-center gap-2 text-[11px] font-bold text-[#1B1B1B]/70 dark:text-slate-400 w-fit">
               <span>Tienes</span>
               <span className="text-blue-600 dark:text-blue-400 underline font-black">
-                {classrooms.length} {classrooms.length === 1 ? "clase programada" : "clases programadas"}
+                {upcomingEventsCount} {upcomingEventsCount === 1 ? "evento programado" : "eventos programados"}
               </span>
-              <span className="text-[#1B1B1B]/20 dark:text-slate-650">•</span>
-              {classrooms.length === 0 ? (
-                <span className="flex items-center gap-1.5 text-red-500 dark:text-red-400 font-bold">
-                  <span className="w-1.5 h-1.5 rounded-full bg-red-500 dark:bg-red-450 animate-pulse"></span>
-                  No hay clases hoy
+              <span className="text-[#1B1B1B]/20 dark:text-slate-655">•</span>
+              {!nextClassMock ? (
+                <span className="flex items-center gap-1.5 text-slate-500 dark:text-slate-400 font-bold">
+                  Sin eventos programados próximamente
                 </span>
               ) : (
                 <span className="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400 font-bold">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 dark:bg-emerald-450 animate-pulse"></span>
-                  Próxima clase a las {nextClassMock?.start_time}
+                  Próximo evento a las {nextClassMock.start_time}
                 </span>
               )}
             </div>
@@ -1054,8 +1147,8 @@ export default function Dashboard() {
                   <BookOpen size={16} className="text-orange-600 dark:text-orange-400" />
                   <span className="text-[13px] font-bold text-orange-600 dark:text-orange-400 uppercase tracking-wider">Planificación</span>
                 </div>
-                <div className="w-10 h-10 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-orange-600 dark:text-orange-400">
-                  <BookOpen size={18} className="fill-orange-500 text-orange-600 dark:text-orange-400" />
+                <div className="w-10 h-10 bg-orange-500/10 dark:bg-orange-950/30 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-orange-600 dark:text-orange-400">
+                  <BookOpen size={18} className="fill-orange-500/20" />
                 </div>
               </div>
               <div className="relative z-10 my-4 flex flex-col items-start w-full">
@@ -1083,8 +1176,8 @@ export default function Dashboard() {
                   <GraduationCap size={16} className="text-indigo-650 dark:text-indigo-400" />
                   <span className="text-[13px] font-bold text-indigo-655 dark:text-indigo-400 uppercase tracking-wider">Aula Virtual</span>
                 </div>
-                <div className="w-10 h-10 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-indigo-655 dark:text-indigo-400">
-                  <GraduationCap size={18} className="fill-indigo-500 text-indigo-655 dark:text-indigo-400" />
+                <div className="w-10 h-10 bg-indigo-500/10 dark:bg-indigo-950/30 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-indigo-655 dark:text-indigo-400">
+                  <GraduationCap size={18} className="fill-indigo-500/20" />
                 </div>
               </div>
               <div className="relative z-10 my-4 flex flex-col items-start w-full">
@@ -1112,8 +1205,8 @@ export default function Dashboard() {
                   <Sparkles size={16} className="text-emerald-600 dark:text-emerald-400" />
                   <span className="text-[13px] font-bold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider">Dinámicas</span>
                 </div>
-                <div className="w-10 h-10 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-emerald-600 dark:text-emerald-400">
-                  <Sparkles size={18} className="fill-emerald-500 text-emerald-600 dark:text-emerald-400" />
+                <div className="w-10 h-10 bg-emerald-500/10 dark:bg-emerald-950/30 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-emerald-600 dark:text-emerald-400">
+                  <Sparkles size={18} className="fill-emerald-500/20" />
                 </div>
               </div>
               <div className="relative z-10 my-4 flex flex-col items-start w-full">
@@ -1141,8 +1234,8 @@ export default function Dashboard() {
                   <AlertTriangle size={16} className="text-rose-600 dark:text-rose-400" />
                   <span className="text-[13px] font-bold text-rose-600 dark:text-rose-400 uppercase tracking-wider">Reportes</span>
                 </div>
-                <div className="w-10 h-10 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-rose-600 dark:text-rose-400">
-                  <AlertTriangle size={18} className="fill-rose-500 text-rose-600 dark:text-rose-400" />
+                <div className="w-10 h-10 bg-rose-500/10 dark:bg-rose-950/30 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-rose-600 dark:text-rose-400">
+                  <AlertTriangle size={18} className="fill-rose-500/20" />
                 </div>
               </div>
               <div className="relative z-10 my-4 flex flex-col items-start w-full">
@@ -1170,8 +1263,8 @@ export default function Dashboard() {
                   <Calendar size={16} className="text-blue-600 dark:text-blue-400" />
                   <span className="text-[13px] font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wider">Horario</span>
                 </div>
-                <div className="w-10 h-10 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-blue-600 dark:text-blue-400">
-                  <Calendar size={18} className="fill-blue-500 text-blue-600 dark:text-blue-400" />
+                <div className="w-10 h-10 bg-blue-500/10 dark:bg-blue-950/30 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-blue-600 dark:text-blue-400">
+                  <Calendar size={18} className="fill-blue-500/20" />
                 </div>
               </div>
               <div className="relative z-10 my-4 flex flex-col items-start w-full">
@@ -1280,8 +1373,8 @@ export default function Dashboard() {
           </div>
 
           <div className="relative z-10 my-1 flex items-center gap-3.5 w-full">
-            <div className="w-11 h-11 bg-white/60 dark:bg-black/40 rounded-2xl flex items-center justify-center backdrop-blur-md shadow-2xs text-xl shrink-0">
-              🎓
+            <div className="w-11 h-11 rounded-full bg-violet-500/10 dark:bg-violet-950/30 text-violet-600 dark:text-violet-400 flex items-center justify-center backdrop-blur-md shadow-2xs shrink-0">
+              <GraduationCap size={20} className="fill-violet-500/20" />
             </div>
             <div className="flex-1 min-w-0">
               <span className="text-[20px] font-extrabold text-[#1B1B1B] dark:text-white leading-none tracking-tight block uppercase">
@@ -1302,7 +1395,7 @@ export default function Dashboard() {
             <div className="flex justify-between items-center relative z-10 w-full mb-3.5">
               <div className="flex items-center gap-1.5">
                 <Clock className="w-4 h-4 text-blue-600 dark:text-blue-400" strokeWidth={2.5} />
-                <span className="text-[13px] font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wider">Próxima Clase</span>
+                <span className="text-[13px] font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wider">Próximo Evento</span>
               </div>
               <span className="text-[10px] font-black uppercase text-blue-600 dark:text-blue-400 bg-white/70 dark:bg-black/30 px-3 py-1.5 rounded-md border border-blue-200/50 shadow-2xs">
                 {nextClassMock.start_time}
@@ -1310,22 +1403,25 @@ export default function Dashboard() {
             </div>
 
             <div className="relative z-10 my-1 flex items-center gap-3.5 w-full">
-              <div className="w-11 h-11 bg-white/60 dark:bg-black/40 rounded-2xl flex items-center justify-center backdrop-blur-md shadow-2xs text-xl shrink-0">
-                📖
+              <div className="w-11 h-11 rounded-full bg-blue-500/10 dark:bg-blue-950/30 text-blue-600 dark:text-blue-400 flex items-center justify-center backdrop-blur-md shadow-2xs shrink-0">
+                <EventIcon size={20} className="fill-blue-500/20" />
               </div>
               <div className="flex-1 min-w-0">
                 <span className="text-[18px] font-extrabold text-[#1B1B1B] dark:text-white leading-tight tracking-tight block truncate uppercase">
                   {nextClassMock.subject}
                 </span>
-                <p className="text-slate-500 dark:text-slate-400 text-[10px] font-bold mt-1 uppercase tracking-wide">
+                <span className="text-[10px] font-black text-blue-600 dark:text-blue-400 uppercase tracking-wider mt-0.5 block">
                   {nextClassMock.grade}
+                </span>
+                <p className="text-slate-500 dark:text-slate-400 text-[10px] font-bold mt-0.5 uppercase tracking-wide">
+                  {nextClassMock.day_of_week}
                 </p>
               </div>
             </div>
           </div>
         ) : (
-          <div className="bg-gradient-to-br from-[#EBF3FF] to-[#F3F7FF] dark:from-blue-950/20 dark:to-slate-900 rounded-[28px] p-6 border border-transparent text-center text-slate-400 dark:text-slate-500 py-6 shadow-sm">
-            <span className="text-[10px] font-bold uppercase tracking-wider">No hay clases registradas</span>
+          <div className="bg-gradient-to-br from-[#EBF3FF] to-[#F3F7FF] dark:from-blue-950/20 dark:to-slate-900 rounded-[28px] p-6 border border-transparent text-center text-slate-400 dark:text-slate-505 py-6 shadow-sm">
+            <span className="text-[10px] font-bold uppercase tracking-wider">No hay eventos registrados</span>
           </div>
         )}
 
@@ -1336,8 +1432,8 @@ export default function Dashboard() {
               <Calendar className="w-4 h-4 text-rose-600 dark:text-rose-400" strokeWidth={2.5} />
               <span className="text-[13px] font-bold text-rose-600 dark:text-rose-400 uppercase tracking-wider">Efemérides</span>
             </div>
-            <div className="w-10 h-10 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-rose-600 dark:text-rose-400">
-              <Calendar size={18} className="fill-rose-500 text-rose-600 dark:text-rose-450" />
+            <div className="w-10 h-10 bg-rose-500/10 dark:bg-rose-950/30 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-rose-600 dark:text-rose-400">
+              <Calendar size={18} className="fill-rose-500/20" />
             </div>
           </div>
           <div className="relative z-10 my-4 flex flex-col items-start w-full">
@@ -1370,8 +1466,8 @@ export default function Dashboard() {
               <Trophy size={16} className="text-indigo-650 dark:text-indigo-400" />
               <span className="text-[13px] font-bold text-indigo-655 dark:text-indigo-400 uppercase tracking-wider">Resumen Escolar</span>
             </div>
-            <div className="w-10 h-10 bg-white/50 dark:bg-black/40 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-indigo-655 dark:text-indigo-400">
-              <Trophy size={18} className="fill-indigo-500 text-indigo-655 dark:text-indigo-400" />
+            <div className="w-10 h-10 bg-indigo-500/10 dark:bg-indigo-950/30 rounded-full flex items-center justify-center backdrop-blur-md shadow-2xs text-indigo-655 dark:text-indigo-400">
+              <Trophy size={18} className="fill-indigo-500/20" />
             </div>
           </div>
           
@@ -1388,9 +1484,6 @@ export default function Dashboard() {
 
           <div className="relative z-10 mt-auto flex items-center justify-between pt-3 border-t border-indigo-500/10 w-full">
             <span className="text-[11px] font-bold text-[#1B1B1B]/60 dark:text-slate-400 uppercase tracking-wider">Matrícula</span>
-            <span className="text-[11px] font-black uppercase text-indigo-655 dark:text-indigo-400 bg-white/70 dark:bg-black/30 px-2 py-0.5 rounded-md border border-indigo-200/50">
-              PLANIX 2.0
-            </span>
           </div>
         </div>
 

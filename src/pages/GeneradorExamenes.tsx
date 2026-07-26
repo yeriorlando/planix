@@ -120,6 +120,60 @@ export default function GeneradorExamenes() {
     const [showNivelDropdown, setShowNivelDropdown] = useState(false);
     const [showGradoDropdown, setShowGradoDropdown] = useState(false);
 
+    // Dynamic allowed levels based on user interests
+    const allowedNiveles = React.useMemo(() => {
+        if (!user || user.rol === 'admin') {
+            return [
+                { value: "Primario", label: "Nivel Primario" },
+                { value: "Secundario", label: "Nivel Secundario" }
+            ];
+        }
+        
+        const list = [];
+        let hasPrimaria = false;
+        let hasSecundaria = false;
+
+        if (user.allowed_subjects && Object.keys(user.allowed_subjects).length > 0) {
+            const keys = Object.keys(user.allowed_subjects);
+            hasPrimaria = keys.some(k => k.startsWith('primaria-'));
+            hasSecundaria = keys.some(k => k.startsWith('secundaria-'));
+        } else if (user.nivel) {
+            hasPrimaria = user.nivel === 'primaria';
+            hasSecundaria = user.nivel === 'secundaria';
+        } else {
+            hasPrimaria = true;
+            hasSecundaria = true;
+        }
+
+        if (hasPrimaria) list.push({ value: "Primario", label: "Nivel Primario" });
+        if (hasSecundaria) list.push({ value: "Secundario", label: "Nivel Secundario" });
+        return list;
+    }, [user]);
+
+    // Dynamic allowed grades based on selected level and user interests
+    const allowedGrados = React.useMemo(() => {
+        const allGrados = ["1ro", "2do", "3ro", "4to", "5to", "6to"];
+        if (!user || user.rol === 'admin' || !nivel) {
+            return allGrados;
+        }
+
+        if (user.allowed_subjects && Object.keys(user.allowed_subjects).length > 0) {
+            const prefix = nivel === 'Primario' ? 'primaria-' : 'secundaria-';
+            const keys = Object.keys(user.allowed_subjects).filter(k => k.startsWith(prefix));
+            if (keys.length > 0) {
+                return allGrados.filter(g => keys.includes(`${prefix}${g}`));
+            }
+        } else if (user.grado) {
+            const prefix = nivel === 'Primario' ? 'primaria-' : 'secundaria-';
+            const normalizedUserGrade = user.grado.replace(/^(primaria|secundaria|inicial)-/, '');
+            if (user.grado.startsWith(prefix) || !user.grado.includes('-')) {
+                return allGrados.filter(g => g === normalizedUserGrade);
+            }
+        }
+
+        return allGrados;
+    }, [user, nivel]);
+
     const filteredAsignaturas = React.useMemo(() => {
         if (!user || user.rol === 'admin' || !user.allowed_subjects || Object.keys(user.allowed_subjects).length === 0) {
             return ASIGNATURAS;
@@ -133,6 +187,50 @@ export default function GeneradorExamenes() {
 
         return ASIGNATURAS.filter(name => allowedNames.includes(name));
     }, [user, nivel, grado]);
+
+    // Auto-detect and select level/grade/subject on load
+    useEffect(() => {
+        if (user && user.rol !== 'admin') {
+            let initialNivel = '';
+            let initialGrado = '';
+            
+            if (user.allowed_subjects && Object.keys(user.allowed_subjects).length > 0) {
+                const keys = Object.keys(user.allowed_subjects);
+                const firstKey = keys[0];
+                if (firstKey.startsWith('primaria-')) {
+                    initialNivel = 'Primario';
+                    initialGrado = firstKey.replace('primaria-', '');
+                } else if (firstKey.startsWith('secundaria-')) {
+                    initialNivel = 'Secundario';
+                    initialGrado = firstKey.replace('secundaria-', '');
+                }
+            } else if (user.nivel) {
+                initialNivel = user.nivel === 'primaria' ? 'Primario' : user.nivel === 'secundaria' ? 'Secundario' : '';
+                if (user.grado) {
+                    initialGrado = user.grado.replace(/^(primaria|secundaria|inicial)-/, '');
+                }
+            }
+
+            if (initialNivel) setNivel(initialNivel);
+            if (initialGrado) setGrado(initialGrado);
+        }
+    }, [user]);
+
+    // Auto-select subject once level and grade are resolved
+    useEffect(() => {
+        if (user && user.rol !== 'admin' && nivel && grado && !asignatura) {
+            const gradeId = `${nivel === 'Primario' ? 'primaria' : 'secundaria'}-${grado}`;
+            if (user.allowed_subjects && user.allowed_subjects[gradeId]) {
+                const allowed = user.allowed_subjects[gradeId];
+                if (allowed && allowed.length > 0) {
+                    const firstAllowedName = SUBJECT_ID_TO_NAME[allowed[0]];
+                    if (firstAllowedName) {
+                        setAsignatura(firstAllowedName);
+                    }
+                }
+            }
+        }
+    }, [user, nivel, grado, asignatura]);
 
     useEffect(() => {
         if (asignatura && filteredAsignaturas.length > 0 && !filteredAsignaturas.includes(asignatura)) {
@@ -356,10 +454,7 @@ export default function GeneradorExamenes() {
                                             <div className="fixed inset-0 z-40" onClick={() => setShowNivelDropdown(false)} />
                                             <div className="absolute left-0 top-full mt-1 w-full bg-white dark:bg-zinc-900 rounded-lg border border-black/5 dark:border-zinc-800 shadow-lg p-1 z-50 animate-in fade-in slide-in-from-top-1 duration-150">
                                                 <div className="space-y-0.5">
-                                                    {[
-                                                        { value: "Primario", label: "Nivel Primario" },
-                                                        { value: "Secundario", label: "Nivel Secundario" }
-                                                    ].map((opt) => (
+                                                    {allowedNiveles.map((opt) => (
                                                         <button
                                                             key={opt.value}
                                                             type="button"
@@ -402,7 +497,7 @@ export default function GeneradorExamenes() {
                                             <div className="fixed inset-0 z-40" onClick={() => setShowGradoDropdown(false)} />
                                             <div className="absolute left-0 top-full mt-1 w-full bg-white dark:bg-zinc-900 rounded-lg border border-black/5 dark:border-zinc-800 shadow-lg p-1 z-50 animate-in fade-in slide-in-from-top-1 duration-150 max-h-60 overflow-y-auto">
                                                 <div className="space-y-0.5">
-                                                    {["1ro", "2do", "3ro", "4to", "5to", "6to"].map((g) => (
+                                                    {allowedGrados.map((g) => (
                                                         <button
                                                             key={g}
                                                             type="button"

@@ -24,7 +24,13 @@ import {
   Hash,
   Trophy,
   CloudRain,
-  Gamepad2
+  Gamepad2,
+  Gavel,
+  Compass,
+  Lock,
+  Fingerprint,
+  Timer,
+  Anchor
 } from 'lucide-react';
 import { 
   getCreditCosts, 
@@ -178,6 +184,56 @@ const TOOLS_METADATA: ToolMetadata[] = [
     icon: Gamepad2,
     bg: 'bg-gradient-to-br from-[#F0FDF4] to-[#DCFCE7] dark:from-green-950/20 dark:to-slate-900 hover:border-green-500/10',
     iconBg: 'bg-green-100 dark:bg-green-950/30 text-green-600 dark:text-green-400'
+  },
+  {
+    key: 'subasta_generator',
+    name: 'Subasta de Conocimiento',
+    description: 'Créditos consumidos por cada generación de una Subasta de Conocimiento con IA.',
+    category: 'Subasta',
+    type: 'dinamica',
+    icon: Gavel,
+    bg: 'bg-gradient-to-br from-[#FFFBEB] to-[#FEF3C7] dark:from-amber-955/15 dark:to-slate-900 hover:border-amber-500/10',
+    iconBg: 'bg-amber-100 dark:bg-amber-955/30 text-amber-600 dark:text-amber-400'
+  },
+  {
+    key: 'detective_generator',
+    name: 'El Detective del Mapa',
+    description: 'Créditos consumidos por cada generación de pistas con IA en El Detective del Mapa.',
+    category: 'Detective',
+    type: 'dinamica',
+    icon: Compass,
+    bg: 'bg-gradient-to-br from-[#ECFDF5] to-[#D1FAE5] dark:from-emerald-950/20 dark:to-slate-900 hover:border-emerald-500/10',
+    iconBg: 'bg-emerald-100 dark:bg-emerald-950/30 text-emerald-600 dark:text-emerald-400'
+  },
+  {
+    key: 'impostor_generator',
+    name: 'El Impostor',
+    description: 'Créditos consumidos por cada generación de palabras clave y roles con IA en El Impostor.',
+    category: 'El Impostor',
+    type: 'dinamica',
+    icon: Fingerprint,
+    bg: 'bg-gradient-to-br from-[#F5E6FF] to-[#E0E7FF] dark:from-purple-950/20 dark:to-slate-900 hover:border-purple-500/10',
+    iconBg: 'bg-purple-100 dark:bg-purple-950/30 text-purple-600 dark:text-purple-400'
+  },
+  {
+    key: 'bomba_generator',
+    name: 'La Bomba de Tiempo',
+    description: 'Créditos consumidos por cada generación de preguntas con IA para La Bomba de Tiempo.',
+    category: 'Bomba Tiempo',
+    type: 'dinamica',
+    icon: Timer,
+    bg: 'bg-gradient-to-br from-[#FDF2F8] to-[#FBCFE8] dark:from-pink-950/20 dark:to-slate-900 hover:border-pink-500/10',
+    iconBg: 'bg-pink-100 dark:bg-pink-950/30 text-pink-650 dark:text-pink-400'
+  },
+  {
+    key: 'naval_generator',
+    name: 'Batalla Naval del Saber',
+    description: 'Créditos consumidos por cada generación de preguntas con IA para Batalla Naval del Saber.',
+    category: 'Batalla Naval',
+    type: 'dinamica',
+    icon: Anchor,
+    bg: 'bg-gradient-to-br from-[#ECFDF5] to-[#D1FAE5] dark:from-emerald-950/20 dark:to-slate-900 hover:border-emerald-500/10',
+    iconBg: 'bg-emerald-100 dark:bg-emerald-950/30 text-emerald-600 dark:text-emerald-400'
   }
 ];
 

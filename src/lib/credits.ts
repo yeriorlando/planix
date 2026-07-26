@@ -15,6 +15,11 @@ export interface CreditCosts {
   bajo_la_lluvia: number;       // Generar dinámica Bajo la Lluvia con IA
   mentira_generator: number;    // Generar dinámica Dos Verdades y una Mentira con IA
   rimando_ando: number;         // Generar dinámica Rimando Ando con IA
+  subasta_generator: number;    // Generar dinámica Subasta de Conocimiento con IA
+  detective_generator: number;  // Generar dinámica Detective del Mapa con IA
+  impostor_generator: number;   // Generar dinámica El Impostor con IA
+  bomba_generator: number;      // Generar dinámica La Bomba de Tiempo con IA
+  naval_generator: number;      // Generar dinámica Batalla Naval con IA
 }
 
 export const DEFAULT_CREDIT_COSTS: CreditCosts = {
@@ -31,6 +36,11 @@ export const DEFAULT_CREDIT_COSTS: CreditCosts = {
   bajo_la_lluvia: 15,
   mentira_generator: 15,
   rimando_ando: 15,
+  subasta_generator: 15,
+  detective_generator: 15,
+  impostor_generator: 15,
+  bomba_generator: 15,
+  naval_generator: 15,
 };
 
 const COSTS_KEY = "plx:credit_costs";

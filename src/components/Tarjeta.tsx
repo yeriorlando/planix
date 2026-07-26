@@ -1,7 +1,7 @@
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { Sparkles, FileText, Gamepad2, Puzzle, Disc, Award, Users } from 'lucide-react';
+import { Sparkles, FileText, Gamepad2, Puzzle, Disc, Award, Users, Map, HeartHandshake, Globe } from 'lucide-react';
 
 interface TarjetaProps {
   key?: React.Key;
@@ -25,7 +25,17 @@ export default function Tarjeta({ id, color, category, categoryIcon, rating, tit
     'bg-card-green': 'border-[#B2F0D1]',
   };
   const borderColor = borderColorMap[color] || 'border-white';
-  const WatermarkIcon = id === 'sopa-de-letras' ? Gamepad2 : id === 'crucigrama' ? Puzzle : id === 'ruleta' ? Disc : id === 'generador-diplomas' ? Award : id === 'generador-grupos' ? Users : FileText;
+  const WatermarkIcon = id === 'sopa-de-letras' ? Gamepad2 : id === 'crucigrama' ? Puzzle : id === 'ruleta' ? Disc : id === 'generador-diplomas' ? Award : id === 'generador-grupos' ? Users : id === 'recorridos-docentes' ? Map : id === 'apoyo-adicional' ? HeartHandshake : id === 'situaciones-aprendizaje' ? Globe : FileText;
+
+  const isBuiltInTool = id === 'generador-examenes' || 
+                        id === 'sopa-de-letras' || 
+                        id === 'crucigrama' || 
+                        id === 'ruleta' || 
+                        id === 'generador-diplomas' || 
+                        id === 'generador-grupos' ||
+                        id === 'recorridos-docentes' ||
+                        id === 'apoyo-adicional' ||
+                        id === 'situaciones-aprendizaje';
 
   return (
     <motion.div 
@@ -42,6 +52,12 @@ export default function Tarjeta({ id, color, category, categoryIcon, rating, tit
           navigate('/herramientas/generador-diplomas');
         } else if (id === 'generador-grupos') {
           navigate('/herramientas/generador-grupos');
+        } else if (id === 'recorridos-docentes') {
+          navigate('/herramientas/recorridos-docentes');
+        } else if (id === 'apoyo-adicional') {
+          navigate('/herramientas/apoyo-adicional');
+        } else if (id === 'situaciones-aprendizaje') {
+          navigate('/herramientas/situaciones-aprendizaje');
         } else {
           navigate(`/planificacion/${id || 1}`);
         }
@@ -64,7 +80,7 @@ export default function Tarjeta({ id, color, category, categoryIcon, rating, tit
         </div>
       </div>
       
-      {(id === 'generador-examenes' || id === 'sopa-de-letras' || id === 'crucigrama' || id === 'ruleta' || id === 'generador-diplomas' || id === 'generador-grupos') && (
+      {isBuiltInTool && (
         <div className="absolute right-[-10px] bottom-4 opacity-[0.08] pointer-events-none group-hover:scale-110 group-hover:opacity-[0.12] transition-all duration-500">
           <WatermarkIcon size={160} className="text-[#1B1B1B]" />
         </div>
@@ -72,7 +88,7 @@ export default function Tarjeta({ id, color, category, categoryIcon, rating, tit
       
       <div className="mt-auto relative z-10 w-full pt-4">
         <h3 className="text-[25px] leading-[1.2] tracking-[0.2px] font-semibold text-[#1B1B1B] mb-8 pr-4 flex items-start gap-2">
-          {(id === 'generador-examenes' || id === 'sopa-de-letras' || id === 'crucigrama' || id === 'ruleta' || id === 'generador-diplomas' || id === 'generador-grupos') && <Sparkles className="w-6 h-6 text-purple-600 mt-1 shrink-0" />}
+          {isBuiltInTool && <Sparkles className="w-6 h-6 text-purple-600 mt-1 shrink-0" />}
           <span>{title}</span>
         </h3>
         <div className="flex justify-between items-end w-full">

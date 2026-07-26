@@ -8,19 +8,19 @@ export default function LegalNoticePage() {
       title="Aviso Legal"
       subtitle="Información importante sobre el alcance y naturaleza de nuestro servicio."
     >
-      <div className="max-w-3xl mx-auto px-6 py-16">
-        <div className="space-y-12">
+      <div className="max-w-4xl mx-auto px-6 py-12 md:py-20">
+        <div className="space-y-8">
 
           {/* Disclaimer 1: Pedagogical Tool */}
-          <div className="bg-white dark:bg-zinc-900 p-8 rounded-3xl border border-slate-100 dark:border-zinc-850 shadow-xs flex flex-col sm:flex-row gap-6 items-start transition-all">
-            <div className="shrink-0 text-amber-500 bg-amber-50 dark:bg-amber-950/20 p-4 rounded-2xl border border-amber-100/50 dark:border-amber-900/30">
-              <AlertTriangle size={32} />
+          <div className="bg-white dark:bg-zinc-900 p-8 rounded-[2.5rem] border border-zinc-200/60 dark:border-zinc-800/60 shadow-sm flex flex-col md:flex-row gap-6 items-start hover:shadow-md transition-all duration-300">
+            <div className="w-14 h-14 rounded-full bg-amber-500/10 flex items-center justify-center shrink-0">
+              <AlertTriangle size={28} className="fill-amber-500/20 text-amber-600 dark:text-amber-400" />
             </div>
-            <div>
-              <h3 className="text-xl font-black text-slate-900 dark:text-white mb-3">Herramienta de Asistencia, no Sustituto</h3>
-              <div className="text-slate-600 dark:text-neutral-300 text-sm leading-relaxed space-y-3">
+            <div className="flex-1">
+              <h3 className="text-lg md:text-xl font-bold text-zinc-900 dark:text-white mb-3">Herramienta de Asistencia, no Sustituto</h3>
+              <div className="text-zinc-655 dark:text-zinc-400 text-sm leading-relaxed space-y-3">
                 <p>
-                  Planix es una herramienta tecnológica diseñada para <strong>asistir</strong> al docente en su labor de planificación. El contenido generado por nuestros algoritmos, aunque basado en el currículo oficial, debe ser siempre revisado, validado y contextualizado por el profesional de la educación.
+                  <strong>Planix</strong> es una herramienta tecnológica diseñada para <strong>asistir</strong> al docente en su labor de planificación. El contenido generado por nuestros algoritmos, aunque basado en el currículo oficial, debe ser siempre revisado, validado y contextualizado por el profesional de la educación.
                 </p>
                 <p>
                   La plataforma no sustituye el juicio pedagógico, la experiencia ni el conocimiento del maestro sobre las necesidades específicas de sus estudiantes.
@@ -30,15 +30,15 @@ export default function LegalNoticePage() {
           </div>
 
           {/* Disclaimer 2: MINERD Affiliation */}
-          <div className="bg-white dark:bg-zinc-900 p-8 rounded-3xl border border-slate-100 dark:border-zinc-850 shadow-xs flex flex-col sm:flex-row gap-6 items-start transition-all">
-            <div className="shrink-0 text-blue-500 bg-blue-50 dark:bg-blue-950/20 p-4 rounded-2xl border border-blue-100/50 dark:border-blue-900/30">
-              <Info size={32} />
+          <div className="bg-white dark:bg-zinc-900 p-8 rounded-[2.5rem] border border-zinc-200/60 dark:border-zinc-800/60 shadow-sm flex flex-col md:flex-row gap-6 items-start hover:shadow-md transition-all duration-300">
+            <div className="w-14 h-14 rounded-full bg-blue-500/10 flex items-center justify-center shrink-0">
+              <Info size={28} className="fill-blue-500/20 text-blue-650 dark:text-blue-400" />
             </div>
-            <div>
-              <h3 className="text-xl font-black text-slate-900 dark:text-white mb-3">Independencia Institucional</h3>
-              <div className="text-slate-600 dark:text-neutral-300 text-sm leading-relaxed space-y-3">
+            <div className="flex-1">
+              <h3 className="text-lg md:text-xl font-bold text-zinc-900 dark:text-white mb-3">Independencia Institucional</h3>
+              <div className="text-zinc-655 dark:text-zinc-400 text-sm leading-relaxed space-y-3">
                 <p>
-                  Planix es una iniciativa privada independiente y <strong>no está afiliada directamente</strong> con el Ministerio de Educación de la República Dominicana (MINERD).
+                  <strong>Planix</strong> es una iniciativa privada independiente y <strong>no está afiliada directamente</strong> con el Ministerio de Educación de la República Dominicana (MINERD).
                 </p>
                 <p>
                   Hacemos referencia a documentos oficiales (Diseño Curricular, Adecuación Curricular, Programa CON BASE) exclusivamente como fuente de datos para asegurar que las herramientas sean útiles y pertinentes para el sistema educativo nacional, bajo los principios de acceso a la información pública.
@@ -48,13 +48,13 @@ export default function LegalNoticePage() {
           </div>
 
           {/* Disclaimer 3: Content Accuracy */}
-          <div className="bg-slate-50 dark:bg-zinc-900/30 p-8 rounded-3xl border border-slate-150 dark:border-zinc-850/80 flex flex-col sm:flex-row gap-6 items-start transition-all">
-            <div className="shrink-0 text-rose-500 bg-rose-50 dark:bg-rose-950/20 p-4 rounded-2xl border border-rose-100/50 dark:border-rose-900/30">
-              <ShieldAlert size={32} />
+          <div className="bg-white dark:bg-zinc-900 p-8 rounded-[2.5rem] border border-zinc-200/60 dark:border-zinc-800/60 shadow-sm flex flex-col md:flex-row gap-6 items-start hover:shadow-md transition-all duration-300">
+            <div className="w-14 h-14 rounded-full bg-rose-500/10 flex items-center justify-center shrink-0">
+              <ShieldAlert size={28} className="fill-rose-500/20 text-rose-600 dark:text-rose-455" />
             </div>
-            <div>
-              <h3 className="text-xl font-black text-slate-900 dark:text-white mb-3">Exactitud de la Información</h3>
-              <div className="text-slate-600 dark:text-neutral-300 text-sm leading-relaxed space-y-3">
+            <div className="flex-1">
+              <h3 className="text-lg md:text-xl font-bold text-zinc-900 dark:text-white mb-3">Exactitud de la Información</h3>
+              <div className="text-zinc-655 dark:text-zinc-400 text-sm leading-relaxed space-y-3">
                 <p>
                   Aunque nos esforzamos por mantener nuestra base de datos actualizada con las últimas normativas y mallas curriculares, la educación es un campo en constante evolución. No garantizamos que toda la información disponible en la plataforma esté libre de errores o completamente actualizada al día de hoy.
                 </p>

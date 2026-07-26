@@ -1,6 +1,8 @@
 import React from 'react';
 import PrintLayoutPrimaria from './PrintLayoutPrimaria';
 import PrintLayoutSecundaria from './PrintLayoutSecundaria';
+import PrintLayoutTaller from './PrintLayoutTaller';
+
 
 interface PrintLayoutProps {
   formData: any;
@@ -52,6 +54,9 @@ export default function PrintLayout({
   let titleSuffix = isConBase ? 'PLANIFICACIÓN CON BASE' : 'PLANIFICACIÓN CURRICULAR';
   if (isUpperPrimary && isMatOrLengua) {
     titleSuffix = 'SECUENCIAS DIDÁCTICAS';
+  }
+  if (formData?.isTaller || planningType === 'TALLER') {
+    titleSuffix = 'TALLER PEDAGÓGICO';
   }
 
   let displayGrade = formData?.grado || '---';
@@ -131,30 +136,61 @@ export default function PrintLayout({
             </div>
           </div>
 
-          <div className="grid grid-cols-12 text-xs border-t border-neutral-400">
-            <div className={`${showPeriodo ? 'col-span-3' : 'col-span-4'} p-2 border-r border-neutral-400`}>
-              <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">ÁREA:</span>
-              <div className="font-semibold text-neutral-800">{displaySubject}</div>
-            </div>
-            <div className={`${showPeriodo ? 'col-span-3' : 'col-span-4'} p-2 border-r border-neutral-400`}>
-              <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">{(!isUnit && !isSecundaria && (isMatOrLengua || /lengua|matem[aá]tica|español/i.test(displaySubject || ''))) ? 'SECUENCIA:' : 'UNIDAD:'}</span>
-              <div className="font-semibold text-neutral-800">{sequenceTitle || formData.secuencia || formData.titulo || '---'}</div>
-            </div>
-            {showPeriodo && (
+          {formData?.isTaller || planningType === 'TALLER' ? (
+            <div className="grid grid-cols-12 text-xs border-t border-neutral-400">
               <div className="col-span-3 p-2 border-r border-neutral-400">
-                <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">PERIODO:</span>
-                <div className="font-semibold text-neutral-800">{periodo}</div>
+                <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">TEMA:</span>
+                <div className="font-semibold text-neutral-800">{formData.tema || '---'}</div>
               </div>
-            )}
-            <div className={`${showPeriodo ? 'col-span-3' : 'col-span-4'} p-2`}>
-              <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">FECHA:</span>
-              <div className="font-semibold text-neutral-800">{formatDate(formData.fecha)}</div>
+              <div className="col-span-3 p-2 border-r border-neutral-400">
+                <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">TÍTULO DE LA CLASE:</span>
+                <div className="font-semibold text-neutral-800">{formData.titulo || '---'}</div>
+              </div>
+              <div className="col-span-3 p-2 border-r border-neutral-400">
+                <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">DURACIÓN:</span>
+                <div className="font-semibold text-neutral-800">{formData.duracion_minutos ? `${formData.duracion_minutos} minutos` : '---'}</div>
+              </div>
+              <div className="col-span-3 p-2">
+                <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">FECHA:</span>
+                <div className="font-semibold text-neutral-800">{formatDate(formData.fecha)}</div>
+              </div>
             </div>
-          </div>
+          ) : (
+            <div className="grid grid-cols-12 text-xs border-t border-neutral-400">
+              <div className={`${showPeriodo ? 'col-span-3' : 'col-span-4'} p-2 border-r border-neutral-400`}>
+                <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">ÁREA:</span>
+                <div className="font-semibold text-neutral-800">{displaySubject}</div>
+              </div>
+              <div className={`${showPeriodo ? 'col-span-3' : 'col-span-4'} p-2 border-r border-neutral-400`}>
+                <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">{(!isUnit && !isSecundaria && (isMatOrLengua || /lengua|matem[aá]tica|español/i.test(displaySubject || ''))) ? 'SECUENCIA:' : 'UNIDAD:'}</span>
+                <div className="font-semibold text-neutral-800">{sequenceTitle || formData.secuencia || formData.titulo || '---'}</div>
+              </div>
+              {showPeriodo && (
+                <div className="col-span-3 p-2 border-r border-neutral-400">
+                  <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">PERIODO:</span>
+                  <div className="font-semibold text-neutral-800">{periodo}</div>
+                </div>
+              )}
+              <div className={`${showPeriodo ? 'col-span-3' : 'col-span-4'} p-2`}>
+                <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">FECHA:</span>
+                <div className="font-semibold text-neutral-800">{formatDate(formData.fecha)}</div>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Delegar contenido según Nivel Educativo */}
-        {isSecundaria ? (
+        {formData?.isTaller || planningType === 'TALLER' ? (
+          <PrintLayoutTaller
+            formData={formData}
+            formType={formType}
+            subjectName={subjectName}
+            sequenceTitle={sequenceTitle}
+            blockTitle={blockTitle}
+            orientation={orientation}
+            planningType={planningType}
+          />
+        ) : isSecundaria ? (
           <PrintLayoutSecundaria
             formData={formData}
             formType={formType}

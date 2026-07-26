@@ -54,7 +54,16 @@ import {
   Activity,
   Target,
   Star,
-  Play
+  Play,
+  Shield,
+  ShieldCheck,
+  ClipboardCheck,
+  Cloud,
+  GraduationCap,
+  Sliders,
+  Laptop,
+  BarChart3,
+  LogIn
 } from 'lucide-react';
 import { getCurrentUser } from '../lib/storage';
 import DRMap from '../components/planix/DRMap';
@@ -209,134 +218,24 @@ const ALL_FEATURES = [
 ];
 
 const NAV_ITEMS = [
-  { href: "#features", label: "Módulos" },
-  { href: "#planes", label: "Planes" },
-  { href: "#faq", label: "Preguntas" },
+  { href: "#que-es", label: "¿Qué es?" },
+  { href: "#features", label: "Herramientas" },
+  { href: "#registro-digital", label: "Registro Digital" },
+  { href: "#mapa", label: "Mapa Curricular" },
+  { href: "#comunidad", label: "Comunidad" },
 ];
 
-// --- Dashboard Mockup ---
-function DashboardMockup() {
-  const [activeTab, setActiveTab] = useState<'plan' | 'exam' | 'assist'>('plan');
 
-  return (
-    <div className="w-full bg-white dark:bg-zinc-900 rounded-2xl border border-zinc-200/80 dark:border-zinc-800 shadow-2xl shadow-[#02327e]/10 dark:shadow-black/30 overflow-hidden text-left font-sans select-none">
-      {/* Top Window bar */}
-      <div className="bg-zinc-50 dark:bg-zinc-950 px-5 py-3.5 flex items-center justify-between border-b border-zinc-200/80 dark:border-zinc-800">
-        <div className="flex items-center gap-1.5">
-          <div className="w-3 h-3 rounded-full bg-red-400" />
-          <div className="w-3 h-3 rounded-full bg-amber-400" />
-          <div className="w-3 h-3 rounded-full bg-emerald-400" />
-        </div>
-        <div className="text-[11px] text-zinc-400 dark:text-zinc-500 font-semibold bg-zinc-100 dark:bg-zinc-800 px-4 py-1 rounded-md">
-          app.planix.do
-        </div>
-        <div className="w-14" />
-      </div>
 
-      {/* Main Mockup Area */}
-      <div className="flex min-h-[340px]">
-        {/* Sidebar */}
-        <div className="w-[70px] sm:w-[150px] bg-zinc-50/80 dark:bg-zinc-950/50 p-3 flex flex-col gap-1.5 border-r border-zinc-100 dark:border-zinc-800">
-          <div className="h-5 w-16 bg-zinc-200/50 dark:bg-zinc-800 rounded mb-4 hidden sm:block" />
-          <button
-            className={`p-2.5 rounded-xl flex items-center gap-2 text-xs font-semibold transition-all cursor-pointer ${activeTab === 'plan' ? 'bg-[#02327e] text-white shadow-md shadow-[#02327e]/20' : 'text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800'}`}
-            onClick={() => setActiveTab('plan')}
-          >
-            <BookOpen size={14} />
-            <span className="hidden sm:inline">Planificación</span>
-          </button>
-          <button
-            className={`p-2.5 rounded-xl flex items-center gap-2 text-xs font-semibold transition-all cursor-pointer ${activeTab === 'exam' ? 'bg-[#02327e] text-white shadow-md shadow-[#02327e]/20' : 'text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800'}`}
-            onClick={() => setActiveTab('exam')}
-          >
-            <Award size={14} />
-            <span className="hidden sm:inline">Exámenes</span>
-          </button>
-          <button
-            className={`p-2.5 rounded-xl flex items-center gap-2 text-xs font-semibold transition-all cursor-pointer ${activeTab === 'assist' ? 'bg-[#02327e] text-white shadow-md shadow-[#02327e]/20' : 'text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800'}`}
-            onClick={() => setActiveTab('assist')}
-          >
-            <MessageSquare size={14} />
-            <span className="hidden sm:inline">Comunidad</span>
-          </button>
-        </div>
-
-        {/* Content Panel */}
-        <div className="flex-1 p-5 bg-white dark:bg-zinc-900 relative overflow-hidden">
-          <AnimatePresence mode="wait">
-            {activeTab === 'plan' && (
-              <motion.div key="plan" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-3.5">
-                <div className="flex items-center justify-between">
-                  <span className="text-[10px] font-bold bg-[#02327e]/10 text-[#02327e] dark:text-blue-300 px-3 py-1 rounded-full uppercase tracking-wider">Generador Inteligente</span>
-                  <span className="text-[10px] bg-emerald-50 dark:bg-emerald-950/30 text-emerald-600 dark:text-emerald-400 px-2.5 py-0.5 rounded-full font-semibold border border-emerald-200/50 dark:border-emerald-800/30">MINERD 2026</span>
-                </div>
-                <h4 className="text-sm font-bold text-zinc-900 dark:text-white">Planificación de Unidad — Lengua Española</h4>
-                <div className="p-3.5 bg-zinc-50 dark:bg-zinc-950/50 rounded-xl border border-zinc-100 dark:border-zinc-800 space-y-2">
-                  <div className="flex items-center justify-between text-[11px]">
-                    <span className="text-zinc-500">Tema: La Receta (4to Primaria)</span>
-                    <span className="text-[#02b36d] font-semibold">Alineado ✓</span>
-                  </div>
-                  <p className="text-[11px] text-zinc-600 dark:text-zinc-400 leading-relaxed italic">
-                    "Generar actividades DUA enfocadas en la elaboración de platos típicos dominicanos, evaluando competencias específicas de comprensión oral y producción escrita."
-                  </p>
-                </div>
-                <button className="w-full py-2.5 bg-gradient-to-r from-[#02327e] to-[#02327e]/90 hover:from-[#02327e]/95 hover:to-[#02327e] text-white text-[11px] font-semibold rounded-xl flex items-center justify-center gap-1.5 shadow-md shadow-[#02327e]/20 transition-all cursor-pointer active:scale-[0.98]">
-                  <Sparkles size={12} /> Generar Plan con IA
-                </button>
-              </motion.div>
-            )}
-
-            {activeTab === 'exam' && (
-              <motion.div key="exam" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-3.5">
-                <div className="flex items-center justify-between">
-                  <span className="text-[10px] font-bold bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-300 px-3 py-1 rounded-full uppercase tracking-wider">Evaluaciones</span>
-                  <span className="text-[10px] bg-purple-50 dark:bg-purple-950/30 text-purple-600 dark:text-purple-400 px-2.5 py-0.5 rounded-full font-semibold border border-purple-200/50 dark:border-purple-800/30">Listo para Imprimir</span>
-                </div>
-                <h4 className="text-sm font-bold text-zinc-900 dark:text-white">Generar Examen con IA</h4>
-                <div className="grid grid-cols-2 gap-2.5">
-                  <div className="p-3 bg-zinc-50 dark:bg-zinc-950/50 rounded-xl border border-zinc-100 dark:border-zinc-800 text-center text-xs">
-                    <span className="block font-semibold text-zinc-800 dark:text-zinc-200">10 Preguntas</span>
-                    <span className="text-[9px] text-zinc-400">Opción Múltiple</span>
-                  </div>
-                  <div className="p-3 bg-zinc-50 dark:bg-zinc-950/50 rounded-xl border border-zinc-100 dark:border-zinc-800 text-center text-xs">
-                    <span className="block font-semibold text-zinc-800 dark:text-zinc-200">Hoja de Respuestas</span>
-                    <span className="text-[9px] text-zinc-400">Para el docente</span>
-                  </div>
-                </div>
-                <div className="p-3 bg-zinc-50 dark:bg-zinc-950/50 rounded-xl border border-zinc-100 dark:border-zinc-800 text-[11px] text-zinc-500 dark:text-zinc-400 space-y-1">
-                  <div className="flex gap-1.5"><span className="text-[#02327e] dark:text-blue-400 font-bold">1.</span> ¿Cuál es la función principal de un título en una receta?</div>
-                  <div className="flex gap-1.5"><span className="text-[#02327e] dark:text-blue-400 font-bold">2.</span> Identifica los verbos en modo imperativo en el texto...</div>
-                </div>
-              </motion.div>
-            )}
-
-            {activeTab === 'assist' && (
-              <motion.div key="assist" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-3">
-                <span className="text-[10px] font-bold bg-amber-50 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300 px-3 py-1 rounded-full uppercase tracking-wider">Comunidad Docente</span>
-                <div className="p-4 bg-zinc-50 dark:bg-zinc-950/50 rounded-xl border border-zinc-100 dark:border-zinc-800 space-y-3">
-                  <div className="flex items-center gap-2.5">
-                    <div className="w-8 h-8 rounded-full bg-gradient-to-br from-[#02327e] to-[#02b36d] flex items-center justify-center text-[10px] font-bold text-white">MP</div>
-                    <div>
-                      <h5 className="text-xs font-semibold text-zinc-800 dark:text-zinc-200 leading-none">Mtra. María Pérez</h5>
-                      <span className="text-[9px] text-zinc-400">Distrito 15-02</span>
-                    </div>
-                  </div>
-                  <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                    ¿Alguien tiene recursos DUA para trabajar fracciones en 5to grado? ¡Los compartidos por el MINERD están un poco pesados!
-                  </p>
-                  <div className="flex items-center gap-4 text-[10px] text-zinc-400 pt-1">
-                    <span className="flex items-center gap-1 hover:text-[#02327e] cursor-pointer transition-colors"><ThumbsUp size={10} /> 14</span>
-                    <span className="flex items-center gap-1 hover:text-[#02327e] cursor-pointer transition-colors"><MessageSquare size={10} /> 5 comentarios</span>
-                  </div>
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </div>
-      </div>
-    </div>
-  );
-}
+const getFeatureIconClass = (gradient: string) => {
+  if (gradient.includes("blue") || gradient.includes("indigo")) return "fill-blue-500/10 text-blue-600 dark:text-blue-400";
+  if (gradient.includes("purple") || gradient.includes("violet")) return "fill-purple-500/10 text-purple-600 dark:text-purple-400";
+  if (gradient.includes("cyan") || gradient.includes("sky")) return "fill-cyan-500/10 text-cyan-600 dark:text-cyan-400";
+  if (gradient.includes("emerald") || gradient.includes("teal") || gradient.includes("green") || gradient.includes("lime")) return "fill-emerald-500/10 text-[#02b36d] dark:text-emerald-450";
+  if (gradient.includes("orange") || gradient.includes("amber") || gradient.includes("yellow")) return "fill-amber-500/10 text-amber-600 dark:text-amber-400";
+  if (gradient.includes("pink") || gradient.includes("rose") || gradient.includes("red")) return "fill-rose-500/10 text-rose-600 dark:text-rose-400";
+  return "fill-zinc-500/10 text-zinc-600 dark:text-zinc-400";
+};
 
 // --- Main Landing Page ---
 export default function LandingPage() {
@@ -347,22 +246,7 @@ export default function LandingPage() {
   const user = getCurrentUser();
   const navigate = useNavigate();
 
-  const [titleNumber, setTitleNumber] = useState(0);
-  const titles = useMemo(
-    () => ["potenciada", "inteligente", "dinámica", "organizada", "eficiente"],
-    []
-  );
 
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      if (titleNumber === titles.length - 1) {
-        setTitleNumber(0);
-      } else {
-        setTitleNumber(titleNumber + 1);
-      }
-    }, 2000);
-    return () => clearTimeout(timeoutId);
-  }, [titleNumber, titles]);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -380,7 +264,7 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-zinc-950 font-sans text-zinc-900 dark:text-zinc-100 overflow-x-hidden relative">
+    <div className="min-h-screen bg-bg-base font-sans text-zinc-900 dark:text-zinc-100 overflow-x-hidden relative">
 
       {/* ══════════════════════════════════════════════════════════════════
           STICKY NAVBAR — Glassmorphism
@@ -392,11 +276,11 @@ export default function LandingPage() {
               ? 'bg-white/80 dark:bg-zinc-900/80 backdrop-blur-xl shadow-lg shadow-zinc-900/5 dark:shadow-black/20 border border-zinc-200/60 dark:border-zinc-800/60'
               : 'bg-white/50 dark:bg-zinc-900/40 backdrop-blur-md border border-zinc-200/30 dark:border-zinc-800/30'
           }`}>
-            <div className="flex items-center gap-3">
-              <PlatformLogo className="h-14 md:h-16" />
-            </div>
+            <Link to="/" className="flex items-center gap-3 shrink-0 cursor-pointer">
+              <PlatformLogo className="h-16 md:h-16" />
+            </Link>
 
-            <nav className="hidden lg:flex items-center gap-7 text-sm font-semibold text-zinc-600 dark:text-zinc-300">
+            <nav className="hidden lg:flex items-center gap-7 text-sm font-semibold text-zinc-650 dark:text-zinc-300">
               {NAV_ITEMS.map((item) => (
                 <a
                   key={item.href}
@@ -409,16 +293,18 @@ export default function LandingPage() {
             </nav>
 
             <div className="flex items-center gap-2.5">
-              <Link to="/login">
-                <button className="px-4 py-2 text-sm font-semibold text-zinc-600 dark:text-zinc-300 hover:text-[#02327e] dark:hover:text-blue-400 transition-colors cursor-pointer">
-                  Iniciar Sesión
-                </button>
-              </Link>
-              <Link to="/registro">
-                <button className="px-5 py-2.5 bg-gradient-to-r from-[#02327e] to-[#02327e]/90 hover:from-[#02327e]/95 hover:to-[#02327e] text-white font-semibold text-sm rounded-xl shadow-md shadow-[#02327e]/20 hover:shadow-lg hover:shadow-[#02327e]/25 active:scale-[0.97] transition-all cursor-pointer">
-                  Comenzar Gratis
-                </button>
-              </Link>
+              <div className="hidden lg:flex items-center gap-2.5">
+                <Link to="/login">
+                  <button className="px-4 py-2 bg-[#02b36d] hover:bg-[#029a5e] text-white font-semibold text-sm rounded-xl transition-all cursor-pointer active:scale-[0.97] flex items-center justify-center gap-1.5 shadow-none">
+                    <LogIn size={14} /> Iniciar Sesión
+                  </button>
+                </Link>
+                <Link to="/registro">
+                  <button className="px-4 py-2 bg-[#02327e] hover:bg-[#012563] text-white font-semibold text-sm rounded-xl transition-all cursor-pointer active:scale-[0.97] flex items-center justify-center gap-1.5 shadow-none">
+                    Comenzar Gratis <ArrowRight size={14} />
+                  </button>
+                </Link>
+              </div>
               <button onClick={() => setMobileOpen(true)} className="rounded-xl border border-zinc-200 dark:border-zinc-700 p-2.5 hover:bg-zinc-50 dark:hover:bg-zinc-800 lg:hidden cursor-pointer transition-colors">
                 <Menu className="h-4 w-4" />
               </button>
@@ -449,10 +335,12 @@ export default function LandingPage() {
             >
               <div>
                 <div className="flex justify-between items-center pb-6 border-b border-zinc-100 dark:border-zinc-800">
-                  <PlatformLogo className="h-14" />
+                  <Link to="/" onClick={() => setMobileOpen(false)} className="cursor-pointer">
+                    <PlatformLogo className="h-14" />
+                  </Link>
                   <button
                     onClick={() => setMobileOpen(false)}
-                    className="rounded-xl border border-zinc-200 dark:border-zinc-700 p-2.5 text-zinc-500 hover:bg-zinc-50 dark:hover:bg-zinc-800 transition cursor-pointer"
+                    className="rounded-full bg-red-500 hover:bg-red-605 p-2 text-white transition cursor-pointer flex items-center justify-center shadow-md shadow-red-500/10 border-0"
                   >
                     <X className="h-4 w-4" />
                   </button>
@@ -497,224 +385,712 @@ export default function LandingPage() {
       {/* ══════════════════════════════════════════════════════════════════
           HERO SECTION
       ═══════════════════════════════════════════════════════════════════ */}
-      <section className="relative overflow-hidden pt-28 pb-20 lg:pt-36 lg:pb-28 px-6">
-        {/* Gradient Background Blobs */}
-        <div className="absolute top-20 left-[10%] w-[500px] h-[500px] bg-[#02327e]/8 dark:bg-[#02327e]/5 blur-[120px] rounded-full pointer-events-none" />
-        <div className="absolute bottom-0 right-[10%] w-[400px] h-[400px] bg-[#02b36d]/8 dark:bg-[#02b36d]/5 blur-[120px] rounded-full pointer-events-none" />
-        <div className="absolute top-1/3 right-1/4 w-[300px] h-[300px] bg-purple-500/5 blur-[100px] rounded-full pointer-events-none" />
+      <section className="relative overflow-hidden pt-28 pb-4 lg:pt-36 lg:pb-4 px-6 bg-bg-base">
+        {/* Soft Decorative background circle */}
+        <div className="absolute top-[20%] right-[-10%] w-[600px] h-[600px] bg-blue-100/30 rounded-full blur-[100px] pointer-events-none" />
 
         <div className="max-w-7xl mx-auto relative">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
 
             {/* Left Column */}
-            <div className="lg:col-span-6 flex flex-col items-start text-left gap-5 z-20">
-
-              {/* Badge */}
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#02b36d]/10 dark:bg-[#02b36d]/15 rounded-full text-[#02b36d] font-semibold text-xs tracking-wide border border-[#02b36d]/20">
-                <MapPin className="w-3.5 h-3.5" />
-                República Dominicana
-              </div>
+            <div className="lg:col-span-6 flex flex-col items-start text-left gap-6 z-20">
 
               {/* Headline */}
-              <div className="w-full">
-                <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] xl:text-[4.25rem] font-extrabold tracking-tight leading-[1.08]">
-                  <span className="text-zinc-900 dark:text-white">Tu enseñanza,</span>
-                  <br />
-                  <span className="relative flex justify-start text-left h-[50px] sm:h-[60px] lg:h-[70px] w-full">
-                    {titles.map((title, index) => (
-                      <motion.span
-                        key={index}
-                        className="absolute bg-gradient-to-r from-[#02327e] to-[#02b36d] bg-clip-text text-transparent"
-                        initial={{ opacity: 0, y: "-100%" }}
-                        transition={{ type: "spring", stiffness: 50 }}
-                        animate={
-                          titleNumber === index
-                            ? { y: 0, opacity: 1 }
-                            : { y: titleNumber > index ? -150 : 150, opacity: 0 }
-                        }
-                      >
-                        {title}.
-                      </motion.span>
-                    ))}
-                  </span>
-                </h1>
-              </div>
+              <h1 className="text-4xl sm:text-5xl lg:text-[3rem] xl:text-[3.6rem] font-extrabold tracking-tight leading-[1.12] text-zinc-900 dark:text-white">
+                La plataforma integral <br />
+                que potencia la labor <br />
+                <span className="text-[#02b36d]">docente</span> cada día.
+              </h1>
 
               {/* Subtext */}
-              <p className="text-base sm:text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-xl">
-                El ecosistema integral que acompaña al docente dominicano: desde planeación inteligente con IA hasta recursos creativos y gestión dinámica de tu aula.
+              <p className="text-base sm:text-lg text-zinc-500 dark:text-zinc-400 leading-relaxed max-w-xl font-medium">
+                Planifica, organiza, evalúa y dinamiza tus clases desde un solo lugar, de forma fácil y eficiente.
               </p>
 
-              {/* Email Signup Form */}
-              <form onSubmit={handleQuickRegister} className="w-full max-w-lg mt-1">
-                <div className="flex flex-col sm:flex-row items-stretch bg-zinc-50 dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 rounded-2xl sm:rounded-full p-1.5 shadow-sm focus-within:shadow-md focus-within:border-[#02327e]/30 transition-all">
-                  <div className="flex items-center flex-1 px-4 py-3 sm:py-0">
-                    <Mail className="text-zinc-400 mr-2.5 h-4.5 w-4.5 shrink-0" />
-                    <input
-                      type="email"
-                      placeholder="Correo electrónico"
-                      value={emailInput}
-                      onChange={(e) => setEmailInput(e.target.value)}
-                      className="bg-transparent border-0 outline-none text-zinc-800 dark:text-zinc-200 placeholder-zinc-400 font-medium text-sm w-full focus:ring-0"
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    className="bg-gradient-to-r from-[#02327e] to-[#02327e]/90 hover:from-[#02327e]/95 hover:to-[#02327e] text-white font-semibold px-6 py-3 rounded-xl sm:rounded-full flex items-center justify-center gap-1.5 transition-all shadow-md shadow-[#02327e]/15 active:scale-[0.97] cursor-pointer text-sm shrink-0"
-                  >
-                    Registrarse Gratis <ArrowRight size={14} strokeWidth={2.5} />
+              {/* Mobile CTA Buttons */}
+              <div className="flex flex-row gap-3 w-full mt-2 lg:hidden">
+                <Link to="/registro" className="flex-1">
+                  <button className="w-full py-3.5 px-4 bg-[#02327e] hover:bg-[#012563] text-white font-bold text-sm rounded-xl transition-all cursor-pointer active:scale-[0.97] flex items-center justify-center gap-1.5 shadow-md shadow-[#02327e]/10">
+                    Comenzar Gratis <ArrowRight size={14} />
                   </button>
-                </div>
-              </form>
+                </Link>
+                <Link to="/login" className="flex-1">
+                  <button className="w-full py-3.5 px-4 bg-[#02b36d] hover:bg-[#029a5e] text-white font-bold text-sm rounded-xl transition-all cursor-pointer active:scale-[0.97] flex items-center justify-center gap-1.5 shadow-none">
+                    <LogIn size={14} /> Iniciar Sesión
+                  </button>
+                </Link>
+              </div>
 
-              {/* Trust Indicators */}
-              <div className="flex flex-wrap gap-x-5 gap-y-1.5 text-xs text-zinc-500 font-medium">
-                <span className="flex items-center gap-1.5"><Check size={14} className="text-[#02b36d]" /> No requiere tarjeta</span>
-                <span className="flex items-center gap-1.5"><Check size={14} className="text-[#02b36d]" /> Adecuación Curricular MINERD</span>
-                <span className="flex items-center gap-1.5"><Check size={14} className="text-[#02b36d]" /> DUA Integrado</span>
+              {/* 4 circular characteristic badges */}
+              <div className="grid grid-cols-4 gap-2 sm:gap-4 w-full pt-2">
+                <div className="flex flex-col items-center text-center gap-2">
+                  <div className="w-16 h-16 rounded-full bg-indigo-500/10 text-indigo-650 dark:text-indigo-400 flex items-center justify-center shrink-0">
+                    <Brain size={28} className="fill-indigo-500/20" />
+                  </div>
+                  <span className="text-xs sm:text-[13px] font-extrabold text-zinc-800 dark:text-zinc-200 leading-tight mt-1">
+                    Planificaciones<br />Inteligentes
+                  </span>
+                </div>
+                <div className="flex flex-col items-center text-center gap-2">
+                  <div className="w-16 h-16 rounded-full bg-emerald-500/10 text-emerald-650 dark:text-emerald-400 flex items-center justify-center shrink-0">
+                    <School size={28} className="fill-emerald-500/20" />
+                  </div>
+                  <span className="text-xs sm:text-[13px] font-extrabold text-zinc-800 dark:text-zinc-200 leading-tight mt-1">
+                    Aula Virtual<br />Completa
+                  </span>
+                </div>
+                <div className="flex flex-col items-center text-center gap-2">
+                  <div className="w-16 h-16 rounded-full bg-amber-500/10 text-amber-650 dark:text-amber-400 flex items-center justify-center shrink-0">
+                    <Smile size={28} className="fill-amber-500/20" />
+                  </div>
+                  <span className="text-xs sm:text-[13px] font-extrabold text-zinc-800 dark:text-zinc-200 leading-tight mt-1">
+                    Dinámicas<br />para el Aula
+                  </span>
+                </div>
+                <div className="flex flex-col items-center text-center gap-2">
+                  <div className="w-16 h-16 rounded-full bg-purple-500/10 text-purple-650 dark:text-purple-400 flex items-center justify-center shrink-0">
+                    <FileText size={28} className="fill-purple-500/20" />
+                  </div>
+                  <span className="text-xs sm:text-[13px] font-extrabold text-zinc-800 dark:text-zinc-200 leading-tight mt-1">
+                    Todo en un<br />solo lugar
+                  </span>
+                </div>
+              </div>
+
+              {/* Security badge (Clean inline style) */}
+              <div className="inline-flex items-center gap-3 mt-6 text-zinc-700 dark:text-zinc-300">
+                <div className="w-9 h-9 bg-blue-500/10 text-blue-650 dark:text-blue-450 rounded-full flex items-center justify-center shrink-0">
+                  <ShieldCheck size={18} className="fill-blue-500/20" />
+                </div>
+                <span className="text-xs sm:text-sm font-bold">
+                  Seguro, confiable y pensado para docentes como tú.
+                </span>
               </div>
             </div>
 
-            {/* Right Column: Dashboard Mockup */}
+            {/* Right Column: Laptop Mockup */}
             <div className="lg:col-span-6 relative w-full flex items-center justify-center pt-8 lg:pt-0">
+              {/* ── Rich decorative elements around the laptop ── */}
 
-              {/* Floating Cards */}
-              <motion.div
-                className="hidden xl:block absolute left-[-30px] top-[15px] z-20 max-w-[190px] bg-white dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 p-3.5 rounded-xl shadow-lg shadow-zinc-900/5 dark:shadow-black/20 text-left -rotate-3 select-none"
-                animate={{ y: [0, -8, 0] }}
-                transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
-              >
-                <div className="flex items-center gap-1.5 mb-1.5">
-                  <span className="text-[9px] font-bold uppercase tracking-wider text-zinc-400">Plan Diario</span>
-                  <span className="text-[9px] bg-[#02327e]/10 text-[#02327e] dark:text-blue-300 px-1.5 py-0.5 rounded-md font-semibold ml-auto">MINERD</span>
+              {/* Large soft gradient glow behind */}
+              <div className="absolute w-[90%] h-[90%] rounded-full bg-gradient-to-tr from-[#02327e]/8 via-purple-400/5 to-[#02b36d]/8 blur-3xl pointer-events-none -z-10" />
+
+              {/* Dotted grid pattern */}
+              <div className="absolute inset-0 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] dark:bg-[radial-gradient(#334155_1px,transparent_1px)] [background-size:18px_18px] opacity-50 pointer-events-none -z-10 rounded-3xl" />
+
+              {/* Top-right: decorative ring */}
+              <div className="absolute -top-6 -right-4 w-16 h-16 rounded-full border-2 border-dashed border-[#02327e]/20 pointer-events-none z-0" />
+              <div className="absolute -top-3 -right-1 w-10 h-10 rounded-full border border-[#02b36d]/15 pointer-events-none z-0" />
+
+              {/* Top-left: small colored circles cluster */}
+              <div className="absolute top-4 -left-6 w-3 h-3 rounded-full bg-[#02327e]/25 pointer-events-none z-0" />
+              <div className="absolute top-10 -left-3 w-2 h-2 rounded-full bg-[#02b36d]/30 pointer-events-none z-0" />
+              <div className="absolute top-1 -left-2 w-1.5 h-1.5 rounded-full bg-amber-400/40 pointer-events-none z-0" />
+
+              {/* Top-right: scattered micro dots */}
+              <div className="absolute top-8 -right-8 w-2.5 h-2.5 rounded-full bg-purple-400/25 pointer-events-none z-0" />
+              <div className="absolute top-16 -right-5 w-1.5 h-1.5 rounded-full bg-[#02327e]/20 pointer-events-none z-0" />
+
+              {/* Left side: decorative plus/cross marks */}
+              <svg className="absolute top-[30%] -left-10 w-5 h-5 text-[#02327e]/20 pointer-events-none z-0" viewBox="0 0 20 20" fill="none">
+                <line x1="10" y1="2" x2="10" y2="18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                <line x1="2" y1="10" x2="18" y2="10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+              </svg>
+              <svg className="absolute top-[55%] -left-6 w-3.5 h-3.5 text-[#02b36d]/20 pointer-events-none z-0" viewBox="0 0 20 20" fill="none">
+                <line x1="10" y1="2" x2="10" y2="18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                <line x1="2" y1="10" x2="18" y2="10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+              </svg>
+
+              {/* Right side: decorative diamond and square */}
+              <div className="absolute top-[40%] -right-7 w-3 h-3 rotate-45 border border-[#02327e]/20 pointer-events-none z-0" />
+              <div className="absolute top-[60%] -right-4 w-2 h-2 rounded-sm bg-amber-400/20 pointer-events-none z-0" />
+
+              {/* Bottom-left: arc and dots */}
+              <svg className="absolute bottom-6 -left-8 w-14 h-14 text-[#02327e]/15 pointer-events-none z-0" viewBox="0 0 56 56" fill="none">
+                <path d="M 8,48 Q 8,8 48,8" stroke="currentColor" strokeWidth="1.5" strokeDasharray="4,4" strokeLinecap="round" />
+              </svg>
+              <div className="absolute bottom-4 -left-3 w-2 h-2 rounded-full bg-rose-400/25 pointer-events-none z-0" />
+              <div className="absolute bottom-10 -left-5 w-1.5 h-1.5 rounded-full bg-[#02b36d]/30 pointer-events-none z-0" />
+
+              {/* Bottom-right: zigzag line + circles */}
+              <svg className="absolute -bottom-4 -right-6 w-16 h-10 text-[#02b36d]/15 pointer-events-none z-0" viewBox="0 0 64 40" fill="none">
+                <polyline points="4,36 16,8 28,28 40,4 52,24 60,10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div className="absolute -bottom-2 -right-2 w-3 h-3 rounded-full border border-purple-400/25 pointer-events-none z-0" />
+              <div className="absolute -bottom-6 right-6 w-2 h-2 rounded-full bg-[#02327e]/20 pointer-events-none z-0" />
+
+              {/* Bottom center: decorative horizontal dashed line */}
+              <svg className="absolute -bottom-8 left-[15%] w-[70%] h-3 text-zinc-300/40 dark:text-zinc-700/40 pointer-events-none z-0" viewBox="0 0 300 12" fill="none">
+                <line x1="0" y1="6" x2="300" y2="6" stroke="currentColor" strokeWidth="1" strokeDasharray="6,6" />
+              </svg>
+
+              {/* Top center: small triangle */}
+              <svg className="absolute -top-4 left-[40%] w-4 h-4 text-amber-400/25 pointer-events-none z-0" viewBox="0 0 16 16" fill="currentColor">
+                <polygon points="8,2 14,14 2,14" />
+              </svg>
+
+              {/* Mid-left: small ring */}
+              <div className="absolute top-[75%] -left-8 w-5 h-5 rounded-full border border-dashed border-rose-300/25 pointer-events-none z-0" />
+
+              {/* Main Image Container */}
+              <div className="w-full relative z-10 scale-[1.15] origin-center">
+                <img 
+                  src="/laptop.webp" 
+                  alt="Planix Dashboard en Laptop" 
+                  className="w-full h-auto object-contain"
+                  onError={(e) => {
+                    // Fallback to local rendering if image is missing
+                    e.currentTarget.style.display = 'none';
+                    const fallbackEl = document.getElementById('laptop-fallback');
+                    if (fallbackEl) fallbackEl.style.display = 'block';
+                  }}
+                />
+                
+                {/* Fallback mockup in case they haven't uploaded the laptop.webp image yet */}
+                <div id="laptop-fallback" className="hidden w-full max-w-[540px] mx-auto bg-zinc-800 p-2.5 rounded-3xl border border-zinc-700 shadow-2xl relative">
+                  <div className="bg-white rounded-2xl overflow-hidden aspect-[1.6/1]">
+                    <div className="bg-zinc-100 px-4 py-2 flex items-center gap-1.5 border-b border-zinc-200">
+                      <div className="w-2.5 h-2.5 rounded-full bg-red-400" />
+                      <div className="w-2.5 h-2.5 rounded-full bg-amber-400" />
+                      <div className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
+                      <div className="text-[10px] text-zinc-400 font-semibold bg-zinc-200 px-3 py-0.5 rounded-md ml-4">app.planix.do</div>
+                    </div>
+                    <div className="p-4 bg-[#f8fafc] h-full flex flex-col justify-center items-center text-center">
+                      <PlatformLogo className="h-10 mb-2" />
+                      <h4 className="text-sm font-bold text-zinc-700">El archivo de la laptop se cargará aquí</h4>
+                      <p className="text-[10px] text-zinc-400 max-w-[300px]">Guarda tu imagen como <code>public/laptop.webp</code> para ver el diseño final.</p>
+                    </div>
+                  </div>
+                  <div className="h-4 bg-zinc-700 w-1/4 mx-auto rounded-b-xl" />
                 </div>
-                <h4 className="text-xs font-bold text-zinc-800 dark:text-zinc-200 leading-tight">Lengua Española</h4>
-                <p className="text-[10px] font-medium text-zinc-500 mt-1">1er Grado Primaria ✓</p>
-              </motion.div>
+              </div>
+            </div>
 
-              <motion.div
-                className="hidden xl:block absolute right-[-15px] top-[30px] z-20 max-w-[210px] bg-white dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 p-3.5 rounded-xl shadow-lg shadow-zinc-900/5 dark:shadow-black/20 text-left rotate-3 select-none"
-                animate={{ y: [0, 8, 0] }}
-                transition={{ repeat: Infinity, duration: 7, ease: "easeInOut" }}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <div className="h-2 w-2 rounded-full bg-[#02b36d] animate-pulse" />
-                  <span className="text-[9px] font-bold uppercase tracking-wider text-zinc-500">Examen por IA</span>
+          </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════════════════
+          WHAT IS PLANIX SECTION
+      ═══════════════════════════════════════════════════════════════════ */}
+      <section id="que-es" className="pt-2 pb-6 px-6 bg-bg-base relative z-20">
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-white dark:bg-zinc-900 border border-zinc-200/60 dark:border-zinc-800/60 rounded-[2.5rem] p-8 md:p-14 relative overflow-hidden shadow-xl shadow-zinc-100/50 dark:shadow-none">
+            {/* Background elements */}
+            <div className="absolute inset-0 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] dark:bg-[radial-gradient(#334155_1px,transparent_1px)] [background-size:20px_20px] opacity-30 pointer-events-none" />
+
+            {/* Title */}
+            <div className="text-center md:text-left mb-10 relative z-10">
+              <h2 className="text-4xl md:text-6xl font-extrabold text-[#02327e] tracking-tight">
+                ¿Qué es Planix?
+              </h2>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
+              {/* Left Column: Text */}
+              <div className="lg:col-span-7 space-y-8">
+                {/* Main Paragraph with left border */}
+                <div className="border-l-4 border-[#02b36d] pl-6 py-2">
+                  <p className="text-2xl sm:text-3xl md:text-[32px] font-extrabold text-zinc-900 dark:text-white leading-[1.25] tracking-tight">
+                    Es una plataforma diseñada para{' '}
+                    <span className="text-[#02b36d]">acompañar a los docentes dominicanos</span>{' '}
+                    en la organización y gestión escolar<span className="text-[#02b36d]">.</span>
+                  </p>
                 </div>
-                <h4 className="text-xs font-bold text-zinc-800 dark:text-zinc-200 leading-tight">Sociales 4to de Primaria</h4>
-                <span className="text-[9px] font-medium text-zinc-500 bg-zinc-50 dark:bg-zinc-800 border border-zinc-100 dark:border-zinc-700 px-2 py-0.5 rounded-md mt-1.5 inline-flex items-center gap-1">
-                  <Printer size={10} /> 10 Preguntas listas
-                </span>
-              </motion.div>
 
-              <motion.div
-                className="hidden xl:block absolute left-[-50px] bottom-[30px] z-20 max-w-[185px] bg-white dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 p-3.5 rounded-xl shadow-lg shadow-zinc-900/5 dark:shadow-black/20 text-left rotate-2 select-none"
-                animate={{ y: [0, 6, 0] }}
-                transition={{ repeat: Infinity, duration: 8, ease: "easeInOut" }}
-              >
-                <div className="text-[9px] font-bold text-[#02b36d] uppercase tracking-widest mb-1">Estrategias DUA</div>
-                <p className="text-xs font-bold text-zinc-800 dark:text-zinc-200 leading-normal">
-                  "Ajustes razonables para apoyo."
+                {/* Subtext */}
+                <p className="text-sm sm:text-base md:text-lg text-zinc-500 dark:text-zinc-400 font-bold leading-relaxed">
+                  Herramientas prácticas, intuitivas y alineadas al currículo dominicano para{' '}
+                  <span className="text-[#02b36d]">facilitarte tu labor docente cada día.</span>
                 </p>
-              </motion.div>
+              </div>
 
-              <motion.div
-                className="hidden xl:block absolute right-[-30px] bottom-[-15px] z-20 max-w-[185px] bg-white dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 p-3.5 rounded-xl shadow-lg shadow-zinc-900/5 dark:shadow-black/20 text-left -rotate-2 select-none"
-                animate={{ y: [0, -6, 0] }}
-                transition={{ repeat: Infinity, duration: 6.5, ease: "easeInOut" }}
-              >
-                <div className="flex items-center gap-2 mb-1">
-                  <Award size={12} className="text-[#02327e]" />
-                  <span className="text-[9px] font-bold text-zinc-400 uppercase tracking-wider">Adecuación 2026</span>
+              {/* Right Column: Character */}
+              <div className="lg:col-span-5 relative flex justify-center items-center pt-6 lg:pt-0">
+                {/* Decorative floating vector elements around character */}
+                <div className="absolute w-[95%] h-[95%] rounded-full bg-gradient-to-tr from-[#02327e]/5 to-[#02b36d]/5 blur-2xl pointer-events-none -z-10" />
+
+                {/* Top-right: decorative dashed ring */}
+                <div className="absolute -top-4 -right-4 w-12 h-12 rounded-full border-2 border-dashed border-[#02327e]/15 pointer-events-none z-0" />
+                
+                {/* Top-left: small colored circles cluster */}
+                <div className="absolute top-2 -left-4 w-2.5 h-2.5 rounded-full bg-[#02327e]/20 pointer-events-none z-0" />
+                <div className="absolute top-7 -left-1 w-2 h-2 rounded-full bg-[#02b36d]/25 pointer-events-none z-0" />
+                
+                {/* Right side: decorative diamond and square */}
+                <div className="absolute top-[40%] -right-5 w-2.5 h-2.5 rotate-45 border border-[#02327e]/20 pointer-events-none z-0" />
+                <div className="absolute top-[65%] -right-2 w-1.5 h-1.5 rounded-sm bg-amber-400/20 pointer-events-none z-0" />
+
+                {/* Left side: decorative plus/cross marks */}
+                <svg className="absolute top-[35%] -left-8 w-4 h-4 text-[#02327e]/20 pointer-events-none z-0" viewBox="0 0 20 20" fill="none">
+                  <line x1="10" y1="2" x2="10" y2="18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                  <line x1="2" y1="10" x2="18" y2="10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                </svg>
+                <svg className="absolute top-[60%] -left-4 w-3 h-3 text-[#02b36d]/20 pointer-events-none z-0" viewBox="0 0 20 20" fill="none">
+                  <line x1="10" y1="2" x2="10" y2="18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                  <line x1="2" y1="10" x2="18" y2="10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                </svg>
+
+                {/* Bottom-left: dashed arc */}
+                <svg className="absolute -bottom-2 -left-6 w-10 h-10 text-[#02327e]/15 pointer-events-none z-0" viewBox="0 0 56 56" fill="none">
+                  <path d="M 8,48 Q 8,8 48,8" stroke="currentColor" strokeWidth="1.5" strokeDasharray="4,4" strokeLinecap="round" />
+                </svg>
+
+                {/* Bottom-right: zigzag line */}
+                <svg className="absolute -bottom-4 -right-4 w-12 h-8 text-[#02b36d]/15 pointer-events-none z-0" viewBox="0 0 64 40" fill="none">
+                  <polyline points="4,36 16,8 28,28 40,4 52,24" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+
+                {/* Character Image wrapper */}
+                <div className="relative w-64 h-64 md:w-72 md:h-72 flex justify-center items-center z-10">
+                  <img
+                    src="/landing/Pensando.webp"
+                    alt="Planix Personaje"
+                    className="w-full h-full object-contain filter drop-shadow-xl hover:scale-105 transition-transform duration-300"
+                    onError={(e) => {
+                      e.currentTarget.style.opacity = '0';
+                    }}
+                  />
                 </div>
-                <h5 className="text-xs font-bold text-zinc-800 dark:text-zinc-200">Competencias</h5>
-                <p className="text-[10px] font-medium text-zinc-500">Vinculadas al Indicador ✓</p>
-              </motion.div>
-
-              {/* Main Mockup */}
-              <div className="w-full max-w-[540px] relative z-10">
-                <DashboardMockup />
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════════════════
+          BOTTOM BENEFITS BANNER
+      ═══════════════════════════════════════════════════════════════════ */}
+      <section className="pt-4 pb-12 md:pt-4 md:pb-14 bg-bg-base relative z-20">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 items-center">
+            
+            <div className="flex items-center gap-4 justify-center md:justify-start">
+              <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 flex items-center justify-center shrink-0 transition-transform duration-300 hover:scale-105">
+                <Sparkles size={28} className="fill-indigo-500/20" />
+              </div>
+              <div className="text-left">
+                <p className="text-sm md:text-base lg:text-[17px] font-black text-zinc-800 dark:text-white leading-tight">IA Pedagógica</p>
+                <p className="text-[11px] md:text-xs lg:text-[13px] font-bold text-zinc-500 dark:text-zinc-400 leading-tight mt-1">Genera al instante</p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4 justify-center md:justify-start">
+              <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0 transition-transform duration-300 hover:scale-105">
+                <ShieldCheck size={28} className="fill-emerald-500/20" />
+              </div>
+              <div className="text-left">
+                <p className="text-sm md:text-base lg:text-[17px] font-black text-zinc-800 dark:text-white leading-tight">100% Seguro</p>
+                <p className="text-[11px] md:text-xs lg:text-[13px] font-bold text-zinc-500 dark:text-zinc-400 leading-tight mt-1">Datos protegidos</p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4 justify-center md:justify-start">
+              <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0 transition-transform duration-300 hover:scale-105">
+                <Zap size={28} className="fill-amber-500/20" />
+              </div>
+              <div className="text-left">
+                <p className="text-sm md:text-base lg:text-[17px] font-black text-zinc-800 dark:text-white leading-tight">Ahorra Tiempo</p>
+                <p className="text-[11px] md:text-xs lg:text-[13px] font-bold text-zinc-500 dark:text-zinc-400 leading-tight mt-1">Planifica en minutos</p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4 justify-center md:justify-start col-span-2 md:col-span-1">
+              <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-rose-500/10 text-rose-600 dark:text-rose-400 flex items-center justify-center shrink-0 transition-transform duration-300 hover:scale-105">
+                <Heart size={28} className="fill-rose-500/20" />
+              </div>
+              <div className="text-left">
+                <p className="text-sm md:text-base lg:text-[17px] font-black text-zinc-800 dark:text-white leading-tight">Para tus Estudiantes</p>
+                <p className="text-[11px] md:text-xs lg:text-[13px] font-bold text-zinc-500 dark:text-zinc-400 leading-tight mt-1">Enfócate en lo que importa</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════════════════
+          AUTOMATED EDUCATION PLANNING SECTION
+      ═══════════════════════════════════════════════════════════════════ */}
+      <section className="py-20 px-6 bg-bg-base relative border-t border-black/5 dark:border-white/5 z-20">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-16 relative">
+            <h2 className="text-3xl md:text-5xl font-black text-[#02327e] dark:text-white tracking-tight mb-4 font-display">
+              Planificación Docente <span className="text-[#02b36d] relative inline-block">
+                Automatizada
+              </span>
+            </h2>
+            
+            <p className="text-sm sm:text-base md:text-lg text-zinc-500 dark:text-zinc-400 font-medium max-w-4xl mx-auto leading-relaxed">
+              Permite a los docentes generar su planificación diaria y de unidad de forma rápida, vinculando automáticamente las <span className="text-[#02327e] dark:text-white font-bold">competencias fundamentales</span>, <span className="text-[#02327e] dark:text-white font-bold">específicas</span>, <span className="text-[#02327e] dark:text-white font-bold">indicadores de logro</span> y <span className="text-[#02327e] dark:text-white font-bold">contenidos</span> del currículo dominicano vigente.
+            </p>
+          </div>
+
+          {/* Flow pillars */}
+          <div className="relative">
+            {/* Connecting dotted lines in desktop layout */}
+            <div className="hidden lg:block absolute top-10 left-[12%] right-[12%] h-0.5 border-t-2 border-dashed border-[#02327e]/15 z-0" />
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center relative z-10">
+              
+              {/* Pillar 1: Planifica */}
+              <div className="flex flex-col items-center group">
+                <div className="w-20 h-20 rounded-full bg-bg-base flex items-center justify-center relative group-hover:scale-105 group-hover:-translate-y-1 transition-all duration-300">
+                  <div className="absolute inset-0 rounded-full bg-[#02b36d]/10 dark:bg-[#02b36d]/20" />
+                  <Calendar size={36} className="fill-[#02b36d]/20 text-[#02b36d] dark:text-emerald-400 relative z-10" />
+                </div>
+                <span className="bg-[#02b36d] text-white px-5 py-1.5 rounded-full text-xs font-black select-none inline-block mt-5 tracking-wider uppercase shadow-xs">
+                  Planifica
+                </span>
+                <p className="text-xs sm:text-[13px] font-bold text-zinc-550 dark:text-zinc-450 mt-3 leading-relaxed max-w-[200px]">
+                  Crea tu planificación diaria o de unidad en minutos.
+                </p>
+              </div>
+
+              {/* Pillar 2: Vincula */}
+              <div className="flex flex-col items-center group">
+                <div className="w-20 h-20 rounded-full bg-bg-base flex items-center justify-center relative group-hover:scale-105 group-hover:-translate-y-1 transition-all duration-300">
+                  <div className="absolute inset-0 rounded-full bg-[#02327e]/10 dark:bg-blue-500/20" />
+                  <BookOpen size={36} className="fill-[#02327e]/20 text-[#02327e] dark:text-blue-400 relative z-10" />
+                </div>
+                <span className="bg-[#02327e] text-white px-5 py-1.5 rounded-full text-xs font-black select-none inline-block mt-5 tracking-wider uppercase shadow-xs">
+                  Vincula
+                </span>
+                <p className="text-xs sm:text-[13px] font-bold text-zinc-550 dark:text-zinc-450 mt-3 leading-relaxed max-w-[200px]">
+                  Se vinculan automáticamente los elementos del currículo dominicano vigente.
+                </p>
+              </div>
+
+              {/* Pillar 3: Automatiza */}
+              <div className="flex flex-col items-center group">
+                <div className="w-20 h-20 rounded-full bg-bg-base flex items-center justify-center relative group-hover:scale-105 group-hover:-translate-y-1 transition-all duration-300">
+                  <div className="absolute inset-0 rounded-full bg-amber-500/10 dark:bg-amber-500/20" />
+                  <ClipboardCheck size={36} className="fill-amber-500/20 text-amber-600 dark:text-amber-400 relative z-10" />
+                </div>
+                <span className="bg-amber-600 dark:bg-amber-500 text-white px-5 py-1.5 rounded-full text-xs font-black select-none inline-block mt-5 tracking-wider uppercase shadow-xs">
+                  Automatiza
+                </span>
+                <p className="text-xs sm:text-[13px] font-bold text-zinc-550 dark:text-zinc-450 mt-3 leading-relaxed max-w-[200px]">
+                  Ahorra tiempo y reduce la carga administrativa.
+                </p>
+              </div>
+
+              {/* Pillar 4: Enfócate */}
+              <div className="flex flex-col items-center group">
+                <div className="w-20 h-20 rounded-full bg-bg-base flex items-center justify-center relative group-hover:scale-105 group-hover:-translate-y-1 transition-all duration-300">
+                  <div className="absolute inset-0 rounded-full bg-purple-500/10 dark:bg-purple-500/20" />
+                  <Target size={36} className="fill-purple-500/20 text-purple-650 dark:text-purple-400 relative z-10" />
+                </div>
+                <span className="bg-purple-650 dark:bg-purple-600 text-white px-5 py-1.5 rounded-full text-xs font-black select-none inline-block mt-5 tracking-wider uppercase shadow-xs">
+                  Enfócate
+                </span>
+                <p className="text-xs sm:text-[13px] font-bold text-zinc-550 dark:text-zinc-450 mt-3 leading-relaxed max-w-[200px]">
+                  Más tiempo para enseñar, guiar y transformar el aprendizaje.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          {/* Bottom Verification Banner */}
+          <div className="flex justify-center mt-12">
+            <div className="inline-flex items-center gap-3.5 px-6 py-4 bg-white dark:bg-zinc-900 border border-zinc-200/60 dark:border-zinc-800/60 rounded-2xl shadow-sm select-none max-w-xl text-left">
+              <div className="w-8 h-8 rounded-lg bg-blue-500/10 text-[#02327e] dark:text-blue-400 flex items-center justify-center shrink-0">
+                <ShieldCheck size={20} className="fill-blue-500/20 text-[#02327e] dark:text-blue-400" />
+              </div>
+              <span className="text-xs sm:text-sm font-bold text-zinc-700 dark:text-zinc-300">
+                Todo alineado con el <span className="text-[#02b36d] font-extrabold">currículo dominicano</span> para una educación de calidad.
+              </span>
+            </div>
+          </div>
+
         </div>
       </section>
 
       {/* ══════════════════════════════════════════════════════════════════
           STEPS SECTION
       ═══════════════════════════════════════════════════════════════════ */}
-      <section className="py-20 px-6 bg-zinc-50/80 dark:bg-zinc-900/30 relative">
-        <div className="max-w-6xl mx-auto">
+      <section id="pasos" className="py-20 px-6 bg-bg-base relative">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-extrabold text-zinc-900 dark:text-white tracking-tight mb-4">
-              Planifica en tres sencillos pasos
+              Planifica en 4 <span className="text-[#02b36d]">simples</span> <span className="text-[#02b36d]">pasos</span>
             </h2>
             <p className="text-lg text-zinc-500 dark:text-zinc-400 font-medium max-w-2xl mx-auto">
-              Diseñado especialmente para el flujo de trabajo de los maestros en escuelas dominicanas.
+              Organiza tus clases de forma rápida, eficiente e inteligente.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
             {[
-              { num: "1", title: "Selecciona Asignatura", desc: "Indica tu nivel (Primario/Secundario) y asignatura del currículo dominicano oficial.", gradient: "from-[#02327e]/5 to-[#02327e]/10", iconColor: "text-[#02327e]" },
-              { num: "2", title: "Genera con IA", desc: "Nuestra IA alineada a la Adecuación Curricular de República Dominicana sugiere planes y secuencias al instante.", gradient: "from-purple-500/5 to-indigo-500/10", iconColor: "text-purple-600" },
-              { num: "3", title: "Listo para Imprimir", desc: "Obtén tu documento con formato institucional en un solo clic, listo para entregar a tu centro.", gradient: "from-[#02b36d]/5 to-[#02b36d]/10", iconColor: "text-[#02b36d]" },
+              {
+                num: "1",
+                title: "Selecciona Nivel y Grado",
+                desc: "Indica tu nivel educativo y el grado correspondiente en la plataforma.",
+                gradient: "from-[#02327e]/5 to-[#02327e]/10",
+                iconBg: "bg-[#02327e]/10 dark:bg-[#02327e]/25",
+                icon: <GraduationCap size={22} className="fill-[#02327e]/20 text-[#02327e]" />,
+                bgIcon: <GraduationCap size={120} className="text-[#02327e]/20 dark:text-[#02327e]/30" />
+              },
+              {
+                num: "2",
+                title: "Escoge una Asignatura",
+                desc: "Selecciona la asignatura del currículo dominicano oficial correspondiente.",
+                gradient: "from-[#02b36d]/5 to-[#02b36d]/10",
+                iconBg: "bg-[#02b36d]/10 dark:bg-[#02b36d]/25",
+                icon: <BookOpen size={22} className="fill-[#02b36d]/20 text-[#02b36d]" />,
+                bgIcon: <BookOpen size={120} className="text-[#02b36d]/20 dark:text-[#02b36d]/30" />
+              },
+              {
+                num: "3",
+                title: "Secuencia o Tema",
+                desc: "Elige la secuencia didáctica o el tema específico que vas a trabajar.",
+                gradient: "from-amber-500/5 to-amber-500/10",
+                iconBg: "bg-amber-500/10 dark:bg-amber-500/25",
+                icon: <Sliders size={22} className="fill-amber-500/20 text-amber-600" />,
+                bgIcon: <Sliders size={120} className="text-amber-500/20 dark:text-amber-500/30" />
+              },
+              {
+                num: "4",
+                title: "Genera con Planix AI",
+                desc: "Rellena todos los campos con Planix AI, y listo tu planificación lista en 1 minuto.",
+                gradient: "from-purple-500/5 to-indigo-500/10",
+                iconBg: "bg-purple-500/10 dark:bg-purple-500/25",
+                icon: <Sparkles size={22} className="fill-purple-500/20 text-purple-600" />,
+                bgIcon: <Sparkles size={120} className="text-purple-500/20 dark:text-purple-500/30" />
+              },
             ].map((step) => (
-              <div key={step.num} className={`bg-gradient-to-br ${step.gradient} p-8 rounded-2xl border border-zinc-200/50 dark:border-zinc-800/50 hover:shadow-lg hover:shadow-zinc-900/5 dark:hover:shadow-black/10 transition-all duration-300 flex flex-col justify-between min-h-[200px]`}>
-                <div>
-                  <div className={`flex h-10 w-10 items-center justify-center rounded-xl bg-white dark:bg-zinc-900 ${step.iconColor} mb-5 shadow-sm font-extrabold text-sm border border-zinc-200/50 dark:border-zinc-800`}>
-                    {step.num}
-                  </div>
-                  <h3 className="text-xl font-bold text-zinc-900 dark:text-white mb-2">{step.title}</h3>
-                  <p className="text-sm font-medium text-zinc-600 dark:text-zinc-400 leading-relaxed">{step.desc}</p>
+              <div key={step.num} className={`bg-gradient-to-br ${step.gradient} p-7 rounded-2xl border border-zinc-200/50 dark:border-zinc-800/50 hover:shadow-lg hover:shadow-zinc-900/5 dark:hover:shadow-black/10 transition-all duration-300 flex flex-col justify-between min-h-[230px] relative overflow-hidden group`}>
+                {/* Background Large Soft Blurred Icon */}
+                <div className="absolute -right-8 -bottom-8 opacity-75 group-hover:opacity-100 group-hover:scale-110 group-hover:rotate-12 transition-all duration-500 pointer-events-none filter blur-[1px] flex items-center justify-center">
+                  {step.bgIcon}
                 </div>
-                {step.num === "3" && (
-                  <Link to="/registro" className="mt-5 inline-block">
-                    <button className="bg-[#02b36d] hover:bg-[#029a5e] text-white font-semibold px-5 py-2.5 rounded-xl text-sm shadow-md shadow-[#02b36d]/20 active:scale-[0.97] transition-all cursor-pointer">
-                      Comenzar Ya
-                    </button>
-                  </Link>
-                )}
+
+                <div className="relative z-10 flex flex-col h-full justify-between">
+                  <div>
+                    {/* Header with large number on left/one side, and sharp icon on the right */}
+                    <div className="flex items-baseline justify-between mb-5">
+                      <span className="text-5xl font-black text-zinc-300 dark:text-zinc-800 group-hover:text-zinc-400 dark:group-hover:text-zinc-700 transition-colors duration-300 select-none">
+                        0{step.num}
+                      </span>
+                      <div className={`w-12 h-12 rounded-full flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300 ${step.iconBg}`}>
+                        {step.icon}
+                      </div>
+                    </div>
+
+                    <h3 className="text-lg font-bold text-zinc-800 dark:text-white mb-2 leading-tight group-hover:text-[#02327e] dark:group-hover:text-blue-400 transition-colors duration-300">
+                      {step.title}
+                    </h3>
+                    <p className="text-xs font-semibold text-zinc-550 dark:text-zinc-400 leading-relaxed max-w-[90%]">
+                      {step.desc}
+                    </p>
+                  </div>
+
+                  {step.num === "4" && (
+                    <div className="mt-5">
+                      <Link to="/registro" className="inline-block">
+                        <button className="bg-[#02b36d] hover:bg-[#029a5e] text-white font-semibold px-5 py-2.5 rounded-xl text-xs shadow-md shadow-[#02b36d]/20 active:scale-[0.97] transition-all cursor-pointer">
+                          Comenzar Ya
+                        </button>
+                      </Link>
+                    </div>
+                  )}
+                </div>
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════════════════
+          GESTIÓN DE CALIFICACIONES Y REGISTRO DIGITAL
+      ═══════════════════════════════════════════════════════════════════ */}
+      <section id="registro-digital" className="py-14 px-6 bg-bg-base relative overflow-hidden border-t border-zinc-200/30 dark:border-zinc-800/30">
+        <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[350px] h-[350px] bg-[#02b36d]/5 blur-[120px] rounded-full pointer-events-none" />
+        <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[350px] h-[350px] bg-[#02327e]/5 blur-[120px] rounded-full pointer-events-none" />
+
+        <div className="max-w-6xl mx-auto relative z-10">
+          
+          <div className="flex flex-col items-center justify-center text-center relative max-w-4xl mx-auto mb-14">
+
+            <h2 className="text-3xl md:text-5xl font-extrabold text-[#02327e] dark:text-white tracking-tight leading-tight mb-6">
+              Gestión de <span className="text-[#02b36d]">Calificaciones</span> y Registro Digital
+            </h2>
+
+            <div className="flex items-center justify-center gap-1.5 mb-6">
+              <div className="w-1.5 h-1.5 bg-[#02b36d] rounded-full" />
+              <div className="w-20 h-[2px] bg-zinc-200 dark:bg-zinc-800 rounded-full" />
+              <div className="w-1.5 h-1.5 bg-[#02327e] rounded-full" />
+            </div>
+
+            <p className="text-base sm:text-lg text-zinc-600 dark:text-zinc-400 font-medium leading-relaxed max-w-3xl">
+              Facilita el <span className="text-[#02b36d] font-bold">cálculo automático</span> de los <span className="text-[#02b36d] font-bold">períodos de evaluación</span> y el <span className="text-[#02327e] dark:text-blue-400 font-bold">control de la asistencia</span> en total conformidad con las normativas de evaluación vigentes del <span className="text-[#02327e] dark:text-blue-400 font-bold">MINERD</span>.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-14">
+            
+            <div className="group bg-white dark:bg-zinc-900 p-6 rounded-2xl border border-zinc-200/60 dark:border-zinc-800/60 hover:shadow-lg hover:shadow-zinc-900/5 dark:hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center gap-4">
+              <div className="w-14 h-14 rounded-full bg-[#02b36d]/10 text-[#02b36d] flex items-center justify-center shrink-0 group-hover:scale-105 transition-all duration-300">
+                <Calculator size={26} className="fill-[#02b36d]/20" />
+              </div>
+              <div>
+                <h3 className="text-base font-bold text-[#02b36d] mb-2">Cálculo Automático</h3>
+                <p className="text-xs font-semibold text-zinc-650 dark:text-zinc-450 leading-relaxed">
+                  Obtén promedios y calificaciones por período de forma precisa y al instante.
+                </p>
+              </div>
+            </div>
+
+            <div className="group bg-white dark:bg-zinc-900 p-6 rounded-2xl border border-zinc-200/60 dark:border-zinc-800/60 hover:shadow-lg hover:shadow-zinc-900/5 dark:hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center gap-4">
+              <div className="w-14 h-14 rounded-full bg-[#02327e]/10 text-[#02327e] dark:text-blue-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-all duration-300">
+                <Calendar size={26} className="fill-[#02327e]/20" />
+              </div>
+              <div>
+                <h3 className="text-base font-bold text-[#02327e] dark:text-white mb-2">Períodos de Evaluación</h3>
+                <p className="text-xs font-semibold text-zinc-650 dark:text-zinc-450 leading-relaxed">
+                  Configura y calcula automáticamente los períodos según las normativas del MINERD.
+                </p>
+              </div>
+            </div>
+
+            <div className="group bg-white dark:bg-zinc-900 p-6 rounded-2xl border border-zinc-200/60 dark:border-zinc-800/60 hover:shadow-lg hover:shadow-zinc-900/5 dark:hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center gap-4">
+              <div className="w-14 h-14 rounded-full bg-[#02b36d]/10 text-[#02b36d] flex items-center justify-center shrink-0 group-hover:scale-105 transition-all duration-300">
+                <ClipboardCheck size={26} className="fill-[#02b36d]/20" />
+              </div>
+              <div>
+                <h3 className="text-base font-bold text-[#02b36d] mb-2">Control de Asistencia</h3>
+                <p className="text-xs font-semibold text-zinc-650 dark:text-zinc-450 leading-relaxed">
+                  Registra y monitorea la asistencia diaria de los estudiantes de manera sencilla y confiable.
+                </p>
+              </div>
+            </div>
+
+            <div className="group bg-white dark:bg-zinc-900 p-6 rounded-2xl border border-zinc-200/60 dark:border-zinc-800/60 hover:shadow-lg hover:shadow-zinc-900/5 dark:hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center gap-4">
+              <div className="w-14 h-14 rounded-full bg-[#02327e]/10 text-[#02327e] dark:text-blue-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-all duration-300">
+                <ShieldCheck size={26} className="fill-[#02327e]/20" />
+              </div>
+              <div>
+                <h3 className="text-base font-bold text-[#02327e] dark:text-white mb-2">Cumplimiento Normativo</h3>
+                <p className="text-xs font-semibold text-zinc-650 dark:text-zinc-450 leading-relaxed">
+                  Total conformidad con las normativas de evaluación vigentes del MINERD.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="max-w-2xl mx-auto border border-zinc-200/60 dark:border-zinc-800/60 rounded-full px-6 py-3 flex items-center gap-3.5 bg-white/60 dark:bg-zinc-900/60 justify-center shadow-sm relative overflow-hidden group">
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#02b36d]/5 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
+            <div className="w-7 h-7 rounded-full bg-[#02327e]/10 dark:bg-[#02327e]/20 text-[#02327e] dark:text-blue-400 flex items-center justify-center shrink-0">
+              <CheckCircle2 size={15} className="fill-[#02327e]/10" />
+            </div>
+            <div className="h-4 w-[1px] bg-zinc-300 dark:bg-zinc-700" />
+            <p className="text-[13px] font-bold text-zinc-800 dark:text-zinc-200">
+              Más control, menos trabajo manual, <span className="text-[#02b36d] italic font-extrabold">mejores resultados. ✨</span>
+            </p>
+          </div>
+
         </div>
       </section>
 
       {/* ══════════════════════════════════════════════════════════════════
           INTERACTIVE DR MAP
       ═══════════════════════════════════════════════════════════════════ */}
-      <DRMap />
+      <div id="mapa">
+        <DRMap />
+      </div>
 
       {/* ══════════════════════════════════════════════════════════════════
           PROBLEMS SECTION
       ═══════════════════════════════════════════════════════════════════ */}
-      <section className="py-24 px-6 bg-white dark:bg-zinc-950 relative">
+      <section className="pt-8 pb-8 px-6 bg-bg-base relative">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-extrabold text-zinc-900 dark:text-white tracking-tight mb-4">
-              Sabemos lo que enfrentas cada día
+              Sabemos lo que enfrentas <span className="text-[#02b36d]">cada día</span>
             </h2>
             <p className="text-lg text-zinc-500 dark:text-zinc-400 font-medium max-w-3xl mx-auto">
-              Entre clases, evaluaciones y requisitos administrativos del MINERD, el tiempo nunca parece alcanzar.
+              Mientras tú luchas con el papeleo, tus ideas para el aula quedan en espera. Estos son los obstáculos que Planix elimina por ti.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
-              { icon: Clock, title: "Falta de Tiempo", description: "La planificación educativa consume horas de tu fin de semana que podrías dedicar a descansar.", color: "from-red-500/10 to-rose-500/5", iconBg: "bg-red-50 dark:bg-red-950/30 text-red-500" },
-              { icon: Files, title: "Papeleo del MINERD", description: "Excesivos formatos curriculares y requisitos burocráticos que consumen tu energía creativa.", color: "from-amber-500/10 to-orange-500/5", iconBg: "bg-amber-50 dark:bg-amber-950/30 text-amber-500" },
-              { icon: ShieldAlert, title: "Alineación Curricular", description: "Dudas constantes sobre si estás cumpliendo exactamente con las últimas adecuaciones vigentes.", color: "from-violet-500/10 to-purple-500/5", iconBg: "bg-violet-50 dark:bg-violet-950/30 text-violet-500" },
-              { icon: FolderX, title: "Desorganización", description: "Documentos de planificación dispersos en cuadernos, archivos de Word y carpetas difíciles de buscar.", color: "from-emerald-500/10 to-green-500/5", iconBg: "bg-emerald-50 dark:bg-emerald-950/30 text-emerald-500" },
-              { icon: Frown, title: "Estrés y Agotamiento", description: "La presión por cumplir con toda la carga burocrática reduce tu motivación para la enseñanza.", color: "from-blue-500/10 to-sky-500/5", iconBg: "bg-blue-50 dark:bg-blue-950/30 text-blue-500" },
-              { icon: TrendingUp, title: "Seguimiento Manual", description: "Llevar el control de indicadores de logro estudiante por estudiante en registros físicos es lento.", color: "from-pink-500/10 to-rose-500/5", iconBg: "bg-pink-50 dark:bg-pink-950/30 text-pink-500" }
+              { 
+                title: "Falta de Tiempo", 
+                description: "La planificación educativa consume horas de tu fin de semana que podrías dedicar a descansar.", 
+                color: "from-red-500/5 to-rose-500/10", 
+                iconBg: "bg-red-500/10 dark:bg-red-950/45", 
+                icon: <Clock size={22} className="fill-red-500/20 text-red-600" />,
+                bgIcon: <Clock size={120} className="text-red-500/20 dark:text-red-500/30" />
+              },
+              { 
+                title: "Papeleo del MINERD", 
+                description: "Excesivos formatos curriculares y requisitos burocráticos que consumen tu energía creativa.", 
+                color: "from-amber-500/5 to-orange-500/10", 
+                iconBg: "bg-amber-500/10 dark:bg-amber-950/45", 
+                icon: <Files size={22} className="fill-amber-500/20 text-amber-600" />,
+                bgIcon: <Files size={120} className="text-amber-500/20 dark:text-amber-500/30" />
+              },
+              { 
+                title: "Alineación Curricular", 
+                description: "Dudas constantes sobre si estás cumpliendo exactamente con las últimas adecuaciones vigentes.", 
+                color: "from-violet-500/5 to-purple-500/10", 
+                iconBg: "bg-violet-500/10 dark:bg-violet-950/45", 
+                icon: <ShieldAlert size={22} className="fill-violet-500/20 text-violet-650" />,
+                bgIcon: <ShieldAlert size={120} className="text-violet-500/20 dark:text-violet-500/30" />
+              },
+              { 
+                title: "Desorganización", 
+                description: "Documentos de planificación dispersos en cuadernos, archivos de Word y carpetas difíciles de buscar.", 
+                color: "from-emerald-500/5 to-green-500/10", 
+                iconBg: "bg-emerald-500/10 dark:bg-emerald-950/45", 
+                icon: <FolderX size={22} className="fill-emerald-500/20 text-emerald-600" />,
+                bgIcon: <FolderX size={120} className="text-emerald-500/20 dark:text-emerald-500/30" />
+              },
+              { 
+                title: "Estrés y Agotamiento", 
+                description: "La presión por cumplir con toda la carga burocrática reduce tu motivación para la enseñanza.", 
+                color: "from-blue-500/5 to-sky-500/10", 
+                iconBg: "bg-blue-500/10 dark:bg-blue-950/45", 
+                icon: <Frown size={22} className="fill-blue-500/20 text-blue-600" />,
+                bgIcon: <Frown size={120} className="text-blue-500/20 dark:text-blue-500/30" />
+              },
+              { 
+                title: "Seguimiento Manual", 
+                description: "Llevar el control de indicadores de logro estudiante por estudiante en registros físicos es lento.", 
+                color: "from-pink-500/5 to-rose-500/10", 
+                iconBg: "bg-pink-500/10 dark:bg-pink-950/45", 
+                icon: <TrendingUp size={22} className="fill-pink-500/20 text-pink-600" />,
+                bgIcon: <TrendingUp size={120} className="text-pink-500/20 dark:text-pink-500/30" />
+              }
             ].map((pain, index) => (
-              <div key={index} className={`bg-gradient-to-br ${pain.color} p-7 rounded-2xl border border-zinc-200/40 dark:border-zinc-800/40 hover:shadow-lg hover:shadow-zinc-900/5 dark:hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300 flex flex-col items-start gap-4`}>
-                <div className={`p-3 rounded-xl ${pain.iconBg}`}>
-                  <pain.icon className="w-6 h-6" />
+              <div key={index} className={`bg-gradient-to-br ${pain.color} p-7 rounded-3xl border border-zinc-200/40 dark:border-zinc-800/40 hover:shadow-xl hover:shadow-zinc-900/5 dark:hover:shadow-black/15 hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between min-h-[220px] relative overflow-hidden group`}>
+                
+                {/* Background Large Soft Blurred Icon */}
+                <div className="absolute -right-8 -bottom-8 opacity-75 group-hover:opacity-100 group-hover:scale-110 group-hover:rotate-12 transition-all duration-500 pointer-events-none filter blur-[1px] flex items-center justify-center">
+                  {pain.bgIcon}
                 </div>
-                <h3 className="text-lg font-bold text-zinc-900 dark:text-white">{pain.title}</h3>
-                <p className="text-sm font-medium text-zinc-600 dark:text-zinc-400 leading-relaxed">{pain.description}</p>
+
+                <div className="relative z-10 flex flex-col h-full justify-between">
+                  <div>
+                    {/* Header with circular translucent icon */}
+                    <div className="flex items-center justify-between mb-5">
+                      <div className={`w-12 h-12 rounded-full flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300 ${pain.iconBg}`}>
+                        {pain.icon}
+                      </div>
+                    </div>
+
+                    <h3 className="text-lg font-bold text-zinc-850 dark:text-white mb-2 leading-tight group-hover:text-[#02327e] dark:group-hover:text-blue-400 transition-colors duration-300">
+                      {pain.title}
+                    </h3>
+                    <p className="text-xs font-semibold text-zinc-550 dark:text-zinc-400 leading-relaxed">
+                      {pain.description}
+                    </p>
+                  </div>
+                </div>
+
               </div>
             ))}
           </div>
@@ -722,112 +1098,91 @@ export default function LandingPage() {
       </section>
 
       {/* ══════════════════════════════════════════════════════════════════
-          ECOSYSTEM / VALUE PROP SECTION
+          MINERD CURRICULUM ALIGNMENT SECTION
       ═══════════════════════════════════════════════════════════════════ */}
-      <section className="py-24 px-6 bg-zinc-50/80 dark:bg-zinc-900/20 relative">
-        {/* Background decorations */}
-        <div className="absolute top-20 left-[5%] w-[350px] h-[350px] bg-[#02327e]/5 dark:bg-[#02327e]/3 blur-[100px] rounded-full pointer-events-none" />
-        <div className="absolute bottom-20 right-[5%] w-[350px] h-[350px] bg-[#02b36d]/5 dark:bg-[#02b36d]/3 blur-[100px] rounded-full pointer-events-none" />
-
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-
-            {/* Left: Mockup */}
-            <div className="lg:col-span-6 relative">
-              <div className="relative bg-white dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 p-6 sm:p-8 rounded-2xl shadow-xl shadow-zinc-900/5 dark:shadow-black/20 select-none">
-                <div className="flex items-center justify-between pb-4 border-b border-zinc-100 dark:border-zinc-800 mb-5">
-                  <div className="flex items-center gap-2 text-zinc-800 dark:text-zinc-200">
-                    <Layout className="w-5 h-5 text-[#02327e]" />
-                    <span className="font-bold text-xs uppercase tracking-wider">Lienzo Curricular</span>
+      <section className="py-4 px-6 bg-bg-base relative z-20">
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-white dark:bg-zinc-900 border border-zinc-200/60 dark:border-zinc-800/60 rounded-[2.5rem] p-6 md:p-10 relative overflow-hidden shadow-xl shadow-zinc-100/50 dark:shadow-none">
+            {/* Background elements */}
+            <div className="absolute inset-0 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] dark:bg-[radial-gradient(#334155_1px,transparent_1px)] [background-size:24px_24px] opacity-35 pointer-events-none" />
+            
+            <div className="relative z-10 grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+              
+              {/* Left Column: Heading and Highlight */}
+              <div className="md:col-span-7 space-y-4 text-left">
+                {/* Flag & Status Badge Row */}
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-7 rounded border border-zinc-200 shadow-sm overflow-hidden shrink-0 select-none">
+                    <svg className="w-full h-full" viewBox="0 0 90 60" fill="none">
+                      <rect x="0" y="0" width="45" height="30" fill="#002f6c" />
+                      <rect x="45" y="0" width="45" height="30" fill="#ce1126" />
+                      <rect x="0" y="30" width="45" height="30" fill="#ce1126" />
+                      <rect x="45" y="30" width="45" height="30" fill="#002f6c" />
+                      <rect x="39" y="0" width="12" height="60" fill="#ffffff" />
+                      <rect x="0" y="24" width="90" height="12" fill="#ffffff" />
+                      <rect x="42" y="27" width="6" height="6" fill="#002f6c" rx="1" />
+                      <circle cx="45" cy="30" r="1.5" fill="#02b36d" />
+                    </svg>
                   </div>
-                  <span className="text-[10px] font-semibold bg-[#02b36d]/10 text-[#02b36d] px-3 py-1 rounded-full border border-[#02b36d]/20">
-                    Alineado 100%
+                  <span className="text-xs font-black text-[#02327e] tracking-wider uppercase">
+                    República Dominicana
                   </span>
                 </div>
-                <div className="flex flex-wrap gap-2 mb-5">
-                  <span className="text-[10px] font-semibold bg-[#02327e]/10 text-[#02327e] dark:text-blue-300 px-2.5 py-1 rounded-md">Primaria</span>
-                  <span className="text-[10px] font-semibold bg-amber-500/10 text-amber-700 dark:text-amber-300 px-2.5 py-1 rounded-md">4to Grado</span>
-                  <span className="text-[10px] font-semibold bg-rose-500/10 text-rose-700 dark:text-rose-300 px-2.5 py-1 rounded-md">Lengua Española</span>
-                </div>
-                <div className="space-y-3.5">
-                  <div className="p-4 bg-zinc-50 dark:bg-zinc-950/50 border border-zinc-100 dark:border-zinc-800 rounded-xl">
-                    <div className="flex items-center gap-2 mb-1.5">
-                      <Target className="w-4 h-4 text-rose-400" />
-                      <h5 className="text-xs font-bold text-zinc-800 dark:text-zinc-200">Competencia Específica</h5>
-                    </div>
-                    <p className="text-[11px] font-medium text-zinc-600 dark:text-zinc-400 leading-normal">
-                      Comprensión oral: Comprende la información de recetas sencillas que escucha para la preparación de platos dominicanos.
-                    </p>
-                  </div>
-                  <div className="p-4 bg-zinc-50 dark:bg-zinc-950/50 border border-zinc-100 dark:border-zinc-800 rounded-xl">
-                    <div className="flex items-center gap-2 mb-1.5">
-                      <CheckCircle2 className="w-4 h-4 text-[#02b36d]" />
-                      <h5 className="text-xs font-bold text-zinc-800 dark:text-zinc-200">Indicador de Logro</h5>
-                    </div>
-                    <p className="text-[11px] font-medium text-zinc-600 dark:text-zinc-400 leading-normal">
-                      Distingue la estructura y función de la receta (título, ingredientes y preparación) como una guía estructurada.
-                    </p>
-                  </div>
-                  <div className="p-4 bg-zinc-50 dark:bg-zinc-950/50 border border-zinc-100 dark:border-zinc-800 rounded-xl">
-                    <div className="flex items-center gap-2 mb-2">
-                      <Bot className="w-4 h-4 text-[#02327e]" />
-                      <h5 className="text-xs font-bold text-zinc-800 dark:text-zinc-200">Actividades DUA Sugeridas</h5>
-                    </div>
-                    <div className="space-y-1.5 text-[10px] font-medium text-zinc-500 dark:text-zinc-400">
-                      <div className="flex gap-1.5"><span className="text-[#02b36d] font-bold">1.</span> Glosario visual de utensilios.</div>
-                      <div className="flex gap-1.5"><span className="text-[#02b36d] font-bold">2.</span> Simulación interactiva de cocina en grupos.</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            {/* Right: Copy */}
-            <div className="lg:col-span-6 text-left space-y-6">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#02327e]/10 dark:bg-[#02327e]/15 rounded-full text-[#02327e] dark:text-blue-300 font-semibold text-xs tracking-wide border border-[#02327e]/15">
-                Ecosistema Inteligente
+                <div className="text-xl md:text-2xl font-medium text-[#02327e] tracking-tight leading-relaxed">
+                  <span className="font-black text-[#02327e]">Planix</span> ha sido diseñada de forma específica bajo el marco de la{' '}
+                  <span className="inline-block relative pb-2 select-none">
+                    <span className="text-[#02b36d] font-bold">Adecuación Curricular</span>
+                    {/* Underline de lado a lado */}
+                    <span className="absolute left-0 right-0 bottom-0 text-[#02b36d] h-1 pointer-events-none">
+                      <svg className="w-full h-full" viewBox="0 0 256 12" fill="none" preserveAspectRatio="none">
+                        <path d="M4 8 Q128 1 252 8" stroke="currentColor" strokeWidth="6" strokeLinecap="round" />
+                      </svg>
+                    </span>
+                  </span>{' '}
+                  vigente del{' '}
+                  <span className="font-black text-[#02327e]">
+                    Ministerio de Educación (MINERD)
+                  </span>{' '}
+                  de la República Dominicana.
+                </div>
               </div>
-              <h2 className="text-3xl md:text-5xl font-extrabold text-zinc-900 dark:text-white tracking-tight leading-tight">
-                Tu aliado número uno en planificación.
-              </h2>
-              <p className="text-base sm:text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                <span className="bg-gradient-to-r from-[#02327e] to-[#02b36d] bg-clip-text text-transparent font-bold">PLANIX</span> es la plataforma integral diseñada para acompañar a los docentes dominicanos en la organización y alineación curricular oficial.
-              </p>
-              <div className="space-y-4 pt-2">
-                {[
-                  { title: "Alineación Curricular Oficial", desc: "Competencias e indicadores integrados directamente de la adecuación del MINERD." },
-                  { title: "Metodología Inclusiva DUA", desc: "Ajustes razonables y estrategias diversificadas para atender a cada estudiante." },
-                  { title: "Impresión en un clic", desc: "Exporta tus borradores con el formato oficial listo para presentar a tu centro." }
-                ].map((item, index) => (
-                  <div key={index} className="flex gap-3">
-                    <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#02b36d]/15 text-[#02b36d]">
-                      <Check size={12} strokeWidth={3} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-sm text-zinc-900 dark:text-white">{item.title}</h4>
-                      <p className="text-xs font-medium text-zinc-500 dark:text-zinc-400 leading-relaxed">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
+
+              {/* Right Column: Remainder Text & Confirmation Badge */}
+              <div className="md:col-span-5 flex flex-col justify-center items-start text-left border-t md:border-t-0 md:border-l border-zinc-200/65 dark:border-zinc-800/65 pt-6 md:pt-0 md:pl-8 space-y-4">
+                <div className="space-y-1">
+                  <h4 className="text-sm font-black text-[#02b36d] uppercase tracking-wider">
+                    Planificación Inteligente
+                  </h4>
+                  <p className="text-sm md:text-base font-bold text-zinc-550 dark:text-zinc-400 leading-relaxed">
+                    Optimiza tu tiempo de organización de clases y cumple al 100% con los estándares de diseño curricular vigentes.
+                  </p>
+                </div>
+
+                {/* Bottom confirmation badge */}
+                <div className="inline-flex items-start gap-2.5 px-5 py-3 bg-[#02327e] text-white rounded-2xl font-bold text-xs sm:text-sm tracking-wide shadow-md shadow-[#02327e]/15 select-none w-full">
+                  <CheckCircle2 size={18} className="text-[#02b36d] shrink-0 mt-0.5" />
+                  <span>
+                    Todo lo que necesitas, en una sola plataforma,{' '}
+                    <span className="text-[#02b36d] font-extrabold">hecha para ti.</span>
+                  </span>
+                </div>
               </div>
-              <div className="pt-4 flex flex-col sm:flex-row gap-3">
-                <Link to="/registro" className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-gradient-to-r from-[#02327e] to-[#02327e]/90 text-white rounded-xl font-semibold text-sm shadow-lg shadow-[#02327e]/20 hover:shadow-xl hover:shadow-[#02327e]/25 active:scale-[0.97] transition-all cursor-pointer">
-                  Planificar Gratis <ArrowRight size={16} />
-                </Link>
-              </div>
+
             </div>
           </div>
         </div>
       </section>
 
+
       {/* ══════════════════════════════════════════════════════════════════
           BENEFITS SECTION
       ═══════════════════════════════════════════════════════════════════ */}
-      <section className="py-24 px-6 bg-white dark:bg-zinc-950 relative">
+      <section className="pt-8 pb-24 px-6 bg-bg-base relative">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-extrabold text-zinc-900 dark:text-white tracking-tight mb-4">
-              ¿Qué ganas con <span className="bg-gradient-to-r from-[#02327e] to-[#02b36d] bg-clip-text text-transparent">PLANIX</span>?
+              ¿Qué ganas con <span className="text-[#02b36d]">Planix</span>?
             </h2>
             <p className="text-lg text-zinc-500 dark:text-zinc-400 font-medium max-w-3xl mx-auto">
               Diseñada para transformar tu experiencia docente y devolverte el control de tu tiempo.
@@ -836,16 +1191,16 @@ export default function LandingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
-              { icon: Zap, title: "Ahorra Tiempo Real", description: "Reduce el trabajo administrativo drásticamente. Planifica en minutos lo que antes tomaba días.", iconBg: "bg-amber-50 dark:bg-amber-950/30 text-amber-500" },
-              { icon: FolderOpen, title: "Todo en un solo Lugar", description: "Tus recursos, planificaciones, exámenes y expedientes seguros y accesibles en la nube.", iconBg: "bg-blue-50 dark:bg-blue-950/30 text-blue-500" },
-              { icon: CheckCircle2, title: "Alineación Curricular", description: "Confianza total al estar 100% alineado a los estándares curriculares vigentes del MINERD.", iconBg: "bg-emerald-50 dark:bg-emerald-950/30 text-emerald-500" },
-              { icon: Heart, title: "Paz y Tranquilidad", description: "Estructuras pedagógicas completas que te dan seguridad ante cualquier supervisión escolar.", iconBg: "bg-rose-50 dark:bg-rose-950/30 text-rose-500" },
-              { icon: Target, title: "Calidad Didáctica", description: "Mejora el aprendizaje en el aula con actividades creativas, lúdicas y adaptadas (DUA).", iconBg: "bg-violet-50 dark:bg-violet-950/30 text-violet-500" },
-              { icon: TrendingUp, title: "Potencialización Docente", description: "Utiliza la inteligencia artificial como un asistente pedagógico de primer nivel.", iconBg: "bg-cyan-50 dark:bg-cyan-950/30 text-cyan-500" }
+              { icon: Zap, title: "Ahorra Tiempo Real", description: "Reduce el trabajo administrativo drásticamente. Planifica en minutos lo que antes tomaba días.", iconBg: "bg-amber-500/10 dark:bg-amber-500/25", iconClass: "fill-amber-500/20 text-amber-500" },
+              { icon: FolderOpen, title: "Todo en un solo Lugar", description: "Tus recursos, planificaciones, exámenes y expedientes seguros y accesibles en la nube.", iconBg: "bg-blue-500/10 dark:bg-blue-500/25", iconClass: "fill-blue-500/20 text-blue-500" },
+              { icon: CheckCircle2, title: "Alineación Curricular", description: "Confianza total al estar 100% alineado a los estándares curriculares vigentes del MINERD.", iconBg: "bg-emerald-500/10 dark:bg-emerald-500/25", iconClass: "fill-emerald-500/20 text-emerald-500" },
+              { icon: Heart, title: "Paz y Tranquilidad", description: "Estructuras pedagógicas completas que te dan seguridad ante cualquier supervisión escolar.", iconBg: "bg-rose-500/10 dark:bg-rose-500/25", iconClass: "fill-rose-500/20 text-rose-500" },
+              { icon: Target, title: "Calidad Didáctica", description: "Mejora el aprendizaje en el aula con actividades creativas, lúdicas y adaptadas (DUA).", iconBg: "bg-violet-500/10 dark:bg-violet-500/25", iconClass: "fill-violet-500/20 text-violet-500" },
+              { icon: TrendingUp, title: "Potencialización Docente", description: "Utiliza la inteligencia artificial como un asistente pedagógico de primer nivel.", iconBg: "bg-cyan-500/10 dark:bg-cyan-500/25", iconClass: "fill-cyan-500/20 text-cyan-500" }
             ].map((benefit, index) => (
-              <div key={index} className="bg-white dark:bg-zinc-900 p-7 rounded-2xl border border-zinc-200/60 dark:border-zinc-800/60 hover:shadow-lg hover:shadow-zinc-900/5 dark:hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300 flex flex-col items-start gap-4">
-                <div className={`p-3 rounded-xl ${benefit.iconBg}`}>
-                  <benefit.icon className="w-6 h-6" />
+              <div key={index} className="group bg-white dark:bg-zinc-900 p-7 rounded-2xl border border-zinc-200/60 dark:border-zinc-800/60 hover:shadow-lg hover:shadow-zinc-900/5 dark:hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300 flex flex-col items-start gap-4">
+                <div className="w-14 h-14 bg-white dark:bg-zinc-900 border border-zinc-200/60 dark:border-zinc-800/60 rounded-2xl shadow-sm flex items-center justify-center shrink-0 group-hover:scale-105 transition-all duration-300 relative">
+                  <benefit.icon size={26} className={benefit.iconClass} />
                 </div>
                 <h3 className="text-lg font-bold text-zinc-900 dark:text-white">{benefit.title}</h3>
                 <p className="text-sm font-medium text-zinc-600 dark:text-zinc-400 leading-relaxed">{benefit.description}</p>
@@ -856,19 +1211,149 @@ export default function LandingPage() {
       </section>
 
       {/* ══════════════════════════════════════════════════════════════════
+          BENEFITS SECTION WITH COLUMNS (Para el Docente, Para el Centro, Para los Estudiantes)
+      ═══════════════════════════════════════════════════════════════════ */}
+      <section className="py-20 px-6 bg-bg-base relative border-t border-black/5 dark:border-white/5">
+        <div className="max-w-6xl mx-auto">
+          {/* Header */}
+          <div className="text-center mb-16 relative">
+            <h2 className="text-3xl md:text-5xl font-extrabold text-[#02327e] dark:text-white tracking-tight mb-4 flex items-center justify-center gap-2 font-display">
+              <span className="text-[#02b36d] opacity-40 font-light">\ \</span> Beneficios <span className="text-[#02b36d] opacity-40 font-light">/ /</span>
+            </h2>
+            <div className="w-24 h-1 bg-[#02b36d] mx-auto rounded-full mt-2" />
+          </div>
+
+          {/* Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch pt-6">
+            
+            {/* Column 1: Para el Docente */}
+            <div className="relative group bg-blue-50/20 dark:bg-blue-950/10 border border-blue-200/80 dark:border-blue-900/40 p-8 pt-12 rounded-3xl transition-all duration-300 shadow-lg shadow-blue-500/5 hover:shadow-xl hover:shadow-blue-500/10 hover:border-blue-300 dark:hover:border-blue-800/80 flex flex-col items-center text-center">
+              {/* Circular Border Icon */}
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full border-2 border-[#02327e] flex items-center justify-center bg-white dark:bg-zinc-900 shadow-sm transition-transform duration-300 group-hover:scale-105">
+                <Laptop size={28} className="text-[#02327e]" />
+              </div>
+              <h3 className="text-lg font-bold text-zinc-950 dark:text-white mb-6">
+                Para el <span className="text-[#02327e] font-black block text-2xl mt-1">Docente</span>
+              </h3>
+              
+              <div className="flex flex-col items-center gap-4 w-full">
+                <div className="flex items-center gap-3 bg-white dark:bg-zinc-900 p-4 rounded-2xl shadow-sm border border-zinc-100 dark:border-zinc-800 w-full">
+                  <div className="w-10 h-10 rounded-full bg-blue-500/10 text-[#02327e] flex items-center justify-center shrink-0">
+                    <Clock size={20} className="fill-blue-500/20" />
+                  </div>
+                  <p className="text-xs sm:text-sm font-semibold text-zinc-650 dark:text-zinc-300 text-left leading-relaxed">
+                    Ahorro de más de <strong className="text-[#02327e] dark:text-blue-400 font-extrabold text-base">5 horas</strong> semanales de trabajo administrativo y reducción de estrés.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Column 2: Para el Centro / Coordinador */}
+            <div className="relative group bg-emerald-50/20 dark:bg-emerald-950/10 border border-emerald-200/80 dark:border-emerald-900/40 p-8 pt-12 rounded-3xl transition-all duration-300 shadow-lg shadow-emerald-500/5 hover:shadow-xl hover:shadow-emerald-500/10 hover:border-emerald-300 dark:hover:border-emerald-800/80 flex flex-col items-center text-center">
+              {/* Circular Border Icon */}
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full border-2 border-[#02b36d] flex items-center justify-center bg-white dark:bg-zinc-900 shadow-sm transition-transform duration-300 group-hover:scale-105">
+                <School size={28} className="text-[#02b36d]" />
+              </div>
+              <h3 className="text-lg font-bold text-zinc-950 dark:text-white mb-6">
+                Para el <span className="text-[#02b36d] font-black block text-2xl mt-1">Centro / Coordinador</span>
+              </h3>
+              
+              <div className="flex flex-col gap-4 w-full">
+                <div className="flex items-center gap-3 bg-white dark:bg-zinc-900 p-4 rounded-2xl shadow-sm border border-zinc-100 dark:border-zinc-800 w-full">
+                  <div className="w-10 h-10 rounded-full bg-emerald-500/10 text-[#02b36d] flex items-center justify-center shrink-0">
+                    <ClipboardCheck size={20} className="fill-emerald-500/20" />
+                  </div>
+                  <p className="text-xs sm:text-sm font-semibold text-zinc-650 dark:text-zinc-300 text-left leading-relaxed">
+                    <strong>Estandarización</strong> de formatos oficiales.
+                  </p>
+                </div>
+                
+                <div className="flex items-center gap-3 bg-white dark:bg-zinc-900 p-4 rounded-2xl shadow-sm border border-zinc-100 dark:border-zinc-800 w-full">
+                  <div className="w-10 h-10 rounded-full bg-emerald-500/10 text-[#02b36d] flex items-center justify-center shrink-0">
+                    <TrendingUp size={20} />
+                  </div>
+                  <p className="text-xs sm:text-sm font-semibold text-zinc-650 dark:text-zinc-300 text-left leading-relaxed">
+                    <strong>Supervisión</strong> en tiempo real del progreso de planificación.
+                  </p>
+                </div>
+
+                <div className="flex items-center gap-3 bg-white dark:bg-zinc-900 p-4 rounded-2xl shadow-sm border border-zinc-100 dark:border-zinc-800 w-full">
+                  <div className="w-10 h-10 rounded-full bg-emerald-500/10 text-[#02b36d] flex items-center justify-center shrink-0">
+                    <BarChart3 size={20} />
+                  </div>
+                  <p className="text-xs sm:text-sm font-semibold text-zinc-650 dark:text-zinc-300 text-left leading-relaxed">
+                    <strong>Métricas unificadas</strong> para la toma de decisiones.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Column 3: Para los Estudiantes */}
+            <div className="relative group bg-amber-50/20 dark:bg-amber-950/10 border border-amber-200/80 dark:border-amber-900/40 p-8 pt-12 rounded-3xl transition-all duration-300 shadow-lg shadow-amber-500/5 hover:shadow-xl hover:shadow-amber-500/10 hover:border-amber-300 dark:hover:border-amber-800/80 flex flex-col items-center text-center">
+              {/* Circular Border Icon */}
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full border-2 border-amber-500 flex items-center justify-center bg-white dark:bg-zinc-900 shadow-sm transition-transform duration-300 group-hover:scale-105">
+                <Users size={28} className="text-amber-600" />
+              </div>
+              <h3 className="text-lg font-bold text-zinc-950 dark:text-white mb-6">
+                Para los <span className="text-amber-600 dark:text-amber-550 font-black block text-2xl mt-1">Estudiantes</span>
+              </h3>
+              
+              <div className="flex flex-col gap-4 w-full">
+                <div className="flex items-center gap-3 bg-white dark:bg-zinc-900 p-4 rounded-2xl shadow-sm border border-zinc-100 dark:border-zinc-800 w-full">
+                  <div className="w-10 h-10 rounded-full bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0">
+                    <Star size={20} className="fill-amber-550/20" />
+                  </div>
+                  <p className="text-xs sm:text-sm font-semibold text-zinc-650 dark:text-zinc-300 text-left leading-relaxed">
+                    Clases más <strong>dinámicas</strong> e interactivas.
+                  </p>
+                </div>
+                
+                <div className="flex items-center gap-3 bg-white dark:bg-zinc-900 p-4 rounded-2xl shadow-sm border border-zinc-100 dark:border-zinc-800 w-full">
+                  <div className="w-10 h-10 rounded-full bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0">
+                    <Puzzle size={20} className="fill-amber-550/20" />
+                  </div>
+                  <p className="text-xs sm:text-sm font-semibold text-zinc-650 dark:text-zinc-300 text-left leading-relaxed">
+                    Experiencias más <strong>lúdicas</strong> y motivadoras.
+                  </p>
+                </div>
+
+                <div className="flex items-center gap-3 bg-white dark:bg-zinc-900 p-4 rounded-2xl shadow-sm border border-zinc-100 dark:border-zinc-800 w-full">
+                  <div className="w-10 h-10 rounded-full bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0">
+                    <Target size={20} className="fill-amber-550/20" />
+                  </div>
+                  <p className="text-xs sm:text-sm font-semibold text-zinc-650 dark:text-zinc-300 text-left leading-relaxed">
+                    Actividades <strong>adaptadas</strong> a su <strong>ritmo</strong> de aprendizaje.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Bottom Banner */}
+          <div className="mt-16 max-w-4xl mx-auto border border-blue-200/60 dark:border-blue-900/50 rounded-2xl p-5 bg-blue-50/10 dark:bg-blue-950/5 flex items-center gap-4 justify-center shadow-xs">
+            <div className="w-10 h-10 rounded-full bg-[#02327e]/15 text-[#02327e] dark:text-blue-300 flex items-center justify-center shrink-0">
+              <ShieldCheck size={22} className="fill-[#02327e]/20" />
+            </div>
+            <p className="text-xs sm:text-sm md:text-base font-bold text-zinc-700 dark:text-zinc-300 text-center leading-relaxed">
+              Planix impulsa una educación <span className="text-[#02b36d] font-extrabold">más eficiente, organizada</span> y centrada en el aprendizaje.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════════════════
           FEATURES / TOOLS SECTION
       ═══════════════════════════════════════════════════════════════════ */}
-      <section id="features" className="py-24 px-6 bg-zinc-50/80 dark:bg-zinc-900/20 relative overflow-hidden">
+      <section id="features" className="pt-24 pb-10 px-6 bg-bg-base relative overflow-hidden">
         <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-[#02327e]/5 blur-[120px] rounded-full pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#02b36d]/5 blur-[120px] rounded-full pointer-events-none" />
 
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="text-center space-y-4 mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#02327e]/10 dark:bg-[#02327e]/15 rounded-full text-[#02327e] dark:text-blue-300 font-semibold text-xs border border-[#02327e]/15">
-              <Sparkles size={12} /> Recursos de primer nivel
-            </div>
             <h2 className="text-3xl md:text-5xl font-extrabold text-zinc-900 dark:text-white tracking-tight">
-              Herramientas diseñadas <span className="bg-gradient-to-r from-[#02327e] to-[#02b36d] bg-clip-text text-transparent">para ti</span>
+              Herramientas diseñadas <span className="text-[#02b36d]">para ti</span>
             </h2>
             <p className="text-lg text-zinc-500 dark:text-zinc-400 font-medium max-w-2xl mx-auto mt-4">
               Todo lo que necesitas para transformar tu práctica docente en un ecosistema inteligente y sencillo.
@@ -879,10 +1364,10 @@ export default function LandingPage() {
             {(showAllFeatures ? ALL_FEATURES : ALL_FEATURES.slice(0, 6)).map((feature, index) => (
               <div
                 key={index}
-                className={`group bg-white dark:bg-zinc-900 p-7 rounded-2xl border border-zinc-200/60 dark:border-zinc-800/60 hover:shadow-lg hover:shadow-zinc-900/5 dark:hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300 flex flex-col items-start gap-4`}
+                className="group bg-white dark:bg-zinc-900 p-7 rounded-2xl border border-zinc-200/60 dark:border-zinc-800/60 hover:shadow-lg hover:shadow-zinc-900/5 dark:hover:shadow-black/10 hover:-translate-y-1 transition-all duration-300 flex flex-col items-start gap-4"
               >
-                <div className={`w-14 h-14 bg-gradient-to-br ${feature.gradient} rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform border border-zinc-200/30 dark:border-zinc-800/30`}>
-                  <feature.icon className="w-7 h-7 text-zinc-700 dark:text-zinc-300" />
+                <div className="w-14 h-14 bg-white dark:bg-zinc-900 border border-zinc-200/60 dark:border-zinc-800/60 rounded-2xl shadow-sm flex items-center justify-center shrink-0 group-hover:scale-105 transition-all duration-300 relative">
+                  <feature.icon size={26} className={getFeatureIconClass(feature.gradient)} />
                 </div>
                 <h3 className="text-lg font-bold text-zinc-900 dark:text-white tracking-tight">{feature.title}</h3>
                 <p className="text-zinc-600 dark:text-zinc-400 font-medium text-sm leading-relaxed">{feature.description}</p>
@@ -904,99 +1389,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* ══════════════════════════════════════════════════════════════════
-          PRICING SECTION
-      ═══════════════════════════════════════════════════════════════════ */}
-      <section id="planes" className="py-24 px-6 bg-white dark:bg-zinc-950 relative">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-extrabold text-zinc-900 dark:text-white tracking-tight mb-4">
-              Planes simples para cada docente
-            </h2>
-            <p className="text-lg text-zinc-500 dark:text-zinc-400 font-medium max-w-2xl mx-auto">
-              Elige el nivel de acompañamiento que necesitas. Cancela o cambia cuando quieras.
-            </p>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
-            {/* Free Plan */}
-            <div className="bg-white dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-full">
-              <div>
-                <span className="inline-block bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-md mb-4">
-                  Acceso Básico
-                </span>
-                <h3 className="text-2xl font-extrabold text-zinc-900 dark:text-white mb-2">Plan Básico</h3>
-                <p className="text-sm font-medium text-zinc-500 mb-6">Prueba la plataforma sin compromisos</p>
-                <div className="flex items-baseline gap-1 mb-8">
-                  <span className="text-4xl font-extrabold text-zinc-900 dark:text-white">RD$ 0</span>
-                  <span className="text-sm font-medium text-zinc-500">/ gratis siempre</span>
-                </div>
-                <div className="h-px bg-zinc-100 dark:bg-zinc-800 my-5" />
-                <ul className="space-y-3.5 font-medium text-sm text-zinc-700 dark:text-zinc-300">
-                  {[
-                    { text: "Hasta 3 planificaciones mensuales", included: true },
-                    { text: "Alineación curricular oficial básica", included: true },
-                    { text: "Generador de Exámenes con IA", included: false },
-                    { text: "Descargas PDF institucionales ilimitadas", included: false }
-                  ].map((item, i) => (
-                    <li key={i} className={`flex items-center gap-2.5 ${!item.included ? 'text-zinc-400 dark:text-zinc-600' : ''}`}>
-                      <div className={`flex h-5 w-5 items-center justify-center rounded-full ${item.included ? 'bg-[#02b36d]/15 text-[#02b36d]' : 'bg-zinc-100 dark:bg-zinc-800 text-zinc-300 dark:text-zinc-600'}`}>
-                        {item.included ? <Check size={12} strokeWidth={3} /> : <X size={12} />}
-                      </div>
-                      <span>{item.text}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <Link to="/registro" className="mt-8 block">
-                <button className="w-full bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-800 dark:text-zinc-200 py-3.5 rounded-xl font-semibold text-sm transition-all cursor-pointer">
-                  Comenzar Gratis
-                </button>
-              </Link>
-            </div>
-
-            {/* Pro Plan */}
-            <div className="relative bg-gradient-to-br from-[#02327e]/[0.03] to-[#02b36d]/[0.03] border-2 border-[#02327e]/30 dark:border-[#02327e]/50 p-8 rounded-2xl shadow-lg shadow-[#02327e]/5 dark:shadow-[#02327e]/10 flex flex-col justify-between h-full">
-              <div className="absolute -top-3 right-6 bg-gradient-to-r from-[#02327e] to-[#02b36d] text-white text-[10px] font-bold uppercase tracking-widest px-4 py-1.5 rounded-full shadow-md">
-                ⭐ Favorito
-              </div>
-              <div>
-                <span className="inline-block bg-[#02b36d]/15 text-[#02b36d] text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-md mb-4">
-                  Acceso Total
-                </span>
-                <h3 className="text-2xl font-extrabold text-zinc-900 dark:text-white mb-2">Plan Pro</h3>
-                <p className="text-sm font-medium text-zinc-500 mb-6">Planificaciones e IA sin límites</p>
-                <div className="flex items-baseline gap-1 mb-8">
-                  <span className="text-4xl font-extrabold text-zinc-900 dark:text-white">RD$ 490</span>
-                  <span className="text-sm font-medium text-zinc-500">/ mes</span>
-                </div>
-                <div className="h-px bg-zinc-200/50 dark:bg-zinc-800 my-5" />
-                <ul className="space-y-3.5 font-medium text-sm text-zinc-700 dark:text-zinc-300">
-                  {[
-                    "Planificaciones IA ilimitadas",
-                    "Alineación curricular avanzada MINERD",
-                    "Generador de Exámenes ilimitado",
-                    "Descargas instantáneas en PDF y Word",
-                    "Soporte prioritario 24/7 vía WhatsApp"
-                  ].map((text, i) => (
-                    <li key={i} className="flex items-center gap-2.5">
-                      <div className="flex h-5 w-5 items-center justify-center rounded-full bg-[#02b36d]/15 text-[#02b36d]">
-                        <Check size={12} strokeWidth={3} />
-                      </div>
-                      <span>{text}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <Link to="/registro" className="mt-8 block">
-                <button className="w-full bg-gradient-to-r from-[#02327e] to-[#02327e]/90 hover:from-[#02327e]/95 hover:to-[#02327e] text-white py-3.5 rounded-xl font-semibold text-sm shadow-lg shadow-[#02327e]/20 active:scale-[0.98] transition-all cursor-pointer">
-                  Obtener Plan Pro
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* FAQ Section */}
       <FAQSection />
@@ -1005,18 +1398,19 @@ export default function LandingPage() {
       <TestimonialsMasonry />
 
       {/* Social Community */}
-      <SocialCommunity />
+      <div id="comunidad">
+        <SocialCommunity />
+      </div>
 
       {/* ══════════════════════════════════════════════════════════════════
           FINAL CTA SECTION
       ═══════════════════════════════════════════════════════════════════ */}
-      <section className="py-24 px-6 bg-gradient-to-b from-zinc-50 to-white dark:from-zinc-900/30 dark:to-zinc-950 overflow-hidden relative">
+      <section className="py-24 px-6 bg-bg-base overflow-hidden relative">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#02327e]/5 blur-[150px] rounded-full pointer-events-none" />
 
         <div className="max-w-4xl mx-auto text-center relative z-10 space-y-7">
-          <h2 className="text-3xl md:text-6xl font-extrabold text-zinc-900 dark:text-white tracking-tight leading-tight">
-            Transforma tu planificación<br />
-            <span className="bg-gradient-to-r from-[#02327e] to-[#02b36d] bg-clip-text text-transparent">hoy mismo.</span>
+          <h2 className="text-3xl md:text-5xl font-extrabold text-zinc-900 dark:text-white tracking-tight leading-tight">
+            Transforma tu planificación <span className="text-[#02b36d] font-extrabold">hoy mismo.</span>
           </h2>
           <p className="text-lg sm:text-xl text-zinc-500 dark:text-zinc-400 font-medium max-w-2xl mx-auto leading-relaxed">
             Únete a miles de docentes de la República Dominicana que ya están ahorrando tiempo administrativo con la IA de Planix.
@@ -1025,13 +1419,13 @@ export default function LandingPage() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3.5 pt-4">
             <Link
               to={user ? "/dashboard" : "/registro"}
-              className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-[#02327e] to-[#02327e]/90 text-white rounded-xl font-semibold text-sm shadow-lg shadow-[#02327e]/20 hover:shadow-xl hover:shadow-[#02327e]/25 active:scale-[0.97] transition-all text-center"
+              className="w-full sm:w-auto px-6 py-2.5 bg-[#02327e] hover:bg-[#012563] text-white rounded-xl font-semibold text-sm transition-all text-center flex items-center justify-center gap-2 active:scale-[0.97] shadow-none"
             >
-              Comenzar Gratis
+              Comenzar Gratis <ArrowRight size={16} />
             </Link>
             <Link
               to="/login"
-              className="w-full sm:w-auto px-8 py-4 bg-white dark:bg-zinc-900 text-zinc-700 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-700 rounded-xl font-semibold text-sm shadow-sm hover:shadow-md transition-all text-center"
+              className="w-full sm:w-auto px-6 py-2.5 bg-white dark:bg-zinc-900 text-zinc-700 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-700 rounded-xl font-semibold text-sm hover:bg-zinc-50 dark:hover:bg-zinc-800 transition-all text-center flex items-center justify-center gap-2 active:scale-[0.97] shadow-none"
             >
               Iniciar Sesión
             </Link>

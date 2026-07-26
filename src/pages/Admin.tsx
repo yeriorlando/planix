@@ -276,19 +276,13 @@ const defaultSettings = {
         gemini: {
             apiKey: undefined,
             enabled: false,
-            defaultModel: 'gemini-2.5-flash',
+            defaultModel: 'gemini-3.5-flash',
             availableModels: [
+                'gemini-3.0-pro',
                 'gemini-3.5-flash',
-                'gemini-3.5-flash-thinking',
-                'gemini-3.1-pro',
-                'gemini-3.1-pro-enhanced',
-                'gemini-auto',
-                'gemini-3.5-flash-thinking-lite',
-                'gemini-flash-lite',
-                'gemini-3.1-flash-lite-preview',
-                'gemini-3.1-pro-preview',
-                'gemini-2.5-flash',
+                'gemini-3.1-flash-lite',
                 'gemini-2.5-pro',
+                'gemini-2.5-flash',
                 'gemini-2.5-flash-lite'
             ],
             useCustomServer: false,
@@ -362,8 +356,8 @@ const isRecommendedModel = (model: string): boolean => {
   return (
     lowercase === 'gpt-4o' ||
     lowercase === 'gpt-4o-mini' ||
-    lowercase === 'gemini-2.5-flash' ||
     lowercase === 'gemini-3.5-flash' ||
+    lowercase === 'gemini-2.5-flash' ||
     lowercase === 'deepseek-v4-flash' ||
     lowercase === 'llama-3.1-70b-versatile'
   );
@@ -374,17 +368,12 @@ const modelDisplayName = (model: string): string => {
   if (model.startsWith('gpt-4o')) return 'GPT-4o';
   if (model.startsWith('gpt-4-turbo')) return 'GPT-4 Turbo';
   if (model.startsWith('gpt-3.5-turbo')) return 'GPT-3.5 Turbo';
-  if (model.startsWith('gemini-3.5-flash-thinking-lite')) return 'Gemini 3.5 Flash Thinking Lite';
-  if (model.startsWith('gemini-3.5-flash-thinking')) return 'Gemini 3.5 Flash Thinking';
+  if (model.startsWith('gemini-3.0-pro')) return 'Gemini 3 Pro';
   if (model.startsWith('gemini-3.5-flash')) return 'Gemini 3.5 Flash';
-  if (model.startsWith('gemini-3.1-flash-lite')) return 'Gemini 3.1 Flash Lite Preview';
-  if (model.startsWith('gemini-3.1-pro-preview')) return 'Gemini 3.1 Pro Preview';
-  if (model.startsWith('gemini-3.1-pro')) return 'Gemini 3.1 Pro';
-  if (model.startsWith('gemini-2.5-flash-lite')) return 'Gemini 2.5 Flash Lite';
-  if (model.startsWith('gemini-2.5-flash')) return 'Gemini 2.5 Flash';
+  if (model.startsWith('gemini-3.1-flash-lite')) return 'Gemini 3.1 Flash-Lite';
   if (model.startsWith('gemini-2.5-pro')) return 'Gemini 2.5 Pro';
-  if (model.startsWith('gemini-flash-lite')) return 'Gemini Flash Lite';
-  if (model.startsWith('gemini-auto')) return 'Gemini Auto';
+  if (model.startsWith('gemini-2.5-flash')) return 'Gemini 2.5 Flash';
+  if (model.startsWith('gemini-2.5-flash-lite')) return 'Gemini 2.5 Flash-Lite';
   if (model.startsWith('llama-3.1-70b')) return 'Llama 3.1 70B';
   if (model.startsWith('llama-3.1-8b')) return 'Llama 3.1 8B';
   if (model.startsWith('mixtral-8x7b')) return 'Mixtral 8x7B';
@@ -493,17 +482,11 @@ function AISettingsPanel() {
     useEffect(() => {
         if (activeTab === 'gemini') {
             const validModels = [
+                'gemini-3.0-pro',
                 'gemini-3.5-flash',
-                'gemini-3.5-flash-thinking',
-                'gemini-3.1-pro',
-                'gemini-3.1-pro-enhanced',
-                'gemini-auto',
-                'gemini-3.5-flash-thinking-lite',
-                'gemini-flash-lite',
-                'gemini-3.1-flash-lite-preview',
-                'gemini-3.1-pro-preview',
-                'gemini-2.5-flash',
+                'gemini-3.1-flash-lite',
                 'gemini-2.5-pro',
+                'gemini-2.5-flash',
                 'gemini-2.5-flash-lite'
             ];
             if (JSON.stringify(currentProvider.availableModels) !== JSON.stringify(validModels)) {

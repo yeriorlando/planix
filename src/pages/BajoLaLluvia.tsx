@@ -281,8 +281,15 @@ export default function BajoLaLluvia() {
     // SVG Drawing of the Cloud, Rain, and Character
     const renderRainySVG = (livesLeft: number) => {
         const mistakes = 6 - livesLeft;
-        const cloudPath = "M 40 80 C 25 80, 20 65, 35 60 C 30 45, 45 35, 60 40 C 70 25, 85 25, 100 30 C 115 25, 130 25, 140 35 C 155 30, 170 40, 175 55 C 185 60, 185 70, 180 75 C 180 80, 170 80, 165 80 C 110 85, 70 85, 40 80 Z";
-        
+        const cloudPath = "M 40 55 C 25 55, 20 40, 35 35 C 30 20, 45 10, 60 15 C 70 0, 85 0, 100 5 C 115 0, 130 0, 140 10 C 155 5, 170 15, 175 30 C 185 35, 185 45, 180 50 C 180 55, 170 55, 165 55 C 110 60, 70 60, 40 55 Z";
+
+        let characterImg = "/Bajo la lluvia/Fase 1.webp";
+        if (mistakes >= 1 && mistakes < 6) {
+            characterImg = "/Bajo la lluvia/Fase 2.webp";
+        } else if (mistakes >= 6) {
+            characterImg = "/Bajo la lluvia/Fase 3.webp";
+        }
+
         return (
             <svg 
                 viewBox="0 0 220 250" 
@@ -303,78 +310,27 @@ export default function BajoLaLluvia() {
                             exit={{ opacity: 0, scale: 0 }}
                             transition={{ duration: 0.5 }}
                         >
-                            <circle cx="45" cy="45" r="14" className="fill-amber-400 dark:fill-amber-300 stroke-amber-500" strokeWidth="2" />
-                            <line x1="45" y1="23" x2="45" y2="17" strokeWidth="2" className="stroke-amber-500" />
-                            <line x1="45" y1="67" x2="45" y2="73" strokeWidth="2" className="stroke-amber-500" />
-                            <line x1="23" y1="45" x2="17" y2="45" strokeWidth="2" className="stroke-amber-500" />
-                            <line x1="67" y1="45" x2="73" y2="45" strokeWidth="2" className="stroke-amber-500" />
-                            <line x1="29" y1="29" x2="25" y2="25" strokeWidth="2" className="stroke-amber-500" />
-                            <line x1="61" y1="61" x2="65" y2="65" strokeWidth="2" className="stroke-amber-500" />
-                            <line x1="61" y1="29" x2="65" y2="25" strokeWidth="2" className="stroke-amber-500" />
-                            <line x1="29" y1="61" x2="25" y2="65" strokeWidth="2" className="stroke-amber-500" />
+                            <circle cx="45" cy="30" r="14" className="fill-amber-400 dark:fill-amber-300 stroke-amber-500" strokeWidth="2" />
+                            <line x1="45" y1="8" x2="45" y2="2" strokeWidth="2" className="stroke-amber-500" />
+                            <line x1="45" y1="52" x2="45" y2="58" strokeWidth="2" className="stroke-amber-500" />
+                            <line x1="23" y1="30" x2="17" y2="30" strokeWidth="2" className="stroke-amber-500" />
+                            <line x1="67" y1="30" x2="73" y2="30" strokeWidth="2" className="stroke-amber-500" />
+                            <line x1="29" y1="14" x2="25" y2="10" strokeWidth="2" className="stroke-amber-500" />
+                            <line x1="61" y1="46" x2="65" y2="50" strokeWidth="2" className="stroke-amber-500" />
+                            <line x1="61" y1="14" x2="65" y2="10" strokeWidth="2" className="stroke-amber-500" />
+                            <line x1="29" y1="46" x2="25" y2="50" strokeWidth="2" className="stroke-amber-500" />
                         </motion.g>
                     )}
                 </AnimatePresence>
 
-                {/* Ground / Grass (Always visible) */}
-                <path d="M 20 224 Q 110 218 200 224" strokeWidth="4" className="stroke-emerald-500 dark:stroke-emerald-600" />
-                
-                {/* Character - Body & Standing (Always visible) */}
-                <circle cx="110" cy="150" r="16" strokeWidth="3.5" />
-                <line x1="110" y1="166" x2="110" y2="200" strokeWidth="3.5" />
-                <line x1="110" y1="175" x2="90" y2="190" strokeWidth="3.5" />
-                <line x1="110" y1="175" x2="130" y2="190" strokeWidth="3.5" />
-                <line x1="110" y1="200" x2="95" y2="218" strokeWidth="3.5" />
-                <line x1="110" y1="200" x2="125" y2="218" strokeWidth="3.5" />
-
-                {/* Character - Dynamic Facial Expressions */}
-                {mistakes < 4 ? (
-                    // Happy face: smile & dots
-                    <>
-                        <circle cx="104" cy="146" r="1.5" className="fill-slate-800 dark:fill-white stroke-none" />
-                        <circle cx="116" cy="146" r="1.5" className="fill-slate-800 dark:fill-white stroke-none" />
-                        <path d="M 104 153 Q 110 159 116 153" strokeWidth="1.5" />
-                    </>
-                ) : mistakes === 4 ? (
-                    // Worried face: straight mouth line
-                    <>
-                        <circle cx="104" cy="146" r="1.5" className="fill-slate-800 dark:fill-white stroke-none" />
-                        <circle cx="116" cy="146" r="1.5" className="fill-slate-800 dark:fill-white stroke-none" />
-                        <line x1="104" y1="155" x2="116" y2="155" strokeWidth="2.5" />
-                    </>
-                ) : mistakes === 5 ? (
-                    // Sad face: frown mouth curve
-                    <>
-                        <circle cx="104" cy="146" r="1.5" className="fill-slate-800 dark:fill-white stroke-none" />
-                        <circle cx="116" cy="146" r="1.5" className="fill-slate-800 dark:fill-white stroke-none" />
-                        <path d="M 104 157 Q 110 152 116 157" strokeWidth="2.5" />
-                    </>
-                ) : (
-                    // Crying/Soaked face (mistakes === 6): T_T eyes or arches, tears, very sad curve
-                    <>
-                        {/* Crying eyes (arches) */}
-                        <path d="M 101 146 Q 104 143 107 146" strokeWidth="2" />
-                        <path d="M 113 146 Q 116 143 119 146" strokeWidth="2" />
-                        {/* Tears running down */}
-                        <motion.line 
-                            x1="104" y1="147" x2="104" y2="155" 
-                            strokeWidth="1.5" 
-                            className="stroke-blue-400 dark:stroke-blue-300"
-                            initial={{ pathLength: 0 }}
-                            animate={{ pathLength: 1 }}
-                            transition={{ repeat: Infinity, duration: 1.2 }}
-                        />
-                        <motion.line 
-                            x1="116" y1="147" x2="116" y2="155" 
-                            strokeWidth="1.5" 
-                            className="stroke-blue-400 dark:stroke-blue-300"
-                            initial={{ pathLength: 0 }}
-                            animate={{ pathLength: 1 }}
-                            transition={{ repeat: Infinity, duration: 1.2, delay: 0.3 }}
-                        />
-                        <path d="M 104 160 Q 110 153 116 160" strokeWidth="2" />
-                    </>
-                )}
+                {/* Character Image from public assets */}
+                <image
+                    href={characterImg}
+                    x="30"
+                    y="80"
+                    width="160"
+                    height="160"
+                />
 
                 {/* Cloud Outline & Progressive Cloudy Fill */}
                 {mistakes >= 1 && (
@@ -411,7 +367,7 @@ export default function BajoLaLluvia() {
                 {mistakes >= 3 && (
                     <>
                         <motion.line 
-                            x1="70" y1="85" x2="65" y2="105" 
+                            x1="70" y1="60" x2="65" y2="80" 
                             strokeWidth="2.5" 
                             className="stroke-blue-400/70 dark:stroke-blue-300/70" 
                             strokeDasharray="4 4"
@@ -420,7 +376,7 @@ export default function BajoLaLluvia() {
                             transition={{ repeat: Infinity, duration: 1.5, ease: "linear" }}
                         />
                         <motion.line 
-                            x1="110" y1="85" x2="105" y2="105" 
+                            x1="110" y1="60" x2="105" y2="80" 
                             strokeWidth="2.5" 
                             className="stroke-blue-400/70 dark:stroke-blue-300/70" 
                             strokeDasharray="4 4"
@@ -429,7 +385,7 @@ export default function BajoLaLluvia() {
                             transition={{ repeat: Infinity, duration: 1.5, ease: "linear", delay: 0.4 }}
                         />
                         <motion.line 
-                            x1="150" y1="85" x2="145" y2="105" 
+                            x1="150" y1="60" x2="145" y2="80" 
                             strokeWidth="2.5" 
                             className="stroke-blue-400/70 dark:stroke-blue-300/70" 
                             strokeDasharray="4 4"
@@ -444,7 +400,7 @@ export default function BajoLaLluvia() {
                 {mistakes >= 4 && (
                     <>
                         <motion.line 
-                            x1="90" y1="85" x2="85" y2="115" 
+                            x1="90" y1="60" x2="85" y2="90" 
                             strokeWidth="2.5" 
                             className="stroke-blue-400 dark:stroke-blue-300" 
                             strokeDasharray="4 4"
@@ -453,7 +409,7 @@ export default function BajoLaLluvia() {
                             transition={{ repeat: Infinity, duration: 1.2, ease: "linear", delay: 0.2 }}
                         />
                         <motion.line 
-                            x1="130" y1="85" x2="125" y2="115" 
+                            x1="130" y1="60" x2="125" y2="90" 
                             strokeWidth="2.5" 
                             className="stroke-blue-400 dark:stroke-blue-300" 
                             strokeDasharray="4 4"
@@ -473,31 +429,31 @@ export default function BajoLaLluvia() {
                     >
                         {/* Main central lightning bolt */}
                         <path 
-                            d="M 110 80 L 98 105 L 112 105 L 102 130" 
+                            d="M 110 55 L 98 80 L 112 80 L 102 105" 
                             strokeWidth="3.5" 
                             className="stroke-amber-500 fill-amber-500" 
                         />
                         {/* Left small lightning bolt */}
                         <path 
-                            d="M 65 82 L 58 97 L 67 97 L 60 112" 
+                            d="M 65 57 L 58 72 L 67 72 L 60 87" 
                             strokeWidth="2.2" 
                             className="stroke-amber-500 fill-amber-500" 
                         />
                         {/* Right small lightning bolt */}
                         <path 
-                            d="M 155 82 L 148 97 L 157 97 L 150 112" 
+                            d="M 155 57 L 148 72 L 157 72 L 150 87" 
                             strokeWidth="2.2" 
                             className="stroke-amber-500 fill-amber-500" 
                         />
                     </motion.g>
                 )}
 
-                {/* Step 6: Heavy Rain downpour & Puddle */}
+                {/* Step 6: Heavy Rain downpour */}
                 {mistakes >= 6 && (
                     <>
                         {/* Direct rain on head */}
                         <motion.line 
-                            x1="105" y1="85" x2="105" y2="145" 
+                            x1="105" y1="60" x2="105" y2="120" 
                             strokeWidth="2.5" 
                             className="stroke-blue-500 dark:stroke-blue-400" 
                             initial={{ opacity: 0 }}
@@ -505,24 +461,12 @@ export default function BajoLaLluvia() {
                             transition={{ repeat: Infinity, duration: 0.8, ease: "linear" }}
                         />
                         <motion.line 
-                            x1="115" y1="85" x2="115" y2="145" 
+                            x1="115" y1="60" x2="115" y2="120" 
                             strokeWidth="2.5" 
                             className="stroke-blue-500 dark:stroke-blue-400" 
                             initial={{ opacity: 0 }}
                             animate={{ opacity: [0, 1, 0], y: [0, 50] }}
                             transition={{ repeat: Infinity, duration: 0.8, ease: "linear", delay: 0.3 }}
-                        />
-                        {/* Puddle */}
-                        <motion.ellipse 
-                            cx="110" 
-                            cy="218" 
-                            rx="25" 
-                            ry="4" 
-                            className="fill-blue-500/20 stroke-blue-500 dark:fill-blue-400/20 dark:stroke-blue-400" 
-                            strokeWidth="1.5"
-                            initial={{ scale: 0 }}
-                            animate={{ scale: 1 }}
-                            transition={{ duration: 0.5 }}
                         />
                     </>
                 )}

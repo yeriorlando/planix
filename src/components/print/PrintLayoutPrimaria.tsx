@@ -68,7 +68,10 @@ const renderInclusionActivities = (text: string) => {
 const renderResourcesList = (recursos: any) => {
   if (!recursos) return <p className="text-neutral-500 italic">---</p>;
   const rawRec = recursos.toString().trim();
-  if (!rawRec || rawRec === '---' || rawRec === 'Recursos diversos') {
+  if (!rawRec || rawRec === '---') {
+    return <p className="text-neutral-500 italic">---</p>;
+  }
+  if (rawRec === 'Recursos diversos') {
     return <p className="text-neutral-750 font-normal">Recursos diversos.</p>;
   }
 
@@ -442,9 +445,9 @@ const getMomentosArray = (formData: any) => {
   }
   if (formData.momentos && typeof formData.momentos === 'object') {
     return [
-      { moment: 'Inicio', descripcion: formData.momentos.inicio || formData.momentos.Inicio || '', tiempo: '15 minutos', recursos: formData.recursos?.join(', ') || 'Recursos diversos' },
-      { moment: 'Desarrollo', descripcion: formData.momentos.desarrollo || formData.momentos.Desarrollo || '', tiempo: '45 minutos', recursos: formData.recursos?.join(', ') || 'Recursos diversos' },
-      { moment: 'Cierre', descripcion: formData.momentos.cierre || formData.momentos.Cierre || '', tiempo: '10 minutos', recursos: formData.recursos?.join(', ') || 'Recursos diversos' },
+      { moment: 'Inicio', descripcion: formData.momentos.inicio || formData.momentos.Inicio || '', tiempo: '15 minutos', recursos: formData.recursos?.join(', ') || '' },
+      { moment: 'Desarrollo', descripcion: formData.momentos.desarrollo || formData.momentos.Desarrollo || '', tiempo: '45 minutos', recursos: formData.recursos?.join(', ') || '' },
+      { moment: 'Cierre', descripcion: formData.momentos.cierre || formData.momentos.Cierre || '', tiempo: '10 minutos', recursos: formData.recursos?.join(', ') || '' },
     ];
   }
   return [];
@@ -775,7 +778,7 @@ export default function PrintLayoutPrimaria({
                   <div className="font-extrabold text-neutral-900 text-xs mb-0.5">{getMomentLabel(idx, m)}</div>
                   <div className="text-[11px] font-normal text-neutral-500 mt-0.5">{formatTimeText(m.tiempo)}</div>
                 </div>
-                <div className={`col-span-6 p-3 text-xs leading-relaxed ${m.hideDescription ? 'flex items-center justify-center text-center' : ''}`}>
+                <div className={`col-span-6 p-3 text-xs leading-relaxed ${m.hideDescription && (!m.actividadesDiferenciadas || m.actividadesDiferenciadas.length === 0) ? 'flex items-center justify-center text-center' : ''}`}>
                   <p className="whitespace-pre-wrap">{renderMomentDescription(m)}</p>
                   {m.actividadesDiferenciadas && m.actividadesDiferenciadas.length > 0 && (
                     <div className="mt-3 pt-2.5 border-t border-dashed border-neutral-300">
@@ -1004,7 +1007,7 @@ export default function PrintLayoutPrimaria({
               <div className="col-span-2 p-2.5 bg-neutral-50/50 font-bold flex items-center justify-center text-center text-xs uppercase text-neutral-800">
                 {getMomentLabel(index, m)}
               </div>
-              <div className={`col-span-5 p-3 text-xs leading-relaxed ${m.hideDescription ? 'flex items-center justify-center text-center' : ''}`}>
+              <div className={`col-span-5 p-3 text-xs leading-relaxed ${m.hideDescription && (!m.actividadesDiferenciadas || m.actividadesDiferenciadas.length === 0) ? 'flex items-center justify-center text-center' : ''}`}>
                 <p className="whitespace-pre-wrap">{renderMomentDescription(m)}</p>
                 {m.actividadesDiferenciadas && m.actividadesDiferenciadas.length > 0 && (
                   <div className="mt-3 pt-2.5 border-t border-dashed border-neutral-300">
@@ -1035,7 +1038,7 @@ export default function PrintLayoutPrimaria({
                 {/^\d+\s*$/.test(m.tiempo || '') ? `${m.tiempo} minutos` : m.tiempo}
               </div>
               <div className="col-span-3 p-3 text-xs leading-relaxed">
-                {renderResourcesList(m.recursos || 'Recursos diversos')}
+                {renderResourcesList(m.recursos)}
               </div>
             </div>
           ))}

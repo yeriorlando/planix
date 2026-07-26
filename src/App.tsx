@@ -1,7 +1,9 @@
 import React from 'react';
 import { flushSync } from 'react-dom';
-import { BrowserRouter, Routes, Route, Outlet, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet, Navigate, useLocation } from 'react-router-dom';
 import { requestD1 } from './lib/services/d1Client';
+import { getCurrentUser } from './lib/storage';
+import Mantenimiento from './pages/Mantenimiento';
 import Sidebar from './components/Sidebar';
 import WhatsAppSupportBubble from './components/planix/WhatsAppSupportBubble';
 import Dashboard from './pages/Dashboard';
@@ -25,7 +27,15 @@ import DetallePlanificacion from './pages/DetallePlanificacion';
 import DetalleClase from './pages/DetalleClase';
 import Planificador from './pages/Planificador';
 import PlanixChat from './pages/PlanixChat';
-import { Loader2 } from 'lucide-react';
+import Talleres from './pages/Talleres';
+import CrearTaller from './pages/CrearTaller';
+import DetalleTaller from './pages/DetalleTaller';
+import ClaseTaller from './pages/ClaseTaller';
+import { 
+  Loader2, BookOpen, School, PenTool, Languages, Lightbulb, Target, 
+  FlaskConical, Palette, Library, BookMarked, Brain, GraduationCap, 
+  Atom, Scroll, Shapes, Globe, Compass, Notebook, Award, Calculator, Music 
+} from 'lucide-react';
 
 // Ported Educational Pages
 import Login from './pages/Login';
@@ -40,6 +50,10 @@ import Asistencia from './pages/Asistencia';
 import RegistroCalificaciones from './pages/RegistroCalificaciones';
 import LandingPage from './pages/LandingPage';
 import AvisoLegal from './pages/AvisoLegal';
+import Terminos from './pages/Terminos';
+import Privacidad from './pages/Privacidad';
+import PoliticaIA from './pages/PoliticaIA';
+import SobrePlanix from './pages/SobrePlanix';
 import Caracteristicas from './pages/Caracteristicas';
 import CompletarPerfil from './pages/CompletarPerfil';
 import CorreoVerificado from './pages/CorreoVerificado';
@@ -58,8 +72,19 @@ import Ruleta from './pages/Ruleta';
 import Jeopardy from './pages/Jeopardy';
 import Mentira from './pages/Mentira';
 import RimandoAndo from './pages/RimandoAndo';
+import Profesor from './pages/Profesor';
+import RetoMatematico from './pages/RetoMatematico';
+import MapaDominicano from './pages/MapaDominicano';
+import SubastaConocimiento from './pages/SubastaConocimiento';
+import DetectiveMapa from './pages/DetectiveMapa';
+import Impostor from './pages/Impostor';
+import BombaTiempo from './pages/BombaTiempo';
+import BatallaNaval from './pages/BatallaNaval';
 import GeneradorDiplomas from './pages/GeneradorDiplomas';
 import GeneradorGrupos from './pages/GeneradorGrupos';
+import RecorridosDocentes from './pages/RecorridosDocentes';
+import ApoyoAdicional from './pages/ApoyoAdicional';
+import SituacionesAprendizaje from './pages/SituacionesAprendizaje';
 
 // Modular Student Sub-Pages
 import GestionMatricula from './pages/estudiantes/GestionMatricula';
@@ -73,6 +98,16 @@ import InstrumentosEvaluacion from './pages/estudiantes/InstrumentosEvaluacion';
 import { useRequireAuth } from './lib/useRequireAuth';
 
 import { toast, Toaster } from 'sonner';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function Layout() {
   // Guard this route layout and all children
@@ -193,8 +228,42 @@ function Layout() {
   }
 
   return (
-    <div className="min-h-screen bg-bg-base flex font-sans text-text-main w-full relative selection:bg-black/10 items-start pt-4 pb-[90px] xl:pb-4 xl:py-4 px-4 xl:pr-4 print:p-0 print:bg-white">
-      <div className="max-w-[1600px] w-full mx-auto flex flex-col xl:flex-row xl:items-start gap-6 xl:gap-0 print:block">
+    <div className="min-h-screen bg-bg-base flex font-sans text-text-main w-full relative selection:bg-black/10 items-start pt-4 pb-[90px] xl:pb-4 xl:py-4 px-4 xl:pr-4 print:p-0 print:bg-white overflow-x-hidden">
+      {/* Background blobs */}
+      <div className="absolute top-[-10%] right-[-10%] w-[400px] h-[400px] bg-card-pink/10 dark:bg-card-pink/5 rounded-full blur-[100px] pointer-events-none"></div>
+      <div className="absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] bg-card-green/10 dark:bg-card-green/5 rounded-full blur-[120px] pointer-events-none"></div>
+
+      {/* Academic Icons Background */}
+      <div className="absolute inset-0 opacity-[0.035] dark:opacity-[0.02] pointer-events-none z-0">
+        {/* Left Side */}
+        <BookOpen className="absolute top-8 left-6 text-neutral-900 dark:text-white" size={75} style={{ transform: "rotate(-12deg)" }} />
+        <School className="absolute top-12 left-[22%] text-neutral-900 dark:text-white" size={65} style={{ transform: "rotate(-8deg)" }} />
+        <PenTool className="absolute top-[30%] left-[28%] text-neutral-900 dark:text-white" size={55} style={{ transform: "rotate(15deg)" }} />
+        <Languages className="absolute top-[26%] left-16 text-neutral-900 dark:text-white" size={55} style={{ transform: "rotate(15deg)" }} />
+        <Lightbulb className="absolute top-[48%] left-6 text-neutral-900 dark:text-white" size={55} style={{ transform: "rotate(25deg)" }} />
+        <Target className="absolute top-[56%] left-[24%] text-neutral-900 dark:text-white" size={60} style={{ transform: "rotate(-10deg)" }} />
+        <FlaskConical className="absolute bottom-[24%] left-24 text-neutral-900 dark:text-white" size={60} style={{ transform: "rotate(-20deg)" }} />
+        <Palette className="absolute bottom-32 left-[14%] text-neutral-900 dark:text-white" size={70} style={{ transform: "rotate(-15deg)" }} />
+        <Library className="absolute bottom-10 left-8 text-neutral-900 dark:text-white" size={80} style={{ transform: "rotate(10deg)" }} />
+        <BookMarked className="absolute bottom-[5%] left-[26%] text-neutral-900 dark:text-white" size={60} style={{ transform: "rotate(12deg)" }} />
+
+        {/* Center Bottom */}
+        <Brain className="absolute bottom-[6%] left-[48%] text-neutral-900 dark:text-white" size={60} style={{ transform: "rotate(-5deg)" }} />
+
+        {/* Right Side */}
+        <GraduationCap className="absolute top-8 right-6 text-neutral-900 dark:text-white" size={85} style={{ transform: "rotate(15deg)" }} />
+        <Atom className="absolute top-12 right-[22%] text-neutral-900 dark:text-white" size={75} style={{ transform: "rotate(-5deg)" }} />
+        <Scroll className="absolute top-[30%] right-[28%] text-neutral-900 dark:text-white" size={55} style={{ transform: "rotate(-15deg)" }} />
+        <Shapes className="absolute top-[26%] right-16 text-neutral-900 dark:text-white" size={65} style={{ transform: "rotate(-10deg)" }} />
+        <Globe className="absolute top-[48%] right-6 text-neutral-900 dark:text-white" size={70} style={{ transform: "rotate(-15deg)" }} />
+        <Compass className="absolute top-[56%] right-[24%] text-neutral-900 dark:text-white" size={55} style={{ transform: "rotate(12deg)" }} />
+        <Notebook className="absolute bottom-[24%] right-24 text-neutral-900 dark:text-white" size={60} style={{ transform: "rotate(18deg)" }} />
+        <Award className="absolute bottom-32 right-[14%] text-neutral-900 dark:text-white" size={75} style={{ transform: "rotate(-20deg)" }} />
+        <Calculator className="absolute bottom-10 right-8 text-neutral-900 dark:text-white" size={70} style={{ transform: "rotate(12deg)" }} />
+        <Music className="absolute bottom-[5%] right-[26%] text-neutral-900 dark:text-white" size={55} style={{ transform: "rotate(-8deg)" }} />
+      </div>
+
+      <div className="max-w-[1600px] w-full mx-auto flex flex-col xl:flex-row xl:items-start gap-6 xl:gap-0 print:block relative z-10">
         <Sidebar className="" isPinned={isSidebarPinned} togglePin={toggleSidebarPin} onHoverChange={setIsSidebarHovered} />
         <Outlet context={{ isSidebarPinned: isSidebarExpanded, toggleSidebarPin, theme, toggleTheme }} />
       </div>
@@ -203,11 +272,71 @@ function Layout() {
   );
 }
 
+function MaintenanceGuard({ children }: { children: React.ReactNode }) {
+  const [active, setActive] = React.useState<boolean>(false);
+  const [loading, setLoading] = React.useState<boolean>(true);
+  const location = useLocation();
+
+  React.useEffect(() => {
+    const searchParams = new URLSearchParams(location.search);
+    const bypassParam = searchParams.get('bypass');
+    if (bypassParam && bypassParam.toLowerCase() === 'planixadmin') {
+      localStorage.setItem('plx:maintenance_bypass', 'true');
+    }
+
+    const checkMaintenance = async () => {
+      const isMaintPage = location.pathname === '/mantenimiento';
+      const hasBypass = localStorage.getItem('plx:maintenance_bypass') === 'true';
+      const currentUser = getCurrentUser();
+      const isAdmin = currentUser?.rol === 'admin';
+
+      if (isMaintPage || hasBypass || isAdmin) {
+        setLoading(false);
+        return;
+      }
+
+      try {
+        const config = await requestD1<{ key: string; value: { active: boolean } }>('/api/site-configs/maintenance_mode');
+        if (config && config.value && config.value.active) {
+          setActive(true);
+        } else {
+          setActive(false);
+        }
+      } catch (err) {
+        console.warn('Error checking maintenance mode:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    checkMaintenance();
+  }, [location.pathname, location.search]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-bg-base flex items-center justify-center font-sans">
+        <div className="flex flex-col items-center gap-3">
+          <Loader2 className="h-8 w-8 text-slate-800 dark:text-white animate-spin" />
+          <p className="text-sm font-semibold text-slate-800 dark:text-white">Conectando con el servidor...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (active && location.pathname !== '/mantenimiento') {
+    return <Navigate to="/mantenimiento" replace />;
+  }
+
+  return <>{children}</>;
+}
+
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Toaster position="top-center" richColors />
-      <Routes>
+      <MaintenanceGuard>
+        <Routes>
         {/* Public Landing Page */}
         <Route path="/" element={<LandingPage />} />
 
@@ -220,6 +349,10 @@ export default function App() {
 
         {/* Public Pages */}
         <Route path="/aviso-legal" element={<AvisoLegal />} />
+        <Route path="/terminos" element={<Terminos />} />
+        <Route path="/privacidad" element={<Privacidad />} />
+        <Route path="/politica-ia" element={<PoliticaIA />} />
+        <Route path="/sobre-planix" element={<SobrePlanix />} />
         <Route path="/caracteristicas" element={<Caracteristicas />} />
         <Route path="/completar-perfil" element={<CompletarPerfil />} />
         <Route path="/correo-verificado" element={<CorreoVerificado />} />
@@ -229,6 +362,7 @@ export default function App() {
         <Route path="/suscripcion" element={<Navigate to="/perfil" replace />} />
         <Route path="/suscripcion/pago" element={<Navigate to="/perfil" replace />} />
         <Route path="/suscripcion/exito" element={<SuscripcionExito />} />
+        <Route path="/mantenimiento" element={<Mantenimiento />} />
 
         <Route path="/admin" element={<Navigate to="/admin/dashboard" replace />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
@@ -242,6 +376,12 @@ export default function App() {
         <Route path="/coordinador/planificacion/preview" element={<VistaPreviaCoordinador />} />
         <Route path="/planificaciones/nueva" element={<Planificador />} />
         <Route path="/planificaciones/nuevo" element={<Planificador />} />
+
+        {/* Módulo de Talleres — Vista de pantalla completa */}
+        <Route path="/talleres/nuevo" element={<CrearTaller />} />
+        <Route path="/talleres/:tallerId" element={<DetalleTaller />} />
+        <Route path="/talleres/:tallerId/clase" element={<ClaseTaller />} />
+        <Route path="/talleres/:tallerId/clase/:claseId" element={<ClaseTaller />} />
 
         {/* Guarded application routes */}
         <Route element={<Layout />}>
@@ -269,11 +409,22 @@ export default function App() {
           <Route path="/herramientas/ruleta" element={<Ruleta />} />
           <Route path="/herramientas/generador-diplomas" element={<GeneradorDiplomas />} />
           <Route path="/herramientas/generador-grupos" element={<GeneradorGrupos />} />
+          <Route path="/herramientas/recorridos-docentes" element={<RecorridosDocentes />} />
+          <Route path="/herramientas/apoyo-adicional" element={<ApoyoAdicional />} />
+          <Route path="/herramientas/situaciones-aprendizaje" element={<SituacionesAprendizaje />} />
           <Route path="/dinamicas" element={<Dinamicas />} />
           <Route path="/dinamicas/bajo-la-lluvia" element={<BajoLaLluvia />} />
           <Route path="/dinamicas/jeopardy" element={<Jeopardy />} />
           <Route path="/dinamicas/mentira" element={<Mentira />} />
           <Route path="/dinamicas/rimando-ando" element={<RimandoAndo />} />
+          <Route path="/dinamicas/profesor" element={<Profesor />} />
+          <Route path="/dinamicas/reto-matematico" element={<RetoMatematico />} />
+          <Route path="/dinamicas/mapa-dominicano" element={<MapaDominicano />} />
+          <Route path="/dinamicas/subasta-conocimiento" element={<SubastaConocimiento />} />
+          <Route path="/dinamicas/detective-mapa" element={<DetectiveMapa />} />
+          <Route path="/dinamicas/impostor" element={<Impostor />} />
+          <Route path="/dinamicas/bomba-tiempo" element={<BombaTiempo />} />
+          <Route path="/dinamicas/batalla-naval" element={<BatallaNaval />} />
           <Route path="/recursos" element={<Recursos />} />
           <Route path="/comunidad" element={<Comunidad />} />
           <Route path="/chat" element={<PlanixChat />} />
@@ -285,8 +436,12 @@ export default function App() {
           <Route path="/referidos" element={<Referidos />} />
           <Route path="/planificacion/:id" element={<DetallePlanificacion />} />
           <Route path="/planificacion/:id/clase/:lessonId" element={<DetalleClase />} />
+          
+          {/* Módulo de Talleres */}
+          <Route path="/talleres" element={<Talleres />} />
         </Route>
       </Routes>
+      </MaintenanceGuard>
     </BrowserRouter>
   );
 }

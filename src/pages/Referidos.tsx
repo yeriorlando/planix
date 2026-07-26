@@ -93,10 +93,18 @@ export default function Referidos() {
       <Toaster position="top-center" richColors />
 
       {/* Header Navigation */}
-      <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
-        <div>          <h1 className="font-display text-3xl font-black tracking-tight md:text-4xl text-[#1B1B1B] dark:text-white flex items-center gap-3">
+      <div className="mb-6 flex flex-col md:flex-row md:items-center gap-4">
+        <button
+          onClick={() => navigate('/perfil')}
+          className="self-start flex items-center gap-2 rounded-2xl bg-[#0046ab] hover:bg-[#003c96] active:scale-[0.98] text-white py-2.5 px-5 text-xs font-black shadow-xs transition-all cursor-pointer outline-none border-none shrink-0"
+        >
+          <ArrowLeft size={14} />
+          Volver a mi Perfil
+        </button>
+        <div>
+          <h1 className="font-display text-3xl font-black tracking-tight md:text-4xl text-[#1B1B1B] dark:text-white flex items-center gap-3">
             Programa de Referidos
-            <span className="text-[10px] font-black uppercase bg-[#0046ab]/10 text-[#0046ab] dark:bg-blue-950/30 dark:text-blue-400 border border-[#0046ab]/10 px-2.5 py-0.5 rounded-full tracking-wider">
+            <span className="text-[10px] font-black uppercase bg-[#0046ab]/10 text-[#0046ab] dark:bg-blue-955/30 dark:text-blue-400 border border-[#0046ab]/10 px-2.5 py-0.5 rounded-full tracking-wider">
               Compartir
             </span>
           </h1>
@@ -104,13 +112,6 @@ export default function Referidos() {
             Recomienda Planix a otros docentes y ganen Planix Coins juntos.
           </p>
         </div>
-        <button
-          onClick={() => navigate('/perfil')}
-          className="flex items-center gap-2 rounded-2xl bg-neutral-100 hover:bg-neutral-200 dark:bg-zinc-800 dark:hover:bg-zinc-700/80 active:scale-[0.99] text-[#1B1B1B] dark:text-white py-2.5 px-5 text-xs font-black shadow-xs transition-all cursor-pointer outline-none border-none"
-        >
-          <ArrowLeft size={14} />
-          Volver a mi Perfil
-        </button>
       </div>
 
       {loading ? (
@@ -150,12 +151,12 @@ export default function Referidos() {
               </div>
 
               <div className="flex flex-col sm:flex-row items-stretch gap-3 mt-2">
-                <div className="flex-1 bg-neutral-50 dark:bg-zinc-950 border border-neutral-200 dark:border-zinc-850 px-4 py-3 rounded-2xl text-xs font-mono font-bold text-neutral-600 dark:text-zinc-400 truncate flex items-center justify-start min-h-[44px]">
+                <div className="flex-1 bg-neutral-50 dark:bg-zinc-950 border border-neutral-200 dark:border-zinc-855 px-4 py-2 rounded-xl text-xs font-mono font-bold text-neutral-600 dark:text-zinc-400 truncate flex items-center justify-start min-h-[38px] h-[38px]">
                   {referralLink}
                 </div>
                 <button
                   onClick={handleCopyLink}
-                  className="bg-[#1B1B1B] hover:bg-[#2A2A2A] dark:bg-white dark:hover:bg-neutral-50 dark:text-neutral-900 text-white font-extrabold text-xs px-6 py-3 rounded-2xl flex items-center justify-center gap-2 cursor-pointer transition-all active:scale-[0.98] select-none shrink-0"
+                  className="bg-[#1B1B1B] hover:bg-[#2A2A2A] dark:bg-white dark:hover:bg-neutral-50 dark:text-neutral-900 text-white font-extrabold text-xs px-6 rounded-xl flex items-center justify-center gap-2 cursor-pointer transition-all active:scale-[0.98] select-none shrink-0 h-[38px]"
                 >
                   {copied ? <Check size={14} className="text-emerald-500" strokeWidth={3} /> : <Copy size={14} />}
                   {copied ? '¡Copiado!' : 'Copiar Enlace'}

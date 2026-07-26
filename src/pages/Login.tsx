@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { ArrowRight, Lock, Mail, GraduationCap, AlertCircle, Sparkles, BookOpen, Library, Award, Lightbulb, Target, BookMarked, Notebook, PenTool, Calculator, Globe, Atom, Compass, Palette, FlaskConical, Music, Shapes, School, Languages, Brain, Scroll, Eye, EyeOff, MessageSquare, X } from "lucide-react";
+import { ArrowRight, Lock, Mail, GraduationCap, AlertCircle, Sparkles, BookOpen, Library, Award, Lightbulb, Target, BookMarked, Notebook, PenTool, Calculator, Globe, Atom, Compass, Palette, FlaskConical, Music, Shapes, School, Languages, Brain, Scroll, Eye, EyeOff, MessageSquare, X, Home } from "lucide-react";
 import { seedDemoIfEmpty, getCurrentUser, getUsers, saveUsuario, setSession } from "../lib/storage";
 import { toast, Toaster } from "sonner";
 import { showSuccessToast } from "../lib/utils/toastHelper";
@@ -130,22 +130,42 @@ export default function Login() {
         {/* Visual Brand Side */}
         <div className="flex flex-col justify-center h-full gap-6">
           <div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-sm border border-black/5 text-[13px] font-semibold text-text-main mb-6">
-              <GraduationCap className="h-4.5 w-4.5 text-[#1B1B1B]" />
-              <span>Plataforma Educativa Integrada</span>
+            <div className="flex items-center gap-3 mb-6 flex-wrap">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-sm border border-black/5 text-[13px] font-semibold text-text-main">
+                <div className="w-5 h-3.5 rounded-[2px] border border-zinc-200/50 shadow-2xs overflow-hidden shrink-0 select-none">
+                  <svg className="w-full h-full" viewBox="0 0 90 60" fill="none">
+                    <rect x="0" y="0" width="45" height="30" fill="#002f6c" />
+                    <rect x="45" y="0" width="45" height="30" fill="#ce1126" />
+                    <rect x="0" y="30" width="45" height="30" fill="#ce1126" />
+                    <rect x="45" y="30" width="45" height="30" fill="#002f6c" />
+                    <rect x="39" y="0" width="12" height="60" fill="#ffffff" />
+                    <rect x="0" y="24" width="90" height="12" fill="#ffffff" />
+                    <rect x="42" y="27" width="6" height="6" fill="#002f6c" rx="1" />
+                    <circle cx="45" cy="30" r="1.5" fill="#02b36d" />
+                  </svg>
+                </div>
+                <span>Plataforma 100% dominicana</span>
+              </div>
+
+              <Link to="/">
+                <button className="px-4 py-2 bg-blue-50 hover:bg-blue-100/70 text-blue-600 dark:bg-blue-950/20 dark:hover:bg-blue-950/40 dark:text-blue-300 border border-blue-100/50 dark:border-blue-900/30 rounded-xl text-xs font-bold transition-all hover:scale-[1.03] active:scale-[0.97] flex items-center gap-2 shadow-xs cursor-pointer">
+                  <Home size={14} /> Página de Inicio
+                </button>
+              </Link>
             </div>
 
-            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1] mb-6 text-text-main">
-              Planificación escolar simplificada.
-            </h1>
-
-            <p className="text-text-muted text-[15px] leading-relaxed max-w-sm mb-6">
-              Gestiona a tus estudiantes, haz seguimiento de asistencia diaria y mensual, y organiza tu centro educativo con un diseño limpio y fluido.
-            </p>
+            {/* Footer.webp image replacement instead of the old description texts */}
+            <div className="relative mb-6 max-w-full flex justify-start">
+              <img 
+                src="/Footer.webp" 
+                alt="Planifica. Enseña. Inspira. La plataforma que simplifica tu trabajo y transforma tus clases" 
+                className="w-full max-w-[530px] h-auto object-contain dark:brightness-110" 
+              />
+            </div>
 
             <div className="w-full max-w-[420px] mt-4">
               <img
-                src="/login.webp"
+                src="/login.webp?v=3"
                 alt="Ilustración de planificación escolar"
                 className="w-full h-auto object-contain select-none pointer-events-none"
               />

@@ -269,10 +269,21 @@ export default function Registro() {
       setStep(4);
     } catch (err: any) {
       setLoading(false);
-      let userFriendlyError = err.message || "Ocurrió un error inesperado durante el registro.";
-      if (userFriendlyError.includes("Password should contain at least one character of each")) {
+      let errMsg = err.message || "";
+      let userFriendlyError = "Ocurrió un error inesperado durante el registro.";
+
+      if (errMsg.includes("User already exists") || errMsg.includes("already registered") || errMsg.includes("email_exists") || errMsg.includes("Use another email")) {
+        userFriendlyError = "El usuario ya existe. Utiliza otro correo electrónico.";
+      } else if (errMsg.includes("Password should contain at least one character of each")) {
         userFriendlyError = "La contraseña debe contener al menos un carácter de cada tipo: letras minúsculas (a-z), letras mayúsculas (A-Z), números (0-9) y caracteres especiales (como !@#$%^&*).";
+      } else if (errMsg.includes("Password is too short") || errMsg.includes("should be at least")) {
+        userFriendlyError = "La contraseña debe tener al menos 6 caracteres.";
+      } else if (errMsg.includes("Invalid email") || errMsg.includes("invalid email")) {
+        userFriendlyError = "Ingresa un correo electrónico válido.";
+      } else if (errMsg) {
+        userFriendlyError = errMsg;
       }
+      
       setError(userFriendlyError);
     }
   };
@@ -280,6 +291,7 @@ export default function Registro() {
   async function handleGoogleRegister() {
     setLoading(true);
     try {
+      sessionStorage.setItem("plx:pending_role", selectedRole);
       const { error } = await supabase.auth.signInWithOAuth({
         provider: "google",
         options: {

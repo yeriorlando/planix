@@ -1,6 +1,6 @@
 import React from 'react';
 import { useOutletContext, useNavigate } from 'react-router-dom';
-import { Gamepad2, Sparkles, Star, ArrowRight, CloudRain, Trophy } from 'lucide-react';
+import { Gamepad2, Sparkles, Star, ArrowRight, CloudRain, Trophy, GraduationCap, Calculator, Globe, Gavel, Compass, Lock, Fingerprint, Clock, Anchor } from 'lucide-react';
 
 const DINAMICAS_LIST = [
   {
@@ -40,6 +40,86 @@ const DINAMICAS_LIST = [
     category: "Grupal",
     rating: "5.0",
     color: "bg-[#F5F3FF] dark:bg-[#6D28D9]/10",
+    tag: "Nuevo",
+    isReady: true,
+  },
+  {
+    id: "profesor",
+    title: "Profesor por un Minuto",
+    description: "Un estudiante asume el rol del maestro para explicar un concepto o tema de clase en 60 segundos.",
+    category: "Grupal",
+    rating: "5.0",
+    color: "bg-[#EEF2F6] dark:bg-[#1E293B]/20",
+    tag: "Nuevo",
+    isReady: true,
+  },
+  {
+    id: "reto-matematico",
+    title: "Reto Matemático",
+    description: "Juegos interactivos de matemáticas (Tira y afloja, Escalada y Carrera de sacos) para competir en vivo en parejas respondiendo operaciones básicas.",
+    category: "Juegos",
+    rating: "5.0",
+    color: "bg-[#E6F4EA] dark:bg-[#10B981]/10",
+    tag: "Nuevo",
+    isReady: true,
+  },
+  {
+    id: "mapa-dominicano",
+    title: "Mapa Dominicano",
+    description: "Coloca a prueba a tus alumnos proyectando el mapa. Al girar la tómbola saldrá una provincia de manera aleatoria y el niño deberá señalar correctamente cuál es en el mapa.",
+    category: "Juegos",
+    rating: "5.0",
+    color: "bg-[#E0F2FE] dark:bg-[#075985]/20",
+    tag: "Nuevo",
+    isReady: true,
+  },
+  {
+    id: "subasta-conocimiento",
+    title: "Subasta de Conocimiento",
+    description: "Juego grupal competitivo por equipos. Puja con monedas por la oportunidad de responder y duplicar tu apuesta en temas curriculares.",
+    category: "Grupal",
+    rating: "5.0",
+    color: "bg-[#FFFBEB] dark:bg-[#78350F]/10",
+    tag: "Nuevo",
+    isReady: true,
+  },
+  {
+    id: "detective-mapa",
+    title: "El Detective del Mapa",
+    description: "Deduce la provincia oculta resolviendo pistas geográficas y de relieve sobre la República Dominicana de forma interactiva.",
+    category: "Juegos",
+    rating: "5.0",
+    color: "bg-[#ECFDF5] dark:bg-[#064E3B]/10",
+    tag: "Nuevo",
+    isReady: true,
+  },
+  {
+    id: "impostor",
+    title: "El Impostor",
+    description: "Juego de deducción y debate social. Descubre qué grupo tiene la palabra clave diferente sin revelar la tuya propia.",
+    category: "Grupal",
+    rating: "5.0",
+    color: "bg-[#F5F3FF] dark:bg-[#6D28D9]/10",
+    tag: "Nuevo",
+    isReady: true,
+  },
+  {
+    id: "bomba-tiempo",
+    title: "La Bomba de Tiempo",
+    description: "Responde rápido las preguntas de opción múltiple antes de que el temporizador explote en la mano de tu equipo.",
+    category: "Juegos",
+    rating: "5.0",
+    color: "bg-[#FDF2F8] dark:bg-[#9D174D]/10",
+    tag: "Nuevo",
+    isReady: true,
+  },
+  {
+    id: "batalla-naval",
+    title: "Batalla Naval del Saber",
+    description: "Elige coordenadas en el radar, descubre las fragatas ocultas y responde trivias para hundir la flota enemiga.",
+    category: "Juegos",
+    rating: "5.0",
+    color: "bg-[#E6F4EA] dark:bg-[#10B981]/10",
     tag: "Nuevo",
     isReady: true,
   },
@@ -139,6 +219,61 @@ export default function Dinamicas() {
               </div>
             )}
 
+            {/* Background design for Profesor */}
+            {dinamica.id === 'profesor' && (
+              <div className="absolute -right-6 -bottom-6 w-36 h-36 text-indigo-600/10 dark:text-indigo-400/10 pointer-events-none transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12">
+                <GraduationCap className="w-full h-full" strokeWidth={1.5} />
+              </div>
+            )}
+
+            {/* Background design for Reto Matemático */}
+            {dinamica.id === 'reto-matematico' && (
+              <div className="absolute -right-6 -bottom-6 w-36 h-36 text-emerald-700/8 dark:text-emerald-400/8 pointer-events-none transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12">
+                <Calculator className="w-full h-full" strokeWidth={1.5} />
+              </div>
+            )}
+
+            {/* Background design for Mapa Dominicano */}
+            {dinamica.id === 'mapa-dominicano' && (
+              <div className="absolute -right-6 -bottom-6 w-36 h-36 text-sky-700/8 dark:text-sky-400/8 pointer-events-none transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12">
+                <Globe className="w-full h-full" strokeWidth={1.5} />
+              </div>
+            )}
+
+            {/* Background design for Subasta de Conocimiento */}
+            {dinamica.id === 'subasta-conocimiento' && (
+              <div className="absolute -right-6 -bottom-6 w-36 h-36 text-amber-600/10 dark:text-amber-500/10 pointer-events-none transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12">
+                <Gavel className="w-full h-full" strokeWidth={1.5} />
+              </div>
+            )}
+
+             {/* Background design for El Detective del Mapa */}
+            {dinamica.id === 'detective-mapa' && (
+              <div className="absolute -right-6 -bottom-6 w-36 h-36 text-emerald-600/10 dark:text-emerald-500/10 pointer-events-none transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12">
+                <Compass className="w-full h-full" strokeWidth={1.5} />
+              </div>
+            )}
+            {/* Background design for El Impostor */}
+            {dinamica.id === 'impostor' && (
+              <div className="absolute -right-6 -bottom-6 w-36 h-36 text-purple-650/10 dark:text-purple-400/10 pointer-events-none transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12">
+                <Fingerprint className="w-full h-full" strokeWidth={1.5} />
+              </div>
+            )}
+
+            {/* Background design for La Bomba de Tiempo */}
+            {dinamica.id === 'bomba-tiempo' && (
+              <div className="absolute -right-6 -bottom-6 w-36 h-36 text-pink-600/10 dark:text-pink-400/10 pointer-events-none transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12">
+                <Clock className="w-full h-full" strokeWidth={1.5} />
+              </div>
+            )}
+
+            {/* Background design for Batalla Naval */}
+            {dinamica.id === 'batalla-naval' && (
+              <div className="absolute -right-6 -bottom-6 w-36 h-36 text-emerald-600/10 dark:text-emerald-500/10 pointer-events-none transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12">
+                <Anchor className="w-full h-full" strokeWidth={1.5} />
+              </div>
+            )}
+
             <div className="flex items-center justify-between mb-6">
               <span className="text-[11px] font-black uppercase tracking-wider bg-white/60 dark:bg-black/20 text-[#1B1B1B] dark:text-white px-3 py-1 rounded-full shadow-2xs">
                 {dinamica.tag}
@@ -159,7 +294,23 @@ export default function Dinamicas() {
                 ) : dinamica.id === 'mentira' ? (
                   <Sparkles className="w-6 h-6 text-pink-500" />
                 ) : dinamica.id === 'rimando-ando' ? (
-                  <Sparkles className="w-6 h-6 text-purple-650 dark:text-purple-400" />
+                  <Sparkles className="w-6 h-6 text-purple-600 dark:text-purple-400" />
+                ) : dinamica.id === 'profesor' ? (
+                  <GraduationCap className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
+                ) : dinamica.id === 'reto-matematico' ? (
+                  <Calculator className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
+                ) : dinamica.id === 'mapa-dominicano' ? (
+                  <Globe className="w-6 h-6 text-sky-600 dark:text-sky-500" />
+                ) : dinamica.id === 'subasta-conocimiento' ? (
+                  <Gavel className="w-6 h-6 text-amber-600 dark:text-amber-500" />
+                ) : dinamica.id === 'detective-mapa' ? (
+                  <Compass className="w-6 h-6 text-emerald-600 dark:text-emerald-500" />
+                ) : dinamica.id === 'impostor' ? (
+                  <Fingerprint className="w-6 h-6 text-purple-600 dark:text-purple-400" />
+                ) : dinamica.id === 'bomba-tiempo' ? (
+                  <Clock className="w-6 h-6 text-pink-600" />
+                ) : dinamica.id === 'batalla-naval' ? (
+                  <Anchor className="w-6 h-6 text-emerald-600 dark:text-emerald-500" />
                 ) : dinamica.isReady ? (
                   <Sparkles className="w-5 h-5 text-purple-600" />
                 ) : null}

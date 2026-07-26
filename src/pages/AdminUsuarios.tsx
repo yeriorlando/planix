@@ -1726,7 +1726,6 @@ export default function AdminUsuarios() {
                     type="button"
                     onClick={() => {
                       setIsViewModalOpen(false);
-                      setIsEditModalOpen(true);
                       setIsDeleting(true);
                     }}
                     className="h-8.5 px-4 rounded-full font-bold text-xs flex items-center justify-center gap-1.5 transition-all select-none cursor-pointer bg-[#FFF5F5] border border-[#FEE2E2] text-[#E53E3E] hover:bg-[#FED7D7] dark:bg-rose-955/10 dark:border-rose-800/30 dark:text-rose-455 dark:hover:bg-rose-900/20"
@@ -2148,6 +2147,61 @@ export default function AdminUsuarios() {
                 ACTUALIZAR USUARIO
               </button>
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* MODAL DE CONFIRMACIÓN DE ELIMINACIÓN */}
+      {isDeleting && selectedUser && (
+        <div 
+          onClick={() => {
+            setIsDeleting(false);
+            setSelectedUser(null);
+          }}
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs transition-opacity duration-300 animate-in fade-in"
+        >
+          <div 
+            onClick={(e) => e.stopPropagation()}
+            className="w-full max-w-[400px] bg-white dark:bg-zinc-900 rounded-[28px] border border-black/5 dark:border-zinc-800 shadow-2xl p-6 text-left flex flex-col gap-4"
+          >
+            <div className="flex items-center gap-3 text-red-500">
+              <div className="w-10 h-10 bg-red-100 dark:bg-red-955/20 dark:text-red-400 rounded-full flex items-center justify-center">
+                <Trash2 size={20} />
+              </div>
+              <h3 className="font-extrabold text-lg tracking-tight text-slate-800 dark:text-white">
+                ¿Eliminar Usuario?
+              </h3>
+            </div>
+
+            <p className="text-xs font-semibold text-slate-500 dark:text-zinc-400 leading-relaxed font-sans">
+              Esta acción eliminará de forma permanente al docente <strong className="text-slate-800 dark:text-white">{selectedUser.nombre}</strong> ({selectedUser.email}) y todos sus datos asociados (aulas, estudiantes, planificaciones, rúbricas y asistencia).
+            </p>
+
+            <div className="bg-amber-50 dark:bg-amber-955/10 border border-amber-250 dark:border-amber-900/30 rounded-2xl p-3.5 flex items-start gap-2.5 text-[11px] font-bold text-amber-700 dark:text-amber-400 leading-normal font-sans">
+              <AlertTriangle size={16} className="shrink-0 text-amber-500" />
+              <span>Esta acción es irreversible y no se puede deshacer.</span>
+            </div>
+
+            <div className="flex justify-end gap-2.5 pt-2 font-sans">
+              <button
+                type="button"
+                onClick={() => {
+                  setIsDeleting(false);
+                  setSelectedUser(null);
+                }}
+                className="h-9 px-4.5 bg-slate-50 border border-slate-200 text-slate-655 hover:bg-slate-100 dark:bg-zinc-800/30 dark:border-zinc-800 dark:text-zinc-400 dark:hover:bg-zinc-800/60 rounded-xl font-bold text-xs select-none cursor-pointer outline-none transition-all"
+              >
+                Cancelar
+              </button>
+              <button
+                type="button"
+                onClick={() => handleDeleteUserAccount(selectedUser.id)}
+                className="h-9 px-4.5 bg-red-500 hover:bg-red-600 text-white rounded-xl font-black text-xs select-none cursor-pointer outline-none transition-all flex items-center gap-1.5 shadow-sm"
+              >
+                <Trash2 size={12} className="text-white" />
+                SÍ, ELIMINAR CUENTA
+              </button>
             </div>
           </div>
         </div>

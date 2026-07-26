@@ -8,9 +8,105 @@
     <meta name="keywords" content="planificación docente, gestión escolar, inteligencia artificial educación, plan de clase, actividades interactivas, rúbricas, exámenes, Planix" />
     <meta name="author" content="Planix" />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- Structured Data JSON-LD (Rich Schema for Google Sitelinks Searchbox) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://planix.do/#organization",
+            "name": "Planix",
+            "url": "https://planix.do",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://planix.do/#logo",
+              "url": "https://planix.do/Logo-login-y-landing.webp",
+              "caption": "Planix Logo"
+            },
+            "image": {
+              "@id": "https://planix.do/#logo"
+            },
+            "description": "Planix es la plataforma líder en República Dominicana para la planificación docente y gestión escolar con Inteligencia Artificial."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://planix.do/#website",
+            "url": "https://planix.do",
+            "name": "Planix",
+            "publisher": {
+              "@id": "https://planix.do/#organization"
+            },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://planix.do/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://planix.do/#webpage",
+            "url": "https://planix.do",
+            "name": "Planix - Planificación Docente y Gestión Escolar con IA",
+            "description": "Planix es la plataforma líder para la planificación docente y gestión escolar con Inteligencia Artificial. Diseña actividades, exámenes, rúbricas y dinámicas en minutos.",
+            "isPartOf": {
+              "@id": "https://planix.do/#website"
+            },
+            "about": {
+              "@id": "https://planix.do/#organization"
+            }
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "@id": "https://planix.do/#sitenavigation",
+            "name": [
+              "Iniciar Sesión",
+              "Regístrate gratis",
+              "Sobre Planix",
+              "Política de IA",
+              "Privacidad"
+            ],
+            "url": [
+              "https://planix.do/login",
+              "https://planix.do/registro",
+              "https://planix.do/sobre-planix",
+              "https://planix.do/politica-ia",
+              "https://planix.do/privacidad"
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- SEO Fallback (Pre-renderizado para crawlers no-JS) -->
+      <div style="display: none;">
+        <header>
+          <nav>
+            <a href="/">Inicio</a>
+            <a href="/login">Iniciar Sesión</a>
+            <a href="/registro">Regístrate gratis</a>
+            <a href="/sobre-planix">Sobre Planix</a>
+            <a href="/politica-ia">Política de IA</a>
+            <a href="/privacidad">Privacidad</a>
+            <a href="/terminos">Términos</a>
+            <a href="/aviso-legal">Aviso Legal</a>
+          </nav>
+        </header>
+        <main>
+          <h1>Planix - Planificación Docente y Gestión Escolar con Inteligencia Artificial</h1>
+          <p>Planix es la plataforma educativa líder en República Dominicana para la planificación docente y la gestión escolar con Inteligencia Artificial. Diseña actividades de aprendizaje, exámenes imprimibles, rúbricas por competencias y dinámicas en minutos.</p>
+          <h2>Herramientas Pedagógicas Destacadas</h2>
+          <ul>
+            <li><strong>Planificación curricular automatizada:</strong> Generación de secuencias didácticas basadas en el currículo del MINERD.</li>
+            <li><strong>Evaluación por competencias:</strong> Creación rápida de rúbricas, escalas de estimación y exámenes con hojas de respuestas.</li>
+            <li><strong>Apoyo y Adecuaciones Curriculares:</strong> Adaptaciones DUA y estrategias personalizadas para estudiantes con necesidades específicas.</li>
+            <li><strong>Gamificación y Proyectos STEAM:</strong> Generación de proyectos dinámicos y herramientas recreativas.</li>
+          </ul>
+        </main>
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

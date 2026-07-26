@@ -142,9 +142,9 @@ const getMomentosArray = (formData: any) => {
   }
   if (formData.momentos && typeof formData.momentos === 'object') {
     return [
-      { moment: 'Inicio', descripcion: formData.momentos.inicio || formData.momentos.Inicio || '', tiempo: '15 minutos', recursos: formData.recursos?.join(', ') || 'Recursos diversos' },
-      { moment: 'Desarrollo', descripcion: formData.momentos.desarrollo || formData.momentos.Desarrollo || '', tiempo: '45 minutos', recursos: formData.recursos?.join(', ') || 'Recursos diversos' },
-      { moment: 'Cierre', descripcion: formData.momentos.cierre || formData.momentos.Cierre || '', tiempo: '10 minutos', recursos: formData.recursos?.join(', ') || 'Recursos diversos' },
+      { moment: 'Inicio', descripcion: formData.momentos.inicio || formData.momentos.Inicio || '', tiempo: '15 minutos', recursos: formData.recursos?.join(', ') || '' },
+      { moment: 'Desarrollo', descripcion: formData.momentos.desarrollo || formData.momentos.Desarrollo || '', tiempo: '45 minutos', recursos: formData.recursos?.join(', ') || '' },
+      { moment: 'Cierre', descripcion: formData.momentos.cierre || formData.momentos.Cierre || '', tiempo: '10 minutos', recursos: formData.recursos?.join(', ') || '' },
     ];
   }
   return [];
@@ -347,7 +347,10 @@ export default function PrintLayoutSecundaria({
               </div>
               <div className="col-span-2 p-2.5 text-xs leading-relaxed text-left">
                 {(() => {
-                  const recursos = m.recursos || 'Recursos diversos';
+                  const recursos = m.recursos || '';
+                  if (!recursos || recursos === '---' || recursos === 'Recursos diversos') {
+                    return <p className="text-neutral-500 italic">---</p>;
+                  }
                   const items = recursos.split(/[,.]\s+|\r?\n/).map((s: string) => s.trim()).filter(Boolean);
                   if (items.length > 1) {
                     return (

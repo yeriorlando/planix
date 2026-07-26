@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { ChevronDown, ChevronUp } from 'lucide-react';
+import { HelpCircle, MessageCircle, ChevronDown } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const faqs = [
   {
@@ -25,62 +26,78 @@ const faqs = [
 ];
 
 export default function FAQSection() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="py-24 px-6 bg-[#EEF8FC] dark:bg-zinc-950 relative z-10">
-      <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-black text-neutral-900 dark:text-white tracking-tighter mb-4 font-display">
-            Preguntas <span className="underline decoration-brand-primary decoration-4">Frecuentes</span>
+    <section id="faq" className="pt-10 pb-10 px-6 bg-bg-base relative">
+      <div className="max-w-3xl mx-auto">
+        <div className="text-center mb-14">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-zinc-900 dark:text-white tracking-tight mb-4">
+            Preguntas <span className="text-[#02b36d]">Frecuentes</span>
           </h2>
-          <p className="text-lg text-neutral-600 dark:text-neutral-400 font-medium">
+          <p className="text-lg text-zinc-500 dark:text-zinc-400 font-medium max-w-xl mx-auto">
             Todo lo que necesitas saber sobre la planificación educativa con IA en República Dominicana.
           </p>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-5">
           {faqs.map((faq, index) => {
             const isOpen = openIndex === index;
             return (
               <div
                 key={index}
-                className={`bg-white dark:bg-zinc-900 border-2 border-neutral-900 dark:border-zinc-700 transition-all duration-200 overflow-hidden
-                  ${isOpen ? 'rounded-[2rem] shadow-[4px_4px_0px_0px_#1B1B1B] dark:shadow-[4px_4px_0px_0px_rgba(255,255,255,0.1)]' : 'rounded-full shadow-[3px_3px_0px_0px_#1B1B1B] dark:shadow-[3px_3px_0px_0px_rgba(255,255,255,0.1)] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_#1B1B1B]'}
-                `}
+                className="bg-white dark:bg-zinc-900 border border-zinc-200/60 dark:border-zinc-800/60 rounded-[2rem] p-6 hover:shadow-lg transition-all duration-300"
               >
+                {/* Question Trigger */}
                 <button
                   onClick={() => setOpenIndex(isOpen ? null : index)}
-                  className="w-full px-8 py-5 text-left flex justify-between items-center gap-4 transition-colors cursor-pointer"
+                  className="w-full flex items-center justify-between gap-4 text-left cursor-pointer"
                 >
-                  <span className="text-base md:text-lg font-black text-neutral-900 dark:text-neutral-100 leading-tight">
-                    {faq.question}
-                  </span>
-                  <div className="flex h-8 w-8 items-center justify-center rounded-full border border-neutral-900 bg-brand-light dark:bg-zinc-800 text-neutral-900 dark:text-neutral-150 transition-colors">
-                    {isOpen ? (
-                      <ChevronUp size={16} strokeWidth={2.5} />
-                    ) : (
-                      <ChevronDown size={16} strokeWidth={2.5} />
-                    )}
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-full flex items-center justify-center shrink-0 bg-[#02327e]/10 dark:bg-[#02327e]/25">
+                      <HelpCircle size={22} className="fill-[#02327e]/20 text-[#02327e]" />
+                    </div>
+                    <span className="text-base sm:text-lg font-bold text-zinc-850 dark:text-zinc-50 tracking-wide leading-snug">
+                      {faq.question}
+                    </span>
+                  </div>
+                  <div
+                    className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 bg-zinc-100 dark:bg-zinc-800 text-zinc-550 dark:text-zinc-400 transition-all duration-300 ${
+                      isOpen ? 'rotate-180 bg-[#02327e]/15 text-[#02327e]' : ''
+                    }`}
+                  >
+                    <ChevronDown className="h-5 w-5" />
                   </div>
                 </button>
 
-                <div
-                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                    isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                  }`}
-                >
-                  <div className="px-8 pb-6 text-neutral-700 dark:text-neutral-300 font-semibold leading-relaxed border-t border-neutral-100 dark:border-zinc-800 pt-4">
-                    {faq.answer}
-                  </div>
-                </div>
+                {/* Answer Content */}
+                <AnimatePresence initial={false}>
+                  {isOpen && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: 'auto', opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3, ease: 'easeInOut' }}
+                      className="overflow-hidden"
+                    >
+                      <div className="mt-4 pt-4 border-t border-zinc-100 dark:border-zinc-800 pl-4 sm:pl-16 flex items-start gap-4">
+                        <span className="flex-1 text-sm sm:text-base leading-relaxed text-zinc-650 dark:text-zinc-300 font-medium">
+                          {faq.answer}
+                        </span>
+                        <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0 bg-[#02b36d]/10 dark:bg-[#02b36d]/25">
+                          <MessageCircle size={20} className="fill-[#02b36d]/20 text-[#02b36d]" />
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </div>
             );
           })}
         </div>
 
-        <div className="mt-12 text-center">
-          <p className="text-neutral-500 dark:text-neutral-500 font-bold">
+        <div className="mt-10 text-center">
+          <p className="text-zinc-400 font-medium text-sm">
             ¿Tienes más dudas? Escríbenos directamente por WhatsApp.
           </p>
         </div>

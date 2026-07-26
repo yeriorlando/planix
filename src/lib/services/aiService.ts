@@ -242,6 +242,27 @@ async function callOpenAI(
   }
 }
 
+function mapGeminiModel(model: string): string {
+  const m = (model || "").toLowerCase().trim();
+  if (
+    m === "gemini-3.0-pro" ||
+    m === "gemini-3.5-flash" ||
+    m === "gemini-3.1-flash-lite" ||
+    m === "gemini-2.5-pro" ||
+    m === "gemini-2.5-flash" ||
+    m === "gemini-2.5-flash-lite"
+  ) {
+    return m;
+  }
+  if (m.includes("pro")) {
+    return "gemini-3.0-pro";
+  }
+  if (m.includes("lite")) {
+    return "gemini-3.1-flash-lite";
+  }
+  return "gemini-3.5-flash";
+}
+
 async function callGemini(
   apiKey: string,
   baseURL: string,
@@ -257,7 +278,7 @@ async function callGemini(
     return callOpenAI(apiKey, baseURL, model, systemPrompt, userPrompt, temperature, "gemini", responseFormat, maxTokens);
   }
 
-  const modelName = model || "gemini-2.5-flash";
+  const modelName = mapGeminiModel(model);
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
 
   console.log(`%c[AI-CALL-GEMINI-OFFICIAL] Sending Request`, "color: #3b82f6; font-weight: bold;", {
@@ -414,6 +435,52 @@ export async function generateToolContent(tool: string, message: string, customS
           { "nivel": "Comprender", "pregunta": "¿...?", "opciones": ["A", "B", "C"], "correcta": 1 }
         ]
       }`;
+    } else if (tool === "impostor") {
+      systemPrompt = `Eres un experto pedagogo que genera contenido para un juego de deducción escolar llamado "El Impostor".
+      DEBES generar contenido EXCLUSIVAMENTE sobre el TEMA que el usuario indica en su mensaje.
+      DEBES ajustar la complejidad de las palabras y preguntas según la DIFICULTAD indicada:
+      - Fácil: Palabras simples y concretas para educación primaria.
+      - Medio: Palabras de complejidad intermedia para primaria alta y secundaria.
+      - Difícil: Palabras técnicas y abstractas para educación secundaria avanzada.
+      Necesitas una palabra clave principal y una palabra impostora relacionada de forma cercana (ambas del tema indicado), además de 3 preguntas de debate.
+      Responde estrictamente en JSON con esta estructura:
+      {
+        "mainWord": "Palabra clave principal del tema indicado",
+        "impostorWord": "Palabra impostora relacionada del mismo tema",
+        "debateQuestions": [
+          "Pregunta de debate 1 para guiar la confrontación",
+          "Pregunta de debate 2 para guiar la confrontación",
+          "Pregunta de debate 3 para guiar la confrontación"
+        ]
+      }`;
+    } else if (tool === "bomba-tiempo") {
+      systemPrompt = `Eres un experto pedagogo que genera preguntas veloces para el juego "La Bomba de Tiempo".
+      DEBES generar 10 preguntas EXCLUSIVAMENTE sobre el TEMA que el usuario indica en su mensaje.
+      DEBES ajustar la complejidad según la DIFICULTAD indicada:
+      - Fácil: Preguntas simples y directas para educación primaria (conceptos básicos).
+      - Medio: Preguntas de dificultad intermedia para primaria alta y secundaria.
+      - Difícil: Preguntas complejas y avanzadas para educación secundaria (análisis y aplicación).
+      Cada pregunta debe tener exactamente 4 opciones de respuesta.
+      Responde estrictamente en JSON con esta estructura:
+      {
+        "questions": [
+          { "pregunta": "¿...?", "opciones": ["A", "B", "C", "D"], "correct": 0 }
+        ]
+      }`;
+    } else if (tool === "batalla-naval") {
+      systemPrompt = `Eres un experto pedagogo que genera preguntas de trivia para el juego "Batalla Naval del Saber".
+      DEBES generar 8 preguntas EXCLUSIVAMENTE sobre el TEMA que el usuario indica en su mensaje.
+      DEBES ajustar la complejidad según la DIFICULTAD indicada:
+      - Fácil: Preguntas simples y directas para educación primaria (conceptos básicos).
+      - Medio: Preguntas de dificultad intermedia para primaria alta y secundaria.
+      - Difícil: Preguntas complejas y avanzadas para educación secundaria (análisis y aplicación).
+      Cada pregunta debe tener 4 opciones y una explicación breve de la respuesta correcta.
+      Responde estrictamente en JSON con esta estructura:
+      {
+        "questions": [
+          { "pregunta": "¿...?", "opciones": ["A", "B", "C", "D"], "correct": 0, "explicacion": "Explicación breve de la respuesta" }
+        ]
+      }`;
     } else if (tool === "generador-examenes") {
       systemPrompt = `Genera un examen formal del tema.
       Responde estrictamente en JSON con esta estructura:
@@ -523,17 +590,22 @@ export async function generateToolContent(tool: string, message: string, customS
   try {
     let result = "";
     if (provider === "openai") {
-      result = await callOpenAI(apiKey, baseURL, model, systemPrompt, message);
+      result = await callOpenAI(apiKey, baseURL, model, systemPrompt, message, 0.7, "openai", "json");
     } else if (provider === "gemini") {
-      result = await callGemini(apiKey, baseURL, model, systemPrompt, message);
+      result = await callGemini(apiKey, baseURL, model, systemPrompt, message, 0.7, "json");
     } else if (provider === "groq") {
-      result = await callGroq(apiKey, baseURL, model, systemPrompt, message);
+      result = await callGroq(apiKey, baseURL, model, systemPrompt, message, 0.7, "json");
     } else if (provider === "deepseek") {
-      result = await callDeepSeek(apiKey, baseURL, model, systemPrompt, message);
+      result = await callDeepSeek(apiKey, baseURL, model, systemPrompt, message, 0.7, "json");
     }
 
     // Clean JSON wrapper if present
-    const cleaned = result.replace(/```json\n?|```/g, "").trim();
+    let cleaned = result.replace(/```json\n?|```/g, "").trim();
+    const firstBrace = cleaned.indexOf('{');
+    const lastBrace = cleaned.lastIndexOf('}');
+    if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+      cleaned = cleaned.substring(firstBrace, lastBrace + 1);
+    }
     return JSON.parse(cleaned);
   } catch (error) {
     console.error(`[AI Service] Error calling ${provider}:`, error);
@@ -719,7 +791,51 @@ function getMockContent(tool: string, message: string): any {
       common_misconceptions: [
         { error: "Pensar que las plantas comen tierra", correction: "Guiar al alumno preguntando si el nivel de tierra en la maceta disminuye cuando la planta crece, demostrando que la tierra aporta soporte y minerales, pero no es la comida principal." }
       ],
-      exit_ticket: "En una hoja pequeña, dibuja las dos cosas que entran a la planta y la única cosa gaseosa que sale para nosotros."
+    };
+  }
+
+
+  if (tool === "impostor") {
+    return {
+      mainWord: "Planeta Tierra",
+      impostorWord: "Planeta Marte",
+      debateQuestions: [
+        "¿Tu planeta alberga vida inteligente de forma natural?",
+        "¿Cuál es el color predominante de tu planeta desde el espacio?",
+        "¿Tiene tu planeta agua líquida en abundancia?"
+      ]
+    };
+  }
+
+  if (tool === "bomba-tiempo") {
+    return {
+      questions: [
+        { pregunta: "¿Cuál es el gas más abundante en la atmósfera terrestre?", opciones: ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Argón"], correct: 1 },
+        { pregunta: "¿Qué órgano bombea sangre por todo el cuerpo?", opciones: ["Cerebro", "Hígado", "Pulmones", "Corazón"], correct: 3 },
+        { pregunta: "¿En qué año se descubrió América?", opciones: ["1492", "1500", "1498", "1520"], correct: 0 },
+        { pregunta: "Un triángulo que tiene todos sus lados iguales se llama...", opciones: ["Isósceles", "Escaleno", "Equilátero", "Rectángulo"], correct: 2 },
+        { pregunta: "¿Cuál es el planeta más grande del sistema solar?", opciones: ["Tierra", "Marte", "Júpiter", "Saturno"], correct: 2 },
+        { pregunta: "¿Cuántos minutos tiene una hora?", opciones: ["50", "60", "80", "100"], correct: 1 },
+        { pregunta: "¿Cuál es la capital de la República Dominicana?", opciones: ["Santiago", "Santo Domingo", "Puerto Plata", "Higüey"], correct: 1 },
+        { pregunta: "¿Qué elemento químico tiene el símbolo O?", opciones: ["Oro", "Osmio", "Oxígeno", "Hierro"], correct: 2 },
+        { pregunta: "¿Cuántos huesos tiene el cuerpo humano adulto?", opciones: ["180", "206", "300", "250"], correct: 1 },
+        { pregunta: "¿Qué instrumento sirve para medir la temperatura?", opciones: ["Barómetro", "Termómetro", "Pluviómetro", "Anemómetro"], correct: 1 }
+      ]
+    };
+  }
+
+  if (tool === "batalla-naval") {
+    return {
+      questions: [
+        { pregunta: "¿Qué fuerza nos mantiene pegados al suelo?", opciones: ["Fricción", "Gravedad", "Magnetismo", "Inercia"], correct: 1, explicacion: "La gravedad atrae a todos los cuerpos con masa hacia el centro de la Tierra." },
+        { pregunta: "¿Cuál es el océano más grande del mundo?", opciones: ["Atlántico", "Índico", "Ártico", "Pacífico"], correct: 3, explicacion: "El océano Pacífico es el más grande del planeta." },
+        { pregunta: "¿Qué sustancia le da el color verde a las plantas?", opciones: ["Clorofila", "Caroteno", "Xantofila", "Melanina"], correct: 0, explicacion: "La clorofila capta la energía solar y da pigmentación verde." },
+        { pregunta: "¿Qué país comparte la isla de La Española con la República Dominicana?", opciones: ["Cuba", "Puerto Rico", "Haití", "Jamaica"], correct: 2, explicacion: "Haití ocupa el tercio occidental de la isla." },
+        { pregunta: "¿Cuál de estos es un recurso natural no renovable?", opciones: ["Viento", "Petróleo", "Agua", "Luz solar"], correct: 1, explicacion: "El petróleo tarda millones de años en formarse y sus reservas se agotan." },
+        { pregunta: "¿Cuál es el metal más abundante en la corteza terrestre?", opciones: ["Hierro", "Cobre", "Aluminio", "Oro"], correct: 2, explicacion: "El aluminio es el metal más abundante, aunque suele encontrarse combinado." },
+        { pregunta: "¿Cuál es el mamífero más grande que existe?", opciones: ["Elefante", "Ballena Azul", "Tiburón Ballena", "Oso Polar"], correct: 1, explicacion: "La ballena azul puede pesar más de 150 toneladas y medir 30 metros." },
+        { pregunta: "¿Qué parte de la célula contiene el ADN?", opciones: ["Membrana", "Citoplasma", "Núcleo", "Mitocondria"], correct: 2, explicacion: "El núcleo es el orgánulo que almacena el material genético celular." }
+      ]
     };
   }
 
@@ -828,7 +944,12 @@ export async function generateRubric(request: RubricGenerationRequest): Promise<
       result = await callDeepSeek(apiKey, baseURL, model, systemPrompt, userPrompt);
     }
 
-    const cleaned = result.replace(/```json\n?|```/g, "").trim();
+    let cleaned = result.replace(/```json\n?|```/g, "").trim();
+    const firstBrace = cleaned.indexOf('{');
+    const lastBrace = cleaned.lastIndexOf('}');
+    if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+      cleaned = cleaned.substring(firstBrace, lastBrace + 1);
+    }
     return JSON.parse(cleaned);
   } catch (error) {
     console.error(`[AI Service] Error calling ${provider} for rubric:`, error);
@@ -1505,7 +1626,7 @@ Agradeciendo de antemano su valiosa colaboración en el proceso educativo,
 Atentamente,  
 **Profe Alejandro Pérez**`;
   }
-  return `¡Hola! Como tu asesor pedagógico **Kali**, estoy listo para ayudarte. 
+  return `¡Hola! Como tu asesor pedagógico **Planix Chat**, estoy listo para ayudarte. 
 
 Puedes pedirme que:
 * Adapte un texto difícil reduciendo su nivel de lectura para tus alumnos.
@@ -1541,13 +1662,33 @@ export async function generateChatResponse(history: { role: 'user' | 'assistant'
   try {
     if (provider === "openai" || provConf.useCustomServer || provider === "groq" || provider === "deepseek") {
       let url = baseURL;
-      if (!url) {
+      if (url) {
+        let cleaned = url.trim();
+        while (cleaned.endsWith('/')) {
+          cleaned = cleaned.slice(0, -1);
+        }
+        if (cleaned.toLowerCase().endsWith('/v1')) {
+          cleaned = cleaned.slice(0, -3) + '/v1';
+        }
+        if (!cleaned.endsWith('/chat/completions') && !cleaned.includes('/chat/completions?')) {
+          url = `${cleaned}/chat/completions`;
+        } else {
+          url = cleaned;
+        }
+      } else {
         if (provider === "openai") url = "https://api.openai.com/v1/chat/completions";
         else if (provider === "groq") url = "https://api.groq.com/openai/v1/chat/completions";
         else if (provider === "deepseek") url = "https://api.deepseek.com/v1/chat/completions";
       }
 
-      const activeModel = model || (provider === "openai" ? "gpt-4o" : provider === "groq" ? "llama-3.1-70b-versatile" : "deepseek-v4-flash");
+      const activeModel = model || (
+        provider === "openai" ? "gpt-4o" : 
+        provider === "groq" ? "llama-3.1-70b-versatile" : 
+        provider === "deepseek" ? "deepseek-v4-flash" : 
+        "gemini-3.5-flash"
+      );
+
+      logToTerminal("REQUEST", provider, activeModel, `[CHAT] Enviando petición a ${url}`);
 
       const res = await fetch(url, {
         method: "POST",
@@ -1568,13 +1709,20 @@ export async function generateChatResponse(history: { role: 'user' | 'assistant'
 
       if (!res.ok) {
         const err = await res.json().catch(() => ({}));
-        throw new Error(err.error?.message || `Error status: ${res.status}`);
+        const errMsg = err.error?.message || `Error status: ${res.status}`;
+        logToTerminal("ERROR", provider, activeModel, `[CHAT] Petición fallida: ${errMsg}`);
+        throw new Error(errMsg);
       }
       const data = await res.json();
-      return data.choices?.[0]?.message?.content || "";
+      const content = data.choices?.[0]?.message?.content || "";
+      logToTerminal("SUCCESS", provider, activeModel, `[CHAT] Respuesta de chat recibida exitosamente`);
+      return content;
     } else if (provider === "gemini") {
-      const modelName = model || "gemini-2.5-flash";
+      const rawModel = model || "gemini-3.5-flash";
+      const modelName = mapGeminiModel(rawModel);
       const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
+
+      logToTerminal("REQUEST", "gemini", modelName, `[CHAT] Enviando petición oficial de Gemini a ${url.split('?')[0]}`);
 
       const contents = [
         ...history.map(h => ({
@@ -1596,14 +1744,19 @@ export async function generateChatResponse(history: { role: 'user' | 'assistant'
 
       if (!res.ok) {
         const err = await res.json().catch(() => ({}));
-        throw new Error(err.error?.message || `Error status: ${res.status}`);
+        const errMsg = err.error?.message || `Error status: ${res.status}`;
+        logToTerminal("ERROR", "gemini", modelName, `[CHAT] Petición oficial fallida: ${errMsg}`);
+        throw new Error(errMsg);
       }
       const data = await res.json();
-      return data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+      const content = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+      logToTerminal("SUCCESS", "gemini", modelName, `[CHAT] Respuesta oficial de Gemini recibida exitosamente`);
+      return content;
     }
     return getMockChatResponse(userMessage);
   } catch (err: any) {
     console.error(`Error de chat con ${provider}:`, err);
+    logToTerminal("ERROR", provider, model || "unknown", `Error general en chat: ${err.message || err}`);
     return `Lo siento, ocurrió un error al comunicarme con el motor de IA (${provider}): ${err.message || err}. Usando respuesta simulada pedagógica:\n\n${getMockChatResponse(userMessage)}`;
   }
 }
@@ -2713,6 +2866,195 @@ function getMockTwoTruthsAndLie(subject?: string, topic?: string, difficulty?: s
     explanation: "El sonido viaja unas 4 veces más rápido en el agua que en el aire porque las partículas del agua están mucho más juntas.",
     category: topic || subject || "Ciencias"
   };
+}
+
+export async function generateTeacherScript(request: { nivel: string; grado: string; asignatura: string; moment: string; topic: string }): Promise<string> {
+  const { nivel, grado, asignatura, moment, topic } = request;
+  const systemPrompt = 'Eres un mentor pedagógico experto en acompañamiento de aula. Responde DIRECTAMENTE, sin saludos, introducciones ni explicaciones.';
+  const userPrompt = `Actúa como un mentor pedagógico experto del programa CON BASE.
+Genera un "Recorrido Docente" (Guion de Intervención) para la etapa de **${moment.toUpperCase()}** de una clase.
+
+Contexto:
+- Nivel: ${nivel}
+- Grado: ${grado}
+- Asignatura: ${asignatura}
+- Tema: ${topic}
+
+El guion debe incluir explícitamente estas 3 secciones:
+1. PREGUNTAS GUÍA (Andamiaje): 3-4 preguntas concretas para estudiantes que están bloqueados o no saben cómo empezar. (No des respuestas, guía el pensamiento).
+2. PREGUNTAS DE PROFUNDIZACIÓN: 2-3 retos cognitivos para estudiantes avanzados que terminaron rápido.
+3. PISTAS PARA EL DOCENTE: Lista de 2-3 errores comunes conceptuales o procedimentales que suelen cometer los niños en este tema y cómo detectarlos in situ.
+
+IMPORTANTE: Ve directo al grano. NO escribas NINGÚN tipo de saludo, introducción, bienvenida, preámbulo ni comentarios iniciales como "¡Hola!" o "A continuación...". Empieza directamente con "### 1. PREGUNTAS GUÍA (Andamiaje)".`;
+
+  try {
+    return await runAICall(systemPrompt, userPrompt, 0.7, "text");
+  } catch (error) {
+    console.error("Error generating teacher script:", error);
+    return `### 1. PREGUNTAS GUÍA (Andamiaje)
+- ¿Qué es lo primero que necesitamos saber para resolver el tema de **${topic}**?
+- Si miramos el ejemplo anterior, ¿cómo podemos aplicar el mismo paso aquí?
+- ¿Qué parte del ejercicio te parece la más confusa? Intentemos dibujarla o representarla.
+
+### 2. PREGUNTAS DE PROFUNDIZACIÓN
+- Si tuvieras que explicarle este concepto a un compañero de otro grado, ¿cómo lo harías de forma sencilla?
+- ¿Qué crees que pasaría si cambiamos uno de los elementos clave de este tema? ¿Seguiría funcionando igual?
+
+### 3. PISTAS PARA EL DOCENTE
+- **Error común:** Confundir los conceptos iniciales del tema. *Cómo detectarlo:* Observar si se quedan parados en el primer paso sin saber qué escribir.
+- **Error procedimental:** Aplicar un orden incorrecto en la resolución. *Cómo detectarlo:* Revisar si el resultado final no tiene lógica con el planteamiento inicial.`;
+  }
+}
+
+export async function generateAdditionalSupport(request: { nivel: string; grado: string; asignatura: string; difficulty: string; topic: string }): Promise<string> {
+  const { nivel, grado, asignatura, difficulty, topic } = request;
+  const systemPrompt = 'Eres un especialista en educación inclusiva y atención a la diversidad. Responde DIRECTAMENTE, sin saludos, introducciones ni explicaciones.';
+  const userPrompt = `Actúa como un psicopedagogo experto.
+Sugiere estrategias de apoyo para estudiantes con dificultades en: "${difficulty}"
+
+Contexto:
+- Nivel: ${nivel}
+- Grado: ${grado}
+- Asignatura: ${asignatura}
+- Tema actual de la clase: "${topic}"
+
+Dame 3 estrategias concretas y sencillas que el docente pueda aplicar en el aula regular (DUA - Diseño Universal para el Aprendizaje).
+Incluye una sugerencia de ajuste razonable al material didáctico.
+
+IMPORTANTE: Ve directo al grano. NO escribas saludos, introducciones ni explicaciones iniciales. Empieza directamente con "### Estrategias DUA de Apoyo para: ${difficulty}".`;
+
+  try {
+    return await runAICall(systemPrompt, userPrompt, 0.7, "text");
+  } catch (error) {
+    console.error("Error generating additional support:", error);
+    return `### Estrategias DUA de Apoyo para: ${difficulty}
+1. **Instrucciones breves y segmentadas:** Dividir el tema "${topic}" en pasos más pequeños y claros, asegurando que el alumno comprenda cada etapa antes de pasar a la siguiente.
+2. **Apoyo visual y manipulativo:** Usar esquemas gráficos, colores o materiales físicos que permitan representar de manera tangible los conceptos de la clase.
+3. **Pausas de enfoque:** Establecer momentos de verificación individualizada, donde se valide de forma privada la comprensión del alumno y se le den pistas directas.
+
+### Ajuste Razonable al Material Didáctico
+- Reducir la cantidad de texto escrito o ejercicios complejos en sus hojas de trabajo, sustituyéndolos por preguntas de opción múltiple, dibujos de correspondencia o completación guiada.`;
+  }
+}
+
+export async function generateSituation(request: { nivel: string; grado: string; asignatura: string; strategy: string; topic: string; contextInfo?: string }): Promise<string> {
+  const { nivel, grado, asignatura, strategy, topic, contextInfo } = request;
+  const systemPrompt = 'Eres un experto en planificación educativa del currículo dominicano (Adecuación Curricular). Responde DIRECTAMENTE, sin saludos, introducciones ni explicaciones.';
+  const userPrompt = `Actúa como un experto en planificación educativa del currículo dominicano (Adecuación Curricular).
+Genera una Situación de Aprendizaje para una Unidad de Aprendizaje.
+
+Parámetros:
+- Nivel Educativo: ${nivel}
+- Grado: ${grado}
+- Asignatura: ${asignatura}
+- Tema: ${topic}
+- Contexto/Intereses: ${contextInfo || 'Escolar general'}
+- Estrategia: ${strategy}
+
+Estructura Requerida de la Narrativa (aprox 100-150 palabras):
+1. Escenario/Contexto: Describe una situación realista vinculada al contexto.
+2. Conflicto Cognitivo/Problema: Plantea la necesidad o problema que los estudiantes deben resolver.
+3. Rol del Estudiante: ¿Qué harán? (investigar, diseñar, construir).
+4. Producto Final: ¿Qué entregarán para demostrar lo aprendido?
+5. Estrategia y Competencia: Menciona brevemente la estrategia y la competencia principal.
+
+Salida esperada:
+Un texto coherente, motivador y redactado en presente.
+
+IMPORTANTE: Ve directo al grano. NO incluyas introducciones, saludos, comentarios iniciales o preámbulos. Empieza directamente con el texto de la situación de aprendizaje.`;
+
+  try {
+    return await runAICall(systemPrompt, userPrompt, 0.7, "text");
+  } catch (error) {
+    console.error("Error generating situation:", error);
+    return `En la comunidad escolar, los estudiantes de ${grado} de ${nivel} muestran un gran interés por explorar situaciones de la vida real relacionadas con ${topic}. A través de la estrategia de ${strategy}, se les presenta el desafío de investigar y resolver un problema práctico sobre este tema. Trabajando de forma colaborativa, asumirán el rol de investigadores activos y diseñadores para crear una propuesta o producto final que demuestre sus aprendizajes y habilidades. Mediante esta actividad, se busca potenciar su pensamiento crítico y la resolución de problemas en el marco de las competencias específicas de ${asignatura}.`;
+  }
+}
+
+export async function generateWorkshopPlanning(request: { 
+  tema: string; 
+  grado: string; 
+  tallerNombre: string; 
+  hasPredefinedCompetencies?: boolean; 
+}): Promise<any> {
+  const { tema, grado, tallerNombre, hasPredefinedCompetencies } = request;
+  const systemPrompt = "Eres un Diseñador Curricular experto del MINERD en República Dominicana.";
+  
+  const competencyInstructions = hasPredefinedCompetencies 
+    ? `
+    - IMPORTANTE: La clase taller o asignatura ya posee competencias específicas curriculares oficiales precargadas en el sistema. Para no duplicarlas ni sobrescribirlas, DEBES omitir la generación de competencias específicas del grado. Devuelve el campo "competencias_fundamentales" como un array vacío [] y el campo "descripciones_especificas" como un objeto vacío {}.
+    `
+    : `
+    - Dado que esta clase taller NO posee competencias específicas precargadas en el currículo, DEBES generar de 1 a 3 "competencias_fundamentales" de la lista permitida y redactar sus correspondientes "descripciones_especificas" adaptadas al taller y al tema "${tema}".
+      Selecciona exactamente de esta lista: ["Comunicativa", "Pensamiento Lógico, Creativo y Crítico", "Resolución de Problemas", "Científica y Tecnológica", "Ética y Ciudadana", "Desarrollo Personal y Espiritual", "Ambiental y de la Salud"].
+      Ejemplo:
+      "competencias_fundamentales": ["Pensamiento Lógico, Creativo y Crítico"],
+      "descripciones_especificas": {
+        "Pensamiento Lógico, Creativo y Crítico": "Analiza las propiedades físicas de la materia para proponer hipótesis..."
+      }
+    `;
+
+  const userPrompt = `
+    Actúa como un Diseñador Curricular experto del MINERD.
+    Genera un plan de clase estructurado para un Taller Pedagógico.
+    
+    Parámetros:
+    - Nombre del Taller: ${tallerNombre}
+    - Tema de la Sesión: "${tema}"
+    - Grado: ${grado}
+    
+    INSTRUCCIONES DE CONTENIDOS CURRICULARES (OBLIGATORIO):
+    - Los contenidos conceptuales, procedimentales y actitudinales deben ser amplios, detallados, informativos y profundos (mínimo 3 a 5 líneas por cada campo).
+    - Evita listados cortos de una sola línea. Redacta explicaciones completas y ricas en contenido conceptual, procedimental y actitudinal.
+    
+    INSTRUCCIONES DE COMPETENCIAS ESPECÍFICAS:
+    ${competencyInstructions}
+    
+    ESTRUCTURA DE RESPUESTA JSON REQUERIDA (Devuelve únicamente un JSON válido, sin textos introductorios ni bloques Markdown):
+    {
+      "titulo": string, // Título creativo para esta clase de taller
+      "objetivo": string, // Objetivo pedagógico claro e interactivo
+      "competencias_fundamentales": string[], // O array vacío [] si hasPredefinedCompetencies es verdadero
+      "descripciones_especificas": object, // O objeto vacío {} si hasPredefinedCompetencies es verdadero
+      "conceptual": string, // Contenido conceptual clave AMPLIO (detalla ampliamente las definiciones, teorías y conceptos clave del tema)
+      "procedimental": string, // Contenido procedimental clave AMPLIO (detalla ampliamente las habilidades prácticas, pasos del experimento, técnicas y procesos a realizar)
+      "actitudinal": string, // Contenido actitudinal clave AMPLIO (detalla ampliamente los valores, actitudes, ética del trabajo, valoración y hábitos de estudio a desarrollar)
+      "inicio": string, // Actividad de inicio detallada con frases en **negrita**
+      "inicio_recursos": string[], // Lista de recursos lógicos recomendados para el inicio
+      "desarrollo": string, // Actividad de desarrollo detallada con frases en **negrita**
+      "desarrollo_recursos": string[], // Lista de recursos lógicos recomendados para el desarrollo
+      "cierre": string, // Actividad de cierre detallada con frases en **negrita**
+      "cierre_recursos": string[], // Lista de recursos lógicos recomendados para el cierre
+      "evaluacion": string // Criterios de evaluación, estrategias de evaluación e instrumentos sugeridos en detalle
+    }
+  `;
+
+  try {
+    return await runAICall(systemPrompt, userPrompt, 0.7, "json");
+  } catch (error) {
+    console.error("Error generating workshop planning:", error);
+    return {
+      titulo: `Descubriendo: ${tema}`,
+      objetivo: `Que los estudiantes exploren, comprendan y apliquen activamente los conceptos clave de "${tema}" a través de dinámicas colaborativas y experimentación directa en el taller.`,
+      competencias_fundamentales: hasPredefinedCompetencies ? [] : ["Comunicativa", "Pensamiento Lógico, Creativo y Crítico", "Resolución de Problemas"],
+      descripciones_especificas: hasPredefinedCompetencies ? {} : {
+        "Comunicativa": `Expresa de forma oral y escrita sus ideas y hallazgos en torno a ${tema}.`,
+        "Pensamiento Lógico, Creativo y Crítico": `Analiza los elementos principales de ${tema} para formular explicaciones e ideas creativas.`,
+        "Resolución de Problemas": `Propone soluciones colaborativas a desafíos sencillos de la vida cotidiana asociados a ${tema}.`
+      },
+      conceptual: `Estudio detallado de los conceptos y principios básicos fundamentales relacionados con ${tema}, analizando sus aplicaciones prácticas, características primarias, y relaciones estructurales dentro de la asignatura.`,
+      procedimental: `Observación sistemática, diseño y ejecución de experimentos prácticos guiados, registro meticuloso de datos en tablas y análisis colaborativo de resultados sobre ${tema}.`,
+      actitudinal: `Fomento de la curiosidad intelectual, valoración reflexiva del trabajo cooperativo, respeto por las opiniones ajenas y persistencia en la búsqueda de soluciones a problemas científicos y matemáticos.`,
+      inicio: `Iniciamos la sesión reuniendo a los estudiantes en semicírculo para plantear una **pregunta generadora** sobre ${tema}. A continuación, realizamos una lluvia de ideas guiada y presentamos una **analogía sencilla** conectando el tema con la vida cotidiana para motivar su participación activa.`,
+      inicio_recursos: ["Pizarra", "Marcadores de colores", "Láminas ilustrativas"],
+      desarrollo: `Durante el desarrollo, los estudiantes se organizan en **equipos de trabajo colaborativo**. Se les entrega material manipulativo para realizar una **actividad de experimentación práctica** guiada paso a paso. Cada grupo analiza los resultados observados y redacta en conjunto una **breve conclusión** sobre la actividad.`,
+      desarrollo_recursos: ["Papelógrafo", "Fichas didácticas", "Material manipulativo de apoyo"],
+      cierre: `Para finalizar, cada equipo expone brevemente su conclusión principal en una **puesta en común**. El docente realiza una síntesis de las ideas más importantes de la sesión y aplica un **ticket de salida rápido** para validar de forma formativa los aprendizajes clave del día.`,
+      cierre_recursos: ["Hojas pequeñas", "Lápices"],
+      evaluacion: `**Estrategia:** Evaluación formativa mediante observación directa y retroalimentación interactiva durante el taller.
+**Instrumento sugerido:** Rúbrica de autoevaluación grupal y escala de estimación para las actividades prácticas realizadas.`
+    };
+  }
 }
 
 

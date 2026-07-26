@@ -124,10 +124,21 @@ export default function WhatsAppSupportBubble() {
         }
     };
 
-    if (!isVisible || pathname === '/herramientas/chat-pdf' || pathname.startsWith('/juegos')) return null;
+    const hidePaths = [
+        '/herramientas/chat-pdf',
+        '/herramientas/sopa-de-letras',
+        '/herramientas/crucigrama',
+        '/herramientas/ruleta'
+    ];
+    const shouldHide = !isVisible || 
+                       pathname.startsWith('/juegos') || 
+                       pathname.startsWith('/dinamicas') || 
+                       hidePaths.some(p => pathname.startsWith(p));
+
+    if (shouldHide) return null;
     const firstName = user?.nombre ? user.nombre.split(' ')[0] : 'Docente';
     return (
-        <div ref={containerRef} className="fixed bottom-6 right-6 z-50 flex flex-col items-end font-sans print:hidden sm:bottom-6 bottom-24 pointer-events-none">
+        <div ref={containerRef} className="fixed bottom-6 right-6 z-55 flex flex-col items-end font-sans print:hidden sm:bottom-6 bottom-24 pointer-events-none">
             {/* Support Hub Menu */}
             <div
                 className={`mb-3 w-[290px] bg-white dark:bg-slate-900 rounded-[2rem] shadow-[0_12px_40px_-10px_rgba(0,0,0,0.15)] border border-slate-100 dark:border-slate-800/80 overflow-hidden transition-all duration-200 transform origin-bottom-right ${isOpen ? 'opacity-100 scale-100 translate-y-0 pointer-events-auto' : 'opacity-0 scale-95 translate-y-8 pointer-events-none'

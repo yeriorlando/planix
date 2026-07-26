@@ -10,7 +10,8 @@ const socialLinks = [
     ),
     href: 'https://www.instagram.com/planix.rd?igsh=dzZ5Njhmd2hoeXBh',
     color: 'text-[#E4405F]',
-    bg: 'bg-[#E4405F]/5'
+    bg: 'bg-[#E4405F]/8 dark:bg-[#E4405F]/10',
+    hoverBorder: 'hover:border-[#E4405F]/30'
   },
   {
     name: 'TikTok',
@@ -20,8 +21,9 @@ const socialLinks = [
       </svg>
     ),
     href: 'https://www.tiktok.com/@planix.do?_r=1&_t=ZS-94drckfOrwO',
-    color: 'text-black dark:text-white',
-    bg: 'bg-black/5 dark:bg-white/10'
+    color: 'text-zinc-800 dark:text-zinc-200',
+    bg: 'bg-zinc-100 dark:bg-zinc-800',
+    hoverBorder: 'hover:border-zinc-400'
   },
   {
     name: 'YouTube',
@@ -32,7 +34,8 @@ const socialLinks = [
     ),
     href: 'https://youtube.com/@planixrd',
     color: 'text-[#FF0000]',
-    bg: 'bg-[#FF0000]/5'
+    bg: 'bg-[#FF0000]/8 dark:bg-[#FF0000]/10',
+    hoverBorder: 'hover:border-[#FF0000]/30'
   },
   {
     name: 'Facebook',
@@ -43,7 +46,8 @@ const socialLinks = [
     ),
     href: 'https://www.facebook.com/share/1CU3bZhHYv/',
     color: 'text-[#1877F2]',
-    bg: 'bg-[#1877F2]/5'
+    bg: 'bg-[#1877F2]/8 dark:bg-[#1877F2]/10',
+    hoverBorder: 'hover:border-[#1877F2]/30'
   },
   {
     name: 'WhatsApp',
@@ -54,34 +58,35 @@ const socialLinks = [
     ),
     href: 'https://chat.whatsapp.com/CTxnZvEz6Qr2I2piuSNSDO?mode=gi_t',
     color: 'text-[#25D366]',
-    bg: 'bg-[#25D366]/5'
+    bg: 'bg-[#25D366]/8 dark:bg-[#25D366]/10',
+    hoverBorder: 'hover:border-[#25D366]/30'
   }
 ];
 
 export default function SocialCommunity() {
   return (
-    <section className="py-24 px-6 bg-white dark:bg-zinc-950 border-t border-slate-100 dark:border-zinc-850 relative z-10">
+    <section className="pt-10 pb-24 px-6 bg-bg-base relative">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl lg:text-5xl font-black text-slate-900 dark:text-neutral-100 tracking-tighter mb-4 font-display">
-          Únete a Nuestra Comunidad
+        <h2 className="text-3xl lg:text-5xl font-extrabold text-zinc-900 dark:text-white tracking-tight mb-4">
+          Únete a Nuestra <span className="text-[#02b36d]">Comunidad</span>
         </h2>
-        <p className="text-lg md:text-xl text-slate-500 dark:text-neutral-450 font-medium max-w-3xl mx-auto mb-16 leading-relaxed">
+        <p className="text-lg md:text-xl text-zinc-500 dark:text-zinc-400 font-medium max-w-3xl mx-auto mb-14 leading-relaxed">
           Estamos construyendo una comunidad educativa activa y queremos que formes parte de ella. Encuéntranos en redes sociales para más contenido educativo y recursos.
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
           {socialLinks.map((social) => (
             <a
               key={social.name}
               href={social.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative bg-white dark:bg-zinc-900 border border-slate-100 dark:border-zinc-800 rounded-3xl p-8 flex flex-col items-center justify-center gap-4 transition-all duration-300 hover:shadow-xl hover:border-brand-primary/45 hover:-translate-y-1"
+              className={`group relative bg-white dark:bg-zinc-900 border border-zinc-200/60 dark:border-zinc-800/60 rounded-2xl p-7 flex flex-col items-center justify-center gap-3.5 transition-all duration-300 hover:shadow-lg hover:shadow-zinc-900/5 dark:hover:shadow-black/10 hover:-translate-y-1 ${social.hoverBorder}`}
             >
-              <div className={`w-16 h-16 rounded-2xl ${social.bg} ${social.color} flex items-center justify-center group-hover:scale-110 transition-transform`}>
-                <social.icon className="w-8 h-8" />
+              <div className={`w-14 h-14 rounded-xl ${social.bg} ${social.color} flex items-center justify-center group-hover:scale-110 transition-transform`}>
+                <social.icon className="w-7 h-7" />
               </div>
-              <span className="font-black text-slate-900 dark:text-neutral-200 group-hover:text-brand-primary transition-colors">
+              <span className="font-bold text-sm text-zinc-700 dark:text-zinc-300 group-hover:text-zinc-900 dark:group-hover:text-white transition-colors">
                 {social.name}
               </span>
             </a>

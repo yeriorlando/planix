@@ -1203,6 +1203,17 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
               value: defaultCreditCosts,
               updated_at: new Date().toISOString()
             });
+          } else if (configKey === "maintenance_mode") {
+            const defaultVal = { active: false };
+            await supabase
+              .from("site_configs")
+              .upsert({ key: "maintenance_mode", value: defaultVal, updated_at: new Date().toISOString() });
+
+            return jsonResponse({
+              key: "maintenance_mode",
+              value: defaultVal,
+              updated_at: new Date().toISOString()
+            });
           } else {
             return jsonResponse({ error: "Config not found" }, 404);
           }
@@ -2356,6 +2367,395 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
 
         if (error) throw error;
         return jsonResponse({ success: true });
+      }
+    }
+
+    // ==========================================
+    // TALLERES & SESIONES ENDPOINTS
+    // ==========================================
+    if (path.startsWith("/api/talleres")) {
+      const tallerId = parts[2];
+      const subPath = parts[3];
+      const sessionId = parts[4];
+      
+      if (method === "GET") {
+        if (tallerId) {
+          if (subPath === "sesiones") {
+            if (sessionId) {
+              // GET /api/talleres/:tallerId/sesiones/:sessionId
+              const { data, error } = await supabase
+                .from("workshop_sessions")
+                .select("*")
+                .eq("id", sessionId)
+                .eq("taller_id", tallerId)
+                .single();
+                
+              if (error || !data) return jsonResponse({ error: "Session not found" }, 404);
+              
+              const parseField = (val: any) => {
+                if (typeof val === 'string') {
+                  try { return JSON.parse(val); } catch (_) { return val; }
+                }
+                return val;
+              };
+              
+              return jsonResponse({
+                ...data,
+                indicadores_logro: parseField(data.indicadores_logro) || [],
+                contenidos: parseField(data.contenidos) || { conceptual: '', procedimental: '', actitudinal: '' },
+                momentos: parseField(data.momentos) || { inicio: '', desarrollo: '', cierre: '' },
+                recursos: parseField(data.recursos) || []
+              });
+            } else {
+              // GET /api/talleres/:tallerId/sesiones
+              const { data, error } = await supabase
+                .from("workshop_sessions")
+                .select("*")
+                .eq("taller_id", tallerId)
+                .order("numero_clase", { ascending: true });
+                
+              if (error) throw error;
+              
+              const parseField = (val: any) => {
+                if (typeof val === 'string') {
+                  try { return JSON.parse(val); } catch (_) { return val; }
+                }
+                return val;
+              };
+              
+              const mapped = (data || []).map((s: any) => ({
+                ...s,
+                indicadores_logro: parseField(s.indicadores_logro) || [],
+                contenidos: parseField(s.contenidos) || { conceptual: '', procedimental: '', actitudinal: '' },
+                momentos: parseField(s.momentos) || { inicio: '', desarrollo: '', cierre: '' },
+                recursos: parseField(s.recursos) || []
+              }));
+              return jsonResponse(mapped);
+            }
+          } else {
+            // GET /api/talleres/:tallerId
+            const { data: row, error } = await supabase
+              .from("workshops")
+              .select("*")
+              .eq("id", tallerId)
+              .single();
+              
+            if (error || !row) return jsonResponse({ error: "Workshop not found" }, 404);
+            
+            const { data: sessions, error: sError } = await supabase
+              .from("workshop_sessions")
+              .select("*")
+              .eq("taller_id", tallerId)
+              .order("numero_clase", { ascending: true });
+              
+            if (sError) throw sError;
+            
+            const parseField = (val: any) => {
+              if (typeof val === 'string') {
+                try { return JSON.parse(val); } catch (_) { return val; }
+              }
+              return val;
+            };
+            
+            return jsonResponse({
+              ...row,
+              competencias_especificas: parseField(row.competencias_especificas) || [],
+              indicadores: parseField(row.indicadores) || [],
+              sesiones: (sessions || []).map((s: any) => ({
+                ...s,
+                indicadores_logro: parseField(s.indicadores_logro) || [],
+                contenidos: parseField(s.contenidos) || { conceptual: '', procedimental: '', actitudinal: '' },
+                momentos: parseField(s.momentos) || { inicio: '', desarrollo: '', cierre: '' },
+                recursos: parseField(s.recursos) || []
+              }))
+            });
+          }
+        } else {
+          // GET /api/talleres?docente_id=docenteId
+          const docenteId = query.docente_id;
+          if (!docenteId) return jsonResponse({ error: "docente_id parameter is required" }, 400);
+          
+          const { data: workshops, error: wError } = await supabase
+            .from("workshops")
+            .select("*")
+            .eq("docente_id", docenteId)
+            .order("creado_en", { ascending: false });
+            
+          if (wError) throw wError;
+          
+          let mappedWorkshops: any[] = [];
+          if (workshops && workshops.length > 0) {
+            const { data: allSessions, error: sError } = await supabase
+              .from("workshop_sessions")
+              .select("*")
+              .in("taller_id", workshops.map(w => w.id))
+              .order("numero_clase", { ascending: true });
+              
+            if (sError) throw sError;
+            
+            const parseField = (val: any) => {
+              if (typeof val === 'string') {
+                try { return JSON.parse(val); } catch (_) { return val; }
+              }
+              return val;
+            };
+            
+            const sessionsMap = new Map();
+            (allSessions || []).forEach((s: any) => {
+              if (!sessionsMap.has(s.taller_id)) {
+                sessionsMap.set(s.taller_id, []);
+              }
+              sessionsMap.get(s.taller_id).push({
+                ...s,
+                indicadores_logro: parseField(s.indicadores_logro) || [],
+                contenidos: parseField(s.contenidos) || { conceptual: '', procedimental: '', actitudinal: '' },
+                momentos: parseField(s.momentos) || { inicio: '', desarrollo: '', cierre: '' },
+                recursos: parseField(s.recursos) || []
+              });
+            });
+            
+            mappedWorkshops = workshops.map((w: any) => ({
+              ...w,
+              competencias_especificas: parseField(w.competencias_especificas) || [],
+              indicadores: parseField(w.indicadores) || [],
+              sesiones: sessionsMap.get(w.id) || []
+            }));
+          }
+          
+          return jsonResponse(mappedWorkshops);
+        }
+      }
+      
+      if (method === "POST") {
+        if (tallerId && subPath === "sesiones") {
+          // POST /api/talleres/:tallerId/sesiones
+          const { data: countRows, error: cError } = await supabase
+            .from("workshop_sessions")
+            .select("id")
+            .eq("taller_id", tallerId);
+            
+          if (cError) throw cError;
+          
+          const numeroClase = (countRows?.length || 0) + 1;
+          const sessionId = crypto.randomUUID();
+          const now = new Date().toISOString();
+          
+          const sessionRow = {
+            id: sessionId,
+            taller_id: tallerId,
+            numero_clase: numeroClase,
+            titulo: body.titulo,
+            tema: body.tema || null,
+            objetivo: body.objetivo || null,
+            competencia_especifica: body.competencia_especifica || null,
+            indicadores_logro: body.indicadores_logro || [],
+            contenidos: body.contenidos || { conceptual: '', procedimental: '', actitudinal: '' },
+            momentos: body.momentos || { inicio: '', desarrollo: '', cierre: '' },
+            recursos: body.recursos || [],
+            evaluacion: body.evaluacion || null,
+            duracion_minutos: body.duracion_minutos || 45,
+            fecha: body.fecha || null,
+            estado: body.estado || 'pendiente',
+            creado_en: now
+          };
+          
+          const { error: insertError } = await supabase
+            .from("workshop_sessions")
+            .insert(sessionRow);
+            
+          if (insertError) throw insertError;
+          
+          // Touch workshop
+          await supabase
+            .from("workshops")
+            .update({ actualizado_en: now })
+            .eq("id", tallerId);
+            
+          return jsonResponse(sessionRow);
+        } else {
+          // POST /api/talleres
+          const id = crypto.randomUUID();
+          const now = new Date().toISOString();
+          
+          const workshopRow = {
+            id,
+            docente_id: body.docente_id,
+            nombre: body.nombre,
+            descripcion: body.descripcion || null,
+            tipo_taller: body.tipo_taller,
+            nivel: body.nivel,
+            grado: body.grado || null,
+            competencias_especificas: body.competencias_especificas || [],
+            indicadores: body.indicadores || [],
+            color: body.color || null,
+            icono: body.icono || null,
+            gradiente: body.gradiente || null,
+            max_clases: body.max_clases || 20,
+            estado: body.estado || 'activo',
+            creado_en: now,
+            actualizado_en: now
+          };
+          
+          const { error: insertError } = await supabase
+            .from("workshops")
+            .insert(workshopRow);
+            
+          if (insertError) throw insertError;
+          
+          return jsonResponse({
+            ...workshopRow,
+            sesiones: []
+          });
+        }
+      }
+      
+      if (method === "PUT") {
+        if (tallerId && subPath === "sesiones") {
+          if (!sessionId) return jsonResponse({ error: "Missing session ID" }, 400);
+          
+          // PUT /api/talleres/:tallerId/sesiones/:sessionId
+          const now = new Date().toISOString();
+          
+          const { error: updateError } = await supabase
+            .from("workshop_sessions")
+            .update({
+              titulo: body.titulo,
+              tema: body.tema,
+              objetivo: body.objetivo,
+              competencia_especifica: body.competencia_especifica,
+              indicadores_logro: body.indicadores_logro,
+              contenidos: body.contenidos,
+              momentos: body.momentos,
+              recursos: body.recursos,
+              evaluacion: body.evaluacion,
+              duracion_minutos: body.duracion_minutos,
+              fecha: body.fecha,
+              estado: body.estado
+            })
+            .eq("id", sessionId)
+            .eq("taller_id", tallerId);
+            
+          if (updateError) throw updateError;
+          
+          // Touch workshop
+          await supabase
+            .from("workshops")
+            .update({ actualizado_en: now })
+            .eq("id", tallerId);
+            
+          const { data: updatedSession, error: fetchError } = await supabase
+            .from("workshop_sessions")
+            .select("*")
+            .eq("id", sessionId)
+            .single();
+            
+          if (fetchError) throw fetchError;
+          
+          const parseField = (val: any) => {
+            if (typeof val === 'string') {
+              try { return JSON.parse(val); } catch (_) { return val; }
+            }
+            return val;
+          };
+          
+          return jsonResponse({
+            ...updatedSession,
+            indicadores_logro: parseField(updatedSession.indicadores_logro) || [],
+            contenidos: parseField(updatedSession.contenidos) || { conceptual: '', procedimental: '', actitudinal: '' },
+            momentos: parseField(updatedSession.momentos) || { inicio: '', desarrollo: '', cierre: '' },
+            recursos: parseField(updatedSession.recursos) || []
+          });
+        } else if (tallerId) {
+          // PUT /api/talleres/:tallerId (Update workshop)
+          const now = new Date().toISOString();
+          
+          const { error: updateError } = await supabase
+            .from("workshops")
+            .update({
+              nombre: body.nombre,
+              descripcion: body.descripcion,
+              estado: body.estado,
+              competencias_especificas: body.competencias_especificas,
+              indicadores: body.indicadores,
+              actualizado_en: now
+            })
+            .eq("id", tallerId);
+            
+          if (updateError) throw updateError;
+          
+          const { data: updatedWorkshop, error: fetchError } = await supabase
+            .from("workshops")
+            .select("*")
+            .eq("id", tallerId)
+            .single();
+            
+          if (fetchError) throw fetchError;
+          
+          const parseField = (val: any) => {
+            if (typeof val === 'string') {
+              try { return JSON.parse(val); } catch (_) { return val; }
+            }
+            return val;
+          };
+          
+          return jsonResponse({
+            ...updatedWorkshop,
+            competencias_especificas: parseField(updatedWorkshop.competencias_especificas) || [],
+            indicadores: parseField(updatedWorkshop.indicadores) || []
+          });
+        }
+      }
+      
+      if (method === "DELETE") {
+        if (tallerId && subPath === "sesiones") {
+          if (!sessionId) return jsonResponse({ error: "Missing session ID" }, 400);
+          
+          // DELETE /api/talleres/:tallerId/sesiones/:sessionId
+          const { error: deleteError } = await supabase
+            .from("workshop_sessions")
+            .delete()
+            .eq("id", sessionId)
+            .eq("taller_id", tallerId);
+            
+          if (deleteError) throw deleteError;
+          
+          // Re-number remaining sessions
+          const { data: sessions, error: sError } = await supabase
+            .from("workshop_sessions")
+            .select("id")
+            .eq("taller_id", tallerId)
+            .order("numero_clase", { ascending: true });
+            
+          if (sError) throw sError;
+          
+          if (sessions && sessions.length > 0) {
+            await Promise.all(sessions.map((s: any, idx: number) => 
+              supabase
+                .from("workshop_sessions")
+                .update({ numero_clase: idx + 1 })
+                .eq("id", s.id)
+            ));
+          }
+          
+          // Touch workshop
+          const now = new Date().toISOString();
+          await supabase
+            .from("workshops")
+            .update({ actualizado_en: now })
+            .eq("id", tallerId);
+            
+          return jsonResponse({ success: true });
+        } else if (tallerId) {
+          // DELETE /api/talleres/:tallerId (cascade)
+          const { error: deleteError } = await supabase
+            .from("workshops")
+            .delete()
+            .eq("id", tallerId);
+            
+          if (deleteError) throw deleteError;
+          
+          return jsonResponse({ success: true });
+        }
       }
     }
 

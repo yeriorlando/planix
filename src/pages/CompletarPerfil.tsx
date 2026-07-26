@@ -49,6 +49,7 @@ interface GradeAssignment {
 export default function CompleteProfilePage() {
   const navigate = useNavigate();
   const [currentUser, setCurrentUser] = useState<any>(null);
+  const existingRole = currentUser?.rol || 'teacher';
 
   const [formData, setFormData] = useState({
     center: '',
@@ -168,6 +169,9 @@ export default function CompleteProfilePage() {
   };
 
   const isFormValid = () => {
+    if (existingRole === 'coordinator') {
+      return !!formData.center;
+    }
     return (
       formData.center &&
       (formData.level === 'PRIMARIA' || formData.level === 'SECUNDARIA') &&
@@ -180,21 +184,23 @@ export default function CompleteProfilePage() {
       toast.warning("Por favor, busca y selecciona tu centro educativo.");
       return;
     }
-    if (formData.level !== 'PRIMARIA' && formData.level !== 'SECUNDARIA') {
-      toast.warning("Actualmente Planix solo está disponible para los niveles Primario y Secundario.");
-      return;
-    }
-    if (!formData.cycle) {
-      toast.warning("Por favor, selecciona un ciclo (Ciclo 1 o Ciclo 2).");
-      return;
-    }
-    if (!formData.grade) {
-      toast.warning("Por favor, selecciona un grado.");
-      return;
-    }
-    if (assignments.length === 0) {
-      toast.warning("Por favor, selecciona al menos una asignatura para un grado.");
-      return;
+    if (existingRole !== 'coordinator') {
+      if (formData.level !== 'PRIMARIA' && formData.level !== 'SECUNDARIA') {
+        toast.warning("Actualmente Planix solo está disponible para los niveles Primario y Secundario.");
+        return;
+      }
+      if (!formData.cycle) {
+        toast.warning("Por favor, selecciona un ciclo (Ciclo 1 o Ciclo 2).");
+        return;
+      }
+      if (!formData.grade) {
+        toast.warning("Por favor, selecciona un grado.");
+        return;
+      }
+      if (assignments.length === 0) {
+        toast.warning("Por favor, selecciona al menos una asignatura para un grado.");
+        return;
+      }
     }
 
     setIsLoading(true);
@@ -202,7 +208,7 @@ export default function CompleteProfilePage() {
 
     // Safety timeout to reset loading state if it hangs for more than 15 seconds
     const safetyTimeout = setTimeout(() => {
-      console.warn('!!! La operación está tardando demasiado. Verificando estado...');
+      console.warn('!!! La operation está tardando demasiado. Verificando estado...');
       setIsLoading(false);
       toast.warning('El guardado está tardando más de lo esperado. Por favor, verifica tu conexión o intenta de nuevo.');
     }, 15000);
@@ -229,6 +235,7 @@ export default function CompleteProfilePage() {
       console.log('>>> [2/5] Usuario verificado:', authUserId);
 
       const allowed_subjects = (() => {
+        if (existingRole === 'coordinator') return null;
         const map: Record<string, string[]> = {};
         assignments.forEach((a: GradeAssignment) => {
           map[a.gradeId] = a.subjectIds;
@@ -242,7 +249,6 @@ export default function CompleteProfilePage() {
       const distritoRaw = schoolMetadata?.district || schoolMetadata?.distrito || (currentUser?.distrito && currentUser.distrito !== 'N/A' && currentUser.distrito !== 'NA' ? currentUser.distrito : 'N/A');
       const municipioRaw = schoolMetadata?.municipality || schoolMetadata?.municipio || (currentUser?.municipio && currentUser.municipio !== 'N/A' && currentUser.municipio !== 'NA' ? currentUser.municipio : 'N/A');
 
-      const existingRole = currentUser?.rol || 'teacher';
       const subscriptionTier = currentUser?.suscripcion || 'free';
       const subscriptionStatus = currentUser?.estado_suscripcion || 'ACTIVO';
 
@@ -252,13 +258,13 @@ export default function CompleteProfilePage() {
         await requestD1<any>("/api/profiles", "POST", {
           id: authUserId,
           school_name: formData.center,
-          role: existingRole === 'admin' ? 'ADMINISTRADOR' : 'teacher',
+          role: existingRole === 'admin' ? 'ADMINISTRADOR' : (existingRole === 'coordinator' ? 'COORDINADOR' : 'DOCENTE'),
           regional: regionalRaw,
           distrito: distritoRaw,
           municipio: municipioRaw,
-          nivel_principal: formData.level.toLowerCase(),
-          ciclo_principal: formData.cycle,
-          grado_principal: formData.grade,
+          nivel_principal: existingRole === 'coordinator' ? null : formData.level.toLowerCase(),
+          ciclo_principal: existingRole === 'coordinator' ? null : formData.cycle,
+          grado_principal: existingRole === 'coordinator' ? null : formData.grade,
           allowed_subjects: allowed_subjects,
           full_name: fullNameValue,
           email: authEmail,
@@ -281,9 +287,9 @@ export default function CompleteProfilePage() {
         nombre: fullNameValue,
         email: authEmail,
         colegio: formData.center,
-        nivel: formData.level.toLowerCase() as any,
-        ciclo: formData.cycle,
-        grado: formData.grade,
+        nivel: existingRole === 'coordinator' ? null : formData.level.toLowerCase() as any,
+        ciclo: existingRole === 'coordinator' ? null : formData.cycle,
+        grado: existingRole === 'coordinator' ? null : formData.grade,
         regional: regionalRaw,
         distrito: distritoRaw,
         municipio: municipioRaw,
@@ -351,204 +357,208 @@ export default function CompleteProfilePage() {
               />
             </div>
 
-            {/* 2. NIVEL EDUCATIVO */}
-            <div className="flex flex-col gap-3">
-              <label className="text-[10px] font-bold text-slate-400 dark:text-zinc-500 uppercase tracking-wider text-center flex items-center gap-1.5 justify-center">
-                <Library size={12} /> Nivel Educativo Principal
-              </label>
-              <div className="flex bg-black/[0.03] dark:bg-white/[0.03] p-1.5 rounded-full max-w-lg mx-auto w-full select-none border border-black/5 dark:border-white/5 relative">
-                <button
-                  type="button"
-                  onClick={() => handleLevelChange("INICIAL")}
-                  className="flex-1 py-3 px-5 rounded-full text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer relative overflow-hidden group border-none bg-transparent"
-                >
-                  {formData.level === "INICIAL" && (
-                    <motion.div
-                      layoutId="activeLevelPill"
-                      className="absolute inset-0 bg-brand-primary rounded-full shadow-xs"
-                      transition={{ type: "spring", stiffness: 350, damping: 25 }}
-                    />
-                  )}
-                  <Baby size={16} className={`relative z-10 transition-colors duration-300 ${formData.level === "INICIAL" ? 'text-white' : 'text-slate-500 group-hover:text-slate-900 dark:group-hover:text-white'}`} />
-                  <span className={`relative z-10 transition-colors duration-300 ${formData.level === "INICIAL" ? 'text-white' : 'text-slate-500 group-hover:text-slate-900 dark:group-hover:text-white'}`}>
-                    Inicial
-                  </span>
-                </button>
-
-                <button
-                  type="button"
-                  onClick={() => handleLevelChange("PRIMARIA")}
-                  className="flex-1 py-3 px-5 rounded-full text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer relative overflow-hidden group border-none bg-transparent"
-                >
-                  {formData.level === "PRIMARIA" && (
-                    <motion.div
-                      layoutId="activeLevelPill"
-                      className="absolute inset-0 bg-brand-primary rounded-full shadow-xs"
-                      transition={{ type: "spring", stiffness: 350, damping: 25 }}
-                    />
-                  )}
-                  <BookOpen size={16} className={`relative z-10 transition-colors duration-300 ${formData.level === "PRIMARIA" ? 'text-white' : 'text-slate-500 group-hover:text-slate-900 dark:group-hover:text-white'}`} />
-                  <span className={`relative z-10 transition-colors duration-300 ${formData.level === "PRIMARIA" ? 'text-white' : 'text-slate-500 group-hover:text-slate-900 dark:group-hover:text-white'}`}>
-                    Primaria
-                  </span>
-                </button>
-
-                <button
-                  type="button"
-                  onClick={() => handleLevelChange("SECUNDARIA")}
-                  className="flex-1 py-3 px-5 rounded-full text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer relative overflow-hidden group border-none bg-transparent"
-                >
-                  {formData.level === "SECUNDARIA" && (
-                    <motion.div
-                      layoutId="activeLevelPill"
-                      className="absolute inset-0 bg-brand-primary rounded-full shadow-xs"
-                      transition={{ type: "spring", stiffness: 350, damping: 25 }}
-                    />
-                  )}
-                  <GraduationCap size={16} className={`relative z-10 transition-colors duration-300 ${formData.level === "SECUNDARIA" ? 'text-white' : 'text-slate-500 group-hover:text-slate-900 dark:group-hover:text-white'}`} />
-                  <span className={`relative z-10 transition-colors duration-300 ${formData.level === "SECUNDARIA" ? 'text-white' : 'text-slate-500 group-hover:text-slate-900 dark:group-hover:text-white'}`}>
-                    Secundaria
-                  </span>
-                </button>
-              </div>
-            </div>
-
-            {/* Grado Académico */}
-            {(formData.level === "PRIMARIA" || formData.level === "SECUNDARIA") && (
-              <div className="flex flex-col gap-2">
-                <label className="text-[10px] font-bold text-slate-400 dark:text-zinc-500 uppercase tracking-wider text-center">Grado Académico</label>
-                <div className="grid grid-cols-6 gap-2 max-w-xl mx-auto w-full">
-                  {levelGrades.map(grade => {
-                    const isActive = formData.grade === grade.id;
-                    const hasAssignments = assignments.some(a => a.gradeId === grade.id && a.subjectIds.length > 0);
-
-                    return (
-                      <button
-                        key={grade.id}
-                        type="button"
-                        onClick={() => {
-                          setFormData(prev => ({
-                            ...prev,
-                            grade: grade.id,
-                            cycle: grade.cycleId
-                          }));
-                        }}
-                        className={`relative py-1.5 px-1.5 rounded-xl text-xs font-bold transition-all flex flex-col items-center justify-center border min-h-[44px] w-full cursor-pointer ${
-                          isActive
-                            ? 'bg-slate-900 dark:bg-brand-primary text-white border-slate-900 dark:border-brand-primary shadow-xs animate-none'
-                            : 'bg-white dark:bg-zinc-900 text-slate-800 dark:text-neutral-200 border-black/5 dark:border-zinc-800 hover:border-black/20 dark:hover:border-zinc-700'
-                        }`}
-                      >
-                        <span>{grade.name.replace(" Sec", "")}</span>
-                        <span className={`text-[8px] font-bold uppercase tracking-tight ${isActive ? 'text-white/60' : 'text-slate-400 dark:text-zinc-500'}`}>Grado</span>
-                        {hasAssignments && (
-                          <div className={`absolute -top-1 -right-1 rounded-md p-0.5 shadow-xs shrink-0 ${
-                            isActive ? 'bg-white text-slate-900 dark:text-zinc-950 border border-black/5' : 'bg-emerald-500 text-white'
-                          }`}>
-                            <Check size={8} strokeWidth={4.5} />
-                          </div>
-                        )}
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-
-            {/* Subject Selector Workspace */}
-            {formData.grade && (formData.level === "PRIMARIA" || formData.level === "SECUNDARIA") && (
-              <div className="bg-slate-50/40 dark:bg-zinc-900/40 p-4 rounded-[24px] border border-black/5 dark:border-zinc-800 space-y-3 mt-1">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-1.5">
-                    <Sparkles className="w-4 h-4 text-brand-primary" />
-                    <h3 className="text-[11px] font-bold text-slate-700 dark:text-neutral-300 uppercase tracking-widest">
-                      Asignaturas para {getGradeById(formData.grade)?.displayName.split(" (")[0]}
-                    </h3>
-                  </div>
-                  {availableSubjects.length > 0 && (
+            {/* 2. NIVEL EDUCATIVO, GRADOS Y ASIGNATURAS (SOLO PARA DOCENTES) */}
+            {existingRole !== 'coordinator' && (
+              <>
+                <div className="flex flex-col gap-3">
+                  <label className="text-[10px] font-bold text-slate-400 dark:text-zinc-500 uppercase tracking-wider text-center flex items-center gap-1.5 justify-center">
+                    <Library size={12} /> Nivel Educativo Principal
+                  </label>
+                  <div className="flex bg-black/[0.03] dark:bg-white/[0.03] p-1.5 rounded-full max-w-lg mx-auto w-full select-none border border-black/5 dark:border-white/5 relative">
                     <button
                       type="button"
-                      onClick={handleToggleAll}
-                      className="text-[10px] font-bold text-slate-700 dark:text-neutral-300 hover:bg-black/5 dark:hover:bg-white/5 bg-white dark:bg-zinc-800 px-3 py-1 rounded-lg border border-slate-200 dark:border-zinc-700 shadow-xs transition-colors cursor-pointer"
+                      onClick={() => handleLevelChange("INICIAL")}
+                      className="flex-1 py-3 px-5 rounded-full text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer relative overflow-hidden group border-none bg-transparent"
                     >
-                      {currentGradeSubjects.length === availableSubjects.length ? "Ninguna" : "Todas"}
+                      {formData.level === "INICIAL" && (
+                        <motion.div
+                          layoutId="activeLevelPill"
+                          className="absolute inset-0 bg-brand-primary rounded-full shadow-xs"
+                          transition={{ type: "spring", stiffness: 350, damping: 25 }}
+                        />
+                      )}
+                      <Baby size={16} className={`relative z-10 transition-colors duration-300 ${formData.level === "INICIAL" ? 'text-white' : 'text-slate-500 group-hover:text-slate-900 dark:group-hover:text-white'}`} />
+                      <span className={`relative z-10 transition-colors duration-300 ${formData.level === "INICIAL" ? 'text-white' : 'text-slate-500 group-hover:text-slate-900 dark:group-hover:text-white'}`}>
+                        Inicial
+                      </span>
                     </button>
-                  )}
-                </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
-                  {availableSubjects.map((subject) => {
-                    const isSelected = currentGradeSubjects.includes(subject.id);
-                    const themeColor = subject.color || '#1E40AF';
-                    
-                    return (
-                      <button
-                        key={subject.id}
-                        type="button"
-                        onClick={() => toggleSubject(subject.id)}
-                        className="p-2.5 rounded-xl border border-slate-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 text-left transition-all relative flex items-center gap-3 hover:border-slate-300 dark:hover:border-zinc-700 shadow-xs w-full h-10 overflow-hidden cursor-pointer"
-                        style={isSelected ? {
-                          borderColor: themeColor,
-                          backgroundColor: `${themeColor}0F`, // ~9% opacity for the active color tint
-                          color: themeColor,
-                          boxShadow: `0 2px 8px ${themeColor}0A`
-                        } : {}}
-                      >
-                        <div className={`text-lg transition-all duration-300 ${isSelected ? 'scale-105' : 'filter grayscale opacity-70'}`}>
-                          {subject.icon}
-                        </div>
-                        
-                        <div 
-                          className="text-[11.5px] font-bold leading-tight tracking-tight truncate pr-6 text-slate-800 dark:text-neutral-200"
-                          style={isSelected ? { color: themeColor } : {}}
-                        >
-                          {subject.name}
-                        </div>
+                    <button
+                      type="button"
+                      onClick={() => handleLevelChange("PRIMARIA")}
+                      className="flex-1 py-3 px-5 rounded-full text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer relative overflow-hidden group border-none bg-transparent"
+                    >
+                      {formData.level === "PRIMARIA" && (
+                        <motion.div
+                          layoutId="activeLevelPill"
+                          className="absolute inset-0 bg-brand-primary rounded-full shadow-xs"
+                          transition={{ type: "spring", stiffness: 350, damping: 25 }}
+                        />
+                      )}
+                      <BookOpen size={16} className={`relative z-10 transition-colors duration-300 ${formData.level === "PRIMARIA" ? 'text-white' : 'text-slate-500 group-hover:text-slate-900 dark:group-hover:text-white'}`} />
+                      <span className={`relative z-10 transition-colors duration-300 ${formData.level === "PRIMARIA" ? 'text-white' : 'text-slate-500 group-hover:text-slate-900 dark:group-hover:text-white'}`}>
+                        Primaria
+                      </span>
+                    </button>
 
-                        {isSelected && (
-                          <div 
-                            className="absolute right-2.5 rounded-md p-0.5 shadow-xs animate-in zoom-in duration-200"
-                            style={{ backgroundColor: themeColor }}
-                          >
-                            <Check size={9} className="text-white" strokeWidth={4.5} />
-                          </div>
-                        )}
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-
-            {/* ASSIGNMENTS SUMMARY */}
-            {assignments.length > 0 && (
-              <div className="space-y-3 pt-2">
-                <div className="bg-brand-light/25 border border-brand-primary/10 rounded-2xl p-4">
-                  <h4 className="text-[10px] font-black text-brand-primary uppercase tracking-widest mb-3 flex items-center gap-2">
-                    <CalendarCheck size={12} /> Resumen de Asignaciones
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {assignments.map((assignment, idx) => (
-                      <div key={idx} className="bg-white dark:bg-zinc-850 border border-slate-150 dark:border-zinc-800 rounded-xl px-3 py-2 flex items-center gap-3">
-                        <div>
-                          <div className="text-xs font-black text-slate-800 dark:text-white">{assignment.gradeName}</div>
-                          <div className="text-[10px] text-slate-500 dark:text-neutral-400">{assignment.subjectIds.length} asignaturas</div>
-                        </div>
-                        <button onClick={() => setAssignments(prev => prev.filter(a => a.gradeId !== assignment.gradeId))} className="text-slate-350 hover:text-rose-500 cursor-pointer transition-colors border-none bg-transparent p-0" title="Eliminar asignación">
-                          <X size={14} />
-                        </button>
-                      </div>
-                    ))}
+                    <button
+                      type="button"
+                      onClick={() => handleLevelChange("SECUNDARIA")}
+                      className="flex-1 py-3 px-5 rounded-full text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer relative overflow-hidden group border-none bg-transparent"
+                    >
+                      {formData.level === "SECUNDARIA" && (
+                        <motion.div
+                          layoutId="activeLevelPill"
+                          className="absolute inset-0 bg-brand-primary rounded-full shadow-xs"
+                          transition={{ type: "spring", stiffness: 350, damping: 25 }}
+                        />
+                      )}
+                      <GraduationCap size={16} className={`relative z-10 transition-colors duration-300 ${formData.level === "SECUNDARIA" ? 'text-white' : 'text-slate-500 group-hover:text-slate-900 dark:group-hover:text-white'}`} />
+                      <span className={`relative z-10 transition-colors duration-300 ${formData.level === "SECUNDARIA" ? 'text-white' : 'text-slate-500 group-hover:text-slate-900 dark:group-hover:text-white'}`}>
+                        Secundaria
+                      </span>
+                    </button>
                   </div>
                 </div>
-              </div>
+
+                {/* Grado Académico */}
+                {(formData.level === "PRIMARIA" || formData.level === "SECUNDARIA") && (
+                  <div className="flex flex-col gap-2">
+                    <label className="text-[10px] font-bold text-slate-400 dark:text-zinc-500 uppercase tracking-wider text-center">Grado Académico</label>
+                    <div className="grid grid-cols-6 gap-2 max-w-xl mx-auto w-full">
+                      {levelGrades.map(grade => {
+                        const isActive = formData.grade === grade.id;
+                        const hasAssignments = assignments.some(a => a.gradeId === grade.id && a.subjectIds.length > 0);
+
+                        return (
+                          <button
+                            key={grade.id}
+                            type="button"
+                            onClick={() => {
+                              setFormData(prev => ({
+                                ...prev,
+                                grade: grade.id,
+                                cycle: grade.cycleId
+                              }));
+                            }}
+                            className={`relative py-1.5 px-1.5 rounded-xl text-xs font-bold transition-all flex flex-col items-center justify-center border min-h-[44px] w-full cursor-pointer ${
+                              isActive
+                                ? 'bg-slate-900 dark:bg-brand-primary text-white border-slate-900 dark:border-brand-primary shadow-xs animate-none'
+                                : 'bg-white dark:bg-zinc-900 text-slate-800 dark:text-neutral-200 border-black/5 dark:border-zinc-800 hover:border-black/20 dark:hover:border-zinc-700'
+                            }`}
+                          >
+                            <span>{grade.name.replace(" Sec", "")}</span>
+                            <span className={`text-[8px] font-bold uppercase tracking-tight ${isActive ? 'text-white/60' : 'text-slate-400 dark:text-zinc-500'}`}>Grado</span>
+                            {hasAssignments && (
+                              <div className={`absolute -top-1 -right-1 rounded-md p-0.5 shadow-xs shrink-0 ${
+                                isActive ? 'bg-white text-slate-900 dark:text-zinc-950 border border-black/5' : 'bg-emerald-500 text-white'
+                              }`}>
+                                <Check size={8} strokeWidth={4.5} />
+                              </div>
+                            )}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {/* Subject Selector Workspace */}
+                {formData.grade && (formData.level === "PRIMARIA" || formData.level === "SECUNDARIA") && (
+                  <div className="bg-slate-50/40 dark:bg-zinc-900/40 p-4 rounded-[24px] border border-black/5 dark:border-zinc-800 space-y-3 mt-1">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-1.5">
+                        <Sparkles className="w-4 h-4 text-brand-primary" />
+                        <h3 className="text-[11px] font-bold text-slate-700 dark:text-neutral-300 uppercase tracking-widest">
+                          Asignaturas para {getGradeById(formData.grade)?.displayName.split(" (")[0]}
+                        </h3>
+                      </div>
+                      {availableSubjects.length > 0 && (
+                        <button
+                          type="button"
+                          onClick={handleToggleAll}
+                          className="text-[10px] font-bold text-slate-700 dark:text-neutral-300 hover:bg-black/5 dark:hover:bg-white/5 bg-white dark:bg-zinc-800 px-3 py-1 rounded-lg border border-slate-200 dark:border-zinc-700 shadow-xs transition-colors cursor-pointer"
+                        >
+                          {currentGradeSubjects.length === availableSubjects.length ? "Ninguna" : "Todas"}
+                        </button>
+                      )}
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+                      {availableSubjects.map((subject) => {
+                        const isSelected = currentGradeSubjects.includes(subject.id);
+                        const themeColor = subject.color || '#1E40AF';
+                        
+                        return (
+                          <button
+                            key={subject.id}
+                            type="button"
+                            onClick={() => toggleSubject(subject.id)}
+                            className="p-2.5 rounded-xl border border-slate-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 text-left transition-all relative flex items-center gap-3 hover:border-slate-300 dark:hover:border-zinc-700 shadow-xs w-full h-10 overflow-hidden cursor-pointer"
+                            style={isSelected ? {
+                              borderColor: themeColor,
+                              backgroundColor: `${themeColor}0F`, // ~9% opacity for the active color tint
+                              color: themeColor,
+                              boxShadow: `0 2px 8px ${themeColor}0A`
+                            } : {}}
+                          >
+                            <div className={`text-lg transition-all duration-300 ${isSelected ? 'scale-105' : 'filter grayscale opacity-70'}`}>
+                              {subject.icon}
+                            </div>
+                            
+                            <div 
+                              className="text-[11.5px] font-bold leading-tight tracking-tight truncate pr-6 text-slate-800 dark:text-neutral-200"
+                              style={isSelected ? { color: themeColor } : {}}
+                            >
+                              {subject.name}
+                            </div>
+
+                            {isSelected && (
+                              <div 
+                                className="absolute right-2.5 rounded-md p-0.5 shadow-xs animate-in zoom-in duration-200"
+                                style={{ backgroundColor: themeColor }}
+                              >
+                                <Check size={9} className="text-white" strokeWidth={4.5} />
+                              </div>
+                            )}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {/* ASSIGNMENTS SUMMARY */}
+                {assignments.length > 0 && (
+                  <div className="space-y-3 pt-2">
+                    <div className="bg-brand-light/25 border border-brand-primary/10 rounded-2xl p-4">
+                      <h4 className="text-[10px] font-black text-brand-primary uppercase tracking-widest mb-3 flex items-center gap-2">
+                        <CalendarCheck size={12} /> Resumen de Asignaciones
+                      </h4>
+                      <div className="flex flex-wrap gap-2">
+                        {assignments.map((assignment, idx) => (
+                          <div key={idx} className="bg-white dark:bg-zinc-850 border border-slate-150 dark:border-zinc-800 rounded-xl px-3 py-2 flex items-center gap-3">
+                            <div>
+                              <div className="text-xs font-black text-slate-800 dark:text-white">{assignment.gradeName}</div>
+                              <div className="text-[10px] text-slate-500 dark:text-neutral-400">{assignment.subjectIds.length} asignaturas</div>
+                            </div>
+                            <button onClick={() => setAssignments(prev => prev.filter(a => a.gradeId !== assignment.gradeId))} className="text-slate-350 hover:text-rose-500 cursor-pointer transition-colors border-none bg-transparent p-0" title="Eliminar asignación">
+                              <X size={14} />
+                            </button>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </>
             )}
 
             {/* Main Action Button */}
             <div className="pt-4">
               <button
                 onClick={handleSubmit}
-                disabled={isLoading || assignments.length === 0}
+                disabled={isLoading || (existingRole !== 'coordinator' && assignments.length === 0)}
                 className="w-full bg-slate-900 dark:bg-brand-primary text-white rounded-2xl py-4 font-black text-sm uppercase tracking-widest hover:bg-slate-800 dark:hover:bg-brand-hover hover:scale-[1.02] transform transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
               >
                 {isLoading ? 'Guardando Perfil...' : (

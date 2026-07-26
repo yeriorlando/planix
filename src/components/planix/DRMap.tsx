@@ -163,7 +163,7 @@ export default function DRMap() {
   };
 
   return (
-    <section className="py-24 px-6 bg-white dark:bg-zinc-950 overflow-hidden relative z-10 border-b border-black/5 dark:border-white/5" ref={sectionRef}>
+    <section className="pt-24 pb-8 px-6 bg-bg-base dark:bg-zinc-950 overflow-hidden relative z-10 border-b border-black/5 dark:border-white/5" ref={sectionRef}>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center mb-16">
 
@@ -272,9 +272,15 @@ export default function DRMap() {
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="inline-flex items-center gap-2 px-4 py-2 bg-brand-light dark:bg-blue-950/30 rounded-full text-brand-primary font-bold text-[10px] uppercase tracking-widest border border-brand-primary/10"
+                className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-[#002f6c]/5 dark:bg-blue-950/40 rounded-full text-[#002f6c] dark:text-blue-300 font-black text-[11px] uppercase tracking-wider border border-[#002f6c]/10 dark:border-blue-900/30 shadow-2xs"
               >
-                <Sparkles size={12} className="text-brand-primary" />
+                <svg className="w-[27px] h-[19px] rounded-[3px] shadow-xs shrink-0 border border-neutral-200/20" viewBox="0 0 500 350">
+                  <rect x="0" y="0" width="500" height="350" fill="white" />
+                  <rect x="0" y="0" width="220" height="150" fill="#002F6C" />
+                  <rect x="280" y="0" width="220" height="150" fill="#CE1126" />
+                  <rect x="0" y="200" width="220" height="150" fill="#CE1126" />
+                  <rect x="280" y="200" width="220" height="150" fill="#002F6C" />
+                </svg>
                 Presencia Nacional
               </motion.div>
 
@@ -296,10 +302,63 @@ export default function DRMap() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
-                className="text-lg text-text-muted font-medium leading-relaxed max-w-lg"
+                className="text-lg text-text-muted font-medium leading-relaxed max-w-lg animate-fade-in"
               >
                 <strong>Planix</strong> es la solución integral que empodera a miles de docentes a lo largo de todo el territorio nacional, modernizando la labor educativa con un clic.
               </motion.p>
+            </div>
+
+            {/* KPI Grid */}
+            <div className="grid grid-cols-2 gap-4 pt-4">
+              
+              <div className="bg-white/50 dark:bg-zinc-900/40 p-4 rounded-2xl border border-zinc-200/40 dark:border-zinc-800/40 shadow-xs flex items-center gap-3.5 hover:shadow-md hover:border-zinc-300 dark:hover:border-zinc-700 transition-all duration-300">
+                <div className="w-12 h-12 bg-indigo-500/10 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 rounded-full flex items-center justify-center shrink-0">
+                  <Users size={22} className="fill-indigo-500/20 text-indigo-600 dark:text-indigo-400" />
+                </div>
+                <div className="text-left">
+                  <span className="text-2xl font-black text-[#02327e] dark:text-white tracking-tight leading-none block mb-1">
+                    834
+                  </span>
+                  <p className="text-[11px] font-extrabold text-zinc-500 dark:text-zinc-400 leading-tight">Docentes Activos</p>
+                </div>
+              </div>
+
+              <div className="bg-white/50 dark:bg-zinc-900/40 p-4 rounded-2xl border border-zinc-200/40 dark:border-zinc-800/40 shadow-xs flex items-center gap-3.5 hover:shadow-md hover:border-zinc-300 dark:hover:border-zinc-700 transition-all duration-300">
+                <div className="w-12 h-12 bg-emerald-500/10 dark:bg-emerald-950/40 text-emerald-600 dark:text-emerald-400 rounded-full flex items-center justify-center shrink-0">
+                  <School size={22} className="fill-emerald-500/20 text-emerald-600 dark:text-emerald-400" />
+                </div>
+                <div className="text-left">
+                  <span className="text-2xl font-black text-emerald-600 dark:text-emerald-400 tracking-tight leading-none block mb-1">
+                    633
+                  </span>
+                  <p className="text-[11px] font-extrabold text-zinc-500 dark:text-zinc-400 leading-tight">Centros Educativos</p>
+                </div>
+              </div>
+
+              <div className="bg-white/50 dark:bg-zinc-900/40 p-4 rounded-2xl border border-zinc-200/40 dark:border-zinc-800/40 shadow-xs flex items-center gap-3.5 hover:shadow-md hover:border-zinc-300 dark:hover:border-zinc-700 transition-all duration-300">
+                <div className="w-12 h-12 bg-amber-500/10 dark:bg-amber-950/40 text-amber-600 dark:text-amber-400 rounded-full flex items-center justify-center shrink-0">
+                  <MapPin size={22} className="fill-amber-500/20 text-amber-600 dark:text-amber-400" />
+                </div>
+                <div className="text-left">
+                  <span className="text-2xl font-black text-amber-600 dark:text-amber-400 tracking-tight leading-none block mb-1">
+                    20
+                  </span>
+                  <p className="text-[11px] font-extrabold text-zinc-500 dark:text-zinc-400 leading-tight">Provincias Impactadas</p>
+                </div>
+              </div>
+
+              <div className="bg-white/50 dark:bg-zinc-900/40 p-4 rounded-2xl border border-zinc-200/40 dark:border-zinc-800/40 shadow-xs flex items-center gap-3.5 hover:shadow-md hover:border-zinc-300 dark:hover:border-zinc-700 transition-all duration-300">
+                <div className="w-12 h-12 bg-purple-500/10 dark:bg-purple-950/40 text-purple-600 dark:text-purple-400 rounded-full flex items-center justify-center shrink-0">
+                  <Sparkles size={22} className="fill-purple-500/20 text-purple-600 dark:text-purple-400" />
+                </div>
+                <div className="text-left">
+                  <span className="text-2xl font-black text-purple-600 dark:text-purple-400 tracking-tight leading-none block mb-1">
+                    99.4%
+                  </span>
+                  <p className="text-[11px] font-extrabold text-zinc-550 dark:text-zinc-400 leading-tight">Ahorro de Tiempo</p>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>

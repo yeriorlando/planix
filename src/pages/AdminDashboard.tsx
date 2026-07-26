@@ -123,6 +123,31 @@ export default function AdminDashboard() {
   const [supabaseStatus, setSupabaseStatus] = useState<string>('Cargando');
   const [supabaseLatency, setSupabaseLatency] = useState<number>(0);
   const [activeProvider, setActiveProvider] = useState<string>('gemini');
+  const [maintenanceActive, setMaintenanceActive] = useState<boolean>(false);
+  const [togglingMaintenance, setTogglingMaintenance] = useState<boolean>(false);
+
+  const handleToggleMaintenance = async () => {
+    if (togglingMaintenance) return;
+    setTogglingMaintenance(true);
+    const newStatus = !maintenanceActive;
+    try {
+      await requestD1('/api/site-configs', 'POST', {
+        key: 'maintenance_mode',
+        value: { active: newStatus }
+      });
+      setMaintenanceActive(newStatus);
+      if (newStatus) {
+        toast.success('Modo mantenimiento activado globalmente 🛠️');
+      } else {
+        toast.success('Modo mantenimiento desactivado. Plataforma online 🌐');
+      }
+    } catch (err) {
+      console.error('Error toggling maintenance mode:', err);
+      toast.error('No se pudo cambiar el estado de mantenimiento.');
+    } finally {
+      setTogglingMaintenance(false);
+    }
+  };
 
   useEffect(() => {
     if (!currentUser) {
@@ -158,10 +183,15 @@ export default function AdminDashboard() {
 
         // Measure D1 query latency
         const d1Start = performance.now();
-        const [profilesData, planningsData] = await Promise.all([
+        const [profilesData, planningsData, maintenanceConfig] = await Promise.all([
           requestD1<any[]>('/api/profiles'),
-          requestD1<any[]>('/api/plannings')
+          requestD1<any[]>('/api/plannings'),
+          requestD1<{ key: string; value: { active: boolean } }>('/api/site-configs/maintenance_mode').catch(() => null)
         ]);
+
+        if (maintenanceConfig && maintenanceConfig.value) {
+          setMaintenanceActive(!!maintenanceConfig.value.active);
+        }
         const d1End = performance.now();
         setD1Latency(Math.max(1, Math.round(d1End - d1Start)));
         setD1Status('Operativo');
@@ -324,7 +354,7 @@ export default function AdminDashboard() {
           <div>
             <h1 className="text-2xl font-black text-slate-800 dark:text-white tracking-tight flex items-center gap-2.5">
               Panel de Administración
-              <span className="text-[10px] font-black uppercase bg-[#0046ab]/10 text-[#0046ab] dark:bg-blue-950/30 dark:text-blue-400 border border-[#0046ab]/10 px-2.5 py-0.5 rounded-full tracking-wider">
+              <span className="text-[10px] font-black uppercase bg-[#0046ab]/10 text-[#0046ab] dark:bg-blue-955/30 dark:text-blue-400 border border-[#0046ab]/10 px-2.5 py-0.5 rounded-full tracking-wider">
                 Control
               </span>
             </h1>
@@ -333,10 +363,31 @@ export default function AdminDashboard() {
             </p>
           </div>
         </div>
+
         <div className="flex items-center gap-3 shrink-0">
+          {/* Maintenance Toggle */}
+          <div className="flex items-center gap-2 px-3.5 py-1.5 bg-slate-50/80 dark:bg-zinc-800/80 border border-slate-200/60 dark:border-zinc-700/50 rounded-2xl select-none">
+            <span className="text-[10px] font-black text-slate-500 dark:text-zinc-400 uppercase tracking-wider">
+              Mantenimiento:
+            </span>
+            <button
+              onClick={handleToggleMaintenance}
+              disabled={togglingMaintenance}
+              className={`relative inline-flex h-5 w-9.5 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-hidden ${
+                maintenanceActive ? 'bg-rose-500' : 'bg-slate-300 dark:bg-zinc-650'
+              }`}
+            >
+              <span
+                className={`pointer-events-none inline-block h-4 w-4 transform rounded-full bg-white shadow-sm ring-0 transition duration-200 ease-in-out ${
+                  maintenanceActive ? 'translate-x-4.5' : 'translate-x-0'
+                }`}
+              />
+            </button>
+          </div>
+
           <button
             onClick={() => navigate('/admin/online')}
-            className="flex items-center gap-2 rounded-full border border-emerald-550/20 dark:border-emerald-500/30 bg-emerald-50/50 dark:bg-emerald-950/20 hover:bg-emerald-100/50 dark:hover:bg-emerald-900/30 text-emerald-600 dark:text-emerald-450 py-2 px-4.5 text-xs font-bold transition-all shadow-3xs cursor-pointer select-none"
+            className="flex items-center gap-2 rounded-full border border-emerald-550/20 dark:border-emerald-500/30 bg-emerald-50/50 dark:bg-emerald-955/20 hover:bg-emerald-100/50 dark:hover:bg-emerald-900/30 text-emerald-600 dark:text-emerald-455 py-2 px-4.5 text-xs font-bold transition-all shadow-3xs cursor-pointer select-none"
           >
             <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
             <span>{onlineCount} docentes online</span>
@@ -348,7 +399,7 @@ export default function AdminDashboard() {
             <ArrowLeft size={14} className="text-white" />
             Volver al Aula Virtual
           </button>
-        </div>
+      </div>
       </div>
 
       {/* Área de Contenido Principal */}

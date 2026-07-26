@@ -32,6 +32,16 @@ interface EducationalResource {
 
 const RESOURCES: EducationalResource[] = [
   {
+    id: 'ixl',
+    title: 'IXL Aprendizaje',
+    description: 'Plataforma líder para la práctica interactiva y personalizada de matemáticas y lenguaje, con explicaciones paso a paso y seguimiento en tiempo real.',
+    url: 'https://la.ixl.com/',
+    category: 'Material Didáctico',
+    icon: BookOpen,
+    colorClass: 'from-green-500 to-teal-500',
+    bgPattern: 'bg-[url("https://www.transparenttextures.com/patterns/notebook.png")]'
+  },
+  {
     id: 'paperme',
     title: 'PaperMe',
     description: 'Herramienta gratuita para generar e imprimir papeles personalizados (rayado, cuadriculado, puntos).',
@@ -412,7 +422,11 @@ export default function Recursos() {
         />
       </div>
 
-      <div className="flex flex-nowrap flex-shrink-0 items-center justify-start lg:justify-center gap-3 mb-[35px] overflow-x-auto py-2 scrollbar-hide w-auto -mx-6 px-6 md:-mx-[60px] md:px-[60px] xl:-mx-16 xl:px-16">
+      <div className={`flex flex-nowrap flex-shrink-0 items-center justify-start lg:justify-center gap-3 mb-[35px] overflow-x-auto py-2 scrollbar-hide w-auto -mx-6 px-6 ${
+        isSidebarPinned 
+          ? 'md:-mx-6 md:px-6 xl:-mx-8 xl:px-8' 
+          : 'md:-mx-[60px] md:px-[60px] xl:-mx-16 xl:px-16'
+      }`}>
         <FilterPill icon={<Grid size={16} fill="currentColor" />} label="Todos" active={filter === 'Todos'} onClick={() => setFilter('Todos')} />
         <FilterPill icon={<Wrench size={16} strokeWidth={2} />} label="Herramientas de Aula" active={filter === 'Herramientas de Aula'} onClick={() => setFilter('Herramientas de Aula')} />
         <FilterPill icon={<FileText size={16} strokeWidth={2} />} label="Fichas y Cuadernillos" active={filter === 'Fichas y Cuadernillos'} onClick={() => setFilter('Fichas y Cuadernillos')} />

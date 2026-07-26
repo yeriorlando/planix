@@ -310,10 +310,10 @@ export default function PlanixChat() {
                   className={`flex gap-3.5 max-w-[85%] ${m.role === 'user' ? 'ml-auto flex-row-reverse' : 'mr-auto'}`}
                 >
                   {/* Avatar */}
-                  <div className={`w-8.5 h-8.5 rounded-full border flex items-center justify-center shrink-0 shadow-3xs overflow-hidden ${
+                  <div className={`w-14 h-14 rounded-full border flex items-center justify-center shrink-0 shadow-3xs overflow-hidden ${
                     m.role === 'user' 
                       ? 'bg-slate-200 dark:bg-slate-800 border-slate-300/40 text-slate-700 dark:text-slate-200' 
-                      : 'bg-white dark:bg-slate-900 border-black/5 p-1'
+                      : 'bg-white dark:bg-slate-900 border-slate-200/50 p-0'
                   }`}>
                     {m.role === 'user' ? (
                       <img 
@@ -322,16 +322,20 @@ export default function PlanixChat() {
                         className="w-full h-full object-cover" 
                       />
                     ) : (
-                      <img src="/logo planix.webp" alt="Planix" className="w-full h-full object-contain scale-110" />
+                      <img 
+                        src="/Bajo la lluvia/Fase 1.webp" 
+                        alt="Planix" 
+                        className="w-full h-full object-cover scale-[0.95] origin-[50%_25%] rounded-full" 
+                      />
                     )}
                   </div>
 
                   {/* Message Bubble Container */}
                   <div className="flex flex-col gap-1.5">
                     {/* Message Bubble */}
-                    <div className={`p-4 rounded-[20px] shadow-3xs leading-relaxed border ${
+                    <div className={`p-3.5 px-4.5 rounded-[22px] shadow-3xs leading-relaxed border ${
                       m.role === 'user'
-                        ? 'bg-[#0046AB] border-indigo-650/10 text-white rounded-tr-none font-bold'
+                        ? 'bg-[#0046AB] border-indigo-600/10 text-white rounded-tr-none font-semibold'
                         : 'bg-white dark:bg-slate-900 border-black/5 text-slate-800 dark:text-slate-200 rounded-tl-none font-medium'
                     }`}>
                       <div className="text-[13px] md:text-[13.5px] space-y-1">
@@ -367,11 +371,15 @@ export default function PlanixChat() {
 
               {isGenerating && (
                 <div className="flex gap-3.5 max-w-[80%] mr-auto items-center animate-pulse">
-                  <div className="w-8.5 h-8.5 rounded-full bg-white dark:bg-slate-900 border border-black/5 p-1 flex items-center justify-center shrink-0 shadow-3xs">
-                    <img src="/logo planix.webp" alt="Kali" className="w-full h-full object-contain scale-110" />
+                  <div className="w-14 h-14 rounded-full bg-white dark:bg-slate-900 border border-slate-200/50 p-0 flex items-center justify-center shrink-0 shadow-3xs overflow-hidden">
+                    <img 
+                      src="/Bajo la lluvia/Fase 1.webp" 
+                      alt="Planix Chat" 
+                      className="w-full h-full object-cover scale-[0.95] origin-[50%_25%] rounded-full" 
+                    />
                   </div>
                   <div className="p-4 bg-white dark:bg-slate-900 border border-black/5 text-slate-500 dark:text-slate-400 rounded-[20px] rounded-tl-none flex items-center gap-2">
-                    <span className="text-[13px] font-bold">Kali está pensando...</span>
+                    <span className="text-[13px] font-bold">Planix Chat está pensando...</span>
                     <div className="flex gap-1">
                       <span className="w-1.5 h-1.5 bg-brand-primary rounded-full animate-bounce delay-100" />
                       <span className="w-1.5 h-1.5 bg-brand-primary rounded-full animate-bounce delay-200" />
@@ -392,7 +400,7 @@ export default function PlanixChat() {
             {isPro ? (
               <span className="text-[10px] md:text-xs bg-emerald-50 text-emerald-600 dark:bg-emerald-950/20 dark:text-emerald-400 px-3 py-1 rounded-full font-bold flex items-center gap-1.5 border border-emerald-500/10">
                 <Crown className="w-3.5 h-3.5 text-amber-500" />
-                Acceso ilimitado a Kali con tu plan PRO
+                Acceso ilimitado a Planix Chat con tu plan PRO
               </span>
             ) : (
               <div className="flex items-center gap-2 text-[10px] md:text-xs font-bold">

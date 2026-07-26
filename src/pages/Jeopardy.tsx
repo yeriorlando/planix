@@ -423,7 +423,7 @@ export default function Jeopardy() {
     <div ref={containerRef} className="w-full plx-fullscreen-bg flex flex-col items-stretch">
       <style>{`
         .plx-fullscreen-bg:fullscreen {
-          background-color: #f8fafc !important;
+          background-color: #FBF9F6 !important;
           padding: 2rem !important;
           overflow-y: auto;
           width: 100vw;

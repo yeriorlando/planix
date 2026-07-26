@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Home, Calendar, BookOpen, Grid, FolderOpen, MessageSquare, Settings, Bell, Users, UserCheck, LogOut, Sparkles, Bot, MessageCircle, Crown, Coins, Gamepad2, Eye, ClipboardList, LayoutGrid, SquarePen, GraduationCap, FileSignature, FileBarChart, BarChart } from 'lucide-react';
+import { Home, Calendar, BookOpen, Grid, FolderOpen, MessageSquare, Settings, Bell, Users, UserCheck, LogOut, Sparkles, Bot, MessageCircle, Crown, Coins, Gamepad2, Eye, ClipboardList, LayoutGrid, SquarePen, GraduationCap, FileSignature, FileBarChart, BarChart, Layers } from 'lucide-react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { getCurrentUser, logout } from '../lib/storage';
 import { showSuccessToast } from '../lib/utils/toastHelper';
@@ -50,6 +50,7 @@ export default function Sidebar({
         { to: "/aula-virtual", label: "Aula Virtual", icon: <Users size={18} strokeWidth={1.8} /> },
         { to: "/calendario", label: "Calendario", icon: <Calendar size={18} strokeWidth={1.8} /> },
         { to: "/planificaciones", label: "Planificaciones", icon: <BookOpen size={18} strokeWidth={1.8} /> },
+        { to: "/talleres", label: "Mis Talleres", icon: <Layers size={18} strokeWidth={1.8} /> },
         { to: "/herramientas", label: "Herramientas", icon: <Grid size={18} strokeWidth={1.8} /> },
         { to: "/dinamicas", label: "Dinámicas", icon: <Gamepad2 size={18} strokeWidth={1.8} /> },
         { to: "/recursos", label: "Recursos", icon: <FolderOpen size={18} strokeWidth={1.8} /> },
