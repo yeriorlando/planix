@@ -581,6 +581,76 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
     }
 
     // ==========================================
+    // 5b. TEACHER EVENTS ENDPOINTS
+    // ==========================================
+    if (path.startsWith("/api/events")) {
+      const eventId = parts[2];
+
+      if (method === "GET") {
+        if (eventId) {
+          const { data, error } = await supabase
+            .from("teacher_events")
+            .select("*")
+            .eq("id", eventId)
+            .single();
+
+          if (error) return jsonResponse(null);
+          return jsonResponse(data);
+        }
+
+        const teacherId = query.teacher_id;
+        if (!teacherId) {
+          return jsonResponse({ error: "teacher_id parameter is required" }, 400);
+        }
+
+        const { data, error } = await supabase
+          .from("teacher_events")
+          .select("*")
+          .eq("teacher_id", teacherId)
+          .order("date", { ascending: true });
+
+        if (error) throw error;
+        return jsonResponse(data || []);
+      }
+
+      if (method === "POST") {
+        if (!body || !body.id) {
+          return jsonResponse({ error: "Missing event ID" }, 400);
+        }
+
+        const eventRow = {
+          id: body.id,
+          teacher_id: body.teacher_id,
+          title: body.title,
+          date: body.date,
+          time: body.time || null,
+          type: body.type || null,
+          duration: body.duration || null,
+          color: body.color || null,
+          created_at: body.created_at || new Date().toISOString(),
+          updated_at: new Date().toISOString()
+        };
+
+        const { error } = await supabase
+          .from("teacher_events")
+          .upsert(eventRow);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+
+      if (method === "DELETE" && eventId) {
+        const { error } = await supabase
+          .from("teacher_events")
+          .delete()
+          .eq("id", eventId);
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+    }
+
+    // ==========================================
     // 5. ATTENDANCE ENDPOINTS
     // ==========================================
     if (path.startsWith("/api/attendance")) {

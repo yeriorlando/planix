@@ -2205,7 +2205,7 @@ En total el examen debe tener EXACTAMENTE ${numQuestions} preguntas.`;
     .map(([type, count]) => `- ${count} preguntas de tipo "${type}"`)
     .join('\n');
 
-  const systemPrompt = `Eres un creador de exámenes experto y un docente veterano.`;
+  const systemPrompt = `Eres un creador de exámenes experto y un docente veterano. Crea siempre enunciados y preguntas 100% originales, creativos e inéditos. No copies preguntas de guías oficiales o exámenes reales del MINERD para evitar disparar filtros de derechos de autor (recitation filters) de la IA.`;
   const userPrompt = `
 Actúa como un Especialista en Evaluación Educativa del MINERD de República Dominicana.
 ${contextStr}
