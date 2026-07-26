@@ -88,7 +88,7 @@ export const OFFICIAL_DEFAULT_SUBJECTS: Subject[] = [
     curriculum_type: 'ADECUACION_OFICIAL',
     sequences: 4,
     color: '#0EA5E9',
-    icon: '🗣️'
+    icon: '🇬🇧'
   },
 
   // --- SECUNDARIA ---
@@ -145,7 +145,7 @@ export const OFFICIAL_DEFAULT_SUBJECTS: Subject[] = [
     curriculum_type: 'ADECUACION_OFICIAL',
     sequences: 4,
     color: '#0EA5E9',
-    icon: '🗣️'
+    icon: '🇬🇧'
   },
   {
     id: 'educacion-artistica-sec',

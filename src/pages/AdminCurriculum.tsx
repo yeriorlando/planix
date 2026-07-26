@@ -131,6 +131,7 @@ const LOCAL_SEQUENCES: Record<string, any> = {
 
 const getSubjectIcon = (subjectId: string): string => {
   const normalizedId = subjectId.toLowerCase().replace(/^(primaria|secundaria|inicial)-/, '');
+  if (normalizedId.startsWith('ingles')) return '🗣️';
   if (normalizedId.startsWith('lengua')) return '📓';
   if (normalizedId.startsWith('matematica')) return '🔢';
   if (normalizedId.startsWith('sociales')) return '🌍';
@@ -167,7 +168,8 @@ const UNIT_SUBJECTS = [
   { id: 'naturales', name: 'Ciencias de la Naturaleza' },
   { id: 'formacion-humana', name: 'Formación Humana' },
   { id: 'educacion-fisica', name: 'Educación Física' },
-  { id: 'educacion-artistica', name: 'Educación Artística' }
+  { id: 'educacion-artistica', name: 'Educación Artística' },
+  { id: 'ingles', name: 'Lenguas Extranjeras (Inglés)' }
 ];
 
 const UNIT_GRADES = [
@@ -2205,6 +2207,11 @@ export default function AdminCurriculum() {
                                 type="button"
                                 onClick={() => {
                                   setSelectedUnitSubject(subject.id);
+                                  if (subject.id === 'ingles') {
+                                    if (selectedUnitGrade !== '4to' && selectedUnitGrade !== '5to' && selectedUnitGrade !== '6to') {
+                                      setSelectedUnitGrade('4to');
+                                    }
+                                  }
                                   setSelectedUnitId('');
                                   setSelectedThemeId('');
                                   setShowUnitSubjectDropdown(false);
@@ -2247,7 +2254,9 @@ export default function AdminCurriculum() {
                       <div className="fixed inset-0 z-45" onClick={() => setShowUnitGradeDropdown(false)} />
                       <div className="absolute left-0 top-full mt-1.5 w-full bg-white dark:bg-zinc-900 rounded-2xl border border-black/5 dark:border-zinc-800 shadow-xl p-1.5 z-50 animate-in fade-in slide-in-from-top-1 duration-75">
                         <div className="space-y-0.5">
-                          {UNIT_GRADES.map(grade => {
+                          {(selectedUnitSubject === 'ingles' 
+                            ? UNIT_GRADES.filter(g => g.id === '4to' || g.id === '5to' || g.id === '6to') 
+                            : UNIT_GRADES).map(grade => {
                             const isSelected = grade.id === selectedUnitGrade;
                             return (
                               <button

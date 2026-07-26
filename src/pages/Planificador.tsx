@@ -92,6 +92,8 @@ import compiled2ndCycleSequences from '../lib/data/sequences/primaria/compiled_2
 
 import CienciasSocialesDiaria4to from '../components/forms/Primaria/Cuarto Grado/Ciencias Sociales/CienciasSocialesDiaria';
 import CienciasSocialesUnidad4to from '../components/forms/Primaria/Cuarto Grado/Ciencias Sociales/CienciasSocialesUnidad';
+import InglesDiaria4to from '../components/forms/Primaria/Cuarto Grado/Ingles/InglesDiaria';
+import InglesUnidad4to from '../components/forms/Primaria/Cuarto Grado/Ingles/InglesUnidad';
 import CienciasNaturalesDiaria4to from '../components/forms/Primaria/Cuarto Grado/Ciencias Naturales/CienciasNaturalesDiaria';
 import CienciasNaturalesUnidad4to from '../components/forms/Primaria/Cuarto Grado/Ciencias Naturales/CienciasNaturalesUnidad';
 import EducacionArtisticaDiaria4to from '../components/forms/Primaria/Cuarto Grado/Educación Artistica/EducacionArtisticaDiaria';
@@ -104,6 +106,8 @@ import EducacionFisicaUnidad4to from '../components/forms/Primaria/Cuarto Grado/
 // 5to Grado Forms
 import CienciasSocialesDiaria5to from '../components/forms/Primaria/Quinto Grado/Ciencias Sociales/CienciasSocialesDiaria';
 import CienciasSocialesUnidad5to from '../components/forms/Primaria/Quinto Grado/Ciencias Sociales/CienciasSocialesUnidad';
+import InglesDiaria5to from '../components/forms/Primaria/Quinto Grado/Ingles/InglesDiaria';
+import InglesUnidad5to from '../components/forms/Primaria/Quinto Grado/Ingles/InglesUnidad';
 import CienciasNaturalesDiaria5to from '../components/forms/Primaria/Quinto Grado/Ciencias Naturales/CienciasNaturalesDiaria';
 import CienciasNaturalesUnidad5to from '../components/forms/Primaria/Quinto Grado/Ciencias Naturales/CienciasNaturalesUnidad';
 import EducacionArtisticaDiaria5to from '../components/forms/Primaria/Quinto Grado/Educación Artistica/EducacionArtisticaDiaria';
@@ -116,6 +120,8 @@ import EducacionFisicaUnidad5to from '../components/forms/Primaria/Quinto Grado/
 // 6to Grado Forms
 import CienciasSocialesDiaria6to from '../components/forms/Primaria/Sexto Grado/Ciencias Sociales/CienciasSocialesDiaria';
 import CienciasSocialesUnidad6to from '../components/forms/Primaria/Sexto Grado/Ciencias Sociales/CienciasSocialesUnidad';
+import InglesDiaria6to from '../components/forms/Primaria/Sexto Grado/Ingles/InglesDiaria';
+import InglesUnidad6to from '../components/forms/Primaria/Sexto Grado/Ingles/InglesUnidad';
 import CienciasNaturalesDiaria6to from '../components/forms/Primaria/Sexto Grado/Ciencias Naturales/CienciasNaturalesDiaria';
 import CienciasNaturalesUnidad6to from '../components/forms/Primaria/Sexto Grado/Ciencias Naturales/CienciasNaturalesUnidad';
 import EducacionArtisticaDiaria6to from '../components/forms/Primaria/Sexto Grado/Educación Artistica/EducacionArtisticaDiaria';
@@ -1335,6 +1341,7 @@ export default function Planificador() {
     selectedSubject.id === 'educacion-artistica' || 
     selectedSubject.id === 'educacion-fisica' || 
     selectedSubject.id === 'formacion-humana' ||
+    selectedSubject.id === 'ingles' ||
     ((selectedSubject.id === 'matematica' || selectedSubject.id === 'lengua-espanola') && 
      !selectedGrade?.startsWith('primaria-'))
   );
@@ -1479,6 +1486,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
          (selectedGrade === 'primaria-1ro' || selectedGrade === 'primaria-2do' || selectedGrade === 'primaria-3ro') &&
          selectedPlanningType === 'DIARIA') ||
         (selectedSubject.id === 'sociales' && (selectedGrade === 'primaria-1ro' || selectedGrade === 'primaria-2do') && selectedPlanningType === 'DIARIA') ||
+        (selectedSubject.id === 'ingles' && (selectedGrade === 'primaria-4to' || selectedGrade === 'primaria-5to' || selectedGrade === 'primaria-6to')) ||
         (selectedSubject.id === 'sociales' &&
          (selectedGrade === 'primaria-1ro' || selectedGrade === 'primaria-2do' || selectedGrade === 'primaria-3ro') &&
          selectedPlanningType === 'UNIDAD') ||
@@ -3861,6 +3869,221 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
     );
   }
 
+  const isIngles4toFormStep = currentStep === 4 && selectedSubject?.id === 'ingles' && selectedGrade === 'primaria-4to' && selectedPlanningType === 'DIARIA';
+
+  if (isIngles4toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <InglesDiaria4to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:ingles4to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isIngles4toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'ingles' &&
+    (selectedGrade === 'primaria-4to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isIngles4toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <InglesUnidad4to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={(customFieldsData) => {
+              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Inglés'}`;
+              const resolvedIntent = customFieldsData.intencion_pedagogica;
+              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
+              const resolvedMomentos = {
+                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
+                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
+                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
+              };
+              const resolvedTarea = customFieldsData.tarea_hogar;
+              const resolvedEvaluation = customFieldsData.evaluacion;
+
+              const planData: LessonPlan = {
+                id: uid('plan'),
+                docente_id: user.id,
+                titulo: resolvedTitle,
+                tipo: selectedSequenceType,
+                nivel: selectedLevel?.toLowerCase() as any,
+                grado: selectedGrade,
+                asignatura: selectedSubject?.name || 'Asignatura',
+                secuencia_id: selectedSequence?.id,
+                intencion_pedagogica: resolvedIntent,
+                recursos: resolvedResources,
+                momentos: resolvedMomentos,
+                tarea: resolvedTarea,
+                conceptual: customFieldsData.conceptual || '',
+                procedimental: customFieldsData.procedural || '',
+                actitudinal: customFieldsData.attitudinal || '',
+                evaluacion: resolvedEvaluation,
+                creado_en: new Date().toISOString(),
+                customFields: customFieldsData
+              };
+              try {
+                saveLessonPlan(planData);
+                toast.success('¡Planificación de Unidad guardada con éxito!');
+                sessionStorage.removeItem('plx:ingles4to_unidad_draft');
+                navigateToPlanificaciones(1500);
+              } catch (err: any) {
+                if (err.message !== 'Créditos insuficientes') {
+                  toast.error('Error al guardar la planificación');
+                }
+              }
+            }}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:ingles4to_unidad_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
   const isSociales4toFormStep = currentStep === 4 && selectedSubject?.id === 'sociales' && selectedGrade === 'primaria-4to' && selectedPlanningType === 'DIARIA';
 
   if (isSociales4toFormStep) {
@@ -3924,6 +4147,221 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                     onClick={() => {
                       setShowConfirmBackModal(false);
                       sessionStorage.removeItem('plx:sociales4to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isIngles5toFormStep = currentStep === 4 && selectedSubject?.id === 'ingles' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
+
+  if (isIngles5toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <InglesDiaria5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:ingles5to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isIngles5toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'ingles' &&
+    (selectedGrade === 'primaria-5to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isIngles5toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <InglesUnidad5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={(customFieldsData) => {
+              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Inglés'}`;
+              const resolvedIntent = customFieldsData.intencion_pedagogica;
+              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
+              const resolvedMomentos = {
+                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
+                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
+                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
+              };
+              const resolvedTarea = customFieldsData.tarea_hogar;
+              const resolvedEvaluation = customFieldsData.evaluacion;
+
+              const planData: LessonPlan = {
+                id: uid('plan'),
+                docente_id: user.id,
+                titulo: resolvedTitle,
+                tipo: selectedSequenceType,
+                nivel: selectedLevel?.toLowerCase() as any,
+                grado: selectedGrade,
+                asignatura: selectedSubject?.name || 'Asignatura',
+                secuencia_id: selectedSequence?.id,
+                intencion_pedagogica: resolvedIntent,
+                recursos: resolvedResources,
+                momentos: resolvedMomentos,
+                tarea: resolvedTarea,
+                conceptual: customFieldsData.conceptual || '',
+                procedimental: customFieldsData.procedural || '',
+                actitudinal: customFieldsData.attitudinal || '',
+                evaluacion: resolvedEvaluation,
+                creado_en: new Date().toISOString(),
+                customFields: customFieldsData
+              };
+              try {
+                saveLessonPlan(planData);
+                toast.success('¡Planificación de Unidad guardada con éxito!');
+                sessionStorage.removeItem('plx:ingles5to_unidad_draft');
+                navigateToPlanificaciones(1500);
+              } catch (err: any) {
+                if (err.message !== 'Créditos insuficientes') {
+                  toast.error('Error al guardar la planificación');
+                }
+              }
+            }}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:ingles5to_unidad_draft');
                       setCurrentStep(3.5);
                     }}
                     className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
@@ -7841,6 +8279,221 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
   // ============================================
 
   // --- Sociales 6to Diaria ---
+  const isIngles6toFormStep = currentStep === 4 && selectedSubject?.id === 'ingles' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
+
+  if (isIngles6toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <InglesDiaria6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:ingles6to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isIngles6toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'ingles' &&
+    (selectedGrade === 'primaria-6to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isIngles6toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <InglesUnidad6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={(customFieldsData) => {
+              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Inglés'}`;
+              const resolvedIntent = customFieldsData.intencion_pedagogica;
+              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
+              const resolvedMomentos = {
+                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
+                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
+                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
+              };
+              const resolvedTarea = customFieldsData.tarea_hogar;
+              const resolvedEvaluation = customFieldsData.evaluacion;
+
+              const planData: LessonPlan = {
+                id: uid('plan'),
+                docente_id: user.id,
+                titulo: resolvedTitle,
+                tipo: selectedSequenceType,
+                nivel: selectedLevel?.toLowerCase() as any,
+                grado: selectedGrade,
+                asignatura: selectedSubject?.name || 'Asignatura',
+                secuencia_id: selectedSequence?.id,
+                intencion_pedagogica: resolvedIntent,
+                recursos: resolvedResources,
+                momentos: resolvedMomentos,
+                tarea: resolvedTarea,
+                conceptual: customFieldsData.conceptual || '',
+                procedimental: customFieldsData.procedural || '',
+                actitudinal: customFieldsData.attitudinal || '',
+                evaluacion: resolvedEvaluation,
+                creado_en: new Date().toISOString(),
+                customFields: customFieldsData
+              };
+              try {
+                saveLessonPlan(planData);
+                toast.success('¡Planificación de Unidad guardada con éxito!');
+                sessionStorage.removeItem('plx:ingles6to_unidad_draft');
+                navigateToPlanificaciones(1500);
+              } catch (err: any) {
+                if (err.message !== 'Créditos insuficientes') {
+                  toast.error('Error al guardar la planificación');
+                }
+              }
+            }}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:ingles6to_unidad_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
   const isSociales6toFormStep = currentStep === 4 && selectedSubject?.id === 'sociales' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
 
   if (isSociales6toFormStep) {
@@ -9115,7 +9768,11 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                                     className={`${containerCls} select-none`}
                                     style={{ color: themeColor }}
                                   >
-                                    {subject.icon || '📘'}
+                                    {subject.icon === '🇬🇧' ? (
+                                      <img src="https://flagcdn.com/w80/gb.png" className="w-12 h-9 object-cover rounded-md shadow-3xs border border-slate-200/50" alt="Inglés" />
+                                    ) : (
+                                      subject.icon || '📘'
+                                    )}
                                   </div>
                                 );
                               })()}
@@ -9174,11 +9831,22 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                       {(() => {
                         const normalizedGrade = selectedGrade.replace(/^(primaria|secundaria|inicial)-/, '').trim();
+                        let staticUnits = getUnitsBySubjectAndGrade(selectedSubject?.id || '', normalizedGrade);
+
                         const filteredCustom = customUnits
                           .filter(cu => cu.subject_id === selectedSubject?.id && cu.grade_id === normalizedGrade)
                           .map(cu => cu.content);
 
-                        let mergedUnitsList = filteredCustom.filter(u => !u.isDeleted);
+                        const map = new Map<string, any>();
+                        staticUnits.forEach(u => map.set(u.id, u));
+                        filteredCustom.forEach(u => {
+                          if (u.isDeleted) {
+                            map.delete(u.id);
+                          } else {
+                            map.set(u.id, u);
+                          }
+                        });
+                        let mergedUnitsList = Array.from(map.values());
 
                         if (selectedSubject?.id === 'sociales' && normalizedGrade === '2do') {
                           const orderMap: Record<string, number> = {
