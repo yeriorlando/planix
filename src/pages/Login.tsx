@@ -157,7 +157,7 @@ export default function Login() {
             {/* Footer.webp image replacement instead of the old description texts */}
             <div className="relative mb-6 max-w-full flex justify-start">
               <img 
-                src="/Footer.webp" 
+                src="/Footer.webp?v=2" 
                 alt="Planifica. Enseña. Inspira. La plataforma que simplifica tu trabajo y transforma tus clases" 
                 className="w-full max-w-[530px] h-auto object-contain dark:brightness-110" 
               />

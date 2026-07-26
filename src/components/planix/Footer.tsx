@@ -114,7 +114,7 @@ export default function Footer() {
           {/* Banner image replacement */}
           <div className="relative z-10 -mt-8 mb-6 max-w-full px-4 flex justify-center hover:scale-[1.02] transition-transform duration-300">
             <img 
-              src="/Footer.webp" 
+              src="/Footer.webp?v=2" 
               alt="Planifica. Enseña. Inspira. La plataforma que simplifica tu trabajo y transforma tus clases" 
               className="w-full max-w-[650px] h-auto object-contain dark:brightness-110" 
             />
