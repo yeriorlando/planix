@@ -265,11 +265,11 @@ function Layout() {
 
       <div className="w-full flex flex-col xl:flex-row print:block relative z-10">
         <Sidebar className="" isPinned={isSidebarPinned} togglePin={toggleSidebarPin} onHoverChange={setIsSidebarHovered} />
-        <main className={`flex-1 min-w-0 p-4 xl:p-8 bg-bg-base relative transition-all duration-150 ease-out ${
+        <div className={`flex-1 min-w-0 transition-all duration-150 ease-out ${
           isSidebarExpanded ? 'xl:ml-[230px]' : 'xl:ml-[102px]'
         }`}>
           <Outlet context={{ isSidebarPinned: isSidebarExpanded, toggleSidebarPin, theme, toggleTheme }} />
-        </main>
+        </div>
       </div>
       <WhatsAppSupportBubble />
     </div>
