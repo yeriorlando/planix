@@ -228,7 +228,7 @@ function Layout() {
   }
 
   return (
-    <div className="min-h-screen bg-bg-base flex font-sans text-text-main w-full relative selection:bg-black/10 items-start pt-4 pb-[90px] xl:pb-4 xl:py-4 px-4 xl:pr-4 print:p-0 print:bg-white overflow-x-hidden">
+    <div className="min-h-screen w-full bg-bg-base flex font-sans text-text-main relative selection:bg-black/10 items-stretch print:p-0 print:bg-white overflow-x-hidden">
       {/* Background blobs */}
       <div className="absolute top-[-10%] right-[-10%] w-[400px] h-[400px] bg-card-pink/10 dark:bg-card-pink/5 rounded-full blur-[100px] pointer-events-none"></div>
       <div className="absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] bg-card-green/10 dark:bg-card-green/5 rounded-full blur-[120px] pointer-events-none"></div>
@@ -263,9 +263,13 @@ function Layout() {
         <Music className="absolute bottom-[5%] right-[26%] text-neutral-900 dark:text-white" size={55} style={{ transform: "rotate(-8deg)" }} />
       </div>
 
-      <div className="max-w-[1600px] w-full mx-auto flex flex-col xl:flex-row xl:items-start gap-6 xl:gap-0 print:block relative z-10">
+      <div className="w-full flex flex-col xl:flex-row print:block relative z-10">
         <Sidebar className="" isPinned={isSidebarPinned} togglePin={toggleSidebarPin} onHoverChange={setIsSidebarHovered} />
-        <Outlet context={{ isSidebarPinned: isSidebarExpanded, toggleSidebarPin, theme, toggleTheme }} />
+        <main className={`flex-1 min-w-0 p-4 xl:p-8 bg-bg-base relative transition-all duration-150 ease-out ${
+          isSidebarExpanded ? 'xl:ml-[230px]' : 'xl:ml-[102px]'
+        }`}>
+          <Outlet context={{ isSidebarPinned: isSidebarExpanded, toggleSidebarPin, theme, toggleTheme }} />
+        </main>
       </div>
       <WhatsAppSupportBubble />
     </div>

@@ -111,12 +111,12 @@ export default function Sidebar({
 
   return (
     <>
-      {/* Desktop view with sticky wrapper resizing to push/pull content */}
-      <div className={`print:hidden transition-all duration-150 ease-out sticky top-4 flex-shrink-0 hidden xl:block z-30 h-[calc(100vh-32px)] ${
+      {/* Desktop view with fixed wrapper */}
+      <div className={`print:hidden transition-all duration-150 ease-out fixed top-0 left-0 bottom-0 flex-shrink-0 hidden xl:block z-30 ${
         showExpanded ? 'w-[230px]' : 'w-[102px]'
       }`}>
         <aside
-          className={`w-full h-full flex flex-col py-6 bg-[#F5F5F7] dark:bg-slate-900/50 rounded-[32px] border border-black/5 dark:border-white/5 shadow-sm transition-all duration-150 ease-out ${
+          className={`w-full h-full flex flex-col py-6 bg-[#F5F5F7] dark:bg-slate-900/50 border-r border-black/5 dark:border-white/5 transition-all duration-150 ease-out ${
             showExpanded ? 'px-4 overflow-hidden' : 'px-3 items-center overflow-visible'
           } ${className}`}
         >
@@ -198,27 +198,27 @@ export default function Sidebar({
                       <NavLink 
                         key={item.to}
                         to={item.to}
-                        className={`group flex items-center justify-between rounded-2xl text-[13px] transition-all duration-150 ease-out relative outline-none select-none ${
+                        className={`group flex items-center justify-between rounded-xl text-[15px] transition-all duration-150 ease-out relative outline-none select-none ${
                           showExpanded ? 'px-3.5 w-full' : 'px-0 w-[58px] justify-center'
                         } ${
                           isActive 
-                            ? 'bg-brand-primary text-white shadow-md shadow-brand-primary/20 py-2.5 font-medium' 
+                            ? 'bg-brand-primary/10 dark:bg-brand-primary/20 text-brand-primary dark:text-blue-400 py-2.5 font-semibold' 
                             : 'text-[#1B1B1B] dark:text-slate-100 hover:bg-brand-primary/10 py-2.5 font-medium'
                         }`}
                       >
                         <div className="flex items-center min-w-0">
-                          <span className={`shrink-0 transition-colors ${isActive ? 'text-white' : 'text-brand-primary dark:text-blue-400'}`}>
+                          {isActive && showExpanded && (
+                            <span className="absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-6 bg-brand-primary dark:bg-blue-400 rounded-r-full" />
+                          )}
+                          <span className={`shrink-0 transition-colors text-brand-primary dark:text-blue-400`}>
                             {item.icon}
                           </span>
-                          <span className={`truncate transition-all duration-150 ease-out font-medium ${
+                          <span className={`truncate transition-all duration-150 ease-out ${
                             showExpanded ? 'opacity-100 max-w-[150px] ml-3.5' : 'opacity-0 max-w-0 overflow-hidden'
-                          }`}>
+                          } ${isActive ? 'font-semibold' : 'font-medium'}`}>
                             {item.label}
                           </span>
                         </div>
-                        {isActive && showExpanded && (
-                          <span className="w-1.5 h-1.5 bg-white rounded-full shrink-0 ml-2 animate-in fade-in duration-350" />
-                        )}
 
                         {/* Tooltip bubble when sidebar is collapsed */}
                         {!showExpanded && (
@@ -251,27 +251,27 @@ export default function Sidebar({
                       <NavLink 
                         key={item.to}
                         to={item.to}
-                        className={`group flex items-center justify-between rounded-2xl text-[13px] transition-all duration-150 ease-out relative outline-none select-none ${
+                        className={`group flex items-center justify-between rounded-xl text-[15px] transition-all duration-150 ease-out relative outline-none select-none ${
                           showExpanded ? 'px-3.5 w-full' : 'px-0 w-[58px] justify-center'
                         } ${
                           isActive 
-                            ? 'bg-brand-primary text-white shadow-md shadow-brand-primary/20 py-2.5 font-medium' 
+                            ? 'bg-brand-primary/10 dark:bg-brand-primary/20 text-brand-primary dark:text-blue-400 py-2.5 font-semibold' 
                             : 'text-[#1B1B1B] dark:text-slate-100 hover:bg-brand-primary/10 py-2.5 font-medium'
                         }`}
                       >
                         <div className="flex items-center min-w-0">
-                          <span className={`shrink-0 transition-colors ${isActive ? 'text-white' : 'text-brand-primary dark:text-blue-400'}`}>
+                          {isActive && showExpanded && (
+                            <span className="absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-6 bg-brand-primary dark:bg-blue-400 rounded-r-full" />
+                          )}
+                          <span className={`shrink-0 transition-colors text-brand-primary dark:text-blue-400`}>
                             {item.icon}
                           </span>
-                          <span className={`truncate transition-all duration-150 ease-out font-medium ${
+                          <span className={`truncate transition-all duration-150 ease-out ${
                             showExpanded ? 'opacity-100 max-w-[150px] ml-3.5' : 'opacity-0 max-w-0 overflow-hidden'
-                          }`}>
+                          } ${isActive ? 'font-semibold' : 'font-medium'}`}>
                             {item.label}
                           </span>
                         </div>
-                        {isActive && showExpanded && (
-                          <span className="w-1.5 h-1.5 bg-white rounded-full shrink-0 ml-2 animate-in fade-in duration-350" />
-                        )}
 
                         {/* Tooltip bubble when sidebar is collapsed */}
                         {!showExpanded && (
