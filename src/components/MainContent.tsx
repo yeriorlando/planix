@@ -91,7 +91,7 @@ export default function MainContent() {
   }, []);
 
   return (
-    <main className="flex-1 flex flex-col pt-10 xl:pt-[54px] px-6 md:px-[60px] xl:px-16 w-full min-w-0 pb-12 overflow-x-hidden">
+    <main className="flex-1 flex flex-col pt-10 xl:pt-[54px] px-6 md:px-[60px] xl:px-16 w-full min-w-0 pb-12">
       <Toaster position="top-center" richColors />
 
       {/* Greeting Title */}

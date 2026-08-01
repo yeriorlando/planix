@@ -264,7 +264,7 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="min-h-screen bg-bg-base font-sans text-zinc-900 dark:text-zinc-100 overflow-x-hidden relative">
+    <div className="min-h-screen bg-bg-base font-sans text-zinc-900 dark:text-zinc-100 relative">
 
       {/* ══════════════════════════════════════════════════════════════════
           STICKY NAVBAR — Glassmorphism

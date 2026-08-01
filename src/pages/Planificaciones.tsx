@@ -24,7 +24,9 @@ import {
   School,
   Hash,
   Clock,
-  FileText
+  FileText,
+  ChevronLeft,
+  ChevronRight
 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useRequireAuth } from '../lib/useRequireAuth';
@@ -67,6 +69,10 @@ export default function Planificaciones() {
   const [curriculumFilter, setCurriculumFilter] = useState('Todos');
   const [schoolFilter, setSchoolFilter] = useState('Todas');
   const [planToDelete, setPlanToDelete] = useState<LessonPlan | null>(null);
+
+  // Pagination State
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 5;
 
   // Dropdown open/close states
   const [showSubjectDropdown, setShowSubjectDropdown] = useState(false);
@@ -251,6 +257,15 @@ export default function Planificaciones() {
 
     return matchesSearch && matchesSubject && matchesStatus && matchesDesde && matchesHasta && matchesCurriculum && matchesSchool;
   });
+
+  // Reset to page 1 whenever filters or search query change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchQuery, subjectFilter, statusFilter, dateDesde, dateHasta, curriculumFilter, schoolFilter]);
+
+  const totalPages = Math.max(1, Math.ceil(filteredPlans.length / ITEMS_PER_PAGE));
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const paginatedPlans = filteredPlans.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   if (!user) return null;
 
@@ -550,7 +565,13 @@ export default function Planificaciones() {
       {/* Results summary label */}
       <div className="text-left mb-4 px-1 select-none">
         <p className="text-xs font-black text-slate-700 dark:text-zinc-350">
-          {loading ? 'Cargando planificaciones...' : `Mostrando ${filteredPlans.length} de ${plans.length} planificaciones`}
+          {loading ? (
+            'Cargando planificaciones...'
+          ) : filteredPlans.length === 0 ? (
+            'Mostrando 0 de 0 planificaciones'
+          ) : (
+            `Mostrando ${startIndex + 1}–${Math.min(startIndex + ITEMS_PER_PAGE, filteredPlans.length)} de ${filteredPlans.length} planificaciones${plans.length !== filteredPlans.length ? ` (de ${plans.length} en total)` : ''}`
+          )}
         </p>
       </div>
 
@@ -560,7 +581,7 @@ export default function Planificaciones() {
         </div>
       ) : (
         <div className="space-y-4">
-          {filteredPlans.map(plan => {
+          {paginatedPlans.map(plan => {
           const progress = getCompletionPercentage(plan);
           let statusText = 'Borrador';
           let statusColor = 'bg-slate-100 text-slate-700 dark:bg-zinc-800 dark:text-zinc-300';
@@ -750,6 +771,77 @@ export default function Planificaciones() {
             No se encontraron planificaciones escolares creadas. ¡Empieza creando una nueva!
           </div>
         )}
+        </div>
+      )}
+
+      {/* Pagination Bar */}
+      {!loading && filteredPlans.length > 0 && totalPages > 1 && (
+        <div className="mt-8 flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-slate-200 dark:border-zinc-800 select-none">
+          <span className="text-xs font-bold text-slate-500 dark:text-zinc-400">
+            Página <strong className="text-slate-800 dark:text-white font-extrabold">{currentPage}</strong> de <strong className="text-slate-800 dark:text-white font-extrabold">{totalPages}</strong>
+          </span>
+
+          <div className="flex items-center gap-1.5">
+            <button
+              type="button"
+              disabled={currentPage === 1}
+              onClick={() => {
+                setCurrentPage(prev => Math.max(prev - 1, 1));
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              className="inline-flex items-center gap-1 px-3.5 py-2 rounded-xl border border-slate-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 text-slate-700 dark:text-zinc-300 text-xs font-bold shadow-xs hover:bg-slate-50 dark:hover:bg-zinc-800 disabled:opacity-40 disabled:cursor-not-allowed transition cursor-pointer"
+            >
+              <ChevronLeft size={15} /> Anterior
+            </button>
+
+            {/* Page Number Buttons */}
+            <div className="flex items-center gap-1">
+              {Array.from({ length: totalPages }, (_, i) => i + 1)
+                .filter(page => {
+                  if (totalPages <= 7) return true;
+                  if (page === 1 || page === totalPages) return true;
+                  return Math.abs(page - currentPage) <= 1;
+                })
+                .map((page, idx, array) => {
+                  const prevPage = array[idx - 1];
+                  const showEllipsis = prevPage && page - prevPage > 1;
+
+                  return (
+                    <React.Fragment key={page}>
+                      {showEllipsis && (
+                        <span className="px-1 text-slate-400 text-xs font-bold">...</span>
+                      )}
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setCurrentPage(page);
+                          window.scrollTo({ top: 0, behavior: 'smooth' });
+                        }}
+                        className={`min-w-[34px] h-9 px-2 rounded-xl text-xs font-bold transition cursor-pointer flex items-center justify-center ${
+                          currentPage === page
+                            ? 'bg-brand-primary text-white font-black shadow-xs'
+                            : 'bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-800 text-slate-700 dark:text-zinc-300 hover:bg-slate-50 dark:hover:bg-zinc-800'
+                        }`}
+                      >
+                        {page}
+                      </button>
+                    </React.Fragment>
+                  );
+                })}
+            </div>
+
+            <button
+              type="button"
+              disabled={currentPage === totalPages}
+              onClick={() => {
+                setCurrentPage(prev => Math.min(prev + 1, totalPages));
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              className="inline-flex items-center gap-1 px-3.5 py-2 rounded-xl border border-slate-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 text-slate-700 dark:text-zinc-300 text-xs font-bold shadow-xs hover:bg-slate-50 dark:hover:bg-zinc-800 disabled:opacity-40 disabled:cursor-not-allowed transition cursor-pointer"
+            >
+              Siguiente <ChevronRight size={15} />
+            </button>
+          </div>
         </div>
       )}
 

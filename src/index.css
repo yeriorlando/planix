@@ -143,13 +143,17 @@
 
 html {
   background-color: var(--color-bg-base);
+  overflow-x: clip;
+  overflow-y: auto;
 }
 
 body {
   background-color: var(--color-bg-base);
   color: var(--color-text-main);
   font-family: var(--font-sans);
-  overflow-x: hidden;
+  overflow-x: clip;
+  overflow-y: visible;
+  height: auto;
   transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   zoom: 0.9;
 }
@@ -163,6 +167,36 @@ body {
 .scrollbar-hide {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+/* Friendly primary-colored custom scrollbar for Sidebar */
+.sidebar-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.sidebar-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 9999px;
+}
+.sidebar-scrollbar::-webkit-scrollbar-thumb {
+  background: #132c61;
+  border-radius: 9999px;
+  transition: background 0.2s ease;
+}
+.sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #0046ab;
+}
+.dark .sidebar-scrollbar::-webkit-scrollbar-thumb {
+  background: #60a5fa;
+}
+.dark .sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #93c5fd;
+}
+.sidebar-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #132c61 transparent;
+}
+.dark .sidebar-scrollbar {
+  scrollbar-color: #60a5fa transparent;
 }
 
 :root {
@@ -319,4 +353,12 @@ textarea::placeholder {
 }
 .dark .sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
   background: rgba(59, 130, 246, 0.45);
+}
+
+/* Material Symbols Outlined customization */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  font-size: 22px;
+  display: inline-block;
+  vertical-align: middle;
 }

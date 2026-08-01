@@ -167,6 +167,7 @@ export default function Efemerides() {
   const [ephToDelete, setEphToDelete] = useState<string | null>(null);
 
   useEffect(() => {
+    toast.warning("NO DISPONIBLE");
     loadEphemerides();
   }, []);
 

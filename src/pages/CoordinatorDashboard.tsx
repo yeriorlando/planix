@@ -13,6 +13,7 @@ import { mapPlanningFromDb } from '../lib/services/plannings';
 import { toast, Toaster } from 'sonner';
 import { getUserCredits } from '../lib/credits';
 import { DatePicker } from '../components/ui/heroui-date-picker';
+import { HeaderControls } from '../components/layout/HeaderControls';
 
 const GoogleDriveIcon = ({ className = "w-4 h-4" }: { className?: string }) => (
   <img 
@@ -1754,262 +1755,31 @@ export default function CoordinatorDashboard() {
   if (!user) return null;
 
   return (
-    <div className={`flex-1 flex flex-col gap-6 w-full min-w-0 pb-12 overflow-x-hidden pt-0 px-6 transition-all duration-150 ease-out ${isSidebarPinned ? 'md:px-6 xl:px-8' : 'md:px-[60px] xl:px-16'
-      }`}>
+    <div className={`flex-1 flex flex-col gap-6 w-full min-w-0 pb-12 pt-0 px-6 transition-all duration-150 ease-out ${
+      isSidebarPinned ? 'md:px-6 xl:px-8' : 'md:px-[60px] xl:px-16'
+    }`}>
       <Toaster position="top-center" richColors />
 
       {/* INTEGRATED CANVAS HEADER */}
-      <header className="relative w-full z-45 flex items-center justify-between gap-4 -mt-2.5 pb-5 select-none">
-        <div className="relative flex-1 max-w-xs md:max-w-md">
-          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-slate-400" />
-          <input
-            type="text"
-            placeholder="Buscar docente, planificación, estudiante, evidencia..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-11 pr-4 py-2.5 text-xs md:text-sm font-semibold text-slate-750 dark:text-slate-200 bg-white dark:bg-slate-900 border border-black/5 dark:border-white/10 rounded-xl focus:outline-none focus:border-black/15 dark:focus:border-white/20 transition-all placeholder:text-slate-400 shadow-xs"
-          />
-        </div>
-
-        {/* Quick Actions */}
-        <div className="flex items-center gap-3.5 md:gap-4.5">
-          {/* Theme Toggle Button */}
-          <button
-            onClick={toggleTheme}
-            className="relative w-10 h-10 rounded-xl border border-black/5 dark:border-white/10 bg-white dark:bg-slate-900 text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-slate-850 flex items-center justify-center transition-all duration-200 shadow-xs cursor-pointer overflow-hidden group"
-            title={theme === 'light' ? "Cambiar a Modo Oscuro" : "Cambiar a Modo Claro"}
-          >
-            {theme === 'light' ? (
-              <div className="relative transform transition-transform duration-300 group-hover:scale-110 rotate-0">
-                <Sun className="w-5 h-5 text-amber-500 fill-amber-500/20" />
-              </div>
-            ) : (
-              <div className="relative transform transition-transform duration-300 group-hover:scale-110 rotate-90">
-                <Moon className="w-5 h-5 text-brand-primary fill-brand-primary/20" />
-              </div>
-            )}
-          </button>
-
-          {/* Interactive Notifications Dropdown */}
-          <div className="relative">
-            <button
-              onClick={() => setShowNotificationDropdown(!showNotificationDropdown)}
-              className="relative w-10 h-10 rounded-xl border border-black/5 dark:border-white/10 bg-white dark:bg-slate-900 text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-slate-850 flex items-center justify-center transition-colors shadow-xs cursor-pointer"
-              title="Notificaciones"
-            >
-              <Bell size={18} />
-              {unreadCount > 0 && (
-                <span className="absolute top-2 right-2 w-2.5 h-2.5 bg-red-500 rounded-full border-2 border-white dark:border-slate-900 flex items-center justify-center">
-                  <span className="absolute inset-0 rounded-full bg-red-500 animate-ping opacity-75"></span>
-                </span>
-              )}
-            </button>
-
-            {showNotificationDropdown && (
-              <>
-                <div className="fixed inset-0 z-40" onClick={() => setShowNotificationDropdown(false)} />
-                <div className="absolute right-0 mt-2.5 w-72 bg-white dark:bg-slate-900 rounded-2xl border border-black/5 dark:border-white/10 shadow-lg p-3.5 z-50 animate-in fade-in slide-in-from-top-2 duration-150 text-left">
-                  <h3 className="text-xs font-black text-slate-800 dark:text-slate-200 uppercase tracking-widest mb-3 flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <span>Notificaciones</span>
-                      {notifications.length > 0 && (
-                        <button
-                          onClick={clearAllNotifications}
-                          className="text-slate-400 hover:text-red-500 transition-colors cursor-pointer p-0.5 rounded-md hover:bg-red-50 dark:hover:bg-red-950/30"
-                          title="Limpiar todas"
-                        >
-                          <Trash2 size={12} />
-                        </button>
-                      )}
-                    </div>
-                    {unreadCount > 0 && (
-                      <span className="text-[10px] font-bold text-brand-primary bg-brand-primary/5 dark:bg-brand-primary/20 dark:text-brand-primary px-2 py-0.5 rounded-full normal-case tracking-normal">{unreadCount} {unreadCount === 1 ? 'Nueva' : 'Nuevas'}</span>
-                    )}
-                  </h3>
-
-                  {notifications.length === 0 ? (
-                    <div className="text-center py-6">
-                      <Bell size={24} className="mx-auto text-slate-300 dark:text-slate-600 mb-2" />
-                      <p className="text-[11px] text-slate-400 dark:text-slate-500 font-medium">No hay notificaciones</p>
-                    </div>
-                  ) : (
-                    <div className="space-y-1 max-h-60 overflow-y-auto scrollbar-hide">
-                      {notifications.map((notif) => (
-                        <div
-                          key={notif.id}
-                          onClick={() => markAsRead(notif.id)}
-                          className={`flex gap-2.5 p-2 rounded-xl transition-colors cursor-pointer relative group/notif text-left ${notif.read ? 'hover:bg-slate-50 dark:hover:bg-slate-800/50' : 'bg-brand-primary/5 dark:bg-brand-primary/10 hover:bg-brand-primary/10 dark:hover:bg-brand-primary/20'
-                            }`}
-                        >
-                          {!notif.read && (
-                            <span className="absolute top-4 left-0.5 w-1.5 h-1.5 bg-brand-primary rounded-full" />
-                          )}
-                          <div className="flex-1 min-w-0 pl-2 pr-6">
-                            <div className="flex items-center justify-between gap-2">
-                              <span className={`text-xs font-black truncate ${notif.read ? 'text-slate-500 dark:text-slate-400' : 'text-slate-800 dark:text-white'}`}>{notif.title}</span>
-                              <span className="text-[9px] text-slate-400 dark:text-slate-500 shrink-0">{notif.time}</span>
-                            </div>
-                            <p className="text-[10px] text-slate-500 dark:text-slate-400 line-clamp-2 mt-0.5 font-medium leading-relaxed">
-                              {notif.body}
-                            </p>
-                          </div>
-                          <button
-                            onClick={(e) => deleteNotification(notif.id, e)}
-                            className="absolute right-2 top-1/2 -translate-y-1/2 opacity-0 group-hover/notif:opacity-100 p-1 text-slate-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-950/30 rounded-lg transition-all z-10"
-                            title="Eliminar notificación"
-                          >
-                            <X size={12} />
-                          </button>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-
-                  <div className="h-px bg-slate-100 dark:bg-white/5 my-2.5" />
-
-                  <a
-                    href="https://chat.whatsapp.com/CTxnZvEz6Qr2I2piuSNSDO"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() => setShowNotificationDropdown(false)}
-                    className="w-full py-2.5 bg-brand-primary/5 dark:bg-brand-primary/10 hover:bg-brand-primary/10 dark:hover:bg-brand-primary/20 text-xs font-black text-brand-primary rounded-xl transition-all border border-brand-primary/10 dark:border-brand-primary/20 cursor-pointer flex items-center justify-center gap-1.5 shadow-sm"
-                  >
-                    <MessageSquare size={13} className="text-brand-primary dark:text-brand-primary" />
-                    <span>Unirse a Soporte WhatsApp</span>
-                  </a>
-                </div>
-              </>
-            )}
-          </div>
-
-
-
-          {/* Credits indicator */}
-          <div className="flex items-center select-none mr-2">
-            {user?.suscripcion === "pro" || user?.rol === "admin" ? (
-              <div className="flex items-center gap-1.5 px-3 py-1 bg-gradient-to-r from-amber-500/10 via-yellow-500/5 to-amber-600/12 dark:from-amber-500/20 dark:to-amber-600/20 border border-amber-500/25 dark:border-amber-500/40 rounded-full shadow-[0_2px_12px_rgba(245,158,11,0.08)]">
-                <Crown className="h-3.5 w-3.5 text-amber-600 dark:text-amber-450 fill-amber-500/20 stroke-[2.5]" />
-                <span className="text-xs md:text-[13px] font-black text-amber-850 dark:text-amber-400 tracking-tight">
-                  Planix Pro
-                </span>
-              </div>
-            ) : (
-              <div className="flex items-center gap-1">
-                <img 
-                  src="/creditos.webp" 
-                  alt="Créditos" 
-                  className="w-8 h-8 object-contain shrink-0" 
-                  onError={(e) => {
-                    (e.target as HTMLElement).style.display = 'none';
-                  }}
-                />
-                <span className="text-xs md:text-sm font-black text-slate-800 dark:text-zinc-200">
-                  {getUserCredits(user)} PC
-                </span>
-              </div>
-            )}
-          </div>
-
-          <div className="h-8 w-px bg-slate-200 dark:bg-zinc-700 mr-2" />
-
-          {/* Profile Menu Pill */}
-          <div className="relative">
-            <div
-              onClick={() => setShowProfileDropdown(!showProfileDropdown)}
-              className="flex items-center gap-3 p-1.5 bg-white dark:bg-zinc-900 hover:bg-slate-50 dark:hover:bg-zinc-800 rounded-full border border-black/5 dark:border-white/10 shadow-xs cursor-pointer select-none transition-colors pr-4"
-            >
-              <div className={`w-10 h-10 rounded-full flex-shrink-0 bg-slate-100 relative ${
-                user?.suscripcion === "pro"
-                  ? "p-[1.5px] bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 shadow-[0_0_8px_rgba(245,158,11,0.35)]"
-                  : "border border-black/5"
-              }`}>
-                <img
-                  src={user?.avatar_url || "https://randomuser.me/api/portraits/women/47.jpg"}
-                  alt="Profile"
-                  className="w-full h-full object-cover rounded-full"
-                />
-                {user?.suscripcion === "pro" && (
-                  <div className="absolute -bottom-0.5 -right-0.5 bg-gradient-to-tr from-amber-400 to-amber-600 text-white p-0.5 rounded-full border border-white dark:border-slate-900 shadow-xs scale-85">
-                    <Crown className="h-2 w-2 fill-white text-white" />
-                  </div>
-                )}
-              </div>
-              <div className="hidden md:flex flex-col text-left">
-                <span className="text-xs md:text-[13px] font-black text-slate-800 dark:text-zinc-100 leading-tight">{user?.nombre || "Coordinador"}</span>
-                <span className="text-[9px] font-black text-brand-primary dark:text-brand-primary uppercase tracking-widest leading-none mt-0.5">
-                  COORDINADOR
-                </span>
-              </div>
-              <ChevronRight className={`w-4 h-4 text-slate-400 transition-transform ${showProfileDropdown ? 'rotate-90' : ''}`} />
-            </div>
-
-            {/* Dropdown Menu */}
-            {showProfileDropdown && (
-              <>
-                <div className="fixed inset-0 z-40" onClick={() => setShowProfileDropdown(false)} />
-                <div className="absolute right-0 mt-2.5 w-52 bg-white dark:bg-zinc-900 rounded-2xl border border-black/5 dark:border-white/10 shadow-lg p-2 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
-                  <button
-                    onClick={() => {
-                      setShowProfileDropdown(false);
-                      navigate("/perfil");
-                    }}
-                    className="w-full flex items-center gap-3 px-3 py-2 rounded-xl text-left text-xs font-bold text-slate-600 dark:text-zinc-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-zinc-800 transition-colors cursor-pointer"
-                  >
-                    <Users size={14} className="text-slate-400" />
-                    <span>Mi Perfil</span>
-                  </button>
-
-                  <button
-                    onClick={() => {
-                      setShowProfileDropdown(false);
-                      toast.info("Cargando guías y ayuda de coordinación pedagógica...");
-                    }}
-                    className="w-full flex items-center gap-3 px-3 py-2 rounded-xl text-left text-xs font-bold text-slate-600 dark:text-zinc-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-zinc-800 transition-colors cursor-pointer"
-                  >
-                    <BookOpen size={14} className="text-slate-400" />
-                    <span>Guías y Ayuda</span>
-                  </button>
-
-                  <a
-                    href="https://chat.whatsapp.com/CTxnZvEz6Qr2I2piuSNSDO"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() => setShowProfileDropdown(false)}
-                    className="w-full flex items-center gap-3 px-3 py-2 rounded-xl text-left text-xs font-bold text-slate-600 dark:text-zinc-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-zinc-800 transition-colors cursor-pointer"
-                  >
-                    <Users size={14} className="text-slate-400" />
-                    <span>Planix Comunidad</span>
-                  </a>
-
-                  <button
-                    onClick={() => {
-                      setShowProfileDropdown(false);
-                      toast.info("No hay novedades registradas hoy.");
-                    }}
-                    className="w-full flex items-center gap-3 px-3 py-2 rounded-xl text-left text-xs font-bold text-slate-600 dark:text-zinc-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-zinc-800 transition-colors cursor-pointer"
-                  >
-                    <FileText size={14} className="text-slate-400" />
-                    <span>Blog y Novedades</span>
-                  </button>
-
-                  <div className="h-px bg-slate-100 dark:bg-zinc-800 my-1" />
-
-                  <button
-                    onClick={() => {
-                      setShowProfileDropdown(false);
-                      handleLogout();
-                    }}
-                    className="w-full flex items-center gap-3 px-3 py-2 rounded-xl text-left text-xs font-bold text-red-500 hover:bg-red-50 dark:hover:bg-red-950/20 transition-colors cursor-pointer"
-                  >
-                    <LogOut size={14} />
-                    <span>Cerrar Sesión</span>
-                  </button>
-                </div>
-              </>
-            )}
-          </div>
-        </div>
-      </header>
+      <HeaderControls
+        searchQuery={searchQuery}
+        setSearchQuery={setSearchQuery}
+        searchPlaceholder="Buscar docente, planificación, estudiante, evidencia..."
+        theme={theme}
+        toggleTheme={toggleTheme}
+        unreadCount={unreadCount}
+        notifications={notifications}
+        showNotificationDropdown={showNotificationDropdown}
+        setShowNotificationDropdown={setShowNotificationDropdown}
+        clearAllNotifications={clearAllNotifications}
+        markAsRead={markAsRead}
+        deleteNotification={deleteNotification}
+        user={user}
+        showProfileDropdown={showProfileDropdown}
+        setShowProfileDropdown={setShowProfileDropdown}
+        handleLogout={handleLogout}
+        onOpenHelp={() => toast.info("Cargando guías y ayuda de coordinación pedagógica...")}
+      />
 
       {loading ? (
         <div className="flex-1 flex items-center justify-center min-h-[60vh] py-20">
