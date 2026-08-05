@@ -244,41 +244,6 @@ export default function MainContent() {
             <span>💡 Sin materiales complejos</span>
           </div>
         </div>
-      </div>
-
-      {/* Curricular resources bank */}
-      <h3 className="text-[#848484] text-[12px] font-bold pb-4 tracking-wider uppercase">Recursos Curriculares MINERD</h3>
-      <div className="grid md:grid-cols-2 gap-4">
-        {CURRICULAR_RESOURCES.map((res) => (
-          <div 
-            key={res.id} 
-            className="bg-white border border-black/5 rounded-[24px] p-6 shadow-sm flex items-center justify-between hover:shadow-md transition-shadow"
-          >
-            <div className="flex items-center gap-4">
-              <div className="p-3 bg-bg-base rounded-[16px] border border-black/5 text-[#1B1B1B]">
-                <FileText size={20} />
-              </div>
-              <div>
-                <h4 className="font-bold text-[14px] text-text-main line-clamp-1">{res.name}</h4>
-                <div className="flex gap-2 items-center text-[11px] text-text-muted font-bold mt-1">
-                  <span>{res.type}</span>
-                  <span>•</span>
-                  <span>{res.size}</span>
-                </div>
-              </div>
-            </div>
-            
-            <button
-              onClick={() => handleDownloadResource(res.name)}
-              className="p-2.5 bg-bg-base hover:bg-black/5 border border-black/5 rounded-full text-text-main transition-colors cursor-pointer"
-              title="Descargar recurso"
-            >
-              <Download size={14} />
-            </button>
-          </div>
-        ))}
-      </div>
-
-    </main>
+      </div>    </main>
   );
 }

@@ -40,6 +40,7 @@ import {
 } from '../lib/storage';
 import { toast } from 'sonner';
 import { requestD1 } from '../lib/services/d1Client';
+import { logActivity } from '../lib/activityLog';
 import AmbassadorBadge from '../components/ui/AmbassadorBadge';
 import MedalStar from '../components/ui/MedalStar';
 
@@ -269,6 +270,17 @@ export default function Comunidad() {
 
   const [activeTab, setActiveTab] = useState<'para-ti' | 'marcadores'>('para-ti');
   const [showEmojiPicker, setShowEmojiPicker] = useState(false);
+
+  useEffect(() => {
+    const userObj = getCurrentUser();
+    const userName = userObj?.nombre || userObj?.email || 'Docente';
+    void logActivity({
+      kind: 'tool',
+      userName,
+      title: 'Comunidad Docente',
+      detail: 'Accedió a la Comunidad Docente',
+    });
+  }, []);
 
   const [posts, setPosts] = useState<CommunityPost[]>(() => {
     try {

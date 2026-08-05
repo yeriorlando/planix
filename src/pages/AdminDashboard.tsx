@@ -25,8 +25,25 @@ import {
   BookOpen,
   Coins,
   FileText,
-  Calendar
+  Calendar,
+  Wrench,
+  Layers,
+  Award,
+  Dices,
+  Grid3X3,
+  Search,
+  FileCheck,
+  Map as MapIcon,
+  HeartHandshake,
+  Globe,
+  Gamepad2,
+  ChevronLeft,
+  ChevronRight,
+  UserPlus,
+  Folder,
+  MessageSquare
 } from 'lucide-react';
+import { getLocalActivities } from '../lib/activityLog';
 import { 
   AreaChart, 
   Area, 
@@ -80,6 +97,60 @@ const DocentesTooltip = ({ active, payload }: any) => {
   return null;
 };
 
+const renderActionIcon = (action: RecentAction) => {
+  const title = (action.title || '').toLowerCase();
+  const kind = action.kind;
+
+  if (kind === 'registration') {
+    return <UserPlus size={16} className="text-emerald-600 dark:text-emerald-400" />;
+  }
+  if (kind === 'workshop') {
+    return <Layers size={16} className="text-purple-600 dark:text-purple-400" />;
+  }
+  if (kind === 'planning') {
+    return <FileText size={16} className="text-amber-600 dark:text-amber-400" />;
+  }
+
+  if (title.includes('examen') || title.includes('exámenes')) {
+    return <FileCheck size={16} className="text-blue-600 dark:text-blue-400" />;
+  }
+  if (title.includes('ruleta')) {
+    return <Dices size={16} className="text-amber-600 dark:text-amber-400" />;
+  }
+  if (title.includes('crucigrama')) {
+    return <Grid3X3 size={16} className="text-purple-600 dark:text-purple-400" />;
+  }
+  if (title.includes('sopa')) {
+    return <Search size={16} className="text-teal-600 dark:text-teal-400" />;
+  }
+  if (title.includes('diploma')) {
+    return <Award size={16} className="text-amber-500 dark:text-amber-400" />;
+  }
+  if (title.includes('grupo')) {
+    return <Users size={16} className="text-emerald-600 dark:text-emerald-400" />;
+  }
+  if (title.includes('recorrido')) {
+    return <MapIcon size={16} className="text-emerald-600 dark:text-emerald-400" />;
+  }
+  if (title.includes('apoyo')) {
+    return <HeartHandshake size={16} className="text-rose-600 dark:text-rose-400" />;
+  }
+  if (title.includes('situacion') || title.includes('situación') || title.includes('aprendizaje')) {
+    return <Globe size={16} className="text-indigo-600 dark:text-indigo-400" />;
+  }
+  if (title.includes('dinámica') || title.includes('dinamica') || title.includes('juego')) {
+    return <Gamepad2 size={16} className="text-pink-600 dark:text-pink-400" />;
+  }
+  if (title.includes('recurso')) {
+    return <Folder size={16} className="text-blue-600 dark:text-blue-400" />;
+  }
+  if (title.includes('comunidad')) {
+    return <MessageSquare size={16} className="text-[#0046ab] dark:text-blue-400" />;
+  }
+
+  return <Wrench size={16} className="text-emerald-600 dark:text-emerald-400" />;
+};
+
 export default function AdminDashboard() {
   const [currentUser, setCurrentUser] = useState<Usuario | null>(() => getCurrentUser());
   const navigate = useNavigate();
@@ -113,8 +184,27 @@ export default function AdminDashboard() {
   const [isDemographicModalOpen, setIsDemographicModalOpen] = useState<boolean>(false);
   const [isMounted, setIsMounted] = useState<boolean>(false);
 
+  const [recentActionsPage, setRecentActionsPage] = useState(0);
+  const [remoteActivities, setRemoteActivities] = useState<any[]>([]);
+
+  const fetchRemoteActivities = async () => {
+    try {
+      const { data, error } = await supabase
+        .from('activity_log')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(100);
+      if (!error && Array.isArray(data)) {
+        setRemoteActivities(data);
+      }
+    } catch (_) {}
+  };
+
   useEffect(() => {
     setIsMounted(true);
+    fetchRemoteActivities();
+    window.addEventListener('plx:activity-updated', fetchRemoteActivities);
+    return () => window.removeEventListener('plx:activity-updated', fetchRemoteActivities);
   }, []);
   
   // Real system states for the platform
@@ -321,6 +411,113 @@ export default function AdminDashboard() {
   const totalPlanningsCount = loadingStats ? '...' : (Array.isArray(plannings) ? plannings.length : 0);
   const totalSchoolsCount = loadingStats ? '...' : uniqueSchools.size;
 
+  const formatEmail = (email?: string) => {
+    if (!email) return 'Correo no disponible';
+    const normalized = email.trim().toLowerCase();
+    return normalized.charAt(0).toUpperCase() + normalized.slice(1);
+  };
+
+  const formatPlanningGrade = (grade?: string) => {
+    const cleanGrade = (grade || '').toLowerCase().trim();
+    const match = cleanGrade.match(/(?:primaria[-_ ]*)?(1ro|2do|3ro|4to|5to|6to|1ero|2do|3ero|4to|5to|6to)/);
+    if (!match) return grade || 'Grado no indicado';
+    const gradeNumber = match[1].replace('ero', 'ro');
+    return `${gradeNumber}. (Primaria)`;
+  };
+
+  const parseDate = (d?: string) => {
+    if (!d) return 0;
+    let str = String(d).trim();
+    if (str.includes(' ') && !str.includes('T')) {
+      str = str.replace(' ', 'T') + 'Z';
+    }
+    const time = new Date(str).getTime();
+    return Number.isNaN(time) ? 0 : time;
+  };
+
+  const recentActions = useMemo(() => {
+    const profileActions = (Array.isArray(profiles) ? profiles : [])
+      .filter((p) => p.created_at || p.creado_en)
+      .sort((a, b) => parseDate(b.created_at || b.creado_en) - parseDate(a.created_at || a.creado_en))
+      .slice(0, 5)
+      .map((profile) => ({
+        id: `user-${profile.id}`,
+        kind: 'registration' as const,
+        name: profile.full_name || profile.nombre || profile.email || 'Usuario sin nombre',
+        date: profile.created_at || profile.creado_en,
+        detail: formatEmail(profile.email) || 'Nuevo docente registrado',
+        title: 'Nuevo usuario registrado',
+      }));
+
+    const planningActions = (Array.isArray(plannings) ? plannings : [])
+      .filter((p) => p.created_at || p.creado_en)
+      .sort((a, b) => parseDate(b.created_at || b.creado_en) - parseDate(a.created_at || a.creado_en))
+      .slice(0, 5)
+      .map((planning) => {
+        const content = typeof planning.content === 'string'
+          ? (() => { try { return JSON.parse(planning.content); } catch { return {}; } })()
+          : (planning.content || {});
+        const formData = content.formData || content;
+        const profile = profiles.find((item) => item.id === planning.user_id);
+        const subject = formData.area || formData.asignatura || content.subject || planning.subject_id || 'Asignatura no indicada';
+        const grade = formatPlanningGrade(formData.grado || formData.grade || planning.grade_id);
+
+        return {
+          id: `planning-${planning.id}`,
+          kind: 'planning' as const,
+          name: profile?.full_name || profile?.nombre || profile?.email || 'Usuario sin nombre',
+          date: planning.created_at || planning.creado_en,
+          detail: `${subject} · ${grade}`,
+          title: planning.title || formData.actividad_titulo || 'Planificación guardada',
+        };
+      });
+
+    const localActs = getLocalActivities().map(act => ({
+      id: `local-${act.id}`,
+      kind: act.kind,
+      name: act.userName || 'Usuario',
+      date: act.date,
+      detail: act.detail || act.title,
+      title: act.title,
+    }));
+
+    const remoteActs = remoteActivities.map((activity) => ({
+      id: `remote-${activity.id}`,
+      kind: activity.kind,
+      name: activity.user_name || activity.full_name || activity.email || 'Docente Planix',
+      date: activity.created_at,
+      detail: activity.detail || activity.title,
+      title: activity.title,
+    }));
+
+    const toolActionsMap = new Map<string, any>();
+    [...localActs, ...remoteActs].forEach(act => {
+      const key = `${act.kind}-${act.title}-${act.detail}`;
+      if (!toolActionsMap.has(key) || parseDate(act.date) > parseDate(toolActionsMap.get(key).date)) {
+        toolActionsMap.set(key, act);
+      }
+    });
+    const toolActions = Array.from(toolActionsMap.values());
+
+    return [...toolActions, ...planningActions, ...profileActions]
+      .filter((action) => action.date && parseDate(action.date) > 0)
+      .sort((a, b) => parseDate(b.date) - parseDate(a.date))
+      .slice(0, 15);
+  }, [profiles, plannings, remoteActivities]);
+
+  const formatActionDate = (date?: string) => {
+    const timestamp = parseDate(date);
+    if (!timestamp) return 'Fecha no disponible';
+    return new Date(timestamp).toLocaleString('es-DO', { dateStyle: 'short', timeStyle: 'short' });
+  };
+
+  const recentActionsPerPage = 5;
+  const recentActionsPageCount = Math.ceil(recentActions.length / recentActionsPerPage);
+  const visibleRecentActions = recentActions.slice(
+    recentActionsPage * recentActionsPerPage,
+    (recentActionsPage + 1) * recentActionsPerPage
+  );
+
   if (!currentUser || currentUser.rol !== 'admin') {
     return (
       <div className="min-h-screen bg-neutral-50 dark:bg-zinc-950 flex items-center justify-center">
@@ -342,7 +539,7 @@ export default function AdminDashboard() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-[#F5F5F7] dark:bg-zinc-950 text-neutral-800 dark:text-zinc-200 flex flex-col p-4 md:p-6 gap-6 relative select-none">
+    <div className="min-h-screen w-full bg-[#F5F5F7] dark:bg-zinc-950 text-neutral-800 dark:text-zinc-200 flex flex-col p-4 md:p-6 gap-6 relative select-text">
       <Toaster position="top-center" richColors />
 
       {/* Top Header Navigation */}
@@ -644,6 +841,85 @@ export default function AdminDashboard() {
             </Card>
 
           </div>
+
+          {/* Recent Activity Log */}
+          <Card className="overflow-hidden border border-black/5 dark:border-zinc-800 rounded-[28px] bg-white dark:bg-zinc-900 shadow-2xs hover:shadow-md transition-all duration-300 select-text">
+            <div className="flex flex-col gap-3 px-6 py-4 sm:flex-row sm:items-center sm:justify-between border-b border-black/5 dark:border-zinc-800">
+              <div className="flex items-center gap-3">
+                <div className="flex h-9 w-9 items-center justify-center rounded-full bg-emerald-500/10 text-emerald-600 dark:bg-emerald-950/40 dark:text-emerald-400">
+                  <Activity size={18} />
+                </div>
+                <div>
+                  <h4 className="text-sm font-extrabold text-[#1B1B1B] dark:text-white">Acciones recientes</h4>
+                  <p className="text-[11px] font-bold text-slate-400 dark:text-zinc-500">Registros, planificaciones y uso de herramientas</p>
+                </div>
+              </div>
+              <span className="self-start rounded-full bg-slate-100 dark:bg-zinc-800 px-3 py-1 text-[10px] font-black uppercase tracking-wider text-slate-600 dark:text-zinc-300 sm:self-auto">
+                {recentActions.length} EVENTOS
+              </span>
+            </div>
+
+            <div className="divide-y divide-black/5 dark:divide-zinc-800">
+              {loadingStats ? (
+                <div className="px-6 py-8 text-center text-xs font-bold text-slate-400">Cargando actividad…</div>
+              ) : recentActions.length === 0 ? (
+                <div className="px-6 py-8 text-center text-xs font-bold text-slate-400">Todavía no hay acciones registradas.</div>
+              ) : visibleRecentActions.map((action) => (
+                <div key={action.id} className="flex items-start gap-3 px-5 py-2.5 transition-colors hover:bg-slate-50/70 dark:hover:bg-zinc-800/40">
+                  <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/70 shadow-2xs dark:bg-black/30">
+                    {renderActionIcon(action)}
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-3">
+                      <p className={`truncate text-[11px] font-extrabold ${
+                        action.kind === 'registration' ? 'text-emerald-700 dark:text-emerald-300' :
+                        action.kind === 'workshop' ? 'text-purple-700 dark:text-purple-300' :
+                        action.kind === 'tool' ? 'text-emerald-700 dark:text-emerald-300' :
+                        'text-amber-700 dark:text-amber-300'
+                      }`}>
+                        {action.kind === 'registration' ? 'Nuevo usuario registrado' : action.kind === 'planning' ? 'Nueva planificación creada' : action.kind === 'workshop' ? 'Nuevo taller creado' : action.title || 'Herramienta utilizada'}
+                      </p>
+                      <time className="shrink-0 text-xs font-black text-brand-primary dark:text-blue-400 bg-blue-50/80 dark:bg-blue-950/40 px-2.5 py-1 rounded-lg border border-blue-100 dark:border-blue-900/40 shadow-3xs">{formatActionDate(action.date)}</time>
+                    </div>
+                    <p className="mt-0.5 truncate text-[12px] font-extrabold text-[#0046ab] dark:text-blue-300">
+                      {action.name}{action.title && action.kind !== 'tool' && action.kind !== 'registration' ? ` · ${action.title}` : ''}
+                    </p>
+                    <p className="mt-0.5 truncate text-[11px] font-bold tracking-wide text-slate-600 dark:text-zinc-300">
+                      {action.detail}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {recentActionsPageCount > 1 && (
+              <div className="flex items-center justify-between border-t border-black/5 px-6 py-3.5 dark:border-zinc-800">
+                <span className="text-xs font-extrabold text-slate-600 dark:text-zinc-300">
+                  Página <span className="text-brand-primary dark:text-blue-400 font-black">{recentActionsPage + 1}</span> de <span className="text-brand-primary dark:text-blue-400 font-black">{recentActionsPageCount}</span>
+                </span>
+                <div className="flex items-center gap-2.5">
+                  <button
+                    type="button"
+                    onClick={() => setRecentActionsPage((prev) => Math.max(0, prev - 1))}
+                    disabled={recentActionsPage === 0}
+                    className="flex items-center gap-1.5 rounded-xl bg-brand-primary text-white hover:bg-brand-primary/90 px-3.5 py-2 text-xs font-extrabold transition-all shadow-sm disabled:cursor-not-allowed disabled:opacity-40 border-none cursor-pointer active:scale-95"
+                  >
+                    <ChevronLeft size={14} className="stroke-[3]" />
+                    <span>Anterior</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setRecentActionsPage((prev) => Math.min(recentActionsPageCount - 1, prev + 1))}
+                    disabled={recentActionsPage >= recentActionsPageCount - 1}
+                    className="flex items-center gap-1.5 rounded-xl bg-brand-primary text-white hover:bg-brand-primary/90 px-3.5 py-2 text-xs font-extrabold transition-all shadow-sm disabled:cursor-not-allowed disabled:opacity-40 border-none cursor-pointer active:scale-95"
+                  >
+                    <span>Siguiente</span>
+                    <ChevronRight size={14} className="stroke-[3]" />
+                  </button>
+                </div>
+              </div>
+            )}
+          </Card>
 
           {/* Infrastructure Health Status */}
           <Card className="p-6 border border-black/5 dark:border-zinc-800 rounded-[32px] bg-white dark:bg-zinc-900 space-y-5">

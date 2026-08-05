@@ -127,6 +127,61 @@ interface UserCardProps {
   isDuplicateFingerprint?: boolean;
 }
 
+export const getUserInitials = (name?: string): string => {
+  if (!name || !name.trim()) return 'U';
+  const cleanName = name.trim().replace(/^(lic\.|profe\.|prof\.|dr\.|dra\.|mstro\.|mstra\.)\s+/i, '');
+  const parts = cleanName.split(/\s+/).filter(Boolean);
+  if (parts.length === 1) {
+    return parts[0].slice(0, 2).toUpperCase();
+  }
+  return (parts[0][0] + parts[1][0]).toUpperCase();
+};
+
+export const getAvatarBgColor = (str: string): string => {
+  const colors = [
+    'bg-[#0046ab] text-white',
+    'bg-indigo-600 text-white',
+    'bg-emerald-600 text-white',
+    'bg-purple-600 text-white',
+    'bg-amber-600 text-white',
+    'bg-teal-600 text-white',
+    'bg-rose-600 text-white',
+    'bg-sky-600 text-white',
+  ];
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  const index = Math.abs(hash) % colors.length;
+  return colors[index];
+};
+
+export const UserAvatar = ({ user, className = "w-12 h-12 text-sm" }: { user: { nombre?: string; full_name?: string; email?: string; avatar_url?: string }; className?: string }) => {
+  const [imgError, setImgError] = useState(false);
+  const name = user.full_name || user.nombre || user.email || 'Docente';
+  const initials = getUserInitials(name);
+  const colorClass = getAvatarBgColor(user.email || name);
+  
+  const isGeneric = !user.avatar_url || user.avatar_url.includes('randomuser.me') || user.avatar_url.includes('ui-avatars.com');
+
+  if (!isGeneric && !imgError) {
+    return (
+      <img 
+        src={user.avatar_url} 
+        alt={name} 
+        className={`${className} rounded-full object-cover shrink-0`} 
+        onError={() => setImgError(true)}
+      />
+    );
+  }
+
+  return (
+    <div className={`${className} rounded-full ${colorClass} flex items-center justify-center font-black tracking-wider shrink-0 shadow-2xs select-none uppercase`}>
+      {initials}
+    </div>
+  );
+};
+
 const UserCard = React.memo(({ user, onSelect, isDuplicateFingerprint }: UserCardProps) => {
   const isPro = user.suscripcion === 'pro';
   const isSuspended = user.estado_suscripcion === 'SUSPENDIDO';
@@ -151,19 +206,12 @@ const UserCard = React.memo(({ user, onSelect, isDuplicateFingerprint }: UserCar
       <div className="space-y-4">
         {/* Avatar y Datos Principales */}
         <div className="flex items-center gap-3">
-          <div className={`w-12 h-12 rounded-full overflow-hidden border bg-slate-50 shrink-0 relative ${
+          <div className={`w-12 h-12 rounded-full overflow-hidden border bg-slate-50 shrink-0 relative flex items-center justify-center ${
             user.is_ambassador || isPro 
               ? 'border-amber-400 dark:border-amber-500 shadow-[0_0_8px_rgba(245,158,11,0.25)]' 
               : 'border-black/5'
           }`}>
-            <img 
-              src={user.avatar_url || "https://randomuser.me/api/portraits/women/47.jpg"} 
-              alt="Docente" 
-              className="w-full h-full object-cover" 
-              onError={(e) => {
-                (e.target as HTMLImageElement).src = "https://randomuser.me/api/portraits/women/47.jpg";
-              }}
-            />
+            <UserAvatar user={user} className="w-full h-full text-sm font-black" />
           </div>
           <div className="min-w-0 flex-1 pr-6">
             <div className="flex items-center gap-1.5">
@@ -1304,22 +1352,9 @@ export default function AdminUsuarios() {
               
               {/* Perfil del Usuario */}
               <div className="flex items-center gap-4 pb-4 border-b border-slate-100 dark:border-zinc-850">
-                {selectedUser.avatar_url ? (
-                  <img
-                    src={selectedUser.avatar_url}
-                    alt={selectedUser.nombre || 'Profile'}
-                    className="h-14 w-14 rounded-full object-cover shadow-[0_4px_12px_rgba(59,130,246,0.25)] border-2 border-white dark:border-zinc-800"
-                    referrerPolicy="no-referrer"
-                    crossOrigin="anonymous"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = "https://randomuser.me/api/portraits/women/47.jpg";
-                    }}
-                  />
-                ) : (
-                  <div className="h-14 w-14 rounded-full bg-gradient-to-br from-[#0046ab] to-indigo-600 flex items-center justify-center text-white text-xl font-bold shadow-[0_4px_12px_rgba(59,130,246,0.25)] border-2 border-white dark:border-zinc-800">
-                    {selectedUser.nombre?.charAt(0) || '?'}
-                  </div>
-                )}
+                <div className="h-14 w-14 rounded-full border-2 border-white dark:border-zinc-800 shadow-[0_4px_12px_rgba(59,130,246,0.25)] overflow-hidden shrink-0 flex items-center justify-center">
+                  <UserAvatar user={selectedUser} className="w-full h-full text-base font-black" />
+                </div>
                 <div className="flex-1 text-left">
                   <h3 className="text-base font-extrabold text-slate-800 dark:text-white leading-tight">{selectedUser.nombre}</h3>
                   <p className="text-slate-455 dark:text-zinc-500 text-xs mt-0.5">{selectedUser.email}</p>

@@ -10,6 +10,7 @@ import { consumeCredits, hasEnoughCredits, getUserCredits, getCreditCosts } from
 import ModalCreditos from '../components/ai/ModalCreditos';
 import { generateAdditionalSupport } from '../lib/services/aiService';
 import { toast } from 'sonner';
+import { logActivity } from '../lib/activityLog';
 
 // Asignaturas del Currículo Dominicano
 const ASIGNATURAS = [
@@ -306,6 +307,12 @@ export default function ApoyoAdicional() {
             }
 
             setGeneratedContent(data);
+            void logActivity({
+                kind: 'tool',
+                userName: user?.nombre || user?.email || 'Usuario',
+                title: 'Apoyo Adicional',
+                detail: `Creó estrategias de apoyo de ${asignatura} (${grado})`
+            });
             toast.success('¡Estrategias de apoyo generadas exitosamente!');
         } catch (err: any) {
             setError(err.message || 'Error inesperado. Intenta de nuevo.');

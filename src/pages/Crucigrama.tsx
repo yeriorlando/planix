@@ -12,6 +12,7 @@ import ModalCreditos from '../components/ai/ModalCreditos';
 import { generateCrosswordItems } from '../lib/services/aiService';
 import { generateCrossword, CrosswordGrid } from '../lib/utils/crosswordGenerator';
 import { toast } from 'sonner';
+import { logActivity } from '../lib/activityLog';
 
 type Mode = 'topic' | 'custom';
 type Difficulty = 'Fácil' | 'Medio' | 'Difícil';
@@ -84,6 +85,12 @@ export default function Crucigrama() {
             }
 
             setPuzzle(generatedGrid);
+            void logActivity({
+                kind: 'tool',
+                userName: user?.nombre || user?.email || 'Usuario',
+                title: 'Generador de Crucigramas',
+                detail: `Creó un crucigrama (${mode === 'topic' ? (topic.trim() || 'General') : 'Texto Personalizado'})`
+            });
             toast.success('¡Crucigrama generado exitosamente!');
         } catch (err: any) {
             setError(err.message || 'Error inesperado. Intenta de nuevo.');

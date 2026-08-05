@@ -26,7 +26,8 @@ import {
   Clock,
   FileText,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  Download
 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useRequireAuth } from '../lib/useRequireAuth';
@@ -267,6 +268,433 @@ export default function Planificaciones() {
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const paginatedPlans = filteredPlans.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
+  const handleExportAllPlans = () => {
+    if (plans.length === 0) {
+      toast.info('No tienes planificaciones creadas para descargar.');
+      return;
+    }
+
+    toast.success(`Generando PDF de ${plans.length} planificaciones con formato PrintLayout...`);
+
+    // Remove existing iframe if any
+    const existingFrame = document.getElementById('plx-batch-print-iframe');
+    if (existingFrame) existingFrame.remove();
+
+    // Create invisible iframe
+    const iframe = document.createElement('iframe');
+    iframe.id = 'plx-batch-print-iframe';
+    iframe.style.position = 'fixed';
+    iframe.style.right = '0';
+    iframe.style.bottom = '0';
+    iframe.style.width = '0px';
+    iframe.style.height = '0px';
+    iframe.style.border = '0';
+    document.body.appendChild(iframe);
+
+    const doc = iframe.contentWindow?.document;
+    if (!doc) {
+      toast.error('Error al preparar el módulo de impresión.');
+      return;
+    }
+
+    const plansHtml = plans.map((plan, index) => {
+      const rawContent = (plan as any).content || {};
+      const fd = rawContent.formData || plan.customFields || {};
+
+      const teacher = fd.docente || (plan as any).docente || user?.nombre || 'Docente';
+      const school = fd.centro_educativo || plan.customFields?.centro_educativo || user?.colegio || 'Centro Educativo';
+      const gradeFormatted = formatGrado(plan.grado || fd.grado, plan.nivel || fd.nivel);
+      const seccion = fd.seccion || plan.customFields?.seccion || 'A';
+      const subject = plan.asignatura || fd.area || fd.asignatura || 'Asignatura';
+      
+      const secuenciaOrTitulo = fd.secuencia || plan.customFields?.secuencia || plan.titulo || 'Planificación';
+      const fecha = fd.fecha || plan.customFields?.fecha || (plan.creado_en ? new Date(plan.creado_en).toLocaleDateString('es-DO') : '---');
+
+      const pType = fd.planningType || plan.tipo || (plan.tipo === 'CON_BASE' ? 'DIARIA' : 'UNIDAD');
+      const isUnit = pType === 'UNIDAD';
+      const formTitle = `${subject.toUpperCase()} - PLANIFICACIÓN ${isUnit ? 'UNIDAD' : (plan.tipo === 'CON_BASE' ? 'CON BASE' : 'CURRICULAR')}`;
+
+      // Competencias Fundamentales
+      let compFund: string[] = [];
+      if (Array.isArray(fd.competencias)) compFund = fd.competencias;
+      else if (Array.isArray(plan.customFields?.competencias)) compFund = plan.customFields.competencias;
+      else {
+        compFund = [plan.conceptual, plan.procedimental, plan.actitudinal].filter(Boolean) as string[];
+      }
+      const compFundHtml = compFund.length > 0 
+        ? compFund.map(c => `<div>• ${c}</div>`).join('') 
+        : '<div>• Competencia Comunicativa</div><div>• Pensamiento Lógico, Creativo y Crítico; Resolución de Problemas; Tecnológica y Científica</div><div>• Ética y Ciudadana; Desarrollo Personal y Espiritual; Ambiental y de la Salud</div>';
+
+      // Competencias Específicas
+      let compEsp: string[] = [];
+      if (Array.isArray(fd.competencias_especificas)) compEsp = fd.competencias_especificas;
+      else if (Array.isArray(plan.customFields?.competencias_especificas)) compEsp = plan.customFields.competencias_especificas;
+      const compEspHtml = compEsp.length > 0 
+        ? compEsp.map(c => `<div>• ${c}</div>`).join('') 
+        : (plan.conceptual ? `<div>• ${plan.conceptual}</div>` : '<div>• Selecciona las competencias y edita la descripción específica del grado.</div>');
+
+      // Intencion Pedagogica
+      const intencion = plan.intencion_pedagogica || fd.intencion_pedagogica || plan.customFields?.intencion_pedagogica || 'Promover experiencias significativas que favorezcan el desarrollo de competencias en los estudiantes.';
+
+      // Estrategia
+      const estrategia = fd.estrategia || plan.customFields?.estrategia || '';
+
+      // Momentos
+      const mArray = fd.momentos || plan.customFields?.momentos || [];
+      let inicioDesc = plan.momentos?.inicio || '---';
+      let inicioTiempo = '15 minutos';
+      let inicioRec = plan.recursos?.join(', ') || 'Recursos diversos.';
+
+      let desarrolloDesc = plan.momentos?.desarrollo || '---';
+      let desarrolloTiempo = '45 minutos';
+      let desarrolloRec = plan.recursos?.join(', ') || 'Recursos diversos.';
+
+      let cierreDesc = plan.momentos?.cierre || '---';
+      let cierreTiempo = '10 minutos';
+      let cierreRec = plan.recursos?.join(', ') || 'Recursos diversos.';
+
+      const formatTime = (t: string) => {
+        if (!t) return '---';
+        const cleaned = t.toString().trim();
+        if (/^\d+$/.test(cleaned)) return `${cleaned} minutos`;
+        return cleaned;
+      };
+
+      if (Array.isArray(mArray) && mArray.length >= 3) {
+        inicioDesc = mArray[0].descripcion || mArray[0].description || inicioDesc;
+        inicioTiempo = formatTime(mArray[0].tiempo || inicioTiempo);
+        inicioRec = mArray[0].recursos || inicioRec;
+
+        desarrolloDesc = mArray[1].descripcion || mArray[1].description || desarrolloDesc;
+        desarrolloTiempo = formatTime(mArray[1].tiempo || desarrolloTiempo);
+        desarrolloRec = mArray[1].recursos || desarrolloRec;
+
+        cierreDesc = mArray[2].descripcion || mArray[2].description || cierreDesc;
+        cierreTiempo = formatTime(mArray[2].tiempo || cierreTiempo);
+        cierreRec = mArray[2].recursos || cierreRec;
+      } else {
+        inicioTiempo = formatTime(inicioTiempo);
+        desarrolloTiempo = formatTime(desarrolloTiempo);
+        cierreTiempo = formatTime(cierreTiempo);
+      }
+
+      // Metacognicion, Evaluacion, Tarea
+      const metacognicion = fd.metacognicion || plan.customFields?.metacognicion || 'Reflexión guiada sobre lo aprendido durante el desarrollo de la lección.';
+      const evaluacion = plan.evaluacion || fd.evaluacion || plan.customFields?.evaluacion || 'Evaluación formativa a través de observación continua y participación activa.';
+      const tarea = plan.tarea || fd.tarea_hogar || plan.customFields?.tarea_hogar || 'Repasar los conceptos tratados en clase.';
+
+      return `
+        <div class="plan-card-wrapper ${index > 0 ? 'page-break' : ''}">
+          <div class="pl-header-title">${formTitle}</div>
+
+          <div class="pl-grid-4">
+            <div class="pl-cell">
+              <span class="pl-label">CENTRO EDUCATIVO:</span>
+              <div class="pl-val">${school}</div>
+            </div>
+            <div class="pl-cell">
+              <span class="pl-label">DOCENTE:</span>
+              <div class="pl-val">${teacher}</div>
+            </div>
+            <div class="pl-cell">
+              <span class="pl-label">GRADO:</span>
+              <div class="pl-val">${gradeFormatted}</div>
+            </div>
+            <div class="pl-cell pl-cell-last">
+              <span class="pl-label">SECCIÓN:</span>
+              <div class="pl-val">${seccion}</div>
+            </div>
+          </div>
+
+          <div class="pl-grid-3">
+            <div class="pl-cell">
+              <span class="pl-label">ÁREA:</span>
+              <div class="pl-val">${subject}</div>
+            </div>
+            <div class="pl-cell">
+              <span class="pl-label">${isUnit ? 'UNIDAD:' : 'SECUENCIA:'}</span>
+              <div class="pl-val">${secuenciaOrTitulo}</div>
+            </div>
+            <div class="pl-cell pl-cell-last">
+              <span class="pl-label">FECHA:</span>
+              <div class="pl-val">${fecha}</div>
+            </div>
+          </div>
+
+          <div class="pl-section">
+            <div class="pl-section-header">COMPETENCIAS FUNDAMENTALES:</div>
+            <div class="pl-section-body">${compFundHtml}</div>
+          </div>
+
+          <div class="pl-section">
+            <div class="pl-section-header">COMPETENCIAS ESPECÍFICAS:</div>
+            <div class="pl-section-body">${compEspHtml}</div>
+          </div>
+
+          <div class="pl-section">
+            <div class="pl-section-header">INTENCIÓN PEDAGÓGICA DEL DÍA:</div>
+            <div class="pl-section-body">${intencion}</div>
+          </div>
+
+          ${estrategia ? `
+          <div class="pl-section">
+            <div class="pl-section-header">ESTRATEGIAS DE ENSEÑANZA Y APRENDIZAJE:</div>
+            <div class="pl-section-body">${estrategia}</div>
+          </div>` : ''}
+
+          <table class="pl-momentos-table">
+            <thead>
+              <tr>
+                <th style="width: 15%;">MOMENTOS</th>
+                <th style="width: 55%;">ACTIVIDADES</th>
+                <th style="width: 15%;">TIEMPO</th>
+                <th style="width: 15%;">RECURSOS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="pl-moment-cell">INICIO</td>
+                <td>${inicioDesc}</td>
+                <td class="pl-time-cell">${inicioTiempo}</td>
+                <td>${inicioRec}</td>
+              </tr>
+              <tr>
+                <td class="pl-moment-cell">DESARROLLO</td>
+                <td>${desarrolloDesc}</td>
+                <td class="pl-time-cell">${desarrolloTiempo}</td>
+                <td>${desarrolloRec}</td>
+              </tr>
+              <tr>
+                <td class="pl-moment-cell">CIERRE</td>
+                <td>${cierreDesc}</td>
+                <td class="pl-time-cell">${cierreTiempo}</td>
+                <td>${cierreRec}</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="pl-grid-3-bottom">
+            <div class="pl-cell">
+              <span class="pl-section-header-sm">METACOGNICIÓN (15 MIN):</span>
+              <div class="pl-section-body-sm">${metacognicion}</div>
+            </div>
+            <div class="pl-cell">
+              <span class="pl-section-header-sm">EVALUACIÓN FORMATIVA (15 MIN):</span>
+              <div class="pl-section-body-sm">${evaluacion}</div>
+            </div>
+            <div class="pl-cell pl-cell-last">
+              <span class="pl-section-header-sm">TAREA PARA EL HOGAR:</span>
+              <div class="pl-section-body-sm">${tarea}</div>
+            </div>
+          </div>
+
+          <div class="pl-footer">
+            GENERADO POR PLANIX - PLATAFORMA DE GESTIÓN DOCENTE
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    const exportFileName = `Planix - ${user?.nombre || 'Docente'} - Planificaciones ${new Date().getFullYear()}`;
+    const originalDocTitle = document.title;
+
+    doc.open();
+    doc.write(`
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>${exportFileName}</title>
+        <meta charset="utf-8">
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+          * { box-sizing: border-box; }
+          html, body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            color: #1e293b;
+            font-size: 11px;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+          }
+          @media print {
+            @page {
+              size: landscape;
+              margin: 8mm;
+            }
+            body {
+              background-color: #fff !important;
+              padding: 0 !important;
+            }
+            .plan-card-wrapper {
+              box-shadow: none !important;
+              margin-bottom: 0 !important;
+              page-break-inside: avoid !important;
+              break-inside: avoid !important;
+            }
+            tr {
+              page-break-inside: avoid !important;
+              break-inside: avoid !important;
+            }
+          }
+          .page-break {
+            page-break-before: always;
+          }
+          .plan-card-wrapper {
+            background: #ffffff;
+            border: 1px solid #52525b;
+            margin-bottom: 24px;
+            width: 100%;
+            max-width: 297mm;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            page-break-inside: avoid;
+            break-inside: avoid;
+          }
+          .pl-header-title {
+            text-align: center;
+            font-weight: 800;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 10px;
+            border-bottom: 1px solid #52525b;
+            background-color: #f8fafc;
+            color: #0f172a;
+          }
+          .pl-grid-4 {
+            display: grid;
+            grid-template-columns: 3fr 3fr 2fr 2fr;
+            border-bottom: 1px solid #52525b;
+          }
+          .pl-grid-3 {
+            display: grid;
+            grid-template-columns: 3fr 4fr 3fr;
+            border-bottom: 1px solid #52525b;
+          }
+          .pl-cell {
+            padding: 8px 10px;
+            border-right: 1px solid #52525b;
+          }
+          .pl-cell-last {
+            border-right: none;
+          }
+          .pl-label {
+            display: block;
+            font-size: 9px;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #64748b;
+            margin-bottom: 2px;
+          }
+          .pl-val {
+            font-size: 11px;
+            font-weight: 700;
+            color: #0f172a;
+          }
+          .pl-section {
+            padding: 10px;
+            border-bottom: 1px solid #52525b;
+          }
+          .pl-section-header {
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: #0f172a;
+            margin-bottom: 4px;
+          }
+          .pl-section-body {
+            font-size: 11px;
+            line-height: 1.5;
+            color: #334155;
+          }
+          .pl-momentos-table {
+            width: 100%;
+            border-collapse: collapse;
+            border-bottom: 1px solid #52525b;
+          }
+          .pl-momentos-table th {
+            border: 1px solid #52525b;
+            padding: 8px;
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+            text-align: center;
+            background-color: #f8fafc;
+            color: #0f172a;
+          }
+          .pl-momentos-table td {
+            border: 1px solid #52525b;
+            padding: 10px;
+            font-size: 10.5px;
+            vertical-align: top;
+            line-height: 1.5;
+            color: #334155;
+          }
+          .pl-moment-cell {
+            font-weight: 800;
+            text-align: center;
+            vertical-align: middle !important;
+            text-transform: uppercase;
+            background-color: #f8fafc;
+            color: #0f172a;
+          }
+          .pl-time-cell {
+            font-weight: 700;
+            text-align: center;
+            vertical-align: middle !important;
+            color: #0f172a;
+          }
+          .pl-grid-3-bottom {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border-bottom: 1px solid #52525b;
+          }
+          .pl-section-header-sm {
+            font-size: 9.5px;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: #0f172a;
+            display: block;
+            margin-bottom: 4px;
+          }
+          .pl-section-body-sm {
+            font-size: 10.5px;
+            line-height: 1.4;
+            color: #334155;
+          }
+          .pl-footer {
+            text-align: center;
+            padding: 8px;
+            font-size: 9px;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: #64748b;
+            letter-spacing: 0.5px;
+            background-color: #f8fafc;
+          }
+        </style>
+      </head>
+      <body>
+        ${plansHtml}
+      </body>
+      </html>
+    `);
+    doc.close();
+
+    document.title = exportFileName;
+
+    setTimeout(() => {
+      iframe.contentWindow?.focus();
+      iframe.contentWindow?.print();
+      setTimeout(() => {
+        document.title = originalDocTitle;
+      }, 3000);
+    }, 400);
+  };
+
   if (!user) return null;
 
   return (
@@ -283,12 +711,36 @@ export default function Planificaciones() {
             Gestiona y organiza tu histórico de lecciones
           </p>
         </div>
-        <button
-          onClick={() => navigate('/planificaciones/nueva')}
-          className="bg-brand-primary hover:bg-brand-hover text-white border border-transparent rounded-full px-4 py-2 font-bold text-[13px] shadow-sm flex items-center justify-center gap-1.5 transition-all cursor-pointer active:scale-95 select-none shrink-0"
-        >
-          <Pencil size={14} /> Crear Planificación
-        </button>
+        <div className="flex items-center gap-2.5 shrink-0">
+          <button
+            onClick={handleExportAllPlans}
+            className="bg-white hover:bg-slate-50 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-slate-700 dark:text-zinc-200 border border-slate-200 dark:border-zinc-700 rounded-full px-4 py-2 font-bold text-[13px] shadow-xs flex items-center justify-center gap-1.5 transition-all cursor-pointer active:scale-95 select-none"
+            title="Descargar todas tus planificaciones en PDF"
+          >
+            <Download size={14} className="text-slate-600 dark:text-zinc-400" /> Descargar Todo (PDF)
+          </button>
+          <button
+            onClick={() => navigate('/planificaciones/nueva')}
+            className="bg-brand-primary hover:bg-brand-hover text-white border border-transparent rounded-full px-4 py-2 font-bold text-[13px] shadow-sm flex items-center justify-center gap-1.5 transition-all cursor-pointer active:scale-95 select-none shrink-0"
+          >
+            <Pencil size={14} /> Crear Planificación
+          </button>
+        </div>
+      </div>
+
+      {/* Information Banner about 3-month retention */}
+      <div className="mb-6 bg-amber-50/80 dark:bg-amber-950/20 border border-amber-200/80 dark:border-amber-900/40 rounded-2xl p-4 flex items-start gap-3 shadow-2xs text-left">
+        <div className="p-2 bg-amber-100 dark:bg-amber-900/40 rounded-xl text-amber-600 dark:text-amber-400 shrink-0 mt-0.5">
+          <Clock className="w-4 h-4" />
+        </div>
+        <div className="flex-1 min-w-0">
+          <h4 className="text-xs font-black text-amber-900 dark:text-amber-200 uppercase tracking-wider">
+            Política de Almacenamiento
+          </h4>
+          <p className="text-[12.5px] font-medium text-amber-800/90 dark:text-amber-300/90 mt-0.5 leading-relaxed">
+            Las planificaciones creadas permanecen guardadas en la plataforma durante <strong>3 meses</strong>. Te recomendamos descargar o guardar copia en PDF de tus planificaciones importantes.
+          </p>
+        </div>
       </div>
 
       {/* Filters Card */}

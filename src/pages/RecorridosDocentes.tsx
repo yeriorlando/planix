@@ -10,6 +10,7 @@ import { consumeCredits, hasEnoughCredits, getUserCredits, getCreditCosts } from
 import ModalCreditos from '../components/ai/ModalCreditos';
 import { generateTeacherScript } from '../lib/services/aiService';
 import { toast } from 'sonner';
+import { logActivity } from '../lib/activityLog';
 
 // Asignaturas del Currículo Dominicano
 const ASIGNATURAS = [
@@ -289,6 +290,12 @@ export default function RecorridosDocentes() {
             }
 
             setGeneratedContent(data);
+            void logActivity({
+                kind: 'tool',
+                userName: user?.nombre || user?.email || 'Usuario',
+                title: 'Recorridos Docentes',
+                detail: `Creó un recorrido docente de ${asignatura} (${grado})`
+            });
             toast.success('¡Recorrido Docente generado exitosamente!');
         } catch (err: any) {
             setError(err.message || 'Error inesperado. Intenta de nuevo.');

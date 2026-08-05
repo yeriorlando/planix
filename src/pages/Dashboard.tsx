@@ -1011,40 +1011,6 @@ export default function Dashboard() {
           </div>
         </section>
 
-        {/* Curricular resources bank */}
-        <section className="space-y-4">
-          <h3 className="text-slate-800 dark:text-slate-200 font-black text-lg tracking-tight uppercase">Documentos MINERD Oficiales</h3>
-          <div className="grid md:grid-cols-2 gap-4">
-            {CURRICULAR_RESOURCES.map((res) => (
-              <div 
-                key={res.id} 
-                className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-white/10 rounded-[1.5rem] p-5 shadow-sm flex items-center justify-between hover:shadow-md transition-shadow"
-              >
-                <div className="flex items-center gap-4">
-                  <div className="p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-white/5 text-slate-700 dark:text-slate-350">
-                    <FileText size={18} />
-                  </div>
-                  <div>
-                    <h4 className="font-extrabold text-[13px] text-slate-800 dark:text-slate-100 line-clamp-1">{res.name}</h4>
-                    <div className="flex gap-2 items-center text-[10px] text-slate-400 dark:text-slate-500 font-bold mt-1">
-                      <span>{res.type}</span>
-                      <span>•</span>
-                      <span>{res.size}</span>
-                    </div>
-                  </div>
-                </div>
-                
-                <button
-                  onClick={() => handleDownloadResource(res.name)}
-                  className="p-2 bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 border border-slate-200 dark:border-white/5 rounded-full text-slate-600 dark:text-slate-350 transition-colors cursor-pointer"
-                >
-                  <Download size={13} />
-                </button>
-              </div>
-            ))}
-          </div>
-        </section>
-
       </div>
 
       {/* Columna Lateral (Derecha - Sidebar - Col-span-4) */}

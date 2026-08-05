@@ -10,6 +10,7 @@ import { Wheel } from 'react-custom-roulette';
 import confetti from 'canvas-confetti';
 import { toast, Toaster } from 'sonner';
 import { getCurrentUser, getClassrooms, getStudents, Classroom, Student } from '../lib/storage';
+import { logActivity } from '../lib/activityLog';
 
 const WHEEL_COLORS = [
   { bg: '#1E293B', text: '#FFFFFF' }, // Navy Blue
@@ -347,6 +348,8 @@ export default function Ruleta() {
     }
   };
 
+  const hasLoggedRuletaRef = useRef(false);
+
   // Callback when roulette stops spinning
   const handleStopSpinning = () => {
     setMustStartSpinning(false);
@@ -356,6 +359,16 @@ export default function Ruleta() {
     setWinnerStudent(winner);
     setWinnerName(winner.name);
     setShowWinnerModal(true);
+
+    if (!hasLoggedRuletaRef.current) {
+      hasLoggedRuletaRef.current = true;
+      void logActivity({
+        kind: 'tool',
+        userName: user?.nombre || user?.email || 'Usuario',
+        title: 'Ruleta de Participación',
+        detail: 'Utilizó la herramienta Ruleta de Participación',
+      });
+    }
 
     // Audio victory fanfare
     playVictoryFanfare();

@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useOutletContext } from 'react-router-dom';
 import { motion } from 'motion/react';
+import { logActivity } from '../lib/activityLog';
+import { getCurrentUser } from '../lib/storage';
 import { 
   Grid, 
   Wrench, 
@@ -389,6 +391,17 @@ export default function Recursos() {
   
   const context = useOutletContext<{ isSidebarPinned: boolean } | null>();
   const isSidebarPinned = context?.isSidebarPinned ?? false;
+
+  useEffect(() => {
+    const user = getCurrentUser();
+    const userName = user?.nombre || user?.email || 'Docente';
+    void logActivity({
+      kind: 'tool',
+      userName,
+      title: 'Directorio de Recursos',
+      detail: 'Accedió a Recursos Educativos',
+    });
+  }, []);
 
   const filteredResources = RESOURCES.filter(res => {
     const matchesSearch = res.title.toLowerCase().includes(searchQuery.toLowerCase()) ||

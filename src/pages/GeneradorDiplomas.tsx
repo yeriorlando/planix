@@ -18,6 +18,7 @@ import {
 import { toast } from 'sonner';
 import { getCurrentUser, getClassrooms, getStudents, Classroom, Student } from '../lib/storage';
 import { DatePicker } from '../components/ui/heroui-date-picker';
+import { logActivity } from '../lib/activityLog';
 
 // Categorías de logros predefinidos
 const ACHIEVEMENT_CATEGORIES = [
@@ -255,6 +256,12 @@ export default function GeneradorDiplomas() {
             toast.error('Por favor, ingresa o selecciona el nombre del estudiante.');
             return;
         }
+        void logActivity({
+            kind: 'tool',
+            userName: user?.nombre || user?.email || 'Usuario',
+            title: 'Generador de Diplomas',
+            detail: `Generó diploma para ${studentName}`
+        });
         window.print();
     };
 

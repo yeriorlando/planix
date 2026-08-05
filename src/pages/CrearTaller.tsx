@@ -26,6 +26,7 @@ import type { WorkshopType } from '../types/tallerTypes';
 import TallerIcon from '../components/TallerIcon';
 import { toast, Toaster } from 'sonner';
 import confetti from 'canvas-confetti';
+import { logActivity } from '../lib/activityLog';
 
 const STEPS = [
   { id: 1, title: 'Tipo de Taller', description: 'Selecciona un taller predefinido o personalizado' },
@@ -330,6 +331,12 @@ export default function CrearTaller() {
 
       // Celebration
       confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
+      void logActivity({
+        kind: 'workshop',
+        userName: user?.nombre || user?.email || 'Usuario',
+        title: nombre.trim(),
+        detail: `Creó un nuevo taller (${nivel || 'General'})`
+      });
       toast.success(`¡Taller "${nombre}" creado exitosamente!`);
 
       if (crearOtro) {

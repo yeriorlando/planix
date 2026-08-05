@@ -9,6 +9,7 @@ import { toast } from 'sonner';
 import { getCurrentUser, getClassrooms, getStudents, Classroom, Student } from '../lib/storage';
 import { getUserCredits } from '../lib/credits';
 import confetti from 'canvas-confetti';
+import { logActivity } from '../lib/activityLog';
 
 // Temas de Nombres para los Grupos
 const THEMES = {
@@ -350,6 +351,13 @@ export default function GeneradorGrupos() {
       setGroups(tempGroups);
       setIsGenerating(false);
       
+      void logActivity({
+        kind: 'tool',
+        userName: user?.nombre || user?.email || 'Usuario',
+        title: 'Generador de Grupos',
+        detail: `Generó ${tempGroups.length} grupos (${activeStudents.length} alumnos)`
+      });
+
       // Lanzar confeti de éxito
       confetti({
         particleCount: 80,

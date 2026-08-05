@@ -11,6 +11,7 @@ import { consumeCredits, hasEnoughCredits, getUserCredits, getCreditCosts } from
 import ModalCreditos from '../components/ai/ModalCreditos';
 import { generateWordSearchWords } from '../lib/services/aiService';
 import { toast } from 'sonner';
+import { logActivity } from '../lib/activityLog';
 
 type Mode = 'topic' | 'custom';
 type Difficulty = 'Fácil' | 'Medio' | 'Difícil';
@@ -179,6 +180,12 @@ export default function SopaDeLetras() {
 
             setGeneratedWords(finalWords);
             setPuzzle(computedPuzzle);
+            void logActivity({
+                kind: 'tool',
+                userName: user?.nombre || user?.email || 'Usuario',
+                title: 'Sopa de Letras',
+                detail: `Creó una sopa de letras (${mode === 'topic' ? (topic.trim() || 'General') : 'Texto Personalizado'})`
+            });
             toast.success('¡Sopa de letras generada exitosamente!');
         } catch (err: any) {
             setError(err.message || 'Error inesperado. Intenta de nuevo.');

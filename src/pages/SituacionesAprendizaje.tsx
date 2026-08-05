@@ -10,6 +10,7 @@ import { consumeCredits, hasEnoughCredits, getUserCredits, getCreditCosts } from
 import ModalCreditos from '../components/ai/ModalCreditos';
 import { generateSituation } from '../lib/services/aiService';
 import { toast } from 'sonner';
+import { logActivity } from '../lib/activityLog';
 
 // Asignaturas del Currículo Dominicano
 const ASIGNATURAS = [
@@ -309,6 +310,12 @@ export default function SituacionesAprendizaje() {
             }
 
             setGeneratedContent(data);
+            void logActivity({
+                kind: 'tool',
+                userName: user?.nombre || user?.email || 'Usuario',
+                title: 'Situaciones de Aprendizaje',
+                detail: `Creó una situación de aprendizaje de ${asignatura} (${grado})`
+            });
             toast.success('¡Situación de aprendizaje redactada exitosamente!');
         } catch (err: any) {
             setError(err.message || 'Error inesperado. Intenta de nuevo.');

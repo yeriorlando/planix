@@ -24,6 +24,7 @@ import { consumeCredits, hasEnoughCredits, getUserCredits, getCreditCosts } from
 import ModalCreditos from '../components/ai/ModalCreditos';
 import { generateExam } from '../lib/services/aiService';
 import { toast } from 'sonner';
+import { logActivity } from '../lib/activityLog';
 
 // Tipos de Evaluación
 const EVALUATION_TYPES = ['Diagnóstica', 'Formativa', 'Sumativa'];
@@ -340,6 +341,12 @@ export default function GeneradorExamenes() {
             }
 
             setGeneratedQuestions(data.questions);
+            void logActivity({
+                kind: 'tool',
+                userName: user?.nombre || user?.email || 'Usuario',
+                title: 'Generador de Exámenes',
+                detail: `Creó un examen de ${asignatura} · ${grado}`
+            });
             toast.success('¡Examen generado exitosamente!');
         } catch (err: any) {
             setError(err.message || 'Error inesperado. Intenta de nuevo.');

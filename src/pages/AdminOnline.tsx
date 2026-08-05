@@ -4,6 +4,7 @@ import { getCurrentUser, Usuario, RolUsuario } from '../lib/storage';
 import { requestD1 } from '../lib/services/d1Client';
 import { Card } from '../components/ui/card';
 import { toast, Toaster } from 'sonner';
+import { UserAvatar } from './AdminUsuarios';
 import { 
   Users, 
   ArrowLeft, 
@@ -363,15 +364,8 @@ export default function AdminOnline() {
 
                     {/* Circular Avatar Container with clear style */}
                     <div className="w-11 h-11 bg-slate-100 dark:bg-zinc-800 rounded-full flex items-center justify-center border border-black/5 dark:border-white/5 shadow-2xs shrink-0 relative p-0.5">
-                      <img 
-                        src={user.avatar_url || "https://randomuser.me/api/portraits/women/47.jpg"} 
-                        alt={user.full_name || user.nombre || 'Docente'} 
-                        className="w-full h-full object-cover rounded-full"
-                        onError={(e) => {
-                          (e.target as HTMLImageElement).src = "https://randomuser.me/api/portraits/women/47.jpg";
-                        }}
-                      />
-                      <span className="absolute bottom-0.5 right-0.5 w-3 h-3 bg-emerald-500 border-2 border-white dark:border-zinc-900 rounded-full shadow-sm animate-pulse" />
+                      <UserAvatar user={user} className="w-full h-full text-xs font-black" />
+                      <span className="absolute bottom-0.5 right-0.5 w-3 h-3 bg-emerald-500 border-2 border-white dark:border-zinc-900 rounded-full shadow-sm animate-pulse z-10" />
                     </div>
                   </div>
 

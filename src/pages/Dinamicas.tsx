@@ -1,6 +1,8 @@
 import React from 'react';
 import { useOutletContext, useNavigate } from 'react-router-dom';
 import { Gamepad2, Sparkles, Star, ArrowRight, CloudRain, Trophy, GraduationCap, Calculator, Globe, Gavel, Compass, Lock, Fingerprint, Clock, Anchor } from 'lucide-react';
+import { getCurrentUser } from '../lib/storage';
+import { logActivity } from '../lib/activityLog';
 
 const DINAMICAS_LIST = [
   {
@@ -140,6 +142,18 @@ export default function Dinamicas() {
   const isSidebarPinned = context?.isSidebarPinned ?? false;
   const navigate = useNavigate();
 
+  const handleSelectDinamica = (dinamica: typeof DINAMICAS_LIST[0]) => {
+    if (!dinamica.isReady) return;
+    const user = getCurrentUser();
+    void logActivity({
+      kind: 'tool',
+      userName: user?.nombre || user?.email || 'Usuario',
+      title: `Dinámica: ${dinamica.title}`,
+      detail: `Accedió a la dinámica de clase ${dinamica.title}`
+    });
+    navigate(`/dinamicas/${dinamica.id}`);
+  };
+
   return (
     <main className={`flex-1 flex flex-col pt-10 xl:pt-[54px] w-full min-w-0 pb-10 px-6 ${
       isSidebarPinned ? 'md:px-6 xl:px-8' : 'md:px-[60px] xl:px-16'
@@ -171,7 +185,7 @@ export default function Dinamicas() {
         {DINAMICAS_LIST.map((dinamica) => (
           <div
             key={dinamica.id}
-            onClick={() => dinamica.isReady && navigate(`/dinamicas/${dinamica.id}`)}
+            onClick={() => handleSelectDinamica(dinamica)}
             className={`group relative overflow-hidden rounded-[32px] p-8 border border-black/5 dark:border-white/5 transition-all duration-300 shadow-2xs hover:shadow-lg flex flex-col h-full ${dinamica.color} ${
               dinamica.isReady ? 'cursor-pointer hover:-translate-y-1' : 'opacity-70 cursor-not-allowed'
             }`}
