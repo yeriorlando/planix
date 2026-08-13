@@ -85,6 +85,7 @@ import GeneradorGrupos from './pages/GeneradorGrupos';
 import RecorridosDocentes from './pages/RecorridosDocentes';
 import ApoyoAdicional from './pages/ApoyoAdicional';
 import SituacionesAprendizaje from './pages/SituacionesAprendizaje';
+import CronometroActividades from './pages/CronometroActividades';
 
 // Modular Student Sub-Pages
 import GestionMatricula from './pages/estudiantes/GestionMatricula';
@@ -139,6 +140,15 @@ function Layout() {
     }
     syncCreditCosts();
     syncActiveSchoolYear();
+
+    // Heartbeat ping every 60s to update online timestamp
+    const sendHeartbeat = () => {
+      const nowIso = new Date().toISOString();
+      requestD1('/api/profiles', 'POST', { id: user.id, last_login: nowIso }).catch(() => {});
+    };
+    sendHeartbeat();
+    const heartbeatInterval = setInterval(sendHeartbeat, 60000);
+    return () => clearInterval(heartbeatInterval);
   }, [user?.id]);
   
   const [theme, setTheme] = React.useState<'light' | 'dark'>(() => {
@@ -407,6 +417,7 @@ export default function App() {
           <Route path="/planificaciones" element={<Planificaciones />} />
           <Route path="/calendario" element={<Calendar />} />
           <Route path="/herramientas" element={<Herramientas />} />
+          <Route path="/herramientas/cronometro" element={<CronometroActividades />} />
           <Route path="/herramientas/generador-examenes" element={<GeneradorExamenes />} />
           <Route path="/herramientas/sopa-de-letras" element={<SopaDeLetras />} />
           <Route path="/herramientas/crucigrama" element={<Crucigrama />} />

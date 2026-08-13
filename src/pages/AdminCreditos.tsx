@@ -30,7 +30,10 @@ import {
   Lock,
   Fingerprint,
   Timer,
-  Anchor
+  Anchor,
+  Map,
+  HeartHandshake,
+  Globe
 } from 'lucide-react';
 import { 
   getCreditCosts, 
@@ -40,7 +43,7 @@ import {
   DEFAULT_CREDIT_COSTS
 } from '../lib/credits';
 import { requestD1 } from '../lib/services/d1Client';
-import { getCurrentUser, getUsers, saveUsuario, Usuario } from '../lib/storage';
+import { getCurrentUser, getUsers, saveUsuario, saveUsuariosBatch, Usuario, RolUsuario, PlanId } from '../lib/storage';
 import { toast } from 'sonner';
 
 interface ToolMetadata {
@@ -234,6 +237,36 @@ const TOOLS_METADATA: ToolMetadata[] = [
     icon: Anchor,
     bg: 'bg-gradient-to-br from-[#ECFDF5] to-[#D1FAE5] dark:from-emerald-950/20 dark:to-slate-900 hover:border-emerald-500/10',
     iconBg: 'bg-emerald-100 dark:bg-emerald-950/30 text-emerald-600 dark:text-emerald-400'
+  },
+  {
+    key: 'recorridos_docentes',
+    name: 'Recorridos Docentes',
+    description: 'Créditos consumidos por cada generación de guion de acompañamiento o recorrido docente con IA.',
+    category: 'Herramientas',
+    type: 'herramienta',
+    icon: Map,
+    bg: 'bg-gradient-to-br from-[#ECFDF5] to-[#D1FAE5] dark:from-emerald-950/20 dark:to-slate-900 hover:border-emerald-500/10',
+    iconBg: 'bg-emerald-100 dark:bg-emerald-950/30 text-emerald-600 dark:text-emerald-400'
+  },
+  {
+    key: 'apoyo_adicional',
+    name: 'Apoyo Adicional (DUA)',
+    description: 'Créditos consumidos por cada generación de estrategias de apoyo psicopedagógico (DUA) con IA.',
+    category: 'Herramientas',
+    type: 'herramienta',
+    icon: HeartHandshake,
+    bg: 'bg-gradient-to-br from-[#FDF2F8] to-[#FBCFE8] dark:from-pink-950/20 dark:to-slate-900 hover:border-pink-500/10',
+    iconBg: 'bg-pink-100 dark:bg-pink-950/30 text-pink-600 dark:text-pink-400'
+  },
+  {
+    key: 'situaciones_aprendizaje',
+    name: 'Situaciones de Aprendizaje',
+    description: 'Créditos consumidos por cada redacción de situaciones de aprendizaje con IA.',
+    category: 'Herramientas',
+    type: 'herramienta',
+    icon: Globe,
+    bg: 'bg-gradient-to-br from-[#E0E7FF] to-[#EDE9FE] dark:from-indigo-950/20 dark:to-slate-900 hover:border-indigo-500/10',
+    iconBg: 'bg-indigo-100 dark:bg-indigo-950/30 text-indigo-650 dark:text-indigo-400'
   }
 ];
 
@@ -262,9 +295,70 @@ export default function AdminCreditos() {
   const [referredCredits, setReferredCredits] = useState<number>(30);
   const [activeTab, setActiveTab] = useState<'costs' | 'users' | 'referrals'>('costs');
 
-  // Load users list
-  const refreshUsersList = () => {
-    setUsers(getUsers());
+  // Load users list from D1 Cloud Database
+  const refreshUsersList = async () => {
+    // 1. Initial instant load from local storage
+    const local = getUsers();
+    if (local && local.length > 0) {
+      setUsers(local);
+    }
+
+    // 2. Fetch real users and their actual credits from D1 profiles
+    try {
+      const d1Profiles = await requestD1<any[]>('/api/profiles');
+      if (d1Profiles && Array.isArray(d1Profiles)) {
+        const mappedUsers: Usuario[] = d1Profiles.map((p) => ({
+          id: p.id,
+          nombre: p.full_name || p.nombre || '',
+          email: p.email || '',
+          rol: (() => {
+            const r = (p.role || p.rol || 'teacher').toLowerCase();
+            if (r === 'admin' || r === 'administrador') return 'admin';
+            if (r === 'coordinator' || r === 'coordinador') return 'coordinator';
+            if (r === 'director') return 'director';
+            return 'teacher';
+          })() as RolUsuario,
+          suscripcion: ((p.subscription_tier || p.suscripcion || 'free').toLowerCase()) as PlanId,
+          estado_suscripcion: (() => {
+            const status = (p.subscription_status || p.estado_suscripcion || 'ACTIVO').toUpperCase();
+            if (status === 'ACTIVE' || status === 'ACTIVO') return 'ACTIVO';
+            if (status === 'SUSPENDIDO' || status === 'SUSPENDED') return 'SUSPENDIDO';
+            if (status === 'EXPIRADO' || status === 'EXPIRED') return 'EXPIRADO';
+            return 'ACTIVO';
+          })() as 'ACTIVO' | 'EXPIRADO' | 'SUSPENDIDO',
+          suscripcion_hasta: p.subscription_expiry || p.suscripcion_hasta || new Date(Date.now() + 30 * 86400000).toISOString(),
+          colegio: p.school_name || p.colegio || '',
+          nivel: (() => {
+            const nv = (p.nivel_principal || p.nivel || '').toLowerCase();
+            if (nv.includes('inicial')) return 'inicial';
+            if (nv.includes('primaria')) return 'primaria';
+            if (nv.includes('secundaria')) return 'secundaria';
+            return undefined;
+          })(),
+          ciclo: p.ciclo_principal || p.ciclo || '',
+          grado: p.grado_principal || p.grado || '',
+          year_escolar_activo: p.year_escolar_activo || '',
+          allowed_subjects: p.allowed_subjects || {},
+          creado_en: p.created_at || p.creado_en || new Date().toISOString(),
+          avatar_url: p.avatar_url || '',
+          creditos: p.credits !== undefined && p.credits !== null ? Number(p.credits) : 100,
+          last_login: p.last_login || '',
+          updated_at: p.updated_at || '',
+          regional: p.regional || '',
+          distrito: p.distrito || '',
+          municipio: p.municipio || '',
+          fingerprint: p.fingerprint || '',
+          referred_by: p.referred_by || undefined,
+          referral_code: p.referral_code || undefined,
+          is_ambassador: p.is_ambassador === 1 || p.is_ambassador === true,
+        }));
+
+        setUsers(mappedUsers);
+        saveUsuariosBatch(mappedUsers);
+      }
+    } catch (err) {
+      console.error('Error fetching real profiles from D1:', err);
+    }
   };
 
   useEffect(() => {
@@ -351,15 +445,34 @@ export default function AdminCreditos() {
     }
   };
 
-  const handleAdjustCredits = (userId: string, amount: number) => {
-    const success = addCreditsToUser(userId, amount);
-    if (success) {
-      toast.success(`${amount > 0 ? 'Añadidos' : 'Restados'} ${Math.abs(amount)} créditos con éxito.`);
-      refreshUsersList();
+  const handleAdjustCredits = async (userId: string, amount: number) => {
+    const targetUser = users.find(u => u.id === userId);
+    if (!targetUser) return;
+
+    const currentCreds = (targetUser as any).creditos ?? 100;
+    const newCreds = Math.max(0, currentCreds + amount);
+
+    try {
+      await requestD1('/api/profiles', 'POST', {
+        id: targetUser.id,
+        full_name: targetUser.nombre,
+        email: targetUser.email,
+        role: targetUser.rol,
+        subscription_tier: targetUser.suscripcion,
+        subscription_status: targetUser.estado_suscripcion,
+        subscription_expiry: targetUser.suscripcion_hasta,
+        school_name: targetUser.colegio || null,
+        nivel_principal: targetUser.nivel || null,
+        credits: newCreds
+      });
+
+      setUsers(prev => prev.map(u => u.id === userId ? { ...u, creditos: newCreds } : u));
       if (selectedUser && selectedUser.id === userId) {
-        setSelectedUser(prev => prev ? { ...prev, creditos: ((prev as any).creditos ?? 100) + amount } : null);
+        setSelectedUser(prev => prev ? { ...prev, creditos: newCreds } : null);
       }
-    } else {
+      toast.success(`${amount > 0 ? 'Añadidos' : 'Restados'} ${Math.abs(amount)} créditos con éxito.`);
+    } catch (err) {
+      console.error('Error updating credits in D1:', err);
       toast.error('Ocurrió un error al ajustar los créditos.');
     }
   };

@@ -68,7 +68,21 @@ export default function Login() {
       navigate(profile.rol === "coordinator" ? "/coordinador/dashboard" : "/dashboard");
     } catch (err: any) {
       setLoading(false);
-      setError(err.message === "Invalid login credentials" ? "Credenciales incorrectas." : err.message || "Ocurrió un error inesperado.");
+      const errMsg = err.message || "";
+      if (
+        errMsg.includes("Invalid login credentials") || 
+        errMsg.includes("Invalid email or password") ||
+        errMsg.includes("invalid_credentials") ||
+        errMsg.includes("Invalid credentials") ||
+        errMsg.includes("Invalid email") ||
+        errMsg.includes("Invalid password")
+      ) {
+        setError("Correo electrónico o contraseña incorrectos.");
+      } else if (errMsg.includes("User not found")) {
+        setError("No existe una cuenta registrada con este correo electrónico.");
+      } else {
+        setError(errMsg || "Ocurrió un error inesperado.");
+      }
     }
   }
 

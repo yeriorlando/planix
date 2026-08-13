@@ -11,6 +11,7 @@ import ModalCreditos from '../components/ai/ModalCreditos';
 import { generateAdditionalSupport } from '../lib/services/aiService';
 import { toast } from 'sonner';
 import { logActivity } from '../lib/activityLog';
+import ModalGenerando from '../components/ai/ModalGenerando';
 
 // Asignaturas del Currículo Dominicano
 const ASIGNATURAS = [
@@ -268,7 +269,7 @@ export default function ApoyoAdicional() {
     const handleGenerate = async (e: React.FormEvent) => {
         e.preventDefault();
 
-        if (!isPremium && !hasEnoughCredits('ai_planning')) {
+        if (!isPremium && !hasEnoughCredits('apoyo_adicional')) {
             setShowLimitModal(true);
             return;
         }
@@ -298,11 +299,11 @@ export default function ApoyoAdicional() {
 
             // Consumir créditos
             if (!isPremium) {
-                const consumed = consumeCredits('ai_planning');
+                const consumed = consumeCredits('apoyo_adicional');
                 if (!consumed) {
                     throw new Error('No posees suficientes Planix Coins para completar la generación.');
                 }
-                const cost = getCreditCosts().ai_planning ?? 15;
+                const cost = getCreditCosts().apoyo_adicional ?? 15;
                 toast.success(`Se descontaron ${cost} Planix Coins de tu saldo.`);
             }
 
@@ -685,9 +686,16 @@ export default function ApoyoAdicional() {
             <ModalCreditos 
                 isOpen={showLimitModal} 
                 onClose={() => setShowLimitModal(false)} 
-                requiredCredits={getCreditCosts().ai_planning ?? 15}
+                requiredCredits={getCreditCosts().apoyo_adicional ?? 15}
                 currentCredits={getUserCredits(user)}
                 actionName="generar Estrategias de Apoyo Adicional con IA"
+            />
+
+            <ModalGenerando
+                isOpen={isGenerating}
+                onCancel={() => setIsGenerating(false)}
+                title="Generando estrategias"
+                description="Diseñando estrategias de apoyo psicopedagógico basadas en DUA. Esto puede tomar unos segundos."
             />
         </div>
     );

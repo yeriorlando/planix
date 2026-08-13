@@ -1,7 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { Sparkles, FileText, Gamepad2, Puzzle, Disc, Award, Users, Map, HeartHandshake, Globe } from 'lucide-react';
+import { Sparkles, FileText, Gamepad2, Puzzle, Disc, Award, Users, Map, HeartHandshake, Globe, Clock } from 'lucide-react';
+import { getCurrentUser } from '../lib/storage';
+import { logActivity } from '../lib/activityLog';
 
 interface TarjetaProps {
   key?: React.Key;
@@ -19,15 +21,20 @@ interface TarjetaProps {
 export default function Tarjeta({ id, color, category, categoryIcon, rating, title, students, avatars, badge }: TarjetaProps) {
   const navigate = useNavigate();
   const borderColorMap: Record<string, string> = {
+    'bg-[#FACDD1]': 'border-[#FACDD1]',
+    'bg-[#FBE6C2]': 'border-[#FBE6C2]',
+    'bg-[#DCDDFF]': 'border-[#DCDDFF]',
+    'bg-[#B2F0D1]': 'border-[#B2F0D1]',
     'bg-card-pink': 'border-[#FACDD1]',
     'bg-card-yellow': 'border-[#FBE6C2]',
     'bg-card-purple': 'border-[#DCDDFF]',
     'bg-card-green': 'border-[#B2F0D1]',
   };
   const borderColor = borderColorMap[color] || 'border-white';
-  const WatermarkIcon = id === 'sopa-de-letras' ? Gamepad2 : id === 'crucigrama' ? Puzzle : id === 'ruleta' ? Disc : id === 'generador-diplomas' ? Award : id === 'generador-grupos' ? Users : id === 'recorridos-docentes' ? Map : id === 'apoyo-adicional' ? HeartHandshake : id === 'situaciones-aprendizaje' ? Globe : FileText;
+  const WatermarkIcon = id === 'cronometro' ? Clock : id === 'sopa-de-letras' ? Gamepad2 : id === 'crucigrama' ? Puzzle : id === 'ruleta' ? Disc : id === 'generador-diplomas' ? Award : id === 'generador-grupos' ? Users : id === 'recorridos-docentes' ? Map : id === 'apoyo-adicional' ? HeartHandshake : id === 'situaciones-aprendizaje' ? Globe : FileText;
 
-  const isBuiltInTool = id === 'generador-examenes' || 
+  const isBuiltInTool = id === 'cronometro' ||
+                        id === 'generador-examenes' || 
                         id === 'sopa-de-letras' || 
                         id === 'crucigrama' || 
                         id === 'ruleta' || 
@@ -40,7 +47,16 @@ export default function Tarjeta({ id, color, category, categoryIcon, rating, tit
   return (
     <motion.div 
       onClick={() => {
-        if (id === 'generador-examenes') {
+        const user = getCurrentUser();
+        void logActivity({
+          kind: 'tool',
+          userName: user?.nombre || user?.email || 'Usuario',
+          title: title,
+          detail: `Utilizó la herramienta ${title}`,
+        });
+        if (id === 'cronometro') {
+          navigate('/herramientas/cronometro');
+        } else if (id === 'generador-examenes') {
           navigate('/herramientas/generador-examenes');
         } else if (id === 'sopa-de-letras') {
           navigate('/herramientas/sopa-de-letras');

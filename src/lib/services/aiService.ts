@@ -2941,7 +2941,7 @@ export async function generateSituation(request: { nivel: string; grado: string;
   const { nivel, grado, asignatura, strategy, topic, contextInfo } = request;
   const systemPrompt = 'Eres un experto en planificación educativa del currículo dominicano (Adecuación Curricular). Responde DIRECTAMENTE, sin saludos, introducciones ni explicaciones.';
   const userPrompt = `Actúa como un experto en planificación educativa del currículo dominicano (Adecuación Curricular).
-Genera una Situación de Aprendizaje para una Unidad de Aprendizaje.
+Genera una Situación de Aprendizaje completa, detallada y bien estructurada para una Unidad de Aprendizaje.
 
 Parámetros:
 - Nivel Educativo: ${nivel}
@@ -2951,17 +2951,31 @@ Parámetros:
 - Contexto/Intereses: ${contextInfo || 'Escolar general'}
 - Estrategia: ${strategy}
 
-Estructura Requerida de la Narrativa (aprox 100-150 palabras):
-1. Escenario/Contexto: Describe una situación realista vinculada al contexto.
-2. Conflicto Cognitivo/Problema: Plantea la necesidad o problema que los estudiantes deben resolver.
-3. Rol del Estudiante: ¿Qué harán? (investigar, diseñar, construir).
-4. Producto Final: ¿Qué entregarán para demostrar lo aprendido?
-5. Estrategia y Competencia: Menciona brevemente la estrategia y la competencia principal.
+Estructura Requerida de la Narrativa (MÍNIMO 400-550 palabras, sé EXTENSO y DETALLADO):
 
-Salida esperada:
-Un texto coherente, motivador y redactado en presente.
+## Escenario y Contexto
+Describe con riqueza narrativa una situación realista, cotidiana y significativa vinculada al contexto escolar y comunitario de los estudiantes. Sitúa a los alumnos en un escenario concreto (lugar, momento, circunstancia) que despierte su curiosidad e interés genuino. Incluye detalles sensoriales y emocionales para que la situación sea vívida y atractiva (mínimo 80-100 palabras).
 
-IMPORTANTE: Ve directo al grano. NO incluyas introducciones, saludos, comentarios iniciales o preámbulos. Empieza directamente con el texto de la situación de aprendizaje.`;
+## Conflicto Cognitivo / Problema
+Plantea con claridad la necesidad, pregunta generadora o problema que los estudiantes deben resolver. El conflicto debe provocar desequilibrio cognitivo: algo que no se puede resolver con lo que ya saben, obligándolos a investigar, reflexionar y construir nuevo conocimiento. Formula al menos 2-3 preguntas problematizadoras que guíen la indagación (mínimo 60-80 palabras).
+
+## Rol del Estudiante y Secuencia de Actividades
+Explica detalladamente qué harán los estudiantes para resolver el problema. Describe la secuencia de actividades paso a paso: qué investigarán, cómo se organizarán (individual, parejas, equipos), qué recursos utilizarán, qué técnicas aplicarán (entrevistas, observación, experimentación, lectura, debate). Asegúrate de que la estrategia "${strategy}" esté claramente integrada en las actividades. Describe al menos 4-5 actividades concretas (mínimo 100-120 palabras).
+
+## Producto Final y Evidencia de Aprendizaje
+Describe con detalle qué producto tangible o intangible entregarán los estudiantes para demostrar lo aprendido (mural, maqueta, presentación oral, informe, dramatización, exposición, portafolio, video, campaña, etc.). Explica cómo se socializará o presentará ante la comunidad escolar. Incluye criterios generales de lo que se espera del producto (mínimo 60-80 palabras).
+
+## Competencias y Vinculación Curricular
+Menciona la(s) Competencia(s) Fundamental(es) que se desarrollan, explicando brevemente cómo la situación las activa. Vincula la estrategia pedagógica "${strategy}" con el desarrollo de las competencias. Si es pertinente, menciona la conexión con otras áreas del saber (interdisciplinariedad) (mínimo 50-70 palabras).
+
+Reglas de Redacción:
+- El texto debe ser coherente, motivador, redactado en presente y en tercera persona.
+- Usa un lenguaje profesional pero accesible.
+- Utiliza encabezados con ## para cada sección.
+- NO uses listas con viñetas excepto dentro de la sección de actividades si es necesario.
+- La narrativa debe fluir naturalmente, contando una historia pedagógica.
+
+IMPORTANTE: Ve directo al grano. NO incluyas introducciones, saludos, comentarios iniciales o preámbulos. Empieza directamente con "## Escenario y Contexto".`;
 
   try {
     return await runAICall(systemPrompt, userPrompt, 0.7, "text");

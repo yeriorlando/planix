@@ -20,6 +20,9 @@ export interface CreditCosts {
   impostor_generator: number;   // Generar dinámica El Impostor con IA
   bomba_generator: number;      // Generar dinámica La Bomba de Tiempo con IA
   naval_generator: number;      // Generar dinámica Batalla Naval con IA
+  recorridos_docentes: number;   // Generar Recorrido Docente con IA
+  apoyo_adicional: number;       // Generar Estrategias de Apoyo Adicional con IA
+  situaciones_aprendizaje: number; // Generar Situación de Aprendizaje con IA
 }
 
 export const DEFAULT_CREDIT_COSTS: CreditCosts = {
@@ -41,6 +44,9 @@ export const DEFAULT_CREDIT_COSTS: CreditCosts = {
   impostor_generator: 15,
   bomba_generator: 15,
   naval_generator: 15,
+  recorridos_docentes: 15,
+  apoyo_adicional: 15,
+  situaciones_aprendizaje: 15,
 };
 
 const COSTS_KEY = "plx:credit_costs";

@@ -1,9 +1,20 @@
 import React, { useState } from 'react';
 import { useOutletContext } from 'react-router-dom';
-import { Wrench, FileText, Gamepad2, Grid, Award, Users, Map, HeartHandshake, Globe } from 'lucide-react';
+import { Wrench, FileText, Gamepad2, Grid, Award, Users, Map, HeartHandshake, Globe, Clock } from 'lucide-react';
 import Tarjeta from '../components/Tarjeta';
 
 const INITIAL_COURSES = [
+  { 
+    id: "cronometro", 
+    title: "Cronómetro de Actividades", 
+    category: "Planificación", 
+    categoryIcon: <Clock size={14} strokeWidth={2.5} />, 
+    rating: "5.0", 
+    color: "bg-card-yellow", 
+    avatars: ['https://randomuser.me/api/portraits/women/24.jpg', 'https://randomuser.me/api/portraits/men/15.jpg'], 
+    students: "Nuevo", 
+    isTool: true 
+  },
   { 
     id: "generador-examenes", 
     title: "Generador de Exámenes", 

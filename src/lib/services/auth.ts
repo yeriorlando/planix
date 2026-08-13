@@ -15,10 +15,16 @@ export async function signIn(email: string, password?: string) {
   if (error) throw error;
   if (!data.session) throw new Error("No se pudo iniciar sesión.");
 
+  // Update last_login timestamp asynchronously
+  const nowIso = new Date().toISOString();
+  requestD1("/api/profiles", "POST", { id: data.session.user.id, last_login: nowIso }).catch(() => {});
+  supabase.from('profiles').update({ last_login: nowIso }).eq('id', data.session.user.id).then(() => {}).catch(() => {});
+
   // Try fetching the latest profile from D1 first to ensure up-to-date data (e.g. correct name in welcome toast)
   try {
     const profile = await fetchProfile(data.session.user.id);
     if (profile) {
+      profile.last_login = nowIso;
       return { session: data.session, profile };
     }
   } catch (err) {
@@ -170,5 +176,6 @@ export function mapProfile(profile: any): MappedProfile {
     year_escolar_activo: profile.year_escolar_activo || undefined,
     preferences: profile.preferences || undefined,
     is_ambassador: profile.is_ambassador === 1 || profile.is_ambassador === true,
+    last_login: profile.last_login || undefined,
   };
 }

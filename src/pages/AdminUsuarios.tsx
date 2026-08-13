@@ -42,7 +42,8 @@ import {
   Coins,
   Star,
   AlertTriangle,
-  Pencil
+  Pencil,
+  Clock
 } from 'lucide-react';
 import { getAllLevels, getGradesByLevel, getCyclesByLevel, getGradesByCycle } from '../lib/data/educationStructure';
 import { OFFICIAL_DEFAULT_SUBJECTS } from '../lib/data/defaultSubjects';
@@ -182,6 +183,29 @@ export const UserAvatar = ({ user, className = "w-12 h-12 text-sm" }: { user: { 
   );
 };
 
+export const formatTimeAgo = (dateString?: string): string => {
+  if (!dateString) return 'Sin datos de conexión';
+  const date = new Date(dateString);
+  const now = new Date();
+  const diffInSeconds = Math.floor((now.getTime() - date.getTime()) / 1000);
+
+  if (isNaN(diffInSeconds) || diffInSeconds < 0) return 'Hace un momento';
+  if (diffInSeconds < 120) return 'En línea ahora';
+  if (diffInSeconds < 3600) {
+    const mins = Math.floor(diffInSeconds / 60);
+    return `Hace ${mins} ${mins === 1 ? 'minuto' : 'minutos'}`;
+  }
+  if (diffInSeconds < 86400) {
+    const hours = Math.floor(diffInSeconds / 3600);
+    return `Hace ${hours} ${hours === 1 ? 'hora' : 'horas'}`;
+  }
+  if (diffInSeconds < 2592000) {
+    const days = Math.floor(diffInSeconds / 86400);
+    return `Hace ${days} ${days === 1 ? 'día' : 'días'}`;
+  }
+  return date.toLocaleDateString('es-ES', { day: '2-digit', month: 'short', year: 'numeric' });
+};
+
 const UserCard = React.memo(({ user, onSelect, isDuplicateFingerprint }: UserCardProps) => {
   const isPro = user.suscripcion === 'pro';
   const isSuspended = user.estado_suscripcion === 'SUSPENDIDO';
@@ -316,11 +340,28 @@ const UserCard = React.memo(({ user, onSelect, isDuplicateFingerprint }: UserCar
       </div>
 
       <div className="mt-4 pt-3 border-t border-slate-100 dark:border-zinc-800 flex items-center justify-between text-[10px] text-slate-400 font-bold">
-        <span className="flex items-center gap-1.5">
-          <Calendar size={11} />
-          Registrado: {new Date(user.creado_en).toLocaleDateString('es-ES', { day: '2-digit', month: 'short', year: 'numeric' })}
-        </span>
-        <span className="text-[#0046ab] dark:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-0.5">
+        <div className="flex flex-col gap-1 min-w-0 pr-2">
+          <span className="flex items-center gap-1.5 truncate">
+            <Calendar size={11} className="shrink-0 text-slate-400" />
+            Registrado: {new Date(user.creado_en).toLocaleDateString('es-ES', { day: '2-digit', month: 'short', year: 'numeric' })}
+          </span>
+          <span className="flex items-center gap-1.5 truncate text-slate-500 dark:text-zinc-400">
+            {(() => {
+              const lastLoginDate = user.last_login;
+              const isOnline = lastLoginDate && (new Date().getTime() - new Date(lastLoginDate).getTime() < 120000);
+              return (
+                <>
+                  <Clock size={11} className={`shrink-0 ${isOnline ? 'text-emerald-500' : 'text-slate-400'}`} />
+                  <span>Última vez:</span>
+                  <strong className={isOnline ? 'text-emerald-600 dark:text-emerald-400 font-black' : 'text-slate-700 dark:text-zinc-300 font-bold'}>
+                    {formatTimeAgo(lastLoginDate)}
+                  </strong>
+                </>
+              );
+            })()}
+          </span>
+        </div>
+        <span className="text-[#0046ab] dark:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-0.5 shrink-0 self-end">
           Gestionar →
         </span>
       </div>
@@ -707,6 +748,7 @@ export default function AdminUsuarios() {
         regional: updatedUser.regional || null,
         distrito: updatedUser.distrito || null,
         is_ambassador: updatedUser.is_ambassador ? 1 : 0,
+        last_login: updatedUser.last_login || null,
         preferences: updatedUser.preferences ? JSON.stringify(updatedUser.preferences) : null
       };
 
@@ -778,8 +820,8 @@ export default function AdminUsuarios() {
       const lastLoginStr = u.last_login || u.updated_at;
       if (!lastLoginStr) return false;
       const lastLoginTime = new Date(lastLoginStr).getTime();
-      const diffMins = (now - lastLoginTime) / (1000 * 60);
-      return diffMins >= 0 && diffMins <= 4;
+      const diffMins = (now - lastLoginTime) / (1000 * 60); // Active within last 2 minutes
+      return diffMins >= 0 && diffMins <= 2;
     }).length;
   }, [users, currentUser]);
 
@@ -1644,6 +1686,12 @@ export default function AdminUsuarios() {
                         month: 'long',
                         year: 'numeric'
                       }) : '-'}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-[9.5px] font-bold uppercase tracking-wider text-slate-400 dark:text-zinc-500 mb-0.5">Última Conexión</p>
+                    <p className="font-extrabold text-[12px] text-slate-805 dark:text-zinc-150 leading-relaxed flex items-center gap-1.5">
+                      {formatTimeAgo(selectedUser.last_login)}
                     </p>
                   </div>
                   <div className="col-span-2">

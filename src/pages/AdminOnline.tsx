@@ -134,8 +134,8 @@ export default function AdminOnline() {
       const lastLoginTime = new Date(lastLoginStr).getTime();
       const diffMins = (now - lastLoginTime) / (1000 * 60);
       
-      // Active within last 4 minutes (plus drift buffer)
-      return diffMins >= -5 && diffMins <= 4;
+      // Active within last 2 minutes
+      return diffMins >= -5 && diffMins <= 2;
     });
   }, [profiles, currentUser]);
 
@@ -170,8 +170,9 @@ export default function AdminOnline() {
       {/* Top Header Navigation */}
       <div className="w-full flex flex-col sm:flex-row justify-between items-start sm:items-center bg-white dark:bg-zinc-900 px-6 py-5 rounded-[28px] border border-black/5 dark:border-zinc-800 shadow-xs gap-4">
         <div className="text-left flex items-center gap-3">
-          <div className="w-10 h-10 bg-emerald-500/10 dark:bg-emerald-950/30 rounded-full flex items-center justify-center border border-emerald-500/10 shadow-2xs shrink-0">
-            <span className="w-3.5 h-3.5 rounded-full bg-emerald-500 animate-pulse" />
+          <div className="w-10 h-10 bg-emerald-500/10 dark:bg-emerald-950/30 rounded-full flex items-center justify-center border border-emerald-500/10 shadow-2xs shrink-0 relative">
+            <span className="animate-ping absolute inline-flex h-3.5 w-3.5 rounded-full bg-emerald-400 opacity-75" />
+            <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500" />
           </div>
           <div>
             <h1 className="text-2xl font-black text-slate-800 dark:text-white tracking-tight flex items-center gap-2">
@@ -311,7 +312,10 @@ export default function AdminOnline() {
           </div>
 
           <div className="flex items-center gap-1.5 text-xs text-slate-450 dark:text-zinc-500 font-bold select-none mt-4 md:mt-0">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse shrink-0" />
+            <span className="relative flex h-2 w-2 shrink-0">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
+            </span>
             <span>Actualización en tiempo real (1min)</span>
           </div>
         </div>
@@ -365,7 +369,10 @@ export default function AdminOnline() {
                     {/* Circular Avatar Container with clear style */}
                     <div className="w-11 h-11 bg-slate-100 dark:bg-zinc-800 rounded-full flex items-center justify-center border border-black/5 dark:border-white/5 shadow-2xs shrink-0 relative p-0.5">
                       <UserAvatar user={user} className="w-full h-full text-xs font-black" />
-                      <span className="absolute bottom-0.5 right-0.5 w-3 h-3 bg-emerald-500 border-2 border-white dark:border-zinc-900 rounded-full shadow-sm animate-pulse z-10" />
+                      <div className="absolute bottom-0 right-0 flex h-3.5 w-3.5 items-center justify-center z-10">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                        <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500 border-2 border-white dark:border-zinc-900" />
+                      </div>
                     </div>
                   </div>
 

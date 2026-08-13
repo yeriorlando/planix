@@ -337,7 +337,7 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
           ciclo_principal: body.ciclo_principal !== undefined ? body.ciclo_principal : (body.ciclo !== undefined ? body.ciclo : (oldProfile?.ciclo_principal || null)),
           grado_principal: body.grado_principal !== undefined ? body.grado_principal : (body.grado !== undefined ? body.grado : (oldProfile?.grado_principal || null)),
           allowed_subjects: body.allowed_subjects !== undefined ? body.allowed_subjects : (oldProfile?.allowed_subjects || null),
-          last_login: body.last_login !== undefined ? body.last_login : (oldProfile?.last_login || new Date().toISOString()),
+          last_login: body.last_login !== undefined ? body.last_login : (oldProfile?.last_login || null),
           is_active: body.is_active !== undefined ? (body.is_active ? true : false) : (oldProfile?.is_active !== undefined ? oldProfile.is_active : true),
           regional: regionalVal,
           distrito: distritoVal,

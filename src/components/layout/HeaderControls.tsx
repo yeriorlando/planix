@@ -80,11 +80,15 @@ export function HeaderControls({
     ? "EMBAJADOR"
     : user?.rol === "admin" || user?.rol === "administrador"
       ? "ADMINISTRADOR"
-      : user?.rol === "coordinator"
+      : user?.rol === "coordinator" || user?.rol === "coordinador"
         ? "COORDINADOR"
-        : user?.suscripcion === "pro"
-          ? "PLANIX PRO"
-          : "DOCENTE";
+        : "DOCENTE";
+
+  const planText = user?.is_ambassador
+    ? "EMBAJADOR PRO"
+    : user?.suscripcion === "pro"
+      ? "PLANIX PRO"
+      : "PLAN GRATUITO";
 
   return (
     <header className="relative w-full z-45 flex items-center justify-between gap-3.5 sm:gap-5 -mt-2 pb-5 select-none">
@@ -334,11 +338,9 @@ export function HeaderControls({
                   ? "text-amber-600 dark:text-amber-400"
                   : user?.rol === "admin" || user?.rol === "administrador"
                     ? "text-indigo-600 dark:text-indigo-400"
-                    : user?.rol === "coordinator"
+                    : user?.rol === "coordinator" || user?.rol === "coordinador"
                       ? "text-purple-600 dark:text-purple-400"
-                      : user?.suscripcion === "pro"
-                        ? "text-amber-600 dark:text-amber-400"
-                        : "text-slate-400 dark:text-slate-500"
+                      : "text-slate-400 dark:text-slate-500"
               }`}>
                 {roleText}
               </span>
@@ -357,10 +359,12 @@ export function HeaderControls({
                   <p className="font-bold text-slate-900 dark:text-white text-sm truncate">
                     {user?.nombre || "Usuario"}
                   </p>
-                  <p className="text-slate-400 dark:text-slate-400 text-[11px] font-medium flex items-center gap-1.5 mt-0.5">
+                  <p className="text-slate-400 dark:text-slate-400 text-[11px] font-extrabold flex items-center gap-1.5 mt-0.5 tracking-wider uppercase">
                     {user?.is_ambassador && <Star size={11} className="text-amber-500 fill-amber-500 shrink-0" />}
                     {user?.suscripcion === "pro" && !user?.is_ambassador && <Crown size={11} className="text-amber-500 fill-amber-500 shrink-0" />}
-                    <span>{roleText}</span>
+                    <span className={user?.suscripcion === "pro" || user?.is_ambassador ? "text-amber-600 dark:text-amber-400 font-extrabold" : "text-slate-400 dark:text-slate-500"}>
+                      {planText}
+                    </span>
                   </p>
                 </div>
 

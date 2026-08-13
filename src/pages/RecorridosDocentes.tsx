@@ -11,6 +11,7 @@ import ModalCreditos from '../components/ai/ModalCreditos';
 import { generateTeacherScript } from '../lib/services/aiService';
 import { toast } from 'sonner';
 import { logActivity } from '../lib/activityLog';
+import ModalGenerando from '../components/ai/ModalGenerando';
 
 // Asignaturas del Currículo Dominicano
 const ASIGNATURAS = [
@@ -251,7 +252,7 @@ export default function RecorridosDocentes() {
     const handleGenerate = async (e: React.FormEvent) => {
         e.preventDefault();
 
-        if (!isPremium && !hasEnoughCredits('ai_planning')) {
+        if (!isPremium && !hasEnoughCredits('recorridos_docentes')) {
             setShowLimitModal(true);
             return;
         }
@@ -281,11 +282,11 @@ export default function RecorridosDocentes() {
 
             // Consumir créditos
             if (!isPremium) {
-                const consumed = consumeCredits('ai_planning');
+                const consumed = consumeCredits('recorridos_docentes');
                 if (!consumed) {
                     throw new Error('No posees suficientes Planix Coins para completar la generación.');
                 }
-                const cost = getCreditCosts().ai_planning ?? 15;
+                const cost = getCreditCosts().recorridos_docentes ?? 15;
                 toast.success(`Se descontaron ${cost} Planix Coins de tu saldo.`);
             }
 
@@ -649,9 +650,16 @@ export default function RecorridosDocentes() {
             <ModalCreditos 
                 isOpen={showLimitModal} 
                 onClose={() => setShowLimitModal(false)} 
-                requiredCredits={getCreditCosts().ai_planning ?? 15}
+                requiredCredits={getCreditCosts().recorridos_docentes ?? 15}
                 currentCredits={getUserCredits(user)}
                 actionName="generar un Recorrido Docente con IA"
+            />
+
+            <ModalGenerando
+                isOpen={isGenerating}
+                onCancel={() => setIsGenerating(false)}
+                title="Diseñando recorrido"
+                description="Elaborando tu recorrido docente paso a paso. Esto puede tomar unos segundos."
             />
         </div>
     );

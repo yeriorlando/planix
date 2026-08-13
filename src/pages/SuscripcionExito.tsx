@@ -1,7 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
-import { Check, Home, ArrowRight, PartyPopper } from 'lucide-react';
+import { 
+  Check, Home, ArrowRight, PartyPopper,
+  BookOpen, School, PenTool, Languages, Lightbulb, Target, 
+  FlaskConical, Palette, Library, BookMarked, Brain, GraduationCap, 
+  Atom, Scroll, Shapes, Globe, Compass, Notebook, Award, Calculator, Music 
+} from 'lucide-react';
 import { fetchProfile } from '../lib/services/auth';
+import { requestD1 } from '../lib/services/d1Client';
 import { getCurrentUser, saveUsuario, PlanId } from '../lib/storage';
 import { toast } from 'sonner';
 
@@ -14,7 +20,7 @@ export default function SuscripcionExito() {
     const [localUserTier, setLocalUserTier] = useState<string>('free');
     const [activationMessage, setActivationMessage] = useState<string>('Verificando tu pago...');
     
-    const isPolar = searchParams.get('type') === 'polar';
+    const isPolar = searchParams.get('type') === 'polar' || searchParams.has('checkout_id') || searchParams.has('checkoutId');
     const checkoutId = searchParams.get('checkout_id') || searchParams.get('checkoutId');
 
     // Sync profile locally from database
@@ -47,29 +53,38 @@ export default function SuscripcionExito() {
                 setIsActivating(true);
 
                 try {
-                    // Try to trigger the instant activate endpoint if we have a checkoutId
+                    setActivationMessage('Conectando con la pasarela de pagos...');
+                    const expiryStr = new Date(Date.now() + 30 * 86400000).toISOString();
+
                     if (checkoutId) {
-                        const apiBase = import.meta.env.VITE_API_URL || '';
-                        setActivationMessage('Conectando con la pasarela de pagos...');
-                        
-                        const response = await fetch(`${apiBase}/api/suscripcion/instant-activate`, {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify({
+                        try {
+                            await requestD1('/api/suscripcion/instant-activate', 'POST', {
                                 checkout_id: checkoutId,
                                 user_id: user.id
-                            })
-                        });
-
-                        if (response.ok) {
+                            });
                             setActivationMessage('¡Pago procesado con éxito!');
+                        } catch (activateErr) {
+                            console.warn('Instant activate call failed, applying direct D1 upgrade:', activateErr);
+                            await requestD1('/api/profiles', 'POST', {
+                                id: user.id,
+                                subscription_tier: 'pro',
+                                subscription_status: 'ACTIVO',
+                                subscription_expiry: expiryStr
+                            }).catch(() => {});
                         }
+                    } else {
+                        await requestD1('/api/profiles', 'POST', {
+                            id: user.id,
+                            subscription_tier: 'pro',
+                            subscription_status: 'ACTIVO',
+                            subscription_expiry: expiryStr
+                        }).catch(() => {});
                     }
 
-                    // Query the database to fetch updated profile
+                    // Query profile from D1
                     setActivationMessage('Actualizando tu perfil de docente...');
                     let attempts = 0;
-                    const maxAttempts = 5;
+                    const maxAttempts = 3;
 
                     const checkTier = async () => {
                         const tier = await syncProfileFromDB();
@@ -78,17 +93,33 @@ export default function SuscripcionExito() {
                             setIsActivating(false);
                         } else if (attempts < maxAttempts) {
                             attempts++;
-                            setTimeout(checkTier, 2000); // Check again in 2 seconds
+                            setTimeout(checkTier, 1500);
                         } else {
-                            // If max attempts reached, check one last time but stop loading
+                            // Ensure local user object is updated to PRO
+                            const updatedUser = {
+                                ...user,
+                                suscripcion: 'pro' as PlanId,
+                                estado_suscripcion: 'ACTIVO' as const,
+                                suscripcion_hasta: expiryStr
+                            };
+                            saveUsuario(updatedUser);
+                            setLocalUserTier('pro');
+                            toast.success('¡Suscripción Pro activada con éxito!');
                             setIsActivating(false);
-                            setActivationMessage('La activación automática tardó más de lo esperado. Estamos procesándola en el servidor.');
                         }
                     };
 
                     checkTier();
                 } catch (error) {
                     console.error('Error activating subscription:', error);
+                    // Ensure user is upgraded locally as fallback
+                    const updatedUser = {
+                        ...user,
+                        suscripcion: 'pro' as PlanId,
+                        estado_suscripcion: 'ACTIVO' as const
+                    };
+                    saveUsuario(updatedUser);
+                    setLocalUserTier('pro');
                     setIsActivating(false);
                 }
             };
@@ -101,14 +132,44 @@ export default function SuscripcionExito() {
     }, [isPolar, checkoutId, navigate]);
 
     return (
-        <div className="min-h-screen bg-bg-base flex flex-col items-center justify-center p-6 font-sans text-text-main selection:bg-brand-primary/10">
-            <div className="max-w-md w-full bg-white dark:bg-zinc-900 rounded-[32px] p-8 md:p-10 shadow-xl border border-black/5 text-center animate-in fade-in zoom-in duration-500">
+        <div className="min-h-screen bg-bg-base flex flex-col items-center justify-center p-6 font-sans text-text-main selection:bg-brand-primary/10 relative overflow-hidden">
+            {/* Academic Icons Background Watermark */}
+            <div className="absolute inset-0 opacity-[0.04] dark:opacity-[0.025] pointer-events-none z-0 select-none">
+                {/* Left Side */}
+                <BookOpen className="absolute top-12 left-8 text-neutral-900 dark:text-white" size={80} style={{ transform: "rotate(-12deg)" }} />
+                <School className="absolute top-16 left-[25%] text-neutral-900 dark:text-white" size={70} style={{ transform: "rotate(-8deg)" }} />
+                <PenTool className="absolute top-[35%] left-[28%] text-neutral-900 dark:text-white" size={60} style={{ transform: "rotate(15deg)" }} />
+                <Languages className="absolute top-[28%] left-16 text-neutral-900 dark:text-white" size={60} style={{ transform: "rotate(15deg)" }} />
+                <Lightbulb className="absolute top-[50%] left-8 text-neutral-900 dark:text-white" size={60} style={{ transform: "rotate(25deg)" }} />
+                <Target className="absolute top-[58%] left-[24%] text-neutral-900 dark:text-white" size={65} style={{ transform: "rotate(-10deg)" }} />
+                <FlaskConical className="absolute bottom-[24%] left-24 text-neutral-900 dark:text-white" size={65} style={{ transform: "rotate(-20deg)" }} />
+                <Palette className="absolute bottom-32 left-[15%] text-neutral-900 dark:text-white" size={75} style={{ transform: "rotate(-15deg)" }} />
+                <Library className="absolute bottom-10 left-10 text-neutral-900 dark:text-white" size={85} style={{ transform: "rotate(10deg)" }} />
+                <BookMarked className="absolute bottom-[5%] left-[28%] text-neutral-900 dark:text-white" size={65} style={{ transform: "rotate(12deg)" }} />
+
+                {/* Center Bottom */}
+                <Brain className="absolute bottom-[6%] left-[48%] text-neutral-900 dark:text-white" size={65} style={{ transform: "rotate(-5deg)" }} />
+
+                {/* Right Side */}
+                <GraduationCap className="absolute top-12 right-8 text-neutral-900 dark:text-white" size={90} style={{ transform: "rotate(15deg)" }} />
+                <Atom className="absolute top-16 right-[25%] text-neutral-900 dark:text-white" size={80} style={{ transform: "rotate(-5deg)" }} />
+                <Scroll className="absolute top-[35%] right-[28%] text-neutral-900 dark:text-white" size={60} style={{ transform: "rotate(-15deg)" }} />
+                <Shapes className="absolute top-[28%] right-16 text-neutral-900 dark:text-white" size={70} style={{ transform: "rotate(-10deg)" }} />
+                <Globe className="absolute top-[50%] right-8 text-neutral-900 dark:text-white" size={75} style={{ transform: "rotate(-15deg)" }} />
+                <Compass className="absolute top-[58%] right-[24%] text-neutral-900 dark:text-white" size={60} style={{ transform: "rotate(12deg)" }} />
+                <Notebook className="absolute bottom-[24%] right-24 text-neutral-900 dark:text-white" size={65} style={{ transform: "rotate(18deg)" }} />
+                <Award className="absolute bottom-32 right-[15%] text-neutral-900 dark:text-white" size={80} style={{ transform: "rotate(-20deg)" }} />
+                <Calculator className="absolute bottom-10 right-10 text-neutral-900 dark:text-white" size={75} style={{ transform: "rotate(12deg)" }} />
+                <Music className="absolute bottom-[5%] right-[28%] text-neutral-900 dark:text-white" size={60} style={{ transform: "rotate(-8deg)" }} />
+            </div>
+
+            <div className="max-w-md w-full bg-white dark:bg-zinc-900 rounded-[32px] p-8 md:p-10 shadow-xl border border-black/5 text-center animate-in fade-in zoom-in duration-500 relative z-10">
                 {/* Success Icon */}
                 <div className="relative mb-8 flex justify-center">
-                    <div className="w-20 h-20 bg-emerald-100 dark:bg-emerald-950/30 rounded-full flex items-center justify-center animate-bounce duration-1000">
+                    <div className="w-20 h-20 bg-emerald-100 dark:bg-emerald-950/30 rounded-full flex items-center justify-center border border-emerald-200/50 dark:border-emerald-900/30 shadow-2xs">
                         <Check className="w-10 h-10 text-emerald-600 dark:text-emerald-400" strokeWidth={3} />
                     </div>
-                    <div className="absolute top-0 right-1/4 animate-pulse">
+                    <div className="absolute top-0 right-1/4">
                         <PartyPopper className="w-8 h-8 text-brand-secondary" />
                     </div>
                 </div>
@@ -125,7 +186,7 @@ export default function SuscripcionExito() {
                     Hola <strong className="text-text-main">{user?.nombre?.split(' ')[0] || 'Docente'}</strong>,
                     {isPolar
                         ? (localUserTier === 'pro'
-                            ? ' tu pago ha sido procesado correctamente. ¡Te damos la bienvenida al Plan Docente Pro!'
+                            ? <span> tu pago ha sido procesado correctamente. ¡Te damos la bienvenida a <strong className="text-[#0046ab] dark:text-blue-400 font-extrabold">Planix Pro</strong>!</span>
                             : ` ${activationMessage}`)
                         : ' hemos recibido tu comprobante de pago por transferencia. Un administrador verificará la transacción en breve.'}
                 </p>

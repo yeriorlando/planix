@@ -9,7 +9,7 @@ import {
   ShieldCheck, CreditCard, User, GraduationCap, Lock, Trash2, Eye, EyeOff,
   AlertTriangle, Crown, ImageIcon, User2, Shield, Mail, Key, Layers, Award, BookOpen, Home, MapPin, Globe, Check,
   Landmark, X, Info, ChevronRight, Copy, Sparkles, RefreshCw, ArrowLeft, Clock, AlertCircle, Smile, FileText, LayoutGrid, Users,
-  Pencil
+  Pencil, ExternalLink
 } from "lucide-react";
 import { toast, Toaster } from "sonner";
 import AmbassadorBadge from "../components/ui/AmbassadorBadge";
@@ -186,6 +186,7 @@ export default function Perfil() {
   const [showUpgradeModal, setShowUpgradeModal] = useState(false);
   const [modalStep, setModalStep] = useState<'select' | 'confirm_card' | 'bank' | 'waiting_polar'>('select');
   const [processingPayment, setProcessingPayment] = useState(false);
+  const [loadingPolarPortal, setLoadingPolarPortal] = useState(false);
 
   // Effect to poll subscription status from D1 when waiting for Polar payment
   useEffect(() => {
@@ -407,6 +408,30 @@ export default function Perfil() {
     } catch (err) {
       console.error("Error manual verification of profile status:", err);
       toast.error('Error al verificar. Intenta de nuevo.', { id: loadingToast });
+    }
+  };
+
+  const handleOpenPolarPortal = async () => {
+    if (!user?.email) return;
+    setLoadingPolarPortal(true);
+    const loadingToast = toast.loading("Conectando con el portal de cliente de Polar.sh...");
+
+    try {
+      const res = await requestD1<{ url: string }>("/api/polar/portal-session", "POST", {
+        email: user.email,
+      });
+      toast.dismiss(loadingToast);
+      if (res && res.url) {
+        window.open(res.url, "_blank");
+      } else {
+        window.open(`https://polar.sh/planix/portal?customer_email=${encodeURIComponent(user.email)}`, "_blank");
+      }
+    } catch (err) {
+      console.error("Error opening Polar portal:", err);
+      toast.dismiss(loadingToast);
+      window.open(`https://polar.sh/planix/portal?customer_email=${encodeURIComponent(user.email)}`, "_blank");
+    } finally {
+      setLoadingPolarPortal(false);
     }
   };
 
@@ -1127,20 +1152,12 @@ export default function Perfil() {
                   });
 
                   if (diffDays <= 0) {
-                    return <>Tu período de prueba o licencia Pro ha expirado.</>;
-                  }
-
-                  if (diffDays <= 365) {
-                    return (
-                      <>
-                        Acceso premium activo por <strong className="font-extrabold text-[#1B1B1B] dark:text-white">período de prueba</strong>. Te quedan <strong className="font-extrabold text-amber-500 dark:text-amber-455">{diffDays} {diffDays === 1 ? 'día' : 'días'}</strong> de prueba (vence el <strong className="font-extrabold text-[#1B1B1B] dark:text-white">{formattedDate}</strong>).
-                      </>
-                    );
+                    return <>Tu suscripción Planix Pro ha expirado.</>;
                   }
 
                   return (
                     <>
-                      Suscripción premium ilimitada. Próxima fecha de renovación: <strong className="font-extrabold text-[#1B1B1B] dark:text-white">{formattedDate}</strong>.
+                      Suscripción <strong className="font-extrabold text-[#0046ab] dark:text-blue-400">Planix Pro</strong> activa. Próxima fecha de renovación: <strong className="font-extrabold text-[#1B1B1B] dark:text-white">{formattedDate}</strong>.
                     </>
                   );
                 })()}
@@ -1156,8 +1173,34 @@ export default function Perfil() {
                 <Crown className="h-4 w-4 fill-white/10 text-white dark:text-neutral-900" /> Actualizar Plan
               </Button>
             ) : (
-              <div className="w-full py-3 bg-gradient-to-r from-emerald-500/10 to-teal-500/10 border border-emerald-500/20 rounded-[18px] text-xs text-emerald-600 dark:text-emerald-400 font-extrabold flex items-center justify-center gap-2 select-none">
-                <ShieldCheck className="h-4 w-4 text-emerald-600 dark:text-emerald-400" /> Suscripción Pro Activa
+              <div className="space-y-2">
+                <div className="w-full py-3 bg-gradient-to-r from-emerald-500/10 to-teal-500/10 border border-emerald-500/20 rounded-[18px] text-xs text-emerald-600 dark:text-emerald-400 font-extrabold flex items-center justify-center gap-2 select-none">
+                  <ShieldCheck className="h-4 w-4 text-emerald-600 dark:text-emerald-400" /> Suscripción Pro Activa
+                </div>
+
+                <button
+                  type="button"
+                  onClick={handleOpenPolarPortal}
+                  disabled={loadingPolarPortal}
+                  className="w-full p-3.5 bg-white dark:bg-zinc-800/90 hover:bg-slate-50 dark:hover:bg-zinc-800 border border-slate-200/80 dark:border-zinc-700/80 rounded-[18px] transition-all duration-200 shadow-3xs hover:shadow-2xs flex items-center justify-between group active:scale-[0.98] select-none cursor-pointer disabled:opacity-50"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-xl bg-[#0046ab]/10 dark:bg-blue-950/50 text-[#0046ab] dark:text-blue-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                      <CreditCard className="w-4 h-4 text-[#0046ab] dark:text-blue-400" />
+                    </div>
+                    <div className="flex flex-col text-left">
+                      <span className="text-[12px] font-extrabold text-slate-800 dark:text-white leading-tight">Gestionar Facturación</span>
+                      <span className="text-[10px] font-semibold text-slate-400 dark:text-zinc-400 leading-tight mt-0.5">Métodos de pago y recibos en Polar.sh</span>
+                    </div>
+                  </div>
+                  <div className="w-6 h-6 rounded-full bg-slate-100 dark:bg-zinc-700/60 flex items-center justify-center group-hover:bg-[#0046ab] group-hover:text-white transition-all text-slate-400 dark:text-zinc-400 shrink-0">
+                    {loadingPolarPortal ? (
+                      <div className="w-3 h-3 border-2 border-slate-400 border-t-slate-800 dark:border-zinc-400 dark:border-t-white rounded-full animate-spin" />
+                    ) : (
+                      <ExternalLink className="w-3.5 h-3.5 group-hover:text-white" />
+                    )}
+                  </div>
+                </button>
               </div>
             )}
           </Card>

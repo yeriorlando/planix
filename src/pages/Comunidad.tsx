@@ -286,9 +286,9 @@ export default function Comunidad() {
     try {
       const existing = getCommunityPosts();
 
-      // Clean up duplicates and empty posts from localStorage
+      // Clean up mock demo posts, duplicates, and empty posts from localStorage
       let cleaned = Array.isArray(existing) ? existing : [];
-      cleaned = cleaned.filter(p => p && (p.id?.startsWith('mock_') || (p.contenido && p.contenido.trim() !== '')));
+      cleaned = cleaned.filter(p => p && !p.id?.startsWith('mock_') && (p.contenido && p.contenido.trim() !== ''));
 
       const seenIds = new Set<string>();
       cleaned = cleaned.filter(p => {
@@ -298,74 +298,8 @@ export default function Comunidad() {
         return true;
       });
 
-      if (Array.isArray(existing) && cleaned.length !== existing.length) {
+      if (!Array.isArray(existing) || cleaned.length !== existing.length) {
         localStorage.setItem("plx:community", JSON.stringify(cleaned));
-      }
-
-      // If no community posts are saved yet, seed initial ones
-      if (cleaned.length === 0) {
-        const defaultPosts: CommunityPost[] = [
-          {
-            id: 'mock_post_1',
-            docente_id: 'system',
-            docente_nombre: 'María Altagracia Mercedes',
-            docente_rol: 'Directora Supervisora',
-            contenido: 'Estimados colegas, les comparto que la adecuación curricular del nivel primario ha sido actualizada. Les recomiendo de manera especial enfocar la planificación del tercer periodo en el desarrollo de la competencia de Pensamiento Lógico, Creativo y Crítico en todas las asignaturas. Visiten https://minerd.gob.do para descargar las guías oficiales.',
-            likes_count: 5,
-            comments_count: 3,
-            bookmarks_count: 1,
-            views_count: 42,
-            liked_by: [],
-            bookmarked_by: [],
-            creado_en: new Date(Date.now() - 3600000 * 2).toISOString(),
-            comentarios: [
-              {
-                id: 'mock_comment_1',
-                docente_nombre: 'José Ramón Díaz',
-                contenido: 'Excelente sugerencia, Directora. Ya implementé la estrategia del semáforo curricular en mi aula y mis niños respondieron de maravilla.',
-                creado_en: new Date(Date.now() - 3600000).toISOString(),
-                respuestas: [
-                  {
-                    id: 'mock_reply_1',
-                    docente_nombre: 'María Altagracia Mercedes',
-                    contenido: '¡Me alegro mucho, José! Ese es exactamente el impacto que buscamos.',
-                    creado_en: new Date(Date.now() - 3000000).toISOString()
-                  }
-                ] as any
-              },
-              {
-                id: 'mock_comment_2',
-                docente_nombre: 'Ana Teresa Mejia',
-                contenido: 'Gracias por la recomendación. ¿Habrá alguna guía específica para el primer ciclo?',
-                creado_en: new Date(Date.now() - 1800000).toISOString()
-              }
-            ]
-          },
-          {
-            id: 'mock_post_2',
-            docente_id: 'system_2',
-            docente_nombre: 'Carlos Manuel Gómez',
-            docente_rol: 'Docente de Matemáticas',
-            contenido: '¡Hola a todos! Hoy probamos la dinámica "Verdad o Mentira Curricular" en 4to grado de Primaria antes de iniciar el tema de las fracciones. La participación fue increíble y sirvió para activar saberes previos de forma divertida. Les dejo el enlace de la plantilla: https://drive.google.com/drive/folders/1a2b3c',
-            likes_count: 8,
-            comments_count: 1,
-            bookmarks_count: 2,
-            views_count: 59,
-            liked_by: [],
-            bookmarked_by: [],
-            creado_en: new Date(Date.now() - 3600000 * 5).toISOString(),
-            comentarios: [
-              {
-                id: 'mock_comment_3',
-                docente_nombre: 'Claribel Ortiz',
-                contenido: '¡Qué gran idea Carlos! La voy a probar mañana mismo con mis estudiantes de 5to para la clase de geometría.',
-                creado_en: new Date(Date.now() - 3600000 * 4).toISOString()
-              }
-            ]
-          }
-        ];
-        defaultPosts.forEach(saveCommunityPost);
-        return defaultPosts;
       }
 
       // Sanitize community posts to prevent any runtime rendering crashes due to database schema updates
@@ -422,8 +356,8 @@ export default function Comunidad() {
       try {
         const d1Posts = await requestD1<CommunityPost[]>("/api/community-posts");
         if (Array.isArray(d1Posts)) {
-          // Filter out empty posts from API sync
-          const validD1Posts = d1Posts.filter(p => p && (p.id?.startsWith('mock_') || (p.contenido && p.contenido.trim() !== '')));
+          // Filter out mock posts and empty posts from API sync
+          const validD1Posts = d1Posts.filter(p => p && !p.id?.startsWith('mock_') && (p.contenido && p.contenido.trim() !== ''));
           
           // Sync with local cache
           validD1Posts.forEach(saveCommunityPost);
@@ -567,9 +501,9 @@ export default function Comunidad() {
     try {
       const all = getCommunityPosts();
 
-      // Clean up duplicates and empty posts from localStorage
+      // Clean up mock demo posts, duplicates, and empty posts from localStorage
       let cleaned = Array.isArray(all) ? all : [];
-      cleaned = cleaned.filter(p => p && (p.id?.startsWith('mock_') || (p.contenido && p.contenido.trim() !== '')));
+      cleaned = cleaned.filter(p => p && !p.id?.startsWith('mock_') && (p.contenido && p.contenido.trim() !== ''));
 
       const seenIds = new Set<string>();
       cleaned = cleaned.filter(p => {
@@ -579,7 +513,7 @@ export default function Comunidad() {
         return true;
       });
 
-      if (Array.isArray(all) && cleaned.length !== all.length) {
+      if (!Array.isArray(all) || cleaned.length !== all.length) {
         localStorage.setItem("plx:community", JSON.stringify(cleaned));
       }
 

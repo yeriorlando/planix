@@ -11,6 +11,7 @@ import ModalCreditos from '../components/ai/ModalCreditos';
 import { generateSituation } from '../lib/services/aiService';
 import { toast } from 'sonner';
 import { logActivity } from '../lib/activityLog';
+import ModalGenerando from '../components/ai/ModalGenerando';
 
 // Asignaturas del Currículo Dominicano
 const ASIGNATURAS = [
@@ -269,7 +270,7 @@ export default function SituacionesAprendizaje() {
     const handleGenerate = async (e: React.FormEvent) => {
         e.preventDefault();
 
-        if (!isPremium && !hasEnoughCredits('ai_planning')) {
+        if (!isPremium && !hasEnoughCredits('situaciones_aprendizaje')) {
             setShowLimitModal(true);
             return;
         }
@@ -301,11 +302,11 @@ export default function SituacionesAprendizaje() {
 
             // Consumir créditos
             if (!isPremium) {
-                const consumed = consumeCredits('ai_planning');
+                const consumed = consumeCredits('situaciones_aprendizaje');
                 if (!consumed) {
                     throw new Error('No posees suficientes Planix Coins para completar la generación.');
                 }
-                const cost = getCreditCosts().ai_planning ?? 15;
+                const cost = getCreditCosts().situaciones_aprendizaje ?? 15;
                 toast.success(`Se descontaron ${cost} Planix Coins de tu saldo.`);
             }
 
@@ -702,9 +703,16 @@ export default function SituacionesAprendizaje() {
             <ModalCreditos 
                 isOpen={showLimitModal} 
                 onClose={() => setShowLimitModal(false)} 
-                requiredCredits={getCreditCosts().ai_planning ?? 15}
+                requiredCredits={getCreditCosts().situaciones_aprendizaje ?? 15}
                 currentCredits={getUserCredits(user)}
                 actionName="generar Situaciones de Aprendizaje con IA"
+            />
+
+            <ModalGenerando
+                isOpen={isGenerating}
+                onCancel={() => setIsGenerating(false)}
+                title="Redactando situación"
+                description="Elaborando una situación de aprendizaje significativa y alineada al currículo. Esto puede tomar unos segundos."
             />
         </div>
     );

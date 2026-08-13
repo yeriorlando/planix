@@ -1095,8 +1095,106 @@ export default function Estudiantes() {
                 const boysPct = totalStudents > 0 ? (boysCount / totalStudents) * 100 : 50;
                 const conductasCount = getStudentAnecdotalRecordsCount(activeClassroom.id);
 
+                // Real Attendance stats for active classroom
+                const classroomAttendance = getAttendance(activeClassroom.id);
+                let totalPresentOrTardy = 0;
+                let totalEntries = 0;
+
+                classroomAttendance.forEach((att) => {
+                  classroomStudents.forEach((student) => {
+                    const status = att.registro?.[student.id];
+                    if (status) {
+                      totalEntries++;
+                      if (status === 'P' || status === 'T') {
+                        totalPresentOrTardy++;
+                      }
+                    }
+                  });
+                });
+
+                const realAttendanceAvgPct = totalEntries > 0 
+                  ? Math.round((totalPresentOrTardy / totalEntries) * 1000) / 10 
+                  : 100;
+
+                // Today's attendance calculation
+                const todayStr = new Date().toISOString().split('T')[0];
+                const todayRecord = classroomAttendance.find((a) => a.fecha === todayStr);
+
+                let todayPct = 0;
+                let todayRecorded = false;
+
+                if (todayRecord) {
+                  let todayPresentOrTardy = 0;
+                  let todayMarkedCount = 0;
+
+                  classroomStudents.forEach((student) => {
+                    const status = todayRecord.registro?.[student.id];
+                    if (status) {
+                      todayMarkedCount++;
+                      if (status === 'P' || status === 'T') {
+                        todayPresentOrTardy++;
+                      }
+                    }
+                  });
+
+                  if (todayMarkedCount > 0 && totalStudents > 0) {
+                    todayRecorded = true;
+                    todayPct = Math.round((todayPresentOrTardy / totalStudents) * 100);
+                  }
+                }
+
+                // Current day of week logic for Gamificación IA card
+                const currentDayOfWeek = new Date().getDay(); // 0 = Sun, 1 = Mon, 2 = Tue, 3 = Wed, 4 = Thu, 5 = Fri, 6 = Sat
+                const isDayActive = (index: number) => {
+                  // Sábado (index 5) y Domingo (index 6) NUNCA se marcan ("SABADO Y DOMINGO NO")
+                  if (index >= 5) return false;
+
+                  // Si es Fin de Semana (Sábado o Domingo), la semana escolar (L-V) ya concluyó por completo
+                  if (currentDayOfWeek === 0 || currentDayOfWeek === 6) {
+                    return true;
+                  }
+
+                  // Lunes=1, Martes=2, Miércoles=3, Jueves=4, Viernes=5
+                  return index + 1 <= currentDayOfWeek;
+                };
+
                 return (
                   <div key={activeClassroom.id} className="mb-8 animate-in fade-in slide-in-from-top-8 duration-500 ease-out">
+                    {/* Indicador Gráfico del Aula Seleccionada */}
+                    <div className="mb-6 bg-gradient-to-r from-blue-50/90 via-indigo-50/80 to-purple-50/90 dark:from-slate-800/90 dark:to-slate-900/90 border border-blue-200/60 dark:border-blue-800/50 rounded-2xl p-4 shadow-sm backdrop-blur-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 select-none">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-xl bg-[#1e88e5] text-white flex items-center justify-center shadow-2xs shrink-0">
+                          <GraduationCap size={20} />
+                        </div>
+                        <div>
+                          <div className="flex items-center gap-2">
+                            <span className="text-[10px] font-black uppercase tracking-widest text-[#1e88e5] bg-blue-100/80 dark:bg-blue-900/40 px-2 py-0.5 rounded-md">
+                              Aula Seleccionada
+                            </span>
+                            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                          </div>
+                          <h3 className="text-base sm:text-lg font-black text-slate-850 dark:text-white leading-snug mt-0.5">
+                            {activeClassroom.nombre}
+                          </h3>
+                        </div>
+                      </div>
+
+                      <div className="flex flex-wrap items-center gap-2 pt-1 sm:pt-0">
+                        <span className="text-xs font-extrabold text-slate-600 dark:text-slate-300 bg-white/80 dark:bg-black/30 border border-slate-200/80 dark:border-slate-700 px-3 py-1.5 rounded-xl shadow-2xs flex items-center gap-1.5">
+                          <BookOpen size={14} className="text-indigo-600 dark:text-indigo-400" />
+                          <span>Nivel: <strong className="text-slate-800 dark:text-white uppercase">{activeClassroom.nivel}</strong></span>
+                        </span>
+                        <span className="text-xs font-extrabold text-slate-600 dark:text-slate-300 bg-white/80 dark:bg-black/30 border border-slate-200/80 dark:border-slate-700 px-3 py-1.5 rounded-xl shadow-2xs flex items-center gap-1.5">
+                          <GraduationCap size={14} className="text-[#1e88e5]" />
+                          <span>Grado: <strong className="text-slate-800 dark:text-white">{activeClassroom.grado} {activeClassroom.seccion}</strong></span>
+                        </span>
+                        <span className="text-xs font-extrabold text-slate-600 dark:text-slate-300 bg-white/80 dark:bg-black/30 border border-slate-200/80 dark:border-slate-700 px-3 py-1.5 rounded-xl shadow-2xs flex items-center gap-1.5">
+                          <CalendarCheck size={14} className="text-purple-600 dark:text-purple-400" />
+                          <span>Período: <strong className="text-slate-800 dark:text-white">{activeClassroom.periodo}</strong></span>
+                        </span>
+                      </div>
+                    </div>
+
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                       {/* Card 1: Matrícula Escolar */}
                       <div 
@@ -1212,20 +1310,27 @@ export default function Estudiantes() {
                         </div>
                         <div className="relative z-10 my-4 flex flex-col items-start w-full">
                           <div className="flex items-end gap-1.5">
-                            <span className="text-[28px] font-extrabold text-[#1B1B1B] dark:text-white leading-none tracking-tight">
-                              Gamificación IA
+                            <span className="text-[24px] sm:text-[26px] font-extrabold text-[#1B1B1B] dark:text-white leading-none tracking-tight">
+                              Participación en clases
                             </span>
                           </div>
                         </div>
                         <div className="relative z-10 mt-auto flex justify-between pt-3 border-t border-orange-500/10 w-full">
-                          {['L', 'M', 'M', 'J', 'V', 'S', 'D'].map((day, i) => (
-                            <div key={i} className="flex flex-col items-center gap-1">
-                              <span className="text-[9.5px] font-bold text-text-muted/80">{day}</span>
-                              <div className={`w-6 h-6 rounded-full flex items-center justify-center shadow-3xs ${i < 5 ? 'bg-orange-500' : 'bg-black/5 dark:bg-white/5 shadow-none'}`}>
-                                {i < 5 && <Flame size={10} className="text-white fill-white" />}
+                          {['L', 'M', 'M', 'J', 'V', 'S', 'D'].map((day, i) => {
+                            const active = isDayActive(i);
+                            return (
+                              <div key={i} className="flex flex-col items-center gap-1">
+                                <span className={`text-[9.5px] font-bold ${active ? 'text-orange-600 dark:text-orange-400' : 'text-text-muted/60'}`}>{day}</span>
+                                <div className={`w-6 h-6 rounded-full flex items-center justify-center transition-colors ${
+                                  active 
+                                    ? 'bg-orange-500 shadow-2xs' 
+                                    : 'bg-black/5 dark:bg-white/5 shadow-none'
+                                }`}>
+                                  {active && <Flame size={10} className="text-white fill-white" />}
+                                </div>
                               </div>
-                            </div>
-                          ))}
+                            );
+                          })}
                         </div>
                       </div>
 
@@ -1247,7 +1352,7 @@ export default function Estudiantes() {
                         <div className="relative z-10 my-4 flex flex-col items-start w-full">
                           <div className="flex items-end gap-1.5">
                             <span className="text-[36px] font-extrabold text-[#1B1B1B] dark:text-white leading-none tracking-tight">
-                              98.4%
+                              {realAttendanceAvgPct}%
                             </span>
                             <span className="text-[14px] font-bold text-text-muted mb-1">Promedio</span>
                           </div>
@@ -1255,10 +1360,15 @@ export default function Estudiantes() {
                         <div className="relative z-10 mt-auto flex flex-col gap-2 pt-3 border-t border-amber-500/10 w-full">
                           <div className="flex justify-between text-[11px] font-bold uppercase tracking-wide text-amber-600 dark:text-amber-400">
                             <span>Pase de lista</span>
-                            <span className="text-text-muted font-bold">Hoy</span>
+                            <span className="text-text-muted font-bold">
+                              {todayRecorded ? `Hoy (${todayPct}%)` : 'Hoy'}
+                            </span>
                           </div>
                           <div className="w-full bg-amber-500/10 h-2 rounded-full overflow-hidden">
-                            <div className="bg-amber-500 w-[98%] h-full rounded-full"></div>
+                            <div 
+                              className="bg-amber-500 h-full rounded-full transition-all duration-500"
+                              style={{ width: `${todayRecorded ? todayPct : (totalEntries > 0 ? realAttendanceAvgPct : 0)}%` }}
+                            ></div>
                           </div>
                         </div>
                       </div>
