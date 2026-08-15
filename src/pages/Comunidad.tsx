@@ -36,11 +36,14 @@ import {
   deleteCommunityPost,
   uid,
   CommunityPost,
-  getUsers
+  getUsers,
+  saveUsuariosBatch,
+  type Usuario
 } from '../lib/storage';
 import { toast } from 'sonner';
 import { requestD1 } from '../lib/services/d1Client';
 import { logActivity } from '../lib/activityLog';
+import { mapProfile } from '../lib/services/auth';
 import AmbassadorBadge from '../components/ui/AmbassadorBadge';
 import MedalStar from '../components/ui/MedalStar';
 
@@ -252,18 +255,40 @@ const QUICK_EMOJIS = [
 ];
 
 export default function Comunidad() {
-  const loggedInUser = getCurrentUser();
   const navigate = useNavigate();
 
-  // Robust fallback user to prevent any blank screen in case of session mismatch
-  const user = (loggedInUser || {
-    id: 'guest_user',
-    nombre: 'Docente Planix',
-    rol: 'docente',
-    avatar_url: undefined
-  }) as any;
+  const [user, setUser] = useState<Usuario>(() => {
+    const curr = getCurrentUser();
+    return curr || ({
+      id: 'guest_user',
+      nombre: 'Docente Planix',
+      rol: 'teacher',
+      suscripcion: 'free',
+      estado_suscripcion: 'ACTIVO',
+      suscripcion_hasta: new Date().toISOString(),
+      creado_en: new Date().toISOString(),
+      avatar_url: undefined
+    } as Usuario);
+  });
 
-  const allUsers = getUsers();
+  const [allUsers, setAllUsers] = useState<Usuario[]>(() => getUsers());
+
+  // Listen to user changes (e.g. avatar or profile updates)
+  useEffect(() => {
+    const handleUserChanged = () => {
+      const curr = getCurrentUser();
+      if (curr) setUser(curr);
+      setAllUsers(getUsers());
+    };
+    if (typeof window !== "undefined") {
+      window.addEventListener("plx:user_changed", handleUserChanged);
+    }
+    return () => {
+      if (typeof window !== "undefined") {
+        window.removeEventListener("plx:user_changed", handleUserChanged);
+      }
+    };
+  }, []);
 
   const context = useOutletContext<{ isSidebarPinned: boolean } | null>();
   const isSidebarPinned = context?.isSidebarPinned ?? false;
@@ -350,21 +375,31 @@ export default function Comunidad() {
     };
   }, [showEmojiPicker]);
 
-  // Synchronize community posts with D1 remote database on mount
+  // Synchronize community posts and profiles with D1 remote database on mount
   useEffect(() => {
     async function loadFromD1() {
       try {
-        const d1Posts = await requestD1<CommunityPost[]>("/api/community-posts");
-        if (Array.isArray(d1Posts)) {
+        const [d1Posts, d1Profiles] = await Promise.allSettled([
+          requestD1<CommunityPost[]>("/api/community-posts"),
+          requestD1<any[]>("/api/profiles")
+        ]);
+
+        if (d1Profiles.status === 'fulfilled' && Array.isArray(d1Profiles.value) && d1Profiles.value.length > 0) {
+          const mappedUsers = d1Profiles.value.map(mapProfile);
+          saveUsuariosBatch(mappedUsers);
+          setAllUsers(mappedUsers);
+        }
+
+        if (d1Posts.status === 'fulfilled' && Array.isArray(d1Posts.value)) {
           // Filter out mock posts and empty posts from API sync
-          const validD1Posts = d1Posts.filter(p => p && !p.id?.startsWith('mock_') && (p.contenido && p.contenido.trim() !== ''));
+          const validD1Posts = d1Posts.value.filter(p => p && !p.id?.startsWith('mock_') && (p.contenido && p.contenido.trim() !== ''));
           
           // Sync with local cache
           validD1Posts.forEach(saveCommunityPost);
           refreshPosts();
         }
       } catch (err) {
-        console.error("Error loading community posts from D1:", err);
+        console.error("Error loading community data from D1:", err);
       }
     }
     loadFromD1();
@@ -544,17 +579,22 @@ export default function Comunidad() {
       return;
     }
 
+    const isUserAdmin = user.rol === "admin" || user.rol === "administrador" || user.email?.toLowerCase() === "admin@planix.do" || user.email?.toLowerCase() === "reyna.mancebo@docente.edu.do";
+    const isUserCoordinator = user.rol === "coordinator" || user.rol === "coordinador";
+
     const post: CommunityPost = {
       id: uid("pst"),
       docente_id: user.id,
       docente_nombre: user.nombre,
-      docente_rol: user.rol === "admin" 
+      docente_rol: isUserAdmin 
         ? "Administrador" 
-        : user.rol === "coordinator"
+        : isUserCoordinator
           ? "Coordinador"
           : user.nivel 
             ? user.nivel.charAt(0).toUpperCase() + user.nivel.slice(1)
             : "Docente",
+      docente_avatar: user.avatar_url,
+      is_ambassador: !!user.is_ambassador,
       contenido: newPostText,
       likes_count: 0,
       comments_count: 0,
@@ -658,7 +698,9 @@ export default function Comunidad() {
         }
         comment.respuestas.push({
           id: uid("rpl"),
+          docente_id: user.id,
           docente_nombre: user.nombre,
+          docente_avatar: user.avatar_url,
           contenido: txt,
           creado_en: new Date().toISOString()
         } as any);
@@ -679,7 +721,9 @@ export default function Comunidad() {
     } else {
       post.comentarios.push({
         id: uid("cmt"),
+        docente_id: user.id,
         docente_nombre: user.nombre,
+        docente_avatar: user.avatar_url,
         contenido: txt,
         creado_en: new Date().toISOString(),
         respuestas: []
@@ -1157,26 +1201,58 @@ export default function Comunidad() {
                 const isLiked = likedBy.includes(user.id);
                 const isBookmarked = bookmarkedBy.includes(user.id);
                 const showComments = expandedComments[post.id] || false;
-                const isOwner = post.docente_id === user.id;
                 const activeReply = replyTarget[post.id];
                 const linkInfo = detectLink(post.contenido);
 
-                const postAuthor = allUsers.find((u) => u.id === post.docente_id || u.nombre === post.docente_nombre);
-                const postAuthorAvatar = postAuthor?.avatar_url;
-                const isAuthorAmbassador = postAuthor ? !!postAuthor.is_ambassador : false;
-                const isAuthorPro = postAuthor 
-                  ? (postAuthor.suscripcion === 'pro' || postAuthor.rol === 'admin')
-                  : ((post.docente_rol || '').includes('Admin') || (post.docente_rol || '').includes('Super') || (post.docente_rol || '').includes('Director') || post.docente_id === 'system');
+                const isAuthorCurrentLoggedIn = Boolean(
+                  user && user.id !== 'guest_user' && (
+                    post.docente_id === user.id ||
+                    (post.docente_nombre && user.nombre && post.docente_nombre.trim().toLowerCase() === user.nombre.trim().toLowerCase())
+                  )
+                );
 
-                const displayRol = postAuthor 
-                  ? (postAuthor.rol === 'admin' 
-                      ? 'Administrador' 
-                      : postAuthor.rol === 'coordinator' 
-                        ? 'Coordinador' 
-                        : postAuthor.nivel 
-                          ? postAuthor.nivel.charAt(0).toUpperCase() + postAuthor.nivel.slice(1)
-                          : 'Docente')
-                  : (post.docente_rol || 'Docente');
+                const isOwner = Boolean(
+                  isAuthorCurrentLoggedIn ||
+                  post.docente_id === user.id ||
+                  (user && (user.rol === 'admin' || user.rol === 'administrador' || user.email?.toLowerCase() === 'admin@planix.do' || user.email?.toLowerCase() === 'reyna.mancebo@docente.edu.do'))
+                );
+
+                const postAuthor = isAuthorCurrentLoggedIn
+                  ? user
+                  : (allUsers.find((u) => (post.docente_id && u.id === post.docente_id) || (post.docente_nombre && u.nombre?.trim().toLowerCase() === post.docente_nombre.trim().toLowerCase())) || null);
+
+                const postAuthorAvatar = (isAuthorCurrentLoggedIn ? user.avatar_url : (postAuthor?.avatar_url || (post as any).docente_avatar)) || null;
+
+                const isAuthorAdmin = Boolean(
+                  (isAuthorCurrentLoggedIn && (user.rol === 'admin' || user.rol === 'administrador' || user.email?.toLowerCase() === 'admin@planix.do' || user.email?.toLowerCase() === 'reyna.mancebo@docente.edu.do')) ||
+                  (postAuthor && (postAuthor.rol === 'admin' || postAuthor.rol === 'administrador' || postAuthor.email?.toLowerCase() === 'admin@planix.do' || postAuthor.email?.toLowerCase() === 'reyna.mancebo@docente.edu.do')) ||
+                  (post.docente_rol || '').toLowerCase().includes('admin') ||
+                  post.docente_id === 'usr_demo_admin' ||
+                  post.docente_id === 'system'
+                );
+
+                const isAuthorAmbassador = Boolean(
+                  (isAuthorCurrentLoggedIn && user.is_ambassador) ||
+                  (postAuthor && postAuthor.is_ambassador) ||
+                  (post as any).is_ambassador
+                );
+
+                const isAuthorPro = Boolean(
+                  isAuthorAdmin ||
+                  (isAuthorCurrentLoggedIn && (user.suscripcion === 'pro' || isAuthorAdmin)) ||
+                  (postAuthor && (postAuthor.suscripcion === 'pro' || postAuthor.rol === 'admin')) ||
+                  (post.docente_rol || '').toLowerCase().includes('admin') ||
+                  (post.docente_rol || '').toLowerCase().includes('director') ||
+                  (post.docente_rol || '').toLowerCase().includes('coord')
+                );
+
+                const displayRol = isAuthorAdmin
+                  ? 'ADMINISTRADOR'
+                  : isAuthorAmbassador
+                    ? 'EMBAJADOR'
+                    : (postAuthor?.rol === 'coordinator' || postAuthor?.rol === 'coordinador' || (isAuthorCurrentLoggedIn && (user.rol === 'coordinator' || user.rol === 'coordinador')))
+                      ? 'COORDINADOR'
+                      : (postAuthor?.nivel ? postAuthor.nivel.toUpperCase() : (isAuthorCurrentLoggedIn && user.nivel ? user.nivel.toUpperCase() : (post.docente_rol || 'DOCENTE').toUpperCase()));
 
                 return (
                   <motion.div
@@ -1195,12 +1271,19 @@ export default function Comunidad() {
                               src={postAuthorAvatar}
                               alt={post.docente_nombre || 'Docente'}
                               className="h-9 w-9 rounded-full object-cover"
+                              onError={(e) => {
+                                (e.target as HTMLElement).style.display = 'none';
+                                const fb = (e.target as HTMLElement).nextElementSibling as HTMLElement;
+                                if (fb) fb.style.display = 'flex';
+                              }}
                             />
-                          ) : (
-                            <div className={`h-9 w-9 rounded-full bg-gradient-to-br ${getAvatarGradient(post.docente_nombre || 'Docente')} flex items-center justify-center text-xs font-black text-white uppercase`}>
-                              {(post.docente_nombre || 'Docente').substring(0, 2)}
-                            </div>
-                          )}
+                          ) : null}
+                          <div
+                            style={{ display: postAuthorAvatar ? 'none' : 'flex' }}
+                            className={`h-9 w-9 rounded-full bg-gradient-to-br ${getAvatarGradient(post.docente_nombre || 'Docente')} items-center justify-center text-xs font-black text-white uppercase`}
+                          >
+                            {(post.docente_nombre || 'Docente').substring(0, 2)}
+                          </div>
                           <div title="Embajador Planix" className="absolute -bottom-0.5 -right-0.5 bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-600 text-white p-0.5 rounded-full border border-white dark:border-slate-900 shadow-xs scale-85 flex items-center justify-center cursor-pointer">
                             <MedalStar size={8} className="text-white fill-white" />
                           </div>
@@ -1212,22 +1295,42 @@ export default function Comunidad() {
                               src={postAuthorAvatar}
                               alt={post.docente_nombre || 'Docente'}
                               className="h-9 w-9 rounded-full object-cover"
+                              onError={(e) => {
+                                (e.target as HTMLElement).style.display = 'none';
+                                const fb = (e.target as HTMLElement).nextElementSibling as HTMLElement;
+                                if (fb) fb.style.display = 'flex';
+                              }}
                             />
-                          ) : (
-                            <div className={`h-9 w-9 rounded-full bg-gradient-to-br ${getAvatarGradient(post.docente_nombre || 'Docente')} flex items-center justify-center text-xs font-black text-white uppercase`}>
-                              {(post.docente_nombre || 'Docente').substring(0, 2)}
-                            </div>
-                          )}
-                          <div title="Planix Pro" className="absolute -bottom-0.5 -right-0.5 bg-gradient-to-tr from-amber-400 to-amber-600 text-white p-0.5 rounded-full border border-white dark:border-slate-900 shadow-xs scale-85 cursor-pointer">
+                          ) : null}
+                          <div
+                            style={{ display: postAuthorAvatar ? 'none' : 'flex' }}
+                            className={`h-9 w-9 rounded-full bg-gradient-to-br ${getAvatarGradient(post.docente_nombre || 'Docente')} items-center justify-center text-xs font-black text-white uppercase`}
+                          >
+                            {(post.docente_nombre || 'Docente').substring(0, 2)}
+                          </div>
+                          <div title="Planix Pro / Administrador" className="absolute -bottom-0.5 -right-0.5 bg-gradient-to-tr from-amber-400 to-amber-600 text-white p-0.5 rounded-full border border-white dark:border-slate-900 shadow-xs scale-85 cursor-pointer">
                             <Crown className="h-2.5 w-2.5 fill-white text-white" />
                           </div>
                         </div>
                       ) : postAuthorAvatar ? (
-                        <img
-                          src={postAuthorAvatar}
-                          alt={post.docente_nombre || 'Docente'}
-                          className="h-9 w-9 rounded-full object-cover shadow-sm border border-zinc-100 dark:border-zinc-805"
-                        />
+                        <div className="relative">
+                          <img
+                            src={postAuthorAvatar}
+                            alt={post.docente_nombre || 'Docente'}
+                            className="h-9 w-9 rounded-full object-cover shadow-sm border border-zinc-100 dark:border-zinc-800"
+                            onError={(e) => {
+                              (e.target as HTMLElement).style.display = 'none';
+                              const fb = (e.target as HTMLElement).nextElementSibling as HTMLElement;
+                              if (fb) fb.style.display = 'flex';
+                            }}
+                          />
+                          <div
+                            style={{ display: 'none' }}
+                            className={`h-9 w-9 rounded-full bg-gradient-to-br ${getAvatarGradient(post.docente_nombre || 'Docente')} items-center justify-center text-xs font-black text-white uppercase shadow-sm`}
+                          >
+                            {(post.docente_nombre || 'Docente').substring(0, 2)}
+                          </div>
+                        </div>
                       ) : (
                         <div className={`h-9 w-9 rounded-full bg-gradient-to-br ${getAvatarGradient(post.docente_nombre || 'Docente')} flex items-center justify-center text-xs font-black text-white uppercase shadow-sm`}>
                           {(post.docente_nombre || 'Docente').substring(0, 2)}
@@ -1253,19 +1356,20 @@ export default function Comunidad() {
                                 <MedalStar size={14} className="text-amber-500 fill-amber-500 hover:scale-110 transition-transform shrink-0" />
                               </span>
                             ) : isAuthorPro ? (
-                              <span title="Planix Pro" className="inline-flex items-center cursor-pointer shrink-0">
+                              <span title="Planix Pro / Administrador" className="inline-flex items-center cursor-pointer shrink-0">
                                 <Crown className="h-3.5 w-3.5 fill-amber-500 text-amber-500 hover:scale-110 transition-transform" />
                               </span>
                             ) : null}
                           </span>
-                          <span className={`inline-flex items-center px-1.5 py-0.2 rounded text-[7.5px] font-black uppercase tracking-wider ${
-                            displayRol.includes('Admin') || 
-                            displayRol.includes('Super') || 
-                            displayRol.includes('Director') || 
-                            displayRol.includes('Coord')
-                              ? 'bg-indigo-50 dark:bg-indigo-950/30 text-indigo-600 dark:text-indigo-400'
-                              : 'bg-blue-50 dark:bg-blue-950/30 text-[#1e88e5] dark:text-blue-400'
-                            }`}>
+                          <span className={`inline-flex items-center px-1.5 py-0.5 rounded text-[8px] font-black uppercase tracking-wider ${
+                            isAuthorAdmin
+                              ? 'bg-indigo-50 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 border border-indigo-100/60 dark:border-indigo-900/40'
+                              : isAuthorAmbassador
+                                ? 'bg-amber-50 dark:bg-amber-950/40 text-amber-600 dark:text-amber-400 border border-amber-100/60 dark:border-amber-900/40'
+                                : displayRol.includes('COORD') || displayRol.includes('DIRECTOR')
+                                  ? 'bg-purple-50 dark:bg-purple-950/40 text-purple-600 dark:text-purple-400 border border-purple-100/60 dark:border-purple-900/40'
+                                  : 'bg-blue-50 dark:bg-blue-950/30 text-[#1e88e5] dark:text-blue-400'
+                          }`}>
                             {displayRol}
                           </span>
                           {!!post.comments_disabled && (
@@ -1382,19 +1486,38 @@ export default function Comunidad() {
                           <div className="space-y-4">
                             {comments.map((cmt) => {
                               const respuestas = Array.isArray(cmt.respuestas) ? cmt.respuestas : [];
-                              const cmtAuthor = allUsers.find((u) => u.nombre === cmt.docente_nombre);
-                              const cmtAuthorAvatar = cmtAuthor?.avatar_url;
+                              const isCmtCurrentUser = Boolean(
+                                user && user.id !== 'guest_user' && (
+                                  (cmt as any).docente_id === user.id ||
+                                  (cmt.docente_nombre && user.nombre && cmt.docente_nombre.trim().toLowerCase() === user.nombre.trim().toLowerCase())
+                                )
+                              );
+                              const cmtAuthor = isCmtCurrentUser ? user : (allUsers.find((u) => u.nombre?.trim().toLowerCase() === cmt.docente_nombre?.trim().toLowerCase() || ((cmt as any).docente_id && u.id === (cmt as any).docente_id)) || null);
+                              const cmtAuthorAvatar = (isCmtCurrentUser ? user.avatar_url : (cmtAuthor?.avatar_url || (cmt as any).docente_avatar)) || null;
 
                               return (
                                 <div key={cmt.id} className="space-y-3">
                                   {/* Single Tweet-style comment */}
                                   <div className="flex gap-2.5">
                                     {cmtAuthorAvatar ? (
-                                      <img
-                                        src={cmtAuthorAvatar}
-                                        alt={cmt.docente_nombre || 'Docente'}
-                                        className="h-7 w-7 shrink-0 rounded-full object-cover shadow-sm border border-zinc-100 dark:border-zinc-800"
-                                      />
+                                      <div className="relative shrink-0">
+                                        <img
+                                          src={cmtAuthorAvatar}
+                                          alt={cmt.docente_nombre || 'Docente'}
+                                          className="h-7 w-7 rounded-full object-cover shadow-sm border border-zinc-100 dark:border-zinc-800"
+                                          onError={(e) => {
+                                            (e.target as HTMLElement).style.display = 'none';
+                                            const fb = (e.target as HTMLElement).nextElementSibling as HTMLElement;
+                                            if (fb) fb.style.display = 'flex';
+                                          }}
+                                        />
+                                        <div
+                                          style={{ display: 'none' }}
+                                          className={`h-7 w-7 rounded-full bg-gradient-to-br ${getAvatarGradient(cmt.docente_nombre || 'Docente')} items-center justify-center text-[10px] font-black text-white uppercase shadow-sm`}
+                                        >
+                                          {(cmt.docente_nombre || 'Docente').substring(0, 2)}
+                                        </div>
+                                      </div>
                                     ) : (
                                       <div className={`h-7 w-7 shrink-0 rounded-full bg-gradient-to-br ${getAvatarGradient(cmt.docente_nombre || 'Docente')} flex items-center justify-center text-[10px] font-black text-white uppercase shadow-sm`}>
                                         {(cmt.docente_nombre || 'Docente').substring(0, 2)}
@@ -1403,7 +1526,7 @@ export default function Comunidad() {
                                     <div className="flex-1 min-w-0 bg-[#FAFAF8] dark:bg-zinc-900 p-3.5 rounded-2xl border border-zinc-200/70 dark:border-zinc-800/80 shadow-xs">
                                       <div className="flex justify-between items-center mb-1 flex-wrap">
                                         <span className="font-extrabold text-[12px] text-zinc-900 dark:text-zinc-100">{cmt.docente_nombre || 'Docente'}</span>
-                                        <span className="text-[9.5px] text-zinc-450 font-bold">
+                                        <span className="text-[9.5px] text-zinc-400 font-bold">
                                           {cmt.creado_en ? new Date(cmt.creado_en).toLocaleDateString("es-DO", { hour: '2-digit', minute: '2-digit' }) : ''}
                                         </span>
                                       </div>
@@ -1428,18 +1551,37 @@ export default function Comunidad() {
 
                                   {/* Curving sub-replies */}
                                   {respuestas.map((reply: any) => {
-                                    const replyAuthor = allUsers.find((u) => u.nombre === reply.docente_nombre);
-                                    const replyAuthorAvatar = replyAuthor?.avatar_url;
+                                    const isReplyCurrentUser = Boolean(
+                                      user && user.id !== 'guest_user' && (
+                                        (reply as any).docente_id === user.id ||
+                                        (reply.docente_nombre && user.nombre && reply.docente_nombre.trim().toLowerCase() === user.nombre.trim().toLowerCase())
+                                      )
+                                    );
+                                    const replyAuthor = isReplyCurrentUser ? user : (allUsers.find((u) => u.nombre?.trim().toLowerCase() === reply.docente_nombre?.trim().toLowerCase() || ((reply as any).docente_id && u.id === (reply as any).docente_id)) || null);
+                                    const replyAuthorAvatar = (isReplyCurrentUser ? user.avatar_url : (replyAuthor?.avatar_url || (reply as any).docente_avatar)) || null;
 
                                     return (
                                       <div key={reply.id} className="flex gap-2.5 pl-6 md:pl-8 items-start">
                                         <CornerDownRight className="w-3.5 h-3.5 text-zinc-300 dark:text-zinc-700 shrink-0 mt-2" />
                                         {replyAuthorAvatar ? (
-                                          <img
-                                            src={replyAuthorAvatar}
-                                            alt={reply.docente_nombre || 'Docente'}
-                                            className="h-6.5 w-6.5 shrink-0 rounded-full object-cover mt-1 shadow-sm border border-zinc-100 dark:border-zinc-800"
-                                          />
+                                          <div className="relative shrink-0 mt-1">
+                                            <img
+                                              src={replyAuthorAvatar}
+                                              alt={reply.docente_nombre || 'Docente'}
+                                              className="h-6.5 w-6.5 rounded-full object-cover shadow-sm border border-zinc-100 dark:border-zinc-800"
+                                              onError={(e) => {
+                                                (e.target as HTMLElement).style.display = 'none';
+                                                const fb = (e.target as HTMLElement).nextElementSibling as HTMLElement;
+                                                if (fb) fb.style.display = 'flex';
+                                              }}
+                                            />
+                                            <div
+                                              style={{ display: 'none' }}
+                                              className={`h-6.5 w-6.5 rounded-full bg-gradient-to-br ${getAvatarGradient(reply.docente_nombre || 'Docente')} items-center justify-center text-[8.5px] font-black text-white uppercase shadow-sm`}
+                                            >
+                                              {(reply.docente_nombre || 'Docente').substring(0, 2)}
+                                            </div>
+                                          </div>
                                         ) : (
                                           <div className={`h-6.5 w-6.5 shrink-0 rounded-full bg-gradient-to-br ${getAvatarGradient(reply.docente_nombre || 'Docente')} flex items-center justify-center text-[8.5px] font-black text-white uppercase mt-1 shadow-sm`}>
                                             {(reply.docente_nombre || 'Docente').substring(0, 2)}

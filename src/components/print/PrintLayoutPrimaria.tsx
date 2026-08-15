@@ -685,13 +685,49 @@ export default function PrintLayoutPrimaria({
     return (
       <div className="text-sm font-sans">
         {/* Competencias Fundamentales */}
-        {formData.competencias && formData.competencias.length > 0 && (
-          <div className="border-b border-neutral-800 p-3 bg-neutral-50/50">
+        {((Array.isArray(formData.competencias) && formData.competencias.length > 0) ||
+          (Array.isArray(formData.competenciasFundamentales) && formData.competenciasFundamentales.length > 0) ||
+          (typeof formData.competencias === 'string' && formData.competencias.trim().length > 0)) && (
+          <div className="border-b border-neutral-800 p-3">
             <h3 className="text-xs font-bold uppercase text-neutral-800 mb-1">Competencias Fundamentales:</h3>
-            <div className="flex flex-wrap gap-x-4 gap-y-1 pl-1">
-              {formData.competencias.map((comp: string, i: number) => (
-                <span key={i} className="text-xs leading-tight font-medium">• {comp}</span>
-              ))}
+            <div className="space-y-0.5">
+              {(() => {
+                const comps = formData.competencias || formData.competenciasFundamentales || [];
+                const list = Array.isArray(comps) ? comps : comps.split(/\r?\n/).filter(Boolean);
+                return list.map((comp: string, index: number) => (
+                  <p key={index} className="leading-tight text-xs">• {comp}</p>
+                ));
+              })()}
+            </div>
+          </div>
+        )}
+
+        {/* Competencias Específicas */}
+        {((Array.isArray(formData.competencias_especificas) && formData.competencias_especificas.length > 0) ||
+          (Array.isArray(formData.competenciasEspecificas) && formData.competenciasEspecificas.length > 0) ||
+          (typeof formData.competencias_especificas === 'string' && formData.competencias_especificas.trim().length > 0)) &&
+          !formData.hideSpecificCompetencies && (
+          <div className="border-b border-neutral-800 p-3 bg-neutral-50/50">
+            <h3 className="text-xs font-bold uppercase text-neutral-800 mb-2">Competencias Específicas:</h3>
+            <div className="space-y-1.5">
+              {(() => {
+                const comps = formData.competencias_especificas || formData.competenciasEspecificas || [];
+                const list = Array.isArray(comps) ? comps : comps.split(/\r?\n/).filter(Boolean);
+                return list.map((comp: string, index: number) => {
+                  const separatorIndex = comp.indexOf(':') !== -1 ? comp.indexOf(':') : comp.indexOf(',');
+                  if (separatorIndex !== -1) {
+                    const title = comp.substring(0, separatorIndex);
+                    const rest = comp.substring(separatorIndex + 1);
+                    const separator = comp[separatorIndex];
+                    return (
+                      <p key={index} className="leading-tight text-xs">
+                        • <span className="font-bold text-neutral-900">{title}{separator}</span>{rest}
+                      </p>
+                    );
+                  }
+                  return <p key={index} className="leading-tight text-xs">• {comp}</p>;
+                });
+              })()}
             </div>
           </div>
         )}
@@ -728,29 +764,6 @@ export default function PrintLayoutPrimaria({
             <div className="border-b border-neutral-800 p-3 bg-neutral-50/20">
               <h3 className="text-xs font-bold uppercase text-neutral-800 mb-1">Retroalimentación:</h3>
               <p className="text-xs leading-relaxed whitespace-pre-wrap">{formatMarkdownBold(formData.retroalimentacion)}</p>
-            </div>
-          )}
-
-          {formData.competencias_especificas && formData.competencias_especificas.length > 0 && !formData.hideSpecificCompetencies && (
-            <div className="border-b border-neutral-800 p-3 bg-neutral-50/30">
-              <h3 className="text-xs font-bold uppercase text-neutral-800 mb-1">
-                {isUpperPrimary && (subjectName?.toLowerCase().includes('lengua') || (formData.area || formData.asignatura || '').toLowerCase().includes('lengua'))
-                  ? 'Competencias Específicas de la Secuencia:'
-                  : 'Competencias Específicas del Grado:'}
-              </h3>
-              <div className="pl-1 space-y-1">
-                {formData.competencias_especificas.map((comp: string, i: number) => {
-                  const colonIndex = comp.indexOf(':');
-                  if (colonIndex !== -1) {
-                    return (
-                      <p key={i} className="text-xs leading-relaxed">
-                        • <span className="font-bold text-neutral-900">{comp.substring(0, colonIndex)}:</span>{comp.substring(colonIndex + 1)}
-                      </p>
-                    );
-                  }
-                  return <p key={i} className="text-xs leading-relaxed">• {comp}</p>;
-                })}
-              </div>
             </div>
           )}
 
@@ -893,42 +906,55 @@ export default function PrintLayoutPrimaria({
   return (
     <div className="text-sm font-sans">
       {/* Competencias Fundamentales */}
-      {formData.competencias && formData.competencias.length > 0 && (
+      {((Array.isArray(formData.competencias) && formData.competencias.length > 0) ||
+        (Array.isArray(formData.competenciasFundamentales) && formData.competenciasFundamentales.length > 0) ||
+        (typeof formData.competencias === 'string' && formData.competencias.trim().length > 0)) && (
         <div className="border-b border-neutral-800 p-3">
           <h3 className="text-xs font-bold uppercase text-neutral-800 mb-1">Competencias Fundamentales:</h3>
           <div className="space-y-0.5">
-            {formData.competencias.map((comp: string, index: number) => (
-              <p key={index} className="leading-tight text-xs">• {comp}</p>
-            ))}
+            {(() => {
+              const comps = formData.competencias || formData.competenciasFundamentales || [];
+              const list = Array.isArray(comps) ? comps : comps.split(/\r?\n/).filter(Boolean);
+              return list.map((comp: string, index: number) => (
+                <p key={index} className="leading-tight text-xs">• {comp}</p>
+              ));
+            })()}
           </div>
         </div>
       )}
 
       {/* Competencias Específicas */}
-      {formData.competencias_especificas && formData.competencias_especificas.length > 0 && !formData.hideSpecificCompetencies && (
+      {((Array.isArray(formData.competencias_especificas) && formData.competencias_especificas.length > 0) ||
+        (Array.isArray(formData.competenciasEspecificas) && formData.competenciasEspecificas.length > 0) ||
+        (typeof formData.competencias_especificas === 'string' && formData.competencias_especificas.trim().length > 0)) &&
+        !formData.hideSpecificCompetencies && (
         <div className="border-b border-neutral-800 p-3 bg-neutral-50/50">
           <h3 className="text-xs font-bold uppercase text-neutral-800 mb-2">Competencias Específicas:</h3>
           <div className="space-y-1.5">
-            {formData.competencias_especificas.map((comp: string, index: number) => {
-              const separatorIndex = comp.indexOf(':') !== -1 ? comp.indexOf(':') : comp.indexOf(',');
-              if (separatorIndex !== -1) {
-                const title = comp.substring(0, separatorIndex);
-                const rest = comp.substring(separatorIndex + 1);
-                const separator = comp[separatorIndex];
-                return (
-                  <p key={index} className="leading-tight text-xs">
-                    • <span className="font-bold text-neutral-900">{title}{separator}</span>{rest}
-                  </p>
-                );
-              }
-              return <p key={index} className="leading-tight text-xs">• {comp}</p>;
-            })}
+            {(() => {
+              const comps = formData.competencias_especificas || formData.competenciasEspecificas || [];
+              const list = Array.isArray(comps) ? comps : comps.split(/\r?\n/).filter(Boolean);
+              return list.map((comp: string, index: number) => {
+                const separatorIndex = comp.indexOf(':') !== -1 ? comp.indexOf(':') : comp.indexOf(',');
+                if (separatorIndex !== -1) {
+                  const title = comp.substring(0, separatorIndex);
+                  const rest = comp.substring(separatorIndex + 1);
+                  const separator = comp[separatorIndex];
+                  return (
+                    <p key={index} className="leading-tight text-xs">
+                      • <span className="font-bold text-neutral-900">{title}{separator}</span>{rest}
+                    </p>
+                  );
+                }
+                return <p key={index} className="leading-tight text-xs">• {comp}</p>;
+              });
+            })()}
           </div>
         </div>
       )}
 
       {/* Bloque y Actividad */}
-      {isMatOrLengua && (
+      {isMatOrLengua && !grade.includes('secundaria') && !grade.includes('sec') && (
         <div className="grid grid-cols-2 text-xs border-b border-neutral-800">
           <div className="p-3 border-r border-neutral-800">
             <span className="block text-xs font-bold uppercase text-neutral-600 mb-0.5">Bloque:</span>
@@ -942,10 +968,12 @@ export default function PrintLayoutPrimaria({
       )}
 
       {/* Intención Pedagógica */}
-      {formData.intencion_pedagogica && (
+      {(formData.intencion_pedagogica || formData.intencionPedagogica || formData.situacion_aprendizaje) && (
         <div className="border-b border-neutral-800 p-3 bg-neutral-50/30">
-          <span className="block text-xs font-bold uppercase text-neutral-600 mb-1">Intención Pedagógica del Día:</span>
-          <p className="text-xs leading-relaxed">{formData.intencion_pedagogica}</p>
+          <span className="block text-xs font-bold uppercase text-neutral-600 mb-1">
+            {formData.situacion_aprendizaje && !formData.intencion_pedagogica ? 'Situación de Aprendizaje:' : 'Intención Pedagógica del Día:'}
+          </span>
+          <p className="text-xs leading-relaxed">{formData.intencion_pedagogica || formData.intencionPedagogica || formData.situacion_aprendizaje}</p>
         </div>
       )}
 
@@ -958,21 +986,27 @@ export default function PrintLayoutPrimaria({
       )}
 
       {/* Indicadores de logro */}
-      {formData.indicador_logro && (
+      {(formData.indicador_logro || formData.indicadores_logro || formData.indicadoresLogro) && (
         <div className="border-b border-neutral-800 p-3 bg-white">
           <span className="block text-xs font-bold uppercase text-neutral-600 mb-1">Indicadores de logro:</span>
-          <div className="text-xs leading-relaxed">{renderListOrText(formData.indicador_logro)}</div>
+          <div className="text-xs leading-relaxed">{renderListOrText(formData.indicador_logro || formData.indicadores_logro || formData.indicadoresLogro)}</div>
         </div>
       )}
 
       {/* Ejes Transversales */}
-      {formData.ejes_transversales && (
+      {(formData.ejes_transversales || formData.ejesTransversales) && (
         <div className="border-b border-neutral-800 p-3 bg-neutral-50/10">
           <span className="block text-xs font-bold uppercase text-neutral-600 mb-1">Ejes Transversales:</span>
           <ul className="text-xs leading-relaxed list-disc pl-5 space-y-0.5">
-            {formData.ejes_transversales.split('\n').filter((e: string) => e.trim()).map((eje: string, i: number) => (
-              <li key={i}>{eje.trim()}</li>
-            ))}
+            {(() => {
+              const ejes = formData.ejes_transversales || formData.ejesTransversales || '';
+              const list = Array.isArray(ejes) ? ejes : ejes.split('\n');
+              return list
+                .filter((e: string) => e && e.trim())
+                .map((eje: string, i: number) => (
+                  <li key={i}>{eje.trim()}</li>
+                ));
+            })()}
           </ul>
         </div>
       )}

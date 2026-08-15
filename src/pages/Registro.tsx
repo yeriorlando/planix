@@ -232,7 +232,8 @@ export default function Registro() {
     });
 
     const mainNivel = selectedLevel.toLowerCase() as "inicial" | "primaria" | "secundaria";
-    const mainCiclo = selectedGradeId.includes("ciclo1") ? "ciclo1" : "ciclo2";
+    const gradeObj = getGradeById(selectedGradeId);
+    const mainCiclo = gradeObj?.cycleId?.includes("ciclo1") ? "ciclo1" : "ciclo2";
 
     try {
       // Retrieve referral code if any

@@ -60,8 +60,8 @@ export default function PrintLayout({
   }
 
   let displayGrade = formData?.grado || '---';
+  const normGrade = (formData?.grado || '').toLowerCase();
   if (!isSecundaria) {
-    const normGrade = (formData?.grado || '').toLowerCase();
     if (normGrade.includes('1') || normGrade.includes('primer') || normGrade.includes('1er') || normGrade.includes('1ro')) {
       displayGrade = '1ro. (Primaria)';
     } else if (normGrade.includes('2') || normGrade.includes('segund') || normGrade.includes('2do')) {
@@ -74,6 +74,20 @@ export default function PrintLayout({
       displayGrade = '5to. (Primaria)';
     } else if (normGrade.includes('6') || normGrade.includes('sext') || normGrade.includes('6to')) {
       displayGrade = '6to. (Primaria)';
+    }
+  } else {
+    if (normGrade.includes('1') || normGrade.includes('primer') || normGrade.includes('1er') || normGrade.includes('1ro')) {
+      displayGrade = '1ro. (Secundaria)';
+    } else if (normGrade.includes('2') || normGrade.includes('segund') || normGrade.includes('2do')) {
+      displayGrade = '2do. (Secundaria)';
+    } else if (normGrade.includes('3') || normGrade.includes('tercer') || normGrade.includes('3er') || normGrade.includes('3ro')) {
+      displayGrade = '3ro. (Secundaria)';
+    } else if (normGrade.includes('4') || normGrade.includes('cuart') || normGrade.includes('4to')) {
+      displayGrade = '4to. (Secundaria)';
+    } else if (normGrade.includes('5') || normGrade.includes('quint') || normGrade.includes('5to')) {
+      displayGrade = '5to. (Secundaria)';
+    } else if (normGrade.includes('6') || normGrade.includes('sext') || normGrade.includes('6to')) {
+      displayGrade = '6to. (Secundaria)';
     }
   }
 
@@ -182,16 +196,6 @@ export default function PrintLayout({
         {/* Delegar contenido según Nivel Educativo */}
         {formData?.isTaller || planningType === 'TALLER' ? (
           <PrintLayoutTaller
-            formData={formData}
-            formType={formType}
-            subjectName={subjectName}
-            sequenceTitle={sequenceTitle}
-            blockTitle={blockTitle}
-            orientation={orientation}
-            planningType={planningType}
-          />
-        ) : isSecundaria ? (
-          <PrintLayoutSecundaria
             formData={formData}
             formType={formType}
             subjectName={subjectName}

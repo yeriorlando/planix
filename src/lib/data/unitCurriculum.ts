@@ -207,8 +207,12 @@ export const UNIT_CURRICULUM_DATA: SubjectUnits[] = [
 ];
 
 export function getUnitsBySubjectAndGrade(subjectId: string, grade: string): Unit[] {
+    const normSub = subjectId.toLowerCase().replace(/-sec$/, '');
     // Collect all units for the given subject regardless of how they are bucketed in mock data
-    const subjectBuckets = UNIT_CURRICULUM_DATA.filter(d => d.subjectId === subjectId);
+    const subjectBuckets = UNIT_CURRICULUM_DATA.filter(d => 
+        d.subjectId === subjectId || 
+        d.subjectId.toLowerCase().replace(/-sec$/, '') === normSub
+    );
 
     // Flatten all units
     const allUnits = subjectBuckets.flatMap(b => b.units);
@@ -232,4 +236,70 @@ export function getThemeById(units: Unit[], themeId: string): UnitTheme | null {
 
 export function getSubthemeById(theme: UnitTheme, subthemeId: string): UnitSubtheme | null {
     return theme.subthemes.find(s => s.id === subthemeId) || null;
+}
+
+export interface ExtractedUnitContents {
+    conceptual: string[];
+    procedural: string[];
+    attitudinal: string[];
+}
+
+export function extractUnitCurricularContents(unit: any): ExtractedUnitContents {
+    const conceptuals: string[] = [];
+    const procedurals: string[] = [];
+    const attitudinals: string[] = [];
+
+    const cleanAndAdd = (text: string, targetArr: string[]) => {
+        if (!text || typeof text !== 'string') return;
+        const trimmed = text.trim();
+        if (!trimmed) return;
+        if ((trimmed.startsWith('{') && trimmed.endsWith('}')) || (trimmed.startsWith('[') && trimmed.endsWith(']'))) {
+            try {
+                const parsed = JSON.parse(trimmed);
+                processItem(parsed);
+                return;
+            } catch {}
+        }
+        if (!targetArr.includes(trimmed)) {
+            targetArr.push(trimmed);
+        }
+    };
+
+    const processBlockObj = (block: any) => {
+        if (!block || typeof block !== 'object') return;
+        if (block.conceptual) cleanAndAdd(block.conceptual, conceptuals);
+        if (block.procedural) cleanAndAdd(block.procedural, procedurals);
+        if (block.attitudinal) cleanAndAdd(block.attitudinal, attitudinals);
+    };
+
+    const processItem = (item: any) => {
+        if (!item) return;
+        if (Array.isArray(item)) {
+            item.forEach(processItem);
+        } else if (typeof item === 'string') {
+            const trimmed = item.trim();
+            if ((trimmed.startsWith('{') && trimmed.endsWith('}')) || (trimmed.startsWith('[') && trimmed.endsWith(']'))) {
+                try {
+                    const parsed = JSON.parse(trimmed);
+                    processItem(parsed);
+                    return;
+                } catch {}
+            }
+            cleanAndAdd(trimmed, conceptuals);
+        } else if (typeof item === 'object') {
+            processBlockObj(item);
+        }
+    };
+
+    if (unit) {
+        processItem(unit.conceptual_content);
+        if (unit.procedural_content) processItem(unit.procedural_content);
+        if (unit.attitudinal_content) processItem(unit.attitudinal_content);
+    }
+
+    return {
+        conceptual: conceptuals.filter(Boolean),
+        procedural: procedurals.filter(Boolean),
+        attitudinal: attitudinals.filter(Boolean)
+    };
 }

@@ -710,6 +710,58 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
     }
 
     // ==========================================
+    // 5c. ACTIVITY LOG ENDPOINTS
+    // ==========================================
+    if (path.startsWith("/api/activity")) {
+      if (method === "GET") {
+        const { data, error } = await supabase
+          .from("activity_log")
+          .select(`
+            id, user_id, kind, title, detail, created_at, user_name,
+            profiles:user_id(full_name, email)
+          `)
+          .order("created_at", { ascending: false })
+          .limit(100);
+
+        if (error) throw error;
+
+        const mapped = (data || []).map((a: any) => ({
+          id: a.id,
+          user_id: a.user_id,
+          kind: a.kind,
+          title: a.title,
+          detail: a.detail,
+          created_at: a.created_at,
+          full_name: a.profiles?.full_name || a.user_name || a.profiles?.email || "Docente Planix",
+          email: a.profiles?.email || ""
+        }));
+
+        return jsonResponse(mapped);
+      }
+
+      if (method === "POST") {
+        if (!body?.user_id || !body?.kind || !body?.title) {
+          return jsonResponse({ error: "Missing activity fields" }, 400);
+        }
+
+        const { error } = await supabase
+          .from("activity_log")
+          .insert({
+            id: crypto.randomUUID(),
+            user_id: body.user_id,
+            kind: body.kind,
+            title: body.title,
+            detail: body.detail || null,
+            user_name: body.userName || null,
+            created_at: new Date().toISOString()
+          });
+
+        if (error) throw error;
+        return jsonResponse({ success: true });
+      }
+    }
+
+    // ==========================================
     // 6. PLANNINGS ENDPOINTS
     // ==========================================
     if (path.startsWith("/api/plannings")) {
@@ -1282,6 +1334,27 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
             return jsonResponse({
               key: "maintenance_mode",
               value: defaultVal,
+              updated_at: new Date().toISOString()
+            });
+          } else if (configKey === "ai_config") {
+            const defaultAiConfig = {
+              activeProvider: "openai",
+              providers: {
+                openai: { apiKey: "", enabled: true, defaultModel: "gpt-4o", availableModels: ["gpt-4o", "gpt-4o-mini"], useCustomServer: false, customApiKey: "", customBaseURL: "" },
+                gemini: { apiKey: "", enabled: false, defaultModel: "gemini-3.7-flash", availableModels: ["gemini-3.7-flash", "gemini-3.6-flash", "gemini-3.5-flash", "gemini-3.5-flash-thinking", "gemini-3.1-pro", "gemini-3.1-pro-enhanced", "gemini-auto", "gemini-3.5-flash-thinking-lite", "gemini-flash-lite"], useCustomServer: false, customApiKey: "", customBaseURL: "" },
+                groq: { apiKey: "", enabled: false, defaultModel: "llama-3.1-70b-versatile", availableModels: ["llama-3.1-70b-versatile"], useCustomServer: false, customApiKey: "", customBaseURL: "" },
+                deepseek: { apiKey: "", enabled: false, defaultModel: "deepseek-v4-flash", availableModels: ["deepseek-v4-flash", "deepseek-v4-pro"], useCustomServer: false, customApiKey: "", customBaseURL: "" }
+              },
+              generationParams: { temperature: 0.7, maxTokens: 2000, frequencyPenalty: 0.0, presencePenalty: 0.0 },
+              chatAssistantEnabled: true
+            };
+            await supabase
+              .from("site_configs")
+              .upsert({ key: "ai_config", value: defaultAiConfig, updated_at: new Date().toISOString() });
+
+            return jsonResponse({
+              key: "ai_config",
+              value: defaultAiConfig,
               updated_at: new Date().toISOString()
             });
           } else {
@@ -2826,6 +2899,137 @@ async function handleLocalSupabaseRequest(urlString: string, init?: RequestInit)
           
           return jsonResponse({ success: true });
         }
+      }
+    }
+
+    // ==========================================
+    // CUSTOM UNITS & SEQUENCES ENDPOINTS
+    // ==========================================
+    if (path.startsWith("/api/custom-units")) {
+      const unitId = parts[2];
+      if (method === "GET") {
+        try {
+          const { data, error } = await supabase.from("custom_units").select("*");
+          if (!error && Array.isArray(data)) {
+            const mapped = data.map((row: any) => ({
+              id: row.id,
+              subject_id: row.subject_id,
+              grade_id: row.grade_id,
+              content: typeof row.content === "string" ? ensureJsonObject(row.content) : row.content
+            }));
+            return jsonResponse(mapped);
+          }
+        } catch (_) {}
+        
+        try {
+          const local = JSON.parse(localStorage.getItem("plx:custom_units") || "[]");
+          return jsonResponse(Array.isArray(local) ? local : []);
+        } catch (_) {
+          return jsonResponse([]);
+        }
+      }
+
+      if (method === "POST") {
+        if (!body || !body.id) {
+          return jsonResponse({ error: "Missing unit ID" }, 400);
+        }
+        try {
+          const { error } = await supabase.from("custom_units").upsert({
+            id: body.id,
+            subject_id: body.subject_id,
+            grade_id: body.grade_id,
+            content: typeof body.content === "object" ? JSON.stringify(body.content) : body.content,
+            updated_at: new Date().toISOString()
+          });
+          if (error) throw error;
+        } catch (_) {
+          try {
+            const local = JSON.parse(localStorage.getItem("plx:custom_units") || "[]");
+            const idx = local.findIndex((u: any) => u.id === body.id);
+            if (idx >= 0) local[idx] = body;
+            else local.push(body);
+            localStorage.setItem("plx:custom_units", JSON.stringify(local));
+          } catch (_) {}
+        }
+        return jsonResponse({ success: true });
+      }
+
+      if (method === "DELETE") {
+        if (unitId) {
+          try {
+            await supabase.from("custom_units").delete().eq("id", unitId);
+          } catch (_) {}
+          try {
+            const local = JSON.parse(localStorage.getItem("plx:custom_units") || "[]");
+            const updated = local.filter((u: any) => u.id !== unitId);
+            localStorage.setItem("plx:custom_units", JSON.stringify(updated));
+          } catch (_) {}
+        }
+        return jsonResponse({ success: true });
+      }
+    }
+
+    if (path.startsWith("/api/custom-sequences")) {
+      const seqId = parts[2];
+      if (method === "GET") {
+        try {
+          const { data, error } = await supabase.from("custom_sequences").select("*");
+          if (!error && Array.isArray(data)) {
+            const mapped = data.map((row: any) => ({
+              id: row.id,
+              subject_id: row.subject_id,
+              grade_id: row.grade_id,
+              content: typeof row.content === "string" ? ensureJsonObject(row.content) : row.content
+            }));
+            return jsonResponse(mapped);
+          }
+        } catch (_) {}
+
+        try {
+          const local = JSON.parse(localStorage.getItem("plx:custom_sequences") || "[]");
+          return jsonResponse(Array.isArray(local) ? local : []);
+        } catch (_) {
+          return jsonResponse([]);
+        }
+      }
+
+      if (method === "POST") {
+        if (!body || !body.id) {
+          return jsonResponse({ error: "Missing sequence ID" }, 400);
+        }
+        try {
+          const { error } = await supabase.from("custom_sequences").upsert({
+            id: body.id,
+            subject_id: body.subject_id,
+            grade_id: body.grade_id,
+            content: typeof body.content === "object" ? JSON.stringify(body.content) : body.content,
+            updated_at: new Date().toISOString()
+          });
+          if (error) throw error;
+        } catch (_) {
+          try {
+            const local = JSON.parse(localStorage.getItem("plx:custom_sequences") || "[]");
+            const idx = local.findIndex((s: any) => s.id === body.id);
+            if (idx >= 0) local[idx] = body;
+            else local.push(body);
+            localStorage.setItem("plx:custom_sequences", JSON.stringify(local));
+          } catch (_) {}
+        }
+        return jsonResponse({ success: true });
+      }
+
+      if (method === "DELETE") {
+        if (seqId) {
+          try {
+            await supabase.from("custom_sequences").delete().eq("id", seqId);
+          } catch (_) {}
+          try {
+            const local = JSON.parse(localStorage.getItem("plx:custom_sequences") || "[]");
+            const updated = local.filter((s: any) => s.id !== seqId);
+            localStorage.setItem("plx:custom_sequences", JSON.stringify(updated));
+          } catch (_) {}
+        }
+        return jsonResponse({ success: true });
       }
     }
 

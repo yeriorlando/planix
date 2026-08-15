@@ -149,11 +149,17 @@ function getSubjectDisplayName(sId?: string): string {
   if (idLower.includes('artistica') || idLower.includes('arte')) {
     return 'Educación Artística';
   }
+  if (idLower.includes('fisica') || idLower.includes('física')) {
+    return 'Educación Física';
+  }
   if (idLower.includes('lengua') || idLower.includes('espanol') || idLower.includes('español')) {
     return 'Lengua Española';
   }
   if (idLower.includes('matematica') || idLower.includes('mate')) {
     return 'Matemática';
+  }
+  if (idLower.includes('ingles') || idLower.includes('inglés')) {
+    return 'Inglés';
   }
   return sId;
 }
@@ -171,7 +177,7 @@ function getGradeDisplayName(grade?: string): string {
   else if (gradeLower.includes('6') || gradeLower.includes('sexto')) gradeNum = 'sexto';
   
   let level = 'primaria';
-  if (gradeLower.includes('secundaria')) {
+  if (gradeLower.includes('secundaria') || gradeLower.includes('sec')) {
     level = 'secundaria';
   } else if (gradeLower.includes('inicial')) {
     level = 'inicial';
@@ -366,7 +372,7 @@ export default function DailyPlanSelector({ isOpen, onClose, onSelectPlans, subj
               <div className="absolute inset-0 bg-white/85 dark:bg-zinc-900/85 flex flex-col items-center justify-center z-20 p-8 text-center">
                 <Loader2 className="w-10 h-10 text-indigo-650 animate-spin mb-4" />
                 <h4 className="text-sm font-bold text-neutral-800 dark:text-neutral-250">Sincronizando con D1...</h4>
-                <p className="text-[11px] text-neutral-500 mt-1 max-w-[200px]">Cargando tus planificaciones guardadas de primer grado.</p>
+                <p className="text-[11px] text-neutral-500 mt-1 max-w-[200px]">Cargando tus planificaciones guardadas de {getGradeDisplayName(grade)}.</p>
               </div>
             ) : filteredPlans.length === 0 ? (
               <div className="h-full min-h-[250px] flex flex-col items-center justify-center text-neutral-500 p-8 text-center">

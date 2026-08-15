@@ -130,10 +130,12 @@ export async function fetchProfile(userId: string): Promise<MappedProfile | null
 
 
 export function mapProfile(profile: any): MappedProfile {
+  const emailLower = (profile.email || "").toLowerCase().trim();
   const isDocenteAdmin =
     profile.role === "ADMINISTRADOR" ||
     profile.role === "ADMINISTRADOR_CURRICULO" ||
-    profile.email?.toLowerCase() === "admin@planix.do";
+    emailLower === "admin@planix.do" ||
+    emailLower === "reyna.mancebo@docente.edu.do";
 
   const getMappedRole = (): RolUsuario => {
     if (isDocenteAdmin) return "admin";

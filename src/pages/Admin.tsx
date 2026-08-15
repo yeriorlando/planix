@@ -276,14 +276,17 @@ const defaultSettings = {
         gemini: {
             apiKey: undefined,
             enabled: false,
-            defaultModel: 'gemini-3.5-flash',
+            defaultModel: 'gemini-3.7-flash',
             availableModels: [
-                'gemini-3.0-pro',
+                'gemini-3.7-flash',
+                'gemini-3.6-flash',
                 'gemini-3.5-flash',
-                'gemini-3.1-flash-lite',
-                'gemini-2.5-pro',
-                'gemini-2.5-flash',
-                'gemini-2.5-flash-lite'
+                'gemini-3.5-flash-thinking',
+                'gemini-3.1-pro',
+                'gemini-3.1-pro-enhanced',
+                'gemini-auto',
+                'gemini-3.5-flash-thinking-lite',
+                'gemini-flash-lite'
             ],
             useCustomServer: false,
             customApiKey: undefined,
@@ -356,20 +359,30 @@ const isRecommendedModel = (model: string): boolean => {
   return (
     lowercase === 'gpt-4o' ||
     lowercase === 'gpt-4o-mini' ||
+    lowercase === 'gemini-3.7-flash' ||
     lowercase === 'gemini-3.5-flash' ||
-    lowercase === 'gemini-2.5-flash' ||
+    lowercase === 'gemini-auto' ||
     lowercase === 'deepseek-v4-flash' ||
     lowercase === 'llama-3.1-70b-versatile'
   );
 };
 
 const modelDisplayName = (model: string): string => {
+  if (model === 'gemini-3.7-flash') return 'Gemini 3.7 Flash';
+  if (model === 'gemini-3.6-flash') return 'Gemini 3.6 Flash';
+  if (model === 'gemini-3.5-flash') return 'Gemini 3.5 Flash';
+  if (model === 'gemini-3.5-flash-thinking') return 'Gemini 3.5 Flash Thinking';
+  if (model === 'gemini-3.1-pro') return 'Gemini 3.1 Pro';
+  if (model === 'gemini-3.1-pro-enhanced') return 'Gemini 3.1 Pro Enhanced';
+  if (model === 'gemini-auto') return 'Gemini Auto';
+  if (model === 'gemini-3.5-flash-thinking-lite') return 'Gemini 3.5 Flash Thinking Lite';
+  if (model === 'gemini-flash-lite') return 'Gemini Flash Lite';
+
   if (model.startsWith('gpt-4o-mini')) return 'GPT-4o Mini';
   if (model.startsWith('gpt-4o')) return 'GPT-4o';
   if (model.startsWith('gpt-4-turbo')) return 'GPT-4 Turbo';
   if (model.startsWith('gpt-3.5-turbo')) return 'GPT-3.5 Turbo';
   if (model.startsWith('gemini-3.0-pro')) return 'Gemini 3 Pro';
-  if (model.startsWith('gemini-3.5-flash')) return 'Gemini 3.5 Flash';
   if (model.startsWith('gemini-3.1-flash-lite')) return 'Gemini 3.1 Flash-Lite';
   if (model.startsWith('gemini-2.5-pro')) return 'Gemini 2.5 Pro';
   if (model.startsWith('gemini-2.5-flash')) return 'Gemini 2.5 Flash';
@@ -482,18 +495,21 @@ function AISettingsPanel() {
     useEffect(() => {
         if (activeTab === 'gemini') {
             const validModels = [
-                'gemini-3.0-pro',
+                'gemini-3.7-flash',
+                'gemini-3.6-flash',
                 'gemini-3.5-flash',
-                'gemini-3.1-flash-lite',
-                'gemini-2.5-pro',
-                'gemini-2.5-flash',
-                'gemini-2.5-flash-lite'
+                'gemini-3.5-flash-thinking',
+                'gemini-3.1-pro',
+                'gemini-3.1-pro-enhanced',
+                'gemini-auto',
+                'gemini-3.5-flash-thinking-lite',
+                'gemini-flash-lite'
             ];
             if (JSON.stringify(currentProvider.availableModels) !== JSON.stringify(validModels)) {
                 updateProviderConfig('gemini', { availableModels: validModels });
             }
             if (!currentProvider.useCustomServer && currentProvider.defaultModel && !validModels.includes(currentProvider.defaultModel)) {
-                updateProviderConfig('gemini', { defaultModel: 'gemini-3.5-flash' });
+                updateProviderConfig('gemini', { defaultModel: 'gemini-3.7-flash' });
             }
         }
 
@@ -822,7 +838,18 @@ function AISettingsPanel() {
                                     onChange={(checked) => {
                                         const updates: any = { useCustomServer: checked };
                                         if (activeTab === 'gemini') {
-                                            updates.defaultModel = 'gemini-3.5-flash';
+                                            updates.defaultModel = currentProvider.defaultModel || 'gemini-3.7-flash';
+                                            updates.availableModels = [
+                                                'gemini-3.7-flash',
+                                                'gemini-3.6-flash',
+                                                'gemini-3.5-flash',
+                                                'gemini-3.5-flash-thinking',
+                                                'gemini-3.1-pro',
+                                                'gemini-3.1-pro-enhanced',
+                                                'gemini-auto',
+                                                'gemini-3.5-flash-thinking-lite',
+                                                'gemini-flash-lite'
+                                            ];
                                         }
                                         updateProviderConfig(activeTab, updates);
                                     }}

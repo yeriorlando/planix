@@ -164,21 +164,31 @@ const SUBJECTS = [
 ];
 
 const UNIT_SUBJECTS = [
+  { id: 'educacion-artistica', name: 'Educación Artística' },
+  { id: 'educacion-fisica', name: 'Educación Física' },
+  { id: 'formacion-humana', name: 'Formación Integral Humana y Religiosa' },
   { id: 'sociales', name: 'Ciencias Sociales' },
   { id: 'naturales', name: 'Ciencias de la Naturaleza' },
-  { id: 'formacion-humana', name: 'Formación Humana' },
-  { id: 'educacion-fisica', name: 'Educación Física' },
-  { id: 'educacion-artistica', name: 'Educación Artística' },
-  { id: 'ingles', name: 'Lenguas Extranjeras (Inglés)' }
+  { id: 'ingles', name: 'Lenguas Extranjeras (Inglés)' },
+  { id: 'lengua-espanola', name: 'Lengua Española' },
+  { id: 'matematica', name: 'Matemática' }
 ];
 
 const UNIT_GRADES = [
-  { id: '1ro', name: '1er Grado de Primaria' },
-  { id: '2do', name: '2do Grado de Primaria' },
-  { id: '3ro', name: '3er Grado de Primaria' },
-  { id: '4to', name: '4to Grado de Primaria' },
-  { id: '5to', name: '5to Grado de Primaria' },
-  { id: '6to', name: '6to Grado de Primaria' }
+  // Primaria
+  { id: '1ro', name: '1er Grado (Primaria)', level: 'PRIMARIA' },
+  { id: '2do', name: '2do Grado (Primaria)', level: 'PRIMARIA' },
+  { id: '3ro', name: '3er Grado (Primaria)', level: 'PRIMARIA' },
+  { id: '4to', name: '4to Grado (Primaria)', level: 'PRIMARIA' },
+  { id: '5to', name: '5to Grado (Primaria)', level: 'PRIMARIA' },
+  { id: '6to', name: '6to Grado (Primaria)', level: 'PRIMARIA' },
+  // Secundaria
+  { id: '1ro Sec', name: '1er Grado (Secundaria)', level: 'SECUNDARIA' },
+  { id: '2do Sec', name: '2do Grado (Secundaria)', level: 'SECUNDARIA' },
+  { id: '3ro Sec', name: '3er Grado (Secundaria)', level: 'SECUNDARIA' },
+  { id: '4to Sec', name: '4to Grado (Secundaria)', level: 'SECUNDARIA' },
+  { id: '5to Sec', name: '5to Grado (Secundaria)', level: 'SECUNDARIA' },
+  { id: '6to Sec', name: '6to Grado (Secundaria)', level: 'SECUNDARIA' }
 ];
 
 const SEQUENCES_BY_GRADE_SUBJECT: Record<string, Record<string, { id: string, title: string }[]>> = {
@@ -721,11 +731,44 @@ export default function AdminCurriculum() {
 
   // Derived unit lists
   const mergedUnits = React.useMemo(() => {
+    const staticUnits = getUnitsBySubjectAndGrade(selectedUnitSubject, selectedUnitGrade);
     const filteredCustom = customUnits
-      .filter(cu => cu.subject_id === selectedUnitSubject && cu.grade_id === selectedUnitGrade)
+      .filter(cu => {
+        const subjectMatch = cu.subject_id === selectedUnitSubject ||
+          (selectedUnitSubject === 'educacion-artistica' && (cu.subject_id === 'educacion-artistica-sec' || cu.subject_id === 'educacion-artistica')) ||
+          (selectedUnitSubject === 'educacion-fisica' && (cu.subject_id === 'educacion-fisica-sec' || cu.subject_id === 'educacion-fisica')) ||
+          (selectedUnitSubject === 'formacion-humana' && (cu.subject_id === 'formacion-humana-sec' || cu.subject_id === 'formacion-humana')) ||
+          (selectedUnitSubject === 'sociales' && (cu.subject_id === 'sociales-sec' || cu.subject_id === 'sociales')) ||
+          (selectedUnitSubject === 'naturales' && (cu.subject_id === 'naturales-sec' || cu.subject_id === 'naturales'));
+
+        const isSec = selectedUnitGrade.includes('Sec') || selectedUnitGrade.includes('secundaria');
+        const normalizedUnitGrade = selectedUnitGrade.replace(/^(primaria|secundaria|inicial)-/, '').replace(/\s*sec$/i, '').trim();
+        const cuGradeNorm = (cu.grade_id || '').replace(/^(primaria|secundaria|inicial)-/, '').replace(/\s*sec$/i, '').trim();
+        const cuIsSec = (cu.grade_id || '').toLowerCase().includes('sec') || (cu.grade_id || '').startsWith('secundaria-') || cu.subject_id?.includes('-sec');
+
+        let gradeMatch = cu.grade_id === selectedUnitGrade;
+        if (!gradeMatch) {
+          if (isSec) {
+            gradeMatch = cuIsSec && cuGradeNorm === normalizedUnitGrade;
+          } else {
+            gradeMatch = !cuIsSec && cuGradeNorm === normalizedUnitGrade;
+          }
+        }
+
+        return subjectMatch && gradeMatch;
+      })
       .map(cu => cu.content);
 
-    return filteredCustom.filter(u => !u.isDeleted);
+    const map = new Map<string, Unit>();
+    staticUnits.forEach(u => map.set(u.id, u));
+    filteredCustom.forEach(u => {
+      if (u.isDeleted) {
+        map.delete(u.id);
+      } else {
+        map.set(u.id, u);
+      }
+    });
+    return Array.from(map.values());
   }, [selectedUnitSubject, selectedUnitGrade, customUnits]);
 
   const selectedUnit = React.useMemo(() => {
@@ -2252,34 +2295,45 @@ export default function AdminCurriculum() {
                   {showUnitGradeDropdown && (
                     <>
                       <div className="fixed inset-0 z-45" onClick={() => setShowUnitGradeDropdown(false)} />
-                      <div className="absolute left-0 top-full mt-1.5 w-full bg-white dark:bg-zinc-900 rounded-2xl border border-black/5 dark:border-zinc-800 shadow-xl p-1.5 z-50 animate-in fade-in slide-in-from-top-1 duration-75">
-                        <div className="space-y-0.5">
-                          {(selectedUnitSubject === 'ingles' 
-                            ? UNIT_GRADES.filter(g => g.id === '4to' || g.id === '5to' || g.id === '6to') 
-                            : UNIT_GRADES).map(grade => {
-                            const isSelected = grade.id === selectedUnitGrade;
+                      <div className="absolute left-0 top-full mt-1.5 w-full bg-white dark:bg-zinc-900 rounded-2xl border border-black/5 dark:border-zinc-800 shadow-xl p-2 z-50 animate-in fade-in slide-in-from-top-1 duration-75 max-h-[360px] overflow-y-auto">
+                        <div className="space-y-3">
+                          {['PRIMARIA', 'SECUNDARIA'].map(lvl => {
+                            const levelGrades = (selectedUnitSubject === 'ingles'
+                              ? UNIT_GRADES.filter(g => g.level === lvl && (g.id === '4to' || g.id === '5to' || g.id === '6to' || g.level === 'SECUNDARIA'))
+                              : UNIT_GRADES.filter(g => g.level === lvl));
+                            if (levelGrades.length === 0) return null;
                             return (
-                              <button
-                                key={grade.id}
-                                type="button"
-                                onClick={() => {
-                                  setSelectedUnitGrade(grade.id);
-                                  setSelectedUnitId('');
-                                  setSelectedThemeId('');
-                                  setShowUnitGradeDropdown(false);
-                                }}
-                                className={`w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-left text-sm font-semibold transition-colors ${
-                                  isSelected
-                                    ? "bg-slate-100 dark:bg-zinc-800 text-[#1B1B1B] dark:text-white"
-                                    : "text-slate-700 dark:text-zinc-400 hover:bg-slate-50 dark:hover:bg-zinc-800/50"
-                                }`}
-                              >
-                                <span className="flex items-center gap-2">
-                                  <span className="text-base">{getGradeIcon(grade.id)}</span>
-                                  <span>{grade.name}</span>
-                                </span>
-                                {isSelected && <Check className="w-4 h-4 shrink-0 text-[#1B1B1B] dark:text-white" />}
-                              </button>
+                              <div key={lvl} className="space-y-1">
+                                <div className="px-2 py-0.5 text-[9.5px] font-black uppercase tracking-wider text-slate-400 dark:text-zinc-500 bg-slate-100/70 dark:bg-zinc-800/50 rounded-lg">
+                                  Nivel {lvl === 'PRIMARIA' ? 'Primario' : 'Secundario'}
+                                </div>
+                                {levelGrades.map(grade => {
+                                  const isSelected = grade.id === selectedUnitGrade;
+                                  return (
+                                    <button
+                                      key={grade.id}
+                                      type="button"
+                                      onClick={() => {
+                                        setSelectedUnitGrade(grade.id);
+                                        setSelectedUnitId('');
+                                        setSelectedThemeId('');
+                                        setShowUnitGradeDropdown(false);
+                                      }}
+                                      className={`w-full flex items-center justify-between px-3.5 py-2 rounded-xl text-left text-xs font-semibold transition-colors cursor-pointer ${
+                                        isSelected
+                                          ? "bg-slate-100 dark:bg-zinc-800 text-[#1B1B1B] dark:text-white font-bold"
+                                          : "text-slate-700 dark:text-zinc-400 hover:bg-slate-50 dark:hover:bg-zinc-800/50"
+                                      }`}
+                                    >
+                                      <span className="flex items-center gap-2">
+                                        <span className="text-sm">{getGradeIcon(grade.id)}</span>
+                                        <span>{grade.name}</span>
+                                      </span>
+                                      {isSelected && <Check className="w-3.5 h-3.5 shrink-0 text-[#0046ab] dark:text-blue-400" />}
+                                    </button>
+                                  );
+                                })}
+                              </div>
                             );
                           })}
                         </div>

@@ -186,6 +186,8 @@ export interface CommunityPost {
   docente_id: string;
   docente_nombre: string;
   docente_rol: string;
+  docente_avatar?: string;
+  is_ambassador?: boolean;
   contenido: string;
   likes_count: number;
   comments_count: number;
@@ -197,12 +199,16 @@ export interface CommunityPost {
   comments_disabled?: boolean;
   comentarios: {
     id: string;
+    docente_id?: string;
     docente_nombre: string;
+    docente_avatar?: string;
     contenido: string;
     creado_en: string;
     respuestas?: {
       id: string;
+      docente_id?: string;
       docente_nombre: string;
+      docente_avatar?: string;
       contenido: string;
       creado_en: string;
     }[];
@@ -382,9 +388,6 @@ function cleanUserList(users: Usuario[]): Usuario[] {
     if (normalizedNombre.includes("test docente")) return false;
     if (normalizedNombre === "juan perez" && email.includes("test")) return false;
     
-    // If email is admin@planix.do, only keep it if the name is Yeri Orlando
-    if (email === "admin@planix.do" && !normalizedNombre.includes("yeri orlando")) return false;
-    
     return true;
   });
 }
@@ -398,8 +401,15 @@ export function getUsers(): Usuario[] {
   }
   return cleaned;
 }
+
+export function isAdminEmail(email?: string): boolean {
+  if (!email) return false;
+  const e = email.toLowerCase().trim();
+  return e === "admin@planix.do" || e === "reyna.mancebo@docente.edu.do";
+}
+
 export function saveUsuario(u: Usuario) {
-  if (u.email && u.email.toLowerCase() === "admin@planix.do") {
+  if (isAdminEmail(u.email)) {
     u.rol = "admin";
   }
   if (u.rol === "admin") {
@@ -477,7 +487,7 @@ export function getCurrentUser(): Usuario | null {
   if (!s) return null;
   const user = getUsers().find((u) => u.id === s.user_id) || null;
   if (user) {
-    if (user.email.toLowerCase() === "admin@planix.do") {
+    if (isAdminEmail(user.email)) {
       user.rol = "admin";
     }
     if (user.rol === "admin") {

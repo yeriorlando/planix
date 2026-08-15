@@ -102,6 +102,17 @@ import FormacionHumanaDiaria4to from '../components/forms/Primaria/Cuarto Grado/
 import FormacionHumanaUnidad4to from '../components/forms/Primaria/Cuarto Grado/Formacion Humana/FormacionHumanaUnidad';
 import EducacionFisicaDiaria4to from '../components/forms/Primaria/Cuarto Grado/Educacion Fisica/EducacionFisicaDiaria';
 import EducacionFisicaUnidad4to from '../components/forms/Primaria/Cuarto Grado/Educacion Fisica/EducacionFisicaUnidad';
+// 3er Grado Forms
+import CienciasSocialesDiaria3ro from '../components/forms/Primaria/Terccer Grado/Ciencias Sociales/CienciasSocialesDiaria';
+import CienciasSocialesUnidad3ro from '../components/forms/Primaria/Terccer Grado/Ciencias Sociales/CienciasSocialesUnidad';
+import CienciasNaturalesDiaria3ro from '../components/forms/Primaria/Terccer Grado/Ciencias Naturales/CienciasNaturalesDiaria';
+import CienciasNaturalesUnidad3ro from '../components/forms/Primaria/Terccer Grado/Ciencias Naturales/CienciasNaturalesUnidad';
+import EducacionArtisticaDiaria3ro from '../components/forms/Primaria/Terccer Grado/Educación Artistica/EducacionArtisticaDiaria';
+import EducacionArtisticaUnidad3ro from '../components/forms/Primaria/Terccer Grado/Educación Artistica/EducacionArtisticaUnidad';
+import FormacionHumanaDiaria3ro from '../components/forms/Primaria/Terccer Grado/Formacion Humana/FormacionHumanaDiaria';
+import FormacionHumanaUnidad3ro from '../components/forms/Primaria/Terccer Grado/Formacion Humana/FormacionHumanaUnidad';
+import EducacionFisicaDiaria3ro from '../components/forms/Primaria/Terccer Grado/Educacion Fisica/EducacionFisicaDiaria';
+import EducacionFisicaUnidad3ro from '../components/forms/Primaria/Terccer Grado/Educacion Fisica/EducacionFisicaUnidad';
 
 // 5to Grado Forms
 import CienciasSocialesDiaria5to from '../components/forms/Primaria/Quinto Grado/Ciencias Sociales/CienciasSocialesDiaria';
@@ -130,17 +141,31 @@ import FormacionHumanaDiaria6to from '../components/forms/Primaria/Sexto Grado/F
 import FormacionHumanaUnidad6to from '../components/forms/Primaria/Sexto Grado/Formacion Humana/FormacionHumanaUnidad';
 import EducacionFisicaDiaria6to from '../components/forms/Primaria/Sexto Grado/Educacion Fisica/EducacionFisicaDiaria';
 import EducacionFisicaUnidad6to from '../components/forms/Primaria/Sexto Grado/Educacion Fisica/EducacionFisicaUnidad';
-// 3er Grado Forms
-import CienciasSocialesDiaria3ro from '../components/forms/Primaria/Terccer Grado/Ciencias Sociales/CienciasSocialesDiaria';
-import CienciasSocialesUnidad3ro from '../components/forms/Primaria/Terccer Grado/Ciencias Sociales/CienciasSocialesUnidad';
-import CienciasNaturalesDiaria3ro from '../components/forms/Primaria/Terccer Grado/Ciencias Naturales/CienciasNaturalesDiaria';
-import CienciasNaturalesUnidad3ro from '../components/forms/Primaria/Terccer Grado/Ciencias Naturales/CienciasNaturalesUnidad';
-import EducacionArtisticaDiaria3ro from '../components/forms/Primaria/Terccer Grado/Educación Artistica/EducacionArtisticaDiaria';
-import EducacionArtisticaUnidad3ro from '../components/forms/Primaria/Terccer Grado/Educación Artistica/EducacionArtisticaUnidad';
-import FormacionHumanaDiaria3ro from '../components/forms/Primaria/Terccer Grado/Formacion Humana/FormacionHumanaDiaria';
-import FormacionHumanaUnidad3ro from '../components/forms/Primaria/Terccer Grado/Formacion Humana/FormacionHumanaUnidad';
-import EducacionFisicaDiaria3ro from '../components/forms/Primaria/Terccer Grado/Educacion Fisica/EducacionFisicaDiaria';
-import EducacionFisicaUnidad3ro from '../components/forms/Primaria/Terccer Grado/Educacion Fisica/EducacionFisicaUnidad';
+
+// Secundaria 1er Grado Forms
+import EducacionArtisticaDiariaSec1ro from '../components/forms/Secundaria/Primer Grado Secundaria/Educación Artistica/EducacionArtisticaDiaria';
+import EducacionArtisticaUnidadSec1ro from '../components/forms/Secundaria/Primer Grado Secundaria/Educación Artistica/EducacionArtisticaUnidad';
+import FormacionHumanaDiariaSec1ro from '../components/forms/Secundaria/Primer Grado Secundaria/Formacion Humana/FormacionHumanaDiaria';
+import FormacionHumanaUnidadSec1ro from '../components/forms/Secundaria/Primer Grado Secundaria/Formacion Humana/FormacionHumanaUnidad';
+import EducacionFisicaDiariaSec1ro from '../components/forms/Secundaria/Primer Grado Secundaria/Educacion Fisica/EducacionFisicaDiaria';
+import EducacionFisicaUnidadSec1ro from '../components/forms/Secundaria/Primer Grado Secundaria/Educacion Fisica/EducacionFisicaUnidad';
+
+// Secundaria 2do Grado Forms
+import EducacionArtisticaDiariaSec2do from '../components/forms/Secundaria/Segundo Grado Secundaria/Educación Artistica/EducacionArtisticaDiaria';
+import EducacionArtisticaUnidadSec2do from '../components/forms/Secundaria/Segundo Grado Secundaria/Educación Artistica/EducacionArtisticaUnidad';
+import FormacionHumanaDiariaSec2do from '../components/forms/Secundaria/Segundo Grado Secundaria/Formacion Humana/FormacionHumanaDiaria';
+import FormacionHumanaUnidadSec2do from '../components/forms/Secundaria/Segundo Grado Secundaria/Formacion Humana/FormacionHumanaUnidad';
+import EducacionFisicaDiariaSec2do from '../components/forms/Secundaria/Segundo Grado Secundaria/Educacion Fisica/EducacionFisicaDiaria';
+import EducacionFisicaUnidadSec2do from '../components/forms/Secundaria/Segundo Grado Secundaria/Educacion Fisica/EducacionFisicaUnidad';
+
+// Secundaria 3er Grado Forms
+import EducacionArtisticaDiariaSec3ro from '../components/forms/Secundaria/Tercer Grado Secundaria/Educación Artistica/EducacionArtisticaDiaria';
+import EducacionArtisticaUnidadSec3ro from '../components/forms/Secundaria/Tercer Grado Secundaria/Educación Artistica/EducacionArtisticaUnidad';
+import FormacionHumanaDiariaSec3ro from '../components/forms/Secundaria/Tercer Grado Secundaria/Formacion Humana/FormacionHumanaDiaria';
+import FormacionHumanaUnidadSec3ro from '../components/forms/Secundaria/Tercer Grado Secundaria/Formacion Humana/FormacionHumanaUnidad';
+import EducacionFisicaDiariaSec3ro from '../components/forms/Secundaria/Tercer Grado Secundaria/Educacion Fisica/EducacionFisicaDiaria';
+import EducacionFisicaUnidadSec3ro from '../components/forms/Secundaria/Tercer Grado Secundaria/Educacion Fisica/EducacionFisicaUnidad';
+
 import { consumeCredits, hasEnoughCredits, getUserCredits } from '../lib/credits';
 import ModalCreditos from '../components/ai/ModalCreditos';
 import { generateToolContent } from '../lib/services/aiService';
@@ -712,6 +737,57 @@ const SUBJECT_EMOJIS: Record<string, Record<string, string>> = {
     'formacion-humana': '🍎',
     'educacion-artistica': '🏺',
     'educacion-fisica': '🏊'
+  },
+  'secundaria-1ro': {
+    'lengua-espanola': '📚',
+    'lengua-espanola-sec': '📚',
+    'matematica': '🧊',
+    'matematica-sec': '🧊',
+    'sociales': '🧭',
+    'sociales-sec': '🧭',
+    'naturales': '🔬',
+    'naturales-sec': '🔬',
+    'formacion-humana': '🧘',
+    'formacion-humana-sec': '🧘',
+    'educacion-artistica': '🎭',
+    'educacion-artistica-sec': '🎭',
+    'educacion-fisica': '🎾',
+    'educacion-fisica-sec': '🎾',
+    'ingles': '🗣️'
+  },
+  'secundaria-2do': {
+    'lengua-espanola': '📚',
+    'lengua-espanola-sec': '📚',
+    'matematica': '🔣',
+    'matematica-sec': '🔣',
+    'sociales': '🗺️',
+    'sociales-sec': '🗺️',
+    'naturales': '🔬',
+    'naturales-sec': '🔬',
+    'formacion-humana': '🕊️',
+    'formacion-humana-sec': '🕊️',
+    'educacion-artistica': '🖌️',
+    'educacion-artistica-sec': '🖌️',
+    'educacion-fisica': '🎯',
+    'educacion-fisica-sec': '🎯',
+    'ingles': '🗣️'
+  },
+  'secundaria-3ro': {
+    'lengua-espanola': '📒',
+    'lengua-espanola-sec': '📒',
+    'matematica': '📐',
+    'matematica-sec': '📐',
+    'sociales': '📗',
+    'sociales-sec': '📗',
+    'naturales': '🧪',
+    'naturales-sec': '🧪',
+    'formacion-humana': '🙏',
+    'formacion-humana-sec': '🙏',
+    'educacion-artistica': '🎻',
+    'educacion-artistica-sec': '🎻',
+    'educacion-fisica': '🎾',
+    'educacion-fisica-sec': '🎾',
+    'ingles': '🗣️'
   }
 };
 
@@ -863,7 +939,7 @@ export default function Planificador() {
           let fullUnit = staticUnits.find(u => u.id === plan.secuencia_id);
           
           if (!fullUnit) {
-            // Check custom units
+            // Check custom units in D1
             try {
               const apiBase = import.meta.env.VITE_API_URL || 
                 (typeof window !== "undefined" && window.location.hostname !== "localhost" 
@@ -1064,24 +1140,65 @@ export default function Planificador() {
               else if (cleanGrade.includes('2do')) draftKey = 'plx:naturales2do_draft';
               else if (cleanGrade.includes('3ro')) draftKey = 'plx:naturales3ro_unidad_draft';
             }
-          } else if (subId === 'educacion-artistica') {
-            if (isDiaria) {
-              if (cleanGrade.includes('1ro')) draftKey = 'plx:artistica1ro_draft';
-              else if (cleanGrade.includes('2do')) draftKey = 'plx:artistica2do_draft';
-              else if (cleanGrade.includes('3ro')) draftKey = 'plx:artistica3ro_draft';
+          } else if (subId === 'educacion-artistica' || subId === 'educacion-artistica-sec') {
+            const isSec = cleanGrade.includes('sec') || cleanGrade.includes('secundaria');
+            if (isSec) {
+              if (cleanGrade.includes('1ro')) draftKey = isDiaria ? 'plx:sec_artistica1ro_diaria_draft' : 'plx:sec_artistica1ro_unidad_draft';
+              else if (cleanGrade.includes('2do')) draftKey = isDiaria ? 'plx:sec_artistica2do_diaria_draft' : 'plx:sec_artistica2do_unidad_draft';
+              else if (cleanGrade.includes('3ro')) draftKey = isDiaria ? 'plx:sec_artistica3ro_diaria_draft' : 'plx:sec_artistica3ro_unidad_draft';
             } else {
-              if (cleanGrade.includes('1ro')) draftKey = 'plx:artistica1ro_draft';
-              else if (cleanGrade.includes('2do')) draftKey = 'plx:artistica2do_draft';
-              else if (cleanGrade.includes('3ro')) draftKey = 'plx:artistica3ro_unidad_draft';
+              if (isDiaria) {
+                if (cleanGrade.includes('1ro')) draftKey = 'plx:artistica1ro_draft';
+                else if (cleanGrade.includes('2do')) draftKey = 'plx:artistica2do_draft';
+                else if (cleanGrade.includes('3ro')) draftKey = 'plx:artistica3ro_draft';
+              } else {
+                if (cleanGrade.includes('1ro')) draftKey = 'plx:artistica1ro_draft';
+                else if (cleanGrade.includes('2do')) draftKey = 'plx:artistica2do_draft';
+                else if (cleanGrade.includes('3ro')) draftKey = 'plx:artistica3ro_unidad_draft';
+              }
             }
-          } else if (subId === 'educacion-fisica') {
-            if (cleanGrade.includes('1ro')) draftKey = isDiaria ? 'plx:educacionfisica1ro_diaria_draft' : 'plx:educacionfisica1ro_unidad_draft';
-            else if (cleanGrade.includes('2do')) draftKey = isDiaria ? 'plx:educacionfisica2do_diaria_draft' : 'plx:educacionfisica2do_unidad_draft';
-            else if (cleanGrade.includes('3ro')) draftKey = isDiaria ? 'plx:educacionfisica3ro_diaria_draft' : 'plx:educacionfisica3ro_unidad_draft';
-          } else if (subId === 'formacion-humana') {
-            if (cleanGrade.includes('1ro')) draftKey = 'plx:formacion1ro_draft';
-            else if (cleanGrade.includes('2do')) draftKey = isDiaria ? 'plx:formacion2do_diaria_draft' : 'plx:formacion2do_unidad_draft';
-            else if (cleanGrade.includes('3ro')) draftKey = isDiaria ? 'plx:formacion3ro_draft' : 'plx:formacion3ro_unidad_draft';
+          } else if (subId === 'educacion-fisica' || subId === 'educacion-fisica-sec') {
+            const isSec = cleanGrade.includes('sec') || cleanGrade.includes('secundaria');
+            if (isSec) {
+              if (cleanGrade.includes('1ro')) draftKey = isDiaria ? 'plx:sec_educacionfisica1ro_diaria_draft' : 'plx:sec_educacionfisica1ro_unidad_draft';
+              else if (cleanGrade.includes('2do')) draftKey = isDiaria ? 'plx:sec_educacionfisica2do_diaria_draft' : 'plx:sec_educacionfisica2do_unidad_draft';
+              else if (cleanGrade.includes('3ro')) draftKey = isDiaria ? 'plx:sec_educacionfisica3ro_diaria_draft' : 'plx:sec_educacionfisica3ro_unidad_draft';
+            } else {
+              if (cleanGrade.includes('1ro')) draftKey = isDiaria ? 'plx:educacionfisica1ro_diaria_draft' : 'plx:educacionfisica1ro_unidad_draft';
+              else if (cleanGrade.includes('2do')) draftKey = isDiaria ? 'plx:educacionfisica2do_diaria_draft' : 'plx:educacionfisica2do_unidad_draft';
+              else if (cleanGrade.includes('3ro')) draftKey = isDiaria ? 'plx:educacionfisica3ro_diaria_draft' : 'plx:educacionfisica3ro_unidad_draft';
+            }
+          } else if (subId === 'formacion-humana' || subId === 'formacion-humana-sec') {
+            const isSec = cleanGrade.includes('sec') || cleanGrade.includes('secundaria');
+            if (isSec) {
+              if (cleanGrade.includes('1ro')) draftKey = isDiaria ? 'plx:sec_formacion1ro_diaria_draft' : 'plx:sec_formacion1ro_unidad_draft';
+              else if (cleanGrade.includes('2do')) draftKey = isDiaria ? 'plx:sec_formacion2do_diaria_draft' : 'plx:sec_formacion2do_unidad_draft';
+              else if (cleanGrade.includes('3ro')) draftKey = isDiaria ? 'plx:sec_formacion3ro_diaria_draft' : 'plx:sec_formacion3ro_unidad_draft';
+            } else {
+              if (cleanGrade.includes('1ro')) draftKey = 'plx:formacion1ro_draft';
+              else if (cleanGrade.includes('2do')) draftKey = isDiaria ? 'plx:formacion2do_diaria_draft' : 'plx:formacion2do_unidad_draft';
+              else if (cleanGrade.includes('3ro')) draftKey = isDiaria ? 'plx:formacion3ro_draft' : 'plx:formacion3ro_unidad_draft';
+            }
+          } else if (subId === 'ingles') {
+            if (isDiaria) {
+              if (cleanGrade.includes('4to')) draftKey = 'plx:ingles4to_draft';
+              else if (cleanGrade.includes('5to')) draftKey = 'plx:ingles5to_draft';
+              else if (cleanGrade.includes('6to')) draftKey = 'plx:ingles6to_draft';
+            } else {
+              if (cleanGrade.includes('4to')) draftKey = 'plx:ingles4to_unidad_draft';
+              else if (cleanGrade.includes('5to')) draftKey = 'plx:ingles5to_unidad_draft';
+              else if (cleanGrade.includes('6to')) draftKey = 'plx:ingles6to_unidad_draft';
+            }
+          } else if (subId === 'ingles') {
+            if (isDiaria) {
+              if (cleanGrade.includes('4to')) draftKey = 'plx:ingles4to_draft';
+              else if (cleanGrade.includes('5to')) draftKey = 'plx:ingles5to_draft';
+              else if (cleanGrade.includes('6to')) draftKey = 'plx:ingles6to_draft';
+            } else {
+              if (cleanGrade.includes('4to')) draftKey = 'plx:ingles4to_unidad_draft';
+              else if (cleanGrade.includes('5to')) draftKey = 'plx:ingles5to_unidad_draft';
+              else if (cleanGrade.includes('6to')) draftKey = 'plx:ingles6to_unidad_draft';
+            }
           }
 
           if (draftKey) {
@@ -1278,45 +1395,30 @@ export default function Planificador() {
     sessionStorage.removeItem('plx:sociales3ro_unidad_draft');
     sessionStorage.removeItem('plx:naturales3ro_unidad_draft');
     sessionStorage.removeItem('plx:artistica3ro_unidad_draft');
-
-    // 4to Grado Drafts
-    sessionStorage.removeItem('plx:lengua4to_draft');
-    sessionStorage.removeItem('plx:matematica4to_draft');
-    sessionStorage.removeItem('plx:sociales4to_draft');
-    sessionStorage.removeItem('plx:naturales4to_draft');
-    sessionStorage.removeItem('plx:artistica4to_draft');
-    sessionStorage.removeItem('plx:artistica4to_unidad_draft');
-    sessionStorage.removeItem('plx:educacionfisica4to_diaria_draft');
-    sessionStorage.removeItem('plx:educacionfisica4to_unidad_draft');
-    sessionStorage.removeItem('plx:formacion4to_draft');
-    sessionStorage.removeItem('plx:formacion4to_unidad_draft');
-
-    // 5to Grado Drafts
-    sessionStorage.removeItem('plx:lengua5to_draft');
-    sessionStorage.removeItem('plx:matematica5to_draft');
-    sessionStorage.removeItem('plx:sociales5to_draft');
-    sessionStorage.removeItem('plx:naturales5to_draft');
-    sessionStorage.removeItem('plx:artistica5to_draft');
-    sessionStorage.removeItem('plx:artistica5to_unidad_draft');
-    sessionStorage.removeItem('plx:educacionfisica5to_diaria_draft');
-    sessionStorage.removeItem('plx:educacionfisica5to_unidad_draft');
-    sessionStorage.removeItem('plx:formacion5to_draft');
-    sessionStorage.removeItem('plx:formacion5to_unidad_draft');
-
-    // 6to Grado Drafts
-    sessionStorage.removeItem('plx:lengua6to_draft');
-    sessionStorage.removeItem('plx:matematica6to_draft');
-    sessionStorage.removeItem('plx:sociales6to_draft');
-    sessionStorage.removeItem('plx:naturales6to_draft');
-    sessionStorage.removeItem('plx:artistica6to_draft');
-    sessionStorage.removeItem('plx:artistica6to_unidad_draft');
-    sessionStorage.removeItem('plx:educacionfisica6to_diaria_draft');
-    sessionStorage.removeItem('plx:educacionfisica6to_unidad_draft');
-    sessionStorage.removeItem('plx:formacion6to_draft');
-    sessionStorage.removeItem('plx:formacion6to_unidad_draft');
-    sessionStorage.removeItem('plx:sociales6to_unidad_draft');
-    sessionStorage.removeItem('plx:naturales6to_unidad_draft');
-
+    sessionStorage.removeItem('plx:ingles4to_draft');
+    sessionStorage.removeItem('plx:ingles4to_unidad_draft');
+    sessionStorage.removeItem('plx:ingles5to_draft');
+    sessionStorage.removeItem('plx:ingles5to_unidad_draft');
+    sessionStorage.removeItem('plx:ingles6to_draft');
+    sessionStorage.removeItem('plx:ingles6to_unidad_draft');
+    sessionStorage.removeItem('plx:sec_artistica1ro_diaria_draft');
+    sessionStorage.removeItem('plx:sec_artistica1ro_unidad_draft');
+    sessionStorage.removeItem('plx:sec_educacionfisica1ro_diaria_draft');
+    sessionStorage.removeItem('plx:sec_educacionfisica1ro_unidad_draft');
+    sessionStorage.removeItem('plx:sec_formacion1ro_diaria_draft');
+    sessionStorage.removeItem('plx:sec_formacion1ro_unidad_draft');
+    sessionStorage.removeItem('plx:sec_artistica2do_diaria_draft');
+    sessionStorage.removeItem('plx:sec_artistica2do_unidad_draft');
+    sessionStorage.removeItem('plx:sec_educacionfisica2do_diaria_draft');
+    sessionStorage.removeItem('plx:sec_educacionfisica2do_unidad_draft');
+    sessionStorage.removeItem('plx:sec_formacion2do_diaria_draft');
+    sessionStorage.removeItem('plx:sec_formacion2do_unidad_draft');
+    sessionStorage.removeItem('plx:sec_artistica3ro_diaria_draft');
+    sessionStorage.removeItem('plx:sec_artistica3ro_unidad_draft');
+    sessionStorage.removeItem('plx:sec_educacionfisica3ro_diaria_draft');
+    sessionStorage.removeItem('plx:sec_educacionfisica3ro_unidad_draft');
+    sessionStorage.removeItem('plx:sec_formacion3ro_diaria_draft');
+    sessionStorage.removeItem('plx:sec_formacion3ro_unidad_draft');
     setTimeout(() => navigate('/planificaciones'), delay);
   };
 
@@ -1337,10 +1439,15 @@ export default function Planificador() {
 
   const isUnitBasedSubject = selectedSubject && (
     selectedSubject.id === 'sociales' || 
+    selectedSubject.id === 'sociales-sec' ||
     selectedSubject.id === 'naturales' || 
+    selectedSubject.id === 'naturales-sec' ||
     selectedSubject.id === 'educacion-artistica' || 
+    selectedSubject.id === 'educacion-artistica-sec' ||
     selectedSubject.id === 'educacion-fisica' || 
+    selectedSubject.id === 'educacion-fisica-sec' ||
     selectedSubject.id === 'formacion-humana' ||
+    selectedSubject.id === 'formacion-humana-sec' ||
     selectedSubject.id === 'ingles' ||
     ((selectedSubject.id === 'matematica' || selectedSubject.id === 'lengua-espanola') && 
      !selectedGrade?.startsWith('primaria-'))
@@ -1352,23 +1459,25 @@ export default function Planificador() {
         (typeof window !== "undefined" && window.location.hostname !== "localhost" 
           ? "https://planix-api.yeriorlando00.workers.dev" 
           : "http://localhost:8787");
-      const normalizedGrade = selectedGrade.replace(/^(primaria|secundaria|inicial)-/, '');
+      const normalizedGrade = selectedGrade.replace(/^(primaria|secundaria|inicial)-/, '').replace(/\s*Sec$/, '').trim();
+      const isSec = selectedLevel === 'SECUNDARIA' || selectedGrade.startsWith('secundaria-') || selectedGrade.includes('Sec');
+      const gradeIdToSave = isSec ? `${normalizedGrade} Sec` : normalizedGrade;
       await fetch(`${apiBase}/api/custom-units`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           id: unit.id,
           subject_id: selectedSubject.id,
-          grade_id: normalizedGrade,
+          grade_id: gradeIdToSave,
           content: unit
         })
       });
       setCustomUnits(prev => {
         const idx = prev.findIndex(cu => cu.id === unit.id);
         if (idx !== -1) {
-          return prev.map(cu => cu.id === unit.id ? { ...cu, content: unit } : cu);
+          return prev.map(cu => cu.id === unit.id ? { ...cu, content: unit, grade_id: gradeIdToSave } : cu);
         } else {
-          return [...prev, { id: unit.id, subject_id: selectedSubject.id, grade_id: normalizedGrade, content: unit }];
+          return [...prev, { id: unit.id, subject_id: selectedSubject.id, grade_id: gradeIdToSave, content: unit }];
         }
       });
       setSelectedSequence(unit);
@@ -1494,7 +1603,10 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
         (selectedSubject.id === 'naturales' && (selectedGrade === 'primaria-1ro' || selectedGrade === 'primaria-2do') && selectedPlanningType === 'UNIDAD') ||
         (selectedSubject.id === 'educacion-artistica' && (selectedGrade === 'primaria-1ro' || selectedGrade === 'primaria-2do')) ||
         (selectedSubject.id === 'educacion-fisica' && (selectedGrade === 'primaria-1ro' || selectedGrade === 'primaria-2do')) ||
-        (selectedSubject.id === 'formacion-humana' && (selectedGrade === 'primaria-1ro' || selectedGrade === 'primaria-2do'))
+        (selectedSubject.id === 'formacion-humana' && (selectedGrade === 'primaria-1ro' || selectedGrade === 'primaria-2do')) ||
+        ((selectedSubject.id === 'educacion-artistica' || selectedSubject.id === 'educacion-artistica-sec') && (selectedGrade === 'secundaria-1ro' || selectedGrade === '1ro Sec' || selectedGrade === 'secundaria-2do' || selectedGrade === '2do Sec' || selectedGrade === 'secundaria-3ro' || selectedGrade === '3ro Sec')) ||
+        ((selectedSubject.id === 'educacion-fisica' || selectedSubject.id === 'educacion-fisica-sec') && (selectedGrade === 'secundaria-1ro' || selectedGrade === '1ro Sec' || selectedGrade === 'secundaria-2do' || selectedGrade === '2do Sec' || selectedGrade === 'secundaria-3ro' || selectedGrade === '3ro Sec')) ||
+        ((selectedSubject.id === 'formacion-humana' || selectedSubject.id === 'formacion-humana-sec') && (selectedGrade === 'secundaria-1ro' || selectedGrade === '1ro Sec' || selectedGrade === 'secundaria-2do' || selectedGrade === '2do Sec' || selectedGrade === 'secundaria-3ro' || selectedGrade === '3ro Sec'))
       ) {
         setCustomFormSchema(null);
         return;
@@ -1697,9 +1809,9 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
     if (s.level !== selectedLevel) return false;
     if (!selectedGrade) return true;
 
-    // Hide Lengua Española and Matemática for Unidad planning type in 1st-4th grade of Primary
+    // Hide Lengua Española and Matemática for Unidad planning type in 1st-6th grade of Primary
     if (selectedPlanningType === 'UNIDAD' &&
-        (selectedGrade === 'primaria-1ro' || selectedGrade === 'primaria-2do' || selectedGrade === 'primaria-3ro' || selectedGrade === 'primaria-4to') &&
+        (selectedGrade === 'primaria-1ro' || selectedGrade === 'primaria-2do' || selectedGrade === 'primaria-3ro' || selectedGrade === 'primaria-4to' || selectedGrade === 'primaria-5to' || selectedGrade === 'primaria-6to') &&
         (s.id === 'lengua-espanola' || s.id === 'matematica')) {
       return false;
     }
@@ -4169,306 +4281,6 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
     );
   }
 
-  const isIngles5toFormStep = currentStep === 4 && selectedSubject?.id === 'ingles' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
-
-  if (isIngles5toFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <InglesDiaria5to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={handleSaveNative}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:ingles5to_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
-  const isIngles5toUnidadFormStep = currentStep === 4 &&
-    selectedSubject?.id === 'ingles' &&
-    (selectedGrade === 'primaria-5to') &&
-    selectedPlanningType === 'UNIDAD';
-
-  if (isIngles5toUnidadFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <InglesUnidad5to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={(customFieldsData) => {
-              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Inglés'}`;
-              const resolvedIntent = customFieldsData.intencion_pedagogica;
-              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
-              const resolvedMomentos = {
-                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
-                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
-                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
-              };
-              const resolvedTarea = customFieldsData.tarea_hogar;
-              const resolvedEvaluation = customFieldsData.evaluacion;
-
-              const planData: LessonPlan = {
-                id: uid('plan'),
-                docente_id: user.id,
-                titulo: resolvedTitle,
-                tipo: selectedSequenceType,
-                nivel: selectedLevel?.toLowerCase() as any,
-                grado: selectedGrade,
-                asignatura: selectedSubject?.name || 'Asignatura',
-                secuencia_id: selectedSequence?.id,
-                intencion_pedagogica: resolvedIntent,
-                recursos: resolvedResources,
-                momentos: resolvedMomentos,
-                tarea: resolvedTarea,
-                conceptual: customFieldsData.conceptual || '',
-                procedimental: customFieldsData.procedural || '',
-                actitudinal: customFieldsData.attitudinal || '',
-                evaluacion: resolvedEvaluation,
-                creado_en: new Date().toISOString(),
-                customFields: customFieldsData
-              };
-              try {
-                saveLessonPlan(planData);
-                toast.success('¡Planificación de Unidad guardada con éxito!');
-                sessionStorage.removeItem('plx:ingles5to_unidad_draft');
-                navigateToPlanificaciones(1500);
-              } catch (err: any) {
-                if (err.message !== 'Créditos insuficientes') {
-                  toast.error('Error al guardar la planificación');
-                }
-              }
-            }}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:ingles5to_unidad_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
-  const isSociales5toFormStep = currentStep === 4 && selectedSubject?.id === 'sociales' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
-
-  if (isSociales5toFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <CienciasSocialesDiaria5to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={handleSaveNative}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:sociales5to_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
   const isSociales4toUnidadFormStep = currentStep === 4 &&
     selectedSubject?.id === 'sociales' &&
     (selectedGrade === 'primaria-4to') &&
@@ -4594,131 +4406,6 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
     );
   }
 
-  const isSociales5toUnidadFormStep = currentStep === 4 &&
-    selectedSubject?.id === 'sociales' &&
-    (selectedGrade === 'primaria-5to') &&
-    selectedPlanningType === 'UNIDAD';
-
-  if (isSociales5toUnidadFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <CienciasSocialesUnidad5to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={(customFieldsData) => {
-              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Sociales'}`;
-              const resolvedIntent = customFieldsData.intencion_pedagogica;
-              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
-              const resolvedMomentos = {
-                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
-                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
-                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
-              };
-              const resolvedTarea = customFieldsData.tarea_hogar;
-              const resolvedEvaluation = customFieldsData.evaluacion;
-
-              const planData: LessonPlan = {
-                id: uid('plan'),
-                docente_id: user.id,
-                titulo: resolvedTitle,
-                tipo: selectedSequenceType,
-                nivel: selectedLevel?.toLowerCase() as any,
-                grado: selectedGrade,
-                asignatura: selectedSubject?.name || 'Asignatura',
-                secuencia_id: selectedSequence?.id,
-                intencion_pedagogica: resolvedIntent,
-                recursos: resolvedResources,
-                momentos: resolvedMomentos,
-                tarea: resolvedTarea,
-                conceptual: customFieldsData.conceptual || '',
-                procedimental: customFieldsData.procedural || '',
-                actitudinal: customFieldsData.attitudinal || '',
-                evaluacion: resolvedEvaluation,
-                creado_en: new Date().toISOString(),
-                customFields: customFieldsData
-              };
-
-              saveLessonPlan(planData);
-              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
-              toast.success('¡Planificación guardada exitosamente!', { id: 'plan-save' });
-              setTimeout(() => navigateToPlanificaciones(1500), 1600);
-            }}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:sociales5to_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
   const isArtistica4toFormStep = currentStep === 4 && selectedSubject?.id === 'educacion-artistica' && selectedGrade === 'primaria-4to' && selectedPlanningType === 'DIARIA';
 
   if (isArtistica4toFormStep) {
@@ -4782,91 +4469,6 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                     onClick={() => {
                       setShowConfirmBackModal(false);
                       sessionStorage.removeItem('plx:artistica4to_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
-  const isArtistica5toFormStep = currentStep === 4 && selectedSubject?.id === 'educacion-artistica' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
-
-  if (isArtistica5toFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <EducacionArtisticaDiaria5to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={handleSaveNative}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:artistica5to_draft');
                       setCurrentStep(3.5);
                     }}
                     className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
@@ -4974,91 +4576,6 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
     );
   }
 
-  const isFisica5toFormStep = currentStep === 4 && selectedSubject?.id === 'educacion-fisica' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
-
-  if (isFisica5toFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <EducacionFisicaDiaria5to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={handleSaveNative}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:educacionfisica5to_diaria_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
   const isFormacion4toFormStep = currentStep === 4 && selectedSubject?.id === 'formacion-humana' && selectedGrade === 'primaria-4to' && selectedPlanningType === 'DIARIA';
 
   if (isFormacion4toFormStep) {
@@ -5122,91 +4639,6 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                     onClick={() => {
                       setShowConfirmBackModal(false);
                       sessionStorage.removeItem('plx:formacion4to_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
-  const isFormacion5toFormStep = currentStep === 4 && selectedSubject?.id === 'formacion-humana' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
-
-  if (isFormacion5toFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <FormacionHumanaDiaria5to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={handleSaveNative}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:formacion5to_draft');
                       setCurrentStep(3.5);
                     }}
                     className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
@@ -5354,131 +4786,6 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
     );
   }
 
-  const isArtistica5toUnidadFormStep = currentStep === 4 &&
-    selectedSubject?.id === 'educacion-artistica' &&
-    (selectedGrade === 'primaria-5to') &&
-    selectedPlanningType === 'UNIDAD';
-
-  if (isArtistica5toUnidadFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <EducacionArtisticaUnidad5to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={(customFieldsData) => {
-              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Artística'}`;
-              const resolvedIntent = customFieldsData.intencion_pedagogica;
-              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
-              const resolvedMomentos = {
-                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
-                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
-                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
-              };
-              const resolvedTarea = customFieldsData.tarea_hogar;
-              const resolvedEvaluation = customFieldsData.evaluacion;
-
-              const planData: LessonPlan = {
-                id: uid('plan'),
-                docente_id: user.id,
-                titulo: resolvedTitle,
-                tipo: selectedSequenceType,
-                nivel: selectedLevel?.toLowerCase() as any,
-                grado: selectedGrade,
-                asignatura: selectedSubject?.name || 'Asignatura',
-                secuencia_id: selectedSequence?.id,
-                intencion_pedagogica: resolvedIntent,
-                recursos: resolvedResources,
-                momentos: resolvedMomentos,
-                tarea: resolvedTarea,
-                conceptual: customFieldsData.conceptual || '',
-                procedimental: customFieldsData.procedural || '',
-                actitudinal: customFieldsData.attitudinal || '',
-                evaluacion: resolvedEvaluation,
-                creado_en: new Date().toISOString(),
-                customFields: customFieldsData
-              };
-
-              saveLessonPlan(planData);
-              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
-              toast.success('¡Planificación de Unidad guardada!');
-              navigateToPlanificaciones(1500);
-            }}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:artistica5to_unidad_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
   const isFisica4toUnidadFormStep = currentStep === 4 &&
     selectedSubject?.id === 'educacion-fisica' &&
     (selectedGrade === 'primaria-4to') &&
@@ -5582,131 +4889,6 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                     onClick={() => {
                       setShowConfirmBackModal(false);
                       sessionStorage.removeItem('plx:educacionfisica4to_unidad_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
-  const isFisica5toUnidadFormStep = currentStep === 4 &&
-    selectedSubject?.id === 'educacion-fisica' &&
-    (selectedGrade === 'primaria-5to') &&
-    selectedPlanningType === 'UNIDAD';
-
-  if (isFisica5toUnidadFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <EducacionFisicaUnidad5to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={(customFieldsData) => {
-              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Física'}`;
-              const resolvedIntent = customFieldsData.intencion_pedagogica;
-              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
-              const resolvedMomentos = {
-                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
-                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
-                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
-              };
-              const resolvedTarea = customFieldsData.tarea_hogar;
-              const resolvedEvaluation = customFieldsData.evaluacion;
-
-              const planData: LessonPlan = {
-                id: uid('plan'),
-                docente_id: user.id,
-                titulo: resolvedTitle,
-                tipo: selectedSequenceType,
-                nivel: selectedLevel?.toLowerCase() as any,
-                grado: selectedGrade,
-                asignatura: selectedSubject?.name || 'Asignatura',
-                secuencia_id: selectedSequence?.id,
-                intencion_pedagogica: resolvedIntent,
-                recursos: resolvedResources,
-                momentos: resolvedMomentos,
-                tarea: resolvedTarea,
-                conceptual: customFieldsData.conceptual || '',
-                procedimental: customFieldsData.procedural || '',
-                actitudinal: customFieldsData.attitudinal || '',
-                evaluacion: resolvedEvaluation,
-                creado_en: new Date().toISOString(),
-                customFields: customFieldsData
-              };
-
-              saveLessonPlan(planData);
-              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
-              toast.success('¡Planificación de Unidad guardada!');
-              navigateToPlanificaciones(1500);
-            }}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:educacionfisica5to_unidad_draft');
                       setCurrentStep(3.5);
                     }}
                     className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
@@ -5854,131 +5036,6 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
     );
   }
 
-  const isFormacion5toUnidadFormStep = currentStep === 4 &&
-    selectedSubject?.id === 'formacion-humana' &&
-    (selectedGrade === 'primaria-5to') &&
-    selectedPlanningType === 'UNIDAD';
-
-  if (isFormacion5toUnidadFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <FormacionHumanaUnidad5to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={(customFieldsData) => {
-              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Formación'}`;
-              const resolvedIntent = customFieldsData.intencion_pedagogica;
-              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
-              const resolvedMomentos = {
-                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
-                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
-                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
-              };
-              const resolvedTarea = customFieldsData.tarea_hogar;
-              const resolvedEvaluation = customFieldsData.evaluacion;
-
-              const planData: LessonPlan = {
-                id: uid('plan'),
-                docente_id: user.id,
-                titulo: resolvedTitle,
-                tipo: selectedSequenceType,
-                nivel: selectedLevel?.toLowerCase() as any,
-                grado: selectedGrade,
-                asignatura: selectedSubject?.name || 'Asignatura',
-                secuencia_id: selectedSequence?.id,
-                intencion_pedagogica: resolvedIntent,
-                recursos: resolvedResources,
-                momentos: resolvedMomentos,
-                tarea: resolvedTarea,
-                conceptual: customFieldsData.conceptual || '',
-                procedimental: customFieldsData.procedural || '',
-                actitudinal: customFieldsData.attitudinal || '',
-                evaluacion: resolvedEvaluation,
-                creado_en: new Date().toISOString(),
-                customFields: customFieldsData
-              };
-
-              saveLessonPlan(planData);
-              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
-              toast.success('¡Planificación de Unidad guardada!');
-              navigateToPlanificaciones(1500);
-            }}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:formacion5to_unidad_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
   const isNaturales4toFormStep = currentStep === 4 && selectedSubject?.id === 'naturales' && selectedGrade === 'primaria-4to' && selectedPlanningType === 'DIARIA';
 
   if (isNaturales4toFormStep) {
@@ -6042,91 +5099,6 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                     onClick={() => {
                       setShowConfirmBackModal(false);
                       sessionStorage.removeItem('plx:naturales4to_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
-  const isNaturales5toFormStep = currentStep === 4 && selectedSubject?.id === 'naturales' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
-
-  if (isNaturales5toFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <CienciasNaturalesDiaria5to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={handleSaveNative}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:naturales5to_draft');
                       setCurrentStep(3.5);
                     }}
                     className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
@@ -6649,17 +5621,106 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
     );
   }
 
-  const isNaturales5toUnidadFormStep = currentStep === 4 &&
-    selectedSubject?.id === 'naturales' &&
-    (selectedGrade === 'primaria-5to') &&
-    selectedPlanningType === 'UNIDAD';
+  // ==========================================
+  // QUINTO GRADO (5to) STEP HANDLERS & FORMS
+  // ==========================================
 
-  if (isNaturales5toUnidadFormStep) {
+  const isIngles5toFormStep = currentStep === 4 && selectedSubject?.id === 'ingles' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
+
+  if (isIngles5toFormStep) {
     return (
       <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
         <Toaster position="top-center" richColors />
         <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <CienciasNaturalesUnidad5to
+          <InglesDiaria5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:ingles5to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isIngles5toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'ingles' &&
+    (selectedGrade === 'primaria-5to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isIngles5toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <InglesUnidad5to
             user={user}
             selectedSequence={selectedSequence}
             selectedTheme={selectedTheme}
@@ -6675,7 +5736,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
               navigateToPlanificaciones(1000);
             }}
             onSave={(customFieldsData) => {
-              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Naturales'}`;
+              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Inglés'}`;
               const resolvedIntent = customFieldsData.intencion_pedagogica;
               const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
               const resolvedMomentos = {
@@ -6706,11 +5767,16 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                 creado_en: new Date().toISOString(),
                 customFields: customFieldsData
               };
-
-              saveLessonPlan(planData);
-              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
-              toast.success('¡Planificación de Unidad guardada!');
-              navigateToPlanificaciones(1500);
+              try {
+                saveLessonPlan(planData);
+                toast.success('¡Planificación de Unidad guardada con éxito!');
+                sessionStorage.removeItem('plx:ingles5to_unidad_draft');
+                navigateToPlanificaciones(1500);
+              } catch (err: any) {
+                if (err.message !== 'Créditos insuficientes') {
+                  toast.error('Error al guardar la planificación');
+                }
+              }
             }}
           />
         </div>
@@ -6733,7 +5799,265 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                  className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
               >
                 <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:ingles5to_unidad_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isSociales5toFormStep = currentStep === 4 && selectedSubject?.id === 'sociales' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
+
+  if (isSociales5toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <CienciasSocialesDiaria5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sociales5to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isSociales5toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'sociales' &&
+    (selectedGrade === 'primaria-5to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isSociales5toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <CienciasSocialesUnidad5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sociales5to_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isNaturales5toFormStep = currentStep === 4 && selectedSubject?.id === 'naturales' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
+
+  if (isNaturales5toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <CienciasNaturalesDiaria5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
                 </div>
                 <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
                 <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
@@ -6752,6 +6076,1697 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                     onClick={() => {
                       setShowConfirmBackModal(false);
                       sessionStorage.removeItem('plx:naturales5to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isNaturales5toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'naturales' &&
+    (selectedGrade === 'primaria-5to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isNaturales5toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <CienciasNaturalesUnidad5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:naturales5to_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isArtistica5toFormStep = currentStep === 4 && selectedSubject?.id === 'educacion-artistica' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
+
+  if (isArtistica5toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionArtisticaDiaria5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:artistica5to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isArtistica5toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'educacion-artistica' &&
+    (selectedGrade === 'primaria-5to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isArtistica5toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionArtisticaUnidad5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:artistica5to_unidad_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isFisica5toFormStep = currentStep === 4 && selectedSubject?.id === 'educacion-fisica' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
+
+  if (isFisica5toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionFisicaDiaria5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:educacionfisica5to_diaria_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isFisica5toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'educacion-fisica' &&
+    (selectedGrade === 'primaria-5to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isFisica5toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionFisicaUnidad5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:educacionfisica5to_unidad_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isFormacion5toFormStep = currentStep === 4 && selectedSubject?.id === 'formacion-humana' && selectedGrade === 'primaria-5to' && selectedPlanningType === 'DIARIA';
+
+  if (isFormacion5toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <FormacionHumanaDiaria5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:formacion5to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isFormacion5toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'formacion-humana' &&
+    (selectedGrade === 'primaria-5to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isFormacion5toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <FormacionHumanaUnidad5to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:formacion5to_unidad_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  // ==========================================
+  // SEXTO GRADO (6to) STEP HANDLERS & FORMS
+  // ==========================================
+
+  const isIngles6toFormStep = currentStep === 4 && selectedSubject?.id === 'ingles' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
+
+  if (isIngles6toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <InglesDiaria6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:ingles6to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isIngles6toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'ingles' &&
+    (selectedGrade === 'primaria-6to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isIngles6toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <InglesUnidad6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={(customFieldsData) => {
+              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Inglés'}`;
+              const resolvedIntent = customFieldsData.intencion_pedagogica;
+              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
+              const resolvedMomentos = {
+                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
+                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
+                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
+              };
+              const resolvedTarea = customFieldsData.tarea_hogar;
+              const resolvedEvaluation = customFieldsData.evaluacion;
+
+              const planData: LessonPlan = {
+                id: uid('plan'),
+                docente_id: user.id,
+                titulo: resolvedTitle,
+                tipo: selectedSequenceType,
+                nivel: selectedLevel?.toLowerCase() as any,
+                grado: selectedGrade,
+                asignatura: selectedSubject?.name || 'Asignatura',
+                secuencia_id: selectedSequence?.id,
+                intencion_pedagogica: resolvedIntent,
+                recursos: resolvedResources,
+                momentos: resolvedMomentos,
+                tarea: resolvedTarea,
+                conceptual: customFieldsData.conceptual || '',
+                procedimental: customFieldsData.procedural || '',
+                actitudinal: customFieldsData.attitudinal || '',
+                evaluacion: resolvedEvaluation,
+                creado_en: new Date().toISOString(),
+                customFields: customFieldsData
+              };
+              try {
+                saveLessonPlan(planData);
+                toast.success('¡Planificación de Unidad guardada con éxito!');
+                sessionStorage.removeItem('plx:ingles6to_unidad_draft');
+                navigateToPlanificaciones(1500);
+              } catch (err: any) {
+                if (err.message !== 'Créditos insuficientes') {
+                  toast.error('Error al guardar la planificación');
+                }
+              }
+            }}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:ingles6to_unidad_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isSociales6toFormStep = currentStep === 4 && selectedSubject?.id === 'sociales' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
+
+  if (isSociales6toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <CienciasSocialesDiaria6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sociales6to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isSociales6toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'sociales' &&
+    (selectedGrade === 'primaria-6to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isSociales6toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <CienciasSocialesUnidad6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sociales6to_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isNaturales6toFormStep = currentStep === 4 && selectedSubject?.id === 'naturales' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
+
+  if (isNaturales6toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <CienciasNaturalesDiaria6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:naturales6to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isNaturales6toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'naturales' &&
+    (selectedGrade === 'primaria-6to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isNaturales6toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <CienciasNaturalesUnidad6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:naturales6to_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isArtistica6toFormStep = currentStep === 4 && selectedSubject?.id === 'educacion-artistica' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
+
+  if (isArtistica6toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionArtisticaDiaria6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:artistica6to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isArtistica6toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'educacion-artistica' &&
+    (selectedGrade === 'primaria-6to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isArtistica6toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionArtisticaUnidad6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-455" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:artistica6to_unidad_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isFisica6toFormStep = currentStep === 4 && selectedSubject?.id === 'educacion-fisica' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
+
+  if (isFisica6toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionFisicaDiaria6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:educacionfisica6to_diaria_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isFisica6toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'educacion-fisica' &&
+    (selectedGrade === 'primaria-6to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isFisica6toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionFisicaUnidad6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-550 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:educacionfisica6to_unidad_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isFormacion6toFormStep = currentStep === 4 && selectedSubject?.id === 'formacion-humana' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
+
+  if (isFormacion6toFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <FormacionHumanaDiaria6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:formacion6to_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isFormacion6toUnidadFormStep = currentStep === 4 &&
+    selectedSubject?.id === 'formacion-humana' &&
+    (selectedGrade === 'primaria-6to') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isFormacion6toUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <FormacionHumanaUnidad6to
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        {/* CONFIRMATION BACK STEP MODAL */}
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               exit={{ opacity: 0 }}
+               onClick={() => setShowConfirmBackModal(false)}
+               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 onClick={(e) => e.stopPropagation()}
+                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:formacion6to_unidad_draft');
                       setCurrentStep(3);
                     }}
                     className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
@@ -8274,446 +9289,20 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
     );
   }
 
-  // ============================================
-  // 6TO GRADO FORM STEPS
-  // ============================================
+  // ==========================================
+  // SECUNDARIA 1RO - EDUCACIÓN ARTÍSTICA
+  // ==========================================
+  const isArtisticaSec1roFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'educacion-artistica' || selectedSubject?.id === 'educacion-artistica-sec') &&
+    (selectedGrade === 'secundaria-1ro' || selectedGrade === '1ro Sec') &&
+    selectedPlanningType === 'DIARIA';
 
-  // --- Sociales 6to Diaria ---
-  const isIngles6toFormStep = currentStep === 4 && selectedSubject?.id === 'ingles' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
-
-  if (isIngles6toFormStep) {
+  if (isArtisticaSec1roFormStep) {
     return (
       <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
         <Toaster position="top-center" richColors />
         <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <InglesDiaria6to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={handleSaveNative}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:ingles6to_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
-  const isIngles6toUnidadFormStep = currentStep === 4 &&
-    selectedSubject?.id === 'ingles' &&
-    (selectedGrade === 'primaria-6to') &&
-    selectedPlanningType === 'UNIDAD';
-
-  if (isIngles6toUnidadFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <InglesUnidad6to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={(customFieldsData) => {
-              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Inglés'}`;
-              const resolvedIntent = customFieldsData.intencion_pedagogica;
-              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
-              const resolvedMomentos = {
-                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
-                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
-                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
-              };
-              const resolvedTarea = customFieldsData.tarea_hogar;
-              const resolvedEvaluation = customFieldsData.evaluacion;
-
-              const planData: LessonPlan = {
-                id: uid('plan'),
-                docente_id: user.id,
-                titulo: resolvedTitle,
-                tipo: selectedSequenceType,
-                nivel: selectedLevel?.toLowerCase() as any,
-                grado: selectedGrade,
-                asignatura: selectedSubject?.name || 'Asignatura',
-                secuencia_id: selectedSequence?.id,
-                intencion_pedagogica: resolvedIntent,
-                recursos: resolvedResources,
-                momentos: resolvedMomentos,
-                tarea: resolvedTarea,
-                conceptual: customFieldsData.conceptual || '',
-                procedimental: customFieldsData.procedural || '',
-                actitudinal: customFieldsData.attitudinal || '',
-                evaluacion: resolvedEvaluation,
-                creado_en: new Date().toISOString(),
-                customFields: customFieldsData
-              };
-              try {
-                saveLessonPlan(planData);
-                toast.success('¡Planificación de Unidad guardada con éxito!');
-                sessionStorage.removeItem('plx:ingles6to_unidad_draft');
-                navigateToPlanificaciones(1500);
-              } catch (err: any) {
-                if (err.message !== 'Créditos insuficientes') {
-                  toast.error('Error al guardar la planificación');
-                }
-              }
-            }}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:ingles6to_unidad_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
-  const isSociales6toFormStep = currentStep === 4 && selectedSubject?.id === 'sociales' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
-
-  if (isSociales6toFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <CienciasSocialesDiaria6to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={handleSaveNative}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:sociales6to_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
-  // --- Sociales 6to Unidad ---
-  const isSociales6toUnidadFormStep = currentStep === 4 &&
-    selectedSubject?.id === 'sociales' &&
-    (selectedGrade === 'primaria-6to') &&
-    selectedPlanningType === 'UNIDAD';
-
-  if (isSociales6toUnidadFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <CienciasSocialesUnidad6to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={(customFieldsData) => {
-              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Sociales'}`;
-              const resolvedIntent = customFieldsData.intencion_pedagogica;
-              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
-              const resolvedMomentos = {
-                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
-                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
-                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
-              };
-              const resolvedTarea = customFieldsData.tarea_hogar;
-              const resolvedEvaluation = customFieldsData.evaluacion;
-
-              const planData: LessonPlan = {
-                id: uid('plan'),
-                docente_id: user.id,
-                titulo: resolvedTitle,
-                tipo: selectedSequenceType,
-                nivel: selectedLevel?.toLowerCase() as any,
-                grado: selectedGrade,
-                asignatura: selectedSubject?.name || 'Asignatura',
-                secuencia_id: selectedSequence?.id,
-                intencion_pedagogica: resolvedIntent,
-                recursos: resolvedResources,
-                momentos: resolvedMomentos,
-                tarea: resolvedTarea,
-                conceptual: customFieldsData.conceptual || '',
-                procedimental: customFieldsData.procedural || '',
-                actitudinal: customFieldsData.attitudinal || '',
-                evaluacion: resolvedEvaluation,
-                creado_en: new Date().toISOString(),
-                customFields: customFieldsData
-              };
-
-              saveLessonPlan(planData);
-              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
-              toast.success('¡Planificación guardada exitosamente!', { id: 'plan-save' });
-              setTimeout(() => navigateToPlanificaciones(1500), 1600);
-            }}
-          />
-        </div>
-
-        {/* CONFIRMATION BACK STEP MODAL */}
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
-            >
-              <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
-              >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
-                  >
-                    Cancelar
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:sociales6to_unidad_draft');
-                      setCurrentStep(3);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-                  >
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos
-          isOpen={showCreditsExhausted}
-          onClose={() => setShowCreditsExhausted(false)}
-          requiredCredits={15}
-          currentCredits={getUserCredits(user)}
-        />
-      </main>
-    );
-  }
-
-  // --- Naturales 6to Diaria ---
-  const isNaturales6toFormStep = currentStep === 4 && selectedSubject?.id === 'naturales' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
-
-  if (isNaturales6toFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <CienciasNaturalesDiaria6to
+          <EducacionArtisticaDiariaSec1ro
             user={user}
             selectedSequence={selectedSequence}
             selectedTheme={selectedTheme}
@@ -8735,126 +9324,19 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
         <AnimatePresence>
           {showConfirmBackModal && (
             <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
             >
               <motion.div 
-                 initial={{ scale: 0.95 }}
-                 animate={{ scale: 1 }}
-                 exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
               >
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button type="button" onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95">
-                    Cancelar
-                  </button>
-                  <button type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:naturales6to_draft');
-                      setCurrentStep(3.5);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer">
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos isOpen={showCreditsExhausted} onClose={() => setShowCreditsExhausted(false)} requiredCredits={15} currentCredits={getUserCredits(user)} />
-      </main>
-    );
-  }
-
-  // --- Naturales 6to Unidad ---
-  const isNaturales6toUnidadFormStep = currentStep === 4 &&
-    selectedSubject?.id === 'naturales' &&
-    (selectedGrade === 'primaria-6to') &&
-    selectedPlanningType === 'UNIDAD';
-
-  if (isNaturales6toUnidadFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <CienciasNaturalesUnidad6to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={(customFieldsData) => {
-              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Naturales'}`;
-              const resolvedIntent = customFieldsData.intencion_pedagogica;
-              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
-              const resolvedMomentos = {
-                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
-                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
-                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
-              };
-              const resolvedTarea = customFieldsData.tarea_hogar;
-              const resolvedEvaluation = customFieldsData.evaluacion;
-
-              const planData: LessonPlan = {
-                id: uid('plan'),
-                docente_id: user.id,
-                titulo: resolvedTitle,
-                tipo: selectedSequenceType,
-                nivel: selectedLevel?.toLowerCase() as any,
-                grado: selectedGrade,
-                asignatura: selectedSubject?.name || 'Asignatura',
-                secuencia_id: selectedSequence?.id,
-                intencion_pedagogica: resolvedIntent,
-                recursos: resolvedResources,
-                momentos: resolvedMomentos,
-                tarea: resolvedTarea,
-                conceptual: customFieldsData.conceptual || '',
-                procedimental: customFieldsData.procedural || '',
-                actitudinal: customFieldsData.attitudinal || '',
-                evaluacion: resolvedEvaluation,
-                creado_en: new Date().toISOString(),
-                customFields: customFieldsData
-              };
-
-              saveLessonPlan(planData);
-              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
-              toast.success('¡Planificación guardada exitosamente!', { id: 'plan-save' });
-              setTimeout(() => navigateToPlanificaciones(1500), 1600);
-            }}
-          />
-        </div>
-
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50">
-              <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center">
                 <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
                   <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
                 </div>
@@ -8863,84 +9345,22 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                   Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
                 </p>
                 <div className="flex items-center justify-center gap-3">
-                  <button type="button" onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
                     Cancelar
                   </button>
-                  <button type="button"
+                  <button
+                    type="button"
                     onClick={() => {
                       setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:naturales6to_unidad_draft');
-                      setCurrentStep(3);
-                    }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer">
-                    Sí, Volver
-                  </button>
-                </div>
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <ModalCreditos isOpen={showCreditsExhausted} onClose={() => setShowCreditsExhausted(false)} requiredCredits={15} currentCredits={getUserCredits(user)} />
-      </main>
-    );
-  }
-
-  // --- Artística 6to Diaria ---
-  const isArtistica6toFormStep = currentStep === 4 && selectedSubject?.id === 'educacion-artistica' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
-
-  if (isArtistica6toFormStep) {
-    return (
-      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
-        <Toaster position="top-center" richColors />
-        <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <EducacionArtisticaDiaria6to
-            user={user}
-            selectedSequence={selectedSequence}
-            selectedTheme={selectedTheme}
-            selectedSubtheme={selectedSubtheme}
-            selectedSequenceType={selectedSequenceType}
-            selectedLevel={selectedLevel}
-            selectedGrade={selectedGrade}
-            selectedSubject={selectedSubject}
-            selectedPlanningType={selectedPlanningType}
-            onBack={handleBack}
-            onCancel={() => {
-              toast.error('Planificación cancelada');
-              navigateToPlanificaciones(1000);
-            }}
-            onSave={handleSaveNative}
-          />
-        </div>
-
-        <AnimatePresence>
-          {showConfirmBackModal && (
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50">
-              <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center">
-                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
-                </div>
-                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
-                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button type="button" onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95">
-                    Cancelar
-                  </button>
-                  <button type="button"
-                    onClick={() => {
-                      setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:artistica6to_draft');
+                      sessionStorage.removeItem('plx:sec_artistica1ro_diaria_draft');
                       setCurrentStep(3.5);
                     }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer">
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
                     Sí, Volver
                   </button>
                 </div>
@@ -8949,23 +9369,27 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           )}
         </AnimatePresence>
 
-        <ModalCreditos isOpen={showCreditsExhausted} onClose={() => setShowCreditsExhausted(false)} requiredCredits={15} currentCredits={getUserCredits(user)} />
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
       </main>
     );
   }
 
-  // --- Artística 6to Unidad ---
-  const isArtistica6toUnidadFormStep = currentStep === 4 &&
-    selectedSubject?.id === 'educacion-artistica' &&
-    (selectedGrade === 'primaria-6to') &&
+  const isArtisticaSec1roUnidadFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'educacion-artistica' || selectedSubject?.id === 'educacion-artistica-sec') &&
+    (selectedGrade === 'secundaria-1ro' || selectedGrade === '1ro Sec') &&
     selectedPlanningType === 'UNIDAD';
 
-  if (isArtistica6toUnidadFormStep) {
+  if (isArtisticaSec1roUnidadFormStep) {
     return (
       <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
         <Toaster position="top-center" richColors />
         <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <EducacionArtisticaUnidad6to
+          <EducacionArtisticaUnidadSec1ro
             user={user}
             selectedSequence={selectedSequence}
             selectedTheme={selectedTheme}
@@ -8981,6 +9405,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
               navigateToPlanificaciones(1000);
             }}
             onSave={(customFieldsData) => {
+              const isEditing = !!editId;
               const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Educación Artística'}`;
               const resolvedIntent = customFieldsData.intencion_pedagogica;
               const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
@@ -8993,7 +9418,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
               const resolvedEvaluation = customFieldsData.evaluacion;
 
               const planData: LessonPlan = {
-                id: uid('plan'),
+                id: isEditing ? editId : uid('plan'),
                 docente_id: user.id,
                 titulo: resolvedTitle,
                 tipo: selectedSequenceType,
@@ -9013,22 +9438,30 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                 customFields: customFieldsData
               };
 
-              saveLessonPlan(planData);
+              saveLessonPlan(planData, true);
               confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
-              toast.success('¡Planificación guardada exitosamente!', { id: 'plan-save' });
-              setTimeout(() => navigateToPlanificaciones(1500), 1600);
+              toast.success('¡Planificación de Unidad guardada!');
+              navigateToPlanificaciones(1500);
             }}
           />
         </div>
 
         <AnimatePresence>
           {showConfirmBackModal && (
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50">
-              <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center">
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
                 <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
                   <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
                 </div>
@@ -9037,17 +9470,22 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                   Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
                 </p>
                 <div className="flex items-center justify-center gap-3">
-                  <button type="button" onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
                     Cancelar
                   </button>
-                  <button type="button"
+                  <button
+                    type="button"
                     onClick={() => {
                       setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:artistica6to_unidad_draft');
+                      sessionStorage.removeItem('plx:sec_artistica1ro_unidad_draft');
                       setCurrentStep(3);
                     }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer">
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
                     Sí, Volver
                   </button>
                 </div>
@@ -9056,20 +9494,30 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           )}
         </AnimatePresence>
 
-        <ModalCreditos isOpen={showCreditsExhausted} onClose={() => setShowCreditsExhausted(false)} requiredCredits={15} currentCredits={getUserCredits(user)} />
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
       </main>
     );
   }
 
-  // --- Educación Física 6to Diaria ---
-  const isFisica6toFormStep = currentStep === 4 && selectedSubject?.id === 'educacion-fisica' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
+  // ==========================================
+  // SECUNDARIA 1RO - EDUCACIÓN FÍSICA
+  // ==========================================
+  const isFisicaSec1roFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'educacion-fisica' || selectedSubject?.id === 'educacion-fisica-sec') &&
+    (selectedGrade === 'secundaria-1ro' || selectedGrade === '1ro Sec') &&
+    selectedPlanningType === 'DIARIA';
 
-  if (isFisica6toFormStep) {
+  if (isFisicaSec1roFormStep) {
     return (
       <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
         <Toaster position="top-center" richColors />
         <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <EducacionFisicaDiaria6to
+          <EducacionFisicaDiariaSec1ro
             user={user}
             selectedSequence={selectedSequence}
             selectedTheme={selectedTheme}
@@ -9090,31 +9538,44 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
 
         <AnimatePresence>
           {showConfirmBackModal && (
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50">
-              <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center">
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
                 <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
                 </div>
                 <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
                 <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
                   Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
                 </p>
                 <div className="flex items-center justify-center gap-3">
-                  <button type="button" onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
                     Cancelar
                   </button>
-                  <button type="button"
+                  <button
+                    type="button"
                     onClick={() => {
                       setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:educacionfisica6to_diaria_draft');
+                      sessionStorage.removeItem('plx:sec_educacionfisica1ro_diaria_draft');
                       setCurrentStep(3.5);
                     }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer">
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
                     Sí, Volver
                   </button>
                 </div>
@@ -9123,23 +9584,27 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           )}
         </AnimatePresence>
 
-        <ModalCreditos isOpen={showCreditsExhausted} onClose={() => setShowCreditsExhausted(false)} requiredCredits={15} currentCredits={getUserCredits(user)} />
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
       </main>
     );
   }
 
-  // --- Educación Física 6to Unidad ---
-  const isFisica6toUnidadFormStep = currentStep === 4 &&
-    selectedSubject?.id === 'educacion-fisica' &&
-    (selectedGrade === 'primaria-6to') &&
+  const isFisicaSec1roUnidadFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'educacion-fisica' || selectedSubject?.id === 'educacion-fisica-sec') &&
+    (selectedGrade === 'secundaria-1ro' || selectedGrade === '1ro Sec') &&
     selectedPlanningType === 'UNIDAD';
 
-  if (isFisica6toUnidadFormStep) {
+  if (isFisicaSec1roUnidadFormStep) {
     return (
       <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
         <Toaster position="top-center" richColors />
         <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <EducacionFisicaUnidad6to
+          <EducacionFisicaUnidadSec1ro
             user={user}
             selectedSequence={selectedSequence}
             selectedTheme={selectedTheme}
@@ -9155,6 +9620,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
               navigateToPlanificaciones(1000);
             }}
             onSave={(customFieldsData) => {
+              const isEditing = !!editId;
               const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Educación Física'}`;
               const resolvedIntent = customFieldsData.intencion_pedagogica;
               const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
@@ -9167,7 +9633,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
               const resolvedEvaluation = customFieldsData.evaluacion;
 
               const planData: LessonPlan = {
-                id: uid('plan'),
+                id: isEditing ? editId : uid('plan'),
                 docente_id: user.id,
                 titulo: resolvedTitle,
                 tipo: selectedSequenceType,
@@ -9187,22 +9653,30 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                 customFields: customFieldsData
               };
 
-              saveLessonPlan(planData);
+              saveLessonPlan(planData, true);
               confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
-              toast.success('¡Planificación guardada exitosamente!', { id: 'plan-save' });
-              setTimeout(() => navigateToPlanificaciones(1500), 1600);
+              toast.success('¡Planificación de Unidad guardada!');
+              navigateToPlanificaciones(1500);
             }}
           />
         </div>
 
         <AnimatePresence>
           {showConfirmBackModal && (
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50">
-              <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center">
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
                 <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
                   <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
                 </div>
@@ -9211,17 +9685,22 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                   Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
                 </p>
                 <div className="flex items-center justify-center gap-3">
-                  <button type="button" onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
                     Cancelar
                   </button>
-                  <button type="button"
+                  <button
+                    type="button"
                     onClick={() => {
                       setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:educacionfisica6to_unidad_draft');
+                      sessionStorage.removeItem('plx:sec_educacionfisica1ro_unidad_draft');
                       setCurrentStep(3);
                     }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer">
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
                     Sí, Volver
                   </button>
                 </div>
@@ -9230,20 +9709,30 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           )}
         </AnimatePresence>
 
-        <ModalCreditos isOpen={showCreditsExhausted} onClose={() => setShowCreditsExhausted(false)} requiredCredits={15} currentCredits={getUserCredits(user)} />
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
       </main>
     );
   }
 
-  // --- Formación Humana 6to Diaria ---
-  const isFormacion6toFormStep = currentStep === 4 && selectedSubject?.id === 'formacion-humana' && selectedGrade === 'primaria-6to' && selectedPlanningType === 'DIARIA';
+  // ==========================================
+  // SECUNDARIA 1RO - FORMACIÓN HUMANA
+  // ==========================================
+  const isFormacionSec1roFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'formacion-humana' || selectedSubject?.id === 'formacion-humana-sec') &&
+    (selectedGrade === 'secundaria-1ro' || selectedGrade === '1ro Sec') &&
+    selectedPlanningType === 'DIARIA';
 
-  if (isFormacion6toFormStep) {
+  if (isFormacionSec1roFormStep) {
     return (
       <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
         <Toaster position="top-center" richColors />
         <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <FormacionHumanaDiaria6to
+          <FormacionHumanaDiariaSec1ro
             user={user}
             selectedSequence={selectedSequence}
             selectedTheme={selectedTheme}
@@ -9264,31 +9753,44 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
 
         <AnimatePresence>
           {showConfirmBackModal && (
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50">
-              <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center">
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
                 <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-450" />
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
                 </div>
                 <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
                 <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
                   Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
                 </p>
                 <div className="flex items-center justify-center gap-3">
-                  <button type="button" onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
                     Cancelar
                   </button>
-                  <button type="button"
+                  <button
+                    type="button"
                     onClick={() => {
                       setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:formacion6to_draft');
+                      sessionStorage.removeItem('plx:sec_formacion1ro_diaria_draft');
                       setCurrentStep(3.5);
                     }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer">
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
                     Sí, Volver
                   </button>
                 </div>
@@ -9297,23 +9799,27 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           )}
         </AnimatePresence>
 
-        <ModalCreditos isOpen={showCreditsExhausted} onClose={() => setShowCreditsExhausted(false)} requiredCredits={15} currentCredits={getUserCredits(user)} />
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
       </main>
     );
   }
 
-  // --- Formación Humana 6to Unidad ---
-  const isFormacion6toUnidadFormStep = currentStep === 4 &&
-    selectedSubject?.id === 'formacion-humana' &&
-    (selectedGrade === 'primaria-6to') &&
+  const isFormacionSec1roUnidadFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'formacion-humana' || selectedSubject?.id === 'formacion-humana-sec') &&
+    (selectedGrade === 'secundaria-1ro' || selectedGrade === '1ro Sec') &&
     selectedPlanningType === 'UNIDAD';
 
-  if (isFormacion6toUnidadFormStep) {
+  if (isFormacionSec1roUnidadFormStep) {
     return (
       <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
         <Toaster position="top-center" richColors />
         <div className="px-6 md:px-[60px] xl:px-16 w-full">
-          <FormacionHumanaUnidad6to
+          <FormacionHumanaUnidadSec1ro
             user={user}
             selectedSequence={selectedSequence}
             selectedTheme={selectedTheme}
@@ -9329,6 +9835,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
               navigateToPlanificaciones(1000);
             }}
             onSave={(customFieldsData) => {
+              const isEditing = !!editId;
               const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Formación Humana'}`;
               const resolvedIntent = customFieldsData.intencion_pedagogica;
               const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
@@ -9341,7 +9848,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
               const resolvedEvaluation = customFieldsData.evaluacion;
 
               const planData: LessonPlan = {
-                id: uid('plan'),
+                id: isEditing ? editId : uid('plan'),
                 docente_id: user.id,
                 titulo: resolvedTitle,
                 tipo: selectedSequenceType,
@@ -9361,22 +9868,30 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                 customFields: customFieldsData
               };
 
-              saveLessonPlan(planData);
+              saveLessonPlan(planData, true);
               confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
-              toast.success('¡Planificación guardada exitosamente!', { id: 'plan-save' });
-              setTimeout(() => navigateToPlanificaciones(1500), 1600);
+              toast.success('¡Planificación de Unidad guardada!');
+              navigateToPlanificaciones(1500);
             }}
           />
         </div>
 
         <AnimatePresence>
           {showConfirmBackModal && (
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-               onClick={() => setShowConfirmBackModal(false)}
-               className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50">
-              <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} exit={{ scale: 0.95 }}
-                 onClick={(e) => e.stopPropagation()}
-                 className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center">
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
                 <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
                   <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
                 </div>
@@ -9385,17 +9900,22 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                   Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
                 </p>
                 <div className="flex items-center justify-center gap-3">
-                  <button type="button" onClick={() => setShowConfirmBackModal(false)}
-                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
                     Cancelar
                   </button>
-                  <button type="button"
+                  <button
+                    type="button"
                     onClick={() => {
                       setShowConfirmBackModal(false);
-                      sessionStorage.removeItem('plx:formacion6to_unidad_draft');
+                      sessionStorage.removeItem('plx:sec_formacion1ro_unidad_draft');
                       setCurrentStep(3);
                     }}
-                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer">
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
                     Sí, Volver
                   </button>
                 </div>
@@ -9404,7 +9924,1302 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
           )}
         </AnimatePresence>
 
-        <ModalCreditos isOpen={showCreditsExhausted} onClose={() => setShowCreditsExhausted(false)} requiredCredits={15} currentCredits={getUserCredits(user)} />
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  // ==========================================
+  // SECUNDARIA 2DO - EDUCACIÓN ARTÍSTICA
+  // ==========================================
+  const isArtisticaSec2doFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'educacion-artistica' || selectedSubject?.id === 'educacion-artistica-sec') &&
+    (selectedGrade === 'secundaria-2do' || selectedGrade === '2do Sec') &&
+    selectedPlanningType === 'DIARIA';
+
+  if (isArtisticaSec2doFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionArtisticaDiariaSec2do
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sec_artistica2do_diaria_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isArtisticaSec2doUnidadFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'educacion-artistica' || selectedSubject?.id === 'educacion-artistica-sec') &&
+    (selectedGrade === 'secundaria-2do' || selectedGrade === '2do Sec') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isArtisticaSec2doUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionArtisticaUnidadSec2do
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={(customFieldsData) => {
+              const isEditing = !!editId;
+              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Educación Artística'}`;
+              const resolvedIntent = customFieldsData.intencion_pedagogica;
+              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
+              const resolvedMomentos = {
+                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
+                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
+                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
+              };
+              const resolvedTarea = customFieldsData.tarea_hogar;
+              const resolvedEvaluation = customFieldsData.evaluacion;
+
+              const planData: LessonPlan = {
+                id: isEditing ? editId : uid('plan'),
+                docente_id: user.id,
+                titulo: resolvedTitle,
+                tipo: selectedSequenceType,
+                nivel: selectedLevel?.toLowerCase() as any,
+                grado: selectedGrade,
+                asignatura: selectedSubject?.name || 'Asignatura',
+                secuencia_id: selectedSequence?.id,
+                intencion_pedagogica: resolvedIntent,
+                recursos: resolvedResources,
+                momentos: resolvedMomentos,
+                tarea: resolvedTarea,
+                conceptual: customFieldsData.conceptual || '',
+                procedimental: customFieldsData.procedural || '',
+                actitudinal: customFieldsData.attitudinal || '',
+                evaluacion: resolvedEvaluation,
+                creado_en: new Date().toISOString(),
+                customFields: customFieldsData
+              };
+
+              saveLessonPlan(planData, true);
+              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
+              toast.success('¡Planificación de Unidad guardada!');
+              navigateToPlanificaciones(1500);
+            }}
+          />
+        </div>
+
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sec_artistica2do_unidad_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  // ==========================================
+  // SECUNDARIA 2DO - EDUCACIÓN FÍSICA
+  // ==========================================
+  const isFisicaSec2doFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'educacion-fisica' || selectedSubject?.id === 'educacion-fisica-sec') &&
+    (selectedGrade === 'secundaria-2do' || selectedGrade === '2do Sec') &&
+    selectedPlanningType === 'DIARIA';
+
+  if (isFisicaSec2doFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionFisicaDiariaSec2do
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sec_educacionfisica2do_diaria_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isFisicaSec2doUnidadFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'educacion-fisica' || selectedSubject?.id === 'educacion-fisica-sec') &&
+    (selectedGrade === 'secundaria-2do' || selectedGrade === '2do Sec') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isFisicaSec2doUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionFisicaUnidadSec2do
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={(customFieldsData) => {
+              const isEditing = !!editId;
+              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Educación Física'}`;
+              const resolvedIntent = customFieldsData.intencion_pedagogica;
+              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
+              const resolvedMomentos = {
+                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
+                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
+                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
+              };
+              const resolvedTarea = customFieldsData.tarea_hogar;
+              const resolvedEvaluation = customFieldsData.evaluacion;
+
+              const planData: LessonPlan = {
+                id: isEditing ? editId : uid('plan'),
+                docente_id: user.id,
+                titulo: resolvedTitle,
+                tipo: selectedSequenceType,
+                nivel: selectedLevel?.toLowerCase() as any,
+                grado: selectedGrade,
+                asignatura: selectedSubject?.name || 'Asignatura',
+                secuencia_id: selectedSequence?.id,
+                intencion_pedagogica: resolvedIntent,
+                recursos: resolvedResources,
+                momentos: resolvedMomentos,
+                tarea: resolvedTarea,
+                conceptual: customFieldsData.conceptual || '',
+                procedimental: customFieldsData.procedural || '',
+                actitudinal: customFieldsData.attitudinal || '',
+                evaluacion: resolvedEvaluation,
+                creado_en: new Date().toISOString(),
+                customFields: customFieldsData
+              };
+
+              saveLessonPlan(planData, true);
+              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
+              toast.success('¡Planificación de Unidad guardada!');
+              navigateToPlanificaciones(1500);
+            }}
+          />
+        </div>
+
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sec_educacionfisica2do_unidad_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  // ==========================================
+  // SECUNDARIA 2DO - FORMACIÓN HUMANA
+  // ==========================================
+  const isFormacionSec2doFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'formacion-humana' || selectedSubject?.id === 'formacion-humana-sec') &&
+    (selectedGrade === 'secundaria-2do' || selectedGrade === '2do Sec') &&
+    selectedPlanningType === 'DIARIA';
+
+  if (isFormacionSec2doFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <FormacionHumanaDiariaSec2do
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sec_formacion2do_diaria_draft');
+                      setCurrentStep(3.5);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isFormacionSec2doUnidadFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'formacion-humana' || selectedSubject?.id === 'formacion-humana-sec') &&
+    (selectedGrade === 'secundaria-2do' || selectedGrade === '2do Sec') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isFormacionSec2doUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <FormacionHumanaUnidadSec2do
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={(customFieldsData) => {
+              const isEditing = !!editId;
+              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Formación Humana'}`;
+              const resolvedIntent = customFieldsData.intencion_pedagogica;
+              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
+              const resolvedMomentos = {
+                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
+                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
+                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
+              };
+              const resolvedTarea = customFieldsData.tarea_hogar;
+              const resolvedEvaluation = customFieldsData.evaluacion;
+
+              const planData: LessonPlan = {
+                id: isEditing ? editId : uid('plan'),
+                docente_id: user.id,
+                titulo: resolvedTitle,
+                tipo: selectedSequenceType,
+                nivel: selectedLevel?.toLowerCase() as any,
+                grado: selectedGrade,
+                asignatura: selectedSubject?.name || 'Asignatura',
+                secuencia_id: selectedSequence?.id,
+                intencion_pedagogica: resolvedIntent,
+                recursos: resolvedResources,
+                momentos: resolvedMomentos,
+                tarea: resolvedTarea,
+                conceptual: customFieldsData.conceptual || '',
+                procedimental: customFieldsData.procedural || '',
+                actitudinal: customFieldsData.attitudinal || '',
+                evaluacion: resolvedEvaluation,
+                creado_en: new Date().toISOString(),
+                customFields: customFieldsData
+              };
+
+              saveLessonPlan(planData, true);
+              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
+              toast.success('¡Planificación de Unidad guardada!');
+              navigateToPlanificaciones(1500);
+            }}
+          />
+        </div>
+
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sec_formacion2do_unidad_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  // ==========================================
+  // SECUNDARIA 3RO - EDUCACIÓN ARTÍSTICA
+  // ==========================================
+  const isArtisticaSec3roFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'educacion-artistica' || selectedSubject?.id === 'educacion-artistica-sec') &&
+    (selectedGrade === 'secundaria-3ro' || selectedGrade === '3ro Sec') &&
+    selectedPlanningType === 'DIARIA';
+
+  if (isArtisticaSec3roFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionArtisticaDiariaSec3ro
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sec_artistica3ro_diaria_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isArtisticaSec3roUnidadFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'educacion-artistica' || selectedSubject?.id === 'educacion-artistica-sec') &&
+    (selectedGrade === 'secundaria-3ro' || selectedGrade === '3ro Sec') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isArtisticaSec3roUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionArtisticaUnidadSec3ro
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={(customFieldsData) => {
+              const isEditing = !!editId;
+              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Educación Artística'}`;
+              const resolvedIntent = customFieldsData.intencion_pedagogica;
+              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
+              const resolvedMomentos = {
+                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
+                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
+                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
+              };
+              const resolvedTarea = customFieldsData.tarea_hogar;
+              const resolvedEvaluation = customFieldsData.evaluacion;
+
+              const planData: LessonPlan = {
+                id: isEditing ? editId : uid('plan'),
+                docente_id: user.id,
+                titulo: resolvedTitle,
+                tipo: selectedSequenceType,
+                nivel: selectedLevel?.toLowerCase() as any,
+                grado: selectedGrade,
+                asignatura: selectedSubject?.name || 'Asignatura',
+                secuencia_id: selectedSequence?.id,
+                intencion_pedagogica: resolvedIntent,
+                recursos: resolvedResources,
+                momentos: resolvedMomentos,
+                tarea: resolvedTarea,
+                conceptual: customFieldsData.conceptual || '',
+                procedimental: customFieldsData.procedural || '',
+                actitudinal: customFieldsData.attitudinal || '',
+                evaluacion: resolvedEvaluation,
+                creado_en: new Date().toISOString(),
+                customFields: customFieldsData
+              };
+
+              saveLessonPlan(planData, true);
+              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
+              toast.success('¡Planificación de Unidad guardada!');
+              navigateToPlanificaciones(1500);
+            }}
+          />
+        </div>
+
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sec_artistica3ro_unidad_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  // ==========================================
+  // SECUNDARIA 3RO - EDUCACIÓN FÍSICA
+  // ==========================================
+  const isFisicaSec3roFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'educacion-fisica' || selectedSubject?.id === 'educacion-fisica-sec') &&
+    (selectedGrade === 'secundaria-3ro' || selectedGrade === '3ro Sec') &&
+    selectedPlanningType === 'DIARIA';
+
+  if (isFisicaSec3roFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionFisicaDiariaSec3ro
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sec_educacionfisica3ro_diaria_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isFisicaSec3roUnidadFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'educacion-fisica' || selectedSubject?.id === 'educacion-fisica-sec') &&
+    (selectedGrade === 'secundaria-3ro' || selectedGrade === '3ro Sec') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isFisicaSec3roUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <EducacionFisicaUnidadSec3ro
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={(customFieldsData) => {
+              const isEditing = !!editId;
+              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Educación Física'}`;
+              const resolvedIntent = customFieldsData.intencion_pedagogica;
+              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
+              const resolvedMomentos = {
+                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
+                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
+                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
+              };
+              const resolvedTarea = customFieldsData.tarea_hogar;
+              const resolvedEvaluation = customFieldsData.evaluacion;
+
+              const planData: LessonPlan = {
+                id: isEditing ? editId : uid('plan'),
+                docente_id: user.id,
+                titulo: resolvedTitle,
+                tipo: selectedSequenceType,
+                nivel: selectedLevel?.toLowerCase() as any,
+                grado: selectedGrade,
+                asignatura: selectedSubject?.name || 'Asignatura',
+                secuencia_id: selectedSequence?.id,
+                intencion_pedagogica: resolvedIntent,
+                recursos: resolvedResources,
+                momentos: resolvedMomentos,
+                tarea: resolvedTarea,
+                conceptual: customFieldsData.conceptual || '',
+                procedimental: customFieldsData.procedural || '',
+                actitudinal: customFieldsData.attitudinal || '',
+                evaluacion: resolvedEvaluation,
+                creado_en: new Date().toISOString(),
+                customFields: customFieldsData
+              };
+
+              saveLessonPlan(planData, true);
+              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
+              toast.success('¡Planificación de Unidad guardada!');
+              navigateToPlanificaciones(1500);
+            }}
+          />
+        </div>
+
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sec_educacionfisica3ro_unidad_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  // ==========================================
+  // SECUNDARIA 3RO - FORMACIÓN HUMANA
+  // ==========================================
+  const isFormacionSec3roFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'formacion-humana' || selectedSubject?.id === 'formacion-humana-sec') &&
+    (selectedGrade === 'secundaria-3ro' || selectedGrade === '3ro Sec') &&
+    selectedPlanningType === 'DIARIA';
+
+  if (isFormacionSec3roFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <FormacionHumanaDiariaSec3ro
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={handleSaveNative}
+          />
+        </div>
+
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sec_formacion3ro_diaria_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
+      </main>
+    );
+  }
+
+  const isFormacionSec3roUnidadFormStep = currentStep === 4 &&
+    (selectedSubject?.id === 'formacion-humana' || selectedSubject?.id === 'formacion-humana-sec') &&
+    (selectedGrade === 'secundaria-3ro' || selectedGrade === '3ro Sec') &&
+    selectedPlanningType === 'UNIDAD';
+
+  if (isFormacionSec3roUnidadFormStep) {
+    return (
+      <main className="flex-1 flex flex-col w-full min-w-0 pb-6 overflow-visible bg-bg-base text-[#1B1B1B] dark:text-zinc-150 relative">
+        <Toaster position="top-center" richColors />
+        <div className="px-6 md:px-[60px] xl:px-16 w-full">
+          <FormacionHumanaUnidadSec3ro
+            user={user}
+            selectedSequence={selectedSequence}
+            selectedTheme={selectedTheme}
+            selectedSubtheme={selectedSubtheme}
+            selectedSequenceType={selectedSequenceType}
+            selectedLevel={selectedLevel}
+            selectedGrade={selectedGrade}
+            selectedSubject={selectedSubject}
+            selectedPlanningType={selectedPlanningType}
+            onBack={handleBack}
+            onCancel={() => {
+              toast.error('Planificación cancelada');
+              navigateToPlanificaciones(1000);
+            }}
+            onSave={(customFieldsData) => {
+              const isEditing = !!editId;
+              const resolvedTitle = customFieldsData.titulo || `Unidad: ${selectedSequence?.name || 'Formación Humana'}`;
+              const resolvedIntent = customFieldsData.intencion_pedagogica;
+              const resolvedResources = (customFieldsData.momentos || []).flatMap((m: any) => (m.recursos || '').split(',').map((r: string) => r.trim()));
+              const resolvedMomentos = {
+                inicio: customFieldsData.momentos?.[0]?.descripcion || '',
+                desarrollo: customFieldsData.momentos?.[1]?.descripcion || '',
+                cierre: customFieldsData.momentos?.[2]?.descripcion || ''
+              };
+              const resolvedTarea = customFieldsData.tarea_hogar;
+              const resolvedEvaluation = customFieldsData.evaluacion;
+
+              const planData: LessonPlan = {
+                id: isEditing ? editId : uid('plan'),
+                docente_id: user.id,
+                titulo: resolvedTitle,
+                tipo: selectedSequenceType,
+                nivel: selectedLevel?.toLowerCase() as any,
+                grado: selectedGrade,
+                asignatura: selectedSubject?.name || 'Asignatura',
+                secuencia_id: selectedSequence?.id,
+                intencion_pedagogica: resolvedIntent,
+                recursos: resolvedResources,
+                momentos: resolvedMomentos,
+                tarea: resolvedTarea,
+                conceptual: customFieldsData.conceptual || '',
+                procedimental: customFieldsData.procedural || '',
+                actitudinal: customFieldsData.attitudinal || '',
+                evaluacion: resolvedEvaluation,
+                creado_en: new Date().toISOString(),
+                customFields: customFieldsData
+              };
+
+              saveLessonPlan(planData, true);
+              confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 } });
+              toast.success('¡Planificación de Unidad guardada!');
+              navigateToPlanificaciones(1500);
+            }}
+          />
+        </div>
+
+        <AnimatePresence>
+          {showConfirmBackModal && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowConfirmBackModal(false)}
+              className="fixed inset-0 bg-black/45 backdrop-blur-xs flex items-center justify-center p-4 z-50"
+            >
+              <motion.div 
+                initial={{ scale: 0.95 }}
+                animate={{ scale: 1 }}
+                exit={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-850 rounded-[28px] p-6 max-w-sm w-full shadow-2xl relative cursor-default text-center"
+              >
+                <div className="w-14 h-14 bg-amber-50 dark:bg-amber-955/30 border border-amber-100 dark:border-amber-900/50 text-amber-500 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <AlertTriangle className="h-6 w-6 text-amber-500 dark:text-amber-400" />
+                </div>
+                <h3 className="text-base font-extrabold text-neutral-900 dark:text-white mb-2">¿Volver al Paso Anterior?</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                  Si vuelves atrás perderás los cambios actuales realizados dentro de este editor interactivo. ¿Deseas continuar?
+                </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirmBackModal(false)}
+                    className="bg-white dark:bg-zinc-800 hover:bg-black/5 dark:hover:bg-zinc-700 border border-black/10 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 h-9 px-6 rounded-xl text-[11.5px] font-bold shadow-sm transition-all cursor-pointer active:scale-95"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowConfirmBackModal(false);
+                      sessionStorage.removeItem('plx:sec_formacion3ro_unidad_draft');
+                      setCurrentStep(3);
+                    }}
+                    className="bg-amber-500 hover:bg-amber-600 text-white border border-black/15 text-[11.5px] font-bold h-9 px-6 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  >
+                    Sí, Volver
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <ModalCreditos
+          isOpen={showCreditsExhausted}
+          onClose={() => setShowCreditsExhausted(false)}
+          requiredCredits={15}
+          currentCredits={getUserCredits(user)}
+        />
       </main>
     );
   }
@@ -9830,11 +11645,36 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                   {isUnitBasedSubject && selectedSequenceType === 'CON_BASE' ? (
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                       {(() => {
-                        const normalizedGrade = selectedGrade.replace(/^(primaria|secundaria|inicial)-/, '').trim();
-                        let staticUnits = getUnitsBySubjectAndGrade(selectedSubject?.id || '', normalizedGrade);
+                        const normalizedGrade = selectedGrade.replace(/^(primaria|secundaria|inicial)-/, '').replace(/\s*Sec$/, '').trim();
+                        const isSec = selectedLevel === 'SECUNDARIA' || selectedGrade.startsWith('secundaria-') || selectedGrade.includes('Sec');
+                        
+                        let staticUnits: any[] = [];
+                        if (!isSec) {
+                          staticUnits = getUnitsBySubjectAndGrade(selectedSubject?.id || '', normalizedGrade);
+                        }
 
                         const filteredCustom = customUnits
-                          .filter(cu => cu.subject_id === selectedSubject?.id && cu.grade_id === normalizedGrade)
+                          .filter(cu => {
+                            const subjectMatch = cu.subject_id === selectedSubject?.id ||
+                              cu.subject_id === selectedSubject?.id?.replace('-sec', '') ||
+                              cu.subject_id === selectedSubject?.id + '-sec';
+
+                            const cuGradeNorm = (cu.grade_id || '').replace(/^(secundaria-|primaria-|inicial-)/, '').replace(/\s*Sec$/, '').trim();
+                            const cuIsSec = (cu.grade_id && (cu.grade_id.includes('Sec') || cu.grade_id.includes('secundaria'))) || (cu.subject_id && cu.subject_id.endsWith('-sec'));
+
+                            let gradeMatch = false;
+                            if (isSec) {
+                              // Secondary units in D1 have grade_id like "1ro Sec", "secundaria-1ro", "2do Sec", "secundaria-2do", etc.
+                              gradeMatch = (cuIsSec || cu.grade_id === `${normalizedGrade} Sec` || cu.grade_id === `secundaria-${normalizedGrade}`) &&
+                                           (cuGradeNorm === normalizedGrade || cu.grade_id === `${normalizedGrade} Sec` || cu.grade_id === `secundaria-${normalizedGrade}`);
+                            } else {
+                              // Primaria units in D1 have grade_id like "1ro", "2do", "primaria-1ro", etc.
+                              gradeMatch = !cuIsSec &&
+                                           (cuGradeNorm === normalizedGrade || cu.grade_id === normalizedGrade || cu.grade_id === `primaria-${normalizedGrade}`);
+                            }
+
+                            return subjectMatch && gradeMatch;
+                          })
                           .map(cu => cu.content);
 
                         const map = new Map<string, any>();

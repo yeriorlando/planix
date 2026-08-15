@@ -30,20 +30,17 @@ const DEFAULT_AI_CONFIG: AIConfig = {
     gemini: { 
       apiKey: "", 
       enabled: false, 
-      defaultModel: "gemini-2.5-flash", 
+      defaultModel: "gemini-3.7-flash", 
       availableModels: [
+        "gemini-3.7-flash",
+        "gemini-3.6-flash",
         "gemini-3.5-flash",
         "gemini-3.5-flash-thinking",
         "gemini-3.1-pro",
         "gemini-3.1-pro-enhanced",
         "gemini-auto",
         "gemini-3.5-flash-thinking-lite",
-        "gemini-flash-lite",
-        "gemini-3.1-flash-lite-preview",
-        "gemini-3.1-pro-preview",
-        "gemini-2.5-flash",
-        "gemini-2.5-pro",
-        "gemini-2.5-flash-lite"
+        "gemini-flash-lite"
       ], 
       useCustomServer: false, 
       customApiKey: "", 
@@ -245,8 +242,16 @@ async function callOpenAI(
 function mapGeminiModel(model: string): string {
   const m = (model || "").toLowerCase().trim();
   if (
-    m === "gemini-3.0-pro" ||
+    m === "gemini-3.7-flash" ||
+    m === "gemini-3.6-flash" ||
     m === "gemini-3.5-flash" ||
+    m === "gemini-3.5-flash-thinking" ||
+    m === "gemini-3.1-pro" ||
+    m === "gemini-3.1-pro-enhanced" ||
+    m === "gemini-auto" ||
+    m === "gemini-3.5-flash-thinking-lite" ||
+    m === "gemini-flash-lite" ||
+    m === "gemini-3.0-pro" ||
     m === "gemini-3.1-flash-lite" ||
     m === "gemini-2.5-pro" ||
     m === "gemini-2.5-flash" ||
@@ -254,13 +259,15 @@ function mapGeminiModel(model: string): string {
   ) {
     return m;
   }
-  if (m.includes("pro")) {
-    return "gemini-3.0-pro";
-  }
-  if (m.includes("lite")) {
-    return "gemini-3.1-flash-lite";
-  }
-  return "gemini-3.5-flash";
+  if (m.includes("3.7")) return "gemini-3.7-flash";
+  if (m.includes("3.6")) return "gemini-3.6-flash";
+  if (m.includes("auto")) return "gemini-auto";
+  if (m.includes("enhanced")) return "gemini-3.1-pro-enhanced";
+  if (m.includes("thinking-lite")) return "gemini-3.5-flash-thinking-lite";
+  if (m.includes("thinking")) return "gemini-3.5-flash-thinking";
+  if (m.includes("pro")) return "gemini-3.1-pro";
+  if (m.includes("lite")) return "gemini-flash-lite";
+  return "gemini-3.7-flash";
 }
 
 async function callGemini(
@@ -1841,20 +1848,30 @@ export async function generateSaberesPrevios(planData: any): Promise<any> {
 export async function generateRetroalimentacion(lastPlanData: any): Promise<any> {
   const systemPrompt = "Eres un experto en pedagogía dominicana del MINERD. Responde ÚNICAMENTE con el objeto JSON solicitado.";
   const areaName = lastPlanData.area || lastPlanData.asignatura || 'Lengua Española';
+  const gradeName = lastPlanData.grado || (lastPlanData.level === 'SECUNDARIA' ? '1er Grado de Secundaria' : '1er Grado de Primaria');
+  const levelName = (gradeName.toLowerCase().includes('secundaria') || gradeName.toLowerCase().includes('sec')) ? 'Nivel Secundario' : 'Nivel Primario';
+  
   const userPrompt = `
-    Actúa como un Especialista en Evaluación Formativa y Retroalimentación del MINERD.
+    Actúa como un Especialista en Evaluación Formativa y Retroalimentación del MINERD para el ${levelName} (${gradeName}).
     
     TU OBJETIVO:
-    Generar preguntas y actividades de retroalimentación (feedback) constructiva para la clase de hoy, basándote en lo que se enseñó en la ÚLTIMA planificación diaria (que sirve como punto de partida para repasar o conectar aprendizajes) del área de ${areaName}.
+    Generar preguntas y actividades de retroalimentación (feedback) constructiva, reflexiva y contextualizada para la clase de hoy, basándote en lo que se enseñó en la sesión anterior del área de ${areaName} en ${gradeName} (${levelName}).
     
-    DATOS DE LA ÚLTIMA PLANIFICACIÓN:
-    - Área: ${areaName}
-    - Título/Tema: ${lastPlanData.titulo || 'No especificado'}
-    - Intención Pedagógica: ${lastPlanData.intencion_pedagogica || 'No especificada'}
+    DATOS PEDAGÓGICOS:
+    - Nivel: ${levelName}
+    - Grado: ${gradeName}
+    - Área / Asignatura: ${areaName}
+    - Título/Tema de la clase: ${lastPlanData.titulo || lastPlanData.tema || 'No especificado'}
+    - Intención Pedagógica: ${lastPlanData.intencion_pedagogica || lastPlanData.intencionPedagogica || 'No especificada'}
+    
+    CRITERIOS OBLIGATORIOS:
+    1. Las preguntas y dinámicas deben ser acordes a la madurez cognitiva y currículo de ${gradeName} (${levelName}).
+    2. Enfocadas estrictamente en la disciplina de ${areaName}.
+    3. Utilizar formato de viñetas claras (•).
     
     RESPUESTA JSON OBLIGATORIA (Devuelve únicamente un JSON válido, sin textos introductorios ni bloques Markdown):
     {
-      "retroalimentacion": "Texto con viñetas conteniendo de 3 a 5 preguntas o dinámicas sugeridas para realizar una retroalimentación constructiva al inicio o cierre de la clase, recuperando lo aprendido en la sesión anterior de ${areaName}."
+      "retroalimentacion": "Texto con viñetas conteniendo de 3 a 5 preguntas o dinámicas sugeridas para realizar una retroalimentación constructiva al inicio o cierre de la clase, recuperando lo aprendido en ${areaName} para ${gradeName}."
     }
   `;
 
@@ -1863,9 +1880,9 @@ export async function generateRetroalimentacion(lastPlanData: any): Promise<any>
   } catch (error) {
     console.warn("[AI Service] Fallback a simulación Retroalimentación local por error:", error);
     return {
-      retroalimentacion: `• ¿Qué recordamos sobre lo que hicimos ayer con ${lastPlanData.titulo || 'el tema anterior'}?
-• ¿Quién puede compartir una palabra o idea clave que aprendimos en la última clase?
-• Dinámica: Lanzar una pelota suave a un estudiante para que mencione un aprendizaje de ayer, y luego este la pase a otro compañero.`
+      retroalimentacion: `• ¿Qué conceptos y aprendizajes clave recordamos sobre lo trabajado en la sesión anterior de ${areaName}?
+• ¿De qué manera podemos aplicar lo aprendido sobre ${lastPlanData.titulo || 'este tema'} a situaciones de la vida real o al nuevo tema de hoy?
+• Dinámica: Ronda de preguntas rápidas en parejas para sintetizar las ideas principales de la clase previa de ${areaName}.`
     };
   }
 }
@@ -2127,12 +2144,12 @@ Follow these OBLIGATORY RULES:
 4. DO NOT describe step-by-step activities.
 5. DO NOT mention evaluation instruments or techniques.
 6. Must serve as a general framework for all daily plans in the unit.
-7. Language must be clear, simple, and grade-appropriate (e.g., 1ro de primaria).
+7. Language must be clear, simple, and grade-appropriate (for ${grade}).
 8. Implicitly answer: Why learn this? What is it for? In what context?
-9. IMPORTANT: The narrative must explicitly mention the grade as "primer grado de primaria" in the introduction.
+9. IMPORTANT: The narrative must explicitly mention the grade as "${grade}" in the introduction.
 
 Structure Template Example:
-"En la [Escuela], primer grado de primaria, sección [X], los estudiantes observan/participan en [Situación]. A partir de esto, explorarán [Contenidos/Acciones] para [Propósito], reconociendo [Aportes/Valor]..."
+"En la [Escuela], ${grade}, sección [X], los estudiantes observan/participan en [Situación]. A partir de esto, explorarán [Contenidos/Acciones] para [Propósito], reconociendo [Aportes/Valor]..."
 
 #### 2. estrategia:
 - Infer Teaching Strategies from the daily plans. List 3-5 distinct strategies.
