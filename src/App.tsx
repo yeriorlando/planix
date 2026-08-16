@@ -6,6 +6,7 @@ import { getCurrentUser } from './lib/storage';
 import Mantenimiento from './pages/Mantenimiento';
 import Sidebar from './components/Sidebar';
 import WhatsAppSupportBubble from './components/planix/WhatsAppSupportBubble';
+import AccessibilityWidget from './components/planix/AccessibilityWidget';
 import Dashboard from './pages/Dashboard';
 import Planificaciones from './pages/Planificaciones';
 import Calendar from './pages/Calendar';
@@ -281,7 +282,6 @@ function Layout() {
           <Outlet context={{ isSidebarPinned: isSidebarExpanded, toggleSidebarPin, theme, toggleTheme }} />
         </div>
       </div>
-      <WhatsAppSupportBubble />
     </div>
   );
 }
@@ -349,6 +349,8 @@ export default function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Toaster position="top-center" richColors />
+      <AccessibilityWidget />
+      <WhatsAppSupportBubble />
       <MaintenanceGuard>
         <Routes>
         {/* Public Landing Page */}

@@ -13,6 +13,8 @@ export default function WhatsAppSupportBubble() {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [attachedFile, setAttachedFile] = useState<File | null>(null);
     const [errorMessage, setErrorMessage] = useState<string | null>(null);
+    const [isHovered, setIsHovered] = useState(false);
+    const [showHelpPrompt, setShowHelpPrompt] = useState(false);
     const fileInputRef = useRef<HTMLInputElement>(null);
     const containerRef = useRef<HTMLDivElement>(null);
     const location = useLocation();
@@ -22,9 +24,34 @@ export default function WhatsAppSupportBubble() {
     const whatsappUrl = "https://chat.whatsapp.com/CTxnZvEz6Qr2I2piuSNSDO";
 
     useEffect(() => {
-        const timer = setTimeout(() => setIsVisible(true), 1000);
+        const timer = setTimeout(() => setIsVisible(true), 500);
         return () => clearTimeout(timer);
     }, []);
+
+    // Mostrar mensaje "¿Necesitas ayuda?" a los 3 segundos en landing y dashboard
+    useEffect(() => {
+        const isLanding = pathname === '/' || pathname === '' || pathname.startsWith('/#');
+        const isDashboard = pathname === '/dashboard' || pathname.startsWith('/coordinador/dashboard');
+
+        if (!isLanding && !isDashboard) {
+            setShowHelpPrompt(false);
+            return;
+        }
+
+        let hideTimer: any;
+        const timer = setTimeout(() => {
+            setShowHelpPrompt(true);
+
+            hideTimer = setTimeout(() => {
+                setShowHelpPrompt(false);
+            }, 6000);
+        }, 3000);
+
+        return () => {
+            clearTimeout(timer);
+            if (hideTimer) clearTimeout(hideTimer);
+        };
+    }, [pathname]);
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
@@ -303,36 +330,79 @@ export default function WhatsAppSupportBubble() {
                 )}
             </div>
 
-            {/* Main Toggle Button */}
-            <button
-                onClick={() => (isOpen ? handleClose() : setIsOpen(true))}
-                className={`group relative w-14 h-14 rounded-full pointer-events-auto cursor-pointer ${isOpen ? 'bg-slate-900 shadow-xl' : 'bg-[#0046AB] shadow-[0_8px_30px_rgba(0,70,171,0.45)]'
-                    } flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95 animate-in zoom-in slide-in-from-bottom-8`}
+            {/* Prompt & Main Toggle Button Container */}
+            <div 
+                className="relative flex items-center"
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
             >
-                {/* Pulse Ring */}
-                {!isOpen && (
-                    <span className="absolute inset-0 rounded-full bg-[#0046AB] animate-ping opacity-15 transition-opacity" style={{ animationDuration: '3.5s' }}></span>
-                )}
+                {/* Floating Speech Prompt ("¿Necesitas ayuda?") */}
+                {(showHelpPrompt || isHovered) && !isOpen && (
+                    <div
+                        onClick={() => {
+                            setShowHelpPrompt(false);
+                            setIsHovered(false);
+                            setIsOpen(true);
+                        }}
+                        className="mr-3 flex items-center gap-2.5 bg-white dark:bg-slate-900 text-slate-800 dark:text-white px-3.5 py-2.5 rounded-2xl shadow-[0_12px_35px_rgba(0,0,0,0.2)] border border-slate-200/80 dark:border-slate-800 cursor-pointer pointer-events-auto transition-all hover:scale-105 active:scale-95 animate-in fade-in slide-in-from-right-3 zoom-in-95 duration-200 select-none whitespace-nowrap z-50"
+                    >
+                        <div className="w-7 h-7 rounded-full bg-blue-50 dark:bg-blue-950/60 text-[#0046AB] dark:text-blue-400 flex items-center justify-center font-bold text-sm shrink-0 shadow-xs">
+                            👋
+                        </div>
+                        <div className="flex flex-col text-left pr-1">
+                            <span className="text-xs font-bold leading-tight">¿Necesitas ayuda?</span>
+                            <span className="text-[10px] text-slate-500 dark:text-slate-400 leading-tight">¡Haz clic aquí!</span>
+                        </div>
 
-                {isOpen ? (
-                    <X className="w-7 h-7 text-white transition-all duration-300 rotate-0 group-hover:rotate-90" />
-                ) : (
-                    <div className="rotate-3 group-hover:rotate-0 transition-transform duration-300">
-                        <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                        </svg>
+                        <button
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                setShowHelpPrompt(false);
+                                setIsHovered(false);
+                            }}
+                            className="w-5 h-5 rounded-full text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors ml-0.5 cursor-pointer"
+                            aria-label="Cerrar aviso"
+                        >
+                            <X className="w-3.5 h-3.5" />
+                        </button>
                     </div>
                 )}
 
-                {/* Counter Badge */}
-                {!isOpen && (
-                    <span className="absolute top-0 right-0 flex h-5 w-5">
-                        <span className="relative inline-flex rounded-full h-5 w-5 bg-red-500 items-center justify-center border-[2px] border-white dark:border-slate-900 shadow-sm scale-90">
-                            <span className="text-[8px] text-white font-black leading-none animate-pulse">1</span>
+                {/* Main Toggle Button */}
+                <button
+                    onClick={() => {
+                        setShowHelpPrompt(false);
+                        setIsHovered(false);
+                        isOpen ? handleClose() : setIsOpen(true);
+                    }}
+                    className={`group relative w-14 h-14 rounded-full pointer-events-auto cursor-pointer ${isOpen ? 'bg-slate-900 shadow-xl' : 'bg-[#0046AB] shadow-[0_8px_30px_rgba(0,70,171,0.45)]'
+                        } flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95 animate-in zoom-in slide-in-from-bottom-8`}
+                >
+                    {/* Pulse Ring */}
+                    {!isOpen && (
+                        <span className="absolute inset-0 rounded-full bg-[#0046AB] animate-ping opacity-15 transition-opacity" style={{ animationDuration: '3.5s' }}></span>
+                    )}
+
+                    {isOpen ? (
+                        <X className="w-7 h-7 text-white transition-all duration-300 rotate-0 group-hover:rotate-90" />
+                    ) : (
+                        <div className="rotate-3 group-hover:rotate-0 transition-transform duration-300">
+                            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                    )}
+
+                    {/* Counter Badge */}
+                    {!isOpen && (
+                        <span className="absolute top-0 right-0 flex h-5 w-5">
+                            <span className="relative inline-flex rounded-full h-5 w-5 bg-red-500 items-center justify-center border-[2px] border-white dark:border-slate-900 shadow-sm scale-90">
+                                <span className="text-[8px] text-white font-black leading-none animate-pulse">1</span>
+                            </span>
                         </span>
-                    </span>
-                )}
-            </button>
+                    )}
+                </button>
+            </div>
         </div>
     );
 }
