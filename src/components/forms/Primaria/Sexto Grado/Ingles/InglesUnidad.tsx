@@ -884,19 +884,19 @@ export default function InglesUnidad6to({
     try {
       const plannings = await fetchPlannings(user.id);
       
-      const socPlans = plannings
+      const inglesPlans = plannings
         .filter(p => 
-          (p.asignatura?.toLowerCase().includes("sociales") || p.titulo?.toLowerCase().includes("sociales")) &&
-          (p.grado?.toLowerCase().includes("3") || p.grado?.toLowerCase().includes("tercer"))
+          (p.asignatura?.toLowerCase().includes("ingles") || p.titulo?.toLowerCase().includes("ingles") || p.asignatura?.toLowerCase().includes("lenguas extranjeras")) &&
+          (p.grado?.toLowerCase().includes("6") || p.grado?.toLowerCase().includes("sext"))
         )
         .sort((a, b) => new Date(b.creado_en).getTime() - new Date(a.creado_en).getTime());
 
-      if (socPlans.length === 0) {
+      if (inglesPlans.length === 0) {
         toast.error("No se encontró ninguna planificación anterior de Inglés de 6to. (Primaria) para esta cuenta.", { id: "ai-retro" });
         return;
       }
 
-      const latestPlan = socPlans[0];
+      const latestPlan = inglesPlans[0];
       toast.loading(`Generando retroalimentación basada en: "${latestPlan.titulo || 'Planificación anterior'}"`, { id: "ai-retro" });
 
       const result = await generateRetroalimentacion(latestPlan);
@@ -962,7 +962,7 @@ export default function InglesUnidad6to({
       // 2. Synthesize using our client-side service
       const data = await synthesizeUnitPlan(
         selectedPlans,
-        "Ciencias Sociales",
+        "Lenguas Extranjeras - Inglés",
         "6to. (Primaria)",
         curContext
       );
@@ -1031,9 +1031,9 @@ export default function InglesUnidad6to({
 
       // 3. Fetch custom units from D1 SQLite and merge with static units
       const customUnitsRaw = await requestD1<any[]>('/api/custom-units').catch(() => []);
-      const staticUnits = getUnitsBySubjectAndGrade('sociales', '3ro');
+      const staticUnits = getUnitsBySubjectAndGrade('ingles', '6to');
       const filteredCustom = customUnitsRaw
-        .filter(cu => cu.subject_id === 'sociales' && cu.grade_id === '3ro')
+        .filter(cu => (cu.subject_id === 'ingles' || cu.subject_id === 'ingles-pri') && cu.grade_id === '6to')
         .map(cu => cu.content);
 
       const map = new Map<string, Unit>();
@@ -1315,7 +1315,7 @@ export default function InglesUnidad6to({
         <div className="mb-8 relative border-b border-slate-100 dark:border-zinc-800 pb-5 text-center">
           <div className="animate-in fade-in slide-in-from-top-4 duration-500">
             <h1 className="font-display text-5xl tracking-tight text-[#1B1B1B] dark:text-white font-black">
-              Ciencias Sociales
+              Lenguas Extranjeras Inglés
             </h1>
             <p className="mt-2 text-sm font-black text-slate-500 dark:text-zinc-400 uppercase tracking-widest">
               Planificación de Unidad
@@ -2230,7 +2230,7 @@ export default function InglesUnidad6to({
         isOpen={isSelectorOpen}
         onClose={() => setIsSelectorOpen(false)}
         onSelectPlans={handleSynthesize}
-        subjectId={selectedSubject?.id || "sociales"}
+        subjectId={selectedSubject?.id || "ingles"}
         grade={selectedGrade}
       />
 

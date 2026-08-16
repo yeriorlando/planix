@@ -471,11 +471,15 @@ export default function PrintLayoutPrimaria({
 
   const momentos = getMomentosArray(formData);
   const isUnit = planningType === 'UNIDAD' || formData.planningType === 'UNIDAD';
-  const isMatOrLengua = subjectName?.toLowerCase().includes('matemática') || 
-                        subjectName?.toLowerCase().includes('matematica') || 
-                        subjectName?.toLowerCase().includes('lengua') ||
-                        (formData.area || formData.asignatura || '').toLowerCase().includes('matem') ||
-                        (formData.area || formData.asignatura || '').toLowerCase().includes('lengua');
+  
+  // Solo Matemática y Lengua Española de Primaria usan Secuencias Didácticas (excluyendo Lenguas Extranjeras como Inglés o Francés)
+  const isMatOrLengua = (() => {
+    const combined = `${subjectName || ''} ${formData.area || ''} ${formData.asignatura || ''}`.toLowerCase();
+    if (combined.includes('extranjera') || combined.includes('inglés') || combined.includes('ingles') || combined.includes('francés') || combined.includes('frances')) {
+      return false;
+    }
+    return combined.includes('matemática') || combined.includes('matematica') || combined.includes('lengua');
+  })();
 
   const isSequencePlanning = isUpperPrimary && isMatOrLengua && !isUnit;
 
@@ -485,11 +489,7 @@ export default function PrintLayoutPrimaria({
                              grade.includes('primer') || grade.includes('segund') || grade.includes('tercer') ||
                              grade.includes('1ro') || grade.includes('2do') || grade.includes('3ro'));
       
-      const isMatOrLenguaName = subjectName?.toLowerCase().includes('matemática') || 
-                            subjectName?.toLowerCase().includes('matematica') || 
-                            subjectName?.toLowerCase().includes('lengua') ||
-                            (formData.area || formData.asignatura || '').toLowerCase().includes('matem') ||
-                            (formData.area || formData.asignatura || '').toLowerCase().includes('lengua');
+      const isMatOrLenguaName = isMatOrLengua;
 
       if (isMatOrLenguaName && isPrimary1to3 && !isUnit) {
         return `MOMENTO ${index + 1}`;
@@ -527,7 +527,7 @@ export default function PrintLayoutPrimaria({
         {formData.competencias_especificas && formData.competencias_especificas.length > 0 && !formData.hideSpecificCompetencies && (
           <div className="border-b border-neutral-800 p-3 bg-neutral-50/50">
             <h3 className="text-xs font-bold uppercase text-neutral-800 mb-2">
-              {isUpperPrimary && (subjectName?.toLowerCase().includes('lengua') || (formData.area || formData.asignatura || '').toLowerCase().includes('lengua'))
+              {isUpperPrimary && isMatOrLengua
                 ? 'Competencias Específicas de la Secuencia:'
                 : 'Competencias Específicas:'}
             </h3>

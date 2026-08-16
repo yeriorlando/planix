@@ -33,7 +33,7 @@ import {
   Coins
 } from 'lucide-react';
 
-import { getUnitsBySubjectAndGrade, Unit, UnitTheme, UnitSubtheme, ContentBlock } from '../lib/data/unitCurriculum';
+import { getUnitsBySubjectAndGrade, Unit, UnitTheme, UnitSubtheme, ContentBlock, sortUnitsByNumber } from '../lib/data/unitCurriculum';
 import ThemeItem from '../components/admin/ThemeItem';
 import UnitContentEditor from '../components/admin/UnitContentEditor';
 import { AVAILABLE_GRADES } from '../lib/data/educationStructure';
@@ -768,7 +768,7 @@ export default function AdminCurriculum() {
         map.set(u.id, u);
       }
     });
-    return Array.from(map.values());
+    return sortUnitsByNumber(Array.from(map.values()));
   }, [selectedUnitSubject, selectedUnitGrade, customUnits]);
 
   const selectedUnit = React.useMemo(() => {

@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "sync:sequences": "node scripts/sync-sequences.js"
+    "sync:sequences": "node scripts/sync-sequences.js",
+    "sync:ingles": "node scripts/sync_ingles_to_supabase.js"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.2.9",

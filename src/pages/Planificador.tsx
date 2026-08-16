@@ -55,7 +55,7 @@ import { fetchPlanningById } from '../lib/services/plannings';
 import { EDUCATION_STRUCTURE, getAllLevels, getCyclesByLevel, getCycleById, getGradesByCycle, getGradeById } from '../lib/data/educationStructure';
 import { OFFICIAL_DEFAULT_SUBJECTS } from '../lib/data/defaultSubjects';
 import { getCompetenciesBySubject } from '../lib/data/scienceCurriculum';
-import { getUnitsBySubjectAndGrade, Unit } from '../lib/data/unitCurriculum';
+import { getUnitsBySubjectAndGrade, Unit, sortUnitsByNumber } from '../lib/data/unitCurriculum';
 import LenguaEspañola from '../components/forms/Primaria/Primer Grado/Lengua Española/LenguaEspañola';
 import Matematica from '../components/forms/Primaria/Primer Grado/Matematica/Matematica';
 import LenguaEspañola2do from '../components/forms/Primaria/Segundo Grado/Lengua Española/LenguaEspañola';
@@ -11686,7 +11686,7 @@ Responde ESTRICTAMENTE en formato JSON con la siguiente estructura (no envíes b
                             map.set(u.id, u);
                           }
                         });
-                        let mergedUnitsList = Array.from(map.values());
+                        let mergedUnitsList = sortUnitsByNumber(Array.from(map.values()));
 
                         if (selectedSubject?.id === 'sociales' && normalizedGrade === '2do') {
                           const orderMap: Record<string, number> = {

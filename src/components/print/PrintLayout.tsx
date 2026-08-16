@@ -12,6 +12,7 @@ interface PrintLayoutProps {
   blockTitle?: string | number;
   orientation?: 'portrait' | 'landscape';
   planningType?: 'DIARIA' | 'UNIDAD' | string;
+  textScale?: 'small' | 'normal' | 'large' | 'xlarge';
 }
 
 export default function PrintLayout({
@@ -21,7 +22,8 @@ export default function PrintLayout({
   sequenceTitle,
   blockTitle,
   orientation = 'landscape',
-  planningType = 'DIARIA'
+  planningType = 'DIARIA',
+  textScale = 'normal'
 }: PrintLayoutProps) {
   const currentDate = new Date().toLocaleDateString('es-DO', {
     year: 'numeric',
@@ -47,9 +49,13 @@ export default function PrintLayout({
   const isUnit = planningType === 'UNIDAD' || formData?.planningType === 'UNIDAD';
   const isUpperPrimary = (grade.includes('4') || grade.includes('5') || grade.includes('6') || 
                          grade.includes('cuarto') || grade.includes('quinto') || grade.includes('sexto')) && !isSecundaria;
-  const isMatOrLengua = subjectName?.toLowerCase().includes('matemática') || 
-                        subjectName?.toLowerCase().includes('matematica') || 
-                        subjectName?.toLowerCase().includes('lengua');
+  const isMatOrLengua = (() => {
+    const combined = `${subjectName || ''} ${formData?.area || ''} ${formData?.asignatura || ''}`.toLowerCase();
+    if (combined.includes('extranjera') || combined.includes('inglés') || combined.includes('ingles') || combined.includes('francés') || combined.includes('frances')) {
+      return false;
+    }
+    return combined.includes('matemática') || combined.includes('matematica') || combined.includes('lengua');
+  })();
 
   let titleSuffix = isConBase ? 'PLANIFICACIÓN CON BASE' : 'PLANIFICACIÓN CURRICULAR';
   if (isUpperPrimary && isMatOrLengua) {
@@ -100,6 +106,27 @@ export default function PrintLayout({
   const showPeriodo = isSecundaria1ro && isMainSecSubject;
   const periodo = formData?.periodo || '---';
 
+  // 1. Extraer tema y subtema de manera comprensiva
+  let displayTema = formData?.tema || formData?.theme || formData?.customFields?.tema || formData?.customFields?.theme || '';
+  let displaySubtema = formData?.subtema || formData?.subtheme || formData?.customFields?.subtema || formData?.customFields?.subtheme || '';
+
+  // 2. Si no están explícitos, intentar extraer del título cuando tiene el formato "Tema - Subtema"
+  if (!displayTema) {
+    const rawTit = (formData?.titulo || formData?.actividad_titulo || '').trim();
+    if (rawTit && !rawTit.toLowerCase().startsWith('unidad:') && !rawTit.toLowerCase().startsWith('secuencia:')) {
+      if (rawTit.includes(' - ')) {
+        const parts = rawTit.split(' - ');
+        displayTema = parts[0]?.trim() || '';
+        displaySubtema = displaySubtema || parts.slice(1).join(' - ').trim();
+      } else if (rawTit.toLowerCase() !== 'clase' && rawTit !== '---') {
+        displayTema = rawTit;
+      }
+    }
+  }
+
+  // Unidad o Secuencia para la fila 2
+  const unidadOrSecuencia = sequenceTitle || formData?.secuencia || formData?.unidad || (formData?.titulo && formData.titulo.toLowerCase().startsWith('unidad:') ? formData.titulo : '') || (isUnit ? formData?.titulo : '') || '---';
+
   const maxWidthClass = orientation === 'landscape' ? 'max-w-[297mm]' : 'max-w-[215mm]';
 
   return (
@@ -119,8 +146,32 @@ export default function PrintLayout({
             display: none !important;
           }
         }
+
+        .print-layout.text-scale-small .text-\\[10px\\] { font-size: 9px !important; }
+        .print-layout.text-scale-small .text-\\[11px\\] { font-size: 10px !important; }
+        .print-layout.text-scale-small .text-xs { font-size: 11px !important; line-height: 1.35 !important; }
+        .print-layout.text-scale-small .text-sm { font-size: 12.5px !important; }
+        .print-layout.text-scale-small .text-base { font-size: 14px !important; }
+        .print-layout.text-scale-small p,
+        .print-layout.text-scale-small li { font-size: 11px !important; }
+
+        .print-layout.text-scale-large .text-\\[10px\\] { font-size: 11.5px !important; }
+        .print-layout.text-scale-large .text-\\[11px\\] { font-size: 12.5px !important; }
+        .print-layout.text-scale-large .text-xs { font-size: 13.5px !important; line-height: 1.5 !important; }
+        .print-layout.text-scale-large .text-sm { font-size: 15.5px !important; }
+        .print-layout.text-scale-large .text-base { font-size: 17.5px !important; }
+        .print-layout.text-scale-large p,
+        .print-layout.text-scale-large li { font-size: 13.5px !important; }
+
+        .print-layout.text-scale-xlarge .text-\\[10px\\] { font-size: 13px !important; }
+        .print-layout.text-scale-xlarge .text-\\[11px\\] { font-size: 14px !important; }
+        .print-layout.text-scale-xlarge .text-xs { font-size: 15.5px !important; line-height: 1.55 !important; }
+        .print-layout.text-scale-xlarge .text-sm { font-size: 17.5px !important; }
+        .print-layout.text-scale-xlarge .text-base { font-size: 19.5px !important; }
+        .print-layout.text-scale-xlarge p,
+        .print-layout.text-scale-xlarge li { font-size: 15.5px !important; }
       `}} />
-      <div className={`print-layout bg-white w-full ${maxWidthClass} mx-auto text-neutral-900 border border-neutral-400 print:max-w-none print:w-full print:border-[0.5px] transition-all duration-300 font-sans shadow-sm`}>
+      <div className={`print-layout text-scale-${textScale} bg-white w-full ${maxWidthClass} mx-auto text-neutral-900 border border-neutral-400 print:max-w-none print:w-full print:border-[0.5px] transition-all duration-300 font-sans shadow-sm`}>
         {/* Header de Datos del Plan */}
         <div className="border-b border-neutral-400">
           <div className="p-3 text-center border-b border-neutral-400 bg-neutral-50/50">
@@ -170,26 +221,42 @@ export default function PrintLayout({
               </div>
             </div>
           ) : (
-            <div className="grid grid-cols-12 text-xs border-t border-neutral-400">
-              <div className={`${showPeriodo ? 'col-span-3' : 'col-span-4'} p-2 border-r border-neutral-400`}>
-                <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">ÁREA:</span>
-                <div className="font-semibold text-neutral-800">{displaySubject}</div>
+            <>
+              <div className="grid grid-cols-12 text-xs border-t border-neutral-400">
+                <div className={`${showPeriodo ? 'col-span-3' : 'col-span-4'} p-2 border-r border-neutral-400`}>
+                  <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">ÁREA:</span>
+                  <div className="font-semibold text-neutral-800">{displaySubject}</div>
+                </div>
+                <div className={`${showPeriodo ? 'col-span-3' : 'col-span-4'} p-2 border-r border-neutral-400`}>
+                  <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">{(!isUnit && !isSecundaria && isMatOrLengua) ? 'SECUENCIA:' : 'UNIDAD:'}</span>
+                  <div className="font-semibold text-neutral-800">{unidadOrSecuencia}</div>
+                </div>
+                {showPeriodo && (
+                  <div className="col-span-3 p-2 border-r border-neutral-400">
+                    <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">PERIODO:</span>
+                    <div className="font-semibold text-neutral-800">{periodo}</div>
+                  </div>
+                )}
+                <div className={`${showPeriodo ? 'col-span-3' : 'col-span-4'} p-2`}>
+                  <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">FECHA:</span>
+                  <div className="font-semibold text-neutral-800">{formatDate(formData.fecha)}</div>
+                </div>
               </div>
-              <div className={`${showPeriodo ? 'col-span-3' : 'col-span-4'} p-2 border-r border-neutral-400`}>
-                <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">{(!isUnit && !isSecundaria && (isMatOrLengua || /lengua|matem[aá]tica|español/i.test(displaySubject || ''))) ? 'SECUENCIA:' : 'UNIDAD:'}</span>
-                <div className="font-semibold text-neutral-800">{sequenceTitle || formData.secuencia || formData.titulo || '---'}</div>
-              </div>
-              {showPeriodo && (
-                <div className="col-span-3 p-2 border-r border-neutral-400">
-                  <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">PERIODO:</span>
-                  <div className="font-semibold text-neutral-800">{periodo}</div>
+
+              {/* Fila para TEMA y SUBTEMA */}
+              {(!isUnit || displayTema || displaySubtema) && (
+                <div className="grid grid-cols-12 text-xs border-t border-neutral-400">
+                  <div className="col-span-6 p-2 border-r border-neutral-400">
+                    <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">TEMA:</span>
+                    <div className="font-semibold text-neutral-800">{displayTema || '---'}</div>
+                  </div>
+                  <div className="col-span-6 p-2">
+                    <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">SUBTEMA:</span>
+                    <div className="font-semibold text-neutral-800">{displaySubtema || '---'}</div>
+                  </div>
                 </div>
               )}
-              <div className={`${showPeriodo ? 'col-span-3' : 'col-span-4'} p-2`}>
-                <span className="block text-[10px] font-black uppercase text-neutral-500 mb-0.5">FECHA:</span>
-                <div className="font-semibold text-neutral-800">{formatDate(formData.fecha)}</div>
-              </div>
-            </div>
+            </>
           )}
         </div>
 

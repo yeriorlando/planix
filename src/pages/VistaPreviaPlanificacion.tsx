@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { 
   Printer, ArrowLeft, RefreshCw, Layers, Download, FileText,
-  BookText, Ruler, Globe, Leaf, Palette, Dumbbell, Heart
+  BookText, Ruler, Globe, Leaf, Palette, Dumbbell, Heart, Type
 } from 'lucide-react';
 import { getLessonPlans, getCurrentUser } from '../lib/storage';
 import PrintLayout from '../components/print/PrintLayout';
@@ -17,6 +17,7 @@ export default function VistaPreviaPlanificacion() {
 
   const [formData, setFormData] = useState<any>(null);
   const [orientation, setOrientation] = useState<'portrait' | 'landscape'>('landscape');
+  const [textScale, setTextScale] = useState<'small' | 'normal' | 'large' | 'xlarge'>('normal');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -269,18 +270,18 @@ export default function VistaPreviaPlanificacion() {
     <div className="min-h-screen bg-neutral-100 dark:bg-zinc-955 relative">
       {/* Barra de Herramientas de Vista Previa (Fija al desplazar, desaparece al imprimir) */}
       <div className="sticky top-0 z-40 w-full bg-white dark:bg-zinc-900 border-b border-neutral-200 dark:border-zinc-800 shadow-sm no-print">
-        <div className="max-w-[1200px] mx-auto px-6 py-4 flex flex-wrap items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <div>
-              <h1 className="text-2xl font-extrabold text-neutral-900 dark:text-white leading-tight">Vista Previa de Planificación</h1>
-              <p className="text-sm font-normal text-neutral-500 dark:text-zinc-400 flex items-center gap-2 mt-1">
-                {getSubjectIcon(subjectName)}
-                <span>{subjectName} - {sequenceTitle}</span>
-              </p>
-            </div>
+        <div className="max-w-[1200px] mx-auto px-6 py-4 flex flex-col items-center justify-center text-center gap-3">
+          <div className="flex flex-col items-center justify-center text-center">
+            <h1 className="text-2xl font-extrabold text-neutral-900 dark:text-white leading-tight text-center">
+              Vista Previa de Planificación
+            </h1>
+            <p className="text-sm font-normal text-neutral-500 dark:text-zinc-400 flex items-center justify-center gap-2 mt-1 text-center">
+              {getSubjectIcon(subjectName)}
+              <span>{subjectName} - {sequenceTitle}</span>
+            </p>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center justify-center gap-2">
             {/* Volver a la Planificación */}
             <button
               onClick={() => {
@@ -319,6 +320,61 @@ export default function VistaPreviaPlanificacion() {
             >
               <Printer className="h-3.5 w-3.5" /> Imprimir
             </button>
+
+            {/* Control de Tamaño de Texto */}
+            <div className="flex items-center bg-neutral-100 dark:bg-zinc-800 rounded-xl p-1 border border-neutral-200 dark:border-zinc-700 shadow-sm">
+              <span className="text-[11px] font-bold text-neutral-600 dark:text-zinc-300 px-2 flex items-center gap-1">
+                <Type className="h-3.5 w-3.5 text-neutral-500 dark:text-zinc-400" /> Fuente:
+              </span>
+              <button
+                type="button"
+                onClick={() => setTextScale('small')}
+                className={`px-2 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                  textScale === 'small'
+                    ? 'bg-white dark:bg-zinc-900 text-neutral-900 dark:text-white shadow-xs'
+                    : 'text-neutral-500 hover:text-neutral-800 dark:text-zinc-400 dark:hover:text-white'
+                }`}
+                title="Texto compacto (-10%)"
+              >
+                A-
+              </button>
+              <button
+                type="button"
+                onClick={() => setTextScale('normal')}
+                className={`px-2.5 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                  textScale === 'normal'
+                    ? 'bg-white dark:bg-zinc-900 text-neutral-900 dark:text-white shadow-xs'
+                    : 'text-neutral-500 hover:text-neutral-800 dark:text-zinc-400 dark:hover:text-white'
+                }`}
+                title="Texto normal (100%)"
+              >
+                Normal
+              </button>
+              <button
+                type="button"
+                onClick={() => setTextScale('large')}
+                className={`px-2.5 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                  textScale === 'large'
+                    ? 'bg-white dark:bg-zinc-900 text-neutral-900 dark:text-white shadow-xs'
+                    : 'text-neutral-500 hover:text-neutral-800 dark:text-zinc-400 dark:hover:text-white'
+                }`}
+                title="Texto aumentado (+15%)"
+              >
+                A+ (+15%)
+              </button>
+              <button
+                type="button"
+                onClick={() => setTextScale('xlarge')}
+                className={`px-2.5 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                  textScale === 'xlarge'
+                    ? 'bg-white dark:bg-zinc-900 text-neutral-900 dark:text-white shadow-xs'
+                    : 'text-neutral-500 hover:text-neutral-800 dark:text-zinc-400 dark:hover:text-white'
+                }`}
+                title="Texto muy grande (+30%)"
+              >
+                A++ (+30%)
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -349,6 +405,7 @@ export default function VistaPreviaPlanificacion() {
             sequenceTitle={sequenceTitle}
             blockTitle={formatBlockTitle(formData.bloque || 'Bloque 1')}
             orientation={orientation}
+            textScale={textScale}
             planningType={
               formData.planningType || 
               (formData.momentos && (Array.isArray(formData.momentos) ? formData.momentos.length > 0 : Object.keys(formData.momentos).length > 0) ? 'DIARIA' : 'UNIDAD')

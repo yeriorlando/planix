@@ -588,6 +588,8 @@ export default function InglesDiaria6to({
       area: "Lenguas Extranjeras - Inglés",
       asignatura: "Lenguas Extranjeras - Inglés",
       secuencia: selectedSequence?.name || "",
+      tema: selectedTheme?.name || tema || "",
+      subtema: selectedSubtheme?.name || subtema || "",
       titulo: `${selectedTheme?.name || ""} - ${selectedSubtheme?.name || ""}`,
       intencion_pedagogica: intencionPedagogica,
       competencias: competenciasFundamentales,
@@ -829,35 +831,35 @@ export default function InglesDiaria6to({
     try {
       const plannings = await fetchPlannings(user.id);
       
-      const socPlans = plannings
+      const inglesPlans = plannings
         .filter(p => {
           const normAsig = (p.asignatura || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
           const normTit = (p.titulo || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
-          const isSociales = normAsig.includes("sociales") || normAsig.includes("social") || normTit.includes("sociales") || normTit.includes("social");
+          const isIngles = normAsig.includes("ingles") || normAsig.includes("english") || normTit.includes("ingles") || normTit.includes("english");
           
           const normPlanGrado = (p.grado || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
           const normActiveGrado = selectedGrade.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
-          const isSameGrade = (normActiveGrado.includes("1") || normActiveGrado.includes("primer")) 
-            ? (normPlanGrado.includes("1") || normPlanGrado.includes("primer")) 
-            : (normActiveGrado.includes("2") || normActiveGrado.includes("segund"))
-            ? (normPlanGrado.includes("2") || normPlanGrado.includes("segund"))
-            : (normActiveGrado.includes("3") || normActiveGrado.includes("tercer"))
-            ? (normPlanGrado.includes("3") || normPlanGrado.includes("tercer"))
+          const isSameGrade = (normActiveGrado.includes("6") || normActiveGrado.includes("sext")) 
+            ? (normPlanGrado.includes("6") || normPlanGrado.includes("sext")) 
+            : (normActiveGrado.includes("4") || normActiveGrado.includes("cuart")) 
+            ? (normPlanGrado.includes("4") || normPlanGrado.includes("cuart")) 
+            : (normActiveGrado.includes("5") || normActiveGrado.includes("quint"))
+            ? (normPlanGrado.includes("5") || normPlanGrado.includes("quint"))
             : false;
             
           const currentTitle = `${selectedTheme?.name || "Clase"} - ${selectedSubtheme?.name || ""}`;
           const isCurrentPlan = p.titulo === currentTitle && p.customFields?.fecha === fecha;
             
-          return isSociales && isSameGrade && !isCurrentPlan;
+          return isIngles && isSameGrade && !isCurrentPlan;
         })
         .sort((a, b) => new Date(b.creado_en).getTime() - new Date(a.creado_en).getTime());
 
-      if (socPlans.length === 0) {
+      if (inglesPlans.length === 0) {
         toast.error("No se encontró ninguna planificación anterior de Inglés para esta cuenta.", { id: "ai-retro" });
         return;
       }
 
-      const latestPlan = socPlans[0];
+      const latestPlan = inglesPlans[0];
       toast.loading(`Generando retroalimentación basada en: "${latestPlan.titulo || 'Planificación anterior'}"`, { id: "ai-retro" });
 
       const result = await generateRetroalimentacion(latestPlan);
@@ -918,6 +920,8 @@ export default function InglesDiaria6to({
       area: "Lenguas Extranjeras - Inglés",
       fecha: fecha,
       titulo: `${selectedTheme?.name || "Clase"} - ${selectedSubtheme?.name || ""}`,
+      tema: selectedTheme?.name || tema || "",
+      subtema: selectedSubtheme?.name || subtema || "",
       secuencia: selectedSequence?.name || "",
       intencion_pedagogica: intencionPedagogica,
       competencias: competenciasFundamentales,
@@ -989,7 +993,7 @@ export default function InglesDiaria6to({
         <div className="mb-8 relative border-b border-slate-100 dark:border-zinc-800 pb-5 text-center">
           <div className="animate-in fade-in slide-in-from-top-4 duration-500">
             <h1 className="font-display text-5xl tracking-tight text-[#1B1B1B] dark:text-white font-black">
-              Ciencias Sociales
+              Lenguas Extranjeras Inglés
             </h1>
             <p className="mt-2 text-sm font-black text-slate-500 dark:text-zinc-400 uppercase tracking-widest">
               Planificación diaria
