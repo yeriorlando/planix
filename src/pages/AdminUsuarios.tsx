@@ -43,7 +43,10 @@ import {
   Star,
   AlertTriangle,
   Pencil,
-  Clock
+  Clock,
+  DollarSign,
+  ToggleLeft,
+  ToggleRight
 } from 'lucide-react';
 import { getAllLevels, getGradesByLevel, getCyclesByLevel, getGradesByCycle } from '../lib/data/educationStructure';
 import { OFFICIAL_DEFAULT_SUBJECTS } from '../lib/data/defaultSubjects';
@@ -529,12 +532,6 @@ export default function AdminUsuarios() {
     return [];
   };
 
-  useEffect(() => {
-    if (currentUser && currentUser.rol === 'admin') {
-      loadUsers();
-    }
-  }, []);
-
   // Fetch real-time statistics when a user card is selected
   const fetchUserStats = React.useCallback(async (userId: string) => {
     setStatsLoading(true);
@@ -573,6 +570,9 @@ export default function AdminUsuarios() {
     const parsedAllowed = parseAllowedSubjects(user.allowed_subjects);
     setLimitSubjects(!!user.allowed_subjects && Object.keys(parsedAllowed).length > 0);
     setEditSuscripcionHasta(user.suscripcion_hasta || new Date(Date.now() + 30 * 86400000).toISOString());
+    const prefs = typeof user.preferences === 'string' ? JSON.parse(user.preferences || '{}') : (user.preferences || {});
+    setEditCommissionEnabled(Boolean(prefs.commission_enabled));
+    setEditCommissionAmountRD(Number(prefs.commission_amount_rd || 300));
     setExpandedLevel(null);
     setExpandedGrade(null);
     setIsDeleting(false);
@@ -641,8 +641,14 @@ export default function AdminUsuarios() {
       return;
     }
 
+    const currentPrefs = typeof selectedUser.preferences === 'string' 
+      ? JSON.parse(selectedUser.preferences || '{}') 
+      : (selectedUser.preferences || {});
+
     const updatedPreferences = {
-      ...(selectedUser.preferences || {}),
+      ...currentPrefs,
+      commission_enabled: editCommissionEnabled,
+      commission_amount_rd: editCommissionAmountRD
     };
     if (editIsAmbassador && !selectedUser.is_ambassador) {
       updatedPreferences.has_seen_ambassador_celebration = false;
@@ -1758,29 +1764,96 @@ export default function AdminUsuarios() {
                         )}
                       </div>
                       <div className="col-span-2">
-                        <p className="text-[9.5px] font-bold uppercase tracking-wider text-slate-400 dark:text-zinc-500 mb-1.5">
-                          Colegas Invitados ({userReferrals.length})
-                        </p>
+                        <div className="flex items-center justify-between mb-1.5">
+                          <p className="text-[9.5px] font-bold uppercase tracking-wider text-slate-400 dark:text-zinc-500">
+                            Colegas Invitados ({userReferrals.length})
+                          </p>
+                          {userReferrals.filter(u => u.suscripcion === 'pro').length > 0 && (
+                            <span className="text-[10px] font-black text-amber-600 dark:text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/20 flex items-center gap-1">
+                              <Crown size={11} className="fill-amber-500" />
+                              {userReferrals.filter(u => u.suscripcion === 'pro').length} PRO
+                            </span>
+                          )}
+                        </div>
                         {userReferrals.length > 0 ? (
                           <div className="space-y-1.5 max-h-40 overflow-y-auto pr-1">
-                            {userReferrals.map(refUser => (
-                              <div 
-                                key={refUser.id} 
-                                className="flex items-center justify-between p-2 rounded-xl bg-slate-50/60 dark:bg-zinc-955/30 border border-slate-150 dark:border-zinc-850 text-xs font-bold text-left"
-                              >
-                                <span className="text-slate-800 dark:text-zinc-200 truncate pr-2">
-                                  {refUser.nombre}
-                                </span>
-                                <span className="text-[10px] text-slate-455 dark:text-zinc-500 font-mono select-all">
-                                  {refUser.email}
-                                </span>
-                              </div>
-                            ))}
+                            {userReferrals.map(refUser => {
+                              const isPro = refUser.suscripcion === 'pro';
+                              return (
+                                <div 
+                                  key={refUser.id} 
+                                  className="flex items-center justify-between p-2 rounded-xl bg-slate-50/60 dark:bg-zinc-955/30 border border-slate-150 dark:border-zinc-850 text-xs font-bold text-left"
+                                >
+                                  <div className="flex items-center gap-1.5 truncate pr-2">
+                                    <span className="text-slate-800 dark:text-zinc-200 truncate">
+                                      {refUser.nombre}
+                                    </span>
+                                    {isPro && (
+                                      <span className="inline-flex items-center gap-1 px-1.5 py-0.2 rounded-md text-[9px] font-black bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-500/30 shrink-0">
+                                        <Crown size={9} className="fill-amber-500" />
+                                        PRO
+                                      </span>
+                                    )}
+                                  </div>
+                                  <span className="text-[10px] text-slate-455 dark:text-zinc-500 font-mono select-all shrink-0">
+                                    {refUser.email}
+                                  </span>
+                                </div>
+                              );
+                            })}
                           </div>
                         ) : (
                           <p className="text-[11px] text-slate-400 dark:text-zinc-500 italic mt-0.5 font-bold">
                             Este docente aún no ha invitado a otros colegas.
                           </p>
+                        )}
+                      </div>
+
+                      {/* Configuración de Comisión Individual en Dinero (RD$) */}
+                      <div className="col-span-2 mt-2 p-3.5 rounded-2xl bg-emerald-500/5 dark:bg-emerald-950/20 border border-emerald-500/20 space-y-3">
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <DollarSign size={16} className="text-emerald-600 dark:text-emerald-400 stroke-[2.5]" />
+                            <span className="text-[11px] font-black text-emerald-800 dark:text-emerald-300">
+                              Programa de Comisión en Efectivo (RD$)
+                            </span>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={() => setEditCommissionEnabled(!editCommissionEnabled)}
+                            className={`p-1 rounded-full transition-all cursor-pointer ${
+                              editCommissionEnabled 
+                                ? 'text-emerald-500 hover:text-emerald-600' 
+                                : 'text-slate-300 dark:text-zinc-700 hover:text-slate-400'
+                            }`}
+                          >
+                            {editCommissionEnabled ? <ToggleRight size={30} /> : <ToggleLeft size={30} />}
+                          </button>
+                        </div>
+
+                        {editCommissionEnabled && (
+                          <div className="space-y-2 pt-1 border-t border-emerald-500/15">
+                            <div className="flex items-center justify-between gap-3">
+                              <label className="text-[10px] font-bold text-slate-600 dark:text-zinc-400">
+                                Monto por Referido PRO:
+                              </label>
+                              <div className="flex items-center gap-1">
+                                <span className="text-xs font-black text-emerald-700 dark:text-emerald-400">RD$</span>
+                                <input
+                                  type="number"
+                                  min="0"
+                                  step="25"
+                                  value={editCommissionAmountRD}
+                                  onChange={e => setEditCommissionAmountRD(Math.max(0, parseInt(e.target.value) || 0))}
+                                  className="w-24 bg-white dark:bg-zinc-900 border border-emerald-500/30 rounded-lg px-2 py-1 text-xs font-black text-slate-800 dark:text-zinc-200 text-right focus:outline-none"
+                                />
+                              </div>
+                            </div>
+
+                            <p className="text-[10px] font-bold text-emerald-700 dark:text-emerald-400">
+                              ★ Acumulado: {userReferrals.filter(u => u.suscripcion === 'pro').length} PRO x RD$ {editCommissionAmountRD.toLocaleString()} = <strong className="font-black">RD$ {(userReferrals.filter(u => u.suscripcion === 'pro').length * editCommissionAmountRD).toLocaleString()}</strong>
+                            </p>
+                          </div>
                         )}
                       </div>
                     </div>

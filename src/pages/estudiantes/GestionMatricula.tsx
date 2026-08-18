@@ -16,9 +16,10 @@ import {
   Student,
   Classroom
 } from "../../lib/storage";
-import * as XLSX from "xlsx";
 import confetti from "canvas-confetti";
 import { toast, Toaster } from "sonner";
+import { exportarEstudiantesExcel, AnalyzedStudentRow } from "../../lib/excelEstudiantes";
+import ImportEstudiantesModal from "../../components/estudiantes/ImportEstudiantesModal";
 
 const formatPhone = (phone?: string) => {
   if (!phone) return "";
@@ -76,6 +77,7 @@ export default function GestionMatricula() {
 
   // Modals / Form States
   const [showAddModal, setShowAddModal] = useState(false);
+  const [showImportModal, setShowImportModal] = useState(false);
   const [editingStudent, setEditingStudent] = useState<Student | null>(null);
   const [studentToDelete, setStudentToDelete] = useState<Student | null>(null);
   const [showGenderDropdown, setShowGenderDropdown] = useState(false);
@@ -101,10 +103,10 @@ export default function GestionMatricula() {
 
   // Load classroom and students
   useEffect(() => {
-    if (!user || !classId) return;
+    if (!user) return;
     const classes = getClassrooms(user.id);
     setClassrooms(classes);
-    const current = classes.find(c => c.id === classId) || null;
+    const current = (classId ? classes.find(c => c.id === classId) : classes[0]) || null;
     setActiveClassroom(current);
     
     if (current) {
@@ -176,7 +178,7 @@ export default function GestionMatricula() {
 
   const handleSaveStudent = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!classId) return;
+    if (!activeClassroom) return;
 
     if (!studNombre.trim()) {
       toast.error("El nombre del estudiante es obligatorio.");
@@ -185,7 +187,7 @@ export default function GestionMatricula() {
 
     const sData: Student = {
       id: editingStudent ? editingStudent.id : uid("std"),
-      classroom_id: classId,
+      classroom_id: activeClassroom.id,
       nombre: studNombre.trim(),
       apellido: studApellido.trim() || undefined,
       numero_orden: Number(studOrden),
@@ -203,7 +205,7 @@ export default function GestionMatricula() {
     };
 
     saveStudent(sData);
-    loadStudents(classId);
+    loadStudents(activeClassroom.id);
     setShowAddModal(false);
     setEditingStudent(null);
     toast.success(editingStudent ? "Estudiante actualizado" : "Estudiante registrado");
@@ -214,63 +216,31 @@ export default function GestionMatricula() {
   };
 
   // Excel Import / Export
-  const handleImportExcel = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const files = e.target.files;
-    if (!files || files.length === 0 || !classId) return;
+  const handleConfirmImport = async (analyzedRows: AnalyzedStudentRow[]) => {
+    if (!activeClassroom) return;
+    
+    let nuevos = 0;
+    let actualizados = 0;
 
-    const file = files[0];
-    const reader = new FileReader();
-    reader.onload = (evt) => {
-      try {
-        const data = evt.target?.result;
-        const workbook = XLSX.read(data, { type: "binary" });
-        const firstSheetName = workbook.SheetNames[0];
-        const worksheet = workbook.Sheets[firstSheetName];
-        const json = XLSX.utils.sheet_to_json<any>(worksheet);
+    analyzedRows.forEach((row) => {
+      saveStudent(row.student);
+      if (row.status === "NUEVO") nuevos++;
+      else if (row.status === "ACTUALIZAR") actualizados++;
+    });
 
-        let count = 0;
-        let startOrder = students.reduce((max, s) => s.numero_orden > max ? s.numero_orden : max, 0) + 1;
+    loadStudents(activeClassroom.id);
 
-        json.forEach((row) => {
-          const name = row.Nombre || row.nombre || row["Nombre Completo"] || row["Estudiante"];
-          if (!name) return;
+    if (nuevos > 0 && actualizados > 0) {
+      toast.success(`Importación exitosa: ${nuevos} nuevo(s) agregado(s) y ${actualizados} actualizado(s).`);
+    } else if (nuevos > 0) {
+      toast.success(`Importación exitosa: ${nuevos} nuevo(s) estudiante(s) agregado(s).`);
+    } else if (actualizados > 0) {
+      toast.success(`Actualización exitosa: ${actualizados} estudiante(s) actualizado(s).`);
+    } else {
+      toast.info("Todos los estudiantes ya estaban al día sin cambios.");
+    }
 
-          const genderRaw = String(row.Genero || row.genero || row.Sexo || row.sexo || "M").toUpperCase();
-          const gender: "M" | "F" = genderRaw.startsWith("F") || genderRaw.startsWith("M") 
-            ? (genderRaw.startsWith("F") ? "F" : "M") 
-            : "M";
-
-          const rne = row.RNE || row.rne || row.Matricula || row.matricula || "";
-          const tutor = row.Tutor || row.tutor || row["Nombre Tutor"] || "";
-          const phone = row.Telefono || row.telefono || row["Celular Tutor"] || "";
-          const email = row.Email || row.email || row["Correo Tutor"] || "";
-
-          const st: Student = {
-            id: uid("std"),
-            classroom_id: classId,
-            nombre: name,
-            numero_orden: startOrder++,
-            genero: gender,
-            rne_matricula: rne || undefined,
-            tutor_nombre: tutor || undefined,
-            tutor_telefono: phone || undefined,
-            email_tutor: email || undefined,
-            creado_en: new Date().toISOString()
-          };
-          saveStudent(st);
-          count++;
-        });
-
-        loadStudents(classId);
-        toast.success(`Importación exitosa. Se agregaron ${count} estudiantes.`);
-        confetti({ particleCount: 60, spread: 60 });
-      } catch (err) {
-        console.error(err);
-        toast.error("Error al leer el archivo Excel. Asegúrate de tener columnas con el formato correcto (Nombre, Genero, RNE).");
-      }
-    };
-    reader.readAsBinaryString(file);
-    e.target.value = ""; // clear input
+    confetti({ particleCount: 60, spread: 70, origin: { y: 0.7 } });
   };
 
   const handleExportExcel = () => {
@@ -278,27 +248,8 @@ export default function GestionMatricula() {
       toast.error("No hay estudiantes para exportar.");
       return;
     }
-
-    const exportData = students.map(s => ({
-      "Nro. Orden": s.numero_orden,
-      "Nombre Completo": s.nombre,
-      "Género": s.genero,
-      "RNE / Matrícula": s.rne_matricula || "N/A",
-      "Nombre Tutor": s.tutor_nombre || "N/A",
-      "Teléfono Tutor": s.tutor_telefono || "N/A",
-      "Correo Tutor": s.email_tutor || "N/A",
-    }));
-
-    const worksheet = XLSX.utils.json_to_sheet(exportData);
-    const workbook = XLSX.utils.book_new();
-    Xxlsx: XLSX.utils.book_append_sheet(workbook, worksheet, "Estudiantes");
-    
-    const fileName = activeClassroom 
-      ? `Estudiantes_${activeClassroom.nombre.replace(/\s+/g, "_")}.xlsx` 
-      : "listado_estudiantes.xlsx";
-
-    XLSX.writeFile(workbook, fileName);
-    toast.success("Excel descargado correctamente.");
+    exportarEstudiantesExcel(students, activeClassroom?.nombre);
+    toast.success("Excel descargado con encabezados en color primario.");
   };
 
   if (!user || !activeClassroom) return null;
@@ -422,16 +373,14 @@ export default function GestionMatricula() {
               Agregar Estudiante
             </button>
 
-            <label className="bg-white dark:bg-zinc-900 hover:bg-black/5 dark:hover:bg-zinc-800 border border-black/10 dark:border-zinc-800 text-text-main px-4 py-2 rounded-full text-[13px] font-bold shadow-sm transition-all flex items-center gap-1.5 cursor-pointer active:scale-95 select-none">
+            <button
+              type="button"
+              onClick={() => setShowImportModal(true)}
+              className="bg-white dark:bg-zinc-900 hover:bg-black/5 dark:hover:bg-zinc-800 border border-black/10 dark:border-zinc-800 text-text-main px-4 py-2 rounded-full text-[13px] font-bold shadow-sm transition-all flex items-center gap-1.5 cursor-pointer active:scale-95 select-none"
+            >
               <FileUp size={14} />
               Importar Excel
-              <input
-                type="file"
-                accept=".xlsx, .xls"
-                onChange={handleImportExcel}
-                className="hidden"
-              />
-            </label>
+            </button>
 
             <button
               onClick={handleExportExcel}
@@ -957,7 +906,7 @@ export default function GestionMatricula() {
                 type="button"
                 onClick={() => {
                   deleteStudent(studentToDelete.id);
-                  if (classId) loadStudents(classId);
+                  if (activeClassroom) loadStudents(activeClassroom.id);
                   setStudentToDelete(null);
                   toast.success("Estudiante eliminado.");
                 }}
@@ -968,6 +917,17 @@ export default function GestionMatricula() {
             </div>
           </div>
         </div>
+      )}
+
+      {/* IMPORT EXCEL MODAL */}
+      {activeClassroom && (
+        <ImportEstudiantesModal
+          isOpen={showImportModal}
+          onClose={() => setShowImportModal(false)}
+          classroomId={activeClassroom.id}
+          existingStudents={students}
+          onConfirmImport={handleConfirmImport}
+        />
       )}
     </main>
   );

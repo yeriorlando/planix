@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Home, Calendar, BookOpen, Grid, FolderOpen, MessageSquare, Settings, Bell, Users, UserCheck, LogOut, Sparkles, Bot, MessageCircle, Crown, Coins, Gamepad2, Eye, ClipboardList, LayoutGrid, SquarePen, GraduationCap, FileSignature, FileBarChart, BarChart, Layers, Wrench } from 'lucide-react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { toast } from 'sonner';
-import { getCurrentUser, logout } from '../lib/storage';
-import { showSuccessToast } from '../lib/utils/toastHelper';
+import { getCurrentUser } from '../lib/storage';
+import { performLogout } from '../lib/utils/authUtils';
 
 export default function Sidebar({ 
   className = "",
@@ -31,9 +31,7 @@ export default function Sidebar({
   const avatarUrl = currentUser?.avatar_url || "https://randomuser.me/api/portraits/women/47.jpg";
 
   const handleLogout = () => {
-    logout();
-    showSuccessToast("👋 Sesión cerrada. ¡Hasta pronto!");
-    navigate("/login");
+    performLogout(navigate);
   };
 
   const teacherSections = [

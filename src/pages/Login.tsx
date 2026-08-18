@@ -6,6 +6,7 @@ import { toast, Toaster } from "sonner";
 import { showSuccessToast } from "../lib/utils/toastHelper";
 import { supabase } from "../lib/supabase";
 import { signIn } from "../lib/services/auth";
+import PlanixLoaderOverlay from "../components/ui/PlanixLoaderOverlay";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -24,6 +25,7 @@ export default function Login() {
       if (curr.estado_suscripcion === "SUSPENDIDO") {
         setShowSuspendedModal(true);
       } else {
+        setLoading(true);
         navigate(curr.rol === "coordinator" ? "/coordinador/dashboard" : "/dashboard");
       }
       return;
@@ -33,6 +35,14 @@ export default function Login() {
     const params = new URLSearchParams(window.location.search);
     if (params.get("suspended") === "true") {
       setShowSuspendedModal(true);
+      navigate("/login", { replace: true });
+    } else if (params.get("error")) {
+      const errCode = params.get("error");
+      if (errCode === "account_not_linked") {
+        setError("Ya existe una cuenta con este correo. Por favor ingresa con tu contraseña o vincúlala.");
+      } else {
+        setError("Ocurrió un error al autenticar con Google.");
+      }
       navigate("/login", { replace: true });
     }
   }, [navigate]);
@@ -63,9 +73,10 @@ export default function Login() {
 
       setSession({ user_id: session.user.id, iniciado_en: new Date().toISOString() });
 
-      setLoading(false);
       showSuccessToast(`👋 ¡Bienvenido ${profile.nombre}!`);
-      navigate(profile.rol === "coordinator" ? "/coordinador/dashboard" : "/dashboard");
+      setTimeout(() => {
+        navigate(profile.rol === "coordinator" ? "/coordinador/dashboard" : "/dashboard");
+      }, 700);
     } catch (err: any) {
       setLoading(false);
       const errMsg = err.message || "";
@@ -365,6 +376,9 @@ export default function Login() {
           </div>
         </div>
       )}
+
+      {/* Planix Animated Fullscreen Loader */}
+      {loading && <PlanixLoaderOverlay text="Preparando tu dashboard" />}
     </div>
   );
 }

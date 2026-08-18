@@ -2,14 +2,13 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AlertCircle, LogOut, MessageSquare, ArrowLeft } from 'lucide-react';
 import PlatformLogo from '../components/ui/PlatformLogo';
-import { logout } from '../lib/storage';
+import { performLogout } from '../lib/utils/authUtils';
 
 export default function AccountSuspendedPage() {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    logout();
-    navigate('/login');
+    performLogout(navigate);
   };
 
   return (

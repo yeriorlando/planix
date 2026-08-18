@@ -79,12 +79,12 @@ export function saveCreditCosts(costs: CreditCosts) {
 export function getUserCredits(user: Usuario | null): number {
   if (!user) return 0;
   if (user.rol === "admin" || user.suscripcion === "pro") return Infinity;
-  // If creditos is not defined, seed it with 100
-  if ((user as any).creditos === undefined) {
+  // If creditos is not defined or is null, seed it with 100
+  if ((user as any).creditos === undefined || (user as any).creditos === null) {
     (user as any).creditos = 100;
     saveUsuario(user);
   }
-  return (user as any).creditos;
+  return Number((user as any).creditos);
 }
 
 /**

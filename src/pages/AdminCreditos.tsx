@@ -33,7 +33,14 @@ import {
   Anchor,
   Map,
   HeartHandshake,
-  Globe
+  Globe,
+  ToggleLeft,
+  ToggleRight,
+  CheckCircle2,
+  XCircle,
+  X,
+  AlertCircle,
+  TrendingUp
 } from 'lucide-react';
 import { 
   getCreditCosts, 
@@ -295,6 +302,68 @@ export default function AdminCreditos() {
   const [referredCredits, setReferredCredits] = useState<number>(30);
   const [activeTab, setActiveTab] = useState<'costs' | 'users' | 'referrals'>('costs');
 
+  // Estados para comisiones en dinero (RD$) por referidos PRO
+  const [commissionSearchQuery, setCommissionSearchQuery] = useState('');
+  const [selectedCommissionUser, setSelectedCommissionUser] = useState<Usuario | null>(null);
+  const [commissionEnabledInput, setCommissionEnabledInput] = useState<boolean>(false);
+  const [commissionAmountInput, setCommissionAmountInput] = useState<number>(300);
+  const [isSavingCommission, setIsSavingCommission] = useState<boolean>(false);
+
+  const getSafePreferences = (u: Usuario | null | undefined): Record<string, any> => {
+    if (!u || !u.preferences) return {};
+    if (typeof u.preferences === 'object') return u.preferences;
+    try {
+      return JSON.parse(u.preferences);
+    } catch {
+      return {};
+    }
+  };
+
+  const handleSelectCommissionUser = (user: Usuario) => {
+    setSelectedCommissionUser(user);
+    const p = getSafePreferences(user);
+    setCommissionEnabledInput(Boolean(p.commission_enabled));
+    setCommissionAmountInput(Number(p.commission_amount_rd || 300));
+  };
+
+  const handleSaveCommission = async (userToUpdate: Usuario, enabled: boolean, amount: number) => {
+    setIsSavingCommission(true);
+    try {
+      const currentPrefs = getSafePreferences(userToUpdate);
+
+      const updatedPrefs = {
+        ...currentPrefs,
+        commission_enabled: enabled,
+        commission_amount_rd: amount
+      };
+
+      const updatedUser: Usuario = {
+        ...userToUpdate,
+        preferences: updatedPrefs
+      };
+
+      await requestD1('/api/profiles', 'POST', {
+        id: updatedUser.id,
+        full_name: updatedUser.nombre,
+        email: updatedUser.email,
+        role: updatedUser.rol,
+        preferences: JSON.stringify(updatedPrefs)
+      });
+
+      setUsers(prev => prev.map(u => u.id === updatedUser.id ? updatedUser : u));
+      if (selectedCommissionUser?.id === updatedUser.id) {
+        setSelectedCommissionUser(updatedUser);
+      }
+      saveUsuario(updatedUser);
+      toast.success(`Comisión de referidos ${enabled ? 'ACTIVADA (RD$ ' + amount.toLocaleString() + ')' : 'DESACTIVADA'} para ${updatedUser.nombre}.`);
+    } catch (err) {
+      console.error('Error saving commission setting:', err);
+      toast.error('Error al guardar la comisión en la base de datos.');
+    } finally {
+      setIsSavingCommission(false);
+    }
+  };
+
   // Load users list from D1 Cloud Database
   const refreshUsersList = async () => {
     // 1. Initial instant load from local storage
@@ -351,6 +420,7 @@ export default function AdminCreditos() {
           referred_by: p.referred_by || undefined,
           referral_code: p.referral_code || undefined,
           is_ambassador: p.is_ambassador === 1 || p.is_ambassador === true,
+          preferences: typeof p.preferences === 'string' ? JSON.parse(p.preferences || '{}') : (p.preferences || {}),
         }));
 
         setUsers(mappedUsers);
@@ -376,8 +446,10 @@ export default function AdminCreditos() {
           setReferrerCredits(val.referrer_credits ?? 50);
           setReferredCredits(val.referred_credits ?? 30);
         }
-      } catch (err) {
-        console.error('Error fetching referral settings from D1:', err);
+      } catch {
+        // Usar valores por defecto (50 y 30) si aún no se ha guardado una configuración personalizada
+        setReferrerCredits(50);
+        setReferredCredits(30);
       }
     };
     loadReferralSettings();
@@ -389,9 +461,11 @@ export default function AdminCreditos() {
 
   // Filter users
   const filteredUsers = users.filter(u => {
-    const matchesSearch = u.nombre.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          u.email.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesSearch;
+    if (!u) return false;
+    const name = (u.nombre || '').toLowerCase();
+    const mail = (u.email || '').toLowerCase();
+    const q = (searchQuery || '').toLowerCase();
+    return name.includes(q) || mail.includes(q);
   });
 
   // Calculate circulating credits and free users
@@ -466,10 +540,12 @@ export default function AdminCreditos() {
         credits: newCreds
       });
 
-      setUsers(prev => prev.map(u => u.id === userId ? { ...u, creditos: newCreds } : u));
+      const updatedUser = { ...targetUser, creditos: newCreds };
+      setUsers(prev => prev.map(u => u.id === userId ? updatedUser : u));
       if (selectedUser && selectedUser.id === userId) {
-        setSelectedUser(prev => prev ? { ...prev, creditos: newCreds } : null);
+        setSelectedUser(updatedUser);
       }
+      saveUsuario(updatedUser);
       toast.success(`${amount > 0 ? 'Añadidos' : 'Restados'} ${Math.abs(amount)} créditos con éxito.`);
     } catch (err) {
       console.error('Error updating credits in D1:', err);
@@ -988,9 +1064,347 @@ export default function AdminCreditos() {
             className="w-full sm:w-auto px-6 py-2.5 bg-[#0046ab] hover:bg-blue-700 text-white font-extrabold text-xs rounded-xl flex items-center justify-center gap-2 cursor-pointer transition-all shadow-xs active:scale-[0.98] select-none uppercase tracking-wider"
           >
             <Save size={14} />
-            Guardar Configuración
+            Guardar Créditos de Referidos
           </button>
         </form>
+
+        {/* ========================================== */}
+        {/* SECCIÓN VIP: COMISIONES EN DINERO (RD$)    */}
+        {/* ========================================== */}
+        <div className="pt-8 mt-10 border-t border-black/10 dark:border-white/10 text-left space-y-6">
+          <div className="text-left pb-4 border-b border-black/5 dark:border-white/5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div>
+              <h2 className="text-lg font-black text-slate-800 dark:text-white tracking-tight flex items-center gap-2">
+                <Crown size={20} className="text-amber-500 fill-amber-500" />
+                Comisiones en Dinero (RD$) por Referidos PRO
+                <span className="text-[10px] font-black uppercase bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 px-2.5 py-0.5 rounded-full tracking-wider">
+                  Individual
+                </span>
+              </h2>
+              <p className="text-xs text-slate-400 dark:text-slate-500 font-bold mt-0.5">
+                Activa y asigna comisiones en efectivo en Pesos Dominicanos (RD$) para docentes específicos por cada referido que active Planix PRO.
+              </p>
+            </div>
+          </div>
+
+          {/* Selector de Usuario para Asignar Comisión */}
+          <div className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-800 rounded-[28px] p-6 shadow-xs space-y-5 text-left">
+            <h3 className="text-sm font-black text-slate-800 dark:text-white flex items-center gap-2">
+              <Users size={16} className="text-[#0046ab] dark:text-blue-400" />
+              Seleccionar Docente para Configurar Comisión
+            </h3>
+
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div>
+                <h3 className="text-sm font-black text-slate-800 dark:text-white flex items-center gap-2">
+                  <Users size={16} className="text-[#0046ab] dark:text-blue-400" />
+                  Buscar y Seleccionar Docente
+                </h3>
+                <p className="text-[11px] text-slate-400 dark:text-zinc-500 font-bold mt-0.5">
+                  Escribe el nombre o correo del docente para configurarle su comisión personalizada.
+                </p>
+              </div>
+
+              {selectedCommissionUser && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSelectedCommissionUser(null);
+                    setCommissionSearchQuery('');
+                  }}
+                  className="self-start sm:self-auto px-3 py-1 bg-slate-100 dark:bg-zinc-800 hover:bg-slate-200 text-slate-600 dark:text-zinc-400 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5"
+                >
+                  <X size={13} />
+                  Limpiar Selección
+                </button>
+              )}
+            </div>
+
+            {/* Buscador de usuario en vivo */}
+            <div className="relative">
+              <Search size={15} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
+              <input
+                type="text"
+                placeholder="Escribe para buscar docente por nombre o correo (ej: Yeri, Maria, yeriorlando@gmail.com)..."
+                value={commissionSearchQuery}
+                onChange={e => setCommissionSearchQuery(e.target.value)}
+                className="w-full bg-slate-50 dark:bg-zinc-950 border border-slate-200 dark:border-zinc-800 rounded-xl pl-9 pr-9 py-2.5 text-xs font-bold text-slate-800 dark:text-zinc-200 placeholder:text-slate-400 focus:outline-none focus:border-[#0046ab]"
+              />
+              {commissionSearchQuery && (
+                <button
+                  type="button"
+                  onClick={() => setCommissionSearchQuery('')}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-1 cursor-pointer"
+                >
+                  <X size={14} />
+                </button>
+              )}
+            </div>
+
+            {/* Lista de Resultados de Búsqueda Interactiva (Tarjetas) */}
+            {commissionSearchQuery.trim().length > 0 && (() => {
+              const q = commissionSearchQuery.toLowerCase().trim();
+              const matchingUsers = users.filter(u => {
+                if (!u) return false;
+                const name = (u.nombre || '').toLowerCase();
+                const mail = (u.email || '').toLowerCase();
+                return name.includes(q) || mail.includes(q);
+              });
+
+              return (
+                <div className="space-y-2">
+                  <span className="text-[10px] font-black text-slate-400 dark:text-zinc-500 uppercase tracking-wider block">
+                    Resultados encontrados ({matchingUsers.length})
+                  </span>
+
+                  {matchingUsers.length === 0 ? (
+                    <div className="p-4 rounded-xl border border-dashed border-slate-200 dark:border-zinc-800 text-center text-xs font-bold text-slate-400">
+                      No se encontraron docentes con ese nombre o correo.
+                    </div>
+                  ) : (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 max-h-56 overflow-y-auto pr-1">
+                      {matchingUsers.map(u => {
+                        const p = getSafePreferences(u);
+                        const hasComm = Boolean(p.commission_enabled);
+                        const isSelected = selectedCommissionUser?.id === u.id;
+                        const isPro = u.suscripcion === 'pro';
+
+                        return (
+                          <div
+                            key={u.id}
+                            onClick={() => handleSelectCommissionUser(u)}
+                            className={`p-3 rounded-xl border transition-all cursor-pointer text-left flex items-center justify-between gap-3 ${
+                              isSelected 
+                                ? 'border-emerald-500 bg-emerald-50/50 dark:bg-emerald-950/30 shadow-xs ring-2 ring-emerald-500/20' 
+                                : 'border-slate-200 dark:border-zinc-800 hover:border-[#0046ab]/50 hover:bg-slate-50 dark:hover:bg-zinc-850/50'
+                            }`}
+                          >
+                            <div className="min-w-0 flex-1">
+                              <div className="flex items-center gap-1.5 truncate">
+                                <span className="text-xs font-black text-slate-800 dark:text-zinc-200 truncate">
+                                  {u.nombre || 'Docente'}
+                                </span>
+                                {isPro && (
+                                  <Crown size={11} className="text-amber-500 fill-amber-500 shrink-0" />
+                                )}
+                              </div>
+                              <span className="text-[10px] text-slate-400 dark:text-zinc-500 font-mono truncate block mt-0.5">
+                                {u.email || ''}
+                              </span>
+                              {hasComm && (
+                                <span className="inline-block mt-1 text-[9px] font-black bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20 px-1.5 py-0.2 rounded">
+                                  ★ Comisión Activa (RD$ {Number(p.commission_amount_rd || 300).toLocaleString('en-US')})
+                                </span>
+                              )}
+                            </div>
+
+                            <div className="shrink-0">
+                              <span className={`text-[10.5px] font-extrabold px-2 py-1 rounded-lg ${
+                                isSelected 
+                                  ? 'bg-emerald-600 text-white' 
+                                  : 'bg-slate-100 dark:bg-zinc-800 text-slate-600 dark:text-zinc-300'
+                              }`}>
+                                {isSelected ? 'Seleccionado' : 'Elegir'}
+                              </span>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
+
+            {/* Panel de Configuración para el Docente Seleccionado */}
+            {selectedCommissionUser && (() => {
+              const userReferrals = users.filter(x => x.referred_by === selectedCommissionUser.id);
+              const proReferralsCount = userReferrals.filter(x => x.suscripcion === 'pro').length;
+              const estimatedTotalRD = proReferralsCount * (commissionEnabledInput ? commissionAmountInput : 0);
+
+              return (
+                <div className="p-5 rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100/60 dark:from-zinc-950 dark:to-zinc-900 border border-slate-200/80 dark:border-zinc-800 space-y-5 text-left animate-in fade-in duration-200">
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-black/5 dark:border-white/5 gap-3">
+                    <div>
+                      <h4 className="font-extrabold text-sm text-slate-800 dark:text-white flex items-center gap-2">
+                        {selectedCommissionUser.nombre}
+                        {commissionEnabledInput && (
+                          <span className="text-[10px] font-black uppercase bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded-full">
+                            Comisión Activa
+                          </span>
+                        )}
+                      </h4>
+                      <p className="text-xs text-slate-400 dark:text-zinc-500 font-mono mt-0.5">
+                        {selectedCommissionUser.email}
+                      </p>
+                    </div>
+
+                    <div className="flex items-center gap-4 text-xs font-bold text-slate-600 dark:text-zinc-400">
+                      <span>Referidos: <strong className="text-slate-900 dark:text-white">{userReferrals.length}</strong></span>
+                      <span className="text-amber-600 dark:text-amber-400 flex items-center gap-1">
+                        <Crown size={12} className="fill-amber-500" />
+                        PRO: <strong className="text-amber-700 dark:text-amber-300">{proReferralsCount}</strong>
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Controles de Comisión */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                    {/* Switch de activación */}
+                    <div className="flex items-center justify-between p-4 bg-white dark:bg-zinc-900 rounded-2xl border border-black/5 dark:border-zinc-800">
+                      <div>
+                        <span className="text-xs font-black text-slate-800 dark:text-white block">
+                          Estado del Programa
+                        </span>
+                        <span className="text-[10px] font-bold text-slate-400 dark:text-zinc-500 block mt-0.5">
+                          {commissionEnabledInput ? 'Habilitado (El docente verá su banner en /referidos)' : 'Deshabilitado'}
+                        </span>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => setCommissionEnabledInput(prev => !prev)}
+                        className={`p-1.5 rounded-full transition-all cursor-pointer ${
+                          commissionEnabledInput 
+                            ? 'text-emerald-500 hover:text-emerald-600' 
+                            : 'text-slate-300 dark:text-zinc-700 hover:text-slate-400'
+                        }`}
+                      >
+                        {commissionEnabledInput ? <ToggleRight size={36} /> : <ToggleLeft size={36} />}
+                      </button>
+                    </div>
+
+                    {/* Input de monto en RD$ */}
+                    <div className="p-4 bg-white dark:bg-zinc-900 rounded-2xl border border-black/5 dark:border-zinc-800 space-y-1.5">
+                      <label className="text-[10px] font-black text-slate-400 dark:text-zinc-500 uppercase tracking-wider block">
+                        Monto por cada Referido PRO (en RD$)
+                      </label>
+                      <div className="flex items-center gap-2">
+                        <span className="font-extrabold text-sm text-slate-500 dark:text-zinc-400">RD$</span>
+                        <input
+                          type="number"
+                          min="0"
+                          step="25"
+                          value={commissionAmountInput}
+                          onChange={e => setCommissionAmountInput(Math.max(0, parseInt(e.target.value) || 0))}
+                          className="w-full bg-slate-50 dark:bg-zinc-950 border border-slate-200 dark:border-zinc-800 rounded-xl px-3 py-1.5 text-sm font-black text-slate-800 dark:text-zinc-200 focus:outline-none focus:border-[#0046ab]"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Resumen de Ganancia en Tiempo Real */}
+                  <div className="p-4 bg-emerald-500/10 dark:bg-emerald-950/20 rounded-2xl border border-emerald-500/20 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-left">
+                    <div className="space-y-0.5">
+                      <span className="text-[10px] font-black text-emerald-600 dark:text-emerald-400 uppercase tracking-wider block">
+                        Cálculo Estimado Actual
+                      </span>
+                      <p className="text-xs text-slate-700 dark:text-zinc-300 font-bold">
+                        {proReferralsCount} referido(s) PRO x RD$ {commissionAmountInput.toLocaleString('en-US')} = <strong className="text-emerald-700 dark:text-emerald-400 text-sm font-black">RD$ {estimatedTotalRD.toLocaleString('en-US')}</strong> acumulados
+                      </p>
+                    </div>
+
+                    <button
+                      type="button"
+                      disabled={isSavingCommission}
+                      onClick={() => handleSaveCommission(selectedCommissionUser, commissionEnabledInput, commissionAmountInput)}
+                      className="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 active:scale-[0.98] text-white text-xs font-black rounded-xl transition-all shadow-xs flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 select-none uppercase tracking-wider shrink-0"
+                    >
+                      <Save size={14} />
+                      {isSavingCommission ? 'Guardando...' : 'Guardar Comisión'}
+                    </button>
+                  </div>
+                </div>
+              );
+            })()}
+          </div>
+
+          {/* Tabla de Docentes con Comisión Activa */}
+          <div className="bg-white dark:bg-zinc-900 border border-black/5 dark:border-zinc-800 rounded-[28px] p-6 shadow-xs space-y-4 text-left">
+            <h3 className="text-sm font-black text-slate-800 dark:text-white flex items-center gap-2">
+              <Crown size={16} className="text-amber-500 fill-amber-500" />
+              Docentes con Comisión en Dinero Activa
+            </h3>
+
+            {(() => {
+              const activeCommissioned = users.filter(u => {
+                const p = getSafePreferences(u);
+                return Boolean(p.commission_enabled);
+              });
+
+              if (activeCommissioned.length === 0) {
+                return (
+                  <div className="py-8 text-center border-2 border-dashed border-neutral-100 dark:border-zinc-800 rounded-2xl text-xs text-slate-400 dark:text-zinc-500 font-bold">
+                    No hay docentes con comisión en dinero activa actualmente. Selecciona uno arriba para activarle el beneficio.
+                  </div>
+                );
+              }
+
+              return (
+                <div className="overflow-x-auto">
+                  <table className="w-full border-collapse text-left">
+                    <thead>
+                      <tr className="border-b border-neutral-100 dark:border-zinc-800 text-[10px] font-black text-neutral-400 dark:text-zinc-500 uppercase tracking-wider">
+                        <th className="pb-3 pr-4">Docente</th>
+                        <th className="pb-3 pr-4">Tarifa por PRO</th>
+                        <th className="pb-3 pr-4">Referidos PRO</th>
+                        <th className="pb-3 pr-4">Comisión Acumulada</th>
+                        <th className="pb-3 text-right">Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-neutral-100/50 dark:divide-zinc-800/40 text-xs">
+                      {activeCommissioned.map(u => {
+                        const p = getSafePreferences(u);
+                        const rate = Number(p.commission_amount_rd || 300);
+                        const userRefs = users.filter(x => x && x.referred_by === u.id);
+                        const proCount = userRefs.filter(x => x && x.suscripcion === 'pro').length;
+                        const totalRD = proCount * rate;
+
+                        return (
+                          <tr key={u.id} className="group">
+                            <td className="py-3.5 pr-4">
+                              <div className="flex flex-col">
+                                <span className="font-extrabold text-slate-800 dark:text-zinc-200">{u.nombre}</span>
+                                <span className="text-[10px] text-slate-400 dark:text-zinc-500 font-mono">{u.email}</span>
+                              </div>
+                            </td>
+                            <td className="py-3.5 pr-4 font-black text-emerald-600 dark:text-emerald-400">
+                              RD$ {rate.toLocaleString('en-US')} / PRO
+                            </td>
+                            <td className="py-3.5 pr-4 font-black text-amber-600 dark:text-amber-400">
+                              <span className="inline-flex items-center gap-1">
+                                <Crown size={12} className="fill-amber-500" />
+                                {proCount} de {userRefs.length}
+                              </span>
+                            </td>
+                            <td className="py-3.5 pr-4 font-black text-emerald-700 dark:text-emerald-300 text-sm">
+                              RD$ {totalRD.toLocaleString('en-US')}
+                            </td>
+                            <td className="py-3.5 text-right space-x-2">
+                              <button
+                                type="button"
+                                onClick={() => handleSelectCommissionUser(u)}
+                                className="px-3 py-1 bg-slate-100 dark:bg-zinc-800 hover:bg-slate-200 dark:hover:bg-zinc-700 text-slate-700 dark:text-zinc-300 rounded-lg text-xs font-extrabold transition-all cursor-pointer"
+                              >
+                                Editar
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => handleSaveCommission(u, false, rate)}
+                                className="px-3 py-1 bg-rose-50 dark:bg-rose-955/20 hover:bg-rose-100 text-rose-600 dark:text-rose-400 rounded-lg text-xs font-extrabold transition-all cursor-pointer"
+                              >
+                                Desactivar
+                              </button>
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              );
+            })()}
+          </div>
+        </div>
       </div>
     );
   };

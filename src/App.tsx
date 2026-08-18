@@ -96,10 +96,29 @@ import ClaseEnVivo from './pages/estudiantes/ClaseEnVivo';
 import PerfilEstudiante from './pages/estudiantes/PerfilEstudiante';
 import InstrumentosEvaluacion from './pages/estudiantes/InstrumentosEvaluacion';
 
+import PlanixLoaderOverlay from './components/ui/PlanixLoaderOverlay';
+import { PLX_LOGOUT_EVENT } from './lib/utils/authUtils';
+
 // Session guard
 import { useRequireAuth } from './lib/useRequireAuth';
 
 import { toast, Toaster } from 'sonner';
+
+function GlobalLogoutOverlay() {
+  const [isLoggingOut, setIsLoggingOut] = React.useState(false);
+
+  React.useEffect(() => {
+    const handleLogoutTrigger = (e: any) => {
+      setIsLoggingOut(e.detail?.isLoggingOut ?? true);
+    };
+    window.addEventListener(PLX_LOGOUT_EVENT, handleLogoutTrigger);
+    return () => window.removeEventListener(PLX_LOGOUT_EVENT, handleLogoutTrigger);
+  }, []);
+
+  if (!isLoggingOut) return null;
+
+  return <PlanixLoaderOverlay text="Cerrando Sesión" />;
+}
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -228,14 +247,7 @@ function Layout() {
   const isSidebarExpanded = isSidebarPinned;
 
   if (!user) {
-    return (
-      <div className="min-h-screen bg-bg-base flex items-center justify-center font-sans">
-        <div className="flex flex-col items-center gap-3">
-          <Loader2 className="h-8 w-8 text-slate-800 dark:text-white animate-spin" />
-          <p className="text-sm font-semibold text-slate-800 dark:text-white">Cargando sesión docente...</p>
-        </div>
-      </div>
-    );
+    return <PlanixLoaderOverlay text="Preparando tu dashboard" />;
   }
 
   return (
@@ -288,7 +300,6 @@ function Layout() {
 
 function MaintenanceGuard({ children }: { children: React.ReactNode }) {
   const [active, setActive] = React.useState<boolean>(false);
-  const [loading, setLoading] = React.useState<boolean>(true);
   const location = useLocation();
 
   React.useEffect(() => {
@@ -305,7 +316,6 @@ function MaintenanceGuard({ children }: { children: React.ReactNode }) {
       const isAdmin = currentUser?.rol === 'admin';
 
       if (isMaintPage || hasBypass || isAdmin) {
-        setLoading(false);
         return;
       }
 
@@ -318,24 +328,11 @@ function MaintenanceGuard({ children }: { children: React.ReactNode }) {
         }
       } catch (err) {
         console.warn('Error checking maintenance mode:', err);
-      } finally {
-        setLoading(false);
       }
     };
 
     checkMaintenance();
   }, [location.pathname, location.search]);
-
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-bg-base flex items-center justify-center font-sans">
-        <div className="flex flex-col items-center gap-3">
-          <Loader2 className="h-8 w-8 text-slate-800 dark:text-white animate-spin" />
-          <p className="text-sm font-semibold text-slate-800 dark:text-white">Conectando con el servidor...</p>
-        </div>
-      </div>
-    );
-  }
 
   if (active && location.pathname !== '/mantenimiento') {
     return <Navigate to="/mantenimiento" replace />;
@@ -347,6 +344,7 @@ function MaintenanceGuard({ children }: { children: React.ReactNode }) {
 export default function App() {
   return (
     <BrowserRouter>
+      <GlobalLogoutOverlay />
       <ScrollToTop />
       <Toaster position="top-center" richColors />
       <AccessibilityWidget />
@@ -404,6 +402,7 @@ export default function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/coordinador/dashboard" element={<CoordinatorDashboard />} />
           <Route path="/aula-virtual" element={<Estudiantes />} />
+          <Route path="/aula-virtual/matricula" element={<GestionMatricula />} />
           <Route path="/aula-virtual/matricula/:classId" element={<GestionMatricula />} />
           <Route path="/aula-virtual/anecdotario/:classId" element={<Anecdotario />} />
           <Route path="/aula-virtual/incidencias/:classId" element={<Incidencias />} />

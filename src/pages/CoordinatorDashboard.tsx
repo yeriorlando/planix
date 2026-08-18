@@ -7,7 +7,8 @@ import {
   Search, Smile, GraduationCap, ChevronRight, ChevronDown, HelpCircle, Heart, Trophy, Coins, Download,
   Clock, Lock, Sun, Moon, Camera, Image, Loader2, MapPin, Save, Upload, Edit2
 } from 'lucide-react';
-import { getCurrentUser, logout, Usuario } from '../lib/storage';
+import { getCurrentUser, Usuario } from '../lib/storage';
+import { performLogout } from '../lib/utils/authUtils';
 import { requestD1 } from '../lib/services/d1Client';
 import { mapPlanningFromDb } from '../lib/services/plannings';
 import { toast, Toaster } from 'sonner';
@@ -797,9 +798,7 @@ export default function CoordinatorDashboard() {
 
 
   const handleLogout = () => {
-    logout();
-    toast.success("Sesión cerrada. ¡Hasta pronto!");
-    navigate("/login");
+    performLogout(navigate);
   };
 
   // Form submit handlers

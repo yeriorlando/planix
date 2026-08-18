@@ -7,9 +7,9 @@ import {
   Heart, Smile, Compass, Brain, BookOpen, UserCheck, AlertTriangle,
   User, Settings, Bell, LogOut, Trophy, Trash2, Coins, Eye
 } from 'lucide-react';
-import { getCurrentUser, getClassrooms, getStudents, saveUsuario, logout, Usuario } from '../lib/storage';
+import { getCurrentUser, getClassrooms, getStudents, saveUsuario, Usuario } from '../lib/storage';
 import { toast, Toaster } from 'sonner';
-import { showSuccessToast } from '../lib/utils/toastHelper';
+import { performLogout } from '../lib/utils/authUtils';
 import ProCelebrationModal from '../components/modals/ProCelebrationModal';
 import AmbassadorCelebrationModal from '../components/modals/AmbassadorCelebrationModal';
 import OnboardingModal from '../components/modals/OnboardingModal';
@@ -230,9 +230,7 @@ export default function Dashboard() {
   };
 
   const handleLogout = () => {
-    logout();
-    showSuccessToast("👋 Sesión cerrada. ¡Hasta pronto!");
-    navigate("/login");
+    performLogout(navigate);
   };
 
   // Tick clock

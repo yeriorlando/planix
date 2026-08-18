@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import { supabase } from "../lib/supabase";
 import { saveUsuario, setSession, Usuario } from "../lib/storage";
 import { toast } from "sonner";
-import { Loader2 } from "lucide-react";
 import { fetchProfile, mapProfile } from "../lib/services/auth";
 import { requestD1 } from "../lib/services/d1Client";
+import PlanixLoaderOverlay from "../components/ui/PlanixLoaderOverlay";
 
 export default function AuthCallback() {
   const navigate = useNavigate();
@@ -87,12 +87,14 @@ export default function AuthCallback() {
         toast.success(`¡Bienvenido, ${userObj.nombre}!`);
 
         // Check if profile is complete
-        if (!userObj.colegio) {
-          toast.info("Por favor completa tu perfil escolar para comenzar.");
-          navigate("/completar-perfil");
-        } else {
-          navigate(userObj.rol === "coordinator" ? "/coordinador/dashboard" : "/dashboard");
-        }
+        setTimeout(() => {
+          if (!userObj.colegio) {
+            toast.info("Por favor completa tu perfil escolar para comenzar.");
+            navigate("/completar-perfil");
+          } else {
+            navigate(userObj.rol === "coordinator" ? "/coordinador/dashboard" : "/dashboard");
+          }
+        }, 700);
       } catch (err: any) {
         console.error("OAuth Callback Error:", err);
         setError(err.message || "Error al procesar la sesión.");
@@ -106,23 +108,19 @@ export default function AuthCallback() {
     handleCallback();
   }, [navigate]);
 
-  return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center bg-bg-base px-4 font-sans text-text-main">
-      <div className="text-center space-y-4 max-w-sm">
-        {error ? (
+  if (error) {
+    return (
+      <div className="min-h-screen w-full flex flex-col items-center justify-center bg-bg-base px-4 font-sans text-text-main">
+        <div className="text-center space-y-4 max-w-sm">
           <div className="space-y-2">
             <h2 className="text-xl font-bold text-red-500">Error de Autenticación</h2>
             <p className="text-xs text-text-muted">{error}</p>
             <p className="text-xs font-semibold text-text-main">Redirigiendo a Iniciar Sesión...</p>
           </div>
-        ) : (
-          <div className="flex flex-col items-center gap-3">
-            <Loader2 className="h-8 w-8 text-neutral-800 animate-spin" />
-            <h3 className="font-bold text-lg">Iniciando sesión con Google...</h3>
-            <p className="text-xs text-text-muted">Configurando tu entorno pedagógico y sincronizando tus datos.</p>
-          </div>
-        )}
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
+
+  return <PlanixLoaderOverlay text="Preparando tu dashboard" />;
 }
