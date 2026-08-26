@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { X, User, Lightbulb, Wrench, MessageCircle, ChevronLeft, Send, Image as ImageIcon, CheckCircle2, Loader2 } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 import { getCurrentUser } from '../../lib/storage';
+import { API_BASE_URL } from '../../lib/services/d1Client';
 
 type ViewMode = 'main' | 'suggest' | 'report' | 'success';
 
@@ -125,7 +126,11 @@ export default function WhatsAppSupportBubble() {
                 attachment: attachmentData
             };
 
-            const response = await fetch('/api/support/message', {
+            const targetUrl = API_BASE_URL && API_BASE_URL.startsWith('http')
+                ? `${API_BASE_URL}/api/support/message`
+                : '/api/support/message';
+
+            const response = await fetch(targetUrl, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

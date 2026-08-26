@@ -1072,12 +1072,17 @@ export default function Perfil() {
             </div>
 
             {/* Price section - styled similarly to the images */}
-            <div className="flex items-center justify-between py-2 border-t border-b border-neutral-100 dark:border-zinc-800/80">
-              <div className="flex items-baseline gap-1">
-                <span className="text-3xl md:text-3.5xl font-black text-[#1B1B1B] dark:text-white tracking-tight">
-                  $14.99
+            <div className="flex items-center justify-between py-2.5 border-t border-b border-neutral-100 dark:border-zinc-800/80">
+              <div className="flex flex-col">
+                <div className="flex items-baseline gap-1">
+                  <span className="text-3xl md:text-3.5xl font-black text-[#1B1B1B] dark:text-white tracking-tight">
+                    $17.09
+                  </span>
+                  <span className="text-xs text-neutral-400 dark:text-neutral-500 font-bold">USD</span>
+                </div>
+                <span className="text-sm font-extrabold text-neutral-600 dark:text-zinc-300 mt-0.5 tracking-tight">
+                  Ó RD$1,000.00 pesos
                 </span>
-                <span className="text-xs text-neutral-400 dark:text-neutral-500 font-bold">USD</span>
               </div>
               <span className="px-3.5 py-1 rounded-full text-[10px] font-black uppercase tracking-wider bg-black text-white dark:bg-white dark:text-neutral-900 shadow-sm select-none">
                 Mensual

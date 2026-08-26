@@ -64,6 +64,79 @@ export default {
 
     try {
       // ==========================================
+      // SUPPORT MESSAGE ENDPOINT (/api/support/message)
+      // ==========================================
+      if (path === "/api/support/message" && method === "POST") {
+        try {
+          const body: any = await getRequestBody();
+          if (!body || !body.message) {
+            return jsonResponse({ error: "El mensaje es requerido" }, 400);
+          }
+
+          const { type, message, userEmail, userName, attachment } = body;
+          const subject = type === "suggest"
+            ? `💡 Nueva sugerencia de función - ${userName || "Usuario"}`
+            : `🔧 Reporte de error - ${userName || "Usuario"}`;
+
+          const attachments: any[] = [];
+          if (attachment && attachment.content) {
+            attachments.push({
+              filename: attachment.filename || "captura.png",
+              content: attachment.content,
+            });
+          }
+
+          const SUPPORT_EMAIL = "soporte@planix.do";
+
+          if (env.RESEND_API_KEY) {
+            const res = await fetch("https://api.resend.com/emails", {
+              method: "POST",
+              headers: {
+                "Authorization": `Bearer ${env.RESEND_API_KEY}`,
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                from: "Planix Soporte <soporte@mail.planix.do>",
+                to: [SUPPORT_EMAIL],
+                replyTo: userEmail || "contacto@planix.do",
+                subject: subject,
+                html: `
+                  <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; padding: 24px; color: #1e293b; background-color: #f8fafc; border-radius: 16px; border: 1px solid #e2e8f0; max-width: 600px;">
+                    <h2 style="color: #0046ab; margin-top: 0; font-size: 20px;">${type === "suggest" ? "💡 Nueva Sugerencia de Función" : "🔧 Reporte de Error en Planix"}</h2>
+                    <p style="font-size: 14px; margin-bottom: 8px;"><strong>De:</strong> ${userName || "Usuario"} &lt;${userEmail || "anonimo@planix.do"}&gt;</p>
+                    <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 16px 0;" />
+                    <div style="background: #ffffff; padding: 20px; border-radius: 12px; border: 1px solid #e2e8f0; font-size: 15px; line-height: 1.6; color: #334155;">
+                      <div style="white-space: pre-wrap;">${message.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</div>
+                    </div>
+                    ${attachment ? `<p style="margin-top: 16px; font-size: 12px; color: #64748b;">📎 Se ha adjuntado una captura de pantalla.</p>` : ""}
+                    <div style="margin-top: 24px; font-size: 11px; color: #94a3b8; border-top: 1px solid #e2e8f0; padding-top: 12px;">
+                      Enviado automáticamente a través del Centro de Ayuda de Planix
+                    </div>
+                  </div>
+                `,
+                attachments: attachments.length > 0 ? attachments : undefined,
+              }),
+            });
+
+            if (!res.ok) {
+              const errText = await res.text();
+              console.error("[SUPPORT_EMAIL] Resend error:", errText);
+              return jsonResponse({ error: "Error enviando correo a través de Resend" }, 500);
+            }
+
+            const resData: any = await res.json().catch(() => ({}));
+            return jsonResponse({ success: true, id: resData.id });
+          } else {
+            console.warn("[SUPPORT_EMAIL] No RESEND_API_KEY configured.");
+            return jsonResponse({ success: true, message: "Mensaje recibido" });
+          }
+        } catch (e: any) {
+          console.error("[SUPPORT_EMAIL] Error handling support message:", e);
+          return jsonResponse({ error: e.message || "Error procesando solicitud" }, 500);
+        }
+      }
+
+      // ==========================================
       // 1. PROFILES ENDPOINTS
       // ==========================================
       if (path.startsWith("/api/profiles")) {
