@@ -56,6 +56,7 @@ export async function saveAttendance(a: Attendance): Promise<void> {
     }
 
     return {
+      id: `att_${studentId}_${a.fecha}`,
       student_id: studentId,
       classroom_id: a.classroom_id,
       date: a.fecha,

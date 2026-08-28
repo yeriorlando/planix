@@ -12,6 +12,13 @@ export function mapStudentFromDb(row: any, index: number): Student {
     genero: row.gender === "F" ? "F" : "M",
     direccion: row.address || "",
     avatar_url: row.avatar_url || "",
+    tutor_nombre: row.tutor_nombre || undefined,
+    tutor_telefono: row.tutor_telefono || undefined,
+    email_tutor: row.email_tutor || undefined,
+    tutor_relacion: row.tutor_relacion || undefined,
+    tutor2_nombre: row.tutor2_nombre || undefined,
+    tutor2_telefono: row.tutor2_telefono || undefined,
+    tutor2_relacion: row.tutor2_relacion || undefined,
     creado_en: row.created_at || new Date().toISOString(),
   };
 }
@@ -27,6 +34,13 @@ export function mapStudentToDb(s: Student) {
     gender: s.genero,
     address: s.direccion || "",
     avatar_url: s.avatar_url || "",
+    tutor_nombre: s.tutor_nombre || null,
+    tutor_telefono: s.tutor_telefono || s.telefono_tutor || null,
+    email_tutor: s.email_tutor || null,
+    tutor_relacion: s.tutor_relacion || null,
+    tutor2_nombre: s.tutor2_nombre || null,
+    tutor2_telefono: s.tutor2_telefono || s.telefono_tutor_2 || null,
+    tutor2_relacion: s.tutor2_relacion || null,
     created_at: s.creado_en,
     updated_at: new Date().toISOString(),
   };

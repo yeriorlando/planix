@@ -622,18 +622,25 @@ export default function CoordinatorDashboard() {
     setLoading(true);
     try {
       // 1. Fetch school teachers (all profiles matching school_name/colegio)
-      const allProfiles = await requestD1<any[]>('/api/profiles');
-      const coordSchool = (user.colegio || user.school_name || "").trim().toLowerCase();
-      const schoolTeachers = allProfiles.filter(p => {
-        const pSchool = (p.school_name || p.colegio || "").trim().toLowerCase();
+      const allProfiles = await requestD1<any[]>('/api/profiles') || [];
+      const normalize = (s: string) => (s || "").trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      const coordSchool = normalize(user.colegio || user.school_name || "");
+      
+      let schoolTeachers = allProfiles.filter(p => {
+        const pSchool = normalize(p.school_name || p.colegio || "");
         return coordSchool !== "" && pSchool === coordSchool && p.id !== user.id && p.role !== 'admin';
       });
+
+      // Fallback: If no exact school match found, show all teachers so coordinator is never blocked
+      if (schoolTeachers.length === 0) {
+        schoolTeachers = allProfiles.filter(p => p.id !== user.id && p.role !== 'admin');
+      }
       setTeachers(schoolTeachers);
 
       const teacherIds = schoolTeachers.map(t => t.id);
 
       // 2. Fetch classroom list & students base
-      const allClassrooms = await requestD1<any[]>('/api/classrooms');
+      const allClassrooms = await requestD1<any[]>('/api/classrooms') || [];
       const schoolClassrooms = allClassrooms.filter(c => teacherIds.includes(c.teacher_id));
       setClassrooms(schoolClassrooms);
       const classroomIds = schoolClassrooms.map(c => c.id);
@@ -661,7 +668,7 @@ export default function CoordinatorDashboard() {
       setStudents(schoolStudents);
 
       // 3. Fetch plannings by teachers of same school
-      const allPlannings = await requestD1<any[]>('/api/plannings');
+      const allPlannings = await requestD1<any[]>('/api/plannings') || [];
       const schoolPlannings = allPlannings
         .map(mapPlanningFromDb)
         .filter(p => teacherIds.includes(p.docente_id));
@@ -688,100 +695,6 @@ export default function CoordinatorDashboard() {
 
       const evidencesData = await requestD1<any[]>(`/api/coordinator/evidences?coordinator_id=${user.id}`);
       setEvidences(evidencesData || []);
-
-      // Seed mock followups if empty and we have teachers/students
-      if ((!followupsData || followupsData.length === 0) && schoolTeachers.length > 0) {
-        const mockFollowups = [
-          {
-            id: 'fup_1',
-            coordinator_id: user.id,
-            student_id: 'std_1',
-            reason: 'Bajo rendimiento',
-            responsible_id: 'Psicología',
-            last_intervention_date: new Date().toISOString().split('T')[0],
-            status: 'Urgente',
-            notes: 'Reforzamiento en lectoescritura'
-          },
-          {
-            id: 'fup_2',
-            coordinator_id: user.id,
-            student_id: 'std_2',
-            reason: 'Ausentismo',
-            responsible_id: 'Coordinación',
-            last_intervention_date: new Date().toISOString().split('T')[0],
-            status: 'Seguimiento',
-            notes: 'Llamada telefónica a tutores'
-          },
-          {
-            id: 'fup_3',
-            coordinator_id: user.id,
-            student_id: 'std_3',
-            reason: 'NEAE',
-            responsible_id: 'Orientación',
-            last_intervention_date: new Date().toISOString().split('T')[0],
-            status: 'En proceso',
-            notes: 'Evaluación psicopedagógica en curso'
-          }
-        ];
-        if (schoolStudents.length > 0) {
-          mockFollowups[0].student_id = schoolStudents[0]?.id || 'std_1';
-          if (schoolStudents.length > 1) mockFollowups[1].student_id = schoolStudents[1]?.id || 'std_2';
-          if (schoolStudents.length > 2) mockFollowups[2].student_id = schoolStudents[2]?.id || 'std_3';
-        }
-        for (const f of mockFollowups) {
-          await requestD1('/api/coordinator/followups', 'POST', f).catch(() => { });
-        }
-        setFollowups(mockFollowups);
-      }
-
-      // If no local logs yet, seed some mockup entries for visual presentation
-      if ((!logsData || logsData.length === 0) && schoolTeachers.length > 0) {
-        const mockLogs = [
-          { id: 'log_1', coordinator_id: user.id, date: new Date().toISOString().split('T')[0], time: '08:15', category: 'Acompañamiento docente', description: `Observación de clase de ${schoolTeachers[0]?.full_name || 'docente'} — Uso eficiente del material concreto. Se acuerda mejorar gestión del tiempo.`, involved_people: schoolTeachers[0]?.full_name, status: 'Resuelto' },
-          { id: 'log_2', coordinator_id: user.id, date: new Date().toISOString().split('T')[0], time: '10:30', category: 'Incidencias', description: 'Reunión con familias por ausentismo escolar. Firma de carta de compromiso pedagógico.', involved_people: 'Pedro Ruiz, Familia Ruiz', status: 'Dar seguimiento' },
-          { id: 'log_3', coordinator_id: user.id, date: new Date().toISOString().split('T')[0], time: '12:30', category: 'Gestión institucional', description: 'Revisión y firma de planificaciones semanales. 2 docentes pendientes al cierre.', involved_people: 'Carlos Peña, Ana Vargas', status: 'Pendiente' }
-        ];
-        for (const l of mockLogs) {
-          await requestD1('/api/coordinator/logs', 'POST', l).catch(() => { });
-        }
-        setLogs(mockLogs);
-      }
-
-      // Seed mock meetings if empty
-      if (!meetingsData || meetingsData.length === 0) {
-        const mockMeetings = [
-          { id: 'meet_1', coordinator_id: user.id, title: 'Reunión de claustro docente', meeting_date: '2026-07-02', meeting_time: '10:00', location: 'Sala principal', invited_count: 12, notes: 'Análisis de cierre trimestral' },
-          { id: 'meet_2', coordinator_id: user.id, title: 'Reunión con dirección regional', meeting_date: '2026-07-09', meeting_time: '09:00', location: 'Dirección regional', invited_count: 4, notes: 'Evaluación de indicadores de eficiencia' }
-        ];
-        for (const m of mockMeetings) {
-          await requestD1('/api/coordinator/meetings', 'POST', m).catch(() => { });
-        }
-        setMeetings(mockMeetings);
-      }
-
-      // Seed mock minutes if empty
-      if (!minutesData || minutesData.length === 0) {
-        const mockMinutes = [
-          { id: 'min_1', meeting_id: 'meet_1', title: 'Reunión de coordinación pedagógica', content: 'Análisis de planificaciones y plan de acompañamiento para el mes de julio.', participants: 'María Contreras, Juan Martínez, Laura Reyes', pending_signatures: 3 }
-        ];
-        for (const mn of mockMinutes) {
-          await requestD1('/api/coordinator/minutes', 'POST', mn).catch(() => { });
-        }
-        setMinutes(mockMinutes);
-      }
-
-      // Seed mock evidences if empty
-      if (!evidencesData || evidencesData.length === 0) {
-        const mockEvidences = [
-          { id: 'ev_1', coordinator_id: user.id, name: 'Foto obs. clase Matemáticas', file_url: '#', category: 'Fotos', file_tag: 'Digital' },
-          { id: 'ev_2', coordinator_id: user.id, name: 'Acuerdo mejora — J. Martínez', file_url: '#', category: 'Documentos', file_tag: 'Firmado' },
-          { id: 'ev_3', coordinator_id: user.id, name: 'Circular familias ausentismo', file_url: '#', category: 'Comunicaciones', file_tag: 'Recibido' }
-        ];
-        for (const ev of mockEvidences) {
-          await requestD1('/api/coordinator/evidences', 'POST', ev).catch(() => { });
-        }
-        setEvidences(mockEvidences);
-      }
 
     } catch (err) {
       console.error("Error loading coordinator dashboard data:", err);
@@ -878,7 +791,7 @@ export default function CoordinatorDashboard() {
         id: `ev_${Date.now()}`,
         coordinator_id: user.id,
         teacher_id: obsForm.teacher_id,
-        name: `Acuerdo acompañamiento � ${teachers.find(t => t.id === obsForm.teacher_id)?.full_name || "Docente"}`,
+        name: `Acuerdo acompañamiento — ${teachers.find(t => t.id === obsForm.teacher_id)?.full_name || "Docente"}`,
         file_url: '#',
         category: 'Documentos',
         file_tag: 'Firmado'

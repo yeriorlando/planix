@@ -141,21 +141,38 @@ export async function syncDownSupabaseToLocalStorage(userId: string) {
     }
     const studentIds = allStudents.map((s) => s.id);
 
-    const allLocalStudents = readLocal<any[]>("plx:students", []).filter(
-      (s) => !classroomIds.includes(s.classroom_id)
-    );
-    writeLocal("plx:students", [...allLocalStudents, ...allStudents]);
+    // Non-destructive student merge
+    const currentLocalStudents = readLocal<any[]>("plx:students", []);
+    const studentsMap = new Map<string, any>();
+    currentLocalStudents.forEach((s) => studentsMap.set(s.id, s));
+    allStudents.forEach((s) => studentsMap.set(s.id, s));
+    writeLocal("plx:students", Array.from(studentsMap.values()));
 
-    // 3. Fetch Attendance
+    // 3. Fetch Attendance (Non-destructive merge per classroom & date)
     const allAttendance: any[] = [];
     for (const cid of classroomIds) {
-      const attendance = await attendanceService.fetchAttendance(cid);
-      allAttendance.push(...attendance);
+      try {
+        const attendance = await attendanceService.fetchAttendance(cid);
+        allAttendance.push(...attendance);
+      } catch (attErr) {
+        console.error(`[Sync] Error fetching attendance for classroom ${cid}:`, attErr);
+      }
     }
-    const allLocalAttendance = readLocal<any[]>("plx:attendance", []).filter(
-      (a) => !classroomIds.includes(a.classroom_id)
-    );
-    writeLocal("plx:attendance", [...allLocalAttendance, ...allAttendance]);
+    
+    const currentLocalAttendance = readLocal<any[]>("plx:attendance", []);
+    const attendanceMap = new Map<string, any>();
+    
+    // First keep existing local attendance records
+    currentLocalAttendance.forEach((att) => {
+      const key = `${att.classroom_id}_${att.fecha}`;
+      attendanceMap.set(key, att);
+    });
+    // Server attendance takes precedence for dates returned by server
+    allAttendance.forEach((att) => {
+      const key = `${att.classroom_id}_${att.fecha}`;
+      attendanceMap.set(key, att);
+    });
+    writeLocal("plx:attendance", Array.from(attendanceMap.values()));
 
     // 4. Fetch Rubrics
     const rubrics = await rubricsService.fetchRubrics(userId);
