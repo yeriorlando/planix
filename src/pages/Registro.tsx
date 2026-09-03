@@ -40,6 +40,9 @@ export default function Registro() {
   const [selectedLevel, setSelectedLevel] = useState<"INICIAL" | "PRIMARIA" | "SECUNDARIA">("PRIMARIA");
   const [selectedGradeId, setSelectedGradeId] = useState<string>("primaria-1ro");
   const [assignments, setAssignments] = useState<GradeAssignment[]>([]);
+  const MAX_ALLOWED_SUBJECTS = 6;
+  const [showLimitModal, setShowLimitModal] = useState(false);
+  const [showSummaryModal, setShowSummaryModal] = useState(false);
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -67,6 +70,10 @@ export default function Registro() {
     const assignment = assignments.find(a => a.gradeId === selectedGradeId);
     return assignment ? assignment.subjectIds : [];
   }, [assignments, selectedGradeId]);
+
+  const totalSubjectsCount = useMemo(() => {
+    return assignments.reduce((acc, a) => acc + a.subjectIds.length, 0);
+  }, [assignments]);
 
   const passwordStrength = useMemo(() => {
     if (!password) return { score: 0, text: "", color: "", textColor: "", checks: { length: false, lowercase: false, uppercase: false, number: false, special: false } };
@@ -120,12 +127,25 @@ export default function Registro() {
   };
 
   const toggleSubject = (subjectId: string) => {
+    const existing = assignments.find(a => a.gradeId === selectedGradeId);
+    const isAlreadySelected = existing?.subjectIds.includes(subjectId);
+
+    // Si no está seleccionada y ya alcanzó el límite de 6, bloquear y mostrar aviso de precio
+    if (!isAlreadySelected && totalSubjectsCount >= MAX_ALLOWED_SUBJECTS) {
+      toast.warning("Límite de 6 asignaturas alcanzado", {
+        description: "El plan base incluye 6 asignaturas (RD$ 1,000/mes). Cada asignatura adicional: RD$ 150/mes.",
+        duration: 5000,
+      });
+      setShowLimitModal(true);
+      return;
+    }
+
     setAssignments(prev => {
-      const existing = prev.find(a => a.gradeId === selectedGradeId);
-      if (existing) {
-        const subjectIds = existing.subjectIds.includes(subjectId)
-          ? existing.subjectIds.filter(id => id !== subjectId)
-          : [...existing.subjectIds, subjectId];
+      const current = prev.find(a => a.gradeId === selectedGradeId);
+      if (current) {
+        const subjectIds = current.subjectIds.includes(subjectId)
+          ? current.subjectIds.filter(id => id !== subjectId)
+          : [...current.subjectIds, subjectId];
         
         if (subjectIds.length === 0) {
           return prev.filter(a => a.gradeId !== selectedGradeId);
@@ -143,20 +163,36 @@ export default function Registro() {
   };
 
   const handleToggleAll = () => {
-    const isAllSelected = currentGradeSubjects.length === availableSubjects.length;
-    setAssignments(prev => {
-      const others = prev.filter(a => a.gradeId !== selectedGradeId);
-      if (isAllSelected) {
-        return others;
-      } else {
-        const grade = getGradeById(selectedGradeId);
-        return [...others, {
-          gradeId: selectedGradeId,
-          gradeName: grade ? grade.displayName : selectedGradeId,
-          subjectIds: availableSubjects.map(s => s.id)
-        }];
+    if (currentGradeSubjects.length > 0) {
+      // Limpiar las de este grado
+      setAssignments(prev => prev.filter(a => a.gradeId !== selectedGradeId));
+      return;
+    }
+
+    const availableSlots = MAX_ALLOWED_SUBJECTS - totalSubjectsCount;
+    if (availableSlots <= 0) {
+      toast.warning("Límite de 6 asignaturas alcanzado", {
+        description: "El plan base incluye hasta 6 asignaturas (RD$ 1,000/mes). Cada asignatura adicional: RD$ 150/mes.",
+        duration: 5000,
+      });
+      setShowLimitModal(true);
+      return;
+    }
+
+    const toSelect = availableSubjects.slice(0, availableSlots).map(s => s.id);
+    const grade = getGradeById(selectedGradeId);
+    setAssignments(prev => [
+      ...prev.filter(a => a.gradeId !== selectedGradeId),
+      {
+        gradeId: selectedGradeId,
+        gradeName: grade ? grade.displayName : selectedGradeId,
+        subjectIds: toSelect
       }
-    });
+    ]);
+
+    if (availableSubjects.length > availableSlots) {
+      toast.info(`Se agregaron ${availableSlots} asignaturas para completar tu límite de 6.`);
+    }
   };
 
   const removeAssignment = (gradeId: string) => {
@@ -178,8 +214,12 @@ export default function Registro() {
       }
     }
     if (step === 2) {
-      if (assignments.length === 0) {
+      if (assignments.length === 0 || totalSubjectsCount === 0) {
         setError("Debes seleccionar al menos una materia para continuar.");
+        return false;
+      }
+      if (totalSubjectsCount > MAX_ALLOWED_SUBJECTS) {
+        setError(`Solo puedes seleccionar un máximo de ${MAX_ALLOWED_SUBJECTS} asignaturas incluidas en tu plan.`);
         return false;
       }
     }
@@ -204,10 +244,17 @@ export default function Registro() {
     if (validateStep()) {
       if (step === 1 && selectedRole === "coordinator") {
         setStep(3); // skip step 2 (subjects)
+      } else if (step === 2) {
+        setShowSummaryModal(true);
       } else {
         setStep(prev => prev + 1);
       }
     }
+  };
+
+  const handleConfirmSummary = () => {
+    setShowSummaryModal(false);
+    setStep(3);
   };
 
   const prevStep = () => {
@@ -651,11 +698,48 @@ export default function Registro() {
                 </div>
               </div>
 
+              {/* Cupo de Asignaturas & Tarifas Banner */}
+              <div className="bg-[#02327e]/[0.04] border border-[#02327e]/20 rounded-[24px] p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-xs">
+                <div className="flex items-start gap-3">
+                  <div className="p-2.5 bg-[#02327e]/10 rounded-xl text-[#02327e] border border-[#02327e]/15 mt-0.5 sm:mt-0 shrink-0">
+                    <BookOpen className="w-5 h-5 text-[#02327e]" />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <h4 className="text-xs font-black text-[#02327e] uppercase tracking-wider">
+                        Cupo de Asignaturas: {totalSubjectsCount} de {MAX_ALLOWED_SUBJECTS}
+                      </h4>
+                      <span className={`text-[10px] font-black px-2.5 py-0.5 rounded-full ${
+                        totalSubjectsCount === MAX_ALLOWED_SUBJECTS 
+                          ? 'bg-[#02327e] text-white' 
+                          : 'bg-[#02327e]/10 text-[#02327e] border border-[#02327e]/20'
+                      }`}>
+                        {totalSubjectsCount === MAX_ALLOWED_SUBJECTS ? 'Límite alcanzado' : `${MAX_ALLOWED_SUBJECTS - totalSubjectsCount} disponibles`}
+                      </span>
+                    </div>
+                    <p className="text-[11.5px] text-slate-600 mt-0.5">
+                      El plan base incluye <span className="font-bold text-[#02327e]">6 asignaturas (RD$ 1,000/mes)</span>. Asignaturas adicionales: <span className="font-bold text-[#02327e]">RD$ 150/mes c/u</span>.
+                    </p>
+                    <p className="text-[11px] text-slate-500 mt-1.5 flex items-center gap-1.5 font-medium">
+                      💡 <span>Puedes hacer clic en <strong>cada grado arriba (1ro, 2do, etc.)</strong> para distribuir o seleccionar asignaturas en diferentes cursos.</span>
+                    </p>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  onClick={() => setShowLimitModal(true)}
+                  className="text-[11px] font-bold text-[#02327e] bg-white hover:bg-[#02327e]/5 border border-[#02327e]/30 px-3.5 py-1.5 rounded-xl shadow-xs transition-colors shrink-0 cursor-pointer"
+                >
+                  Ver Tarifas
+                </button>
+              </div>
+
               {/* Subject Selector Workspace */}
               <div className="bg-bg-base/40 p-4 rounded-[24px] border border-black/5 space-y-3 mt-1">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-1.5">
-                    <Sparkles className="w-4 h-4 text-brand-primary" />
+                    <BookOpen className="w-4 h-4 text-[#02327e]" />
                     <h3 className="text-[11px] font-bold text-text-main uppercase tracking-widest">
                       Asignaturas para {getGradeById(selectedGradeId)?.displayName.split(" (")[0]}
                     </h3>
@@ -664,9 +748,10 @@ export default function Registro() {
                     <button
                       type="button"
                       onClick={handleToggleAll}
-                      className="text-[10px] font-bold text-[#1B1B1B] hover:bg-black/5 bg-white px-3 py-1 rounded-lg border border-black/5 shadow-xs transition-colors cursor-pointer"
+                      disabled={currentGradeSubjects.length === 0 && totalSubjectsCount >= MAX_ALLOWED_SUBJECTS}
+                      className="text-[10px] font-bold text-[#1B1B1B] hover:bg-black/5 bg-white px-3 py-1 rounded-lg border border-black/5 shadow-xs transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                     >
-                      {currentGradeSubjects.length === availableSubjects.length ? "Ninguna" : "Todas"}
+                      {currentGradeSubjects.length > 0 ? "Limpiar este grado" : (totalSubjectsCount >= MAX_ALLOWED_SUBJECTS ? "Límite alcanzado" : "Seleccionar hasta 6")}
                     </button>
                   )}
                 </div>
@@ -964,6 +1049,173 @@ export default function Registro() {
         </AnimatePresence>
 
       </div>
+
+      {/* Modal Informativo de Límite y Precios de Asignaturas */}
+      {showLimitModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200">
+          <div className="bg-white rounded-[28px] max-w-md w-full p-6 sm:p-7 shadow-2xl border border-black/10 text-left relative animate-in zoom-in-95 duration-200">
+            <div className="flex items-center justify-between mb-4">
+              <div className="w-12 h-12 rounded-2xl bg-[#02327e]/10 border border-[#02327e]/20 flex items-center justify-center text-[#02327e]">
+                <BookOpen size={24} />
+              </div>
+              <button
+                type="button"
+                onClick={() => setShowLimitModal(false)}
+                className="w-7 h-7 rounded-full bg-rose-500 hover:bg-rose-600 text-white flex items-center justify-center transition-all shadow-xs cursor-pointer shrink-0"
+                title="Cerrar"
+              >
+                <X size={15} strokeWidth={2.5} />
+              </button>
+            </div>
+
+            <h3 className="text-xl font-black text-[#02327e] tracking-tight">
+              Límite de Asignaturas del Plan Base
+            </h3>
+            
+            <p className="text-sm text-neutral-600 mt-2 leading-relaxed">
+              Tu cuenta incluye por defecto un cupo de hasta <span className="font-bold text-neutral-900">6 asignaturas</span> oficiales (valoradas en <span className="font-bold text-[#02327e]">RD$ 1,000 mensuales</span>).
+            </p>
+
+            <div className="bg-[#02327e]/[0.03] rounded-2xl p-4 my-4 border border-[#02327e]/15 space-y-2.5">
+              <div className="flex justify-between items-center text-xs">
+                <span className="text-neutral-600 font-medium">Plan Base (Hasta 6 asignaturas):</span>
+                <span className="font-black text-[#02327e]">RD$ 1,000 / mes</span>
+              </div>
+              <div className="flex justify-between items-center text-xs">
+                <span className="text-neutral-600 font-medium">Cada Asignatura Adicional (+6):</span>
+                <span className="font-black text-amber-700 font-bold">+RD$ 150 / mes c/u</span>
+              </div>
+              <div className="h-px bg-[#02327e]/10 my-1" />
+              <p className="text-[11px] text-neutral-500 leading-snug">
+                💡 Puedes distribuir tus 6 asignaturas libremente: en un solo grado (ej. Primaria) o repartirlas en diferentes grados (ej. 1 en cada grado para Secundaria).
+              </p>
+            </div>
+
+            <p className="text-xs text-neutral-600 mb-6 leading-relaxed">
+              Para completar tu registro, selecciona tus 6 asignaturas principales. Si necesitas impartir más asignaturas, podrás solicitar paquetes adicionales desde tu panel de suscripción.
+            </p>
+
+            <button
+              type="button"
+              onClick={() => setShowLimitModal(false)}
+              className="w-full bg-[#02327e] hover:bg-[#012560] text-white py-3 px-5 rounded-xl text-xs font-bold transition-all shadow-xs cursor-pointer text-center"
+            >
+              Entendido, elegir mis 6 asignaturas
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Modal de Confirmación y Resumen de Asignaturas */}
+      {showSummaryModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200">
+          <div className="bg-white rounded-[28px] max-w-lg w-full p-6 sm:p-7 shadow-2xl border border-black/10 text-left relative animate-in zoom-in-95 duration-200 flex flex-col max-h-[90vh]">
+            <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center gap-3">
+                <div className="w-11 h-11 rounded-2xl bg-[#02327e]/10 border border-[#02327e]/20 flex items-center justify-center text-[#02327e]">
+                  <BookOpen size={22} />
+                </div>
+                <div>
+                  <h3 className="text-lg font-black text-[#02327e] tracking-tight">
+                    Resumen de tu Selección
+                  </h3>
+                  <p className="text-[12px] text-neutral-500">
+                    Nivel {selectedLevel === 'PRIMARIA' ? 'Primario' : selectedLevel === 'SECUNDARIA' ? 'Secundario' : 'Inicial'}
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setShowSummaryModal(false)}
+                className="w-7 h-7 rounded-full bg-rose-500 hover:bg-rose-600 text-white flex items-center justify-center transition-all shadow-xs cursor-pointer shrink-0"
+                title="Cerrar"
+              >
+                <X size={15} strokeWidth={2.5} />
+              </button>
+            </div>
+
+            <div className="bg-[#02327e]/[0.04] border border-[#02327e]/15 rounded-2xl p-3.5 flex items-center justify-between gap-3 mb-4">
+              <div>
+                <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider block">
+                  Total de Asignaturas
+                </span>
+                <span className="text-base font-black text-[#02327e]">
+                  {totalSubjectsCount} de {MAX_ALLOWED_SUBJECTS} seleccionadas
+                </span>
+              </div>
+              <span className="text-[11px] font-bold px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200">
+                Plan Base RD$ 1,000/mes
+              </span>
+            </div>
+
+            {/* Lista con scroll de los grados y asignaturas */}
+            <div className="overflow-y-auto pr-1 space-y-3 flex-1 mb-4 max-h-[40vh]">
+              {assignments.map((assignment) => {
+                const gradeObj = getGradeById(assignment.gradeId);
+                const gradeName = gradeObj ? gradeObj.displayName.split(" (")[0] : assignment.gradeName;
+
+                return (
+                  <div key={assignment.gradeId} className="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5">
+                    <div className="flex items-center justify-between mb-2">
+                      <h4 className="text-xs font-black text-slate-800 uppercase tracking-wider flex items-center gap-1.5">
+                        <GraduationCap size={15} className="text-[#02327e]" />
+                        {gradeName}
+                      </h4>
+                      <span className="text-[10px] font-bold bg-[#02327e]/10 text-[#02327e] px-2 py-0.5 rounded-full">
+                        {assignment.subjectIds.length} {assignment.subjectIds.length === 1 ? 'asignatura' : 'asignaturas'}
+                      </span>
+                    </div>
+
+                    <div className="flex flex-wrap gap-1.5">
+                      {assignment.subjectIds.map((subId) => {
+                        const subObj = OFFICIAL_DEFAULT_SUBJECTS.find(s => s.id === subId);
+                        const subName = subObj ? subObj.name : subId;
+                        const subColor = subObj?.color || '#02327e';
+
+                        return (
+                          <span
+                            key={subId}
+                            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white border border-slate-200 text-slate-700 shadow-2xs"
+                          >
+                            <span 
+                              className="w-2 h-2 rounded-full shrink-0" 
+                              style={{ backgroundColor: subColor }}
+                            />
+                            {subName}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            <p className="text-[11.5px] text-slate-500 mb-5 leading-relaxed bg-blue-50/60 border border-blue-200/60 rounded-xl p-3 text-slate-700">
+              💡 <strong>Por favor revisa bien:</strong> estas serán las materias configuradas en tu cuenta para planificar. Podrás modificarlas más adelante desde tu perfil.
+            </p>
+
+            <div className="flex items-center gap-2.5 pt-1 border-t border-slate-100">
+              <button
+                type="button"
+                onClick={() => setShowSummaryModal(false)}
+                className="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 py-3 px-4 rounded-xl text-xs font-bold transition-all cursor-pointer text-center"
+              >
+                Modificar selección
+              </button>
+              <button
+                type="button"
+                onClick={handleConfirmSummary}
+                className="flex-1 bg-[#02327e] hover:bg-[#012560] text-white py-3 px-4 rounded-xl text-xs font-bold transition-all shadow-xs cursor-pointer text-center flex items-center justify-center gap-1.5"
+              >
+                <span>Confirmar y Continuar</span>
+                <ArrowRight size={14} />
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
     </div>
   );
 }

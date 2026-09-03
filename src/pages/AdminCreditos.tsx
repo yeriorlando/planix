@@ -298,6 +298,7 @@ export default function AdminCreditos() {
   const [toolSearchQuery, setToolSearchQuery] = useState('');
   const [selectedUser, setSelectedUser] = useState<Usuario | null>(null);
   const [creditAmount, setCreditAmount] = useState<number>(50);
+  const [welcomeCredits, setWelcomeCredits] = useState<number>(100);
   const [referrerCredits, setReferrerCredits] = useState<number>(50);
   const [referredCredits, setReferredCredits] = useState<number>(30);
   const [activeTab, setActiveTab] = useState<'costs' | 'users' | 'referrals'>('costs');
@@ -443,11 +444,13 @@ export default function AdminCreditos() {
         const config = await requestD1<{ key: string; value: any }>('/api/site-configs/referral_settings');
         if (config && config.value) {
           const val = typeof config.value === 'string' ? JSON.parse(config.value) : config.value;
+          setWelcomeCredits(val.welcome_credits ?? 100);
           setReferrerCredits(val.referrer_credits ?? 50);
           setReferredCredits(val.referred_credits ?? 30);
         }
       } catch {
-        // Usar valores por defecto (50 y 30) si aún no se ha guardado una configuración personalizada
+        // Usar valores por defecto (100, 50 y 30) si aún no se ha guardado una configuración personalizada
+        setWelcomeCredits(100);
         setReferrerCredits(50);
         setReferredCredits(30);
       }
@@ -508,11 +511,12 @@ export default function AdminCreditos() {
       await requestD1('/api/site-configs', 'POST', {
         key: 'referral_settings',
         value: {
+          welcome_credits: welcomeCredits,
           referrer_credits: referrerCredits,
           referred_credits: referredCredits
         }
       });
-      toast.success('Configuración de créditos por referidos actualizada.');
+      toast.success('Configuración de créditos por registro y referidos actualizada.');
     } catch (err: any) {
       console.error('Error saving referral settings to D1:', err);
       toast.error('Error al guardar la configuración de referidos en la base de datos.');
@@ -951,15 +955,64 @@ export default function AdminCreditos() {
         <div className="text-left pb-5 border-b border-black/5 dark:border-white/5">
           <h2 className="text-lg font-black text-slate-800 dark:text-white tracking-tight flex items-center gap-2">
             <Gift size={20} className="text-[#0046ab] dark:text-blue-400" />
-            Créditos de Referidos
+            Créditos de Registro y Referidos
           </h2>
           <p className="text-xs text-slate-400 dark:text-slate-500 font-bold mt-0.5">
-            Configura la cantidad de créditos de recompensa asignados a los usuarios en el sistema de invitación.
+            Configura la cantidad de créditos iniciales otorgados en el registro y las recompensas del sistema de invitación.
           </p>
         </div>
 
-        <form onSubmit={handleSaveReferralSettings} className="space-y-6 mt-6 max-w-xl text-left">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        <form onSubmit={handleSaveReferralSettings} className="space-y-6 mt-6 max-w-4xl text-left">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {/* Welcome credits card (Registro Nuevo) */}
+            <div className="rounded-[28px] p-5 relative overflow-hidden group border border-transparent shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 min-h-[190px] flex flex-col justify-between select-none text-left bg-gradient-to-br from-[#E0F2FE] to-[#BAE6FD]/40 dark:from-sky-950/20 dark:to-slate-900 hover:border-sky-500/10">
+              <div className="flex justify-between items-start relative z-10 w-full">
+                <div className="flex items-center gap-1.5 text-sky-800 dark:text-sky-300">
+                  <Sparkles size={14} className="opacity-80 text-inherit" />
+                  <span className="text-[10px] font-black uppercase tracking-wider text-inherit">
+                    Registro Nuevo
+                  </span>
+                </div>
+                <div className="w-8 h-8 rounded-full flex items-center justify-center backdrop-blur-md shadow-3xs bg-sky-100 dark:bg-sky-950/30 text-sky-600 dark:text-sky-400">
+                  <Sparkles size={14} />
+                </div>
+              </div>
+              <div className="relative z-10 my-3 flex flex-col items-start w-full text-left">
+                <span className="text-[13px] font-extrabold text-[#1B1B1B] dark:text-white leading-tight tracking-tight">
+                  Créditos al Registrarse
+                </span>
+                <span className="text-[10px] font-bold text-slate-500/90 dark:text-zinc-400 mt-1 leading-snug">
+                  Créditos base otorgados automáticamente a todo usuario al crear su cuenta en Planix.
+                </span>
+              </div>
+              <div className="relative z-10 mt-auto pt-3 border-t border-black/5 dark:border-white/5 w-full">
+                <div className="flex items-center gap-1.5 bg-white dark:bg-slate-900 border border-black/5 dark:border-white/10 rounded-xl px-3 py-1.5 w-full justify-between shadow-3xs">
+                  <button
+                    type="button"
+                    onClick={() => setWelcomeCredits(prev => Math.max(0, prev - 5))}
+                    className="p-1 hover:bg-black/5 dark:hover:bg-white/5 text-slate-500 rounded-lg cursor-pointer transition-colors"
+                  >
+                    <Minus size={12} />
+                  </button>
+                  <input
+                    type="number"
+                    min="0"
+                    value={welcomeCredits}
+                    onChange={e => setWelcomeCredits(Math.max(0, parseInt(e.target.value) || 0))}
+                    className="w-14 text-center font-black text-xs bg-transparent outline-none focus:ring-0 border-0 p-0"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setWelcomeCredits(prev => prev + 5)}
+                    className="p-1 hover:bg-black/5 dark:hover:bg-white/5 text-slate-505 rounded-lg cursor-pointer transition-colors"
+                  >
+                    <Plus size={12} />
+                  </button>
+                  <Coins size={12} className="text-sky-500 shrink-0" />
+                </div>
+              </div>
+            </div>
+
             {/* Referrer card */}
             <div className="rounded-[28px] p-5 relative overflow-hidden group border border-transparent shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 min-h-[190px] flex flex-col justify-between select-none text-left bg-gradient-to-br from-[#FEF3C7] to-[#FDE68A]/40 dark:from-amber-950/20 dark:to-slate-900 hover:border-amber-500/10">
               <div className="flex justify-between items-start relative z-10 w-full">
@@ -1024,10 +1077,10 @@ export default function AdminCreditos() {
               </div>
               <div className="relative z-10 my-3 flex flex-col items-start w-full text-left">
                 <span className="text-[13px] font-extrabold text-[#1B1B1B] dark:text-white leading-tight tracking-tight">
-                  Recompensa para el Referido
+                  Bono Extra para el Referido
                 </span>
                 <span className="text-[10px] font-bold text-slate-500/90 dark:text-zinc-400 mt-1 leading-snug">
-                  Créditos que recibe el nuevo usuario al registrarse utilizando un código de referido.
+                  Créditos adicionales que se suman al regalo de bienvenida al usar un código de referido.
                 </span>
               </div>
               <div className="relative z-10 mt-auto pt-3 border-t border-black/5 dark:border-white/5 w-full">
@@ -1064,7 +1117,7 @@ export default function AdminCreditos() {
             className="w-full sm:w-auto px-6 py-2.5 bg-[#0046ab] hover:bg-blue-700 text-white font-extrabold text-xs rounded-xl flex items-center justify-center gap-2 cursor-pointer transition-all shadow-xs active:scale-[0.98] select-none uppercase tracking-wider"
           >
             <Save size={14} />
-            Guardar Créditos de Referidos
+            Guardar Créditos de Registro y Referidos
           </button>
         </form>
 

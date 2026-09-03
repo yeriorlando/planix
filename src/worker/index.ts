@@ -290,52 +290,57 @@ export default {
             if (data) oldProfile = data;
           } catch (_) {}
 
+          // 1. Cargar configuración de bienvenida y referidos desde site_configs
+          let referrerReward = 50;
+          let referredReward = 30;
+          let welcomeCredits = 100;
+
+          try {
+            const { data: configRow } = await supabase
+              .from("site_configs")
+              .select("value")
+              .eq("key", "referral_settings")
+              .maybeSingle();
+
+            if (configRow && configRow.value) {
+              const settings = typeof configRow.value === "string"
+                ? JSON.parse(configRow.value)
+                : configRow.value;
+              if (settings.welcome_credits !== undefined) {
+                welcomeCredits = Number(settings.welcome_credits);
+              }
+              if (settings.referrer_credits !== undefined) {
+                referrerReward = Number(settings.referrer_credits);
+              }
+              if (settings.referred_credits !== undefined) {
+                referredReward = Number(settings.referred_credits);
+              }
+            }
+          } catch (e) {
+            console.error("Error cargando referral_settings en worker Supabase:", e);
+          }
+
           // Generate referral_code if missing
           let referralCode = oldProfile?.referral_code;
           if (!referralCode) {
             referralCode = generateReferralCode();
           }
 
-          let referredBy = oldProfile?.referred_by || null;
+          // Process Referral Code if this is a new signup or profile without referrer
+          let referredBy: string | null = oldProfile?.referred_by || null;
           let extraCredits = 0;
 
-          // If new profile and referred_by_code is supplied
-          if (!oldProfile && body.referred_by_code) {
+          const hasNoReferralYet = !oldProfile || !oldProfile.referred_by;
+          if (hasNoReferralYet && body.referred_by_code) {
             try {
               const { data: referrer } = await supabase
                 .from("profiles")
                 .select("id, credits")
                 .eq("referral_code", body.referred_by_code)
-                .single();
+                .maybeSingle();
 
               if (referrer && referrer.id !== body.id) {
                 referredBy = referrer.id;
-
-                // Load settings from site_configs
-                let referrerReward = 50;
-                let referredReward = 30;
-
-                const { data: configRow } = await supabase
-                  .from("site_configs")
-                  .select("value")
-                  .eq("key", "referral_settings")
-                  .single();
-
-                if (configRow && configRow.value) {
-                  try {
-                    const settings = typeof configRow.value === "string"
-                      ? JSON.parse(configRow.value)
-                      : configRow.value;
-                    if (settings.referrer_credits !== undefined) {
-                      referrerReward = Number(settings.referrer_credits);
-                    }
-                    if (settings.referred_credits !== undefined) {
-                      referredReward = Number(settings.referred_credits);
-                    }
-                  } catch (e) {
-                    console.error("Error parsing referral settings:", e);
-                  }
-                }
 
                 // Award credits to referrer
                 const currentReferrerCredits = referrer.credits !== undefined ? Number(referrer.credits) : 100;
@@ -355,13 +360,25 @@ export default {
             }
           }
 
-          let finalCredits = body.credits !== undefined ? body.credits : (body.creditos !== undefined ? body.creditos : null);
-          if (finalCredits === null) {
-            finalCredits = oldProfile?.credits !== undefined ? oldProfile.credits : 100;
-          }
-          if (!oldProfile && finalCredits !== null) {
-            // New user: add their welcome extra credits
-            finalCredits = Number(finalCredits) + extraCredits;
+          let finalCredits: number | null = null;
+          // Detectar si es usuario nuevo o si recién completó el onboarding inicial
+          const isInitialProfileCompletion = oldProfile && (!oldProfile.school_name && body.school_name);
+
+          if (!oldProfile || isInitialProfileCompletion) {
+            // Usuario nuevo: asignar créditos de bienvenida configurados (+ bono si fue referido)
+            finalCredits = welcomeCredits + extraCredits;
+          } else {
+            // Actualización de usuario existente
+            if (body.credits !== undefined) {
+              finalCredits = Number(body.credits);
+            } else if (body.creditos !== undefined) {
+              finalCredits = Number(body.creditos);
+            } else {
+              finalCredits = oldProfile.credits ?? welcomeCredits;
+            }
+            if (extraCredits > 0) {
+              finalCredits = Number(finalCredits) + extraCredits;
+            }
           }
 
           let regionalVal = body.regional !== undefined ? body.regional : (oldProfile?.regional || null);
@@ -392,19 +409,69 @@ export default {
             }
           }
 
+          const mergedRole = body.role !== undefined ? body.role : (body.rol !== undefined ? body.rol : (oldProfile?.role || "teacher"));
+          const mergedGradoPrincipal = body.grado_principal !== undefined ? body.grado_principal : (body.grado !== undefined ? body.grado : (oldProfile?.grado_principal || null));
+          let mergedAllowedSubjects = body.allowed_subjects !== undefined ? body.allowed_subjects : (oldProfile?.allowed_subjects || null);
+
+          // Blindaje anti-abuso: Limitar a un máximo de 6 asignaturas para perfiles que no son administradores (a menos que un admin lo autorice)
+          const isUserAdmin = mergedRole === "ADMINISTRADOR" || mergedRole === "ADMIN" || !!body.admin_override;
+          if (mergedAllowedSubjects && !isUserAdmin) {
+            try {
+              const isStringInput = typeof mergedAllowedSubjects === "string";
+              let parsed = isStringInput ? JSON.parse(mergedAllowedSubjects) : mergedAllowedSubjects;
+              if (typeof parsed === "string") {
+                try { parsed = JSON.parse(parsed); } catch (_) {}
+              }
+
+              if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
+                let totalCount = 0;
+                for (const g of Object.keys(parsed)) {
+                  if (Array.isArray(parsed[g])) {
+                    totalCount += parsed[g].length;
+                  }
+                }
+
+                if (totalCount > 6) {
+                  console.warn(`[ANTI_ABUSE] Perfil ${body.id} intentó guardar ${totalCount} asignaturas en Supabase. Recortando estrictamente a 6 asignaturas.`);
+                  let remainingSlots = 6;
+                  const capped: Record<string, string[]> = {};
+                  const gradeKeys = Object.keys(parsed).sort((a, b) => {
+                    if (mergedGradoPrincipal && a === mergedGradoPrincipal) return -1;
+                    if (mergedGradoPrincipal && b === mergedGradoPrincipal) return 1;
+                    return 0;
+                  });
+
+                  for (const g of gradeKeys) {
+                    if (Array.isArray(parsed[g])) {
+                      const slice = parsed[g].slice(0, remainingSlots);
+                      if (slice.length > 0) {
+                        capped[g] = slice;
+                        remainingSlots -= slice.length;
+                      }
+                      if (remainingSlots <= 0) break;
+                    }
+                  }
+                  mergedAllowedSubjects = isStringInput ? JSON.stringify(capped) : capped;
+                }
+              }
+            } catch (err) {
+              console.error("Error validando límite de asignaturas en worker Supabase:", err);
+            }
+          }
+
           const profileData = {
             id: body.id,
             full_name: body.full_name !== undefined ? body.full_name : (body.nombre !== undefined ? body.nombre : (oldProfile?.full_name || "")),
             email: body.email !== undefined ? body.email : (oldProfile?.email || ""),
-            role: body.role !== undefined ? body.role : (body.rol !== undefined ? body.rol : (oldProfile?.role || "teacher")),
+            role: mergedRole,
             subscription_tier: body.subscription_tier !== undefined ? body.subscription_tier : (body.suscripcion !== undefined ? body.suscripcion : (oldProfile?.subscription_tier || "free")),
             subscription_status: body.subscription_status !== undefined ? body.subscription_status : (body.estado_suscripcion !== undefined ? body.estado_suscripcion : (oldProfile?.subscription_status || "ACTIVO")),
             subscription_expiry: body.subscription_expiry !== undefined ? body.subscription_expiry : (body.suscripcion_hasta !== undefined ? body.suscripcion_hasta : (oldProfile?.subscription_expiry || null)),
             school_name: schoolNameVal,
             nivel_principal: body.nivel_principal !== undefined ? body.nivel_principal : (body.nivel !== undefined ? body.nivel : (oldProfile?.nivel_principal || null)),
             ciclo_principal: body.ciclo_principal !== undefined ? body.ciclo_principal : (body.ciclo !== undefined ? body.ciclo : (oldProfile?.ciclo_principal || null)),
-            grado_principal: body.grado_principal !== undefined ? body.grado_principal : (body.grado !== undefined ? body.grado : (oldProfile?.grado_principal || null)),
-            allowed_subjects: body.allowed_subjects !== undefined ? body.allowed_subjects : (oldProfile?.allowed_subjects || null),
+            grado_principal: mergedGradoPrincipal,
+            allowed_subjects: mergedAllowedSubjects,
             last_login: body.last_login !== undefined ? body.last_login : (oldProfile?.last_login || null),
             is_active: body.is_active !== undefined ? (body.is_active ? true : false) : (oldProfile?.is_active !== undefined ? oldProfile.is_active : true),
             regional: regionalVal,
@@ -474,7 +541,7 @@ export default {
             }
           }
 
-          return jsonResponse({ success: true });
+          return jsonResponse({ success: true, credits: finalCredits });
         }
 
         // Update password only
@@ -1290,6 +1357,21 @@ export default {
               return jsonResponse({
                 key: "active_school_year",
                 value: defaultYear,
+                updated_at: new Date().toISOString()
+              });
+            } else if (configKey === "referral_settings") {
+              const defaultReferralSettings = {
+                welcome_credits: 100,
+                referrer_credits: 50,
+                referred_credits: 30
+              };
+              await supabase
+                .from("site_configs")
+                .upsert({ key: "referral_settings", value: defaultReferralSettings, updated_at: new Date().toISOString() });
+
+              return jsonResponse({
+                key: "referral_settings",
+                value: defaultReferralSettings,
                 updated_at: new Date().toISOString()
               });
             } else {

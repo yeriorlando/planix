@@ -2,6 +2,7 @@
 import * as classroomsService from "./services/classrooms";
 import * as studentsService from "./services/students";
 import * as attendanceService from "./services/attendance";
+import * as attendanceIncidentsService from "./services/attendanceIncidents";
 import * as rubricsService from "./services/rubrics";
 import * as evaluationsService from "./services/evaluations";
 import * as gradesService from "./services/grades";
@@ -113,6 +114,20 @@ export interface AnecdotalRecord {
   sugerencia_ia?: string;
   estado: "borrador" | "guardado";
   creado_en: string;
+}
+
+export interface AttendanceIncident {
+  id: string;
+  classroom_id: string;
+  teacher_id: string;
+  fecha: string; // YYYY-MM-DD
+  tipo: "salida_anticipada" | "suspension_clases" | "huelga_gremial" | "emergencia_climatica" | "actividad_institucional" | "otro";
+  titulo: string;
+  descripcion: string;
+  hora_salida?: string;
+  afecto_asistencia?: boolean;
+  creado_en: string;
+  actualizado_en?: string;
 }
 
 export interface Incidence {
@@ -276,6 +291,7 @@ const KEY = {
   classrooms: "plx:classrooms",
   students: "plx:students",
   attendance: "plx:attendance",
+  attendance_incidents: "plx:attendance_incidents",
   anecdotal: "plx:anecdotal",
   incidences: "plx:incidences",
   rubrics: "plx:rubrics",
@@ -727,6 +743,39 @@ export function saveAttendance(a: Attendance) {
   });
 }
 
+// ============ Attendance Incidents ============
+export function getAttendanceIncidents(classroom_id?: string, fecha?: string): AttendanceIncident[] {
+  let list = read<AttendanceIncident[]>(KEY.attendance_incidents, []);
+  if (classroom_id) {
+    list = list.filter((item) => item.classroom_id === classroom_id);
+  }
+  if (fecha) {
+    list = list.filter((item) => item.fecha === fecha);
+  }
+  return list;
+}
+
+export function saveAttendanceIncident(inc: AttendanceIncident) {
+  const all = read<AttendanceIncident[]>(KEY.attendance_incidents, []);
+  const i = all.findIndex((x) => x.id === inc.id);
+  if (i >= 0) all[i] = inc;
+  else all.push(inc);
+  write(KEY.attendance_incidents, all);
+
+  attendanceIncidentsService.saveAttendanceIncident(inc).catch((err) => {
+    console.error("Error syncing attendance incident to D1/Supabase:", err);
+  });
+}
+
+export function deleteAttendanceIncident(id: string) {
+  const all = read<AttendanceIncident[]>(KEY.attendance_incidents, []);
+  write(KEY.attendance_incidents, all.filter((x) => x.id !== id));
+
+  attendanceIncidentsService.deleteAttendanceIncident(id).catch((err) => {
+    console.error("Error deleting attendance incident from D1/Supabase:", err);
+  });
+}
+
 // ============ Anecdotal Records & Incidences ============
 export function getAnecdotalRecords(classroom_id: string): AnecdotalRecord[] {
   return read<AnecdotalRecord[]>(KEY.anecdotal, []).filter((r) => r.classroom_id === classroom_id);
@@ -770,12 +819,20 @@ export async function syncOfficialGradesFromServer(classroom_id: string, subject
   try {
     const remoteRecords = await gradesService.fetchOfficialGrades(classroom_id, subject_id);
     const all = read<OfficialGradeRecord[]>(KEY.official_grades, []);
-    const filtered = all.filter(
+    const currentClassGrades = all.filter(
+      (g) => g.classroom_id === classroom_id && g.subject_id === subject_id
+    );
+
+    const map = new Map<string, OfficialGradeRecord>();
+    currentClassGrades.forEach((g) => map.set(`${g.student_id}_${g.competency_id}_${g.academic_year}`, g));
+    remoteRecords.forEach((g) => map.set(`${g.student_id}_${g.competency_id}_${g.academic_year}`, g));
+    const mergedSection = Array.from(map.values());
+
+    const other = all.filter(
       (g) => !(g.classroom_id === classroom_id && g.subject_id === subject_id)
     );
-    const merged = [...filtered, ...remoteRecords];
-    write(KEY.official_grades, merged);
-    return remoteRecords;
+    write(KEY.official_grades, [...other, ...mergedSection]);
+    return mergedSection;
   } catch (err) {
     console.error("Error syncing official grades from server:", err);
     return getOfficialGrades(classroom_id, subject_id);

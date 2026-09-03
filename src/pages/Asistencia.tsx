@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect, useRef, Component } from "react";
 import { createPortal } from "react-dom";
 import { 
   Calendar as CalendarIcon, Check, X, AlertCircle, Clock, Save, 
-  ArrowRight, UserCheck, TrendingUp, Printer, ChevronLeft, ChevronRight, 
+  ArrowRight, UserCheck, UserX, ShieldCheck, TrendingUp, Printer, ChevronLeft, ChevronRight, 
   BookOpen, Sparkles, Users, Info, RefreshCw, AlertTriangle, GraduationCap,
   Eraser, RotateCcw, Minimize, Maximize, ZoomIn, ZoomOut, ArrowLeft, ChevronDown,
   Grid, List
@@ -18,11 +18,16 @@ import {
   getAttendance, 
   syncAttendanceFromServer,
   saveAttendance, 
+  getAttendanceIncidents,
+  AttendanceIncident,
   Student, 
   Attendance, 
   Classroom,
   getStudentAvatar
 } from "../lib/storage";
+import { fetchAttendance } from "../lib/services/attendance";
+import { fetchAttendanceIncidents } from "../lib/services/attendanceIncidents";
+import ModalIncidenciasAsistencia, { INCIDENT_TYPES_CONFIG } from "../components/planix/ModalIncidenciasAsistencia";
 import { 
   format, 
   startOfMonth, 
@@ -264,33 +269,80 @@ function Asistencia() {
   const loadData = () => {
     if (activeClassId) {
       setStudents(getStudents(activeClassId).sort((a, b) => a.numero_orden - b.numero_orden));
-      
-      // Load from localStorage instantly
-      const localAttendance = getAttendance(activeClassId);
-      setAllAttendance(localAttendance);
-      
-      // Sync from Supabase server in the background
-      syncAttendanceFromServer(activeClassId)
-        .then((remoteAttendance) => {
-          setAllAttendance(remoteAttendance);
-        })
-        .catch((err) => {
-          console.error("Error loading attendance from server:", err);
-        });
+      const localAtt = getAttendance(activeClassId);
+      setAllAttendance(localAtt);
+
+      // Asynchronously fetch latest from database in background to ensure multi-device sync
+      fetchAttendance(activeClassId).then((remoteAtt) => {
+        if (remoteAtt && remoteAtt.length > 0) {
+          const map = new Map<string, Attendance>();
+          localAtt.forEach(a => map.set(a.fecha, a));
+          remoteAtt.forEach(a => map.set(a.fecha, a));
+          const merged = Array.from(map.values());
+
+          if (merged.length !== localAtt.length || remoteAtt.some(r => !localAtt.some(l => l.fecha === r.fecha))) {
+            const allSaved = JSON.parse(localStorage.getItem('plx:attendance') || '[]').filter((a: any) => a.classroom_id !== activeClassId);
+            localStorage.setItem('plx:attendance', JSON.stringify([...allSaved, ...merged]));
+            setAllAttendance(merged);
+          }
+        }
+      }).catch((err) => {
+        console.warn("[Asistencia] Background fetch warning:", err);
+      });
     } else {
       setStudents([]);
       setAllAttendance([]);
     }
   };
 
+  // Incidents state
+  const [incidents, setIncidents] = useState<AttendanceIncident[]>([]);
+  const [isIncidentsModalOpen, setIsIncidentsModalOpen] = useState(false);
+  const [preopenIncidentForm, setPreopenIncidentForm] = useState(false);
+
+  const loadIncidents = () => {
+    if (!activeClassId) {
+      setIncidents([]);
+      return;
+    }
+    const localInc = getAttendanceIncidents(activeClassId).filter(
+      (i) => i && i.classroom_id === activeClassId && i.titulo && i.titulo !== "Incidencia de asistencia"
+    );
+    setIncidents(localInc);
+
+    fetchAttendanceIncidents(activeClassId).then((remote) => {
+      const cleanRemote = (remote || []).filter(
+        (i) => i && i.classroom_id === activeClassId && i.titulo && i.titulo !== "Incidencia de asistencia"
+      );
+      setIncidents(cleanRemote);
+      const allSaved = JSON.parse(localStorage.getItem('plx:attendance_incidents') || '[]').filter(
+        (i: any) => i.classroom_id !== activeClassId && i.titulo && i.titulo !== "Incidencia de asistencia"
+      );
+      localStorage.setItem('plx:attendance_incidents', JSON.stringify([...allSaved, ...cleanRemote]));
+    }).catch((e) => console.warn("[Incidents] Fetch warning:", e));
+  };
+
   useEffect(() => {
     loadData();
+    loadIncidents();
   }, [activeClassId]);
 
   // Find attendance record for selected date
   const currentRecord = useMemo(() => {
     return allAttendance.find(a => a.fecha === attendanceDate) || null;
   }, [allAttendance, attendanceDate]);
+
+  // Incident for active daily date
+  const currentDailyIncident = useMemo(() => {
+    return incidents.find(i => i.fecha === attendanceDate) || null;
+  }, [incidents, attendanceDate]);
+
+  // Incidents indexed by date
+  const incidentsByDate = useMemo(() => {
+    const map = new Map<string, AttendanceIncident>();
+    incidents.forEach(i => map.set(i.fecha, i));
+    return map;
+  }, [incidents]);
 
   useEffect(() => {
     if (currentRecord) {
@@ -318,7 +370,7 @@ function Asistencia() {
     return attendanceDate === todayStr;
   }, [attendanceDate]);
 
-  // Attendance counts summary
+  // Attendance counts summary & detailed daily metrics
   const counts = useMemo(() => {
     let p = 0, a = 0, t = 0, e = 0;
     students.forEach(st => {
@@ -329,6 +381,55 @@ function Asistencia() {
       else if (status === "E") e++;
     });
     return { p, a, t, e };
+  }, [students, draftRegister]);
+
+  // Comprehensive Daily Attendance Stats with gender breakdown (Varones / Hembras)
+  const dailyStats = useMemo(() => {
+    const total = students.length;
+    let p = 0, a = 0, t = 0, e = 0;
+    let mP = 0, fP = 0;
+    let mA = 0, fA = 0;
+    let mT = 0, fT = 0;
+    let mE = 0, fE = 0;
+    let totalM = 0, totalF = 0;
+
+    students.forEach((st) => {
+      const isFemale = st.genero === "F";
+      if (isFemale) totalF++;
+      else totalM++;
+
+      const status = draftRegister[st.id] || "P";
+      if (status === "P") {
+        p++;
+        if (isFemale) fP++; else mP++;
+      } else if (status === "A") {
+        a++;
+        if (isFemale) fA++; else mA++;
+      } else if (status === "T") {
+        t++;
+        if (isFemale) fT++; else mT++;
+      } else if (status === "E") {
+        e++;
+        if (isFemale) fE++; else mE++;
+      }
+    });
+
+    const presentCombined = p + t;
+    const attendanceRate = total > 0 ? Math.round((presentCombined / total) * 100) : 100;
+    const absenceRate = total > 0 ? Math.round((a / total) * 100) : 0;
+
+    return {
+      total,
+      totalM,
+      totalF,
+      p, a, t, e,
+      mP, fP,
+      mA, fA,
+      mT, fT,
+      mE, fE,
+      attendanceRate,
+      absenceRate
+    };
   }, [students, draftRegister]);
 
   // Cycle status for student card click (P -> A -> T -> E -> P)
@@ -723,6 +824,11 @@ function Asistencia() {
   }, [isFullScreen]);
 
   function AttendanceTable() {
+    const monthlyTotalP = students.reduce((acc, student) => acc + (getMonthlyStatsForStudent(student.id).P || 0), 0);
+    const monthlyTotalT = students.reduce((acc, student) => acc + (getMonthlyStatsForStudent(student.id).T || 0), 0);
+    const monthlyTotalA = students.reduce((acc, student) => acc + (getMonthlyStatsForStudent(student.id).A || 0), 0);
+    const monthlyTotalE = students.reduce((acc, student) => acc + (getMonthlyStatsForStudent(student.id).E || 0), 0);
+
     return (
       <table className={`w-full text-sm border-collapse table-fixed select-none print:border-black ${isEraserMode ? 'cursor-crosshair' : ''}`}>
         <colgroup>
@@ -804,9 +910,33 @@ function Asistencia() {
             {weeks.map((week, wIdx) => {
               return week.days.map((dayObj, dIdx) => {
                 const isSameMonthDay = isSameMonth(dayObj, currentMonth);
+                const dateKey = format(dayObj, 'yyyy-MM-dd');
+                const incident = isSameMonthDay ? incidentsByDate.get(dateKey) : null;
+
                 return (
-                  <th key={`${wIdx}-${dIdx}`} className={`border-r border-b border-black font-bold text-[10px] ${WEEK_COLORS[wIdx % WEEK_COLORS.length]} print:bg-transparent print:border-black h-8 relative dark:text-zinc-300`}>
-                    {isSameMonthDay ? format(dayObj, 'dd') : ''}
+                  <th 
+                    key={`${wIdx}-${dIdx}`} 
+                    className={`border-r border-b border-black font-bold text-[10px] ${WEEK_COLORS[wIdx % WEEK_COLORS.length]} print:bg-transparent print:border-black h-8 relative dark:text-zinc-300 ${
+                      incident ? 'cursor-pointer hover:bg-amber-100/70 dark:hover:bg-amber-950/40' : ''
+                    }`}
+                    onClick={() => {
+                      if (incident) {
+                        setAttendanceDate(dateKey);
+                        setPreopenIncidentForm(false);
+                        setIsIncidentsModalOpen(true);
+                      }
+                    }}
+                    title={incident ? `⚠️ Incidencia: ${incident.titulo}` : undefined}
+                  >
+                    <div className="flex items-center justify-center gap-0.5">
+                      <span>{isSameMonthDay ? format(dayObj, 'dd') : ''}</span>
+                      {incident && (
+                        <span 
+                          className="w-1.5 h-1.5 rounded-full bg-amber-500 shadow-xs inline-block animate-pulse shrink-0" 
+                          title={`Incidencia: ${incident.titulo}`}
+                        />
+                      )}
+                    </div>
                   </th>
                 );
               });
@@ -908,6 +1038,51 @@ function Asistencia() {
             );
           })}
         </tbody>
+        <tfoot className="bg-neutral-50 dark:bg-zinc-900 font-bold border-t-2 border-black print:bg-transparent print:border-black">
+          <tr className="h-[36px] print:h-auto border-b border-black">
+            <td className="p-0 text-center font-black border-r border-black text-[10px] bg-neutral-100 dark:bg-zinc-800 print:bg-transparent print:border-black uppercase tracking-tight text-neutral-800 dark:text-zinc-200">
+              TOTAL
+            </td>
+            {weeks.map((week, wIdx) => {
+              const bgClass = WEEK_COLORS[wIdx % WEEK_COLORS.length];
+              return week.days.map((dayObj, dIdx) => {
+                const isSameMonthDay = isSameMonth(dayObj, currentMonth);
+                const dateKey = format(dayObj, 'yyyy-MM-dd');
+                
+                let presentCount = 0;
+                if (isSameMonthDay) {
+                  students.forEach((student) => {
+                    const status = getStudentStatusOnDate(student.id, dateKey);
+                    if (status === "P") {
+                      presentCount++;
+                    }
+                  });
+                }
+
+                return (
+                  <td
+                    key={`footer-day-${wIdx}-${dIdx}`}
+                    className={`p-0 border-r border-black font-extrabold text-[11px] text-center ${bgClass} print:bg-transparent print:border-black h-[36px] print:h-auto text-neutral-800 dark:text-zinc-200`}
+                  >
+                    {isSameMonthDay ? presentCount : ''}
+                  </td>
+                );
+              });
+            })}
+            <td className="border-l border-r border-black p-0 text-center font-black text-[11.5px] text-emerald-700 dark:text-emerald-400 bg-emerald-100/60 dark:bg-emerald-950/40 print:bg-transparent print:border-black">
+              {monthlyTotalP}
+            </td>
+            <td className="border-r border-black p-0 text-center font-black text-[11.5px] text-amber-700 dark:text-amber-400 bg-amber-100/60 dark:bg-amber-950/40 print:bg-transparent print:border-black">
+              {monthlyTotalT}
+            </td>
+            <td className="border-r border-black p-0 text-center font-black text-[11.5px] text-red-700 dark:text-rose-400 bg-red-100/60 dark:bg-rose-950/40 print:bg-transparent print:border-black">
+              {monthlyTotalA}
+            </td>
+            <td className="border-r border-black p-0 text-center font-black text-[11.5px] text-blue-700 dark:text-blue-400 bg-blue-100/60 dark:bg-blue-950/40 print:bg-transparent print:border-black">
+              {monthlyTotalE}
+            </td>
+          </tr>
+        </tfoot>
       </table>
     );
   }
@@ -1059,6 +1234,34 @@ function Asistencia() {
             color: #000 !important;
             box-shadow: none !important;
             border: none !important;
+          }
+
+          /* Bitácora incidents print mode */
+          body.printing-incidents #attendance-print-area,
+          body.printing-incidents #annual-print-area {
+            display: none !important;
+            visibility: hidden !important;
+          }
+
+          body.printing-incidents #incidents-print-area,
+          body.printing-incidents #incidents-print-area * {
+            display: block !important;
+            visibility: visible !important;
+          }
+
+          body.printing-incidents #incidents-print-area {
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            background: #fff !important;
+            color: #000 !important;
+            padding: 20px !important;
+          }
+
+          body:not(.printing-incidents) #incidents-print-area {
+            display: none !important;
+            visibility: hidden !important;
           }
           
           /* Monthly print header styling */
@@ -1342,6 +1545,22 @@ function Asistencia() {
             </button>
           );
         })}
+
+        <button
+          onClick={() => {
+            setPreopenIncidentForm(false);
+            setIsIncidentsModalOpen(true);
+          }}
+          className="flex items-center gap-2 px-4 py-2 rounded-full font-bold text-[13px] transition-all cursor-pointer whitespace-nowrap active:scale-95 select-none border shadow-sm bg-[#02327e]/10 text-[#02327e] border-[#02327e]/25 hover:bg-[#02327e]/20 dark:bg-blue-950/40 dark:border-blue-900/50 dark:text-blue-300 dark:hover:bg-blue-900/60"
+        >
+          <AlertTriangle size={15} className="text-[#02327e] dark:text-blue-400" />
+          <span>Bitácora de Incidencias</span>
+          {incidents.length > 0 && (
+            <span className="w-5 h-5 rounded-full bg-[#02327e] dark:bg-blue-600 text-white text-[10px] font-black flex items-center justify-center shadow-xs">
+              {incidents.length}
+            </span>
+          )}
+        </button>
       </div>
 
       {/* Tab Contents */}
@@ -1460,6 +1679,50 @@ function Asistencia() {
               </div>
             </div>
 
+            {/* Daily Incident Banner if present */}
+            {currentDailyIncident && (
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 rounded-2xl bg-gradient-to-r from-amber-500/15 via-amber-500/10 to-rose-500/10 dark:from-amber-950/40 dark:via-amber-950/20 dark:to-rose-950/20 border border-amber-300/80 dark:border-amber-900/60 shadow-xs animate-in fade-in duration-200">
+                <div className="flex items-start gap-3">
+                  <div className="w-9 h-9 rounded-xl bg-amber-500 text-white flex items-center justify-center shrink-0 shadow-2xs mt-0.5">
+                    <AlertTriangle size={18} />
+                  </div>
+                  <div className="space-y-0.5">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="text-[10.5px] font-black uppercase px-2 py-0.5 rounded-md bg-amber-200/80 dark:bg-amber-900/70 text-amber-900 dark:text-amber-200">
+                        {INCIDENT_TYPES_CONFIG[currentDailyIncident.tipo]?.label || "Incidencia del Día"}
+                      </span>
+                      {currentDailyIncident.hora_salida && (
+                        <span className="text-[11px] font-bold text-amber-800 dark:text-amber-300 flex items-center gap-1">
+                          <Clock size={11} /> Despacho: {currentDailyIncident.hora_salida}
+                        </span>
+                      )}
+                      <span className="text-[11px] font-semibold text-neutral-500 dark:text-zinc-400">
+                        ({formattedDate})
+                      </span>
+                    </div>
+                    <h4 className="text-sm font-extrabold text-neutral-900 dark:text-zinc-100">
+                      {currentDailyIncident.titulo}
+                    </h4>
+                    {currentDailyIncident.descripcion && (
+                      <p className="text-xs font-semibold text-neutral-600 dark:text-zinc-300">
+                        {currentDailyIncident.descripcion}
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                <button
+                  onClick={() => {
+                    setPreopenIncidentForm(false);
+                    setIsIncidentsModalOpen(true);
+                  }}
+                  className="px-3.5 py-1.5 rounded-xl bg-white dark:bg-zinc-800 border border-amber-300 dark:border-amber-900/60 text-amber-900 dark:text-amber-300 text-xs font-bold hover:bg-amber-50 dark:hover:bg-zinc-700 transition-all cursor-pointer shadow-2xs self-end sm:self-center"
+                >
+                  Ver / Editar
+                </button>
+              </div>
+            )}
+
             {/* Non-lectivo alert if Day Type is not regular */}
             {dayType !== "regular" && (
               <div className="flex items-center gap-3 bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-900/30 rounded-2xl p-4 mt-2">
@@ -1526,14 +1789,31 @@ function Asistencia() {
                 </div>
               </div>
               
-              <button
-                onClick={handleMarkAllPresent}
-                disabled={dayType !== "regular" || students.length === 0}
-                className="bg-emerald-50 border border-emerald-200 hover:bg-emerald-100 dark:bg-emerald-950/20 dark:border-emerald-900/30 dark:hover:bg-emerald-900/50 dark:text-emerald-400 text-emerald-700 text-[13px] font-bold px-4 py-2 rounded-full transition-all disabled:opacity-40 flex items-center gap-1.5 cursor-pointer shadow-xs active:scale-95 select-none"
-              >
-                <UserCheck size={14} />
-                Todos Presentes
-              </button>
+              <div className="flex flex-wrap items-center gap-2">
+                <button
+                  onClick={() => {
+                    setPreopenIncidentForm(!currentDailyIncident);
+                    setIsIncidentsModalOpen(true);
+                  }}
+                  className={`px-4 py-2 border rounded-full text-[13px] font-bold transition-all cursor-pointer flex items-center gap-1.5 shadow-xs active:scale-95 select-none ${
+                    currentDailyIncident
+                      ? "bg-[#02327e] text-white border-[#02327e] shadow-sm dark:bg-blue-600"
+                      : "bg-[#02327e]/10 text-[#02327e] border-[#02327e]/25 hover:bg-[#02327e]/20 dark:bg-blue-950/40 dark:border-blue-900/50 dark:text-blue-300 dark:hover:bg-blue-900/60"
+                  }`}
+                >
+                  <AlertTriangle size={14} className={currentDailyIncident ? "text-white" : "text-[#02327e] dark:text-blue-400"} />
+                  {currentDailyIncident ? "Incidencia Registrada" : "Añadir Incidencia del Día"}
+                </button>
+
+                <button
+                  onClick={handleMarkAllPresent}
+                  disabled={dayType !== "regular" || students.length === 0}
+                  className="bg-emerald-50 border border-emerald-200 hover:bg-emerald-100 dark:bg-emerald-950/20 dark:border-emerald-900/30 dark:hover:bg-emerald-900/50 dark:text-emerald-400 text-emerald-700 text-[13px] font-bold px-4 py-2 rounded-full transition-all disabled:opacity-40 flex items-center gap-1.5 cursor-pointer shadow-xs active:scale-95 select-none"
+                >
+                  <UserCheck size={14} />
+                  Todos Presentes
+                </button>
+              </div>
             </div>
 
             {/* Centered Legend Bar */}
@@ -1694,6 +1974,168 @@ function Asistencia() {
                 No hay estudiantes registrados para pasar lista.
               </div>
             )}
+
+            {/* FRIENDLY DAILY SUMMARY DASHBOARD (COMPACT & CLEAR) */}
+            {students.length > 0 && (
+              <div className="bg-white dark:bg-zinc-900 border border-slate-200/80 dark:border-zinc-800 rounded-2xl p-4 shadow-xs mt-4 space-y-3.5 transition-all">
+                {/* Header Row */}
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2.5 pb-2.5 border-b border-slate-100 dark:border-zinc-800/80">
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-xl bg-[#02327e]/10 dark:bg-blue-950/50 flex items-center justify-center text-[#02327e] dark:text-blue-400 shadow-2xs">
+                      <Users size={16} />
+                    </div>
+                    <div>
+                      <h3 className="text-sm font-black text-neutral-900 dark:text-zinc-100 tracking-tight leading-none">
+                        Resumen de Asistencia del Día
+                      </h3>
+                      <p className="text-[11.5px] font-semibold text-neutral-500 dark:text-zinc-400 mt-1">
+                        {formattedDate} • {students.length} estudiantes registrados ({dailyStats.totalM} Niños / {dailyStats.totalF} Niñas)
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Attendance Rate Pill */}
+                  <div className="flex items-center gap-2 self-stretch sm:self-auto justify-between sm:justify-end bg-neutral-50 dark:bg-zinc-950 px-3 py-1.5 rounded-xl border border-black/5 dark:border-zinc-800">
+                    <span className="text-xs font-bold text-neutral-500 dark:text-zinc-400">
+                      Asistencia General:
+                    </span>
+                    <span className={`text-xs font-black px-2.5 py-0.5 rounded-lg ${
+                      dailyStats.attendanceRate >= 90
+                        ? "bg-emerald-500 text-white"
+                        : dailyStats.attendanceRate >= 75
+                        ? "bg-amber-500 text-white"
+                        : "bg-rose-500 text-white"
+                    }`}>
+                      {dailyStats.attendanceRate}%
+                    </span>
+                  </div>
+                </div>
+
+                {/* 4 Stat Cards Grid */}
+                <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+                  {/* Presentes */}
+                  <div className="bg-emerald-50/70 dark:bg-emerald-950/20 border border-emerald-200/70 dark:border-emerald-900/40 rounded-xl p-3 sm:p-3.5 flex flex-col justify-between transition-all hover:shadow-2xs">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-black text-emerald-800 dark:text-emerald-300 uppercase tracking-wider">
+                        Presentes
+                      </span>
+                      <div className="w-5 h-5 rounded-full bg-emerald-500 text-white flex items-center justify-center text-[10px] font-black shadow-2xs">
+                        P
+                      </div>
+                    </div>
+                    <div className="mt-2">
+                      <div className="text-2xl sm:text-[26px] font-black text-emerald-900 dark:text-emerald-100 leading-none">
+                        {dailyStats.p}
+                        <span className="text-xs font-bold text-emerald-700/80 dark:text-emerald-400 ml-1.5">
+                          / {dailyStats.total}
+                        </span>
+                      </div>
+                      <div className="text-[11px] sm:text-[11.5px] font-bold text-emerald-700 dark:text-emerald-400 mt-2 flex flex-wrap items-center gap-1.5">
+                        <span>👦 {dailyStats.mP} Niños</span>
+                        <span>•</span>
+                        <span>👧 {dailyStats.fP} Niñas</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Ausentes */}
+                  <div className="bg-rose-50/70 dark:bg-rose-950/20 border border-rose-200/70 dark:border-rose-900/40 rounded-xl p-3 sm:p-3.5 flex flex-col justify-between transition-all hover:shadow-2xs">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-black text-rose-800 dark:text-rose-300 uppercase tracking-wider">
+                        Ausentes
+                      </span>
+                      <div className="w-5 h-5 rounded-full bg-rose-500 text-white flex items-center justify-center text-[10px] font-black shadow-2xs">
+                        A
+                      </div>
+                    </div>
+                    <div className="mt-2">
+                      <div className="text-2xl sm:text-[26px] font-black text-rose-900 dark:text-rose-100 leading-none">
+                        {dailyStats.a}
+                        <span className="text-xs font-bold text-rose-700/80 dark:text-rose-400 ml-1.5">
+                          ({dailyStats.absenceRate}%)
+                        </span>
+                      </div>
+                      <div className="text-[11px] sm:text-[11.5px] font-bold text-rose-700 dark:text-rose-400 mt-2 flex flex-wrap items-center gap-1.5">
+                        <span>👦 {dailyStats.mA} Niños</span>
+                        <span>•</span>
+                        <span>👧 {dailyStats.fA} Niñas</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Tardanzas */}
+                  <div className="bg-amber-50/70 dark:bg-amber-950/20 border border-amber-200/70 dark:border-amber-900/40 rounded-xl p-3 sm:p-3.5 flex flex-col justify-between transition-all hover:shadow-2xs">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-black text-amber-800 dark:text-amber-300 uppercase tracking-wider">
+                        Tardanzas
+                      </span>
+                      <div className="w-5 h-5 rounded-full bg-amber-500 text-white flex items-center justify-center text-[10px] font-black shadow-2xs">
+                        T
+                      </div>
+                    </div>
+                    <div className="mt-2">
+                      <div className="text-2xl sm:text-[26px] font-black text-amber-900 dark:text-amber-100 leading-none">
+                        {dailyStats.t}
+                        <span className="text-xs font-bold text-amber-700/80 dark:text-amber-400 ml-1.5">
+                          est.
+                        </span>
+                      </div>
+                      <div className="text-[11px] sm:text-[11.5px] font-bold text-amber-700 dark:text-amber-400 mt-2 flex flex-wrap items-center gap-1.5">
+                        <span>👦 {dailyStats.mT} Niños</span>
+                        <span>•</span>
+                        <span>👧 {dailyStats.fT} Niñas</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Excusas / Justificados */}
+                  <div className="bg-blue-50/70 dark:bg-blue-950/20 border border-blue-200/70 dark:border-blue-900/40 rounded-xl p-3 sm:p-3.5 flex flex-col justify-between transition-all hover:shadow-2xs">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-black text-blue-800 dark:text-blue-300 uppercase tracking-wider">
+                        Justificados
+                      </span>
+                      <div className="w-5 h-5 rounded-full bg-blue-500 text-white flex items-center justify-center text-[10px] font-black shadow-2xs">
+                        E
+                      </div>
+                    </div>
+                    <div className="mt-2">
+                      <div className="text-2xl sm:text-[26px] font-black text-blue-900 dark:text-blue-100 leading-none">
+                        {dailyStats.e}
+                        <span className="text-xs font-bold text-blue-700/80 dark:text-blue-400 ml-1.5">
+                          exc.
+                        </span>
+                      </div>
+                      <div className="text-[11px] sm:text-[11.5px] font-bold text-blue-700 dark:text-blue-400 mt-2 flex flex-wrap items-center gap-1.5">
+                        <span>👦 {dailyStats.mE} Niños</span>
+                        <span>•</span>
+                        <span>👧 {dailyStats.fE} Niñas</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Quick Info & Save Action Footer */}
+                <div className="flex flex-col sm:flex-row items-center justify-between gap-2.5 pt-2.5 border-t border-slate-100 dark:border-zinc-800/80 text-xs font-semibold text-neutral-500 dark:text-zinc-400">
+                  <div className="flex items-center gap-2">
+                    <UserCheck size={14} className="text-emerald-500 shrink-0" />
+                    <span>
+                      {dailyStats.a === 0
+                        ? "🎉 ¡Excelente asistencia! Todos los estudiantes están presentes o justificados."
+                        : `📌 Atención: Hay ${dailyStats.a} estudiante(s) ausente(s) en la jornada de hoy.`}
+                    </span>
+                  </div>
+
+                  <button
+                    onClick={handleSaveAll}
+                    disabled={students.length === 0}
+                    className="w-full sm:w-auto justify-center bg-[#02327e] hover:bg-[#012563] text-white text-xs font-bold px-4 py-2 rounded-xl shadow-2xs transition-all active:scale-95 flex items-center gap-1.5 cursor-pointer disabled:opacity-40 select-none"
+                  >
+                    <Save size={14} />
+                    Guardar Asistencia
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         )}
 
@@ -1841,6 +2283,18 @@ function Asistencia() {
                           <span className="text-[10px] font-bold uppercase tracking-tight">Sin cambios</span>
                         </div>
                       )}
+
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => {
+                          setPreopenIncidentForm(false);
+                          setIsIncidentsModalOpen(true);
+                        }}
+                        className="bg-[#02327e]/10 dark:bg-blue-950/40 border-[#02327e]/25 dark:border-blue-900/50 text-[#02327e] dark:text-blue-300 hover:bg-[#02327e]/20 shadow-sm font-bold flex items-center gap-1.5"
+                      >
+                        <AlertTriangle className="mr-1 h-3.5 w-3.5 text-[#02327e] dark:text-blue-400" /> Bitácora ({incidents.length})
+                      </Button>
 
                       <Button
                         variant="outline"
@@ -2192,6 +2646,17 @@ function Asistencia() {
         requiredCredits={creditsExhaustedInfo.required}
         currentCredits={creditsExhaustedInfo.current}
         actionName="ver el resumen acumulado anual"
+      />
+
+      <ModalIncidenciasAsistencia
+        isOpen={isIncidentsModalOpen}
+        onClose={() => setIsIncidentsModalOpen(false)}
+        classroom={activeClassroom}
+        teacherId={user.id}
+        initialDate={attendanceDate}
+        incidents={incidents}
+        onRefresh={loadIncidents}
+        preopenForm={preopenIncidentForm}
       />
     </main>
   );

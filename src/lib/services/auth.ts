@@ -77,7 +77,7 @@ export async function signUp(
   if (error) throw error;
   if (!data.user) throw new Error("No se pudo crear el usuario.");
 
-  const profileData = {
+  const profileData: any = {
     id: data.user.id,
     full_name: nombre,
     email,
@@ -95,12 +95,14 @@ export async function signUp(
     regional: regional || null,
     distrito: distrito || null,
     municipio: municipio || null,
-    credits: 100,
     referred_by_code: referred_by_code || null,
   };
 
   try {
-    await requestD1<any>("/api/profiles", "POST", profileData);
+    const res = await requestD1<any>("/api/profiles", "POST", profileData);
+    if (res && res.credits !== undefined) {
+      profileData.credits = res.credits;
+    }
   } catch (insertError) {
     console.error("Error inserting profile to D1:", insertError);
   }

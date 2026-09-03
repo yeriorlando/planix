@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { getCurrentUser, Usuario, seedDemoIfEmpty, logout } from "./storage";
 import { fetchProfile } from "./services/auth";
-import { syncDownSupabaseToLocalStorage } from "./supabase/sync";
+import { syncDownSupabaseToLocalStorage, syncUpLocalStorageToSupabase } from "./supabase/sync";
 
-let syncedUserId = "";
+let hasSyncedThisSession = false;
 
 export function useRequireAuth() {
   const navigate = useNavigate();
@@ -29,11 +29,11 @@ export function useRequireAuth() {
     setUser(curr);
 
     // If we already synced in this session, skip fetching from the database on every page mount
-    if (syncedUserId === curr.id) {
+    if (hasSyncedThisSession) {
       return;
     }
 
-    // Sync profile from D1 in the background
+    // Sync profile from D1/Supabase in the background
     async function syncProfile() {
       try {
         const profile = await fetchProfile(curr.id);
@@ -47,10 +47,11 @@ export function useRequireAuth() {
             return;
           }
 
-          // Now sync all other tables down from D1
+          // First sync up any pending local data to database, then sync down and merge
           try {
+            await syncUpLocalStorageToSupabase(curr.id).catch((e) => console.warn("[Auth] Sync UP warning:", e));
             await syncDownSupabaseToLocalStorage(curr.id);
-            syncedUserId = curr.id;
+            hasSyncedThisSession = true;
             const reloaded = getCurrentUser();
             if (reloaded && reloaded.estado_suscripcion === "SUSPENDIDO") {
               logout();
@@ -59,11 +60,11 @@ export function useRequireAuth() {
             }
             setUser(reloaded);
           } catch (syncErr) {
-            console.error("Error syncing down database tables:", syncErr);
+            console.error("Error syncing database tables:", syncErr);
           }
         }
       } catch (err) {
-        console.warn("Could not sync profile from D1 in background:", err);
+        console.warn("Could not sync profile in background:", err);
       }
     }
 
